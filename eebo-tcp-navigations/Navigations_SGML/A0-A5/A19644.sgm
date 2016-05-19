@@ -1,0 +1,2718 @@
+<!DOCTYPE ETS PUBLIC "-//UMDLPS//DTD EEBOPROOF 2.0//EN">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE>
+<DATE>2013-10-15</DATE>
+<RESPSTMT>
+<NAME>Anne Simpson</NAME>
+<RESP>MURP</RESP>
+</RESPSTMT>
+<ITEM>Checklist: x *Add TEMPHEAD, change DATE, validate x*Review structure: FRONT,BODY, BACK, DIV or rarely GROUP x*Add DIV TYPEs, make sure that @types makes sense as a navigational aide, and work in the context of the whole text, validate x*Survey book for troublesome formats of all kinds, including lists, illustrations, tables, music, math, end-notes, quasi-tabular arrangments, and marginalia. x*Proof title page(s) x*Examine marginalia. Is it all best tagged as NOTE? x*Observe divtop and divbottom material marking beginnings and ends of divisions, check that they are correctly tagged as HEAD, CLOSER, OPENER, ARGUMENT, EPIGRAPH, SIGNED, DATELINE, BYLINE, etc. X*Check for GAPs X*Check PB placement and completeness, ensure sequence of N="" x*Check ^, italic I / J, _Initals, space between &amp;c. x*Check for illustrations and correct usage of FIGURE. Add FIGDESCs if necessary. x*Check q; startq endq Q, Marginal quotations: Q REND="margQuotes" x*If appropriate, check for yoghs. x*If appropriate, check for Latin problems, e.g. oe and ae digraphs x*If appropriate, check for abbreviation and brevigraph problems. Brevigraph entities begin: (ampersand symbol)ab x*If appropriate, check for units of measure, symbols (alchemical, astronomical, etc.) and the like. x*Correct illegibles from proofsheet x*Check illegible page, para, line, span, word, dollar signs x* Run Skint
+* Run Check
+*Final validate Corrected [ ] illegible groups out of [ ]. Converted [ ] illegible groups to GAP DESC="illegible". DONE</ITEM>
+</CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+<EEBO>
+<IDG S="marc" R="UM" ID="A19644">
+<STC T="S">6072</STC>
+<STC T="C">S109106</STC>
+<BIBNO T="umi">99844756</BIBNO>
+<VID>9596</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="1">
+<PB REF="1">
+<P>BELGIAES TROVBLES, AND TRIVMPHS. WHEREIN ARE TRVLY and Hi&s;torically related all the mo&s;t fa|mous Occurrences, which haue happened <HI>be|tweene the</HI> Spaniards, <HI>and</HI> Hollanders <HI>in the&s;e last</HI> foure yeares Warres of the Netherlands, with other <HI>Accidents, which haue had relation vnto them, as the</HI> Battels of <HI>Fleurie,</HI> and <HI>Statloo,</HI> the lo&s;&s;e of <HI>Gu|licke</HI> and <HI>Breda,</HI> the Sieges of <HI>Sluce</HI> and <HI>Bergen,</HI> the Conque&s;t of St. <HI>Salua|dor</HI> in <HI>Bra&s;ilia,</HI> and the taking of <HI>Goffe</HI> by <HI>Charles Lam|bert,</HI> &amp;c.</P>
+<P>Written by WILLIAM CROSSE, ma&s;ter of Arts of St. <HI>Mary</HI> Hall in <HI>Oxford,</HI> and &s;ometimes Chap|laine vnto Colonell <HI>Ogle</HI> in the <HI>Netherlands.</HI></P>
+<P>LONDON, Printed by AVGVSTINE MATHEVVES, and IOHN NORTON, 1625.</P>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="2">
+<PB REF="2">
+<HEAD>TO THE RIGHT HO|NOVRABLE, AND TRVELY noble Lords, the Earle of ESSEX, and my Lord MOVNTIOY, <HI>William Cro&s;&s;e</HI> wi&s;heth the increa&s;e of Temporal, and the fulne&s;&s;e of Spirituall happine&s;&s;e.</HEAD>
+<P>_MOst Illu&s;trious Lords, amongst all the Li&s;t of our Time-VVor|thies, I could find none to whom I might con&s;ecrate this Fir&s;t part of <HI>Belgiaes Troubles and Tri|umphs,</HI> &s;ooner then to your Ho|noured &s;elues, as being the Sonnes of two &s;o Noble, and high-de&s;er|uing Fathers, the Mirrours of the&s;e latter Ages; who&s;e Examples concurring with the inbred vertue of your owne Di&s;po&s;itions, inuite you to the Patronage of Arts, to the Profe&s;sion and Exerci&s;e of Armes: the former you haue manifested by your Munificence; the latter, by the free aduenture of your owne Per&s;ons: as you my Lord of <HI>E&s;&s;ex,</HI> at your fir&s;t a&s;cent into the <HI>Palatinate,</HI> for your Ingagements in the Seruice of the <HI>Nether|lands,</HI> your and la&s;t attending with much Con&s;tancy and Valour, in the trouble&s;ome Leaguers of <HI>Meede,</HI> and
+<PB REF="3"> <HI>Ro&s;endale.</HI> And you my Lord <HI>Montioy,</HI> for your worth and Noblene&s;&s;e, exemplified at the Siege of <HI>Ber|gen op Zoom,</HI> for the re&s;cuing of <HI>Mon&s;ieur Breou|tees</HI> Bodie from the <HI>Spaniards</HI> at <HI>Meede</HI> Leaguer neere <HI>Breda,</HI> and for the continuall per&s;euerance in your Noble Re&s;olutions, and heroycall Indeauours: The Authour doubts that malicious Critici&s;me may haunt and gho&s;t this impartiall Poeme, which glorifies our <HI>Engli&s;h</HI> Nation, according to their condigne me|rits, a thing omitted by the <HI>Dutch</HI> and <HI>French</HI> VVri|ters, who giue ynough vnto them&s;elues, but vnto vs too little attributes of Honour. For the&s;e cau&s;es he &s;eeks to &s;helter this Fraught vnder the Lee of your Protecti|ons, which if hee obtaines, by meanes of your Noble Graunts, hee &s;hall for euer re&s;t</P>
+<CLOSER><SIGNED><HI>The deuoted Seruant of your Lord&s;hips</HI> William Cro&s;&s;e</SIGNED></CLOSER>
+</DIV1>
+</FRONT>
+<GROUP>
+<TEXT LANG="eng">
+<BODY>
+<DIV1 N="1" TYPE="book">
+<PB REF="3">
+<HEAD>BELGIA'S TROVBLES AND TRIVMPHS. </HEAD>
+<HEAD TYPE="sub"><HI>The first Booke.</HI></HEAD>
+<ARGUMENT>
+<HEAD>THE ARGVMENT.</HEAD>
+<P>IN this part continued from the beginning of the yeare of our Lord God, <HI>1621,</HI> vnto the A&s;cen&s;ion of our Sauiour, in the yeare <HI>1622,</HI> are contained the expiration of the la&s;t Truce, with a Propo&s;ition of a new Treatie; which the States reiect, becau&s;e the <HI>Spaniards</HI> would not acknowledge them for free States in this Treatie. The preparations of both &s;ides for warre. The meeting of our Troups at <HI>Skencke&s;conce.</HI> Their cruell March from thence to Dornicke. The terrible Sicknes which raigned in our Army. The imbattailing of our Foot-Companies on the North &s;ide of Dornicke. Graue <HI>Henricks</HI> fortunate e&s;cape from foure Cornets of the enemies Hor&s;e. The burning of his Lodgings and Stables by a ca&s;uall fire. <HI>Spino|laes</HI> oppo&s;ition again&s;t the Prince of <HI>Oranges</HI> forces. <HI>Van|derbercks</HI> taking of Gulicke, and <HI>Inigoes</HI> repul&s;e at Sluce: together with the burning of <HI>50</HI> Dorps in little Brabant by the States Armie, and the taking of the Gouernour of Angola Pri&s;oner by the Flu&s;hingers.</P>
+</ARGUMENT>
+<L>_AFter the calmes of &s;weet-contenting Peace</L>
+<L>Well pa&s;&s;ed were, and that luxurious ea&s;e</L>
+<L>Had griped on tho&s;e Armes, which fighting were,</L>
+<L>Imbru'd with blood, with danger, death &amp; feare;</L>
+<L><HI>Bellona</HI> &s;torming with a fatall rage,</L>
+<L>Out of th'Infernall Cells calls forth a Page,</L>
+<PB N="2" REF="4">
+<L>Fell Di&s;cord hight, with whom &s;hee thus doth treat:</L>
+<L>Doe not thy trembling vaines deare Di&s;cord &s;weat</L>
+<L>Whole &s;tormes of wrath? for that neglected warre</L>
+<L>Cre&s;t-fallen mournes in peace; and that, that barre</L>
+<L>Of milk-&s;op Treaties &s;toppes our raging Armes,</L>
+<L>Stain'd with the blood of <HI>Belgiaes</HI> former harmes.</L>
+<L>Behold that &s;welling State; ob&s;erue and looke,</L>
+<L>How proudly &s;hee hauing the chaines off &s;hooke</L>
+<L>Of <HI>Ca&s;tiles</HI> thraldome, liues in plea&s;<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">g re&s;t,</L>
+<L>And roaues from Holland to the farthe&s;t We&s;t,</L>
+<L>Spreading her tayle vnto<NOTE PLACE="marg">The We&s;t In|dies were fir&s;t di&s;couered by <HI>Columbus.</HI></NOTE> that Indian Maine,</L>
+<L>Found by <HI>Columbus</HI> for Gold-thir&s;ting Spaine.</L>
+<L>I long to drinke her blood, and to intombe</L>
+<L>Her goared carkei&s;e in my gaping wombe:</L>
+<L>Rather let heapes of men, let millions die,</L>
+<L>Then my blood-thir&s;tie &s;oule &s;hould want &s;upply.</L>
+<L>Think'&s;t thou that Turnholts field where<NOTE PLACE="marg">The&s;e three places in the Netherlands were famous for tho&s;e fights which haue been made in them.</NOTE> thou&s;ands fell,</L>
+<L>Of &s;laughtred bodies could my longing quell?</L>
+<L>Or famous O&s;tend, which for three yeares &s;pace</L>
+<L>Maintain'd that &s;iege, which did the world amaze?</L>
+<L>Or that &s;ame blood, which fertiliz'd the &s;and,</L>
+<L>That Mountaine like doth ri&s;e on Newports Strand?</L>
+<L>The&s;e were but drops vnto my drop&s;ie &s;oule,</L>
+<L>Which drinking &s;till doth thir&s;t; goe fill my bowle</L>
+<L>Brim full with vengeance, which I meane to powre</L>
+<L>In &s;tormes of blood on <HI>Belgiaes</HI> fruitfull &s;hore.</L>
+<L>There's liquor yet within the &s;acred vaines</L>
+<L>Of great heroicke Spirits, that remaines</L>
+<L>An obiect for my lu&s;t: there are the<NOTE PLACE="marg">My Lord of <HI>Oxford,</HI> Sir <HI>Ho|race,</HI> and Sir <HI>Edward Vere.</HI></NOTE> <HI>Veares,</HI></L>
+<L>Three thunder-bolts of warre, who&s;e courage dares</L>
+<L>T'affront whole Squadrons; there is <HI>Cecill</HI> braue,</L>
+<L>The&s;e would I haue to make the fielde their graue.</L>
+<L>With the&s;e time-honour'd<NOTE PLACE="marg">The <HI>Ogles</HI> of Lincolne&s;hire came from the <HI>Ogles</HI> of Nor|thumberland.</NOTE> <HI>Ogle</HI> let mee place,</L>
+<L>A Branch &s;prung from Northumbrian <HI>Ogles</HI> race,</L>
+<L>And valiant <HI>Mountioy,</HI> who to <HI>Blunts</HI> great hou&s;e</L>
+<L>Fre&s;h glory giues; with the&s;e then ioyne and rou&s;e</L>
+<L><HI>Saintleger, Conway, Burrowes,</HI> and the re&s;t,</L>
+<L>Who&s;e daring valour fitly may conte&s;t</L>
+<PB REF="4">
+<L>With Romes old Minions; let their whetted Armes</L>
+<L>Vpon thy &s;ummons take on fre&s;h Alarmes.</L>
+<L>And &s;ince for richer &s;treames of Princes blood,</L>
+<L>My &s;oule doth long to drinke a crim&s;on flood,<NOTE PLACE="marg">A Hor&s;lee<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> or Blood&s;u<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"></NOTE></L>
+<L><HI>Hirudo</HI>-like, faine would I &s;ucke the vaines</L>
+<L>Of great <HI>Na&s;&s;aw,</HI> which with their mouing &s;traines</L>
+<L>Giue life vnto the members of that State,</L>
+<L>Who with their power the Spani&s;h pride doe mate.</L>
+<L>With this fierce Di&s;cord moou'd, breaks all the barres</L>
+<L>Of &s;leeping Peace, and &s;ets di&s;cordant Iarres,</L>
+<L>Doubtfull &s;u&s;pitions, iealous lurking feares,</L>
+<L>Fre&s;h boyling in the brea&s;ts of<NOTE PLACE="marg"><HI>Belgia</HI> &s;ig<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">+fies the N<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">+therlands.</NOTE> <HI>Belgiaes</HI> Peeres.</L>
+<L>Nor doth &s;hee re&s;t, but to increa&s;e the fire,</L>
+<L>Addes fuell to the flames, ioynes pride with ire,</L>
+<L>Malice with fal&s;e, but yet pretended wrong,</L>
+<L>With which &s;hee makes the Spaniard to prolong</L>
+<L>Treaties in &s;hew; but yet inflames his &s;prite,</L>
+<L>With force to tame th'vnited Cantons might.</L>
+<L>The cau&s;e grew thus, there were of colder blood,</L>
+<L>Who aym'd at Peace, and at the publike good,</L>
+<L>Vnwilling that the Chri&s;tians ciuill Iarres,</L>
+<L>Should breed dome&s;ticke, and inte&s;tine warres.</L>
+<L>The&s;e men per&s;wade a parle, both condi&s;cend,</L>
+<L>But di&s;&s;onant, remou'd from concords end.</L>
+<L>For <HI>Philip</HI> deeming that the twelue yeares truce,<NOTE PLACE="marg">The King <GAP DESC="illegible" RESP="MURP" EXTENT="1 word"> Spaine.</NOTE></L>
+<L>Did but the lu&s;tre of his Right abu&s;e,</L>
+<L>And that the webbe of <HI>Barneuelts</HI> de&s;igne,</L>
+<L>Prou'd Fortunes &s;corne, an vn&s;prung fruitle&s;&s;e Mine:</L>
+<L>Be&s;ides, being vrg'don by the firme Decree</L>
+<L>Of his owne Coun&s;ell, and the Roman See,</L>
+<L>And by their Engines taught, th' <HI>Ignatian</HI> crue,<NOTE PLACE="marg">The Ie&s;ui<GAP DESC="illegible" RESP="MURP" EXTENT="3 letters"></NOTE></L>
+<L>That 'twere more honour <HI>Belgia</HI> to &s;ubdue,</L>
+<L>Then for to conquer from the Midland-Sea</L>
+<L>The va&s;t extent of Sun-burnt <HI>Barbarie,</HI></L>
+<L>Vnto tho&s;e &s;andie De&s;erts, that<NOTE PLACE="marg"><HI>Leuant</HI> &s;ig<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">+fies Ea&s;t, o<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> <GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">+ny place E<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">+ward.</NOTE> Leuant,</L>
+<L>Whereas in troupes th'Alarbian Rouers haunt:</L>
+<L>Then to di&s;play their En&s;ignes on the Towers</L>
+<L>Of proud <HI>Bizantiums</HI> Sultanized bowers</L>
+<PB N="4" REF="5">
+<L>Or &s;ubiugate all Greciaes fruitfull land,</L>
+<L>From <HI>Hemus</HI> top to <HI>Hellespontus</HI> Strand.</L>
+<L>The&s;e cau&s;es ioyned with his Titles prize,</L>
+<L>Faire &s;eeming to &s;ome ra&s;h beholders eyes,</L>
+<L>By which hee claimes from <HI>Burgundies</HI> de&s;cent,</L>
+<L>Power ab&s;olute, and &s;upereminent,</L>
+<L>Like fatall motiues, did &s;till animate,</L>
+<L>The Spani&s;h King, and <HI>Au&s;triaes</HI> Potentate,</L>
+<L>To &s;eeke out warres in peace, and Treaties faine,</L>
+<L>By which they might time and occa&s;ion gaine.</L>
+<L>True Spani&s;h wiles, of <HI>Gondamars</HI> owne draught,</L>
+<L>By which they haue French, Dutch, and Engli&s;h caught,</L>
+<L>And wonne &s;o many Scepters, &s;o much ground,</L>
+<L>By their forg'd Parlees, fal&s;e deluding &s;ound,</L>
+<L>Preuailing more with the <HI>Volponees</HI> ca&s;e,</L>
+<L><NOTE PLACE="marg">Read <HI>Guich. lib.</HI> 26.</NOTE>Then e're they could winne with the Lyons face.</L>
+<L>Thus did they wre&s;t forth of the Frenchmens hands,</L>
+<L>Siciliaes cre&s;ted Hilles, Calabriaes lands,</L>
+<L>Sweet Piemounts Vallies, and tho&s;e fruitfull plaines,</L>
+<L>Which <HI>The&s;in</HI> waters with his Chri&s;tall vaines;</L>
+<L>All tho&s;e faire Regions, which extended lye</L>
+<L>From th' Alpine Mountaines vnto Tu&s;canie.</L>
+<L>With this old Spani&s;h tricke they gaue the foyle</L>
+<L><NOTE PLACE="marg"><HI>Fredericke</HI> the Prince Pala|tine.</NOTE>To Princely <HI>Fredericke,</HI> and with Beamelands &s;poyle</L>
+<L>Loading their hungry Troupes, inforc't the Rhine</L>
+<L>To quit his Tribute to the Palatine.</L>
+<L>With the faire &s;emblance of this glorious gloze,</L>
+<L>They thought th' intangled Hollanders to clo&s;e,</L>
+<L>A Nation learn'd in their Ca&s;tillian drifts,</L>
+<L>Their policies and Spaniolized &s;hifts.</L>
+<L><NOTE PLACE="marg">The Archduke <HI>Albertus.</HI></NOTE>For <HI>Albert</HI> doth propound Conditions faire,</L>
+<L>But Iudgement-weigh'd politique verball ayre.</L>
+<L>Hee'l &s;eeme t' acknowledge the&s;e free men for free,</L>
+<L>Yet manumiz'd by force to libertie.</L>
+<L>Hee'l treat with them, as treating with free States,</L>
+<L>They being not &s;o, but this di&s;animates</L>
+<L><NOTE PLACE="marg">Nullum &s;imile e&s;t idem.</NOTE>Them from all parle; for nothing likes the &s;ame,</L>
+<L>Quoth they, and then &s;hall we leaue freedomes name.</L>
+<PB N="5" REF="5">
+<L>Shall wee bee &s;eeming &s;laues, and lo&s;e that good,</L>
+<L>Which wee haue purcha&s;t with our deare&s;t blood?</L>
+<L>Shall wee to Spani&s;h thraldome chaine our necks,</L>
+<L>And ba&s;ely &s;toope to tho&s;e Imperiall becks</L>
+<L>Of <HI>Au&s;triaes</HI> Hou&s;e? who&s;e va&s;te ambitions fire,</L>
+<L>To th' Europeian Empire doth a&s;pire,</L>
+<L>And &s;eekes to giue the Law to all tho&s;e Nations,</L>
+<L>Which in this Climate hold their habitations.</L>
+<L>Why &s;hould not wee be dealt with as the <HI>Swi&s;&s;e,</HI><NOTE PLACE="marg">Three free Common|wealths, and &s;o acknowled|ged.</NOTE></L>
+<L>Who&s;e fredome &s;ure and vndependant is?</L>
+<L>Or as the rugged <HI>Gri&s;on,</HI> who doth plough</L>
+<L>The cragged Valtolinaes bending browe?</L>
+<L>Or that <HI>Venetian</HI> Sea-commanding State,</L>
+<L>To ballance <HI>Au&s;triaes</HI> power ordain'd by Fate?</L>
+<L>Wee are as free as <HI>Gri&s;on, Swi&s;&s;e,</HI> or Shee,</L>
+<L>That o're the Seas claimes wedded Soueraigntie.</L>
+<L>Our Forces are as potent on both Maines</L>
+<L>In Shipping, men, and th' vnexhau&s;ted vaines</L>
+<L>Of our<NOTE PLACE="marg">Exchequers, <GAP DESC="illegible" RESP="MURP" EXTENT="1 word"> Trea&s;uries.</NOTE> Cantoors, the Sinewes by which warre</L>
+<L>Supported is, and Kingdomes &s;trengthned are.</L>
+<L>Our Carbins mounted on their Frie&s;eland Steeds</L>
+<L>Are matchle&s;&s;e pre&s;t at all a&s;&s;ayes and needes.</L>
+<L>Our Foot are braue well di&s;ciplin'd to fight,</L>
+<L>Equall to th' ancient Greeki&s;h <HI>Phalangite.</HI></L>
+<L>Our Magazins are filled with Munition,</L>
+<L>Stuffed with &s;tore, and &s;welling with proui&s;ion,</L>
+<L>Be&s;ides our Ships now Dockt within the Ports,</L>
+<L>Our moouing Bulwarkes, and our flying Forts,</L>
+<L>Like to the Per&s;ian Fleet ob&s;cure the skie,</L>
+<L>Shadow the earth, and with their wings can flye,</L>
+<L>Forth from tho&s;e Seas, that beat on Am&s;terdam,</L>
+<L>Vnto the farthe&s;t Straights of <HI>Magellan,</HI></L>
+<L>To the Moluccoes, Ginee, and that &s;hore,</L>
+<L>From whence Ca&s;tile tran&s;ports her golden Oare,</L>
+<L>With which &s;hee buyes fal&s;e hearts, and doth vnlocke</L>
+<L>The &s;tronge&s;t gates without <HI>Bellonaes</HI> &s;hocke.</L>
+<L>Then like to braue <HI>Tui&s;coes</HI> &s;onnes let's arme,<NOTE PLACE="marg"><HI>Tui&s;co</HI> the fa|ther of Duch|men.</NOTE></L>
+<L>And chu&s;e the le&s;&s;e, to &s;hun the greater harme.</L>
+<PB N="6" REF="6">
+<L>With this both parties leaue their parling words,</L>
+<L>Both Arme, and fall to right deciding Swords,</L>
+<L>By which as by their Peeres they meane to trie</L>
+<L>Which &s;ide &s;hould haue the lawfull victorie.</L>
+<L>The Spani&s;h Galeouns which vnrigg'd had lyed</L>
+<L>Euer &s;ince our farre-fam'd <HI>Eliza</HI> dyed.</L>
+<L>Tho&s;e great<NOTE PLACE="marg">Ships of warre</NOTE> Armadaes which for England &s;tood</L>
+<L>In Eightie eight, and like &s;ome Sea-borne wood,</L>
+<L>Coa&s;ted from Plimmouth to that narrow Sound,</L>
+<L>Where <HI>Neptunes</HI> &s;urge from Dunkirke doth rebound;</L>
+<L>When <HI>Howard, Cro&s;&s;e,</HI> and <HI>Hawkins</HI> did repell</L>
+<L>That We&s;terne &s;torme, which on our Regions fell,</L>
+<L>Commanded are to take the curled Maine</L>
+<L>Of foamy <HI>Neptune,</HI> and to entertaine</L>
+<L>The Hollanders with their broad-&s;ided Tyres,</L>
+<L>Like <HI>Aetna,</HI> &s;puing forth infernall fires.</L>
+<L>The<NOTE PLACE="marg"><HI>Tertio</HI> in Spa|ni&s;h &s;ignifies a Regiment.</NOTE> <HI>Tertioes</HI> old, which Gari&s;on'd did lye</L>
+<L>In Naples, Sicill, and in Lumbardie,</L>
+<L>In the Maiorcan, and Sardinian Ile,</L>
+<L>Once<NOTE PLACE="marg">Read <HI>Liuie, lib.</HI> 23 about the end.</NOTE> famous for the Carthaginians foyle,</L>
+<L>Receiue &s;trict orders, and mo&s;t &s;trong commands</L>
+<L>To pa&s;&s;e th' Alpes, and towards the Netherlands,</L>
+<L>With running Marches for to bend their cour&s;e,</L>
+<L><HI>Albertus</HI> Armie there to reinforce.</L>
+<L>Nor doe the Dutch like Lethargi&s;ts &s;ecure,</L>
+<L>Sleepe being prickt, but doe their minds inure</L>
+<L>To all preuentions, policies, and care,</L>
+<L>By which they may <HI>Ca&s;tiles</HI> attempts out-dare,</L>
+<L>And giue the checke to all their proud de&s;ignes,</L>
+<L>Their fearefull plots, and dang'rous new-&s;prung Mines;</L>
+<L>And &s;ince vpon defence that people &s;tands,</L>
+<L>Which dwells within the watry Netherlands,</L>
+<L>Committees cho&s;en are to view the Ports,</L>
+<L>Their Sconces, Townes, and all their frontier Forts,</L>
+<L>From Ray&s;e, and Embricke, and tho&s;e Ea&s;terne Verges,</L>
+<L>Where Rhine doth meet with I&s;&s;ells billowing &s;urges,</L>
+<L>Vnto the Rammekins, Flu&s;hing, and Briels head,</L>
+<L>Seated vpon the We&s;terne Oceans bed.</L>
+<PB N="7" REF="6">
+<L>The like they doe to Groningue on the North,</L>
+<L>And all that bending Frontier, which runnes forth,</L>
+<L>From cold Ea&s;t-Fri&s;eland, and<NOTE PLACE="marg">The riuer of <HI>Ems</HI> diuideth Ea&s;t and We&s;t Fri&s;eland.</NOTE> Ems frozen face,</L>
+<L>Southwards to Waal, and Brabant bordring Ma&s;e.</L>
+<L>Tho&s;e full-mouthd Canons, which at Newports field</L>
+<L>Inforc't th' <HI>Albertine</HI> Regiments to yeeld,</L>
+<L>And with their<NOTE PLACE="marg">Ca&s;es of Tin filled full of Musket bullets</NOTE> Tarlin &s;hot di&s;charged &s;ure,</L>
+<L>Made the Sand-hills a common &s;epulture</L>
+<L>For tho&s;e hote bloods, which neuer could agree,</L>
+<L>Nor &s;impathize in congruous qualitie,</L>
+<L>New mounted are, and ready for to make</L>
+<L>Vpon their foes a &s;econd Flanders Slate.</L>
+<L>Their high-proofe Armours for their temper equall</L>
+<L>To<NOTE PLACE="marg">At Millan and Siras are ex|ceeding good Armors made,</NOTE> Millans making, and to Siras mettall,</L>
+<L>Their Cor&s;lets &s;trong, in which their armed Pike</L>
+<L>Immured &s;tands prepar'd to &s;aue or &s;trike,</L>
+<L>Swords, Carbins, Muskets, In&s;truments of fire</L>
+<L>New furbi&s;ht are, to wreake their thundring ire.</L>
+<L>Their winged Ships, the glory of their Armes,</L>
+<L>From whom th' Iberians haue receiu'd &s;uch harmes,</L>
+<L>Famous for their Sea-fights made neere the Kay</L>
+<L>Of rich Saint <HI>Lukars,</HI> and t' <HI>Hanannaes</HI> Bay,</L>
+<L>New calked are within their ouzie Dockes,</L>
+<L>T' incounter <HI>Ca&s;tiles,</HI> and fierce <HI>Neptunes</HI> &s;hockes.</L>
+<L>And &s;ince that tho&s;e Laconian walls of bones,</L>
+<L>More &s;tronger are then Rampierd Earth or Stones.</L>
+<L>And &s;ince that all defen&s;iue meanes are fraile,</L>
+<L>If Maniples of armed Souldiers faile,</L>
+<L>They &s;end for reinforcements and &s;upplies</L>
+<L>From England, Scotland, France, and their Allies,</L>
+<L><NOTE PLACE="marg">Swi&s;&s;erland.</NOTE>T' Heluetian Cantons, and tho&s;e German Peeres,</L>
+<L>Whom <HI>Au&s;triaes</HI> greatne&s;&s;e fills with iealous feares.</L>
+<L>Thus <HI>Belgia</HI> being arm'd, and thus prepar'd,</L>
+<L>For &s;elfe-defence again&s;t Inua&s;ions made;</L>
+<L>Orders were giuen to their trayned Bands</L>
+<L>Of Hor&s;e and Foot their choyce&s;t<NOTE PLACE="marg"><HI>Vetera<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">e</HI> &s;ig|nifies an old Souldier.</NOTE> <HI>Veteranes,</HI></L>
+<L>When as that dreadfull &s;torme began to fall,</L>
+<L>Which menaced the vnited <HI>Belgians</HI> thrall,</L>
+<PB N="8" REF="7">
+<L>To take the Ma&s;e, and &s;wallow &s;wifter Rhine,</L>
+<L>In their Samro&s;es forc't with hor&s;e and winde</L>
+<L>Again&s;t the current of that purling flood,</L>
+<L>Which neere<NOTE PLACE="marg"><HI>Bri&s;ach,</HI> a &s;mal town in <HI>Swi&s;|&s;erland.</HI></NOTE> Bri&s;ach leaues Danowes neighbourhood,</L>
+<L>And runnes along from out his Mountaine &s;ource,</L>
+<L>Vnto the Ocean with a We&s;terne cour&s;e.</L>
+<L>The Randeuow's appointed neere the Bankes</L>
+<L>Of Wahal, beating on the Southerne flankes</L>
+<L><NOTE PLACE="marg">The <HI>Rhine.</HI></NOTE>Of <HI>Skenks</HI>-Sconce, where this prince of German torrents</L>
+<L>Diuides it &s;elfe into two &s;eu'rall currents,</L>
+<L>And angry roaring runnes into the Sea,</L>
+<L>Becau&s;e the Land parts Wahals company;</L>
+<L>Which to reuenge, when Winter once doth frowne,</L>
+<L>He yearely doth the<NOTE PLACE="marg">A part of <HI>Guelderland,</HI> lying neere the <HI>Rhine.</HI></NOTE> Betowes Surface drowne.</L>
+<L>The time when as our braue Battalions met,</L>
+<L>Was when the Sunne in <HI>Virgoes</HI> lap doth &s;et,</L>
+<L>When mortalls <HI>Ceres</HI> inne to make them bread,</L>
+<L>And pre&s;&s;e downe <HI>Bacchus</HI> fruits with clu&s;ters redd;</L>
+<L>Twas Augu&s;ts moneth, ere the <HI>Na&s;&s;auians</HI> marcht</L>
+<L>To Grauenweert, or Spaniards counter, marcht</L>
+<L>From Flanders, and from<NOTE PLACE="marg">The <HI>Wall<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">un</HI> Countries.</NOTE> Walchland, where are &s;punne</L>
+<L>The fine&s;t Cambricks by the Belgian Nunne.</L>
+<L>Then after three dayes in that Station &s;pent,</L>
+<L>Wherein we lookt for Fri&s;elands Regiment,</L>
+<L>And th' Amber-tre&s;&s;ed Fri&s;ons being come</L>
+<L>From Franekaa; and from their Northren home,</L>
+<L>Through I&s;&s;els Channell to that necke of land,</L>
+<L>Where all our Ships, and all our Troupes did &s;tand.</L>
+<L>Our Drummes doe &s;ound a March, our En&s;ignes flie,</L>
+<L>And with their Serean colours beate the skie,</L>
+<L>Our men di&s;march, and pa&s;&s;e Rhines &s;limie ridge</L>
+<L>Vpon their<NOTE PLACE="marg">Made of Punts.</NOTE> Punted-new-compacted Bridge.</L>
+<L>Thence leauing Eltam on the left hand file,</L>
+<L>After the pa&s;&s;age of a German mile,</L>
+<L>Wee doubled Embricks Turrets mounted high,</L>
+<L>Which oppo&s;ite to famous Cleeue doe lie.</L>
+<L>From thence we came to<NOTE PLACE="marg"><HI>Dornicke,</HI> a &s;mall village in Cleueland.</NOTE> Dornicks Champion fields,</L>
+<L>Which &s;tore of Corne, and Pul&s;e abundance yeelds,</L>
+<PB N="9" REF="7">
+<L>Where we di&s;lodg'd We&s;t-Cleauelands &s;turdie Boores</L>
+<L>From hou&s;e and home, and fed vpon their &s;tores.</L>
+<L>That day th' Heauens powr'd cataracts of &s;howers</L>
+<L>Forth of <HI>Aquarius</HI> Tempe&s;t-breeding bowers</L>
+<L>Vpon tho&s;e Sands, whereon with tyred pace,</L>
+<L>Our bodies did the &s;torme it &s;elfe out-face.</L>
+<L>So that not onely out<NOTE PLACE="marg">Fre&s;h water Souldiers.</NOTE> <HI>Be&s;onioes</HI> faint</L>
+<L>With this di&s;gu&s;t, which did our Squadrons taint</L>
+<L>With following Feuers, Agues, and Catarrhes,</L>
+<L>With Leaguer Murraines, forced from the Iarres</L>
+<L>Of angrie Nature; but th' old <HI>Phalangites,</HI></L>
+<L>The be&s;t Muskettiers, and the braue&s;t Pikes,</L>
+<L>Whom neuer &s;howers of bullets could affright</L>
+<L>At Newport, O&s;tend, nor ar Turnholts fight;</L>
+<L>Amazed with this Tempe&s;t, make a &s;tand,</L>
+<L>Vpon the Surface of the tyring &s;and,</L>
+<L>And leane vpon their bended knees and armes,</L>
+<L>Di&s;con&s;olate for &s;elfes, and others harmes.</L>
+<L>So that if euer <HI>Conons</HI> warlike hoa&s;t,</L>
+<L>Pur&s;ued at large from th' Aquileian coa&s;t,<NOTE PLACE="marg">Concerning the&s;e two long Retreats, read Sir <HI>Walter Rauleighs</HI> Hi|&s;tory of the World.</NOTE></L>
+<L>By <HI>Theodo&s;ius</HI> Reuenge breathing rage,</L>
+<L>Who~ floods of blood, nor &s;laughtred heaps could &s;wage,</L>
+<L>Being led by that bold <HI>Brittans</HI> &s;ure command,</L>
+<L>Through rich Italiaes tract, and Galliaes Land,</L>
+<L>To that &s;weet &s;hoare, which oppo&s;ite doth lie</L>
+<L>Vnto the Cliffes of <HI>Charles</HI> ble&s;t <HI>Brittanie,</HI></L>
+<L>Had euer day, wherein the &s;torming skie</L>
+<L>Di&s;till'd his anger on mortalitie.</L>
+<L>If euer that time-honour'd <HI>Bhalanx</HI> had</L>
+<L>A day tempe&s;tuous, ominous and &s;ad,</L>
+<L>When they retyr'd aboue two thou&s;and miles,</L>
+<L>Maugre the Per&s;ians force-&s;upported wiles;</L>
+<L>From that high land which lies beyond the Verges</L>
+<L>Of pearld Euphrates Arrow-&s;wifter &s;urges,</L>
+<L>Vnto the bankes of Euxin, and that flood</L>
+<L>Of Pha&s;is, where free Trapizond then &s;tood.</L>
+<L>If e're (I &s;ay) they &s;uffered Heauens frowne,</L>
+<L>In cataracts of &s;tormie &s;howres powr'd downe,</L>
+<PB N="10" REF="8">
+<L>Our men did then indure as much or more,</L>
+<L>Then euer Greeke or Britton did before.</L>
+<L>In that dayes March, wherein their eyes might &s;ee</L>
+<L>Griefe &s;triue with paines, paines with varietie,</L>
+<L>Contending which &s;hould haue the leading place,</L>
+<L>Among&s;t our bands that hardly now could pace.</L>
+<L>For there you might behold the Curacier,</L>
+<L>Who neuer did the flaming Pi&s;toll feare.</L>
+<L>Heere you might view the<NOTE PLACE="marg"><HI>Carbins,</HI> taken figuratiuely for them who carry this weapon. A &s;tand.</NOTE> Carbins belching fire,</L>
+<L>The Pike-men &s;tout, and Musketiers to tyre;</L>
+<L>And like &s;ome Ship &s;tockt in the Lybian &s;ands,</L>
+<L>To halt it oft, and often to make &s;tands.</L>
+<L>There you might marke the French and Lukar walls,</L>
+<L>Two warlike Nations pre&s;t at <HI>Mars</HI> his calls,</L>
+<L>Who better can indure the &s;corching heat,</L>
+<L>Then dropping &s;howres, and &s;en&s;e-benumming wet,</L>
+<L>From the Vangard vnto the Reare ca&s;t backe,</L>
+<L>Their marching pa&s;e, and<NOTE PLACE="marg">A Galliard found out by <HI>Pyrrhus,</HI> re|&s;embling the order of mar|ching.</NOTE> <HI>Pirrhicke</HI>-Galliard &s;lacke.</L>
+<L>Heere you might &s;ee a Voluntier lacke breath,</L>
+<L>Whom Honour had inforc't to &s;eeke out Death</L>
+<L>In forraine Climates, who&s;e &s;ad de&s;tin'd lot</L>
+<L>The Aire did cau&s;e, yet &s;eem'd to weepe thereat.</L>
+<L>Nor was the &s;owre tempe&s;tuous frowning night</L>
+<L>More cheerefull to vs, then this fir&s;t dayes light:</L>
+<L>But being Twinnes, and brethren of one birth,</L>
+<L>They both alike inflict the groaning earth,</L>
+<L>Both light and darkne&s;&s;e ioyne their &s;euer'd hands,</L>
+<L>To powre reuenge vpon our weakened bands.</L>
+<L>For after that our Squadrons quartered were,</L>
+<L>Thir&s;t was their drinke, &s;harpe hunger was their fare</L>
+<L>Their Helmets were the pillowes for their heads,</L>
+<L>Their gli&s;tring Cor&s;lets were their Iron beds,</L>
+<L>In which like <HI>Ba&s;ans</HI> King, they &s;leepe, and dreame</L>
+<L>Of nothing el&s;e but their afflictions Theame.</L>
+<L>Your &s;haggie &s;traw more precious was then downe</L>
+<L>Then &s;ofte&s;t plumes; for which men robbe the ground,</L>
+<L>De&s;poyle the Floods, and &s;earch the Chri&s;tall skie</L>
+<L>For the&s;e light Emblems of their vanitie,</L>
+<PB N="11" REF="8">
+<L>That &s;o they might lodge in that various &s;hell,</L>
+<L>Wherein the plants and featherd fowles did dwell.</L>
+<L>Our Gallants then wi&s;ht for their Mi&s;tre&s;&s;e Chamber,</L>
+<L>Perfum'd with vnctious Nard, with Muske and Amber,</L>
+<L>Who cro&s;&s;e the Germane Sea to drinke a<NOTE PLACE="marg">Fanne is foure Cannes.</NOTE> Fanne,</L>
+<L>And learne the Po&s;tures of a Leaguer Canne,</L>
+<L>Who for their Honors march vpon their Steed,</L>
+<L>When brauer men vpon their feet mu&s;t &s;peed,</L>
+<L>Clad all in Roabes of that new Scarlet Die,</L>
+<L>Which to the Tyrian is but mockery.</L>
+<L>But when we mu&s;t &s;ome wall or Rampier open,</L>
+<L>Or &s;ome &s;trong Port by Petards to bee broken,</L>
+<L>When fights are to bee made, and men releeu'd,</L>
+<L>In Trench or Sconce, their courage then is &s;teeu'd:</L>
+<L>Their pendant Valour falls into their heele,</L>
+<L>Before they doe the Sword or bullet feele.</L>
+<L>Yet the&s;e mock-Souldier Gallants hauing &s;pent</L>
+<L>Three or foure months with feare and langui&s;hment</L>
+<L>In &s;ome old Captaines Hutt, who knowes to drill</L>
+<L>Them of their Coyne, and his owne pur&s;e to fill,</L>
+<L>Returne to <HI>London,</HI> where in euery &s;treet</L>
+<L>You may the&s;e plum'd and Ca&s;&s;ockt Souldats meet;</L>
+<L>Where, aske what newes they'l tell you they haue &s;eene</L>
+<L>The bloody Leaguer, and the deaths of men:</L>
+<L>They'l &s;weare th'aue been at <HI>Bergen,</HI> and that fight,</L>
+<L>Which <HI>Mansfield</HI> made<NOTE PLACE="marg">At <HI>Flewrie,</HI> neere to <HI>Na|murs.</HI></NOTE> in fenced <HI>Namurs</HI> &s;ight,</L>
+<L>And talke of nought but Orders, Po&s;tures, Motions,</L>
+<L>Whereof them&s;elues haue &s;carce the verball notions.</L>
+<L><HI>Thra&s;onian</HI> braues compar'd with Souldiers braue,</L>
+<L>Who make the field their hou&s;e, their bed their graue,</L>
+<L>And &s;corne to &s;peake of what them&s;elues haue done,</L>
+<L>That &s;o they may the Braggarts Stigma &s;hunne.</L>
+<L>Nor were the&s;e glorious puffes the men alone,</L>
+<L>Which cur&s;'d the warres, and wi&s;ht them&s;elues at home,</L>
+<L>But other <HI>Capuan</HI> Souldiers, Carpet Knights,</L>
+<L>Who with their Crownes had bought out merits rights,</L>
+<L>And in the time of that long twelue yeares peace,</L>
+<L>VVherein like Iades they liu'd in pomperd ea&s;e.</L>
+<PB REF="9">
+<L>Procured had &s;ome Office of command,</L>
+<L>By bribing gifts, and iuggling vnder hand:</L>
+<L>The&s;e men whom meanes, not merit had erected,</L>
+<L>With this di&s;a&s;trous night were much deiected,</L>
+<L>And their cre&s;t-fallen courage did &s;inke downe</L>
+<L>Lower then th'Earth on which they lodg'd vpon,</L>
+<L>Cur&s;ing the day, wherein their fathers crownes</L>
+<L>Had made them va&s;&s;alls to <HI>Bellonaes</HI> frownes.</L>
+<L>But after that<NOTE PLACE="marg">The Moone.</NOTE> the &s;iluer horned Planet,</L>
+<L>Which hid her head like &s;ome declining Comet</L>
+<L>In that fell Tempe&s;t, had vnloo&s;d her Carre</L>
+<L>In Latmos Mount, and that the Sunne from farre,</L>
+<L>Mounting his Steeds in our Horizons poynt,</L>
+<L>Inlightned had the dark&s;ome firmament.</L>
+<L>Our men like to the Solar opening Flower,</L>
+<L>Fre&s;h courage tooke, fre&s;h comfort in that howre,</L>
+<L>Wherein bright <HI>Phoebus</HI> with his cheerefull face,</L>
+<L>Began to runne the Zodiacks We&s;terne race.</L>
+<L><NOTE PLACE="marg"><HI>Aduenue,</HI> &s;ig|nifies a pa&s;|&s;age.</NOTE>Our Guards were then vpon th' <HI>Aduenues</HI> &s;et,</L>
+<L>Fires kindled were, and forrage &s;tore was &s;et,</L>
+<L>Proui&s;ions by Direction were &s;ent downe</L>
+<L>From <HI>Skenks</HI> &s;trong Sconce, &amp; Embricks rampard towne,</L>
+<L>Be&s;ides the &s;hips wherein the baggage went,</L>
+<L>Were to the durtie Dornicks quarters &s;ent,</L>
+<L>Wherein the Souldiers did receiue &s;upplie</L>
+<L>In this fir&s;t ingre&s;&s;e to nece&s;sitie,</L>
+<L>Of tho&s;e &s;ad wants, which Cu&s;tome knowne became</L>
+<L>Another Nature, to their Vertues fame.</L>
+<L>Heere our Battalions did &s;ome three months lie,</L>
+<L>Pre&s;t with the terrours of Mortalitie,</L>
+<L>With Lice, with Hunger, and vnce&s;&s;ant Raine,</L>
+<L>Which filld the Rhine, with all the bordring plaine.</L>
+<L>Our men were &s;hopt vp in tho&s;e Barnes and Cells,</L>
+<L>Wherein the Milke-&s;op Cleuiaes Pea&s;ant dwels,</L>
+<L>Where like &s;ome fleecie fold with hurdles pent,</L>
+<L>We pa&s;t our time in pining langui&s;hment:</L>
+<L>And in that<NOTE PLACE="marg">Signifies a &s;tanding <GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ampe.</NOTE> Leaguer was our patience knowne,</L>
+<L>More then our actiue Valour e're was &s;howne:</L>
+<PB REF="9">
+<L>For hauing &s;pent the reliques of that &s;tore,</L>
+<L>Which was prouided by th' vplandi&s;h Boore;</L>
+<L>And after that rich Embricks fertill plaine</L>
+<L>Di&s;manteld was of trees, of corne and graine</L>
+<L>By our Forragiers, who did better know</L>
+<L>To cut, then plant; to reape, then till or &s;owe.</L>
+<L>Our Conuoyes then did for their forrage poa&s;t</L>
+<L>Beyond the Riuer to that Southerne coa&s;t,</L>
+<L>Where &s;tately Cleeue vpon a Mountaine &s;tands,</L>
+<L>Which all the Frontier thereabouts commands.</L>
+<L>We marcht neere Goffe and Zantams new built walls</L>
+<L>For &s;traw and fewell at our Drums &s;ad calls,</L>
+<L>Where the proud<NOTE PLACE="marg"><HI>Spinola,</HI> a Ge|noue&s;e by di&s;cent.</NOTE> <HI>Genoan</HI> Marque&s;&s;e then did lie</L>
+<L>With his be&s;t Hor&s;e, and choyce Infanterie,</L>
+<L>To &s;top our pa&s;&s;age, and th'attempts to breake</L>
+<L>Of the <HI>Na&s;&s;auian</HI> Squadrons, now growing weake</L>
+<L>With a di&s;ea&s;e, which in their Troups did raigne,</L>
+<L>With franticke fits, with &s;en&s;e-confounding paine:</L>
+<L>Which fierce contagion did not onely touch</L>
+<L>The French, or Scots, our Engli&s;h, or the Dutch,</L>
+<L>But &s;pread it &s;elfe, like to &s;ome broken ball</L>
+<L>Of &s;ulphrous wild-fire through our Quarters all,</L>
+<L>From Eltam where Cleeues Votaries did wunne,</L>
+<L>Southwards to Greets, and towards the ri&s;ing Sunne,</L>
+<L>Where Rai&s;e being iealous of the bordring foe,</L>
+<L>Her horned Workes, and Rampiers new doth &s;how.</L>
+<L>Neuer that <HI>Simois</HI>-neere intrenched troupe</L>
+<L>With pe&s;tilence did more infected droupe,</L>
+<L>When <HI>Phoebus</HI> moou'd for<NOTE PLACE="marg">Concerning this plague, read <HI>Homer</HI> the fir&s;t of th<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> <HI>Iliads.</HI></NOTE> fayre <HI>Chri&s;cis</HI> Rape,</L>
+<L>Whom <HI>Atreus</HI> &s;onne to's lu&s;t did captiuate,</L>
+<L>Darted his wrath vpon tho&s;e Grecian Bands,</L>
+<L>Which would not yeeld to <HI>Chri&s;eus</HI> faire demands.</L>
+<L>Neuer the Plague wrought a more direfull bane</L>
+<L>In <HI>Salems</HI> Citie, when <HI>Ve&s;pa&s;ian</HI><NOTE PLACE="marg"><HI>Read</HI> Io&s;eph<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> Bello Iud lib.</NOTE></L>
+<L>With his <HI>Pretorian</HI> Cohorts did &s;urround</L>
+<L>Mount Sions walls, and that more &s;acred ground</L>
+<L>Whereon the Temple &s;tood, proud <HI>A&s;iaes</HI> wonder,</L>
+<L>Who&s;e &s;pired cre&s;t <HI>O&s;iris</HI> vaile did &s;under,</L>
+<PB REF="10">
+<L>Then our weake Troupes were with this murraine pre&s;t,</L>
+<L>Who&s;e furie did our Cohorts all infe&s;t,</L>
+<L>And like &s;ome &s;ad <HI>Mephitis</HI> pier&s;t their vaines,</L>
+<L>Procuring death with fierce tormenting paines.</L>
+<L>Some Regiments which could two thou&s;and &s;hew,</L>
+<L>When wee fir&s;t marcht vnto the Randeuow,</L>
+<L>Could &s;carce fiue hundred of that number tell,</L>
+<L>Excepting tho&s;e, who by this &s;ickne&s;&s;e fell.</L>
+<L>Some Companies who&s;e Squadrons were compleat</L>
+<L>Full &s;ixe&s;core &s;trong, when we at <HI>Skencks</HI>-Sconce met,</L>
+<L>Could not a Tertian of that Li&s;t produce,</L>
+<L>Fit for the Seruice, and Imployments v&s;e;</L>
+<L>Tho&s;e that did liue could &s;carce intombe the dead,</L>
+<L>Nor giue due rights to them that peri&s;hed:</L>
+<L>Tho&s;e that were &s;ound could not attendance giue</L>
+<L>Vnto the feeble, nor the &s;icke relieue.</L>
+<L>In eu'ry place was nought but de&s;olation,</L>
+<L>Skie-piercing cries, and fearefull lamentation:</L>
+<L>Vollies of Shot a fatall Dirge did &s;ing,</L>
+<L>Which ecchoing from th'adiacent <HI>Rhine</HI> did ring,</L>
+<L>Who&s;e <HI>Golgoth'd</HI> banks became one vaulted tombe,</L>
+<L>Inclo&s;ing heapes within their &s;pacious wombe,</L>
+<L>Among&s;t which<NOTE PLACE="marg">Signifies the &s;laughter, or mortalitie of men.</NOTE> Carnage grim-fac'd death did &s;talke,</L>
+<L>And on the&s;e Trophees did triumphing walke,</L>
+<L>Wi&s;hing her hand with one all-killing blow,</L>
+<L>Might all our Legions to th'Infernall throw.</L>
+<L>Some for this cau&s;e did blame the blamele&s;&s;e Lawes</L>
+<L>Of potent Nature, and condemn'd that cau&s;e,</L>
+<L>Which by &s;ome iealous<NOTE PLACE="marg">A law amo~g&s;t the <HI>Athenians,</HI> by which they bani&s;hed great men.</NOTE> <HI>O e&s;troci&s;me</HI> might bani&s;h</L>
+<L>The&s;e Spirits from this world, and cau&s;e to vani&s;h,</L>
+<L>Tho&s;e Seats of valour, that &s;tupendious frame</L>
+<L>Vnto tho&s;e Elements from whence they came.</L>
+<L>Others againe did cur&s;e fal&s;e <HI>Galens</HI> Art,</L>
+<L>And our Campe&s;trian Leaches, who doe part</L>
+<L>The quinte&s;&s;entiall Spirits of trees and plants,</L>
+<L>Of Stones and Mettalls: and &s;upply the wants</L>
+<L>Of feeble Nature with their Fomentations,</L>
+<L>With their Elixars, Iulips, and Purgations,</L>
+<PB REF="10">
+<L>Who giue their patients &s;ome <HI>Ae&s;onian</HI> pill,</L>
+<L>As they pretend, by which their bags they fill</L>
+<L>With <HI>Perues</HI> Gold, and with <HI>Arabiaes</HI> wealth,</L>
+<L>Them&s;elues being impotent, deuoyd of health,</L>
+<L>Troubled with Coughs, with Agues, and Catarrhs,</L>
+<L>With Drop&s;ies, Gowts, with tho&s;e inte&s;tine Iarres,</L>
+<L>Which from di&s;temperd humours doe proceed,</L>
+<L>When they deficient are, or doe exceed.</L>
+<L>But all in vaine; for 'twas the firme decree</L>
+<L>Of that all-changing, vnchang'd Deitie,</L>
+<L>VVho&s;e purpo&s;e through defects doth neuer alter,</L>
+<L>All potent, becau&s;e impotent to falter,</L>
+<L>VVho&s;e power is &s;uch, that in a twinckling eye,</L>
+<L>It can con&s;ume large-&s;pread mortalitie,</L>
+<L>Not being tyed to Fortune, Fate, or Chance,</L>
+<L>Gods onely knowne through mans meere ignorance;</L>
+<L>'Twas hee that &s;trucke with his all-powerfull hand,</L>
+<L>Which checks the roaring Sea, which rules the land,</L>
+<L>Our &s;uffring Troupes, who&s;e Valour oft had &s;capt</L>
+<L>The Canons &s;hot, and murdring Muskets fate.</L>
+<L>'Twas hee that made tho&s;e fields a common graue</L>
+<L>For th'Engli&s;h, Dutch, and all tho&s;e Nations braue,</L>
+<L>Who &s;corning peace, them&s;elues to warres did wedde,</L>
+<L>And chu&s;ing tho&s;e decea&s;'d in Honours bedde.</L>
+<L>But ere that this contagion was full &s;pread,</L>
+<L>Or that his force had got a<NOTE PLACE="marg"><HI>Hidraes</HI> head.</NOTE> Lerncan head,</L>
+<L>About Saint <HI>Michaels</HI> day, th' Archangels fea&s;t,</L>
+<L>Fame bruited had, that from the bordring Ea&s;t,</L>
+<L><HI>Liguriaes</HI> glory, and proud <HI>Genoaes</HI> pride,</L>
+<L>Great <HI>Spinola,</HI> for's Fortune Deifide</L>
+<L>By the Saint-making Conclaue, was falne downe</L>
+<L>From Weezels walls, to Goffe and Zantoms Towne,</L>
+<L>And that his Troupes with more then Spani&s;h ha&s;t,</L>
+<L>Vpon their Punts the pearled Rhine had pa&s;t,</L>
+<L>Threatning to powre forth their long cankred ire,</L>
+<L>In dreadfull &s;tormes of Bullets, Sword, and fire.</L>
+<L>This rumour fir&s;t was grounded on the voyce</L>
+<L>Of Fames<NOTE PLACE="marg">Are tho&s;e pro|perly &s;o called, who &s;peak out of their bellies.</NOTE> <HI>Enga&s;tromi&s;ts,</HI> the vulgar noy&s;e,</L>
+<PB N="16" REF="11">
+<L>Who trumpet out for loud re&s;ounding Fame,</L>
+<L>Things not done for things done, and make the &s;ame</L>
+<L>Which but appearing was, apparant true</L>
+<L>To the deceiued worlds deceiuing view:</L>
+<L>Who taking it, this Marchandi&s;e doth &s;ell</L>
+<L>To tho&s;e Retaylors, who&s;e broad eares doe dwell</L>
+<L>In Tauernes, Barbers &s;hops, and publike Marts,</L>
+<L>Where lyes are &s;old to hollow Spungeous hearts,</L>
+<L>For Beere, for Wine, and that cur&s;t Indian weed,</L>
+<L>Whereon the&s;e puffes of noueltie &s;till feed.</L>
+<L>But this report high mounted on the wing,</L>
+<L>In our Dornician Tents did forthwith ring,</L>
+<L>And came to <HI>Na&s;&s;awes</HI> honourable Count,</L>
+<L>Who&s;e Coun&s;ell doth Spaines policies &s;urmount;</L>
+<L>Who like to <HI>Argus</HI> with his hundred eyes,</L>
+<L>Attends the de&s;ignes of their <HI>Mercuries,</HI></L>
+<L>Of their <HI>Proteian</HI> Enginees of State,</L>
+<L>Who&s;e &s;ubtiltie doth &s;eeke to ma&s;ter Fate:</L>
+<L>Hee &s;traight growes iealous, that this great Brauado</L>
+<L>Might turne at length to &s;ome nights Cami&s;ado;</L>
+<L>Or that the daring foes might courage take,</L>
+<L>And our Di&s;a&s;ters might them animate</L>
+<L>T'incounter in Campania with our Bands,</L>
+<L>Which now began to langui&s;h of all hands.</L>
+<L>For the&s;e re&s;pects hee fortifies at Greets</L>
+<L>Clo&s;e to the Riuer, which the<NOTE PLACE="marg">The Curtin is that part of the wall, which runs in length from one An|gle to another.</NOTE> Curtin beats;</L>
+<L>Then oppo&s;ite to Embricke builds a Fort</L>
+<L>Commanding all the South and We&s;terne Port:</L>
+<L>Be&s;ides, he Reinforcements &s;ends to Rai&s;e,</L>
+<L>And &s;ets &s;trong Guards vpon the neighb'ring wayes,</L>
+<L>Who&s;e wide Meanders giue a pa&s;&s;age free</L>
+<L>Vnto th'incur&s;ions of that enemy,</L>
+<L>Who&s;e malice hath long &s;ought by <HI>Romes</HI> aduice,</L>
+<L>Ouer the&s;e Cantons free to Monarchi&s;e.</L>
+<L>Nor &s;o the Prince doth re&s;t, but takes th'Alarme,</L>
+<L>Giues order to the Squadrons all to arme,</L>
+<L>And drawes them into Battaile on that plaine,</L>
+<L>Which from the Campe re&s;pects<NOTE PLACE="marg">This field lay to the North|ward of the Leaguer.</NOTE> <HI>Bootee waine.</HI></L>
+<PB N="17" REF="11">
+<L>This <HI>Phalanx</HI> fir&s;t did &s;tand vpon a line</L>
+<L>Who&s;e depth was one aboue the perfit nine.</L>
+<L>His &s;teeled front which fac'd the ri&s;ing Sun</L>
+<L>From pointe to point three thou&s;and yards did run,</L>
+<L>Wherein each troupe, with all the diffrent nations</L>
+<L>Imbattail'd &s;toode, and ranged in their &s;tations.</L>
+<L>The Vanguard our victorious Engli&s;h had.</L>
+<L>With their red cro&s;&s;ed En&s;ignes, <HI>Cecill</HI> ladde</L>
+<L>Tho&s;e Regiments, whom Gulicke once did &s;ee,</L>
+<L>Chiefe in commande are th'Engli&s;h Infantrie.</L>
+<L>When England, France and Holland did combine</L>
+<L>For <HI>Brandenburge,</HI> and did their forces ioyne</L>
+<L>T'impeach the Spaniarde, and to breake that plot</L>
+<L>By which he Cleeue with <HI>Iuliers</HI> after got.</L>
+<L>Neere him with equall di&s;tance<NOTE PLACE="marg">Sir <HI>Edward Veare</HI> Lieute|nant Colonell to Sir <HI>Horati<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&punc;</HI></NOTE> <HI>Veare</HI> doth &s;tand,</L>
+<L>Who in <HI>Horatioes</HI> ab&s;ence did commaunde</L>
+<L>Tho&s;e hardie Cohorts, which had often tried</L>
+<L>The <HI>Iberians</HI> force, and all their Braues defied.</L>
+<L>Next <HI>Ogle</HI> rangd his bands, that Martiall Knight,</L>
+<L>Famous for O&s;tends &s;iege, and Newports fight,</L>
+<L>Where he preuaild both with his &s;worde and parling,</L>
+<L>And &s;hewd him&s;elfe both <HI>Mars</HI> and <HI>Hermes</HI> darling.</L>
+<L>Clo&s;e vnto the&s;e vpon the left hand flanke</L>
+<L>Great<NOTE PLACE="marg">My Lord <HI>Li&s;le.</HI></NOTE> <HI>Lei&s;ters</HI> &s;on marcht in the formo&s;t ranke,</L>
+<L>VVho&s;e courage longd to reuenge <HI>Sidneyes</HI> blood</L>
+<L>Spilt neere to <HI>Zutphen</HI> for our <HI>&V;nions</HI> good.</L>
+<L>The battell by that nation was tooke vp.<NOTE PLACE="marg">The Scots and French had the middle battell.</NOTE></L>
+<L>VVho Ne&s;&s;es &s;treames, and <HI>Fyndornes</HI> water &s;up;</L>
+<L>VVith the&s;e were ioynd their antient fa&s;t Alies</L>
+<L>VVho&s;e natiue &s;oile twixt <HI>Some</HI> and <HI>Garroun</HI> lies.</L>
+<L>The French commaunded were by <HI>Chatillion.</HI></L>
+<L>By <HI>Hotteriue</HI> and <HI>Curtimeers</HI> braue baron.</L>
+<L>The Scots were <HI>Brogues</HI> and <HI>Hinder&s;ons</HI> &s;ole chardge,</L>
+<L>VVho&s;e honour death at Bergen did inlarge,</L>
+<L>VVhere he being &s;hot gaue vp his glorious &s;oule</L>
+<L>Into his hands, who Armies doth controule.</L>
+<L>The reare con&s;i&s;ted<NOTE PLACE="marg">The Suitzers and the Dutch had the Reare.</NOTE> of tho&s;e warlike bands,</L>
+<L>VVhich dwell in Bearnes, and Ba&s;ils Cantond lands,</L>
+<PB REF="12">
+<L>Of the long tre&s;&s;ed Pri&s;ons, and the Dutch</L>
+<L>VVhom Countries loue and libertie doth touch</L>
+<L>VVith an inflamed Patriots burning zeale,</L>
+<L>Who&s;e thoughts tende all vnto the publike weale.</L>
+<L>Be&s;ides this li&s;t there were of Voluntiers</L>
+<L>Braue numbers, and of brauer martiall Peeres,</L>
+<L>Who for religions cau&s;e, for honours &s;ake</L>
+<L>Had left their deere&s;t deares, to vndertake,</L>
+<L>The wargods &s;eruice: here <HI>E&s;&s;ex</HI> his Counte</L>
+<L>Appeares as Leader in the formo&s;t frounte:</L>
+<L>With him marcht he, that Holla<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ds title beares</L>
+<L>Among&s;t the li&s;te of our illu&s;trious Peeres,</L>
+<L>And <HI>Hopton</HI> too, whom let me not forget,</L>
+<L>Borne in the fields of flowerie Sumer&s;et)</L>
+<L>My friend and fellow both in Armes and Arts:</L>
+<L>With the &s;weete tune of which harmonious parts,</L>
+<L>Thou do&s;t inforce my &s;elfe, my mu&s;e, my loue</L>
+<L>T'admire their worths in&s;pired from aboue.</L>
+<L>Thee va&s;t <HI>Herciniaes</HI> woods, and <HI>I&s;ters</HI> bedde</L>
+<L>Swift Albis current, and the Neckars heade,</L>
+<L>Know and re&s;ound their Panegiricke layes.</L>
+<L>Which blazon forth thy fame de&s;eruing prai&s;e.</L>
+<L><HI>Brun&s;wicke</HI> the &s;courge of that Mona&s;ticke frie,</L>
+<L>Here likewi&s;e marcht with our Infantery,</L>
+<L><HI>Mountgomrie, Chatillon,</HI> and diuer&s;e more,</L>
+<L>From Almaine, France and cold<NOTE PLACE="marg">Scotland</NOTE> Albaniaes &s;hoare,</L>
+<L>Who&s;e boiling bloods did long to trie their might</L>
+<L>Again&s;t the Marques in plaine open fight.</L>
+<L>But long they might, for that<NOTE PLACE="marg">Marques <HI>Spinola.</HI></NOTE> Ligurian Foxe,</L>
+<L>Meant not to trie <HI>Bellonaes</HI> bloody knocks,</L>
+<L>Nor to decide with dinte of trenchaunt blade,</L>
+<L>The titles right, which Spaines grand Monarch made</L>
+<L><NOTE PLACE="marg">Read the hi&s;tory of the Netherlands pag. 119.</NOTE>Vnto the&s;e Lands, o're which as <HI>Charles</HI> heire</L>
+<L>Neere Nauncy &s;laine he claimes to domineere.</L>
+<L>For though &s;ome numbers of the Spani&s;h hoa&s;t,</L>
+<L>Had pa&s;t the Riuer from the farther coa&s;t</L>
+<L>T'infe&s;t our men with inroades and Alarmes,</L>
+<L>Re&s;olued &s;till t'affroant all ho&s;tile harmes;</L>
+<PB REF="12">
+<L>Yet &s;till the Marques with his &s;tanding Campe</L>
+<L>Neere vnto Zantum did him&s;elfe in camp,</L>
+<L>Who&s;e Parties oft with our forragiers meete,</L>
+<L>Which &s;ometimes beaten were, and &s;ometimes beate.</L>
+<L>Among&s;t the re&s;t <HI>Graue Henricke</HI> pa&s;&s;ing Greets</L>
+<L>With <HI>Brun&s;wicks</HI> Duke, and his own Guidon meets</L>
+<L>With foure braue<NOTE PLACE="marg">The colours which hor&s;e|men beare.</NOTE> Cornets of <HI>Albertus</HI> &s;ide,</L>
+<L>Whom our men &s;aw of them being vnde&s;cried.</L>
+<L>For that &s;ame morne the wind blowing South and we&s;t,</L>
+<L>Sent forth a vapr'ous fogge, and friendlie mi&s;t</L>
+<L>From th' Aeolian clo&s;ets, which ob&s;curd the skie</L>
+<L>So that things neere you could not well de&s;cry:</L>
+<L>Which either vn&s;eene to the vi&s;ion were,</L>
+<L>Or els their &s;hapes &s;elfe bigger did appeare,</L>
+<L>The vapour darkening that tran&s;parent light</L>
+<L>Whereby the Species conuoyed is to &s;ight.</L>
+<L>Be&s;ides the couert of a ri&s;ing ground</L>
+<L>Did &s;o the pro&s;pect of the&s;e Troupers bounde,</L>
+<L>That till the Prince was from their danger free,</L>
+<L>They did not once his gli&s;tring Cornet &s;ee.</L>
+<L>Which had they &s;eene, not all fat Hollands &s;tore</L>
+<L>Growne rich with Perues wealth and Indiaes oare,</L>
+<L>Not Ginees gold, nor all tho&s;e precious graines</L>
+<L>Which Orenoque laues from Guianaes vaines</L>
+<L>Could haue redeemd his life, nor &s;et him free</L>
+<L>From certaine death, or &s;ure Captiuitie.</L>
+<L>Their odds was great, yet <HI>Brun&s;wicke</HI> cryes to charge,</L>
+<L>And bids our Pi&s;tols and Carbins di&s;chardge</L>
+<L>Their murdring &s;hot again&s;t the<NOTE PLACE="marg">Dutch hor&s;e men.</NOTE> Rei&s;ters frount</L>
+<L>Which foure to one our numbers did &s;urmount.</L>
+<L>But the <HI>Na&s;&s;auian Graue</HI> adui&s;ing flight</L>
+<L>To be far &s;afer then vnequall fight,</L>
+<L>Strait giues the checke to<NOTE PLACE="marg">The Duke of <HI>Brun&s;wicke</HI> is al&s;o Bi&s;hop of <HI>Halber&s;tat.</HI></NOTE> <HI>Halber&s;tats</HI> de&s;ire</L>
+<L>And makes his armed Curaciers retire:</L>
+<L>Since no di&s;honour tis our backs to &s;how</L>
+<L>Where oppo&s;ition needes mu&s;t ouerthrow.</L>
+<L>But in this &s;pace &s;ome<NOTE PLACE="marg">Tho&s;e who conducted the Conuoy.</NOTE> Conuoyers of our &s;ide,</L>
+<L>VVho &s;tragling neere the Counts ingagement &s;pied,</L>
+<PB N="20" REF="13">
+<L>Ran pricking on the &s;purre, and voic'd it out</L>
+<L>In the <HI>Mauritian</HI> quarters round about.</L>
+<L>That either he and <HI>Brun&s;wicke</HI> both were &s;laine,</L>
+<L>Or el&s;e that both were pri&s;oners made to Spaine.</L>
+<L>This rumour po&s;ting &s;wifter then the winde,</L>
+<L>VVith winged &s;peede doth pierce the Princes minde,</L>
+<L>VVho like &s;ome Paphian con&s;ecrated Doue,</L>
+<L>VVhich mournes the lo&s;&s;e or ab&s;ence of her loue,</L>
+<L>Su&s;pecting this report, lamenting &s;hares</L>
+<L>His brothers chaunce with griefe and feeling cares:</L>
+<L>VVith whom each Chiefe, each Souldier doth partake</L>
+<L>And their &s;elfe-griefes the Generals do make,</L>
+<L>As when &s;ome dang'rous Rheume begotten Ache,</L>
+<L>The royall &s;eate of rea&s;on doth attach</L>
+<L>That part being troubled, where the life doth re&s;t</L>
+<L>The members all inferiour are oppre&s;t.</L>
+<L>His &s;teeled<NOTE PLACE="marg">A Legion is here taken for a Regiment: a &s;quadron is a third part of a companie.</NOTE> Legions weepe, his<NOTE PLACE="marg">A Legion is here taken for a Regiment: a &s;quadron is a third part of a companie.</NOTE> &s;quadrons mourne</L>
+<L>Their hearts, though danger proofe, for griefe do yearne,</L>
+<L>VVhom neither feares nor terrours could &s;urpri&s;e</L>
+<L>The dreadfull bugs of &s;taggring cowardi&s;e,</L>
+<L>The&s;e loo&s;e their mirth, and that &s;oule gladding light</L>
+<L>VVho&s;e cheerefull rayes do clarifie the &s;prite:</L>
+<L>But yet not &s;o they giue the raines to griefe,</L>
+<L>That in this while their labour &s;lackes releefe;</L>
+<L>For forth they &s;end their Curriers all in poa&s;t,</L>
+<L>To &s;earch the Champions Rhine diuided coa&s;t</L>
+<L>Mounted vpon their well breathd Cour&s;ers backs</L>
+<L>VVho&s;e Pega&s;ean &s;wiftne&s;&s;e &s;corneth trackes.</L>
+<L>Tho&s;e Cornets braue, who&s;e garri&s;ons did lie</L>
+<L>Next to the frountiers of their Enemie,</L>
+<L>And therefore be&s;t acquainted with their fights,</L>
+<L>VVith all their<NOTE PLACE="marg">Stratagem is a feare of warre.</NOTE> &s;tratagems, and martiall &s;leights,</L>
+<L>Are forthwith orderd to repa&s;&s;e the Rhine,</L>
+<L>And towards the re&s;cue to di&s;march in time</L>
+<L>Their bands of Ordinance, who&s;e high proofe frounts,</L>
+<L>Safeguard the per&s;ons of <HI>Na&s;&s;aiaus</HI> Counts,</L>
+<L>Commaunded are as &s;econds to the hor&s;e</L>
+<L>VVith their be&s;t powers their power to reinforce,</L>
+<PB N="21" REF="13">
+<L>But if ingagd to farre, then to retire</L>
+<L>And like the<NOTE PLACE="marg">The Prrthians when they re|tired did v&s;e to &s;hoote back|wards, See <HI>Plut in vita Antonii.</HI></NOTE> Parthians backwards to giue fire.</L>
+<L>But marke th' euent: he skowring o're the wa&s;te</L>
+<L>Of that large Champion with preuenting ha&s;te</L>
+<L>Meetes with tho&s;e bands, which to the Re&s;cue came</L>
+<L>Vpon the &s;ummons of his dangers fame</L>
+<L>Clo&s;e vnto Greets, where all arriuing &s;afe,</L>
+<L>Like &s;ome wracke &s;cpaing mariners they laugh</L>
+<L>At the remembrance of the danger pa&s;t</L>
+<L>Which not fore &s;tald, was like to proue their la&s;t.</L>
+<L>But although fortune fauour'd his retraite,</L>
+<L>And &s;aud the Counte, in that angu&s;tious &s;traite:</L>
+<L>Making this action happy by th'euent,</L>
+<L>Yet no man can approue the pre&s;ident,</L>
+<L>It being again&s;t the maximes of all warre,</L>
+<L>For tho&s;e who chiefetaines in commaunding are,</L>
+<L>Without &s;ome waighty cau&s;e their liues t'expo&s;e</L>
+<L>Vnto t'hazard of th' incountring foes.</L>
+<L>For thus enuirond with a Punicke traine,</L>
+<L><HI>Marcellus</HI> Romes great Generall was &s;laine,<NOTE PLACE="marg">Reade <HI>Liuie lib.</HI> 27. about the mid&s;t.</NOTE></L>
+<L>VVho retchles went that hillocke to &s;uruaye,</L>
+<L>VVhere ambu&s;hed the Carthaginian lay.</L>
+<L>Thus <HI>Bucquoie</HI> famous for our vnions foile,</L>
+<L>For <HI>Pragues</HI> rich conque&s;t, and <HI>Bohemias</HI> &s;polie,<NOTE PLACE="marg">See the Impe|riall hi&s;torie pag. 806.</NOTE></L>
+<L>After the chance of &s;undrie battels pa&s;t,</L>
+<L>By <HI>Gabors</HI> troupes was vanqui&s;hed at la&s;t,</L>
+<L>By tho&s;e Co&s;&s;ackes which warrelike Poland breeds</L>
+<L>And <HI>t'Hu&s;&s;ars</HI> fierce &s;till mounted on their &s;teedes,</L>
+<L>VVhere he being pi&s;toll'd by the barb'rous foe</L>
+<L>Re&s;ignd the trophees of Pragues ouerthrow.</L>
+<L>But though the purling dewe, the vapr'ous Aire</L>
+<L>Did our ambiguous hopes refre&s;h, repaire,</L>
+<L>And <HI>Henricke</HI> &s;aue: yet the mallignant fire</L>
+<L>Strait blighs this fruite of &s;atisfied de&s;ire.</L>
+<L>VVho&s;e flames being kindled through th' Aires &s;ecret quills</L>
+<L>His lodgings &s;eazeth, and with terrour fils</L>
+<L>The quarters next where <HI>Ogles Cohorts</HI> lay,</L>
+<L>Making the night looke like another day.</L>
+<PB N="22" REF="14">
+<L>The &s;poyle was great, for when the raging flame</L>
+<L>Vnto tho&s;e Inner Roomes with's furie came,</L>
+<L>Precious nor priceles things were left vn&s;pard</L>
+<L>But both alike the common danger &s;hard.</L>
+<L>His Turkie Carpets of vnualued price,</L>
+<L>Made of the Median &s;ilkewormes fine&s;t fleece,</L>
+<L>His Arras cloaths wrought by the Belgicke Dame</L>
+<L>The portraitures of true reported fame,</L>
+<L><NOTE PLACE="marg">See the Lowe Country hi&s;to|ry pag 456.</NOTE>Where &s;toried out you might &s;uruay at large</L>
+<L>D'Aluaes intrenchment and the Rei&s;ters chardge,</L>
+<L>Romeroes on&s;late, and the foule retreate</L>
+<L>Made by the&s;e Almaines after their defeate.</L>
+<L><NOTE PLACE="marg">Pag 863.</NOTE>Graue <HI>Williams</HI> life &s;aud by a watchfull Curre</L>
+<L>Th' Alarum taking from the Spaniards &s;turre,</L>
+<L>Who by that Wallouns hand was after &s;laine</L>
+<L>Whom Rome had made an A&s;&s;a&s;&s;ine for Spaine.</L>
+<L>On th'other &s;ide characterd you might &s;ee</L>
+<L>In liuelie formes of wrought Imagerie,</L>
+<L><NOTE PLACE="marg">Pag. 457. of the &s;ame hi&s;torie.</NOTE>Counte <HI>Egmonds</HI> death, and Hornes vnworthy fate</L>
+<L>O&s;tends long &s;iege and Flaunders bloody &s;late,</L>
+<L>The <HI>Barneueltine</HI> fal&s;e <HI>Arminian</HI> plot,</L>
+<L>Fa&s;t bound with Ca&s;tiles &s;ubtle Gordian knot.</L>
+<L>The&s;e mooueables with all his curious plate</L>
+<L>Fitting the greatne&s;&s;e of rich <HI>Na&s;sawes</HI> &s;tate,</L>
+<L>VVherein t'Hollandi&s;h Ganimed did skinke</L>
+<L>That Rheni&s;h <HI>Nectar</HI> which the Gods might drinke:</L>
+<L>All the&s;e were &s;poyld by that con&s;uming fire</L>
+<L>VVhich on the Prince powrd forth his wreakfull Ire;</L>
+<L>Nor &s;o this burning Element doth re&s;t</L>
+<L>But &s;preddes it &s;elfe, and farther doth infe&s;t</L>
+<L>The &s;tables, where his warrelike hor&s;es &s;tood</L>
+<L>Of Europes race, and Africks choice&s;t broode.</L>
+<L>The nimble Gennets comming from the maine</L>
+<L>Of rich <HI>Granado,</HI> and the &s;outherne Spaine,</L>
+<L>From<NOTE PLACE="marg"><HI>Alias Guadal|quibir</HI> a great Riuer in South <HI>Spaine.</HI></NOTE> <HI>Baetis</HI> banks, and from that fertill &s;hoare</L>
+<L>Where Siuill doth vnlade that Idold oare,</L>
+<L>Which from her wealthy mines rich India &s;ends</L>
+<L>To A&s;iaes bounds, and Europes farthe&s;t ends.</L>
+<PB N="23" REF="14">
+<L>His Turkie &s;teedes bredde neere the &s;limie &s;lowes</L>
+<L>Of <HI>Strimon,</HI> which the rugged <HI>Thracian</HI> plowes,</L>
+<L>Neere <HI>Haemus</HI> mounte, and tho&s;e high cre&s;ted fills;</L>
+<L>Who&s;e melting dewe <HI>Peneius</HI> channell fills;</L>
+<L>Tho&s;e &s;tately cour&s;ers which Barbaria yeelds</L>
+<L>From Fezzes pa&s;tures, and <HI>Marocchoes</HI> fields,<NOTE PLACE="marg">A great Riuer in <HI>Bar|barie.</HI></NOTE></L>
+<L>From parcht <HI>Numidia,</HI> and <HI>Zanhagaes</HI> bed</L>
+<L>Which <HI>South</HI> from <HI>Atlas</HI> &s;howes his ri&s;ing heade</L>
+<L>Were burned quite, or halfe dead, halfe aliue,</L>
+<L>Twixt life and death did in this conflict &s;triue</L>
+<L>Till life being vanqui&s;ht by all conqu'ring death,</L>
+<L>They lo&s;t at once their torments and their breath,</L>
+<L>Nor in this time the Spani&s;h fire doth re&s;t,</L>
+<L>But malice fuell'd &s;triues for intere&s;t</L>
+<L>In <HI>Iuliers,</HI> Cleaueland and the Flemi&s;h coa&s;t</L>
+<L>Flaming reuenge with their mo&s;t powerfull hoa&s;t:</L>
+<L>For the&s;e de&s;iegnes great <HI>Spinola</HI> doth lie</L>
+<L>In <HI>Cleuiaes</HI> fields, and keepes a &s;till-fixt eye</L>
+<L>Vpon our Legions, which began to breake</L>
+<L>Their Summer &s;tation, with the pe&s;t-grown weake</L>
+<L>And we&s;tward fell vnto that higher land</L>
+<L>Which lyes twixt <HI>Eltam</HI> and <HI>Rhines</HI> checkerd &s;trande;</L>
+<L>Twixt <HI>Embricke,</HI> and that <HI>Sconce</HI> which <HI>Skenke</HI> did frame</L>
+<L>That &s;o he might the doubtfull Cleuener tame,</L>
+<L>In <HI>Geldriaes</HI> farthe&s;t confines, where the <HI>Waal</HI></L>
+<L>From <HI>Rhines</HI> current to <HI>Ma&s;es</HI> &s;treame doth fall.</L>
+<L>Another armie by &s;tout <HI>Borges</HI> ledde</L>
+<L>For's &s;eruice great and linage honoured,</L>
+<L>By which he claymes an equall ranke with them</L>
+<L>Who &s;hew <HI>M<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">udozaes</HI> or <HI>Toledoes</HI> &s;temme,<NOTE PLACE="marg">Two of the greate&s;t fami|lies in <HI>Spaine.</HI></NOTE></L>
+<L>And Grandoed are for their <HI>Donnized</HI> birth</L>
+<L>Liuing like gods vpon the Spani&s;h earth,</L>
+<L><HI>Beleaguers Sluce,</HI> and doth inuade <HI>Cazaunte</HI></L>
+<L>Which <HI>Yperle</HI> &s;euers from the Continent;</L>
+<L>Where oppo&s;ite to <HI>Zealands</HI> watrie land</L>
+<L>And <HI>Flu&s;hings</HI> &s;eate this fortre&s;&s;e &s;trong doth &s;tand:</L>
+<L>Famous for that far famed nauall fight</L>
+<L>Which our third <HI>Edward</HI> made in Sluces fight,</L>
+<PB N="24" REF="15">
+<L>When <HI>Phillip</HI> &s;ent his &s;ea Commaunding fleete</L>
+<L>With our well rigged <HI>Argozies</HI> to meete.</L>
+<L>Who grapling with our force their force with&s;tood,</L>
+<L>And bath'd their prowes in French and Flemi&s;h blood</L>
+<L>Which i&s;&s;uing from the wounds of thou&s;ands &s;laine,</L>
+<L>With's colour did th' Yperlian current &s;taine.</L>
+<L>This towne a Cocke pitt was for <HI>Mars</HI> his game</L>
+<L>Both parties &s;triuing to po&s;&s;e&s;&s;e the &s;ame</L>
+<L>VVith bloody &s;ucce&s;&s;e of continuall warre,</L>
+<L>VVhere tho&s;e that conquer'd were, now conqu'rours are.</L>
+<L>For when the&s;e States them&s;elues did fir&s;t vnite</L>
+<L>To re&s;i&s;t <HI>Philips</HI> force and <HI>D'Aluaes</HI> &s;pite,</L>
+<L>And &s;ought th' oppre&s;&s;ed Netherlands to free</L>
+<L>From the hard yoake of Ca&s;tiles tirannie,</L>
+<L>Ere <HI>Anious</HI> Duke rich Antwerpe did Inuade,</L>
+<L>Or &s;troue him&s;elfe Lord <HI>Paramont</HI> to make</L>
+<L>Of wealthy Brabant, I&s;endike and Sluce,</L>
+<L>Subiected were vnto the Vnions v&s;e.</L>
+<L>And &s;o remaind till <HI>Parmaes</HI> duke po&s;&s;e&s;t</L>
+<L>VVith generall power, his warrelike troupes addre&s;t</L>
+<L>Vnto the conque&s;t of this towne and Ile,</L>
+<L>Which<NOTE PLACE="marg">Sir <HI>Roger Williams</HI> and Sir <HI>Thomas Baskeruile,</HI> Reade the Netherlands hi&s;torie pag 966.</NOTE> <HI>Williams</HI> kept and famous <HI>Baskeruile,</HI></L>
+<L>Who for a &s;ea&s;on brauely did maintaine</L>
+<L>This place be&s;iegd, again&s;t the &s;trength of Spaine,</L>
+<L>Till by &s;urrender they the &s;ame did yeeld</L>
+<L>To the Ca&s;tilians ma&s;ters o're the fielde.</L>
+<L>They kept this &s;ame vntill <HI>Serrano</HI> lo&s;t</L>
+<L>It to th' <HI>Orangians,</HI> who&s;e laborious co&s;t</L>
+<L>Regaind the towne, whil&s;t that be&s;iegd O&s;tend,</L>
+<L><NOTE PLACE="marg">Pag. 1616.</NOTE>For thrice twelue months her bulwarks did defend.</L>
+<L>By which aduantage that commanding fort,</L>
+<L>Which &s;o much did all Zealands good import,</L>
+<L>Recouerd was, which now with might and maine</L>
+<L><HI>Inigo</HI> &s;triues for <HI>I&s;abel</HI> to gaine.</L>
+<L>For this proiect he drawes with &s;peeding po&s;te</L>
+<L>From Antwerpe, Gaunte, from Bruges and Alo&s;t,</L>
+<L>From all tho&s;e neighbour garri&s;ons which bide</L>
+<L>In fruitfull Flaunders, and in Brabants &s;ide.</L>
+<PB N="25" REF="15">
+<L>An Armie &s;trong, which reck'ned by the Li&s;t</L>
+<L>Of thirteene thou&s;and Souldiers did con&s;i&s;t.</L>
+<L>The&s;e vnder their <HI>Burgonian</HI> En&s;ignes marcht</L>
+<L>Vnto the Leaguer, neere to Augu&s;ts la&s;t;</L>
+<L>Where being come, like vndermining Moales,</L>
+<L>Which make their way through th'earths anfractuous holes,</L>
+<L>They draw their rowling Trenches tow'rds the mouth</L>
+<L>Of the Towne Harbour, which from We&s;t to South</L>
+<L>Giues a free pa&s;&s;age to the Cities Key,</L>
+<L>For Ships of burthen from the German Sea.</L>
+<L>The&s;e with<NOTE PLACE="marg">Crooked turnes.</NOTE> Meanders winding being ca&s;t,</L>
+<L>And brought within fit di&s;tance at the la&s;t;</L>
+<L>They rai&s;e their Platformes,<NOTE PLACE="marg"><P>A high worke of earth vpon which they plant Ordi|nance.</P>
+<P>A wall made of earth.</P></NOTE> Caualiers and Mounts,</L>
+<L>Who&s;e height the Bulwarks brea&s;t by farre &s;urmounts,</L>
+<L>Then plant their Cannon, who&s;e <HI>Promethean</HI> fire,</L>
+<L>Vpon the<NOTE PLACE="marg"><P>A high worke of earth vpon which they plant Ordi|nance.</P>
+<P>A wall made of earth.</P></NOTE> Rampier powres his thundring Ire,</L>
+<L>Which with vnce&s;&s;ant peales they &s;till doe plie,</L>
+<L>That &s;o our men might not re-fortifie</L>
+<L>The broken breaches, through who&s;e ruin'd vault</L>
+<L>They thought with ea&s;e the Bulwarke to a&s;&s;ault.</L>
+<L>Heere Bullets glancing from the batter'd wall,</L>
+<L>Among&s;t a Squadron of Defendants fall,</L>
+<L>Who&s;e mangled limbes, like men-&s;hap't Meteors flie</L>
+<L>Through th'horrid paths of the &s;moake-darkened skie.</L>
+<L>Some other mounting o're the Souldiers head,</L>
+<L>Meets with two Louers &s;porting in their bed,</L>
+<L>Who&s;e &s;oules are ha&s;tned to th' <HI>Eli&s;ian</HI> &s;hade,</L>
+<L>Through that &s;wift pa&s;&s;age which the bullet made.</L>
+<L>Here fiery balls from murdring<NOTE PLACE="marg">Great pieces of Ordinance.</NOTE> Bombards &s;hot,</L>
+<L>And to their highe&s;t leuell being got,</L>
+<L>Make the <HI>Louanian</HI> Students thinke from farre,</L>
+<L>That <HI>Phaeton</HI> is new mounted in his Carre.</L>
+<L>Nor doth our &s;ide their Shot and Powder &s;pare,</L>
+<L>But with thicke vollies beats the trembling ayre,</L>
+<L>Which lighting on the <HI>Iberians</HI> workes much harme,</L>
+<L>And with their blood the colder earth doth warme.</L>
+<L>The Townes chiefe command <HI>Vander Noet</HI> did wield,</L>
+<L>His honour'd &s;onne, whom <HI>Newport</HI> once beheld,</L>
+<PB N="26" REF="16">
+<L>To guard the <HI>Orangian</HI> Standart in that fight,</L>
+<L>When warlike <HI>Maurice</HI> conquer'd <HI>Alberts</HI> might.</L>
+<L>He like him&s;elfe, and like his Fathers &s;onne,</L>
+<L>Leaues nothing vnattempted, nought vndone</L>
+<L>By which he might th'ingaged place maintaine</L>
+<L>Gain&s;t all th'attempts of right-pretending <HI>Spaine.</HI></L>
+<L>To farther this, the Pioners are bid</L>
+<L>To rai&s;e new Platformes with the &s;wifte&s;t &s;peed,</L>
+<L>Our<NOTE PLACE="marg">Great baskets of earth.</NOTE> Gabions planted are, behind who&s;e bulke</L>
+<L>The &s;moaking Gunners with their Lint&s;tockes lurke:</L>
+<L>Our Ordinance new mounted is to batter,</L>
+<L>VVhich <HI>Babels</HI> walls, or <HI>Ecbatanes</HI> would &s;hatter.</L>
+<L>The Companies are quartred in the Towne,</L>
+<L>Or el&s;e without vpon the Sandie Downe,</L>
+<L>Who&s;e valour doth their Mettall &s;tiffe oppo&s;e,</L>
+<L>To th'vtmo&s;t perill of the brauing Foes.</L>
+<L>But although our &s;ide iealous of the good</L>
+<L>And publike &s;afetie, to their tackling &s;tood</L>
+<L>With matchle&s;&s;e valour; yet <HI>Inigoes</HI> force</L>
+<L>Their courage, skill, and labour did inforce,</L>
+<L>To purcha&s;e that <HI>Yperlian</HI> peerele&s;&s;e Gemme</L>
+<L>Raught by the States from <HI>Flaunders</HI> Diadem;</L>
+<L>Although that<NOTE PLACE="marg">The North|ea&s;t wind.</NOTE> winde, which from <HI>Tartaria</HI> blowes&punc;</L>
+<L>From <HI>Rugeland,</HI> and <HI>Mo&s;couiaes</HI> pla&s;hy &s;lowes</L>
+<L>Congealed had the <HI>Yperle,</HI> and the <HI>Lieue,</HI></L>
+<L>And made their liquid armes and branches &s;tiffe;</L>
+<L>Yet &s;till the Spaniards heated with the fire</L>
+<L>Of Honour and Reu<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">nge, did &s;till a&s;pire:</L>
+<L>So that the Winters &s;tormes, nor Natures threats,</L>
+<L>Who&s;e violence their hardie Legions beats,</L>
+<L>Could once diuert their valour pre&s;t to die,</L>
+<L>Or Spaniolize this Towne by victorie.</L>
+<L>Sometimes a<NOTE PLACE="marg">A Gentleman of a Company, who is to lye vpon his dutie.</NOTE> <HI>Perdieu</HI> lodg'd vpon the face</L>
+<L>Of Fro&s;t-bound <HI>Tellus,</HI> in that very place</L>
+<L>VVhere hee was &s;et, is by the Sergeant found</L>
+<L>Frozen to death, and fa&s;tned to the ground.</L>
+<L>Sometimes a Sentrie to his Po&s;ture &s;tanding,</L>
+<L>And from the Rounders <HI>Quiuala</HI> demanding,</L>
+<PB N="27" REF="16">
+<L>Ere the la&s;t Round <HI>Colo&s;&s;us</HI>-like doth &s;tand,</L>
+<L>With's a&s;hie Pike congealed to his hand:</L>
+<L>Yet the&s;e di&s;gu&s;ts of Nature ioyn'd with tho&s;e,</L>
+<L>Which reuenge bandied from their Slu&s;ian foes,</L>
+<L>Could not enforce <HI>Inigoes</HI> Troupes to ri&s;e,</L>
+<L>Proiecting &s;till to gaine Sluce by &s;urpri&s;e.</L>
+<L>But when the Sunne with his All-cheerefull beames,</L>
+<L>Had thawed the pauement of the Flemi&s;h &s;treames,</L>
+<L>And that his <HI>Phlegon</HI> &s;wich'd by &s;peeding time</L>
+<L>Began t'approch that Heauen-diuiding line,</L>
+<L>Who&s;e Zenith perpendicular doth &s;tand</L>
+<L>Ouer the Sun-burnt Aethiopian land.</L>
+<L>Eighteene braue Cohorts were from Zealand &s;ent,</L>
+<L>With danger-daring Re&s;olution bent,</L>
+<L>To cut the Dike, and that lowe Champion drench,</L>
+<L>VVhereon th'<HI>Iberians</HI> did them&s;elues intrench.</L>
+<L>Then might you &s;ee that ma&s;sie bounding frame</L>
+<L>(VVho&s;e Rampier did the Riuers fury tame)</L>
+<L>Pier&s;t through and through, and giue a free acce&s;&s;e</L>
+<L>Vnto the Floods, which made their &s;wift addre&s;&s;e</L>
+<L>To this inlarged rupture: then the Moales</L>
+<L>Abandon'd quite their hollow vaulted holes;</L>
+<L>Conies their Burrowes, Hares their Formes for&s;ooke,</L>
+<L>And their &s;wift legges new po&s;tures vndertooke,</L>
+<L>Swimming along with men-deuouring Sharkes,</L>
+<L>With Mu&s;icke-louing Dolphins, &s;caly Carpes,</L>
+<L>With bearded Barbels, and that ruddy Fi&s;h,</L>
+<L>Who&s;e Chines are &s;eru'd vp for a daintie di&s;h</L>
+<L>Vnto the Burgers, when their drunken<NOTE PLACE="marg">Is a Faire, or Reuell.</NOTE> Kirmi&s;h</L>
+<L>Inuites their braines with Rheni&s;h wine to skirmi&s;h.</L>
+<L>This Deluge made the <HI>Borgian</HI> Bands retyre,</L>
+<L>Cro&s;t in the proiect of their proud de&s;ire;</L>
+<L>Becau&s;e they fayl'd both of Cazaunt, and Sluce,</L>
+<L>Which they &s;o long'd to gaine for <HI>Philips</HI> v&s;e.</L>
+<L>But although <HI>Borges</HI> braue De&s;igne was croft</L>
+<L>By wauering Fortune, and his honour lo&s;t,</L>
+<L>Together with his Armies, pier&s;t the heart</L>
+<L>Of <HI>I&s;abella</HI> with repining &s;mart.</L>
+<PB N="28" REF="17">
+<L>Yet <HI>Vanderbercke,</HI> who <HI>Gulicke</HI> did be&s;iege</L>
+<L>With's Legions rai&s;'d from <HI>Naples, Spaine,</HI> and <HI>Liege,</HI></L>
+<L>Brought comfort to the Court, who&s;e furrowed face</L>
+<L>Lookt frowning &s;ad for <HI>Sluces</HI> late di&s;grace.</L>
+<L>Hee, whil&s;t that <HI>Maurice</HI> with his feeble Troupes</L>
+<L>Incamp'd at <HI>Dornicke,</HI> and his Army droupes,</L>
+<L>Being pre&s;t with &s;ickne&s;&s;e, marcht vnto the Towne,</L>
+<L>And there entrencht vpon the bordring ground.</L>
+<L><HI>Pethan</HI> commanded for the <HI>Belgicke</HI> Peeres</L>
+<L>As<NOTE PLACE="marg">Chiefe Go|uernour.</NOTE> Archprefect, who for &s;ome fore-pa&s;t yeares,</L>
+<L>The Cities Helme, and Dutchies both had &s;teer'd</L>
+<L>For's loyall care, for's gouernment vnfear'd.</L>
+<L>But now &s;u&s;pition mounted on the wing</L>
+<L>Of iu&s;t pretence, bred iealou&s;ies within</L>
+<L>Among&s;t our Captaines, who&s;e well trained Bands</L>
+<L>VVere &s;ubiect to <HI>Pithans</HI> au&s;tere commands.</L>
+<L>Hence &s;prung this cau&s;e, the wealthy <HI>Iuliers</HI> Boore</L>
+<L>Had hoorded vp in his well furni&s;ht &s;tore</L>
+<L>Larger proui&s;ions, which might well &s;upply</L>
+<L>The pinching wants of our nece&s;sities:</L>
+<L>Who&s;e fore&s;eene pre&s;&s;ure did begin to threat</L>
+<L>A Saguntine penuriou&s;ne&s;&s;e of meat,</L>
+<L>The tainted &s;tore proui&s;ions being &s;old,</L>
+<L>By State-Commi&s;sion, which the Towne controld.</L>
+<L>Be&s;ides tho&s;e Pa&s;tures where the<NOTE PLACE="marg"><HI>Roar,</HI> a great Riuer in the Dutchie of <HI>Iuliars.</HI></NOTE> <HI>Roar</HI> fills</L>
+<L>His &s;limie channell from the purling hills,</L>
+<L>Did &s;warme with Heards of that large <HI>German</HI> breed,</L>
+<L>Who&s;e v&s;e might full releeue the Cities need.</L>
+<L>For this re&s;pect the <HI>Gulikans</HI> adui&s;e</L>
+<L>Wauering <HI>Pithan</HI> proui&s;ions to &s;urpri&s;e</L>
+<L>From out the Champion, ere th'approaching foes</L>
+<L>Should &s;top the pa&s;&s;age, and th' Aduenues clo&s;e.</L>
+<L>Good was the Coun&s;ell, but like verball winde,</L>
+<L>It tooke no root within th'vn&s;etled minde</L>
+<L>Of <HI>Gulickes</HI> Gouernour, who&s;e wanting care</L>
+<L>From all defence our warlike Troupes doth bare.</L>
+<L>For what out-daring death, &s;elfe-laui&s;h Sprite</L>
+<L>Can &s;triue with hunger, or with famine fight?</L>
+<PB N="29" REF="17">
+<L>Then thus &s;uppo&s;e you &s;ee &s;urrounded round</L>
+<L>Faire <HI>Gulicks</HI> walls, and that their Trenches bound</L>
+<L>Clo&s;e to the<NOTE PLACE="marg">An vtter work commonly rai|&s;ed beyond all other Fortifi|cations.</NOTE> Rauelin, and tho&s;e vtter workes,</L>
+<L>Behind who&s;e ma&s;&s;e the &s;tout Defendant lurkes.</L>
+<L>Suppo&s;e you heare the dreadfull Cannon play</L>
+<L>From their high-cre&s;ted Platformes, and di&s;play</L>
+<L>Strange characters of Death, who&s;e &s;ad a&s;pect</L>
+<L>Might terrour on Deaths &s;econd &s;elfe reflect</L>
+<L>Lifes laui&s;hne&s;&s;e, who&s;e Adamantine heart</L>
+<L>Meane terrours doe not mooue, nor cau&s;e to &s;mart.</L>
+<L>Clo&s;e to the&s;e brazen Trunks, the worlds la&s;t wonder,</L>
+<L>True counterfeits of <HI>Ioues</HI> amazing thunder,</L>
+<L>Deaths p<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ologue acts his part, the Musket &s;ounds</L>
+<L>Lowd &s;ummons vnto death, to blood and wounds.</L>
+<L>Nor is this all wee &s;uffer, famine raignes,</L>
+<L>Cleanne&s;&s;e of teeth in euery &s;treet complaines;</L>
+<L>Things horrid are deuour'd, Dogs, Mice, and Rats,</L>
+<L>Lowd croaking Toadpoles, hunger-&s;tarued Cats:</L>
+<L>The <HI>Flemi&s;h</HI> Cour&s;er, and the <HI>Fri&s;on</HI> Steed,</L>
+<L>High pamperd for the Saddle now mu&s;t feed</L>
+<L>The Riders Colon, who&s;e vn&s;atiate maw</L>
+<L>Both again&s;t Rea&s;on, Nature, Cu&s;tomes Law,</L>
+<L>Feeds on that fle&s;h, who&s;e liuing backe did beare</L>
+<L>Him&s;elfe through horrors mouth, through dangers feare.</L>
+<L>Tho&s;e high-fed palats, which not long &s;ince far'd</L>
+<L>On <HI>Fri&s;elands</HI> fatte&s;t Fowle, <HI>We&s;tphaliaes</HI> Lard,</L>
+<L><HI>Zealandi&s;h</HI> Salmon, and the wilde Boares haunch,</L>
+<L>VVith which the richer Dutch doth cram his paunch</L>
+<L>On &s;olemne Fea&s;t-dayes; the&s;e for want of meat,</L>
+<L>Things vilifide and dunghil'd now mu&s;t eat.</L>
+<L>To redre&s;&s;e this our men their Spirits rally,</L>
+<L>And re&s;olute appoint a valiant &s;ally,</L>
+<L>By who&s;e aduenture they might either die,</L>
+<L>Or manumize them&s;elues from penurie:</L>
+<L>Since better 'tis for Valour once to bleed,</L>
+<L>Then &s;till to feele affliction vnder need.</L>
+<L>In this conflict<NOTE PLACE="marg">Captaine <HI>Iohn Haydon.</HI></NOTE> young <HI>Haydon</HI> doth appeare</L>
+<L>More then him&s;elfe, out-facing Fate and Feare,</L>
+<PB N="30" REF="18">
+<L>And with his Pi&s;toll arm'd, di&s;chargeth &s;ure</L>
+<L>With euery &s;hot a certaine Sepulture</L>
+<L>To &s;ome blacke-vi&s;ag'd Spaniard, who doth fall</L>
+<L>Neuer to ri&s;e, before the la&s;t dayes call.</L>
+<L>Among&s;t the re&s;t, one of the proude&s;t foes,</L>
+<L>As Challenger him&s;elfe in Combate &s;hewes,</L>
+<L>Aduanc'd before the re&s;t, and there defies</L>
+<L><HI>Goliath</HI>-like his brauer Enemies.</L>
+<L>This Spur-gall'd <HI>Haydon,</HI> who accepts the fight,</L>
+<L>And though vnarm'd, yet kills him in the &s;ight</L>
+<L>Of both Battalions, then recharg'd falls backe,</L>
+<L>To an&s;were him too with his Pi&s;tols cracke.</L>
+<L>But the Retreat now &s;ounded, parts the fray,</L>
+<L>And our men di&s;appoynted, cut their way</L>
+<L>With their well tempred Fauchius, to that gate</L>
+<L>From whence they made excur&s;ions but of late.</L>
+<L>This Salley pa&s;t, wherein with doubtfull chance</L>
+<L><HI>Bellona</HI> &s;hew'd her grimme fac'd countenance,</L>
+<L>And all reliefe<NOTE PLACE="marg">Debard, or &s;hut vp.</NOTE> portculliz'd from the Towne,</L>
+<L>By <HI>Vanderbercks</HI> Intrenchments, who &s;its downe</L>
+<L>Re&s;olu'd to winne and weare, then courage droopes,</L>
+<L>And mourning valour vnto famine &s;toopes,</L>
+<L>Who&s;e Bilboe-&s;teeled poynt was farre more keene,</L>
+<L>Then <HI>Spaniards</HI> wrath, or <HI>Vanderbercks</HI> fierce &s;pleene.</L>
+<L>The&s;e motiues vrg'd a parle, both condi&s;cend</L>
+<L>To this condition, and Committees &s;end</L>
+<L>As Delegates in tru&s;t, who&s;e &s;ound aduice</L>
+<L>The pre&s;ent difference might full compremi&s;e.</L>
+<L>Both parties being agreed, Count <HI>Henrie</HI> takes</L>
+<L>Reconquerd <HI>Gulicke,</HI> which <HI>Pithan</HI> for&s;akes,</L>
+<L>Who now di&s;marching through the Coleine port,</L>
+<L>Surrenders vp this hunger-conqu'red Fort.</L>
+<L>To reaffront this lo&s;&s;e, when fir&s;t the Spring,</L>
+<L>To Winter-tyred mortalls ioy doth bring:</L>
+<L>When May fir&s;t opens tho&s;e &s;elfe-named Flowers,</L>
+<L>Which Aprill blo&s;&s;omes with his pearled &s;howers:</L>
+<L><HI>Na&s;&s;auian</HI><NOTE PLACE="marg">Henry <HI>of</HI> Na&s;&s;aw.</NOTE> <HI>Henricke</HI> with &s;elected Bands</L>
+<L>Of Hor&s;e and Foot, in fruitfull <HI>Brabant</HI> lands</L>
+<PB N="31" REF="18">
+<L>Neere to <HI>Breda,</HI> from whence his dreadfull Armes</L>
+<L>Tran&s;ported worke &s;trange characters of harmes</L>
+<L>In little <HI>Brabant;</HI> Famine, Sword, and Fire</L>
+<L>Glutting Reuenge fre&s;h boyling with de&s;ire.</L>
+<L>Some fiftie Dorpes were in a moment burn'd,</L>
+<L>And their faire-fronted Edifices turn'd,</L>
+<L>By the con&s;umption of the raging flame</L>
+<L>To that fir&s;t Chaos, from whence fir&s;t they came.</L>
+<L>In mid&s;t of the&s;e Combu&s;tions <HI>Henry</HI> falls</L>
+<L>Before well fenced, well mann'd <HI>Herentals,</HI></L>
+<L>Where &s;eeking by Petarre to force the place,</L>
+<L>Our wanting<NOTE PLACE="marg">The Van|guard.</NOTE> Van &s;hew'd not that wonted face</L>
+<L>Of ancient re&s;olution, who&s;e default</L>
+<L>Debars the re&s;t from<NOTE PLACE="marg">A Towne in little <HI>Brabant.</HI></NOTE> <HI>Herentals</HI> a&s;&s;ault.</L>
+<L>Yet after this repul&s;e, our Foot &s;urpri&s;e,</L>
+<L>Partly by force, partly by Compremi&s;e,</L>
+<L>Two<NOTE PLACE="marg">Little Forts much v&s;ed by the Dutch. An Incur&s;ion of Hor&s;e.</NOTE> Sconces from the foes, who&s;e trembling hands</L>
+<L>Make good the Ports for <HI>Na&s;&s;aws</HI> &s;ure commands.</L>
+<L>Be&s;ides our Hor&s;e a<NOTE PLACE="marg">Little Forts much v&s;ed by the Dutch. An Incur&s;ion of Hor&s;e.</NOTE> Caualgado make</L>
+<L>Clo&s;e vnto <HI>Bru&s;&s;els,</HI> who&s;e burnt Suburbs take</L>
+<L>Impre&s;sions of our wrath; th' Archdutche&s;&s;e &s;ees</L>
+<L>The frowning face of the&s;e &s;ad mi&s;eries,</L>
+<L>Yet cannot &s;hee redre&s;&s;e them: for mans will</L>
+<L>Proiected re&s;olutions cannot fill,</L>
+<L>Without iu&s;t meanes of power, which Heauen &s;ends</L>
+<L>As In&s;truments t'accompli&s;h humane ends.</L>
+<L>Thus this incur&s;ion pa&s;t, our men retire</L>
+<L>Thorough the &s;moaking flames of <HI>Brabants</HI> fire</L>
+<L>Vnto <HI>Breda,</HI> rewarded for their paines</L>
+<L>With honours Crowne, and conquerd Spani&s;h gaines.</L>
+<L>Nor thus alone the Land with &s;laughter bleeds,</L>
+<L>But vnto <HI>Neptunes</HI> Maine <HI>Bellona</HI> &s;peeds</L>
+<L>With Engines of de&s;truction, where &s;hee &s;taines</L>
+<L>With &s;treames of blood the Sea-gods watry plaines.</L>
+<L>Tho&s;e va&s;t Armadaes, which commanded lay</L>
+<L>Neere to <HI>Baioun,</HI> and <HI>Saint Seba&s;tians</HI> Bay,</L>
+<PB N="32" REF="19">
+<L>Their Galeouns houering neere to <HI>Lisbones</HI> walls,</L>
+<L>Where <HI>Tagus</HI> into <HI>Thetis</HI> bo&s;ome falls;</L>
+<L>Their nimble Gallies &s;licing with their Oares</L>
+<L>Tho&s;e billowing waues, which beat on <HI>Affrickes</HI> &s;hores,</L>
+<L>Sometimes on th'Oceans Maine incountring meet</L>
+<L>With <HI>Am&s;terdams,</HI> or <HI>Flu&s;hings</HI> warlike Fleet,</L>
+<L>Which homewards bound from <HI>Venice,</HI> or <HI>Ligorne,</HI></L>
+<L>From <HI>Scanderoun,</HI> or <HI>Aegypt</HI> rich in Corne,</L>
+<L>Doe proudly plow the Mediterran Maine,</L>
+<L>Swelling with profit, and full fraught with gaine.</L>
+<L>Sometimes againe <HI>Moy Lambert,</HI> or <HI>L' Hermite,</HI></L>
+<L><HI>Willeks,</HI> or fierce <HI>Hugen</HI> this lo&s;&s;e requite;</L>
+<L>Who trauer&s;ing tho&s;e Seas, who&s;e rougher Tide</L>
+<L>From <HI>Magellanus</HI> Streights doth Northwe&s;t glide,</L>
+<L>Neere to th'<HI>Honduras</HI> Gulfe, <HI>Domingoes</HI> Ile,</L>
+<L>Or the <HI>Terceraes,</HI> famous for the foyle</L>
+<L>Of valiant <HI>Stro&s;&s;y,</HI> meet &s;ome Spani&s;h Hulke,</L>
+<L>Or &s;ome &s;wift Caruell, who&s;e full fraughted bulke</L>
+<L>Is loaden with that rich<NOTE PLACE="marg">At <HI>Peto&s;i</HI> in <HI>Peru</HI> are mo&s;t rich Mines of Gold.</NOTE> <HI>Poto&s;ian</HI> Oare,</L>
+<L>Which <HI>Lima</HI> &s;ends from <HI>Perues</HI> wealthy &s;hoare.</L>
+<L>Sometimes againe neere the <HI>Bal&s;oran</HI> Sound,</L>
+<L>Or <HI>Teneriffaes</HI> pike, where Amber's found</L>
+<L>Of th'highe&s;t price, &s;ome of their armed Ships</L>
+<L>Incounter with &s;ome Carracke, who&s;e &s;trong ribs</L>
+<L>Are balla&s;t with tho&s;e drugs, which <HI>Chinaes</HI> plaines</L>
+<L>Send from their fruitfull Aromatique vaines;</L>
+<L>Or with tho&s;e Spices, which for barter'd Gold</L>
+<L>Are by the<NOTE PLACE="marg">The Inhabi|tants of <HI>Iaua,</HI> and the <HI>Mo|luccoes.</HI> A place in <HI>A|fricke,</HI> &s;ubiect to the <HI>Portu|gals.</HI></NOTE> <HI>Iauans,</HI> and <HI>Moluccoies</HI> &s;old.</L>
+<L>Among&s;t the re&s;t great <HI>Angolaes</HI> Viceroy</L>
+<L>For <HI>Andaluzia</HI> bound, with &s;miling ioy</L>
+<L>Th' Atlantique Ocean cuts, and proudly &s;ailes</L>
+<L>Thorough the Maine, till &s;ome <HI>Dutch</HI> Sea-man hailes,</L>
+<L>And bids him &s;trike: then as th' <HI>Hircanian</HI> bea&s;t,</L>
+<L>Whom the pur&s;uing Hunter doth inue&s;t</L>
+<L>With's knottie Toyles, fir&s;t &s;eekes to &s;cape the danger;</L>
+<L>But that being vaine, he turnes his feare to anger,</L>
+<PB N="33" REF="19">
+<L>And fiercely coaping with th'incountring foe,</L>
+<L>Doth th'vtmo&s;t deuoir of his courage &s;how.</L>
+<L>The <HI>Portugueze</HI> vnequall to &s;u&s;taine</L>
+<L>The <HI>Flu&s;hingers</HI> incounter, plies amaine</L>
+<L>Both Helme and Yard, and forwards led by feare</L>
+<L>Swifter then any wind, doth nimbly &s;teere</L>
+<L>Ouer the ridge of tho&s;e high-breaking waues,</L>
+<L>Who&s;e beating &s;urge <HI>Terceraes</HI> foreland lanes.</L>
+<L>But this being labour lo&s;t, he turnes his head</L>
+<L>Vnto the combate with a &s;ide-wind &s;ped:</L>
+<L>Then their Canoniers with the<NOTE PLACE="marg">An Engine which Gu~ners v&s;e to charge Ordinance.</NOTE> Carteridge ply</L>
+<L>Their great and le&s;&s;er &s;iz'd Artillery,</L>
+<L>Larboord and Starboord readie for the charge,</L>
+<L>Their Langrell, and their Cro&s;&s;e-barre &s;hot di&s;charge:<NOTE PLACE="marg">Great &s;hot v|&s;ed at Sea,</NOTE></L>
+<L>The Muskettiers &s;tanding vpon a Range,</L>
+<L>Behind the Wa&s;t-cloaths doe their bullets change,</L>
+<L><HI>Granado</HI> balls, from th'hand, or Bombard &s;ent,</L>
+<L>With vaprous &s;moake ob&s;cure the Firmament:</L>
+<L>So that &s;uruaying water, land, or ayre,</L>
+<L>Death, dread, and danger &s;warmed eu'ry where.</L>
+<L>The Sea-nimphs were afraid, and <HI>Neptune</HI> hid</L>
+<L>His forked Ma&s;e with feare a&s;toni&s;hed.</L>
+<L>The trembling Mermayds did for horrour quake,</L>
+<L>As when th'inclo&s;ed winds the waters &s;hake,</L>
+<L>Thinking <HI>Prometheus</HI> hauing broke tho&s;e bands,</L>
+<L>Which manacled his Vultur-griped hands,</L>
+<L>And manumiz'd from his tormenting paine,</L>
+<L>Did imitate <HI>Ioues</HI> Thunderbolts againe.</L>
+<L>But when that both &s;ides to their clo&s;e fights came,</L>
+<L>And tryed the la&s;t chance of this martiall Game,</L>
+<L>From out the Scuttle-holes &s;pouted &s;treames of blood,</L>
+<L>Which clotted on the curled Ocean &s;tood,</L>
+<L>The Murderers from out their higher Tires,</L>
+<L>Di&s;charged dreadfull flakes of &s;ulphrous fires,</L>
+<L>Who&s;e &s;trong emi&s;siue power with Tarlin kill'd</L>
+<L>Whole hundreds, and with &s;laughtred carnage fill'd</L>
+<PB N="34" REF="20">
+<L>Their vpper Decks, which &s;traight blowne vp did flye</L>
+<L>Through the va&s;t extent of th'inameld skie.</L>
+<L>But at the length the <HI>Portugalls</HI> pur&s;ued</L>
+<L>With danger of all hands, for Quarter &s;ued</L>
+<L>Vnto the <HI>Dutch,</HI> who from the farthe&s;t South</L>
+<L>Th'<HI>Angolians</HI> brought to<NOTE PLACE="marg">The Riuer of <HI>Flu&s;hing.</HI></NOTE> <HI>Scheldis</HI> watrie mouth,</L>
+<L>Inriched for their hazard with that Gold,</L>
+<L>Which heaped lay within that Galeouns hold.</L>
+</DIV1>
+</BODY>
+</TEXT>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="20">
+<P>BELGIAES TROVBLES, AND TRIVMPHS.</P>
+<P><HI>The Second Booke.</HI></P>
+<P>WHEREIN ARE RELA|ted all the mo&s;t famous Occurrences which haue happened in the Nether|lands, <HI>from the A&s;cen&s;ion of our</HI> Sauiour, 1622. vnto this pre|&s;ent time, 1625.</P>
+<P>LONDON, Printed by <HI>Augustine Matthewes,</HI> and <HI>Iohn Norton.</HI> 1625.</P>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="21">
+<PB N="37" REF="21">
+<HEAD>TO THE RIGHT HO|NOVRABLE, EDVVARD, LORD CONVVAY, Baron of Raggely, and one of his Maie&s;ties principall Se|cretaries of State, And Sir HORACE VEARE, Col. <HI>Gene|rall of the Engli&s;h in the Netherlands,</HI> WILLIAM CROSSE wi&s;heth that happine&s;&s;e which they them|&s;elues de&s;ire.</HEAD>
+<P>_RIght Honourable, your knowne loues to the Vnited Prouinces of the Nether|lands, and their Cau&s;e, &s;ealed by your Honours with the free expence of your deare&s;t blood, and the frequent hazard of your liues, haue be&s;ides tho&s;e other motiues of your knowledge, iudgement, and experience in Subiects of this nature, inuited mee to this Dedica|tion. The first Part of <HI>Belgiaes Troubles and Tri|umphs,</HI> belongs to the Earle of <HI>E&s;&s;ex,</HI> and my Lord <HI>Montioy;</HI> the &s;econd part is con&s;ecrated to your Hono|red &s;elues: Both the&s;e are rather a Di&s;cour&s;e, then a Poeme, as truely and Hi&s;torically relating the mo&s;t re|markable and time-neerer Exployts, which haue pa&s;&s;ed betweene the <HI>Dutch</HI> and the <HI>Spaniards,</HI> in the&s;e la&s;t foure yeeres Warres of the Netherlands. In this Li&s;t,
+<PB N="38" REF="22"> the Siege of <HI>Bergen,</HI> and that of <HI>Breda,</HI> the Battels of <HI>Flewry</HI> and <HI>Statloo,</HI> with the taking of <HI>Saint Salua|dour</HI> in <HI>Bra&s;ilia,</HI> challenge aboue the re&s;t the chiefe&s;t place and prerogatiue. The re&s;t are minor ge&s;ts, and deeds of le&s;&s;e con&s;equence, yet worthy for their worths to bee kept in the clo&s;et of Remembrance. In all th<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&s;e as in a repre&s;enting Gla&s;&s;e, you may &s;ee the mercie of God ex|tended from time to time to this E&s;tate, fir&s;t erected from the Inforcements of the <HI>Spani&s;h</HI> tyrannie, &s;ince &s;upported by the Auxiliary meanes of the <HI>Engli&s;h, French,</HI> and <HI>Scots,</HI> and maintained at this pre&s;ent in that greatne&s;&s;e, which the world &s;ees and admires, by Policie, Power, and Religion. If publike cen&s;ure bee as impartiall as is the Poeme, the Authour &s;hall thinke his endeuours fortunate: As for your Noble &s;elues, he doth pre&s;ume vpon the candour and integritie of your E&s;ti|mations, vndoubtedly knowing, that you accept a mite as re&s;pectiuely as a talent, and esteeme the freedome of the Giuer, more then the value of the gift. Vpon this a&s;|&s;urance hee doth rest, and &s;o doth for euer re&s;t</P>
+<CLOSER><SIGNED><HI>Your Honours mo&s;t deuoted Seruant,</HI> William Cro&s;&s;e.</SIGNED></CLOSER>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 N="2" TYPE="book">
+<PB N="39" REF="22">
+<HEAD>BELGIA'S TROVBLES AND TRIVMPHS.</HEAD>
+<HEAD TYPE="sub"> <HI>The &s;econd Booke.</HI></HEAD>
+<ARGUMENT>
+<HEAD>THE ARGVMENT.</HEAD>
+<P>IN this &s;econd part continued from the A&s;cen&s;ion of our So|uiour, <HI>anno 1622,</HI> vnto this pre&s;ent time, <HI>anno 1624,</HI> are contained a De&s;cription of our fir&s;t Leaguer at <HI>Rees,</HI> with the killing of an Jtalian Captaine by <HI>Beaumont</HI> a Frenchman hand to hand. His Excellencies a&s;cent to <HI>Gravenweert,</HI> and a Relation of a Cami&s;ado, giuen by foureteene Troupes of the enemies Hor&s;e vpon our quarters. Our march to the <HI>Bu&s;&s;e,</HI> and our retreat from thence. The &s;iege of <HI>Bergen,</HI> and that famous Battell fought neere <HI>Fleury,</HI> betweene Count <HI>Maun&s;|field,</HI> and <HI>Gon&s;aluo de Corduba.</HI> The co<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&s;piracie of <HI>Barne|velts</HI> two &s;onnes, and other <HI>Arminians</HI> again&s;t the Prince of <HI>Orange.</HI> The Battell of <HI>Statloo,</HI> fought betweene <HI>Tilley</HI> and <HI>Bru<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&s;wicke.</HI> The taking of S. <HI>Saluadour.</HI> The Siege of <HI>Breda,</HI> with the &s;urpri&s;all of <HI>Goffe</HI> by <HI>Charles Lambert.</HI></P>
+</ARGUMENT>
+<L>_AFter our Troups had breath'd, and that the date</L>
+<L>Of that &s;ame Fea&s;t, which Mor<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">als con&s;ecrate</L>
+<L>To <HI>Chri&s;ts A&s;cen&s;ion,</HI> had proclaim'd the Field</L>
+<L>Tour <HI>Belgicke</HI> Troups, with &s;trength and courage &s;teeld,</L>
+<L><NOTE PLACE="marg">Orders of Command.</NOTE>Potents were &s;ent forth, full &s;ixe thou&s;and poa&s;t,</L>
+<L>Vpon their Summons from that nether coa&s;t&punc;</L>
+<L>Of fertill <HI>Holland,</HI> to that higher land,</L>
+<L>Where <HI>Rees</HI> ore-lookes the billowing <HI>Rhenus</HI> Strand.</L>
+<PB N="40" REF="23">
+<L>There &s;afe ariuing, with the deluing Spade</L>
+<L>New horned Workes, Intrenchments new were made;</L>
+<L>Behind who&s;e brea&s;t they might them&s;elues defend</L>
+<L>From <HI>&V;anderbercke,</HI> who&s;e <HI>Argian</HI> eyes attend</L>
+<L>Vpon our motions all, on each de&s;igne,</L>
+<L>Which he &s;till thwarting, &s;eekes to countermine.</L>
+<L>Among&s;t the re&s;t, with &s;ome <HI>Italian</HI> Hor&s;e,</L>
+<L>He &s;eekes to gaine the<NOTE PLACE="marg">A Turnepike is a gate which giues entrance into the Camp</NOTE> Turnepike, and to force</L>
+<L>Our Hor&s;e-guard led by <HI>Beaumont,</HI> who doth frount</L>
+<L>The dreadfull &s;hocke of this <HI>Italian</HI> brunt.</L>
+<L>Him their <HI>Ligurian</HI> Leader hauing &s;pied</L>
+<L>By's wauing Plume, and Armour rich de&s;cried:</L>
+<L>Come on, come on, quoth hee, let vs two trie</L>
+<L>The doubtfull fortune of this Victorie;</L>
+<L>Tho&s;e Armes, that Plume &s;hall be the Conquerors &s;poyle,</L>
+<L>And honour'd marks of vanqui&s;ht <HI>Beaumonts</HI> foyle.</L>
+<L>With this his &s;purr'd Calabrian Cour&s;er flies</L>
+<L>Swifter then winde, and curuetting doth ri&s;e</L>
+<L>Beyond the bri&s;tled<NOTE PLACE="marg">Ha&s;pels are Engines made to throw down before the Turnepike, which point e|uery way with pikes about an ell long.</NOTE> Ha&s;pels, where they ioyne</L>
+<L>Force vnto force this Combate to define.</L>
+<L>Not Almaine-like they wheele about at large,</L>
+<L>But Poldron vnto Poldron, make the charge</L>
+<L>With their death-belching Pi&s;tols, both which &s;trike</L>
+<L>With equall force, but fortune much vnlike.</L>
+<L>For <HI>Beaumont</HI> &s;lightly's wounded in the thigh,</L>
+<L>T'other is &s;laine, and falls downe pre&s;ently,</L>
+<L>Who&s;e carkei&s;e after many mortall blowes</L>
+<L>Recouer'd is, recarried by the foes</L>
+<L>Vnto the Campe, where they this chance lament,</L>
+<L><NOTE PLACE="marg">This Italian was <HI>Spinolaes</HI> kin&s;man.</NOTE>Seal'd with the lo&s;&s;e of one &s;o eminent;</L>
+<L>As alyed to the Marque&s;&s;e, and for's Spirit,</L>
+<L>Not dignified &s;o much by Blood, as Merit.</L>
+<L>After &s;ome month in this fir&s;t Station &s;pent,</L>
+<L>Eight thou&s;and more were by Prince <HI>Maurice</HI> &s;ent</L>
+<L>Towards <HI>Skenkes</HI>-Sconce; who doubling <HI>Arnhams</HI> walls,</L>
+<L>Arriues at<NOTE PLACE="marg">Otherwi&s;e, <HI>Skenkes</HI> Sconce</NOTE> <HI>Grauenweert,</HI> and from thence falls</L>
+<L>Ouer the <HI>Wahal</HI> to tho&s;e Southerne bankes,</L>
+<L>Which <HI>Skenks</HI>-Sconce with his thundring Cannon flanks.</L>
+<PB N="41" REF="23">
+<L>There being come, their Pioneers do rai&s;e</L>
+<L>Strong<NOTE PLACE="marg">Little forts which the Dutch rai&s;e &s;uddenly for their defences.</NOTE> Redoubts on the pa&s;&s;age of tho&s;e wayes,</L>
+<L>Who&s;e winding turnes runne from the Cleuian hill</L>
+<L>To tho&s;e Intrenchments which our footebands fill.</L>
+<L>Our hor&s;e without, and vnintrenched lay</L>
+<L>With watchfull care &s;afeguarding night and day,</L>
+<L>Tho&s;e &s;mall Batauian<NOTE PLACE="marg">Villages.</NOTE> Dorps, who&s;e verge extends</L>
+<L>From <HI>Nimegham</HI> to <HI>Geldriaes</HI> Ea&s;terne ends.</L>
+<L>This &s;eeming &s;hewd aduantage doth incite</L>
+<L>Proud <HI>Vanderbercke</HI> the <HI>Reezian</HI> foile to quite,<NOTE PLACE="marg">Cami&s;ade a<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> a&s;&s;aulte in their own lodginge.</NOTE></L>
+<L>With &s;ome fre&s;h Cami&s;ade: for this de&s;igne</L>
+<L>Some foureteene troups pa&s;&s;e o're that Apennine</L>
+<L>Where <HI>Cleuia</HI> &s;tands, who couered by the night</L>
+<L>And a &s;till march, about the dawning light</L>
+<L>Approch our vtter Sentries, and &s;urpri&s;e</L>
+<L>Them and the<NOTE PLACE="marg">Tho&s;e that walke the Round.</NOTE> Rounders, who&s;e &s;leepe &s;ealed eyes</L>
+<L>Betray the re&s;t; hence trauer&s;ing that way</L>
+<L>Neere vnto which our Scoti&s;h hor&s;eguard lay,</L>
+<L>The&s;e proud Burgonian Rei&s;ters forthwith finde</L>
+<L><HI>Balfour</HI> &s;urpri&s;d in ods, but not in minde;<NOTE PLACE="marg">Sir <HI>William Balfour</HI> that day comman|ded the hor&s;e guarde.</NOTE></L>
+<L>Who thus ingagd receiues the dreadfull &s;hocke</L>
+<L>Of the&s;e &s;warte Rutters, rendring knocke for knocke:</L>
+<L>Till at the length di&s;mounted he doth yeeld</L>
+<L>Vnto the &s;tronger, who thence &s;courd the field</L>
+<L>After his Cornet, which retiring flies</L>
+<L>Couerd with fire, oppre&s;t with Enemies,</L>
+<L>And on the &s;tation of our Footeguards fell</L>
+<L>Who&s;e Muskettiers the&s;e Carbins &s;traight repell.</L>
+<L>For now from eu'ry &s;ide th'Alarum takes,</L>
+<L>And each man to the battell Champion makes,</L>
+<L>Where nought was &s;eene vpon the bloudy plaine</L>
+<L>But batterd armes, and carkei&s;&s;es new &s;laine.</L>
+<L>The lo&s;&s;e was like, for our men did &s;urpri&s;e</L>
+<L>The<NOTE PLACE="marg">A Wallone who came the day before into our campe being di&s;|gui&s;'d.</NOTE> chiefe conductor of this enterpri&s;e</L>
+<L>With a Burgonian Captaine; of our &s;ide</L>
+<L><HI>Balfour</HI> was tae'n, and <HI>Weimars</HI> Duke lyes by't,</L>
+<L>Vntill &s;ome better fortune &s;hould decree,</L>
+<L>Th' vncertaine &s;cope of his Captiuitie.</L>
+<PB N="42" REF="24">
+<L>To requite this affrount this proud &s;urpri&s;e</L>
+<L>P<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ince <HI>Maurice</HI> with &s;ix thou&s;and foote doth ri&s;e</L>
+<L>From <HI>Grauenweert,</HI> and floating downe wards fals,</L>
+<L>Without the ratling Drums, or trumpets cals</L>
+<L>Beyond fat <HI>Bommelweert,</HI> where he doth land</L>
+<L>His <HI>Phalangiers,</HI> who pa&s;sing by commaunde</L>
+<L>Waft o're the <HI>Mo&s;as</HI> Willow bordred banks</L>
+<L>Who&s;e waues do wa&s;h well fenced <HI>Hui&s;dens</HI> flanks.</L>
+<L>Ma<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ching from thence our vauntcurrors de&s;crye</L>
+<L><NOTE PLACE="marg">Commonly called the <HI>Bu&s;&s;e.</HI></NOTE><HI>Shertokenbu&s;&s;e,</HI> who&s;e maiden ports defie</L>
+<L>All on&s;lats, all attempts, and proudly &s;tands</L>
+<L>Vpon defence with &s;<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">u'nteene cho&s;en bands</L>
+<L>Of <HI>VVallons,</HI> and <HI>Braban&s;ons</HI> readie pre&s;t</L>
+<L><GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">ich life, and limme to keepe the &s;eathred ne&s;t</L>
+<L>Of th<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&s;e free booters, who by<NOTE PLACE="marg"><HI>Derricke</HI> was Captaine of two hundred free booters who lay in the <HI>Bu&s;&s;e.</HI></NOTE> <HI>Derricke</HI> led</L>
+<L>Them&s;elues to rapine, murder, pillage wedde,</L>
+<L>And feeding on the contribution <HI>Boore,</HI></L>
+<L>Grea&s;<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> palmes, and paunch with his con&s;umed &s;tore.</L>
+<L>There hauing viewed that well defenced towne,</L>
+<L>We made a &s;tand vpon the bordring downe</L>
+<L>About the time, that gli&s;tring <HI>Phaebus</HI> laues</L>
+<L>His bright Carroch in Thet is we&s;terne waues.</L>
+<L>Then orders were giu'n out, the ca&s;d<NOTE PLACE="marg"><HI>Petarrs</HI> En|gins made to blow vp gates.</NOTE> <HI>Petarres</HI></L>
+<L>Strange Engins found out in our moderne wars,</L>
+<L>Who&s;e &s;ulphr'ous power the brazen gates would &s;hatter</L>
+<L>Of <HI>Ecbatane,</HI> and that &s;trong portall batter</L>
+<L><NOTE PLACE="marg">The Iron gates which <HI>Alexander</HI> made vpon the &s;treights of mount <HI>Canca|&s;us.</HI></NOTE>Whereas the &s;teepe Cauca&s;ean mountaines rockes</L>
+<L>Are chaynd as pri&s;'ners with his Iron lockes:)</L>
+<L>The&s;e <HI>Corbett</HI> did commaund, the fir&s;t aduenture</L>
+<L>Was <HI>Tibals</HI> chardge, who formo&s;t was to enter</L>
+<L>With that &s;elected crue, that cho&s;en band</L>
+<L>Which he as <HI>&V;eares</HI> Lieutenaunt did commaund.</L>
+<L>Thus all things being di&s;po&s;ed for the fight</L>
+<L>We ro&s;e from thence, and marching all that night</L>
+<L>Pa&s;t thorough &s;andy, rough, Maeanderd wayes</L>
+<L>Where errour led our &s;mall battalion &s;trayes.</L>
+<L>So that we came not to the <HI>Bu&s;sian</HI> gate</L>
+<L>Before the dawning light, a time to late</L>
+<PB N="43" REF="24">
+<L>The &s;trong portcullizd <HI>Turnepike</HI> to &s;urpri&s;e</L>
+<L>VVhich<NOTE PLACE="marg"><HI>Grobbend<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ncke</HI> was as then gouernour of the towne.</NOTE> <HI>Grobbendoncke</HI> with's hundred watchfull eyes</L>
+<L>Safeguarded &s;ure, who takes a clo&s;e Alar'me</L>
+<L>VVith all his bands, commaunding all to arme.</L>
+<L>This cau&s;'d vs to retire, and homewards bend</L>
+<L>VVith out th' effect of that proiected ende,</L>
+<L>VVho&s;e hopes had brought vs to tho&s;e Champion plaines</L>
+<L>VVhich <HI>Ma&s;e</HI> enricheth with his flowing vaines,</L>
+<L>The Spoiles of <HI>Brabant,</HI> and the conquer'd <HI>Bu&s;&s;e</HI></L>
+<L>Being the proiect of each wanting pur&s;e.</L>
+<L>In this retraite our troups were hunger pre&s;t</L>
+<L>Tired with trauaile, and with thir&s;t oppre&s;t:</L>
+<L>So that vntill we toucht vpon the <HI>Ma&s;e</HI></L>
+<L>Towards who&s;e &s;treames our Maniples did pace,</L>
+<L>We far'd like &s;ome <HI>Alarbian</HI> hungrie theefe</L>
+<L>Who trauer&s;ing the de&s;ert for releefe</L>
+<L>Followes the tracke of &s;ome knowne Carauan,</L>
+<L>Which to fulfill their Heath'ni&s;h <HI>Alcoran,</HI></L>
+<L>Vi&s;its that prophane <HI>Mahometan</HI> &s;hrine</L>
+<L>Plac'd by the Caliphs<NOTE PLACE="marg">A<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> <HI><GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">echa</HI> in <HI>Arabia.</HI></NOTE> neere th' <HI>Arabian</HI> Sine.</L>
+<L>Tho&s;e &s;tinking pooles, <HI>Cocitus</HI> like a&s;pected</L>
+<L>Which the Mara&s;hes vapours had infected,</L>
+<L>Tho&s;e puddle lakes wherein the water Toade</L>
+<L>The Frogge and Hor&s;leech keepe their &s;afe aboade,</L>
+<L>Were &s;ought, and &s;earcht out to alay the fire</L>
+<L>Of appetite fre&s;h burning with de&s;ire.</L>
+<L>Who&s;e liquour was more pretious to the mouth</L>
+<L>Then all tho&s;e wines tran&s;ported from the South</L>
+<L>Which the <HI>Canarian</HI> Ilander doth &s;up</L>
+<L>On &s;ollemne fea&s;ts in's <HI>Nectar</HI> crowned Cup,</L>
+<L>Then that the <HI>Cretan</HI> neere <HI>Cerathus</HI> drinks,</L>
+<L>Or <HI>Bachrach</HI> &s;ends from <HI>Rhenus</HI> &s;andy brinks.</L>
+<L>Yet after tho&s;e di&s;gu&s;ts &s;urmounted all,</L>
+<L>Which like &s;ome &s;torme vpon our troups did fall,</L>
+<L>And tho&s;e freebooters all repul&s;ed backe,</L>
+<L>Which followd our <HI>Na&s;&s;auians</HI> by the tracke;</L>
+<L>We pa&s;t vnto the<NOTE PLACE="marg">A towne in <HI>Gelderland</HI> belonging to the &s;tates.</NOTE> <HI>Graue,</HI> where each man feedes</L>
+<L>In plenties <HI>Magazin,</HI> and all our needes</L>
+<PB N="44" REF="25">
+<L>Receiud &s;upplies from tho&s;e fat Geldrian fields,</L>
+<L>Who&s;e &s;warming &s;toare, Bread, Beefe and Mutton yeelds</L>
+<L>In greater mea&s;ure, then that Ea&s;terne land,</L>
+<L><NOTE PLACE="marg">The lands of <HI>A&s;&s;iria</HI> and <HI>Hungarie</HI> are very fruitefull.</NOTE>VVhich borders on the roaring Tigris &s;trande,</L>
+<L>Or tho&s;e <HI>Pannonian</HI> pa&s;tures, where the gra&s;&s;e</L>
+<L>For's &s;udden growth compari&s;on doth pa&s;&s;e.</L>
+<L>Thus hauing well refre&s;ht our hungry bands</L>
+<L>VVe doubled tho&s;e high cre&s;ted heathy lands,</L>
+<L>VVhich forth extended from the billowing Ma&s;e,</L>
+<L>Do ouerlooke the Betowes various face.</L>
+<L>From thence our tired legions &s;peeding came</L>
+<L>Vnto the ports of<NOTE PLACE="marg"><HI>Nimegham</HI> &s;tands high vpon the han|ging of a hill.</NOTE> high built <HI>Nimegham,</HI></L>
+<L>There re&s;ting one whole night we made de&s;cent</L>
+<L>Vnto the plaines of that lowe Continent,</L>
+<L>VVhere neere to our Intrenchments <HI>Waal</HI> doth &s;lide</L>
+<L>From out the Rhines inameld diaprie &s;ide,</L>
+<L>VVho&s;e weeping waues &s;eemd to condole with vs,</L>
+<L>Becau&s;e we mi&s;t th' vnconquerd maiden Bu&s;&s;e.</L>
+<L>But in this &s;pace that warre like <HI>Genoue&s;e</HI></L>
+<L>Th' Infantaes Generall &s;corning pampred ea&s;e,</L>
+<L>VVith the&s;e alarums row&s;d doth angry fare</L>
+<L>Like &s;ome Mu&s;couian winter pined Beare,</L>
+<L>VVho when the Sun begins to melt the Snow,</L>
+<L>VVhich pargetteth that Northerne Climats brow</L>
+<L>For&s;akes his denne, and roauing runs for praye</L>
+<L>VVith all his Cubs their hunger to alay.</L>
+<L>To quench this bloodie thir&s;t he &s;ends commands</L>
+<L>Through <HI>Flaunders, Heinault</HI> and tho&s;e <HI>VVallon</HI> lands,</L>
+<L>VVho&s;e Frontier from the Briti&s;h Ocean bends</L>
+<L>To <HI>Limburge,</HI> and <HI>Burgundiaes</HI> we&s;terne ends:</L>
+<L>Inioyning all their Garri&s;ons to arme</L>
+<L>Vpon the &s;ummons of this fir&s;t Alarme,</L>
+<L>And at a day prefixt them&s;elues to &s;how</L>
+<L>Neere <HI>Antwerpe</HI> their determin'd Randeuowe.</L>
+<L>The&s;e Regiments, with tho&s;e which <HI>Borges</HI> ledde,</L>
+<L>Who neere to Sluce were winter-billetted,</L>
+<L>Vpon this order to <HI>Steu'n Bergen</HI> pa&s;t</L>
+<L>In warrelike manner neere to <HI>Iulies</HI> la&s;t.</L>
+<PB N="45" REF="25">
+<L>That towne being wonne, they lingerd not an houre</L>
+<L>But &s;traight-waies marcht with their victorious power</L>
+<L>To <HI>Bergen,</HI> where their men the<NOTE PLACE="marg">A Terrier in properly any thing that puts it &s;elfe into the earth.</NOTE> <HI>Terriers</HI> play</L>
+<L>Behind that Mount, which oppo&s;ite then lay</L>
+<L>Vnto the port of <HI>VVowe,</HI> from whence their workes,</L>
+<L>Behind who&s;e couert all their Armie lurkes,</L>
+<L>Extended ran vnto the <HI>Kickepotte</HI> forte,</L>
+<L>Which ouerlookes the Cities Southerne porte.</L>
+<L>Vpon their fir&s;t approch &s;ome Squadrons pre&s;t</L>
+<L>Did Sallie forth, and &s;allying did Inue&s;t</L>
+<L>That hillocke, where the <HI>Vauzian Engli&s;h</HI> &s;toode,<NOTE PLACE="marg">The Engli&s;h of my Lord <HI>Vauxes</HI> regi|ment.</NOTE></L>
+<L>In Ca&s;tiles cau&s;e &s;elfelaui&s;h of their blood.</L>
+<L>Harde was the fight, for nation again&s;t nation</L>
+<L>Engli&s;h 'gain&s;t Engli&s;h fought with emulation;</L>
+<L>But &s;till the Marques &s;ending fre&s;h &s;upplies,</L>
+<L>With number more then valour wonne the pri&s;e</L>
+<L>From the be&s;ieged, who with ods &s;urchardg'd</L>
+<L>Retired, and retiring &s;till di&s;chardg'd</L>
+<L>Their murdring Mu&s;kets on the Spani&s;h files,</L>
+<L>Which &s;ix to one &s;urpa&s;t our<NOTE PLACE="marg">A Maniple is a diui&s;ion of files.</NOTE> Maniples.</L>
+<L>After the pa&s;&s;age of this fir&s;t affrounte,</L>
+<L>The foes incouragd did their Cannon mount</L>
+<L>Vpon new<NOTE PLACE="marg">A place to mount Ordi|nance on.</NOTE> platformes rai&s;'d, who&s;e thundring reach</L>
+<L>Hauing inforcd an a&s;&s;aultable breach,</L>
+<L>They &s;cald the ruines, and began the fight</L>
+<L>Vaild with the Curtin of a Moone&s;hine night</L>
+<L>About the &s;econd Round: with various chaunce</L>
+<L>In this conflict <HI>Mars</HI> &s;hewed his countenance</L>
+<L>Vnto both parties, for the Martiall foe</L>
+<L>Sometimes was beate; &s;ometimes did ouerthrow:</L>
+<L>Thrice being repul&s;d, they thrice did rea&s;&s;aile</L>
+<L>And though oppre&s;t, their courage ne're did faile:</L>
+<L>For knowing valour to be actions Spirit,</L>
+<L>Which Crownes our proiects with &s;ucce&s;&s;efull merit,</L>
+<L>They rallied &s;till, till <HI>Phaebus</HI> lift his head</L>
+<L>From pearld <HI>Auroraes</HI> &s;affron coulered bedde:</L>
+<L>Then being &s;ubiect to the pointeblancke ayme</L>
+<L>Of eu'ry markeman, they for&s;ooke the game</L>
+<PB N="46" REF="26">
+<L>Vnequall of their parts, and backewards plied</L>
+<L>Vnto their Trenches from the bulwarkes &s;ide.</L>
+<L>The lo&s;&s;e was great, twelue hundred Spaniards kild</L>
+<L>The bending Circle of our<NOTE PLACE="marg">A Fortification made in forme or manner of a horne.</NOTE> <HI>Horn<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">worke</HI> fild,</L>
+<L>Two hundred of our &s;ide did likewi&s;e dye</L>
+<L>Leauing their fames pawnes to Eternitie:</L>
+<L>Among&s;t the re&s;t <HI>Purfry</HI> my noble friend</L>
+<L>In honours bedde &s;eald vp his glorious ende,</L>
+<L>The like was<NOTE PLACE="marg">Sir <HI>Michael Eueret</HI> and Captaine <HI>Loueles.</HI></NOTE> <HI>Eueretts</HI> chance, and <HI>Louele&s;&s;e</HI> lot,</L>
+<L>Both which with poy&s;ned bullets being &s;hot,</L>
+<L>When <HI>Ae&s;culapius</HI> skill could not appea&s;e,</L>
+<L>Nor Surgerie the venoms rancour ea&s;e,</L>
+<L>Exchaungd their liuing fle&s;h to liuele&s;&s;e du&s;t</L>
+<L>Till heau'n thronizd immortall ri&s;e they mu&s;t.</L>
+<L>Inhuman warre thou hor&s;eleech of mankinde,</L>
+<L>Which plea&s;ure in di&s;plea&s;ure &s;til do&s;t finde,</L>
+<L>Who&s;e man&s;ions are deaths hollowe charnelld caues</L>
+<L>Large fields of &s;laughter, where thy furie raues</L>
+<L>Vnlimitted, and boundeles in that lu&s;t,</L>
+<L>Which nought but bloud and murder content mu&s;t.</L>
+<L>Were not the <HI>Roman</HI><NOTE PLACE="marg">The darte which the Romans</NOTE> pile, the <HI>Parthian</HI> &s;haft,</L>
+<L>The <HI>Graecian</HI><NOTE PLACE="marg">The pike which the <HI>Macedonians</HI> v&s;d.</NOTE> <HI>Sari&s;&s;e,</HI> and <HI>Mori&s;can</HI> dart,</L>
+<L><HI>T'heluetian</HI> halberd, and our <HI>Briti&s;h</HI> bill</L>
+<L>Potent inough thy greedine&s;&s;e to fill</L>
+<L>With &s;laughtred bodies? but that <HI>Organs</HI> new</L>
+<L>Mu&s;t terriblize them&s;elues to mortals <HI>&V;iewe,</HI></L>
+<L>Which thou ha&s;t found out in this latter age,</L>
+<L>To Cocker vp thy blood &s;till thir&s;ting rage.</L>
+<L>Now mu&s;t that<NOTE PLACE="marg">Great ordi|nance.</NOTE> Brazen fire outbelching trunke</L>
+<L>Founde out by that accur&s;ed German Munke,</L>
+<L>Whole myriads kill, and rai&s;e of bodies &s;laine</L>
+<L><HI>Pyramide</HI> Mounttaines on the &s;anguind plaine.</L>
+<L>To furni&s;h this deuice, tho&s;e &s;tinking cels</L>
+<L>Wherein the louing <HI>Paphian</HI> Pigeon dwells,</L>
+<L>Tho&s;e Cellars, where our Engli&s;h skenker fils</L>
+<L>That ruddie Claret &s;ent from <HI>Ga&s;coines</HI> hils,</L>
+<L>Mu&s;t now be &s;earcht for<NOTE PLACE="marg">Saltpeter.</NOTE> <HI>Nitre: Swethlands</HI> bra&s;&s;e</L>
+<L><HI>Guipu&s;can</HI> Iron, and that heauie ma&s;&s;e</L>
+<PB N="47" REF="26">
+<L>Of palefac'd leade, &s;ent from the Northerne<NOTE PLACE="marg">From the Peake in <HI>Dar|bi&s;hire</HI> comes great &s;tore of Leade.</NOTE> Peake</L>
+<L>Mu&s;t now with &s;treames from mangled bodies reake,</L>
+<L>Clay mu&s;t be fetcht from <HI>Padoaes</HI> fertill plaines,</L>
+<L><HI>Sulphur</HI> from <HI>Sicills</HI> fire out belching vaines,</L>
+<L><HI>Rozin</HI> from <HI>Rugeland,</HI> and that <HI>Borill</HI> coa&s;te,</L>
+<L>Where <HI>Riga</HI> &s;tands, now to the <HI>Swethner</HI> lo&s;t:</L>
+<L>To make<NOTE PLACE="marg"><P>The&s;e are in+gredients with which <HI>Grana|does</HI> and wilde fire bals are made.</P>
+<P>See <HI>Machiael</HI> in the addition to his booke of warre pag. 45 45.</P></NOTE> tho&s;e fierie balls, Granadin Squibs</L>
+<L>A&s;pected like crinited Comets glibs,</L>
+<L>Which burning breake, and breaking peecemeale rent</L>
+<L>All thats oppo&s;d to this fell in&s;trument.</L>
+<L>But as though all the&s;e Engins were but weake</L>
+<L>Thy bloud <HI>Hydropicke</HI> thir&s;tines to breake,</L>
+<L>The fatall bullet mu&s;t impoi&s;'ned be,</L>
+<L>To wreake thy malice on mortalitie.</L>
+<L>So that a wounded arme, a skarred thigh,</L>
+<L>A pierced hand &s;hall as for certaine die,</L>
+<L>As if that hollow bloud conducting vaine</L>
+<L>Some mortall hurt or dammage did &s;u&s;taine,</L>
+<L>Or tho&s;e &s;ame cordiall &s;trings, which knit the life</L>
+<L>Were &s;undred quite by &s;ome <HI>Rauilliacks</HI> knife:</L>
+<L>Were not O Rome thy<NOTE PLACE="marg">All the&s;e were notabletraitors</NOTE> <HI>Gerrards, Lopes, Squires,</HI></L>
+<L>Thy <HI>A&s;&s;a&s;sines,</HI> and fulminations fires,</L>
+<L>Thy poy&s;nie &s;imples fetcht from <HI>Concritan,</HI></L>
+<L>From <HI>Nubia, Tombut,</HI> and from <HI>Terminan,</HI></L>
+<L>From hot <HI>Cyrene,</HI> and that<NOTE PLACE="marg">Ponlus.</NOTE> Ea&s;terne coa&s;te,</L>
+<L>Whereon the roaring <HI>Ponticke</HI> &s;eas are to&s;t,</L>
+<L>Sufficient meanes to furni&s;h with &s;upplie</L>
+<L>The yawning gulfe of thy new Purgat'ry?</L>
+<L>But that thy darling, and thy minion Spaine,</L>
+<L>Thy ape of mi&s;chiefe, mu&s;t her honour &s;taine</L>
+<L>Acquired by the fortune of faire Armes,</L>
+<L>And blemi&s;h it with poy&s;on-contriud harmes.</L>
+<L>But whil&s;t that my digre&s;&s;iue mu&s;e thus fals</L>
+<L>To this Inuectiue fit, the Cannon cals</L>
+<L>Her wandring thoughts to <HI>Bergen</HI> who&s;e loude &s;ound</L>
+<L>From eu'rie platforme ecchoing doth rebounde</L>
+<L>With greater noi&s;e, then when the<NOTE PLACE="marg">Two mo&s;t furious batte|ries, &s;ee the Turki&s;h hi&s;to|rie pag 418. and pag. 584.</NOTE> <HI>Scodran</HI> towers</L>
+<L>Were batterd by the Barbr'ous Turki&s;h powers,</L>
+<PB N="48" REF="27">
+<L>Or When the <HI>Rhodian</HI> bulwarkes were defac'd</L>
+<L>By <HI>Soliman,</HI> and all their glorie rac'd</L>
+<L>Left nothing to the cro&s;&s;ed Chri&s;tian Knight,</L>
+<L>But the &s;ad a&s;pecte of this di&s;mall &s;ight.</L>
+<L>Our ordinance di&s;po&s;'d by <HI>Gib&s;ons</HI> care,</L>
+<L>Who&s;e merit claimes an honourable &s;hare</L>
+<L>In <HI>Bergens</HI> &s;afeguard, did the Spaniards plie</L>
+<L>With frequent Peales of their Artillerie,</L>
+<L>Who&s;e leuelld &s;hot vnto the foemen &s;ent,</L>
+<L>Did Peecemeale <HI>Gabions,</HI> men and Rampiers rent;</L>
+<L>And whil&s;t their bodies mounted, &s;ent their &s;oules</L>
+<L>To grie&s;ly <HI>Plutoes</HI> darke Infernall hoales.</L>
+<L>Some nine dayes after when the Chri&s;tall gate</L>
+<L>Of that &s;ame day, which mortals con&s;ecrate</L>
+<L>To mightie <HI>Ioue,</HI> with &s;hadie night was clo&s;'d,</L>
+<L><NOTE PLACE="marg">Companies of foote.</NOTE>The <HI>Iberian Cohorts</HI> for the fight di&s;po&s;'d</L>
+<L>By their Campema&s;ters, to the combat pa&s;t,</L>
+<L>Fa&s;t in their orders, in their marching fa&s;t:</L>
+<L>Then hauing got the batterd Curtins ba&s;e</L>
+<L>They &s;ought to mount vpon that horneworks face,</L>
+<L>Where<NOTE PLACE="marg">Colonell <HI>Hin|der&s;on</HI> a braue Scots man</NOTE> <HI>Hinder&s;on</HI> with his, and our owne nation</L>
+<L>Aranged &s;tood in point of his owne &s;tation.</L>
+<L>The fight was cruell, doubtfull, full of blood,</L>
+<L>Wherein <HI>Bellonaes</HI> Bridegroome wauering &s;tood,</L>
+<L>Vncertaine to which &s;ide the palme &s;hould flie</L>
+<L>To this of right, or that of Tyrannie.</L>
+<L>For though the Spaniards chardgd, ours &s;till re&s;i&s;ted</L>
+<L>And though rechardgd, yet re&s;olute per&s;i&s;ted</L>
+<L>In their defence, vntill th' a&s;&s;aulting foe</L>
+<L>His backe vnto th' <HI>Orangian</HI> troupes did &s;how.</L>
+<L>But marke how fortune with her powerfull becke</L>
+<L>As &s;tepdame vnto valour giues the checke;</L>
+<L>For although <HI>Hinder&s;on</HI> like<NOTE PLACE="marg"><HI>Scaeua</HI> a vali|aunt Roman.</NOTE> <HI>Scaeua</HI> &s;tood.</L>
+<L>Gain&s;t oppo&s;itions face, and &s;till made good</L>
+<L>Th' ingaged place, yet one foule random &s;hot</L>
+<L>The conque&s;t from this braue Commaunder got;</L>
+<L>Which banefull pellet rob'd him of his breath,</L>
+<L>Worthy to &s;uruiue eu'n in the &s;pight of death.</L>
+<PB N="49" REF="27">
+<L>After this lo&s;&s;e Prince <HI>Maurice</HI> &s;ends releefe</L>
+<L>From <HI>Grauenweert,</HI> commaunded all in chiefe</L>
+<L>By<NOTE PLACE="marg">Sir <HI>Charles Morgan</HI> Co|lonell of a foote regiment vnder the States.</NOTE> <HI>Morgan,</HI> who with winged mea&s;ures &s;peedes</L>
+<L>Vnto the towne, that now for &s;uccour bleedes.</L>
+<L>He wafting o're the diaprie-purled <HI>Waal,</HI></L>
+<L>From thence vnto &s;wift <HI>Mo&s;aes</HI> &s;treame doth fall,</L>
+<L>And &s;ailing through that narrowe Midland &s;ea</L>
+<L>Who&s;e channell giues acce&s;&s;e to <HI>Bergens</HI> Kaye</L>
+<L>Arriued at his chardge, and there propo&s;d</L>
+<L>Great <HI>Na&s;&s;awes</HI> orders, which being wel di&s;po&s;'d</L>
+<L>By<NOTE PLACE="marg"><HI>Rihoue</HI> vvas gouernour of <HI>Bergen,</HI> and <HI>Fama</HI> was Colonell of a regiment of <HI>Wallons.</HI></NOTE> <HI>Rihoues</HI> coun&s;ell, and by <HI>Famaes</HI> care</L>
+<L>From all aduauntage did th' a&s;&s;ailants bare.</L>
+<L>He skorning like &s;ome Frozen Flemi&s;h hulke</L>
+<L>To lye &s;hopt vp within the Rampiers bulke,</L>
+<L>Giues life to action, through the po&s;terns Sallies</L>
+<L>And though repul&s;t againe his &s;quadrons rallies,</L>
+<L>Vntill the vanqui&s;ht foes of hope bereft</L>
+<L>The deade halfe Moone vnto our Legions left.</L>
+<L>Then rea&s;&s;aulting they for&s;ooke th' a&s;&s;ault,</L>
+<L>Through our mens valour and their owne default;</L>
+<L>For <HI>Morgan</HI> &s;till repells them with thick hailes</L>
+<L>Of Mu&s;ket &s;hot, with bri&s;tled Iron flailes,</L>
+<L>With &s;moaking wildefire balls, and blowne vp mines</L>
+<L>Who&s;e hollow vaults filld full with<NOTE PLACE="marg"><P>An in&s;trument made like a flaile to throw ouer the Rampier or pa|rapet vnto the Enemies.</P>
+<P>Pouder that is v&s;d in mines or great ordi|nance.</P>
+<P>The <HI>Wallons</HI> of the Bi&s;hop|pricke of <HI>Leoge.</HI></P></NOTE> Serpentine,</L>
+<L>And taking fire by &s;ome &s;ulphureous traine</L>
+<L>T'heauens with &s;moake, the land with bloud doth &s;taine.</L>
+<L>On th' other &s;ide the Dutchmen taking heate</L>
+<L>From our examples beames did brauely beate</L>
+<L>The Spani&s;h &s;quadrons, which in &s;ucce&s;&s;e faild</L>
+<L>As oft as they our horned wo kes a&s;&s;aild.</L>
+<L>The like the Frenchmen did, and that &s;tout nation</L>
+<L>Which in rich <HI>Lukeland</HI> holds their habitation,</L>
+<L>But then being &s;ubiect to <HI>Famaes</HI> commands</L>
+<L>Imployed their &s;eruice for the Netherlands.</L>
+<L>In the&s;e conflicts braue <HI>Mountioy, Morgan, Gib&s;on,</HI></L>
+<L><HI>Rich, Courtney, Conway, Hal&s;ewell, Hinder&s;on,</HI></L>
+<L><HI>Cooke, Tibals, Pollard, Clarke</HI> and <HI>Killegree,</HI></L>
+<L><HI>Knolles, Bacon, Turney, Kenniet horpe</HI> and <HI>Carey,</HI></L>
+<PB N="50" REF="28">
+<L>Shewed matchles valour, and de&s;erue to be</L>
+<L>For this the children of Eternitie,</L>
+<L>Being all &s;elfe laui&s;h of their deare&s;t bloud</L>
+<L>For <HI>Bergens</HI> defence, and our vnions good.</L>
+<L>Among&s;t the li&s;t of the <HI>Philippicke</HI> bandes</L>
+<L><HI>Blunt</HI><NOTE PLACE="marg">Sergeant Maior <HI>Blunt.</HI></NOTE> of his foes eu'n admired &s;tands</L>
+<L>Haples in this, that home-&s;punne di&s;contents</L>
+<L>Made him to follow Spaines ambitious bents.</L>
+<L>In this meane time Count <HI>Mansfield</HI> hauing left</L>
+<L>The di&s;united vnion, and bereft</L>
+<L><NOTE PLACE="marg">All the high <HI>Palatinate.</HI></NOTE>Of all tho&s;e vpper Countries, where the Rhine.</L>
+<L>With <HI>Neckars</HI> &s;treame his pearled &s;treames doth ioyne,</L>
+<L>And all that fruitfull large-extended tract,</L>
+<L>Which borders on the riuer, being &s;ackt</L>
+<L>By both their Armies, and the pillagd Boore</L>
+<L>De&s;poiled quite of all his former &s;tore;</L>
+<L>Which clu&s;ter-crowned <HI>Bacchus</HI> did affoord,</L>
+<L>Or <HI>Ceres</HI> yeeld from her all plenteous hoord.</L>
+<L>The chardge of <HI>Manhein</HI> being giuen to <HI>Veare,</HI></L>
+<L>And <HI>Heidelberge</HI> de&s;ignd to <HI>Herberts</HI> care,</L>
+<L><HI>Frankn'dale</HI> to <HI>Burrowes,</HI> and tho&s;e <HI>Almaine</HI> bands</L>
+<L>Which &s;till &s;tood firme to <HI>Fredericks</HI> commaunds,</L>
+<L><NOTE PLACE="marg">The <HI>Palati|nate.</HI></NOTE>His Excellence the <HI>Paltzian</HI> &s;oile for&s;akes</L>
+<L>In famous for our lo&s;&s;es, and betakes</L>
+<L>Him&s;elfe to that retraite, which crownd his name</L>
+<L>With the triumphant wreaths of glorious fame.</L>
+<L>Vnparralleld for conduct, and th' euent</L>
+<L>Except by Conons worthie pre&s;ident:</L>
+<L>Or that<NOTE PLACE="marg">Of the&s;e two retraites is mention made before. <HI>Z<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">nophon.</HI></NOTE> <HI>Athenians,</HI> who from <HI>Elams</HI> hils</L>
+<L>Retired to tho&s;e fields, which <HI>Pha&s;is</HI> fils,</L>
+<L>When <HI>Actaxerxes</HI> troupes his Armie cha&s;t</L>
+<L>And for two thou&s;and miles his Legions fac'd,</L>
+<L>For although <HI>Tilley</HI> reinforc'd with ayd</L>
+<L><NOTE PLACE="marg">This relation I had from Sir <HI>Iames Rame&s;ey</HI> who was pre|&s;ent in all this &s;eruice.</NOTE>From all th'Imperiall circles, had forelayd</L>
+<L>Tho&s;e pa&s;&s;ages, which giue a free acce&s;&s;e</L>
+<L>From <HI>Almaine</HI> to the Frountring <HI>Lorraneffe.</HI></L>
+<L>Yet the <HI>Mansfieldians</HI> hauing pa&s;t the <HI>Sar</HI></L>
+<L>And <HI>Blie&s;&s;es</HI> &s;treames, (who&s;e Chri&s;tall &s;ource from far</L>
+<PB N="51" REF="28" MS="y">
+<L>Extracted, for diurnall tribute yeelds</L>
+<L>His gla&s;sie purles to <HI>Lotharingiaes</HI> fields:)</L>
+<L>Arriud at <HI>Sauerne,</HI> where<NOTE PLACE="marg">The Count <HI>Palatin.</HI></NOTE> the <HI>Paltzian</HI> Prince</L>
+<L>Giues the farewell to <HI>Mansfields</HI> Excellence,</L>
+<L>And &s;afe conuoyd through friendly <HI>Galliaes</HI> land</L>
+<L>Imbarks him&s;elfe on the <HI>Cali&s;ian</HI> &s;trande.</L>
+<L>There hence our &s;quadrons marcht into <HI>Lorraine,</HI></L>
+<L>From whence the <HI>Gui&s;ians</HI> claime their <HI>Origen;</HI></L>
+<L>And pa&s;sing by that Frountiers Southerne &s;ide</L>
+<L>Neere vnto which<NOTE PLACE="marg">A great riuer in <HI>Lorraine.</HI></NOTE> Voloies current doth glide,</L>
+<L>They doubled <HI>Mortaignes</HI> woods, <HI>Volge&s;us</HI> Mountaine,</L>
+<L>Fat <HI>Vaignies</HI> vallies, and the <HI>Mo&s;ells</HI> fountaine.<NOTE PLACE="marg"><HI>Lottaringia</HI> or <HI>Lorraine</HI> tooke his name from one <HI>Lothari|cus</HI> See <HI>Mer|cator</HI> in his de&s;cription of it.</NOTE></L>
+<L>Then leauing that <HI>Frauncelouing</HI> towenfull &s;oile</L>
+<L>Which <HI>Lotharicke</HI> did with his name en&s;tile,</L>
+<L>They bending Northwards, did their en&s;ignes &s;preade</L>
+<L>In <HI>Lutzenburge</HI> beyonde &s;wift <HI>Semois</HI> heade</L>
+<L>And came through many perils to <HI>Sedan,</HI></L>
+<L>The <HI>Ducall</HI> &s;eate of Princely <HI>Bullion:</HI></L>
+<L>Where hauing well refre&s;ht their pinching needes</L>
+<L>And re&s;ted &s;ome fewe dayes, their Armie &s;peedes</L>
+<L>With running marches o'r the winding turnes</L>
+<L>Of<NOTE PLACE="marg">Riuers which run through <HI>Namures.</HI></NOTE> <HI>Houle</HI> and <HI>Ma&s;e,</HI> and that high mountains hornes</L>
+<L>Where <HI>Charlemont</HI> by <HI>Phillips</HI> Souldiers ma<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">nd</L>
+<L>In view of <HI>Heinault</HI> and <HI>Namurs</HI> doth &s;tand.</L>
+<L>Then hauing through that territorie pa&s;t&punc;</L>
+<L>They layd the faire <HI>Namurcan Burrowes</HI> wa&s;t</L>
+<L>With fire, and &s;word, and all tho&s;e ho&s;tile ills</L>
+<L>Which hell with &s;oules, the land with &s;laughter fills.</L>
+<L><HI>Gon&s;aluo</HI><NOTE PLACE="marg"><HI>Gon&s;aluo de Corduba</HI> Ge|nerall of the Spani&s;h armed</NOTE> mooued with the&s;e affrounting harmes</L>
+<L>And iealous of his honour, forth with armes</L>
+<L>With all tho&s;e <HI>Walloun</HI> bands, and Spani&s;h legions,</L>
+<L>Which quarterd lay within that <HI>Frountiers</HI> regions:</L>
+<L>And taking the<NOTE PLACE="marg">The Champi|on.</NOTE> Campaina, &s;traight forelayes</L>
+<L>The crooked pa&s;&s;age of tho&s;e broaken wayes,</L>
+<L>Extended forth from <HI>Mo&s;a</HI> to tho&s;e &s;loughes,</L>
+<L>Which the rich Femming and <HI>Braban&s;on</HI> Plowes,</L>
+<L>At Flourie neere <HI>Namurs</HI> he pitcht his Tents</L>
+<L>With all the flower of his olde Regiments,</L>
+<PB N="52" REF="29">
+<L>Who&s;e Maniples computed by the li&s;t,</L>
+<L>Of &s;<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">u'nteene thou&s;and Souldiers did con&s;i&s;t,</L>
+<L><NOTE PLACE="marg"><HI>Peazaunts</HI> of the Country.</NOTE>And twentie thou&s;and Boores well armd with glaiues,</L>
+<L>VVith Firelockes, and Herculean clublike &s;taues.</L>
+<L>About the time, that bright <HI>Apollo</HI> &s;teepes</L>
+<L>His golden tre&s;&s;es in th' <HI>Iberian</HI> deepes,</L>
+<L>Counte <HI>Mansfield</HI> doth approach, and hauing &s;pied</L>
+<L>Their vaunt currours, vnto that hillocke hied,</L>
+<L>Behinde who&s;e couert all their Cohorts laye</L>
+<L>To &s;top our march, and our battalions &s;tay.</L>
+<L><NOTE PLACE="marg">There ran a little brooke betweene <HI>Man<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">field</HI> and <HI>Corduba.</HI></NOTE>Then wading through the flagge ore&s;haded brookes</L>
+<L><HI>Meander</HI> wi&s;e retorted turning nookes,</L>
+<L>Vpon the farther &s;ide he makes a &s;tand</L>
+<L>And to <HI>Gon&s;aluo</HI> tenders this demaund.</L>
+<L>Whether his valour were re&s;olud to fight</L>
+<L>Vpon th' appearaunce of the morning light.</L>
+<L>Or that his patience would giue parting leaue,</L>
+<L>And &s;o the webbe of both their &s;afeties weaue.</L>
+<L>The Corduban thus &s;ummond, thus replies:</L>
+<L>Thinkes the <HI>Bohemian</HI><NOTE PLACE="marg"><HI>Mansfield</HI> was Mar&s;hall of <HI>Bohemia</HI> be|fore he was Generall.</NOTE> Mar&s;hall to &s;urpri&s;e</L>
+<L>My wi&s;dome with his words? and curbe my &s;prite</L>
+<L>Laui&s;h in this to doe my &s;oueraigne right?</L>
+<L>Can he conceiue his Legions &s;hall depart?</L>
+<L>Who thus haue torne th' Imperiall Eagles heart,</L>
+<L>De&s;poild our ve&s;tall Nuns, ran&s;ackt our Friers,</L>
+<L>And crammd them&s;elues with pillagd <HI>Ments</HI> and <HI>Triers;</HI></L>
+<L>He mu&s;t account for all <HI>Bohemiaes</HI> &s;poile.</L>
+<L><NOTE PLACE="marg">At <HI>Hagenawe</HI> &amp; <HI>He&s;eldorffe</HI> the Count ouerthrew th'Imperialls.</NOTE>For t' <HI>Hagenawne,</HI> and <HI>He&s;eldorffian</HI> foile,</L>
+<L>Before he can our &s;afeconduct obtaine,</L>
+<L>And free aduenue into <HI>Brabant</HI> gaine.</L>
+<L><HI>Bohemiaes</HI> Gen'rall warmd with this replie;</L>
+<L>Doth all the bent of his deuoirs applie</L>
+<L>To cro&s;&s;e their proiects, and with <HI>Linxean</HI> eyes</L>
+<L>Vnto the depth of each aduauntage pries,</L>
+<L>By which he might his <HI>Phalangiers</HI> defend,</L>
+<L>And great <HI>Gon&s;aluos</HI><NOTE PLACE="marg">Regiment is a number of foote con|&s;i&s;ting of more or le&s;&s;e com|panies.</NOTE> Regiments offend.</L>
+<L>He &s;traight commaunds his Cohorts all to lye</L>
+<L>Armd and vnarmd, hor&s;e and Infanterie</L>
+<PB N="53" REF="29">
+<L>That night in battell ray, behind that hill</L>
+<L>Who&s;e Southerne brow our Maniples did fill,</L>
+<L>Vpon the morne when <HI>Sols</HI> irradiant light</L>
+<L>Had rent the vaile of Sable coulered night,</L>
+<L>He mar&s;halls his diui&s;ions, viewes their ranckes,</L>
+<L>Suruaies all parts, both Vangard, Reare and flanks,</L>
+<L>Giues motiues to their mettall, and doth cheare</L>
+<L>Their wauering minds again&s;t the bugs of feare.</L>
+<L>The&s;e are, quoth he, tho&s;e feeble beaten bands,</L>
+<L>So often foild by your victorious hands,</L>
+<L>The reliques of the <HI>Leopoldian</HI> hoa&s;te,</L>
+<L>And of tho&s;e Tertioes, which their honour lo&s;t</L>
+<L>At <HI>He&s;eldorffe,</HI> when our men did defeate</L>
+<L><HI>Bauariaes</HI> Gen'rall and their Armie beate.</L>
+<L>The re&s;t are <HI>Peazaunts</HI> rude,<NOTE PLACE="marg"><HI>Lande&s;dayes</HI> are dayes of &s;olemne meeting.</NOTE> vplandi&s;h Boores</L>
+<L>Acquainted better with their <HI>Lande&s;dayes</HI> &s;turres</L>
+<L>With taphou&s;e quarrels, alefomented broiles,</L>
+<L>Then with <HI>Bellonaes Hazardes</HI> or her toyles.</L>
+<L>We are tho&s;e men, who haue <HI>Bohemia</HI> &s;ackt,</L>
+<L>Conquerd<NOTE PLACE="marg">Three &s;trong townes in <HI>Bohemia.</HI></NOTE> <HI>Prachadis, Pil&s;en</HI> and <HI>Pi&s;acke</HI></L>
+<L>Haue &s;troue with natures threats, with dangers dread,</L>
+<L>And through their &s;ence afflicting terrours &s;ped</L>
+<L>Vnto this bedde of fame, where we mu&s;t fight</L>
+<L>Or el&s;e our honourd liues abandon quite.</L>
+<L>Behind vs lies<NOTE PLACE="marg">A high moun|taine in <HI>Lor|raine.</HI></NOTE> <HI>&V;olge&s;us</HI> cre&s;ted ridge,</L>
+<L><HI>Sambre</HI> before vnpa&s;&s;able by bridge,</L>
+<L>Vpon the right hand runs the roaring Ma&s;e,</L>
+<L>Vpon the left, great <HI>Corduba</HI> doth face</L>
+<L>Our armd battalions, &s;o that we mu&s;t die.</L>
+<L>Or gaine our &s;elues by glorious victorie.</L>
+<L>All like this, but two thou&s;and mutineers,</L>
+<L>Who making pay the &s;hadow of their feares,</L>
+<L>Di&s;like their Gen'ralls motion and refu&s;e</L>
+<L>T'ingage them&s;elues for his imploiments v&s;e.</L>
+<L>The valiant Count on point of &s;eruice &s;et</L>
+<L>With this refu&s;all mou'd doth &s;torming fret:</L>
+<L>As when a retriud <HI>Partridge</HI> mounts the skie</L>
+<L>Some Fauckener lets a ca&s;t of Marlins flie</L>
+<PB N="54" REF="30" MS="y">
+<L>Whereof that makes it home, but this doth faile</L>
+<L>And Ca&s;trell-like doth poorely turne her taile.</L>
+<L>The Fawkner marking from &s;ome loftie tree,</L>
+<L>The &s;adde di&s;a&s;ter of this &s;port doth &s;ee&punc;</L>
+<L>And with &s;terne words thats cowardi&s;e doth rate,</L>
+<L>But cheeres the mettall of her &s;oaring mate,</L>
+<L>He chides them fir&s;t, then &s;eekes to mooue their hearts,</L>
+<L>With melting flakes of his per&s;ua&s;iue arts;</L>
+<L>He tells them, what di&s;honour tweare, what &s;hame</L>
+<L>Vnto the lu&s;ter of the <HI>German</HI> name,</L>
+<L>Thus to for&s;ake them&s;elues, their friends, their chiefe,</L>
+<L>And &s;eque&s;trate the meanes of their releefe.</L>
+<L>He &s;hewes that the&s;e were not their &s;olemne vowes</L>
+<L>At <HI>Manheim</HI> made, when they did there e&s;pou&s;e</L>
+<L>Their lifes to's &s;eruice, and obligd by oath</L>
+<L>Again&s;t the Spaniards and Imperialls both,</L>
+<L>Did freelie promi&s;e neuer to for&s;ake</L>
+<L>His Princely colours, but to vndertake</L>
+<L>The &s;hare of all aduentures, till the date</L>
+<L><NOTE PLACE="marg">The free &s;tate of the <HI>Nether|lands.</HI></NOTE>Expired were, for which the <HI>Cantond</HI> &s;tate</L>
+<L>Of Holland had their Legions entertaind,</L>
+<L>Neuer before with di&s;obedience &s;taind.</L>
+<L>But all the&s;e words like fuell did encrea&s;e</L>
+<L>The raging fire of their &s;tiffe &s;tubbornes,</L>
+<L>Wherefore he leaues this plot, and doth intreate</L>
+<L>That if they would not fight, they would retreate</L>
+<L>Or els aduaunce them&s;elues, and make a &s;tand</L>
+<L>Vpon that place, where he &s;hould giue commaund.</L>
+<L>This la&s;t being graunted, he doth &s;traight inlarge</L>
+<L>The Frount of his battalions, and doth chardge;</L>
+<L>As when &s;ome raine-engendred Torrents &s;hocke</L>
+<L>Both beate vpon an adamantine rocke.</L>
+<L>Or when &s;ome &s;ulphrous fulminations fire</L>
+<L>Lights on the cre&s;t of &s;ome piramide Spire</L>
+<L>The <HI>Bombards</HI> fir&s;t did with their <HI>Torlin</HI> play,</L>
+<L>And hundreds &s;laine vpon the Champion lay,</L>
+<L>The bullet furrowed fielde with &s;hot &s;owen</L>
+<L>And all the plaine with batterd Cor&s;lets &s;trowen.</L>
+<PB N="55" REF="30" MS="y">
+<L>Then their<NOTE PLACE="marg">Loo&s;e wings which begin the fight.</NOTE> Forlorne death de&s;tined hope</L>
+<L>With our loo&s;e wings of Mu&s;kettiers doth coope,</L>
+<L>The lighthor&s;e failing fowle on both the flankes</L>
+<L>Do chardge, and wheele, and wheeling change their rankes</L>
+<L>The Mu&s;kettiers from either &s;ide do poure</L>
+<L>Of palefac'd bullets a death &s;torming &s;hower</L>
+<L>The Pikemen pu&s;h, and pu&s;hing with their Pike</L>
+<L>Through maild habergeons, helmes and Cor&s;lets &s;trike.</L>
+<L>Foote &s;tickes to foote, and hand doth gripe with hand</L>
+<L>Each Frounter with his Frounter next doth bande:</L>
+<L>With &s;treames of bloud the bloudie greene doth &s;moake,</L>
+<L>Who&s;e vapour tooke foment with eu'rie &s;troake.</L>
+<L>Our Curaciers by valiaunt<NOTE PLACE="marg">Otherwi&s;e calld the Bi&s;hop of <HI>Halber&s;hat</HI></NOTE> <HI>Brun&s;wicke</HI> led</L>
+<L>The la&s;t of all vnto this combat &s;ped</L>
+<L>Who&s;e foote&s;teps dread and danger did attend,</L>
+<L>Wher&s;oeuer they did with their Cornets wend.</L>
+<L>Heere a braue Souldier wounded with a brui&s;e</L>
+<L>Through th' orifice his fleeting &s;oule out &s;pues,</L>
+<L>Heere a &s;ure Gunner &s;hot off by the knees</L>
+<L>Liues vpward, whil&s;t the nether fragment &s;teeues.</L>
+<L>Heere a man-woman <HI>Amazonian</HI> dame</L>
+<L>A <HI>&V;otare&s;&s;e</HI> to <HI>Mars,</HI> and <HI>Venus</HI> game</L>
+<L>Shot neere her friend in his imbracements dies,</L>
+<L>And liuing dying thus doth &s;impathize.</L>
+<L>But in the mid&s;t of this tumultuous broile</L>
+<L><HI>Brun&s;wicke</HI> though &s;hot out braueth feare and toile,</L>
+<L>Both chardge and rechardge, fals on Frount and flancke,</L>
+<L>Sometimes by file &s;ometimes giuing in by rancke.</L>
+<L>From morne till noone this dreadfull fight did la&s;t,</L>
+<L>But when<NOTE PLACE="marg">It was a lit|tle after mid day.</NOTE> the &s;unne had the Meridian pa&s;t</L>
+<L>Some thirtie minutes, all things being confu&s;d,</L>
+<L>The Spain&s;h vanguard broake, their Chiefe amu&s;d</L>
+<L>With our mens courage; <HI>Mansfield</HI> then appeares</L>
+<L>More then him&s;elfe, and thus inflaming cheeres.</L>
+<L>His la&s;t re&s;erue: come on, keene vp your &s;pite</L>
+<L>Again&s;t the&s;e Barbr'ous Demimoores de&s;pite;</L>
+<L>Breake through the Frount of that halfe broaken troupe</L>
+<L>And make their &s;tiffnes to your valour &s;toope,</L>
+<PB REF="31">
+<L>With your well pointed blades hew out your way</L>
+<L>Through their battalions which your cour&s;e forelay.</L>
+<L>No &s;ooner &s;ayd but done, for forth they ru&s;h,</L>
+<L>And like &s;ome winter &s;torme do downe right pu&s;h</L>
+<L>All that's oppo&s;d, and rowting file by file</L>
+<L>Rancke after rancke they pa&s;&s;e that iron toyle</L>
+<L>Vnto the &s;tation of our mutineers,</L>
+<L>VVho&s;e wauering fills both &s;ides with iealous feares.</L>
+<L>For <HI>Corduba</HI> &s;urmi&s;ing that they lay</L>
+<L>For a re&s;erue, his la&s;t pur&s;uite to &s;tay,</L>
+<L>Dur&s;t not ingage his ouertired bande,</L>
+<L>But on the place of battaile kept his &s;tand.</L>
+<L>The lo&s;&s;e was not vnlike; foure thou&s;and &s;laine</L>
+<L>Of either &s;ide the Champions browe did &s;taine</L>
+<L>VVith Purple &s;treames of their vermilion bloud</L>
+<L>VVho&s;e <HI>Rubie</HI> congeald on th' Earths &s;urface &s;tood.</L>
+<L>Among&s;t this honourd li&s;t &s;tout <HI>Weimars</HI> Duke,</L>
+<L>And <HI>Rougiere</HI> their fatall deaths wound tooke</L>
+<L><HI>Menge&s;heim</HI> was ta'en, and <HI>Brun&s;wickes</HI> arme was &s;hot</L>
+<L>VVho lo&s;t his hand whil&s;t he the lawrell got.</L>
+<L>This conflict being pa&s;t, the Count doth march</L>
+<L>(Mounted vpon a rich triumphant Arche)</L>
+<L>Ouer the<NOTE PLACE="marg">A riuer which runneth into the <HI>Ma&s;e.</HI> The Prince of <HI>Orange.</HI></NOTE> <HI>Sambre,</HI> vanqui&s;heth the Boores,</L>
+<L>Pa&s;&s;eth through <HI>Brabant,</HI> ioyneth there his powers</L>
+<L>Neere <HI>Ro&s;endale</HI> with the<NOTE PLACE="marg">A riuer which runneth into the <HI>Ma&s;e.</HI> The Prince of <HI>Orange.</HI></NOTE> <HI>Na&s;&s;auian</HI> Graue,</L>
+<L>Both being re&s;olud thin'gaged towne to &s;aue</L>
+<L>From the <HI>Ca&s;tilians,</HI> who with might and maine</L>
+<L>Applied the &s;iege <HI>Bergen-opzom</HI> to gaine.</L>
+<L>Fame bruiting this with her &s;hrill Sounding winde</L>
+<L>VVith iealous feares fils the Marque&s;&s;es minde;</L>
+<L>VVho doubting that both Armies might Surpri&s;e,</L>
+<L>His pa&s;&s;age vnto <HI>Antwerpe,</HI> &s;traight doth ri&s;e</L>
+<L>With all his<NOTE PLACE="marg">Regiments.</NOTE> <HI>Tertioes,</HI> and to <HI>&V;ulcan</HI> turnes</L>
+<L>His &s;trawe built &s;tation, which inflamed burnes</L>
+<L>The large extent of that well fenced frame,</L>
+<L>Ere our <HI>Bergheneers</HI> to the pillage came.</L>
+<L>But what <HI>Toledoes</HI> wiles,<NOTE PLACE="marg">The Prince of <HI>Parma.</HI></NOTE> <HI>Farnezes</HI> might,</L>
+<L><HI>Gon&s;aluoes</HI> power, nor <HI>Spinolaes</HI> de&s;pite</L>
+<PB REF="31">
+<L>Could not effect; for nine times &s;euen yeares</L>
+<L>Again&s;t the fortune of the <HI>Belgian</HI> Peeres;</L>
+<L>Home-&s;punne Sedition, if not cro&s;t by Fate,</L>
+<L>Was like to worke again&s;t our Vnions State.</L>
+<L>This faction fir&s;t was leauen'd by the &s;ower</L>
+<L>Of call'd <HI>Arminiani&s;me,</HI> who&s;e clowdie &s;hower</L>
+<L>Seem'd to deface the cleare irradiant Sunne</L>
+<L>Of reform'd Truth, which on the&s;e Regions &s;hone.</L>
+<L>New Sectaries the&s;e Rudiments did varni&s;h</L>
+<L>With fre&s;h additions, and did fairely garni&s;h</L>
+<L>The Fronti&s;pice of that halfe rotten hou&s;e,</L>
+<L>Who&s;e Architecture did the &s;oules amu&s;e</L>
+<L>Of &s;undry <HI>Belgians,</HI> which for &s;helter came</L>
+<L>To this faire-&s;eeming &s;carce &s;ub&s;tantiall frame.</L>
+<L>This diffrence in Religion cau&s;'d another</L>
+<L>Diffrence in Faction, which th' <HI>Arminians</HI> &s;mother</L>
+<L>For &s;elfe-behoouing rea&s;ons, till the State</L>
+<L>Was manag'd by t' <HI>Hollandi&s;h</HI> Aduocate,</L>
+<L>Great <HI>Barneuelt,</HI> a Paragon for wit,</L>
+<L>For faction, greatne&s;&s;e, which entirely knit,</L>
+<L>And linkt to's fortunes, were the golden bayts</L>
+<L>That caught Plebeian minds with fond deceits:</L>
+<L>He va&s;&s;al'd as the rumour &s;aith, to <HI>Spaine,</HI></L>
+<L>Enuious to <HI>Na&s;&s;aw,</HI> couetous to gaine,</L>
+<L>And &s;pheare within his reaches that command,</L>
+<L>Which <HI>Maurice</HI> held with his victorious hand;</L>
+<L>Appalls the multitude with iealous feares,</L>
+<L>With tickling rumours fills the glowing eares</L>
+<L>Of his A&s;&s;ociates, tells them that t'indure</L>
+<L>The proud <HI>Na&s;&s;auians</HI> yoake, and their grandeur,</L>
+<L>Were to proiect their freedomes, and them&s;elues</L>
+<L>Again&s;t the ridge of tho&s;e Monarchicke &s;helues,</L>
+<L>Which mightie<NOTE PLACE="marg"><HI>Philip</HI> the 2. King of <HI>Spaine</HI></NOTE> <HI>Philip</HI> rai&s;ed at the fir&s;t,</L>
+<L>To quench his va&s;t ambitions Drop&s;ie thir&s;t.</L>
+<L>Be&s;ides it were again&s;t the &s;acred Lawes</L>
+<L>Of God and Nature, to for&s;ake the Cau&s;e</L>
+<L>Of their Religion, which b' <HI>Arminius</HI> &s;pred,</L>
+<L>And replanted in <HI>Hollands</HI> fruitfull bed,</L>
+<PB N="58" REF="32">
+<L>By his Di&s;ciples, now de&s;pi&s;'d, abiect,</L>
+<L>VVas eu'n &s;uppre&s;t by the <HI>Caluinian</HI> Sect.</L>
+<L>Thus Policie ioynd with Religion &s;hrowdes</L>
+<L>The <HI>Barneueltine</HI> plots, and like tho&s;e cloudes,</L>
+<L>Where a Parelion &s;its, deceiues the &s;ight</L>
+<L>Of ra&s;h beholders with their &s;pecious light.</L>
+<L>But O diuine Religion, why &s;hould&s;t thou</L>
+<L>To mens de&s;ignes; nay, palliations bow?</L>
+<L>O why &s;hould&s;t thou, who&s;e radiant tre&s;&s;es chaine</L>
+<L>God vnto man, and man to God againe?</L>
+<L>Why &s;hould thy Name ineffable, diuine,</L>
+<L>Zeales Cabinet, and pure Deuotions &s;hrine,</L>
+<L>Bee made a &s;tale to all the blacke intents</L>
+<L>Of humane proiects? and the bloody bents</L>
+<L>Of their pretences, who pretending right,</L>
+<L>Like <HI>Nimrods</HI> proud again&s;t thy Scepter fight.</L>
+<L>So that there liues not that damn'd<NOTE PLACE="marg">A damned Murtherer.</NOTE> <HI>A&s;&s;a&s;&s;ine,</HI></L>
+<L>Nor that vnloyall loyalliz'd <HI>Ignatian;</HI></L>
+<L>Not that <HI>Rauilliac,</HI> who&s;e death poynted knife</L>
+<L>De&s;poyl'd the braue<NOTE PLACE="marg"><HI>Henry</HI> the 4. <HI>Gerard,</HI> who kild the prince of <HI>Orange.</HI></NOTE> <HI>Nauarrois</HI> of his life;</L>
+<L>Not that<NOTE PLACE="marg"><HI>Henry</HI> the 4. <HI>Gerard,</HI> who kild the prince of <HI>Orange.</HI></NOTE> <HI>Burgundian</HI> Murderer, that <HI>Squire,</HI></L>
+<L>Nor that <HI>Lopes,</HI> but drawes the twi&s;ted wire</L>
+<L>Of his ranke Trea&s;ons from the faire pretence</L>
+<L>Of gloz'd Religion, though his &s;en&s;ele&s;&s;e &s;en&s;e,</L>
+<L>Right<NOTE PLACE="marg">Tho&s;e that haue the <HI>Apo|plexie,</HI> are in|&s;en&s;ible.</NOTE> Apoplecticke-like ne're feeles the motion</L>
+<L>Of pietie, nor zealous true deuotion.</L>
+<L>But <HI>Barneuelt</HI> &s;uppre&s;t, his faction quell'd,</L>
+<L>His popular Collo&s;sicke props downe fell'd,</L>
+<L>The Lernean Head of that rebellious rout</L>
+<L>Being &s;undred quite, who&s;e fal&s;ehood went about</L>
+<L>To &s;ubiugate the Netherlands againe</L>
+<L>Vnto the rule of rule-de&s;iring <HI>Spaine.</HI></L>
+<L>Some few yeares after, this &s;editious crue</L>
+<L>Makes head againe, and fre&s;hly doth pur&s;ue</L>
+<L>Their ancient quarrell, who&s;e proiected bent</L>
+<L>Fuell'd with malice, fedde with di&s;content,</L>
+<L>Intends the wracke of the <HI>Na&s;&s;auian</HI> race.</L>
+<L>But in their weales weale-publike to deface.</L>
+<PB N="59" REF="32">
+<L>There want not <HI>Catilines;</HI><NOTE PLACE="marg"><HI>The names of the&s;e 4. were</HI> Cor. Gerritzon Her. Herman|&s;on, Iohn Nico|las, Theodorick Leonard&s;on.</NOTE> rich <HI>Harlem</HI> &s;ends</L>
+<L>From cold North-<HI>Hollands</HI> Fro&s;t congealed ends,</L>
+<L>Foure Climate differing Sprites, inflam'd with fire</L>
+<L>Of light Ambition, Soueraignties de&s;ire,</L>
+<L>With Enuie, and Reuenge, who&s;e fuming terrours</L>
+<L>Di&s;tract their &s;oules into a maze of errours.</L>
+<L>But <HI>Barneuelts</HI> two &s;onnes, winde vp the clue</L>
+<L>Of all their doubts, and to their faction skrew</L>
+<L>Other A&s;&s;ociates, in which damned Li&s;t</L>
+<L><NOTE PLACE="marg">Daniel Slatius <HI>an</HI> Arminian <HI>Preacher.</HI></NOTE><HI>Slatius</HI> hath not the meane&s;t Intere&s;t,</L>
+<L>With <HI>Cornewinder,</HI> and <HI>Adrian van Deicks,</HI></L>
+<L>Whom blinde fold zeale to fal&s;e rebellion pricks.</L>
+<L>Thus was the plot; foure A&s;&s;a&s;sines de&s;ignd</L>
+<L>For this blacke deed, were &s;olemnly combind</L>
+<L>By mutuall vowes, and interchanged oathes,</L>
+<L>Which blu&s;hing <HI>Sol,</HI> and palefac'd <HI>Cinthia</HI> loathes)</L>
+<L>To Pi&s;toll <HI>Maurice, Henricke,</HI> and the re&s;t</L>
+<L>Of the <HI>Na&s;&s;auian</HI> &s;tocke; this being confe&s;t</L>
+<L>By two Con&s;pirators, the Prince &s;traight hies</L>
+<L>From <HI>Ri&s;<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">wicke</HI> to the <HI>Hague,</HI><NOTE PLACE="marg"><HI>Ri&s;wicke,</HI> <GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> Dorpe neere to the <HI>Hague.</HI></NOTE> and there de&s;cries</L>
+<L>In an <HI>Arminian</HI> hou&s;e foure of this crue,</L>
+<L>Who&s;e malice did great <HI>Na&s;&s;aws</HI> death pur&s;ue.</L>
+<L>All the&s;e were &s;eiz'd by the<NOTE PLACE="marg">The Prince of <HI>Oranges</HI> guard</NOTE> <HI>Pretorian</HI> band,</L>
+<L>Impri&s;on'd, arraign'd, and by the powerfull hand</L>
+<L>Of right-diuiding Iu&s;tice put to death,</L>
+<L>As men vnworthie to v&s;urpe that breath,</L>
+<L>Who&s;e rancour had con&s;pir'd their Countries &s;acke,</L>
+<L>State-alteration, and religions wracke.</L>
+<L>Such was the doome of <HI>Slatius,</HI> &s;uch the lot</L>
+<L>Of young <HI>Barneuelt,</HI><NOTE PLACE="marg">A &s;mal harbor within a mile of the <HI>Hague.</HI></NOTE> who to <HI>Scheueling</HI> got</L>
+<L><HI>Laruates</HI> his vi&s;age, doth his name exchange,</L>
+<L>And in a Skippers habite &s;eekes to range</L>
+<L>From <HI>Holland</HI> to the rich <HI>Hamburgers</HI> Seat,</L>
+<L>Again&s;t who&s;e walls the billowing <HI>Elbe</HI> doth beat.</L>
+<L>But found at <HI>Scheueling</HI> by the curious eyes</L>
+<L>Of publike &s;earch, hee for this Trea&s;on dies,</L>
+<L>For what reward can Trea&s;on el&s;e expect,</L>
+<L>But puni&s;hment, and rigours wor&s;t effect?</L>
+<PB N="60" REF="33">
+<L>But t'other of the &s;onnes comes fairer off,</L>
+<L>Who pa&s;sing by the <HI>Geldrians</HI> vnto<NOTE PLACE="marg"><HI>Goffe,</HI> a towne <HI>Cleeueland,</HI> as then vnder the king of <HI>Spaine.</HI></NOTE> <HI>Goffe,</HI></L>
+<L>There &s;aues him&s;elfe, and pentioneerd to <HI>Spaine,</HI></L>
+<L>New proiects of reuenge doth entertaine,</L>
+<L>Hoping his Sires and Brothers death to quite,</L>
+<L>Wrought as he &s;ayes by the <HI>Na&s;&s;auians</HI> &s;pite.</L>
+<L>The Winter pa&s;t in tortures, Aprill &s;miles</L>
+<L>To &s;ee the labour'd preparations toyles,</L>
+<L>Which both &s;ides take, t'enrich the colder earth</L>
+<L>With &s;treames of blood, who&s;e forc't abortiue birth</L>
+<L>With Ruby-colourd Ro&s;es decks the fields</L>
+<L>Of rich <HI>We&s;tphalia,</HI> which that<NOTE PLACE="marg">The Bi&s;hop of <HI>Colen,</HI> who is al&s;o Bi&s;hop of <HI>Mun&s;ter</HI> and <HI>Leege.</HI></NOTE> Bi&s;hop weelds,</L>
+<L>Who&s;e triple-Mitred power, who&s;e dreadfull awe</L>
+<L>To all th' inferiour Circles giues the Lawe,</L>
+<L>Supported by the <HI>Popes,</HI> and <HI>Cae&s;ars</HI> grace,</L>
+<L>By <HI>Bauier,</HI> and potent <HI>Au&s;triaes</HI> race.</L>
+<L>Hee proud of the&s;e &s;upports, and of that ayd</L>
+<L>Which <HI>Leege</HI> and <HI>Mun&s;ter</HI> &s;ends, had &s;trongly &s;tayd</L>
+<L>The current of our Vnion; and deuoted</L>
+<L>Vnto the See of <HI>Rome,</HI> had Clerke-like quoted</L>
+<L>The <HI>Machiuillian</HI> Index, for the &s;hifts</L>
+<L>Of policies, and fal&s;e eva&s;iue drifts.</L>
+<L><HI>Brun&s;wicke</HI> inflam'd with this proud Prelats wrongs,</L>
+<L>To reuenge which his boyling &s;pirit longs;</L>
+<L>Abandoneth his former wintring place,</L>
+<L>Repa&s;&s;eth <HI>Ems,</HI> and cleare <HI>Vi&s;urgis</HI> face.</L>
+<L>Then ran&s;acking the cramm'd <HI>We&s;tphalian</HI><NOTE PLACE="marg">Two great ri|uers in <HI>We&s;t|phalia.</HI></NOTE> Dorps,</L>
+<L>With their releefe he feeds the Souldiers corps.</L>
+<L>Strong was his Armie, numerous and faire,</L>
+<L>Which breathed nought but hop'd <HI>Victoriaes</HI> ayre:</L>
+<L>For now be&s;ides his old well-trained Bands,</L>
+<L>Which wintred in the <HI>Paterbornian</HI> lands;</L>
+<L>New reinforcements warlike <HI>Ha&s;sia</HI> &s;ends</L>
+<L>From flaggie<NOTE PLACE="marg"><HI>Fulde</HI> and <HI>E|der,</HI> two riuers of <HI>He&s;&s;en.</HI></NOTE> <HI>Fuldes,</HI> and <HI>Eders</HI> rouling bends.</L>
+<L>The like the <HI>Saxon</HI> doth from tho&s;e cold hills,</L>
+<L>Who&s;e Snow-bred torrent <HI>Albis</HI> channell fills.</L>
+<L>Thus did the <HI>Rhinegraue;</HI> thus did <HI>Loue&s;tein,</HI></L>
+<L><HI>Altenburg, Weimer, Schlic,</HI> and <HI>Vitgein&s;tein,</HI></L>
+<PB N="61" REF="33">
+<L>All Collonels of tho&s;e farre-feared Legions,</L>
+<L>Which <HI>Brun&s;wicke</HI> rai&s;ed in the&s;e vpper Regions.</L>
+<L>Th' Imperials were not for their number equall,</L>
+<L>But pa&s;sing our <HI>Be&s;onian</HI> Bands in mettall,</L>
+<L>Con&s;i&s;ting of tho&s;e Cohorts which <HI>Mortaigne,</HI></L>
+<L>Which <HI>Truch&s;es</HI> led, and <HI>Dane</HI> alyed <HI>Hol&s;teine,</HI></L>
+<L>Of the <HI>Croatian</HI> Hor&s;e which <HI>Anhalt</HI> brought,</L>
+<L>Of late vnto the <HI>Spani&s;h</HI> faction wrought,</L>
+<L>Of the <HI>Calabrian</HI> Bands, and of that force</L>
+<L>VVhich<NOTE PLACE="marg"><HI>Paulus</HI> the Pope &s;ent &s;uc|cours to the Emperour in the&s;e warres.</NOTE> <HI>Paulus</HI> &s;ent from <HI>Tibers</HI> &s;andy &s;ource.</L>
+<L>About the time that <HI>Mun&s;ters</HI> wealthy Boore,</L>
+<L>VVith <HI>Ceres</HI> fruits renewd his former &s;tore,</L>
+<L>VVhen <HI>Maurice</HI> lay within faire <HI>Arnhams</HI> walls,</L>
+<L>And <HI>Mansfield</HI> lodg'd neere to &s;wift <HI>Em&s;es</HI> falls:</L>
+<L>The Duke to <HI>Statloo</HI> came, and on the bankes</L>
+<L>Of<NOTE PLACE="marg"><HI>Honnor</HI> is a ri|uer in <HI>We&s;t|phalia,</HI> which runs neere to <HI>Statloo,</HI> the place where the battell was fought. Are <HI>Croatian</HI> Hor&s;men.</NOTE> <HI>Honner</HI> quarterd fal&s;e <HI>Criphau&s;ens</HI> rankes,</L>
+<L>To make that pa&s;&s;age good again&s;t the foe,</L>
+<L>VVhich neere to <HI>Vulten</HI> did their En&s;ignes &s;how.</L>
+<L>But hee being hooked by the golden bayt</L>
+<L>Of <HI>Tilleys</HI> promi&s;es, for&s;aketh &s;traight</L>
+<L>The place of his Command, which <HI>Tilley</HI> taketh</L>
+<L>VVith his<NOTE PLACE="marg"><HI>Honnor</HI> is a ri|uer in <HI>We&s;t|phalia,</HI> which runs neere to <HI>Statloo,</HI> the place where the battell was fought. Are <HI>Croatian</HI> Hor&s;men.</NOTE> <HI>Crabats,</HI> and from that Station maketh</L>
+<L>To the <HI>Brun&s;wican</HI> Vanguard, which being charg'd,</L>
+<L>At fir&s;t acquitted well, and well di&s;charg'd</L>
+<L>Their Martiall duties; but at length being pre&s;t</L>
+<L>By the <HI>Croatian Rutters,</HI> which addre&s;t</L>
+<L>Them&s;elues to their encounter, they for&s;ooke</L>
+<L>The bloody Combate, and them&s;elues betooke</L>
+<L>To a di&s;honour'd flight, which <HI>Brun&s;wicke</HI> &s;eekes</L>
+<L>To &s;top with blowes and words, but &s;till he meets</L>
+<L>Tho&s;e fearefull buggs, which cowards &s;oules affright,</L>
+<L>VVho rather cho&s;e to die, then liue to fight.</L>
+<L>Are the&s;e, quoth hee, the &s;olemne Ale<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">bench braues,</L>
+<L>Made by the&s;e lumpes of clay, the&s;e &s;odden &s;laues?</L>
+<L>VVho when they were but tickled with the heat</L>
+<L>Of &s;ulphrous Rheni&s;h, would whole Armies beat,</L>
+<L>Would quarter Gen'rall <HI>Tilley,</HI> lard his heart</L>
+<L>With points of &s;teeled Pikes, t'auenge the &s;mart</L>
+<PB N="62" REF="34">
+<L>Done to my cou&s;in <HI>Fredericke,</HI> and his Queene,</L>
+<L>By <HI>Ferdinands,</HI> and <HI>Philips</HI> mortall &s;pleene.</L>
+<L>But now being &s;et vpon their Fortunes trialls,</L>
+<L>They proue but hollow caskes, but emptie vials,</L>
+<L>Big &s;peaking puffers, glorious of their words,</L>
+<L>But Iades and da&s;tards, weaklings with their &s;words.</L>
+<L>Fie, fie for &s;hame, leaue off to runne and rout,</L>
+<L>Rally<NOTE PLACE="marg">Rally, is to re|order, or bring in order a|gaine.</NOTE> your &s;elues, and face it once about,</L>
+<L>Then &s;hall you &s;ee the God of Battels &s;mile,</L>
+<L>And vanqui&s;hers th' Imperiall Eagles foyle.</L>
+<L>But maugre all the&s;e words&punc; they rout and runne,</L>
+<L>As when &s;ome horned heard the hounds doth &s;hunne.</L>
+<L><NOTE PLACE="marg">A &s;mall towne vnder the States, which lay two leagues off.</NOTE>They flie towards <HI>Breafort,</HI> whom the fierce <HI>Crabats</HI></L>
+<L>Pur&s;ue, and &s;trike downe with the thundring claps</L>
+<L>Of their <HI>Carbins,</HI> &s;o that for two leagues &s;pace,</L>
+<L>You could &s;ee nought vpon the Champions face</L>
+<L>But carnage of mankind, but Cor&s;lets &s;trowen,</L>
+<L>But poynts of Pikes, of Swords, and Halberts &s;owen.</L>
+<L>Two hundred foes were kill'd, two thou&s;and &s;laine</L>
+<L>Of the <HI>Brun&s;wicans,</HI> and fiue thou&s;and ra'en</L>
+<L>With &s;poyles, and Honour crowned <HI>Tilleys</HI> hoa&s;t;</L>
+<L>But that which did inlarge their glory hoa&s;t;</L>
+<L>Was their compa&s;sion, and their mercie knowne</L>
+<L>Vnto the captiue <HI>Halber&s;tadians</HI> &s;howne.</L>
+<L>After the fortune of this battell pa&s;t,</L>
+<L>By Trea&s;on, and our Souldiers rawne&s;&s;e lo&s;t,</L>
+<L><HI>Brun&s;wicke</HI> retires with his halfe-broken Band</L>
+<L>Vnto the Confines of fat <HI>Gelderland;</HI></L>
+<L>Where entertaining, all the cho&s;en be&s;t</L>
+<L>For the State-Seruice, he ca&s;hieres the re&s;t</L>
+<L>Of that defeated &s;elfe-betraying rabble,</L>
+<L>Whom cowardi&s;e, or &s;ickne&s;&s;e made vnable</L>
+<L>To follow his de&s;ignes, who&s;e Verge &s;till bends</L>
+<L>To cro&s;&s;e the Spani&s;h and Imperiall ends.</L>
+<L>Foure times from this had <HI>Cinthia</HI> clo&s;'d her hornes,</L>
+<L>And foure times runne compleat her men&s;truall turnes,</L>
+<L>When neere Decembers la&s;t, t'<HI>Hollandi&s;h</HI> Fleet</L>
+<L>Bound for <HI>Bra&s;ill,</HI> commanded were to meet,</L>
+<PB N="63" REF="34">
+<L>If tempe&s;t &s;catterd, neere that necke of land,</L>
+<L>Where Sugar rich Saint <HI>Saluador</HI> doth &s;tand.</L>
+<L>They from the<NOTE PLACE="marg">The Hauen of <HI>Am&s;terdam.</HI></NOTE> <HI>Texell</HI> loo&s;ing, plow'd tho&s;e waues,</L>
+<L>Who&s;e curled &s;urge great <HI>Brittaines</HI> Foreland laues.</L>
+<L>Then pa&s;sing by rich <HI>Lisbornes</HI> foamie Bay,</L>
+<L>And the <HI>Terceraes,</HI> they thence made away</L>
+<L>To <HI>Teneriffaes Pike,</HI> and that deepe &s;ound,</L>
+<L>Where <HI>Neptunes</HI> tumbling billowes doe rebound</L>
+<L>From <HI>Gambra, Melli,</HI> and that Sunburnt &s;hore,<NOTE PLACE="marg">Countries i<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> <HI>Affricke.</HI></NOTE></L>
+<L>Whence <HI>Ginee</HI> &s;ends her Idolized Oare.</L>
+<L>Then &s;ayling We&s;t Southwe&s;t they pa&s;t the mouth</L>
+<L>Of<NOTE PLACE="marg"><HI>Maragnon</HI> is a Riuer, which boundeth <HI>Bra|&s;ilia</HI> to the Northward,</NOTE> <HI>Maragnon,</HI> and bending further South,</L>
+<L>They coa&s;ted all along that beachie Strand,</L>
+<L>Who&s;e checker borders faire <HI>Bra&s;iliaes</HI> Land.</L>
+<L>Heere from th' <HI>Aeolian</HI> wind out-belching cell</L>
+<L>The God of &s;tormes &s;ent forth a tempe&s;t fell</L>
+<L>Vpon the <HI>Dutch,</HI> which did their Galeouns beat,</L>
+<L>And &s;ep'rated their Sea-commanding Fleet.</L>
+<L>So that e're <HI>Willecks</HI> came, mine<NOTE PLACE="marg"><HI>Maragnon</HI> is a Riuer, which boundeth <HI>Bra|&s;ilia</HI> to the Northward,</NOTE> <HI>Here van Dort,</HI></L>
+<L>Arriued in <HI>Los Sanctos</HI> &s;pacious Port,</L>
+<L>Who thundring with his Cannon, giues th' Alarme,</L>
+<L>And makes the<NOTE PLACE="marg"><HI>Willecks</HI> was Admirall, and my Lo. of <HI>Dort</HI> commanded fo<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"> the land. <HI>Negroes.</HI></NOTE> <HI>Blackes,</HI> and <HI>Spaniards</HI> all to arme.</L>
+<L>Then backe he falls into the watrie Maine,</L>
+<L>To &s;eeke out <HI>Hollands</HI> Admirall againe.</L>
+<L>Three times the Sunne had dipt his <HI>Phlegons</HI> feet,</L>
+<L>And cool'd his Pa&s;terns in the we&s;terne deepe;</L>
+<L>When that farre famed <HI>Tiphis</HI> of aduenture</L>
+<L>Great <HI>Willeks,</HI> doth with all his Squadron enter</L>
+<L>The foamie mouth of the <HI>Bra&s;ilian</HI> Bay,</L>
+<L>And within di&s;tance of their Platformes lay:</L>
+<L>Who&s;e Canoniers our moared Galeouns plie</L>
+<L>With roaring peales of their Artillery;</L>
+<L>The&s;e an&s;were them from t'high and lower Tires,</L>
+<L>With<NOTE PLACE="marg">With vollies of &s;hot returnd againe.</NOTE> reuolets of their <HI>Promethean</HI> fires.</L>
+<L>This &s;alutation pa&s;t, he &s;traight re&s;olues</L>
+<L>To land his Troupes, and &s;eriou&s;ly re&s;olues</L>
+<L>Each aduantageous cour&s;e, no forme, no &s;hape</L>
+<L>Of what exp<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">dient was, could once e&s;cape</L>
+<PB N="64" REF="35">
+<L>His pondrous thoughts, for knowing words to be</L>
+<L>The &s;olacers of feares infirmitie;</L>
+<L>He thus inflames, thus comforts, thus exhorts</L>
+<L>His <HI>Hollanders:</HI> Come on my braue Con&s;orts,</L>
+<L>Heere's honour, riches, profit, and what not</L>
+<L>VVithin <HI>Saluador</HI> to bee lo&s;t, or got;</L>
+<L>Heere are tho&s;e Ingots rich, tho&s;e precious graines,</L>
+<L>Which<NOTE PLACE="marg"><HI>Reall,</HI> a Riuer which borde|reth <HI>Bra&s;ill</HI> to the Southward</NOTE> <HI>Reall</HI> wa&s;heth from the mountaines vaines;</L>
+<L>Heere is that Oare, for which the Negro &s;laues</L>
+<L>Vnlocke the clo&s;ets of th'Infernall caues,</L>
+<L>Kept by the&s;e meagre Guardians, verball puffes,</L>
+<L>Bigge lookers in their high <HI>Ca&s;tillian</HI> ruffes,</L>
+<L>But meere<NOTE PLACE="marg">Vaine glorious Braggarts</NOTE> <HI>Quixotes, Rodomantading</HI> braues,</L>
+<L>Faire fronti&s;pic'd like to their Grandoes graues,</L>
+<L>But full of emptine&s;&s;e, and tho&s;e defects,</L>
+<L>VVhich valour in &s;elfe-bragging &s;till detects.</L>
+<L>So that the &s;poyle is facill, if that wee</L>
+<L>Can beat this<NOTE PLACE="marg">Hotch potch is any thing that is mingled; a <HI>Dutch-Eng|li&s;h</HI> word.</NOTE> Hotch-potch of mortalitle;</L>
+<L>The&s;e <HI>Spaniards, Portugals, Saluages, Moores,</HI></L>
+<L>VVho keepe not, but are kept within the Towers</L>
+<L>Of Saint <HI>Saluador:</HI> Nor is priuate gaine,</L>
+<L>Nor priuate fame the &s;ole proiected ayme</L>
+<L>Of this dayes &s;eruice, but the publike good,</L>
+<L>VVhich bleeding<NOTE PLACE="marg">Since the lo&s;&s;e of <HI>Iuliers.</HI></NOTE> &s;ince our <HI>Iuliacke</HI> lo&s;&s;es &s;tood,</L>
+<L>Mu&s;t be the &s;cope of eu'rie Souldiers bent,</L>
+<L>To which if wee giue iu&s;t accompli&s;hment;</L>
+<L>Then th' <HI>Andian</HI> Mountaines which diuide the skies,</L>
+<L>Shall ope their vaines to our new Colonies;</L>
+<L>Then tho&s;e <HI>Bra&s;ilian</HI> woods,<NOTE PLACE="marg">The <HI>Andes</HI> di|uide <HI>Peru</HI> and <HI>Bra&s;ill</HI> to the We&s;tward. The&s;e Trees are &s;o big, that whol families dwell in them. A great Lake in this Coun|trey.</NOTE> who&s;e ma&s;sie Trees</L>
+<L>Saluages hiue, like &s;warmes of <HI>Ru&s;&s;ian</HI> Bees,</L>
+<L>With all tho&s;e verdant Plaines, which <HI>Oregliana,</HI></L>
+<L>VVhich <HI>Reall</HI> watereth, and curl'd<NOTE PLACE="marg">The <HI>Andes</HI> di|uide <HI>Peru</HI> and <HI>Bra&s;ill</HI> to the We&s;tward. The&s;e Trees are &s;o big, that whol families dwell in them. A great Lake in this Coun|trey.</NOTE> <HI>Eupana,</HI></L>
+<L>Shall bee the guerdons of our glorious toyle,</L>
+<L>And honour'd Embleames of th'<HI>Iberians</HI> foyle.</L>
+<L>This &s;peech being pa&s;t, &s;tout <HI>Willeks</HI> doth imbarke</L>
+<L>VVithin the<NOTE PLACE="marg">Long-Boates.</NOTE> Skiffes, which from their Galeouns warpe,</L>
+<L>Two thou&s;and cho&s;en men, who&s;e ready &s;prite</L>
+<L>Straight vndertakes the danger of this fight.</L>
+<PB N="65" REF="35">
+<L>Then the lowd Cannon roares, the Souldiers &s;cale,</L>
+<L>The Mariners with Boat-hookes downe doe hale</L>
+<L>The<NOTE PLACE="marg">Are pales &s;et vp vpon the top or bottome of a Rampier. Parapet is a Worke made bre&s;t high vpo~ the top of a wall or Ram|pire.</NOTE> Pali&s;adoes: but the Fort well mann'd</L>
+<L>At fir&s;t to their defence did brauely &s;tand,</L>
+<L>And powr'd downe from the<NOTE PLACE="marg">Are pales &s;et vp vpon the top or bottome of a Rampier. Parapet is a Worke made bre&s;t high vpo~ the top of a wall or Ram|pire.</NOTE> Parapetted walls</L>
+<L>Pitch-burning hoopes, Granadoes, wild-fire balls,</L>
+<L>Tarlin and Musket &s;hot; but at the leng<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">h</L>
+<L>The&s;e Spani&s;h Hote&s;purres loo&s;e their former &s;trength,</L>
+<L>Being &s;tiffely charg'd, and to the towne recoyle,</L>
+<L>Outwearied with this dang'rous combates toyle,</L>
+<L>Leauing behind their euer honour'd Chiefe</L>
+<L>Forlorne of all, deuoyd of all reliefe,</L>
+<L>Who fights it out eu'n at the Rapiers poynt,</L>
+<L>Vntill &s;urcharg'd with odds, and vigour &s;pent,</L>
+<L>He &s;heathed vp his Bilboe-tempred blade,</L>
+<L>And to the Conqu'rours this &s;ubmi&s;sion made:</L>
+<L>I yeeld my &s;elfe, this Ca&s;tle, and this Fort,</L>
+<L><HI>Saluadors</HI> Towne, and faire <HI>Los Sanctos</HI> Port,</L>
+<L>To you my noble <HI>Dutch</HI> for all &s;hall be</L>
+<L>Now va&s;&s;aliz'd to your new Seigneury:</L>
+<L>Onely my Soule vncaptiued remaines</L>
+<L>Free from th'a&s;per&s;ion of tho&s;e ba&s;er &s;taines,</L>
+<L>Which brand the&s;e fugitiues, who had they been</L>
+<L>But Souldiers true, but hardie valiant men;</L>
+<L>Sooner &s;hould<NOTE PLACE="marg"><HI>Rio grande,</HI> a Riuer which runs from the lake of <HI>Eupan<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"></HI> into <HI>Marag<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">.</HI></NOTE> <HI>Rio grande</HI> haue chang'd his cour&s;e,</L>
+<L>And retrograde reui&s;ited his &s;ource;</L>
+<L>Sooner &s;hould th' <HI>Andian Alps</HI> haue wa&s;ht their head</L>
+<L>In foamie <HI>Neptunes</HI> peeble-checkred bed,</L>
+<L>Then any parcell of <HI>Bra&s;iliaes</HI> land</L>
+<L>Should once haue &s;toopt to <HI>Oranges</HI> command.</L>
+<L>The Gouernour thus &s;eaz'd, the Ca&s;tle wonne,</L>
+<L>The Fort &s;urpri&s;'d, and Saint <HI>Saluadors</HI> Towne</L>
+<L>Being quitted by the foes; the <HI>Dutch</HI> Cohorts</L>
+<L>Doe forthwith enter tho&s;e portculliz'd Ports,</L>
+<L>Who&s;e bending pa&s;&s;age giues an open way</L>
+<L>To this large Citie from <HI>Los Sanctos</HI> Bay.</L>
+<L>Great was the &s;poyle, for Iewels, golde, and plate</L>
+<L>Inricht the publicke, and the priuate &s;tate</L>
+<PB N="66" REF="36">
+<L>VVith pillage &s;tore; <HI>Poto&s;ies</HI> golden barres,</L>
+<L>The &s;upporters of the&s;e <HI>Philippicke</HI> warres,</L>
+<L><HI>Peruvian</HI><NOTE PLACE="marg">Wedges of <HI>Peruuian</HI> gold</NOTE> Ingots, redde <HI>Bra&s;ilian</HI> wood,</L>
+<L>Rich Cochineale, and Sugar perfect good,</L>
+<L>Became the guerdons of the <HI>Dutchmens</HI> paines,</L>
+<L>And new additions to their ancient gaines.</L>
+<L>The rumour of this lo&s;&s;e no &s;ooner came,</L>
+<L>Out trumpetted by truth-reporting Fame</L>
+<L>Vnto the Court of <HI>Spaine,</HI> but reuenge wrought</L>
+<L>Within their Councels brea&s;t, who&s;e rancour &s;ought</L>
+<L>To finde &s;ome proiect out, by which they might</L>
+<L><HI>Los Sanctos</HI> lo&s;&s;e, and Saint <HI>Saluadors</HI> quite.</L>
+<L>Plots diffrent were propo&s;'d; but at the la&s;t,</L>
+<L>This &s;uffraged in Common coun&s;ell pa&s;t</L>
+<L>That <HI>Spinola</HI> by conqu'red <HI>Bredaes</HI> gaine,</L>
+<L>Mu&s;t <HI>Spaines</HI> eclip&s;ed Honour remaintaine.</L>
+<L>For this de&s;igne the fierce<NOTE PLACE="marg">Spinola.</NOTE> <HI>Ligurian</HI> takes</L>
+<L>The field at <HI>Ballart,</HI> and from <HI>Ballart</HI> makes</L>
+<L>Towards <HI>Hooch&s;traten,</HI> and renownd <HI>Turnhout,</HI><NOTE PLACE="marg">At <HI>Turnhout</HI> the Spaniards were defeated e&s;pecially by the valour of the <HI>Engli&s;h.</HI></NOTE></L>
+<L>For our mens valour, and th'<HI>Iberians</HI> rout:</L>
+<L>Then pa&s;sing by &s;mall <HI>Gil&s;en, Baerle,</HI> and <HI>Cham,</HI></L>
+<L>About mid-Augu&s;t all their Legions came</L>
+<L>To <HI>Ginneken,</HI> and neere the <HI>Merkaes</HI> bankes</L>
+<L>(Who&s;e channell their intrenched Leaguer flankes)</L>
+<L>They drew their Quarters out; th' <HI>Italian</HI> Bands,</L>
+<L>Which <HI>Baglioni</HI> the <HI>Lumbard</HI> proud commands</L>
+<L>Were lodg'd at <HI>Terheiden,</HI> their <HI>Almaines</HI> led</L>
+<L>By <HI>Iohn</HI> of <HI>Na&s;&s;aw,</HI> were all billetted</L>
+<L>Within <HI>Terhague;</HI> the Marque&s;&s;e with the men</L>
+<L>Of his Diui&s;ions, lay at <HI>Ginneken,</HI></L>
+<L>Re&s;olued all to winne that glorious pri&s;e,</L>
+<L>Which <HI>Maurice</HI> got by <HI>Lamberts</HI> Turfe-deuice.</L>
+<L>The Citizens on the defen&s;iue &s;tand,</L>
+<L>With new Supplies, and Reinforcements mann'd,</L>
+<L>Which<NOTE PLACE="marg">The&s;e were Colonels of the <HI>Engli&s;h, French,</HI> and <HI>Dutch.</HI></NOTE> <HI>Hauterine,</HI> which <HI>Gris,</HI> and <HI>Morgan</HI> ledd</L>
+<L>From gla&s;sie <HI>Seines,</HI> and <HI>Tam&s;e's</HI> fruitfull bedd,</L>
+<L>Which <HI>Lockeren</HI> brought from the Chri&s;tall <HI>Ma&s;e,</HI></L>
+<L>From &s;andie <HI>Rhines,</HI> and <HI>I&s;&s;ells</HI> watrie face,</L>
+<PB N="67" REF="36">
+<L>Commanded all by <HI>Ju&s;tin</HI> of <HI>Na&s;&s;aw,</HI></L>
+<L>Who to the Towne, and Souldiers gaue the Law.</L>
+<L>Be&s;ides, the<NOTE PLACE="marg">The Prince of <HI>Orange.</HI></NOTE> Prince reinforced with &s;upplies,</L>
+<L>Sent from his <HI>Engli&s;h</HI> friends, and fa&s;t Alies,</L>
+<L>Which braue <HI>Southampton</HI> led, which valiant <HI>Writh&s;ly,</HI></L>
+<L>Which <HI>E&s;&s;ex, Oxford, Veare</HI> and <HI>Willoughby</HI></L>
+<L>Commanded for the States, had pa&s;t his Bands</L>
+<L>From <HI>Holland</HI> through the rich <HI>Braban&s;on</HI> lands,</L>
+<L>To<NOTE PLACE="marg">Two villages in <HI>Brabant,</HI> where they fir&s;t quarterd.</NOTE> <HI>Meed</HI> and <HI>Stiue&s;and,</HI> where his care attends</L>
+<L>To &s;uccour his <HI>Breda</HI>-beleagred friends,</L>
+<L>With all tho&s;e &s;tratagems, which force or wit</L>
+<L>Could yeeld, to farther, or to fini&s;h it.</L>
+<L>The rumour of this &s;iege, with th'expectation</L>
+<L>Brought Voluntiers from eu'ry Chri&s;tian Nation</L>
+<L>Vnto both Leaguers, in which honour'd li&s;t</L>
+<L><HI>Poloniaes</HI> Prince claimes chiefe&s;t intere&s;t:<NOTE PLACE="marg">The Prince of <HI>Poland.</HI></NOTE></L>
+<L>Who comming from the cold <HI>Sarmatian</HI> plaines,</L>
+<L>From <HI>Rugeland,</HI> and high <HI>Almaine</HI> rich in vaines</L>
+<L>Of &s;undry Mineralls, arriu'd at la&s;t</L>
+<L>(After the chance of many fortunes pa&s;t)</L>
+<L>At <HI>Au&s;trian I&s;abels</HI> renowned Court,</L>
+<L>Where entertain'd with that Maie&s;ticke port,</L>
+<L>Which did befit his Greatne&s;&s;e he retires</L>
+<L>Vnto the Campe from <HI>Bruxels</HI> &s;tately Spires,</L>
+<L>De&s;iring more to &s;ee the Leaguers face,</L>
+<L>The <HI>Spani&s;h</HI> Stations, and their Souldiers grace,</L>
+<L>Then all that pompe, which <HI>Bruxels</HI> did affoord,</L>
+<L>To entertaine this young <HI>Polonian</HI> Lord.</L>
+<L>Vpon his fir&s;t approach the <HI>Spani&s;h</HI> foe</L>
+<L>New po&s;tures of their ancient boa&s;ting &s;how;</L>
+<L>They bragge and braue it, that this braue <HI>Polaque,</HI></L>
+<L>Should take our &s;tronge&s;t works, and <HI>Breda</HI> &s;acke,</L>
+<L>Should lay the Rampiers leuell with the plaine,</L>
+<L>And <HI>Merks</HI> current with our Vermillion &s;taine.</L>
+<L>But his de&s;ignes were &s;afer, for the Prince</L>
+<L>Knew that Experience &s;hould finde difference</L>
+<L>Betwixt our Troupes, and tho&s;e <HI>Co&s;&s;ackes</HI> which haunt</L>
+<L><HI>Meotis</HI> Fennes, and <HI>Tartaries</HI> Leuant:</L>
+<PB N="68" REF="37">
+<L>He knew that here were no <HI>Tartarian</HI> Drouers,</L>
+<L>No <HI>Turki&s;h</HI> Prickers, nor <HI>&V;alachian</HI> Rouers,</L>
+<L>No <HI>Muskouiti&s;h,</HI> nor <HI>Hungarian</HI> Bands,</L>
+<L>VVho&s;e fight on number, more then valour &s;tands.</L>
+<L>But heere were French and Engli&s;h nations bold</L>
+<L>Within the Curtin of this Rampierd hold,</L>
+<L>And the&s;e not led by<NOTE PLACE="marg">The&s;e were <HI>Ba&s;&s;aes</HI> &s;laine and defeated by the Prince of <HI>Poland.</HI></NOTE> <HI>Ali&s;-beg,</HI> nor <HI>Nahan,</HI></L>
+<L>Nor by <HI>Cirkas;</HI> but by <HI>Lock'ren,</HI> and <HI>Morgan,</HI></L>
+<L>By <HI>Gris</HI> and <HI>Hauteriue</HI> men of that merit,</L>
+<L>That death nor danger could not &s;inke their Spirit.</L>
+<L>Moreouer twas not the Ca&s;tilians bent,</L>
+<L>To take this place by forcible attempt,</L>
+<L>By battering, <HI>Petarring,</HI> or <HI>Scalado,</HI></L>
+<L>By &s;apping, mining, or by <HI>Cami&s;ado,</HI></L>
+<L>They knew t'were labour lo&s;t, t'were worke in vaine</L>
+<L>To &s;eeke by force this Fortre&s;&s;e &s;trong to gaine.</L>
+<L>But famine was the plot, the <HI>Fabian</HI> cour&s;e</L>
+<L>By which they meant the Souldiers hearts to force,</L>
+<L>And skrew to their conditions: for what &s;trength</L>
+<L>So Adamantine is? but yeelds at length</L>
+<L>Vnto the force of famine; there's no law</L>
+<L>Can giue pre&s;cription to a &s;uffring mawe:</L>
+<L>For <HI>Cae&s;ars</HI> &s;elfe mu&s;t yeeld, and <HI>Pompey</HI> vaile,</L>
+<L>If victuals with their hungry Colon faile.</L>
+<L>T'accompli&s;h this great Ca&s;tiles armie blockes</L>
+<L>The friendly <HI>Mercke,</HI> and with their Cannon &s;toppes</L>
+<L>The Land<NOTE PLACE="marg">Aduenue &s;ig|nifies a pa&s;|&s;age</NOTE> aduenues, fiue well fenced Forts</L>
+<L>Do barre the mouth of our porcullizd ports</L>
+<L>From all acce&s;&s;e: no Skoutes, no Spies could pa&s;&s;e,</L>
+<L>The Circling Rampiers large extended ma&s;&s;e</L>
+<L>But their obiected &s;ight mu&s;t &s;traight wayes be</L>
+<L>The pointeblancke ayme of Spaines Artillerie.</L>
+<L>Tho&s;e mightie workes, which with your wandring eyes</L>
+<L>On<NOTE PLACE="marg">The plaines in <HI>Wilt&s;hire</HI></NOTE> <HI>Wilt&s;hires</HI> battell plaines you may de&s;cry;</L>
+<L>Tho&s;e monuments left by the conqu'ring <HI>Danes,</HI></L>
+<L>And the <HI>Saxons</HI> to eternize their names,</L>
+<L>Were counterfeits, and workes of little fame</L>
+<L>Compard with this <HI>Giganticke</HI> ma&s;sie frame.</L>
+<PB N="69" REF="37">
+<L>To pierce them through, t'were to diuide the brea&s;t</L>
+<L>Of Greeki&s;h <HI>I&s;thmos,</HI> or to cut the cre&s;t</L>
+<L>Of <HI>Athos</HI> and <HI>Olimpus;</HI> twere to draine</L>
+<L>That ebbing flowing <HI>Mediterran</HI> maine,</L>
+<L>Which runs betweene the &s;weet<NOTE PLACE="marg">The Ile of <HI>Dorts.</HI></NOTE> <HI>Dordrecian</HI> Ile</L>
+<L>And bleeding <HI>Brabants Rubie</HI> coul'red &s;oile.</L>
+<L>His Excellence knew this, and for this cau&s;e</L>
+<L>Without all dallying demurres all delayes</L>
+<L>He leaues his <HI>Meedan</HI> quarters, and doth fall</L>
+<L>From thence vnto &s;weete-&s;eated <HI>Ro&s;endale,</HI></L>
+<L>Where he refortifies his winter &s;tation,</L>
+<L>V&s;eth th' a&s;&s;urance of his former caution,</L>
+<L>Seekes to cut off great <HI>Spinolaes</HI> Conuoyes,</L>
+<L>And fill his Campe with <HI>Myriads</HI> of annoyes.</L>
+<L>His brother <HI>Henericke</HI> at <HI>Long&s;tratten</HI> lay</L>
+<L>Vpon the pa&s;&s;age of the<NOTE PLACE="marg">Vpon the way of the <HI>Bu&s;&s;e.</HI></NOTE> <HI>Bo&s;hian</HI> way,</L>
+<L>To cut of tho&s;e Supplies, which <HI>Brabant</HI> &s;ent,</L>
+<L>Which <HI>Namurs, Heinault,</HI> and <HI>Burgundia</HI> lent,</L>
+<L>Which the <HI>Limburgers</HI> brought in ratling Carres,</L>
+<L>As contributours to the&s;e <HI>Belgian</HI> warres.</L>
+<L>Both Armies lying thus, excur&s;ions pa&s;t</L>
+<L>And frequent &s;allies, where the various ca&s;t</L>
+<L>Of wauering Fortune gaue the glorious pri&s;e</L>
+<L>With doubtfull reuolution; in &s;uch wi&s;e</L>
+<L>That now the Dutchmen vanqui&s;h, now the foe</L>
+<L>The Netherlandi&s;h Souldiers doth o'rethrow.</L>
+<L>Among&s;t the re&s;t courageous <HI>Breoutee</HI></L>
+<L>Left heere this life t'acquire Eternitie;</L>
+<L>Who&s;e body <HI>Mountioyes</HI> daring re&s;cue gaue</L>
+<L>The &s;ollemne rights of an ob&s;equious graue.</L>
+<L>Thus died the Captaine of th' <HI>Orangian</HI> guard,</L>
+<L>Who &s;allying forth the like di&s;a&s;ter &s;har'd,</L>
+<L>With diuer&s;e others, which in honours bed</L>
+<L>Decea&s;ing liue, intomb'd, vnburied,</L>
+<L>Worthy for worth euen to &s;uruiue that death,</L>
+<L>Which &s;poild them of their hor our breathing breath.</L>
+<L>But where the &s;worde one pettie &s;quadron &s;lew,</L>
+<L>The Pe&s;tilence to <HI>Plutoes</HI> man&s;ion drew</L>
+<PB N="70" REF="38">
+<L>Thou&s;ands of &s;oules, who&s;e numerous Cohorts</L>
+<L>Crowded the pa&s;&s;age of the Stigian ports.</L>
+<L>So that no &s;tragling &s;oule could portage gaine,</L>
+<L>From th'vpper world vnto th'Infernall maine.</L>
+<L>But O thou &s;courge of Armies, why &s;hould&s;t thou</L>
+<L>To <HI>Mars</HI> his &s;teelie traine de&s;truction vowe?</L>
+<L>Why &s;hould <HI>Bellonaes</HI> votaries indure</L>
+<L>Thy bloodie fluxe, thy madding Callenture?</L>
+<L>Why &s;hould the &s;welling botch, the watrie blaine</L>
+<L>That &s;eate of valour with contagion &s;taine,</L>
+<L>And tainte that purer con&s;ecrated bloud</L>
+<L>Which vow'd it &s;elfe for <HI>Belgiaes</HI> publicke good.</L>
+<L>Was't not inough to powre thy malice forth,</L>
+<L>Vpon, the colder<NOTE PLACE="marg">All tho&s;e Nor|therene Coun|tries were this la&s;t yeere much annoyed with the Plague.</NOTE> <HI>Regions</HI> of the North?</L>
+<L>To plague the warrelike Danes, the &s;turdie Swecians,</L>
+<L>The Rugians, Lappians, and the &s;low <HI>Norwegians?</HI></L>
+<L>Was't not inough for thy death miniond &s;elfe,</L>
+<L>To <HI>Golgothize</HI> the &s;treetes of &s;tately Delfe,</L>
+<L>And, make faire <HI>Leidens</HI> trembling &s;tudents flie</L>
+<L>From learnings once, now deaths Academie?</L>
+<L>Was't not enough to lay we&s;t <HI>Frie&s;eland</HI> wa&s;te</L>
+<L>And wa&s;te<NOTE PLACE="marg">Vtrocht.</NOTE> <HI>Traiectum?</HI> but with winged ha&s;t</L>
+<L>Thou mu&s;t inuade the Princes warrelike Campe,</L>
+<L>And thou&s;ands kill with that obnoxious dampe,</L>
+<L>Which fir&s;t infects the Subtle poared Aire,</L>
+<L>And from thence doth our vitall &s;trength impaire,</L>
+<L>By tainting tho&s;e vermillion flowing vaines,</L>
+<L>Tho&s;e life-conducts with thy contagious &s;taines.</L>
+<L>And could not heere plebeian bloud a&s;&s;wage</L>
+<L>The boundles bounds of thy Luxuriant rage?</L>
+<L>But mu&s;t <HI>South-hamptons</HI> Earle, mu&s;t <HI>Oxfords</HI> &s;elfe</L>
+<L>Dye by the darts of this accur&s;ed El&s;e?</L>
+<L>Mu&s;t<NOTE PLACE="marg">My Lord <HI>Wriothe&s;ly</HI> elde&s;t &s;onne to th' Earle of <HI>Southampton.</HI></NOTE> <HI>Wrioth&s;ley, VVindham, Che&s;ter, Hal&s;well</HI> dye,</L>
+<L>Slaine by the &s;hafts of dire mortalitie?</L>
+<L>But deade they are, whether that angrie nature</L>
+<L>Enuied to earth their moore diuiner feature;</L>
+<L>Or being malignant both to Armes, and Arts,</L>
+<L>Skornd this Sublunar &s;hould po&s;&s;e&s;&s;e tho&s;e parts,</L>
+<PB N="71" REF="38">
+<L>Tho&s;e &s;eates of wonder, which with &s;uch a mea&s;ure</L>
+<L>Were powred forth of great <HI>Pandoraes</HI> trea&s;ure.</L>
+<L>Yet the&s;e being gone,<NOTE PLACE="marg">Sir <HI>Iohn Rat|cliffe</HI> <GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">pul&s;ed <HI>Pompeio</HI> and <HI>Branch<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">&s;<GAP DESC="illegible" RESP="MURP" EXTENT="2 letters">,</HI> as they thought to pa&s;&s;e ouer the <HI>Waal,</HI> vn|der the con|duct of <HI>Buc|quoy.</HI></NOTE> <HI>Ratcliffe</HI> reputed dead,</L>
+<L>For <HI>Pompeyes</HI> repul&s;e Fame-eternized,</L>
+<L>Liues, and &s;uruiues, new Honours to attaine</L>
+<L>From the defeated Colonels of <HI>Spaine.</HI></L>
+<L>And &s;ince that they are dead, O that my Ver&s;e</L>
+<L>Could giue but life to their thrice-honour'd Her&s;e;</L>
+<L>Then &s;ooner &s;hould the Northerne Coachman &s;teepe,</L>
+<L>His falling Teeme within the <HI>Ru&s;sian</HI> deepe;</L>
+<L>Sooner &s;hould <HI>Thames</HI> for&s;ake his Ea&s;terne cour&s;e,</L>
+<L>And &s;liding backe runne We&s;tward to his &s;our&s;e,</L>
+<L>Then that their Lawrell-con&s;ecrated prai&s;e</L>
+<L>Should want the Crowne of &s;uch &s;uruiuing Layes,</L>
+<L>VVhich might giue life in death, and make that la&s;t</L>
+<L>Beyond Times power, and cankred Enuies bla&s;t.</L>
+<L>And as for thee, &s;weet <HI>Breda,</HI> which do&s;t &s;tand</L>
+<L>Vpon the <HI>Merkaes</HI> peeble bordred &s;trand,</L>
+<L>Since thou beleagred art with &s;undry Legions,</L>
+<L>Which came from tho&s;e<NOTE PLACE="marg">From <HI>Spaine.</HI></NOTE> &s;un-&s;corched we&s;tern Regions;</L>
+<L>So that no &s;tore of victualls, no &s;upply</L>
+<L>Can bring reliefe to thy nece&s;sitie.</L>
+<L>And if the <HI>Spaniard</HI> &s;till &s;o &s;trongly lies,</L>
+<L>That neither <HI>Na&s;&s;aws</HI> force, nor &s;lie deuice</L>
+<L>Can rai&s;e the &s;iege; if tho&s;e new leuied Bands,</L>
+<L>Which <HI>Brun&s;wicks</HI> Duke, and <HI>Cromwels</HI> &s;elfe commands,</L>
+<L>VVhich vnder <HI>Maunsfields</HI> conduct, <HI>Rich</HI> and <HI>Lincolne,</HI></L>
+<L>Which <HI>Burroughs</HI> leads, which <HI>Donca&s;ter</HI> and <HI>Hopton</HI></L>
+<L>Cannot inforce th'<HI>Jberian</HI> Troupes to ri&s;e,</L>
+<L>Nor gaine their way by <HI>Spinolaes</HI> &s;urpri&s;e.</L>
+<L>Then could I wi&s;h, that all that large extent,</L>
+<L>VVhich lies within the Rauelins Continent,</L>
+<L>VVere full of <HI>Indian</HI><NOTE PLACE="marg">A &s;trange kind of f<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">uit which growes in <HI>Peru.</HI></NOTE> Cocoes, which doe grow</L>
+<L>Vpon tho&s;e Plaines where <HI>Perues</HI> &s;treames doe flow,</L>
+<L>Who&s;e &s;trong oppletiue power doth &s;trangely fill,</L>
+<L>And &s;wallowed doth both thir&s;t and hunger kill.</L>
+<L>Then could I wi&s;h, that &s;ome Spring-forced tide</L>
+<L>Would make <HI>Merks</HI> current retrograde to glide,</L>
+<PB REF="39">
+<L>And when the forced riuer thus doth flow</L>
+<L>Whole Cockly mountaines it might vpwards throw</L>
+<L><NOTE PLACE="marg">When <HI>Rochell</HI> was be&s;iegd, great &s;tore of &s;hell fi&s;h were miraculou&s;ly ca&s;t vp vpon the &s;hoare for the releefe of the Citizens.</NOTE>Vpon the &s;trand; as when <HI>Aniou,</HI> and <HI>Gui&s;e,</HI></L>
+<L>Thought <HI>Neptune</HI> flanked <HI>Rochell</HI> to Surpri&s;e:</L>
+<L>It once befell vpon that &s;andy &s;hoare,</L>
+<L>Where th' Ocean doth again&s;t <HI>Coreilles</HI> roare.</L>
+<L>And then perhaps might <HI>Bredaes</HI> &s;iege be &s;uch</L>
+<L>As was <HI>O&s;tends</HI> or <HI>Bergens;</HI> and as much</L>
+<L>The dammagd foe might then, and there &s;u&s;taine,</L>
+<L>As they did in tho&s;e former &s;ieges gaine,</L>
+<L>When <HI>Veare</HI> and <HI>Morgan</HI> brauely did repell</L>
+<L>That Spani&s;h &s;torme, which on their Legions fell.</L>
+<L>But whil&s;t my mu&s;e thus Prayes, Fame from tho&s;e cels</L>
+<L>Where audience, rumour, and relation dwells,</L>
+<L>Brings vs &s;ad tidings, that &s;trong-flankt <HI>Breda</HI></L>
+<L>Reconquerd is by warrelike <HI>Spinola;</HI></L>
+<L>Who after eight moneths &s;iege regaind that place,</L>
+<L>Which &s;o much did his Gray haird actions grace.</L>
+<L>For although <HI>Maurice</HI> by &s;urpri&s;ing Cleeue,</L>
+<L>By <HI>Antwerpes</HI> cold attempt &s;ought to releeue</L>
+<L><HI>Beleaguerd Breda;</HI> though that <HI>Morgan</HI> braue</L>
+<L>Re&s;olu'd to make th' ingaged place his Graue,</L>
+<L>And &s;tood on the defen&s;iue with that troupe</L>
+<L>Which &s;woard nor famine could not make to &s;toope.</L>
+<L>Although without &s;tout <HI>&V;eare,</HI> and <HI>Oxfords</HI> Count</L>
+<L>Mo&s;t daringly the Spani&s;h workes did mount,</L>
+<L>And wone two <HI>Rodoubts,</HI> whereas <HI>Payton, Winne,</HI></L>
+<L><HI>Tubbe, Dacres, Hawley, Stanhop</HI> got within</L>
+<L>The Parapetted Rampier, brauely fought</L>
+<L>And death among&s;t whole armed &s;quadrons &s;ought.</L>
+<L>Yet famine &s;till increa&s;ing, who&s;e affrounte</L>
+<L>No courage though death-daring) can &s;urmount,</L>
+<L>And eight dayes foode being onely left to feede</L>
+<L>The greedie Souldiers and the Burgers neede;</L>
+<L>The Spaniards grant a parle, our men agree</L>
+<L>Inforc'd thereto by meere nece&s;sitie:</L>
+<L>Conditions to depart were &s;uch, as we</L>
+<L>Could hardly looke for from an Enemie:</L>
+<PB REF="39">
+<L>With <HI>Seroan</HI> colours flying, matches light,</L>
+<L>Bullets in mouth, our waggons Loaden weight</L>
+<L>With bagge and baggage, and a &s;afe conuoy</L>
+<L>To &s;afeguard our's from all ho&s;tile annoy.</L>
+<L>Be&s;ides when as our Cohorts all di&s;marcht</L>
+<L>From <HI>Breda'es</HI> ports, and through their quarters pa&s;t</L>
+<L>The curteous <HI>Genoue&s;e</HI> &s;aluteth all,</L>
+<L>But &s;pecially for <HI>Morgans</HI> &s;elfe doth call,</L>
+<L>Imbraceth him, and honouring a foe</L>
+<L>So worthy doth him&s;elfe thrice worthie &s;how.</L>
+<L>But though <HI>Breda</HI> be lo&s;t, reconquerd <HI>Goffe</HI></L>
+<L>By <HI>Lambarts</HI> valour hath the chaines &s;hooke off</L>
+<L>Of <HI>Ca&s;tiles</HI> thraldome, and the taken towne</L>
+<L>Mannd with a &s;trong <HI>Orangian</HI> Garri&s;on,</L>
+<L>Makes all South <HI>Cleeue-lands Ceres</HI>-ble&s;&s;ed &s;hoare,</L>
+<L>Where <HI>Rhine</HI> again&s;t &s;trong <HI>Grauenweert</HI> doth roare,</L>
+<L>Pay contribution eu'n to that &s;ame land,</L>
+<L>Where <HI>Iuliers</HI> on the Roars bankes doth &s;tand.</L>
+<L>This was that <HI>Lambart</HI> who with <HI>Heraugiere,</HI></L>
+<L>From <HI>Holland</HI> did that famous Turfe-boat &s;teere,</L>
+<L>When they fiue thou&s;and, ours but &s;eu'ntie were,</L>
+<L>Who this vnheard of enterpri&s;e did dare.</L>
+<L>He waiting on the foes with <HI>Argian</HI> eyes,</L>
+<L>Di&s;couers by his &s;ubtle curious &s;pies</L>
+<L>That <HI>Goffes</HI> attempt was facill, for the moate</L>
+<L>Was pa&s;&s;able without the corked floate,</L>
+<L>Without the <HI>Skiffe</HI> or <HI>Punt</HI> neere to that place,</L>
+<L>VVhich did the VVe&s;terne bulwarkes platforme face.</L>
+<L>For this de&s;igne he drawes two thou&s;and men,</L>
+<L>From <HI>Arnham, Embricke, Rees,</HI> and <HI>Nimeghen,</HI></L>
+<L>VVho coue'red with a &s;ilent Moone&s;hine night,</L>
+<L>Arriud two houres before the dawning light</L>
+<L>At their knowne Randeuouz, and from thence marcht</L>
+<L>To the Townedike, which being &s;afely pa&s;t,</L>
+<L>They &s;caled all at once the Rampierd wall,</L>
+<L>And from thence on the Spani&s;h guards did fall.</L>
+<L>The fight was bloudie, for the vanqui&s;ht foe</L>
+<L>Fiue hundred of their <HI>Phalangiers</HI> could &s;how,</L>
+<PB N="74" REF="40">
+<L>Slaine on the place, but of the <HI>Dutehmens</HI> &s;ide</L>
+<L>Scarce two full &s;quadrons in this combate dyed.</L>
+<L>But that which did the victours triumph cro&s;&s;e,</L>
+<L>VVas val<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter">ant <HI>Lambarts</HI> &s;till deplored lo&s;&s;e,</L>
+<L>VVho ouerheated in this toile&s;ome fight</L>
+<L>Re&s;ign'd within eight dayes his honour'd &s;prite</L>
+<L>To mightie <HI>Ioue:</HI> his <HI>Manes</HI> great <HI>Na&s;&s;aw</HI></L>
+<L>Then whom this Ageno colder <HI>Fabius</HI> &s;aw,</L>
+<L>Pur&s;ued vnto tho&s;e ble&s;t <HI>Eli&s;ian</HI> &s;hades,</L>
+<L>VVho&s;e euerliuing plea&s;ure neuer <HI>Fades,</HI></L>
+<L>VVhere all true <HI>Patriots,</HI> which for freedome fight</L>
+<L>Receiue the Crowne of their de&s;erued right,</L>
+<TRAILER>FINIS.</TRAILER>
+</DIV1>
+</BODY>
+</TEXT>
+</GROUP>
+<BACK>
+<DIV1 TYPE="encomium">
+<PB REF="40">
+<HEAD>To my indu&s;trious friend Ma&s;ter <HI>W. C.</HI></HEAD>
+<L>VVHat &s;ullen Pro&s;e in har&s;hnes did rehear&s;e,</L>
+<L>Smiles through thy &s;oule with a diffu&s;iue light</L>
+<L>Like the <HI>Promethean</HI> fire: for by thy ver&s;e</L>
+<L>Are wakened from the <HI>Chaos</HI> of blacke night</L>
+<L>The worthies of our time, that by thy pen</L>
+<L>Ri&s;e from obliuions graue to life agen.</L>
+<L>And for their &s;akes <HI>Mars</HI> with a &s;teely Traine</L>
+<L>Of his vndaunted Sons pre&s;ents thy brow,</L>
+<L>The guerdon of thy &s;weet Poeticke vaine</L>
+<L>A Lawrell of <HI>Mineruaes</HI> choice&s;t bow:</L>
+<L>Proceede in thy de&s;ignes, and let thy prai&s;e</L>
+<L>Out liue the crooked carping age of dayes.</L>
+<CLOSER><SIGNED>Iohn Dowle Bri&s;tol.</SIGNED></CLOSER>
+</DIV1>
+</BACK>
+</TEXT>
+</EEBO>
+</ETS>

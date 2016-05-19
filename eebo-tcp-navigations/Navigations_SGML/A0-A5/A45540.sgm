@@ -1,0 +1,622 @@
+<!DOCTYPE ETS PUBLIC "-//UMDLPS//DTD EEBOPROOF 2.0//EN">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE>
+<DATE>2013-10-30</DATE>
+<RESPSTMT>
+<NAME>Enrique Valdivia</NAME>
+<RESP>MURP</RESP>
+</RESPSTMT>
+<ITEM>Checklist: x *Add TEMPHEAD, change DATE, validate x*Review structure: FRONT,BODY, BACK, DIV or rarely GROUP x*Add DIV TYPEs, make sure that @types makes sense as a navigational aide, and work in the context of the whole text, validate x*Survey book for troublesome formats of all kinds, including lists, illustrations, tables, music, math, end-notes, quasi-tabular arrangments, and marginalia. REND="margQuotes" x*Proof title page(s) x*Examine marginalia. Is it all best tagged as NOTE? x*Observe divtop and divbottom material marking beginnings and ends of divisions, check that they are correctly tagged as HEAD, TRAILER, CLOSER, OPENER, ARGUMENT, EPIGRAPH, SIGNED, DATELINE, BYLINE, etc. x*Check for GAPs x*Check PB placement and completeness, ensure sequence of N="" x*Check ^, italic I / J, _Initals. x*Check for illustrations and correct usage of FIGURE. Add FIGDESCs if necessary. x*Check q; startq endq Q x*If appropriate, check for yoghs. x*If appropriate, check for Latin problems, e.g. oe and ae digraphs x*If appropriate, check for abbreviation and brevigraph problems. x*If appropriate, check for units of measure, symbols (alchemical, astronomical, etc.) and the like.
+*Correct illegibles from proofsheet
+*Check illegible page, para, line, span, word, dollar signs
+* Run Check
+*Final validate Corrected [ ] illegible groups out of [ ]. Converted [ ] illegible groups to GAP DESC="illegible". DONE</ITEM>
+</CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+<EEBO>
+<IDG S="marc" R="UM" ID="A45540">
+<STC T="W">H706</STC>
+<STC T="C">R9916</STC>
+<BIBNO T="oclc">11811128</BIBNO>
+<VID>49521</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="1">
+<PB REF="1">
+<P>A DESCRIPTION OF THE La&s;t Voyage TO BERMUDAS, In the Ship MARYGOLD, <HI>S. P.</HI> Commander;</P>
+<P>By <HI>J. H.</HI> <GAP DESC="foreign" EXTENT="1 word"></P>
+<P>Begun <HI>Nobember</HI> the twelfth, 1670. And ending <HI>May</HI> the third, 1671.</P>
+<P><HI>With Allowance.</HI></P>
+<P><HI>London,</HI> printed for <HI>Rowland Reynald</HI> at the <HI>Sun</HI> and <HI>Bible</HI> in the <HI>Poultrey</HI> 1671.</P>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="2">
+<PB REF="2">
+<HEAD>TO THE RIGHT HONORABLE, THE Governor and Company OF LONDON, For Plantation of the Summer I&s;lands.</HEAD>
+<LG>
+<L>_AS riche&s;t Diamonds when en|&s;hrin'd in Gold,</L>
+<L>And &s;et in darke&s;t Foyls, more Rays unfold,</L>
+<L>So &s;tands that beauteous <HI>ISLE</HI> on Rocks and Sands,</L>
+<L>Encircled with Great <HI>Neptune</HI>'s watry Bands;</L>
+<PB REF="3">
+<L>Who when impell'd with Gu&s;ts, make ha&s;te before,</L>
+<L>Da&s;hing them&s;elves, Enamel all the Shore:</L>
+<L>This plea&s;ant <HI>PILE</HI>'s the Subject of my <HI>Mu&s;e,</HI></L>
+<L>That late from raging <HI>Seas</HI> &s;uffer'd abu&s;e,</L>
+<L>Now enters Port, and after dreadful Toyls,</L>
+<L>To You <HI>(Renowned Sirs)</HI> gives up her Spoyls.</L>
+<L>The Matter, Place, Occa&s;ion, every Section</L>
+<L>Are Yours, and therefore claims your ju&s;t Protection.</L>
+<L>Accept <HI>(Great Sirs)</HI> Your own; for by Your Eye</L>
+<L>The&s;e Cabbin Sea-&s;ick Lines mu&s;t live or die.</L>
+</LG>
+<CLOSER><SIGNED>Your Honors mo&s;t humble Servant, John Hardy. <GAP DESC="foreign" EXTENT="1 word"></SIGNED></CLOSER>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="3">
+<HEAD>To his Honored Friend, CAPTAIN S. P. Commander of the Good Ship MARYGOLD, 1670/71.</HEAD>
+<LG>
+<L><HI>MO&s;t noble Captain, under who&s;e Com|mand,</HI></L>
+<L><HI>I have been Servant both by Sea and Land,</HI></L>
+<L><HI>Peru&s;e the&s;e Lines, which though they do not &s;how</HI></L>
+<L><HI>Wonders unto you, yet they'r true, you know,</HI></L>
+<L><HI>Your &s;elf enduring many a bitter Bla&s;t,</HI></L>
+<L><HI>From the fir&s;t of the Voyage, to the la&s;t.</HI></L>
+<L><HI>Read and accept them, &s;o de&s;ires your Friend</HI></L>
+<L><HI>Who is, and will be, till his Life doth end.</HI></L>
+</LG>
+<CLOSER><SIGNED>John Hardie.</SIGNED></CLOSER>
+</DIV1>
+<DIV1 TYPE="dedication">
+<PB REF="4">
+<HEAD>To his loving Friends, Mr. T. H. and P. H. Ma&s;ters Mates of the Ship MARYGOLD.</HEAD>
+<LG>
+<L><HI>MO&s;t loving Friends, to you I do indite</HI></L>
+<L><HI>This my &s;mall</HI> Journal, <HI>you being in &s;ight</HI></L>
+<L><HI>Of what is mention'd in it: Don't expect</HI></L>
+<L><HI>Here</HI> Signs <HI>and</HI> Tangents, <HI>or a Cour&s;e direct</HI></L>
+<L><HI>Unto this I&s;land: If &s;o, I a fool</HI></L>
+<L><HI>Should be by you accounted, in the School</HI></L>
+<L><HI>Of</HI> Mathematicks <HI>never being bred,</HI></L>
+<L><HI>Nor ever heard My&s;terious Lectures read</HI></L>
+<L><HI>Concerning</HI> Navigation: <HI>Idle times</HI></L>
+<L><HI>Was the true Product of the&s;e fooli&s;h Rhimes,</HI></L>
+<L><HI>Which craves Acceptance from your friendly hand,</HI></L>
+<L><HI>By him who is your Friend for to command,</HI></L>
+</LG>
+<CLOSER><SIGNED>John Hardie.</SIGNED></CLOSER>
+</DIV1>
+<DIV1 TYPE="prologue">
+<PB REF="4">
+<HEAD>The Prologue.</HEAD>
+<LG>
+<L>AS&s;i&s;t Great <HI>Jove,</HI> and help my wandring <HI>Mu&s;e,</HI></L>
+<L>Poetick Strains into my Quill infu&s;e,</L>
+<L>To &s;ing the Truth, the Prai&s;es, and the Fame</L>
+<L>Of th' I&s;le <HI>Bermuda,</HI> call'd &s;o from the Name</L>
+<L>Of Spani&s;h <HI>Jam. Bermudas:</HI>
+<NOTE N="*" PLACE="foot"><HI>According to</HI> Heylin's Co&s;mography <HI>it was found out by a</HI> Spaniard, <HI>who was there ca&s;t away; then by an</HI> Engli&s;h-man, <HI>who&s;e name was</HI> Forbi&s;her; <HI>la&s;tly inhabited by Captain</HI> Summers, <HI>who dying in this I&s;land was Embalm'd, and his Body carryed into</HI> England, <HI>but his Bowels buried at St.</HI> Georges <HI>I&s;land near the</HI> State-Hou&s;e, <HI>as they name it: It hath not been long &s;ince Inhabited; for there was found Engraven on a</HI> Palmeta-Tree <HI>the&s;e Words, which are &s;et up in the Governors Hall over his Chair:</HI></NOTE> though of late</L>
+<L>Its Name was chang'd by <HI>Summers</HI> happy fate,</L>
+<L>Who&s;e Heart and Bowels buried there, to be</L>
+<L>A Witne&s;s of it to Eternity.</L>
+</LG>
+<PB REF="5">
+<P>CONDITUR IN HOC LOCO NAVIS PER RICHARDUM FRO|BISHERUM ONERIS 70. QUAE VIRGINIAE DESTINATOR NOS OMNES HINC TRANSPORTA|BAT.</P>
+<CLOSER><DATELINE><HI>ANNO</HI> <DATE>1610. <HI>MAY</HI> 4.</DATE></DATELINE></CLOSER>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="voyage account">
+<DIV2 TYPE="poem">
+<PB N="1" REF="5">
+<HEAD>OUR VOYAGE Outward bound.</HEAD>
+<LG>
+<L>_WHen cold <HI>November</HI> with a hoary Head,</L>
+<L>The fertile Earth with Snow had over&s;pread,</L>
+<L>Joyn'd with white Fro&s;t, upon its twelfth day, we</L>
+<L>Set &s;ayl from <HI>Grave&s;end,</HI> being bound to &s;ee</L>
+<L><HI>Bermudas,</HI> in th' Ship <HI>Marygold;</HI> which Flower</L>
+<L>O' all the Deities take in your Power,</L>
+<L>And from all Dangers &s;afely her defend,</L>
+<L>Granting her Voyage may have happy end.</L>
+<PB N="2" REF="6">
+<L>Into the <HI>Hope</HI> we got, and there make &s;tay</L>
+<L>Two Nights, when with a fair wind we weigh</L>
+<L>Our Anchors, &s;etting Sail into the <HI>Downs,</HI></L>
+<L>Where &s;hortly we arriv'd, which was the Bounds</L>
+<L>For Shipping granted then, till mighty <HI>Jove</HI></L>
+<L>Sent a cold quaking North-wind from above;</L>
+<L>After twice &s;even days &s;pace again we &s;et</L>
+<L>Our Sayle, and in the term of two days get</L>
+<L>Near to a point of Land is call'd the <HI>Start,</HI></L>
+<L>From which in the dark Ev'ning we did part,</L>
+<L><HI>Jove</HI>'s aid imploring, for now nothing we</L>
+<L>Behold, but briny Billows of the Sea:</L>
+<L>When &s;hortly, for not fifty Leagues or more,</L>
+<L>We gotten had from Noble <HI>Englands</HI> &s;hore,</L>
+<L>But <HI>Aeolus</HI> that too incoa&s;tant God,</L>
+<L>Thought good to puni&s;h us, the blu&s;tring Rod</L>
+<L>Of We&s;t winds Fury, and dark Nights together</L>
+<L>Made cloudy, cold, and too incon&s;tant weather:</L>
+<L>Now <HI>Neptune</HI> with his furious Waves doth ki&s;s,</L>
+<L>And to&s;s our <HI>Marygold,</HI> but 'tis our bli&s;s</L>
+<L>She's good condition'd, though Skies-mounting waves</L>
+<L>Do threaten death, &amp; &s;eem to make our Graves</L>
+<PB N="3" REF="6">
+<L>In it's in &s;atiate Bowels, her rib'd Sides</L>
+<L>Over the white curl'd Billows &s;wiftly glides;</L>
+<L>And although over all &s;alt Seas &s;he takes,</L>
+<L>Yet little water then &s;he's wont &s;he makes;</L>
+<L>It being Winter time, Rea&s;on doth guide</L>
+<L>Unto the Southward Mariners to &s;lide,</L>
+<L>To make the Proverb good, <HI>He that doth run</HI></L>
+<L><HI>The farthe&s;t way about, is neere&s;t home.</HI></L>
+<L>Unto which purpo&s;e we our Cour&s;e do take,</L>
+<L>Some of the <HI>Charibby I&s;lands</HI> for to make,</L>
+<L>And cro&s;s
+<NOTE N="(a)" PLACE="foot"><HI>Thinking to cro&s;s the</HI> Tropick Cancer, <HI>and make</HI> Anguilla Sombrero, <HI>or &s;ome of the</HI> Virgin-I&s;lands.</NOTE> the <HI>Tropick Cancer,</HI> but the winde</L>
+<L>Prov'd to us more au&s;picious and kinde</L>
+<L>Than we expect, to our Port we incline,</L>
+<L>So &s;traight our Cour&s;e as if it were a Line</L>
+<L>For many days, when as that at the la&s;t,</L>
+<L>Bold <HI>Boreas</HI> from his Den &s;ends cruel bla&s;t</L>
+<L>From the <HI>We&s;tern I&s;lands,</HI> at which rocky Land</L>
+<L>I think he keeps his Court, and doth command</L>
+<PB N="4" REF="7">
+<L>All Winter time, for near't we always mu&s;t</L>
+<L>Expect to have &s;harp &s;torms, &amp; thundering gu&s;t</L>
+<L>A week or more expir'd in this &s;ame weather,</L>
+<L>A plea&s;ant day came, and fair wind together;</L>
+<L>So <HI>Dolphins</HI> &s;wiftly through the Ocean glide,</L>
+<L>To prey on flying
+<NOTE N="(b)" PLACE="foot">Dolphins when once &s;truck and brought into the Ship, change their colours very often, till at the la&s;t they die, and remain a dunni&s;h colour, and are of this form.</NOTE> Fifi&s;h &s;o near the &s;ide;</L>
+<L><FIGURE>
+<FIGDESC>depiction of a flying fish</FIGDESC>
+</FIGURE></L>
+<L>The Saylors with a Fi&s;h-gig deeply wound</L>
+<L>Their tender bodies, that a deadly &s;ound</L>
+<L><FIGURE>
+<HEAD>The form of a Fi&s;h-gig.</HEAD>
+<FIGDESC>depiction of a fishing harpoon</FIGDESC>
+</FIGURE></L>
+<L>Po&s;&s;e&s;&s;eth all their parts throughout, the which</L>
+<L>Small time a <HI>Proteus</HI> change of colours reach.</L>
+<PB N="5" REF="7">
+<L>Though Fortune hath been churl&icirc;&s;h at the be&s;t,</L>
+<L>Yet now we're paid with double Intere&s;t;</L>
+<L>For within four times &s;even fair days, we</L>
+<L>Long wi&s;h'd for <HI>Summer I&s;lands</HI> plainly &s;ee;</L>
+<L>When as our Captain caus'd a
+<NOTE N="(c)" PLACE="foot"><P><HI>To fire a Piece of Ordnance, the u&s;ual cu&s;tom to give warning to the Pilot and Inhabitants that there is the Magazine Ship on the Coa&s;t, who&s;e duty it is to convey into Harbour.</HI></P>
+<P><HI>In</HI> Kings-Ca&s;tle <HI>Harbor, about a Mile and a half from the Shoar.</HI></P></NOTE> roaring Gun</L>
+<L>For to be fir'd, which once being done</L>
+<L>A Pilot came aboard, through dangerous Rocks</L>
+<L>Us &s;afely carrying without any knocks,</L>
+<L>Into <HI>Kings Ca&s;tle Harbor,</HI> where doth &s;tand</L>
+<L>Two Ca&s;tles, entring &s;hips for to command;</L>
+<L>After &s;alutes to either we at la&s;t</L>
+<L>Near Captain <HI>Hubbarbs</HI> Bridge our Anchor ca&s;t;</L>
+<L>So <HI>Januaries</HI> twenty &s;eventh put end</L>
+<L>To dangere outward, which us did attend;</L>
+<PB N="6" REF="8">
+<L>We now our Sails unbend, and Top-ma&s;t lo're,</L>
+<L>And in &s;hort time our Goods
+<NOTE N="(d)" PLACE="foot"><HI>The cu&s;tom there is to fetch and bring their Goods aboard, and their Seamen to be at no trouble, as in other places of the</HI> We&s;t-Indies.</NOTE> are fetcht a&s;hore.</L>
+</LG>
+</DIV2>
+<DIV2 TYPE="poem">
+<HEAD>The De&s;cription of the I&s;land.</HEAD>
+<LG>
+<L>WEll at <HI>Bermudas</HI> we arrived are,</L>
+<L>After great trouble, pains, gu&s;ts, &s;torms, and care;</L>
+<L>And now the &s;hip &s;eems rightly nam'd to be</L>
+<L>A Magazine, as term'd, for you may &s;ee</L>
+<L>Some &s;elling Linnen cloath, with other knacks,</L>
+<L>Which Pedlars u&s;e to carry in their Packs;</L>
+<L>Some Brandy buy, and &s;uch like liquid ware,</L>
+<L>Others of new Tobacco-pipes have care</L>
+<L>To &s;tore them&s;elves, whil&s;t others do agree</L>
+<L>Good to exchange for &s;uch Commodity</L>
+<L>The Countrey doth afford, and &s;ome are willing</L>
+<L>To &s;ell their Goods at three pence on the &s;hilling</L>
+<PB N="7" REF="8">
+<L>This time it la&s;ts not long, when &s;uddenly</L>
+<L>Mu&s;t work all hands, the I&s;land-Boats we &s;ee</L>
+<L>Deep loaden with Tobacco, which they bring</L>
+<L>Unto the &s;ide, from whence we take it in.</L>
+<L>To give de&s;cription of the&s;e &s;ame
+<NOTE N="(e)" PLACE="foot">The I&s;lands Boats after this Form, carrying five or &s;ix Che&s;ts of Tobacco, or more. They lie &s;o near the Wind, that they will fetch the &s;ame place they look up|on, clo&s;e hal'd.</NOTE> Boats,</L>
+<L>With tripple corner'd Sayls they always float</L>
+<L><FIGURE>
+<FIGDESC>depiction of a ship</FIGDESC>
+</FIGURE></L>
+<L>About the I&s;lands, in the World there are</L>
+<L>None in al points that may with them compare</L>
+<L>But leave we now the &s;hip till fill'd, take view</L>
+<L>Of th' Land, to try if what you heard be true;</L>
+<PB N="8" REF="9">
+<L>Then to begin; there's Rocky Hills &s;o high,</L>
+<L>They &s;eem for to out-dare the cloudy Sky;</L>
+<L>And fertile Vallies during all the year,</L>
+<L>Continual Liveries of green do wear;</L>
+<L>In which no poy&s;onous Creature e're hath been</L>
+<L>No Adders, Serpents, Toads, or Snakes are &s;een</L>
+<L>To prejudice mans health, but it is &s;tor'd</L>
+<L>With Bieves, Goats, Oxen, Sheep which doth af|ford</L>
+<L>Fine woolly fleeces, with &s;uch things as the&s;e</L>
+<L>Thou do&s;t abound, ty'd
+<NOTE N="(f)" PLACE="foot"><HI>Tye all their Cattel, as Hor&s;es, A&s;&s;es, Hogs, Goats, Sheep,</HI> &amp;c. <HI>to Trees, where they feed on the Melli|lot, and Fennel, round about them.</HI></NOTE> to <HI>Palmeta</HI>-trees,</L>
+<L>Who&s;e u&s;es are &s;o many, not unfold</L>
+<L>Them all can any man; from Winters cold</L>
+<L>It keeps their Hou&s;es thatch'd with 't, &amp; its mats</L>
+<L>For bedding makes, with baskets, brooms, &amp; hats</L>
+<L>Nay more, it Cordage doth afford, in 'ts top</L>
+<L>A Cabbage grows, for meat, and do but lop</L>
+<L>Or bore a hole in't, you may plainly &s;ee</L>
+<L>A plea&s;ant Liquor flowing from the Tree;</L>
+<PB N="9" REF="9">
+<L>It's fruit is lu&s;cious, who&s;e &s;tone's black as Jett,</L>
+<L>Will make neat Buttons, if with Silver &s;et;</L>
+<L>And its dry Leaves will &s;erve in dark&s;om night</L>
+<L>In &s;tead of Torches, Travellers to light.</L>
+<L>Of all the Trees that is, or
+<NOTE N="(g)" PLACE="foot"><HI>The</HI> Palmeta <HI>Tree is a &s;traight Tree, about the height of an Apple Tree, growing with broad Leaves at the top, clo&s;ed together in manner of a Fann, which they put to &s;everal u&s;es more than I can here relate.</HI></NOTE> ever were,</L>
+<L>None to the &s;traight <HI>Palmeta</HI> may compare.</L>
+<L>The lofty fragrant <HI>Cedars</HI> here
+<NOTE N="(h)" PLACE="foot">Cedar <HI>Gumm as hath been often experienc'd, is good for Gonorrhea's, the Berries which are like Ju|niper Berries, are of the &s;ame nature as Juniper Ber|ries are, they boyl them in water and make Drink for their con&s;tant u&s;e of it.</HI></NOTE> do grow,</L>
+<L>The Vertues of who&s;e Fruits and Gums to know</L>
+<L>Requires a larger time; here you may &s;ee</L>
+<L>The <HI>Lime,</HI> the <HI>Lemmon,</HI> and the <HI>Orange</HI> tree;</L>
+<L>So fam'd throughout the world, here at one time</L>
+<L>Buds, blo&s;&s;oms, green, &amp; ripe Fruit in the prime;</L>
+<PB N="10" REF="10">
+<L><HI>Pomgranates, Gwavers, Papawes, Fig</HI>-trees too,</L>
+<L>Whereof a Plea&s;ant kinde of Drink they brew,</L>
+<L>With <HI>Mulberries</HI> likewi&s;e; but if I may</L>
+<L>Call it a Tree, the <HI>Pine</HI> bears
+<NOTE N="(i)" PLACE="foot">Pine <HI>are much after the Figure of a Sceth Thi&s;tle, and in my minde ta&s;te mo&s;t like a Peach, or</HI> Mali|gotoon; <HI>they grow in low mar&s;hy Grounds.</HI></NOTE> all away,</L>
+<L>Who&s;e crowned tops &amp; bottom compa&s;t round,</L>
+<L>Seems as if it were with green Garland crown'd.</L>
+<L>But Oh! its delicious ta&s;te &s;urpa&s;&s;eth words</L>
+<L>Deep utterance; this onely Fruit affords</L>
+<L>All ta&s;te of others in't you think upon,</L>
+<L>Pears, Apples, Peaches, Cherries, every one</L>
+<L>Appears int's ta&s;te; here grows the prickle Pear</L>
+<L>Who&s;e in-&s;ide of a &s;carlet
+<NOTE N="(k)" PLACE="foot">Prickled Pears are of a mo&s;t rare &s;carlet colour, but its Juice will not &s;tain, for by water it may &s;oon be wa&s;ht away; 'tis thought by &s;ome that Cochinele is produced of it.</NOTE> colour are.</L>
+<L>Here's Roots as well as Trees, <HI>Potatoes</HI> good</L>
+<L>For &s;u&s;tenance of man to make pure blood.</L>
+<PB N="11" REF="10">
+<L>And here <HI>Ca&s;&s;awder,</HI> to which, though it's Juice</L>
+<L>Be Poy&s;on, yet they now have a device</L>
+<L>To pre&s;s and grate it, &s;o in time of need</L>
+<L>And &s;ometimes el&s;e, they &s;afely on it feed</L>
+<L>Being bak'd in form of Bread; here's <HI>Indian</HI>-Corn</L>
+<L>Who&s;e weighty Eares on a long &s;talk is born;</L>
+<L>In thickne&s;s like a Cane, it Nature roul'd</L>
+<L>Clo&s;e up in Leaves, to keep it from the cold;</L>
+<L>Which being groun'd &amp; boyl'd, <HI>Mu&s;h</HI> they make</L>
+<L>Their hungry Servants Hunger for to &s;lake:</L>
+<L>But let me tell you, that there cannot be</L>
+<L>A profit without di&s;commodity;</L>
+<L>For though no poy&s;onous Living thing indeed</L>
+<L>Inhabits there, yet grows a
+<NOTE N="(l)" PLACE="foot">Poy&s;on-Weed, a &s;hrub which runs up Trees as the Ivy, and hath poy&s;oned abundance of People, e&s;peci|ally in wet, foggy, rainy, weather, as my &s;elf can witne&s;s, and poy&s;oned &s;ome that hath onely lookt upon it, as many can te&s;tifie.</NOTE> Poy&s;on-Weed,</L>
+<L>Who&s;e very &s;ight infects &s;ome, and its Juice</L>
+<L>Will make men itch, as if a thou&s;and Lice</L>
+<PB N="12" REF="11">
+<L>About their bodies creep, in painful Wheals</L>
+<L>And Pimples at the la&s;t it &s;elf reveals,</L>
+<L>But never kills; Its Counterpoy&s;on is</L>
+<L><HI>Sage of the Mountain,</HI> which you cannot mi&s;s</L>
+<L>At all times for to finde, in places where</L>
+<L>This Weed is, for it grows to't very near.</L>
+<L>Of Fowls they have enough, &s;uch as are Hens,</L>
+<L>Capons, Ducks, Turkies kooped up in Pens;</L>
+<L>Wild Pidgeons, and other feathered Brood,</L>
+<L>Some bad for nouri&s;hment, yet &s;ome are good;</L>
+<L>With Tropick <HI>Longtails,</HI> of
+<NOTE N="(m)" PLACE="foot"><HI>Tropick Birds are call'd</HI> Longtails, <HI>from one or two Feathers longer than the re&s;t, about a foot or more.</HI></NOTE> who&s;e Ne&s;t there be</L>
+<L>Among&s;t the rocks, a hundred Leagues to Sea</L>
+<L>They fly: and al&s;o near unto the Shore</L>
+<L>Plenty of Fi&s;h is, which the
+<NOTE N="(n)" PLACE="foot">They have many more fi&s;hes, &s;uch as Greyhound-fi&s;h, Rainbow-fi&s;h, Anchoves, though I think not the right; Cragfi&s;h as big as Lob&s;ters; Oy&s;ters, where in &s;ometime they find &s;mall Pearl.</NOTE> People &s;tore,</L>
+<PB N="13" REF="11">
+<L>As Pilchards, Sinnets, Gruats, and Salmon Peal,</L>
+<L>With Rock-fi&s;h, Porgoes, and the &s;lippery Eel,</L>
+<L>And Mullets plentiful are in the &s;ound,</L>
+<L>The water flowing to them under ground,</L>
+<L>Being mo&s;t &s;alt, and all
+<NOTE N="(o)" PLACE="foot"><HI>I believe the I&s;land is hollow, for there is &s;ome holes that none can find the end of them, &s;ome hot as a Stove upon the Northerly wind, as that near</HI> Tuc|kers <HI>Town; and that there is water in them may be proved; by the Coopers Hole, the Devils Hole, and a place near</HI> Wal&s;ingham-<HI>Bay,</HI> &amp;c. <HI>which water though a good di&s;tance from the Sea, is as briny and as &s;alt as it is, which may prove a pa&s;&s;age from one into the other.</HI></NOTE> along the &s;hore</L>
+<L>There are dark Caves, of a Miles length or more</L>
+<L>Extending under ground, in which there be</L>
+<L>Deep holes with water, though no one can &s;ee</L>
+<L>A pa&s;&s;age for it in: Which dreadful Lakes,</L>
+<L>Some &s;ort of Fi&s;h do for their Refuge take;</L>
+<L>Be&s;ide the fore&s;aid Fi&s;h, with
+<NOTE N="(p)" PLACE="foot"><HI>The Grains are like an</HI> Engli&s;h <HI>Prong.</HI></NOTE> grains they &s;trike</L>
+<L>The horned Cuckold, Cunny, and one like</L>
+<PB N="14" REF="12">
+<L>The prickled Hedge-Hog: Angel-fi&s;h, by light</L>
+<L>They carry in their Boats in darke&s;t nights;</L>
+<L>And Groopers too, none of the meane&s;t &s;ize,</L>
+<L>Which &s;alted, they do &s;end for Merchandize</L>
+<L>To the <HI>We&s;t-Indian</HI> I&s;lands, with their Beef,</L>
+<L>Which yields the Inhabitants there much relief;</L>
+<L>Here in the time of year, the
+<NOTE N="(q)" PLACE="foot"><HI>The Whales here though they be of an indifferent large &s;ize, the Gills are not above one or two foot long at mo&s;t, from whence the Whale-bone comes; &s;ome &s;ay that</HI> Sperma Ceti <HI>is the Spawn, others think that it lies in the head, but it is certainly found to be the fat of the Whale, for being put into a Lamp, and burned, it will turn to</HI> Sperma Ceti, <HI>which &s;everal in the</HI> We&s;t-Indies <HI>have proved to be true, that after the</HI> Oleus <HI>part is con&s;umed, the &s;ub&s;tance call'd vulgarly</HI> Sperma Ceti, <HI>remains.</HI></NOTE> mighty Whale</L>
+<L>Appears upon the Coa&s;t, who with his Tayl</L>
+<L>Small Boats can over-&s;et, out of who&s;e No&s;e</L>
+<L>Hog&s;heads of water gu&s;hes when he blows;</L>
+<L>Which being &s;een on Land, in Boats they ha&s;te</L>
+<L>Towards him, and their Lances &s;harp make fa&s;t</L>
+<PB N="15" REF="12">
+<L>In his fat &s;ides, who being hurt, along</L>
+<L>The Boats draw with him dangerous Rocks among,</L>
+<L>Changing the water with his purple gore,</L>
+<L>To red, which of a pale green was afore,</L>
+<L>Tyring him&s;elf, till at the la&s;t to Death</L>
+<L>He &s;toops, and roaring yieldeth up his breath,</L>
+<L>When into Harbor near unto the &s;hore</L>
+<L>Being tow'd, they cut him up them&s;elves to &s;tore</L>
+<L>With Oyl out of his Blubber, which they burn</L>
+<L>In Lamps, and unto other u&s;es turn</L>
+<L>It on occa&s;ion: but this &s;ort of Fi&s;h</L>
+<L>Is not the &s;ame for which they all do wi&s;h;</L>
+<L>No Whale Bones in its Gill or in its Head,</L>
+<L>No Soveraign <HI>Sperma Ceti</HI> here is bred;</L>
+<L>The difference lying, others mouths are fill'd</L>
+<L>With rowes of Teeth, whereas this none doth yield.</L>
+<L>Here's al&s;o Sharks, who&s;e head affords a Gelly,</L>
+<L>Good for the Cholick, and gripes of the Belly;
+<NOTE N="(r)" PLACE="foot"><HI>Sharks are here in abundance, who&s;e Back-bone looks mo&s;t like a</HI> Japan, <HI>and its wide mouth &s;tands &s;o, that he is fain to take his Prey lying on his back; in the cavity of his head there is a &s;ub&s;tance, which being dry'd is good for abundance of Di&s;ea&s;es, but more e&s;|pecially for Gripes, and ea&s;y bringing women to Bed, which the Inhabitants have approved even to admira|tion, when all things el&s;e have fail'd.</HI></NOTE></L>
+<PB N="16" REF="13">
+<L>Being dry'd and powder'd, this &s;ame Fi&s;h they take</L>
+<L>As well as Whales, Oyl of his fat to make.</L>
+<L>Be&s;ides the&s;e, many more Fi&s;hes are found</L>
+<L>About the main Land, being compa&s;s'd round</L>
+<L>With four hundred &s;mall I&s;lands, rather more,</L>
+<L>Some one, &s;ome two Miles di&s;tance from the &s;hore.</L>
+<L>And now to write a little of the State</L>
+<L>Of this &s;ame Land, its Climate's temperate,</L>
+<L>Which doth produce long Life, and its degree</L>
+<L>Abating thirty Minutes,
+<NOTE N="(&s;)" PLACE="foot"><HI>It's Latitude is</HI> 32 <HI>Degrees,</HI> 30 <HI>Minutes, and it's Longitude</HI> 316 <HI>Degrees.</HI></NOTE> thirty three</L>
+<PB N="17" REF="13">
+<L>Is found for Latitude, and &s;ome men &s;ay,</L>
+<L>Three hundred and &s;ixteen Degrees make way</L>
+<L>From the <HI>Azores</HI> to it, to incline</L>
+<L>By way of Longitude, un&s;earched Line;</L>
+<L>A Governor there is, who's always &s;ent</L>
+<L>By th' Honoured Company, to the intent</L>
+<L>To put in force, whatever they think fit</L>
+<L>T' nact for good, when in the Court they &s;it;</L>
+<L>Their Judges, Ju&s;tices of Peace, and Shrief,</L>
+<L>Con&s;tables, Mar&s;hals, Bayliffs, who relieve</L>
+<L>The oppre&s;s'd, and there's Captains who de|light</L>
+<L>Them&s;elves in Arms, with daring Foes to fight.</L>
+<L>But I forget the Mini&s;ters, who preach</L>
+<L>In Churches, where young Children &s;ome do teach;</L>
+<L>But cea&s;e my <HI>Mu&s;e,</HI> for no man can unlock</L>
+<L>This Rock of Wonders, or this wondrous Rock,</L>
+<L>Which though but two Miles broad, and twenty long</L>
+<L>At mo&s;t, it framed is &s;o mighty &s;trong</L>
+<PB N="18" REF="14">
+<L>By Art and Nature, none but them who &s;ee,</L>
+<L>Can think that &s;uch a place in the world to be;</L>
+<L>If Armies come again&s;t it, they may re&s;t</L>
+<L>Free from all fears, if Trea&s;on in their Bre&s;t</L>
+<L>Do not lie lurking: But behold the Ship</L>
+<L>Which for to fill, our Seamen will not &s;lip</L>
+<L>Any occa&s;ion, But with Cedars Che&s;t,</L>
+<L>And <HI>Ravens-foot</HI> Tobacco in
+<NOTE N="(t)" PLACE="foot">Ravensfoot <HI>Tobacco, call'd &s;o from its blackne&s;s and brightne&s;s, a common Proverb among&s;t them, for the better Stowage.</HI></NOTE> them pre&s;t,</L>
+<L>The Ship's Hold fills, but what&s;oever be</L>
+<L>In Cask to &s;tow between Decks they agree;</L>
+<L>And now the Ship's near full, we all prepare</L>
+<L>Our &s;elves for going homeward, &s;ome take care</L>
+<L>For Fowls, fat Hogs, Corn, and Potatoes &s;weet,</L>
+<L>Oranges, Limes, and Lemmons for to eat</L>
+<L>With our Provi&s;ion homewards, &s;ome do think</L>
+<L>Of Sugar, and of Liquor for to drink</L>
+<L>In time of need, but all of us take care</L>
+<L>Our Cabbins with Oranges filled are;</L>
+<PB N="19" REF="14">
+<L>Others of Rarities which in the Sea</L>
+<L>Grows, &s;uch as Feathers, Black-rods, Coral be,</L>
+<L>Provide them&s;elves to give unto a friend,</L>
+<L>Which when arrived they unto them &s;end.</L>
+</LG>
+</DIV2>
+<DIV2 TYPE="poem">
+<HEAD>Homeward bound Voyage.</HEAD>
+<LG>
+<L>THE Ship now quite full, and a We&s;tern Gale,</L>
+<L>The Anchors being up, now fills her Sail,</L>
+<L>When that the glorious Raies of the bright Sun</L>
+<L>Through one Sign of the <HI>Zodiack</HI> had not run,</L>
+<L>The Pilot at the Bolt&s;prit
+<NOTE N="(u)" PLACE="foot">Pilot &s;tands at the Bolt&s;prit end becau&s;e there is no Land-marks, and he cuns the Ship in by the Rocks under water, luffing for one, and bearing up for a|nother; they u&s;ually chu&s;e to Pilot them in or out at the Suns ri&s;ing or &s;etting, becau&s;e then the Sun hath the lea&s;t reflexion.</NOTE> end doth &s;tand,</L>
+<L>Giving from thence the &s;trict Word of Com|mand,</L>
+<PB N="20" REF="15">
+<L>For Port or Starboard, which he thinks mo&s;t fit</L>
+<L>Her over the Sharp-pointed Rocks to get;</L>
+<L>The Ca&s;tles at our parting, once again</L>
+<L>We do &s;alute, while by them to the Main</L>
+<L>A Mile or two from Shore we &s;oftly hie,</L>
+<L>Trimming our Sails on purpo&s;e to lie by,</L>
+<L>Unbending Cables, we our Anchors &s;tow,</L>
+<L>And hoi&s;e our Boats in, then away we go</L>
+<L>Our Cour&s;e for Ea&s;t, North-Ea&s;t we bravely &s;teer,</L>
+<L>The wind North-We&s;t is, and the weather cleer,</L>
+<L>So <HI>Marches</HI> twenty &s;econd about Night,</L>
+<L>Of <HI>Summers I&s;land</HI> we did lo&s;e the &s;ight;</L>
+<L>But we not &s;ail'd a days time at the lea&s;t,</L>
+<L>The Wind it came unto the Ea&s;t, South-ea&s;t;</L>
+<L>We tack about, and to the Northward &s;tand,</L>
+<L>Where as they &s;ay, the We&s;t-Winds have com|mand</L>
+<L>Mo&s;t of the year, but we it found not &s;o,</L>
+<L>For Ea&s;t South Ea&s;t, and South Winds over blow</L>
+<L>Putting us by out Sayls we lie a hull,</L>
+<L>The briny Waves her almo&s;t filling full;</L>
+<PB N="21" REF="15">
+<L>Upon our upper Decks, where above Hens,</L>
+<L>And Ducks, with Turkeys, are &s;hut up in Pens;</L>
+<L>Which was for fre&s;h Provi&s;ion in &s;tore,</L>
+<L>Of the&s;e are drown'd in four hours or more,</L>
+<L>Full &s;ixty &s;even, but at the length we find</L>
+<L>The Storms to a&s;&s;wage its fury, and the wind</L>
+<L>To cea&s;e a little, &s;o again we &s;et</L>
+<L>Our Cour&s;es reefed, till the Seas do get</L>
+<L>Abated, which are grown &s;o va&s;t and high,</L>
+<L>They &s;eem to mount us to the Cloudy Sky;</L>
+<L>One of which &s;tormy Afternoons about</L>
+<L>Four of the Clock, we &s;aw a Water-Spout</L>
+<L>So fear'd by Mariners, which pa&s;&s;ed by</L>
+<L>Us with a Circling in the muddy Sky.</L>
+<L>The&s;e Winds after about a Fortnights &s;tay</L>
+<L>In the&s;e &s;ame blu&s;tring Corners, came away</L>
+<L>Unto the We&s;tward board, where it doth blow</L>
+<L>So hard, again we forced are to go</L>
+<L>Before it with our Fore-Sail, which we tend</L>
+<L>With Braces aft, until the Storms do end;</L>
+<L>The Sea running &s;o deep, we're forc'd to cun,</L>
+<L>Winding with Quarters, the Waves beat upon;</L>
+<PB N="22" REF="16">
+<L>To an&s;wer't with our Helm, and Brace, which keeps</L>
+<L>Her right afore it, through the boy&s;trous heaps</L>
+<L>Of Waters, the&s;e Storms eighteen hours or more</L>
+<L>Not la&s;ts, but pre&s;ently a &s;udden Showre</L>
+<L>Of Rain is poured down, when as the South.</L>
+<L>Wind opens loud his wide and blu&s;tring Mouth</L>
+<L>Thunder and Lightning, mixt with Hail and Rain,</L>
+<L>Unto the North-We&s;t brings it back again;</L>
+<L>So that it once more &s;eems, and doth appear</L>
+<L>As if the Weather would be fair and clear;</L>
+<L>But all our Hopes &s;oon vani&s;ht, for &s;o hard</L>
+<L>It puffs, we take in all Sayls, lo're our Yard</L>
+<L>Till better comes, and this I dare affirm</L>
+<L>Ne're wor&s;er Weather's for a three Weeks term,</L>
+<L>In which &s;pace never having any Weather</L>
+<L>We could count fair, for thirty Hours together;</L>
+<L>Our onely comfort was, the Moon &s;hines bright</L>
+<L>During this gu&s;ty time, mo&s;t part of Night;</L>
+<PB N="23" REF="16">
+<L>But dreadful Storms, not always cruel Fate,</L>
+<L>To us poor Saylors, did prede&s;tinate;</L>
+<L>For when fair Weather was to make us glad,</L>
+<L>Our Oranges &s;o rotten, caus'd a &s;ad</L>
+<L>And heavy Countenance, &s;carce being found</L>
+<L>One among&s;t twelve, which we may call &s;ound</L>
+<L>As to keep home, for &s;ince the World began</L>
+<L>See &s;uch a Hodge-Podge ne're did any man;</L>
+<L>Mo&s;t part being pickl'd up in &s;uch a &s;tate,</L>
+<L>We bad from good with Shovels &s;eparate,</L>
+<L>We took them in with Care be&s;towing Pains</L>
+<L>To place them lightly, now as much again</L>
+<L>We take, for Baskets with the bad we fill</L>
+<L>To fling away, though &s;ore again&s;t our Will;</L>
+<L>And now the We&s;tern I&s;lands once more we</L>
+<L>Repa&s;s with a fair Wind, hoping to &s;ee</L>
+<L>No &s;uch bad Weather as we had before,</L>
+<L>To which end, we the Deities implore,</L>
+<L>And &s;urely they our Ori&s;ons did hear,</L>
+<L>Mo&s;t of the Weather being fair and clear;</L>
+<L>Though that the fre&s;h Gales oftentimes were ran|ging</L>
+<L>From one unto another, changing</L>
+<PB N="24" REF="17">
+<L>Till <HI>Luna</HI> came &s;o full butt at her wane,</L>
+<L>A South, and South South-we&s;t wind came again</L>
+<L>Which though 'twas for us fair, yet it was joyn'd</L>
+<L>With dirty Weather, as 'twere interloin'd</L>
+<L>For us, among&s;t the re&s;t, one foggy day</L>
+<L>A <HI>Bri&s;tol</HI> Ship we meet, for th' I&s;le of <HI>May</HI></L>
+<L>Being bound, there Salt to load, who did us tell</L>
+<L>Affairs in <HI>England</HI> went then very well</L>
+<L>When &s;he came out, with <HI>France</HI> we having Peace,</L>
+<L>And all War with our Neighbouring Nations cea&s;e,</L>
+<L>He told us al&s;o, how that <HI>England</HI> bore</L>
+<L>From us of Leagues, about two times four&s;core</L>
+<L>Upon the North-Ea&s;t Point, and having &s;ent</L>
+<L>Letters by us to's Friends, away he went;</L>
+<L>And now we're near our wi&s;h'd-for Port, we pray</L>
+<L>For <HI>Sol</HI>'s bright Splendor, in the mid&s;t of day,</L>
+<L>An Ob&s;ervation that we may take</L>
+<L>Before our Native Land, again we make,</L>
+<PB N="25" REF="17">
+<L>But tho&s;e our wi&s;hes we could not obtain,</L>
+<L>For mi&s;ty Clouds to us yet &s;till remain,</L>
+<L>With gu&s;ts, but th' water changing, we did &s;ound</L>
+<L>On <HI>Ea&s;ter</HI> Ev'ning, and had the ground</L>
+<L>At ninety Fathom, <HI>Greeki&s;h</HI> Shelly-&s;and,</L>
+<L>Reckoning our &s;elves then three&s;core Leagues from Land;</L>
+<L>And &s;eeing the warm Sun us debars</L>
+<L>Of &s;weete&s;t &s;ight, at Noon the Northern Stars</L>
+<L>We do ob&s;erve, with his two Guards mo&s;t bright,</L>
+<L>Which gli&s;tred on Sunday and Mundy Night;</L>
+<L>Which tho' 'twas truly done, next day we had</L>
+<L>A <HI>Solar</HI> Ob&s;ervation, vvhich us glad</L>
+<L>Did make (although the Wind contrary blew;</L>
+<L>For by't how <HI>Scilly</HI> bore w' exactly knew,</L>
+<L>And that they <HI>Channel</HI>'s open, the Degree</L>
+<L>Being forty nine, with Minutes nine times three,</L>
+<L>At which time vve let run the Lead, and found</L>
+<L>That &s;ixty Fathom reached to the Ground.</L>
+<L>Another certain &s;ign is, that the Shore</L>
+<L>Not many Leagues is off; for Weeds great &s;tore,</L>
+<PB N="26" REF="18">
+<L>Call'd <HI>Brittain Beds,</HI> upon the Seas do float,</L>
+<L>Which unto Seamen is a certain
+<NOTE N="(x)" PLACE="foot">Britain Beds <HI>are Weeds like to Laces, which grow upon the Coa&s;t of</HI> Britain, <HI>and &s;o are wa&s;ht off from the Rocks into the Sea.</HI></NOTE> Note</L>
+<L>Of being in our Channel, all Night we</L>
+<L>Bare in, and about twelve at Noon we &s;ee</L>
+<L>The <HI>Lizard,</HI> which we pa&s;t by with a Gale</L>
+<L>So gentle, that we carry all the Sail</L>
+<L>Which we can make, and parted about Night</L>
+<L>From &s;ight of <HI>Falmouth,</HI> and by it was light</L>
+<L>We're near unto the <HI>Start,</HI> having pa&s;t by</L>
+<L><HI>Portland,</HI> the <HI>Wight,</HI> and al&s;o <HI>Beachy-High,</HI></L>
+<L>With <HI>Fairly, Foul&s;tone, Dover,</HI> without &s;tay,</L>
+<L>A Pilot came aboard, us to convey,</L>
+<L>So we hoy&s;e up our Sails atrip, and came</L>
+<L>To <HI>We&s;tgate</HI>-Bay, and anchored in the &s;ame</L>
+<L>Till the next morning, when our Sails we &s;et</L>
+<L>And the &s;ame Tide over the <HI>Flatts</HI> we get</L>
+<L>Up to the Rivers Mouth, from thence to <HI>Lee,</HI></L>
+<L>So to <HI>Whole Haven,</HI> and to <HI>Tilbury;</HI></L>
+<PB N="27" REF="18">
+<L>But cea&s;e my <HI>Mu&s;e,</HI> the Voyage it is done,</L>
+<L>At <HI>Grave&s;end</HI> let it end, as there't begun.</L>
+</LG>
+<TRAILER>Finis Itineris Maritini.</TRAILER>
+</DIV2>
+</DIV1>
+<DIV1 TYPE="epilogue">
+<HEAD>The Epilogue.</HEAD>
+<LG>
+<L>NOthing doth remain, but to give Prai&s;e</L>
+<L>To God, who to us Mortals many days</L>
+<L>His Favours and his Ble&s;&s;ings did be&s;tow</L>
+<L>On what&s;oe're we do, where e're we go,</L>
+<L>By Land, by Sea, in Storms, mo&s;t bitter Bla&s;ts,</L>
+<L>In Thunder, Lightning, and in Nights o're-ca&s;t</L>
+<L>With di&s;mal Clouds, and from the briny Waves</L>
+<L>Mo&s;t dreadful Fury, with what e're we crave</L>
+<PB REF="19">
+<L>Hath granted to us, then let's with one near<GAP DESC="illegible" RESP="MURP" EXTENT="1 letter"></L>
+<L>Set forth his Prai&s;e till this Life we depart;</L>
+<L>Let all Hands &s;ay <HI>Amen, Amen</HI> &s;ay I,</L>
+<L>So be it done to Immortality.</L>
+</LG>
+<TRAILER><HI>Finis Coronat Opus.</HI> J. H.</TRAILER>
+<TRAILER>FINIS.</TRAILER>
+</DIV1>
+</BODY>
+</TEXT>
+</EEBO>
+</ETS>
