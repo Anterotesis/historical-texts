@@ -1,0 +1,831 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The countrey-mans rudiments, or, An advice to the farmers in East-Lothian, how to labour and improve their ground</title>
+            <author>Belhaven, John Hamilton, Baron, 1656-1708.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1699</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 90 KB of XML-encoded text transcribed from 32 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2007-01">2007-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A27339</idno>
+            <idno type="STC">Wing B1786</idno>
+            <idno type="STC">ESTC R4942</idno>
+            <idno type="EEBO-CITATION">11958254</idno>
+            <idno type="OCLC">ocm 11958254</idno>
+            <idno type="VID">51582</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A27339)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51582)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 54:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The countrey-mans rudiments, or, An advice to the farmers in East-Lothian, how to labour and improve their ground</title>
+                  <author>Belhaven, John Hamilton, Baron, 1656-1708.</author>
+               </titleStmt>
+               <extent>[14], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by the heirs and successors of Andrew Anderson ...,</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>1699.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to John Hamilton, 2nd Baron Belhaven. Cf. BM.</note>
+                  <note>Reproduction of original in Columbia University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Agriculture --  Scotland --  Early works to 1800.</term>
+               <term>Farm management --  Scotland --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2006-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2006-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2006-08</date>
+            <label>Jason Colman</label>Sampled and proofread</change>
+         <change>
+            <date>2006-08</date>
+            <label>Jason Colman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="unk">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:51582:1"/>
+            <pb facs="tcp:51582:1"/>
+            <p>THE COUNTREY-MANS RUDIMENTS: OR, An ADVICE To the FARMERS in <hi>EAST-LOTHIAN</hi> how to Labour and Improve their Ground.</p>
+            <figure/>
+            <p>
+               <hi>Edinburgh,</hi> Printed by the Heirs and Suc<g ref="char:EOLhyphen"/>ceſſors of <hi>Andrew Anderſon,</hi> Printer to the King's moſt Excellent Majeſty; And are to be Sold at their Shop, 1699.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:51582:2"/>
+            <pb facs="tcp:51582:2"/>
+            <head>
+               <hi>DEDICATION.</hi> To the Young <hi>Nobility</hi> and <hi>Gentry</hi> of <hi>Scot<g ref="char:EOLhyphen"/>land.</hi>
+            </head>
+            <opener>
+               <salute>My Lords and Gentlemen,</salute>
+            </opener>
+            <p>THere needs no Rhetorick to illuſtrat the many and great Advantages, that accreſces to a Nation by the diligent Practice and due Incouragement of Husbandrie. The thing ſpeaks for it ſelf: Neither need I tell you, how Worthy, Noble and Excellent an Im<g ref="char:EOLhyphen"/>ployment it is, for thoſe whom GOD hath bleſ<g ref="char:EOLhyphen"/>ſed with large and opulent Heretable Poſſeſ<g ref="char:EOLhyphen"/>ſions. It is indeed an Imploy below no man, no not of Kings and Princes; The Holy Writ records the ſame of <hi>Uzziah,</hi> as one of his beſt Characters. <hi>Cicero</hi> in his <hi>Cato major,</hi> treats very largely of it, and in his moſt excellent Book of Offices, penned for his Son <hi>Marcus</hi> to di<g ref="char:EOLhyphen"/>rect him in his Youth, Life and Converſation: He ſays, <hi>that of all Beneficial Induſtrie, certainly there is not any thing more agreeable or more worthy of a man of Honour and Reaſon, than the Culture and Improvement of the Earth.</hi>
+            </p>
+            <p>Of the Excerciſes of Husbandrie, <hi>Hiero, Phi<g ref="char:EOLhyphen"/>lometer Attalus</hi> and <hi>Archelaus,</hi> all Kings, have writ moſt fully; <hi>Zenephon</hi> and <hi>Mago</hi> have done the like and beſides them <hi>Cato, Varro, Pliny, Col<g ref="char:EOLhyphen"/>lumella, Virgil, Creſſentius, Palladius,</hi> and many
+<pb facs="tcp:51582:3"/>
+others of later times, not a few of the Antients have placed the <hi>ſummum bonum</hi> in them, and have deified theſe men, who were moſt famous in that Profeſſion, as <hi>Appollo,</hi> who red the Herds of <hi>Ad<g ref="char:EOLhyphen"/>metus</hi> King of <hi>Theſſaly, Mercury</hi> and his Son <hi>Da<g ref="char:EOLhyphen"/>phnis, Pan</hi> and <hi>Protheus.</hi>
+            </p>
+            <p>
+               <hi>Virgil</hi> calls Husbandmen fortunate, and <hi>Horace</hi> Bleſſed; to fortifie this, the Oracle of <hi>Delphus</hi> pronounced <hi>Aglaus</hi> the moſt happy man (when the Potent and Rich <hi>Croeſus</hi> did expect the Ho<g ref="char:EOLhyphen"/>nour,) and that becauſe he had a little Farm in <hi>Arcadia,</hi> and never ſtirred from it; it is therefore no diſhonour, for your Honours to apply your ſelves this way, which was ſo highly Honoured among the Antients, which was no ways ſhame<g ref="char:EOLhyphen"/>ful, for many <hi>Roman</hi> Emperors, and moſt Potent Kings, not only to direct (which is all I require of you) but alſo to Till, Sow, Graft and Plant their own Lands; This did <hi>Diocleſian,</hi> and <hi>At<g ref="char:EOLhyphen"/>talus,</hi> having voluntarly quited their Empires to follow this Courſe of Life. <hi>Cyrus</hi> alſo, that great Monarch, when his Friends came to ſee him, was wont to Glory in nothing more than in a Garden of his own Planting. <hi>Seneca</hi> Plant<g ref="char:EOLhyphen"/>ed Plain Trees (a Tree indeed which I recommend to be Planted near Gentlemens Houſes, and on their Avenues) and digged Fiſh-ponds with his own hands, he delighted to be no where more willingly then in the Fields, where he is ſaid to have ſtudied that moſt excellent Book of Morals; In a Word, it was thought ſo truly Honourable, that the moſt Noble &amp; Ancient Families had their Riſe and Sirname from ſome particular Countrey
+<pb facs="tcp:51582:3"/>
+Imployments, as the <hi>Fabii-Lentulii,</hi> the <hi>Ciciroes, Pi<g ref="char:EOLhyphen"/>ſos,</hi> from theſe Grains, the <hi>Bubulci, Statilii, Tauri, Pomponii, Vituli, Vitelli, Porcii, Catoes, Aunii, Ca<g ref="char:EOLhyphen"/>prii,</hi> and many others, from their different Her<g ref="char:EOLhyphen"/>dings; and tho' <hi>Cornelius Agrippa</hi> in his <hi>Vanity of Sciences,</hi> doth abundantly Satyriſe all other Im<g ref="char:EOLhyphen"/>ployments, yet he hath nothing to ſay againſt this, but that it is the effect of Sin, that makes us be at all this pains, which we muſt all acknow<g ref="char:EOLhyphen"/>ledge.</p>
+            <p>I muſt confeſs, that I am very well ſatisfied to ſee ſo much Induſtry of late, about the Dwel<g ref="char:EOLhyphen"/>ling-Houſes of the moſt of the Nobility, and Gen<g ref="char:EOLhyphen"/>try within this Kingdom; As alſo, ſo great Prone<g ref="char:EOLhyphen"/>neſs and Inclination for Trade, and ſhal be very ſorry, if they meet not with due Incouragement from the Government.</p>
+            <p>I am glad alſo, to hear, that His Majeſty is not very well pleaſed with our vaging Abroad, nor with our Unneceſſar and Expenſive Court At<g ref="char:EOLhyphen"/>tendancies.</p>
+            <p>All theſe things makes me to hope, that your Honours will ſet up, for what is the real and true Intereſt of your Countrey, and for that which in time, will tend to your own particular Profite, and the Aggrandizing of your Families.</p>
+            <p>And really, when I now conſider the great Scarcity that hath happened for ſeveral years by<g ref="char:EOLhyphen"/>gone, next unto the juſt Judgement from GOD upon us for our Sins, I muſt impute it in part, to our great neglect of Husbandrie, and there<g ref="char:EOLhyphen"/>fore, as the ſenſible effects of the ſad Calamity, ought to be a Spur to all ſincere Chriſtians to humble themſelves for their Sins, which bring
+<pb facs="tcp:51582:4"/>
+on ſuch Judgements, ſo it ought to be an Incite<g ref="char:EOLhyphen"/>ment to all thoſe, whom God hath bleſſed with Eſtates to Double their Diligence in the Im<g ref="char:EOLhyphen"/>provement of their Grounds, and that not only by precept but example, that the Land be not reduced to utter Miſery.</p>
+            <p>I ſhal not multiply words upon this matter, tho' the Theam be very large and capacious, the Subiect matter being ſo obvious to every man: But ſhall only ſay a few things.</p>
+            <p>Husbandrie inlarges a Countrey, and makes it as if ye had conquered another Countrie adjacent thereto; And I am ſure, a Conqueſt by the Spade and the Plough, is both more juſt, and of longer continuance, then what is got by Sword and Bow.</p>
+            <p>Husbandry gives lmployment to many poor people, and ſure they are much better imploy<g ref="char:EOLhyphen"/>ed ſo, then under the maſquerade name of a Sol<g ref="char:EOLhyphen"/>dier in time of peace</p>
+            <p>Husbandry breeds up and accuſtoms men to Labour, which as it keeps a Nation from many Vices, which are the ordinar Concomitants of Idleneſs; So when neceſſity requires, it fits and enables them for warlike Performances, much better then by any formal, idle, lazie way of Driviling; and this <hi>Cato</hi> and <hi>Vegetius</hi> affirms.</p>
+            <p>The <hi>Romans</hi> thought it no Diſparagement to take their Generals from the Plough, and they thought it no diſhonour to return to the ſame again; they thought toil and labour to be the beſt way of excerciſing their Soul<g ref="char:EOLhyphen"/>diers, and this their Camps, Ways, Thea<g ref="char:EOLhyphen"/>ters, Baiths, Aqueducts, and Form of Mili<g ref="char:EOLhyphen"/>tary
+<pb facs="tcp:51582:4"/>
+Diſcipline, which conſiſtted of long March<g ref="char:EOLhyphen"/>es, ſpeedily performed, under the load of Weighty Armour, both Offenſive &amp; Defenſive, as alſo Proviſion; doth abundantlie teſtifie.</p>
+            <p>In fine, Husbandrie is the Stock, and Trade the Improvement of that.</p>
+            <p>Husbandrie is the Foundation, and Trade the Superſtructure.</p>
+            <p>Husbandrie furniſhes Materials for Trade, and maketh Barter go for Money, ſo that we Trade with our Goods, and beſtows our Mo<g ref="char:EOLhyphen"/>ney at Home, amongſt our own People, which ſtill tends for the further Improvement of our Lands.</p>
+            <p>Up then brave Youths, leave off Courts and Politicks, eſpecially when at ſo great diſtance from you, and in another Kingdom<g ref="char:punc">▪</g> Follow Husbandrie and Trade, two neceſſary Twins, who like Man and Wife, ought not to be ſe<g ref="char:EOLhyphen"/>parated.</p>
+            <p>To what a prodigious greatneſs do ye ſee other Nations have come to, who, before the Union of the two Crowns, were not to be accounted much above us, and this all by Huſ<g ref="char:EOLhyphen"/>bandrie and Trade, which we have hitherto neglected, whether by a plain and ſingular ſtupidity, or by ſome other ill made Bargains, <hi>I</hi> ſhal not venture to determine.</p>
+            <p>If you fall to this then in good earneſt, lay<g ref="char:EOLhyphen"/>ing aſide the general advantage to the whole Nation, I am perſwaded you ſhal find more pleaſure and profit this way, then in the old troden Path to <hi>London,</hi> and in time this old Diſtict verified.</p>
+            <q>
+               <pb facs="tcp:51582:5"/>
+               <l>Non minor eſt virtus quam quaerere parta tueri</l>
+               <l>Caſus in eſt illic, hic erit artis opus.</l>
+            </q>
+            <p>Which ſtrain'd to our purpoſe, may run thus.</p>
+            <q>
+               <l>Its no leſs vertue to improve our Lands,</l>
+               <l>Then to gain more from other Bankrupt-hands.</l>
+               <l>The firſt's true management, the others lot,</l>
+               <l>Be not then wiſe behind hand, as the <hi>Scot.</hi>
+               </l>
+            </q>
+            <p>Go on then Noble young Men, and by your Example, let the People under you ſee how to do; For I muſt ſay again, we are all more taken by Example, then by Precept: I have indeed good hopes of this riſing Generation, and I hope they ſhal both ſee their Predeceſſors Errors, and fall upon good Mediums to redeem their evil ſpent time, and thereby ſhall evite the Conſe<g ref="char:EOLhyphen"/>quences of many poor unfortunate Courtiers; as the Poet expreſſeth it,
+<q>
+                  <l>Vitam animas, opera &amp; ſumptus, impendimus aulae.</l>
+                  <l>Proemia pro meritis quae retributa putas?</l>
+                  <l>Aula dedit nobis reſcripta votata papiro,</l>
+                  <l>Et ſine mente ſon<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s &amp; ſine corde manus</l>
+                  <l>Paucos beavit aula, plares perdidit</l>
+                  <l>Sed &amp; hos quoque ipſa quos heavit perdidit.</l>
+               </q>
+            </p>
+            <p>I ſhall trouble your Honours no further, now that I think I have uſed Reaſon enough to per<g ref="char:EOLhyphen"/>ſwade you to ſo good and neceſſar a Work; But in caſe of obſtinacy, that I may leave you with<g ref="char:EOLhyphen"/>out excuſe, and that I may have this to ſay for my ſelf, that neither Rhime nor Reaſon could convince you, of what is infallibly both your Du<g ref="char:EOLhyphen"/>ty and Intereſt: I ſhall conclude with, and ſet before you, the Opinions of two very famous Courtiers, <hi>Horace</hi> and <hi>Buchannan,</hi> the one a fa<g ref="char:EOLhyphen"/>vorite
+<pb facs="tcp:51582:5"/>
+of the favorite <hi>Maecenas,</hi> and the other of the Earl of <hi>Murray,</hi> commonly called the good Regent.</p>
+            <q>
+               <floatingText xml:lang="unk">
+                  <body>
+                     <div type="poem">
+                        <head>Horace Epod. 2.</head>
+                        <lg xml:lang="lat" type="original">
+                           <l>Beatus ille, qui procul negotiis</l>
+                           <l>Ut priſca Gens mortalium,</l>
+                           <l>Paterna rura bobus exercet ſuis,</l>
+                           <l>Solutus omni foenere.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>Before Ambition, Malice, Envy, Strife,</l>
+                           <l>Had found the way to ſhorten humane life:</l>
+                           <l>Before the uſe of Gold came in Requeſt,</l>
+                           <l>Solid Contentment was mans only Gueſt;</l>
+                           <l>Before vain Titles, and a Court were Known,</l>
+                           <l>Man lived Tranquilly on what was his own,</l>
+                           <l>He owed no Debt, neither had ought to crave,</l>
+                           <l>Save what from his own Lands he hop'd to have.</l>
+                           <l>His Fathers Lands therefore with care he plowes.</l>
+                           <l>With lowing Bullocks, them in time he ſowes</l>
+                           <l>With hopeful Grain, which quickly doth afford,</l>
+                           <l>A juſt requital to its frugal Lord.</l>
+                           <l>So all his Val's with Fruitful Corn abound,</l>
+                           <l>His Paſtours green with Flocks are chequered round.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Non excitatur caſſico miles truci:</l>
+                           <l>Nec Horret iratum mare:</l>
+                           <l>Forumque vitat, &amp; ſuperba Civium</l>
+                           <l>Potentiorum limina.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>Nor is he raiſ'd by <hi>Mars</hi> his hot allarm,</l>
+                           <l>Neither from angry <hi>Neptun</hi> fears he harm,</l>
+                           <l>He ſhuns Law Suits, and ſo needs not attend</l>
+                           <l>In Anti-Chambers of big looking Men,</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>
+                              <pb facs="tcp:51582:6"/>Ergo aut adultâ vitium propagine</l>
+                           <l>Altas maritat populus:</l>
+                           <l>Inutileſque falce ramos amputans.</l>
+                           <l>Feliciores inlerit.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>But as his Vines grow up he doth apply</l>
+                           <l>Both Art and pains them carefully to ty</l>
+                           <l>To ſome ſtraight Pole he pruins the fruitful (Vine,</l>
+                           <l>The Barren he roots out, and plants again.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Aut in reducta valle mugientium</l>
+                           <l>Proſpectat errantes greges:</l>
+                           <l>Aut preſſae puris mella condit amphoris;</l>
+                           <l>Aut tondit infirmas oves;</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>Sometimes in bending val's, he's pleaſ'd to ſee</l>
+                           <l>The bellowing wandering Herds feed quietly,</l>
+                           <l>At other times the woolly Flocks he ſhears,</l>
+                           <l>And the ſweet honey from its Comb he clears,</l>
+                           <l>And ſtores it up for the enſhewing years.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Vel cum decorum mitibus pomis caput:</l>
+                           <l>Autumnus arvis extulit;</l>
+                           <l>Ut gaudet, inſitiva decerpens pyra,</l>
+                           <l>Certantem &amp; uvam purpurae;</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>But when long look't for Harveſt ſhews his head</l>
+                           <l>Adorn'd with Fruits of which we ſtand in need</l>
+                           <l>How doth he joy to pull the grafted Pear,</l>
+                           <l>And cluſtred grapes, which ſmalleſt twigs do bear</l>
+                           <l>Whoſe purple colour doth by far excell</l>
+                           <l>The purpled robes of Kings on earth who dwel.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Qua muneretur te, priape, &amp; te, pater.</l>
+                           <l>Sylvane tutor finium.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>Therefore to the <hi>Preipus</hi> praiſe redounds;</l>
+                           <l>And to <hi>Sylvanus</hi> the Guardian of our bounds.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Libet jacere modo ſub antiqua ilice;</l>
+                           <l>Modo in tenaci gramine.</l>
+                           <l>
+                              <pb facs="tcp:51582:6"/>Labuntur altis interim ripis aquae</l>
+                           <l>Queruntur in Sylvis aves.</l>
+                           <l>Fonteſque lymphis obſtrepunt manantibus:</l>
+                           <l>Somnos quod invitet leves.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>For by your care we free from anxious thoughts</l>
+                           <l>Safely reſt under the Oaks Shaddie Boughs;</l>
+                           <l>Anone in ſome green Meadow down we ly,</l>
+                           <l>While from high Banks the pearled Streams gly'd by.</l>
+                           <l>As carefull Nurſe, when Babes go to their reſt,</l>
+                           <l>Chant furth ſome Sonnet ſuch as pleaſe them beſt.</l>
+                           <l>So do the Birds their Tenor, Trible, ſing</l>
+                           <l>Amidſt the Groves, while Fountains murmuring,</l>
+                           <l>Does beat a Counter Baſs, and doth intrap</l>
+                           <l>The painful Plow-man in a quiet nap.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>At cum tenantis annus hibernus jovis,</l>
+                           <l>Imbres, Niveſ<expan>
+                                 <am>
+                                    <g ref="char:abque"/>
+                                 </am>
+                                 <ex>que</ex>
+                              </expan> comparat,</l>
+                           <l>Aut trudit aecreis hinc &amp; hinc multa cane.</l>
+                           <l>Apros in obſtantes plagas.</l>
+                           <l>Aut ameti levi rara tendit retia,</l>
+                           <l>Turdis edacibus dolos;</l>
+                           <l>Pavidumque leporem, &amp; advenam laqueo gruem</l>
+                           <l>Jucunda captat praemia.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>But when cold Winter comes with Rains and Snows,</l>
+                           <l>His hoarie Head with purled locks he ſhows</l>
+                           <l>By Jov's command, then doth the painful Swain,</l>
+                           <l>Order his ſubtile toils, and then doth train</l>
+                           <l>By force of cures the wildeſt Boars therein,</l>
+                           <l>Or elſe by ſlighter Nets, whole Nights doth watch,</l>
+                           <l>The hungry Black-bird in his Snares doth catch</l>
+                           <l>
+                              <pb facs="tcp:51582:7"/>By Gins the fearful Hare and Stranger Swan</l>
+                           <l>Falls as a victim to she Husband-man.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Quis non malarum quas amor curas habet,</l>
+                           <l>Haec inter obliviſcitur?</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>Amidſt theſe pleaſures innocent and juſt</l>
+                           <l>Who will not ſoon forget the ills of Luſt.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Quod ſi pudica mulier in partem juvet,</l>
+                           <l>Domum atque dulces liberos:</l>
+                           <l>Sabina qualis, aut perusta ſolibus,</l>
+                           <l>Permicis uxor appuli:</l>
+                           <l>Sacrum &amp; vetuſtis extruat lignis focum</l>
+                           <l>Laſſi ſub adventum viri:</l>
+                           <l>Claudenſaue textis cratibus laetum pecu<gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>
+                           </l>
+                           <l>Diſtenta ſiccet ubera:</l>
+                           <l>Et horna dulce vina promens dolio</l>
+                           <l>Dapes inemptas apparet:</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>But if you have a Chaſte and Virtuous Wife,</l>
+                           <l>The true ſupport and comfort of mans life,</l>
+                           <l>Who bears her part in your Domeſtick cares,</l>
+                           <l>And manages your Childrens ſmall Affairs,</l>
+                           <l>Like to <hi>Sabina,</hi> or brave <hi>Appules</hi> Dame,</l>
+                           <l>Who by Sols Rays lovely, but black became,</l>
+                           <l>Her Houſhold fire with ſeaſoned wood does burn</l>
+                           <l>As ſhe attends her wearied Lords return.</l>
+                           <l>She alſo doth the skipping Ewes reſtrain</l>
+                           <l>Within their twiſted Folds, that ſhe may drain</l>
+                           <l>Their well ſtored Duggs of all their Milkie gain.</l>
+                           <l>So from ſweet Hog-ſheads cleaned ſhe draws her Wine,</l>
+                           <l>Both fresh and brisk, that he &amp; she may dine.</l>
+                           <l>On unbought Danties neatly cookt in time.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>
+                              <pb facs="tcp:51582:7"/>Non me lucrina juverint conchylia,</l>
+                           <l>Magiſve rhombus, aut ſcari,</l>
+                           <l>Si quos Eois intonata fluctibus</l>
+                           <l>Hiems ad hoc vertat mare;</l>
+                           <l>Non afra avis deſcendat in ventrem meum,</l>
+                           <l>Non attagen jonicus</l>
+                           <l>Jucundior; quam lecta de pinguiſſimis</l>
+                           <l>Oliva Ramis arborum</l>
+                           <l>Aut herba lappathi prata amantis, &amp; gravi</l>
+                           <l>Malvae ſalubres corpori</l>
+                           <l>Vel agna feſtis caeſa terminalibus,</l>
+                           <l>Vel haedus ereptus lupo.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>
+                              <hi>Lucrinas</hi> Oyſters, nor the Turbot Square,</l>
+                           <l>Neither the Scarian Fiſh, the gild-head rare</l>
+                           <l>May with theſe Dainties any ways compare,</l>
+                           <l>The Scarian Fiſh is ſaid to chaw the Cood,</l>
+                           <l>And may be found after an Eaſtern Flood,</l>
+                           <l>And is accounted moſt delicious Food,</l>
+                           <l>I have no Guſt for <hi>Affricks</hi> choiſeſt Fowl,</l>
+                           <l>The <hi>Aſian</hi> Black-Cock I love with my Soul,</l>
+                           <l>And yet in pleaſant taſte it can't compare</l>
+                           <l>With a green joicie O ive pulled with care,</l>
+                           <l>Nor with a Lamb kill'd at abounding Feaſt,</l>
+                           <l>Nor with a Kid catcht from a Ravenous Beaſt.</l>
+                           <l>When dreſt and diſht by fair <hi>Sabinas</hi> Laws,</l>
+                           <l>With wholeſome mallos Meadows Sorrel ſauce,</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Has inter epulas, ut juvat paſtas oves</l>
+                           <l>Videre properantes domum<g ref="char:punc">▪</g>
+                           </l>
+                           <l>Videre feſſes vomerem inver<gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>um boves</l>
+                           <l>Collo trabentes languido:</l>
+                           <l>
+                              <gap reason="illegible" extent="3 letters">
+                                 <desc>•••</desc>
+                              </gap>toſque vernas, dius examen Domus</l>
+                           <l>
+                              <gap reason="illegible" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>ir cum reuidentes lares.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>
+                              <pb facs="tcp:51582:8"/>Amidſt your Banquets when with eaſe you ſee,</l>
+                           <l>Your fathed flocks come home, moſt joyfully:</l>
+                           <l>Alſo your Oxen when their labours done,</l>
+                           <l>With wearied necks chaff'd by the Showers, and Sun,</l>
+                           <l>Their reverſ'd Plows lay down at their re<g ref="char:EOLhyphen"/>turn.</l>
+                           <l>The numerous Off-ſpring of your homely Cell</l>
+                           <l>Thus by your care in Riches doth excell</l>
+                           <l>All others wants by change you can ſupply,</l>
+                           <l>Thus happily you live, and thus you die.</l>
+                        </lg>
+                        <lg xml:lang="lat" type="original">
+                           <l>Haec ubi locutus: faeneratur Alphius,</l>
+                           <l>Jam jam futurus ruſticus,</l>
+                           <l>Omnem religit Idibus pecuniam:</l>
+                           <l>Quaerit Calendus ponere.</l>
+                        </lg>
+                        <lg xml:lang="eng" type="translation">
+                           <l>By this Diſcourſe Alpheus <hi>highly charm'd,</hi>
+                           </l>
+                           <l>And for a Countrey life is bravely arm'd,</l>
+                           <l>Recals his Money, and reſolves no more</l>
+                           <l>To be a ſcourge and Tyrrant to the poor.</l>
+                           <l>But in a Four-nights time his mind doth change</l>
+                           <l>And in its wonted Uſuries doth Range</l>
+                           <l>To take from Fleſh what is bred in the bone,</l>
+                           <l>All men may ſee how hardly it is done.</l>
+                        </lg>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+            <q>
+               <floatingText xml:lang="unk">
+                  <body>
+                     <div xml:lang="lat" type="poem">
+                        <head>G. Buchannani Baptiſtes, Chorus 1.</head>
+                        <lg>
+                           <l>Ficta crudelis pietas tyrranos,</l>
+                           <l>Impios mores ſtola ſimbritatae</l>
+                           <l>Celati in pano tenui recondit</l>
+                           <l>Nuda ſe virtus tuguri ſub umbra</l>
+                           <l>Rustici, nec ſe titulis ſuperbis</l>
+                           <l>Vendit: inſanoſque fori tumultus</l>
+                           <l>Ridet, &amp; plauſus popularis aurae</l>
+                           <l>Nec iliens magni foribus pritoni</l>
+                           <l>Aſſidet vitae tacitos beatae</l>
+                           <l>Rure ſecreto ſibi no a tantum</l>
+                           <l>— Exigit annos.</l>
+                        </lg>
+                     </div>
+                  </body>
+               </floatingText>
+            </q>
+         </div>
+         <div type="to_the_reader">
+            <pb n="1" facs="tcp:51582:8"/>
+            <head>To the Reader.</head>
+            <p>CUſtom hath decreed, that any Treatiſe, how ſmall and trivial ſo ever, is not worth a Far<g ref="char:EOLhyphen"/>thing, if it want a <hi>Preface</hi> and <hi>Dedication,</hi> tho' the Author ſhould know nothing to ſay for himſelf, ſave to Deprecat the Readers Wrath, and beg his Mercy.</p>
+            <p>I fear this will not ſerve my turn, for theſe brave and gallant Sparks, to whom I have Dedicated this Shedule, will ſtop their Ears and Cry: They are the melancholy Fancies of ſome old Caſheired Courtier: The preſent Court-Favorits will laugh at me, and think they know better things: The Soldier will car<g ref="char:EOLhyphen"/>till me, and plunder me too, if he can: The Huſ<g ref="char:EOLhyphen"/>band man will Curſe me for doubling their Labours: The Land-lords will maligne me for favouring, the Yeomanrie ſo much: The Lawyers will revile me as an ignorant enemie to their Imployment: The Gram<g ref="char:EOLhyphen"/>merians will rail at me for breaking <hi>Priſſians</hi> head ſo often: The Rhetoricians will redicule my homely Stile; And above all, the Poets will inſult over me, for invading their Province with my barbarous paltry inconſiſtant Rhyme.</p>
+            <p>In ſhort, there are many more whom I will not name, who will give me no thanks for my pains, and no doubt Phiſiologiſts, Logicians and Sophiſters will conſult how to deſtroy all my arguing by their Sylogiſti<g ref="char:EOLhyphen"/>cal Sophiſmes.</p>
+            <p>But for the veracitie of the thing it ſelf, and my integrity in the deſign, I give them all a fair Defi<g ref="char:EOLhyphen"/>ance<g ref="char:punc">▪</g>
+               <pb n="2" facs="tcp:51582:9"/>
+for the ſeat of Truth is in the Heart<g ref="char:punc">▪</g> not in the Tongue-neither imports it how we tell Truth, ſince falſhood only wants Eloquence.</p>
+            <p>
+               <hi>Euripides</hi> cals Truth plain and ſimple, and <hi>Theo<g ref="char:EOLhyphen"/>phraſtus</hi> ſays<g ref="char:punc">▪</g> the moſt ignorant are very well able to ſpeak before the moſt learned, when they ſay nothing but what is true and reaſonable; Therefore to ſpeak Jntelligibly not Rhetorically, to intend the truth of the Matter not the Ornament of the Language, is the duty of every plain, honeſt ingenuous man.</p>
+            <p>I know the Style and Rhyme, is indeed as rude and unpolite. as the moſt cenſuring can call it; but the ſubject Matteris Excellent, Profitable, and National.</p>
+            <p>A pretty man is nothing the worſe of being cloa<g ref="char:EOLhyphen"/>thed in a homely Dreſs, and I think the Plowman hath as good a Priviledge to coin words as the most learned Philoſophers. and the one is as good and ſigni<g ref="char:EOLhyphen"/>ficant as the other.</p>
+            <p>To conclude Tho. the Poeſy take not with the more delicate &amp; refined Spirits yet it will go very well down with the Shearers in a Harvest day, or with the whiſtling <hi>Plowman</hi> at his Plow, and I think it may anſwer well enough to the tune of Down the Burn Davie, with ſmall reduplication. To the carping and Satyrical Critick, I only ſay,
+<q>
+                  <l>Carpere vel noli mea vel ede tua.</l>
+                  <l>Qui Moevium non odit amet tua carmina Loeli.</l>
+               </q>
+            </p>
+            <closer>
+               <signed>Your humble Servitor, <hi>A, B, C,</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb n="3" facs="tcp:51582:9"/>
+            <head>Advice to the <hi>Farmers</hi> of <hi>Eaſt-Lothian.</hi>
+            </head>
+            <p>THere are many large and learned Treat<g ref="char:EOLunhyphen"/>tiſes of Husbandry, which indeed contain all that is neceſſary for the Management and Improvement of Grounds to the beſt Advantage; But theſe Books are either ſo dear and ill to be had, that they cannot be eaſily got by ordinar Farmers; or elſe they are ſo general and intricat, and the Mannurs or Goodings propoſed ſo dif<g ref="char:EOLhyphen"/>ficult to be purchaſed, that they loſe them<g ref="char:EOLhyphen"/>ſelves in a Labyrinth, not knowing well what Method to follow, amongſt ſo many propo<g ref="char:EOLhyphen"/>ſed, and thereby are wholly diſcouraged.</p>
+            <p>Such Treatiſes alſo propoſe different ways of ordering Grounds according to the dif<g ref="char:EOLhyphen"/>ferent nature of Soils, and that moſt prudent<g ref="char:EOLhyphen"/>ly: but yet it leaves the honeſt Husbandman who is generally Illiterat, to gueſs what will prove beſt for his Grounds, which readily doth occaſion Miſtakes in the Application.</p>
+            <p>This cannot well be prevented, but by a
+<pb n="4" facs="tcp:51582:10"/>
+particular Treatiſe for a particular Shire or Bounds of Land, whereof the perſon who gives his Advice hath particular Knowledge, and hath made it his Buſineſs to underſtand the Husbandmens way of Labouring, and the Faults and Defects thereof.</p>
+            <p>This ſmall Treatiſe is therefore principal<g ref="char:EOLhyphen"/>ly deſigned for <hi>Eaſt-Lothian</hi>: but there is no Barr nor Let why other places may not follow the ſame method, if their Ground and Soil will allow.</p>
+            <p>Although I am not to ſay any thing alto<g ref="char:EOLhyphen"/>gether new, or unheard of before: nor are you to expect extraordinary Inventions from me; yet I dare be bold to ſay there was ne<g ref="char:EOLhyphen"/>ver ſuch a good, eaſy Method of Husbandry as this, ſo ſuccinctly extenſive and methodi<g ref="char:EOLhyphen"/>cal in all its parts publiſhed before. Neither ſhall I affright you with Hedging, Ditching, Marling, Chalking, Pairing and Burning, Draining, Watering, and ſuch like, which are all very good Improvements indeed, and ve<g ref="char:EOLhyphen"/>ry agreeable with the Soil and Situation of <hi>Eaſt-Lothian</hi>: but I know ye cannot bear as yet, ſuch a croud of Improvements, this be<g ref="char:EOLhyphen"/>ing only intended to initiat you in the true Method and principles of Husbandry. I ſhall begin with the eaſieſt firſt, and as I find you t<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke and practiſe it, you ſhall hear more &amp; <gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>e <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ooner from me. I ſhall then as briefly
+<pb n="5" facs="tcp:51582:10"/>
+and plainly as poſſible, and in your own Termes and manner of ſpeaking give my O<g ref="char:EOLhyphen"/>pinion (with all ſubmiſſion to better Judg<g ref="char:EOLhyphen"/>ments) how to order your Grounds for the beſt Advantage, that ſo you may work more by the Head, and leſs by the Hands.</p>
+            <p>The Soil of <hi>East-Lothian</hi> generally taken, is accounted the beſt of any County or Shire in <hi>Scotland</hi>; and although it pays too dear a Rent, yet it is as capable to be Improven be<g ref="char:EOLhyphen"/>yond what it is at preſent as any in <hi>Scotland.</hi>
+            </p>
+            <p>The poor Farmers that they may pay their dear Rent who are ordinarly induſtrious e<g ref="char:EOLhyphen"/>nough, work hard, but without any Me<g ref="char:EOLhyphen"/>thod or Project, whereby both they and their Grounds ſuffer, and ſo conſequently the Landlord.</p>
+            <p>In <hi>East-Lothian</hi> the Farm-Rooms as they are commonly called, are divided or di<g ref="char:EOLhyphen"/>ſtinguiſhed in Infield and Outfield Land: that is to ſay, in theſe Lands where they lay their Dung yearly, and theſe upon which they never lay any Dung.</p>
+            <p>The Infield Land (where Wheat is ſown) is generally divided by the Tennent into four Diviſions, or Breaks as they call them, <hi>viz.</hi> One of Wheat, one of Barley, one of Peaſe, and one of Oats; ſo that the Wheat is ſowen after the Peaſe, the Barley after the Wheat, and the Oats after the Barley.</p>
+            <p>
+               <pb n="6" facs="tcp:51582:11"/>The Outfieid-Land is ordinarly made uſe <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>promiſcouſly, for feeding of their Cows, Horſe, Sheep and Oxen, Its alſo dunged by their Sheep who ly in Earthen Folds; &amp; ſome<g ref="char:EOLhyphen"/>times when they have much of it, they Fauch or Fallow a part of it yearly.</p>
+            <p>As to the Method for Labouring the Ground where Wheat is ſowen, it is abſo<g ref="char:EOLhyphen"/>lutly impoſſible that any Soil how good ſo<g ref="char:EOLhyphen"/>ever, can hold out with profit to the Farm<g ref="char:EOLhyphen"/>er, by this rude way of ordering it; unleſs it be ſome parcel of Ground adjacent to ſome Burgh or Villadge, where they can have plen<g ref="char:EOLhyphen"/>ty of Dung, or to the Sea, where they can have plenty of Sea Ware.</p>
+            <p>The <hi>Engliſh</hi> who indeed excel in the Know<g ref="char:EOLhyphen"/>ledge of Husbandry, do not handle their Grounds (tho' very good) ſo rudely; the Ground muſt reſt, as well as the Husband<g ref="char:EOLhyphen"/>man, if you expect favour from it.</p>
+            <p>Therefore I have known and ſeen, that in the beſt and fertileſt Soils in <hi>England</hi> for Corn, the fourth or third part of their In<g ref="char:EOLhyphen"/>field-Land reſt yearly; but moſt ordinarly a third. Yea I have ſeeen in ſeveral good and fertile Grounds, as in <hi>Leicester, North<g ref="char:EOLhyphen"/>hamptoun</hi> and <hi>'Vorceſter</hi> Shires, the whole third of their Infield-Land ly Fauch, by which Me<g ref="char:EOLhyphen"/>thod, they did ſow both their Wheat and Barley after Fauch; then their Oats after their
+<pb n="7" facs="tcp:51582:11"/>
+Barley and Peaſe after the Wheat. And in<g ref="char:EOLhyphen"/>deed I obſerved their Corns extraordinary good; for ſuch gentile Treatment of the Ground, did not only cauſe a great Birth of Stalks upon the Ground, but made the Stalks and conſequently the Head ſo ſtrong that it did not fall down and grow ſloumy as ſome would fancy it would do. And the Husbandmen told me, that they had tryed ſeveral ways, but by this Method they found moſt Profit, although they were not able to dung the third part of their Land that lay Fauch.</p>
+            <p>But I will not urge new Beginners too far at firſt, left they ſcare and prove skittiſh, and ſo throw off my Advice altogether, as unbroken Colts do their Riders.</p>
+            <p>In the firſt place, therefore I ſhall adviſe ſuch as ſow Wheat &amp; whoſe Ground is of the beſt and in the beſt Condition; to divide or caſt their Infield Land into five equal Breaks; whereof two Breaks of Peaſe, one of Wheat one of Barley, and another of Oats. By this Method you ſhall ſow both your Wheat &amp; Barley after Peaſe, which without all queſti<g ref="char:EOLhyphen"/>on is the far better Method than that which is at preſent more generally uſed. This al<g ref="char:EOLhyphen"/>though it be the better way than the former, in four Breaks, yet it is no ways ſufficient to bring your Ground into any tolerable ſtate
+<pb n="8" facs="tcp:51582:12"/>
+and condition, unleſs you Fauch alſo.</p>
+            <p>Therefore, I adviſe you in the next place, to Fauch or Fallow ſome part of theſe two Breaks deſigned for Peaſe.</p>
+            <p>I will not poſitively determine how much you ſhall leave reſting of theſe two Breaks, leſt I diſcourage you too much; but I dare affirm, the more you leave, the greater Ad<g ref="char:EOLhyphen"/>vantage; yet much of that muſt depend up<g ref="char:EOLhyphen"/>on the prudence of the Farmer. If his Ground be in any tollerable condition, he may Fauch the leſs; I ſay tollerable: For I do aſſure you, there are none, or at leaſt, very little, in ſo good a condition as the goodneſs of the Soil is ca<g ref="char:EOLhyphen"/>pable of: So that I think of the beſt Grounds, a third at leaſt of each of theſe two Breaks deſigned for Peaſe, may ly Fauch; and the half where the Grounds are not ſo good: which may be thus ordered. The third part of that Break of Peaſe, fauched and deſign<g ref="char:EOLhyphen"/>ed to be ſown with Wheat the enſuing year, muſt be plowed about the <hi>Martinmas.</hi> That is to ſay, after your Wheat is ſowen for that year, fallow down that third part of the peaſe-break deſigned for Wheat the next year; ſo that the firſt thing you are to do after Harveſt, is to Till and Sow your Wheat for the year to come: and the next to that, is to Till and Fallow for the Wheat to be ſowen the year thereafter.</p>
+            <p>
+               <pb n="9" facs="tcp:51582:12"/>The reaſon why I would have you fallow it ſo early is, that it may get all the Winter Froſt, but be ſure to plow it with alſo ſhal<g ref="char:EOLhyphen"/>low or thin a Furrow as ye can, that it may only rot the Stubble, and render the ground below mellow and ſoft for the next plowing</p>
+            <p>The firſt plowing, muſt be, that they call gathering of the Rigs to an hight, that where the Ground is moiſt, it may ly dry all the Winter time, and conſequently be ſitter for the next plowing, which is cal<g ref="char:EOLhyphen"/>led Cleaving.</p>
+            <p>Your ſecond Plowing muſt be about the end of <hi>June,</hi> or beginning of <hi>July</hi> between and which time you muſt have ſoyled your Ground with all the Dung, Lime<g ref="char:punc">▪</g> or any o<g ref="char:EOLhyphen"/>ther Mannure during the whole Winter &amp; Spring by paſt; For I do not look upon it as good Husbandrie to lead out your Dung in the Winter time for your Wheat-fauch, becauſe much of its Stength is taken away by the Winter Rains, neither in the Sum<g ref="char:EOLhyphen"/>mer time, till immediatly before the ſecond plowing, becauſe much of it's Spirit and Goodneſs is exhailed by the Summar-Sun and withering Wind.</p>
+            <p>This ſecond plowing muſt be, by cleaving the Rigs, a Term ſo well known that it needs no Explanation; but be ſure to plow it as deep as ye can, that the new Earth
+<pb n="10" facs="tcp:51582:13"/>
+may be brought up moſt againſt the enſuing Seed time: And after it is ſo plowed, you muſt harrow it well by Thortering, that is to harrow croſs the Rigs, as alſo the ordi<g ref="char:EOLhyphen"/>nar way; by which Method you ſhall bring the Crowns and Furrows of the Rigs to an equal thickneſs of Earth, and recover all the Couch-graſs and other Weeds, ordinar<g ref="char:EOLhyphen"/>ly called Wrack from amongſt it, and thus it may ly till <hi>Michaelmaſs,</hi> or the time your Corns are got in.</p>
+            <p>Then let it be the firſt Land you plow after your ordinar way for Seed, having firſt led out any other Goodings ye have purchaſed ſince your laſt plowing; Plow it with a tollerable deep Furrow, that it may cover the Seed well, and endure the Winter waſh<g ref="char:EOLhyphen"/>ing Rains the better.</p>
+            <p>
+               <hi>Nota,</hi> I have obſerved, that abroad, where their Grounds are very light &amp; Stenory, they have ſowen Wheat and Barley upon the Surface of the Earth after the ſecond Plowing, then tilled it over with a thin Furrow, and ſome<g ref="char:EOLhyphen"/>times harrowed it over thereafter, and ſome<g ref="char:EOLhyphen"/>times not; which no doubt is a very good Method of Husbandrie, and may be practiſed with advantage where the Grounds will al<g ref="char:EOLhyphen"/>low: This in their terms is called under-fur ſowing.</p>
+            <p>By thus ordering your Fauch, with plow
+<pb n="11" facs="tcp:51582:13"/>
+when the two parts of the ſame Break upon which Peaſe grew that year, and likewiſe de<g ref="char:EOLhyphen"/>ſigned, for wheat will not, by reaſon of the dry Seaſon which ordinarly attends that time of the year, and ſo it will prove your earlyeſt Wheat, will ſoon take Root, the Body of the Pickle will be turned to a Root, like that of Graſs or other Herbs before the Win<g ref="char:EOLhyphen"/>ter Froſts and cold Rains, and conſequent<g ref="char:EOLhyphen"/>ly be free from being ſlain, blecked, and ma<g ref="char:EOLhyphen"/>ny other Inconveniencies; the being free of which, beſide many other Advantages, is more than ſufficient to recompenſe you for all your pains.</p>
+            <p>As for the third part of your Break of Peaſe, fauched and deſigned for Barley, I think ye need not plow it till about <hi>Lamb<g ref="char:EOLhyphen"/>maſs,</hi> by which ye will gain the whole Win<g ref="char:EOLunhyphen"/>ter and Summars-Graſs.</p>
+            <p>
+               <hi>Nota,</hi> though you have a Cropt both of your fauched Wheat and Barley both in one and the ſame year, yet the Ground reſts two Winters and one Summer for Barley, whereas it reſts only one Winter and one Summer for Wheat: This being conſidered, as alſo that the Barley is not ſo impoveriſh<g ref="char:EOLhyphen"/>ing a Grain as the Wheat, you may expect as good a Cropt of the Barley as of the Wheat though you ſhould lay leſs Dung and Good<g ref="char:EOLhyphen"/>ing upon it.</p>
+            <p>
+               <pb n="12" facs="tcp:51582:14"/>It cannot therefore be expected, that ye can lay any Summer-dung upon your Barley Fauch, unleſs it be Sea-ware to theſe Lands that ly contiguous to the Shore, or Burgh Dung to theſe who are adjacent to a Town, becauſe the Wheat being to be firſt ſowen, will require all you can make, but after your Wheat is ſowen, let all you can purchaſe be laid on your Barley-fauch betwixt and the next plowing.</p>
+            <p>The next plowing, or Steering as they call it, muſt be at or about <hi>Candlemas</hi> (the ground being alwiſe dry,) both Plowing and Har<g ref="char:EOLhyphen"/>rowing being after the ſame manner you did with your Wheat-Fauch.</p>
+            <p>The Reaſon why I adviſe you to lay on your Dung at this time, is, becauſe Win<g ref="char:EOLhyphen"/>ter dung not having time to come to a per<g ref="char:EOLhyphen"/>fect Corruption and Conſiſtence, when laid on at Seed time, if the Seaſon prove dry by its internal Heat, does much more Prejudice than good to the Barley, whereas being laid on at this early ſtirring time, it not only impregnats the Earth with it's Heat, but is alſo fully incorporat with the Earth againſt the next plowing.</p>
+            <p>Though the Wheat be quite otherwiſe ordered, as I have ſhowen already, yet the full Corruption of the Dung at that time of the year, and the ſucceeding Winter-Seaſon,
+<pb n="13" facs="tcp:51582:14"/>
+prevents theſe laſt named Inconveniencies, and tends rather for it's advantage.</p>
+            <p>You may poſſibly ask me, why I adviſe you to ſtir your Barley ſo ſoon.</p>
+            <p>It's becauſe of the early Fallowing of it, for if it ſhould ly untouched till <hi>March</hi> or <hi>April,</hi> the ordinar time of Stirring the Bear-land with you, the Graſs would begin to take root and Spring, and it would be grown too much to it ſelf, (as they call it) and ſo the deſign of Fauching Fail in part.</p>
+            <p>Next, I adviſe thee of Stirring it ſo ſoon that in caſe ye find it not in ſo good a con<g ref="char:EOLhyphen"/>dition as you deſire, as ſometimes it falls out, when the Winters prove Rainy, without Froſts, eſpecially in Clay-grounds, that then you may give it another Furrow before you ſow it, and this you may do in <hi>March</hi> or <hi>April,</hi> according to your accuſtomed man<g ref="char:EOLhyphen"/>ner; But then you muſt remark, that if ye give it but three Furrows, as generally will hold, you muſt ſow it with the firſt of your Barley, but if you be neceſſitat to give it four Furrows, it muſt be ſowen amongſt the laſt, for there muſt be a competent time be<g ref="char:EOLhyphen"/>twixt the two laſt plowings, that in light &amp; Couch-graſs grounds, the Weeds and Graſs may breard and ſpring up, and in Clay grounds that the Earth may come again to ſome cloſneſs and conſiſtency, and reſume its
+<pb n="14" facs="tcp:51582:15"/>
+natural Moiſture before the Barley be ſower ſtir always deep, that new Earth may be brought up, as I ſaid of the Wheat. For the laſt plowing called Seed furrowing, let your Furrows be as thin and narrow a<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> can be, and as ſmall harrowed as poſſible, for it has no Winter Colds nor Froſts to bide, however let it be duely Water-fur<g ref="char:EOLhyphen"/>rowed, if the Ground require it; for oft-times a ſudden Spait of Rain ſcalds the ten<g ref="char:EOLhyphen"/>der Grain, and thereby the ſuperface of the Ground becomes more hardned when dry Weather comes thereafter.</p>
+            <p>In theſe Grounds where no Wheat is ſow<g ref="char:EOLhyphen"/>en, where the Ground is good, the Infield-Land is ordinarly divided in three Diviſi<g ref="char:EOLhyphen"/>ons or Breaks, Peaſe, Barley and Oats; ſo that the Barley is ſowen after the Peaſe, and the Oats after the Barley. All that I ſhall ſay upon this, is only to remark, That where the Tennent pays his Rent much in Barley, he is oft-times neceſſitat to ſow Barley after the Oats, as well as after the Peaſe, which I look upon to be none of the beſt ways of Husbandrie. Where the Tennent pays there<g ref="char:EOLhyphen"/>fore much Barley, I do adviſe him to caſt his Ground in four equal Breaks, <hi>viz.</hi> Peaſe Barley, Oats, and one in Fauch, which muſt ly after the Crop of Oats.</p>
+            <p>Labour and Manure the fourth Break of
+<pb n="15" facs="tcp:51582:15"/>
+Fauch as I have ordered before; and thus ye will not only be able to ſow a double quantity of Barley, without ſowing any after Oats, but alſo ye will find your Ground fall into a good Condition.</p>
+            <p>But if that Method, which indeed is the very beſt, be too harſh a Pill to ſwallow at firſt; then I ſhall propoſe, that according to your own Prudence, ye may make what quantity ye pleaſe; Fauch either of your Peaſe or Oat breaks, ſuch as are in worſt condition, but rather of your Oat-Break; then Labour and Manure it as is above-pre<g ref="char:EOLhyphen"/>ſcribed, and ye ſhall find great benefit by the ſame. Thus much of the Infield-Land; but ſtill the more Ground ye Labour as is be<g ref="char:EOLhyphen"/>fore adviſed, the more profit.</p>
+            <p>Before I proceed to ſpeak of the ordering of the Outfield-Land, I muſt remove an or<g ref="char:EOLhyphen"/>dinary Objection againſt what I have ſaid of Fauching of the Infield-Land.</p>
+            <p>The Farmers with whom I ſpeak, tells me we have a dear Rent to pay, and all our Ground is little enough to pay the ſame, we may not ſpare ſo much yearly unſowen.</p>
+            <p>But their Advantage is the very thing I deſign; and there cannot be a good Maſter, nor a good Countreyman, who looks not up<g ref="char:EOLhyphen"/>on the Tennents profit as his own. I do therefore intreat you ſeriouſly to conſider
+<pb n="16" facs="tcp:51582:16"/>
+this which followeth, and your Objection evaniſheth.</p>
+            <p>Suppoſe you leave as much Fauch as would have ſown you three Bolls of Barley, and that reaſonably you might expect the third Increaſe, by which you would have gained ſix Bolls beſide your Seed, three threes being nine, three your Seed, ſix is the product. Now this I confeſs you loſe for one year only; now ſee how you are repayed with more than triple Intereſt.</p>
+            <p>You fallow three Bolls of Barley ſowing, and having ordered it as is before ſaid, you may reaſonably expect the ſixth Increaſe. For this I do aſſert and maintain, and Experi<g ref="char:EOLhyphen"/>ence ſhal make every man know it, that what ever Ground will yield the third, fourth or fifth, by the ordinar Cuſtom will double it by this Method for three years to come: and at the end of theſe years, leave it in a better condition than it found it; for a good Cropt of Corns makes a good Stubble, and a good Stubble is the equaleſt Mucking that is. And I muſt ſay this by the by, that if in <hi>Eaſt-Lothian</hi> they did not leave an higher Stubble than in other places of the Kingdom, their Grounds would be in a much worſe condition than at preſent they are, though bad enough.</p>
+            <p>Now three times ſix being eighteen, your
+<pb n="17" facs="tcp:51582:16"/>
+Seed being three, the Product is fifteen; of which allowing ſix for the year it lay Fauch, and ſix that it would have produced the ſecond year if it had not been fauched, which makes twelve; yet all is repayed you by the very firſt Crop after Fauch, and three Bolls more; for twelve and three make fifteen, which was the Product.</p>
+            <p>Then for the other two ſucceding years, ac<g ref="char:EOLhyphen"/>cording to the above named Calculation, ye have thirty Bolls increaſe beſides your Seed, &amp; three of Gain for the firſt Crop, in all thirty three; from which you muſt defalct twelve of Increaſe for two years more, that the ſame Ground would have produced, though it had not been fauched; ſo twelve from thirty three, there remains twenty one; by this it is evident, that the Farmer gains twenty one Bolls in three Crops. By this new Method of three Bolls ſow<g ref="char:EOLhyphen"/>ing, more than he would have done by four Crops of the like quantity of Seed the ordinary way; and leaves his Land to the Boot, in a much better Condition than what it was for<g ref="char:EOLhyphen"/>merly. But ſuppoſe you ſhall continue for ten or twelve years this way, ſtill increaſing the quantity of your Fauch, as ye ſee cauſe, what a vaſt Difference will ariſe, ſuch a prodigious In<g ref="char:EOLhyphen"/>creaſe as ſhal leave no room for Compariſons. I ſhal not therefore trouble you with any further calcul I am afraid ſome of you will be puzelled enough to underſtand what I have ſaid already; but I hope in time, Experience will make you find it: and then a full Purſe, and full Belly, warm Cloaths, and a good Stock, will perſwade more then all my Rhetorick or Arithmetick can do.</p>
+            <p>
+               <pb n="18" facs="tcp:51582:17"/>And to encourage you to this Method, I think your Maſters ſhould forbear for two or three years, the Rent of any ſuch Land as you lay Fauch proportionally; by which to your own Conviction, I am ſure the ſtrength of your Objection is taken off, and in that time you will have enough to repay the ſame.</p>
+            <p>As for the Outfield Land, which is ordinarly the higheſt, lying dryeſt, and worſt Grounds.</p>
+            <p>In <hi>Eaſt-Lothian</hi> the ordinar way of Labouring theſe Lands is by Folding, Fauching &amp; Lyming.</p>
+            <p>As for the making of Sheep-folds of the Sur<g ref="char:EOLhyphen"/>fice of the Earth, digged up with many little Diviſions, that the Sheep and other Beſtial may Dung them the more equally. Though it be no where ſo much practiſed as in the <hi>Lothians,</hi> and in the <hi>Merſe,</hi> where indeed they not only uſe it, but abuſe it, by taking more Crops after their Foldings, than their Ground is able to bear; by which they reduce it to ſuch a con<g ref="char:EOLhyphen"/>dition, as it is neither profitable for Corn nor Graſs for manie years to come; Yet if rightly uſed, I account it a moſt excellent and profi<g ref="char:EOLhyphen"/>table part of Husbandrie, eſpecially for theſe Grounds that ly betwixt Moor and Dale as they call it, which are ordinarlie the moſt im<g ref="char:EOLhyphen"/>provable Grounds in the Countrey.</p>
+            <p>I do therefore adviſe the Tennent to Dung his Folds well and throughly, and yet never to take any more Crops than three, or in extra<g ref="char:EOLhyphen"/>ordinary good Grounds and well Dunged, four at the moſt; by this Method the Ground will ſoon come to a Sward again, and be fit for the
+<pb n="19" facs="tcp:51582:17"/>
+ſame uſe, the ſtrength of the Ground being that way preſerved.</p>
+            <p>But if any think fit to Lime theſe Foldings, let them lay on their Lime with the verie firſt Cropt: And as they Dung their Folds in the Sum<g ref="char:EOLhyphen"/>mer-time, with the ſame breath, let them ſpread on the Lime; I know they uſe to do it the ſecond Cropt, but I aſſure you the firſt is beſt, becauſe no part of the ſtrength of the Ground is exhauſted, and conſequentlie it will endure the longer. Next, the Lime ſo mixt with Dung, will imprignat, and ſo have effect upon the Ground the verie firſt Cropt, more than it will do otherwiſe for two Cropts to come, for this is a true maxime, never lime Ground when it is weak, for then the lime wants Matter to work upon, and generalie does more hurt then good; but when ye have brought your Ground to the greateſt Strength it is capable of, then lime and you ſhal find profit.</p>
+            <p>As for theſe Grounds which you intend to lime that hath not been Folded, I approve of laying on the Lime on the Lee Ground, that is to ſay before it be plowed, rather than after Fauching, and more eſpecially if the Ground be light, becauſe Lyme being of a ſubtile ſpiri<g ref="char:EOLhyphen"/>tuous piercing Nature, tends alwiſe downward, and being laid upon Fauch-land, it falls into the Furrows, and having no Cruſt to ſupport it, conſequentlie ſtayes not above ſo long, as when it is laid upon the graſſie ſuperface, where fixing by the Summer ſhowres into the Roots of the Graſs, it incorporats with the Superface of the Earth, which is ordinarlie the beſt and
+<pb n="20" facs="tcp:51582:18"/>
+fertileſt part of the Ground, and thereby ren<g ref="char:EOLhyphen"/>ders it Mellow and fit for receiving the Seed.</p>
+            <p>I confeſs indeed in ſtrong Clay Grounds, if ye fallow before and after a froſtie winter, harrow well in the Summer time by thortering and other wiſe before you lay on your Lime, it is very good husbandry; Therefore I do ad<g ref="char:EOLhyphen"/>viſe you to lay on your Lime alwiſe (if by any means you can) in the Summer time, for by winter liming ye loſe a great deal of it both by Snows, Rains and Froſts, which chills too ſoon ſuch a delicat hot manure as lime is, and carries it to the Ground before it be incorpo<g ref="char:EOLhyphen"/>rate therewith; Lyme therefore your Clay-land in the Sumner, Fallow it at Lambas, Har<g ref="char:EOLhyphen"/>row it well after the firſt Froſt, Seed fur and Sow it ſome time in <hi>February,</hi> and through GOD'S Bleſſing, you may expect a good Cropt of Oats that ſame year.</p>
+            <p>Or which is much better, if ye fallow upon Clay-Ground in the winter time, plow and harrow it over again betwixt and <hi>Lambas,</hi> ſow it at the time appointed, which will do very well: But for the Reaſons above-ſpecified I think it will not laſt ſo long as when it is laid on upon Lee.</p>
+            <p>I adviſe you to take no more Crops of your lymed Ground without reſting, than ſeven or eight in the beſt Grounds, five or ſix in Gro<g ref="char:EOLhyphen"/>unds which are not ſo good, three or four in your worſt, and generally according to the ſtrength of your Ground, ye may take more or fewer as ye ſee Cauſe.</p>
+            <p>But if ye intend to reduce it into a part of
+<pb n="21" facs="tcp:51582:18"/>
+your Infield-Ground, and give it the ordi<g ref="char:EOLhyphen"/>nary Goodings in its Towers, then ye may con<g ref="char:EOLhyphen"/>tinue it as long as ye think fit, but by no means let it bear above three or four years before dunging, by this gentle Treatment of your Lands, you may ſafely plow your lymed Lands after three or four years reſting, for two or three years together and find good increaſe. By which you will get als many Crops after your lime, as now you uſe to do and much better, tho' at a greater diſtance, and ſtill your ground in good Condition, no ways run out, as experience teach<g ref="char:EOLhyphen"/>eth us, but als capable to be improven as for<g ref="char:EOLhyphen"/>merly.</p>
+            <p>Cold Clay requires a greater quantity of lime then light dry Ground, and moiſt Clay more then dry Clay, becauſe it requires the more heat to overcome and qualifie its moiſture.</p>
+            <p>But I am of opinion that take your moiſter Clay Grounds, and theſe who ly upon a La<g ref="char:EOLhyphen"/>vel, ſo that the moiſture has no deſcent from off them, and plow it twice or thrice, I mean gather the Rigs up to as great a hight as you can before limeing, then lime according as has been before directed, and I doubt not but ye ſhal find als great an increaſe as upon any other Ground whatſomever.</p>
+            <p>This alſo I muſt ſay for all hanging Grounds in general whither Infield or outfield, that they loſe a great deal of their ſtrength &amp; Goodings by their winter Rains; And therefore I pre<g ref="char:EOLhyphen"/>fer the lavel Grounds as beſt, not only for Graſs but Corn, providing alwiſe they have no Springs nor unnatural Summer Moiſture within
+<pb n="22" facs="tcp:51582:19"/>
+them, thoſe who are ſuch, muſt be ditched and drained and kept from Paſturage; But all the prejudice the Husbandman ſuſtains by the o<g ref="char:EOLhyphen"/>ther, which is onlie by the Supervenient Rains, and runnings from of other Grounds in time of Winter may be eaſily remeided by a little pati<g ref="char:EOLhyphen"/>ence in waiting until ſuch time as they are dry<g ref="char:EOLhyphen"/>eſt, and this both for Plowing and Sowing, &amp; ſo this will rather tend for their benefit than prejudice, for I can aſſure you there is ſcarce a<g ref="char:EOLhyphen"/>nie better point of Husbandrie, then to contrive ſome lavel piece of Ground, ſo as it may receive or gain what the higher lying Lands loſe.</p>
+            <p>In all moiſt clay Ground you ſhould make your Ridges Narrow, Straight and high, gathe<g ref="char:EOLhyphen"/>red without turnings and windings, as ordinar<g ref="char:EOLhyphen"/>lie they are, that ſo the Rain and Moiſture may have free paſſage to the Furrows.</p>
+            <p>Everie diſtinct break of Land ſhould have Head-rigs and Foot-rigs well &amp; exactlie gathe<g ref="char:EOLhyphen"/>red up, and alwiſe kept in good order, by this you preſerve not onlie your Ground from the impetuous fall of Rains that come from the hills above, but you do alſo preſerve the good<g ref="char:EOLhyphen"/>ings from running off the ſaids Lands by the uſe of the Foot-rig, and thereby does obſerve the Act of Parliament made for preſerving of high-waies. Thus much of liming onlie, I do not adviſe the limeing of the Infield-Land, ra<g ref="char:EOLhyphen"/>ther let it reſt. And for theſe who have much Outfield Land in their Rooms, to endeavour by limeing to bring in als much Ground as will anſwer for a fifth Diviſion or Break; And this by ordering it as I have alreadie adviſed, will
+<pb n="23" facs="tcp:51582:19"/>
+become as good Infield Land as anie they have, and continue as long.</p>
+            <p>As for the Fauching of Out-field Land with<g ref="char:EOLhyphen"/>out anie deſign of Liming it, I cannot much adviſe you to it, unleſs you have great quanti<g ref="char:EOLhyphen"/>ties of it, eſpecially of Mooriſh-Ground, upon which ye deſign to bring a ſtool of Graſs, and this alſo is moſt effectually done by Liming, but where that cannot well be had, you muſt follow the next beſt.</p>
+            <p>But if ye will fauch, Winter-fauching is cer<g ref="char:EOLhyphen"/>tainlie the beſt for ſuch an Improvement, and two Crops in bad Ground, and three in the beſt, is ſufficient for a time.</p>
+            <p>But in regard the Roots of the heath and hea<g ref="char:EOLhyphen"/>ther are not ſo eaſily got out, &amp; deſtroyed after two years reſt, you may plow it again for one year, and ſo furth, till it take the deſired effect.</p>
+            <p>For Graſs, I know it is a verie great rarity in <hi>Eaſt-Lothian</hi> amongſt the Husbandmen, neither can they well have it (as at preſent their Farms are ordered) unleſs they turn ſome part of there infield Land to Graſs, &amp; lime as much of their out-field Land as correſponds thereto, and reallie I know not whether that Method might not prove in time the beſt Husbandrie for all the infield Land, notwithſtanding the Charges and Expenſes thereof, it could not be done indeed ſuddenlie, and quicklie, but the way is eaſie and obvious enough, and would quicklie defray its own Expenſes; For ye may remember I ſaid before, that the outfield Lands are the lighteſt and higheſt Grounds, and be<g ref="char:EOLhyphen"/>ing generallie of a verie good Soil here in <hi>Eaſt-Lothian,</hi>
+               <pb n="24" facs="tcp:51582:20"/>
+which is evident by their bearing very good Wheat and Peaſe after limeing, and yet bearing no conſiderable Quantity of Graſs, 'as by ſad experience is found, and the infield on the other ſide being capable to prove very good Paſturage, and generally able to produce very good Hay when right ordered, as ſome Gentle<g ref="char:EOLhyphen"/>men who hath done ſo hath found by Experi<g ref="char:EOLhyphen"/>ence; For theſe Reaſons, I ſay there might be ſuch a change, and that with very great profite both to Landlord and Tennent.</p>
+            <p>But this being deſigned only as an A, B, C. or Introduction to (I hope) better things, I ſhal not inſiſt upon it, leaſt it choak you too much.</p>
+            <p>Therefore I do only adviſe you, that ye may have at leaſt ſome Graſs to keep your beaſts in good Condition, who muſt aſſiſt you to im<g ref="char:EOLhyphen"/>prove your grounds, to endeavour to chooſe out ſome of the moſt convenient and moiſt places you can, where-ever it is to be found in your Ground: and ſet it apart for horſe graſs, the Horſes muſt work all your Work, lead all the Materials for Improvement, which is indeed the greateſt Charge they deſerve, therefore to be well ſeen too, their work being rather more in Summer than in winter.</p>
+            <p>Having found out ſuch a piece of Ground as is above deſcribed, I muſt in treat you (for now ſingle advice I fear will not do) to get it in<g ref="char:EOLhyphen"/>cloſed.</p>
+            <p>I have obſerved ſo many uſleſs Stones lying upon moſt of the laboured Grounds in <hi>Eaſt-Lo<g ref="char:EOLhyphen"/>thian,</hi> that as it would be a good piece of Hus<g ref="char:EOLhyphen"/>bandrie to free the Land of them, and there<g ref="char:EOLhyphen"/>by
+<pb n="25" facs="tcp:51582:20"/>
+ſave both Oak and Iron, and eaſe Smith, Plowman and beaſts to the boot, ſo it would be no difficult task to rickle up a dry Stone dike round any piece of Ground ſo deſigned.</p>
+            <p>If you have not the Conveniency of Stone near you, a good ſtrong earth Dyke and Ditch will do very well, both which your Servants at their ſpare hours may very well do without a<g ref="char:EOLhyphen"/>ny Charge to their Maſter, and I am very con<g ref="char:EOLhyphen"/>fident your Maſters will furniſh you with Trees and hedge Timber to plant round the ſame.</p>
+            <p>This will prove great advantage to you, more than if it were bearing you red Wheat, as they ſay:</p>
+            <p>For firſt, it will ſave you the Expenſe of a horſe hire, ſometimes two; for if all your horſe be not at the work, two or three muſt have a herd to keep them.</p>
+            <p>Secondly, you will get your horſes kept out all night, which indeed is very refreſhing to a hard wrought beaſt to eat and reſt himſelf at pleaſure during a ſweet pleaſant Summers night, and more eſpecially for mares who have their Foals ſucking upon them.</p>
+            <p>Thirdly, Thereby you wil gain much more labour from your Servants<g ref="char:punc">▪</g> a great part of whoſe time was taken up in gathering Thiſtles and o<g ref="char:EOLhyphen"/>ther Garbadge for their horſes to feed upon in their Stables, and thereby the great tramp<g ref="char:EOLhyphen"/>ling and pulling up and other deſtruction of the Corns while they are yet tender will be pre<g ref="char:EOLhyphen"/>vented. And this I muſt ſay is a greater pre<g ref="char:EOLhyphen"/>judice than moſt of the Farmers have been a<g ref="char:EOLhyphen"/>ware of.</p>
+            <p>
+               <pb n="26" facs="tcp:51582:21"/>Fourthlie, The Planting grown up will ren<g ref="char:EOLhyphen"/>der it both more fertile and warm, and prove beneficial for upholding the Farmers houſes, and Neat Graith, which I am of the opinion they ſhould have for their incouragement, pro<g ref="char:EOLhyphen"/>viding they ſo hain the Timber, that it may grow again.</p>
+            <p>And laſtlie, where ſix or eight horſes feed, the ſame Ground will maintain two good Cows for the Houſe-wiſe, without doing prejudice to the horſe-graſs, for they will Feed moſt upon the Graſs that ariſe from the horſe dung, which is called Tath, as the horſes will alſo do upon that of the Cows; and ſo the Ground will be kept verie clean, but by all means keep it free from Sheep, Summer and Winter.</p>
+            <p>For the remainder part of your Out-field Ground, I appropriat it all intirely for Sheep, for all the Out-field Lands being generallie high as ſaid is, are fitteſt for them, and they are really moſt profitable when rightly ordered, both for your Family by their Milk and Wool, or by furniſhing you either with a fat Sheep or Lamb, either for your Family, or the Butcher.</p>
+            <p>Beſides their Paſture being kept clean from all other Beaſts, they will proſper exceedingly, and be kept free from the Rot, which oftimes is occaſioned by the Dung of other Beaſts, which many poor Farmers in <hi>Eaſt-Lothian</hi> finds by wo<g ref="char:EOLhyphen"/>ful Experience, and then you will make the more Foldings, the more ye have of them, which is very profitable, as is above ſaid: The old Proverb ſays, a Summer fed Ox, and a Win<g ref="char:EOLhyphen"/>ter fed Cow.</p>
+            <p>
+               <pb n="27" facs="tcp:51582:21"/>As for your Labouring Oxen, and other yeild Beaſts, they require indeed to be well fed in ſome moiſt Paſture, tho' the Graſs be courſe it matters not much, providing it be long, and enough of it, to fill their Bellies, which will al<g ref="char:EOLhyphen"/>wiſe make them ſtrong &amp; fleſhy, though not Fat, which is unneceſſar, but for the Shambles.</p>
+            <p>Now ſince theſe dry Out-field Grounds can<g ref="char:EOLhyphen"/>not be a fit Paſture for your Oxen, neither will ye be willing to ſpare any more of your In<g ref="char:EOLhyphen"/>field Ground, as you do for your Horſes, nor will I adviſe you: Therefore I think ſome place in the Muires ſhould be provided for them.</p>
+            <p>If the Commons of <hi>Innerweek</hi> and <hi>Dumbar</hi> were divided according to each Paroch pro<g ref="char:EOLhyphen"/>portion, who have Right and Intereſt therein, it would very well ſerve that turn, and might, by a Diligent and exact Care, keep ſome yield Sheep upon the dryeſt parts thereof, but in this I am not reſolved. But ſince it is not ſo, I could wiſh, that theſe who have Intereſt therein might meet together, and fall upon ſome ways, how to feed Oxen and yield Beaſts thereupon, rather than Sheep, for the Ground is generally ſo moiſt, that a man loſes his Stock of Sheep oftner by Rot, than get any good by feeding thereupon.</p>
+            <p>It ſhould alſo be Stinted and Proportioned, that in be not over burdened, &amp; I am confident, by this way of ordering, it might not only feed &amp; maintain <hi>all</hi> the labouring Oxen, of thoſe who have Right of Paſturage on the ſame, but alſo of theſe who have no Right to it, who might be taken in for payment, as theſe who have the Property. Farmers in <hi>Lamermuir</hi> do the ſame to us now.</p>
+            <p>
+               <pb n="28" facs="tcp:51582:22"/>But till that be adjuſted, the next beſt is for three or four Farthers in the low Country of <hi>Lothian</hi> to take a Farm in common amongſt them in their Mure Grounds, where they may order things as their neceſſities require; and I am confident that this method, if rightlie gone about, would be found moſt profitable, and that ſeveral ways, with which I ſhall not trouble you at preſent.</p>
+            <p>
+               <hi>Nota,</hi> It is moſt profitable for Gentlemen who have incloſed, or are incolſing large Parks about their dwelling houſes.</p>
+            <p>Thus having gone through briefly and ac<g ref="char:EOLhyphen"/>cording to my deſign, the particular ways of ordering your Ground, I ſhall ſubjoyn thereto ſome ſome few generals, which if rightly gone about, and prudently applyed, will tend cer<g ref="char:EOLhyphen"/>tainly for your Advantage.</p>
+            <p>Endeavour to plow all your Grounds as dry as you can. And all your Clay Ground as early as you can.</p>
+            <p>Sow all ſorts of Grain as dry as you can, I mean the Ground being dry according to the old maxime, ſet wet and ſow dry; yet if the Land be hard, being wet plowed, and having gotten no Froſt to ſofen it, in that caſe you muſt either wait upon a ſhower, or ſow it in the ſounding, as they call it, that is to ſay, be<g ref="char:EOLhyphen"/>fore it be fullie dry, and then be ſure to har<g ref="char:EOLhyphen"/>row it well, intermitting a day, two or three betwixt the ſeveral harrowings; And by this Method ye may bring it to a tollerable good condition.</p>
+            <p>
+               <pb n="29" facs="tcp:51582:22"/>As to that common Countrie Ryme, ſow Wheat Sinking, Peaſe Winking, Oats Clink<g ref="char:EOLhyphen"/>ing, and Bear Drinking; I make no ſuch dif<g ref="char:EOLhyphen"/>ference, onlie I doubt not but that all the honeſt Labouring-men will be content to ſow all their Grains Drinking, as their hard labour, doth but equitablie require.</p>
+            <p>Wheat and Peaſe require to be Thicker ſown than Barleie and Oats, and Wheat thick<g ref="char:EOLhyphen"/>er then Peaſe, becauſe it has the Winter ſtorms to endure.</p>
+            <p>I approve the Method of ſtipeing and moiſt<g ref="char:EOLhyphen"/>ning the Wheat in Bryme or Salt-water, and drying it with Lime before it be ſowen; It both makes it ſow thick, warmeth the Pickle, and preſerveth it from Fowls and Vermine: but whether it preſerves it againſt being black<g ref="char:EOLhyphen"/>ed, I have not yet found out, neither I fear ſhal, till it be certainlie known, whether that misfortune fall upon the Root or the Ear.</p>
+            <p>I think it alſo a verie good thing to moiſten your Barley before it be ſowen, eſpeciallie in dry Seaſons, but not with Salt-water, Bryme or Lime, for that the Seaſon of the Year will not admit, yet I do adviſe it where they ſow Winter Barley.</p>
+            <p>Change your Seed often of all Grains, but eſpeciallie of Oats; but remark, that it does beſt from a worſe Ground to a better, and from a Colder to a Hotter.</p>
+            <p>Let your Seed Corn be likewiſe well dight, and the weakeſt of the Pickles taken from it, for the foulneſs and dirtineſs of Grounds proceeds
+<pb n="30" facs="tcp:51582:23"/>
+from the one, and the ſoon degenerating of the Seed from the other.</p>
+            <p>As for your houſes, ſuch as have them alrea<g ref="char:EOLhyphen"/>dy built, muſt keep them as they are; but for building of new ones, let all ſit-houſes as they call them, ſtand Eaſt and Weſt, their Doors and Windows to the South, becauſe they are warm<g ref="char:EOLhyphen"/>eſt.</p>
+            <p>Their Barns muſt ſtand North and South from the Weſt end of their Sit-houſe, their Doors Eaſt and Weſt, becauſe the Wind blow moſt that way, and they are beſt for winnow<g ref="char:EOLhyphen"/>ing of Corns. If your Farm be large, I ad<g ref="char:EOLhyphen"/>viſe three Barns, one for Wheat and Barly, one for Oats, and the third for Peaſe, thereby you will be able to feed your Beaſts equally with any ſort of Straw that is moſt proper for them in its Seaſon.</p>
+            <p>Their Barn-Yard to the Weſt of their Barns, the beſt place for drying and winning of Corns in Stacks, and if it be a Colline riſing Ground, ſo much the better.</p>
+            <p>Their Stable and Byres from the South-end of their Barns, Eaſt and Weſt, their Doors to the North oppoſite to their ſit-houſe, for the Con<g ref="char:EOLhyphen"/>veniency both of Hearing and attending their Beaſts, and furniſhing them with Straw from their Barns.</p>
+            <p>Their Entry from the Eaſt, becauſe that ſel<g ref="char:EOLhyphen"/>dom or never there blows a high Wind from that Airth; And therefore your dunghill is leaſt prejudged, but be ſure to have no Entry, but one to your Cloſs, for two Entries blows away
+<pb n="31" facs="tcp:51582:23"/>
+all your Straw, and the other manure and dryes the Dunghill too much: if you build a houſe for Chaff, Strae, nait graith and ſuch like things: build it on the Eaſt-ſide of your Cloſs North and South, ſo your Cloſs will be the warmer, and your entry to your ſit-houſe being betwixt the North Gavil of your Chaff-houſe and the Eaſt Gavil of your ſit-houſe, may be cleanſed and kept clean, which the reſt of the Cloſs ought not to be.</p>
+            <p>Build all the Walls of your houſes with ſtone and lyme, for Stone and Clay is the Deſtructi<g ref="char:EOLhyphen"/>on of all, the Rain moiſtens the Clay, the Stone and Timber ſlydes, the Wall falls, the Roof, Timber and all breaks, and ſo both men and beaſts are in danger of their lives.</p>
+            <p>Cover your houſes with a few Divots and plenty of Straw, which they call Thatch and Divot, take notice and mind them yearly by ſtinging them with Straw alwiſe where they begin to fail, but never add any more Divots, and you ſhall find great profite thereby, for the fre<g ref="char:EOLhyphen"/>quent falling of Houſes conſumes much time to the Tennent, beſides the Charge and loſs of it; Therefore I adviſe you never to put co<g ref="char:EOLhyphen"/>ver upon cover, otherwiſe ye may be certain with the firſt great Rain and Froſt in the Win<g ref="char:EOLhyphen"/>ter Seaſon, you will bring down the whole houſe about your Ears, although it be new and reaſonably ſtrong built.</p>
+            <p>Plant round all your yards with Aſh &amp; Elm trees, with which your Maſters will furniſh you, and in time they will ſerve to keep up the whole
+<pb n="32" facs="tcp:51582:24"/>
+in-ſtead of Houſes; &amp; I am of opinion the Ten<g ref="char:EOLhyphen"/>nent ſhould have the cutting of them, as I have ſaid before in the like caſe, providing that he hain and preſerve the old Stocks, that they may grow again.</p>
+            <p>For your Yard, I do not mean your Barn<g ref="char:EOLhyphen"/>yards, but a piece of Ground ſet apart for Cab<g ref="char:EOLhyphen"/>bage, and other Roots, let it alwiſe be at the North-ſide of your Sit-houſe, where you may have a little door to go in at, by which it will be preſerved from the Summer ſcorching Sun, and Southern Wind, the two greateſt enemies to Kitching Grounds, deſigned only for ordi<g ref="char:EOLhyphen"/>nar things. I think half an Aiker of Land is ſufficient for the Quantity, unleſs where the Farm is little, the Yard may be the leſs, a good large Graſs Yard is alſo verie uſefull upon ma<g ref="char:EOLhyphen"/>ny occaſions.</p>
+            <p>For the ordering of your Yard, I ſhall pro<g ref="char:EOLhyphen"/>poſe nothing but what is both profitable and eaſie; In the firſt place, then plant Cabbage and Summer Kaill, which is all that is neceſſar for Herbage, Leeks, Sybous and other curious Herbs not being for your handling.</p>
+            <p>For Roots, I adviſe you onlie to ſow Pota<g ref="char:EOLhyphen"/>toes and Turnips, a larger or leſs quantitie as you affect moſt, but rather Potatuſſes, becauſe being once planted, they will never fail, they require little more labour than to keep the Ground where they grow free from Graſs; The <hi>Flandrian</hi> Bowers make ſo much of this Root, and had ſuch pletnie thereof, that both the Confederate and <hi>French</hi> Army found great ſupport
+<pb n="33" facs="tcp:51582:24"/>
+thereby, by feeding the common Sol<g ref="char:EOLhyphen"/>diers moſt plentiouſly, it is both delicious and wholeſome.</p>
+            <p>For Turnipes, you muſt ſow them about the middle of <hi>June,</hi> and by <hi>Hallowmaſs,</hi> you will find them excellent Proviſion for your Family, take them up before the Froſt come on, and hang them up on the Roof of your Victual houſe, and they will keep well the Winter, your Potatis ſucceed when the Turnips are ending, and your Cabbage may be preſerved in the ſame manner, till your ſpring Kail come in.</p>
+            <p>The advantage of the Potatis is ſo excellent and uſeful, that in <hi>England</hi> and ſeveral other places Abroad, the poor People boyle them, dry them, mix them with a little Meal, kned them, and make them up in Bread, which is a moſt uſeful and wholeſome Food, eſpecially in times of Scarcity; Of the Joice of them alſo ſtilled, they make moſt excellent Aquavitae; This is all that is neceſſar for you to have in your Yards, except it be ſome Turkie Beans, and for want of theſe, ſome good ordinar Beans and Peaſe, which will not only tend for the gooding and improvement of your Yard, but are verie good alſo to boyl with your Pork, and keep your Servans alſo from treading down your Fields of Peaſe, they are alſo verie uſeful for your Bees.</p>
+            <p>Each Farmer may therefore have one Hive or two of Bees, the ordering of them is ſo well known, that I ſhal not ſay anie thing, but that
+<pb n="34" facs="tcp:51582:25"/>
+they will be found very profitable, &amp; no charge.</p>
+            <p>Be careful to gather as much Summer Dung as poſſible, Dung being the Mother of Corn, for that end buy Straw wherever you can get it, for bedding your Cloſſes, Byres and Stables in the Summer time, it is ordinarly cheap then, and ye cannot beſtow half a Merk better, than upon a Threave of good Wheat or Bear Straw, which being rightly uſed, will make more Dung then ten Threaves eaten by Beaſts in the Winter time; but be ſure not to neglect the ſhoveling and cleanſing of your Cloſe after eve<g ref="char:EOLhyphen"/>rie ſhower of Rain, then carry all to your Dung<g ref="char:EOLhyphen"/>hils, which you muſt carrie up equal and tight, all which are neceſſar for the equal way of Roting, and though they ſeem trival in themſelves, yet they ought not be neglected.</p>
+            <p>Green Fairn or Brachens, if they be within a mile of you, are well worth your pains of bringing home; bed your Cloſe with them, in the ſame manner as with Straw, it makes a moſt excellent Mannure, far above that of Ruſhes.</p>
+            <p>The Turſe of Moſſie, or any four, moiſt, Ruſbie Earth, may be well brought home a mile off, and may be either thrown into your Cloſe, to be trode to Dung with your Beaſts, or laid by Lares, as they call it, upon your Dunghill, which being covered afterwards with Dung, then with the Turfe, and ſo furth, which makes a moſt excellent compoſt, and it is alwiſe good to lay the Foundation of your Dunghill this manner of way.</p>
+            <p>
+               <pb n="35" facs="tcp:51582:25"/>Lyme and Earth mixt and made up in Heaps in the Fields, after a years ſtanding, proves a verie good Manure for the In-field Land, eſpe<g ref="char:EOLhyphen"/>ciallie for theſe who are thin of Earth, as the preceeding compoſt is alſo.</p>
+            <p>Sea-Sand is good for Clay Grounds, for be<g ref="char:EOLhyphen"/>ſides the Saltneſs by its Sharpneſs, it cuts the Clay, and ſaves much Labour; there is no loſs to lead it a Mile.</p>
+            <p>In ſhort, there is not an eaſier and more pro<g ref="char:EOLhyphen"/>fitable way, then to mix Mettal with Mettal, that is to ſay, dig Pits in the Ground, and co<g ref="char:EOLhyphen"/>ver over your Lands two or three Inches thick, the light Sandy Ground with clay Grounds, and the Clay-Grounds with Sand grounds, try this but once, and ye will be perſwaded of the truth of it.</p>
+            <p>
+               <hi>Nota,</hi> It holds alſo upon Graſs the ſame way uſed, only it muſt be harrowed verie ſmall.</p>
+            <p>If your Grounds ly within three Miles of a Burgh or Village, it is worth your pains to lead Dung all the Summer time, and lay it upon your Wheat Fauch, eſpecially having a Cart way thereto. Sea Ware may be led two Miles with profite, and is moſt excellent for your Bear Fauch.</p>
+            <p>If a Tennent have a large Farme, he ought to abſtain from all manner of Work himſelf, except in caſes of neceſſity; It is an ordi<g ref="char:EOLhyphen"/>nary
+<pb n="36" facs="tcp:51582:26"/>
+ſaying, a good Grieve is worth<g ref="char:punc">▪</g> two Workers, he needs not be idle though he work not with his hands, let him work with his Nod<g ref="char:EOLhyphen"/>dle, Project and Contrive, Grieve and Over<g ref="char:EOLhyphen"/>ſee the Execution of his Project; let him ſow his own Corns, much depends upon a good and equal Sower: look to his Shearers that they shear clean, and reap that which GOD hath given them, the contrary of which I have ob<g ref="char:EOLhyphen"/>ſerved, to be among the greateſt faults of many in <hi>Eaſt-Lothian,</hi> where generally ſpeaking, I am ſure they leave more behind them, than grows upon ſeveral Out-field Grounds in many places of <hi>Scotland,</hi> and at leaſt the Seed of what they ſow themſelves.</p>
+            <p>This bad cuſtome hath not onlie its riſe but is ſupported by a certain Laſie Idle Imployment, called gathering, which a Greedy ſort of people have perverted from its proper uſefulneſs, for whereas none ſhould have the Liberty of gather<g ref="char:EOLhyphen"/>ing, ſave the Poor &amp; Indigent People, who are not able to do any manner of Work, or the Children of thoſe poor People, when they can<g ref="char:EOLhyphen"/>not come abroad themſelves, and their Chil<g ref="char:EOLhyphen"/>dren fit for no Labour, or Service; Now it is become a Trade, and a verie cheating one too, for ſtrong healthie people, and many of them no ways Indigent, hire Shearers in their place, that they may follow that unlawful Imploy<g ref="char:EOLhyphen"/>ment, and ſo eat the Bread out of the Poors Mouth: It is obſervable alſo, that they go al<g ref="char:EOLhyphen"/>wiſe, where they have moſt Friends amongſt the Shearers, and as amongſt Soldiers every
+<pb n="37" facs="tcp:51582:26"/>
+one follows his Leader, &amp; then they are ſure not to want; And now ſince the Farmers think it not worth their while to take notice of it, (though I think thir bad Crops by gone ſhould teach them ſome Wiſdom) I think the Juſtice of Peace ſhould nottice it.</p>
+            <p>The Farmer himſelf ſhould alſo caſt all his Stacks to the proof and ſee it well dighted; and for that end he ſhould learn to Write, and know the common Rules of Arithmetick, that he may keep an exact Book of all his Sowings and Increaſe, he ſhould alſo be every Night at the Redding of his Barns, and Lock in the Doors thereof himſelf.</p>
+            <p>In fine, he ſhould frequent Mercats and Fairs, and know how all things are Sold and Bought; that ſo he may put off his old Oxen, and Horſes, and other things: As alſo to Buy ſuch things as are nceeſſary for him, at the beſt Advantage: By this Method, I am ſure he ſhal never be idle.</p>
+            <p>I am againſt great Farms, it is almoſt impoſ<g ref="char:EOLhyphen"/>ſible to improve a great Room to that advan<g ref="char:EOLhyphen"/>tage as a leſſer; I think two Plows ſufficient for the greateſt, the Rent being about ſix Chalders of Victual, when the Ground is very good, and four in that which is not ſo good, but I am moſt fully convinced, they ſhould take long Leaſes or Tacks, that they may not be ſtraitned with time, in the Improvement of their Rooms, and this is profitable both for Maſter and Ten<g ref="char:EOLhyphen"/>nent.</p>
+            <p>
+               <pb n="38" facs="tcp:51582:27"/>Now having given you my Opinion in as few words as is poſſible, how to order all things to the beſt Advantage, I think it verie neceſſa<g ref="char:EOLhyphen"/>rie before I conclude, to teach you how to take Land, that is to ſay, how to make a good bar<g ref="char:EOLhyphen"/>gain with your Land-Lord, for the Lands you are to pay Rent for, and if ye ſucceed in this, it will prove a great Incouragement for you to beſtow all the Pains and Charges I have re<g ref="char:EOLhyphen"/>quired of you.</p>
+            <p>The Lands of <hi>Eaſt-Lothian,</hi> generallie ſpeak<g ref="char:EOLhyphen"/>ing, pay all their Rent in Victual, which at the firſt view appears to be a verie eaſie way for the Tennents, he threſhes out ſo much of the Product of his Ground, and delivers it to his Maſter for his Rent, gets his diſcharge<g ref="char:punc">▪</g> and is neither troubled with Mercats nor ill Debi<g ref="char:EOLhyphen"/>tors, it doth alſo reſemble alſo the Primitive ſimplicitie, when the uſe of Monie was not ſo much as known, and things went by Ex<g ref="char:EOLhyphen"/>cambion, or changing things of which we had more than ſufficient, for thoſe things we wan<g ref="char:EOLhyphen"/>ted, and ſtood in need of, as Corn for Cattle, Milk for Oyl, Wool for Flax, <hi>&amp;c.</hi> But ſince the ſtate of things are verie much altered now, from what they were of Old, I have obſerved this Victual-Duty to prove oft-times very pre<g ref="char:EOLhyphen"/>judicial to the honeſt Farmer.</p>
+            <p>Therefore I do adviſe all Tennents to en<g ref="char:EOLhyphen"/>deavour to take their Farms ſo, as they may have half Victual and half Money for their Rent, and that for theſe Reaſons.</p>
+            <p>
+               <pb n="39" facs="tcp:51582:27"/>Firſt I have obſerved ordinarlie, the thing that breaks the Tennent is bad years, that is to ſay, bad Crops, when the Ground brings not furth according to its uſual Fertilitie.</p>
+            <p>When the Crop proves bad the price of Vi<g ref="char:EOLhyphen"/>ctual ariſeth often to the Double, and Peaſe to the triple of what they are ſold at in the years of Plentie.</p>
+            <p>In theſe Years, the poor Tennent not hav<g ref="char:EOLhyphen"/>ing wherewith to pay his whole Rent, what<g ref="char:EOLhyphen"/>ever he falls ſhort in a Year of Scarcitie, he is not able to make it up in two or three Years of Plentie, becauſe then the Corns ſell at a verie low rate, and ſo being once intangled with Debt, he is diſcouraged to proſecute his Labour with Diligence, Expenſe and Hearti<g ref="char:EOLhyphen"/>neſs, and ſo dwingels away to nothing.</p>
+            <p>Now ſuppoſe a Tennent, who pays ſix Chal<g ref="char:EOLhyphen"/>ders of Victual of Yearlie Rent, ſhould in place thereof, pay onlie three Chalders, and 300 Pounds <hi>Scots</hi> in Monie, which is the ordinar Account made of Victual in <hi>East-Loathian,</hi> for the Lands ſell generallie at 2500 Merks the Chalders, the intereſt of which is 100 pound <hi>Scots</hi> Yearlie, and thus the Chalder of Victual is worth a hundred pounds <hi>Scots commuuibus Annis.</hi>
+            </p>
+            <p>Suppoſe then he pays 300 pounds, and three Chalders of Victual, and a Dear Year comes in the worſt of Years; generallie Tennents are able to pay four Chalders for ſix, at leaſt the half; So that by this Method, in a bad Cropt, he is alwiſe able to pay his Victual Rent, &amp; if a good Cropt or two follow, he will be alwiſe able one
+<pb n="40" facs="tcp:51582:28"/>
+way or other by ſale of Beaſts or otherwiſe, to recover his Money Rent.</p>
+            <p>But ſuppoſe he hath one Chalder to ſell, that Chalder in a dear year will render him double Money, and ſometimes more; So that he will be but 100 pound in his Maſters Debt by this Method, which a plentifull Year will eaſily diſcharge; Whereas by the other Method he would have been in about four.</p>
+            <p>As to an Objection that may be made, that in cheap years, it will be difficult for the Ten<g ref="char:EOLhyphen"/>nent to raiſe 300. <hi>lib.</hi> out of his three Chalders of Victual, conſidering the low prices Mercat Charges, breaking of Merchants and ſuch like, conſidering all things, I think there is no great weight in it.</p>
+            <p>For firſt, It is to be conſidered, that the Years of plenty may well bowe a Tennent, but can never break him,</p>
+            <p>Secondly, Your Land is either very ill taken, or elſe in plentiful Years ye will have a grea<g ref="char:EOLhyphen"/>ter Quantity of Corns to ſpare then the ex<g ref="char:EOLhyphen"/>act three Chalders for which ye pay the Money.</p>
+            <p>And thirdly, The difference conſiſts mainlie in the price of Oats, and Peaſe, for Wheat and Barly are ſeldom or never at leſs value then 100 <hi>lib.</hi> the Chalder, and Oats (for few Tennents pay any quantity of Peaſe) made in Meal, will in the cheapeſt Years ariſe to near 80 <hi>lib.</hi> the Chalder; So that there will be but twentie pound of loſs upon the Chalder in the very cheapeſt Years, which is no great thing, conſidering that experience teacheth us, that the ruine of Tennents proceeds moſtlie from bad
+<pb n="41" facs="tcp:51582:28"/>
+Crops, which by the Method propoſed might be prevented.</p>
+            <p>And by the by, I muſt add this, that in plen<g ref="char:EOLhyphen"/>tifull Years, the making the Oats in Meal, is a very good part of Husbandrie, for there is evi<g ref="char:EOLhyphen"/>dent advantage by the ſelling of it out in the beginning of Harveſt, when all the unprovi<g ref="char:EOLhyphen"/>dent and unfrugal muſt buy; As alſo for two years proviſion for your Familie, that in caſe of a ſucceeding bad Crop, you may ſell and ſpare your Corns with advantage. For your Peaſe keep them by you in a cheap Year, for once in three Years ordinarly they will double the Stock.</p>
+            <p>And laſtly, the provident Husband man wlll endeavour to reir up a Cow or Colt, and many otherways he may imploie his Corn when it is cheap, as by feeding of Swine, Poultry <hi>&amp;c.</hi> All which will ſoon make up that ſmall difference I have brought it too, and much more. There may ſome object, that the Maſter will not con<g ref="char:EOLhyphen"/>ſent to make ſuch an alteration, becauſe he finds the value of Money is continually ariſing and it is but juſt &amp; reaſonable, that the price of Corns and Cartel ſhould riſe proportionallie, for if the Government ſhould make the 40 <hi>ſhil.</hi> pieces to paſs for three pound <hi>Scots,</hi> which is a third more value then what it is. Is it not als reaſonable, that I ſhould raiſe the price of the Victual a third alſo, ſince the Money is no bet<g ref="char:EOLhyphen"/>ter and the Victual no worſe then formerly, what ever value be put upon it. They ſay alſo that the Converſion of the <hi>ipſa corpora</hi> to Money, is
+<pb n="42" facs="tcp:51582:29"/>
+a kind of Dilapidation; And the uncertain value of our Corn, is evident by the Con<g ref="char:EOLhyphen"/>verſion of Bolls of Victual payable to Aba<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cies or the like unto half a Merk for each Boll, which is payed this day according to the value of the preſent caſe, whereas thoſe who are in the ſame Circumſtance with them, and who had not made the Converſion pay the full Boll this very day, It is alſo evident by the half-crown piece coined in <hi>Regent Mortons</hi> time, which now paſſes for a Crown.</p>
+            <p>In anſwer thereto, firſt, There is no good Maſter who will ſcruple ſuch a thing, which evidently tends ſo much to the advantage of his Tennent and nothing of loſs to himſelf, for when he gets 100 <hi>lib.</hi> for the Chalder of his Victual, he gets as much as the Intereſts of his money comes to, &amp; his Money well ſecured beſides, which is e<g ref="char:EOLhyphen"/>nough in all conſcience, if he be not an Uſurer.</p>
+            <p>Secondly, it tends to the general advantage of the Nation, for in a good Yeamandrie, both the Riches and Strength of a Nation conſiſteth, as Witnes our Neighbours in <hi>England.</hi>
+            </p>
+            <p n="3">3 As to the objection about the Coin, the altering and overvaluing of the Coin of a Na<g ref="char:EOLhyphen"/>tion, is certainly noways advantagious, but pre<g ref="char:EOLhyphen"/>judicial to a National Intereſt, and ought not to be done, this is ſo evidently demonſtrated by ſeveral hands already that I ſhal ſay nothing of it: Only if the Lands were ſet for Money, as is propoſed, I hope theſe who are in the Government, who are generally all Land-Lords would ſee that they and the Nation receive no prejudice that way.</p>
+            <p>
+               <pb n="43" facs="tcp:51582:29"/>Fourthly, Though this ſhould happen, ye need not doubt, as all other things riſes in price, the Rents of Lands wlll riſe alſo.</p>
+            <p>And Laſtlie beſides all, it will in time give Incouragement for fewing, both to Maſter and Tennent, of which I ſhal ſpeak next.</p>
+            <p>I obſerve the ordinary Methods with the Tennents in <hi>Eaſt-Lothian,</hi> is, when it pleaſes GOD to bleſs their Labours, ſo that their Stocks increaſe, then they take another Room, and after that a third, and ſo furth, and after all, comes a bad Year, and Diſhes up all.</p>
+            <p>I would therefore adviſe a Tennent, when GOD bleſſes his endeavours, and he finds that he has ſome foregear, as they call it, that he would go to his Maſter, and tell him, he is con<g ref="char:EOLhyphen"/>tent to give him ſome Monie, providing he will give him ſome eaſe of his Yearlie Rent. The Method I propoſe, is this.</p>
+            <p>If a Tennent pay ſix Chalders of Victual, or three Chalders of Victual, and 300 <hi>lib. Scots</hi> Yearlie, which I think the beſt way, or the half, third, fourth or fifth part of ſuch a Rent; for as I ſaid before, the ſix Chalers of Victual is the greateſt Rent that ought to be in anie one Farm. This Tennent comes to his Maſter, and ſays, I will give you 2500 Merks, if ye will give me down a Chalder of Victual, or 100 pound <hi>Scots</hi> of my Yearlie Rent, and give me an Heretable Right to it, for my ſelf, Heirs and Succeſſors, for the remander part of the Rent, this can be made applicable for any Room of whatſoever Rent, or any Sum whatſoever offe<g ref="char:EOLhyphen"/>red proportionally.</p>
+            <p>
+               <pb n="44" facs="tcp:51582:30"/>This I do adviſe the Maſter to accept becauſe if he be a frugal man, he knows how to make als good uſe of his Money, and it evidently in<g ref="char:EOLhyphen"/>ſures the reſt of his Rent; and if he be a Spend<g ref="char:EOLhyphen"/>thrift, it is als good to take of his own as to bor<g ref="char:EOLhyphen"/>row from his Neighbours, and poſſibly turn Bankrupt altogether.</p>
+            <p>If the ſame Tennent purchaſe more, I do ad<g ref="char:EOLhyphen"/>viſe both Maſter and Tennent to do the ſame till the half Rent, or at moſt two parts of the Rent be thereby exhauſted, and thereafter the Tennent &amp; his Succeſſors are to pay the Super<g ref="char:EOLhyphen"/>plus to the Maſter for ever, &amp; are to be oblidged to keep good Horſe &amp; Arms to attend him, and maintain their Houſes in good and ſufficient condition, and this I call feuing of Land.</p>
+            <p>I know this is not the ordinar and ſtrickeſt way of Feuing, according to the Feudal Law, or conform to the practice in ſome places, eſpe<g ref="char:EOLhyphen"/>cially in the Weſt of <hi>Scotland,</hi> where, upon the death of the Maſter or Tennent the Feu-duty is doubled, and for that of a ſingular Succeſſ<g ref="char:EOLhyphen"/>or, the whole intrinſick value of the Lands ſo holden for a year, is payable to the Landlord, where alſo ſeveral Clauſes anent Alienations without conſent of Superiors, and other unrea<g ref="char:EOLhyphen"/>ſonable irritant Clauſes place againſt the poor Vaſſals, whereby when an unjuſt and hard Ma<g ref="char:EOLhyphen"/>ſter ſucceeds, or very frequently a Lawyer, there are many evident Advantages to be taken by reaſon of the Ignorance of the poor Vaſſals.</p>
+            <p>
+               <pb n="45" facs="tcp:51582:30"/>But as I diſlike ſuch Courſes, ſo what is ſaid is all which I underſtand and mean by Feuing: And it ſeems moſt reaſonable, that as I will not adviſe Maſters to diminiſh their Rents above the one half, by this new way of Feuing, So that I ſhould not ſubject the poor laborious Husband-man to any irritant Clauſes, neither to vaſt Entries, which in time probably may deſtroy both him and his Succeſſion.</p>
+            <p>Thus in as few and plain words as I could, I have finiſhed my Advice, that what is ſaid may be eaſily underſtood by the meaneſt Ca<g ref="char:EOLhyphen"/>pacity. I have uſed your own dialect and form of ſpeaking, I wiſh from my heart you would follow and practiſe what is folly Writ and in<g ref="char:EOLhyphen"/>tended for your Inſtruction, which will incou<g ref="char:EOLhyphen"/>rage me to a ſecond Treatiſe, for Husbandrie is an inexhauſtable Treaſure; there are many Excellent things to be ſaid upon it, both new and old, but <hi>Paul</hi> may Plant and <hi>Apollos</hi> water, yet it is GOD who giveth the increaſe, which that he may do, be diligent in prayer for the bleſſing of the everliving GOD upon your en<g ref="char:EOLhyphen"/>deavours, that you may be bleſſed in your Bas<g ref="char:EOLhyphen"/>ket, bleſſed in your ſtore, bleſſed in your Heards, that your Paſtures may abound with Flocks, and your Valleys with Corns &amp; that he may ſet a Hedge about you &amp; all that you have, &amp; may be your God and the God of your Seed, &amp; to let you ſee by this excellent Mixture of Spiri<g ref="char:EOLhyphen"/>tual with Bodily Exerciſes, that you are as happy as a World can make you, and thereby preſerved
+<pb n="46" facs="tcp:51582:31"/>
+from Envy, and conſequently render you ab<g ref="char:EOLhyphen"/>ſolutely contented with your own manner of Life. I ſhall conclude with a Poem, in com<g ref="char:EOLhyphen"/>mendation of a Country Life, and the Pleaſures attending the ſame, as followes.</p>
+            <div type="poem">
+               <head>A POEM in Praiſe of a Countrey Life, and the Pleaſures thereof, in Imitation of <hi>Virgil</hi> in the Epilogue of his ſecond Book of <hi>Georgicks.</hi>
+               </head>
+               <epigraph>
+                  <q>
+                     <l>AGricula in curvo terram dimovit aratro.</l>
+                     <l>Quos ramifructus quos ipſa volentia, rura</l>
+                     <l>Sponse tulere ſua carpſit.</l>
+                  </q>
+               </epigraph>
+               <l>I Sing the Pleaſures of a rural Life,</l>
+               <l>Void of all carping care, &amp; wrangling ſtrife,</l>
+               <l>Bleſt with bright Phaebus Beams, Birds bear their part.</l>
+               <l>With charming Notes, without acquired Airt</l>
+               <l>They warble furth their Makers Praiſe ſo High</l>
+               <l>As frightens Night and rouſeth ſlumbering Day.</l>
+               <l>None beats their Time, and yet they all agree</l>
+               <l>Without a Book in perfect Harmonie.</l>
+               <l>Baſs, Counter, Tenor, Trible there you'l hear,</l>
+               <l>There's no diſcord to choack a tender Ear.</l>
+               <l>All play their parts with a melodious Sound,</l>
+               <l>From topping Rocks while Echoes anſwer round</l>
+               <l>The drouſie Trees awakened with their call</l>
+               <l>Burſt furth in leaves where inſtantly they fall</l>
+               <l>With all the cunning that can be expreſt.</l>
+               <l>In various forms to build their circ'led Neſt,</l>
+               <l>Where they may Neſtle and bring forth a quire</l>
+               <l>Of well ſet voices for the coming Year.</l>
+               <l>
+                  <pb n="47" facs="tcp:51582:31"/>The chearful Lambs attending on their Dames,</l>
+               <l>In ſprightful skips perform their harmleſs games</l>
+               <l>Whiles in a croud they run and one doth gain</l>
+               <l>Who's ſtraight applauded by 'his following train</l>
+               <l>Another runs alone while all <hi>look</hi> on,</l>
+               <l>And chears his Mettal with a pleaſant Tone.</l>
+               <l>Yet all obey when call'd and each doth know,</l>
+               <l>By his Dames voice to which place he ſhould go,</l>
+               <l>They running call and calling run with haſt</l>
+               <l>To quench their drought by ſucking of the breaſt</l>
+               <l>The other Beaſts in herds both wild and tame</l>
+               <l>With gentile pace feed through the flourie plain</l>
+               <l>Forget their Winters toil and ſtormie Showers</l>
+               <l>And ſeem delighted with the vernant Flowers</l>
+               <l>Under the ſhades of Arched Groves they reſt.</l>
+               <l>Then up again and feed where they think beſt</l>
+               <l>Not dyeted by Plowmans ſtraitned hand,</l>
+               <l>Both eaſe &amp; Food they have at their command</l>
+               <l>So free from care they drink the pearled ſtreams</l>
+               <l>Breath a pure Air and ſhuns Appollos Beams.</l>
+               <l>Mountains they mount and vernant meads with haiſt</l>
+               <l>Are all cut down to pleaſe their wanton taſte.</l>
+               <l>
+                  <hi>Ceres</hi> makes haſte to hoord up plenteous Store</l>
+               <l>For man and beaſt when Spring can do no more,</l>
+               <l>Fiſh, Fowl and Beaſts brings forth all what they can,</l>
+               <l>And mother Earth produces all for man.</l>
+               <l>The tender Grain by hopeful Peaſants Sown,</l>
+               <l>No ſooner Roots then up again its Grown.</l>
+               <l>The Blade the Stalk, and then the tender Ear,</l>
+               <l>In its green Cover ſoftly doth appear.</l>
+               <l>Fearing the bluſtering wind it pipes about,</l>
+               <l>
+                  <pb n="48" facs="tcp:51582:32"/>Finding all fair it Gentlie ventures out.</l>
+               <l>Then franklie nourish'd by Earths fatning Clot,</l>
+               <l>It forms its Kirnal in its chaffie Coat.</l>
+               <l>Which warmed by <hi>Appolo</hi>'s warming Rays,</l>
+               <l>Blade, Stalk and Husk apparantly decays.</l>
+               <l>The Ear does bow his head, the Stalk doth bend,</l>
+               <l>And doth the Sickle with conſent attend.</l>
+               <l>Thus Flowers do blow, and fruit Trees throu the Field.</l>
+               <l>As Bees their Honie, Cows their Milk do yield.</l>
+               <l>The painful Swain collects what Nature gives,</l>
+               <l>Clothed with content, moſt happilie he lives.</l>
+               <l>Can Court or Camp, can Bench or Bar afford,</l>
+               <l>Such innate pleaſures to its fretful Lord.</l>
+               <l>
+                  <hi>Galen</hi> may kill, not cure, and Merchants cheat,</l>
+               <l>Sea-men may drink and ſwear, and rivals hate,</l>
+               <l>Strumpets may pox the Sparks, and they in pain</l>
+               <l>Prompt with revenge, may pay them back again</l>
+               <l>The Prieſt may baul at <hi>all,</hi> yet long to trie</l>
+               <l>Theſe amorous moods, themſelves to mortifie.</l>
+               <l>But happie he who <hi>Aglaus</hi> like doth dwell,</l>
+               <l>Within the confines of his Countrey Cell.</l>
+               <l>And whoſe content doth free him of the ſenſe,</l>
+               <l>Of deadly vice and its Experience.</l>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:51582:32"/>
+         </div>
+      </body>
+   </text>
+</TEI>

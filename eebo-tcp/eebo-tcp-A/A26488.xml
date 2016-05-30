@@ -1,0 +1,830 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Æsops fables, with the fables of Phaedrus moralized, translated verbatim, according to the Latine, for the use of grammar schooles, and for children ... / published by H.P.</title>
+            <title>Aesop's fables. English.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1646</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 66 KB of XML-encoded text transcribed from 39 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A26488</idno>
+            <idno type="STC">Wing A686</idno>
+            <idno type="STC">ESTC R17850</idno>
+            <idno type="EEBO-CITATION">13041574</idno>
+            <idno type="OCLC">ocm 13041574</idno>
+            <idno type="VID">96870</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A26488)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 96870)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 404:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Æsops fables, with the fables of Phaedrus moralized, translated verbatim, according to the Latine, for the use of grammar schooles, and for children ... / published by H.P.</title>
+                  <title>Aesop's fables. English.</title>
+                  <author>Aesop.</author>
+                  <author>Phaedrus. Fabulae.</author>
+                  <author>H. P.</author>
+               </titleStmt>
+               <extent>[9], 68 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by I.L. for Andrew Hebb ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1646.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Fables.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2008-01</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2008-01</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:96870:1"/>
+            <p>
+               <pb facs="tcp:96870:1" rendition="simple:additions"/>
+AESOPS FABLES, WITH THE FABLES OF <hi>PHAEDRVS</hi> Moralized, TRANSLATED VERBA<g ref="char:EOLhyphen"/>TIM, ACCORDING to the Latine, FOR THE VSE OF GRAMMAR SCHOOLES, AND FOR CHILDREN, That with the more delight, they may learne to reade the Engliſh Tongue.</p>
+            <p>Publiſhed by <hi>H. P.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>I. L.</hi> for <hi>Andrew Hebb,</hi> at the ſign of the <hi>Bell</hi> in <hi>Pauls</hi> Church-yard.</p>
+            <p>1646.</p>
+         </div>
+         <div type="publisher_to_the_reader">
+            <pb facs="tcp:96870:2"/>
+            <head>
+               <pb facs="tcp:96870:2"/>
+THE PUBLISHER TO the READER.</head>
+            <p>
+               <seg rend="decorInit">T</seg>O make an Apologie for the Tran<g ref="char:EOLhyphen"/>ſlation of Schoole-books into Engliſh, were vaine: the great fruit that hath redounded thereby to the Teacher and the Learner, hath ſufficiently ap<g ref="char:EOLhyphen"/>proved it: my part at this time is, to teſtifie my ap<g ref="char:EOLhyphen"/>probation of this Worke after peruſall, to ſatisfie the Printers motion: accordingly, I have compared it with the Originall Latine, and find it an exact Gram<g ref="char:EOLhyphen"/>maticall Tranſlation thereof: and therfore commend it to the uſe, as well of young Grammer Schollers, as to the new learners of the Engliſh Tongue, who by reaſon of the pleaſant Fables therein, will be much allured and delighted to learne to read Engliſh. <hi>Vale.</hi>
+            </p>
+         </div>
+         <div type="printer_to_the_reader">
+            <head>The Printer to the Reader.</head>
+            <p>THat this young <hi>AEſop</hi> might not prejudice the old one, it is thought good to give the Reader notice, that there is extant another larger edition of <hi>AEſops</hi> Fables (not Grammatically construed as this is) Primed of an Engliſh Letter, to be ſold where this Edition is, con<g ref="char:EOLhyphen"/>taining the Life of <hi>AEſop</hi> at large, together with the Fables of <hi>Avian,</hi> of <hi>Alfonce,</hi> and of <hi>Poge</hi> the <hi>Flo<g ref="char:EOLhyphen"/>rentine.</hi>
+            </p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:96870:3"/>
+            <div type="Aesops_fables">
+               <head>THE TABLE OF <hi>AESOPS FABLES.</hi>
+               </head>
+               <list>
+                  <item>
+                     <hi>Fable. 1.</hi> OF the Cocke.</item>
+                  <item>
+                     <hi>2.</hi> Of the Wolfe and the Lambe.</item>
+                  <item>
+                     <hi>3.</hi> Of the Mice and the Frogs.</item>
+                  <item>
+                     <hi>4.</hi> Of the Dogge and the Shadow.</item>
+                  <item>
+                     <hi>5.</hi> Of the Lion and certain other Beaſts.</item>
+                  <item>
+                     <hi>6.</hi> Of the Wolfe and the Crane.</item>
+                  <item>
+                     <hi>7.</hi> Of a Countrey-man and a Serpent.</item>
+                  <item>
+                     <hi>8.</hi> Of the Boare and the Aſse.</item>
+                  <item>
+                     <hi>9.</hi> Of the Citie-Mouſe, and the Coun<g ref="char:EOLhyphen"/>trey-Mouſe</item>
+                  <item>
+                     <hi>10.</hi> Of the Eagle and the Crow.</item>
+                  <item>
+                     <hi>11.</hi> Of the Crow and the Fixon.</item>
+                  <item>
+                     <pb facs="tcp:96870:3"/>
+                     <hi>Fable. 12.</hi> Of the Lion ſpent with Age.</item>
+                  <item>
+                     <hi>13.</hi> Of the Dogge and the Aſſe.</item>
+                  <item>
+                     <hi>14.</hi> Of the Lion and the Mouſe.</item>
+                  <item>
+                     <hi>15.</hi> Of the Kite being Sicke.</item>
+                  <item>
+                     <hi>16.</hi> Of the Swallow and other Birds.</item>
+                  <item>
+                     <hi>17.</hi> Of the Frogs and their King.</item>
+                  <item>
+                     <hi>18.</hi> Of the Doves and the Kite.</item>
+                  <item>
+                     <hi>19.</hi> Of the Thiefe and the Dogge.</item>
+                  <item>
+                     <hi>20.</hi> Of the Wolfe and the Sow.</item>
+                  <item>
+                     <hi>21.</hi> Of the Birth of the Mountaines.</item>
+                  <item>
+                     <hi>22.</hi> Of the Hound.</item>
+                  <item>
+                     <hi>23.</hi> Of the Hares and the Frogs.</item>
+                  <item>
+                     <hi>24.</hi> Of the Kid and the Wolfe.</item>
+                  <item>
+                     <hi>25.</hi> Of the Hart and the Sheep.</item>
+                  <item>
+                     <hi>26.</hi> Of the Country-man and the Snake.</item>
+                  <item>
+                     <hi>27.</hi> Of the Fox and the Storke.</item>
+                  <item>
+                     <hi>28.</hi> Of the Wolfe and the Carved-head.</item>
+                  <item>
+                     <hi>29.</hi> Of the Iay.</item>
+                  <item>
+                     <hi>30.</hi> Of the Fly and the Emmet.</item>
+                  <item>
+                     <hi>31.</hi> Of the Frogge and the Oxe.</item>
+                  <item>
+                     <hi>32.</hi> Of the Horſe and the Lion.</item>
+                  <item>
+                     <hi>33.</hi> Of the Horſe and the Aſſe.</item>
+                  <item>
+                     <hi>34.</hi> Of the Birds, and Foure-footed Beaſts.</item>
+                  <item>
+                     <pb facs="tcp:96870:4"/>
+                     <hi>Fable. 35.</hi> Of the Wolfe and the Fox.</item>
+                  <item>
+                     <hi>36.</hi> Of the Hart.</item>
+                  <item>
+                     <hi>37.</hi> Of the Viper and a File.</item>
+                  <item>
+                     <hi>38.</hi> Of the Wolves and the Lambs.</item>
+                  <item>
+                     <hi>39.</hi> Of the Wood and the Countrey-man.</item>
+                  <item>
+                     <hi>40.</hi> Of the Belly and the reſt of the Members.</item>
+                  <item>
+                     <hi>41.</hi> Of the Ape and the Fox.</item>
+                  <item>
+                     <hi>42.</hi> Of the Hart and the Oxen.</item>
+                  <item>
+                     <hi>43.</hi> Of the Lion and the Fox.</item>
+                  <item>
+                     <hi>44.</hi> Of the Fox and the Weeſill.</item>
+                  <item>
+                     <hi>45.</hi> Of the Horſe and the Hart.</item>
+               </list>
+            </div>
+            <div type="Phaedrus_fables">
+               <pb facs="tcp:96870:4"/>
+               <head>The Table of <hi>Phaedrus</hi> Fables.</head>
+               <list>
+                  <item>
+                     <hi>Fable. 1.</hi> OF the Wolfe and the Lambe.</item>
+                  <item>
+                     <hi>2.</hi> The Frogs deſired a King.</item>
+                  <item>
+                     <hi>3.</hi> The proud Iay and the Peacocke.</item>
+                  <item>
+                     <hi>4.</hi> A Dogge carrying fleſh over a River.</item>
+                  <item>
+                     <hi>5.</hi> A Cow and a Goat, a Sheep and a Lion.</item>
+                  <item>
+                     <hi>6.</hi> The Frogs to the Sunne.</item>
+                  <item>
+                     <hi>7.</hi> The Fox to a Mans Image.</item>
+                  <item>
+                     <hi>8.</hi> The Wolfe and the Crane.</item>
+                  <item>
+                     <hi>9.</hi> The Sparrow Counſeller to the Hare.</item>
+                  <item>
+                     <hi>10.</hi> The Wolfe and the Fox with my Lord Iudge, the Ape.</item>
+                  <item>
+                     <hi>11.</hi> The Aſſe and the Lion a Hunting.</item>
+                  <item>
+                     <hi>12.</hi> The Hart at the Fountaine.</item>
+                  <item>
+                     <hi>13.</hi> The Fox and the Raven.</item>
+                  <item>
+                     <hi>14.</hi> Of a Cobler, a Phyſitian.</item>
+                  <item>
+                     <hi>15.</hi> The Aſſe to an old Shepherd.</item>
+                  <item>
+                     <pb facs="tcp:96870:5"/>
+                     <hi>Fable. 16.</hi> The Sheep, the Hart, and the Wolfe.</item>
+                  <item>
+                     <hi>17.</hi> The Sheep, a Dog, and a Wolfe.</item>
+                  <item>
+                     <hi>18.</hi> A Woman in Labour.</item>
+                  <item>
+                     <hi>19.</hi> A Bitch a Whelping.</item>
+                  <item>
+                     <hi>20.</hi> Hungry Dogges.</item>
+                  <item>
+                     <hi>21.</hi> An old Lion, the Bull, and an Aſſe.</item>
+                  <item>
+                     <hi>22.</hi> A Cat and a Man.</item>
+                  <item>
+                     <hi>23.</hi> A faithfull Dogge.</item>
+                  <item>
+                     <hi>24.</hi> The burſten Frog and an Oxe.</item>
+                  <item>
+                     <hi>25.</hi> The Dogge and the Crocodile.</item>
+                  <item>
+                     <hi>26.</hi> The Fox and the Storke.</item>
+                  <item>
+                     <hi>27.</hi> A Dogge and a Treaſure, and the ravenous Vulter.</item>
+                  <item>
+                     <hi>28.</hi> A Fox and an Eagle.</item>
+                  <item>
+                     <hi>29.</hi> The Aſſe ſcorning the Boare.</item>
+                  <item>
+                     <hi>30.</hi> The Frogs fearing the warres of the Bull-battell.</item>
+                  <item>
+                     <hi>31.</hi> The Kite and the Pigeon.</item>
+               </list>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="Aesops_fables">
+            <pb n="1" facs="tcp:96870:5"/>
+            <head>AESOPS FABLES.</head>
+            <div n="1" type="fable">
+               <head>Of the Cocke. <hi>Fable 1.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">W</seg>Hilſt the dunghill Cocke ſcratched in the dunghill, he found a precious ſtone; ſaying, Wherefore doe I find a thing ſo bright? if the Jeweller had found it, none ſhould have been more glad then he, becauſe he would know the worth of it: it is to me uſeleſſe, neither doe I eſteeme it much: yea, truly I had rather have one graine of barley, then all the precious ſtones in the world.</p>
+            </div>
+            <div n="2" type="fable">
+               <head>Of the Wolfe and the Lambe. <hi>Fab. 2.</hi>
+               </head>
+               <p>THe Wolfe, drinking at the head of a fountaine, ſeeth the Lambe drink<g ref="char:EOLhyphen"/>ing
+<pb n="2" facs="tcp:96870:6"/>
+farre beneath him: he ran to him and rebuketh the Lambe, becauſe that he made muddy the water: the Lambe beginneth to tremble, and to intreat him, that he would ſpare him who was innocent, &amp; that he, (ſith that he drank farre beneath him) could not trouble the drinke of the Wolfe, neither truly would he: the Wolfe on the other ſide rayleth upon him; Thou curſed thiefe it is to no purpoſe what thou ſaiſt, thou doeſt wrong me alwayes: thy father, thy mother and all thy hatefull ſtocke, are enemies to me by all manner of wayes, thou ſhalt be puniſhed to me to day.</p>
+            </div>
+            <div n="3" type="fable">
+               <head>Of the Mice and Frogs. <hi>Fab. 3.</hi>
+               </head>
+               <p>THe Mouſe did wage warre with the Frogs; they did ſtrive con<g ref="char:EOLhyphen"/>cerning the Government of the Marſh; the battell was very hot, and doubt<g ref="char:EOLhyphen"/>full, the Mouſe being craftie hi<g ref="char:EOLhyphen"/>ding himſelfe under the graſſe, ſet<g ref="char:EOLhyphen"/>teth upon the Frogge treacherouſly<g ref="char:punc">▪</g> the Frog being ſtronger in breſt, and
+<pb n="3" facs="tcp:96870:6"/>
+better at leaping, provoketh his enemy in open fight: a bulruſh was a ſpeare to each one of them, which battell being ſeene afarre off, the Kite draweth neere, and whilſt neither of them taketh heed to themſelves for the deſire of the bat<g ref="char:EOLhyphen"/>tell, the Kite ſnatcheth and teareth both the fighters.</p>
+            </div>
+            <div n="4" type="fable">
+               <head>Of the Dogge and the Shadow. <hi>Fab. 4.</hi>
+               </head>
+               <p>THe Dogge ſwiming over a River, carried a piece of fleſh in his mouth; the Sunne ſhining even as it happened, the ſhadow of the fleſh did ſhine in the waters, the which ſhadow being ſeene, the Dogge ſnatching at it greedily, did loſe that which was in his chaps; therefore he being amazed with the loſſe of the thing, which he had in his mouth, as alſo of hope, at firſt he was aſtonied, afterwards taking a courage, he cryed out ſo: Wretch, meaſure was onely wanting to thy luſt or deſire, there was enough, yea more then e<g ref="char:EOLhyphen"/>nough, if thou hadſt not been a foole:
+<pb n="4" facs="tcp:96870:7"/>
+now through thy fooliſhneſſe thou haſt leſſe then nothing.</p>
+            </div>
+            <div n="5" type="fable">
+               <head>Of the Lion and certaine other Beaſts.</head>
+               <head type="sub">Fab. 5.</head>
+               <p>THe Lion had made a bargain with the Sheep and certain other beaſts, to make a common hunting: they went to hunt, an Hart is taken, they divide him: they begin to take every part to every one as was meet: The Lion roa<g ref="char:EOLhyphen"/>red, ſaying, One part is mine, becauſe I am moſt worthy, againe another part is mine, becauſe I am excellent in ſtrength; Moreover, becauſe in taking the Hart I have ſweat more then o<g ref="char:EOLhyphen"/>thers, I challenge the third part: to conclude, unleſſe ye grant to me the fourth part, there is an end of friend<g ref="char:EOLhyphen"/>ſhip: his fellows hearing this, depart emptie and holding their peace, not da<g ref="char:EOLhyphen"/>ring to mutter againſt the Lion.</p>
+            </div>
+            <div n="6" type="fable">
+               <pb n="5" facs="tcp:96870:7"/>
+               <head>Of the Wolfe and the Crane. <hi>Fab. 6.</hi>
+               </head>
+               <p>THe Wolfe having devoured a Sheepe, by chance the bones did ſtick faſt in his throat, he goeth about and he entreateth help, no body help<g ref="char:EOLhyphen"/>eth him, every one telling him that he had gotten a reward for his greedi<g ref="char:EOLhyphen"/>neſſe, at length he perſwadeth the Crane with many flattering words, and with many promiſes, that his long neck being put in his throat, he would pull out the bone, which did ſticke in his throat, but he mocketh the Crane ſeeking his reward: he ſaith, thou foole, get thee hence, haſt thou not enough that thou liveſt? thou oweſt me thy life, if it had pleaſed me, I might have bitten off thy neck.</p>
+            </div>
+            <div n="7" type="fable">
+               <head>Of a Countrey-man and a Serpent.</head>
+               <head type="sub">Fab. 7.</head>
+               <p>A Countrey-man tooke home a Ser<g ref="char:EOLhyphen"/>pent found in the ſnow, almoſt kil<g ref="char:EOLhyphen"/>led through cold, and laid her to the
+<pb n="6" facs="tcp:96870:8"/>
+fire: the Serpent receiving ſtrength and poyſon from the fire, and afterwards not being able to abide the heat, infect<g ref="char:EOLhyphen"/>ed the whole cottage with hiſſing; the Countrey-man runneth to him, taking up a ſtaffe, he chideth with him for the injury done, with words and ſtripes: Would he render theſe thanks? would he take the life from him, who had gi<g ref="char:EOLhyphen"/>ven him life?</p>
+            </div>
+            <div n="8" type="fable">
+               <head>Of the Boare and the Aſſe. <hi>Fab. 8.</hi>
+               </head>
+               <p>VVHileſt the ſluggiſh Aſſe mock<g ref="char:EOLhyphen"/>ed the Boare, he being angry, did gnaſh with his teeth; ô thou moſt ſlothfull Aſſe, truly thou haſt deſerved a beating, but albeit, thou haſt been worthy of puniſhment, yet I am un<g ref="char:EOLhyphen"/>worthy who ſhould take revenge of thee: mocke on without danger, thou maieſt doe it ſcotfree, for thou art eſca<g ref="char:EOLhyphen"/>ped through thy ſluggiſhneſſe.</p>
+            </div>
+            <div n="9" type="fable">
+               <pb n="7" facs="tcp:96870:8"/>
+               <head>Of the Citie Mouſe and the Countrey Mouſe. <hi>Fab. 9.</hi>
+               </head>
+               <p>IT pleaſed a Mouſe of the Citie, to walke to the Countrey, the Mouſe of the Countrey ſeeth her of the City, ſhe biddeth her to Supper, the Supper is ready, they goe to ſupper, the Country Mouſe bringeth forth whatſoever ſhe laid up for Winter, and ſhe emptieth all her whole ſtore-houſe, that ſhe might ſatisfie the daintineſſe of ſo great a gueſt. Notwithſtanding, the Citie Mouſe wrinkling her brow, diſpraiſeth the povertie of the countrey, after<g ref="char:EOLhyphen"/>wards ſhe commendeth the plentie of the citie: returning home, ſhe taketh the Countrey Mouſe with her unto the citie, that ſhe might make good in very deed, theſe things which ſhe had boaſt<g ref="char:EOLhyphen"/>ed in words: they goe to the banquet, which the Citie Mouſe had made ready daintily: amidſt the banquetting, the noiſe of the key is heard of them in the lock, they begin to feare, and to flie, in
+<pb n="8" facs="tcp:96870:9"/>
+flying, the Countrey Mouſe both unac<g ref="char:EOLhyphen"/>quainted, and alſo not knowing the place, ſcantly was able to defend her ſelfe: the ſervant going out, the Citie Mouſe returneth to the table, ſhe call<g ref="char:EOLhyphen"/>eth the Countrey Mouſe, the Countrey Mouſe at length creepeth out, ſcantly having laid aſide feare, ſhe asketh the Citie Mouſe who did invite her to drinke: whether or no, falleth out this danger often? She anſwered, that it was daily, and muſt be contemned: then the Countrey Mouſe ſaid, is it a daily thing? Verily theſe your dainties have more gall then honey, or pleaſure: truly, I had rather have my povertie with ſecuritie, then this your plentie with ſuch tronble.</p>
+            </div>
+            <div n="10" type="fable">
+               <head>Of the Eagle and the Crow. <hi>Fab. 10.</hi>
+               </head>
+               <p>THe Eagle having gotten a cockle, ſhe might not get out the fiſh, by force or skill, the Crow coming to her, ſhe giveth counſell, the Crow perſwa<g ref="char:EOLhyphen"/>deth him to flie aloft, and throw the
+<pb n="9" facs="tcp:96870:9"/>
+cockle down from above upon the ſtones, for ſo it will come to paſſe, that the ſhell will be broken, the Crow re<g ref="char:EOLhyphen"/>maineth on the ground, that ſhe might watch the fall of the Cockle, the Eagle throweth down the Cockle; the ſhell is broken: the fiſh was ſnatch<g ref="char:EOLhyphen"/>ed away by the Crow: the Eagle be<g ref="char:EOLhyphen"/>ing mocked is ſorrowfull.</p>
+            </div>
+            <div n="11" type="fable">
+               <head>Of the Crow and the Fixon. <hi>Fab. 11.</hi>
+               </head>
+               <p>THe Crow having gotten a prey, maketh a noiſe in the boughes of a tree, the Fixon doth ſee the Crow rejoycing, and runneth to her: and ſaith, The Fixon ſaluteth the Crow with very much commendation, I have heard often times, that fame was a lyar, but now I have experience of this in the matter it ſelfe: for as I goe now this way by chance, looking up to you in a tree, I come ſpeedily to you blaming the fame: for the ru<g ref="char:EOLhyphen"/>mour is, that you are more black then the pitch, and I ſee that you are more
+<pb n="10" facs="tcp:96870:10"/>
+white then the ſnow; indeed by my judgment thou overcomeſt the Swan, and thou art more white then the Ivie: but if thou excell ſo in thy voice, as in plumes, truly I will ſay, that thou art the Queene of all fowles: the Crow allured with this flattering, ma<g ref="char:EOLhyphen"/>keth her to ſing: but the cheeſe did fall out of her bill, whileſt ſhe made her to ſing: which cheeſe fallen, was taken of the Fixon, the little Foxe taketh up a laughter, then at the length, it ſhameth and it irketh the miſerable Raven of her own conditi<g ref="char:EOLhyphen"/>on, and ſhe ſorroweth with the loſſe of the thing, mingled with ſhame.</p>
+            </div>
+            <div n="12" type="fable">
+               <head>Of the Lion ſpent with Age.</head>
+               <head type="sub">Fab. 12.</head>
+               <p>A Lion who in his youth had made many his foes by his crueltie, was puniſhed in his old age: for the beaſts give like recompence, the Boare ſtri<g ref="char:EOLhyphen"/>keth with his tooth, the Bull with his horne, and firſt of all the little Aſſe,
+<pb n="11" facs="tcp:96870:10"/>
+deſirous to put away the old name of ſluggiſhneſſe, triumpheth over the Lion boldly with words, and alſo his heeles: then the Lion full of ſorrow, ſaith, Theſe now hurt me again, whom I have hurt in times paſt; and that juſt<g ref="char:EOLhyphen"/>ly, but theſe whom I have done good unto ſometimes, now do me no good againe: yea alſo doe me harme un<g ref="char:EOLhyphen"/>deſervedly: I was a foole, who made ſo many to be my enemies: yea more fooliſh, who put my truſt in deceiving friends.</p>
+            </div>
+            <div n="13" type="fable">
+               <head>Of the Dogge and the Aſſe.</head>
+               <head type="sub">Fab. 13.</head>
+               <p>VVHileſt that the Dogge did fawn upon his Maſter and Fa<g ref="char:EOLhyphen"/>mily, his Maſter and the Houſhold did make much of the Dog, the Aſſe ſee<g ref="char:EOLhyphen"/>ing that, he began to ſigh very deeply, and began to grieve himſelfe for his condition, he thinketh it handled badly, that the Dogge ſhould be well<g ref="char:EOLhyphen"/>come to every one in the houſe, and
+<pb n="12" facs="tcp:96870:11"/>
+to be fed from his Maſters table, and that he getteth the ſame favour by idleneſſe and playing: on the other ſide that he did carry the packſaddle, and is beaten with the whip, he is ne<g ref="char:EOLhyphen"/>ver idle, and yet hated of all men: if theſe good things come to paſſe by flattering, he determined to follow that Art which is ſo profitable: there<g ref="char:EOLhyphen"/>fore on a certaine time, his Maſter re<g ref="char:EOLhyphen"/>turning home he runneth to meet him to try the matter, hee leapeth upon him, hee paweth upon him with his hoofes: his Maſter crying out, the ſervants run to him: the fooliſh Aſſe which ſuppoſed himſelfe to have play<g ref="char:EOLhyphen"/>ed<g ref="char:punc">▪</g> the part of a civill man, was beaten with a club.</p>
+            </div>
+            <div n="14" type="fable">
+               <head>Of the Lion and the Mouſe. <hi>Fab. 14.</hi>
+               </head>
+               <p>THe Lion being weary with heat and running, when as he reſted in the ſhadow under the greene leaves, and when a company of Mice did run over his backe, hee awaking, taketh
+<pb n="13" facs="tcp:96870:11"/>
+one of many: the captive Mouſe in<g ref="char:EOLhyphen"/>treateth, and cryeth that ſhe is unwor<g ref="char:EOLhyphen"/>thy, upon whom a Lion ſhould wreak his anger: he deeming, that there were no praiſe or credit in the death of ſo little a beaſt, he letteth goe the priſoner, but not long after that, whileſt that the Lion by chance did runne through the corne-field, he fal<g ref="char:EOLhyphen"/>leth into the nets, hee might well roare, but could not get forth: the Mouſe heareth the Lion roaring mi<g ref="char:EOLhyphen"/>ſerably, ſhe knoweth his voyce and creepeth into the Meiſes, ſeeketh the knots of the ſnares, findeth them be<g ref="char:EOLhyphen"/>ing ſought, and gnaweth them being found: the Lion getteth forth out of the nets.</p>
+            </div>
+            <div n="15" type="fable">
+               <head>Of the Kite being ſicke. <hi>Fab. 15.</hi>
+               </head>
+               <p>THe Kite lay ſicke in bed, now al<g ref="char:EOLhyphen"/>moſt ready to die, he intreats his Mother, to goe to pray unto the gods, his Mother made anſwer, that no help is to be hoped for of the gods, whoſe
+<pb n="14" facs="tcp:96870:12"/>
+holy Monuments and Altars, he had violated ſo often with his ravenings.</p>
+            </div>
+            <div n="16" type="fable">
+               <head>Of the Swallow and other Birds.</head>
+               <head type="sub">Fab. 16.</head>
+               <p>VVHen firſt of all, the Flax was begun to be ſowne, the Swal<g ref="char:EOLhyphen"/>low doth perſwade the little Birds, to hinder the ſowing of it, ſaying, that ſnares ſhould be made for to catch them: they mocke at her, and call the Swallow a fooliſh Prophet: then at length the Flax ſprung up, and wax<g ref="char:EOLhyphen"/>ing greene, ſhe warned them againe, to plucke up by the root that which was ſowne, they mocke her againe; the Flax waxeth ripe, ſhe exhorteth them to deſtroy the whole crop, now when as they would not hearken to her, then giving counſell, the Swal<g ref="char:EOLhyphen"/>low leaving the company of the Birds, ſhe procured the friendſhip of a man, ſhe entreth into a covenant with him, and dwelleth in his chimney, and entiſeth him with her alluring ſong:
+<pb n="15" facs="tcp:96870:12"/>
+nets and ſnares are made of the Flax for the reſt of the Birds.</p>
+            </div>
+            <div n="17" type="fable">
+               <head>Of the Frogs and their King.</head>
+               <head type="sub">Fab. 17.</head>
+               <p>VVHen the Nation of the Frogs was free from ſubjection, they made their ſupplication to Jupi<g ref="char:EOLhyphen"/>ter, that a King might be given them: but Jupiter did begin to ſmile at their Petitions, notwithſtanding they did begin to deſire inſtantly, againe and againe, untill the time that they com<g ref="char:EOLhyphen"/>pelled him: he throweth down a beame: that lumpe ſhooke and beat the River with a mightie noyſe: the Frogs aſtonied, hold their peace, they honour their King, they come neerer by little and little, at length feare be<g ref="char:EOLhyphen"/>ing caſt from them, they jumpe upon him, and leape upon it: the fooliſh King is to them a mockage and a con<g ref="char:EOLhyphen"/>tempt: they trouble Jupiter againe, and deſire that a King might be given to them, would be ſtrong and ſtirring:
+<pb n="16" facs="tcp:96870:13"/>
+Jupiter giveth them the Storke, he walking overthwart the Ditches ſtoutly, whatſoever Frogs he meet<g ref="char:EOLhyphen"/>eth with, eateth and devoureth: but then the Frogs complained in vaine of the crueltie of their King, Jupiter heareth them not, for likewiſe at this time they complain yet, for the Stork going to his reſt at evening, gone out of their holes they murmure with a hoarſe voice, but they doe ſo in vaine, for Jupiter willeth, that they who had once miſuſed a courteous King, now ſhould ſuffer a churliſh one.</p>
+            </div>
+            <div n="16" type="fable">
+               <head>Of the Doves and the Kite.</head>
+               <head type="sub">Fab. 16.</head>
+               <p>THe Pigeons in time paſt did wage warre with the Kite, whom that they might overcome, they choſe a Goſhawke for their King, he being made a King, doth play the enemy, not a King, he ſnatcheth at them and plucketh them no leſſe then the Kite: it repenteth the Doves of their enter<g ref="char:EOLhyphen"/>priſes:
+<pb n="17" facs="tcp:96870:13"/>
+they thinke it had been bet<g ref="char:EOLhyphen"/>ter to ſuffer the warres of the Kite, then the tyranny of the Hawke.</p>
+            </div>
+            <div n="19" type="fable">
+               <head>Of the Thiefe and the Dogge.</head>
+               <head type="sub">Fab. 19.</head>
+               <p>THe Theefe upon a time giving the Dogge a piece of bread that he would hold his peace, the Dogge made anſwer, I know thy deceits, Thou giveſt me bread, to the intent that I ſhould ceaſe from barking, but I doe hate thy gift, for if I ſhall take the bread, thou wilt carry all my Maſters goods out of this houſe.</p>
+            </div>
+            <div n="20" type="fable">
+               <head>Of the Wolfe and the Sow.</head>
+               <head type="sub">Fab. 20.</head>
+               <p>THe little Sow was a littering, the Wolfe did promiſe her, that he will be her Keeper, the bigge-bel<g ref="char:EOLhyphen"/>lied Sow made anſwer, That ſhe did not want the ſervice of the Wolfe: If he would be counted ſo charita<g ref="char:EOLhyphen"/>ble, or if he deſire to doe her a good
+<pb n="18" facs="tcp:96870:14"/>
+turne, let him goe further off; for the dutie or ſervice of the Wolfe doth conſiſt, not in his preſence, but in his abſence.</p>
+            </div>
+            <div n="21" type="fable">
+               <head>Of the Birth of the Mountaines.</head>
+               <head type="sub">Fab. 21.</head>
+               <p>IN times paſt, there was a rumour, that the Mountaines did bring forth young Hils; Men run to ſee, they ſtood about it, looking for ſome Monſter, not without feare: at length the Mountaines bring forth young, A Mouſe cometh out, then all the people are like to kill them<g ref="char:EOLhyphen"/>ſelves by laughing.</p>
+            </div>
+            <div n="22" type="fable">
+               <head>Of the Hound. <hi>Fab. 22.</hi>
+               </head>
+               <p>A Maſter ſtirreth forward his Hound, who now was waxed old, but he exhorteth him in vaine, for his feet are become ſlow, ſo that he runneth with no ſpeed: he had taken hold of a Beaſt, but the Beaſt
+<pb n="19" facs="tcp:96870:14"/>
+ſlippeth away from the toothleſſe Dogge, his Maſter rebuketh him with words and ſtripes, the Dogge maketh anſwer, That he ought to forgive him for ſuch offence, by reaſon that he was waxed old now, but was ſtrong ſo long as hee was young: but ſaith the Dogge, as I perceive plainly, there is nothing pleaſant without profit, thou didſt love me when I was young &amp; ſtrong, but thou doeſt hate me now whileſt I am old and weake; thou lovedſt me, ſo long as I was able to catch a prey, now thou hateſt me, when I am feeble, and ſlow, and wanting teeth: but if thou wert a thankfull Maſter, whom thou lovedſt in times paſt<g ref="char:punc">▪</g> whileſt he was young, for pro<g ref="char:EOLhyphen"/>fits ſake, thou wouldeſt love waxed old, for his fruitfull youth.</p>
+            </div>
+            <div n="23" type="fable">
+               <pb n="20" facs="tcp:96870:15"/>
+               <head>Of the Hares and Frogs.</head>
+               <head type="sub">Fab. 23.</head>
+               <p>VVHileſt the Wood made a mightie noyſe through an unuſuall Whirlewind, the time<g ref="char:EOLhyphen"/>rous Hares begin to flie thence ſpeedily: but when a great Poole withſtood the Hares running away, they ſtood ſtill amazed and environ<g ref="char:EOLhyphen"/>ed with dangers on both ſides, and they ſee the Frogs plunge in the Poole, which was a Motive of a greater feare, at laſt one of the Hares, more wiſe then the others, ſaid, Wherefore feare we for no<g ref="char:EOLhyphen"/>thing? we have need of couragiouſ<g ref="char:EOLhyphen"/>neſſe: for indeed we have quick<g ref="char:EOLhyphen"/>neſſe of bodies, but we want bold<g ref="char:EOLhyphen"/>neſſe, we ſhould not flie, for the dan<g ref="char:EOLhyphen"/>ger of a Whirlewind, but we ſhould deſpiſe it.</p>
+            </div>
+            <div n="24" type="fable">
+               <pb n="21" facs="tcp:96870:15"/>
+               <head>Of the Kid and the Wolfe.</head>
+               <head type="sub">Fab. 24.</head>
+               <p>VVHen as the Goat was going forth to feed, ſhe ſhutteth up the Kid in her houſe, warning him, to open the Port to no body, till ſuch time as ſhe returned home againe: The Wolfe which heard that afarre off, after the departure of his Mother, hee knocketh at the doore: he counterfeiteth the Goat in his voyce, commanding him to open the doore: The Kid percei<g ref="char:EOLhyphen"/>ving his guile, ſaith, I will not open it, for although thy voyce playeth the Goat well, notwithſtanding I ſee a Wolfe through the chinks of the doore.</p>
+            </div>
+            <div n="25" type="fable">
+               <pb n="22" facs="tcp:96870:16"/>
+               <head>Of the Hart and the Sheepe.</head>
+               <head type="sub">Fab. 25.</head>
+               <p>THe Hart maketh the Sheepe as guiltie before the Wolfe, cry<g ref="char:EOLhyphen"/>ing, That ſhe owed a meaſure of Wheat. But the Sheep forſooth was ignorant of the debt; notwithſtand<g ref="char:EOLhyphen"/>ing ſhe promiſeth, that ſhe will give it, becauſe of the preſence of the Wolfe: The day for payment is ap<g ref="char:EOLhyphen"/>pointed; it came; The Hart warn<g ref="char:EOLhyphen"/>eth the Sheep, ſhe denyeth the debt: for that which ſhe had promiſed, ſhe excuſeth it, becauſe it was done by feare, and for the preſence of the Wolfe: and moreover a Covenant, wrung by violence, ought not to be kept.</p>
+            </div>
+            <div n="26" type="fable">
+               <head>Of the Countrey-man and the Snake.</head>
+               <head type="sub">Fab. 26.</head>
+               <p>A Certaine Countrey-man nou<g ref="char:EOLhyphen"/>riſhed a Snake, on a time being angry, he ſtrooke the Beaſt with his
+<pb n="23" facs="tcp:96870:16"/>
+Hatchet, the Snake ſlideth away, not without a wound: afterwards the Countrey-man falling into po<g ref="char:EOLhyphen"/>vertie, thought that that miſchiefe did fall upon him, for the injury done to the Snake, wherefore he in<g ref="char:EOLhyphen"/>treateth the Snake, that he would returne again; The Snake ſaith, that he did pardon him, but would not returne, and that he would not be ſecure with the Countrey-man, who had ſo great a Hatchet at home, and that the griefe of the wound was ceaſed, notwithſtanding the memo<g ref="char:EOLhyphen"/>ry was remaining.</p>
+            </div>
+            <div n="27" type="fable">
+               <head>Of the Fox and the Storke.</head>
+               <head type="sub">Fab. 27.</head>
+               <p>THe Fixon did bid the Storke to Supper, ſhee powreth out her meat upon the Table, which ſeeing that it was of moiſt ſubſtance, the Storke nibling in vaine with her bill, the poore Bird went away with a flea in her eare, being mocked for
+<pb n="24" facs="tcp:96870:17"/>
+her labour, both it ſhamed her, and it irketh her of the injury. A few dayes after, ſhe cometh backe againe, ſhe biddeth the Fox to Supper, a veſ<g ref="char:EOLhyphen"/>ſell of Glaſſe was ſet upon the Table full of victuals, the which truly ſith it was a veſſell of a narrow necke, the wily beguiled Fox might well looke upon her cheere, and yet was hunger-bit, he could not taſte, take, or ſip: The Storke very eaſily ſuck<g ref="char:EOLhyphen"/>ed up all with his long bill.</p>
+            </div>
+            <div n="28" type="fable">
+               <head>Of the Wolfe and the Carved-head.</head>
+               <head type="sub">Fab. 28.</head>
+               <p>THe Wolfe having found a Mans Head in the ſhop of the Image<g ref="char:EOLhyphen"/>maker, he turneth it upſide down, he wondreth at it, at length percei<g ref="char:EOLhyphen"/>ving that, which it was indeed, that it had no ſenſe or underſtanding: O trim Head (ſaith he) there is much workmanſhip in thee, but not a whit of wit.</p>
+            </div>
+            <div n="29" type="fable">
+               <pb n="25" facs="tcp:96870:17"/>
+               <head>Of the Iay. <hi>Fab. 29.</hi>
+               </head>
+               <p>THe Jay did decke her ſelfe with the feathers of the Peacocke, afterwards ſeeming to her ſelfe very brave, and diſdaining her own kin<g ref="char:EOLhyphen"/>dred, ſhe betaketh her ſelfe to the flocke of the Peacocks, at length they underſtanding her deceit, they uncovered the fooliſh bird of her coloured plumes, and rewarded her with ſtripes.</p>
+            </div>
+            <div n="30" type="fable">
+               <head>Of the Flie and the Emmet.</head>
+               <head type="sub">Fab. 30.</head>
+               <p>THe Flie did chide with the Em<g ref="char:EOLhyphen"/>met, and ſhe did brag that her ſelfe was noble, but ſhe infamous; Her ſelfe did flie, but the Emmet did creepe; but moreover her-ſelfe did haunt in the Palaces of Kings, but the Emmet did keepe her ſelfe in the cave of the earth, and eate corne or graine, and drinke water, and ſhe did boaſt, that her-ſelfe did dyet
+<pb n="26" facs="tcp:96870:18"/>
+daintily, and yet had all theſe with<g ref="char:EOLhyphen"/>out labour: On the other ſide, the Emmet ſaid, that ſhe was not baſe, but contented with her own birth or parentage; but the Fly was un<g ref="char:EOLhyphen"/>ſtable, and her-ſelfe was conſtant, the graines and the water did taſte ſo to the Emmet, as Paſties and Wine to the Flie, and ſhe had not theſe things by idleneſſe, but by di<g ref="char:EOLhyphen"/>ligent and painfull travell: More<g ref="char:EOLhyphen"/>over the Emmet was joyous and ſure, beloved of all men, and laſt of all, an example of labour: but the Fly is troubled with danger, noy<g ref="char:EOLhyphen"/>ſome to every one, hated of all men, to conclude, an example of ſluggiſh<g ref="char:EOLhyphen"/>neſſe: The Emmet mindfull of the Winter ſeaſon doth lay up her victu<g ref="char:EOLhyphen"/>als: but the Fly doth live for a day, either will be hungry in Winter or certainly die.</p>
+            </div>
+            <div n="31" type="fable">
+               <pb n="27" facs="tcp:96870:18"/>
+               <head>Of the Frogge and the Oxe.</head>
+               <head type="sub">Fab. 31.</head>
+               <p>THe Frog being deſirous to be as great as the Oxe, ſhe ſtretched out her ſelfe: Her ſonne exhorted his Mother to ceaſe from her fooliſh enterpriſe: for ſaith he, the Frog is nothing in a manner to the Oxe: yet ſhe beginneth to ſwell the ſecond time, her ſonne or the young Padock cryeth out upon her, and ſaith, O Mother, although you burſt with pride, or crack aſunder, yet ſhall you never exceed the great Oxe: but when as, ſhe puffed or ſwelled the third time, ſhe burſt aſunder.</p>
+            </div>
+            <div n="32" type="fable">
+               <head>Of the Horſe and the Lion.</head>
+               <head type="sub">Fab. 32.</head>
+               <p>THe Lion come to eate and de<g ref="char:EOLhyphen"/>voure a Horſe, but wanting ſtrength through his age, he did be<g ref="char:EOLhyphen"/>gin to find out ſome deceit: He pro<g ref="char:EOLhyphen"/>feſſeth he is a Phyſitian, he impead<g ref="char:EOLhyphen"/>eth
+<pb n="28" facs="tcp:96870:19"/>
+the Horſe with the conceit of his words, but the Horſe oppoſeth deceit to deceit, and skill to the Lions skill; and feignes that he now hath hurt his foot in a thorny place, and requeſteth, That he who was a Phyſitian, would look on the thorne and bring it out: The Lion doth as the Horſe did bid him: But the Horſe did ſtrike the Lion with his heele, with ſo great force as he was able, and incontinent, he taketh himſelfe to flight: At length the Lion ſcantly returning to himſelfe, (for he was almoſt killed with the ſtroke) ſaith, I receive the reward of my fooliſhneſſe, and the Horſe is eſcaped juſtly: For becauſe he hath revenged deceit with deceit.</p>
+            </div>
+            <div n="33" type="fable">
+               <head>Of the Horſe and the Aſſe.</head>
+               <head type="sub">Fab. 33.</head>
+               <p>THe Horſe being attired with gay trappings and with a ſaddle, did runne along the way with a huge
+<pb n="29" facs="tcp:96870:19"/>
+neighing, by chance a heavy laden Aſſe ſtood in his way as he ran, the Horſe ſtamping and ſtaring for an<g ref="char:EOLhyphen"/>ger, and fiercely champing his foam<g ref="char:EOLhyphen"/>ing bridle: ſaid, Wherefore lazy ſlug<g ref="char:EOLhyphen"/>gard ſtandeſt thou in the Horſes way? I ſay, give place or I will trample thee under my feet: the poore Aſſe durſt not ſpeake a word againſt him, but giveth place to him with quietneſſe: but the belly of the Horſe flying and running his race, burſt aſunder: then being un<g ref="char:EOLhyphen"/>profitable for race and for ſhew, he was deprived of his gay attire; and afterwards he was ſold to a Carter: afterward the Aſſe ſeeth him com<g ref="char:EOLhyphen"/>ing with a Cart, and he ſpeaketh to him; Ho, you, good fellow? what ornament is this? where is your gol<g ref="char:EOLhyphen"/>den ſaddle, your imboſſed girts, where is your bright bridle? ſo friend it was neceſſary to happen to the proud.</p>
+            </div>
+            <div n="34" type="fable">
+               <pb n="30" facs="tcp:96870:20"/>
+               <head>Of the Birds and foure-footed Beaſts.</head>
+               <head type="sub">Fab. 34.</head>
+               <p>THere was a battell with the Birds, and with foure-footed Beaſts: The hope of victory was between both of them, feare was on both parts, the danger was be<g ref="char:EOLhyphen"/>twixt both of them, but the Bat lea<g ref="char:EOLhyphen"/>ving his fellows, falles off to the e<g ref="char:EOLhyphen"/>nemies: The Birds overcome, the Eagle being their Captaine and the Guide; but they condemn the Bat, who fled away, that ſhe ſhould not returne at any time to the Birds, and that ſhe ſhould not flie at any time in the light: This is the occaſion to the Bat, that ſhe flyeth not, but in the night.</p>
+            </div>
+            <div n="35" type="fable">
+               <head>Of the Wolfe and the Fox.</head>
+               <head type="sub">Fab. 35.</head>
+               <p>THe Wolfe, when he had enough prey, he lived in idleneſſe, the Fox came unto him, and enquireth
+<pb n="31" facs="tcp:96870:20"/>
+the cauſe of his idleneſſe: The Wolfe perceived, that deceits were a making for his banquets, pre<g ref="char:EOLhyphen"/>tendeth, that a diſeaſe was the cauſe of it, and intreateth the Fox, that ſhe would go to pray unto the gods: She ſorrowing that her ſubtiltie had no better ſucceſſe, She goes to a Shepherd, &amp; tels him, that the Dens of the Wolfe were openly known, for his enemy now careleſſe might be oppreſſed unawares: the Shep<g ref="char:EOLhyphen"/>herd runneth upon the Wolfe, kil<g ref="char:EOLhyphen"/>leth him: The Fixon getteth the Den and the prey: yet ſhe had but a ſhort joy in her wickedneſſe: for not long after, the ſame Shepherd taketh her alſo.</p>
+            </div>
+            <div n="36" type="fable">
+               <head>Of the Hart. <hi>Fab. 36.</hi>
+               </head>
+               <p>THe Hart beholding her ſelfe in a cleare fountaine, praiſeth the height of her forehead, and her craggie hornes, but diſpraiſeth the
+<pb n="32" facs="tcp:96870:21"/>
+ſlenderneſſe of her legges: whileſt that ſhe thus doth judge, the Huntſ<g ref="char:EOLhyphen"/>man came upon her: The Hart more ſwift then any bullet, flyeth away, and ſwifter then the Eaſterne wind, driving the clouds: the Dogs doe follow her flying: but when as ſhe entreth in a great wood, her hornes were intangled in the bryers: then at length ſhe praiſeth her legges, and diſpraiſeth her hornes, which made her, that ſhe was a prey to the Dogs.</p>
+            </div>
+            <div n="37" type="fable">
+               <head>Of the Viper and the File.</head>
+               <head type="sub">Fab. 37.</head>
+               <p>THe Viper finding a File in a ſhop, began to gnaw it: The File ſmi<g ref="char:EOLhyphen"/>led, ſaying, What foole? what doeſt thou? Thou ſhalt weare firſt thy teeth, before thou ſhalt weare me, who doe uſe to bite off the hardneſſe of braſſe.</p>
+            </div>
+            <div n="38" type="fable">
+               <pb n="33" facs="tcp:96870:21"/>
+               <head>Of the Wolves and the Lambs.</head>
+               <head type="sub">Fab. 38.</head>
+               <p>AT a certaine time, the Wolves and the Lambs had a truce, who by nature have an enmitie: hoſtages were given on either ſide, the Wolves gave their Whelps, the Sheep gave a band of Dogs: the Sheep being in reſt and feeding, the little Wolves they howle, for the deſire of their Mother, then the Wolves fall upon them, they cry, that faith and truth was broken, and they devoure the Sheep deſtitute of the help of the Dogs.</p>
+            </div>
+            <div n="39" type="fable">
+               <head>Of the Wood and the Countrey-man.</head>
+               <head type="sub">Fab. 39.</head>
+               <p>AT what time the Trees alſo had their ſpeech, the Countrey-man came into the Wood, asking that he might take a handle to his Axe, the Wood granteth it, the Countrey-man began to cut down
+<pb n="34" facs="tcp:96870:22"/>
+the trees, with a new made Axe, then truly too late, it grieves the Woods for his light leave, ſhe grie<g ref="char:EOLhyphen"/>ved that her ſelfe was the cauſe of her own deſtruction.</p>
+            </div>
+            <div n="40" type="fable">
+               <head>Of the Belly and the reſt of the Members. <hi>Fab. 40.</hi>
+               </head>
+               <p>IN time paſt the Foot and the Hand accuſed the Belly, becauſe that their gaines were devoured of her being idle: they command her, that either ſhe ſhould labour, or ſhe ſhould not deſire to be fed: ſhe in<g ref="char:EOLhyphen"/>treateth once and againe, notwith<g ref="char:EOLhyphen"/>ſtanding the Hands deny food; the Belly being ſtarved with hunger, when as all the limbes began to faint, then at the length, the hands would needs be kinde, but that was too late: for the Belly being weake for lacke of victuals, refuſed her meat: ſo whiles that all the mem<g ref="char:EOLhyphen"/>bers envie the belly, they periſh with the belly periſhing.</p>
+            </div>
+            <div n="41" type="fable">
+               <pb n="35" facs="tcp:96870:22"/>
+               <head>Of the Ape and the Fox.</head>
+               <head type="sub">Fab. 41.</head>
+               <p>THe Ape prayed the Fox, that ſhe would give part of her taile to cover her buttocks, for ſaith the Ape that that is a burthen to her, which might be profit and honour to the Ape, the Fixon made anſwer, that ſhe had nothing too much, and that ſhe had rather that the ground ſhould be ſwept with her taile, then that the buttocks of the Ape ſhould be covered therewith.</p>
+            </div>
+            <div n="42" type="fable">
+               <head>Of the Hart and the Oxen.</head>
+               <head type="sub">Fab. 42.</head>
+               <p>A Hart flying the Huntſman, tooke himſelfe to a ſtall, and intreateth the Oxen, that he might have licence<g ref="char:punc">▪</g> to hide himſelfe in the crib, the Oxen ſay they cannot be ſure, for both the Maſter and the Servant will be preſent anon: he ſaith that he would be ſecure, ſo that
+<pb n="36" facs="tcp:96870:23"/>
+they would not betray him, the ſer<g ref="char:EOLhyphen"/>vant entreth in and ſeeth not the hidden Hart under the hay, and go<g ref="char:EOLhyphen"/>eth forth againe: then the Hart be<g ref="char:EOLhyphen"/>ginneth to rejoyce and nothing now to feare: then one of the Oxen, grave both for age and counſel, ſaith, it was an eaſie thing to deceive the ſervant who is as blind as a Mole, but that thou mayeſt eſcape my Maſter who is moſt ſharp in ſight, this is the matter, this the paine: incontinent afterwards the Maſter cometh in, who that he might redreſſe the o<g ref="char:EOLhyphen"/>verſight of the ſervant, looking on all things with his eyes, and groping the crib with his hand findeth the hornes of the Hart under the hay, he calleth in his ſervants, they come running to him, and lay hands on the fierce Hart and kill him.</p>
+            </div>
+            <div n="43" type="fable">
+               <pb n="37" facs="tcp:96870:23"/>
+               <head>Of the Lion and the Fox.</head>
+               <head type="sub">Fab. 43.</head>
+               <p>THe Lion was ſicke, and other beaſts did viſit him, only the Fixon did delay his dutie: The Lion ſendeth a meſſenger unto her with a letter, the which warned her to come, for that her onely preſence would be moſt acceptable to the ſicke Lion: neither ſhould there be any danger wherefore the Fixon ſhould feare: for truly ſaith he, firſt of all the Lion is the greateſt friend to the Fixon, and therefore doth de<g ref="char:EOLhyphen"/>ſire her conference, and further<g ref="char:EOLhyphen"/>more, that he was ſicke and kept his bed; that although he would deſire that which was not lawfull, notwith<g ref="char:EOLhyphen"/>ſtanding he might not hurt him: the Fixon writeth backe againe, that ſhe deſireth that the Lion may recover his health, and will pray for that to the gods, but will not ſee him, and that ſhe is terrified with his foot<g ref="char:EOLhyphen"/>ſteps,
+<pb n="38" facs="tcp:96870:24"/>
+which foot-ſteps, ſith they all are turned towards the Den of the Lion, and none turned from it: which thing is an argument, that many beaſts have entred in, but none have gone from thence. <hi>Horat.</hi> I will declare that which the ſubtill Fox heretofore anſwered to the ſicke Lion, becauſe the footſteps terrifie me, which all looke towards you, and none backe again.</p>
+            </div>
+            <div n="44" type="fable">
+               <head>Of the Fox and the Wolfe.</head>
+               <head type="sub">Fab. 44.</head>
+               <p>THe Fox being ſlender by long hunger, by chance crept through a very narrow chinke into a barne, in the which when ſhe was well fed, and afterwards her belly being full, hindreth her aſſaying to get forth a<g ref="char:EOLhyphen"/>gain: the Weeſill beholding her ſtri<g ref="char:EOLhyphen"/>ving a farre off, at the length ſhe ſaith, if ſhe deſired to get forth, ſhe muſt returne to the hole emptie where ſhe came in emptie.</p>
+            </div>
+            <div n="45" type="fable">
+               <pb n="39" facs="tcp:96870:24"/>
+               <head>Of the Horſe and the Hart.</head>
+               <head type="sub">Fab. 45.</head>
+               <p>THe Horſe waged warre with the Hart, at length driven from his paſtures, requeſted mans help: he returneth with the man, he cometh into the field, though overcommed before, now is made the conquerour: but notwithſtanding his enemy be<g ref="char:EOLhyphen"/>ing overcome, and captivated, the conquerour muſt of neceſſitie ſerve man; for he beareth the rider on his backe; and a bit in his mouth.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+         <div type="Phaedrus_fables">
+            <pb n="40" facs="tcp:96870:25" rendition="simple:additions"/>
+            <head>PHAEDRVS FABLES.</head>
+            <head type="sub">The firſt Booke of <hi>AEſops</hi> Fa<g ref="char:EOLhyphen"/>bles, by the worke of <hi>Phaedrus</hi> fri<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d to <hi>Auguſtus.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">W</seg>Hat matter or ſubject, <hi>AEſop</hi> the Author here<g ref="char:EOLhyphen"/>of found or invented, the ſelfe ſame have I po<g ref="char:EOLhyphen"/>liſhed with Iambick ver<g ref="char:EOLhyphen"/>ſes. There is a double uſe of this little Book, both for that it moveth laughter, and becauſe it directeth a Wiſe mans life with counſell or ad<g ref="char:EOLhyphen"/>viſe: but if any liſt to cavill, becauſe not onely beaſts, but alſo trees doe ſpeake, let him remember, that we but ſport with fained Fables.</p>
+            <div n="1" type="fable">
+               <pb n="41" facs="tcp:96870:25"/>
+               <head>The Wolfe and the Lambe. <hi>Fab. 1.</hi>
+               </head>
+               <p>THe Wolfe and the Lambe, com<g ref="char:EOLhyphen"/>pelled by thirſt, came to the ſame river, the Wolfe ſtood above, and the Lambe further beneath: then the villanous thiefe, being ſtir<g ref="char:EOLhyphen"/>red up by hunger ſought occaſion of quarrell, and ſaid, Wherefore didſt thou make this water muddy for me a drinking? the Lambe or Wooll<g ref="char:EOLhyphen"/>bearer being afraid, inferred thus, How could I pray you good Maſter Wolfe doe that which you complain of? the water runneth down from you unto my draughts. He thus con<g ref="char:EOLhyphen"/>vinced by the force of truth ſaith, Before theſe ſixe moneths thou re<g ref="char:EOLhyphen"/>viledſt me: the Lambe made anſwer, Truly then I was not born: then by Hercules, quoth he, thy father ex<g ref="char:EOLhyphen"/>claimed upon me, and ſo he teareth in pieces the Lambe apprehended with injurious death. This Fable is written for thoſe men, who oppreſſe ſilly innocents upon forged cauſes.</p>
+            </div>
+            <div n="2" type="fable">
+               <pb n="42" facs="tcp:96870:26"/>
+               <head>The Frogs deſired a King.</head>
+               <head type="sub">Fable 2.</head>
+               <p>
+                  <seg rend="decorInit">V</seg>VHen Athens flouriſhed with equall Laws, malepart li<g ref="char:EOLhyphen"/>bertie marred the Citie, and licenti<g ref="char:EOLhyphen"/>ouſneſſe let looſe the ancient bridle of government, from hence parties of divers factions being in a con<g ref="char:EOLhyphen"/>ſpiracie, Prince <hi>Piſiſtratus</hi> taketh the tower, and when the Athenians la<g ref="char:EOLhyphen"/>mented that ſorrowfull ſubjection, not for that he was cruell or tyran<g ref="char:EOLhyphen"/>nous, but becauſe it was a grievous burthen to them who were altoge<g ref="char:EOLhyphen"/>ther unaccuſtomed with govern<g ref="char:EOLhyphen"/>ment, and when they begun to com<g ref="char:EOLhyphen"/>plain, then <hi>AEſop</hi> told ſuch a tale; the Frogs wandring without control<g ref="char:EOLhyphen"/>ment in marſhes or ponds, deſired a King of Jupiter with a loud cry, who might repreſſe diſſolute manners by force: the father of the gods laugh<g ref="char:EOLhyphen"/>ed, and gave to them a little Blocke, which being thrown down into the
+<pb n="43" facs="tcp:96870:26"/>
+ponds of a ſudden, greatly amazed the fearefull nation, with motion and with ruſhing: when this lay ſome certain time drowned with ſlime or mud, by chance one without noiſe, putteth up her head out of the pond, and having made triall of their King, ſhe calleth all her fellows: laying a<g ref="char:EOLhyphen"/>ſide feare, they ſwim to him, thicke and threefold, and ſo the ſawcy crew leaped upon their woodden god, which when they had foully miſuſed with all reproach, they ſent to Jupi<g ref="char:EOLhyphen"/>ter, asking for another King, becauſe he who was given, proved unprofita<g ref="char:EOLhyphen"/>ble: then he ſent to them a water Serpent, who begun to take by vio<g ref="char:EOLhyphen"/>lence every one of them with ſharp teeth: then the lazie Frogs in vaine avoyd death, and fear ſtoppeth their mouthes: wherefore by ſtealth they preferre a ſupplication by Mercury unto Jupiter, that he would help the poore afflicted: then the God Jupi<g ref="char:EOLhyphen"/>ter, on the other part thus replyed,
+<pb n="44" facs="tcp:96870:27"/>
+ſith that you would not beare with your good gentle King, indure ye now your evill. Oh ye alſo, oh citi<g ref="char:EOLhyphen"/>zens! ſaith he, ſuſtaine this evill pa<g ref="char:EOLhyphen"/>tiently, leſt that there come upon you a greater miſchiefe.</p>
+            </div>
+            <div n="3" type="fable">
+               <head>The proud Iay and the Peacocke.</head>
+               <head type="sub">Fab. 3.</head>
+               <p>
+                  <hi>AESop</hi> hath ſet forth this example, that it ſhould not delight us to boaſt upon other mens goods, but rather to lead our life, in his own condition. The Jay ſwelling with vaine pride, tooke up the feathers of a Peacock; which were fallen down or mewed, and trimmed her-ſelfe therewith: afterwards deſpiſing her own kindred, aſſociated her-ſelfe with the beautifull traine of Pea<g ref="char:EOLhyphen"/>cocks: but they take away the fea<g ref="char:EOLhyphen"/>thers from the fooliſh bird, and beat her away with their beakes: the Jay being hardly dealt withall, began to returne ſorrowing, to her own kin<g ref="char:EOLhyphen"/>dred,
+<pb n="45" facs="tcp:96870:27"/>
+from whom being alſo driven away, ſhe ſetteth up a dolefull dittie: certaine of them, whom ſhe firſt de<g ref="char:EOLhyphen"/>ſpiſed, ſaid, If thou hadſt beene content with our ſeats, and wouldeſt have ſuffered what nature had or<g ref="char:EOLhyphen"/>dained, neither then ſhouldſt thou have tried this reproach, nor thy ca<g ref="char:EOLhyphen"/>lamitie had felt this repulſe.</p>
+            </div>
+            <div n="4" type="fable">
+               <head>A Dogge carrying fleſh over a River.</head>
+               <head type="sub">Fab. 4.</head>
+               <p>HE loſeth juſtly his own, who ſo deſireth another mans: whileſt a Dogge ſwimming over a floud, bore a piece of fleſh, he ſaw his own ſhape in the ſhining of the waters, and thinking another prey to be car<g ref="char:EOLhyphen"/>ryed over by another Dogge, cove<g ref="char:EOLhyphen"/>ted to ſnatch at it: but his greedi<g ref="char:EOLhyphen"/>neſſe was deceived, and he both loſt the meat, which he held in his mouth, neither could he attain unto that which he much deſired.</p>
+            </div>
+            <div n="5" type="fable">
+               <pb n="46" facs="tcp:96870:28"/>
+               <head>A Cow and a Goat, a Sheep and a Lion. <hi>Fab. 5.</hi>
+               </head>
+               <p>THat there is never any faithfull fellowſhip with a mightie man, this ſmall Fable witneſſeth this mine aſſertion. The Cow and the Goat and the patient, harm<g ref="char:punc">▪</g>bearing Sheep, were companions with the Lion in the forreſt: when theſe had caught an Hart of a huge ſtature, the Lord Lion thus inferred, (after the divi<g ref="char:EOLhyphen"/>ſion;) I chooſe the firſt part, becauſe I am hight lord Lion; ye muſt give to me the ſecond ſhare, in regard I am ſtrong and puiſſant; then becauſe I am of more accompt, the third ſhall follow me: now if any touch the fourth portion, he ſhall not ſcape ſcot-free: thus his onely tyrannie tooke away the whole booty.</p>
+            </div>
+            <div n="6" type="fable">
+               <pb n="47" facs="tcp:96870:28"/>
+               <head>The Frogs to the Sunne. <hi>Fab. 6.</hi>
+               </head>
+               <p>
+                  <hi>AESop</hi> ſaw very ſumptuous marri<g ref="char:EOLhyphen"/>ages of his neighbour a moſt no<g ref="char:EOLhyphen"/>torious cunning thiefe, and forth<g ref="char:EOLhyphen"/>with begun to tell this tale: once it was reported that the Sunne would marry a wife; then the Frogs tooke up a piteous cry even to the heavens: Jupiter moved with their bitter ex<g ref="char:EOLhyphen"/>claimes, enquireth the reaſon of their complaint, then a certaine in<g ref="char:EOLhyphen"/>habitant of the pond ſaid, Oh deare Soveraigne, now one Sunne burneth up all our lakes, and cauſeth us poore wretches, to die on dry ground, alas, what will become of us, if the Sunne beget more Sunnes?</p>
+            </div>
+            <div n="7" type="fable">
+               <head>The Fox to a Mans Image. <hi>Fab. 7.</hi>
+               </head>
+               <p>BY chance a Fox ſaw a Mans I<g ref="char:EOLhyphen"/>mage in ſtone; Oh what exquiſite feature ſaith he, but wit it hath none? This is ſpoken of them, whom fortune hath given honour and glo<g ref="char:EOLhyphen"/>ry,
+<pb n="48" facs="tcp:96870:29"/>
+but yet leaveth them deſtitute of common ſenſe.</p>
+            </div>
+            <div n="8" type="fable">
+               <head>The Wolfe and the Crane. <hi>Fab. 8.</hi>
+               </head>
+               <p>WHo ſo deſireth pay for his deſerts of cruell fellows, is twice in fault, firſt, becauſe he help<g ref="char:EOLhyphen"/>eth the unworthy, and then, becauſe now he cannot depart undamnified: When as a bone ſwallowed, ſtucke faſt in the throat of a Wolfe, con<g ref="char:EOLhyphen"/>ſtrained with great griefe, he began to entice every one for money, that they would draw out that bad bone: at length the Crane was perſwaded by an oath, and committing her long necke to his weſſand, made with danger a medicine for the Wolfe: for which paines, when ſhe asked earneſtly a reward: Thou art un<g ref="char:EOLhyphen"/>gratefull, ſaith the Wolfe, who haſt drawne thy head ſafe from out of our mouth, and yet requireſt thou wages?</p>
+            </div>
+            <div n="9" type="fable">
+               <pb n="49" facs="tcp:96870:29"/>
+               <head>The Sparrow Counſellor to the Hart.</head>
+               <head type="sub">Fab. 9.</head>
+               <p>LEt us ſhew in few verſes, that it is a folly to give counſell to other, and not to take heed to our ſelves. The Sparrow did chide the Hare op<g ref="char:EOLhyphen"/>preſſed of the Eagle, and ſending forth grievous and bitter teares, ſaith ſhe, Where is now that thy ſwiftneſſe to be ſeene? wherefore ſlackened ſo thy feet? whileſt ſhe ſpeaketh, the Hawke ſeiſeth upon her unawares, and killed her crying with vain com<g ref="char:EOLhyphen"/>plaints: the Hare halfe dead, yet in the comfort of the Sparrows death, ſaid, Thou that whilome waſt ſecure and ſcornedſt our evils, bewaileſt now thy fatall deſtiny, with like complaint.</p>
+            </div>
+            <div n="10" type="fable">
+               <head>The Wolfe and the Fox with my Lord Iudge the Ape. <hi>Fab. 10.</hi>
+               </head>
+               <p>VVHoſoever once is openly detected of foule deceipt,
+<pb n="50" facs="tcp:96870:30"/>
+although he tell truth, notwith<g ref="char:EOLhyphen"/>ſtanding is not beleeved: for ſo this ſhort Fable of <hi>AEſop</hi> avoucheth it. The Wolfe charged the Fox with crime of theft: ſhe denied, that ſhe was acceſſary to the fault: then the Ape ſate Judge between them: now when both parties had pleaded their own cauſe, the Ape is reported, thus to have given judgement: You ſeem not to have loſt what you demand, but I beleeve, that thou haſt ſtolne, which ſo cunningly thou denieſt.</p>
+            </div>
+            <div n="11" type="fable">
+               <head>The Aſſe and the Lion a hunting.</head>
+               <head type="sub">Fab. 11.</head>
+               <p>ONe boaſting of his own praiſe with words, devoyd of vertue, deceiveth thoſe that know him not, but he is a laughing ſtocke to thoſe that know him. When as the lord Lion would hunt accompanied with the Aſſe, he decked and attired him with greene leaves, and warned him alſo, to terrifie and appall the beaſts,
+<pb n="51" facs="tcp:96870:30"/>
+with an unwonted cry, that he might take them flying: he pricketh up his eares, with a ſpeedy ſhout, and with all his might, and ſo amazeth the little beaſts, with a new monſtrous miracle, which being afraid, and whilſt they ſeeke for their known paſſages, they are aſſailed with the horrible violence of the Lion, who after that he was weary of the ſlaugh<g ref="char:EOLhyphen"/>ter, he calleth the Aſſe, and com<g ref="char:EOLhyphen"/>mandeth to repreſſe his cry: then he puft with pride, ſaith, How ſeemeth this effect unto you, of my voyce? ſo well quoth he and excellent, that unleſſe I had known thy courage and ſtocke, I ſhould have been in like feare.</p>
+            </div>
+            <div n="12" type="fable">
+               <head>The Hart at the Fountaine.</head>
+               <head type="sub">Fab. 12.</head>
+               <p>THis tale averreth, that often<g ref="char:EOLhyphen"/>times, thoſe things which we lightly eſteeme are found more pro<g ref="char:EOLhyphen"/>fitable, then things more commen<g ref="char:EOLhyphen"/>ded.
+<pb n="52" facs="tcp:96870:31"/>
+When the Hart had drunke he ſtood ſtill at the Fountaine, and ga<g ref="char:EOLhyphen"/>zeth on his ſhape in the water, where whileſt with wonder, he praiſeth his bowghy hornes, and diſableth too much, the ſlender timber of his legs, he was affrighted on a ſudden with the cryes and houles of Huntſmen, and began to flie through the cham<g ref="char:EOLhyphen"/>pion, and deluded the Hounds with ſwift running: at the laſt the wood received the wild beaſt, wherein be<g ref="char:EOLhyphen"/>ing by his hornes intangled, began to be torne, with the fierce biting of the Dogs: then dying, it is report<g ref="char:EOLhyphen"/>ed, he gave forth this piteous mone: Oh I unhappy, who now at laſt per<g ref="char:EOLhyphen"/>ceive, how the legges availed me, which I deſpiſed, and the hornes which I priſed, what grief have they brought me?</p>
+            </div>
+            <div n="13" type="fable">
+               <pb n="53" facs="tcp:96870:31"/>
+               <head>The Fox and the Raven.</head>
+               <head type="sub">Fab. 13.</head>
+               <p>VVHo ſo rejoyceth, that he is commended with gloſing words, for the moſt part is puniſhed with foule remorſe. When as a Raven purpoſed to have eaten a piece of cheeſe ſtolne out of a win<g ref="char:EOLhyphen"/>dow, and ſitting on an high tree, the Fox did ſee him, and then began thus to ſpeake, Oh Maſter Raven, how great and excellent is the beautie of your feathers! how much comli<g ref="char:EOLhyphen"/>neſſe doe you carry both in body and countenance? If you had but a tu<g ref="char:EOLhyphen"/>nable voyce, no Bird might be your fellow: but he ſilly poore foole, whilſt he coveteth to ſhew his voice, loſeth the cheeſe in his mouth, which quickly the craftie Fox ſnat<g ref="char:EOLhyphen"/>ched up with her greedy teeth: then at length the aſtoniſhed Crow being deceived, ſighed ſorrowfully: by this Fable it is proved how much wit or policie availeth, and that
+<pb n="54" facs="tcp:96870:32"/>
+wiſdome alwayes prevaileth above ſtrength.</p>
+            </div>
+            <div n="14" type="fable">
+               <head>Of a Cobler and a Phyſitian.</head>
+               <head type="sub">Fab. 14.</head>
+               <p>VVHen a bad Cobler undone by povertie, began to make medicines in a ſtrange place, and ſold reſtoratives in a counterfeit pre<g ref="char:EOLhyphen"/>tence, and had procured himſelfe fame by talkative juglings, when he lay viſited with a ſore diſeaſe, the King of the Citie, for his triall, cal<g ref="char:EOLhyphen"/>leth for a jugge, and then pretend<g ref="char:EOLhyphen"/>ing (a water being powred therein) that he mingled poyſon with his counterpoyſon, commanded him, to drinke this, ſetting down his re<g ref="char:EOLhyphen"/>ward: then he confeſſed for feare of death, that he was not made a Phyſician for any prudencie of Art, but onely made famous by the peo<g ref="char:EOLhyphen"/>ples wondring: the King ſummon<g ref="char:EOLhyphen"/>ing an aſſembly, added moreover this: How great madneſſe, thinke
+<pb n="55" facs="tcp:96870:32"/>
+ye, is it, who make no ſcruple to truſt your heads to him, to whom no man ever gave his ſhooes to coble? Truly I may ſay that this pertaineth to them, whoſe impudency is the purchaſe of their folly.</p>
+            </div>
+            <div n="15" type="fable">
+               <head>The Aſſe to an old Shepherd.</head>
+               <head type="sub">Fab. 15.</head>
+               <p>OFtentimes in changing of Go<g ref="char:EOLhyphen"/>vernment, the poorer ſort chang nothing beſides the manners and conditions of the Lord: that this is true, this little Fable ſheweth. A timerous old man fed an Aſſe in a meadow, he ſuddenly terrified with the noiſe of the enemies, perſwaded his Aſſe to flie, that he might not be taken: but the careleſſe Aſſe reply<g ref="char:EOLhyphen"/>ed, In good ſadneſſe thinke you, that the Conquerour will lay upon me double burdens? the old man deni<g ref="char:EOLhyphen"/>ed it: therefore ſaid he, what care I whom I ſerve, whilſt I carry but my own fardels?</p>
+            </div>
+            <div n="16" type="fable">
+               <pb n="56" facs="tcp:96870:33"/>
+               <head>The Sheep, the Hart, and the Wolfe.</head>
+               <head type="sub">Fab. 16.</head>
+               <p>VVHen as a cunning fellow in<g ref="char:EOLhyphen"/>duceth men with a badde ſuretie, he purpoſeth not to repay the principall, but rather to leave his creditor in the lurch. The Hart ask<g ref="char:EOLhyphen"/>ed the Sheep a buſhell of wheat, the Wolfe being ſuretie: but ſhe ſuſpect<g ref="char:EOLhyphen"/>ing couſenage, made anſwer: the Wolfe alwaies is accuſtomed to take away by violence and to be gone, and you to flie out of ſight with ſwift force: where ſhall <g ref="char:punc">▪</g>I find you when the day of payment comes?</p>
+            </div>
+            <div n="17" type="fable">
+               <head>The Sheep, a Dogge and a Wolfe.</head>
+               <head type="sub">Fab. 17.</head>
+               <p>LYers and falſe witneſſes were wont to pay puniſhment for their villany. When a certaine Dog being a common Barretor, demanded of a Sheep a loafe of bread, which bread he avouched, that he had lent him:
+<pb n="57" facs="tcp:96870:33"/>
+the Wolfe cited for witneſſe, ſaid, that he did owe not one alone, for in truth he affirmeth, he oweth ten: the Sheep caſt by falſe witneſſe, pay<g ref="char:EOLhyphen"/>ed what ſhe ought not: after a few dayes, the Sheep beheld the Wolfe lying for dead in a ditch: ſaith he, this reward of deceit and lying is gi<g ref="char:EOLhyphen"/>ven of the high gods.</p>
+            </div>
+            <div n="18" type="fable">
+               <head>A Woman in Labour. <hi>Fab. 18.</hi>
+               </head>
+               <p>NO body willingly reſorteth to that place, which hath harmed him. At the time of Child-birth, a woman lay upo<g ref="char:cmbAbbrStroke">̄</g> the bare ground, her fortie weekes being expired, ſending forth moſt pitifull grones: her Huſ<g ref="char:EOLhyphen"/>band exhorted, that ſhe would be<g ref="char:EOLhyphen"/>take her body to the bed, whereby the better ſhe might lay down the burthen of nature: I beleeve not, ſaith ſhe, that my griefe can be end<g ref="char:EOLhyphen"/>ed in that place, in which it was con<g ref="char:EOLhyphen"/>ceived in the beginning.</p>
+            </div>
+            <div n="19" type="fable">
+               <pb n="58" facs="tcp:96870:34"/>
+               <head>A Bitch a Whelping. <hi>Fab. 19.</hi>
+               </head>
+               <p>THe faire words of an evill man have their ſnares, which that we may avoyd, the verſes following doe warne. When a Bitch great with Whelp, had deſired another Bitch, that ſhe might lay her litter in her kennell, ſhe obtained her requeſt ea<g ref="char:EOLhyphen"/>ſily: afterwards ſhe made her ſute to the Bitch who required her owne place, craving but a ſhort ſeaſon, whileſt ſhe might lead away her whelps being ſtronger and better able to goe: this alſo being expired, the other began more vehemently, to deſire her own bed: well ſaith ſhe, if thou canſt match me and my traine, I will depart from this place.</p>
+            </div>
+            <div n="20" type="fable">
+               <head>
+                  <hi>Hungry Dogges.</hi> Fab. 20.</head>
+               <p>FOoliſh or ſimple counſell, not onely wanteth ſucceſſe, but alſo calleth mortall men to deſtruction. Dogges ſaw an Hide ſunke in the
+<pb n="59" facs="tcp:96870:34"/>
+floud, now that they might the more eaſily eate it, when they had drawn it out, they began to drinke up the water; but being firſt burſten, there thy periſhed, before that they could attaine what they deſired.</p>
+            </div>
+            <div n="21" type="fable">
+               <head>An old Lion, the Bull and an Aſſe.</head>
+               <head type="sub">Fab. 21.</head>
+               <p>VVHoſoever hath loſt his for<g ref="char:EOLhyphen"/>mer dignitie is alſo a mock<g ref="char:EOLhyphen"/>ing ſtocke to the baſe and lazie in adverſitie. The Lion waſted by yeares and decayed of his ſtrength, when he was lying drawing his laſt breath, the Boare came upon him with thunderbolt tuskes, and reven<g ref="char:EOLhyphen"/>ged his old grudge with blowes: al<g ref="char:EOLhyphen"/>ſo the cruell Bull out of hand pierced with his hornes his enemies body: when the Aſſe ſaw the Beaſt hurt without puniſhment, he kicked his forehead with his heeles, but he, breathing out his laſt, ſaith, I have hardly brooked, that the ſtrong or
+<pb n="60" facs="tcp:96870:35"/>
+the valiant ſhould inſult over me, but truly I ſeeme twice to die, ſith I am compelled to beare and ſuffer thee, the ignominie of nature.</p>
+            </div>
+            <div n="22" type="fable">
+               <head>A Cat and a Man. <hi>Fab. 22.</hi>
+               </head>
+               <p>A Cat being caught of a Wariner, when ſhe would avoyd immi<g ref="char:EOLhyphen"/>nent death; I pray you, ſaith ſhe, ſpare me, which cleanſe for your good the houſe of noyſome Mice: he anſwered, certain I would doe it, if this good turne were for my ſake, and would have forgiven thy of<g ref="char:EOLhyphen"/>fence: now becauſe thou labouredſt that thou maiſt enjoy the fragments, which they would gnaw, and alſo devour them, do not count this vain matter as a good turne done to me: and ſo ſpeaking, he inflicted death upon the offender. They ought to acknowledge this ſpoken for them, whoſe private commoditie onely ſerveth themſelves, and notwith<g ref="char:EOLhyphen"/>ſtanding boaſt their vaine deſerts, to ignorant men.</p>
+            </div>
+            <div n="23" type="fable">
+               <pb n="61" facs="tcp:96870:35"/>
+               <head>A faithfull Dogge. <hi>Fab. 23.</hi>
+               </head>
+               <p>VVHo ſo is liberall of a ſud<g ref="char:EOLhyphen"/>den, perhaps is in requeſt with fooles, but layeth broken ſnares for the wiſe. When as in the night time a thiefe had caſt bread to a Dogge, proving whether he might be corrupted with the meat proffer<g ref="char:EOLhyphen"/>red to him: Oh quoth he, thou wouldeſt ſtop my mouth, that I barke not for my Maſters goods; but thou art much deceived, for this thy ſudden kindneſſe warneth me to watch, leſt thou make a commodi<g ref="char:EOLhyphen"/>tie by my negligence.</p>
+            </div>
+            <div n="24" type="fable">
+               <head>The burſten Frogge and an Oxe.</head>
+               <head type="sub">Fab. 24.</head>
+               <p>A Poore man periſheth, whileſt he will follow the rich and the mightie. In a certaine paſture, the Frogge beheld the Oxe, and touch<g ref="char:EOLhyphen"/>ed with envie at ſo goodly ſtature,
+<pb n="62" facs="tcp:96870:36"/>
+puffed-up her ſpeckled skin; then ſhe asked her children, whether ſhe was greater then the Oxe; they de<g ref="char:EOLhyphen"/>nied it: againe ſhe ſtretched her skin with greater endeavour, and en<g ref="char:EOLhyphen"/>quired after the ſame manner, who was the greater; they ſaid the Oxe: laſt of all, ſore moved with wrath, and whileſt ſhe deſireth to puffe out herſelf more vehemently, ſhe ſpraw<g ref="char:EOLhyphen"/>led on the ground with a burſten body.</p>
+            </div>
+            <div n="25" type="fable">
+               <head>The Dogge and the Crocodile.</head>
+               <head type="sub">Fab. 25.</head>
+               <p>THey which give bad counſell to warie Wiſe men, both loſe their labour, and are foully derided. It is reported that Dogges in running do drinke of the River Nilus, that they may not be devoured of the cruell Crocodiles: wherefore when a cer<g ref="char:EOLhyphen"/>taine Bitch in running began to lap, ſo ſpake the Crocodile: Lap what water thou wilt by leiſure, come
+<pb n="63" facs="tcp:96870:36"/>
+hither, drinke leiſurely, and feare not, quoth he, deceit; but ſhe made anſwer, By Hercules I would doe ſo, but that I know you long for my fleſh.</p>
+            </div>
+            <div n="26" type="fable">
+               <head>The Fox and the Storke.</head>
+               <head type="sub">Fab. 26.</head>
+               <p>THis ſmall Fable warneth, that we muſt hurt no body, but if any ſhall miſchiefe us, that we may pu<g ref="char:EOLhyphen"/>niſh them in like manner. The Fox is ſaid to have invited the Stork firſt to ſupper, and to have ſet before her a liquid broath in a broad platter, which by no meanes the hungry Storke could taſte of; who when ſhe had re-invited the Fox, ſet before her a long narrow neckt flaggon, full of broken gobbets, then ſhe putting her long beake into this is filled and ſatisfied, and pineth her gueſt with hunger, who when ſhe had licked in vaine the necke of the flaggon, we heard it reported, that the ſtranger
+<pb n="64" facs="tcp:96870:37"/>
+bird ſpake after this maner: every one ought to ſuffer his owne exam<g ref="char:EOLhyphen"/>ple with a patient mind.</p>
+            </div>
+            <div n="27" type="fable">
+               <head>A Dogge, and a Treaſure and the rave<g ref="char:EOLhyphen"/>nous Vulter. <hi>Fab. 27.</hi>
+               </head>
+               <p>This matter may be very conve<g ref="char:EOLhyphen"/>nient for the covetous, and for them, who by birth being low and poore, notwithſtanding endevour to be reported wealthy. A Dogge dig<g ref="char:EOLhyphen"/>ing up mans bones, found a treaſure; and becauſe he prophaned the ſpirits which are divine ſubſtances, the fire of riches was caſt upon him, that he might performe puniſhments to the holy religion: therefore whiles he keepeth the gold, he forgetteth meat and conſumeth with hunger: overwhom the ravenous vulter ſtan<g ref="char:EOLhyphen"/>ding as report goeth ſpake, Oh dog, juſtly doſt thou lie for dead, who de<g ref="char:EOLhyphen"/>ſireſt on a ſudden a Princes revenew, being but conceived and brought up
+<pb n="65" facs="tcp:96870:37"/>
+on a dung-hill of three wayes muck.</p>
+            </div>
+            <div n="28" type="fable">
+               <head>A Fox and an Eagle. <hi>Fab. 28.</hi>
+               </head>
+               <p>ALthough men are in high e<g ref="char:EOLhyphen"/>ſtate, notwithſtanding they ought to feare to oppreſſe the lower ſort, becauſe revenge is manifeſt to the ingenious, by his induſtry. On a time an Eagle tooke up a Foxes Cubs, and laid them down in her neaſt to her young ones, that they might eate: the Mother Fox fol<g ref="char:EOLhyphen"/>lowing her began to beſeech her in<g ref="char:EOLhyphen"/>ſtantly, that ſhe would not bring ſo great calamitie upon her poore cai<g ref="char:EOLhyphen"/>tifes: but ſhe deſpiſed, becauſe ſhe was in a ſafe place: therefore the Fox tooke from the Altar a burning firebrand, and therewith ſhe enviro<g ref="char:EOLhyphen"/>ned the whole tree with flames, threatning griefe to her enemy, for the loſſe of her blood: the Eagle
+<pb n="66" facs="tcp:96870:38"/>
+now intreating to deliver her own from danger of death, reſtored the Cubs ſafe to the Fox.</p>
+            </div>
+            <div n="29" type="fable">
+               <head>The Aſſe ſcorning the Boare.</head>
+               <head type="sub">Fab. 29.</head>
+               <p>OFtentimes fooles, when they take up a vaine laughter, de<g ref="char:EOLhyphen"/>fame others with ſore reproach, and provoke to themſelves a miſchie<g ref="char:EOLhyphen"/>vous danger. An Aſſe when he met a Boare, ſaid, God ſave you brother, he diſdaining refuſed his kindred, and enquireth wherefore he would lye ſo groſſely: the Aſſe letting flye his heeles, made anſwer, Though thou denieſt me to be like to thy ſelfe, yet certainly, this is as good as thy tuskes: now when the Bore thought to make a valorous reſiſt<g ref="char:EOLhyphen"/>ance, yet refrained he his wrath, ſay<g ref="char:EOLhyphen"/>ing: Revenge is in a readineſſe to me, but I will not be defiled with baſe lazie bloud.</p>
+            </div>
+            <div n="30" type="fable">
+               <pb n="67" facs="tcp:96870:38"/>
+               <head>The Frogs fearing the warres of the Bull-battell. <hi>Fab. 30.</hi>
+               </head>
+               <p>THe lowly are in jeopardy, when as the mightie are at variance. A Frog in her pond, beholding the fight of Buls, Alas, ſaith ſhe, how great miſchiefe abideth us? being asked of another, wherefore ſhe af<g ref="char:EOLhyphen"/>firmed this, when as the Buls con<g ref="char:EOLhyphen"/>tended onely for the Empire over the Herd, and lead a life farre from them; ſaith ſhe, the reaſon here is ſeparate and a different kinde: for whoſoever being baniſhed from the kingdome of the Wood-land, ſhall flye away, will come into the holes of the Marſhes, and will preſſe to death the Frogs, over-trodden with his hard hoofes: and thus their fury concerneth our life.</p>
+            </div>
+            <div n="31" type="fable">
+               <pb n="68" facs="tcp:96870:39"/>
+               <head>The Kite and the Pigeon.</head>
+               <head type="sub">Fab. 31.</head>
+               <p>VVHo ſo committeth himſelfe to be preſerved of a tyran<g ref="char:EOLhyphen"/>nous man, in ſeeking ſuccour and aid, he findeth deſtruction. The Doves when as often they had eſca<g ref="char:EOLhyphen"/>ped the Kite, and had avoided death, with the ſwiftneſſe of wings, then the devourer turneth his counſell in<g ref="char:EOLhyphen"/>to ſubtiltie; and circumvented the unweaponed nation with ſuch like guile: Wherefore lead ye a miſera<g ref="char:EOLhyphen"/>ble life, rather then ye will create me King, league being confirmed, who may ſet you ſafe from all injury? they being too credulous, deliver themſelves to the Kite, who having obtained the kingdome, beginneth to eate every one, and to exerciſe his Empire with his cruell talons: then ſaith one of the reſt, deſerved<g ref="char:EOLhyphen"/>ly are we puniſhed.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:96870:39"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,636 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A satyr against wit</title>
+            <author>Blackmore, Richard, Sir, d. 1729.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-11">2003-11 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A28301</idno>
+            <idno type="STC">Wing B3085</idno>
+            <idno type="STC">ESTC R1140</idno>
+            <idno type="EEBO-CITATION">11875664</idno>
+            <idno type="OCLC">ocm 11875664</idno>
+            <idno type="VID">50219</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A28301)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50219)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 809:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A satyr against wit</title>
+                  <author>Blackmore, Richard, Sir, d. 1729.</author>
+               </titleStmt>
+               <extent>15 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Samuel Crouch ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>An attack in verse on the so-called "wits" of the time, Dryden and others, for their grossness and impiety.</note>
+                  <note>Part of names left blank in text have been supplied in manuscript.</note>
+                  <note>Attributed to Richard Blackmore. cf. BM.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>English wit and humor --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-08</date>
+            <label>Marika Ismail</label>Sampled and proofread</change>
+         <change>
+            <date>2003-08</date>
+            <label>Marika Ismail</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:50219:1"/>
+            <pb facs="tcp:50219:1"/>
+            <p>A SATYR AGAINST WIT.</p>
+            <p>The Second Edition.</p>
+            <p>LONDON:</p>
+            <p>Printed for <hi>Samuel Crouch,</hi> at the Corner of <hi>Pope's-Head-Alley,</hi> over against the <hi>Royal Exchange</hi> in <hi>Cornhill,</hi> 1700.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:50219:2"/>
+            <pb n="3" facs="tcp:50219:2"/>
+            <head>A Satyr against WIT.</head>
+            <lg>
+               <l>VVHO can forbear, and tamely silent fit,</l>
+               <l>And see his Native Land undone by Wit?</l>
+               <l>Boast not, <hi>Britannia,</hi> of thy happy Peace,</l>
+               <l>What if Campaigns and Sea-Engagements cease,</l>
+               <l>Wit, a worse Plague, does mightily encrease?</l>
+               <l>Some monstrous Crimes to Ages past unknown,</l>
+               <l>Have surely pull'd this heavy Judgment down.</l>
+               <l>Fierce Insect-Wits draw out their noisy Swarms,</l>
+               <l>And threaten Ruin more than Foreign Arms.</l>
+               <l>O'er all the Land the hungry Locusts spread,</l>
+               <l>Gnaw every Plant, taint every flowry Bed,</l>
+               <l>And crop each tender Virtue's tender Head.</l>
+            </lg>
+            <lg>
+               <l>How happy were the old unpolished Times,</l>
+               <l>As free from Wit as other modern Crimes?</l>
+               <l>As our Forefathers Vig'rous were and Brave;</l>
+               <l>So they were Virtuous, Wise, Discreet and Grave,</l>
+               <l>Detesting both alike the Wit and Knave.</l>
+               <l>They justly Wits and Fools believ'd the same,</l>
+               <l>And Jester was for both the common Name.</l>
+               <l>
+                  <pb n="4" facs="tcp:50219:3"/>Their Minds for Empire form'd would never quit</l>
+               <l>Their noble Roughness, and dissolve in Wit.</l>
+               <l>For Business born and bred to Martial Toil.</l>
+               <l>They rais'd the Glory of <hi>Britannia</hi>'s Isle.</l>
+               <l>Then she her dreadful Ensigns did advance,</l>
+               <l>To curb <hi>Iberia,</hi> and to conquer <hi>France.</hi>
+               </l>
+               <l>But this degenerate, loose and foolish Race</l>
+               <l>Are all turn'd Wits, and their great Stock debase.</l>
+               <l>Our Learning daily sinks, and Wit is grown</l>
+               <l>The senseless Conversation of the Town.</l>
+               <l>Enervated with this our Youth have <gap reason="illegible: blotted" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </l>
+               <l>That stubborn Virtue, which we once could boast.</l>
+               <l>The Plague of Wit prevails, I fear 'tis vain</l>
+               <l>Now to attempt its Fury to restrain.</l>
+               <l>It takes Men in the Head, and in the Fit</l>
+               <l>They lose their Senses, and are gone in Wit.</l>
+               <l>By various ways their Frenzy they express,</l>
+               <l>Some with loose Lines run haring to the Press,</l>
+               <l>In Lewdness some are Wits, some only Wits in Dress.</l>
+               <l>Some seiz'd like <hi>Gravar,</hi> with Convulsions strain</l>
+               <l>Always to say fine Things, but strive in vain,</l>
+               <l>Urg'd with a dry <hi>Tenesmus</hi> of the Brain.</l>
+            </lg>
+            <lg>
+               <l>Had but the People scar'd with Danger run</l>
+               <l>To shut up <hi>Wills,</hi> where first this Plague begun:</l>
+               <l>Had they the first infected Men convey'd</l>
+               <l>Strait to <hi>Moorfields,</hi> the Pest-house for the Head;</l>
+               <l>The wild Contagion might have been supprest,</l>
+               <l>Some few had fal'n, but we had sav'd the rest.</l>
+               <l>An Act like this had been a good Defence</l>
+               <l>Against our great Mortality of Sense.</l>
+               <l>But now th' Infection spreads, the Bills run high,</l>
+               <l>At the last Gasp of Sense ten thousand dy.</l>
+               <l>
+                  <pb n="5" facs="tcp:50219:3" rendition="simple:additions"/>We meet fine Youth in every House and Street,</l>
+               <l>With all the deadly Tokens out, of Wit.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Vannine</hi> that look'd on all the Danger past,</l>
+               <l>Because he scap'd so long, is seiz'd at last.</l>
+               <l>By Pox and Hunger and by <hi>D—<gap reason="illegible: blotted" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> bit</l>
+               <l>He grins and snarles, and in his dogged Fit</l>
+               <l>Froths at the Mouth, a certain Sign of Wit.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Craper</hi> runs madly midst the sickest Crowd,</l>
+               <l>And fain would be infected, if he cou'd.</l>
+               <l>Under the Means he lies, frequents the Stage,</l>
+               <l>Is very leud, and does at Learning rage.</l>
+               <l>Pity that so much Labour should be lost</l>
+               <l>By such a healthful Constitution crost.</l>
+               <l>Against th' Assaults of Wit his Make his proof,</l>
+               <l>Still his strong Nature works the Poison off.</l>
+               <l>He still escapes, but yet is wondrous pleas'd</l>
+               <l>Wit to recite, and to be thought Diseas'd.</l>
+               <l>So Hypocrites in Vice in this vile Town</l>
+               <l>To Wickedness pretend, that's not their own.</l>
+            </lg>
+            <lg>
+               <l>A Bantring Spirit has our Men possest,</l>
+               <l>And Wisdom is become a standing Jest.</l>
+               <l>Wit does of Virtue sure Destruction make;</l>
+               <l>Who can produce a Wit and not a Rake?</l>
+               <l>Wise Magistrates leud Wit do therefore hate,</l>
+               <l>The Bane of Virtue's Treason to the State.</l>
+               <l>While Honour fails and Honesty decays,</l>
+               <l>In vain we beat our Heads for Means and Ways</l>
+               <l>What well-form'd Government or State can last,</l>
+               <l>When Wit has laid the Peoples Virtue wast?</l>
+               <l>
+                  <pb n="6" facs="tcp:50219:4" rendition="simple:additions"/>The <hi>Mob</hi> of Wits is up to storm the Town,</l>
+               <l>To pull all Virtue and right Reason down.</l>
+               <l>Quite to subvert Religion's sacred Fence,</l>
+               <l>To set up Wit, and pull down common Sense.</l>
+               <l>Our Libraries they gut, and shouting bear</l>
+               <l>The Spoils of ruin'd Churches in the Air.</l>
+               <l>Their Captain <hi>Tom</hi> does at their Head appear,</l>
+               <l>And <hi>S—<gap reason="illegible: blotted" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> in his Gown brings up the Rear.</l>
+               <l>Aloud the Church and Clergy they condemn,</l>
+               <l>Curse all their Order, and their God blaspheme.</l>
+               <l>Against all Springs of Learning they declare,</l>
+               <l>Against Religion's Nurseries, and swear</l>
+               <l>They will no <hi>All—e, M—ll</hi> or <hi>Ch—t</hi> spare:</l>
+               <l>But the leud Crew affirm by all that's good</l>
+               <l>They'll ne'er disperse unless they've <hi>B—ly</hi>'s Blood.</l>
+               <l>For that ill-natur'd Critic has undone</l>
+               <l>The rarest Piece of Wit that e'er was shown.</l>
+               <l>Till his rude Stroaks had thresh'd the empty Sheaf,</l>
+               <l>We thought there had been something else than Chaff.</l>
+               <l>Crown'd with Applause this Master Critic sits,</l>
+               <l>And round him ly the Spoils of ruin'd Wits.</l>
+               <l>How great a Man! What Rev'rence were his due,</l>
+               <l>Could he suppress the Critic's <hi>Fastus</hi> too?</l>
+               <l>As certain Words will Lunaticks enrage,</l>
+               <l>Who just before appear'd sedate and sage.</l>
+               <l>So do but <hi>Lock</hi> or <hi>Books</hi> or <hi>Bentley</hi> name,</l>
+               <l>The Wit's in clammy Sweats, or in a Flame.</l>
+            </lg>
+            <lg>
+               <l>Horror and Shame! What would the Madmen have?</l>
+               <l>They dig up learned <hi>Bernard</hi>'s peaceful Grave.</l>
+               <l>The Sacred-Urn of famous <hi>Stilling fleet,</hi>
+               </l>
+               <l>We see prophan'd by the leud Sons of Wit.</l>
+               <l>The skilful <hi>Ty—n</hi>'s Name they dare invade,</l>
+               <l>And yet they are undone without his Aid.</l>
+               <l>
+                  <pb n="7" facs="tcp:50219:4" rendition="simple:additions"/>
+                  <hi>Ty—n</hi> with base Reproaches they pursue,</l>
+               <l>Just as his <hi>Moorfields</hi> Patients use to do.</l>
+               <l>For next to Virtue, Learning they abhor,</l>
+               <l>Laugh at Discretion, but at Business more.</l>
+               <l>A Wit's an idle, wretched Fool of Parts,</l>
+               <l>That hates all Liberal and Mechanick Arts.</l>
+            </lg>
+            <lg>
+               <l>Wit does enfeeble and debauch the Mind,</l>
+               <l>Before to Business or to Arts inclin'd.</l>
+               <l>How useless is a fauntring empty Wit,</l>
+               <l>Only to please with Jests at Dinner fit?</l>
+               <l>What hopeful Youths for Bar and Bench design'd,</l>
+               <l>Seduc'd by Wit have learned <hi>Coke</hi> declin'd?</l>
+               <l>For what has Wit to do with Sense or Law?</l>
+               <l>Can that in Titles find or mend a Flaw?</l>
+               <l>Can Wit supply great <hi>T—by</hi>'s nervous Sense?</l>
+               <l>Or <hi>S—r</hi>'s more than <hi>Roman</hi> Eloquence?</l>
+               <l>Which way has <hi>H—lt</hi> gain'd Universal Fame?</l>
+               <l>What makes the World thy Praises, <hi>F—ch,</hi> proclaim?</l>
+               <l>And charming <hi>P—s</hi> what advanc'd thy Name?</l>
+               <l>'Twas Application, Knowledge of the Laws,</l>
+               <l>And your vast Fund of Sense, gain'd you Applause.</l>
+               <l>The Law will ne'er support the bant'ring Breed,</l>
+               <l>A <hi>Sl—</hi> may sometimes there, but Wits can ne'er succeed.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>R—t—ffe</hi> has Wit, and lavishes away</l>
+               <l>More in his Conversation every Day,</l>
+               <l>Than would supply a modern Writer's Play.</l>
+               <l>But 'tis not that, but the great Master's Skill,</l>
+               <l>Who with more Ease can cure, than <hi>C—h</hi> kill,</l>
+               <l>That does the grateful Realm with his Applauses fill.</l>
+            </lg>
+            <lg>
+               <l>Thy Learning <hi>G—ns,</hi> and thy Judgment <hi>H—w,</hi>
+               </l>
+               <l>Make you in envy'd Reputation grow.</l>
+               <l>
+                  <pb n="8" facs="tcp:50219:5" rendition="simple:additions"/>This drew Invectives on you, all agree,</l>
+               <l>From the lean Small-craft of your Faculty.</l>
+               <l>Had you been Wits you had been both secure</l>
+               <l>From Business, and for Satyr too Obscure,</l>
+               <l>Ill-natur'd, Arrogant, and very Poor.</l>
+               <l>But let Invectives still your Names assail,</l>
+               <l>Your Business is to Cure, and theirs to Rail.</l>
+               <l>Let 'em proceed and make your Names a Sport</l>
+               <l>In leud Lampoons, they've Time and Leisure for't.</l>
+               <l>Despise their Spite, the Thousands whom you raise</l>
+               <l>From threaten'd Death will bless You all their Days,</l>
+               <l>And spend the Breath you sav'd, in just and lasting Praise.</l>
+               <l>But Wit as now 'tis manag'd would undo</l>
+               <l>The Skill and Virtues we admire in You.</l>
+               <l>In <hi>G—</hi> the Wit the Doctor has undone,</l>
+               <l>In <hi>S—d</hi> the Divine, Heav'ns guard poor <hi>Ad—son.</hi>
+               </l>
+               <l>An able Senator is lost in <hi>M—l,</hi>
+               </l>
+               <l>And a fine Scholar sunk by Wit in <hi>B—l.</hi>
+               </l>
+               <l>After his foolish Rhimes both Friends and Foes</l>
+               <l>Conclude they know, who did not write his Prose.</l>
+            </lg>
+            <lg>
+               <l>Wit does our Schools and Colleges invade,</l>
+               <l>And has of Letters vast Destruction made.</l>
+               <l>Has laid the Muses choicest Gardens wast,</l>
+               <l>Broke their Inclosures and their Groves defac't.</l>
+               <l>We strive in Jests each other to exceed,</l>
+               <l>And shall e'er long forget to Write or Read.</l>
+               <l>Unless a Fund were settled once that cou'd</l>
+               <l>Make our deficient Sense and Learning good,</l>
+               <l>Nothing can be expected, for the Debt</l>
+               <l>By this loose Age contracted, is so great,</l>
+               <l>To set the Muses mortgag'd Acres free,</l>
+               <l>Our Bankrupt Sons must sell out-right the Fee.</l>
+               <l>
+                  <pb n="9" facs="tcp:50219:5" rendition="simple:additions"/>The present Age has all their Treasure spent,</l>
+               <l>They can't the Int'rest pay at Five <hi>per Cent.</hi>
+               </l>
+               <l>What to discharge it can we hope to raise</l>
+               <l>From <hi>D—fy</hi>'s, or from Poet <hi>D—n—</hi>'s Plays,</l>
+               <l>Or <hi>G—th</hi>'s Lampoon with little in't but Praise?</l>
+            </lg>
+            <lg>
+               <l>O <hi>S—er, T—bot, D—set, M—gue,</hi>
+               </l>
+               <l>
+                  <hi>Gr—y, Sh—ld, C—d—sh, P—ke, V—n,</hi> you</l>
+               <l>Who in <hi>Parnassus</hi> have Imperial Sway,</l>
+               <l>Whom all the Muses Subjects here obey,</l>
+               <l>Are in your Service and receive your Pay;</l>
+               <l>Exert your Soveraign Power, in Judgment sit</l>
+               <l>To regulate the Nation's Grievance, Wit.</l>
+               <l>Pity the cheated Folks that every Day</l>
+               <l>For Copper Wit good Sterling Silver pay.</l>
+               <l>If once the Muses Chequer would deny</l>
+               <l>To take false Wit, 'twould lose its currency.</l>
+               <l>Not a base Piece would pass, that pass'd before</l>
+               <l>Just wash'd with Wit, or thinly plated o'er.</l>
+            </lg>
+            <lg>
+               <l>Set forth your Edict, let it be enjoyn'd</l>
+               <l>That all defective Species be recoyn'd.</l>
+               <l>
+                  <hi>St. E—m—t</hi> and <hi>R—r</hi> both are fit</l>
+               <l>To oversee the Coining of our Wit.</l>
+               <l>Let these be made the Masters of Essay,</l>
+               <l>They'll every Piece of Metal touch and weigh,</l>
+               <l>And tell which is too light, which has too much Allay.</l>
+               <l>'Tis true, that when the course and worthless Dross</l>
+               <l>Is purg'd away, there will be mighty Loss.</l>
+               <l>Ev'n <hi>C—e, S—n, Manly W—ly,</hi>
+               </l>
+               <l>When thus refin'd will grievous Suff'rers be.</l>
+               <l>Into the melting Pot when <hi>D—n</hi> comes,</l>
+               <l>What horrid Stench will rise, what noisome Fumes?</l>
+               <l>
+                  <pb n="10" facs="tcp:50219:6" rendition="simple:additions"/>How will he shrink, when all his leud Allay,</l>
+               <l>And wicked Mixture shall be purg'd away?</l>
+               <l>When once his boasted Heaps are melted down,</l>
+               <l>A Chest full scarce will yield one Sterling Crown.</l>
+               <l>Those who will <hi>D—n—s</hi> melt and think to find</l>
+               <l>A goodly Mass of Bullion left behind,</l>
+               <l>Do, as th' <hi>Hibernian</hi> Wit, who as 'tis told,</l>
+               <l>Burnt his gilt Leather to collect the Gold.</l>
+            </lg>
+            <lg>
+               <l>But what remains will be so pure, 'twill bear</l>
+               <l>Th' Examination of the most severe.</l>
+               <l>'Twill <hi>S—r</hi>'s Scales and <hi>T—bot</hi>'s Test abide,</l>
+               <l>And with their Mark please all the World beside.</l>
+            </lg>
+            <lg>
+               <l>But when our Wit's call'd in, what will remain</l>
+               <l>The Muses learned Commerce to maintain?</l>
+               <l>How pensive will our Beaus and Ladies sit?</l>
+               <l>They'll mutiny for want of ready Wit.</l>
+               <l>That such a failure no Man may incense,</l>
+               <l>Let us erect a Bank for Wit and Sense.</l>
+               <l>A Bank whose current Bills may Payment make,</l>
+               <l>Till new Mill'd Wit shall from the Mint come back.</l>
+            </lg>
+            <lg>
+               <l>Let <hi>S—er, D—set, Sh—ld, M—gue,</hi>
+               </l>
+               <l>Lend but their Names, the Project then will do.</l>
+               <l>The Bank is fixt if these will under-write,</l>
+               <l>They pay the vastest Sums of Wit at fight.</l>
+               <l>These are good Men, in whom we all agree,</l>
+               <l>Their Notes for Wit are good Security.</l>
+               <l>
+                  <hi>Duncombs</hi> and <hi>Claytons</hi> in <hi>Parnassus</hi> all,</l>
+               <l>Who cannot sink unless the Hill should fall.</l>
+               <l>Their Bills, tho' ne'er supported by Trustees,</l>
+               <l>Will through <hi>Parnassus</hi> circulate with ease.</l>
+               <l>
+                  <pb n="11" facs="tcp:50219:6" rendition="simple:additions"/>If these come in, the Bank will quickly fill,</l>
+               <l>All will be scrambling up <hi>Parnassus</hi> Hill.</l>
+               <l>They'll crowd the Muses Hall and throng to write</l>
+               <l>Great Sums of Wit, and will be Gainers by't.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>V—e</hi> and <hi>C—e</hi> both are Wealthy, they</l>
+               <l>Have Funds of Standard-Sense, need no Allay,</l>
+               <l>And yet mix'd Metal oft they pass away.</l>
+               <l>The Bank may safely their Subscriptions take,</l>
+               <l>But let 'em for their Reputation's sake,</l>
+               <l>Take care their Payments they in Sterling make.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Codron</hi> will under-write his <hi>Indian</hi> Wit,</l>
+               <l>Far-fetch'd indeed, so 'twill the Ladies fit.</l>
+               <l>By Hearsay he's a Scholar, and they say</l>
+               <l>The Man's a sort of Wit too in his way.</l>
+            </lg>
+            <lg>
+               <l>Let 'em receive whatever <hi>P—r</hi> brings,</l>
+               <l>In nobler Strains no happy Genius sings.</l>
+               <l>'Tis Complaisance when to divert his Friends,</l>
+               <l>He to <hi>facetious Fancies</hi> condescends.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>T—e</hi> will subscribe, but set no Payment-Day,</l>
+               <l>For his slow Muse you must with Patience stay,</l>
+               <l>He's honest, and as Wit comes in, will pay.</l>
+            </lg>
+            <lg>
+               <l>But how would all this new Contrivance Prize,</l>
+               <l>How high in value would their Actions rise?</l>
+               <l>Would <hi>Fr—k</hi> engraft his solid, manly Sense,</l>
+               <l>His Learning <hi>L—k, Fl—d</hi> his Eloquence.</l>
+               <l>The Bank when thus establish'd will supply</l>
+               <l>Small Places, for the little, loitt'ring Fry</l>
+               <l>That follow <hi>G—th,</hi> or at <hi>Will Vr—</hi>'s ply.</l>
+               <l>
+                  <pb n="12" facs="tcp:50219:7" rendition="simple:additions"/>Their Station will be low, but ne'ertheless</l>
+               <l>For this Provision they should Thanks express:</l>
+               <l>'Tis sad to be a Wit and Dinnerless.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>T—n</hi> the great Wit-Jobber of the Age,</l>
+               <l>And all the Muses Broakers will engage</l>
+               <l>Their several Friends to cry the Actions up,</l>
+               <l>And all the railing Mouths of Envy stop.</l>
+            </lg>
+            <lg>
+               <l>Ye Lords who o'er the Muses Realm preside,</l>
+               <l>Their Int'rests manage and their Empire guide;</l>
+               <l>Regard your Care, regard the sacred State</l>
+               <l>Laid by Invaders wast and desolate.</l>
+               <l>
+                  <hi>Tartars</hi> and <hi>Scythians</hi> have in barb'rous Bands</l>
+               <l>Riffled the Muses and o'er-run their Lands.</l>
+               <l>The Native Subjects who in Peace enjoy'd</l>
+               <l>The happy Seat, are by the Sword destroy'd.</l>
+               <l>Gardens and Groves <hi>Parnassus</hi> did adorn,</l>
+               <l>Condemn'd to Thistles now, and curst with Thorn.</l>
+               <l>Instead of Flowers and Herbs of wholsom use,</l>
+               <l>It does rank Weeds and pois'nous Plants produce.</l>
+               <l>Fitter to be for <hi>Witches</hi> a Retreat,</l>
+               <l>
+                  <hi>Owls, Satyrs, Monkies,</hi> than the Muses Seat.</l>
+               <l>Ev'n these debauch'd by <hi>D—n</hi> and his Crew,</l>
+               <l>Turn Bawds to Vice and wicked Aims pursue.</l>
+               <l>Therefore some just and wholesome Laws ordain,</l>
+               <l>That may this wild Licentiousness restrain.</l>
+               <l>To Virtue and to Merit have regard,</l>
+               <l>To punish learn, you know how to reward.</l>
+            </lg>
+            <lg>
+               <l>Let those Correction have, and not Applause,</l>
+               <l>That Heav'n affront and ridicule its Laws.</l>
+               <l>No sober Judge will Atheism e'er permit</l>
+               <l>To pass for Sense, or Blasphemy for Wit.</l>
+               <l>
+                  <pb n="13" facs="tcp:50219:7" rendition="simple:additions"/>Declare that what's Obscene shall give Offence,</l>
+               <l>Let want of Decency be want of Sense.<note place="margin">Roscom.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Send out your Guards to scow'r the Ways and seize</l>
+               <l>The Footpads, Outlaws, Rogues and Rapparees,</l>
+               <l>That in the Muses Country rob and kill,</l>
+               <l>And make <hi>Parnassus</hi> worse than <hi>Shooter</hi>'s Hill.</l>
+               <l>Poetic Justice should on these be shown,</l>
+               <l>Or soon the Muses State must be undone.</l>
+               <l>For now an honest Man can't peep abroad,</l>
+               <l>And all chast Muses dread the dangerous Road.</l>
+               <l>If in <hi>Parnassus</hi> any <hi>needy Wit</hi>
+               </l>
+               <l>Should filch and Petty Larceny commit,</l>
+               <l>If he should riffle Books, and Pilferer turn,</l>
+               <l>An Inch beside the Nose the <hi>Felon</hi> burn.</l>
+               <l>Let him distinguish'd by this Mark appear,</l>
+               <l>And in his Cheek a plain <hi>Signetur</hi> wear.</l>
+            </lg>
+            <lg>
+               <l>Chastise the Poets who our Laws invade,</l>
+               <l>And hold with <hi>France</hi> for Wit an Owling Trade.</l>
+               <l>Felonious <hi>G—</hi> pursuing this Design,</l>
+               <l>Smuggles <hi>French</hi> Wit, as others Silks and Wine.</l>
+               <l>But let his Suff'rings doubly be severe,</l>
+               <l>For he both steals it there, and runs it here.</l>
+            </lg>
+            <lg>
+               <l>Condemn all those who 'gainst the Muses Laws</l>
+               <l>Sollicit Votes, and canvas for Applause.</l>
+               <l>When <hi>Torman</hi> writes he rattles up and down,</l>
+               <l>And makes what Friends he can, to make the Town.</l>
+               <l>By Noise and Violence they force a Name,</l>
+               <l>For this leud Town has <hi>Setters</hi> too for Fame:</l>
+               <l>It is not Merit now that recommends,</l>
+               <l>But he's allow'd most Sense, that makes most Friends</l>
+               <l>
+                  <pb n="14" facs="tcp:50219:8" rendition="simple:additions"/>In Panegyrick let it be a Rule,</l>
+               <l>That for the Sense none praise a Wealthy Fool.</l>
+               <l>
+                  <hi>D—n</hi> condemn who taught Men how to make</l>
+               <l>Of Dunces Wits, an Angel of a Rake.</l>
+               <l>By Treats and Gifts our Youth may now commence,</l>
+               <l>Wits without Brains, and Scholars without Sense.</l>
+               <l>They cry up <hi>Darfel</hi> for a Wit, to treat</l>
+               <l>Let him forbear, and they their Words will eat.</l>
+               <l>Great <hi>Atticus</hi> himself these Men would curse,</l>
+               <l>Should <hi>Atticus</hi> appear without his Purse.</l>
+               <l>Of any Price you may bespeak a Name,</l>
+               <l>For Characters they cut, and retail Fame.</l>
+               <l>Bounty's the Measure of a Patron's Mind,</l>
+               <l>For they have still most Sense, that prove most kind.</l>
+               <l>Fame on Great Men's a Charge that still goes on,</l>
+               <l>For Wits, like Scriv'ners, take for <hi>Pro</hi> and <hi>Con.</hi>
+               </l>
+               <l>Without his Gold what generous <hi>Oran</hi> writ,</l>
+               <l>Had ne'er been Standard, sheer <hi>Athenian</hi> Wit.</l>
+            </lg>
+            <lg>
+               <l>Those who by Satyr would reform the Town,</l>
+               <l>Should have some little Merit of their own,</l>
+               <l>And not be Rakes themselves below Lampoon.</l>
+               <l>For all their Libels Panegyrick's are,</l>
+               <l>They're still read backward like a Witch's Pray'r.</l>
+               <l>
+                  <hi>Ell—t</hi>'s Reproofs who does not make his Sport?</l>
+               <l>Who'll e'er repent that <hi>S—d</hi> does exhort?</l>
+               <l>Therefore let Satyr-Writers be supprest,</l>
+               <l>Or be reform'd by cautious <hi>D—set</hi>'s Test.</l>
+               <l>'Tis only <hi>D—set</hi>'s Judgment can command,</l>
+               <l>Wit the worst Weapon in a Madman's Hand.</l>
+               <l>The Biting Things by that great Master said,</l>
+               <l>Flow from rich Sense, but theirs from want of Bread.</l>
+               <l>Whatever is by them in Satyr writ</l>
+               <l>Is Malice all, but his excess of Wit.</l>
+               <l>
+                  <pb n="15" facs="tcp:50219:8" rendition="simple:additions"/>To lash our Faults and Follies is his Aim,</l>
+               <l>Theirs is good Sense and Merit to defame.</l>
+               <l>In <hi>D—set</hi> Wit (and therefore still 'twill please)</l>
+               <l>Is Constitution, but in them Disease.</l>
+            </lg>
+            <lg>
+               <l>Care should be taken of the Impotent,</l>
+               <l>That in your Service have their Vigor spent.</l>
+               <l>They should have Pensions from the Muses State,</l>
+               <l>Too Old to Write, too Feeble to Translate.</l>
+               <l>But let the lusty Beggar-Wits that lurk</l>
+               <l>About the Hill, be seiz'd and set to Work.</l>
+               <l>Besides some Youths Debauches will commit,</l>
+               <l>And surfeit by their undigested Wit.</l>
+               <l>Th' intoxicating Draught they cannot bear,</l>
+               <l>It takes their Heads before they are aware.</l>
+               <l>Weak Brothers by Excesses it appears</l>
+               <l>Have oft been laid up Months, and some whole Years.</l>
+               <l>By one Debauch a tender Wit was try'd,</l>
+               <l>And he 'tis known was likely to have dy'd.</l>
+               <l>That neither Sick nor Poor you may neglect,</l>
+               <l>For all the Muses <hi>Invalids</hi> erect,</l>
+               <l>An Hospital upon <hi>Parnassus</hi> Hill,</l>
+               <l>And settle Doctors there of Worth and Skill.</l>
+               <l>This Town can numbers for your Service spare,</l>
+               <l>That live obscure and of Success despair.</l>
+               <l>
+                  <hi>Fracar</hi> has many sour Invectives said,</l>
+               <l>And Jests upon his own Profession spred,</l>
+               <l>And with good Reason, 'twill not find him Bread.</l>
+               <l>And some such Doctors, sure you may persuade</l>
+               <l>To labour at th' Apothecary's Trade.</l>
+               <l>They'll Med'cines make, and at the Mortar sweat,</l>
+               <l>Let 'em pound Drugs, they have no Brains to beat.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
