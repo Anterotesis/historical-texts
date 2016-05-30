@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ETS SYSTEM "http://www.lib.umich.edu/tcp/docs/code/eebo2prf.xml.dtd">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE>
+<DATE>2011-08-01</DATE>
+<RESPSTMT>
+<NAME>Louis Rosenberg</NAME>
+<RESP>MURP</RESP>
+</RESPSTMT>
+<ITEM>Checklist:
+xChange DATE, validate
+xAdd DIV TYPEs, validate
+xReview structure, use FRONT,BODY, BACK or rarely GROUP
+xCheck PB placement and completeness, ensure sequence of N=
+xProof title page(s)
+xAdd FIGDESC= to any and all likely illustrations.
+xCheck HEAD TRAILER ARGUMENT EPIGRAPH
+xCheck OPENER CLOSER SIGNED SALUTE BYLINE DATE
+xCheck <SUP>,</SUP> oe, abq, italic I / J, <SEG REND="decorInit">I</SEG>nitals, tb, space between &amp;c.
+xCheck hashes at signs -- UNCLEAR LB FIGURE
+xCheck frac; eogon; deg; BLANK
+xCheck GAP MISSING DUPLICATE
+xCheck for ▪
+xCheck ABBR, q-semi-colon, start-q end-q to remove them, look for Q that shouldn't be marked as such
+xCorrect errors from proof sample
+xCorrect illegibles from proof sample
+xCheck illegible page, para, line, span, word, dollar signs
+Skint if need be
+Run Check afterwards
+Look at html online view if need be
+Note that in Black Letter, every capital U must be changed to a V
+Look for lists, illustrations, tables, music, math, end-notes, quasi-tabular arrangments, and marginalia
+Look for unobtrusive numerations: Do they mark divs? milestones?
+Examine marginalia. Is it all best tagged as NOTE?
+If appropriate, check for yoghs
+If appropriate, check for Latin problems, e.g. oe and ae digraphs
+If appropriate, check for abbreviation and brevigraph problems (1500s)
+If appropriate, check for units of measure, symbols (alchemical, astronomical, etc.) and the like
+xFinal validate
+
+Corrected [ ] illegible groups out of [ ].
+Converted [0 ] illegible groups to GAP DESC="illegible".
+DONE</ITEM>
+</CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+<EEBO>
+<IDG S="marc" R="UM" ID="K004747.000">
+<STC T="C">N008053</STC>
+<BIBNO T="docno">CW3307557035</BIBNO>
+<VID SET="ECMS">0307600400</VID>
+</IDG>
+<TEXT LANG="eng">
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="1"/>
+<P>THE FAMILY PHYSICIAN: BEING A COLLECTION OF USEFUL FAMILY REMEDIES.</P>
+<P>TOGETHER WITH PLAIN and FULL DIRECTIONS for Administering them, and properly Nursing the Sick, where the Advice of a PHYSICIAN is difficult to be procured.</P>
+<P>To which is added, A SHORT ACCOUNT of those CASES in which BLEEDING and BLISTERS are really serviceable.</P>
+<P>BY HUGH SMITH, Apothecary, At the CHYMICAL WAREHOUSE, the upper End of Cheapside, leading into Newgate-Street, LONDON: WHERE The MEDICINES herein recommended, are faithfully prepared in Boxes, convenient for FAMILIES to take into the Country, and for those who use the SEA to take on Shipboard.</P>
+<P>The THIRD EDITION, with ADDITIONS.</P>
+<P>LONDON: Printed in the Year MDCCLXI.</P>
+<P>[Price One Shilling.]</P>
+<PB REF="2" MS="y"/>
+</DIV1>
+<DIV1 TYPE="preface">
+<PB REF="3"/>
+<HEAD>PREFACE.</HEAD>
+<P>THE intention of the following sheets is to direct a right use of those medicines which are necessary to be kept in families, whose distance from a good practitioner, or any other cir∣cumstance, renders an immediate application in sudden illnesses almost impossible, and occasions those delays in trifling complaints, which oftentimes prove of very bad consequence. It has been found by experience, for want of proper hints and directions in re∣spect to the doses of medicines, several fatal errors have been com∣mitted, either from the ignorance of persons themselves, or from being obliged to have recourse, for want of better, to the advice of nurses, and such good women, whose greatest skill extends to the making a posset for a sweat, or a plaster for a sore shin.</P>
+<P>THOSE captains of ships whose vessels are too small to allow of carrying a surgeon, and gentlemen whose business may call them to take a long voyage in such small vessels, or to travel by land through unfrequented or poor places, or those who are going to settle in any of his Majesty's plantations, will find a great advantage from being thus enabled to become their own physicians in cases of necessity; and we often see that Nature, with a little assistance, will free the constitution from disorders which are not too deeply rooted, or very malignant in the first attack. I would by no means be under∣stood to pretend that the medicines I here recommend, are infal∣lible in the respective disorders they are prescribed for, being for the most part such only as are to be found in the dispensatory of the college of physicians; where I have been under a necessity of compounding, I have attended to the practice of the principal phy∣sicians in town, and assume no further merit to myself than to care of selecting such medicines whose operations are the least dangerous. Thus far however I will venture to assert, that, by following these directions, which are plain and easy, and wrote in a stile fitted to the meanest capacity, perspicuity being always preferable to elegance in this kind of writing, the patient may, by
+<PB N="iv" REF="4"/>applying what is necessary in time, prevent those ills that follow from neglect, which good nursing and a few innocent things might at first remove.</P>
+<P>THOSE who have a knowledge in physic, and do not stand in need of my assistance, will in the boxes find many useful medi∣cines to be kept at hand, and may extend their practice, by giving me a catalogue of such others as they would chuse to have added.</P>
+<P>LADIES and gentlemen, who reside in the country, will hereby be enabled to assist their poor neighbours; which many of them I doubt not would take a pleasure in doing, did they but know what to apply.</P>
+<P>WITH each box of medicines may be had a box of scales and weights; each weight marked distinctly, that any person may at once adjust the proper quantity for a dose.</P>
+<P>As many people may chuse to keep by them what is proper for their own particular complaints, whom it may not suit to have the box complete, I think it necessary to mention, that any of the medicines here recommended may be had separate, or as many of them as agreeable, packed up in lesser boxes for the conveniency of carriage.</P>
+<P>N. B. LADIES closets are also fitted up with the choicest drugs, medicines and cordials, by</P>
+<CLOSER><SIGNED>Their obedient, very humble servant, HUGH SMITH.</SIGNED></CLOSER>
+</DIV1>
+<DIV1 TYPE="conversion table">
+<HEAD>WEIGHTS used in PRESCRIPTION.</HEAD>
+<LIST>
+<ITEM>A pound containing Twelve ounces.</ITEM>
+<ITEM>An ounce containing Eight drams.</ITEM>
+<ITEM>A dram containing Three scruples.</ITEM>
+<ITEM>A scruple containing Twenty grains.</ITEM>
+</LIST>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="text">
+<PB REF="5"/>
+<HEAD>THE FAMILY PHYSICIAN.</HEAD>
+<DIV2 TYPE="part">
+<HEAD>ASTHMATIC TINCTURE.</HEAD>
+<P><SEG REND="decorInit">T</SEG>HIS tincture is of use in a difficulty of breathing, tightness across the breast, and short coughs, parti∣cularly if brought on by cold north-easterly winds, which frequently affect the breast, sides, and lungs: it allays the cough, opens the chest, and loosens the phlegm, so that it easily comes away; and frees the pores of the skin which have been shut up by the winds.</P>
+<P>It may be taken as often as occasion requires, from thirty to sixty or eighty drops, in a little<NOTE N="*" PLACE="foot">See Page 15.</NOTE> pectoral drink or barley water, with which you should dilute plentifully, drinking it of the same heat as you would a dish of tea.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>ASTRINGENT ELECTARY.</HEAD>
+<P>NEVER be too hasty in the use of this electary; it is often found that a purging is the means made use of by Nature to carry off other complaints, or to free the body from bad humours, which might in time beget disorders; now, by stopping this wholesome
+<PB N="2" REF="6"/>drain too soon, these bad humours may be thrown back into the blood, and produce the worst consequences: therefore you will seldom or never err, by suffering the purging, if not over violent, to continue two or three days, at the end of that time, should you find the patient weakened by it, or that it is really a disorder it∣self, and not a cure for other disorders, then you may give a dose or two of rhubarb, and afterwards proceed to the use of the electa∣ry: by these means you will cleanse the stomach and bowels, and get rid of the complaint without any farther trouble.</P>
+<P>Fluxes, which seafaring people are subject to, are to be treated much in the same manner, but be very careful to cleanse the bowels first.</P>
+<P>Some of my friends who have been many years accustomed to the sea, recommend the<NOTE N="*" PLACE="foot">See p. 17.</NOTE> purging apozem before the use of astrin∣gents: they say it cools the body, and carries off every thing which is disagreeable to the bowels, better than rhubarb, or any other purge. After having cleansed the stomach and bowels of the filth which occasioned the disorder, by the one or other of these means, you will find ipecacuanha given with the astringent electary in very small quantities, viz. from half a grain to one or two grains, of infinite service; but this should be practised only by those who have some little knowledge in physic, and they will have the satisfaction to find the method here recommended will seldom, if ever, fail of success.</P>
+<DIV3 TYPE="dosage">
+<HEAD>ITS DOSE.</HEAD>
+<LIST>
+<ITEM>Above 14 years — from 2 scruples to 1 dram.</ITEM>
+<ITEM>Between 7 and 14 — from 1 scruple to 2 scruples.</ITEM>
+<ITEM>Between 3 and 7 — from 10 grains to 20 grains.</ITEM>
+</LIST>
+<P>Under three years old decrease the quantity in proportion.</P>
+<P>This may be given once in six or eight hours, or night and morn∣ing, as the case requires; either swallowed whole, or dissolved in a little hartshorn drink.</P>
+<PB N="3" REF="7"/>
+<P>Remember beer should be forbid; and<NOTE N="*" PLACE="foot">See hartshorn and gum, p. 10.</NOTE> hartshorn drink supply the place of other small liquors. Rice gruel is a proper food.</P>
+<P>Should this or any other of the electaries grow dry, they may be softened with a little syrup, or a spoonful of white wine.</P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>BALSAMIC ELECTARY</HEAD>
+<P>Is good in all tickling coughs, soreness at the breast, inward bruises, and such like complaints.</P>
+<P>The quantity of a nutmeg may be taken night and morning, and once or twice in the day besides, with a large draught of pectoral drink made hot after it.</P>
+<P>If costive, take a little of the opening electary, or a few spoonfuls of the purging apozem, as you judge most proper,</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>BARK.</HEAD>
+<P>THE febrifuge quality of this bark, and its peculiar efficacy in curing intermittent fevers, is now universally known, yet a two hasty use of it oftentimes proves prejudicial, a<NOTE N="†" PLACE="foot">A remittent fever is when at certain periods the fever is more violent than at others, but the patient never intirely free from it.</NOTE> remittent or con∣tinual fever being the consequence. You will seldom or never err, by giving a vomit first, and if the sick be of a full habit of body, you may also purge with safety; you will act more prudently by waiting till they have had four or five ague fits before you throw in the bark, giving a salt of wormwood<NOTE N="‡" PLACE="foot">See p. 19.</NOTE> draught once in six or eight hours, which will make the fits more regular, and prepare the blood for the bark. You should begin when the fever is gone intirely off, and give at least one ounce before you expect it to
+<PB N="4" REF="8"/>return<NOTE N="*" PLACE="foot">In low fenny countries, where the atmosphere is moist and foggy, it is some∣times necessary to give one ounce and a half of bark between the fits, but in general an ounce is sufficient.</NOTE>; half a dram, two scruples, or a dram may be given for a dose, as the stomach will bear it, the less you administer at a time the more frequent it must be repeated; for, unless you get the whole quantity down within the time you do nothing.</P>
+<P>The fit being put by, a second ounce should be taken in the like small doses within the three following days, at the distance of about six or eight hours; the patient may now rest six days, unless signs of the ague's return require the bark to be repeated sooner, when a third ounce is to be taken in like manner, a dose every six or eight hours; another week being elapsed, a fourth ounce is also to be administered, when you may take your leave of them, and be pretty well assured they will not be subject to a return.</P>
+<P>The common mixture to give it in may be made of three quarters of a pint of spring water, and a quarter of a pint of good French brandy, sweetened with a bit of sugar, a teacupful of which should be taken with each dose; mix the powder in a little of it, and drink the remainder after it.</P>
+<P>If it purges, which is oftentimes the case, it should be given in a little cinnamon tea; should that not answer, two, three, or four drops of laudanum must be added to each dose.</P>
+<P>If, on the contrary, the bark should bind, a few grains of rhu∣barb may be given with each dose as long as you see necessary.</P>
+<P>Above the age of fourteen it will require this quantity to cure the ague, under these years your judgment must direct you to de∣crease it; the manner of giving it must be exactly the same<NOTE N="†" PLACE="foot">We frequently, and with success, for children, and those of dellcate constitu∣tions, boil the bark a long while in water, and give the strained liquor instead of the powder in substance; the proportion is, an ounce in two or three pints of water, till you can pour off one.</NOTE>:
+<PB N="5" REF="9"/>sometimes, when the season is unfavourable, you may meet with cases which do not intirely give way to this treatment, if so, let them continue the following a fortnight or three weeks after∣wards.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>BARK WINE.</HEAD>
+<P>TAKE of bark, grossly powdered, two ounces, the yellow peel of two Seville oranges, and one nutmeg grated; pour three pints of old rough red port upon these ingredients; let them stand by a gentle fire, in a large bottle, for three or four days, shaking it frequently; then pour off a wine-glassful of the clear liquor at the time you take it, which should be morning, noon, and night; when you have taken one half, another pint of wine may be added, and kept upon the ingredients till the whole is taken, at least for ten days or a fortnight. A few drops of elixir of vitriol two or three times a day with the wine, or mixed in a glass of water, may be also serviceable.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>BARLEY WATER.</HEAD>
+<P>TAKE two table-spoonfuls of pearl barley, wash it, and boil it in half a pint of water for two or three minutes; pour away this water which will be coloured, and add about three pints of boiling water; let it simmer till one pint is consumed. This is a com∣mon and good drink in fevers and every other complaint when a soft diluting liquor is adviseable.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>COLIC MIXTURE.</HEAD>
+<P>THIS mixture is warm and comfortable to the stomach and bow∣els, somewhat opening, proper in colic complaints, and for the wind, particularly if after meals; it is likewise serviceable for pains in the stomach.</P>
+<P>Two or three table-spoonfuls may be taken at a time.</P>
+<PB N="6" REF="10"/>
+<P>But if the pain is very violent, and stools are much wanting, give of the purging apozem freely, or the opening electary.</P>
+<P>If there are too many stools, first give a little rhubarb, then use the astringent electary, which see.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>DIACHYLON PLASTER.</HEAD>
+<P>THE use of this plaster is well known in slight cuts, or other lit∣tle accidents; it should be spread with a warm knife upon a piece of fine rag or an old glove.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>DIURETIC MIXTURE.</HEAD>
+<P>THIS mixture is good in all gravelly complaints, and for the dropsy, heat of urine, pains in the loins, and stoppage of water. One large spoonful, or two upon an emergency, may be given for a dose, every six or eight hours, or night and morning as the case requires, mixed in half a pint of marshmallow drink, if you can procure it, if not, barley water. But observe, if the pain is vio∣lent, you will do right first to give the purging apozem to promote stools, and let them drink plentifully of thin water gruel, which will cleanse the bowels and urinary passages, and greatly assist the intention of this mixture. Remember the body should always be kept open; and those who are subject to these complaints, should accustom themselves to drink very plentifully of small liquors at all times<NOTE N="*" PLACE="foot">By small liquors, I would be understood to mean any liquor between water and twelve shilling table beer.</NOTE>, which will often of themselves perform a perfect cure.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>ELIXIR OF VITRIOL.</HEAD>
+<P>THIS is esteemed good to strengthen the stomach and bowels, to create an appetite and brace up the solids.</P>
+<DIV3 TYPE="dosage">
+<PB N="7" REF="11"/>
+<HEAD>ITS DOSE.</HEAD>
+<LIST>
+<ITEM>Above 14 years — from 20 to 30 drops.</ITEM>
+<ITEM>Between 7 and 14 — from 10 to 20.</ITEM>
+<ITEM>Under that age — from 5 to 7 or 8.</ITEM>
+</LIST>
+<P>It may be given in a little water, or wine and water; but where the patient can be brought to take it, a cup of chamomile tea is preferable to any other liquid whatever.</P>
+<P>The proper times for taking it are in a morning fasting, an hour before dinner, and two hours after dinner.</P>
+<P>When joined with the tincture of bark, it will be found to add considerably to the efficacy of that noble medicine.</P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>FEVER POWDER.</HEAD>
+<P>WHEN the skin is hot and parched, the tongue white, and other common signs of a fever, which every one is acquainted with, such as thirst, weariness, &amp;c. put them to bed, and give a dose of the fever powder every six or eight hours; let them drink freely of pec∣toral drink, barley water, or the like small liquors, to dilute the blood, and encourage a breathing sweat; if you find them mend un∣der this management, and the fever to disappear in a day or two, before you quit them, give the purging apozem, which will secure their health and add to your reputation. When they are young and very full of blood, and the pulse throbbing with great violence, it is a strong indication to bleed, to satisfy you more particularly in this point refer to the article <HI>Bleeding.</HI></P>
+<P>It will be frequently necessary under the above symptoms, parti∣cularly if costive, to give the purging apozem before the powder, thereby you cleanse the bowels and cool the body, but here your ob∣servation can alone direct you.</P>
+<DIV3 TYPE="dosage">
+<PB N="8" REF="12"/>
+<HEAD>ITS DOSE.</HEAD>
+<LIST>
+<ITEM>Above 14 years — from 12 to 30 grains.</ITEM>
+<ITEM>Between 7 and 14 — from 8 to 20.</ITEM>
+<ITEM>Between 1 and 7 — from 4 to 12.</ITEM>
+</LIST>
+<P>Within the months as your judgment directs.</P>
+<P>On the contrary, should the disorder not give way, unless you have some knowledge in physic, it will be most prudent, if you can have advice, to commit them to the care of some gentleman of the faculty, as you may conclude it is that kind of fever which will not yield to this simple method.</P>
+<P>Should I attempt to describe the various kinds of fevers, it would only puzzle the unskilful, therefore the above directions are suffici∣ent for those who stand in need of any assistance, to enable them frequently to render service, and prevent their ever doing any injury.</P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>FIT DROPS FOR CHILDREN.</HEAD>
+<P>THESE drops are very good against fits in general, for grown persons as well as children; but they are particularly serviceable to the latter, more especially in those fits which attend the cutting their teeth.</P>
+<P>From three to ten drops may be given for a dose to children under twelve months old, above that age increase the number as you think fit; grown people may take a large tea-spoonful for a dose.</P>
+<P>They may be given in black cherry water, or any other liquor, and repeated as often as necessity requires.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="9" REF="13"/>
+<HEAD>FRYAR'S BALSAM</HEAD>
+<P>IS applied to fresh wounds, and is esteemed good to stop bleed∣ing; be careful not to use it to old sores, as it frequently proves prejudicial.</P>
+<P>It is given internally, from ten to sixty drops, in a little powder∣ed sugar or a glass of water, in inward decays, bleedings or bruises, also in coughs and hoarseness.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>GASCOIGN'S POWDER.</HEAD>
+<P>THE reputation of this powder, so long established, renders it almost unnecessary to say any thing about its efficacy; its use among children is very common, to correct gripings, prevent aci∣dities, and remove little feverish heats; it is frequently, and with great propriety, joined with a few grains of rhubarb.</P>
+<P>A child within the month may take from 1 to 4 grains.</P>
+<LIST>
+<ITEM>Between 1 and 12 months — from 4 to 8.</ITEM>
+<ITEM>Between 1 and 5 years — from 8 to 12.</ITEM>
+</LIST>
+<P>Those who are more advanced in life from 10 to 30.</P>
+<P>It may be taken every six or eight hours, us you see necessary.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>GARGLE FOR SORE THROATS.</HEAD>
+<P>TAKE half a pint of pectoral drink, two spoonfuls of virgin ho∣ney, and a like quantity of the best white wine vinegar; let the throat be gargled frequently with this, as hot as you can bear it. If the glands are much swelled, so as to render it difficult to swallow, and the patient is very hot and feverish, with a full quick pulse, refer to the article <HI>Bleeding,</HI> and give the purging apozem to open the body three or four times, then let him take the fever powder, and dilute very plentifully with pectoral drink, or the like.</P>
+<PB N="10" REF="14"/>
+<P>If, on the contrary, there is a small fluttering pulse (sometimes rather quick) with specks in the throat, and it looks discoloured, give wine and cordial things.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>GLAUBER'S SALTS.</HEAD>
+<P>THIS salt is seldom taken alone, except by common people who cannot afford to join manna with it, which not only makes it more palatable, but prevents the roughness of its operation.</P>
+<P>From ten years old its dose is from half an ounce to one ounce, with an equal quantity of manna (some people add a double quantity of manna) dissolved in a little water, water gruel, or sena tea, but the best form is the purging apo∣zem, which see.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>HARTSHORN DROPS</HEAD>
+<P>ARE given in faintings, and esteemed good to thin the blood, its known use renders a more minute detail unnecessary.</P>
+<P>The dose is from ten to sixty drops, in any liquid you please.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>HARTSHORN AND GUM.</HEAD>
+<P>POUR three pints of water on each paper of hartshorn and gum, let it boil till you can strain off a quart, which should be poured through piece of a fine rag, or a lawn sieve, just before you take it from the fire, you may add a crust of bread and a bit of cinnamon, if agreeable; it may be sweetened to your palate. This is the proper drink to be used in common for purgings, after a little rhubarb or something of that kind has been given.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="11" REF="15"/>
+<HEAD>HEART-BURN LOZENGES.</HEAD>
+<P>ONE of them may be kept in the mouth as often as agreeable; if costive a few grains of rhubarb should be taken, or a little magnesia alba.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>HIERA PICRA</HEAD>
+<P>IS a warm physic, good for disorders in the stomach, and parti∣cularly in female complaints.</P>
+<P>Its dose from one table spoonful to four, at bed time or in a morning.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>HYSTERIC MIXTURE.</HEAD>
+<P>THIS mixture may be taken from a tea-spoonful to a table-spoonful, which is the proper dose for a grown person, in any hysterical complaint; it should be mixed with a little water, or with a cup of hysteric and pennyroyal water, being too strong to take alone.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>JAUNDICE ELECTARY.</HEAD>
+<P>WHERE it has not been preceded by the colic, nor is attended with a fever or bleedings, it is most likely to proceed from a slug∣gish, viscid bile; in which case the cure is easy, and may be ef∣fected in the following manner: the symptoms every one knows are a yellowness of the skin and upon the whites of the eyes, high-coloured urine and white stools, an inactivity, weariness, oppressi∣on of the spirits, and loss of appetite.</P>
+<PB N="12" REF="16"/>
+<P>First give a gentle vomit of ipecacuanha, the following morn∣ing let them be purged four or five times with the purging apozem, which should be repeated every fourth or fifth day; on the inter∣mediate days of purging give them the quantity of a nutmeg of this electary, night and morning, with a salt of wormwood draught af∣ter it; let them dilute plentifully with lemonade, and live upon light food. This method will quickly restore their colour, strength and spirits.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>IPECACUANHA</HEAD>
+<P>IS a gentle vomit, and may, where there is occasion, be safely given to children. I am afraid it is in general rather over-dosed, whereby the patient is sometimes injured by straining more vio∣lently than their stomach and constitution will bear. I am con∣vinced from experience, that a few grains will operate on many people far better than large doses. The best way of administering it to children, and indeed to every body, is to give three, four, five, or six grains, mixed in a little water or chamomile tea; and, if it does not take effect in ten minutes or a quarter of an hour, repeat the same quantity. This method will certainly prevent the bad consequences sometimes attending violent vomits, and make the operation more easy and pleasant.</P>
+<P>Let them drink thin water gruel, chamomile tea, or the like, to work it off.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>FOR THE ITCH.</HEAD>
+<P>AN ointment made of one third part of flowers of sulphur, and two thirds hog's-lard rubbed in night and morning where it appears, is a safe and certain cure, though perhaps not so expeditious
+<PB N="13" REF="17"/>as mercurial preparations, but they have no place here<NOTE N="*" PLACE="foot">I have not put up any thing for the itch, and some other complaints that need no immediate assistance, or require more experience than the generality of my read∣ers are acquainted with, such as the small pox, measles, &amp;c. in which the constitu∣tion and symptoms must vary the practice. Particular medicines in these complaints, setting the almost impossibility of giving clear directions aside, would swell the box too large and answer little or no end; my greatest care through the whole being to prevent mischief in improperly administering medicines, and I should be fearful in these cases the bold unskilful practitioner might oftentimes be puzzled, to the detri∣ment of his patient; and those who are capable of rendering service, will find me∣dicines in the box to answer their intention in most disorders.</NOTE></P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>LAUDANUM.</HEAD>
+<P>I HAVE directed the use of this with the bark; a few drops may also be joined with the astringent electary, if the purging is obsti∣nate, and does not readily give way: it is likewise proper in many other cases; but I would not have the unexperienced be too free with it, therefore shall say no more.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>MAGNESIA ALBA</HEAD>
+<P>IS a medicine strongly recommended by many writers, particu∣larly for young children.</P>
+<P>It corrects acidities in the stomach more powerfully than chalk, oyster-shells, pearls, coral, crabs eyes, or the like testaceous pow∣ders; and, joined to this, it has a gentle purgative property, and is the only one of an alkaline nature at present made use of; it is al∣so serviceable in the heart-burn.</P>
+<P>It may be given to children from twenty grains to a dram, or even two drams in a day, a little at a time, mixed in their food; grown people may take it more freely.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>MANNA</HEAD>
+<P>IS a gentle purge, which affects only the stomach and bowels; it is in much esteem for children, and given from one or two drams
+<PB N="14" REF="18"/>to one ounce; grown people may take one ounce and a half or two ounces, without stirring them, for which reason it is quickened with Glauber's salts, which see.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>MARSHMALLOW DRINK.</HEAD>
+<P>TAKE a quarter of a pound of marshmallow roots washed very clean, and boil them in three quarts of water until one is consumed, remove it from the fire, and, when cold, decant off the liquor; if you do not think the thickness disagreeable, it will be more effica∣cious by pressing the roots; it may be sweetened with virgin honey. This may be drank at pleasure, and is recommended in all cases where a soft lubricating regimen is proper; it is much esteemed for the gravel and heat of urine.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>NERVOUS TINCTURE.</HEAD>
+<P>NERVOUS complaints are too common in England to need a particular description, in all kinds of them this tincture is very ser∣viceable; it is likewise proper in lowness of spirits, faintings, and hysterical cases, giving strength and chearfulness, and raising the depressed spirits. The dose is from one to two tea-spoonfuls, two or three times a day, in a glass of wine and water, or valerian tea.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>OIL OF ROSES.</HEAD>
+<P>THIS is an excellent outward remedy for all parts in a state of inflammation, especially when attended with great pain; in which case it is also proper to refer to <HI>Bleeding,</HI> and the purging apozem.</P>
+<P>The method of applying it is by rubbing it in with a warm hand.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="15" REF="19"/>
+<HEAD>OILY EMULSION.</HEAD>
+<P>TAKE four large spoonfuls of oil of almonds, half a pint of cold barley water, two drams of fine sugar, in powder, and sixty drops of spirit of hartshorn; shake them well together, and the whole im∣mediately becomes a white emulsion; two spoonfuls of cinnamon water being added, will make it very palatable.</P>
+<P>It is good in stitches and pleuritic pains in the side and breast, hoarseness, coughs, &amp;c.</P>
+<P>A tea-cupful may be taken frequently.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>OPENING ELECTARY.</HEAD>
+<P>THIS electary gently relaxes the belly, without causing sickness or gripings, which quick purges are apt to do.</P>
+<P>When intended only to open the body, for a grown person, the dose is the quantity of a nutmeg at bed-time; if designed to purge more brisk, repeat the dose in the morning.</P>
+<P>It may be given to children in a proportionably less degree and proves a good physic, particularly where they are troubled with phlegm.</P>
+<P>If more agreeable in a liquid form, you may dissolve it in a small quantity of any weak drink.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>OPODELDOC</HEAD>
+<P>IS very serviceable in bruises or strains; it should be rubbed in with the warm hand three or four times a day.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="16" REF="20"/>
+<HEAD>PALSY DROPS.</HEAD>
+<P>IN all cases where a heaviness hangs upon the spirits, with a drowsiness, dizziness, or swimming of the head, these drops are equally serviceable as in the palsy; all these complaints proceeding from the same bad disposition of the blood.</P>
+<P>The dose is from one to two tea spoonfuls, two or three times a day, in a glass of wine and water, or valerian tea.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>PARALYTIC OR PALSY-LINIMENT.</HEAD>
+<P>THIS liniment is good in all paralytic complaints, likewise where a stiffness and numbness remain after the rheumatism; it will remove those acute rheumatic pains which seize the limbs on taking cold, and oftentimes proves a cure for the sciatica or hip gout: its warm stimulating quality puts the part rubbed with it into a glow, frees the pores of the skin, and, by quickening the circulation, removes those obstructions which were the cause of pain.</P>
+<P>It should be applied, night and morning, with a warm hand, if before the fire the better, and the part afterwards covered with a piece of warm flannel; where the disorder does not give way, let the palsy drops be taken also.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>PECTORAL DRINK.</HEAD>
+<P>TAKE two table-spoonfuls of pearl barley, boil it two or three minutes in half a pint of water, pour away that water, and add a quart and half a pint of fresh water to the barley, let it boil ten minutes; then add twenty stoned raisins, and one fig cut into slices, also a bit of stick liquorice as long as your finger; let these boil together a few minutes, and strain off a quart of the pectoral drink.</P>
+<PB N="17" REF="21"/>
+<P>This is an agreeable soft liquor, good in any case where the in∣tention is to dilute; but more especially in coughs, colds, oppres∣sions of the breast, and such like complaints.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>PILE ELECTARY.</HEAD>
+<P>TAKE the quantity of a nutmeg of this electary night and morning, so as to keep the body gently open; avoid pepper and all heating things, little or no wine should be drank, and your food must be of the lighter and vegitable kind.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>PILE LINIMENT.</HEAD>
+<P>IF the piles are external, apply a little of this liniment upon a piece of fine rag very frequently, which will cool the part, and procure ease. Setting over the steam of warm water is frequently serviceable, especially if an handful or two of marshmallow leaves and a little bran be added.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>POWDER FOR SWEATS.</HEAD>
+<P>INEED not point out the particular circumstances in which this is necessary, every one being sensible how much it is of service in colds, achs, and pains in the bones, and the like complaints.</P>
+<DIV3 TYPE="dosage">
+<HEAD>ITS DOSE.</HEAD>
+<P><TABLE>
+<ROW>
+<CELL>Above the age of 14 —</CELL>
+<CELL>from 20 to 30 grains.</CELL>
+</ROW>
+<ROW>
+<CELL>Between 7 and 14 years —</CELL>
+<CELL>from 10 to 20</CELL>
+</ROW>
+</TABLE></P>
+<P>Under seven years old decrease the quantity as your judgment directs; let it be taken at bed-time, with a large draught of white wine whey, or something of that kind, and, if very hard to sweat, twenty or thirty drops of spirits of hartshorn or sal volatile in it; but observe, if there is any fever, the fever powder is most proper.</P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="18" REF="22"/>
+<HEAD>PURGING APOZEM.</HEAD>
+<P>POUR a pint of boiling water upon one ounce of Glauber's salts, one ounce of manna, and one dram of bruised caraway seeds; stir them a little to dissolve the manna and salts, cover the vessel, and let it stand to cool; you may, if you please, add a little slice of Se∣ville orange peel to the above.</P>
+<P>This is the best method I know of disguising the salts, and ma∣king them sit easy upon the stomach.</P>
+<P>Of the strained liquor a draught may be taken in the morning, and repeated once in half an hour or an hour, as the stomach will bear it, till it purges sufficiently. The age of the person must be consi∣dered; and, as you know the strength of the apozem, it will be ea∣sy to adjust the dose.</P>
+<P>If intended only to relax the body, a few spoonfuls taken at bed∣time, or in the morning, will have the desired effect.</P>
+<P>A less quantity may at any time be prepared as you find occasion for it.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>QUICK PURGING POWDER.</HEAD>
+<P>IN many cases, such as dropsical and gross habits of body, foul∣ness of stomach (when a vomit is sometimes previously to be taken) and for people of strong constitutions, who live much upon a flesh di∣et and salt provisions, where you think manna and salts are not pow∣erful enough; and even to younger persons whom you want to purge very briskly, this purging powder is recommended, and may be gi∣ven in a little of any liquor.</P>
+<DIV3 TYPE="dosage">
+<HEAD>ITS DOSE.</HEAD>
+<P><TABLE>
+<ROW>
+<CELL>Above the age of 14 —</CELL>
+<CELL>from 25 grains to 2 scruples.</CELL>
+</ROW>
+<ROW>
+<CELL>Between 7 and 14 —</CELL>
+<CELL>from 15 grains to half a dram.</CELL>
+</ROW>
+<ROW>
+<CELL>Between 3 and 7 —</CELL>
+<CELL>from 6 grains to 1 scruple.</CELL>
+</ROW>
+</TABLE></P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="19" REF="23"/>
+<HEAD>RHEUMATIC POWDER.</HEAD>
+<P>THIS powder may be given night and morning, from one to two scruples, with twenty or thirty drops of sal volatile, in white wine whey, sage tea,<NOTE N="*" PLACE="foot">I must not omit noticing an egregious and common error in making these herb teas for a sick person, that is, the putting such a large quantity of leaves and stalks into a pot and letting water stand upon it three or four hours, which is the general method used by nurses and attendants; it not only makes the drink nauseous, but, in many inflammatory cases, it proves very prejudicial, for instead of being the cooling draught which is adviseable, it is become so hot by the pungency of the herbs, that it absolutely adds fuel to the fire. Put from 10 to 20 leaves, according to the strength of different herbs into a pot, and pour upon them a quart of boiling water, after standing three or four minutes (just as you manage your green tea) pour it out into a bason to cool, by this means you have the fine flavour of the plant, and, I am convinced, many people will find herbs which our own climate produces, such as sage, mint, balm, ground-ivy, &amp;c. thus properly managed, produce a more grateful liquor than that tea so commonly used in England, and for which we pay so extra∣vagant a price.</NOTE> or any small liquor.</P>
+<P>The dose should be increased or diminished, so as to keep the body open; if the pains are very violent, and the pores of the skin shut up by preceding colds, let the paralytic liniment be used.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>RHUBARB POWDER.</HEAD>
+<P>ALL physicians agree in the excellency of this root; it is a good purge in many complaints, and strengthens the stomach and bowels; it is particularly recommended for children, more especially for the worms, as it purges off those crudities in which they breed.</P>
+<DIV3 TYPE="dosage">
+<HEAD>ITS DOSE.</HEAD>
+<P><TABLE>
+<ROW>
+<CELL>Above 14 years —</CELL>
+<CELL>from 15 to 30 grains.</CELL>
+</ROW>
+<ROW>
+<CELL>Between 7 and 14 —</CELL>
+<CELL>from 10 to 20 grains.</CELL>
+</ROW>
+<ROW>
+<CELL>Between 1 and 7 —</CELL>
+<CELL>from 5 to 15 grains.</CELL>
+</ROW>
+<ROW>
+<CELL>Within the months —</CELL>
+<CELL>from 1 to 5 grains.</CELL>
+</ROW>
+</TABLE></P>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="20" REF="24"/>
+<HEAD>SALOP</HEAD>
+<P>Is of late years brought into much esteem in England; it is of a restorative and strengthening quality<NOTE N="*" PLACE="foot">Salop, like most other things for which there is a large demand, to enable the trader to sell cheap, is very frequently much adulterated. I am afraid the greatest part of what is commonly sold for powder of salop, will be found to have in it a con∣siderable quantity of starch and gum arabic, which ought to put people upon their guard where they purchase it; for, although the virtues of the true are undeniable, the adulterated must fall short of its excellency, and the false in appearance, if art∣fully managed, will deceive very good judges.</NOTE>; many ladies, whom I have had the honour to recommend it to, of tender constitutions, where tea has been found to prey over-much upon a week stomach and where more nourishment has been necessary than they received from their ordinary food, eat it in a morning for breakfast; and I must confess it would much please me to see it more universally re∣ceived, particularly by those who are subject to nervous complaints, being in its own nature very strengthening, easy of digestion, and, in the manner here recommended, affords a great deal of nourish∣ment in an impoverished state of blood; therefore the properest food that can be received after a severe fit of sickness, whereby the patint is much weakened.</P>
+<P>The common way of preparing it is with water, and a glass of wine added to it, but the method I think far preferable is this:</P>
+<P>Boil half a pint of milk with as much water, while it is in a boil∣ing state, let two tea-spoonfuls of the powder of salop, first mixed in a bason with a spoonful or two of cold water, be thrown into it; after it has simmered a minute or two, stirring it the while, you will find the whole of a smooth creamy consistence; a bit of sugar, and a little nutmeg may be added to make it palatable. Those whom milk is apt to render costive, should mix the salop with the water alone as above directed, and add the milk to it after it is ta∣ken from the fire.</P>
+<PB N="21" REF="25"/>
+<P>We all know how serviceable a milk diet is in many cases; by this method it will agree with them, upon whose stomach it other-ways turns sour and curdles.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SALT OF WORMWOOD DRAUGHT.</HEAD>
+<P>TAKE a scruple of salt of wormwood, pour upon it by little and little fresh lemon juice, till it has done fermenting and tastes quite insipid, about one large spoonful is sufficient; then add a little fine sugar to make it palatable, about a wine-glass of spring or barley water, and a pap-spoonful of cinnamon water, makes a most plea∣sant draught.</P>
+<P>Above the age of fourteen, it may be given once in six or eight hours, in any little feverish complaints, sickness at stomach, watch∣ings, parched dryness of the mouth, and such-like ills, and is often preferable to the fever powder. From seven to fourteen years, half a draught is sufficient; under that age still decrease the quantity.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SAL VOLATILE.</HEAD>
+<P>THE use of these drops is so common and well known for raising the spirits, that I need only take notice of its dose, which is from ten to sixty drops, in a glass of water, or what you please.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SCORBUTIC ELIXIR.</HEAD>
+<P>THIS preparation is in an especial manner devoted to the relief of scorbutic disorders. It is of a scouring nature, breaks and divi∣des all obstructions of the glands proceeding from a more than or∣dinary thickness of the blood, and, by restoring the mass to a due state of fluidity, prevents those feverish dispositions which naturally arise from any hindrance in the necessary secretions, such as urine, stool, &amp;c. It is a great promoter of urine, and a great quickener of the motions of the fluids; it may be likewise serviceable in an
+<PB N="22" REF="26"/>unwieldy habit from sluggish humours, and help to throw off a dropsy. From fifteen drops to two tea-spoonfuls may betaken to or three times a day, in a draught of sage tea or any other liquor, and continued for some time.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SENA TEA.</HEAD>
+<P>THE usual method of preparing this, is, by putting as much of the sena leaves as your thumb and two fingers will contain into a tea∣pot, and pouring upon it a gill of boiling water; when cold, pour out the liquor, which will be strong enough to give a grown person a stool or two.</P>
+<P>A little manna and salts may be dissolved in this sena tea, which makes it operate brisker.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SNUFF FOR THE HEAD-ACH.</HEAD>
+<P>THIS snuff may be safely used in all complaints of the head. It is prepared from herbs which have a particular efficacy in those cases, as is manifest from the infinite service received from it, in old and settled pains of the head.</P>
+<P>It may be taken as freely as you please.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SPERMA CETI BOLUS.</HEAD>
+<P>Take of sperma ceti one scruple, of fever powder ten grains, make these into a bolus with a sufficient quantity of syrup, to be taken once in six or eight hours, with a little penny-royal and hysteric water, in lying in cases and miscarriages, in either of which where the pains are violent you may add three, four, or five drops of Lau∣danum to each bolus; remember also to prevent costiveness either by gentle clysters, a little sena tea, or some other mild purga∣tive.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="23" REF="27"/>
+<HEAD>SPERMA CETI EMULSION.</HEAD>
+<P>TAKE two drams of the powder of sperma ceti, rub it in a mar∣ble mortar, with a quarter part of the yolk of one egg, till it is a smooth pulp; then add two drams of fine sugar in powder, mix them well together, and by little and little pour on half a pint of cold barley water; strain it through a fine hair or coarse lawn sieve, which will keep back the undissolved part of the sperma ceti, and render the emulsion smooth and even; to the whole you may add two spoonfuls of cinnamon water.</P>
+<P>A wine-glass may be taken as often as agreeable, in coughs, hoarseness, when troubled with flegm, or any of the like complaints; also in the hooping cough, when, if they are feverish, you should join a little fever powder with it, and purge them with rhubarb or the quick purging powder once in four or five days; you may likewise give the stomach tincture between breakfast and dinner and between dinner and supper: gentle vomits are oftentimes also serviceable.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SPERMA CETI AND SUGAR CANDY.</HEAD>
+<P>THIS may be taken at pleasure, when troubled with a cough or hoarseness, difficulty of breathing, or with phlegm; it is often of some service, and so innocent, it can do no harm even to young children.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>SPIRIT OF LAVENDER</HEAD>
+<P>IS used in lowness of spirits as a cordial; it is also given in faintings and pains in the head; and may be taken frequently, from ten to sixty drops, on a lump of sugar, in wine and water, or any other liquor.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<PB N="24" REF="28"/>
+<HEAD>STEEL ELECTARY.</HEAD>
+<P>IN female obstructions this electary may be given, from half a dram to one dram, night and morning, in the form of a bolus, or made into pills, as is most agreeable, drinking a cup of cold chamo∣mile flower tea, or a little penny-royal and hysteric water; if you have reason to think physic is proper, give a dose of hiera picra; at bed-time, let the feet be bathed in warm water for ten minutes, then wipe them very dry, and, if the weather is cold, wrap them up in a piece of flannel.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>STOMACH TINCTURE.</HEAD>
+<P>THIS tincture is highly proper in a weakness of the stomach, loss of appetite, or bad digestion; as a bitter, it frequently contributes to the destroying of worms; and not only excites the sense of hun∣ger, but, by its warm aromatic property, at the same time that it gives a grateful sensation, strengthens the coats of the stomach, which by any cause may have been weakened, and renders it more able to break and digest the food taken in for the nourishment of the body.</P>
+<P>The dose for a grown person is from one to two tea-spoonfuls, an hour before dinner, and three hours after dinner, in a glass of water; those who are accustomed to drink wine, may add an equal quantity to the water.</P>
+<P>When given to children for the worms, it should be taken the first thing in the morning, and last at bed-time, in a little water or chamomile flower tea.</P>
+<P>A child of seven years old may take a tea-spoonful for a dose; un∣der that age decrease the quantity as your judgment directs.</P>
+<PB N="25" REF="29"/>
+<P>If you have reason to imagine the stomach is foul, let a gentle puke of ipecacuanha be taken before the use of this tincture.</P>
+<P>If inclined to be costive, now and then at bed-time take a dose of the opening electary, or a few grains of rhubarb.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>STRENGTHENING PLASTER.</HEAD>
+<P>A PIECE of this plaster may be applied in any wrench or strain, weakness of the loins, or other parts.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>TO MAKE A SYRUP.</HEAD>
+<P>DISSOLVE a pound of sugar in half a pint of water, over a gentle fire, in an earthen pipkin; let it simmer one minute or two, take off the scum, and preserve the syrup, which is proper to soften the electaries when they grow dry, to make up pills or bolusses, and to give children their powders in.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>TINCTURE OF BARK.</HEAD>
+<P>THIS is serviceable in many complaints, in weak and relaxed habits of body, flushings and hectic heats; it checks profuse sweats, and braces up the solids; it is highly proper in all kinds of bleedings, but more efficacious when joined with a fourth part of elixir of vitriol.</P>
+<P>It may be given on any emergency; when taken for a constancy, the proper hours are the same as for elixir of vitriol, which see.</P>
+<P>The dose is from one to two tea-spoonfuls in any liquor.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>TOOTH POWDER FOR THE SCURVY IN THE GUMS.</HEAD>
+<P>THIS powder eleanses and preserves the teeth and gums, takes off scales and all kind of filth without injuring the enamel, which gritty powders are apt to do.</P>
+<PB N="26" REF="30"/>
+<P>It should be used with a piece of spunge, every thing which is hard or rough being prejudicial, as they destroy the enamel, when the teeth must necessarily decay.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>TURNER'S CERATE</HEAD>
+<P>IS commonly used for burns, cuts, scalds, bruises, chilblains, and other little complaints where the skin is worn off, and is so well known I need not be more particular.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>VALERIAN ROOT</HEAD>
+<P>IS of late years come into great esteem in all nervous disorders; of the bruised root they make a tea in the same manner as sena tea, and drink it three or four times a day, which is a proper thing to take the nervous tincture in, being of itself I am afraid not effec∣tual, as the quantity of the root given in this manner, or in the tincture prepared from it, is too trifling to have any great depend∣ence upon.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>VALERIAN ROOT IN POWDER.</HEAD>
+<P>IF you intend to reap benefit from it, you must take it in pretty large quantities. It is usually given from half a dram to one dram, in a little liquor of any kind, and should be repeated once in six or eight hours.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>YELLOW BASILICON</HEAD>
+<P>IS made use of in cases which require more discharge than the Turner's cerate will promote, but in a great measure applied for the same intention.</P>
+</DIV2>
+<DIV2 TYPE="part">
+<HEAD>WORM POWDER.</HEAD>
+<P>THIS powder should be taken the very first thing early in the morning, and the last at bed-time, at least one hour after supper, mixed in a little honey, currant jelly, or somewhat of the like
+<PB N="27" REF="31"/>nature, and where it is not a spoiled child, let a cupful of cold camomile tea, or water with a tea-spoonful of the stomach tinc∣ture, be drank after it. This will keep them open; nevertheless, in most cases you should purge once in four or five days; for very young children rhubarb is proper; should that not prove strong enough, the quick purging powder may be given; but where they are older and will take it, cleanse their bowels with the purging apozem.</P>
+<DIV3 TYPE="dosage">
+<HEAD>ITS DOSE.</HEAD>
+<LIST>
+<ITEM>Above 14 years — from 25 grains to 2 scruples.</ITEM>
+<ITEM>Between 7 and 14 — from 1 scruple to half a dram.</ITEM>
+<ITEM>Between 3 and 7 — from 12 grains to 1 scruple.</ITEM>
+<ITEM>Between 1 and 3 — from 6 to 12 grains.</ITEM>
+</LIST>
+</DIV3>
+</DIV2>
+<DIV2 TYPE="account">
+<PB N="28" REF="32"/>
+<HEAD>ON BLEEDING.</HEAD>
+<P>IRATHER chuse to mention the complaints in which bleeding is adviseable under this general head, than with the medicines for the respective disorders, because it may naturally be supposed they cannot always procure the assistance; for which reason, di∣recting to bleed before the use of the medicines, in cases where it might prove serviceable, may be a means of preventing their admi∣nistering those remedies, which, taken in time, will frequently alone remove the complaints. Besides, I would not wish the un∣skilful to be too free with the lancet, as an injudicious evacuation of blood may be succeeded with very bad consequences; and my in∣tention through the whole, as I observed in the preface, being no other than to supply families with a few useful remedies for slight indispositions, by which they may frequently prevent tedious ill∣nesses, but not to put the unexperienced upon trifling with them∣selves when they are really ill, and can have proper advice.</P>
+<P>Blood should be taken away in the beginning of fevers, when there is a strong, quick pulse, the eyes red and fiery, with great heat and thirst; but never when they are in the decline, as, from being inflammatory, they are often at this period degenerated into the nevous kind, when the chief of the affair is to be ma∣naged by the frequent application of blisters.</P>
+<P>In asthmatical complaints, if the patient be of a full habit of body.</P>
+<PB N="29" REF="33"/>
+<P>In coughs, if the pulse is quick and full, with an oppression at the breast, or difficulty in breathing.</P>
+<P>In colics, where the pain is violent, the bowels inflamed, and no stools.</P>
+<P>In fits, if the spirits are hurried and overpowered, and the patient full of blood.</P>
+<P>In swimmings, dizziness, and pains of the head.</P>
+<P>In stitches, and pleuritic disorders of the side and breast, particu∣larly if it gives pain to take a deep breath.</P>
+<P>In sore throats, where there is a strong, quick pulse, and the throat greatly swelled and inflamed.</P>
+<P>For the piles it is sometimes serviceable; as likewise in female obstructions, and frequently in rheumatic complaints; in apoplec∣tic disorders, a dysentery or bloody flux, and irksome heat of the bowels; for the hooping cough, particularly if of a full habit of bo∣dy, and the phlegm which is brought up appears streaked with blood; in all of which cases, the quantity taken away must be proportioned to the age of the patient, and the violence of the complaint.</P>
+<P>Bleeding again ought to be directed in large abscesses or swellings, where the heat and pain is immoderate; for in these cases, by draw∣ing blood, the matter is more easily and speedily brought to ripen, and by that means the body more effectually freed from its distempers.</P>
+<P>In a word, wherever prevail sore eyes, sciatica or hip gout, a dry husky cough, an head-ach, pains of the womb or of the bladder, dry gripes, strangury, gravel, pain from the stone, violent bleedings of the nose, ears, or other parts, an inveterate scorbutical itch, and the like, opening a vein is of peculiar service; but in dropsies, a jaundice, the gout, and all illnesses occasioned by a relaxed state of body, an impo∣verished blood, or too great weakness of the vessels, you must seek re∣lief from the medicines recommended in this little manual, and not, by an abrupt and preposterous use of bleeding, increase the disorder, and ruin the health of the patient and your own reputation.</P>
+</DIV2>
+<DIV2 TYPE="account">
+<PB N="30" REF="34"/>
+<HEAD>ON THE APPLICATION OF BLISTERS.</HEAD>
+<P>TO the cautions here laid down with respect to bleeding, I shall add a word or two concerning the application of blisters.</P>
+<P>The most excellent remedy may be prostituted by an inconside∣rate, rash, and foolish practice; which, it is plain, oftentimes hap∣pens with regard to blisters, by ordering them indiscriminately in all severs, and without distinction in any time of the distemper, which can only be the effect of ignorance.</P>
+<P>Therefore, before we resolve on an expedient of this nature, it would be convenient to consider whether the fever be of the in∣flammatory or nervous kind; if of the former, instead of blistering the lancet ought to be used, and a mild cooling regimen set on soot, as already directed; this will moderate the heat of the blood, and by degrees restore it to its due temper. On the other hand, in fevers of the nervous class, where the symptoms are quite dif∣ferent, the pulse being low and weak, the spirits almost spent, and the eyes, instead of appearing sparkling, red and fiery, grown quite dim, we ought by all means to make use of blisters, and that freely.</P>
+<P>They are oftentimes proper in paralytic and nervous complaints, as likewise in rheumatic pains and pleurisies, in which cases a blis∣ter applied immediately upon the part affected frequently affords great relief; and, and in a variety of other cases they are of infinite
+<PB N="31" REF="35"/>service; but then regard must be paid to the state of the patient's blood, for if a full, quick pulse, great heat, thirst, and the other symptoms of an inflammatory fever attend upon the disorders, the fever must first be conquered, and afterwards, if necessity requires it, let blisters be applied. Should they cause a strangury, which will sometimes be the case, give the patient plentifully of marshmallow drink, or barley water with a little gum arabic dissolved in it; or if there is a purging, which you would wish to be stopped, of the hartshorn drink, and this inconvenience will soon be remedied.</P>
+<P>In regard to the management of them, the plaster should be spread upon a piece of an old glove, and bound on to the part intended; after twenty-four hours, the strength of the flies being pretty well spent, you may remove the blister, and, if you cannot procure the proper dressings, a little Turner's cerate spread upon a piece of fine rag may supply its place.</P>
+<P>Should any blisters appear unbroke, snip them with a pair of scis∣sars; if they give violent pain, this may be done when the plaster has been applied only twelve hours; when, by discharging the wa∣ter, and laying it smooth on again, you ease the patient, and give the blister an opportunity of acting more.</P>
+</DIV2>
+</DIV1>
+</BODY>
+<BACK>
+<DIV1 TYPE="index">
+<PB REF="36"/>
+<HEAD>INDEX.</HEAD>
+<LIST>
+<LABEL>A.</LABEL>
+<ITEM><LIST>
+<ITEM>AGUE — See Bark page 3, bark wine 5</ITEM>
+<ITEM>Acidities at the stomach See Gascoigne's powder 9, magnesia alba 13</ITEM>
+<ITEM>Asthma See Asthmatic tincture 1</ITEM>
+<ITEM>Appetite, to create See Elixir of vitriol 6, stomach tinc∣ture 24, tincture of bark 25</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>B.</LABEL>
+<ITEM><LIST>
+<ITEM>Bleeding, outward See Fryar's balsam 9</ITEM>
+<ITEM>Bleeding, inward See Elixir of vitriol 6, Fryar's bal∣sam 9, tincture of bark 25</ITEM>
+<ITEM>Blood, to thin See Hartshorn drops 10</ITEM>
+<ITEM>Bones, aches and pains in See Powder for sweats 17</ITEM>
+<ITEM>Breast, tightness and pain across See Asthmatic tincture 1, oily emul∣sion 15</ITEM>
+<ITEM>Breast, Soreness at See Balsamic electary 3</ITEM>
+<ITEM>Breathing, difficulty in See Sperma ceti and sugar candy 23</ITEM>
+<ITEM>Bruises See Opodeldoc 15, Turner's cerate 26</ITEM>
+<ITEM>Bruises, inward See Balsamic electary 3, Fryar's bal∣sam 9</ITEM>
+<ITEM>Burns See Turner's cerate 26, yellow basi∣licon 26</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>C.</LABEL>
+<ITEM><LIST>
+<ITEM>Chilblains See Diachylon plaster 16, Turner's cerate 26, yellow basilicon 26</ITEM>
+<ITEM>Colic See Colic mixture 5</ITEM>
+<ITEM>Colic, with stools See Astringent electary 1, colic mix∣ture 5</ITEM>
+<ITEM>Cough See Asthmatic tincture 1, balsamic electary 3, pectoral drink 16. sperma ceti emulsion 23, sper∣ma ceti and sugar candy 23</ITEM>
+<ITEM>Cough, hooping See Sperma ceti emulsion 23</ITEM>
+<ITEM>Cuts See Diachylon plaster 6, Turner's cerate 26, yellow basilicon 26</ITEM>
+</LIST></ITEM>
+</LIST>
+<PB N="34" REF="37"/>
+<LIST>
+<LABEL>D.</LABEL>
+<ITEM><LIST>
+<ITEM>Digestion, bad See Stomach tincture, page 24</ITEM>
+<ITEM>Dilute, liquors proper See Barley water 5, pectoral drink 16</ITEM>
+<ITEM>Dizziness See Palsy drops 16</ITEM>
+<ITEM>Dropsy See Diuretic mixture 6, quick purg∣ing powder 18, scorbutic elix∣ir 21</ITEM>
+<ITEM>Drowsiness See Palsy drop 16</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>F.</LABEL>
+<ITEM><LIST>
+<ITEM>Faintings See Hartshorn drops 10, nervous tincture 14, sal volatile 21, spirit of lavender 23</ITEM>
+<ITEM>Fever See Fever powder 7, Gascoign's pow∣der 9, salt of wormwood draught 21</ITEM>
+<ITEM>Fever, intermittent See Bark 3, bark wine 5</ITEM>
+<ITEM>Fever, upon the spirits See As above in faintings</ITEM>
+<ITEM>Fits See Fit drops for children 8</ITEM>
+<ITEM>Food easy of digestion See Salop 20</ITEM>
+<ITEM>Flux See Astringent electary 1</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>G.</LABEL>
+<ITEM><LIST>
+<ITEM>Gravel See Diuretic mixture 6, marshmal∣low drink 14</ITEM>
+<ITEM>Gripings See Colic mixture 5, Gascoign's pow∣der 9</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>H.</LABEL>
+<ITEM><LIST>
+<ITEM>Head-ach See Nervous tincture 14, palsy drops 16, snuff for the head-ach 22</ITEM>
+<ITEM>Heart-burn See Heart-burn-lozenges 11, magne∣sia alba 13</ITEM>
+<ITEM>Hoarseness See Asthmatic tincture 1, Fryar's balsam 9, oily emulsion 15, sperma ceti emulsion 23</ITEM>
+<ITEM>Hysterics See Hysteric mixture 11, fit drops for children 8</ITEM>
+</LIST></ITEM>
+</LIST>
+<PB N="35" REF="38"/>
+<LIST>
+<LABEL>I.</LABEL>
+<ITEM><LIST>
+<ITEM>Jaundice See Jaundice electary, page 11</ITEM>
+<ITEM>Itch See Page 12</ITEM>
+<ITEM>Inflamed parts See Oil of roses 14</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>L.</LABEL>
+<ITEM><LIST>
+<ITEM>Loins, pain in See Diuretic mixture 6, strengthen∣ing plaster 25</ITEM>
+<ITEM>Lyings in See Sperma ceti bolus 22</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>N.</LABEL>
+<ITEM><LIST>
+<ITEM>Nervous complaints See Nervous tincture 14, valerian root 26</ITEM>
+<ITEM>Nourishment proper for weak stomachs See Salop 20</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>O.</LABEL>
+<ITEM><LIST>
+<ITEM>Obstructions, female See Steel electary 24</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>P.</LABEL>
+<ITEM><LIST>
+<ITEM>Palsy See Palsy drops 16, and liniment 16</ITEM>
+<ITEM>Phlegm See Asthmatic tincture 1, sperma ce∣ti emulsion 23, sperma ceti and sugar candy 23</ITEM>
+<ITEM>Piles See Pile electary 17, and liniment 17</ITEM>
+<ITEM>Pleurisy See Oily emulsion 15</ITEM>
+<ITEM>Purges, various kinds of See Glauber's salts 10, magnesia alba 13, manna 13, opening elec∣tary 15, purging apozem 18, quick purging powder 18, rhubarb 19, sena tea 22</ITEM>
+<ITEM>Purgings, to stop See Astringent electary 1, lauda∣num 13</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>R.</LABEL>
+<ITEM><LIST>
+<ITEM>Rheumatism See Palsy liniment 16, rheumatic powder 19</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>S.</LABEL>
+<ITEM><LIST>
+<ITEM>Scalds See Turner's cerate 26, yellow basi∣licon 26</ITEM>
+<ITEM>Scurvy See Scorbutic elixir 21, tooth pow∣der 25</ITEM>
+<PB N="36" REF="39"/>
+<ITEM>Side, stitches in See Oily emulsion, page 15</ITEM>
+<ITEM>Solids, to brace up See Elixir of vitriol 6, tincture of bark 25</ITEM>
+<ITEM>Spirits, lowness of see Nervous tincture 14, sal volatile 21, spirit of lavender 23</ITEM>
+<ITEM>Stomach-ach See Colic mixture 5</ITEM>
+<ITEM>Stomach-ach, foulness of See Ipecacuanha 12, quick purging powder 18</ITEM>
+<ITEM>Stomach-ach, sickness at See Salt of wormwood draught 21</ITEM>
+<ITEM>Stomach-ach strengtheners See Elixir of vitriol 6, rhubarb 19, stomach tincture 24, tincture of bark 25</ITEM>
+<ITEM>Stomach-ach, weakness of See Stomach tincture 24</ITEM>
+<ITEM>Strains See Opodeldoc 15, strengthening plaster 25</ITEM>
+<ITEM>Sweats, to promote See Powder for sweats 17</ITEM>
+<ITEM>Sweats, to prevent See Elixir of vitriol 6, tincture of bark 25</ITEM>
+<ITEM>Swellings See Oil of roses 14</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>T.</LABEL>
+<ITEM><LIST>
+<ITEM>Throat, sore See Gargle for a sore throat 9</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>U.</LABEL>
+<ITEM><LIST>
+<ITEM>Urine, heat of See Diuretic mixture 6, marshmal∣low drink 14</ITEM>
+<ITEM>Vomits See Ipecacuanha 12</ITEM>
+</LIST></ITEM>
+</LIST>
+<LIST>
+<LABEL>W.</LABEL>
+<ITEM><LIST>
+<ITEM>Water, stoppage of See Diuretic mixture 6</ITEM>
+<ITEM>Wind, to expel See Colic mixture 5</ITEM>
+<ITEM>Worms See Rhubarb 19 stomach tincture 24, Worm powder 26</ITEM>
+<ITEM>Wounds, fresh See Diachylon plaster 6, Fryar's bal∣sam 9</ITEM>
+<ITEM>Wounds, old See Turner's cerate 26, yellow basi∣licon 26</ITEM>
+<ITEM>Wrench See Opodeldoc 15, strengthening plaster 25</ITEM>
+</LIST></ITEM>
+</LIST>
+<TRAILER>FINIS.</TRAILER>
+</DIV1>
+</BACK>
+</TEXT>
+</EEBO>
+</ETS>
+
