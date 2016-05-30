@@ -1,0 +1,672 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An abridgement of the English military discipline.</title>
+            <author>Great Britain. Army.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 37 KB of XML-encoded text transcribed from 45 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A74980</idno>
+            <idno type="STC">Wing A102A</idno>
+            <idno type="STC">ESTC R200457</idno>
+            <idno type="EEBO-CITATION">45789122</idno>
+            <idno type="OCLC">ocm 45789122</idno>
+            <idno type="VID">172436</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A74980)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 172436)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2630:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An abridgement of the English military discipline.</title>
+                  <author>Great Britain. Army.</author>
+               </titleStmt>
+               <extent>[2], 82 p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed by the assigns of John Bill and Christopher Barker ...,</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"By His Majesties Permission."</note>
+                  <note>Reproduction of original in: Christ Church (University of Oxford). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain. --  Army --  Regulations.</term>
+               <term>Military law --  Great Britain.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-11</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2008-01</date>
+            <label>Emma (Leeson) Huber</label>Sampled and proofread</change>
+         <change>
+            <date>2008-01</date>
+            <label>Emma (Leeson) Huber</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:172436:1" rendition="simple:additions"/>
+            <p>AN ABRIDGEMENT OF THE <hi>ENGLISH</hi> Military Diſcipline.</p>
+            <p>
+               <hi>By His Majeſties permiſſion.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by the Aſſigns of <hi>John Bill</hi> and <hi>Chriſtopher Barker,</hi> Printers to the Kings Moſt Excellent Majeſty. 1676.</p>
+         </div>
+      </front>
+      <body>
+         <head>
+            <pb facs="tcp:172436:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:172436:2"/>AN ABRIDGEMENT OF THE <hi>ENGLISH</hi> Military Diſcipline.</head>
+         <div type="part">
+            <head>Of the Exerciſe of the Foot.</head>
+            <p>
+               <seg rend="decorInit">W</seg>Hen a Bo<g ref="char:EOLhyphen"/>dy of Men are drawn up to Ex<g ref="char:EOLhyphen"/>erciſe, the diſtance of their Ranks muſt be at ſix
+<pb n="2" facs="tcp:172436:3"/>
+Foot, and their Files at three Foot, that they may have li<g ref="char:EOLhyphen"/>berty to uſe their Arms.</p>
+            <p>The Officers of the Body, (he onely excepted that is to give the Words of Command) are to draw off to the Right and Left, forming a Rank on each Wing, oppoſite the one to the other.</p>
+            <p>The Officer Command<g ref="char:EOLhyphen"/>ing, is to place himſelf before the Middle of the Pikes, about ten Foot diſtance from them, the better to obſerve what is done, and to be the more
+<pb n="3" facs="tcp:172436:3"/>
+eaſily underſtood by the whole Body.</p>
+            <p>The Words of Com<g ref="char:EOLhyphen"/>mand muſt be given Lei<g ref="char:EOLhyphen"/>ſurely, that the Souldiers may perform their Po<g ref="char:EOLhyphen"/>ſtures without Confuſion.</p>
+            <p>The Officer muſt firſt Command Silence, and then proceed (as follow<g ref="char:EOLhyphen"/>eth) to the</p>
+         </div>
+         <div type="part">
+            <head>Exerciſe of the Muſquet.</head>
+            <p>SHoulder your Muſquet.</p>
+            <p>Lay your right hand on your Muſquet.</p>
+            <p>Poyſe your Muſquet.</p>
+            <p>Reſt your Muſquet.</p>
+            <p>
+               <pb n="4" facs="tcp:172436:4"/>
+Handle your Match.</p>
+            <p>Blow your Match.</p>
+            <p>Cock and try your Match.</p>
+            <p>Guard your Pan.</p>
+            <p>Blow your Match.</p>
+            <p>Open your Pan.</p>
+            <p>Preſent.</p>
+            <p>Give Fire.</p>
+            <p>Recover your Arms.</p>
+            <p>Return your Match.</p>
+            <p>Clean your Pan with your Thumb.</p>
+            <p>Handle your Primer.</p>
+            <p>Prime your Pan.</p>
+            <p>Shut your Pan with a full Hand.</p>
+            <p>Blow off your looſe Corns.</p>
+            <p>Caſt about to Charge.</p>
+            <p>
+               <pb n="5" facs="tcp:172436:4"/>
+Handle your Charger.</p>
+            <p>Open it with your Teeth.</p>
+            <p>Charge with Powder.</p>
+            <p>Draw forth your Scowrer.</p>
+            <p>Shorten it to an Inch a<g ref="char:EOLhyphen"/>gainſt your right Breaſt.</p>
+            <p>Charge with Bullet.</p>
+            <p>Ram down Powder and Ball.</p>
+            <p>Withdraw your Scowrer.</p>
+            <p>Shorten it to a handful.</p>
+            <p>Return your Scowrer.</p>
+            <p>Poyſe your Muſquet.</p>
+            <p>Shoulder your Muſquet.</p>
+            <p>Order your Muſquet.</p>
+         </div>
+         <div type="part">
+            <pb n="6" facs="tcp:172436:5"/>
+            <head>Exerciſe of the Pike.</head>
+            <p>ADvance your Pikes.</p>
+            <p>Charge to the Front.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right about.</p>
+            <p>To the Left about as you were.</p>
+            <p>Charge to the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left about.</p>
+            <p>To the Right about as you were.</p>
+            <p>
+               <pb n="7" facs="tcp:172436:5"/>
+Advance your Pikes.</p>
+            <p>From Advance, Shoulder your Pikes.</p>
+            <p>From Shoulder, Charge to the Front.</p>
+            <p>Shoulder as you were.</p>
+            <p>From your Shoulder, Charge to the Right.</p>
+            <p>Shoulder as you were.</p>
+            <p>Charge to the Right about.</p>
+            <p>Shoulder as you were.</p>
+            <p>Charge to the Left.</p>
+            <p>Shoulder as you were.</p>
+            <p>To the Left about.</p>
+            <p>Shoulder as you were.</p>
+            <p>From your Shoulder, Port.</p>
+            <p>From your Port, Comport.</p>
+            <p>From your Comport,
+<pb n="8" facs="tcp:172436:6"/>
+Charge to the Front.</p>
+            <p>From your Charge, Trail, Facing to the Right about.</p>
+            <p>Charge as you were.</p>
+            <p>Advance your Pikes.</p>
+         </div>
+         <div type="part">
+            <head>Exerciſe of the Muſquet and Pike together.</head>
+            <p>SHoulder your Muſquet. Muſqueteers, Make ready.</p>
+            <p>At which time, the Muſqueteers muſt Lei<g ref="char:EOLhyphen"/>ſurely and Diſtinctly perform every particular Poſture of the Muſquet together.</p>
+            <p>
+               <pb n="9" facs="tcp:172436:6"/>
+The Muſqueteers be<g ref="char:EOLhyphen"/>ing ready, the Pikes are to Charge as the Muſ<g ref="char:EOLhyphen"/>queteers are Faced.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right.</p>
+            <p>To the Right about.</p>
+            <p>To the Left about as you were.</p>
+            <p>To the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left.</p>
+            <p>To the Left about.</p>
+            <p>To the Right about as you were.</p>
+            <p>
+               <pb n="10" facs="tcp:172436:7"/>
+Advance your Pikes.</p>
+            <p>Return your Matches.</p>
+            <p>Shoulder your Muſquets.</p>
+            <p>Order your Arms.</p>
+            <p>Pikes, to your inſide Order.</p>
+            <p>Lay down your Arms.</p>
+            <p>Which Poſture is to be performed with their Left Legs; and ſtooping all together, their Arms being upon the ground, they muſt take care to Riſe all together, every one obſerving his Right hand man, at the Word of Command.</p>
+            <p>
+               <pb n="11" facs="tcp:172436:7"/>
+Quit your Arms.</p>
+            <p>Face all to the Right about.</p>
+            <p>March clear off your Arms.</p>
+            <p>To the Left about to your Leader.</p>
+            <p>March to your Arms.</p>
+            <p>Handle your Arms.</p>
+            <p>Which muſt be done ſtepping forward with their Left Legs, and ſtooping, Laying their hands upon their Arms, expecting the Word of Command.</p>
+            <p>Order your Arms.</p>
+            <p>Pikes, to your outſide Order.</p>
+            <p>
+               <pb n="12" facs="tcp:172436:8"/>
+Poyſe your Muſquets.</p>
+            <p>Advance your Pikes.</p>
+            <p>Shoulder your Muſquets.</p>
+            <p>March.</p>
+            <p>This way of Exerciſe is not altogether the ſame with what hath been hitherto in uſe, wherein it was thought fit to make ſome alteration, by leav<g ref="char:EOLhyphen"/>ing out ſome Words as ſu<g ref="char:EOLhyphen"/>perfluous, and changing ſome of the Poſtures for others that are of greater Uſe and readineſs.</p>
+         </div>
+         <div type="part">
+            <pb n="13" facs="tcp:172436:8" rendition="simple:additions"/>
+            <head>Cloſings and Openings.</head>
+            <p>RRanks, cloſe forward to Order.</p>
+            <p>Ranks, cloſe forward to cloſe Order.</p>
+            <p>Ranks, open backwards to Order.</p>
+            <p>Ranks, open backwards to open Order.</p>
+            <p>Ranks, open backward to double diſtances.</p>
+            <p>The Ranks fall back without changing aſpect.</p>
+            <p>Files, cloſe to the Right.</p>
+            <pb n="12" facs="tcp:172436:9"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="13" facs="tcp:172436:9" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <p>
+               <pb n="14" facs="tcp:172436:10" rendition="simple:additions"/>
+Files, cloſe to the Left.</p>
+            <p>Files, cloſe to the Center.</p>
+            <p>Files, open from the Right.</p>
+            <p>Files, open from the Left.</p>
+            <p>Files, open from the Center.</p>
+            <p>For performing of which, the Body faces to the hand named, and moves. If to the Right, the ſecond File from the right firſt takes its di<g ref="char:EOLhyphen"/>ſtance, by moving ſlow<g ref="char:EOLhyphen"/>er then its Leader: the reſt of the Files do the like ſucceſsively, and the left hand File moves not at all.</p>
+         </div>
+         <div type="part">
+            <pb n="15" facs="tcp:172436:10"/>
+            <head>Doublings.</head>
+            <p>Ranks, to the right hand double.</p>
+            <p>March.</p>
+            <p>Ranks, to the left hand as you were.</p>
+            <p>March.</p>
+            <p>Ranks, to the left hand double</p>
+            <p>March.</p>
+            <p>Ranks, to the right hand as you were.</p>
+            <p>March.</p>
+            <p>The Ranks that dou<g ref="char:EOLhyphen"/>ble, are to obſerve their
+<pb n="16" facs="tcp:172436:11"/>
+right hand Man, to move at the ſame time with him; They begin their motion with the foot next the hand na<g ref="char:EOLhyphen"/>med, and are to come in<g ref="char:EOLhyphen"/>to their places at three ſteps. In this doubling, the even Ranks double into the odd. And if you would have the odd Ranks alſo double, Face the Body to the Rere; and the ſame Words of Command will perform it.</p>
+         </div>
+         <div type="part">
+            <pb n="17" facs="tcp:172436:11"/>
+            <head>To reduce the Ranks.</head>
+            <p>The Ranks that doubled, are firſt to Face to the contrary hand, then be<g ref="char:EOLhyphen"/>ginning with the contra<g ref="char:EOLhyphen"/>ry foot, at three ſteps to come into their former ground. Files doubling is perform'd in the ſame manner, and is the ſame thing with the reducti<g ref="char:EOLhyphen"/>on of doubled Ranks; the reduction of dou<g ref="char:EOLhyphen"/>bled Files is the ſame thing with doubling Ranks.</p>
+         </div>
+         <div type="part">
+            <pb n="18" facs="tcp:172436:12"/>
+            <head>Doubling of half Files with the Reduction.</head>
+            <p>Rere half Files to the Right, double your Front.</p>
+            <p>March.</p>
+            <p>To the Left about as you were.</p>
+            <p>March.</p>
+            <p>Rere half Files to the Left, double your Front.</p>
+            <p>March.</p>
+            <p>To the Right about as you were.</p>
+            <p>March.</p>
+            <p>
+               <pb n="19" facs="tcp:172436:12"/>
+If you do it upon a March, let your Rere half Files move into the Front with a quicker mo<g ref="char:EOLhyphen"/>tion, the Front half Files ſtill continuing theirs. And for Reduction, let the Rere half Files with<g ref="char:EOLhyphen"/>out facing about, ſtand till the Front half Files have paſſed them, and then fall after their pro<g ref="char:EOLhyphen"/>per Leaders.</p>
+         </div>
+         <div type="part">
+            <pb n="20" facs="tcp:172436:13" rendition="simple:additions"/>
+            <head>Fireings.</head>
+            <p>THe Commander in chief gives no Com<g ref="char:EOLhyphen"/>mand nor Direction beſides Make ready.</p>
+            <p>Preſent.</p>
+            <p>Give fire.</p>
+            <p>And the firſt of theſe he uſes but once.</p>
+            <p>The Souldiers are to be inſtructed and minded by ſubaltern Officers, that when the two firſt Ranks make ready and
+<pb n="21" facs="tcp:172436:13"/>
+advance forward, the Body of Muſqueteers is to make good the Front of Pikes, and the two next Ranks unſhoulder and make ready, with<g ref="char:EOLhyphen"/>out any Word of Com<g ref="char:EOLhyphen"/>mand; and when the laſt Rank preſents, or both, if both fire toge<g ref="char:EOLhyphen"/>ther, to advance, and this alſo without any Word of Command. If the Ranks be at ſix Foot, they are alſo at their ad<g ref="char:EOLhyphen"/>vancing to cloſe for<g ref="char:EOLhyphen"/>ward to three Foot, with<g ref="char:EOLhyphen"/>out any Word of Com<g ref="char:EOLhyphen"/>mand.
+<pb n="22" facs="tcp:172436:14"/>
+If you fire by Single Ranks, the firſt preſents at three motions, beginning with his left foot, which as he advances, he blows his Match; At advancing his right, he opens his Pan, Preſenting at the third ſtep. Afterwards they File into the Rere within three Foot of the Body. Every Souldier is to be careful to place himſelf in his own File, which is alſo taken care of by the Officers in the Rere.</p>
+         </div>
+         <div type="part">
+            <pb n="23" facs="tcp:172436:14"/>
+            <head>Fireing to the Flanks.</head>
+            <p>TO the Right and Left preſent, falling off after your bringers up.</p>
+            <p>For this you leave ſix Foot between your Di<g ref="char:EOLhyphen"/>viſions of Muſqueteers and your Pikes; which the Officers muſt have a great care to keep open, by cauſing the Muſque<g ref="char:EOLhyphen"/>teers to incline to the Right and Left after e<g ref="char:EOLhyphen"/>very fireing to the Flank.
+<pb n="24" facs="tcp:172436:15"/>
+the two outermoſt Files are to make ready, keep<g ref="char:EOLhyphen"/>ing along with the Body, and not to preſent, nor face to the Flanks, till ready; aſſoon as they have Fired, they face to the Rere, and are by an Officer led athwart it, and ſo up between their own Diviſions and the Pikes. Aſſoon as the outermoſt Files face to the Flanks, the two next Files are to make ready without any Word of Command, and keep a<g ref="char:EOLhyphen"/>long with the Body, till
+<pb n="25" facs="tcp:172436:15" rendition="simple:additions"/>
+the outermoſt Files be wheeled clear off them. The Files that fire to the Left, are to blow, advan<g ref="char:EOLhyphen"/>cing with their right Leg.</p>
+         </div>
+         <div type="part">
+            <head>Fireing to the Rere.</head>
+            <p>LAſt Rank, make ready. To the Rerepreſent.</p>
+            <p>Which it doth keeping along with the Body; the Muſqueteers Advan<g ref="char:EOLhyphen"/>cing with their Right Legs, Blow; Advancing with the Left, Open
+<pb n="26" facs="tcp:172436:16"/>
+their Pans; then turning upon the Ball of their Left Foot to the Right a<g ref="char:EOLhyphen"/>bout, caſt their Right Leg backward, and fire then immediately at a good Round rate, with<g ref="char:EOLhyphen"/>in three Foot of their Bo<g ref="char:EOLhyphen"/>dy, March up into the Front. Aſſoon as the laſt Rank Faces a<g ref="char:EOLhyphen"/>bout to Preſent, every other Rank of Muſque<g ref="char:EOLhyphen"/>teers falls back to the Rank of Pikes that Marched behind it, ſo to keep the Rere full, and leave a Vacancy of
+<pb n="27" facs="tcp:172436:16"/>
+one Rank in the Front of the Muſqueteers, for the Rank that Fired to place it ſelf.</p>
+            <p>The Word <hi>Make rea<g ref="char:EOLhyphen"/>dy</hi> is made Uſe of but once, afterwards when the laſt Rank faces a<g ref="char:EOLhyphen"/>bout; the next to it is to Make ready, keeping along with the Body.</p>
+         </div>
+         <div type="part">
+            <head>Fireing the Street-way.</head>
+            <p>We that have fewer Pikes, ſhould cauſe the half
+<pb n="28" facs="tcp:172436:17"/>
+Files of Pikes to double, that they may cover the Muſqueteers.</p>
+            <p>The Colours and Drums are to be between the Pikes and Muſqueteers, the Cap<g ref="char:EOLhyphen"/>tains with the Pikes, and the Lieutenants with the Muſqueteers. Lieutenants or Serjeants cauſe the two firſt Ranks of the Muſque<g ref="char:EOLhyphen"/>teers to Face to the Right or Left, and make ready; then Two and Two to File up to the Front, and March athwart it; then to pre<g ref="char:EOLhyphen"/>ſent. The Pikes ought to be charged, and the Muſ<g ref="char:EOLhyphen"/>queteers
+<pb n="29" facs="tcp:172436:17"/>
+to ſtoop very low, and be carefull to carry the Muzzles of their Muſquets low. When they have Fired, they paſs a<g ref="char:EOLhyphen"/>way, ſtill ſtooping to the contrary Flank, and with<g ref="char:EOLhyphen"/>in three Foot of it, into the Rere of the Muſqueteers. As they move away by the Left Flank, the next by the Right, Succeed them. If the Horſe give you time, let the Pikes Port or Ad<g ref="char:EOLhyphen"/>vance to eaſe themſelves. That you may always re<g ref="char:EOLhyphen"/>ſerve ſome Fire, it is beſt to Fire but one Rank at a
+<pb n="30" facs="tcp:172436:18"/>
+time; Aſſoon as that Wheels off, the Second Steps into it's place, and a third Rank comes in be<g ref="char:EOLhyphen"/>tween it and the Pikes. If the Street you are to de<g ref="char:EOLhyphen"/>fend be very Broad, you muſt of neceſſity make an Interval beſides thoſe on the Flanks, Wide enough for Two Men on a Breaſt, One to March up, the other down; For otherwiſe the long Intermiſſion between the Fireings will give the Horſe opportunity to At<g ref="char:EOLhyphen"/>taque you. The Muſqueteers in Preſenting are to fall
+<pb n="31" facs="tcp:172436:18" rendition="simple:additions"/>
+back with their Right Legs, and by no means to Ad<g ref="char:EOLhyphen"/>vance.</p>
+         </div>
+         <div type="part">
+            <head>Swedes way.</head>
+            <p>REre half Files of Muſ<g ref="char:EOLhyphen"/>queteers to the Right or Left, double your Front.</p>
+            <p>Then Divide them into Equal Subdiviſions, the Rere of the Foremoſt Sub<g ref="char:EOLhyphen"/>diviſions to Rank even with the Front of the Hin<g ref="char:EOLhyphen"/>dermoſt; the Rere of the Hindermoſt with the Front of Pikes, of which one half Advance interchangeably. Great care is to be taken
+<pb n="32" facs="tcp:172436:19"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="33" facs="tcp:172436:19" rendition="simple:additions"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="32" facs="tcp:172436:20"/>
+that they return well their Rammers, leſt they hurt thoſe that ſtand before them: Preſenting either all Three Ranks, or Two one<g ref="char:EOLhyphen"/>ly, and one ſtanding Guard<g ref="char:EOLhyphen"/>ed; they which have fired, riſe up, and make Ready on their Ground, and the Rere Subdiviſions paſſing through the Intervals, fire in like manner.</p>
+            <p>The Intervals to be very little Wider then to permit Paſſage to the Subdiviſion of the Rere. They are alſo to fall back with their Right Legs, without Advancing<g ref="char:punc">▪</g>
+            </p>
+         </div>
+         <div type="part">
+            <pb n="33" facs="tcp:172436:20" rendition="simple:additions"/>
+            <head>Reduction.</head>
+            <p>MUſqueteers, to the Right about.</p>
+            <p>March all till Even with your Rere of Pikes.</p>
+            <p>To the Left about all.</p>
+            <p>Front half Files, March till Even with your Front of Pikes.</p>
+         </div>
+         <div type="part">
+            <head>To make a Square.</head>
+            <p>Face to your four Angles.</p>
+            <p>The Intervals between
+<pb n="34" facs="tcp:172436:21"/>
+the Half Ranks and Half Files Divide the Body into four parts; if there be an odd File, it Faces with the Right Half Ranks.</p>
+            <p>To your proper Front.</p>
+            <p>In all Facings, the Soul<g ref="char:EOLhyphen"/>diers are to keep their Left Foot fixed, turning Round on the Ball of it, and bringing about their Right.</p>
+         </div>
+         <div type="part">
+            <head>A Solid Square.</head>
+            <p>TO Draw a ſolid Square, make it firſt
+<pb n="35" facs="tcp:172436:21" rendition="simple:additions"/>
+Equal on all ſides, by the Square Root, then girdle it with Shot, which is ſpee<g ref="char:EOLhyphen"/>dily perform'd by theſe Words of Command.</p>
+            <p>Rere half Files of Shot, to the Right about.</p>
+            <p>Muſqueteers, March all till clear of the Pikes.</p>
+            <p>Face inwards, and March till you cloſe in the Center.</p>
+            <p>Muſqueteers that are clear of Front and Rere, wheel into the Flanks.</p>
+         </div>
+         <div type="part">
+            <head>Reduction.</head>
+            <p>MUſqueteers that wheel'd into the
+<pb n="36" facs="tcp:172436:22"/>
+Flanks, wheel into Front and Rere. Face all outwards, and March till clear of the Pikes, then face in oppoſi<g ref="char:EOLhyphen"/>tion, and cloſe.</p>
+         </div>
+         <div type="part">
+            <head>To make a Hollow Square.</head>
+            <p>LEt the three outermoſt Files of Pikes of each Flank ſtand.</p>
+            <p>Rere half Files, to the Right hand about.</p>
+            <p>Front and Rere half Files, March.</p>
+            <p>Flanks of Pikes face inward.</p>
+            <p>March.</p>
+            <p>Rere half Files of Muſ<g ref="char:EOLhyphen"/>queteers,
+<pb n="37" facs="tcp:172436:22"/>
+to the right hand about.</p>
+            <p>Muſqueteers, March all till clear of the Pikes.</p>
+            <p>Muſqueteers, face inwards, and March till you cloſe in the Center of the Pikes.</p>
+            <p>Muſqueteers that are clear of your Pikes, face in op<g ref="char:EOLhyphen"/>poſition, and Flank your Pikes.</p>
+         </div>
+         <div type="part">
+            <head>Reduction.</head>
+            <p>MUſqueteers that Flank the Pikes, wheel in<g ref="char:EOLhyphen"/>to Front and Rere.</p>
+            <p>
+               <pb n="38" facs="tcp:172436:23"/>
+Muſqueteers, face to the Right and Left outwards, and March till clear of your Pikes, then face in<g ref="char:EOLhyphen"/>wards, and cloſe.</p>
+            <p>Pikes of the Flanks, face outward, and March till clear of the Front and Rere half Files.</p>
+            <p>Front and Rere half Files, face inwards, and cloſe.</p>
+            <p>For greater expedition, the Words of Command may be given at the ſame time to Pikes and Muſ<g ref="char:EOLhyphen"/>queteers by two Officers.</p>
+         </div>
+         <div type="part">
+            <pb n="39" facs="tcp:172436:23"/>
+            <head>Of Marching.</head>
+            <p>IN Marching, the Officers are to obſerve that the Ranks be at twelve Foot diſtance, and that the Files be cloſed Shoulder to Shoulder, unleſs when a Battalion Marches in a Body, in which caſe the Files muſt keep ſuch a diſtance, that they may have the liberty of their Arms.</p>
+            <p>The Souldiers muſt al<g ref="char:EOLhyphen"/>ways begin to March with
+<pb n="40" facs="tcp:172436:24"/>
+their right Foot firſt; which is obſerved to conduce moſt to keep the Ranks even.</p>
+            <p>The Captains are to March with their Pikes Shouldered; A Lieutenant to March with a Partizan; And an Enſign to March with his Pike Comported, which is to be the diſtincti<g ref="char:EOLhyphen"/>on between the Captains and other Officers.</p>
+            <p>Serjeants have no place aſſigned them in Marching, but are to be moving up and down, to obſerve that the Ranks and Files be at their due diſtance.</p>
+         </div>
+         <div type="part">
+            <pb n="41" facs="tcp:172436:24"/>
+            <head>Of Drawing up a Body of Men, and the Place of the Officers.</head>
+            <p>WHen a Regiment is to be Drawn up, the eaſieſt and readieſt way of Placing the Companies is, that the Eldeſt Compa<g ref="char:EOLhyphen"/>ny Draw up on the Right hand, and the ſecond Com<g ref="char:EOLhyphen"/>pany on the Left, the Third next to the Firſt, the Fourth next to the Second, and ſo conſequently to the young<g ref="char:EOLhyphen"/>eſt, which is to be in the Center; for which the Words of Command are,</p>
+            <p>
+               <pb n="42" facs="tcp:172436:25"/>
+Muſqueteers, to the Right and Left outwards.</p>
+            <p>Pikes, to the Right and Left inwards.</p>
+            <p>Interchange Ground.</p>
+            <p>March.</p>
+            <p>When a Regiment hath ſo taken its Ground, to Place the Officers, you muſt di<g ref="char:EOLhyphen"/>vide the Lieutenants equal<g ref="char:EOLhyphen"/>ly, Placing one half of them at the head of the Right Wing of Shot, and the other at the Left; The Enſigns are to be at the Head of the Pikes, upon the ſame Line with the Lieutenants, and each of them at four Foot
+<pb n="43" facs="tcp:172436:25"/>
+diſtance from the Body.</p>
+            <p>The Captains are like<g ref="char:EOLhyphen"/>wiſe to be divided equally, and Placed on each Wing, four Foot before the Lieu<g ref="char:EOLhyphen"/>tenants. None muſt ſtand before the Enſigns, but he onely that Commands in Chief, who is to be ten Foot before the Pikes; there muſt be a Serjeant Placed at the Right and Left of every Rank, and the Reſt of the Serjeants are to be in the Rere, at twelve Foot di<g ref="char:EOLhyphen"/>ſtance from the Body, making a Parallel line to the laſt Rank.</p>
+            <p>
+               <pb n="44" facs="tcp:172436:26"/>
+The Drums muſt be di<g ref="char:EOLhyphen"/>vided likewiſe, one half on the right Wing, and the o<g ref="char:EOLhyphen"/>ther on the left, and are to ſtand on the ſame Line with the firſt Rank of the Soul<g ref="char:EOLhyphen"/>diers.</p>
+            <p>It is to be underſtood, that this way of Placing of the Officers, is onely for Ordinary drawings out, either for Muſters or Parade; For upon any occaſion of Service, they are to be other<g ref="char:EOLhyphen"/>wiſe placed, as ſhall be ſhewn hereafter.</p>
+            <p>But if the Regiments March in a Body, this Or<g ref="char:EOLhyphen"/>der
+<pb n="45" facs="tcp:172436:26"/>
+of the Officers muſt be changed; For then the Lieutenants are to be re<g ref="char:EOLhyphen"/>moved from the Front to the Rere, the reſt of the Offi<g ref="char:EOLhyphen"/>cers keeping ſtill their ſame Poſt; and the Serjeants that were in the Rere muſt be moving up and down, to ſee that the Ranks and Files March according to the Rules above given.</p>
+            <p>And if the Regiment March in Diviſion, the dif<g ref="char:EOLhyphen"/>ference is yet greater: for then one half of the Cap<g ref="char:EOLhyphen"/>tains are to March at the Head of the firſt Diviſion of
+<pb n="46" facs="tcp:172436:27"/>
+Shot, and the other in the Rere of the laſt Diviſion: One half likewiſe of the Lieutenants are to be in the Rere of the firſt Diviſion of Shot, and the other at the Head of the laſt; The Enſigns are to March be<g ref="char:EOLhyphen"/>fore the Pikes, and no other Officer at their Head.</p>
+            <p>The Officers in March<g ref="char:EOLhyphen"/>ing, are to obſerve the ſame Diſtance from the Body, as when they were Drawn up.</p>
+         </div>
+         <div type="part">
+            <pb n="47" facs="tcp:172436:27"/>
+            <head>Of Salutes.</head>
+            <p>WHen a Regiment is Drawn up, the Officers are to Salute one after another, as the Per<g ref="char:EOLhyphen"/>ſon paſſes by whom they are to Salute.</p>
+            <p>If the Regiment March in Diviſion, the Officer that Commands muſt be<g ref="char:EOLhyphen"/>gin firſt to Salute, and the Captains that March in a Rank behind him, muſt not Salute till he hath done, and then they muſt
+<pb n="48" facs="tcp:172436:28"/>
+obſerve all one Motion; The Lieutenants likewiſe when they Salute, muſt keep the ſame Time, as al<g ref="char:EOLhyphen"/>ſo the Enſigns; which is much more Graceful then doing it one after ano<g ref="char:EOLhyphen"/>ther.</p>
+            <p>The Enſigns muſt fur<g ref="char:EOLhyphen"/>ther obſerve in their Sa<g ref="char:EOLhyphen"/>lutes, to bring their Co<g ref="char:EOLhyphen"/>lours all the ſame way, otherwiſe they will be apt to meet and Entangle.</p>
+            <p>In making a Guard when the King or Queen paſſes by, the Pikes muſt be Advan<g ref="char:EOLhyphen"/>ced; Otherwiſe onely the
+<pb n="49" facs="tcp:172436:28"/>
+Drums Beat, the Muſ<g ref="char:EOLhyphen"/>quets are Shouldered, and the Pikes Ordered.</p>
+            <p>When the King or Ge<g ref="char:EOLhyphen"/>neral comes in the Rere, the Colours or Officers are not to March through the Ranks, but to keep ſtill at the Front: If it be in the Field, and the whole Army Drawn up, then as the King Marches by, every Battalion is to Charge their Pikes, and Reſt their Muſquets; which is a Poſture of more Guard.</p>
+         </div>
+         <div type="part">
+            <pb n="50" facs="tcp:172436:29"/>
+            <head>Of Wheeling, when a Body Marches in Diviſion.</head>
+            <p>WHen the Word of Command is gi<g ref="char:EOLhyphen"/>ven to Wheel, (if it be to the Right) the Right-hand man is to keep his Ground, and onely turn upon his Heel, whileſt at the ſame time the Left-hand man moves about quick, till the Officer bids him Stand.</p>
+            <p>The ſecond Rank doth not begin to Wheel, till
+<pb n="51" facs="tcp:172436:29"/>
+they have taken the Ground of the firſt: So every Rank is to take the Ground of that which is before them; Upon which de<g ref="char:EOLhyphen"/>pends this way of Wheel<g ref="char:EOLhyphen"/>ing.</p>
+         </div>
+         <div type="part">
+            <head>Of the Exerciſe of Horſe.</head>
+            <p>THe Exerciſe of Horſe conſiſting in fewer Words of Command then that of Foot, is more ge<g ref="char:EOLhyphen"/>nerally known, and there
+<pb n="52" facs="tcp:172436:30"/>
+is little need of any Altera<g ref="char:EOLhyphen"/>tion to be made therein, but what is rather for Shew then Uſe.</p>
+            <p>When a Troop or Squa<g ref="char:EOLhyphen"/>dron are to Exerciſe, they muſt firſt have Charg'd their Carabins and Piſtols; And when the Corporals have been through the Ranks, and ſeen that they are all ready, the Officer muſt Command Silence, and proceed as followeth. Lay your Hands upon your Swords.</p>
+            <p>Draw your Swords.</p>
+            <p>
+               <pb n="53" facs="tcp:172436:30"/>
+Put your Swords into your Bridle Hands.</p>
+            <p>Lay your Hands upon your Piſtols.</p>
+            <p>Draw your Piſtols.</p>
+            <p>Cock your Piſtols.</p>
+            <p>Hold up your Hands.</p>
+            <p>
+               <note n="*" place="inline">Note, after they have given Fire, they muſt ſtill keep their Hands up, till the Word of Command be given to Return their Piſtols.</note> Give fire.</p>
+            <p>Return your Piſtols.</p>
+            <p>The ſame Words of Command are given for the other Piſtol, and then as followeth.</p>
+            <p>
+               <pb n="54" facs="tcp:172436:31"/>
+Lay your hands upon your Carabins.</p>
+            <p>Advance your Carabins.</p>
+            <p>Cock your Carabins.</p>
+            <p>Preſent your Carabins.</p>
+            <p>Give Fire.</p>
+            <p>Let fall your Carabins.</p>
+            <p>Take your Swords from your Bridle Hands.</p>
+            <p>Return your Swords.</p>
+            <p>All which Motions the Officer muſt take care to ſee done exactly at the ſame Time, and therefore muſt not give the Words of Command too faſt.</p>
+            <p>When a Body of Horſe is Drawn up, the Officers
+<pb n="55" facs="tcp:172436:31"/>
+muſt ſtand cloſe to their Men; onely he that Com<g ref="char:EOLhyphen"/>mands muſt be a Horſe length before the Reſt of the Officers: And they muſt obſerve the ſame thing in Marching; for nothing is more unſeemly, than to ſee the Officers at too great a Diſtance from their Men.</p>
+            <p>It is thought neceſſary to make an Alteration in the manner of Wheeling of Horſe; For whereas for<g ref="char:EOLhyphen"/>merly, when a Squadron of Horſe was Command<g ref="char:EOLhyphen"/>ed to Wheel, (if it were
+<pb n="56" facs="tcp:172436:32"/>
+to the Right) the Right-hand Men cloſed to the Left; Which way was found ſubject to put the Ranks out of Order, and therefore the Practiſe now is, That the Right-hand Men ſhould keep their Ground, onely turning their Horſes Heads to the Right, whilſt the Left comes about; in which Motion they muſt obſerve their Left-hand man.</p>
+            <p>When a Squadron of Horſe is to Charge ano<g ref="char:EOLhyphen"/>ther, it is better they ſhould do it with their
+<pb n="57" facs="tcp:172436:32"/>
+Swords in their Hands, than either with their Piſtols or Carabins.</p>
+         </div>
+         <div type="part">
+            <head>The manner of Encamping for Horſe or Foot.</head>
+            <p>THere muſt be allow<g ref="char:EOLhyphen"/>ed One hundred Pa<g ref="char:EOLhyphen"/>ces for the Encamping of a Battalion conſiſting in ſix<g ref="char:EOLhyphen"/>teen Companies, and fifty Men in each Company.</p>
+            <p>There muſt be allowed fifty Paces for a Squadron conſiſting in three Troops, and fifty Men in each Troop.</p>
+            <p>
+               <pb n="58" facs="tcp:172436:33"/>
+From the Head of the Firſt Line, to the Head of the Second, there is com<g ref="char:EOLhyphen"/>monly allowed three hun<g ref="char:EOLhyphen"/>dred Paces, whereof One hundred and twenty are for the Encamping of the firſt Line; So that there re<g ref="char:EOLhyphen"/>mains One hundred and eighty Paces for the diſt<g ref="char:EOLhyphen"/>ance between the laſt Tents of the firſt Line, and the Head of the Second.</p>
+            <p>It is to be obſerved that this meaſure of ground a<g ref="char:EOLhyphen"/>foreſaid is meant onely for the Encamping of an Army; For if it was to be ranged
+<pb n="59" facs="tcp:172436:33"/>
+in Battel in caſe of Service, the diſtances between the Battalions or Squadrons muſt be greater than in a Camp.</p>
+            <p>It muſt be endeavoured as much as may be, that the Second Line be equal to the Firſt, keeping the ſame Diſtance upon the Right and Left.</p>
+            <p>All Troops or Compa<g ref="char:EOLhyphen"/>nies of Horſe or Foot con<g ref="char:EOLhyphen"/>ſiſting but of fifty Men, are to be Encamped on one Row of Baraques or Hutts; But when the Troops or Companies conſiſt in more
+<pb n="60" facs="tcp:172436:34"/>
+Men, there muſt be two or three Rows of Ba<g ref="char:EOLhyphen"/>raques or Hutts.</p>
+            <p>It is to be obſerved, that in each Squadron or Bat<g ref="char:EOLhyphen"/>talion, the Collonels Com<g ref="char:EOLhyphen"/>pany is always upon the Right or Left, and there make their Row of Hutts: behind them muſt be left a ſpace for the Street, then the Second Company makes their Row of Hutts; near to which the Third makes theirs, leaving the ſpace of two Foot onely be<g ref="char:EOLhyphen"/>tween their Hutts, which is called the By-Street. And
+<pb n="61" facs="tcp:172436:34"/>
+the ſame thing is obſerved by the Horſe.</p>
+            <p>The Hutts of the Foot al<g ref="char:EOLhyphen"/>ways open towards the Street.</p>
+            <p>The Baraques of the Cavalry always open tow<g ref="char:EOLhyphen"/>ards the Horſes Heads.</p>
+         </div>
+         <div type="part">
+            <head>The Particulars of Encamping of a Battalion.</head>
+            <p>WHen the Adjutant or Quartermaſter hath his Ground allotted to him for the Encamping of a Battalion, which is com<g ref="char:EOLhyphen"/>monly
+<pb n="62" facs="tcp:172436:35"/>
+One hundred Paces, he is to divide it in the man<g ref="char:EOLhyphen"/>ner following; <hi>(viz.)</hi> He muſt allow Seven Foot Square to each Hutt, Two Foot to the By-ſtreets, and Fifteen Foot to the great Streets.</p>
+            <p>Every Company conſiſt<g ref="char:EOLhyphen"/>ing of Fifty Men, ought to have Ten Hutts; and there muſt be the diſtance of Two Foot between the Hutts.</p>
+            <p>The Kitchens muſt be marked out at Twelve Foot diſtance from the laſt Row of Hutts, and muſt
+<pb n="63" facs="tcp:172436:35"/>
+be Placed juſt over againſt them, ſo that the Streets may be open quite through, for the Officers to paſs eaſi<g ref="char:EOLhyphen"/>ly to the Head of the Camp, as there ſhall be occaſion.</p>
+            <p>The length of the Kit<g ref="char:EOLhyphen"/>chens is to be of Nine Foot, and the breadth of Six Foot.</p>
+            <p>There muſt be thirty Pa<g ref="char:EOLhyphen"/>ces diſtance between the Souldiers Kitchens, and the Front of the Captains Tents.</p>
+            <p>There muſt be diſtance of fourty Paces between the Captains Tents, and the Front of the Tents of the
+<pb n="64" facs="tcp:172436:36"/>
+Subaltern Officers; and the remaining Ground is for the Encamping of the Captains Equipage.</p>
+            <p>The Sutlers are to En<g ref="char:EOLhyphen"/>camp behind the Officers Tents.</p>
+            <p>By this account, there remains Fifteen or Twenty Paces, which makes the diſtance from one Battalion to another, which is always left upon the Left hand.</p>
+            <p>The Pikes (whether they are Placed againſt a Croſs, or in a Stand) muſt be allowed at Eighteen Foot diſtance from the Hutts.</p>
+            <p>
+               <pb n="65" facs="tcp:172436:36"/>
+The Muſquets muſt be at Eighteen Foot diſtance from the Pikes, or they may be Placed upon the ſame Line with them.</p>
+         </div>
+         <div type="part">
+            <head>The Particulars of Encamping of a Squadron.</head>
+            <p>WHen a Quarter<g ref="char:EOLhyphen"/>maſter of Horſe hath his Ground allotted to him for a Squadron, which is commonly fifty Paces, he is to divide it in the fol<g ref="char:EOLhyphen"/>lowing manner, <hi>viz.</hi>
+            </p>
+            <p>He muſt allow three
+<pb n="66" facs="tcp:172436:37"/>
+Paces for the length of a Baraque, and two Paces diſtance from the Opening of the Baraque to the Stakes to which the Horſes are faſtened, and three Paces for each Horſes ſtanding, and ten Paces for the Street.</p>
+            <p>To the Second Troop is to be allowed two Paces diſtance, three Paces for their Baraques, and one Pace diſtance for the By-ſtreet.</p>
+            <p>The third Troop muſt have two Paces diſtance, three Paces for the Bara<g ref="char:EOLhyphen"/>ques, and three Paces for
+<pb n="67" facs="tcp:172436:37"/>
+the Horſes; After which, there will remain fifteen Paces, which makes the diſtance from one Squa<g ref="char:EOLhyphen"/>dron to another.</p>
+            <p>If the Squadrons are ſtronger, they muſt have more Ground; And this is onely for a Squadron of one hundred and fifty Men, in three Troops, each Troop making but one Row of Baraques.</p>
+            <p>The Colours muſt be Placed at eighten Foot di<g ref="char:EOLhyphen"/>ſtance from the Front of the Baraques, in the ſame Line with the Pikes.</p>
+            <p>
+               <pb n="68" facs="tcp:172436:38"/>
+There are commonly ten or twelve Baraques on a Row, for every Troop of fifty Men; And there muſt be at leaſt two Paces diſtance from one Baraque to another.</p>
+            <p>For the Troops Kitchens, the Officers Tents, and the Sutlers which attend upon the Troops, the ſame mea<g ref="char:EOLhyphen"/>ſures are to be obſerved in proportion, as are uſed for Encamping of Foot.</p>
+            <p>By a Pace here, is meant three Foot.</p>
+         </div>
+         <div type="part">
+            <pb n="69" facs="tcp:172436:38"/>
+            <head>Orders for Battel.</head>
+            <p>THough there can be no certain Rules giv<g ref="char:EOLhyphen"/>en for any Order of Battel, which depend chiefly upon the circumſtances of Place, and other Accidents that may happen, yet I ſhall ſet down ſome which may ſerve for an Example to ſhew the nature of the Thing.</p>
+            <p>You muſt then firſt of all Command Silence; next to March very Leiſurely. To obſerve the right in Marching, and preſerve the Intervals, which are al<g ref="char:EOLhyphen"/>ways to be fifty or ſixty
+<pb n="70" facs="tcp:172436:39"/>
+Paces at leaſt, that fifty of a Battalion may paſs through them.</p>
+            <p>None to ſpeak but the Commander in chief, or the Major by his Order.</p>
+            <p>Advancing againſt the Enemy in Battel, out of Muſquet Shot, the Cap<g ref="char:EOLhyphen"/>tains and other Officers at the head of the Battalion, are all to March in a Line, with their Pikes in their Hands, two good Paces before the Men, and are often to look behind them; Becauſe otherwiſe they may inſenſibly get too much be<g ref="char:EOLhyphen"/>fore
+<pb n="71" facs="tcp:172436:39"/>
+the Body; And the Souldiers by following too faſt, fall into diſorder, where<g ref="char:EOLhyphen"/>of great care is to be taken in Marching againſt an E<g ref="char:EOLhyphen"/>nemy.</p>
+            <p>At which time the Ranks are to be two great Paces diſtant, and the Files cloſed in ſuch a manner, that eve<g ref="char:EOLhyphen"/>ry Souldier may March at his eaſe, and ſo Charge and Fire; which will be effect<g ref="char:EOLhyphen"/>ed, if he have liberty of moving his Elbows as he Marcheth.</p>
+            <p>When the Muſqueteers come within Shot, and
+<pb n="72" facs="tcp:172436:40"/>
+March ready with their Pans guarded, the Ranks ſhould be cloſed forward to the Swords point. But to a<g ref="char:EOLhyphen"/>void talking, which uſually happens at this inſtant, it is better to leave the diſtance of one Pace between the Ranks; ſo the Souldiers will not preſs one upon ano<g ref="char:EOLhyphen"/>ther; which ordinarily cau<g ref="char:EOLhyphen"/>ſes breach of Silence in a Battalion. The diſtance of Files is to be preſerved as hath been ſaid already.</p>
+            <p>He that Commands a Battalion, is to be in the Center of it, at the Head
+<pb n="73" facs="tcp:172436:40"/>
+of the Pikes; the Officer next in degree, is to be in the Rere of the Pikes; the third in degree, at the Right Wing of Shot, in the Front; the fourth, at the Left Wing of Shot, in the Front; The reſt of the Captains are to be in the Rere on the Wings of Shot, according to their degrees. The Lieutenants are to be Placed, two in the Front, two in the Rere, and one on each Flank. The Colours are to be in the Cen<g ref="char:EOLhyphen"/>ter of the Pikes. The Serje<g ref="char:EOLhyphen"/>ants are to be Placed one on the Right and Left of each
+<pb n="74" facs="tcp:172436:41"/>
+Rank. If a Battalion con<g ref="char:EOLhyphen"/>ſiſt of more then Six Com<g ref="char:EOLhyphen"/>panies, the reſpective Offi<g ref="char:EOLhyphen"/>cers are to be Placed accord<g ref="char:EOLhyphen"/>ing to the diſcretion of the Commander of the Batta<g ref="char:EOLhyphen"/>lion.</p>
+            <p>It were not amiſs to Place the Company of the Captain that Commands the left Wing of Shot, on the left of all that Wing; unleſs the Battalion be the outermoſt on the Line: for then the Collonels Compa<g ref="char:EOLhyphen"/>ny is to be on the Left of all, in this caſe the Right and Left Exchanging.</p>
+            <p>
+               <pb n="75" facs="tcp:172436:41"/>
+In a Battel, the Captains and other Officers are to March in a Line; but com<g ref="char:EOLhyphen"/>ing within Shot of the Ene<g ref="char:EOLhyphen"/>my, and the Muſqueteers Marching ready with their Pans guarded, the whole Line of Captains and other Officers is to retire each of them into the Intervals of his Files next after his Poſt; yet ſo, as they may look to the Right and Left of the Battalion. Whilſt they are Marching towards the Enemy, they are to be very careful to keep themſelves in this Poſture, and nei<g ref="char:EOLhyphen"/>ther
+<pb n="76" facs="tcp:172436:42"/>
+to be forwarder nor backwarder, neither with<g ref="char:EOLhyphen"/>out the Battalion, nor with<g ref="char:EOLhyphen"/>in it. And when they be<g ref="char:EOLhyphen"/>gin to March with their Pikes Charged, and that the Muſqueteers are ready, the Ranks are to be cloſed forward to one ſmall Pace. Aſſoon as the Battalion comes to thirty Paces di<g ref="char:EOLhyphen"/>ſtance from the Enemy, let the Muſqueteers Fire, the manner of which Firing ſhall be ordered them be<g ref="char:EOLhyphen"/>fore.</p>
+            <p>The Captain Command<g ref="char:EOLhyphen"/>ing the Rere, is to obſerve
+<pb n="77" facs="tcp:172436:42"/>
+that the Battalion March ſtill, to cauſe the Souldiers to cloſe forward eaſily, and without noiſe or confuſion: His chief care ought to be to Command the Pikes ever to March even with the Wings of Muſqueteers; For it often happens that in Marching any conſiderable time in Battel, the Wings Advance, and form a Half<g ref="char:EOLhyphen"/>moon, and the Pikes in the middle being extremely preſ<g ref="char:EOLhyphen"/>ſed upon, the Battalion is broken. Provided the moti<g ref="char:EOLhyphen"/>on of the Pikes be equal on the Right and Left, the Bat<g ref="char:EOLhyphen"/>talion
+<pb n="78" facs="tcp:172436:43"/>
+cannot be diſordered by its March. Above all, we are carefully to preſerve the diſtance of Ranks and Files, according to what hath been ſaid already.</p>
+            <p>The Grenadeers (when there are any) are to be drawn up on the Right of the Battalion, and to aug<g ref="char:EOLhyphen"/>ment it, without intermix<g ref="char:EOLhyphen"/>ing with it, or troubling the Order of it, they being a ſe<g ref="char:EOLhyphen"/>parate number of Men that are to be always ready for whatever ſhall be Com<g ref="char:EOLhyphen"/>manded them.</p>
+            <p>The Commander of a
+<pb n="79" facs="tcp:172436:43"/>
+Battalion may be on Horsback at the Head of it, when the Captains are on Foot with their Pikes in their hands, in conſideration that he is to be ſtirring to all parts, to ſee that the diſtances be ob<g ref="char:EOLhyphen"/>ſerved; and above all, that none ſpeak, except himſelf, or the Major by his Order.</p>
+            <p>The Commander of a Battalion is to alight when the Muſqueteers make rea<g ref="char:EOLhyphen"/>dy, and is to March with his Pike charged againſt the Enemy.</p>
+            <p>When an Army is Drawn up for Battel, the diſtance
+<pb n="80" facs="tcp:172436:44"/>
+between the Lines muſt be of three hundred Paces, the ſame as is in a Camp.</p>
+         </div>
+         <div type="part">
+            <head>Of Defiles.</head>
+            <p>TO paſs a narrow De<g ref="char:EOLhyphen"/>file, the readieſt way to perform it, and draw up again in Order aſſoon as paſt, is to make the Ranks File, if to the Right, the Right-hand man Files firſt, and the reſt of his Rank follow him, till the Defile be paſt, then they Rank again as they were; this ſeems better then Files
+<pb n="81" facs="tcp:172436:44"/>
+fileing, becauſe it immedi<g ref="char:EOLhyphen"/>ately makes a Front to the Enemy. If the Rank be great, let it File two a<g ref="char:EOLhyphen"/>breaſt, beginning with the two middlemoſt Files.</p>
+            <p>For larger Defiles, the Commander draws off as he judges the way will eaſi<g ref="char:EOLhyphen"/>ly receive; in order to which, the Battalion is di<g ref="char:EOLhyphen"/>vided before it Marches, Serjeants taking care of the Subdiviſions. The places of the Lieutenants may be ac<g ref="char:EOLhyphen"/>cording to theſe Figures, Captains and Enſigns keep<g ref="char:EOLhyphen"/>ing their places.</p>
+            <p>
+               <pb n="82" facs="tcp:172436:45"/>
+               <figure/>
+            </p>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+      <back>
+         <div type="colophon">
+            <pb facs="tcp:172436:45"/>
+            <p>
+               <hi>LONDON,</hi> Printed by the Aſſigns of <hi>John Bill</hi> and <hi>Chriſtopher Barker,</hi> Printers to the Kings moſt Excellent Majeſty. 1676.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

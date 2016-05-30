@@ -1,0 +1,808 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Gwir ddeongliad breuddwydion]</title>
+            <title>Oneirocritica. Welsh</title>
+            <author>Artemidorus, Daldianus.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1659</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A75627</idno>
+            <idno type="STC">Wing A3798A</idno>
+            <idno type="STC">ESTC R172514</idno>
+            <idno type="EEBO-CITATION">45504694</idno>
+            <idno type="OCLC">ocm 45504694</idno>
+            <idno type="VID">171589</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A75627)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 171589)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2577:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Gwir ddeongliad breuddwydion]</title>
+                  <title>Oneirocritica. Welsh</title>
+                  <author>Artemidorus, Daldianus.</author>
+               </titleStmt>
+               <extent>20+ p.   </extent>
+               <publicationStmt>
+                  <publisher>By Thomas Jones,</publisher>
+                  <pubPlace>[Shrewsbury :</pubPlace>
+                  <date>1698]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Translation of Artemidorus Daldianus' Oneirocritica.</note>
+                  <note>Imperfect: torn, t.p. and all after p. [20] lacking; title and imprint from Wing (2nd ed.).</note>
+                  <note>Reproduction of original in: Llyfrgell Genedlaethol Cymru/National Library of Wales (Aberystwyth, Wales)</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="wel">wel</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Visions --  Early works to 1800.</term>
+               <term>Dreams --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2007-10</date>
+            <label>Morfudd Nia Jones</label>Sampled and proofread</change>
+         <change>
+            <date>2007-10</date>
+            <label>Morfudd Nia Jones</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="wel">
+      <front>
+         <div type="preface">
+            <pb facs="tcp:171589:1"/>
+            <pb facs="tcp:171589:1"/>
+            <head>AT Y DARLL<gap reason="illegible: missing" extent="6 letters">
+                  <desc>••••••</desc>
+               </gap>
+            </head>
+            <p>Y Llyfr hwn a yſcrifenwŷd yn <gap reason="illegible: missing" extent="5 words">
+                  <desc>〈◊◊◊◊◊〉</desc>
+               </gap> Groaeg, a hynnŷ oedd waith yr <gap reason="illegible: missing" extent="5 words">
+                  <desc>〈◊◊◊◊◊〉</desc>
+               </gap> Enwog <hi>Artimedorus<g ref="char:punc">▪</g>
+               </hi> A chwedi hynny <gap reason="illegible: missing" extent="4 words">
+                  <desc>〈◊◊◊◊〉</desc>
+               </gap> y Llyfr hwn i chwech o Ieithoedd era<gap reason="illegible: missing" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible: missing" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> 
+               <hi>Ladingaeg, Ittalaeg, FFratngaeg, Hiſpaenaeg, <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>naeg;</hi> Ar awron hefŷd i'r <hi>Gymraeg;</hi> Ond <gap reason="illegible: missing" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> gwaith yr Argraphwŷd hwn yn yr Ieiuthoedd <gap reason="illegible: missing" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> reinawl hynnŷ ni fedrai ddywedŷd; Ond i'r <gap reason="illegible: missing" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> yn hyſpŷs ddarfod Argraphu y llyfr hwn ddêg <gap reason="illegible: missing" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> weithiau yn <hi>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aeſnaeg.</hi> Diammeu fôd llawer o wir<g ref="char:EOLhyphen"/>ionedd yn y llyfr hwn, pan gyhoeddwŷd ef mewn cym<g ref="char:EOLhyphen"/>maint o Ieithoedd, A chymmaint o amſeroedd yn y <hi>Saeſnaeg<g ref="char:punc">▪</g>
+               </hi> I mae yn <hi>Saeſnaeg</hi> lawer o lyfrau eraill yn deonglu breuddwŷdion heblaw hwn; A phob rhai o honŷnt ar a ddigwŷddodd i'm llaw a ddarllenais, ac a chwiliais am affaith neu ddiben fy mreuddwŷdion ynddŷnt; Ond yn wir cywira deo<g ref="char:EOLhyphen"/>ngliad o'm breuddwŷdion a gefais yn y llyfr hwn<g ref="char:punc">▪</g> A hynnŷ a wnaeth i mi gymmerŷd pêth poen iw gyfieuthu i'r <hi>Gymraeg.</hi>
+            </p>
+            <p>Ni ddigwŷddodd (er yſmwŷ nag ugain o flyn<g ref="char:EOLhyphen"/>yddoedd) un tramgwŷdd hynod i mi fy hun, nag i'r Deŷrnas hon, na freuddwŷdiais rŷwbeth yn ei gŷlch cŷn ei ddyfod; Ac ni chymerais (un amſer) un matter hynod mewn llaw, na ddeallwn ymlaenllaw drwŷ fy mreuddwŷdion, a deongliad y llyfr hwn, pa ddiben a ddae o hono; Ac am hynnŷ gallaf ddywedŷd, yn ddiammeu fôd llawer o goel ar freuddwŷdion; Yr Yſcrythŷr lân hefŷd ſŷdd yn tyſtiolaethu nad ofer ŷw pôb breuddwŷd; Megis a canlŷn.</p>
+            <p>Yna y daeth Duw at <hi>Abimelec</hi> noſwaith mewn breuddwŷd, ac a ddywedodd wrtho, wele dŷn marw wŷt ti, &amp;c. <hi>Gen.</hi> 20<g ref="char:punc">▪</g> 3.</p>
+            <p>Angel Duw a ddywedodd wrth <hi>Jacob</hi> mewn breuddwŷd &amp;c. <hi>Gen.</hi> 31. 11.</p>
+            <p>Duw a ddaeth at <hi>Laban</hi> liw nös mewn breuddwŷd, ac a ddywedôdd wrtho &amp;c. <hi>Gen.</hi> 31. 24.</p>
+            <p>
+               <pb facs="tcp:171589:2"/>
+               <gap reason="illegible: missing" extent="5 words">
+                  <desc>〈◊◊◊◊◊〉</desc>
+               </gap> (drwŷ ddeonglu breudd<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: missing" extent="4 words">
+                  <desc>〈◊◊◊◊〉</desc>
+               </gap> 
+               <hi>Pharao</hi> y trulliad, <hi>Gen.</hi> 40. 12. <gap reason="illegible: missing" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap>o bŷdd, adnod 19. Ac a byddeu <gap reason="illegible: missing" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap>oedd ffrwŷthlawn, a ſaith o flynydd<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: missing" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> yn yr <hi>Aipht. Gen.</hi> 41. 25.</p>
+            <p>
+               <gap reason="illegible: missing" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap>wŷdd a ddywedodd wrth <hi>Aaron</hi> a <hi>Miriam,</hi> 
+               <gap reason="illegible: missing" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> prophwŷd yr Arglwŷdd yn eich mŷſc, <gap reason="illegible: missing" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> gweledigaeth yr ymhyſpyſaf iddo, neu mewn <gap reason="illegible: missing" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>ddwŷd a llefaraf wrtho, <hi>Num.</hi> 12. 5. 6.</p>
+            <p>Yn <hi>Gibeon</hi> yr ymddangoſodd yr Arglwŷdd i <hi>Solomon</hi> mewn breuddwŷd liw nôs, a dywedodd Duw, gofŷn beth a roddaf i ti. 1 <hi>Bren.</hi> 3. 5.</p>
+            <p>
+               <hi>Daniel</hi> a ddeonglodd i <hi>Nebuchadnezzar</hi> feddwl el freuddwŷdion. <hi>Dan.</hi> 2. 36. &amp; 4. 20. Duw a dda<g ref="char:EOLhyphen"/>ngoſodd i <hi>Ddaniel</hi> drwŷ freuddwŷdion, y Troiadau a ddigwŷddeu yn y Bŷd. <hi>Dan.</hi> 7. 1. &amp;c.</p>
+            <p>Angel yr Arglwŷdd a ymddangoſodd i <hi>Joſeph</hi> mewn breuddwŷd, i wahardd iddo wrthod ei wraig <hi>Mair. Mat.</hi> 1. 20.</p>
+            <p>Gan i Dduw rybuddio y gwŷr doethion drwŷ freuddwŷd na ddychwelent at <hi>Herod,</hi> aethant eil<g ref="char:EOLhyphen"/>waith iw gwlad ffordd arall. <hi>Mat.</hi> 2. 12.</p>
+            <p>Angel yr Arglwŷdd a ymddangoſodd drachefen i <hi>Ioſeph</hi> mewn breuddwŷd, i beri iddo gymerŷd y Mâb bychan a'i fam, a diangŷd i'r <hi>Aipht. Mat.</hi> 2. 13. drachefen. <hi>Mat</hi> 2. 19.</p>
+            <p>Llawer mwŷ o brofedigaethau a allaſwn dynnŷ o'r yſcrythur lân, i ddwŷn ar ddeall i chwi fôd breuddwŷdion gŷnt yn genadon, a rhybaddion oddi<g ref="char:EOLhyphen"/>wrth yr Holl Alluog Dduw; Ac am hynnŷ ni ddy<g ref="char:EOLhyphen"/>lem wneuthur mor gwatwar a gwawd o honŷnt, ond pan ddangoſer i ni drwŷ freuddwŷd rŷw bêth a nefao atom, dylem yn hytrach folianu Duw am ei gariadus rybuddion. Nid wif yn gwadu na bô rhai breuddwŷdion ofer, yn enwedig i'r bobl ang<g ref="char:EOLhyphen"/>hredinawl: Medd</p>
+            <closer>
+               <dateline>Mardol<g ref="char:punc">▪</g> yn y Mwŷthig. <date>Awſt 3. 1698</date>.</dateline>
+Eich Gwaſanaethwr
+<signed>Thomas Jones</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:171589:2"/>
+            <head>DEONGLIA<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap> BREUDDWYDION.</head>
+            <div type="section">
+               <head>Breuddwŷdion Ynghŷlch Ganedigaeth.</head>
+               <p>OS Breuddwŷdia Dŷn tylawd, ei fôd yn dyfod allan o grôth neu fol Gwraig, efe a geif gyfoethogrwŷdd, neu gyfeillion a'i cadwo, neu a'i maentimmio ef.</p>
+               <p>Os Breuddwŷdia Crefftwr ei fôd yn dyfod allan o'r Brû neu grôth gwraig, y breuddwŷd hwn ſŷ'n arwŷddo y bŷdd arno ef eiſieu gwaith,</p>
+               <p>Os Breuddwŷdia y Cyfoethog ei fôd yn dyfod allan o'r grôth, i mae hynnŷ yn rhag ddangos, na cheiff ef ddim rheoleth yn y tŷ lle a bŷddo ef; Ond eraill a'i meiſtrola ef yn erbŷn ei ewŷllŷs.</p>
+               <p>Os gŵr na bô ei wraig yn feichiog a freuddwŷdia ei fôd yn dyfod allan o'r grôth; I mae'r breuddwŷd yn arwŷddo a colliff ef ei wraig.</p>
+               <p>Ond os gŵr a bô ei wraig yn feichiog a freudd<g ref="char:EOLhyphen"/>wŷdia ei fôd ef yn dyfod allan o'r grôth, mae hynnŷ yn arwŷddo a ceiff ef Fâb tebŷg iawn iddo ef ei hun.</p>
+               <p>I gampwŷr ac ymladdwŷr, y breuddwŷd hwn ſŷdd ddrwg.</p>
+               <p>Os gŵr pan fyddo ef oddicartref neu allan o'i
+<pb facs="tcp:171589:3"/>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> fôd yn dyfod o grôth gwraig, <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> iddo ef ddychwel adref neu i'w <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> amſer.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> newn breuddwŷd ei fôd yn dy<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>roth, y mae hynnŷ yn arwŷddo mar<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> iddo.</p>
+            </div>
+            <div type="section">
+               <head>Ynghylch bôd yn Feichiog</head>
+               <p>OS rhŷw un tylawd, a freuddwŷdia ei fôd yn feichiog, y mae hynnŷ yn arwŷddo iddo a ceſgliff ef lawer o arian, ac a bŷdd ef ayfoethog.</p>
+               <p>Ond os y cyfoethog, a freuddwŷdia ei fôd ef yn feichiog, y mae ei freuddwŷd yn rhagddangos a ceiff ef boen, a gofid, a gofal.</p>
+               <p>Os Gŵr priodol, a freuddwŷdia ei fôd yn fei<g ref="char:EOLhyphen"/>chiog, mae hynnŷ yn arwŷddo a colliff ef ei wraig.</p>
+               <p>Ond ei ŵr heb fôd yn briodol, y mae y breu<g ref="char:EOLhyphen"/>ddwŷd ymma yn rhagddangos a ceiff ef wraig hyn<g ref="char:EOLhyphen"/>aws, addfwŷn, lariaidd.</p>
+               <p>I rai eraill, y mae breuddwŷdio ei bôd yn feichiog yn arwŷddo clefŷd: Ond breuddwŷdio bôd yn fei<g ref="char:EOLhyphen"/>chiog a chaffael eſgor yn y cyfamſer, ſŷdd arwŷdd a bŷdd y clâf farw ar fŷr o amſer.</p>
+               <p>Os Dŷn tylawd, anghenus dŷledus, ſŷdd yn goddef poen a gofud, a freuddwŷdia ei fôd yn feichiog a chael o hono ef eſgor, y mae hynnŷ yn arwŷddo di<g ref="char:EOLhyphen"/>wedd o'i holl ddrychineb, a'i ofud, a'i flinderau ef.</p>
+               <p>Breuddwŷd traws croes ŷw hwn i occrwŷr cy<g ref="char:EOLhyphen"/>foethogion, a llôgwŷr arian, ac i rai a farchnadto dros eraill; A hefŷd i rai a fo mewn awdurdod, canŷs os breuddwŷdiant eu bôd yn feichiog, y mae hynnŷ yn
+<pb facs="tcp:171589:3"/>
+Arwŷddo colled iddŷnt am <gap reason="illegible: missing" extent="5 letters">
+                     <desc>•••••</desc>
+                  </gap> o'r blaen.</p>
+               <p>Os Breuddwŷdia Marſindwy<gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> rai y fo yn berchen Llongau, eu b<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> chael o honŷnt eſgor, y mae hynnŷ <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> ddaioni iddŷnt hwŷ.</p>
+               <p>I Lawer ar ôl y breuddwŷd ymma, a d<gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> colled am rieni neu Dâd a Mam.</p>
+            </div>
+            <div type="section">
+               <head>O Fôd gan un Blant.</head>
+               <p>PAn Freuddwŷdioch eich bôd yn gweled fôd i chwi blant o'r eiddoch eich hun, ac nid o eiddo rhai eraill, hŷn ſŷdd ddrŵg i ŵr a gwraig, canŷs I mae y breuddwŷd hwn yn rhagddywedŷd a bŷdd iddŷnt hwŷ gael trymder a thriſtwch, am anghenion a chyf<g ref="char:EOLhyphen"/>reidiau, heb pa rai ni ellir magu a meithrin plant.</p>
+               <p>Ond os ynghŷlch bechgin a breuddwŷdia un, y diben a'r llwŷddiant a fŷdd gwell na phed faſau ef yn breuddwŷdio ynghŷlch genethod.</p>
+               <p>Breuddwŷdio ynghŷlch plant pobl earill, ſŷdd ddâ, os gwelir hwŷ yn dêg, yn brŷdweddol, ac yn olygus; Hynnŷ ſŷdd yn arwŷddo fôd daioni a ded<g ref="char:EOLhyphen"/>wŷddfŷd yn agos.</p>
+            </div>
+            <div type="section">
+               <head>Am blant wedi eu lapio mewn dillad, a lliain; Ac ynghŷlch Llaeth.</head>
+               <p>PAn Freuddwŷdio un ei weled ef ei hunan wedi el lapio neu eu ddilladu fel dŷnbychan, ac fellŷ yn ſugno bron merch yr hon y mae ef yn i adnabod, mae hynnŷ yn arwŷddo hîr glefŷd iddo oni bŷdd gantho ef wraig a hitheu yn feichiog yr amſer hwn<gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <pb facs="tcp:171589:4"/>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>ddo ef wraig a hitheu yn feichiog, <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>ma ſŷ'n arwŷddo a ceiff ef fâb yn <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> ef ei hun, ond os gwraig a freu<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> freuddwŷd, hi a geiff ferch.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> un pan fo yngharchar a freuddwŷdia ei <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gno bron merch a adwaeno, a chwedi ei <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> fel plentŷn; Y cythrael a gyffroiff y fâth ach<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>on yn ei erbŷn, na chaffo ef mo'i waredu, <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>i ryddhau.</p>
+               <p>Os un Clâf a weliff y fâth freuddwŷd, mae yn dy by gol na bŷdd ef iach o'i glefŷd mwŷ.</p>
+               <p>Os gwraig ifangc a freuddwŷdia ei bôd wedi ei dilladu fel dŷnbâch, a'i bôd yn ſugno bron merch arall a adwaeno hi, mae y breuddwŷd yn arwŷddo y bei<g ref="char:EOLhyphen"/>chioga hi, ac a daw ei ffrwŷth hi i berffeithrwŷdd.</p>
+               <p>I hên wraig dylawd y mae y breuddwŷd hwn yn arwŷddo a ceiff hi gyfoeth neu olud; Ond i hên wraig gyfoethog, y mae y breuddwŷd ymma yn arwŷdd o goſt, a thraul, a haelioni.</p>
+               <p>Os morwŷn neu ferch ieuaingc a freuddwŷdia ei bôd wedi ei gwiſgo fel dŷnbach, ac yn ſugno bron merch arall, mae hynnŷ yn rhagddangos iddi, fôd ei Neithior neu ei phriodas hi yn agos. Os morwŷn dlws drefnus a fŷdd hi, a chwedi myned mewn enŷd o oedran cŷn priodi; I mae y breuddwŷd hwn yn ar<g ref="char:EOLhyphen"/>wŷddo ei marwolaeth hi.</p>
+               <p>Os Dŷn tylawd a freuddwŷdia a'i weled ef ei hun wedi ei ddilladu neu wiſgo fel dŷnbach, ac yn ſugno bron merch, mae hynnŷ yn arwŷddo a ceiff ef <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>wer o arian a meddianau.</p>
+               <p>Ond os campiwr neu grefftwr a freuddwŷdia y
+<pb facs="tcp:171589:4"/>
+fâth freuddwŷd, I mae <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </head>
+               <p>BReuddwŷdio fôd gan un ben maw<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> cyfoethog, ac etto heb fôd mewn <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> ddas ac uchel fraint, a hefŷd i ŵr tylawd, <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ac i occrwr, a Llôgwr arian, canŷs yn <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> mae y breuddwŷd yn rhagddangos i'r cyfoet<gap reason="illegible: missing" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ceiff ef barch ac urddas, ac uchelfraint, yn y <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> caffo ef Awdurdod.</p>
+               <p>I'r tylawd y mae'r breuddwŷd yn rhagfynegi a ceiff ef gyfoeth a golud; I'r Campiwr I mae yn ar<g ref="char:EOLhyphen"/>wŷddo buddŷgoliaeth neu orfodaeth; Ac i'r occrwr a'r Llôgwr arian, i mae y breuddwŷd ymma yn ar<g ref="char:EOLhyphen"/>wŷddo pentyrrau a Swmm mawr o arian.</p>
+               <p>Ond os Breuddwŷdia y ſawl a fo euſus mewn parch ac urddas, neu os breuddwŷdia Areithŷdd, Juſtus, neu Farnwr y bobl, fôd ei Ben yn fawr, y fâth freu<g ref="char:EOLhyphen"/>ddwŷd ſŷdd yn arwŷddo i'r cyfrŷw, gael ſarhâad, amharch a drygfri gan y bobl.</p>
+               <p>Ond os Breuddwŷdia milwr neu <hi>Sowldiwr</hi> fôd ei ben ef yn fawr, mae yn arwŷddo a ceiff ef boen, a thrafferth, a thrallod.</p>
+               <p>Ond os Breuddwŷdia Gweinidog y fâth freudd<g ref="char:EOLhyphen"/>wŷd, y mae'n arwŷddo a ceiff ef hir waſanaeth neu gaethiwed:</p>
+               <p>Ac os un a fo wedi dewis Buche dd lonŷdd<g ref="char:punc">▪</g> dawel, a freuddwŷdia fôd ei Ben ef yn fawr, mae hynnŷ yn rhagddangos a ceiff ef boen, a thrafferth, a digofaint.</p>
+               <p>Ond os breuddwŷdia un fôd ei Ben yn llai <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb facs="tcp:171589:5"/>
+                  <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> dylau fôd, y breudd. <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> eb i'r peth a ddywed<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> amcan ar yr amrŷwiaeth <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> anſawdd a dull y gwŷr yr <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> am danŷnt euſus.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch gwallt llaes.</head>
+               <p>
+                  <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> freuddwŷdioch fôd ganthoch wallt têg, llaes, <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ach bôd megis yn falch o hono; Hynnŷ ſŷdd yn arwŷddo daioni, yn bennaf i ferched; I mae'r breudd<g ref="char:EOLhyphen"/>wŷd ymma yn arwŷddo daioni hefŷd I Frenin a Thwŷſog, ac i ŵr Doeth Synhwŷrol; Ac hefŷd I'r Sawl a fo'n arferu gadel iw gwallt dyfu, i mae breu<g ref="char:EOLhyphen"/>ddwŷdio fôd ganthŷne wallt têg yn ddâ i'r cyfrŷw.</p>
+               <p>Y mae y breuddwŷd hwn hefŷd yn arwŷddo cy<g ref="char:EOLhyphen"/>foeth i eraill, ond ei gael drwŷ boen a llafur.</p>
+            </div>
+            <div type="section">
+               <head>Am wallt allan o drefn.</head>
+               <p>PAn Freuddwŷdioch ynghŷlch gwallt caled garw, a fô yn debygcach i flew barf gwr nac i Lyw<g ref="char:EOLhyphen"/>ethau gwallt, hynnŷ ſŷdd yn arwŷddo i bôb mâth an bobl ddigofaint, a thrymder, a thriſtwch.</p>
+               <p>Pwŷbynnag a freuddwŷdio fôd ganddo ef wrŷch mochŷn yn lle gwallt, ſŷdd mewn enbŷdrwŷdd ang<g ref="char:EOLhyphen"/>herddol neu berŷgl mawr iawn, y cyfrŷw berŷgl ac a mae mochŷn yn gyffredinol yn gymmwŷs iddo, hyn<g ref="char:EOLhyphen"/>nŷ ŷw colli ei fywŷd.</p>
+               <p>Os Breuddwŷdia un fôd ganddo flew neu rawn ceffŷl yn lle gwallt, hynnŷ ſŷdd yn arwŷddo caeth<g ref="char:EOLhyphen"/>wed, a thrueni, ac adfŷd.</p>
+               <p>Pwŷ bynnag a freuddwŷdio fôd ganddo wlân yn
+<pb facs="tcp:171589:5"/>
+lle gwallt neu flew, i mae hynny <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> glefŷd iddo ef.</p>
+               <p>Y'r hwn a freuddwŷdio nad o<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> blew ynghŷlch ei wŷneb, i mae hyn<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> iddo ef a ceiff ef gywilŷdd diſymwth, <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> yn ei <hi>fatterion</hi> neu y negeſau y bô ef yn ei <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> breſenol.</p>
+               <p>Ond yr hwn a freuddwŷdio fôd ei gorŷn a <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> neu y tu ôl iw ben heb ddim gwallt, y mae hynny<gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> arwŷddo tylodi ac aflwŷdd iddo yn ei henaint.</p>
+               <p>Os rhŷw un a freuddwŷdia a gweled fôd yr yſtlŷs deheu iw ben wedi ei eillio, ac yn noeth, y mae hynnŷ yn arwŷddo a ceiff ef golled am geraint.</p>
+               <p>Ac os yr yſtlŷs aſwŷf iw ben, y breuddwŷdia un ei fôd yn noeth neu heb ddim gwallt, I mae yn ar<g ref="char:EOLhyphen"/>wŷdd a ceiff ef golled am gareſau; Canŷs y pen ſŷdd yn arwŷddo ceraint, y tu deheu i'r pen gwrŷw, ar<g ref="char:EOLhyphen"/>tu aſſwŷf y benŷw, ac fellŷ drwŷ'r holl gorph.</p>
+               <p>Breuddwŷdio fôd y tu ôl iw ben yn noeth ſŷdd ddâ i un mewn cyfraith, ac i un a fô yn ofnus, ac ſŷdd ddâ i un a fô wedi ei ddal, a'i gau i fynu, a'i gadw drwŷ rŷm a nerth yn erbŷn ei ewŷllŷs, canŷs ef a ffu ac a ddiengiff, ac ni ellir mo'i ddal pan fyddo ef yn ffoi.</p>
+            </div>
+            <div type="section">
+               <head>A'i gwelo ei hunan wedi ei eillio neu fowlio.</head>
+               <p>BRreuddwŷdio ei fôd wedi ei fowlio neu eillio ei ben, ſŷdd ddâ i gellweirwr neu wâs-digrif, ac i'r cyfrŷw ac ſŷdd arferol a bôd yn eilliedig; I bôb rhai eraill i mae y breuddwŷd hwn yn ddrŵg<g ref="char:punc">▪</g> Canŷs y mae'n arwŷddo noethni a llymder, neu ddrŵg a fo mwŷ.
+<pb facs="tcp:171589:6"/>
+                  <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>euddwŷdia fôd ei ben gwedi ei <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>io, I mae y breudd wŷd yn rhag<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>oriad y llong.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> a freuddwŷdia ei fôd wedi eillio neu <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>en, mae hynnŷ yn rhagfynegi perŷgl iddo <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> bŷdd ef farw o'r clefŷd hwnnw chwaith,</p>
+               <p>Breuddwŷdio fôd, wedi ei <hi>fowlio</hi> gan farbwr ſŷdd <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> arwŷdd o ffawd neu <hi>ffortun</hi> ddâ i bôb mâth yn gyffredinol.</p>
+               <p>Pwŷ bynnag a freuddwŷdio ei fôd yn ei eillio el nunan, mae hynnŷ yn arwŷddo triſtwch, <hi>anffortun</hi> a dryglam dirfawr iddo.</p>
+               <p>Os un a frêuddwŷdia ei fôd ef wedi ei grippio ag Ewinedd, os bŷdd ef mewn dyled, y mae ei freu<g ref="char:EOLhyphen"/>ddwŷd yn arwŷddo iddo a rhŷddhaiff ef ei hun drwŷ dalu'r ddylêd. Ond i bawb eraill I mae y breuddwŷd ymma yn rhagfynegi niweid drwŷ'r rhain a welodd yn ei grippio.</p>
+            </div>
+            <div type="section">
+               <head>Am y Talcen,</head>
+               <p>BReuddwŷdio fôd y Talcen yn iâch ac yn gigog, ſŷdd ddâ i bawb, canŷs y mae hynnŷ yn ar<g ref="char:EOLhyphen"/>wŷddo rhydd did, ymadrodd, nerth, a diweirdeb.</p>
+               <p>Breuddwŷdio fôd ganŷch Dalcen o Brês, o haiarn, neu o garreg, ſŷdd ddâ i Dafarnwŷr, a'r cyfrŷw rai ag ſŷdd yn bŷw wrth Elw ac enill digwŷlidd, ac i'r rheini yn unig y mae y breuddwŷd ymma yn ddâ, canŷs i eraill y mae hwn yn dangos magu câs.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch Cluſtiau</head>
+               <p>BReuddwŷdio fôd gan un lawer o gluſtiau, ſŷdd ddâ i'r ſawl a chwenychau gael rhŷw un yn ufudd
+<pb facs="tcp:171589:6"/>
+iddo, megis gwraig, plant, <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>Os y cyfoethog a freuddwŷd<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> o gluſtiau, a'r cluſtiau yn dêg ac yn <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> hynnŷ yn arwŷdd o glôd iddo ef am ei <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> os y cluſtiau a fŷdd yn wrthŷn ac yn <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> mae hynnŷ yn arwŷdd o anglôd iddo.</p>
+               <p>Y mae breuddwŷdio ynghŷlch llawer <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> yn arwŷddo drŵg i weinidog, a hefŷd i <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> mewn cyfraith, pa un bynnag a fyddo a'i cw<gap reason="illegible: missing" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> a'i ymddiffynwr.</p>
+               <p>Os Crefftwr neu un yn gweithio gwaith llaw, a freuddwŷdia ei fôd ef yn gweled llawer o gluſtiau, y mae yn arwŷdd dâ iddo, canŷs fe a geiff lawer a'i rhŷdd ef ar waith.</p>
+               <p>Breuddwŷdio fôd yn colli y cluſtiau, ſŷdd yn wrthwŷnebol i bôb peth ag a ſonwŷd am danŷnt yn y breuddwŷd hwn.</p>
+               <p>Breuddwŷdio eich bôd yn glanhau, eich cluſtiau ſŷdd yn arwŷddo newŷdd dâ i chwi; Ac os breu<g ref="char:EOLhyphen"/>ddwŷdia un fod ei gluſtiau wedi eu rhwbio a'u curo, ac megis ped faent yn frwd o herwŷdd hynnŷ, hŷn ſŷdd yn arwŷddo newŷddion drŵg i ddyfod.</p>
+            </div>
+            <div type="section">
+               <head>O fywion yn myned i'r cluſtiau.</head>
+               <p>BReuddwŷdio fôd mywion yn myned i'r cluſtiau, ſŷdd ddâ i philoſophyddion, i ymddadleuwŷr cyfrwŷſgall, ac Athrawon neu feiſtred yſgolion: Canŷs y mae y mywion yn arwŷddo plant, pa rai a rŷdd gluſt i wrando ar y fâth wŷr.</p>
+               <p>I eraill y mae breuddwŷdio ynghŷlch mywion, yn arwŷddo Angeu neu farwolaeth.
+<pb facs="tcp:171589:7"/>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>ôd gan un gluſtiau Aſſŷnnod, ſŷdd <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>ddion yn unig; I eraill y mae y <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> yn arwŷddo caethiwed a thrueni <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> a freuddwŷdio fôd gantho ef gluſtiau <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> Flaidd neu rŷw anifail creulon arall, y <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> freuddwŷd yn arwŷddo fôd iddo ef dwŷll <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nfigen.</p>
+               <p>Y neb a freuddwŷdio fôd gantho ef lygaid yn lle cluſtiau, ei freuddwŷd ſŷdd yn arwŷddo dallineb, neu fyddarwch iddo.</p>
+            </div>
+            <div type="section">
+               <head>Am Aelau.</head>
+               <p>BReuddwŷdio ynghŷlch aelau blewog gweddus, ſŷdd ddâ i bawb, ac yn bennaf i ferched.</p>
+               <p>Breuddwŷdio fôd aelau yn noeth ac yn ddiflew, ſŷdd yn rhagfynegu aflwŷddiant, a diben drŵg i <hi>fuſ<g ref="char:EOLhyphen"/>neſau</hi> neu achoſion; A herŷd amrafael unigol, a thrymder ac alaeth.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch y Llygaid.</head>
+               <p>BReuddwŷdio ynghŷlch golwg liŷm, ſŷdd ddâ i bawb yn gyffredinol; Ond golwg triſt cyffrous ſŷdd yn arwŷddo angen, neu eiſieu arian, a rhwŷſtŷr mewn <hi>buſneſau</hi> neu achoſion.</p>
+               <p>Os yr hwn a fo ganddo blant, a freuddwŷdia ynghŷlch golwg llŷm, y mae hynnŷ yn rhagfynegu a ceiff ei blant ef glefŷd.</p>
+               <p>Breuddwŷdio fôd megis yn ddall o'r ddau lygad ſŷdd yn rhagddangos colled am blant, neu frodŷr. Tâd, neu Fam.</p>
+               <p>
+                  <pb facs="tcp:171589:7"/>
+Etto, y mae y breuddwŷ<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> fo yngharchar, canŷs os breudd<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ddall, mae hynnŷ yn arwŷddo na <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ddrygfŷd.</p>
+               <p>Os Breuddwŷdia un tylawd iawn <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> I mae y breuddwŷd yn arwŷddo na <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> fŷd a'i dylodi, ac a ceiff ef yr hŷn a'i bo<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ag y mae llawer yn barod i gynorthwŷo <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> io y dall.</p>
+               <p>Y Mae breuddwŷdio a gweled megis ped fa<gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ddall, yn ddrŵg i'r fawl a wnelo hir deithiau neu <hi>ſiwrneiau,</hi> canŷs y mae'n arwŷddo rhwŷſtŷr iddo; Ac<g ref="char:punc">▪</g> i'r hwn ſŷdd o'i wlâd y mae y breuddwŷd hwn yn rhybudd nad ŷw ddâ iddo ddychwel adref; Canŷs ni wêl yr hwn a gollodd ei olwg mo'i wlâd na'i dŷ.</p>
+               <p>Breuddwŷdio ei fôd yn ddall ſŷdd ddrŵg i filwr neu <hi>Sowldiwr,</hi> ac i bób máth ac ſŷdd yn bŷw wrth gelfyddŷd prynnŷ a gwerthu, canŷs eu <hi>buſneſan</hi> neu eu achoſion a geiff aflwŷddiant neu ddiben drŵg.</p>
+               <p>Os Breuddwŷdia moriwŷr, neu Sywedŷdd a fyddo yn dwŷs yſtyried y Sêr, eu bôd yn ddall, y mae yn freuddwŷd traws croes iddŷnt.</p>
+               <p>Os rhŷw un a fo'n dyfal chwilio am rŷw bêth a gollodd, a freuddwŷdia ei fôd yn ddall, y mae'n ar<g ref="char:EOLhyphen"/>wŷddo na chaiff ef bŷth mo'r peth a gollodd. I bry<g ref="char:EOLhyphen"/>dyddion i mae y breuddwŷd hwn yn ddâ.</p>
+               <p>I'r cleifion, y mae breuddwŷdio eu bôd yn ddall, yn arwŷddo marwolaeth neu fôd angeu yn agos.</p>
+               <p>Os Breuddwŷdia rhŷw un ei fôd ef wedi colli un llygad, yr holl bethau a yſpyſwŷd neu a fyneg<g ref="char:EOLhyphen"/>wŷd am danŷnt o'r blaen, a ddigwŷdd iddo megis
+<pb facs="tcp:171589:8"/>
+                  <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap>th ar hanner yn unig, heb law hŷn <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> 
+                  <hi>
+                     <gap reason="illegible: missing" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>rio</hi> neu ddyfal yſtyrio, fôd y llygad <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> y mâb, y Brawd, a'r Tad, a'r <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap>h, y chwaer, a'r Fam.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> mae breuddwŷdia fôd gan un dri neu bedwar o <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>d yn dda i'r ſawl a fo yn amcanu priodi, ac a <gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>yddo yn Ewŷllyſio cael plant.</p>
+               <p>Os breuddwŷdia occrwr neu logwr arian, fôd ganddo ef dri neu bedwar o lygaid, y mae yn arwŷddo a ceiff ef bentyrrau neu ſwmm mawr o arian. Ond i'r hwn ſŷdd mewn dyled, y breuddwŷd hwn ſŷdd ddrŵg.</p>
+               <p>Os gŵr cyfoethog a freuddwŷdia fôd ganddo ef dri neu bedwar o logaid, y mae ei freuddwŷd yn ei ragrybuddio ef i ddiogelu ac i gadarnhau ei dŷ a'i feddianau, oblegid rhŷw ddirgel ddichell neu dwŷl<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſŷdd iddo.</p>
+               <p>Pwŷ bynnag a freuddwŷdio fôd ganddo ef lygaid yn ei draed neu yn ei ddwŷlo, y mae y breuddwŷd yn arwŷddo <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> colliff ef ei olwg o'r naill du, ac a ceiff ef ddolur neu friw o'r naill du i'w gorph.</p>
+               <p>Os Breuddwŷdia un fôd ganddo lygaid un arall, y mae hynnŷ yn arwŷddo a colliff efe ei olwg ei hun; Ond os bŷdd yn adnabod y'r hwn y mae efe yn tybied mae ei lygaid ef ſŷdd ganddo, fe a gedwiff dan ei ym<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dried blentŷn neu rŷw dryſor i hwnnw.</p>
+            </div>
+            <div type="section">
+               <head>Am y Trwŷn.</head>
+               <p>BReuddwŷdio fôd y Trwŷn yn dêg ac yn fawr, ſŷdd ddâ i bawb oll; Canŷs y mae'n arwŷddo cyfrwŷſder, a Synwŷr, a llwŷddiant, neu ragluniaeth
+<pb facs="tcp:171589:8"/>
+mewn <hi>buſneſau</hi> neu negeſau, <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> rhai Arbenig, neu wŷr mawr <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>Breuddwŷdio fôd heb drw<gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> y gwrthwŷneb i'r hŷn a ddyw<gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>Os breuddwŷdia y clâf ei <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> hynnŷ yn arwŷddo marwolaeth iddo.</p>
+               <p>Os breuddwŷdia un fôd ganddo dda<gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> mae'n arwŷddo anghyttundeb neu anghydfod <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> tho ef a'i geraint cartrefol.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch y Gruddiau, neu'r Bochau.</head>
+               <p>BReuddwŷdio fôd y bochau yn dew, ac yn llawn, ſŷdd dda i bawb ôll, ond yn enwedig i ferched.</p>
+               <p>Ond breuddwŷdio fôd y bochau yn deneu, yn gul, ac yn llawn crychni, ſŷdd yn arwŷddo trym<g ref="char:EOLhyphen"/>der a thriſtwch.</p>
+            </div>
+            <div type="section">
+               <head>O'r Gwefuſau, Gorchfannedd, neu Gîg y dannedd, ar ên.</head>
+               <p>Y Gorchfannedd neu'r ên lle y bo y dannedd ynddi<g ref="char:punc">▪</g> ſŷdd yn arwŷddo Sioppau, neu y lle a cedwir Marſiandiaeth neu y pethau a brynnir ac a werthir; y gwefuſau ſŷdd yn goſod allan y ſawl a fô arfer a'n cuſanu, a'n cofleidio, a rhai a fo yn fynŷch o'n cwmpas neu yn agos attom, megis gwraig, plant, rhieni a chyfathrach; Fellŷ os bŷdd cîg y dannedd, neu'r ên, mewn breuddwŷd, megis fel ped faent yn cael niweid neu ddrwg ddamwain, y mae hynnŷ yn arwŷddo i ni, nad ŷw <hi>buſneſau</hi> neu achoſion, yn cer<g ref="char:EOLhyphen"/>aint a'n cyfatharch mewn cyflwr dâ.</p>
+            </div>
+            <div type="section">
+               <pb facs="tcp:171589:9"/>
+               <head>
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ghŷlch Barf.</head>
+               <p>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> gantho farf hir, dew, ſŷdd dda <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> duedd i ſiarad yn ddoeth, megis <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> Areithŷdd, cyfreithwr, philoſophŷdd, <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ewŷllŷs ar ddyſgu cywreinrwŷdd <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> dau.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>raig weddw a freuddwŷdia fôd ganthi <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> geiff ŵr mwŷnaidd, tirion, rhŷwiogaidd.</p>
+               <p>Gwraig briodol a freuddwŷdia fôd ganthi hi <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rf, hi a golliff ei gŵr, neu hi a geiff yſgariaeth oddiwrtho ef, a hi a Lyfodraetha ei thŷ ei hunan fel ped fae hi gŵr a gwraig.</p>
+               <p>Os gwraig ni bo yn feichiog, a freuddwŷdia fôd ganthi farf, hi a feichoga ac a geiff fâb.</p>
+               <p>Ond os gwraig a fŷdd mewn cyfraith, a freu<g ref="char:punc">▪</g>@@ddwŷdia fôd ganthi farf, I mae hynnŷ yn arwŷddo a parheiff hi yn ei bwriad a'i hamean, gan ddwŷn meddwl uchel, ac yſtyried ei <hi>chredit</hi> neu ei brî, megis fel ped fae hi gŵr.</p>
+               <p>I Blentŷn I mae y breuddwŷd hwn yn arwŷddo marwolaeth.</p>
+               <p>Ond os yr hwn a fo yn ei febŷd, neu yn dechreu barfu, a freuddwŷdia fôd gantho farf fawr, y mae'n arwŷdd a derchefiff ef ei hun, drwŷ ei aſtud, a'i ddyfalwch neu ei ddiwŷdrwŷdd ei hunan, ac a goſodiff ef ei hun ymlaen drwŷ gynnyddu mewn cyfoeth, o ba gyflwr bynnag a byddo.</p>
+               <p>Breuddwŷdio fôd yn bwrw ei farf, neu fôd yn ai thorri hi ymmaith, neu fôd eraill yn ei thynnu hi ymmaith a'u dwŷlo, i mae y breuddwŷd hwn yn ar<g ref="char:EOLhyphen"/>wŷddo
+<pb facs="tcp:171589:9"/>
+colled am rieni, <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> niweid drygfri ac anglod.</p>
+            </div>
+            <div type="section">
+               <head>O'r Dannedd.</head>
+               <p>Y Dannedd yn yr ên uchaf ſŷdd <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> ceraint, neu y tylwŷth goreu o'r <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> dannedd iſaf ſŷdd yn arwŷddo y ceraint g<gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>Rhaid i chwi ddeall fôd y ſafn yn arwy<gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> y dannedd y tylwŷth: Y rhai o'r tu deheu y <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> neu'r gwrŷw, y dannedd o'r tu aſſwŷ y mer<gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> neu'r benŷw.</p>
+               <p>Neu mewn môdd arall, y dannedd o'r tu deheu a arwŷdda y rhai hynaf o'r tylwŷth, a'r dannedd o'r tu aſw y rhai ieuengaf; Y dannedd a elwir dannedd y Ilygaid, ſŷdd yn arwŷddo y rhai ſŷdd o ganol oedran.</p>
+               <p>Gan hynnŷ pa ddaint bynnag a breuddwŷdio un ei fôd yn ei golli, fe a geiff golled am y fâth ddŷn ac a mae y daint hwnnw yn ei arwŷddo.</p>
+               <p>Ond pan fo dannedd yn arwŷddo colled am ddâ, y dannedd mawr a arwŷddant dryſor cuddiedig, a'r lleill a arwŷddant leſtri, neu beth o gyfri gwaelach.</p>
+               <p>Pa ddaint bynnag a breuddwŷdio un (a fo mewn dyled) ei fôd yn i golli, I mae'n arwŷdd iddo a rhyddhaiff efe ei hun, ac a tâl ef ei ddylêd.</p>
+               <p>Breuddwŷdio fôd yr holl ddannedd yn ſyrthio ar unwaith, ſŷdd yn arwŷddo i'r holl Drigolion adael y tŷ yn anghyfanedd.</p>
+               <p>I'r ſawl a fo'n glâf, I mae breuddwŷdio eu bôd yn bwrw rhai o'u dannedd, yn arwŷdd o hir glefŷd, Ond heb farwolaeth; Gwell i'r clâf freuddwŷdio e ei fôd yn bwrw ei holl ddannedd (na rhai) canŷs <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n
+<pb facs="tcp:171589:10"/>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> gwellhaiff neu yr <hi>amendia</hi> ef <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> neu un caeth a freuddwŷdia nad oes <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap>nnedd, I mae hynnŷ yn arwŷddo <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> braint.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>dwr a freuddwŷdia ei fôd ef yn bwrw <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, I mae yn arwŷddo iddo Elw ac ennill <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ei farſiandiaeth, ei faſnach a'i drafficc.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>euddwŷdio fôd dannedd yn tyfu megis y naill <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> uwch na'r llall, ſŷdd yn arwŷddo a bŷdd ang<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ydfod, a chythryfwl yn y tŷ.</p>
+               <p>Y Rhai ſŷdd ganddŷnt ddanedd duon, pwdwr, drylliedig, a breuddwŷdio eu bôd yn eu colli, a gaiff eu gwar<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d oddiwrth y drŵg a'r dicter ſŷdd yn eu bygwth <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </p>
+               <p>Breuddwydio fôd y dannedd o aur, ſŷdd ddâ, i'r ſawl a fo yn yſtudio i ſiarad, neu i ymmadrodd yn ddoeth neu yn bwŷllŷs; Ond ei eraill y breuddwŷd ymma ſŷdd yn arwŷddo niweid neu ddrŵg yn eu tai, drwŷ dân.</p>
+               <p>Breuddwŷdio fôd gan un ddannedd cwŷr, ſŷdd yn arwŷdd o angeu diſyfŷd.</p>
+               <p>Ond Breuddwŷdio fôd y dannedd, o blwm neu <hi>dŷnn,</hi> ſŷdd yn arwŷddo cywilŷdd ac anglod.</p>
+               <p>Breuddwŷdio fôd y dannedd o wŷdr neu goed, ſŷdd yn rhagddangos marwolaeth ebrwŷdd.</p>
+               <p>Ond os breuddwŷdiwch fôd ganŷch ddannedd o arian, I mae yn arwŷddo a cewch chwi arian drwŷ fôd yn ffraeth neu yn hŷawdl.</p>
+               <p>Os y cyfoethog a freuddwŷdia fôd ganddo ddan<g ref="char:EOLhyphen"/>edd arian, y mae yn arwŷddo a ceiff ef gôſt a thraul
+<pb facs="tcp:171589:10"/>
+fawr, mewn arlwŷ angen<gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>Breuddwŷdio fôd yn c<gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> rhai eraill yn eu lle, ſŷdd arwy<gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> naill a'i yn ddâ a'i yn ddrŵg yn <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap> y dannedd.</p>
+               <p>Breuddwŷdio weled eich dannedd y<gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> 'ch mynwes, ſŷ'n arwŷddo a cewch golled <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <div type="section">
+               <head>O Chwŷdu gwaed, ac ynghŷlch llidnaws, Geri Du.</head>
+               <p>BReuddwŷdio fôd yn chwŷdu llawer o waed, <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> gwaed o liw dâ, ſŷdd arwŷdd dâ i'r tylawd, canŷ<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> efe a geiff amlder neu ddigonedd o arian.</p>
+               <p>Breuddwŷdio fôd yn chwdu gwaed o liw dâ ſŷdd ddâ i rhai nad oes ganddŷnt blant, ca<gap reason="illegible: missing" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e y breu<g ref="char:EOLhyphen"/>ddwŷd hwn yn arwŷddo a cant hwŷ blant o'u heuddo eu hunain.</p>
+               <p>Breuddwŷdio fôd yn chwŷdu gwaed o liw dâ<g ref="char:punc">▪</g> ſŷdd ddâ i'r ſawl a bo eu tylwŷth neu eu ceraint mewn gwlâd ddieithr, canŷs I mae yn arwŷddo a dychwelant hwŷ adref.</p>
+               <p>Breuddwŷdio fôd yn <hi>carrio</hi> neu yn dwŷn gwaed, ſŷdd ddrŵg i'r neb a fynneu fôd yn guddiedig.</p>
+               <p>Breuddwŷdio fôd yn chwŷdu gôr-waed grawnllŷd, ſŷdd yn arwŷddo clefŷd i bawb oll.</p>
+               <p>Breuddwŷdio fôd yn poeri ychydig waed, ſŷdd arwŷdd o anghydfod neu derfŷſc.</p>
+               <p>Breuddwŷdio fôd yn chwŷdu <hi>phlegm,</hi> ſŷdd dda i'r hwn a fo mewn gofud a thrueni, cyfyngder neu glefŷd, canŷs I mae yn arwŷddo diwedd iw ddrŵg, neu ddrychineb, neu glefŷd.
+<pb facs="tcp:171589:11"/>
+                  <gap reason="illegible: missing" extent="5 words">
+                     <desc>〈◊◊◊◊◊〉</desc>
+                  </gap> wŷdu bwyd, ſŷdd yn <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>
+                  <gap reason="illegible: missing" extent="4 words">
+                     <desc>〈◊◊◊◊〉</desc>
+                  </gap>n yn chwŷdu neu yn bwrw <gap reason="illegible: missing" extent="3 words">
+                     <desc>〈◊◊◊〉</desc>
+                  </gap> rhagfynegu marwolaeth plant i <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>
+               </p>
+               <p>
+                  <gap reason="illegible: missing" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>ddwŷdia y nêb nad oes gantho blant <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>wrw ei berfedd, fe a geiff golled am y <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> ag ſŷdd gantho ymhlith ei ddaoedd.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> clâf a freuddwŷdia ei fôd yn chwŷdu neu'n <gap reason="illegible: missing" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ei berfedd, y mae ei freuddwŷd yn arwŷddo <gap reason="illegible: missing" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>wolaeth iddo.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch y gwddw, a bôd gan un lawer o Bennau.</head>
+               <p>PA-glwŷf, haint, dolur neu ammherpheithrwŷdd bynnag a freuddwŷdio un ei fôd ynghŷlch ei wddwf, I mae yn arwŷddo clefŷd iddo pwŷ byn<g ref="char:EOLhyphen"/>nag a fyddo.</p>
+               <p>Os Breuddwŷdia Dŷn tylawd fôd ganddo ef ddau neu dri o bennau, fe a geſgliff <gap reason="illegible" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>r o ddâ, ac a geiff wraig a phlant naturiol.</p>
+               <p>Os un cyfoethog a freuddwŷdia fôd gantho ddau neu dri o bennau, y mae'n rhagddangos gwrth-wŷneb iddo o achos ei dylwŷth neu ei geraint.</p>
+            </div>
+            <div type="section">
+               <head>Ynghŷlch torriad Pen, neu fôd wedi torri Pen.</head>
+               <p>OS Breuddwŷdia un fôd wedi torri ei Ben, y mae hynnŷ yn arwŷdd drŵg i'r nêb a bo gantho Dâd, mam, neu blant; Canŷs efe a geiff golled am <gap reason="illegible: missing" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nŷnt hwŷ.</p>
+               <p>
+                  <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>ai wedi iddŷnt freuddwŷdio golli o honŷnt <gap reason="illegible: missing" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap>, a ddigwŷddodd colled am eu gwragedd, eu <gap reason="missing" extent="1 page">
+                     <desc>〈1 page missing〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <pb facs="tcp:171589:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,612 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Indago astrologica: or, a brief and modest enquiry into some principal points of astrology, as it was delivered by the fathers of it, and is now generally received by the sons of it. / By Joshua Childrey of Feversham in Kent.</title>
+            <author>Childrey, J. (Joshua), 1623-1670.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1652</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A79508</idno>
+            <idno type="STC">Wing C3873</idno>
+            <idno type="STC">Thomason E662_5</idno>
+            <idno type="STC">ESTC R206783</idno>
+            <idno type="EEBO-CITATION">99865889</idno>
+            <idno type="PROQUEST">99865889</idno>
+            <idno type="VID">118142</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A79508)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 118142)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 102:E662[5])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Indago astrologica: or, a brief and modest enquiry into some principal points of astrology, as it was delivered by the fathers of it, and is now generally received by the sons of it. / By Joshua Childrey of Feversham in Kent.</title>
+                  <author>Childrey, J. (Joshua), 1623-1670.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Edward Husband, and are to be sold at his shop at the sign of the Golden Dragon in Fleet-street, near the Inner-Temple Gate,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "may: 5".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Astrology --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-03</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2007-05</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2007-05</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:118142:1" rendition="simple:additions"/>
+            <p>Indago Aſtrologica:
+OR,
+A brief and modeſt Enquiry into
+ſome Principal Points
+OF
+ASTROLOGY,</p>
+            <p>As it was delivered
+By the FATHERS of it,
+And is now generally received
+By the SONS of it.</p>
+            <p>
+               <hi>By</hi> Joſhua Childrey <hi>of</hi> Feverſham <hi>in</hi> Kent.</p>
+            <p>
+               <hi>LONDON:</hi>
+Printed for <hi>Edward Husband,</hi> and are to be ſold at his
+Shop at the Sign of the Golden Dragon in <hi>Fleet<g ref="char:EOLhyphen"/>ſtreet,</hi>
+near the Inner-Temple Gate. 1652.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:118142:2"/>
+            <pb n="3" facs="tcp:118142:2"/>
+            <head>The Preface.</head>
+            <p>
+               <seg rend="decorInit">L</seg>Et the Reader firſt of all favor me ſo
+far, as to give me leave to deprecate
+his ſevere cenſure for my laying down
+that for a Foundation and Principle
+demonſtrable, which to him ſeems to
+need proof as much as any thing elſe I
+ſhall ſay: For though in former times
+the motion of the Earth hath been exploded as abſurd,
+and in this laſt Age by Noble <hi>Verulam</hi> himſelf (whoſe
+profound Philoſophy I no leſs admire, then I do at their
+unworthy ſlighting of it, who proud of their own high
+ſoaring Phantaſies, contemn experiment as below them;
+and though they demoliſh the airy Caſtles of the Stagi<g ref="char:EOLhyphen"/>rite,
+do it, but to make their own more ſpectable) con<g ref="char:EOLhyphen"/>demned
+as vain; yet it is by <hi>Galileo, Philolaus</hi> in his
+<hi>De Syſtemate Mundi,</hi> and other accurate Obſervers and
+Comparers of the <hi>Phaenomena</hi> of Heaven, ſo plainly de<g ref="char:EOLhyphen"/>monſtrated
+<hi>ad oculum,</hi> that it muſt now no longer paſs
+for <hi>Opinio,</hi> but in the Language of the Schools under the
+Notion of <hi>Scientia.</hi> Neither can I attribute the error of
+the Ancients, and the Lord <hi>Verulam</hi> touching this point,
+to any thing ſo much as this, That they were not ſuffi<g ref="char:EOLhyphen"/>ciently
+verſ'd in Aſtronomy: For the <hi>Phaenomena</hi> and
+reaſons whereon this piece of truth hangs, are for the
+<pb n="4" facs="tcp:118142:3"/>
+moſt part ſuch, that beſides thoſe who are well acquainted
+with the <hi>Theoriques</hi> of the Planets <hi>(abſit dicto invidia)</hi>
+few or none, either know, mark, or can underſtand them,
+as I might inſtance in Particulars: but that is no part of
+my task. For that which follows, the moderate Reader
+will finde it to be <hi>Sphaera plumbea,</hi> though dully penned,
+yet of more weight then length: Had ſome <hi>Mercuries</hi>
+had ſo much News to have told the world, three or four
+quire of Paper would have been too ſtrait a girdle for
+their Tympany; which diſeaſe is grown ſo much into
+faſhion, that the ſmalneſs of my Book tells me, I muſt
+expect no other welcome for it into the world but Tuſh,
+and no other name but a Trifle.</p>
+         </div>
+      </front>
+      <body>
+         <div type="astrological_treatise">
+            <pb n="5" facs="tcp:118142:3"/>
+            <head>Indago Aſtrologica.</head>
+            <div n="1" type="section">
+               <head>Sect. 1.</head>
+               <p>THe old <hi>Hypotheſis</hi> of the World according to
+to <hi>Ptolomey</hi> is found to be falſe, and that new
+one of <hi>Copernicus</hi> (where the ☉ is the immova<g ref="char:EOLhyphen"/>ble
+Centre of the Univerſe, and the Earth moved in
+the ſaid Orb which <hi>Ptolomy</hi> gave the ☉) is evinced to be
+the onely true one.</p>
+            </div>
+            <div n="2" type="section">
+               <head>Sect. 2.</head>
+               <p>Notwithſtanding this eviction in behalf of <hi>Coperni<g ref="char:EOLhyphen"/>cus,</hi>
+the Aſpects are by all Aſtronomers yet calculated
+according to the old <hi>Syſteme</hi> of <hi>Ptolomy,</hi> as if the Earth
+were the Center, which the motions of the Planets, and
+by conſequence the Aſpects did reſpect. So that though
+Aſtronomy be corrected, yet Aſtrology (which judges
+moſtly by Aſpects) remains yet uncorrected. Inaſ<g ref="char:EOLhyphen"/>much
+as</p>
+            </div>
+            <div n="3" type="section">
+               <head>Sect. 3.</head>
+               <p>The Aſpects ought to be calculated (as the Schools
+ſpeak) as they are, not <hi>quoad nos,</hi> but <hi>quoad naturam</hi> (A
+diſtinction that ſuits marvellouſly well with our preſent
+p<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>poſe, better a great deal then with their priority and
+notiority.) For</p>
+               <p>
+                  <pb n="6" facs="tcp:118142:4"/>
+If a Line drawn from the Center of the Earth through
+the Center of a Planet (this being ſuppoſed and grant<g ref="char:EOLhyphen"/>ed
+that the Earth moves in an Orb above ♀) and ſo
+continued do interſect the <hi>Zodiack</hi> (for examples ſake)
+in the 22 degree of ♋; again, if a Line drawn from
+the Center of the ☉ through the Center of the ſame
+Planet, and continued do interſect the <hi>Zodiack</hi> in the
+29 degree of ♋; certainly the place of that Planet is
+rather to be accounted the 29 degree of ♋ then the 22,
+ſince this determines but his apparent place and <hi>quoad
+nos,</hi> that his true place and <hi>quoad naturam:</hi> And if ſo,
+then his point of ☍ will be not the 22 but 29 of ♍, his
+<g ref="char:trine">△</g> of ♓ and ♏ his <g ref="char:quadrine">□</g> of ♈ and ♎, and his ⚹ not the 22
+but 29 of ♉ and ♍. And if ſo too,</p>
+            </div>
+            <div n="4" type="section">
+               <head>Sect. 5.</head>
+               <p>We ſhall aſſume the boldneſs to begin the correction
+of the <hi>Arabian</hi> Aſtrology after this ſort. 1. Let the
+motions of all the Planets and their places be calcula<g ref="char:EOLhyphen"/>ted,
+as they relate to the ☉ (an eaſier and more expe<g ref="char:EOLhyphen"/>dible
+piece of Arithmetick, then to relate them to the
+Earth.) And when this is done,</p>
+            </div>
+            <div n="5" type="section">
+               <head>Sect. 6.</head>
+               <p>2. Let their Aſpects be collected thence according to
+the common cuſtom of our <hi>Ephemerides</hi> that are now
+in requeſt: After which done, you will perceive this
+wide difference between this and the old Aſtrology.</p>
+            </div>
+            <div n="6" type="section">
+               <head>Sect. 7.</head>
+               <p>Firſt, In the 3 ſuperior Planets ♄ ♃ and ♂, that which
+in the <hi>Ephemerides</hi> is now called ☌ ☉, will be found to
+<pb n="7" facs="tcp:118142:4"/>
+be ☍ of the Earth (whoſe Character for brevity and di<g ref="char:EOLhyphen"/>ſtinctions
+ſake may be this [<g ref="char:Moonnew">●</g>]) and their ☍ ☉ will be
+found to be ☌ <g ref="char:Moonnew">●</g>, their ⚹ ☉ to be a <g ref="char:trine">△</g> 
+                  <g ref="char:Moonnew">●</g>, their <g ref="char:trine">△</g> ☉ a ⚹,
+and their <g ref="char:quadrine">□</g> ☉ and <g ref="char:quadrine">□</g> 
+                  <g ref="char:Moonnew">●</g>, dexter for ſiniſter, and ſiniſter
+for dexter.</p>
+            </div>
+            <div n="7" type="section">
+               <head>Sect. 8.</head>
+               <p>Further, not onely the ſpecies of the Aſpect will be
+altered, but the time too: For onely the ☌ <g ref="char:Moonnew">●</g> and ☍ <g ref="char:Moonnew">●</g>
+will exactly agree with the times of ☍ ☉ and ☌ ☉; The
+⚹ and <g ref="char:trine">△</g> of ☉ will differ ſomewhat from the times of
+the <g ref="char:trine">△</g> and ⚹ of <g ref="char:Moonnew">●</g>, and the <g ref="char:quadrine">□</g> ☉ will differ moſt from
+the time of <g ref="char:quadrine">□</g> 
+                  <g ref="char:Moonnew">●</g>.</p>
+            </div>
+            <div n="8" type="section">
+               <head>Sect. 9.</head>
+               <p>More then this, all their Aſpects that they have each
+to other, will be found different from the old ones (now
+received) <hi>quoad tempus, non quoad ſpeciem,</hi> proportion<g ref="char:EOLhyphen"/>ably
+to their diſtance from the ſeeming place of the ☉.</p>
+            </div>
+            <div n="9" type="section">
+               <head>Sect. 10.</head>
+               <p>Secondly, The place of the <g ref="char:Moonnew">●</g> in the <hi>Zodiaque</hi> will be
+found in the point oppoſite to the place of the ☉ in our
+now <hi>Ephemerides.</hi>
+               </p>
+            </div>
+            <div n="10" type="section">
+               <head>Sect. 11.</head>
+               <p>Thirdly, the ☽ onely (ſeeing the Earth is the Center of
+her Orb, and to it therefore her motion and place muſt
+be referred) muſt keep her old place in the <hi>Zodiaque</hi> ac<g ref="char:EOLhyphen"/>cording
+to our <hi>Ephemerides,</hi> without any alteration at
+all. And yet this ſomething improperly too, ſeeing the
+<hi>Zodiaque</hi> and her Orb have not a common center: for
+the ☉ is the center of the one, and the <g ref="char:Moonnew">●</g> of the other.</p>
+            </div>
+            <div n="11" type="section">
+               <pb n="8" facs="tcp:118142:5"/>
+               <head>Sect. 12.</head>
+               <p>Fourthly, for ♀ and ☿ the two Inferiors, their ſeeming
+☌ ☉ in the middle of their direction will be found to be
+a real ☍ <g ref="char:Moonnew">●</g>
+                  <g ref="char:punc">▪</g> and their ☌ ☉ in the middle of their Retro<g ref="char:EOLhyphen"/>gradation
+a real ☌ <g ref="char:Moonnew">●</g>, yet without any difference in the
+time.</p>
+            </div>
+            <div n="12" type="section">
+               <head>Sect. 13.</head>
+               <p>More then this, they will be found to have a ⚹ <g ref="char:quadrine">□</g> and
+<g ref="char:trine">△</g> to the Earth, even as the three Superiors have, be<g ref="char:EOLhyphen"/>ſides
+a <g ref="char:quadrine">□</g> 
+                  <g ref="char:trine">△</g> and ☍ each to other, all which Aſpects our
+<hi>Ephemerides</hi> would make them incapable of. Many
+other particular deductions and differences I might
+name; which becauſe theſe will light you to the corner
+where they are, and I have circumſcribed my ſelf into
+a narrow room, I ſhall omit. So that hence it will
+plainly appear in all reaſon, That</p>
+            </div>
+            <div n="13" type="section">
+               <head>Sect. 14.</head>
+               <p>This which we here propound to be calculated and
+collected, although hitherto it hath not (I may ſay
+through negligence) been put in practice, is the onely
+true doctrine of Aſpects, and the onely ſound founda<g ref="char:EOLhyphen"/>tion
+of <hi>Aſtrology.</hi>
+               </p>
+            </div>
+            <div n="14" type="section">
+               <head>Sect. 15.</head>
+               <p>I am the more inclined to believe this, that ſo much
+reaſon doth already dictate and confirm, when I conſi<g ref="char:EOLhyphen"/>der
+the weakneſs and ſhifts of the old Aſtrology.</p>
+            </div>
+            <div n="15" type="section">
+               <head>Sect. 16.</head>
+               <p>Weakneſs, in that all the Predictions (or at leaſt 99 in
+a hundred) of the old Aſtrology, which notwithſtand<g ref="char:EOLhyphen"/>ing
+<pb n="9" facs="tcp:118142:5"/>
+is ſo cryed up in this Age, deduced from the <hi>Ptole<g ref="char:EOLhyphen"/>maick</hi>
+Aſpects, are ſo conſciouſly doubtful, ſo obſcure<g ref="char:EOLhyphen"/>ly
+delivered, and many of them ſo fallible, that it hath
+notoriouſly proved the ſcandal of Aſtrology, and poſ<g ref="char:EOLhyphen"/>ſeſt
+the grave and ſober breaſts of the world with a con<g ref="char:EOLhyphen"/>ceit,
+That Aſtrology is but a higher degree of <hi>Lieger
+de main,</hi> and Aſtrologers but liberal Juglers. Nay ſo
+pur-blinde it is (I mean the old Aſtrology) that in the
+very matter of the weather it ſelf, it is fain to confeſs it
+ſelf unable to do any more then give a probable conje<g ref="char:EOLhyphen"/>cture
+of it; and not without good cauſe, ſince it is of<g ref="char:EOLhyphen"/>tentimes
+far enough from doing that too.</p>
+            </div>
+            <div n="16" type="section">
+               <head>Sect. 17.</head>
+               <p>Shifts; in that, when it hath found the weather fall
+out different or contrary to the promiſes or threats of
+their Aſpects (which is no wonder, for many times
+there is above a Moneths difference between the appa<g ref="char:EOLhyphen"/>rent
+and true Aſpects; as for example, the ☌ ♄ ♀, which
+our Almanacks this year all ſay happens about the lat<g ref="char:EOLhyphen"/>ter
+end of <hi>May,</hi> really falls about the Tenth day of
+<hi>April,</hi> and was no doubt the cauſe of that cold, rainy
+weather that then happened; to ſay nothing of the
+<g ref="char:quadrine">□</g> 
+                  <g ref="char:Moonnew">●</g> ♄, that happened two or three days before, as they
+ſhall finde who will take the pains to calculate this eaſier
+way) and not onely the weather, but other accidents
+too; it hath been forced to introduce a number of
+whimſical Aſpects (as <hi>Semiſextiles, Tredeciles, Quin<g ref="char:EOLhyphen"/>tiles,
+Biquintiles, Octiles, Vigintiles, Quincunces, Quin<g ref="char:EOLhyphen"/>dreiles,
+Deciles, Semiquadrates, Seſquiquadrates,</hi> and
+the like) not ſo much to keep the other five old ones
+company, as to furniſh it ready with a good and bad
+<pb n="10" facs="tcp:118142:6"/>
+Aſpect, that ſo it may make either (as occaſion ſerves)
+the Father of fair or foul weather.</p>
+            </div>
+            <div n="17" type="section">
+               <head>Sect. 18.</head>
+               <p>To the foregoing reaſons we ſhall adde another, al<g ref="char:EOLhyphen"/>though
+but a weaker, That the truth of this doctrine of
+Aſpects is wonderfully confirmed by obſervation, which
+ſhould have been more particular and exact, had not
+my profeſſion ſo ſtrictly engaged engaged me to a daily
+and conſcientious attention upon it: For, having calcu<g ref="char:EOLhyphen"/>lated
+the places of the Planets <hi>(Minerva aliquanto craſ<g ref="char:EOLhyphen"/>ſiore,</hi>
+I confeſs for want of time to altar my Tables) in
+relation to the ☉ as Center for ſome Moneths paſt; I
+found the events all the way very audibly to anſwer my
+expectations, even at ſuch time when they were dumb,
+or gainſayed the Aſpects in the Almanacks. Let him
+that liſts, make tryal to ſatisfie his minde by his own
+obſervation; and he will (I dare confidently warrant
+him) finde that this is truth which I tell him, beſides an
+additional recompenſe for his pains.</p>
+            </div>
+            <div n="18" type="section">
+               <head>Sect. 19.</head>
+               <p>If any one ask how it ſhould come to paſs that <hi>Haly,
+Guido,</hi> and many Aſtrologers both before and ſince,
+never lighted on this way. His anſwer muſt be, That
+they all received and were ſincerely perſwaded of the
+old <hi>Syſtem,</hi> and upon this perſwaſion ſate down and
+ſought no further; whereas this is a Conſectary of the
+new. And</p>
+            </div>
+            <div n="19" type="section">
+               <head>Sect. 20.</head>
+               <p>If he ask again how the Ancients thus erring both in
+the kinde and time of the true Aſpects, could come to
+<pb n="11" facs="tcp:118142:6"/>
+know ſo well, not onely the nature of the Planets, that
+ſome are benevolent, as ♃ and ♀; ſome malevolent, as
+♄ and ♂; and ſome of a middle nature, as the other
+three, but alſo of the Aſpects, that ſome are frowns, as
+<g ref="char:quadrine">□</g> and ☍; ſome ſmiles, as ⚹ and <g ref="char:trine">△</g>, <hi>&amp;c.</hi> His anſwer is
+ready for him, That it is moſt probable they came to
+this knowledge by thoſe Aſpects which they had each
+to other, when they were at or near ☌ or ☍ of the ☉, as
+alſo by their ☌ or ☍ to the ☉ himſelf; which Aſpects (as
+I told you) differ, ſome very little, and ſome nothing at
+all in time from the true Aſpects. As for example, it
+might ſo fortune that ♄ and ♀ might be in ☌, near about
+the time (that is, within a day or two) of ♄ his conjun<g ref="char:EOLhyphen"/>ction
+with the ☉, and at that conjunction they might
+obſerve cold, miſſing, rainy weather to happen. Hence
+they gathered, that ☌ ♄ ♀ <hi>(conſideratis conſiderandis)</hi>
+was the cauſe of a cold miſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing rain. And ſo in others,
+not that I think this uncertain guide (blinde on one eye,
+and pur-blinde on the other) could lead them into a per<g ref="char:EOLhyphen"/>fect
+and infallible knowledge of their influence; for I
+am perſwaded, that in ſome matters they will be found
+very wide: And what thoſe matters are, this that I here
+propoſe is the moſt likely way to diſcover.</p>
+            </div>
+            <div n="20" type="section">
+               <head>Sect. 21.</head>
+               <p>This that I ſpeak touching the places and Aſpects of
+the Planets to be altered, I would have to be under<g ref="char:EOLhyphen"/>ſtood
+not onely to be altered in Almanacks for the wea<g ref="char:EOLhyphen"/>thers
+ſake, but likewiſe in all figures, whether <hi>Horary,
+Revolutional,</hi> or <hi>Genethliaque,</hi> and all other Judge<g ref="char:EOLhyphen"/>ments
+whatſoever depending upon Aſpect or Direction.
+For it is not to be doubted, but that it will at length ap<g ref="char:EOLhyphen"/>pear,
+<pb n="12" facs="tcp:118142:7"/>
+That the greateſt part of that batch of eſſential
+and accidental Dignities and Debilities, as Houſe, Ex<g ref="char:EOLhyphen"/>altation,
+Triplicity, Term, Face, Detriment, Fall, Pe<g ref="char:EOLhyphen"/>regrinity,
+Reception, Conformity of Hain and Quarter,
+combuſtion, in centro ☉, and the like; together with part
+of Fortune, life and death, and the diviſions ſeverally
+of the Houſes and Signs, deſerve no other place but to
+be ranked among thoſe Shifts which I ſpake of before,
+being invented for the ſame end, as is probable enough.</p>
+            </div>
+            <div n="21" type="section">
+               <head>Sect. 22.</head>
+               <p>And ſince I have been hitherto ſo to bold to correct
+that Aſtrology which hath been received by all Mathe<g ref="char:EOLhyphen"/>maticians
+till now: I ſhall venture a little further in the
+proſecution of it, ſeeing there are other things fit to be
+conſidered in Aſtrology which are not, becauſe men
+generally hold Authority to be reaſon.</p>
+            </div>
+            <div n="22" type="section">
+               <head>Sect. 23.</head>
+               <p>Firſt then let the Aſpects of thoſe Planets whoſe Orbs
+are immediately contignate, be ranked in a degree of
+more powerful, becauſe <hi>Vis unitior fortius agit:</hi> ſuch
+are the Aſpects of ♄ and ♃, ♃ and ♂, ♂ and <g ref="char:Moonround">❍</g>, ♂ and
+☽, when ſhe is oppoſite to the ☉, <g ref="char:Moonnew">●</g> and ♀, ♀ and the ☽,
+when ſhe is about the change; and ♀ and ☿. And as the
+Orbs of the configurated Planets are farther aſunder or
+nearer together, ſo let their Aſpects be accounted leſs or
+more forcible.</p>
+            </div>
+            <div n="23" type="section">
+               <head>Sect. 24.</head>
+               <p>Secondly, Let the Aſpects of the ☽ with the other
+Planets be little reckoned upon (unleſs in the caſes a<g ref="char:EOLhyphen"/>bovenamed)
+ſince they move about divers centers, and
+<pb n="13" facs="tcp:118142:7"/>
+their Aſpects therefore are properly not Aſpects, but
+ſeeming ſo: The moſt conſiderable thing in the motion
+of the ☽ is her age, or relation to the ☉.</p>
+            </div>
+            <div n="24" type="section">
+               <head>Sect. 25.</head>
+               <p>Thirdly, Let no Aſtrologer henceforward diſparage
+the fortune of his Native, becauſe his Almuten is ſta<g ref="char:EOLhyphen"/>tionary
+or retrograde, nor flatter it any thing the more
+becauſe he is direct; ſeeing theſe paſſions are not real,
+but (as they are fitly called) <hi>Phaenomena:</hi> But let him
+rather judge by the Planets <hi>Apogaeoſis, Perigaeoſis, Hy<g ref="char:EOLhyphen"/>pergaeoſis,</hi>
+and <hi>Hypogaeoſis</hi> his culmination, his riſing and
+ſetting, his Northern or Southern Declination and La<g ref="char:EOLhyphen"/>titude,
+things not hitherto much regarded.</p>
+            </div>
+            <div n="25" type="section">
+               <head>Sect. 26.</head>
+               <p>Fourthly, (but herein I give but my judgement) where<g ref="char:EOLhyphen"/>as
+our now-Aſtrology begins the year at the ☉ his en<g ref="char:EOLhyphen"/>trance
+into ♈ on this ſide of the <hi>Equator,</hi> and erects its
+figure of Revolution for that time; it ſeems more con<g ref="char:EOLhyphen"/>gruous
+to begin it in <hi>December,</hi> when the ☉ enters ♍;
+and for this reaſon, becauſe at that point of time the
+☉ hath juſt finiſhed his furtheſt Southern progreſs, and
+begins to come towards us again, from that time (to
+uſe the common Argument) inſtilling life by degrees in<g ref="char:EOLhyphen"/>to
+the Plants of the Earth by his approach; which,
+though it be moſt palpable in <hi>March,</hi> when he enters ♈,
+yet hath it a being and meaſure while he is in ♍, and
+though ♈ be the birth of vegetables, yet is ♍ their con<g ref="char:EOLhyphen"/>ception.</p>
+            </div>
+            <div n="26" type="section">
+               <head>Sect. 27.</head>
+               <p>Fifthly, for the very ſame reaſon whereas Aſtrolo<g ref="char:EOLhyphen"/>gers
+accommodate always their Scheme to the time of
+<pb n="14" facs="tcp:118142:8"/>
+excluſion, and by that judge of the future lot of the
+Native; it would better agree with reaſon (me thinks)
+to apply it to the time of the conception (if it may be
+known) becauſe that is moſt properly the firſt inſtant of
+being: for ſuch is in many things our ſtupidity, that we
+think a thing is not, becauſe we cannot ſee it be. And</p>
+            </div>
+            <div n="27" type="section">
+               <head>Sect. 28.</head>
+               <p>Laſtly, for the more full aſſurance and attaining to
+perfection in Judgement of the weather, I could wiſh
+that a courſe might be contrived (if it were poſſible) for
+obſerving the weather in ſome place under or near the
+<hi>Equator,</hi> and in the ſame <hi>Longitude</hi> with <hi>London,</hi> where
+there are the ſame noons, nights, mornings and even<g ref="char:EOLhyphen"/>ings
+(ſuch as are <hi>Axum, Mina</hi> or <hi>Biamba</hi> in <hi>Guinea,</hi> in
+5 or 6 degrees of North Latitude) and that for half a
+year or more (places near the <hi>Equator</hi> I chuſe, becauſe <hi>ob
+propinquitatem aſtrorum vim citius purius &amp; evidentius
+ſentiunt)</hi> while the like obſervations are made at <hi>Lon<g ref="char:EOLhyphen"/>don</hi>
+at the ſame time and for by the ſame ſpace; that by
+the collation of theſe Obſervations (together with the
+Principles here delivered) that dark Riddle of Nature
+may be ſolved. And</p>
+            </div>
+            <div n="28" type="section">
+               <head>Sect. 29.</head>
+               <p>Here, by being ſo near, I ſhall take occaſion to preſume
+little farther, and tell ſome Aſtrologers who account it
+their glory to have their hearers tremble at their Ora<g ref="char:EOLhyphen"/>cles,
+that they betray both their own credit, and (as
+in them lies) the truth of Gods Word, by telling the
+world that this Eclipſe paſt in <hi>March,</hi> and that other to
+come in 1654. are certain Signs of the day of Judge<g ref="char:EOLhyphen"/>ment:
+For (though it be true that Eclipſes of the ☉
+<pb n="15" facs="tcp:118142:8"/>
+(as we call them) are more dreadful and effectual to us,
+then thoſe of the ☽; for this reaſon, becauſe the one
+ſort are a privation of original Light, the of other a deri<g ref="char:EOLhyphen"/>vative
+onely, yet) ſeeing that every year there happen
+ſometimes two, ſometimes three, ſometimes more, but
+never fewer Eclipſes, viſible in one Horizon or other,
+though our own be no witneſs of them; the World by
+their Logick would have been by this time diſſolved a
+hundred times over and over. And by this means too
+we can expect no leſs, then that credulous and cavilling
+heads, when they ſhall have ſurvived that other Eclipſe
+as well as this, and ſhall ſee the Univerſe <hi>in ſtatu quo,</hi>
+notwithſtanding theſe outragious fantaſies had turned
+all into aſhes, will be apt enough to think, <hi>That ſacred
+Prophecies are us empty Terrors,</hi> as thoſe bold Sooth-ſaying;
+and, <hi>That dooms-day is but a dream.</hi> A help
+which in theſe days we need leaſt, ſince too many al<g ref="char:EOLhyphen"/>ready
+have leap'd into Hell without this ſtaff. That the
+end ſhall be, is an Article of the Catholique Faith; but
+when it ſhall be (ſince the <hi>Ephemerides</hi> of Heaven ſpeaks
+nothing of it; and not onely the Stars of the <hi>Caelum
+Empiraeum</hi> know nothing of it, but the Son of Righte<g ref="char:EOLhyphen"/>ouſneſs
+himſelf confeſſes as much for them and himſelf
+too) is more then curioſity to ask, more then madneſs
+to determine, and more then folly to believe.</p>
+            </div>
+            <div n="29" type="section">
+               <head>Sect. 30.</head>
+               <p>Aſtrologers in general take it upon truſt from the An<g ref="char:EOLhyphen"/>cients,
+that Eclipſes operate not preſently, but after a
+time, and content themſelves with their Authority:
+But the thing is ſo adverſe to reaſon, that it might juſtly
+be ſuſpected to have been brought into Aſtrology upon
+the ſame ſcore, and for the ſame reaſon that thoſe other
+<pb n="16" facs="tcp:118142:9"/>
+ceits were mentioned before in the 17 and 21 Sections.
+Indeed (let me not wrong any man) ſome of the Science
+are doubtful, that this Maxim is not ſo ſound as ancient.</p>
+            </div>
+            <div n="30" type="section">
+               <head>Sect. 31.</head>
+               <p>Many particular things I have omitted, which might
+have pertinently been ſummoned in, but diſmiſſed they
+are, becauſe (being conſequents of that which hath
+been generally laid down) they are hard at hand, and
+will quickly hear whenſoever diſcourſe ſhall call to them
+to anſwer: And prolixity is vain, but then moſt of all,
+when it is not certain that the thing it ſelf ſimply is ac<g ref="char:EOLhyphen"/>cepted.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:118142:9"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
