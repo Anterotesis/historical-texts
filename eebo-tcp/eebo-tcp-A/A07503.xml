@@ -1,0 +1,912 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Inner-Temple masque. Or Masque of heroes Presented (as an entertainement for many worthy ladies:) by gentlemen of the same ancient and noble house. Tho. Middleton.</title>
+            <author>Middleton, Thomas, d. 1627.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1619</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-12">2005-12 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A07503</idno>
+            <idno type="STC">STC 17887</idno>
+            <idno type="STC">ESTC S112576</idno>
+            <idno type="EEBO-CITATION">99847823</idno>
+            <idno type="PROQUEST">99847823</idno>
+            <idno type="VID">12884</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A07503)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 12884)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1320:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Inner-Temple masque. Or Masque of heroes Presented (as an entertainement for many worthy ladies:) by gentlemen of the same ancient and noble house. Tho. Middleton.</title>
+                  <author>Middleton, Thomas, d. 1627.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by William Stansby] for Iohn Brovvne, and are to be sold at his shop in S. Dunstanes Church-yard in Fleetstreete,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1619.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A-C⁴.</note>
+                  <note>The first leaf and the last leaf are blank.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-07</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-08</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2005-08</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:12884:1"/>
+            <pb facs="tcp:12884:1"/>
+            <p>THE INNER
+Temple Maſque.
+<hi>OR</hi>
+MASQVE OF
+HEROES. Preſented (as an Entertainement for
+<hi>many worthy</hi> LADIES:) By GENTLEMEN of the ſame
+<hi>Ancient and Noble</hi>
+HOVSE.</p>
+            <p>
+               <hi>Tho. Middleton.</hi>
+            </p>
+            <p>
+               <hi>LONDON</hi>
+Printed for IOHN BROVVNE, and are to be ſold at his
+Shop in <hi>S. Dunſtanes</hi> Church-yard in Fleetſtreete.
+1619.</p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:12884:2"/>
+            <pb facs="tcp:12884:2"/>
+            <head>THE MASQVE.</head>
+            <l>THis, nothing owes to any Tale, or Storie,</l>
+            <l>With which ſome <hi>Writer</hi> pieces vp a Glorie;</l>
+            <l>I onely made the Time, they ſat to ſee,</l>
+            <l>Serue for the Mirth it ſelfe; which was found free,</l>
+            <l>And herein fortunate, (that's counted good)</l>
+            <l>Being made for Ladies, Ladies vnderſtood.</l>
+            <closer>
+               <signed>T. M.</signed>
+            </closer>
+         </div>
+         <div type="dramatis_personae">
+            <pb facs="tcp:12884:3"/>
+            <p>
+               <table>
+                  <row>
+                     <cell>The Parts.</cell>
+                     <cell>The Speakers.</cell>
+                  </row>
+                  <row>
+                     <cell>D. Almanacke.</cell>
+                     <cell>Ios. TAYLOR.</cell>
+                  </row>
+                  <row>
+                     <cell>Plumporridge.</cell>
+                     <cell>W. ROVVLEY.</cell>
+                  </row>
+                  <row>
+                     <cell>A Fasting-day.</cell>
+                     <cell>I. NEVVTON.</cell>
+                  </row>
+                  <row>
+                     <cell>New-yeere.</cell>
+                     <cell>H. ATVVELL.</cell>
+                  </row>
+                  <row>
+                     <cell>Time.</cell>
+                     <cell>W. CARPENTER.</cell>
+                  </row>
+                  <row>
+                     <cell>Harmonie.</cell>
+                     <cell>A BOY.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>TWO ANTEMASQVES.</p>
+            <p>In the firſt, ſixe Dancers.<list>
+                  <item>1. Candlemas Day.</item>
+                  <item>2. Shrouetueſday.</item>
+                  <item>3. Lent.</item>
+                  <item>4. Ill. May-day.</item>
+                  <item>5. Midſommer Eue.</item>
+                  <item>6. The firſt Dog-day.</item>
+               </list>
+            </p>
+            <p>The ſecond ANTEMASQVE, preſented by
+eight BOYES.<list>
+                  <item>Good dayes—3.</item>
+                  <item>Bad dayes—3.</item>
+                  <item>Indifferent dayes—2.</item>
+               </list>
+            </p>
+            <p>The MASQVE it ſelfe, receiuing it's Illuſtration
+from nine of the Gentlemen of the Houſe.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:12884:3"/>
+            <head>THE
+INNER-TEMPLE
+MASQVE.</head>
+            <stage>Enter <hi>DOCTOR ALMANACKE</hi> comming from
+the funerall of December, or the old yeere.</stage>
+            <sp>
+               <l>I Haue ſeene the old yeere fairely buried,</l>
+               <l>Good Gentleman he was, but toward his end</l>
+               <l>Full of Diſeaſes, he kept no good Diet,</l>
+               <l>He Lou'd a wench in <hi>Iune,</hi> (which we' count Vilde,</l>
+               <l>And got the latter end of <hi>May</hi> with childe;</l>
+               <l>That was his fault, and many an old yeere ſmels on't.</l>
+               <l>How now? who's t'is? oh, one ath' Faſting-dayes</l>
+               <l>That followed him to his graue;</l>
+               <l>I know him by his gauntnes, his thin chitterlings,</l>
+               <l>He would vndoe a Tripe-wiſe; <hi>Faſting-day!</hi>
+               </l>
+               <l>Why art ſo heauie?</l>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <l>Oh, ſweete <hi>Doctor Almanacke,</hi>
+               </l>
+               <l>I haue loſt a deare old Maſter, beſide Sir,</l>
+               <l>I haue beene out of ſeruice, all this <hi>Kerſmas;</hi>
+               </l>
+               <l>No-body minds <hi>Faſting day,</hi> I haue ſcarce bin thought
+vpon a' Fryday nights;</l>
+               <l>And becauſe <hi>Kerſmas</hi> this yeere fell vpon't,</l>
+               <l>
+                  <pb facs="tcp:12884:4"/>
+The Frydayes haue beene euer ſince ſo proud</l>
+               <l>They ſcorne my companie, the Butchers boyes</l>
+               <l>At <hi>Temple-Barre,</hi> ſet their great Dogges vpon me,</l>
+               <l>I dare not walke abroad, nor be ſeene yet,</l>
+               <l>The very Poulters Girles throw rotten Egges at me,</l>
+               <l>Nay Fiſhſtreete loues me, e'en but fro<g ref="char:cmbAbbrStroke">̄</g> teeth outward,</l>
+               <l>(The neereſt Kin I haue) lookes ſhye vpon me,</l>
+               <l>As if t'ad forgot me, I met <hi>Plumporridge</hi> now,</l>
+               <l>My big-ſwolne Enemie, hee's plumpe and luſtie,</l>
+               <l>The onely man in place, ſweete Maſter <hi>Doctor,</hi>
+               </l>
+               <l>Preferre me to the <hi>New-Yeere,</hi> you can doo't.</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>When can I doo't ſir? you muſt ſtay til Lent.</p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>Till Lent, you kil my heart, ſweet M. <hi>Doctor,</hi>
+Thruſt me into <hi>Candlemas Eue,</hi> I doe beſeech you.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Away, <hi>Candlemas Eue</hi> will neuer beare
+thee i' theſe dayes, 'tis ſo frampole, the Puritanes will
+neuer yeeld to't.</p>
+               <stage>Enter <hi>Plumporridge.</hi>
+               </stage>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>Why th'are fat enough.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Here comes <hi>Plumporridge.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>I, hee's ſure of wel-come; me thinkes hee
+moues like one of the great Porridge Tubs, going to
+the Counter.</p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>Oh killing cruel ſight, yonder's a <hi>Faſting day:</hi>
+A leane ſpinie Raſcall with a Dogge in's belly, his
+very Bowels barke with hunger; auaunt, thy Breath
+ſtinkes, I doe not loue to meete thee faſting, thou art
+nothing but wind, thy Stomack's full of Farts, as if
+they had loſt their way, and thou made with the
+wrong end vpward, like a Dutch Mawe, that diſchar<g ref="char:EOLhyphen"/>ges
+ſtill into 'th Mouth!</p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>Why thou whorſon Breakefaſt, Dinner,
+<pb facs="tcp:12884:4"/>
+Nuntions, Supper and Beuer, Celler, Hall, Kitchin,
+and Wet-larder.</p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>Sweete Maſter <hi>Doctor,</hi> looke quickly vpon
+his Water, that I may breake the Vrinall about his
+pate.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Nay friendſhip, friendſhip.</p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>Neuer Maſter <hi>Doctor,</hi> with any <hi>Faſtingday,</hi>
+perſwade me not.</p>
+            </sp>
+            <l>Nor any thing belongs to <hi>Ember-weeke.</hi>
+            </l>
+            <l>And if I take againſt a thing, I'me ſtomackfull,</l>
+            <l>I was borne an <hi>Anabaptist,</hi> a fell foe,</l>
+            <l>To fiſh and Fridayes, Pig's my abſolute Sweetheart.</l>
+            <l>And ſhall I wrong my Loue, and cleaue to Saltfiſh!</l>
+            <l>Commit adulterie with an Egge and Butter?</l>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Well ſetting this apart, whoſe water's this ſir?</p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <l>On, thereby hangs a tale, my M. <hi>Kerſmaſſes.</hi>
+               </l>
+               <l>It is his water, ſir, hee's drawing on.</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>
+                  <hi>Kerſmas?</hi> why let me ſee,</l>
+               <l>I ſaw him very luſtie a <hi>Twelfe-night.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <l>I, that's true, ſir, but then he tooke his bane,</l>
+               <l>With chuſing King and Queene;</l>
+               <l>Ha's made his Will already, here's the Copie.</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>And what ha's he giuen away, let mee ſee,
+<hi>Plumbroth.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>He could not giue away much, ſir, his chil<g ref="char:EOLhyphen"/>dren
+haue ſo conſumed him before hand.</p>
+            </sp>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="will">
+                        <pb facs="tcp:12884:5"/>
+                        <head>The laſt WILL and TESTAMENT of
+KERSMAS, Irreuocable.
+Read;</head>
+                        <p>IN <hi>primis</hi> I giue and bequeath to my ſecond Sonne
+<hi>In,</hi> and <hi>In;</hi> his perpetuall Lodging i'the Kingſ<g ref="char:EOLhyphen"/>bench,
+and his Ordinarie out of the Basket.</p>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>A ſweete allowance for a ſecond brother.</p>
+            </sp>
+            <p>
+               <hi>Item,</hi> I giue to my yongeſt Sonnes <hi>Gleeke</hi> and <hi>Pri<g ref="char:EOLhyphen"/>miniſte,</hi>
+the full conſuming of Nights and Dayes, and
+Wiues and Children, together with one ſecret gift,
+that is, neuer to giue ouer, while they haue a pennie.</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>And if e're they doe, Ile be hanged.</p>
+            </sp>
+            <p>For the poſſeſſion of all my Lands, Mannors,
+Mannor-houſes, I leaue them full and wholly to
+my eldeſt Sonne, <hi>Noddie,</hi> whom during his mino<g ref="char:EOLhyphen"/>ritie,
+I commit to the cuſtodie of a paire of Knaues
+and one and thirtie?</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>There's Knaues enow a conſcience to coo<g ref="char:EOLhyphen"/>zen
+one Foole.</p>
+            </sp>
+            <p>
+               <hi>Item,</hi> I giue to my eldeſt Daughter, <hi>Tickle mee
+quickly,</hi> and to her ſiſter my Ladies <hi>Hole,</hi> free leaue to
+ſhift for themſelues, either in Court, City, or Country.</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>We thanke him heartily.</p>
+            </sp>
+            <p>
+               <hi>Item,</hi> I leaue to their old Aunt, <hi>my Sow h'as Pigd,</hi>
+a Litter of Curtizans to breede vp for Shroue-tide.</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>They wil be good ware in Lent, when fleſh
+is forbid by Proclamation.</p>
+            </sp>
+            <p>
+               <hi>Item,</hi> I giue to my Nephew <hi>Gambols,</hi> commonly
+<pb facs="tcp:12884:5"/>
+cald by the name of <hi>Kerſmas Gambols,</hi> all my <hi>Cattle,
+Horſe</hi> and <hi>Mare,</hi> but let him ſhooe 'em himſelfe.</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>I ha' ſeene him ſhooe the <hi>Mare</hi> fortie times
+ouer.</p>
+            </sp>
+            <p>
+               <hi>Alſo,</hi> I bequeath to my Coozen-Germane <hi>Waſſel-Bowle,</hi>
+borne of Dutch Parents, the Priuiledge of a
+free <hi>Denizen,</hi> that is, to be drunke with <hi>Scotch-Ale,</hi> or
+<hi>Engliſh-Beere:</hi> and laſtly, I haue giuen by word of
+mouth, to poore Blind man <hi>Buffe,</hi> a flap with a Foxe<g ref="char:EOLhyphen"/>tayle.</p>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>I, ſo h'as giuen 'em all for ought I ſee.
+But now what thinke you of his Water, ſir?</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Well he may linger out till <hi>Candlemas:</hi>
+But ne're recouer it.</p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>Would he were gone once,
+I ſhould be more reſpected.</p>
+               <stage>Enter New-yeere.</stage>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Here's <hi>New-yeere?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Plum.</speaker>
+               <p>I haue ne're a gift to giue him, Ile be gone.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Mirth &amp; a healthful time fil all your dayes.
+Looke freſhly, Sir.</p>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <l>I cannot, Maſter <hi>Doctor.</hi>
+               </l>
+               <l>My fathers death ſets the Spring backward i'me.</l>
+               <l>For ioy and comfort yet, I'me now betweene</l>
+               <l>Sorrow and ioy, the Winter and the Spring.</l>
+               <l>And as Time gathers freſhneſſe in it's ſeaſon,</l>
+               <l>No doubt Affects will be ſubdued with reaſon.</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>Y'aue a braue mind to work on, vſe my rules,</l>
+               <l>And you ſhall cut a Caper in <hi>Nouember,</hi>
+               </l>
+               <l>When other yeeres your Grandfathers lay bedrid.</l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>What's he, that lookes ſo piteouſly, and
+ſhakes ſo?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:12884:6"/>
+               <speaker>Faſt.</speaker>
+               <p>
+                  <hi>A</hi> Faſting-day?</p>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>How's that?</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>A fooliſh <hi>Faſting-day,</hi>
+               </l>
+               <l>An vnſeaſonable cock ſcomb, ſeeks now for a ſeruice,</l>
+               <l>Ha's hunted vp and downe, ha's beene at Court,</l>
+               <l>And the Long-Porter broke his head a'croſſe there,</l>
+               <l>He had rather ſee the Deuill, for this he ſayes,</l>
+               <l>He ne're grew vp ſo tall with <hi>Faſting-dayes,</hi>
+               </l>
+               <l>I would not for the price of all my <hi>Almanacks;</hi>
+               </l>
+               <l>The Guard had tooke him there, they would ha beate
+out his braines with <hi>Bombards.</hi>
+               </l>
+               <l>I bade him ſtay till <hi>Lent,</hi> and now he whimpers;</l>
+               <l>He would to <hi>Rome</hi> forſooth, that's his laſt refuge,</l>
+               <l>But would trie awhile,</l>
+               <l>How well he ſhould be vſde in <hi>Lancaſhire.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>He was my Fathers ſeruant,
+That he was, ſir.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Tis here vpon Record.</p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <p>I ſeru'd him honeſtly, and coſt him little.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>I, Ile beſworne for that.</p>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <l>Thoſe were the Times, ſir,</l>
+               <l>That made your Predeceſſors rich, and able</l>
+               <l>To lay vp more for you, and ſince poore <hi>Faſting-daies</hi>
+               </l>
+               <l>Were not made reckoning on, the pampered fleſh</l>
+               <l>H'as plaide the knaue, Maides haue had fuller bellies,</l>
+               <l>Thoſe meales that once were ſau'd, haue ſtird, &amp; lept,</l>
+               <l>And bègot Baſtards, and they muſt be kept,</l>
+               <l>Better keepe <hi>Faſting-dayes,</hi> your ſelfe may tell you,</l>
+               <l>And for the profit of purſe, backe and belly?</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>I neuer yet heard Truth better whin'de out.</p>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <l>Thou ſhalt not al be loſt, not for vainglorie</l>
+               <l>
+                  <pb facs="tcp:12884:6"/>
+Greedily welcom'd, wee'le begin with Vertue,</l>
+               <l>As we may hold with't, that do's Vertue right,</l>
+               <l>Set him downe, Sir, for <hi>Candlemas Eue</hi> at night.</l>
+            </sp>
+            <sp>
+               <speaker>Faſt.</speaker>
+               <l>Well, better late then neuer.</l>
+               <l>This is my comfort, I ſhall come to make</l>
+               <l>All the Fat Rogues goe to bed ſupperleſſe,</l>
+               <l>Get dinners where they can.</l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>How now? what's he?</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>Tis old <hi>Time,</hi> Sir, that belongd
+To all your Predeceſſors.</p>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <l>Oh I honour</l>
+               <l>That Reuerend Figure, may I euer thinke</l>
+               <l>How precious thou 'rt in youth, how rarely</l>
+               <l>Redeemed in Age.</l>
+               <l>
+                  <hi>Time</hi> Obſerue, you haue <hi>Times</hi> ſeruice.</l>
+               <l>There's all in briefe.</l>
+               <stage>Enter the firſt Antemaſque.</stage>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>Hah? <hi>Doctor?</hi> What are theſe?</p>
+               <l>
+                  <hi>Time</hi> The Rabble that I pitie, theſe I haue ſeru'd too,</l>
+               <l>But few or none haue euer obſeru'd me,</l>
+               <l>Amongſt this diſſolute Route, <hi>Candlemas day!</hi>
+               </l>
+               <l>I'me ſorie to ſee him ſo ill aſſociated?</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>Why that's his cauſe of co<g ref="char:cmbAbbrStroke">̄</g>ming to co<g ref="char:cmbAbbrStroke">̄</g>plaine,</l>
+               <l>Becauſe <hi>Shrouetueſday</hi> this yeere dwels ſo neere him.</l>
+               <l>But ti's his place he cannot be remou'd.</l>
+               <l>You muſt be patient, <hi>Candlemas,</hi> and brooke it.</l>
+               <l>This Rabble, Sir, <hi>Shrouetueſday,</hi> hungrie <hi>Lent,</hi>
+               </l>
+               <l>Ill <hi>May-day, Midſummer Eue,</hi> and the firſt <hi>Dogge-day,</hi>
+               </l>
+               <l>Come to receiue their places due by cuſtome,</l>
+               <l>And that they build vpon.</l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>Giu'em their charge, and then admit'em.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>I will doo't in Cone.</p>
+               <l>
+                  <pb facs="tcp:12884:7"/>
+Stand forth <hi>Shrouetueſday,</hi> one'a the ſilenc'ſt Bricke-Layers,</l>
+               <l>Tis in your charge to pull downe Bawdyhouſes,</l>
+               <l>To ſet your Tribe aworke, cauſe ſpoyle in <hi>Shorditch,</hi>
+               </l>
+               <l>And make a Dangerous Leake there, deface Turnbul,</l>
+               <l>And tickle Codpiece Rowe, ruine the Cockpit, the</l>
+               <l>Poore Players ne're thriud in't, a my Co<g ref="char:cmbAbbrStroke">̄</g>ſcience ſome</l>
+               <l>Queane piſt vpon the firſt Bricke;</l>
+               <l>For you, leane Lent, be ſure you vtter firſt</l>
+               <l>Your rotten Herrings and keepe vp your beſt</l>
+               <l>Till they be rotten, then ther's no deceit</l>
+               <l>When they be all alike. You <hi>Ill-Mayday,</hi>
+               </l>
+               <l>Be as vnruly a Raſcall as you may,</l>
+               <l>To ſtirre vp Deputy Double Diligence,</l>
+               <l>That comes perking forth with Halberts:</l>
+               <l>And for you <hi>Midſomer Eue,</hi> that watches warmeſt,</l>
+               <l>Be but ſufficiently drunke, and y'are well harneſt,</l>
+               <l>You <hi>Dogday!</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>Dogd.</speaker>
+               <p>Woh.</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>A churliſh maundring Rogue,</l>
+               <l>You muſt both beg and rob, curſe and collogue,</l>
+               <l>In cooler Nights the Barne with Doxies fill,</l>
+               <l>In Harueſt lye in Haycock with your Iill.</l>
+               <l>They haue all their charge.</l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>You haue gin't at the wrong end,</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>To bid'em ſin's the way to make e'm mend,</l>
+               <l>For what they are forbid, they run to head-long.</l>
+               <l>I ha' caſt their Inclinations, now your ſeruice,</l>
+               <l>To draw freſh bloud into your Mrs. cheekes, ſlaues!</l>
+            </sp>
+            <stage>
+               <pb facs="tcp:12884:7"/>The firſt Dance, and firſt Ante-Maſque,
+conſiſting of theſe ſix Rude ones.</stage>
+            <stage>Exeunt.</stage>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <l>What ſcornfull lookes the Abuſiue Vil<g ref="char:EOLhyphen"/>laines
+threw,</l>
+               <l>Vpon the reuerend forme and face of Time!</l>
+               <l>Me thought it appear'd ſorry, and went angry.</l>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <p>'Tis ſtill your ſeruant.</p>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>How now? what are theſe?</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>Theſe are your Good Dayes, and your Bad
+Dayes, Sir,</l>
+               <l>Thoſe your Indifferent dayes, nor good, nor bad.</l>
+            </sp>
+            <sp>
+               <speaker>New-Y.</speaker>
+               <p>But is here all?</p>
+            </sp>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>A wonder there's ſo many.</l>
+               <l>How theſe broke looſe, euery one ſtops their paſſage,</l>
+               <l>And makes inquiry after 'em.</l>
+               <l>This Farmer will not caſt his ſeed ith' ground</l>
+               <l>Before he looke in <hi>Bretnor,</hi> there he finds</l>
+               <l>Some word which hee hugs happily, as, Ply the Box,</l>
+               <l>Make Hay betimes, It falls into thy Mouth.</l>
+               <l>A punctuall Lady will not paint forſooth</l>
+               <l>Vpon his Criticall dayes, twill not hold well,</l>
+               <l>Nor a nice Citie-Wedlocke eate freſh Herring,</l>
+               <l>Nor Perriwinkles;</l>
+               <l>Although ſhe long for both, if the word be that day,</l>
+               <l>Gape after Gudgins, or ſome fiſhing phraſe.</l>
+               <l>A Scriueners Wife wil not intreat the Mony-maſter</l>
+               <l>That lyes ith' houſe, and gets her Huſbands children</l>
+               <l>To furniſh a poore Gentlemans Extremes,</l>
+               <l>If ſhe find, <hi>Nihil</hi> in a Bagge, that morning,</l>
+               <l>
+                  <pb facs="tcp:12884:8"/>
+And ſo of thouſand follies, theſe ſuffice</l>
+               <l>To ſhew you Good, Bad, and Indifferent Dayes,</l>
+               <l>And all haue their Inſcriptions, here's, Cock a Hoop,</l>
+               <l>This the Geere cottens, and this, Faint Heart, neuer<g ref="char:punc">▪</g>
+               </l>
+               <l>Theſe, noted Blacke for Badneſſe, Rods in piſſe.</l>
+               <l>This, Poſt for Puddings, this Put vp thy Pipes,</l>
+               <l>Theſe blacke and white indifferently inclining</l>
+               <l>To both their natures, neither Full nor Faſting,</l>
+               <l>In Dock, out Nettle,—Now to your motion,</l>
+               <l>Blacke Knaues, and white Knaues, and you parcell Raſcals,</l>
+               <l>Two hypocriticall party-colord Varlets,</l>
+               <l>That play o'both hands.</l>
+            </sp>
+            <stage>
+               <p>Here the ſecond Dance, and laſt Ante<g ref="char:EOLhyphen"/>Maſque:
+Eight Boyes, habited accor<g ref="char:EOLhyphen"/>ding
+to their former Cha<g ref="char:EOLhyphen"/>racters.</p>
+               <p>The three <hi>Good Dayes,</hi> attyred all in white Gar<g ref="char:EOLhyphen"/>ments,
+ſitting cloſe'to their bodies, their Inſcriptions
+on their Breſts.</p>
+               <p>On the firſt.</p>
+               <p>
+                  <hi>Cocke a Hoope.</hi>
+               </p>
+               <p>On the ſecond.</p>
+               <p>
+                  <hi>The Geere Cottens.</hi>
+               </p>
+               <p>
+                  <pb facs="tcp:12884:8"/>On the third.</p>
+               <p>
+                  <hi>Faint Heart Neuer.</hi>
+               </p>
+
+
+               <p>The three <hi>Bad Dayes</hi> all in blacke Garments, their
+Faces blacke, and their Inſcriptions.</p>
+               <p>On the firſt.</p>
+               <p>
+                  <hi>Rods in Piſſe.</hi>
+               </p>
+               <p>On the ſecond.</p>
+               <p>
+                  <hi>Poſt for Puddings.</hi>
+               </p>
+               <p>On the third.</p>
+               <p>
+                  <hi>Put vp thy Pipes.</hi>
+               </p>
+               <p>The Indifferent Dayes.</p>
+
+               <p>In Garments halfe white, halfe blacke, their Faces
+ſeamd with that party Colour, and their Inſcriptions.</p>
+               <p>The firſt.</p>
+               <p>
+                  <hi>Neither full nor Fasting.</hi>
+               </p>
+               <p>The ſecond.</p>
+               <p>
+                  <hi>In Docke, out Nettle.</hi>
+               </p>
+
+
+               <p>
+                  <pb facs="tcp:12884:9"/>
+Theſe hauing purchaſde a Smile from the Cheekes
+of many a Beautie, by their Ridiculous Figures, va<g ref="char:EOLhyphen"/>niſh,
+proud of that Treaſure.</p>
+            </stage>
+            <sp>
+               <speaker>Doct.</speaker>
+               <l>I ſee theſe pleaſures of low Births and Na<g ref="char:EOLhyphen"/>tures,</l>
+               <l>Adde little freſhneſſe to your cheeks, I pittie you,</l>
+               <l>And can no longer now conceale from you,</l>
+               <l>Your happy <hi>Omen,</hi> Sir, Bleſſings draw neere you,</l>
+               <l>I will diſcloſe a Secret in <hi>Aſtrologie,</hi>
+               </l>
+               <l>By the ſweet Induſtry of <hi>Harmonie,</hi>
+               </l>
+               <l>Your white and glorious friend;</l>
+               <l>Eu'n very Deities haue conſpir'd, to grace</l>
+               <l>Your faire Inauguration, here I find it,</l>
+               <l>Tis cleere in Art,</l>
+               <l>The minute, nay, the point of Time's ariu'd,</l>
+               <l>Me thinkes the bleſſings touch you, now they're felt,
+Sir.</l>
+            </sp>
+            <stage>At which loud Muſicke heard the firſt Cloud
+vaniſhing, Harmony is diſcouered
+with her ſacred Quire.</stage>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div n="1" type="song">
+                        <head>The firſt Song.</head>
+                        <sp>
+                           <speaker>Har.</speaker>
+                           <l>NEw-yeere, New-yeere! harke, harken to me,</l>
+                           <l>I am ſent downe</l>
+                           <l>To crowne,</l>
+                           <l>Thy wiſhes, with me,</l>
+                           <l>Thy faire deſires in Vertues Court are fil'de,</l>
+                           <l>The goodneſſe of thy thought,</l>
+                           <l>This bleſſed worke hath wrought,</l>
+                           <l>
+                              <pb facs="tcp:12884:9"/>
+Time ſhall be reconcilde:</l>
+                           <l>Thy Spring ſhall in all ſweets abound,</l>
+                           <l>Thy Sommer ſhall be cleere and ſound,</l>
+                           <l>Thy Autumne ſwell the Barne and Loft,</l>
+                           <l>With Corne and fruits, ripe, ſweet and ſoft,</l>
+                           <l>And in thy Winter, when all goe,</l>
+                           <l>Thou ſhalt depart as white as Snow.</l>
+                           <stage>Then a ſecond Cloud vaniſhing, the Maſquers them<g ref="char:EOLhyphen"/>ſelues
+diſcouered, ſitting in Arches of Clouds,
+being nine in Number, Heroes Dei<g ref="char:EOLhyphen"/>fied
+for their Ver<g ref="char:EOLhyphen"/>tues.</stage>
+                           <stage>The Song goes on.</stage>
+                           <l>Behold, behold, harke, harken to me,</l>
+                           <l>Glories come downe,</l>
+                           <l>To crowne</l>
+                           <l>Thy wiſhes, with me,</l>
+                           <l>Bright Heroes in laſting Honour ſpher'd</l>
+                           <l>Vertues eternall Spring,</l>
+                           <l>(By making Time their King.)</l>
+                           <l>See, they're beyond Time reard.</l>
+                           <l>Yet in their loue to humane good,</l>
+                           <l>In which eſtate themſelues once ſtood,</l>
+                           <l>They all deſcend to haue their worth</l>
+                           <l>Shine, to Imitation, forth:</l>
+                           <l>And by their Motion, Light and Loue,</l>
+                           <l>To Show how after Times ſhould moue!</l>
+                        </sp>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <stage>Then the Maſquers deſcending, ſet to their
+firſt Dance.</stage>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div n="2" type="song">
+                        <pb facs="tcp:12884:10"/>
+                        <head>The ſecond Song.</head>
+                        <sp>
+                           <speaker>Har.</speaker>
+                           <l>MOue on, Moue on, be ſtill the ſame,</l>
+                           <l>You Beauteous Sonnes of Brightneſſe,</l>
+                           <l>You adde to Honour Spirit and Flame,</l>
+                           <l>To Vertue, Grace, and Vhiteneſſe;</l>
+                           <l>You, whoſe euery little motion</l>
+                           <l>May learne Strictneſſe more Deuotion,</l>
+                           <l>Euery Pace, of that high worth,</l>
+                           <l>It treades a faire Example forth;</l>
+                           <l>Quickens a Vertue, makes a Storie,</l>
+                           <l>To your owne Heroick Glorie.</l>
+                           <l>May your three times thrice Bleſt Number</l>
+                           <l>Rayſe Merit from his Ancient S'umber;</l>
+                           <l>Moue on, Moue on, &amp;c.</l>
+                        </sp>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <stage>Then they order themſelues for their ſe<g ref="char:EOLhyphen"/>cond
+Dance, after which,</stage>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div n="3" type="song">
+                        <head>The third Song.</head>
+                        <l>SEe, whether Fate hath lead you, (Lamps of Honour)</l>
+                        <l>(Fog Goodneſſe brings her owne reward vpon her)</l>
+                        <l>Looke, turne your Eyes, &amp; then conclude, commending,</l>
+                        <l>And ſay, you haue lost no Worth by your Deſcending,</l>
+                        <l>Behold a Heauen about you, Spheres more plentie,</l>
+                        <l>There, for one <hi>Luna,</hi> here ſhines Ten,</l>
+                        <l>And for one <hi>Venus,</hi> Twentie;</l>
+                        <l>Then Heroes, double both your Fame and Light,</l>
+                        <l>Each chuſe his Starre, and full adorne this Night.</l>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <stage>
+               <pb facs="tcp:12884:10"/>At which, the Maſquers make choice
+of their Ladyes, and
+Dance.</stage>
+            <stage>Time, thus cloſing all.</stage>
+            <sp>
+               <speaker>Time. </speaker>
+               <l>The Morning gray,</l>
+               <l>Bids, come away,</l>
+               <l>Euery Lady ſhould begin</l>
+               <l>To take her Chamber, for the Stars are in:</l>
+               <stage>Then making his honour to the Ladies.</stage>
+               <l>Liue Long the Miracles of Times and Yeeres,</l>
+               <l>Till with thoſe Heroes, You ſit fixt in Spheres.</l>
+            </sp>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

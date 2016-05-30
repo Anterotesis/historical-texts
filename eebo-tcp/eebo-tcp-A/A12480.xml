@@ -1,0 +1,993 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A learned and godly sermon preached at Worcester, at an assise / by the reverend and learned, Miles Smith ...</title>
+            <author>Smith, Miles, d. 1624.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1602</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 87 KB of XML-encoded text transcribed from 40 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-11">2003-11 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A12480</idno>
+            <idno type="STC">STC 22807</idno>
+            <idno type="STC">ESTC S1722</idno>
+            <idno type="EEBO-CITATION">21506138</idno>
+            <idno type="OCLC">ocm 21506138</idno>
+            <idno type="VID">24691</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A12480)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 24691)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1716:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A learned and godly sermon preached at Worcester, at an assise / by the reverend and learned, Miles Smith ...</title>
+                  <author>Smith, Miles, d. 1624.</author>
+                  <author>Burhill, Robert, 1572-1641.</author>
+               </titleStmt>
+               <extent>[16], 63 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ioseph Barnes, and are to be sold in Fleet-street at the signe of the Turkes head by Iohn Barnes,</publisher>
+                  <pubPlace>At Oxford :</pubPlace>
+                  <date>1602.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Robert Burhil.</note>
+                  <note>Marginal notes.</note>
+                  <note>Signatures: *⁸ A-D⁸.</note>
+                  <note>Reproduction of original in the Harvard University. Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Jeremiah IX, 23-24 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-09</date>
+            <label>Emma (Leeson) Huber</label>Sampled and proofread</change>
+         <change>
+            <date>2003-09</date>
+            <label>Emma (Leeson) Huber</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:24691:1"/>
+            <pb facs="tcp:24691:1" rendition="simple:additions"/>
+            <p>A LEARNED AND GODLY SERMON, preached at Worcester, <hi>at an Assise: By</hi> THE REVEREND and learned, MILES SMITH, <hi>Doctor of Diuinitie.</hi>
+            </p>
+            <p>AT OXFORD, <hi>Printed by Ioseph Barnes, and are to be sold in Fleet-street at the signe of the Turkes head by Iohn Barnes.</hi> 1602.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:24691:2"/>
+            <pb facs="tcp:24691:2"/>
+            <head>TO THE RIGHT RE<g ref="char:EOLhyphen"/>verend father in Christ, <hi>Ger<g ref="char:EOLhyphen"/>vase L. Bishop</hi> of Worce<g ref="char:EOLhyphen"/>ster, my very good Lord, <hi>grace and peace bee mult<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>plied.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">M</seg>Any good Captains (Right Reverende and my very good Lord) thinke it, not their duety, to fight the<g ref="char:cmbAbbrStroke">̄</g>selues, but only to giue co<g ref="char:cmbAbbrStroke">̄</g>mand to others: and Physici<g ref="char:EOLhyphen"/>ans without blame prescribe to others that which they apply not to themselues: but of the preacher of the worde of God it is justly required, no lesse in life &amp; practise, the<g ref="char:cmbAbbrStroke">̄</g> in speech or wri<g ref="char:EOLhyphen"/>ting, to expresse the soundnes of doctrine, or, to speake it in <hi>Homers</hi> words,
+<q>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</q>
+as by his doctrine hee must preach to our cares, so by his example hee must preach to our eies: that so by both he might lay hole of our hartes, as by the light of the one hee must direct vs that we stray not, so by the footsteps of the other he must lead vs that
+<pb facs="tcp:24691:3"/>
+we stumble not, &amp; by the harmony of both affect vs that we slacke not. Thus if he doe, not only teaching, <hi>as Christ taught,</hi> but also<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Mat. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 19.</note> living as he teacheth others to liue, <hi>hee shall be called great in the kingdome of heave<g ref="char:cmbAbbrStroke">̄</g>:</hi> he shal be <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>eckoned amo<g ref="char:cmbAbbrStroke">̄</g>g the <hi>her<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s</hi> of the Christ<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>a<g ref="char:cmbAbbrStroke">̄</g> common wealth. By hid doctrine hee shall win assent and obedience: by his example, imitation and loue: and by both admirati<g ref="char:EOLhyphen"/>on and reverence. That the author of this learned and godly sermon is one of these, there is no need to prooue: nor how his life and practise, as if it had beene the other twin of the same mother, or the other hand of the same body, hath alway been answe<g ref="char:EOLhyphen"/>rable to the doctrine of humility, which in this sermon is handled at large, although I envy not that there are very many argu<g ref="char:EOLhyphen"/>ments to make this point plaine: yet I could wish there were not so many by one: and that, seeing his humble and modest minde may &amp; doth otherwise so easily appear, he would spare to shew it, by his vnwillingnes to publish his learned labours: by which at this time others are forced to publish some parte of them for him without making him acquainted therwith. As for the rest seeing it must be so, we are content <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> even vntill God shall put it into
+<pb facs="tcp:24691:3"/>
+his minde, to stay for that for which hee is in debt to vs (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Rom. 1. 14.</note> every man that hath received of God is a debter to Christ in GOD and to the<note place="margin">1, Cor. 3. 22. 23.</note> church in Christ) but for this little streame of the great river of his godly learning we hope at length wee shall not only obtaine pardon, for publishing it vvithout giving him notice (for so heretofore it hath hap<g ref="char:EOLhyphen"/>pened to many learned men, and as <hi>Possi<g ref="char:EOLhyphen"/>d<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s</hi> reporteth, even to <hi>Augustine</hi> in manie of his workes) but also deserue thankes of the whole Church of God, whe<g ref="char:cmbAbbrStroke">̄</g> the auctor by this experience in the lesser, gessing howe his greater paines will bee accepted, shall beginne to dare to bring foorth the ampler &amp; more laborious fruits of his lear<g ref="char:EOLhyphen"/>ned and religious study.</p>
+            <p>As surely meete it is that he which is so well armed and provided should not feare to venter: and that the lesse the certainety and the shorter the continuance of the life of man is, the sooner the common wealth &amp; Church should enioy the life &amp; vertue of him that is excellent. <hi>If vvee will vse none but Pompey</hi> (saith Catulus in a deliberation of heaping imployments vpon none but Pompey) <hi>what if wee loose Pompey, whom the<g ref="char:cmbAbbrStroke">̄</g> shall we vse? it is not good</hi> (saide the Lacede<g ref="char:EOLhyphen"/>monian
+<pb facs="tcp:24691:4"/>
+captaine that overthrew the Em<g ref="char:EOLhyphen"/>pire of the Athenians) <hi>that Grece shoulde haue but one <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ie:</hi> and as the proverbe tells vs it is good to haue more ankers the<g ref="char:cmbAbbrStroke">̄</g> oue for our ship to rest vpo<g ref="char:cmbAbbrStroke">̄</g>. For though it be good if there be any (though but one) to say with than Amazon in Virg<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>l.</p>
+            <lg>
+               <l>Audeo, et Aenead<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> promitto occurrere tur<g ref="char:EOLhyphen"/>mae,</l>
+               <l>Solus: et intest as ac<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>es contra obvius <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>re.</l>
+            </lg>
+            <p>yet it is better, if there bee another to re<g ref="char:EOLhyphen"/>plie out of the same place in the Poet.</p>
+            <q>Mecum partire laborem</q>
+            <p>Better I meane, not only because if one die the other may succeed &amp; fi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>sh that which he leaues vuperfect: as Homer notes it as a comforte to <hi>Protefilou<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> his souldiers, after the death af their captaine,</p>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>:</q>
+            <p>But also that, if the one fall, the other, as it is in the 4. of Ecclesiastes might help him vp: that as <hi>Euryalus.</hi> &amp; <hi>Nisus,</hi> they might be mutual aide and comfort each to other:</p>
+            <q>His amor vnus era<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>, par<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>r<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> in bella rueba<g ref="char:cmbAbbrStroke">̄</g>t:</q>
+            <p>That as the tvvo brethren in the same Poe<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>, <hi>Panda<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>us</hi> and <hi>B<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>as</hi> so they might stand forth the one on the one side of the gate, the other on the other, iointly stop<g ref="char:EOLhyphen"/>ping the entrance &amp; irruption of the com<g ref="char:EOLhyphen"/>mon
+<pb facs="tcp:24691:4"/>
+enemie.</p>
+            <lg>
+               <l>Daxtrâ et laevâ pro turribus astent:</l>
+               <l>Arma<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s ferro, et cr<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>stis capi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> alta corusci.</l>
+            </lg>
+            <p>for, to say the truth neither can the quick<g ref="char:EOLhyphen"/>sighted eie of the sunne (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) be throughly circum<g ref="char:EOLhyphen"/>spect in all things: nay he is not able to see round about any thing: whence it is saide,
+<q>Etiam capillus v<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>us <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>abet vmbram suam.</q>
+neither was <hi>Hectors</hi> speech of <hi>Achilles</hi> emu<g ref="char:EOLhyphen"/>lation or envy, rather then truth, whene he tould his souldiers,</p>
+            <lg>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </lg>
+            <p>He must be greater then any <hi>Achilles</hi> (for it is proper to God alone) which would be a<g ref="char:EOLhyphen"/>ble to bee alone. Even Adam in Paradise had neede, and everie creature hath neede of a helper. I confesse (the thankes be vnto God) there are many helpers in our church, ioyning hand with him vpon who<g ref="char:cmbAbbrStroke">̄</g> out eies are chiefely fixte: even more then those 9. Peers, of whom, when <hi>Achilles</hi> ceased from warre in his disconte, <hi>A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ax</hi> makes boast to <hi>Hector:</hi> that without the hardy <hi>Achilles</hi> there was choise enough of one to encounter him <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>Yea, if our Latona had but two to maintain
+<pb facs="tcp:24691:5"/>
+her quarrell <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>yet Latonaes two would easily bee sufficient against Niobes never so ma<g ref="char:EOLhyphen"/>ny:</p>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</q>
+            <p>But if the best among vs continue thus dif<g ref="char:EOLhyphen"/>fident of their owne ability (how confide<g ref="char:cmbAbbrStroke">̄</g>t of the cause soëver they be) it i<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> to bee fea<g ref="char:EOLhyphen"/>red, least hee which as yet hath, or may haue many helpers, bee at length either left alone, or without a fitte helper. Such a one as this autor (to speake without the dis<g ref="char:EOLhyphen"/>pr<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ise of any) sure would be. As he that is not partiall even in this his godly Sermon may discerne him: as he can know a I yon by his claw, and <hi>Hercules</hi> by his singer.
+<q>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</q>
+as he that is not <hi>in turba</hi> may by feeling bee found out by him that is blinde.</p>
+            <lg>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+            </lg>
+            <p>I speake even of the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> which in this ser<g ref="char:EOLhyphen"/>mon appeareth: whether we co<g ref="char:cmbAbbrStroke">̄</g>sider the di<g ref="char:EOLhyphen"/>rectnes of his method, &amp; distinct ordering and handling of so many chiefe pointes of di<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ine meditation and singular vse, or his zeale in affection, or his discreet moderati<g ref="char:EOLhyphen"/>on <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>n applying, or delightfull copiousnes in <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>. I speake the more sparingly of
+<pb facs="tcp:24691:5"/>
+him because I speak as it were to his face: &amp; because I speake to you (Right Reverend) which haue knowne him so long<g ref="char:punc">▪</g> and ever since you knewe him, haue loved him so deatly. But I would his modesty woulde not forget her selfe in one thing, nor make him in iudging of himselfe to attribute (al<g ref="char:EOLhyphen"/>most against modesty) more to his owne iudgment, in which he is too severe to him<g ref="char:EOLhyphen"/>selfe, then to your <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ps. farre more indiffe<g ref="char:EOLhyphen"/>rent estimation. whose intirenes of affectio<g ref="char:cmbAbbrStroke">̄</g> towards him, seeing it first arose fro<g ref="char:cmbAbbrStroke">̄</g> iudge<g ref="char:EOLhyphen"/>ment, cannot bee any better argument a<g ref="char:EOLhyphen"/>gainst the soundnesse of the iudgemente, then the sweetenesse of the fruite is against the soundnesse of the roote. For why shoulde hee suffer his learned papyrs to bee like the hidden riches of a covetous man, good for none vntill the ovvners death? as if it vvere not with the workes of learned men, that are published after the auctors death, as with children which are borne after their fathers death (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) or as if since falshood now hath gotten so strong a heade, the shamefast modesty of the learned vvere not to bee contente to s<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>cken her bridle, and to suffer zeale to vse the spurre. It is not shamefastnesse
+<pb facs="tcp:24691:6"/>
+nor her daughter silence, of which they nowe have neede. Both of which, as they are excuses for me diocrity, so they are pre<g ref="char:EOLhyphen"/>iudices against excellency: as they are al<g ref="char:EOLhyphen"/>way the wisedome of fools, so in such times as these are, they are the folly of the wise. Neither is it much more excusable, in such times of ne<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>de, for the learned to hide themselues with Achilles, then for the vn<g ref="char:EOLhyphen"/>learned to th<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>st themselues forward with Thersites. As much as the one kinde over<g ref="char:EOLhyphen"/>shoo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>es by boldnes, so much the other fals short by fearfulnes, both of them are much amisse. And therfore Xenopho<g ref="char:cmbAbbrStroke">̄</g> in his third booke of Memorables, makes Socrater to <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ke no lesse care to disswade Charmides, the vncle of Plato the Philosopher, from refraining himselfe, then to disswade Glau<g ref="char:EOLhyphen"/>co, the brother to the same Plato, fro<g ref="char:cmbAbbrStroke">̄</g> thru<g ref="char:EOLhyphen"/>sting himselfe forwardes, to medle in the buisines of the publike state. The former of these was a man of very much worth, but of too little boldnes: the later was a man of very much boldnes, but of too little wor<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>h. The fault of the later was more odious but the fault of the former was more hurtfull, more reason to blame the later: but more neede to blame the former. The later by too much contemning others, and magni<g ref="char:EOLhyphen"/>fying
+<pb facs="tcp:24691:6"/>
+himselfe, made himselfe co<g ref="char:cmbAbbrStroke">̄</g>temtible: but the former by too much regarding o<g ref="char:EOLhyphen"/>thers and contemning himselfe made him<g ref="char:EOLhyphen"/>selfe vnprofitable. The later by his boldnes gained the dispraise which he might haue avoided<g ref="char:punc">▪</g> but the former by his shamefast<g ref="char:EOLhyphen"/>nes avoided the commendation which he might haue ga<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ed<g ref="char:punc">▪</g> asmuch as the one nee ded the bridle, so much the other needed the spurre: the one for his owne sake, that he might leaue drawing on harme vppon himselfe: the other for the co<g ref="char:cmbAbbrStroke">̄</g>mon wealths sake: that he might leaue of with holding the publique good. For so is every vertue and especially the godly learning of the chieffest among vs: the <hi>honestum</hi> is proper, but the profit is co<g ref="char:cmbAbbrStroke">̄</g>mo<g ref="char:cmbAbbrStroke">̄</g>: it is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> it is <hi>Thesaurꝰ ecclesiae:</hi> I meane not for any <hi>In dulgences</hi> after they are dead, but for prese<g ref="char:cmbAbbrStroke">̄</g>t vse while they live. By how much the ra<g ref="char:EOLhyphen"/>ther I hope, that every one which loues the truth (seeing himselfe also hath a part in e<g ref="char:EOLhyphen"/>very common good) wil both by his grate<g ref="char:EOLhyphen"/>full acceptance encorage, and by his praier to God aide &amp; further the reverend auctor of this godly sermon: that neither sickenes, nor any other barre may hinder him from performing, for the advancing of the truth, farre greater thinges, then as yet appeare<g ref="char:punc">▪</g>
+               <pb facs="tcp:24691:7"/>
+for my selfe, as I could willingly, thinke of my self that I am <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: So I will alway pay him, &amp; alway owe him al the duties of loue<g ref="char:punc">▪</g> for which vnto him ever since my child<g ref="char:EOLhyphen"/>hood: and to you (right reverend) for these many yeares, I am very deeply engaged. Of your Lp<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>. hee could say, in his preface to a<note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>n Gene<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> most profitable work of yours<g ref="char:punc">▪</g> that he wold be your reme<g ref="char:cmbAbbrStroke">̄</g>bra<g ref="char:cmbAbbrStroke">̄</g>cer <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. The argumentes which there hee vses, with the whole co<g ref="char:cmbAbbrStroke">̄</g>pariso<g ref="char:cmbAbbrStroke">̄</g>, in which he prefers writing before publik preachig by word of mouth may be returned vpon himselfe: with that which Pomponius in Plutarch, dehorting his sonne Numa from private obscurity, tells him<g ref="char:punc">▪</g> that it is God which calles him, &amp; suf<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rs not his giftes to sleepe in him: that the meanager of publique buisines is as it were the hande of God: that hee must not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, play the fugitiue, or deny God such service as in off<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ng occasions and g<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>uing abilities he requires: nor aban<g ref="char:EOLhyphen"/>don the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the fielde &amp; matter of good actions<g ref="char:punc">▪</g> But my purpose is not to tell him what he should do, as indeede it beseemes me not, but onely to signifie our desire co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ing w<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>th your Lps. of whose desire, &amp; <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> desire I am not altogeather ig<g ref="char:EOLhyphen"/>norant:
+<pb facs="tcp:24691:7"/>
+and by whose careful remembring him I hope at the length he will shew him<g ref="char:EOLhyphen"/>selfe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. that so we might bee beholding to your Lp<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>. not onely for your own excelle<g ref="char:cmbAbbrStroke">̄</g>t labours; but in some sort also for his: as we are not a little to S. Hila<g ref="char:EOLhyphen"/>ry, and to Ctesiphon, to the one for stirring vp S. Austine in the western countries, and to the other for stirring vp S. Hieronym in the Eastern cou<g ref="char:cmbAbbrStroke">̄</g>tries; against the spreading infection of Pelagius. this I hope hereafter to see. Meane while I haue beene bolde to present this parcell of his learned paines to your Lordship: to whom I know it shall be right welcome, even for the auctors sake, as to all that know him.</p>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</q>
+            <p>Thus commending your Lordship to the gracious goodnes of the almighty, that you may long continue a principall instrument of his glory, and of the good of his church: I humbly take my leaue. </p>
+            <closer>
+               <dateline>fro<g ref="char:cmbAbbrStroke">̄</g> Corpus Christy Colledge in Oxford <date>Nov. 12. 1602.</date>
+               </dateline>
+               <signed>Your Lordships in all loue and duetie most readie to be commaunded ROBERT BVRHIL.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:24691:8"/>
+            <pb facs="tcp:24691:8"/>
+            <head>The chiefe points of matter severally &amp; <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> order handled and illustrated in the ser<g ref="char:EOLhyphen"/>mon following.</head>
+            <list>
+               <item>1. The words of the text<g ref="char:punc">▪</g> though spoken vpon spe<g ref="char:EOLhyphen"/>ciall occasion to the Iewes, haue their vse at all times, and among all nations.</item>
+               <item>2 Boasting is a very common fault.</item>
+               <item>3. The basenes of man, and liberality of God is a chiefe reason against all pride and boasting.</item>
+               <item>4. Pride hinders our knowledge &amp; practise in Chri<g ref="char:EOLhyphen"/>stian religion</item>
+               <item>5. Pride is a confluence of many sinnes.</item>
+               <item>6. As pride, so boasting as her daughter, is to bee a<g ref="char:EOLhyphen"/>voided.</item>
+               <item>7 Mans wisdome is not his own nor of himselfe, and therefore not to be gloried in.</item>
+               <item>8. In matters of learning it is very vnperfect (God only being truely wise) and therefore also not to be boasted of.</item>
+               <item>9. In matters of state it is very vncertaine.</item>
+               <item>10. Policie falsly so called, is not to be gloried in, but to be hated: as the cause of the corrupt execution of the busines of the common wealth &amp; of neu<g ref="char:EOLhyphen"/>trality in religion.</item>
+               <item>11. Strength and might by making vs prosumptuous oppressors vse to set God against vs<g ref="char:punc">▪</g>
+               </item>
+               <item>12. Riches draw on enemies to spoile vs.</item>
+               <item>13. There is no certainty in riches.</item>
+               <item>14. Riches commonly make not men better, but worse<g ref="char:punc">▪</g>
+               </item>
+               <item>15. True ioy and happines is to know God a<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ight.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:24691:9"/>
+            <pb n="1" facs="tcp:24691:9"/>
+            <head>A LEARNED SERMON <hi>preached at VVorcester.</hi>
+            </head>
+            <epigraph>
+               <bibl>IER<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>MIAH CHAP. 9.</bibl>
+               <bibl>23.</bibl>
+               <q>Let not the wise man glory in his wisedome, nor the strong man glory in his strength, neither the rich ma<g ref="char:cmbAbbrStroke">̄</g> glorie in his riches.</q>
+               <bibl>24.</bibl>
+               <q>But let him that glorieth, glorie in this, that hee vnderstandeth, and knoweth me, &amp;c.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>HE Prophet ZA<g ref="char:EOLhyphen"/>CHARIH in his first Chap: hath thus. <hi>Your fa<g ref="char:EOLhyphen"/>thers.</hi>
+               <note place="margin">Zach. 1. 5. 6.</note> 
+               <hi>VVhere are they? and doe the Prophets liue for ever? But did not my words, and my statutes, which I com<g ref="char:EOLhyphen"/>manded by my serva<g ref="char:cmbAbbrStroke">̄</g>ts the Prophets, take hold of your fathers?</hi> Meaning that they did take hold of their fathers, &amp; would take hold of them also: except they re<g ref="char:EOLhyphen"/>pented.
+<pb n="2" facs="tcp:24691:10" rendition="simple:additions"/>
+So 1. <hi>Cor.</hi> 10. the Apostle saith,<note place="margin">1. Cor. 10. 11</note> 
+               <hi>These thinges came to them for ensam<g ref="char:EOLhyphen"/>ples, but are written to admonish vs, vp<g ref="char:EOLhyphen"/>on whom the ends of the world are come:</hi> Signifying that the iudgments of God recorded in the worde, and the vvhole word it selfe, was not ordained for the instructio<g ref="char:cmbAbbrStroke">̄</g> only of them, in whose daies it was written, but to bee for the vse of the Church in al succeeding ages. In a citty of Aegypt called <hi>Diospolis,</hi> in a te<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ple<note place="margin">Cle. Alex. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 5. stromat</note> there called <hi>Pylon,</hi> there was pictu<g ref="char:EOLhyphen"/>red a little boy, to signifie generation, and an old man to signifie corruption: also an hawk, a symbole of God (for the quicknes of his sight) and a fish, a sym<g ref="char:EOLhyphen"/>bole of hatred (fish were an abhomina<g ref="char:EOLhyphen"/>tion to the priests of Aegypt, as witnes<g ref="char:EOLhyphen"/>seth <hi>Herodotus lo</hi>. 2<hi rend="sup">o</hi>.) &amp; lastly a croco<g ref="char:EOLhyphen"/>dile<note place="margin">Herod. li. 2.</note> to signifie impudencie. The whole devise being laide togither importing thus much, and preaching thus much: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: that is, <hi>O yee that are young &amp; co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ing on, O yee that are old and going out</hi>
+               <pb n="3" facs="tcp:24691:10"/>
+               <hi>of the world (O all togither.) to you all be it knowne, that God doth hate impuden<g ref="char:EOLhyphen"/>cie.</hi> This hath <hi>Clemens Alexandrinus</hi> in the 5. of his <hi>stromats.</hi> The like may bee saide of the present text, which I haue in hand, that, albeit it be a part of a sermon, that the Prophet Ieremie made vnto the children of Israel a lit<g ref="char:EOLhyphen"/>tle before their captivity into Babylon (wherein he assureth them, that pietie only, &amp; no carnal sleights, or abilities, should be able to do them good in that feareful day) and so might seeme to be proper to that nation, &amp; to that occasi<g ref="char:EOLhyphen"/>on: yet for al that, if we wil not mistake it, wee are to take it for an everlasting sermon (there is mention in the Reve<g ref="char:EOLhyphen"/>lation of an <hi>everlasting gospell</hi>) &amp; even<note place="margin">Rev. 14. 6.</note> for a general proclamation against all haughtines &amp; vaine confidence of me<g ref="char:cmbAbbrStroke">̄</g>, whether they bee Iewes or Gentiles, young or old: eve<g ref="char:cmbAbbrStroke">̄</g> against all those, that doe not set God before their eies: ma<g ref="char:EOLhyphen"/>king him their stay<g ref="char:punc">▪</g> but do boast them<g ref="char:EOLhyphen"/>selues of the sharpnes of their wit, or of
+<pb n="4" facs="tcp:24691:11"/>
+the strength of their arme, or of the greatnesse of their wealth, which the Lord doth not accompt of. And that this generall vse is to bee made of this parcell of Scripture<g ref="char:punc">▪</g> the holie Ghost himselfe, the best interpretour of his own meaning. doth plainly declare. 1.<note place="margin">1. Cor. 1. 31.</note> 
+               <hi>Cor.</hi> 1. 31. <hi>&amp;</hi> 2 <hi>Cor.</hi> 10. 17. to the which<note place="margin">2. Cor. 10. 17</note> places for brevity sake I do referre you. And here that observation of <hi>Tertul<g ref="char:EOLhyphen"/>lian</hi>
+               <note place="margin">Tertullian de specta<g ref="char:EOLhyphen"/>culis.</note> in his booke <hi>de spectaculis</hi> hath fit place: <hi>Specialiter quaedam pronuntiata generaliter sapiunt. cum Deus Israeli<g ref="char:EOLhyphen"/>tas admonet disciplinae, vel obiurgat, v<g ref="char:EOLhyphen"/>ti<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> adomnes habet. Certaine things vt<g ref="char:EOLhyphen"/>tered (in the scriptures) for one speciall purpose, or vpo<g ref="char:cmbAbbrStroke">̄</g> one specialloccasio<g ref="char:cmbAbbrStroke">̄</g>, haue yet a generall drift or importment. whe<g ref="char:cmbAbbrStroke">̄</g> God admonisheth the Israelites of their duety, or findeth fault with the<g ref="char:cmbAbbrStroke">̄</g> for neg<g ref="char:EOLhyphen"/>lect thereof, it concerneth all.</hi> So then as<note place="margin">3. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>un. 2.</note> the Apostle saide to <hi>Timothie</hi> that <hi>hee suffered trouble for the Gospell sake vnto <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o<g ref="char:cmbAbbrStroke">̄</g>ds, but the word of God was not bou<g ref="char:cmbAbbrStroke">̄</g>d:</hi>
+               <note place="margin">Heb. 11.</note> And as it is said of <hi>Abell Heb.</hi> 11. <hi>That</hi>
+               <pb n="5" facs="tcp:24691:11"/>
+               <hi>he being dead yet speaketh:</hi> so it may bee said in some sort of the prophet <hi>Ieremy,</hi> that though he were bou<g ref="char:cmbAbbrStroke">̄</g>d as touching bodily presence to his countrymen the Iewes, and though his bones are rotte<g ref="char:cmbAbbrStroke">̄</g> long since: yet for all that his words re<g ref="char:EOLhyphen"/>maine liuely in operation even to this day: and by the same he speaketh, and preacheth to vs now here assembled.</p>
+            <p>And what doth he speake vnto vs in the words of my text? In summe, and in grosse thus much: to purge out the old leaven of arrogancie; and insolenci<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>, that we may be a sweete lumpe of mo<g ref="char:EOLhyphen"/>destie and thankfulnes vnto the Lord. In particular these two pointes. <hi>First</hi> that wee would weane ourselues from all carnall boasting, whether of our wit and cunning, or of our power and au<g ref="char:EOLhyphen"/>thority, or of our wealth and other abi<g ref="char:EOLhyphen"/>lities: this in the former verse. <hi>Secondly</hi> that we would entertaine, &amp; embrace a spirituall kinde of reioicing for Gods great mercies, and favor toward vs, &amp; <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>amely for this, that he hath vouchsa<g ref="char:EOLhyphen"/>fed
+<pb n="6" facs="tcp:24691:12" rendition="simple:additions"/>
+to reveale himselfe and his trueth vnto vs: this in the later verse.</p>
+            <p>Touching the former: many are de<g ref="char:EOLhyphen"/>ceiued (beloved) concerning this mat<g ref="char:EOLhyphen"/>ter of boasting. for <hi>neither</hi> is it proper to a few fooles only, as some haue ima<g ref="char:EOLhyphen"/>gined, (for these fooles are found every where) <hi>nether</hi> is it a fault of vanity on<g ref="char:EOLhyphen"/>ly or indiscretion, but even of iniquity, and sinnefulnes. If any doubt of the ge<g ref="char:EOLhyphen"/>neral spreading of the infectio<g ref="char:cmbAbbrStroke">̄</g>, &amp; whe<g ref="char:EOLhyphen"/>ther it bee Epidemicall, let him thinke but of two sayings: the one of <hi>Salomon,</hi>
+               <note place="margin">Pro<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 20. 6.</note> the other of <hi>Seneca.</hi> In the 20. <hi>of the</hi>
+               <note place="margin">S<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>n <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>p 47.</note> 
+               <hi>Proverbs Salomon</hi> saith, <hi>Many men will boast, every one of his owne goodnes; but who can finde a faithful man?</hi> where he sheweth the fault to be generall, or as good as generall. So <hi>Seneca epist.</hi> 47. speaketh indefinitely, <hi>Regum nobis in<g ref="char:EOLhyphen"/>duimus animos: every one of vs heareth the minde of an Emperour:</hi> then we wil not be farre behinde for boasting: this for sentences. As for examples: let me produce vnto you but two out of hun<g ref="char:EOLhyphen"/>dreds,
+<pb n="7" facs="tcp:24691:12" rendition="simple:additions"/>
+namely of <hi>Cato</hi> the elder, and of <hi>Tullie.</hi> What a notable man was <hi>Cat<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> the elder? He had that commendation given vnto him by co<g ref="char:cmbAbbrStroke">̄</g>sent, which none in his time was thought to deserue, to be <hi>optimus orator, optimus senator, &amp; optimus imperator (as Plinie reporteth)</hi>
+               <note place="margin">Plinius.</note> 
+               <hi>to wit, a most singular orator, a most sin<g ref="char:EOLhyphen"/>guler senator, or states-man, and a most singuler generall:</hi> and yet this so inco<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>parable a man was so much given to boast himselfe, that his veriest friendes were ashamed of him. As for <hi>Tullie</hi> he was so excellently qualisied, that none but a <hi>Tullie,</hi> that is, one admirably elo<g ref="char:EOLhyphen"/>quent, is sufficient to speake of his wor<g ref="char:EOLhyphen"/>thines. And yet this is not left vnreme<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>bred by them, that were willing to co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ceale a small blemish in him, that his speech which flowed fro<g ref="char:cmbAbbrStroke">̄</g> him as sweete as honie, hee made to tast as bitter as wormewoode many times, by interla<g ref="char:EOLhyphen"/>cing of his owne praises. Thus as <hi>deade</hi>
+               <note place="margin">Eccle. 10.</note> 
+               <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ies corrupt the sweet ointment,</hi> as Sa<g ref="char:EOLhyphen"/>omon saith: &amp; as desperat steruelings,
+<pb n="8" facs="tcp:24691:13"/>
+that haue nothing els to feed on, wil fal to their owne flesh, as <hi>Plutarch</hi> saith &amp;<note place="margin">Plutarch de ratione vel modo, quo quis se<g ref="char:punc">▪</g> ipsum lau<g ref="char:EOLhyphen"/>det <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. 1. ci<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>a invidia<g ref="char:cmbAbbrStroke">̄</g>.</note> eate the brawnes of their own armes: so for want of other boasters, many wil fal to boast themselues, &amp; though they offend God, and bee offensiue to men, yet they will doe it.</p>
+            <p>That such doe offend God (not on<g ref="char:EOLhyphen"/>ly are displeasing to men) may appeare heereby. <hi>First</hi> for that God doth ex<g ref="char:EOLhyphen"/>pressely forbidde it, as in my texte, and in diverse other places of the scripture. <hi>Secondly</hi> for that hee hath sharpely pu<g ref="char:EOLhyphen"/>nished this sin, not only in his enemies, as in olde-Babel, for boasting, and say<g ref="char:EOLhyphen"/>ing: <hi>I am, and none else, I shall be a Lady</hi>
+               <note place="margin">Esaie 47.</note> 
+               <hi>for ever:</hi> &amp; in new Babel, for her <hi>proud names of blasphemie,</hi> whereof this was one, as Hiero<g ref="char:cmbAbbrStroke">̄</g> saith, <hi>Roma aterna, Rome</hi>
+               <note place="margin">Hieromim. Algosiae. quaest. 11. 2. Sam. 24.</note> 
+               <hi>shall florish for ever:</hi> but also in his dea<g ref="char:EOLhyphen"/>rest children, as in David, for numbring the people of a vaine glorious minde:<note place="margin">Esa. 37.</note> and in Ezechias, for shewing his trea<g ref="char:EOLhyphen"/>sures to to the embassadors of the king of Babel, of the like bragging pride.
+<pb n="9" facs="tcp:24691:13" rendition="simple:additions"/>
+               <hi>Thirdly</hi> for that the saints of God haue greatly abhorred this vice, &amp; refrained it, as much as might bee: as S. Paule to the <hi>Galath. God forbidde, that I shoulde</hi>
+               <note place="margin">Galat<g ref="char:punc">▪</g> 6.</note> 
+               <hi>glory, but in the crosse of our Lord Iesus Christ: God for bidde.</hi> And to the <hi>Corin<g ref="char:EOLhyphen"/>thians.</hi>
+               <note place="margin">2. Cor. 11.</note> 
+               <hi>If I must needes glory, I will glo<g ref="char:EOLhyphen"/>ry of mine infirmities:</hi> that is, I wil bee farre from carnail boasting. <hi>Lastlie</hi> for that God hath wrought this instinct, or law of nature in the very heathen to co<g ref="char:cmbAbbrStroke">̄</g> demne it. As namely Tullie, vvhome I toulde you of even now, howsoever he fell in practise, yet when he spake from his booke, he colde say: <hi>Deforme est de</hi>
+               <note place="margin">Offici. 1<hi rend="sup">o</hi>.</note> 
+               <hi>s<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ipso praedicare, falsa praesertim. It is an evill favoured thing to, make vaunte of ones own doings<g ref="char:punc">▪</g> specially if he lie ne<g ref="char:EOLhyphen"/>ver so little.</hi> And the Greeke Orator<note place="margin">Demosth. de co<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ona.</note> saith: <hi>to speake of my selfe, (that which may sound to mine owne praise) I take it to be <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, so odious nay so burdenous, &amp; so yrke some, that e<g ref="char:EOLhyphen"/>very necessity shall not enforce mee to do it.</hi> These points might be enlarged by
+<pb n="10" facs="tcp:24691:14" rendition="simple:additions"/>
+amplifications, and sette forth with va<g ref="char:EOLhyphen"/>riety <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> colours, &amp; strengthened with many reasons and proofes, you may ea<g ref="char:EOLhyphen"/>sily gather. But as they that have a large iourney to make, and but a shorte time allowed them, must make but shorte baites by the way, and cannot stand to take every acquainta<g ref="char:cmbAbbrStroke">̄</g>ce that they meet by the hande: and as they that are to paint or to print a pitched fielde within the compasse of a sheete or two of pa<g ref="char:EOLhyphen"/>pyr, can make but few souldiers whole, or complete, but are faine to sett down for the most their heades only or their helmettes: So having many thinges to handle, &amp; within the co<g ref="char:cmbAbbrStroke">̄</g>passe of a short houre, I must bee contented to touch onely the heads of the greatest part of them, and as for long discourses, I must let them alone.</p>
+            <p>We haue seene deare Christians by many signes and tokens that the vaine<g ref="char:EOLhyphen"/>glorious man is no way gracious with God: but contrariwise very odious to him: but why he should be so odious to
+<pb n="11" facs="tcp:24691:14"/>
+him, and so farre out of his bookes, we have not seene. You shal vnderstande therfore, that God hateth pride and all that pertaieneth to it, not of any emu<g ref="char:EOLhyphen"/>lation, for who can come neere vnto God, within any degree of compariso<g ref="char:cmbAbbrStroke">̄</g>, that he should be afraid of him? (emu<g ref="char:EOLhyphen"/>lation is a kinde of feare of the worth or rising of another, least he should toppe vs) but of pure justice, and for the due demerite of the sinne. For <hi>shall the ax<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>, or savve boast it selfe against him that vseth the same? Esaie Chap.</hi> 10<g ref="char:punc">▪</g> 
+               <hi>shall the</hi>
+               <note place="margin">Esaie 10<g ref="char:punc">▪</g>
+               </note> 
+               <hi>pitcher exalt it selfe against the potter, or the thistle say I am not a thistle? VVho</hi>
+               <note place="margin">Act. 17.</note> 
+               <hi>made vs of one bloode to dvvell vpon the face of the earth? VVho tooke vs vp, whe<g ref="char:cmbAbbrStroke">̄</g>
+               </hi>
+               <note place="margin">Ezech. 16.</note> 
+               <hi>we laie polluted in our blood, even vvhen we lay polluted in our blood, who tooke vs vp, and saide vnto vs, live? who delive<g ref="char:EOLhyphen"/>red vs from the povver of darkenes, and translated vs into the kingdome of his</hi>
+               <note place="margin">Coloss. 1.</note> 
+               <hi>deere sonne, in whom we ha<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> redempti<g ref="char:EOLhyphen"/>on in his bloode, even the forgivenes of our sinnes?</hi> who paide our ransome for
+<pb n="12" facs="tcp:24691:15" rendition="simple:additions"/>
+vs, when we were not worth a groate, cast his garment over vs to cover vs, when we lay starcke naked? and which is as great a mercy or benefite, as anie of the former, who passeth by our ini<g ref="char:EOLhyphen"/>quities, &amp; wincketh at our faults, wher<g ref="char:EOLhyphen"/>by we trespasse against him daiely, and howrely? I say who hath forgiven vs, &amp; given vs so many things, and so manie moe, who but the Lord? Now this be<g ref="char:EOLhyphen"/>ing our condition, and none other, and we being thus obnoxious to God, and defectiue in our selues, is it for any of vs to talke of his sufficiency, beeing over heade and eares in debte? or to please himselfe in his beauty <hi>beeing blacker</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ccles. 10.</note> 
+               <hi>then a blacke moore?</hi> Why the<g ref="char:cmbAbbrStroke">̄</g> art thou proud earth and ashes? why doest thou boast <hi>as though thou hadst not receiued</hi>
+               <note place="margin">1. Cor. 4.</note> 
+               <hi>that vvhich thou hast?</hi> nay why doest thou not cover thy face for shame, be<g ref="char:EOLhyphen"/>cause of the manifold pollutions wher<g ref="char:EOLhyphen"/>with thou art distained? Yet foolish ma<g ref="char:cmbAbbrStroke">̄</g> wil be wise; naked man wil be gaie, fil<g ref="char:EOLhyphen"/>thie man wil be pure, though man new
+<pb n="13" facs="tcp:24691:15" rendition="simple:additions"/>
+borne is like <hi>a vvilde asses colte,</hi> as Iob<note place="margin">Iob. 11.</note> saith. Now when the Lorde seeth this, namely, that for al the cost &amp; charges that hee is at vpon vs, yet wee remaine vile and beggerly, &amp; for al our vilenes and beggerlines, yet that we wil not be acknowen of it, but contrariwise stout it with him, &amp; beard him, &amp; take vpon our selues stiffe neckes, &amp; proud looks: is it any mervaile, if the Lord hate pride which vvorketh this strangenes, and breach betwixt him, &amp; his creatures?</p>
+            <p>For but for pride which like the same albugo, or white spotte in the eie, dim<g ref="char:EOLhyphen"/>meth our vnderstanding, nay doubteth it many times (the similitude is not mine, but <hi>Gregori<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> in his Pastorall<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> and<note place="margin">Greg. d<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cur. past. part<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 1.</note> but for selfe loue the mother of pride, vvhich maketh vs poreblinde at the least (<hi>Isidorus Pelusiota</hi> saith of the af<g ref="char:EOLhyphen"/>fection<note place="margin">Isidorus Pelusiota in epist.</note> that we beare to another that <hi>it is p<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>re blinde,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, how much more then is it true of selfe affe<g ref="char:EOLhyphen"/>ction) wee should knowe God, and the height of his favour, &amp; the breadth of
+<pb n="14" facs="tcp:24691:16" rendition="simple:additions"/>
+his loue, &amp; the worth of his pardon, &amp; so be provoked to greater thankefulnes towards him. Also we should know our selues &amp; the summe of our debte, and the depth of our misery, &amp; so be stoup<g ref="char:EOLhyphen"/>ed, &amp; humbled, &amp; vrged to make sup<g ref="char:EOLhyphen"/>plication to our God. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>o these two du<g ref="char:EOLhyphen"/>ties of humility, and thankefulnes, the whole law &amp; the Prophets, &amp; Evange<g ref="char:EOLhyphen"/>listes, and Apostles, and whatsoever is writen in the booke of God, and what<g ref="char:EOLhyphen"/>soever thence is to bee collected may in some sort be referred: And therfore, for somuch as pride is such a special hin derance to the performa<g ref="char:cmbAbbrStroke">̄</g>ce of these spe<g ref="char:EOLhyphen"/>cial duties, no mervaile if the LORD haue the same in special detestation.</p>
+            <p>Adde herevnto, that, as Tertullian calleth the commandement that God gaue Adam in Paradise, <hi>matricem om<g ref="char:EOLhyphen"/>nium</hi>
+               <note place="margin">Tertullian coutra <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>u<g ref="char:EOLhyphen"/>daeos.</note> 
+               <hi>praeceptoru<g ref="char:cmbAbbrStroke">̄</g> Dei: the very matrixe, or wombe of all the commandements of God,</hi> and as Theodorit calleth Moses<note place="margin">Theodo. 2. the rape<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>t.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>a very ocean of all divi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ty:</hi> &amp; as some haue called Rome
+<pb n="15" facs="tcp:24691:16"/>
+               <hi>epitome<g ref="char:cmbAbbrStroke">̄</g> vniuersi, an epitome or abbridge ment of the whole worlde:</hi> so it may bee saide of pride, that it is the summe of al naughtines, &amp; a very sea of it, &amp; there is no sinne almost but pride doth par<g ref="char:EOLhyphen"/>ticipate with it. It is a kinde of idolatry, it maketh a man to bowe to himselfe, &amp; to <hi>burne incense to his owne yarne,</hi> as the Prophet Habakuk speaketh. It is a<note place="margin">Habak. 1. 1<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> kinde of sacrilege, it <hi>robbeth God of his honor,</hi> even of this honor of sauing vs<note place="margin">Esay. 46. 9. &amp; 26. 1<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> freely, &amp; working al our works in vs, as Esaie avoucheth. It is a kinde of dron<g ref="char:EOLhyphen"/>kenes, it maketh a man to erre from a sound iudgment, and to speake, and to do things absurdely: <hi>The proude man is</hi>
+               <note place="margin">Habak. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> 
+               <hi>as hee that transgresseth by vvine:</hi> saith the Prophet. Fourthly it is a kinde of murther, it slayeth the soule, while it maketh it to doate vpon it selfe, eve<g ref="char:cmbAbbrStroke">̄</g> as the ape killeth her young one by clip<g ref="char:EOLhyphen"/>ping it to harde. Fiftly it is a very adul<g ref="char:EOLhyphen"/>tery, it coupleth vs to another fro<g ref="char:cmbAbbrStroke">̄</g> the Lord, even to selfe conceite. <hi>If wee saie</hi>
+               <note place="margin">Aug. in Ioha<g ref="char:cmbAbbrStroke">̄</g>. tract. 13.</note> (saith S. Augustine) <hi>that vvee are anie</hi>
+               <pb n="16" facs="tcp:24691:17" rendition="simple:additions"/>
+               <hi>thing, &amp; so not giue the glory vnto God: adulteri sumus, nos amari volumus, non spon sum, we are plaine adulterers, vvee would haue our selues to be loued, &amp; not the bridegrome.</hi> Sixtly a false witnes, &amp; a lying glasse it is, making vs beleeue that we are that, that we are not: faire<g ref="char:EOLhyphen"/>when we are foule. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Loue</hi>
+               <note place="margin">Theocrit in Bucoli<g ref="char:EOLhyphen"/>ast. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> (&amp; selfe loue much more) <hi>maketh those things, that are not faire to</hi> seeme faire: it so blndeth the eie. Lastly it is most co<g ref="char:EOLhyphen"/>vetous, &amp; most envious, hunting after ter praise, as after a praie, and not dein<g ref="char:EOLhyphen"/>ing that others shoulde come neare the<g ref="char:cmbAbbrStroke">̄</g> within many Leagues. <hi>Sta<g ref="char:cmbAbbrStroke">̄</g>d a part,</hi>
+               <note place="margin">Esa. 65. 5.</note> 
+               <hi>come not neere mee, for I am holier then thou,</hi> saide those proude Hypocrites in Esaie. Thus as <hi>Aristotle</hi> saith out of<note place="margin">Aristotel. Ethi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> Theognis, that in iustice all vertues are couched togeather (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) summa<g ref="char:EOLhyphen"/>rily: so it may be saide of pride, that in it all vices are lapte vp togither as it were in a bundell. And therefore God hating every sinne particularely, &amp; by it selfe,
+<pb n="17" facs="tcp:24691:17" rendition="simple:additions"/>
+and by it selfe, he must needes abhorre pride, which is a confluence, and a col<g ref="char:EOLhyphen"/>lection of them al. Nowe as hee hateth pride, vvhich is the daughter of selfe loue, as I tolde you: so hee hateth al the daughters of pride, wherof boasting, &amp; glotying seemeth to be one of the yo<g ref="char:cmbAbbrStroke">̄</g>g<g ref="char:EOLhyphen"/>est &amp; worst. <hi>Sorie crowe sorie egge,</hi> saide<note place="margin">Gell<g ref="char:punc">▪</g>
+               </note> they that iudged the controversie be<g ref="char:EOLhyphen"/>tweene <hi>Corax,</hi> &amp; <hi>Tisias. Like mother,</hi>
+               <note place="margin">Ezech<g ref="char:punc">▪</g>
+               </note> 
+               <hi>like daughter saith Ezechiel:</hi> &amp; so hate<g ref="char:EOLhyphen"/>ful mother hateful daughter may wee say. VVhen the Romane souldiers had<note place="margin">Aurelius victor.</note> slaine <hi>Maximinus</hi> the tyran they made search for his sonne and slewe him also: saying <hi>Epessimo genere ne catulum quide<g ref="char:cmbAbbrStroke">̄</g>
+               </hi>
+               <note place="margin">Gen. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> 
+               <hi>relinque<g ref="char:cmbAbbrStroke">̄</g>du<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:punc">▪</g> of a vile litter not one whelpe vvas to bee saved aliue.</hi> When <hi>Noah</hi> a<g ref="char:EOLhyphen"/>woke from his wine and knew what his yonger sonne <hi>Ham</hi> had done vnto him hee cursed even <hi>Hams</hi> sonne for <hi>Hams</hi> offence: saying, <hi>Cursed be Canaan, a ser<g ref="char:EOLhyphen"/>vant of servants shall he bee</hi> &amp;c. <hi>Stasi<g ref="char:EOLhyphen"/>nus</hi> his verdite is remembred by <hi>Cle<g ref="char:EOLhyphen"/>mens</hi>
+               <note place="margin">Clem A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Strom. 6</note> 
+               <hi>Alexandrinus,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.
+<pb n="18" facs="tcp:24691:18"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Hee that killeth the wicked parent, &amp; spareth his vngra<g ref="char:EOLhyphen"/>cious brattes is a very foole.</hi> This iustice appeareth to be in God toward pride &amp; her daughters<g ref="char:punc">▪</g> he hateth both the one, &amp; the other: yea he hateth al them, that be in loue with either. I shal not neede to proue that vaine glory is prides own daughter, for that were to proue a crab to come of a crab tree, or a blacke berie of a brier, or drosse of the corruption of metal, or skumme of the vncleanes of the meat. What is choler else, say they, the<g ref="char:cmbAbbrStroke">̄</g> the froath of blood, <hi>spuma sangui<g ref="char:EOLhyphen"/>nis?</hi> &amp; so what is glorying else, but a ve<g ref="char:EOLhyphen"/>ry froath of pride? they froath out their owne shame, while they boile vp with their owne praises: &amp; if vaunting bee in the branch, vanity is in the roote, that is certaine. Al boasting therfore is to be avoided, and abhorred as bad, fruit of a bad tree: &amp; if al boasting, then boasting of wisedome, or strength, or riches, as it followeth in my text. <hi>Let not the vvise glory in his wisedome</hi> &amp;c.</p>
+            <p>
+               <pb n="19" facs="tcp:24691:18" rendition="simple:additions"/>Of boasting in general we haue spo<g ref="char:EOLhyphen"/>ke<g ref="char:cmbAbbrStroke">̄</g> inough already, now let vs see more particularely, what bee the things that he forbiddeth vs to boast of<g ref="char:punc">▪</g> The pro<g ref="char:EOLhyphen"/>phet setteth downe. 3. the first wisdome: the second strength, the third riches. Of these I am to speake in order. <hi>Quod gene ri attributum est etiam in species redu<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>dat,</hi> saith Tertullian. <hi>That which is true in the generall, will bee found true in the speciall, or particular vvith advantage.</hi> For as much therfore as I haue proved already that boasting in general is vn<g ref="char:EOLhyphen"/>lawful, I shal not need to proue serious<g ref="char:EOLhyphen"/>ly or amply, that it is vnlawful to boast of these particulars, wisdome, strength, or riches: only a fleight skimming over the points may serue the turne.</p>
+            <p>Of wisedome first this I haue to say: that of al the gifts, wherewith the Lord doth beautifie the soule of man, none seemeth to be co<g ref="char:cmbAbbrStroke">̄</g>parable to it: sure I am none ought to bee preferred before it. For it is the very sterne of our vessel, the very sunne of our firmament, the verie
+<pb n="20" facs="tcp:24691:19" rendition="simple:additions"/>
+eie of our head, the very hart of our bo dy. Where wisedome sittteth at the sterne there matters are ordered in a probable course to a laudable end. But where wisedome is wanting, there <hi>the sunne goeth downe at noone day</hi> (to vse the Prophets wordes) there the light, that is in vs is turned into darkenes, as Christ speaketh, &amp; then <hi>how great is the darkenes?</hi> So thought <hi>Lactantius. Vt sol</hi>
+               <note place="margin">Lact. l. 2. c. 8</note> 
+               <hi>oculorum, sic sapienti<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> lume<g ref="char:cmbAbbrStroke">̄</g> est cordis hu<g ref="char:EOLhyphen"/>mani. As the sunne is the light of our eies, so the light of our hart is wisedome:</hi> So thought the Poet. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">Phocylid</note> 
+               <hi>Fieldes, townes, ships are all managed &amp; governed by vvisedome.</hi> Wisedome therfore is a most precious thing: that is certaine: &amp; <hi>the mercha<g ref="char:cmbAbbrStroke">̄</g>dise</hi>
+               <note place="margin">Pro. 3.</note> 
+               <hi>therof is better then silver, &amp; the gaine therof is better then golde,</hi> as Salomon saith: but not to bee boasted of for all that.</p>
+            <p>And why? First because it is not our owne, or of our selues: as <hi>Cyprian</hi> saith:<note place="margin">Cypriam.</note> 
+               <hi>De nullo gloriandum, quia nostrum nihil</hi>
+               <pb n="21" facs="tcp:24691:19" rendition="simple:additions"/>
+               <hi>est. VVee are to boast of nothing because nothing is our owne, or of our selues.</hi> And <hi>Augustine</hi> vpon <hi>Iohn</hi> saith: <hi>Christ saide not, without me yee can do little, but with out me yee can doe nothing.</hi> Where then is glorying? is it not excluded? For if it were lawful to boast of that, which is not our owne, then the crowe might haue beene iustified for brauing it with her borowed or stollen feathers (<hi>furti<g ref="char:EOLhyphen"/>vis coloribus</hi>) &amp; the asse for ietting with the Lions skinne about him, &amp; the ape for skipping vp &amp; downe in his masters iacket. But now these were ridiculous in so doing, therfore we ca<g ref="char:cmbAbbrStroke">̄</g>not reasona<g ref="char:EOLhyphen"/>blie boast of that which is not our own: except we wil be like to these vnreaso<g ref="char:EOLhyphen"/>nable beastes. Let this be the first reason against glorying in wisedome.</p>
+            <p>The second this: Our wisedome is many waies vnperfect, therfore, if wee be wise, we will not bragge of it. For wil any bragge of his lame legge, or his one cie? Indeede now I remember <hi>Agesilaus</hi>
+               <note place="margin">Plutarch. in Ages. et Sert.</note> bragged of his club-foote, &amp; had never
+<pb n="22" facs="tcp:24691:20" rendition="simple:additions"/>
+done bragging of it. Also <hi>Sertorius</hi> brag ged of his one eie, and had never done bragging of it but by their leaue I think this their bragging was but from the teeth outward, and rather to prevent, and forestall others from gibing, then of any delighte they tooke there in themselues (bragging lightly brea<g ref="char:EOLhyphen"/>keth not fourth, but some inward ioy, or tickling helpeth it forwarde) and therefore it was like to the same <hi>Sardo<g ref="char:EOLhyphen"/>nius risus.</hi> And notwithstanding that exception, the proposition remaineth firme, that wee boast not naturally or vsually of our infirmities, or imperfe<g ref="char:EOLhyphen"/>ctions. But now our wisdome is vnper<g ref="char:EOLhyphen"/>fect, &amp; very vnperfect, why the<g ref="char:cmbAbbrStroke">̄</g> should any boast of it? That it is vnperfect S. Paule sheweth. 1. <hi>Cor</hi> 13 <hi>VVe know in</hi>
+               <note place="margin">1. Cor 13.</note> 
+               <hi>part, and we prophesie in part.</hi> Againe, <hi>Now we see in a glasse darkely.</hi> Yea and that which an Aegyptia<g ref="char:cmbAbbrStroke">̄</g> priest said to a Grecia<g ref="char:cmbAbbrStroke">̄</g> by the report of <hi>Plato, ye Grecia<g ref="char:cmbAbbrStroke">̄</g>s</hi>
+               <note place="margin">Plato in Timaeo.</note> 
+               <hi>are alwaies children:</hi> the same wil bee fou<g ref="char:cmbAbbrStroke">̄</g>d true not only of the Grecians, but
+<pb n="23" facs="tcp:24691:20"/>
+of the Aegyptians themselues, &amp; of the English and al; for vnderstanding wee are but children. I grant that in al ages, and in al nations some haue gone away with the name of wisdome, as that <hi>Ro<g ref="char:EOLhyphen"/>mane</hi> that was called <hi>Corculum</hi> (<hi>Nosica</hi> was so called) that Grecia<g ref="char:cmbAbbrStroke">̄</g> that was cal<g ref="char:EOLhyphen"/>led <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) <hi>Democritus Abderita</hi> was so called: that Iew that was surnamed <hi>Hechacha<g ref="char:cmbAbbrStroke">̄</g>, Aben Ezra</hi> was so surnamed: the Britane that was called <hi>the sage, Gildas</hi> was so called, <hi>Gildas sapiens, &amp;c.</hi> Yet for al that to talke of wisedome indeede, <hi>The depth</hi>
+               <note place="margin">Iob. 28. 14.</note> 
+               <hi>saith it is not in me, the sea also saith it is not with me,</hi> as <hi>Iob</hi> saith. Who ever satisfied others or himselfe, in delive<g ref="char:EOLhyphen"/>ring the cause of the overflowing of <hi>Nilus</hi> in the summer time? who ever could giue any sounde reason, why the load-stone should drawe the yron to it as it doth, or direct or turne to the pole starre so as it doeth? who ever went a<g ref="char:EOLhyphen"/>bout to giue a probable reason why or howe the little fish called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> should
+<pb n="24" facs="tcp:24691:21" rendition="simple:additions"/>
+be able to stay or to stop, so great a ves<g ref="char:EOLhyphen"/>sel as it is reported to stay, and that be<g ref="char:EOLhyphen"/>ing vnder saile too? And to omi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> these secrets of nature, who ever attained to that perfection in any art, but hee lefte much for them that should come after both to invent better, and to devise a newe? And as for pointes of divinity, (wherein I confesse we haue the grea<g ref="char:EOLhyphen"/>test helpe through the benefite of the word of God, <hi>which is a light vnto our</hi>
+               <note place="margin">Psal 119.</note> 
+               <hi>feete, and a lanterne to our steps</hi>) tou<g ref="char:EOLhyphen"/>ching the same also it is a most certaine truth, that the most acute &amp; iudicious divines haue both acknowledged their ignorance (in some matters not so ne<g ref="char:EOLhyphen"/>cessary to be vnderstood) and deplored their oversight. What a good speech is that of <hi>Irenaeus? Some thinges in the</hi>
+               <note place="margin">Irenzus.</note> 
+               <hi>scripture by Gods providence are harde to be comprehended in this life (vt sem<g ref="char:EOLhyphen"/>per quide<g ref="char:cmbAbbrStroke">̄</g> Deus doceat, homo aute<g ref="char:cmbAbbrStroke">̄</g> se<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>per discat quae sunt à Deo) that God might haue alwaies somewhat to teach vs, and that man might haue to learne alwaies</hi>
+               <pb n="25" facs="tcp:24691:21"/>
+               <hi>those things that are of God.</hi> What a modest speech is that of <hi>Augustin? Quò</hi>
+               <note place="margin">Aug. co<g ref="char:cmbAbbrStroke">̄</g>tra Origenist. &amp; Priscilia<g ref="char:cmbAbbrStroke">̄</g>.</note> 
+               <hi>me contemn as, quem magnum put as esse doct<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>rem, &amp;c. That thou maiest (no lon<g ref="char:EOLhyphen"/>ger haue me in admiration, but) conte<g ref="char:cmbAbbrStroke">̄</g>ne me whom thou takest to be so great a Do<g ref="char:EOLhyphen"/>ctor: I ca<g ref="char:cmbAbbrStroke">̄</g>not tel what these same thro<g ref="char:cmbAbbrStroke">̄</g>es, &amp; dominions &amp; principalitie<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>, &amp; pow<g ref="char:EOLhyphen"/>ers doe meane, nor wherein they differ.</hi> I wil not trouble you with more quota<g ref="char:EOLhyphen"/>tions to this purpose. So then as Moses<note place="margin">Exod. 39. 30.</note> caused it to be superscribed or grave<g ref="char:cmbAbbrStroke">̄</g> v<g ref="char:EOLhyphen"/>po<g ref="char:cmbAbbrStroke">̄</g> the plate for the holy crowne, <hi>Holi<g ref="char:EOLhyphen"/>nes to the Lorde,</hi> meaning to the Lorde only: and as S. <hi>Paul</hi> to <hi>Timothie</hi> asscri<g ref="char:EOLhyphen"/>beth<note place="margin">1. Tim. 6. 1<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> immortalitie to the Lorde, to the Lord only (<hi>who only hath immortalitie</hi>) &amp; as a king of this land contended, that the name of king was due only to the<note place="margin">Canu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>us.</note> king crucified <hi>Iesus Christ:</hi> so surely the name of wisdome is due, and to be asscribed to God only, as beeing only wise. Why? it is so ascribed by S. <hi>Paule</hi> in expresse words in the forenamed e<g ref="char:EOLhyphen"/>pistle, <hi>vnto the king immortal, invisible</hi>
+               <note place="margin">1. Tim. 1. 17</note>
+               <pb n="26" facs="tcp:24691:22" rendition="simple:additions"/>
+               <hi>vnto God only wise, &amp;c.</hi> Yea what say you if heathen men themselues, as ar<g ref="char:EOLhyphen"/>rogant as they were, haue acknowledg<g ref="char:EOLhyphen"/>ed no lesse. <hi>Laërtius</hi> writeth that cer<g ref="char:EOLhyphen"/>taine<note place="margin">Laertius in Thal<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>c.</note> young men of <hi>Ionia</hi> standing vp<g ref="char:EOLhyphen"/>on the sea shoare and beholding fish<g ref="char:EOLhyphen"/>erme<g ref="char:cmbAbbrStroke">̄</g> making of a draught<g ref="char:punc">▪</g> agreed with the<g ref="char:cmbAbbrStroke">̄</g> a great for their draught, that what they should hale vp to land in their net should bee theirs. Nowe it was so by Gods providence, that togither with certaine fish, they encloased a certaine peece of plate (which no ma<g ref="char:cmbAbbrStroke">̄</g> knew whe<g ref="char:cmbAbbrStroke">̄</g> it was suncke there) and dragged tho same to land in their net. The same be<g ref="char:EOLhyphen"/>ing claimed &amp; seased vpon by the you<g ref="char:cmbAbbrStroke">̄</g>g men, by vertue of their bargaine, they cast betweene them how to dispose of it. But whe<g ref="char:cmbAbbrStroke">̄</g> they could not agree about the sharing of it, they sent to the Ora<g ref="char:EOLhyphen"/>cle for resolution from thence. They were returned answere fro<g ref="char:cmbAbbrStroke">̄</g> the Oracle to sende it to the wisest. They sende it therefore to <hi>Thales</hi> their cuntryman: a ma<g ref="char:cmbAbbrStroke">̄</g> of great note in those daies for wis<g ref="char:EOLhyphen"/>dome.
+<pb n="27" facs="tcp:24691:22"/>
+But whe<g ref="char:cmbAbbrStroke">̄</g> it was brought to him, he disabled himselfe, and disclamed the name of wise: and sent it to an other as being more wise then he was. The se<g ref="char:EOLhyphen"/>cond also he would none of it, but sent it to a third, &amp; the third to a fourth, &amp;c and so they posted it of from one to an other, vntil seve<g ref="char:cmbAbbrStroke">̄</g> had it. The seventh &amp; last <hi>Solon,</hi> hee made no more a doe but sent it to the te<g ref="char:cmbAbbrStroke">̄</g>ple at <hi>Delphi</hi> for a pre<g ref="char:EOLhyphen"/>sent to God, as acknowledging him only to be wise. A mervailous confessi<g ref="char:EOLhyphen"/>on for heathen men to make touching the alone wisdome of God. And thus God, <hi>that ordaineth his praise out of the</hi>
+               <note place="margin">Psal. 8.</note> 
+               <hi>mouthes of babes and sucklings</hi> as it is in the Psalme, &amp; <hi>made the domb beast spea<g ref="char:EOLhyphen"/>king</hi>
+               <note place="margin">2. Pet 2.</note> 
+               <hi>with ma<g ref="char:cmbAbbrStroke">̄</g>s voice to rebuke the mad<g ref="char:EOLhyphen"/>nes of the prophet,</hi> as it is in the Apostle, made these me<g ref="char:cmbAbbrStroke">̄</g>, which were but babes in Christ, nay eve<g ref="char:cmbAbbrStroke">̄</g> as beasts before him, being without God in this world, to set forth his honor and praise, and even to rebuke the madde arrogancy of many Christians in our daies, Mans wisdome
+<pb n="28" facs="tcp:24691:23"/>
+therfore touching matters of learning is vnperfect, you heare by the co<g ref="char:cmbAbbrStroke">̄</g>fessio<g ref="char:cmbAbbrStroke">̄</g> of the wisest, and therefore not to bee boasted of.</p>
+            <p>So is it vncertaine concerning mat<g ref="char:EOLhyphen"/>ters of policie, &amp; therefore this a third reason why it ought not to bee gloried in. <hi>Prudens futuri tempo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> exitum cali<g ref="char:EOLhyphen"/>gino</hi>
+               <note place="margin">Horatius.</note> 
+               <hi>sa nocte premit Deus,</hi> saith one. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <note place="margin">Pindaius.</note> saieth an other. Thus it is, future things they are to be, they are not yet: therefore wee cannot see them: they may fal out another way as wel, as that way which we imagine: they be <hi>futura contingentia,</hi> therefore we may be deceived in them. The chi<g ref="char:EOLhyphen"/>rurgian that dealeth with an outwarde wound seeth what he doth, and can tell whether hee can heale it or no, and in what time: but he that is to make an in<g ref="char:EOLhyphen"/>cision within the Body, bee it for the stone, or the like disease, hee doth but grope in the darke as it were, &amp; may as wel take hoult of that which he should not, as of that, which he would. So the
+<pb n="29" facs="tcp:24691:23"/>
+arti<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>an, that worketh in his shoppe, &amp; hath his tooles about him, can promise to make vp his daies worke to his best advantage: but the merchant venturer, that is to cutte the seas, &amp; had need of one winde to bring him out of the ha<g ref="char:EOLhyphen"/>ve<g ref="char:cmbAbbrStroke">̄</g>, an other to bring him about to the la<g ref="char:cmbAbbrStroke">̄</g>ds end, another peradve<g ref="char:cmbAbbrStroke">̄</g>ture to bring him to the place of trafficke, where he would be, he can promise nothing nei<g ref="char:EOLhyphen"/>ther touching his returne, neither tou<g ref="char:EOLhyphen"/>ching his making of his co<g ref="char:cmbAbbrStroke">̄</g>modity, but as the winde, &amp; the weather, &amp; the me<g ref="char:cmbAbbrStroke">̄</g> of warre by the way, &amp; as the honesty, &amp; skil of them, whom he tradeth with, shal giue him leaue. Iust so fareth it in these matters of prudence, and policy, they are co<g ref="char:cmbAbbrStroke">̄</g>iectural, they are not demo<g ref="char:cmbAbbrStroke">̄</g> stratiue, therfore there is no science of the<g ref="char:cmbAbbrStroke">̄</g>: they haue need of the co<g ref="char:cmbAbbrStroke">̄</g>currence of many causes that are casual, of many me<g ref="char:cmbAbbrStroke">̄</g>s mindes that are mutable, therfore we cannot build vpon them. Yea they are built many times vpon the errours and negligence of our enemies,
+<pb n="30" facs="tcp:24691:24"/>
+and they peradventure bee avvake as vvel as our selues. <hi>Antigonus</hi> that wise Prince (he is reckoned among the<g ref="char:cmbAbbrStroke">̄</g>, that having but one eie, were exceeding politicke, and crafty) thought, &amp; made certaine account of it, to come vpo<g ref="char:cmbAbbrStroke">̄</g> his enemie <hi>Eumenes</hi> at vnawa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>es, and to take him napping, but he fou<g ref="char:cmbAbbrStroke">̄</g>d <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>umenes</hi> as vigilant as himselfe, and so was faine to retire with a slea in his eare as wise as he came. This for matters of war So for matters of peace. <hi>Salomon</hi> the vvi<g ref="char:EOLhyphen"/>sest of al thought that, if he might ioin in affinity with his neighbour princes, and take many of their daughters to be his wiues and wome<g ref="char:cmbAbbrStroke">̄</g>, he should not on<g ref="char:EOLhyphen"/>ly strengthen the kingdome in his own hande: but also stablish it in his house long, and long: also he thought perad<g ref="char:EOLhyphen"/>venture, that by occasion of his maria<g ref="char:EOLhyphen"/>ges, and affinities being great, many of the vplandish people would bee trai<g ref="char:EOLhyphen"/>ned, &amp; wonne to the knowledging, and worshipping of the true God of Israel: but how was hee deceived? His wiues,
+<pb n="31" facs="tcp:24691:24"/>
+and women turned his heart from the Lord: he could do little or no good vp<g ref="char:EOLhyphen"/>on them, or theirs; and as for the secret vnderminers of <hi>Salomons</hi> state, &amp; suc<g ref="char:EOLhyphen"/>cession, where found they entertaine<g ref="char:EOLhyphen"/>ment, but among <hi>Salomons</hi> allies? Let<note place="margin">1. King. 11.</note> mee instance this pointe in one or tvvo examples more. <hi>Constantine</hi> the great, that worthy christian, and great politician, thought, that, if hee might build a cittie in the confines of Europe and Asia, that might be <hi>aemula Romae,</hi> a match to Rome, &amp; place one of his so<g ref="char:cmbAbbrStroke">̄</g>s there to keepe his court, he should not only eternize his name, but also fortifie the Empire no lesse then if he had invi<g ref="char:EOLhyphen"/>r<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ned it with a wal of brasse. Also <hi>Pho<g ref="char:EOLhyphen"/>cas,</hi> and <hi>Pipinus</hi> thought, the one if he might dignifie the Bishoppe of Rome with an extravagant title to bee called vniversal bishop: the other, if he might lade the church of Rome with princi<g ref="char:EOLhyphen"/>palities, even with principality vpon principality, they should deserue im<g ref="char:EOLhyphen"/>mortally wel, not only of that sea, but
+<pb n="32" facs="tcp:24691:25"/>
+also of the whole house of God. But <hi>the way of man is not in him selfe</hi> as <hi>Ieremie</hi>
+               <note place="margin">Ier. 10 23.</note> saith: neither is it in man to foresee, what wil fal out luckely, or crosse. The building of nevv Rome vvas the decay of old Rome, so it proved, and the divi<g ref="char:EOLhyphen"/>ding of the Empire was the destructio<g ref="char:cmbAbbrStroke">̄</g> of the Empire, &amp; no lesse, as wise men know. Also the lifting vp of the man of Rome, was the hoysting vp of the man of sinne, and the locking of him in the chaire, even in the chaire of pestilence. Thus there is no policie so provident, no providence so circumspect, but the same is subiect to errours, and crosses: and therefore no cause why it shoulde bee trusted to: and therefore no cause why it should be glorified in. <hi>Let not the wise man glory in his wisdome, &amp;c,</hi>
+            </p>
+            <p>If any wisedome might bee boasted of, surely one of those kinds of wisdom that <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> earst reckoned vp vnto you, to wit, wisedome or skil in the artes, wise<g ref="char:EOLhyphen"/>dome or knowledge in divinity, wise<g ref="char:EOLhyphen"/>dome or policie touching matters of
+<pb n="33" facs="tcp:24691:25"/>
+state but these, you haue heard, are not to be relied vpon, because they are vn<g ref="char:EOLhyphen"/>certaine, because they are vnperfecte &amp;c. therfore much lesse are we to relie vpon any such as is worse, or inferiour to these<g ref="char:punc">▪</g> But yet the world is the world, it hath done so &amp; doth so, yea and bles<g ref="char:EOLhyphen"/>seth it selfe for so doing; therefore this wound had need to be searched &amp; ran<g ref="char:EOLhyphen"/>sacked a little deeper. <hi>Homer</hi> I remem<g ref="char:EOLhyphen"/>ber<note place="margin">Home<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> crieth out against <hi>Eris</hi> or <hi>Discorde</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>O I would it were perished and throwne out of the company of the goddes &amp; men.</hi> So <hi>Cyprian</hi> against covetousnes, <hi>ô dete</hi>
+               <note place="margin">Cyprian.</note> 
+               <hi>stabilis caecit as mentium<g ref="char:punc">▪</g> &amp;c ô this same</hi>
+               <note place="margin">Hieronym.</note> 
+               <hi>detestable blindnes of me<g ref="char:cmbAbbrStroke">̄</g>s mindes. Hie<g ref="char:EOLhyphen"/>ronym</hi> against luxurie, or lechery, <hi>ô ignis inf ernalis luxuria, ô Lecherie a very hel<g ref="char:EOLhyphen"/>lish fire. Augustine</hi> against errour or<note place="margin">Augustine.</note> mistaking, <hi>ô errare, ó delirare: ô vvhat a vile thing it is to be blinded with errour &amp;c.</hi> thus every one cried out against the sinnes wherewith their times were most pestered and po<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>soned. Surely if I
+<pb n="34" facs="tcp:24691:26"/>
+were appointed <hi>to touch the soare of the daughter of our people</hi> (wee haue many soares<g ref="char:punc">▪</g> 
+               <hi>from the crown of our head to the soale of our foote<g ref="char:punc">▪</g> we are little else but soares<g ref="char:punc">▪</g> &amp; botches &amp; biles</hi>) but yet if I were to touch that which doth most of al apostemate, and ranckle, then I ought to crie out ô policie, policie. Po<g ref="char:EOLhyphen"/>licie I meane falsely so called, but in<g ref="char:EOLhyphen"/>deede cunning, &amp; cudgeling. This let<g ref="char:EOLhyphen"/>teth that the prince, &amp; the <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ealme ma<g ref="char:EOLhyphen"/>ny times cannot bee so served, as they should bee: nor iustice administred in many places, as it ought to be<g ref="char:punc">▪</g> nor the Gospel of the sonne of God so propa<g ref="char:EOLhyphen"/>gated, as were to be wished many cold wish that in musters &amp; presses, the like<g ref="char:EOLhyphen"/>liest men to doe service, &amp; not the wea<g ref="char:EOLhyphen"/>kest of frie<g ref="char:cmbAbbrStroke">̄</g>ds, should be appointed: also that they were holpe<g ref="char:cmbAbbrStroke">̄</g> to their right, that suffer wrong: also that the incorrigible were cut of by the sword of iustice: also that these same deceitful workers crafti ly crept in, in prete<g ref="char:cmbAbbrStroke">̄</g>ce to adva<g ref="char:cmbAbbrStroke">̄</g>ce the Ro<g ref="char:EOLhyphen"/>mish faith, but indeed to suppla<g ref="char:cmbAbbrStroke">̄</g>t Eng<g ref="char:EOLhyphen"/>lish
+<pb n="35" facs="tcp:24691:26"/>
+loialty, and faithfulnes, that I sai<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e their goings out, and their co<g ref="char:cmbAbbrStroke">̄</g>mings in, &amp; their haunts were better marked: &amp; so the da<g ref="char:cmbAbbrStroke">̄</g>ger, that is threatned by them, preve<g ref="char:cmbAbbrStroke">̄</g>ted<g ref="char:punc">▪</g> but yet, to put our ha<g ref="char:cmbAbbrStroke">̄</g>d to the worke, every one to do some service in his place: as for example, conestables to precept the hablest &amp; fittest perso<g ref="char:cmbAbbrStroke">̄</g>s for the warres: shirif<g ref="char:punc">▪</g> to make returnes of indifferente <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>uries for the triall of rights: iurors to have God, &amp; a good co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>scie<g ref="char:cmbAbbrStroke">̄</g>ce before their eies, &amp; not to turne aside to by respectes. &amp;c. This we will not be induced to doe: what letteh vs? Policy<g ref="char:punc">▪</g> For we say if wee shal be precise in our office this yeare, or in this action at this time, others wil bee as precise a<g ref="char:EOLhyphen"/>gainst vs or ours another time, &amp; then what shal we gain by it? &amp; if we should not leane somewhat to such a person, &amp; to such a cause, we should offe<g ref="char:cmbAbbrStroke">̄</g>d such a great one, &amp; he wil sitt on our skirtes. Thus policy overthroweth polity, that is the co<g ref="char:cmbAbbrStroke">̄</g>mon weale: &amp; thus the feare of ma<g ref="char:cmbAbbrStroke">̄</g> casteth out the feare of God, as the
+<pb n="36" facs="tcp:24691:27"/>
+wise ma<g ref="char:cmbAbbrStroke">̄</g> co<g ref="char:cmbAbbrStroke">̄</g>plaineth. Another vanity, nay wickednes, I haue noted vnder the su<g ref="char:cmbAbbrStroke">̄</g>, that is this: there be that haue the dore of faith opened to the<g ref="char:cmbAbbrStroke">̄</g>, &amp; haue oppor<g ref="char:EOLhyphen"/>tunity to hear words wherby they and their houshold might bee saued: &amp; the same also do co<g ref="char:cmbAbbrStroke">̄</g>sent in the inward ma<g ref="char:cmbAbbrStroke">̄</g> to the doctrin taught, &amp; published by au<g ref="char:EOLhyphen"/>thority among vs, that the same is the truth, &amp; the contrary falshoode: &amp; yet to giue their names to the gospel sou<g ref="char:cmbAbbrStroke">̄</g>d<g ref="char:EOLhyphen"/>ly, or to protest against popery &amp; super stitio<g ref="char:cmbAbbrStroke">̄</g> zealously they wil not be drawn. what withholdeth the<g ref="char:cmbAbbrStroke">̄</g>? policy, for they think co<g ref="char:cmbAbbrStroke">̄</g>tinuing doubtful, nay though they shoulde bee enemies, if but secret ones, they shal loose nothing, the state holding as it doth. These be the times of mercy (though certaine vngratefull me<g ref="char:cmbAbbrStroke">̄</g> cry out against the<g ref="char:cmbAbbrStroke">̄</g> as though they were bloody, for no other cause, but for that they are restrained fro<g ref="char:cmbAbbrStroke">̄</g> sheding in<g ref="char:EOLhyphen"/>nocent blood, as they were wont in the daies of their tira<g ref="char:cmbAbbrStroke">̄</g>ny) &amp; if there should be a cha<g ref="char:cmbAbbrStroke">̄</g>ge, the<g ref="char:cmbAbbrStroke">̄</g> their very doubfulnes &amp;
+<pb n="37" facs="tcp:24691:27"/>
+staggering would be reme<g ref="char:cmbAbbrStroke">̄</g>bred, &amp; they adva<g ref="char:cmbAbbrStroke">̄</g>ced therby. Thus as <hi>Demades</hi> said<note place="margin">Plutarch.</note> to his cuntryme<g ref="char:cmbAbbrStroke">̄</g> of <hi>Athens,</hi> when they paused to decree divine honors to king <hi>Demetrius, Take heede my masters least while you be so scrupulous for heave<g ref="char:cmbAbbrStroke">̄</g>, &amp; heauenly matters, you loose the earth in the meane time, &amp;c.</hi> So some seeme to make no reckoning at al of their heave<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ly inherita<g ref="char:cmbAbbrStroke">̄</g>ce, so that they may vphold or better their state on earth. Call you this wisdo<g ref="char:cmbAbbrStroke">̄</g>, policy, provide<g ref="char:cmbAbbrStroke">̄</g>ce or the lik? The<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>Achitophel</hi> was a wise ma<g ref="char:cmbAbbrStroke">̄</g> to prefer the expectancy of honor at the traitor <hi>Absalons</hi> hands, before the present en<g ref="char:EOLhyphen"/>ioying of favor fro<g ref="char:cmbAbbrStroke">̄</g> king <hi>David,</hi> his an<g ref="char:EOLhyphen"/>nointed soveraigne. The<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>Esau</hi> was po<g ref="char:EOLhyphen"/>litike<note place="margin">Heb. 11.</note> to esteem more of a messe of pot<g ref="char:EOLhyphen"/>tage, then of the blessing, which after<g ref="char:EOLhyphen"/>ward he could not recover, <hi>though hee sought it with teares.</hi> Yea briefly then that Emperor was provident (were it <hi>Nero,</hi> or whosoever els) that fished for menise &amp; gudgeons with nets of silk &amp; hooks of gold. <hi>VVhat is the chaffe to the</hi>
+               <pb n="38" facs="tcp:24691:28"/>
+               <hi>wheat?</hi> saith the Lord what is the shad<g ref="char:EOLhyphen"/>dow to the body, the body to the soul,<note place="margin">Ierem. 23.</note> frailty to eternity? <hi>VVhat shal it advan<g ref="char:EOLhyphen"/>tage</hi>
+               <note place="margin">Matth. 19.</note> 
+               <hi>a ma<g ref="char:cmbAbbrStroke">̄</g> to win<g ref="char:punc">▪</g> &amp;c.</hi> or ca<g ref="char:cmbAbbrStroke">̄</g> any ma<g ref="char:cmbAbbrStroke">̄</g> saue his soule that hath God his enemy? or can any ma<g ref="char:cmbAbbrStroke">̄</g> haue God to be his friend, that doth stout with him? Be not decei ved: as God is called <hi>Ame<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> or true, in the revelation, &amp; calleth himselfe <hi>truth</hi> in<note place="margin">Revel. 3.</note> the 14 <hi>of Iohn:</hi> so <hi>he loueth truth, &amp; sin<g ref="char:EOLhyphen"/>cerity in the inward parts Ps.</hi> 51. &amp; with<note place="margin">Psal. 51.</note> out truth hee loveth nothing that hee<note place="margin">Iacob. 1.</note> doth loue <hi>A doubling ma<g ref="char:cmbAbbrStroke">̄</g>, or a ma<g ref="char:cmbAbbrStroke">̄</g> with a double hart</hi> (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) saith <hi>S. Iams is vnstable in all his waies,</hi> &amp; can such a one looke for any thing at Gods hands? Let the<g ref="char:cmbAbbrStroke">̄</g> looke to it whosoever amo<g ref="char:cmbAbbrStroke">̄</g>g vs play fast &amp; loose, &amp; blow hote and cold with the Lorde, <hi>making bridges in the aier,</hi> as the comicall Poet saith, &amp; <hi>ma<g ref="char:EOLhyphen"/>king</hi>
+               <note place="margin">Ier. 17. 5.</note> 
+               <hi>flesh their arme,</hi> but in their heart depar<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> fro<g ref="char:cmbAbbrStroke">̄</g> the Lord, which the Prophet doth so much cry out against. Surelie such wisedome is not from aboue, but is earthly sensual, and divelish. And as<note place="margin">Iacob. 3.</note>
+               <pb n="39" facs="tcp:24691:28"/>
+truly, as the reproach delivered by the<note place="margin">Esai. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>4. 20.</note> Prophet <hi>Esay</hi> 44. in respecte of their corrupt iudgment is verified in them: <hi>He feedeth of ashes: a seduced hart hath deceiued him, that he cannot deliver his soule? &amp; say, may not I erre?</hi> so the iudg<g ref="char:EOLhyphen"/>ment denounced by the same prophet in an other place in respecte of their worldly policy shal take hoult of them. <hi>Behould saith he you all kindle a fire, and</hi>
+               <note place="margin">Esa. 50. 11.</note> 
+               <hi>are all co<g ref="char:cmbAbbrStroke">̄</g>passed about with sparkes: walke in the light of your fire, &amp; in the sparkes that ye haue kindled. This shallye haue of mine hand, ye shall lie downe in sorrowe.</hi> As if he saide, your turning of devises, shal it not be as the potters clay? shal it not breake, &amp; crumble betweene your fingers? Take cou<g ref="char:cmbAbbrStroke">̄</g>sel as long as you wil, it shal not stand, make a decree, it shall<note place="margin">Evill cour<g ref="char:EOLhyphen"/>ses will not prosper. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>om Odys.</note> not prosper saith the Lorde almightie. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> saith the heathe<g ref="char:cmbAbbrStroke">̄</g> man. <hi>He that soweth the winde shall reape the whirle winde<g ref="char:punc">▪</g>
+               </hi> let him be sure of it. And let so much be spoken against glorying in wisdome, either rightly so called, or
+<pb n="40" facs="tcp:24691:29"/>
+falsely so tearmed. Let vs consider now of the second thing that vve are forbid<g ref="char:EOLhyphen"/>den to boast of, to witte strength. <hi>Nor the strong man in his strength.</hi>
+            </p>
+            <p>There haue been many strong men<note place="margin">C<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>l. Rodig. l. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cap. 57.</note> in al ages: stro<g ref="char:cmbAbbrStroke">̄</g>g of arme, as that <hi>Polyda<g ref="char:EOLhyphen"/>mas,</hi> that caught a wilde bull by one of his hinder legges, &amp; held him by force of his arme for al that the bul could do: and that <hi>Pulio</hi> (mentioned by <hi>Dio</hi>) that<note place="margin">Dio in Au<g ref="char:EOLhyphen"/>gusto.</note> threw a stone at a town wall, beseidged by <hi>Germanicus,</hi> with such might, that the batlement which he hitte, and hee which was on it came tombling down, which made them<g ref="char:punc">▪</g> that held the towne through wonderment at his strength to yeelde it vp. Strong of hand, as that<note place="margin">Trebell. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Pollio.</note> 
+               <hi>Marius</hi> (one of the 30. Tyrans) that would turne a side a waine with one of his singers: and that <hi>Polonian</hi> of late in the daies of <hi>Stephan Buther,</hi> that would knappe an horseshee a sunder, were it never so hard between his ha<g ref="char:cmbAbbrStroke">̄</g>ds. Strong of arme and head &amp; body, and hart &amp; al, as that <hi>Aristomenes</hi> mentio<g ref="char:EOLhyphen"/>ned
+<pb n="41" facs="tcp:24691:29"/>
+by <hi>Plinie,</hi> who slewe 300. Lacede<g ref="char:EOLhyphen"/>monians<note place="margin">Plinie.</note> in fight in one daie: and that <hi>Aurelian</hi> then or shortly after Empe<g ref="char:EOLhyphen"/>rour:<note place="margin">Vopiscus</note> of who<g ref="char:cmbAbbrStroke">̄</g> they made that song: <hi>mille mille mille viuat: qui mille mille occidit. Let him liue thousandes (of yeares or monethes) who stewae thousands of ene<g ref="char:EOLhyphen"/>mies.</hi> These were famous men in their generations, for strength &amp; no doubt they were mervailously admired at by the<g ref="char:cmbAbbrStroke">̄</g>, that liued in their times: Yet for al that nether wereothers to haue gloried in the<g ref="char:cmbAbbrStroke">̄</g>, nor they in the<g ref="char:cmbAbbrStroke">̄</g>selues. Not others to glory in the<g ref="char:cmbAbbrStroke">̄</g>: because Paule saith <hi>Let</hi>
+               <note place="margin">1. Cor. 3.</note> 
+               <hi>no ma<g ref="char:cmbAbbrStroke">̄</g> reioice or glory in me<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) And againe <hi>Let him that glorieth glory in the Lord.</hi> 1 <hi>Cor.</hi> 10. Not the<g ref="char:cmbAbbrStroke">̄</g>selus to glo<g ref="char:EOLhyphen"/>ry in the<g ref="char:cmbAbbrStroke">̄</g>selus, because stre<g ref="char:cmbAbbrStroke">̄</g>gth is not to be co<g ref="char:cmbAbbrStroke">̄</g>pared to wisdo<g ref="char:cmbAbbrStroke">̄</g>e, &amp; therfore wise<g ref="char:EOLhyphen"/>dome being debarred fro<g ref="char:cmbAbbrStroke">̄</g> boasting (as you heard already) stre<g ref="char:cmbAbbrStroke">̄</g>gth ought much more. That stre<g ref="char:cmbAbbrStroke">̄</g>gth co<g ref="char:cmbAbbrStroke">̄</g>meth short of wis dome <hi>Salomon</hi> sheweth both by plaine wordes and by an example. By plaine<note place="margin">Eccles. 9. 14. 16.</note> words as when hee saith <hi>Eccles.</hi> 9. 16.
+<pb n="42" facs="tcp:24691:30"/>
+               <hi>The<g ref="char:cmbAbbrStroke">̄</g> said I, better is wisdom the<g ref="char:cmbAbbrStroke">̄</g> stre<g ref="char:cmbAbbrStroke">̄</g>gth.</hi> By an example: as <hi>in the same chapter, ver.</hi> 14. <hi>A little cittie, and few men in it, and a great king came against it, and compassed it about, and builded fortes a<g ref="char:EOLhyphen"/>gainst it. And there was found therein a poore &amp; wise man, and hee delivered the cittie by his wisedome.</hi> Thus <hi>Salomon.</hi> Nature also hath taught as much, both in plaine words: and by examples. In plaine wordes, as <hi>Musaeus:</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">Mus<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> 
+               <hi>VVisdom or sleight is alwaies better then strength.</hi> By an example as <hi>Sertorius</hi> for example. Hee caused a couple of horses to be brought before him, the one fat and fleshy, the other a leane carion iade: also a couple of souldiers the one strong, &amp; lustie the other a silly sickely fellow: to the leane horse he put the strong man, &amp; he go<g ref="char:EOLhyphen"/>ing roughly to worke, and thinking to do the deed with dead strength, haled, and pulled, and tired himselfe, and was a laughing stocke to the beholders: but the weake fellow vsing some cunning,
+<pb n="43" facs="tcp:24691:30"/>
+for al his weaknes did the feat, &amp; went his way with the applause. Wisedome therefore is better then strength: and therefore this is one strong reason why strength should not be boasted of since wisdom is denied. An other reaso<g ref="char:cmbAbbrStroke">̄</g> may be this: strength or force, be it equal to the strength of a Lion or Elephant, yet it is but the strength of flesh, never the lesse: and al flesh is fraile, and subiect to foile. When one ca<g ref="char:cmbAbbrStroke">̄</g>not overcome, ma<g ref="char:EOLhyphen"/>ny may. Whom sword cannot pearce, shot wil: whom shot doth not hit, sick<g ref="char:EOLhyphen"/>nes may arrest, time surely, and death wi be sure to make an ende of. Nowe should a man bee prowde of grasse, of vapor, of smoake, of a shadow, of a tale that is told, &amp;c. whereto the whole life of man, and his glory, and consequent<g ref="char:EOLhyphen"/>ly his strength &amp; vigor, are compared? An horse is but a race, they say, and so the strongest man vpo<g ref="char:cmbAbbrStroke">̄</g> earth is but the push of a pike, or the clappe of a pistol. Were not <hi>Abimelech</hi> and <hi>Pyrrhus,</hi> two<note place="margin">Iudg. 9.</note> most valiant princes, either of them kil<g ref="char:EOLhyphen"/>led
+<pb n="44" facs="tcp:24691:31" rendition="simple:additions"/>
+by the hand of a woman? was not <hi>Totilas</hi> that noble conquerour, that had vanquished Rome, which had van<g ref="char:EOLhyphen"/>quished the whole world, vvas not hee I say overcome, and slaine by <hi>Narses</hi> an eununch, a <hi>semivir?</hi> vvhat should I stand any longer vpon this? God hath<note place="margin">1<g ref="char:punc">▪</g> Cor<g ref="char:punc">▪</g> 1.</note> chose<g ref="char:cmbAbbrStroke">̄</g>, as the foolish things of the world to co<g ref="char:cmbAbbrStroke">̄</g>found the wise, so the weak things of the world many times to confounde the strong. And this may be a third rea son against glorying in strength, be<g ref="char:EOLhyphen"/>cause God himself doth many times set himselfe against the mighty.</p>
+            <p>
+               <hi>Xenophon</hi> saw so much &amp; faith thus.<note place="margin">Xenoph. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 1. 6.</note> 
+               <hi>God as it would seeme taketh a pleasure</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. That is, <hi>to exalt the base, and to pull downe the mighty.</hi> And why so? Truelie not of envy to their greatnesse (as it is writte<g ref="char:cmbAbbrStroke">̄</g> of <hi>Tiberius or Caligula</hi>) that hee caused a goodly tall ma<g ref="char:cmbAbbrStroke">̄</g> called <hi>Colossus</hi> for his stature, &amp; strength, of meere en vy to fight, after he had done his law, til he was tired, &amp; slaine: And as it is like<g ref="char:EOLhyphen"/>wise
+<pb n="45" facs="tcp:24691:31"/>
+recorded of <hi>Soliman</hi> in our fathers memorie, that having a great <hi>Germane</hi> brought prisoner to him, of very envie to the <hi>German</hi> nation, hee caused his dwarfe a very <hi>Pygmey</hi> to take this <hi>Ger<g ref="char:EOLhyphen"/>man</hi> in hand (being a gyant to look to) &amp; to hack him &amp; hew him being bou<g ref="char:cmbAbbrStroke">̄</g>d to his hand, &amp; to haue many courses at him (as if a childe were set to thwite a tree a sunder) &amp; at length with much a do to get him down, &amp; so to potch him in &amp; kil him. Oh no, God is of no such<note place="margin">Esaie.</note> nature: as he saith himselfe in <hi>Esay An<g ref="char:EOLhyphen"/>ger is not in me.</hi> So it may be saide most truly of him, <hi>envy is not in him.</hi> No hee envieth no good quality in ma<g ref="char:cmbAbbrStroke">̄</g>, which is his own gift, nether hateth he any that he hath made, &amp; redeemed: but loveth al, &amp; wold haue vs to loue one another. Nether are the great, &amp; mighty ones co<g ref="char:cmbAbbrStroke">̄</g>founded, &amp; brought downe by reaso<g ref="char:cmbAbbrStroke">̄</g> of their folly, or for want of iudgment, whereby they giue advauntage often<g ref="char:EOLhyphen"/>times to their enemies: albeit I am not<note place="margin">Synesius epist 103.</note> ignoraunt, that <hi>Synesius,</hi> that ancient,
+<pb n="46" facs="tcp:24691:32" rendition="simple:additions"/>
+and learned Bishop saith, that strength and prudence seldome vvhiles con<g ref="char:EOLhyphen"/>curre: but he vnderstandeth, I thinke, enormous strength in an huge vast bo<g ref="char:EOLhyphen"/>dy: otherwise his speech is not iustifia<g ref="char:EOLhyphen"/>ble. for many strong haue been excee<g ref="char:EOLhyphen"/>ding crafty with all, as <hi>Aristor<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nes</hi> of old, of who<g ref="char:cmbAbbrStroke">̄</g> I spake erewhile, &amp; <hi>George Castriot</hi> of late (in comparison) of who<g ref="char:cmbAbbrStroke">̄</g> it is written, that they had the strength of a Lion, and wilines of a fox. But here is the quarrel, and this maketh God an enemy very oft to the strong &amp; migh<g ref="char:EOLhyphen"/>ty, because by their strength &amp; power they thinke to beare out, &amp; maintaine whatsoever bad person, &amp; whatsoeuer bad cause: and to breake downe, and to crush, and tread vnder foote the most righteous of the land, that sta<g ref="char:cmbAbbrStroke">̄</g>d in their way. This doth nettle God, &amp; provoke him to displeasure. <hi>Id in summa fortu<g ref="char:EOLhyphen"/>na</hi>
+               <note place="margin">Tacit. l. 15.</note> 
+               <hi>aequius, quod validius.</hi> Let mee haue might, &amp; I haue right enough. <hi>Sua re<g ref="char:EOLhyphen"/>tinere priuatae domus</hi> (saith <hi>Tiridates</hi> in the same place of <hi>Tacitus</hi>) <hi>de alienis</hi>
+               <pb n="47" facs="tcp:24691:32"/>
+               <hi>certare regialaus.</hi> You would haue me be contented with mine own: why? it is for base spirited men, for peasantes, for boores, to seeke but their own, gentle<g ref="char:EOLhyphen"/>men and mighty men they wil law, and fight for that which is an other mans.<note place="margin">Iuven. sa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> 6</note> 
+               <hi>O de mens, it a servus homoest?</hi> saith one in <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>uvenal.</hi> You would haue me vse my servant wel: ah foole, is my man a man? is my tenant my neighbor? is my neigh bor my brother? Doth <hi>Naboth</hi> refuse to<note place="margin">1. Kings.</note> sel his vineyard to <hi>Achab,</hi> to king <hi>A<g ref="char:EOLhyphen"/>chab? I will helpe thee to it for nothing,</hi> saith <hi>Iezabel.</hi> Doth the senate deny my Master the consulship? <hi>Hic ensis dabit. This sword shall helpe him to it</hi> said <hi>Ce<g ref="char:EOLhyphen"/>sars</hi> souldier. These be the same <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">He<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>iod.</note> (as the Poët calleth the<g ref="char:cmbAbbrStroke">̄</g>) which wil haue the law in their own hands: They leane vpon their swords, &amp; their right hand must right them, whether it bee<note place="margin">Ovid. 5. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </note> right, or no. <hi>Nec leges metuunt, sed ce<g ref="char:EOLhyphen"/>dit vi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ibus aquum. Maesta<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> victrici iu<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>a su<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> ense iace<g ref="char:cmbAbbrStroke">̄</g>t. Thus they covet fields, and take them by violence, and houses &amp;</hi>
+               <pb n="48" facs="tcp:24691:33"/>
+               <hi>take them away, so they oppresse a man<g ref="char:punc">▪</g> &amp; his house, even man, and his heritage Mich</hi> 2. And thus as the wilde asse is the Lions pray in the wildernes <hi>Sirach.</hi> 13. &amp; as Basil saith vpon Hexaemeron<note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>asil. Hom. 7 in Hexaem.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>most fishes doe eate one another, and the lesser is the food of the greater.</hi> So it is too tru, that in too manie places the weaker, &amp; the simpler sort of men are a pray vnto the great &amp; mightie ones, &amp; these eate vp Gods people, <hi>as a man would eat bread,</hi> as it is in the Psalm. But what saith Ba<g ref="char:EOLhyphen"/>sil<note place="margin">Psalme 14.</note> in the same place? <hi>Take héede saith he thou oppressor, thou cruell harted man, lest the same ende betide thee, that doth befal those great devouring fishes: name<g ref="char:EOLhyphen"/>ly to bee caught thy selfe by the hooke, or in the nette.</hi> Indeede <hi>as for the comfort of the needie, &amp; the deepe sighing of the</hi>
+               <note place="margin">Psalm. 12.</note> 
+               <hi>poore: the <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ord saith that he wil vp him<g ref="char:EOLhyphen"/>selfe &amp; set at libertie him, who<g ref="char:cmbAbbrStroke">̄</g> the wic<g ref="char:EOLhyphen"/>ked hath snared:</hi> So for the confusion of the vnmerciful cormorant, he threat<g ref="char:EOLhyphen"/>neth
+<pb n="49" facs="tcp:24691:33"/>
+thus by <hi>Iob: He hath devoured sub<g ref="char:EOLhyphen"/>stance,</hi>
+               <note place="margin">Iob. 20. 5.</note> 
+               <hi>&amp; hee shall vomit it: for God shall draw it out of his belly.</hi> And by the Pro<g ref="char:EOLhyphen"/>phet <hi>Esay. VVo vnto thee that spoilest, &amp; wast not spoiled, &amp;c. VVhen thou cea<g ref="char:EOLhyphen"/>sest</hi>
+               <note place="margin">Esay 33.</note> 
+               <hi>to spoile, thou shalt bee spoiled.</hi> There is no prince that can bee saved by the multitude of an host, nether any migh<g ref="char:EOLhyphen"/>tie ma<g ref="char:cmbAbbrStroke">̄</g> delivered by much strength. Be you neuer so strong ô yee mightie, yet he that dwelleth in the heauens is stro<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ger then you, be you never so wel lined or backed, or guarded, yet he, that sit<g ref="char:EOLhyphen"/>teth betweene the <hi>Cherubim</hi> is better appointed. Therefore trust not in your owne strength, much lesse in wrong, &amp; robberie, make not your selues hornes by your own power. There is no pow<g ref="char:EOLhyphen"/>er, no force, no puissance that can deli<g ref="char:EOLhyphen"/>ver from wrath in the daie of vvrath, the children of wrath, that is to saie them, that hale down Gods vengance vpon them by their vnmercifulnesse. This mighte bee easilie vouched by sundrie examples, but that the time
+<pb n="50" facs="tcp:24691:34"/>
+being so farre spent, it is time to come to the third special thing, that wee are forbidden, to glory in, to witte riches. <hi>Nor the rich man glory in his riches.</hi>
+            </p>
+            <p>As I gaue this for one reason, whie strength shoulde not be gloried in, be<g ref="char:EOLhyphen"/>cause it is not to be compared to wise<g ref="char:EOLhyphen"/>do<g ref="char:cmbAbbrStroke">̄</g>e, which I had proved before might not bee allowed to boaste: so I may assigne this for one cause why riches should not be boasted of, because they are not comparable to strength, which even now I excluded from glorying. For if the more excellent cannot be al<g ref="char:EOLhyphen"/>lowed his liberty, the inferiour cannot require it by any reason: &amp; the prophet seemeth to vse the method of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> &amp; to exclude the better at the first, that that which is worse, might with lesse a doe bee remoued, or rather with none at all. If you doubt whether riches bee worse, or lesse to bee esteemed then strength, you may be perswaded here<g ref="char:EOLhyphen"/>by, for that riches doe toll-in enemies: but strength doth repell them from
+<pb n="51" facs="tcp:24691:34" rendition="simple:additions"/>
+entring, and also expel them, if happi<g ref="char:EOLhyphen"/>ly they bee entred: also riches make the theife more ven<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>nrous, but verie seldome doe they make the true man more hardy. That riches do tol, &amp; draw in enemies, it is evide<g ref="char:cmbAbbrStroke">̄</g>t by al stories. For what brought the first conquerour in<g ref="char:EOLhyphen"/>to this Hand of Britain, but the pearles<note place="margin">Suetoniue.</note> of Britain as <hi>Suetonius</hi> reporteth? what brought the <hi>Galles</hi> into <hi>Italie</hi> at the first, but the wines of <hi>Italie,</hi> as <hi>Plutarch</hi>
+               <note place="margin">Plutarch in Camill.</note> witnesseth? So what brought the <hi>Car<g ref="char:EOLhyphen"/>thaginians</hi> into <hi>Spaine,</hi> the <hi>Grecians</hi> &amp; <hi>Romans,</hi> one after another into <hi>Asia</hi> the lesser, but the riches of <hi>Asia,</hi> the golde and silver of <hi>Spaine?</hi> So what brought the <hi>Turkes</hi> over into <hi>Thracia,</hi> and after into <hi>Hungarie,</hi> but the fertili<g ref="char:EOLhyphen"/>ty of <hi>Thracia,</hi> the golden, and silver mines of <hi>Hungarie?</hi> On the contrarie side what maketh the <hi>Tartars</hi> ever to invade, &amp; never to be invaded, but be<g ref="char:EOLhyphen"/>cause they haue no wealth, that others should cover after, &amp; their neighbours haue wealth, which their teeth do <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb n="52" facs="tcp:24691:35" rendition="simple:additions"/>
+watering for. This for publike invasi<g ref="char:EOLhyphen"/>ons, and robberies, as for private spoi<g ref="char:EOLhyphen"/>linges, and pillage the learned knowe what <hi>Q. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>urelius</hi> gatte in the daies of <hi>Syllae</hi> by his gra<g ref="char:cmbAbbrStroke">̄</g>ge, that laie co<g ref="char:cmbAbbrStroke">̄</g>modious to some great one, for loue of the same hee was attainted<g ref="char:punc">▪</g> and billed among them, that were to bee put to death, wherevpon he cried out when he sawe his name in the papyr, <hi>Fundus Alba<g ref="char:EOLhyphen"/>nus me perdidit:</hi> out alas it is my lande that I haue at Alba, &amp; not any offence; that I haue done, that is the cause of my death. So <hi>Plinie</hi> writeth of one <hi>N<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>nius</hi>
+               <note place="margin">Plin. l. 37. cap. 6.</note> a senatour, that hee was likewise proscribed, and condemned to die by <hi>Antonie</hi> the <hi>Triumuir,</hi> for no other crime, but because hee had a precious stone of a very great valew, which <hi>An<g ref="char:EOLhyphen"/>tonie,</hi> or some of his followers had a great minde to. So <hi>Isocrates</hi> speaking of the times, when the <hi>Athenians</hi> were oppressed by Tyrans (the officers that the Lacedemonians had set over them) as I reme<g ref="char:cmbAbbrStroke">̄</g>ber in his oration against <hi>Eu<g ref="char:EOLhyphen"/>thunus</hi>
+               <pb n="53" facs="tcp:24691:35" rendition="simple:additions"/>
+saith, that in those daies <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>It was more dan<g ref="char:EOLhyphen"/>gerous to haue any wealth, the<g ref="char:cmbAbbrStroke">̄</g> to commit any offence.</hi> I haue toulde you alreadie what <hi>Naboth</hi> gott by his vineyard, and could tel you what one <hi>Taurus</hi> mentio<g ref="char:EOLhyphen"/>ned by <hi>Tacitus</hi> gott by his garden, eve<g ref="char:cmbAbbrStroke">̄</g>
+               <note place="margin">Tacit. l. 12.</note> an vntime lie &amp; a bloodie death. Perni<g ref="char:EOLhyphen"/>cious therfore you see riches are manie times to the owners, &amp; therefore smal cause whie they should be boasted of: let this be one reason.</p>
+            <p>Another this: they be not lasting nor permane<g ref="char:cmbAbbrStroke">̄</g>t, but soone fleete away, &amp; are gone. They may be campared to Maie<g ref="char:EOLhyphen"/>flowers, which yeeld a pleasant savour for a few weekes, &amp; then before we are<note place="margin">Ionah. 4.</note> ware their beauty is gone. Nay like to <hi>Io nah</hi> his gourd, which yeelded him co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>te<g ref="char:cmbAbbrStroke">̄</g>t, &amp; delight as it were this morning, &amp; by the next day it was worme-bitt<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> and withered. Nay like the same small creatures called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which in one and the same day are engendred, grow operfection, decaie and die. Indeede
+<pb n="54" facs="tcp:24691:36" rendition="simple:additions"/>
+               <hi>Furipides</hi> saith <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Riches be not lasting, but epheme<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>all, they last but for a day.</hi> And Salomo<g ref="char:cmbAbbrStroke">̄</g> before him, <hi>Riches take the<g ref="char:cmbAbbrStroke">̄</g>selus to their</hi>
+               <note place="margin">Prov. 23.</note> 
+               <hi>winges as an <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>gle, and <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>lie into the aier.</hi> Who ever could haue thought that <hi>Iob</hi> from such wealth could haue fallen v<g ref="char:EOLhyphen"/>pon the sodaine into such misery? who ever would haue thought that the king <hi>Dionysius</hi> must bee faine to plaie the schoole-master, &amp; to teach petties be<g ref="char:EOLhyphen"/>fore he die, to get his liuing? Who ever would haue thought that king <hi>Perses</hi> sonne, and heire must be glad to learne an occupation, and to plaie the blacke smith to releive his necessity? Who e<g ref="char:EOLhyphen"/>ver would haue thought that the Em<g ref="char:EOLhyphen"/>perour <hi>Charles the grosse</hi> could wa<g ref="char:cmbAbbrStroke">̄</g>t ne<g ref="char:EOLhyphen"/>cessaries before he died? That the Em<g ref="char:EOLhyphen"/>perour <hi>Henrie the fourth</hi> (that victori<g ref="char:EOLhyphen"/>ous Emperour, that had fought 52. pitched <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>tailes) could fal into that ex<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>emity as to bee a petitioner for a<note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> 
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> in the church of <hi>Spira</hi> to main<g ref="char:EOLhyphen"/>taine him in his olde age? Briefely that
+<pb n="55" facs="tcp:24691:36"/>
+king <hi>Geliner</hi> (before him) that potent king of the Vandales could be so lowe brought, as to be forced to intreate his friend to send him an harpe, a sponge, and a loafe of bread (as <hi>Procopius</hi> wri<g ref="char:EOLhyphen"/>teth)<note place="margin">Procopius.</note> an harpe to solace himselfe some<g ref="char:EOLhyphen"/>what in his misery, a sponge to helpe to drie vp his teares, and a loafe of bread to satisfie his hungrie soule? What cer<g ref="char:EOLhyphen"/>tainty then is there in worldly wealth, when kings, and potentates be so easily stripped of it, and lefte as naked as my naile? Yet for al that earthly minded men, as we are, we wil stil be miring of our selues in the mucke &amp; pelfe of this world, though we be no better the<g ref="char:cmbAbbrStroke">̄</g> bat<g ref="char:EOLhyphen"/>tles in so doing, as <hi>Basil</hi> saith: &amp; we wil <hi>trust in vncertaine riches, &amp; not in the living God,</hi> though S. Paule chargeth<note place="margin">1. Tim. 6.</note> vs not to do so: and <hi>if riches encrease, we will set our harts vpon them</hi> though the Psalmist forbiddeth vs to do so: and<note place="margin">Psal. 62. 11.</note> lastly we wil bee bragge of that which wee haue and make our boast thereof, though the Prophet in my text doth
+<pb n="56" facs="tcp:24691:37" rendition="simple:additions"/>
+expressely disalowe it, and though my selfe haue proved, that vvee haue no more hould of our wealth, then if vvee had an eele by the taile.</p>
+            <p>VVell, as these bee strong reasons vvhy the rich should not glorie in his riches, because they tempt thieves, and enemies: and because they are of no certainety: so there is a third reason, as vveighty as anie of those, and that is, because they do not make vs any whitte the better. For can any man boast vvith any probability of that, which hee cannot sa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e, that hee is the better for? Now thus it is, <hi>Talibus bonis non siunt homines boni, sed a liunde boni facti be<g ref="char:EOLhyphen"/>nè vtendo saciunt, vt ist a sint bona,</hi> as Augustine saith. <hi>You call them goodes,</hi>
+               <note place="margin">Augustin. ad prob<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>m.</note> 
+               <hi>but I tell you</hi> saith hee <hi>by such goods men bee not made good, but being made good otherwise, by vsing them well they usake them to bee good,</hi> so Augustine. And as for bettering of men, it is too true,<note place="margin">Livius</note> that <hi>Asdrubal Haedus</hi> saith in Livie: <hi>R<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>rò simul hominibus bona fortuna,</hi>
+               <pb n="57" facs="tcp:24691:37" rendition="simple:additions"/>
+               <hi>bona<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> mens datur: Goods and goodnesse doe seldome times meete togeather.</hi> For who is there, except it be one among a thousand <hi>cui praesens faelicitas siarrisit non irrisit,</hi> (as <hi>Bernard</hi> speaketh) <hi>but if</hi>
+               <note place="margin">Bernard 2. de consi<g ref="char:EOLhyphen"/>derat.</note> 
+               <hi>the world come vpon him, hee vvill bee besotted by the world.</hi> Therefore <hi>Thucy<g ref="char:EOLhyphen"/>dides</hi> recordeth as a strange thing in the men of <hi>Chius,</hi> that they were<note place="margin">Thucyd. l. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> sober for al their prosperity: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. And <hi>Evagrius</hi> ascribeth this as an especial praise to <hi>Mauritius</hi> the Emperour, that in his<note place="margin">Evagrius.</note> prosperity hee retained his auncient pietie. In our natural bodies it is thus: the more fatte the lesser bloode in the vaines, and consequentlie the fevver spirites: and so in our fieldes abundance of vvette breedeth abun<g ref="char:EOLhyphen"/>dance of tares, and consequently great scarcitie of corne. And is it not so with our soules? The more of GODS blessinge, and wealth, the more vveedes of vanitie, and carnalitie: and the more rich to the vvo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>lde the
+<pb n="58" facs="tcp:24691:38"/>
+lesse righteous to GOD commonly. What meant <hi>Apuleius</hi> to saie that <hi>vbi</hi>
+               <note place="margin">Apuleius.</note> 
+               <hi>uber, i<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>i tuber?</hi> but to signifie that pride &amp; arrogancie are co<g ref="char:cmbAbbrStroke">̄</g>panions to plenty. And what made <hi>Salomo<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> to pray against<note place="margin">Pro. 30.</note> fulnes? but to shewe, that as they must haue good brains, that wil carry much drinke, so they must haue extraordina<g ref="char:EOLhyphen"/>rie soules, that wil not be overcome of the world. Did not <hi>David</hi> in his pros<g ref="char:EOLhyphen"/>perity<note place="margin">Psal. 30.</note> say that <hi>he should never be remo<g ref="char:EOLhyphen"/>ved?</hi> did he not saie or speak vnadvised<g ref="char:EOLhyphen"/>ly? nay did he not doe lewdly and wic<g ref="char:EOLhyphen"/>kedly, defiling himselfe with his neigh<g ref="char:EOLhyphen"/>bours wife: and embrewing his hands in his servitors blood, thus adding mur ther to adultrie? Did he attempt anie such thing in the daies of wa<g ref="char:cmbAbbrStroke">̄</g>t, &amp; adver<g ref="char:EOLhyphen"/>sity? No no, in his necessitie he sought the Lord, &amp; got himselfe vnto his God right earely: &amp; offred to him the sacri<g ref="char:EOLhyphen"/>fice of righteousnes. And yet we grudge and repine, when we doe not swim in wealth, when wealth through the cor<g ref="char:EOLhyphen"/>ruption of our nature doth dul vs, and
+<pb n="59" facs="tcp:24691:38"/>
+tainte vs, and make vs vnapt to every good work. Again we shun poverty, as we would do a serpent, nay as the gates of hel, when yet povertie through the blessing of God doth kindle devotion, and kil sin in vs, even as wormewood, or the like bitter thinges kill moathes, or wormes. This the time wil not per<g ref="char:EOLhyphen"/>mit me to sta<g ref="char:cmbAbbrStroke">̄</g>d any lo<g ref="char:cmbAbbrStroke">̄</g>ger vpon: &amp; ther<g ref="char:EOLhyphen"/>fore I come at once to the seco<g ref="char:cmbAbbrStroke">̄</g>d verse, and wil end the same in a word or two.</p>
+            <p>
+               <hi>Let him that glorieth glory in this, that he vnderstandeth, &amp; knoweth me.</hi> Mans wisdome, strength, &amp; riches are vaine, and not to be boasted of, thus much <hi>Ieremie</hi> hath told vs already, and I haue proved to you by many reasons: but now if you wold know; what is the thing, wherein we may take true com<g ref="char:EOLhyphen"/>fort, &amp; wherof we may safely glory, the same is no other thing but pietie, and godlines, the true knowledge of God,<note place="margin">1. Tim. 4.</note> the true service of God: this <hi>hath the promise of this life &amp; of the lif to come.</hi> this we ought to labor for, day, &amp; night
+<pb n="60" facs="tcp:24691:39"/>
+that vve maie attaine it, and having at<g ref="char:EOLhyphen"/>tained it, we maie reioice vvith ioy vn<g ref="char:EOLhyphen"/>speakable, &amp; glorious. This our Savior Christ doth warra<g ref="char:cmbAbbrStroke">̄</g>t vs to do by his own<note place="margin">Luk. 10. 21.</note> example, <hi>Luk.</hi> 10. Who there is said to haue reioiced in the spirite on our be<g ref="char:EOLhyphen"/>halfe, because we had our mindes illu<g ref="char:EOLhyphen"/>minate to vndersta<g ref="char:cmbAbbrStroke">̄</g>d those things, that belong to the kingdome of God, &amp; our salvatio<g ref="char:cmbAbbrStroke">̄</g>. Even as elsewhere he defineth the happines of man to consist herein, namelie <hi>to knowe God the only true God,</hi>
+               <note place="margin">Ioh. 17.</note> 
+               <hi>and whom he hath sent Iesus Christ.</hi> A<g ref="char:EOLhyphen"/>greeable<note place="margin">Aug. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. con<g ref="char:EOLhyphen"/>fess cap. 3.</note> wherevnto <hi>Augustine</hi> saith. <hi>In foelix homo, qui scit illa omnia, te au<g ref="char:EOLhyphen"/>tem nescit: beat us aute<g ref="char:cmbAbbrStroke">̄</g> quite scit, etia<g ref="char:cmbAbbrStroke">̄</g>si illa nesciat, &amp;c. Vnhappy is the ma<g ref="char:cmbAbbrStroke">̄</g>, that knoweth all those things</hi> (al secular lear<g ref="char:EOLhyphen"/>ning) <hi>if he knowe not thee, but happy is he that knoweth thee, although he be ig<g ref="char:EOLhyphen"/>norant of the rest. But hee that knoweth thee, and the rest to, is never a whit the more blessed for the other thinges sake, but for thee only, if knowing thee he glo<g ref="char:EOLhyphen"/>rifie thee as God:</hi> so <hi>Augustine.</hi> The
+<pb n="61" facs="tcp:24691:39"/>
+knowledge of God therefore, that is the one thing, that is necessarie, that maketh a man a Christian, that lifteth vs vp vnto God, that coupleth vs vnto him, that iustifieth, that saveth, that worketh al in all. Now by knowledge I vnderstand, &amp; the prophet in my texte vnderstandeth, not a bare apprehensio<g ref="char:cmbAbbrStroke">̄</g> or sense of the minde, that there is a di<g ref="char:EOLhyphen"/>vine power greater, and mightier then al, for so much the most barbarous hea then were not with out. they coulde saie <hi>Deus videt omnia. Deo commendo,</hi>
+               <note place="margin">Tertull de test<g ref="char:punc">▪</g> animae<g ref="char:punc">▪</g> Iacob. 2.</note> 
+               <hi>&amp;c.</hi> as <hi>Tertullian</hi> sheweth, yea as Saint <hi>Iames</hi> saith the verie <hi>Divels beleene, &amp; tremble</hi> (they haue a kinde of beleefe, therefore they haue knowledge:) but also a consent (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as <hi>Clemens</hi>
+               <note place="margin">5. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> 
+               <hi>Alexandrinus</hi> calleth it) and perswa<g ref="char:EOLhyphen"/>sion of the hart touching both the pro<g ref="char:EOLhyphen"/>vidence of God, that he worketh all in al, and al for the best to them, that loue him: also and especiallie touching his mercie, that hee vvill graunte par<g ref="char:EOLhyphen"/>don to the penitent, euen to them,
+<pb n="62" facs="tcp:24691:40"/>
+that craue it for his Sons sake, &amp; lastlie touching his bountie, that he wil ever<g ref="char:EOLhyphen"/>lastinglie rewarde as manie, as are his, even as manie, as beleeue in his name. This is that saving knowledge, which the world knoweth not, neither is it re<g ref="char:EOLhyphen"/>vealed by flesh, and bloode, but by the spirit of the father, which is in heauen. This is that knowledge vvhereof the Prophet <hi>Esaie</hi> speaketh: <hi>By his knowe<g ref="char:EOLhyphen"/>ledge shall my righteous servant iustifie</hi>
+               <note place="margin">Esay 53.</note> 
+               <hi>many, for he shall beare their iniquities.</hi> This is that knowledge, that precious<note place="margin">Mat. 13.</note> treasure which so soone as a wise man findeth, for ioy thereof <hi>he departeth, &amp; selleth all, that hee hath, and buyeth the field.</hi> Brieflie this is that knowledge, in<note place="margin">Phil. 3.</note> comparison wherof S. <hi>Paul</hi> counted all things lost, <hi>even dunge,</hi> that hee might know Christ, and the vertue of his re<g ref="char:EOLhyphen"/>surrection, and the vertue of his afflictions, and bee made conformable to his death. To conclude this is that knowledge, which whosoever seeketh is wise, whosoever getteth is rich, who<g ref="char:EOLhyphen"/>soever
+<pb n="63" facs="tcp:24691:40"/>
+keepeth is strong, nay vertuous, nay happy, nay twise happie: happy he is in this world by faith, and happie in the world to come he shalbe by fruiti<g ref="char:EOLhyphen"/>on. This knowledge the Lorde vouch<g ref="char:EOLhyphen"/>safe to engraffe in them, that want it, &amp; increase it in the<g ref="char:cmbAbbrStroke">̄</g>, that haue it, &amp; make it fruitful in al: to the purging of our co<g ref="char:cmbAbbrStroke">̄</g> sciences in this life, &amp; the saving of our soules in the daie of our Lord Iesus: to whom with the Father, and the blessed Spirit be al honor, and glory. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

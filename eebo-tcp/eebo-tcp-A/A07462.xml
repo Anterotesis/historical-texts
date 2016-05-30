@@ -1,0 +1,666 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pleasaunt dialogue, concerning phisicke and phisitions</title>
+            <author>Mexía, Pedro, 1496?-1552?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1580</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 86 KB of XML-encoded text transcribed from 40 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2006-06">2006-06 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A07462</idno>
+            <idno type="STC">STC 17848</idno>
+            <idno type="STC">ESTC S120389</idno>
+            <idno type="EEBO-CITATION">99855588</idno>
+            <idno type="PROQUEST">99855588</idno>
+            <idno type="VID">21088</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A07462)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 21088)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1248:02)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A pleasaunt dialogue, concerning phisicke and phisitions</title>
+                  <author>Mexía, Pedro, 1496?-1552?</author>
+                  <author>Newton, Thomas, 1542?-1607, attributed name.</author>
+               </titleStmt>
+               <extent>[80] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Iohn Charlewood,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1580.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With an additional title page: A delectable dialogue: .. Translated out of the Castlin tongue. By T.N.</note>
+                  <note>T.N. = Thomas Newton? --STC.</note>
+                  <note>A translation of Mexía's "Dialogo de los medicos" from his "Dialogos o coloquios".</note>
+                  <note>Signatures: A-E.</note>
+                  <note>Running title reads: A dialogue concerning phisick and phisitions.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Medicine --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-11</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2006-02</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2006-02</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:21088:1" rendition="simple:additions"/>
+            <pb facs="tcp:21088:1" rendition="simple:additions"/>
+            <p>¶ A Pleaſaunt Dialogue, concerning Phiſicke and Phiſitions.</p>
+            <figure/>
+            <p>¶ Imprinted at London, by <hi>Iohn Charlewood. 1580.</hi>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:21088:2"/>
+            <pb facs="tcp:21088:2" rendition="simple:additions"/>
+            <p>
+               <g ref="char:leaf">❧</g> A Delectable <hi>Dialogue.</hi> Wherein is con<g ref="char:EOLhyphen"/>tayned a Pleaſaunt Diſputation between two <hi>Spanish</hi> Gentlemen, con<g ref="char:EOLhyphen"/>cerning Phiſick and Phi<g ref="char:EOLhyphen"/>ſitions, with ſentence of a learned Maiſter giuen vpon their argument.</p>
+            <p>Tranſlated out of the <hi>Caſtlin</hi> tongue. By <hi>T. N.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:21088:3"/>
+            <pb facs="tcp:21088:3"/>
+            <head>
+               <g ref="char:leaf">❧</g> To the woorſhipfull <hi>Maiſter Thomas Fowler</hi> Eſquire. T. N. VViſheth <hi>hearts deſyre.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>He Chriſtians, (VVoorſhypfull Syr) which vſe to trauayle toward Ieruſalem. And alſo the Mahomettes, which wan<g ref="char:EOLhyphen"/>der toward theyr holy place Mecha, which is the buryall plotte of theyr Aduocate and falſe Prophete Maho<g ref="char:EOLhyphen"/>met: Vſe to carrie with them Scrips for their prouiſion of victualles, and other furniture. And where thoſe Pilgrymes carry ſeuerally but one: in my Perigrination, I carried two, the one for my victuals, and the other to keepe ſuch bookes as were giuen me b<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he way for charitie.</p>
+            <p>
+               <pb facs="tcp:21088:4"/>
+And now of late I chaunced to turne ouer my Papers, amonge the which I found this little Dialogue, concer<g ref="char:EOLhyphen"/>ning Phiſick and Phiſitions, writte<g ref="char:cmbAbbrStroke">̄</g> in the <hi>Caſtlyn</hi> tongue by a learned Gen<g ref="char:EOLhyphen"/>tleman, called <hi>Pedro Mexia,</hi> who ſometime was Chronicler to the late Emperour <hi>Charles</hi> the fifth. And then calling to memory the varietie of mans inclynacion, how ſome are en<g ref="char:EOLhyphen"/>clined and haue delight to refreſh we<g ref="char:EOLhyphen"/>rineſſe, in reading &amp; conferring with notable writers, other ſome haue great pleaſure in comfortable Mu<g ref="char:EOLhyphen"/>ſick, and others in the conuerſation of faithfull and louing freends.</p>
+            <p>And where I am certayne that your recreation is often times among bookes, and eſpecially in reading of trauailers woorks, as well by land as Sea. Yea and your owne perſon, ha<g ref="char:EOLhyphen"/>uing paſſed the <hi>Occean</hi> Sea. I may boldly ſay with no great pleaſure: yet your Woorſhippe dooth not repent
+<pb facs="tcp:21088:4"/>
+you thereof.</p>
+            <p>I therfore am now the more bolder to offer this little pamphlet vnto you. Praying your woorſhip to accept the ſmall gift, and to remember the poore olde woman who offered two mites<g ref="char:punc">▪</g> her gift was ſmall, but yet with an exceeding good hart and will, and the Almightie graunt your gentle hartes deſire.</p>
+            <closer>
+               <signed>Your Woorſhips to commaund. T. N.</signed>
+            </closer>
+         </div>
+         <div type="argument">
+            <pb facs="tcp:21088:5"/>
+            <head>
+               <g ref="char:leaf">❧</g> The Argument of the Dialogue.</head>
+            <p>TWo learned men Gentlemen, met by chau<g ref="char:cmbAbbrStroke">̄</g>ce, the one of them ſpeaketh much euill of Phiſi<g ref="char:EOLhyphen"/>tions: and holdeth opinio<g ref="char:cmbAbbrStroke">̄</g>, that nei<g ref="char:EOLhyphen"/>ther Phiſition, nor Arte of medi<g ref="char:EOLhyphen"/>cine ought to be, but y<hi rend="sup">t</hi> men ſhould be cured with vſe and experience. The other doth commend alſo and defend, bothe Medicine &amp; Phiſiti<g ref="char:EOLhyphen"/>ons. And laſt of all, the matter is decided by a learned man, called Maiſter <hi>Velaſques,</hi> verie notably.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <div n="1" type="part">
+               <pb facs="tcp:21088:5"/>
+               <stage>Interlocutores.<g ref="char:leaf">❧</g> Iaſper, Bernardo, Don Nunio, Maſter Velaſques.</stage>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">I</seg>T ſhould ſeeme, that</hi> we eſpyed the one the other, by our comming out, and méeting at one ſeaſon.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Now truely you ſay well. But whether wander you.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>If you commaund not other wayes: I was determined to goe viſite <hi>Don Nu<g ref="char:EOLhyphen"/>nio,</hi> and to kéepe him company for one howre, for as yet he is weake of his in<g ref="char:EOLhyphen"/>firmitie paſt, and goeth not out of hys doores.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>By my froth, and I came from home with the ſame intent.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Many times it doth ſo happen, the will
+<pb facs="tcp:21088:6"/>
+of two men to moue vnto one thing, be<g ref="char:EOLhyphen"/>ing a ſunder in diuers places, yea &amp; the one to remember the other, at one in<g ref="char:EOLhyphen"/>ſtant in ſuch wiſe: that it ſhoulde ſéeme the mindes to vnderſtand eche other.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>By the ſpirituall partes, it is no mar<g ref="char:EOLhyphen"/>uell though in ſome thing wée are like Angels: who vnderſtand without ſpea<g ref="char:EOLhyphen"/>king, and communicate their conceytes the one with the other.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>How ſo euer it be, ſith God mooued vs both at one time to méete, in a good howre be it, and let vs goe together to make our viſilation.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Let vs goe through the next ſtréete for this is peſtered, with the Marchauntes workes.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>You ſay well, but looke what a fayre fronte he hath buylt to his houſe, certen<g ref="char:EOLhyphen"/>ly of late the building in this Cittie of Ciuil is greatly mended, for within theſe ten yéeres, their buildings are moſt bew<g ref="char:EOLhyphen"/>tifull toward the ſtréete, with many faire wyndowes of diuers faſhions.</p>
+               </sp>
+               <sp>
+                  <pb facs="tcp:21088:6"/>
+                  <speaker>Bernardo.</speaker>
+                  <p>Troth it is, ye and manye auncient houſes are reedified, and although euery one can not doe as he would: yet truely y<hi rend="sup">e</hi> amendment is great. But in one thyng I ſée it not, and that is, in their low buil<g ref="char:EOLhyphen"/>dings, for very fewe builde higher then one ſtory, whervpon the houſes remaine moyſt and of ſmall maieſtie. And there<g ref="char:EOLhyphen"/>fore ſtraungers which come from <hi>Barſe<g ref="char:EOLhyphen"/>lona,</hi> and other Citties where their buil<g ref="char:EOLhyphen"/>dings are of thrée ſtories high: can not a<g ref="char:EOLhyphen"/>way with ours, nor yet the buyldings of this Cittie content them.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>You ſay troth, but it were not wiſe<g ref="char:EOLhyphen"/>dome to comply with bewty and braue<g ref="char:EOLhyphen"/>rie, and to commit notorious hurt, bothe to health and life, in this countrey it is not conuenient to build high, and it hath been bothe aduiſe, &amp; diſcretion, not to doo ſo, for naturally the ſituation of this Ci<g ref="char:EOLhyphen"/>tie is hot and moyſt, and to reſiſt y<hi rend="sup">e</hi> heate is a principall remedy, the ayre is freſh, which ordinarily runneth in the Som<g ref="char:EOLhyphen"/>mer, it is therefore néedefull that y<hi rend="sup">e</hi> hou<g ref="char:EOLhyphen"/>ſes be open, &amp; not very high, to be viſited with the ayre, and for this cauſe our aun<g ref="char:EOLhyphen"/>ceſtors
+<pb facs="tcp:21088:7"/>
+vſed this building, for certainly the high buildings are more hotter than the low, and more vnholſome in Som<g ref="char:EOLhyphen"/>mer ſeaſon for want of aire, as we know ſome that are troubled with this defect, alſo it is neceſſarie in this place, the Edi<g ref="char:EOLhyphen"/>fices to be lowe, for remedie of the great moyſture, that both ſtréetes and houſes may be viſited of the ſunne and the ayre, ſo that if the houſes and Edifices héere in this Cittie were high: they ſhoulde be more cold &amp; moyſt in wynter, and more hotter in Sommer. By meane whereof very vnholſome, for the moyſture is ſo great that alwayes wee muſt procure that the ſunne haue entraunce into all places of our houſes, if it were poſſible al day long, the which could not be if the houſes and lodgings were high. And alſo the cold here is not ſo great to conſume the moyſture, as it is in <hi>Castillia</hi> &amp; other partes, and where great cold is: yet the heate of the ſunne is neceſſarie, although in Sommer it be great, to conſume the ouer much moyſture. And therefore I beléeue that our forefathers vſed to this ende, to make the ſtréetes brode, as nowe the moſt are, yea and in our daies, ſhades
+<pb facs="tcp:21088:7"/>
+and penthouſes were commaunded to be taken away for that purpoſe, where by a notorious commoditie and health hath followed:</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Truely your reaſon is certaine and naturall, &amp; although ſome times I haue muſed thereon, yet I was neuer ſo well ſatiſfied as now I am: and I thinke hy<g ref="char:EOLhyphen"/>therto, the ſame reſpect hath bene, and if it had not, it is iuſt that it be héereafter. But it ſéemeth vnto me, that high Cha<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>bers are not good lodging, nor yet néedful for this place in the winter, which is not colde, and the heate of Summer excée<g ref="char:EOLhyphen"/>ding hote. As for experience, noble men which haue high houſes, doo ſeldome dwel in them, for thoſe cauſes alleadged: but rather kéepe them to lay corne in, and for lodging of their ſeruauntes, rather then for other purpoſe, although in <hi>Caſtillia</hi> ſuch high buyldings are moſt holſome: ſo y<hi rend="sup">t</hi> our houſes béeing lowe: the cauſe was not for want of knowledge: but rather came of a good foreſight. Let vs now ſée howe <hi>Don Nunio</hi> will buylde his houſe, which hath a good beginning, &amp; héere I ſée
+<pb facs="tcp:21088:8"/>
+much ſtuffe prepared for the woorke.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Let vs vnderſtand what he dooth be<g ref="char:EOLhyphen"/>fore we alight from our Moyles: for ſick perſons may not be viſited at all ſeaſons.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>No but yet it ſeemeth by yonder Moile that Maiſter <hi>Velaſques</hi> is with him: therefore let vs alight, and I will leade the waye.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>God giue your Woorſhip health. <note place="margin">Entrance of the gen<g ref="char:EOLhyphen"/>tlemen.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Don Numo.</speaker>
+                  <p>I kiſſe your Maiſterſhippes hand, and am very glad that ye are comen at ſuch time, to fynde Maiſter Docter <hi>Ve<g ref="char:EOLhyphen"/>laſques</hi> héere, for if ye two will ſpeake Latin he will vnderſtand ye, or els if ye will argue any matter (as ye were wont to doo) yee haue a good and preſent Iudge.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>No ſir, for now we come very con<g ref="char:EOLhyphen"/>formable like good neighbours, and we haue not wherevpon to Diſpute, if you throwe not in a bone as you were wont to doo.</p>
+               </sp>
+               <sp>
+                  <speaker>Maiſter.</speaker>
+                  <p>
+                     <hi>Senor Don Nunio,</hi> Dooth not euill
+<pb facs="tcp:21088:8"/>
+therein. For alwayes good fruite pro<g ref="char:EOLhyphen"/>procéedes out of a good diſcorde.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>At the leaſt ſir you haue ſmall néede thereof: for it is euident that you teach vs all. But notwithſtanding our talke, ſir, how doo you féele your ſelfe.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>Truely as yet I am very weake, for my diſeaſe principally hath béene of a long continuance, and alſo I was letten bloud thrée times, therefore I cannot ſo ſoone recouer ſtrength, and I haue alſo an excéeding drines, remayning in my mouthe ſo that I cannot abſtaine from drinking, and thinking my ſelfe neuer ſatiſfied, and ſurely I beleeue that the Phiſitions hath not vnderſtood the ſe<g ref="char:EOLhyphen"/>cretes of my diſeaſe, to cure it accord<g ref="char:EOLhyphen"/>ingly</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Sir beléeue me I know a man that would not be offended with the drines you ſpeake of, for on a time the ſame man hauing an exceeding burning feauer and drynes. The Phiſiſſion would haue gi<g ref="char:EOLhyphen"/>uen him certaine thinges to myttigate the heate and drought: vnto whom he
+<pb facs="tcp:21088:9"/>
+aunſwered very grauely. <note place="margin">A pretie example.</note> Maiſter Doctor, I pray you doo what you can to eaſe my extréeme heate. But as for my thyrſtineſſe, I would be conten<g ref="char:EOLhyphen"/>ted to remayne with all.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>Yea, but I am not ſo great a fréend of drinke: for when I am in health, I flée from the thinges that ſhould cauſe thyr<g ref="char:EOLhyphen"/>ſtineſſe. But truly the extréeme drineſſe which I haue now, came of a Purgation that was giuen me.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Yea, and therefore I defie Phiſitions, for I promiſe you, if you had not purged your ſelf: you had bene ſooner whole, and not now ſo weake,</p>
+               </sp>
+               <sp>
+                  <speaker>Maiſter.</speaker>
+                  <p>Why ſyr, the Phiſitions know no bet<g ref="char:EOLhyphen"/>ter way to cure.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Mary ſyr, and that way, I would they knew not, for it is not conuenient to be vſed.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>If ye had ſéene what a diſputation héere was, about what ſhould be giue<g ref="char:cmbAbbrStroke">̄</g> to purge
+<pb facs="tcp:21088:9"/>
+me with all, and about the letting of me blood, ye would haue ſayde ſomwhat.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Syr, I néeded not to ſée the thing, for I haue other cauſes more ſufficient, to ap<g ref="char:EOLhyphen"/>prooue that which I meane to ſpeake of: Long agone I knewe howe the Phiſiti<g ref="char:EOLhyphen"/>ons very ſeldome agrée in their opinio<g ref="char:cmbAbbrStroke">̄</g>s, yea, and I was about to ſay, that fewer tymes they happen to doo y<hi rend="sup">e</hi> patient good.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Then muſt I ſay alſo, that you haue for a cuſtome, ſeldome tymes to ſpeake well, either of Aduocates or Phiſitions. But ſay what you lyſt, you ſhall, will or nill, truſt the one with your life, and the <note place="margin">A pretie concluſion.</note> other with your goodes.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>Then accurſed be I, if I doo ſo, at the leaſt, to put my lyfe in the Phiſitions handes, for in all my life tyme hytherto, I was neuer let blood, nor yet haue had any Phiſitions counſell, as long as I haue gone abroade in the world. And I finde my ſelfe better in health, and more ſounder then you, who alwayes hath to doo with ſuch kinde of men.</p>
+               </sp>
+               <sp>
+                  <pb facs="tcp:21088:10"/>
+                  <speaker>Bernardo.</speaker>
+                  <p>Yea and therfore you brag, but I pro<g ref="char:EOLhyphen"/>miſe you, if any diſeaſe ſhould take you vehemently: you would then crye out for the Phiſitions.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>It might ſo be, that y<hi rend="sup">e</hi> infirmitie might be ſuch to depriue me<g ref="char:cmbAbbrStroke">̄</g> of my witte, and ſo to demaund helpe of Phiſitions, but as long as my memorie ſerueth, feare not that I commit any ſuch madneſſe: for ſi<g ref="char:EOLhyphen"/>thens God be prayſed I haue lyued 45. yéeres without them, yea, and haue bene holpen of ſome infirmities, with holſom dyet &amp; good regiment: I meane not now to prooue new inuentions.</p>
+               </sp>
+               <sp>
+                  <speaker>Dun Nunio.</speaker>
+                  <p>Now truly <hi>Signor Maister,</hi> this fire be<g ref="char:EOLhyphen"/>ginneth to kindle, for theſe Gentlemen are armed for the purpoſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>I am not diſpoſed to contend. But yet I will alwayes defend the trueth.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>And the ſame ſhall neuer want vnto me, therefore if you haue any thing to ſay, begin when you lyſt, for I am ready
+<pb facs="tcp:21088:10"/>
+to aunſwere.</p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>Truly <hi>Signor Iaſper,</hi> it ſéemeth a merry toy, to call medicine a new inuencio<g ref="char:cmbAbbrStroke">̄</g>, be<g ref="char:EOLhyphen"/>ing as you know the moſt auncient Art in the world, approoued and admitted by God himſelfe, &amp; by men. Haue you not read in <hi>Eccleſiaſtes,</hi> that God created me<g ref="char:EOLhyphen"/>dicine of the earth, &amp; that the Wiſe man ſhould not ſlée from it, for the medicine dooth exalt &amp; honour the Phiſition, &amp; for medicine he ſhall be prayſed in preſe<g ref="char:cmbAbbrStroke">̄</g>ce of kings &amp; mighty men. Alſo our Aucthors and humane woorks, maketh no leſſe ac<g ref="char:EOLhyphen"/>coumpt of medicine, although they differ in whom was the inuenter thereof, yet all agréeth to reuere<g ref="char:cmbAbbrStroke">̄</g>ce &amp; honour all ſuch. Some ſay &amp; holde opinio<g ref="char:cmbAbbrStroke">̄</g>, that <hi>Mercurie</hi> was the firſt, others ſay <hi>Apis,</hi> other af<g ref="char:EOLhyphen"/>firme <hi>Apoſto,</hi> &amp; ſome <hi>Aeſculapius: Homero</hi> was alſo honored for a God, &amp; fountaine of good writers, in many places, he I ſay commends medicine: yea, &amp; did not let to ſhew; &amp; name medicinall hearbes, &amp; how medicin hath ben eſtéemed of Emperors and kings, you know better then I. You haue alſo read what reward <hi>Alexander</hi>
+                     <pb facs="tcp:21088:11"/>
+the great gaue vnto <hi>Ariſtouolus</hi> Phiſitio<g ref="char:cmbAbbrStroke">̄</g>: and king <hi>Ptolome</hi> to <hi>Eraſiſtrato.</hi> Yea, &amp; the incredible ſtipend &amp; fees which they had in y<hi rend="sup">t</hi> tyme of Emperors in <hi>Rome,</hi> wher<g ref="char:EOLhyphen"/>of <hi>Plinie</hi> and others make mencion: In concluſion, looke what a treaſure health is, which paſſeth all worldly ioyes, the felicitie of the ſoule excepted: yea, and contrary wiſe, howe bitter is infirmitie. So that theſe thinges conſidered, you may ſée what honour is due to medicine, that conſerueth vs in the one, &amp; kéepeth vs from the other.</p>
+               </sp>
+               <sp>
+                  <speaker>Maiſter.</speaker>
+                  <p>Although it hath not bene much which <hi>Signor Bernardo</hi> hath ſpoken, yet his ſtu<g ref="char:EOLhyphen"/>dy hath not bene ſmall, as appeareth by his explication.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>You haue played the good Retorician, and ſithens you haue taken the payne, I will doo the lyke. But I would firſt you ſhould vnderſtand, that I co<g ref="char:cmbAbbrStroke">̄</g>dempne not the good Medicine: for I tolde you that I had cured my ſelfe with only good dyet, and regunent, yea, and alſo with ſome hearbes, and other thinges whereof I
+<pb facs="tcp:21088:11"/>
+haue experience. But I condempne the euyll Phiſitions, who long agone made bothe Arte and Merchandize, inuenting and ſéeking ſtraunge and violent medi<g ref="char:EOLhyphen"/>caments, fylling &amp; darkning, with their opinions and Cawtelles, the faculties which moſt cleere and ſimply ought to be, and of himſelfe is and was in his be<g ref="char:EOLhyphen"/>ginning, when men cured one another for charity, and not for intereſt, and then they cured with hearbes and vertuous ſymples experimented, and not with ve<g ref="char:EOLhyphen"/>nomous compoſitions that nowe are v<g ref="char:EOLhyphen"/>ſed, which you knowe not what they be, nor from whe<g ref="char:cmbAbbrStroke">̄</g>ce they come, nor to what vſe they ſerue, nor yet howe many they be, becauſe they are ſo many that they are out of number.</p>
+                  <p>The Medicine which is commended in <hi>Eccleſiastes,</hi> is the ſame that was vſed in thoſe good dayes. But the Medicine in<g ref="char:EOLhyphen"/>uented by thoſe which you ſay were hol<g ref="char:EOLhyphen"/>den for Goddes, becauſe they diſcouered the vertue &amp; propertie of hearbes, ſtones fruites, and other thinges applyed them, to the Paſſions, ſores, and infirmities, without making them Artes, rules, and
+<pb facs="tcp:21088:12"/>
+preceptes, as afterward mallice &amp; coue<g ref="char:EOLhyphen"/>touſneſſe of men brought to paſſe, ſo that before that time, we fou<g ref="char:cmbAbbrStroke">̄</g>d nothing writ<g ref="char:EOLhyphen"/>ten of medicine. <hi>Hipocrates</hi> by aucthority of <hi>Marcus Varro,</hi> according vnto <hi>Plinie</hi> affirmeth: was the firſt that wrote the precepts of medicine. The ſpace of, <hi>600.</hi> yéeres, the <hi>Romaines</hi> defended them ſel<g ref="char:EOLhyphen"/>ues from Phiſitions, and would in no wiſe ſuffer them in <hi>Rome:</hi> ſince which tyme they neuer lyued ſo ſound. True it is, that in the tyme when <hi>Enullius,</hi> and <hi>Marcus Libio</hi> were Conſuls, which was after the foundation of <hi>Rome. 535</hi> yéeres: I know not by whome perſwaded, they admitted a <hi>Greeke</hi> Phiſition <hi>Pelotones,</hi> called <hi>Archagatus,</hi> vnto whome they gaue a houſe &amp; publique ſtipend, and as a new thing at the beginning, he pleaſed ſome men. But after they had experi<g ref="char:EOLhyphen"/>ence of his letting blood, and his Caute<g ref="char:EOLhyphen"/>ries, with ſtrange inuencions of curing: bothe he and others that were newlye come, were baniſhed, by the aucthori<g ref="char:EOLhyphen"/>tie and counſell of the great <hi>Cato Cenſo<g ref="char:EOLhyphen"/>rinus,</hi> who lyued, <hi>85.</hi> yéeres, becauſe you may conſider what want he had of <hi>Ar<g ref="char:EOLhyphen"/>chagatus,</hi>
+                     <pb facs="tcp:21088:12"/>
+or of any other. After <hi>Cato</hi> his death, the tyme running with couetouſ<g ref="char:EOLhyphen"/>neſſe, ambicion, and other vices, then entred Phiſitions into <hi>Rome.</hi>
+                  </p>
+                  <p>So that it plainly appeareth, before that time the <hi>Romaines</hi> had, dyet, medicines, and a way to cure with all, according to experience, without vſing any tyranny, for each neyghbour ſhewed vnto other, the thinges that he had prooued: in thoſe dayes I ſay, looue and charitie cured, and not couetouſneſſe and poyſon.</p>
+                  <p>The <hi>Romaines</hi> only vſed not this good order, but alſo the <hi>Babilonians,</hi> who were learned. <hi>Estrabo,</hi> and <hi>Herodotus,</hi> wryte that, they had not knowen Phi<g ref="char:EOLhyphen"/>ſitions, and therefore they vſed (when any happened to be ſicke) to bring him foorth into the open ſtréete, becauſe his neighbours and fréendes (who had any experience in ſuch diſeaſes) ſhould giue their councell and aduiſe.</p>
+                  <p>The ſelfe ſame order was vſed a<g ref="char:EOLhyphen"/>mong the <hi>Egiptians</hi> and <hi>Portyngalles,</hi> after thoſe golden dayes, <hi>Signor Bernar<g ref="char:EOLhyphen"/>do,</hi> Phiſitions crepte into the houſes of
+<pb facs="tcp:21088:13"/>
+Emperors &amp; Kings, among whom, ſome were famous, as <hi>Hipocrates,</hi> who was the fountaine and father of them all, and after him came <hi>Aristogenes</hi> into ſeruice with king <hi>Antigonus</hi> of <hi>Macedonia,</hi> and <hi>Aſclepiades</hi> his familliar, who was froend of great <hi>Pompetus. Antonius Muga</hi> was entertained of the Emperour <hi>Octa<g ref="char:EOLhyphen"/>uianus.</hi> Alſo bothe the <hi>Appollodors,</hi> of whome <hi>Plinie</hi> wryteth: <hi>Cornelio Celſo</hi> the <hi>Romaine:</hi> the famous <hi>Eraſiſtratus</hi> who by his ſinguler knowledge, vnderſtoode howe the diſeaſe of <hi>Antiochus</hi> was vnde<g ref="char:EOLhyphen"/>cent looue, with his Mother in Lawe. Alſo <hi>Galenus,</hi> who now is honoured, and called Prince of Phiſitions, with many other which now I will not name. But this I knowe, notwithſtanding, that af<g ref="char:EOLhyphen"/>ter Phiſitions began to multiply, mans lyfe began to ſhorten. And in thoſe dayes the auncient <hi>Romaines,</hi> lyued in more health then all theſe Princes, who en<g ref="char:EOLhyphen"/>tertayned the Phiſitions with wages, and other exceſſiue rewardes: And if you will not beléeue me, let <hi>Alexander</hi> the great, who you brought for an example, ſay his opinion, for he lyued not full for<g ref="char:EOLhyphen"/>tie
+<pb facs="tcp:21088:13"/>
+yéeres. Let alſo the olde gray bearded men of the Mountaynes and Uillages, which neuer knewe Phiſitions, ſpeake their minde. And let the young men of the Cittie, declare alſo their opinions.</p>
+                  <p>But doo you know what was the cauſe to admit Phiſitions in <hi>Rome,</hi> the great diſorder whereof I ſpake, becauſe men would not temper, and cure them ſelues according to y<hi rend="sup">e</hi> rule of theyr Aunceſtors, they woulde néedes giue the charge of theyr health to them that knew it not. Wherevpon, as <hi>Plinie</hi> affyrmeth, great hurt followed to the health of man: for why, they left the care of them ſelues, and gaue credite to Phiſitions for theyr health: and the Phiſitio<g ref="char:cmbAbbrStroke">̄</g>s for theyr part, cared no more but for the intereſt &amp; pro<g ref="char:EOLhyphen"/>fit, exalting theyr Arte, and making ther of Merchandize, yea, and to giue a more comely viſage to theyr newe Science, that none might know the ſecretes ther<g ref="char:EOLhyphen"/>of: they began to flee from common and true renredies, and to vſe compoundes, mixtures, fruites, rootes, hearbes, neuer before ſeene nor heard of, to deceaue and bewitch the people, with the names and
+<pb facs="tcp:21088:14"/>
+hydden properties, and for the common remedies, they ſought ſtraunge, caſting cleane aſyde the true way, and ſticked faſt to their new deuiſes. Héere alſo be<g ref="char:EOLhyphen"/>gan the diſtylling of Waters, bothe of cleane and filthy thinges. Héere began Syrrups, bothe ſwéete and ſower, ſome cléere, ſome darcke, made of ſuch con<g ref="char:EOLhyphen"/>ceytes, that the Diuell himſelfe would ſcarcely imagine what thing it were.</p>
+                  <p>An other deuiſe alſo, is to cauſe vs to eate golde, ſtones, yea, and yron, lyke vnto <hi>Oyſtrages</hi> againſt all nature. Héere alſo began your Mytradate, and com<g ref="char:EOLhyphen"/>pound Treacle, made of aboue <hi>54.</hi> things and ſome of them rancke poyſon: if eue<g ref="char:EOLhyphen"/>rie of them were good of himſelfe, the incomportable company of the one with the other, maketh an horrible poyſon.</p>
+                  <p>The which <hi>Plinie</hi> almoſt <hi>1800.</hi> yéeres paſt, ſayth, was made by oſtentation and apparaunce of his Arte, for it is im<g ref="char:EOLhyphen"/>poſſible Nature to be ſéene, nor experi<g ref="char:EOLhyphen"/>ence knowen, nor the temper and con<g ref="char:EOLhyphen"/>cordaunces of ſo many thinges dyſcor<g ref="char:EOLhyphen"/>dant, no it can not be. So that of theſe thinges and other lyke, they haue made
+<pb facs="tcp:21088:14"/>
+experience in mans body, with ſuch au<g ref="char:EOLhyphen"/>dacitie, and at all aduentures. So that in lew of giuing health: they happen many-tymes to kyll the patient, yea, and in recompence thereof, to haue his mo<g ref="char:EOLhyphen"/>ney for their labour: and that which wurſt is, there is no puniſhment for them. Tell me I pray you, what Phiſi<g ref="char:EOLhyphen"/>tion haue you ſéene chaſtened, eyther for the death, or laming of any man?</p>
+                  <p>Finally, <hi>Signor Bernardo,</hi> the mallice of man hath ſpoyled the beſt thing in the worlde, which is in making the thing naturall, an obſcure Artificer: charitie an intereſt, mercie, couetouſneſſe, darc<g ref="char:EOLhyphen"/>kening reaſon ſo much, as though none could cure but Phiſitions.</p>
+                  <p>Ieſting at common experience, and extolling with perſwaſion theyr Arte, or Myſterie, yea, euen to the names of thinges, giuing them newe barba<g ref="char:EOLhyphen"/>rous and ſtraunge tearmes, ſaying, both the <hi>Greeke</hi> and Latin names are well knowen.</p>
+                  <p>Alſo in theyr writing they haue inuen<g ref="char:EOLhyphen"/>ted Carraters and Sygnes, not to be vnderſtoode, but of whome they deale
+<pb facs="tcp:21088:15"/>
+withall for theyr Drugges: ſo that they procured by all meanes to darcken the thing which ought to be common, and knowen of all men.</p>
+                  <p>Then what ſhall I ſay of the diuerſity of theyr doctrine and opinions. The <hi>A<g ref="char:EOLhyphen"/>larbes</hi> differ from the <hi>Greekes,</hi> ſo that a<g ref="char:EOLhyphen"/>mong them ſelues, they are not confor<g ref="char:EOLhyphen"/>mable, neyther the one nor the other. The order and manner of curing theyr <hi>Auicena,</hi> differeth from <hi>Galenus,</hi> &amp; thoſe of antiquitie, euen ſo much that it ſée<g ref="char:EOLhyphen"/>meth an other thing: nor yet thoſe of our tyme cure lyke <hi>Auicena,</hi> nor lyke the o<g ref="char:EOLhyphen"/>ther, for now all conſiſtéth in inuencio<g ref="char:cmbAbbrStroke">̄</g>s and opinions. Yea, if you call two or thrée together, you ſhall finde each to be ſinguler in his iudgement. But when they agrée, iwis it is to the great peryll of the Patient: if you heare each of them by himſelfe it is a myracle to finde them conformable, yea, &amp; theyr receytes ſhall be diuers and con<g ref="char:cmbAbbrStroke">̄</g>trarie each to other: It ſhall not néede that I make any further recytall therof, for dayly you ſee it before your eyes, therefore<g ref="char:cmbAbbrStroke">̄</g> I will not weárie my ſelfe in the rehearſall.</p>
+               </sp>
+               <sp>
+                  <pb facs="tcp:21088:15"/>
+                  <speaker>Maiſter Velaſques.</speaker>
+                  <p>It ſhould ſéeme that theſe Gentlemen <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ame purpoſely to debate this matter, &amp; héerein to ſhewe theyr learning &amp; know<g ref="char:EOLhyphen"/>ledge, becauſe I ſée them ſo earneſt: ther<g ref="char:EOLhyphen"/>fore we may doo well to cut of, and abre<g ref="char:EOLhyphen"/>uiate theyr communication.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>No Syr, that were not iuſt, that Phi<g ref="char:EOLhyphen"/>ſitions ſhould thus remaine, without de<g ref="char:EOLhyphen"/>fence. Yea, and for my part, I doo greatly reioyce to heare this talke. Therfore let the concluſion be, that ſithens each of them hath had his turne, although <hi>Signor Iaſper;</hi> hath bene ſomewhat long in his diſcourſe, let each of them haue another courſe, and no more, which ſhall be as one that wryteth his minde, and an o<g ref="char:EOLhyphen"/>ther that replyeth in our iudgement court. And then I am to deſire you <hi>Signor Maister,</hi> to giue ſentence, who hath the right.</p>
+               </sp>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>I for my part am content, reſeruing the benefite of appellation, if the ſente<g ref="char:cmbAbbrStroke">̄</g>ce be not giuen in my fauour.</p>
+               </sp>
+               <sp>
+                  <pb facs="tcp:21088:16"/>
+                  <speaker>Bernardo.</speaker>
+                  <p>And I for my part am alſo agréeed ha<g ref="char:EOLhyphen"/>uing ſo great a confidence in my Iuſtice, and alſo in the iudgement of <hi>Signor Mai<g ref="char:EOLhyphen"/>ſter,</hi> by meane whereof I binde myſelfe to his iudgement and ſentence.</p>
+               </sp>
+               <sp>
+                  <speaker>Maiſter Velaſques.</speaker>
+                  <p>A harde matter is commended vnto me. But notwithſtanding, I will ſaye what God ſhall giue me to vnderſtand, to make an ende of your contencion, ſea<g ref="char:EOLhyphen"/>uing lybertie to each of you to doo what ye pleaſe.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>Me thinketh <hi>Signor Bernardo,</hi> is ready for the purpoſe: begin on Gods name.</p>
+               </sp>
+               <div type="subpart">
+                  <head>¶ <hi>Heere followeth the aunſwer of Signor Bernardo.</hi>
+                  </head>
+                  <sp>
+                     <speaker>Bernardo.</speaker>
+                     <p>AT the begynning of our talke, I thought <hi>Signor Iaſper</hi> that you ieſted. But when I heard you touch in Doc<g ref="char:EOLhyphen"/>trine and Hiſtories: then I knewe that
+<pb facs="tcp:21088:16"/>
+your argument was in earneſt. And therefore will I aunſwere accordingly: that which I vnderſtand of the thinges which you haue ſpoken, is in concluſion, that you thinke there ſhould be no Phi<g ref="char:EOLhyphen"/>ſions in the worlde: at the leaſt, ſuch as were knowen to be, and lyue of that vo<g ref="char:EOLhyphen"/>cation.</p>
+                     <p>But rather you would haue vs all to be Phiſitions, and to cure one an other: al<g ref="char:EOLhyphen"/>ſo you would not haue medicine by Arte confounded, in Science nor Philoſophy: But onelye to followe experience and conference, and the voyce of the people, as though we ſhould lyue in the Moun<g ref="char:EOLhyphen"/>taynes where no pollicie nor diſcretion ſhould be vſed.</p>
+                     <p>Theſe two principall points I meane to ouerthrowe, as a begynning to the proceſſe, and then to aunſwer ſome of the other mallices which you haue ſpoken. In the fyrſt poynt touching Phiſitions, it is a cleare caſe that you haue no rea<g ref="char:EOLhyphen"/>ſon, for the name of a Phiſition is ho<g ref="char:EOLhyphen"/>lie and amyable, and ought not to be o<g ref="char:EOLhyphen"/>dious vnto you: ſéeing Chriſte our redée<g ref="char:EOLhyphen"/>mer dyd not deſpiſe both to be called and
+<pb facs="tcp:21088:17"/>
+holden for a Phiſition, when he was ſpeaking of himſelfe: ſayth he then, for the whole folke néedeth not the Phiſiti<g ref="char:EOLhyphen"/>on. And againe, when he cured the eyes with clay and ſpyttle: and when he ap<g ref="char:EOLhyphen"/>poynted for medicine of the <hi>Samaritan<gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </hi> Oyle &amp; Wine, yea, he letted not to cure and heale infinite infirmities: and the lyke commaunded his Diſciples, for S. <hi>Paule</hi> Doctor of the people, tooke bothe perſon and office of a Phiſition, when he wrote to <hi>Timothens,</hi> willing him to drink Wine to comfort his ſtomacke. Saint <hi>Luke</hi> the Euangeliſt dyd name himſelfe a Phiſition, and letted not to giue this Office vnto the Apoſtles. The Angell <hi>Raphaell</hi> woulde alſo vſe this Office, whe<g ref="char:cmbAbbrStroke">̄</g> he gaue a receyt vnto <hi>Tobias,</hi> wher<g ref="char:EOLhyphen"/>with he ſhould cure and recouer the ſight of his eyes. So that in this poynt you haue no waye to contend, becauſe the name of a Phiſition is profitable in the world. And if there haue bene ſome Phi<g ref="char:EOLhyphen"/>ſitions bothe falſe and couetous, and alſo haue vſed of ſuch things wherof you haue enlarged, and I thereof ignoraunt, you ought not iudge nor beleeue them. But
+<pb facs="tcp:21088:17"/>
+notwithſta<g ref="char:cmbAbbrStroke">̄</g>ding, the wiſe and good ought not to be caſt of, it is a méete thing that there ſhould be perticuler and appointed perſons of ſo high an Office and miſte<g ref="char:EOLhyphen"/>rie, and not rather, as you would to haue all men Phiſitions, and ſo to walke in confuſion and inconſtancie, with igno<g ref="char:EOLhyphen"/>raunce of the people. Truly this way is not only vnprofitable, but alſo a thing impoſſible.</p>
+                     <p>The example alſo of the <hi>Romaines,</hi> wherewith you helpe your ſelfe, who were. 600. yéeres without Phiſitions: I ſay with you, that it is true. But yet through ſimplicitie and want of know<g ref="char:EOLhyphen"/>ledge, as they were at that time igno<g ref="char:EOLhyphen"/>rant of learning, and other Arts, ſo were they wanting of Medicine. But after they vnderſtoode what Doctrine &amp; Sci<g ref="char:EOLhyphen"/>ence was: and had receyued the ſame of the <hi>Greekes,</hi> they then embraced alſo medicine, as one of the moſt neceſſarie things. And lykewiſe the Maiſters, who had ſight therein: and euen ſo dyd the o<g ref="char:EOLhyphen"/>ther Nations of whome you ſpake of. And where in the ſecond poynt, you will not that we follow or obſerue precepts,
+<pb facs="tcp:21088:18"/>
+nor yet to haue Arte nor foundation of Science, nor you will vs not to followe reaſon &amp; cauſe, but only experie<g ref="char:cmbAbbrStroke">̄</g>ce which you allowe: and therfore you iudge euill of the forme and order which is obſerued in medicines and their compound, wher<g ref="char:EOLhyphen"/>of I doo not lyttle meruayle.</p>
+                     <p>Fyrſt, you know how naked experience is in Science holden for doubtfull, and conſideration &amp; iudgement dooth change in yéeres, with complexion, with tyme, place, and many other thinges. And ther<g ref="char:EOLhyphen"/>fore it is neceſſarie for him that wyll cure, to knowe theſe differences, the ſe<g ref="char:EOLhyphen"/>crete cauſe and diſcouerie of the infirmi<g ref="char:EOLhyphen"/>tie: for it is a thing vnpoſſible the know<g ref="char:EOLhyphen"/>ledge of curing vnto him that knoweth not whereof, and where the diſeaſe dyd ſpring. It is therefore néedefull that hée vnderſtand the compoſture and complex<g ref="char:EOLhyphen"/>cions of humayne bodies, their humors, &amp; which of them beareth rule, and what diſeaſe thereof may growe. For, with<g ref="char:EOLhyphen"/>out doubt, the cure muſt otherwyſe be handled, if you preuent the infirmyties of all fowre humors, as many Wiſe men affyrme. And contrarywiſe, if the
+<pb facs="tcp:21088:18"/>
+cauſe be in onely moyſture, as <hi>Eropilus</hi> holdes opinion: according to the writing of <hi>Cornelius Celſor</hi> and others, or in the ſpirits, as <hi>Hipocrates</hi> thought.</p>
+                     <p>Yea, and alſo otherwiſe, if it be as <hi>Era<g ref="char:EOLhyphen"/>ſiſtratus</hi> iudged, y<hi rend="sup">t</hi> the blood turning back<g ref="char:EOLhyphen"/>wardes, to the arteries or veynes of the ſpirits cauſe inflamation, and the infla<g ref="char:EOLhyphen"/>matio<g ref="char:cmbAbbrStroke">̄</g> cauſeth the moouing which we ſée in the Feuer. So that he ſhall knowe how to cure, which reacheth to the origi<g ref="char:EOLhyphen"/>nall &amp; true cauſe. And therfore you may conſider, whether Arte and ſtudy of Phi<g ref="char:EOLhyphen"/>loſophy, be requiſite or no: ſo that of ne<g ref="char:EOLhyphen"/>ceſſity, the cauſes of infirmities ought to be knowen. And alſo to vnderſtand the quality and property of mettals, ſtones, trées, fruites, hearbs, rootes, and alſo of beaſts, and all other thinges which may ſerue to y<hi rend="sup">e</hi> vſe of medicine, to auoyd error in their application. I doo not deny, but rather affirme y<hi rend="sup">t</hi> experience is profitable. But I preſume and am bolde to iuſtifie, that there can be no experience without ſome reaſon or cauſe: nor yet I thinke y<hi rend="sup">t</hi> our Aunceſtors dyd vſe their ſimples at all aduentures, without co<g ref="char:cmbAbbrStroke">̄</g>ſideration.
+<pb facs="tcp:21088:19"/>
+But rather I iudge that by ſpeculations and foreſight in things conuenient, they made their experience, the which fyrſt they coniectured to be good. Therefore honour in this caſe ought not to be giuen to experience, but rather to wiſdome and counſell, which was the chéefeſt part. Nowbeit, dayly are diſcouered diuers kindes of infirmities, vnto whome expe<g ref="char:EOLhyphen"/>rience and vſe ca<g ref="char:cmbAbbrStroke">̄</g> not ſerue, becauſe there can be no experience of a thing not kno<g ref="char:EOLhyphen"/>wen. So that of neceſſitie it is néedefull to know by Arte and doctrine the obſcure cauſes of the vice and corruption, which the humors and members may ſuffer in a man, beſides theſe that are playne and open, as colde, heate, hunger, replexion, and other lyke.</p>
+                     <p>He alſo that will be a Phiſition, ſhould vnderſtand what thing is actions, or na<g ref="char:EOLhyphen"/>turall operations, and what are thoſe by the which we giue and take the ſpirit of breath, we eate and drinke, the place of diſgeſtion: and how the ſubſtance of our foode is deuided to giue ſtrength to our bodies in all places. Alſo it is néedefull to be vnderſtoode, why our Pulſes haue
+<pb facs="tcp:21088:19"/>
+continuall moouing, and what is the rea<g ref="char:EOLhyphen"/>ſon and cauſe of ſléepe &amp; watching: with<g ref="char:EOLhyphen"/>out knowledge whereof, it ſéemeth that he ſhould not know how to preſerue and cure infirmities. Beſides this, men ſuf<g ref="char:EOLhyphen"/>fer great paynes and paſſions in the in<g ref="char:EOLhyphen"/>ward partes and members of the body, which is a thing néedefull to be known, &amp; to haue ſéen Anothomyes of ſome dead bodyes, to haue marked &amp; conſidered the cullor, the figure, the bigneſſe, the order, and the hardneſſe &amp; ſoftneſſe of them all. Alſo the variety and deuiſion of the ſame members, among themſelues, which doo ioyne together, or how they giue place &amp; receyue: As we reade that <hi>Erophilus</hi> and <hi>Erafistratus</hi> dyd, requiring for the ſame purpoſe, men that were condempned to death, to prooue experience. For it is a playne caſe, that when any gréefe or in<g ref="char:EOLhyphen"/>terior hurt happeneth, and not knowen, how or where it is, nor yet to apply out<g ref="char:EOLhyphen"/>ward medicine, for the vncertayntie of the inward gréefe, nor the nature &amp; rea<g ref="char:EOLhyphen"/>ſon thereof. And finally, for auoyding of <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>, I ſay that there are many neceſſary things appertayning to a good
+<pb facs="tcp:21088:20"/>
+Phiſition, yea, and to declare them only<g ref="char:punc">▪</g> it is requiſit that ſuch a one be a learned Philoſopher. How much more to know how to put them in vre, inſomuch, that <hi>Hipocrates</hi> ſayth, that a good Phiſition ought to knowe the diſeaſe paſt, &amp; to vn<g ref="char:EOLhyphen"/>derſta<g ref="char:cmbAbbrStroke">̄</g>d the cure preſent: and alſo to pro<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>oſticate the thing to come. So that <hi>Signor laſper,</hi> if you haue harkened well vnto me, you will not let to confeſſe that it is a thing neceſſary for Phiſitions, to haue bothe rules and precepts, and that they be grounded on Sciences &amp; Artes. And as this is a thing, that can not be common: it is therfore neceſſarie to haue perticuler men Phiſitions, who ought to be honoured and eſtéemed as alwayes they haue bene. And it is not ſufficient that you alleadge, that vices and diſor<g ref="char:EOLhyphen"/>ders brought Phiſitions to <hi>Rome,</hi> for although it had ſo bene, it ſéemed a ſpe<g ref="char:EOLhyphen"/>ciall gyft of God, who hauing ſent them diſeaſes, dyd alſo ſend them remedy: And againe, contend and ſay what you lyſt, the Phiſitions dooth not counſell any to diſtemper them ſelues: but when any happeneth to be dyſtempered, then the
+<pb facs="tcp:21088:20"/>
+ſtraunge is their owne proper and true names from their origen, which is not vulgarly vnderſtoode. And where you ſpeake of their Letters &amp; receypt, it may be accoumpted a ieſt, &amp; a thing not woor<g ref="char:EOLhyphen"/>thy of aunſwer: becauſe you know that ſuch breuiations are vſed to auoyde per<g ref="char:EOLhyphen"/>plexitie, for euery Science hath his tear<g ref="char:EOLhyphen"/>mes, and breuiations in wryting.</p>
+                     <p>And againe, where you touched theyr varietie in iudgement, the diſcharge is euident, conſidering the wittes &amp; iudge<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>ts of men are diuers, ſo y<hi rend="sup">t</hi> with a good &amp; whole intencio<g ref="char:cmbAbbrStroke">̄</g>, they may be co<g ref="char:cmbAbbrStroke">̄</g>trary in theyr ſentence, and with ſmall perill in medicine: conſidering that one diſeaſe may be cured by diuers wayes. And by this meanes Phiſitions may varry, and by ſu<g ref="char:cmbAbbrStroke">̄</g>dry wayes come to one ende, which is the cure &amp; health of the Patient. Now in this order, your euyll ſuſpition &amp; opi<g ref="char:EOLhyphen"/>nio<g ref="char:cmbAbbrStroke">̄</g> is daſht and broken in péeces, by the ſufficie<g ref="char:cmbAbbrStroke">̄</g>t reaſons which I haue declared. And I thinke without any more conten<g ref="char:EOLhyphen"/>cion, you ought to ceaſe &amp; leaue of your ar guing, and becauſe I hope you will ſo do: I will not now procéede any further,
+<pb facs="tcp:21088:21"/>
+although I haue matter ynough.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Dun Nunio.</speaker>
+                     <p>By my fayth <hi>Signor Maister,</hi> although I vnderſtand little, yet me thinketh that <hi>Signor Bernardo</hi> hath ſhewed himſelfe a valliant Drator, ſo that I am nowe on the Phiſitions ſyde, I know not what <hi>Signor Iaſper</hi> iudgeth.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Maiſter Velaſques.</speaker>
+                     <p>What he thinketh he wyll ſay: for as yet I ought not to ſpeake, becauſe ye haue made me Iudge, his turne abydeth for him, he hath alſo wytte and yéeres to aunſwer for himſelfe.</p>
+                  </sp>
+               </div>
+            </div>
+            <div n="2" type="part">
+               <head>¶ The ſecond part of the Dialogue of Phiſitions, wherin the matter is concluded and ended.</head>
+               <sp>
+                  <speaker>Iaſper.</speaker>
+                  <p>
+                     <seg rend="decorInit">I</seg> Am cleane contrary to the o<g ref="char:EOLhyphen"/>pinion of <hi>Signor Bernardo,</hi> and wyll not conſent to any of his allegations: nay rather, I ſweare by my conſcience, that his own reaſon hath confirmed me more in my
+<pb facs="tcp:21088:21"/>
+Phiſition remedieth the ſame.</p>
+                  <p>And where you murmure, of the in<g ref="char:EOLhyphen"/>uencion of Syrruppes and diſtylled wa<g ref="char:EOLhyphen"/>ters, and of the compoundes of medi<g ref="char:EOLhyphen"/>cines, you are the more to be blamed. For rather the wytte and aduice of the inuentor is to be prayſed, and to receyue the ſame as a good gyft, &amp; mercy of God, who dayly giueth vs new remedyes and medicines.</p>
+                  <p>And if in olde time they wanted know<g ref="char:EOLhyphen"/>ledge to make Syrrups, and diſtyll hol<g ref="char:EOLhyphen"/>ſome waters, both ſwéete &amp; pleaſaunt, as now are vſed: I ſay therein, the aduan<g ref="char:EOLhyphen"/>tage is ours, and are therfore more bou<g ref="char:cmbAbbrStroke">̄</g>d to be thankfull to Phiſitions, for ſo pro<g ref="char:EOLhyphen"/>fitable and ſwéete a thing: and becauſe it is a new inuencion, it is not therfore to be deſpiſed. For likewiſe in olde tyme they knew not was Amber Muſke, nor Siuitte, which are moſt ſwéete and ex<g ref="char:EOLhyphen"/>cellent Odors: And alſo the Mytridate and compound Treacle, which you re<g ref="char:EOLhyphen"/>prehend. The reaſon is, becauſe you vn<g ref="char:EOLhyphen"/>derſtand not, neyther the compoſition, nor the vertue of the things wherof it is made, nor yet the effectes therof.</p>
+                  <p>
+                     <pb facs="tcp:21088:22"/>
+And where you ſay that Phiſitio<g ref="char:cmbAbbrStroke">̄</g>s ought to be puniſhed as mankyllers, you are therefore worthy of great reprehenſion, to preſume that they of mallice would kyll any, ne yet through ignorance they ca<g ref="char:cmbAbbrStroke">̄</g>not do it. But for their ſtraight exami<g ref="char:EOLhyphen"/>natio<g ref="char:cmbAbbrStroke">̄</g> I doo not miſtike: but rather holde it for a thing conuenient, notwithstan<g ref="char:EOLhyphen"/>ding, the Phiſition vſing well his office in the obſeruing of Rule &amp; Arte, and the Patient ſhould happen to die: he ought not to be puniſhed for his death. And of the ſame opinion was <hi>Plato,</hi> appearing in the ninth Dialogue of his Lawes.</p>
+                  <p>And alſo where Phiſitions procure to be payde for theyr paynes, they ought not therfore to be reprehended, ſithens that by the Law of God and man, the laborer ought to haue his hyre. God alſo co<g ref="char:cmbAbbrStroke">̄</g>mau<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>deth, that the Oxe that freadeth out the Corne, be not muſtod. Moreouer, I may ſay, that of too much ſharpnes of wytte, nay rather of mallice, wher you preſume that of induſtry they darcken their Arte, with ſtrau<g ref="char:cmbAbbrStroke">̄</g>ge names of things: for why, if you vnderſtoode them: you would ſay that thoſe names which ſeemed vnto you ſtraunge
+<pb facs="tcp:21088:22"/>
+opinion. And before I had heard him ſpeake: I was not ſo great an enemy of Phiſitions, as now I am. But whether I haue reaſon or no, by mine aunſwere ye ſhall heare.</p>
+                  <p>Fyrſt, I ſay you haue well vnderſtoode my deſire, wherein I would haue no of<g ref="char:EOLhyphen"/>fice of Phiſitions, in a common weale, at the leaſt, ſuch as ſhould cure for money. But that we ſhould one counſell &amp; cure an other. And alſo we ſhall know &amp; vſe ſuch remedies, which are already kno<g ref="char:EOLhyphen"/>wen &amp; prooued by auncient men of expe<g ref="char:EOLhyphen"/>rience, and to ſtick vnto the ſame. If this thing might ſo be, although there were ſome inconueniences: yet truly, they ſhould be much leſſe the<g ref="char:cmbAbbrStroke">̄</g> thoſe which pro<g ref="char:EOLhyphen"/>céede from the good and euyll Phiſitions. By meanes of theyr purges &amp; repurges, bléedings and rebleedings: yea, and you ſhould haue as ſmall a diffyculty therin, if determynatly we ſhould begyn to dyſ<g ref="char:EOLhyphen"/>pute, as to ſpeake one language, and to haue one cuſtome which are auncient in our Countrey, yea, and the great vſe of olde tyme, ſhould be as eaſy to cure the diſeaſed, as in theſe our dayes.</p>
+                  <p>So that héere is proofe and argument
+<pb facs="tcp:21088:23"/>
+to ſée, that for the one part of medicine, which according to theyr owne opinion is the principall, which they call <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſuall: that is to ſay, to know of what the Pati<g ref="char:EOLhyphen"/>ent ought to féede, howe, &amp; what it ſhould be, more or leſſe, the experience, vſe and cou<g ref="char:cmbAbbrStroke">̄</g>ſell which they haue among them ſel<g ref="char:EOLhyphen"/>ues, and now ſo commo<g ref="char:cmbAbbrStroke">̄</g> to men: wherby without either counſell or receypt of the Phiſition, men know what to eate, how &amp; in what quantitie. And ſuch rule wiſe<g ref="char:EOLhyphen"/>men dare vſe and obſerue. I ſpeak not of ſuch, who will voluntarily be diſordred. Why alas, if in this, which is the chéefeſt poynt, we can lyue without tutors? why ſhould we not then bring to paſſe, y<hi rend="sup">e</hi> vſe of curing ſhould be as well knowen a<g ref="char:EOLhyphen"/>mong vs? for why, the difficulty or peryl ſhould be no greater, as I will ſhew, af<g ref="char:EOLhyphen"/>ter that I haue made aunſwer to your argument.</p>
+                  <p>And therfore will I chau<g ref="char:cmbAbbrStroke">̄</g>ge the forme of aunſwering, becauſe we are contrary in opinion. You meane to defend the Phiſitions; of tyme preſent, ſaying: that Chriſte our redéemer, dyd compare him<g ref="char:EOLunhyphen"/>ſelfe to Phiſitions, and that truly is as
+<pb facs="tcp:21088:23"/>
+much, as to defend the cruelty of the Ly<g ref="char:EOLhyphen"/>ons, becauſe they are alſo called Lyons. Beſydes this, your argument is verie weake, becauſe your co<g ref="char:cmbAbbrStroke">̄</g>pariſon of Chriſt to a Phiſition dooth not ſo well fit your purpoſe. So that I ſay, you may make them more perticuler: yet you ſhall ſée y<hi rend="sup">e</hi> Chriſte dooth rather approoue my opinio<g ref="char:cmbAbbrStroke">̄</g> then yours, for he dyd not appoynt amo<g ref="char:cmbAbbrStroke">̄</g>g his Diſciples, one nor two to heale and cure: but generally, commau<g ref="char:cmbAbbrStroke">̄</g>ded them all vnto whome he gaue eſpeciall grace, to cure and make whole, as you your ſelfe affyrme: ſo that this allegation maketh for me. And where you ſpeake of the An<g ref="char:EOLhyphen"/>gell <hi>Raphaell,</hi> and S. <hi>Paule:</hi> truly thoſe holy Perſons, ſent not the ſicke folke to the Phiſitions of the Cittie to be cured: but rather they themſelues tooke y<hi rend="sup">e</hi> cure in hand, béeing none of that vocatio<g ref="char:cmbAbbrStroke">̄</g>: and how I pray you? iwis not with Purga<g ref="char:EOLhyphen"/>tions, nor blood letting, nor with your Diacatulicions, nor Skamonea: but the one with a lyttle Wine, whereof he had experience, &amp; the other with the vertue of a Fiſhe, which God gaue him for that purpoſe. And therefore, Maiſter mine,
+<pb facs="tcp:21088:24"/>
+ſithens that this Office is co<g ref="char:cmbAbbrStroke">̄</g>mon to An<g ref="char:EOLhyphen"/>gelles and to men: it is not iuſt that two or thrée ſhould ingrate the ſame, lyke ty<g ref="char:EOLhyphen"/>rants in the Towne: becauſe forſoothe they are learned men as you ſay, as I would to God they were: But if they be, in good time be it, for I ſay not that lear<g ref="char:EOLhyphen"/>ning hurteth any. But I ſay that for the vſe of curing, it is not néedefull, for I holde not ſuch thinges neceſſary, but on<g ref="char:EOLhyphen"/>ly for the knowledge of cléere and eui<g ref="char:EOLhyphen"/>dent thinges. For why, it is not greatly materiall to knowe the firſt and ſecrete origen of a diſeaſe, but rather to knowe what dooth helpe: But the inquiſition and intelligence of ſecrete and hydden cauſes, and the knowledge of their na<g ref="char:EOLhyphen"/>turall operations, and y<hi rend="sup">e</hi> reſt which you ſay is neceſſary to be knowen, I holde for a vaine thing, and alſo impoſſible.</p>
+                  <p>For beſides, that the ſecrets of nature are incomprehenſible, it is playne that this is ſo, for why, thoſe that preſume to know this matter, are Phiſitions and Philoſophers, who are diuers and con<g ref="char:EOLhyphen"/>trary in theyr opinions, and can giue no certayne rule nor reſolution.</p>
+                  <p>
+                     <pb facs="tcp:21088:24"/>
+For how would you that the Phiſition ſhould know the radicall cauſe, and firſt origen of all infirmyties, theyr opinions béeing ſo variable, as you your ſelfe haue declared.</p>
+                  <p>And why ſhould I more beléeue <hi>Hipo<g ref="char:EOLhyphen"/>crates</hi> (who affyrmeth the ſubſtaunce of the matter to be in the ſpirites:) then <hi>Eraſiſtratus,</hi> who attrybuteth it to the turning backward of the blood to the ar<g ref="char:EOLhyphen"/>teries? And why ſhould I credite more theſe, then others, who aſſygned other prynciples? And howe will you knowe how diſgueſtion is made in the ſtomack. Truly, I for my part, dare no more cre<g ref="char:EOLhyphen"/>dite the one, then the other. Séeing there are ſo many opinions, vpon the caſe, for ſome ſay y<hi rend="sup">t</hi> the foode boyleth with heate, others ſay that it rotteth by way of at<g ref="char:EOLhyphen"/>trycion &amp; grynding, others denieth them bothe, &amp; each giueth ſuch reaſo<g ref="char:cmbAbbrStroke">̄</g>s, as ſéeme true: ſo y<hi rend="sup">t</hi> following the opinion of any of them, the cure ſhalbe perticuler &amp; cleane contrary the one to the other. So that ſéeing the cauſes &amp; origen ſo diffycult, y<hi rend="sup">e</hi> certeynty ſéemeth vnpoſſible, &amp; I ſée no cauſe for a man to weary himſelf therin.
+<pb facs="tcp:21088:25"/>
+But only to co<g ref="char:cmbAbbrStroke">̄</g>tent and ſerue our ſelues with the remedy that experience hath taught vs. And co<g ref="char:cmbAbbrStroke">̄</g>ſidering that it impor<g ref="char:EOLhyphen"/>teth not to know what cauſed the infir<g ref="char:EOLhyphen"/>mity, but only the way to cure the ſame: Nor yet I will not trouble my ſelfe to know how diſgeſtio<g ref="char:cmbAbbrStroke">̄</g> is made, but chéefly to know what meate is ſooneſt diſgeſted, &amp; what is good to helpe the ſame. With<g ref="char:EOLhyphen"/>out vering my ſelfe to knowe the cauſe why: nor yet I paſſe not to knowe what is the cauſe of ſhortnes of breath, but ra<g ref="char:EOLhyphen"/>ther y<hi rend="sup">e</hi> way to remedy it without payne: I will neyther know, who mooueth, nor how the artyres mooue: but only vnder<g ref="char:EOLhyphen"/>ſtand what ſignifieth the diſordered moo<g ref="char:EOLhyphen"/>uing. And alſo it maketh not for your purpoſe, that you alleadge for new diſea<g ref="char:EOLhyphen"/>ſes that may happen, for when any ſuch thing doo happen, he that cureth, ought not to imagine what y<hi rend="sup">e</hi> origen was, ſée<g ref="char:EOLhyphen"/>ing that of co<g ref="char:cmbAbbrStroke">̄</g>mon things he is ignorant, as before I haue declared. For it is ſuf<g ref="char:EOLhyphen"/>ficient to conſider how the lyke infirmity hath bene cured, &amp; without medicine, and ſo by experience, we may hyt on the cer<g ref="char:EOLhyphen"/>teynty. As for example, the diſeaſe of the
+<pb facs="tcp:21088:25"/>
+Poxe, how ignorant were Phiſitions in the cure, as long as they went by Scie<g ref="char:cmbAbbrStroke">̄</g>ce &amp; Arte? But after experience had taught vs y<hi rend="sup">e</hi> vſe of the wood, called <hi>Lignum Vi<g ref="char:EOLhyphen"/>te,</hi> or <hi>Lignu<g ref="char:cmbAbbrStroke">̄</g> Sanctum:</hi> How notoriouſlie were the diſeaſes cured? without the knowledge of the origen of the diſeaſe, nor yet the cauſe why the ſayd medicine dooth helpe?</p>
+                  <p>It ſéemeth alſo vnto you a neceſſarye thing, the Anathomy of dead bodyes: and in my iudgement, it is a thing of ſmall effect, yea, &amp; I rather holde it for a kinde of crueltie. For true it is, in ſuch an A<g ref="char:EOLhyphen"/>nathomy, there remayneth neyther the proper cullor, ſoftnes or hardnes, or any other liuely thing, which you ſay was in the members of the dead and wounded bodyes, which are abyding in the lyue &amp; ſound bodyes: for if there be in a whole and liuely man, colde, feare, wearines, or any other meane affect, or alteration, which make exterior, &amp; notorious chau<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>ges in the cullor and poſture of the face: it is much more lyke the interior mem<g ref="char:EOLhyphen"/>bers, which are more delycate to change and alter with a ſtraunge ayre.</p>
+                  <p>And truly I holde it for a méere madnes
+<pb facs="tcp:21088:26"/>
+to beléeue that the Armony and conſert which is in y<hi rend="sup">e</hi> liue body of a man, is to be found in one that lyeth a dying, or is al<g ref="char:EOLhyphen"/>ready dead. Now if the Anathomy were of any effect, or coulde giue any lyght for the health of man, there dayly chaunceth men to be ſlayne in the warres, and by other miſchaunces: where without cru<g ref="char:EOLhyphen"/>eltie, but rather to cure theyr woundes, they might make experience without the ſpoyling and breaking vp of mannes fleſhe, by him that hath profeſſed rather to heale it.</p>
+                  <p>And where you ſay that ſuch men ex<g ref="char:EOLhyphen"/>perimented, are Fallares, becauſe they chaunge with age and tyme: I ſay that experience found out thoſe chau<g ref="char:cmbAbbrStroke">̄</g>ges and not Arte, ſo that to experience all is due, and by the ſame, all is obtayned. More<g ref="char:EOLhyphen"/>ouer, the aunſweres which you make to my reaſons are ſo weake, that they néede no reply at all. And where you ſay that Phiſitions are not the cauſe of vices and diſeaſes, becauſe they counſell none to diſtemper them ſelues, but rather cure theyr hurte, receyued by diſtemperance. But I ſay, becauſe ſome men haue ſuch confidence in them, they encorrage them
+<pb facs="tcp:21088:26"/>
+ſelues to be gluttons, and dyſordered perſons, yea, and ſome tymes they giue them ſuch counſell.</p>
+                  <p>But ſithens that <hi>Signor Maiſter,</hi> is héere preſent, marke what Saint <hi>Ambroſe</hi> ſayth, vpon the. Cviij. <hi>Pſalme,</hi> which is. The preceptes of Medicine are contra<g ref="char:EOLhyphen"/>rie to the diuine counſelles, becauſe they forbyd faſting, and permit no Uigilles, yea, they will compell men in ſuch ſort, that he who giueth himſelfe there vnto, ſhall vtterly deny himſelfe.</p>
+                  <p>And where againe, you would defend Phiſitions from puniſhment, by the Lawes of <hi>Plato</hi> I aunſwere: that it is firſt néedefull that you bring the appro<g ref="char:EOLhyphen"/>bation of thoſe Lawes from the Empe<g ref="char:EOLhyphen"/>rour, for without that, your Lawes are of ſmall effect: but although they were, <hi>Plato</hi> dooth not ſalue, but onely hée that cureth well, by whome if any miſchance happen, he is faultleſſe. But I ſpake vn<g ref="char:EOLhyphen"/>to you onely of ſuch as knowe not what they doo, which is the cauſe that they erre in that which they take in hand, and where there is on the earth no puniſh<g ref="char:EOLhyphen"/>ment for ſuch: I beſeeche God to chaſten them, for it is a hard caſe that only Phi<g ref="char:EOLhyphen"/>ſitions
+<pb facs="tcp:21088:27"/>
+are neuer ignorant of any thing. But if you goe to an Aduocate or Coun<g ref="char:EOLhyphen"/>ſellor in the Law, with any hard queſti<g ref="char:EOLhyphen"/>on, he will aunſwer, that be will ſtudy the cauſe. If you goe to a Diuine, he will oftentimes make theyr aunſwere, and ſo will men of other faculties. But the Phiſition wyll incontinent make aun<g ref="char:EOLhyphen"/>ſwer to a thouſand diſeaſed ſolke, if they demaund any thing. Yea, they iudge it a leſſer faulte to erre, then to confeſſe that they know not. Likewiſe their errors and euill ſucceſſe, they will not let to lay on ſome body, eyther the diſorder of the Patient, or the mallice of the humor, and whether I ſay true or no, I put you for witneſſe.</p>
+                  <p>And where you ſay, that I vnderſtand not y<hi rend="sup">e</hi> properties &amp; vertues of medicines, co<g ref="char:cmbAbbrStroke">̄</g>pounds: I aunſwer that you ſay true, and I affirme the ſame, &amp; ſay, that ney<g ref="char:EOLhyphen"/>ther the Phiſitions, nor yet their <hi>Auice<g ref="char:EOLhyphen"/>na,</hi> vnderſtood them: nor yet is it poſſible to vnderſtand the Armony and temper of. <hi>300.</hi> thinges together, and therefore they are abhominable. And for my part I will yéelde no thankes for the inuen<g ref="char:EOLhyphen"/>cion of them, as you commaund.</p>
+                  <p>
+                     <pb facs="tcp:21088:27"/>
+Neyther yet holde I for profitable, the Muſke, Siuit, and Amber, although they are of delectable ſwéetnes in Odor, for we might wel be without them: for they profit not ſo much the health of the body, but in as many tymes they are hurtfull to the ſoule: And ſithens you are ſo who<g ref="char:EOLhyphen"/>ly iudging, that thoſe names &amp; darke re<g ref="char:EOLhyphen"/>ceypts are not made by induſtry &amp; mal<g ref="char:EOLhyphen"/>lice, I pray you be a meane héereafter, to kéepe me from occaſio<g ref="char:cmbAbbrStroke">̄</g> of ſinne: to induce them to Phiſitions, to make theyr re<g ref="char:EOLhyphen"/>ceyptes with a fayre plaine letter in our language, &amp; then I will iudge as you doo. So that now <hi>Signor Bernardo,</hi> ſéeing that your argumentes and aunſweres vnto mine, are of no efficacie or ſtrength, you ought to put them cleane from your opi<g ref="char:EOLhyphen"/>nion, and that you diſturbe not medicine to be commonly knowen, and let vs not permytte to be ſubiect to two or thrée: Wherof <hi>Plinie</hi> complayneth becauſe we will not knowe what is good for vs, and ſo we goe vpon other mens ſéete, we eat with other mens appetite, whervpon our lyfe and health is an arbitrement. Be not ſo curious in this matter, as to ſpend in learning, to ſtudy in the Uni<g ref="char:EOLhyphen"/>uerſitie
+<pb facs="tcp:21088:28"/>
+all your lyfe tyme, by meane of which paynes, you may gette more diſ<g ref="char:EOLhyphen"/>eaſe, then by your ſtudy you might learn to cure. So to conclude, it is ſufficient what I haue ſayde, to approoue, that Ex<g ref="char:EOLhyphen"/>perience, dyet, &amp; good regiment, ſufficeth principally for our health. Therefore, let vs not ſéeke rationall experience: but embrace the experimentall. And thinke not that medicine was found before rea<g ref="char:EOLhyphen"/>ſon, for the good Huſbandman and the Marriner, by vſe and practiſe, came to be Maiſters, and not by ſtudy and learning to knowe the quallities of the heauens, nor the courſe of Planets and Starres, nor yet the bookes of heauen, and world of <hi>Aristotle:</hi> for why, we dayly fall a<g ref="char:EOLhyphen"/>mong naturall infirmyties, with our chyldren, ſeruaunts, &amp; neyghbours, ther<g ref="char:EOLhyphen"/>fore we ought not to be careleſſe, for the vſe and diſeaſe doo make vs Artiſtes, we haue nowe no neede of foundations: for the auncient and co<g ref="char:cmbAbbrStroke">̄</g>mon opinion, which experience we holde for Maiſters, with<g ref="char:EOLhyphen"/>out buying the ſame for money: howe much more men ought not to be inferior to the Fowles of the ayre, and Beaſts of the Wylderneſſe, among whome there
+<pb facs="tcp:21088:28"/>
+are many that haue knowledge in me<g ref="char:EOLhyphen"/>dicine, neceſſarie for theyr vſe: As the Harte knoweth howe to drawe out the arrowe wherwith he is wounded, with an hearbe called <hi>Ditamo.</hi> The Swal<g ref="char:EOLhyphen"/>low giueth ſight to her young ones, with the hearbe <hi>Chilidonia:</hi> the wylde Boore cureth with <hi>Organy.</hi> And many others likewiſe, of whom <hi>Plinie,</hi> and other wry<g ref="char:EOLhyphen"/>ters make relation.</p>
+                  <p>Then it ſhould not ſéeme much for man to doo the like: and thinke not, y<hi rend="sup">t</hi> it ſhould be a thing vnméete to liue in ſuch vnifor<g ref="char:EOLhyphen"/>mity, although you think we ſhould erre for want of Phiſitions: Howbeit, the greateſt error is, in hauing too many of them, and theyr medicines. Nature hath a care to heale the ſicke, with verie lyttle helpe: for the Phiſitions them ſelues, ſay, that Nature is he that woorketh and cureth, and that they be but myniſters.</p>
+                  <p>In this ſort lyued the <hi>Romaines,</hi> the time y<hi rend="sup">t</hi> I haue declared, and all the world accordinglye, before Phiſitions were knowen, and the lyke at this day among the people which dwel in the Mou<g ref="char:cmbAbbrStroke">̄</g>taines and barren Countries, who lyue longer and more in health, then the Cittizens,
+<pb facs="tcp:21088:29"/>
+where medicine &amp; Phiſitions abou<g ref="char:cmbAbbrStroke">̄</g>deth.</p>
+                  <p>Thoſe men I ſay, would neuer ſuffer Phiſitions to come among them: but on<g ref="char:EOLhyphen"/>ly cure them ſelues with good regyment, hearbes &amp; experience, among whome I could name ſome notable perſons. But one will be ſufficie<g ref="char:cmbAbbrStroke">̄</g>t for all the reſt, who is the lyght, and honor of <hi>Spayne,</hi> for his incomparable doctrine and learning, he is called the Comendator, <hi>Hernam Nu<g ref="char:EOLhyphen"/>nes,</hi> maiſter of Rethorike, &amp; other Artes, in the famous Uniuerſity of <hi>Salamanca,</hi> who as yet would neuer put his health in the handes of any Phiſition, and hath conſerued y<hi rend="sup">e</hi> ſame aboue, <hi>70.</hi> yéeres with<g ref="char:EOLhyphen"/>out their helpe.</p>
+                  <p>You know alſo that in y<hi rend="sup">t</hi> tyme of great <hi>Pompeius</hi> was the toppe of the Mountain is for power: and dellycate <hi>Romaine</hi> wittes, as <hi>Plinie</hi> wryteth, and other Au<g ref="char:EOLhyphen"/>thors. Howe <hi>Aeſclepiades</hi> the famous Phiſition, condempned the Rules &amp; pre<g ref="char:EOLhyphen"/>ceps of all others, and cured onely with dyet &amp; rule, in eating, drinking, and rub<g ref="char:EOLhyphen"/>bing the ioyntes and members, ſo that with theſe things of great experience, he condempned vtterly Purgations, Uo<g ref="char:EOLhyphen"/>myts and ſuch lyke: the fruite of his cu<g ref="char:EOLhyphen"/>ring
+<pb facs="tcp:21088:29"/>
+dyd ſo much profite, that he onely was prayſed and admytted, and infinite people came vnto him.</p>
+                  <p>The ſame <hi>Plinie</hi> ſayth in his. <hi>35.</hi> Chapter, that he happened to cure one that was thought to be dead, and caried to bury<g ref="char:EOLhyphen"/>ing, or to be burned, as the<g ref="char:cmbAbbrStroke">̄</g> the vſe was: ſo that <hi>Aeſclepiades</hi> ſayde, that his medi<g ref="char:EOLhyphen"/>cine was certayne, which he affirmed of himſelfe, becauſe his regiment kept them from ſickneſſe, or elſe he required not to be taken for a Phiſition: and truly, be emplyed the thing which he affyrmed, for he himſelfe was neuer knowen to be at any tyme ſicke vntyll his death, al<g ref="char:EOLhyphen"/>though he lyued verie long, and with the fall from a Ladder, he ended his lyfe.</p>
+                  <p>So that it appeareth manifeſtly by mine allegations and proofes, that my opinion is not new, or ſinguler, but common and of great antiquitie, bothe certayne and true: and for ſuch you ought to embrace it, and ſo I hartely pray you. Wherwith all I conclude, although I leaue much behinde to auoyde prolixitie.</p>
+               </sp>
+               <sp>
+                  <speaker>Don Nunio.</speaker>
+                  <p>Truly <hi>Signor Iaſper,</hi> you haue ſayde well, and I for my part am ſo tender of
+<pb facs="tcp:21088:30"/>
+condicion, that euery one hauing ended his tale, carryeth me with him. But yet now I will ſtay a whyle to heare the de<g ref="char:EOLhyphen"/>termination of the <hi>Signor Maister.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>Bernardo.</speaker>
+                  <p>If you will giue me leaue, I promiſe that my aunſwere ſhall not want. But ſithens the <hi>Signor Maister</hi> hath to giue ſentence in Iuſtice ſo manifeſt, béeing ſo iuſt and wiſe a Iudge: there néedeth no farther information.</p>
+               </sp>
+               <div type="subpart">
+                  <head>¶ The Iudgement and determination of the Maiſter.</head>
+                  <sp>
+                     <speaker>Maiſter Velaſques.</speaker>
+                     <p>TRuly <hi>Signor Dun Nunio,</hi> I would gladly be frée from my bond, becauſe I ſée each of theſe Gentlemen ſo earneſt in theyr opinions, yea, and the cauſe ſo well treated and defended, that I take the Plea for doubtfull: But ſithens the matter conſiſteth not in any Article of the fayth: I may ſpeake what I thinke, and they ſhall haue what they payd.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Don Nunio.</speaker>
+                     <p>Yet ſyr I pray you procéede, although they are ſo bent to theyr opinions, they
+<pb facs="tcp:21088:30"/>
+referre the determynation to your lear<g ref="char:EOLhyphen"/>ned iudgement, ſo that they cannot chuſe but humble themſelues thervnto, wher<g ref="char:EOLhyphen"/>as reaſon demaundeth the ſame.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Bernardo.</speaker>
+                     <p>That which <hi>Signor Don Nunio</hi> ſayth, is true, and therin we will bothe receyue curteſie, at the leaſt I for my part excée<g ref="char:EOLhyphen"/>ding great.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Iaſper.</speaker>
+                     <p>And I much greater, for I beléeue aſ<g ref="char:EOLhyphen"/>ſuredly, his woorſhippe will approoue my opinion.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Maiſter Velaſques.</speaker>
+                     <p>Becauſe I holde it for a good exerciſe, I will fulfyll your requeſtes, and giue my vowe in the matter, for I haue no iuriſdiction to pronounce ſentence, nor yet your maiſterſhippes bound to paſſe or accept the ſame. But if I ſpeake any thing to purpoſe, each may accept what he pleaſe, for I meane not to argue or diſpute, but bréefly in few woords, I will ſpeake what I thinke. Your contencion principally conſiſteth in two points, and all the reſt is acceſſary thervnto.</p>
+                     <p>The firſt is, that the one ſayth, that for to cure humaine infirmities, neither
+<pb facs="tcp:21088:31"/>
+Arte nor Science, is néedefull, but onely ſuffiſeth vſe and experience.</p>
+                     <p>The other ſayth, that Arte &amp; Rules are moſt néedefull, and he that ſhould cure, ought to be a Maiſter, learned, bothe in Arte &amp; Science, and to haue great foun<g ref="char:EOLhyphen"/>dation in learning, as largely the mat<g ref="char:EOLhyphen"/>ter hath bene communicated.</p>
+                     <p>The ſeco<g ref="char:cmbAbbrStroke">̄</g>d point which ſéemeth to come from the firſt, is, that <hi>Signor Iaſper,</hi> who holdeth the part of only experie<g ref="char:cmbAbbrStroke">̄</g>ce, would y<hi rend="sup">t</hi> there ſhould be no knowen Phiſition: but that generally all me<g ref="char:cmbAbbrStroke">̄</g> ought to cure. And <hi>Signor Bernardo,</hi> defe<g ref="char:cmbAbbrStroke">̄</g>deth the cauſe &amp; ſayth, that it is conuenient to haue them.</p>
+                     <p>The troth is, that the firſt &amp; principall queſtion is not new, nor yet you the firſt that haue mooued and diſputed the ſame: but rather it is very auncient in medi<g ref="char:EOLhyphen"/>cine and among Phiſitions. And we ſay that alwayes haue bene the lyke diſcord, for ſome doo follow only experience, and therfore they were called Experts. And other deſirous to knowe the reaſon and cauſes, and therefore they were named Rationalles. <hi>Cornelius Celſo,</hi> and other Authors doo wryte thereof at large, and bothe the one &amp; the other, hath had great
+<pb facs="tcp:21088:31"/>
+fauorers, ſo y<hi rend="sup">t</hi> of theſe two firſt extremes <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>f of force the one muſt be accepted, and the other to haue remedy.</p>
+                     <p>The laſt perill and moſt reaſonable, is to follow the firſt, as <hi>Ariſtotle</hi> ſayth, that thoſe of experience are moſt fit, and able to cure, then the learned without experi<g ref="char:EOLhyphen"/>ence. And ſpeaking perticulerly, <hi>Plato</hi> of Phiſitions, in his bookes of common weale, affyrmeth that a good Phiſition néedeth to communicate bothe with ſick and whole men, yea, and that he himſelf haue bene alſo ſicke, finally, the ought to be experimented: and alſo there is no doubt, but that medicine and Arte ther<g ref="char:EOLhyphen"/>of had his origen of experience, and no otherwiſe. So that in this caſe <hi>Signor Bernardo</hi> hath no reaſo<g ref="char:cmbAbbrStroke">̄</g> to deny the ſame, for certaynly the experie<g ref="char:cmbAbbrStroke">̄</g>ces béeing kno<g ref="char:EOLhyphen"/>wen, men as amazed began thereby to enter into Philoſophy, and thereby to ſéeke out bothe reaſons and cauſes, and ſo is this true in other actes, as well as in medicine, whereof is aucthor <hi>Ariſtotle</hi> in his bookes of high Philoſophy, and alſo <hi>Marcus Manillius,</hi> and <hi>Virgill,</hi> doo te<g ref="char:EOLhyphen"/>ſtifie the ſame, ſaying: by vatiable caſes experience made Arte. And becauſe I
+<pb facs="tcp:21088:32"/>
+doo not remember which of theſe Ge<g ref="char:cmbAbbrStroke">̄</g>tle<g ref="char:EOLhyphen"/>men alleadged Saint <hi>Ambroſe.</hi>
+                     </p>
+                     <p>I doo remember nowe that fauouring and holding part with Medicine, he dooth ſay and affirme in the ſame, I will ther<g ref="char:EOLhyphen"/>fore declare his woords, becauſe his auc<g ref="char:EOLhyphen"/>thority is great, which are theſe. Where ſayth he, had Medicine origen, but onely of infirmitie. And where in the firſt age, men would teache theyr ſucceſſors, and Decendentes, what thinges had done them good, and wherewith they cured theyr diſeaſes, whereby vſe made Arte, and infirmitie made maiſterie, and that is the firſt and ſufficient medicine, which experience made, and not the coniecture, and therefore they were called Expert, ſo that out of this ſort ſprung the other, and from thence tooke his vſe &amp; force, ſo that woord for woord, S. <hi>Ambroſe</hi> affyr<g ref="char:EOLhyphen"/>mes the ſame.</p>
+                     <p>But to auoyde wearineſſe, I alleadge not other reaſons and aucthorities, for therein is no doubt at all: but that expe<g ref="char:EOLhyphen"/>rience was origen to medicine, &amp; totally neceſſarie. But yet notwithſtanding, thoſe that were named expert, remayne not victors, who will not allowe any o<g ref="char:EOLhyphen"/>ther
+<pb facs="tcp:21088:32"/>
+thing but onely experience, nor yet are ouercome. The <hi>Rationalles,</hi> which followeth Arte, becauſe betwixt theſe two opinions there is a thyrd, &amp; a meane which ought to be obſerued, and that is. That although experience was, and is the origen, and without the ſame we can not well craue this faculty: yet notwith<g ref="char:EOLhyphen"/>ſtanding, after the expected preceptes, Arte was profitable, and not onely pro<g ref="char:EOLhyphen"/>fitable, but alſo neceſſary, as well for the inconſtancie and chaunges which are in experience, as by reaſons. Héere hath bene touched, as well to chuſe and know the beſt, which without learning were vnpoſſyble to doo. For it is a playne caſe, that without learning and doctrine you can not make an intiere iudgement and election.</p>
+                     <p>And if this thing ſhould not be reduced to Rules and Arte: all ſhould be confuſi<g ref="char:EOLhyphen"/>on, and forgetfulnes, and diſcord would confound all: ſo that if onely experience ſhould be admytted. Yet Arte and Rules thereof, ſhould be needefull to knowe and learne, howe and at what tymes, in what places, at what ages, in what diſpoſitions, to what infirmi<g ref="char:EOLhyphen"/>ties,
+<pb facs="tcp:21088:33"/>
+and to what occations the<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ofit to ſome, and what vnto others, and hereof perforce wée can not be without Rules and meanes, and this is the Arte which may not be wanting: for although ex<g ref="char:EOLhyphen"/>perience hath bene the origen, and kno<g ref="char:EOLhyphen"/>weth howe to finde, but not to kéepe.</p>
+                     <p>But Arte dooth kéepe and conſerue: alſo you haue no leyſure, euerie day to make experience, nor all men can not make e<g ref="char:EOLhyphen"/>uerie proofe, nor yet to carrie in minde the thinges that hath bene done without Rule and artifice therof. And for proofe of a thing ſo notorious, it ſhall not néede many reaſons, nor aucthorities, for the experience wée haue before our eyes, that there is no worke nor occupa<g ref="char:EOLhyphen"/>tion ſo baſe, which is not guyded by Arte and reaſon.</p>
+                     <p>The Huſbandman, and the Marriner of whome <hi>Signor Iaſper</hi> ſpake, ſaying, vſe maketh maiſterie. Although the ſame were ſo, yet they can not want theyr Regimentes, grounded vpon ex<g ref="char:EOLhyphen"/>perience, wherby they were guyded, and learned theyr Arte, to be a lyght to teach others the thinges, whereof experience neuer wanted vnto them.</p>
+                     <p>
+                        <pb facs="tcp:21088:33"/>
+The like dooth the Maſon, the Carpenter and other Artificers, who ioyntly with vſe and experience, haue their foundatio<g ref="char:cmbAbbrStroke">̄</g> and Rules. And ſithence medecin hath a more precious and higher ſuiect: it is no reaſon that it ſhould by them be demini<g ref="char:EOLhyphen"/>ſhed, how much more many of the other cauſes, and knowledge of other things, which already hath béen argued, and al<g ref="char:EOLhyphen"/>though ſame will ſay that to know ſuch thinges: ſhould not notoriouſly be neceſ<g ref="char:EOLhyphen"/>ſary. Yet at the leaſt they cannot deny, but that it is profitable, &amp; alſo although the ſame ſhould not make a Phiſition more perfit: yet he ſhould be made more diſcréet and aduiſed, all which things can not be brought to paſſe without the lear<g ref="char:EOLhyphen"/>ning of Arte and Rules, &amp; if theſe things are difficult &amp; many, they are not there<g ref="char:EOLhyphen"/>fore to be refuſed nor yet the knowledge of them, as <hi>Signor Iaſper</hi> affyrmeth: we know well that Arte is long, but yet co<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLhyphen"/>tinuall labour and goodwill ouercom<g ref="char:EOLhyphen"/>meth And alſo if all may not be known yet paſſe with the poſſible, and moſt ne<g ref="char:EOLhyphen"/>ceſſarie: and though there be varietie in oppinions, yet alſo their are determina<g ref="char:EOLhyphen"/>tions, and reſolucions, there are alſo
+<pb facs="tcp:21088:34"/>
+Phiſitions and Counſell for all, wherof the good Phiſition, ought to be repleni<g ref="char:EOLhyphen"/>ſhed, more then an other, of this opinion are the moſte of the wiſe and learned Aucthors. But chéefely <hi>Plato</hi> in his booke of Rethorick, ſaith, for this cauſe is Arte the medecyn, for why: it is a faculty that dooth conſider &amp; know the nature of him that cureth, and the cauſe of the thing that worketh, and can of thoſe thinges giue a ſufficient reaſon. And that which is alledged is not to be vnderſtood only neceſſary to cure the infirmytie, but al<g ref="char:EOLhyphen"/>ſo, a way to ſuſtaine the health: for al<g ref="char:EOLhyphen"/>though <hi>Signor Iaſper</hi> ſay that we know how to eate and drinke without coun<g ref="char:EOLhyphen"/>ſell of the Phiſition, or other Arte by only experience: true it is, but he that ſo dooth vſing temperaunce: dooth follow counſels and Rules, and alſo aduiſes giuen by Phiſitions and wiſe men, and not ſo dooing commonly is cauſed in<g ref="char:EOLhyphen"/>fyrmitye.</p>
+                     <p>And euen ſo the moſte Sapient <hi>Ci<g ref="char:EOLhyphen"/>cero</hi> in his ſecond booke of Offices, af<g ref="char:EOLhyphen"/>fyrmeth that for to gouerne and ſuſtaine health, is needefull for a man to know his owne complexion, and to abſtaine
+<pb facs="tcp:21088:34"/>
+from ſuche thinges that offende him, and to vſe of other thinges which agrée, and are profitable for him, and to fol<g ref="char:EOLhyphen"/>lowe the counſell and Arte of them who knowe the ſame, meanyng the Phi<g ref="char:EOLhyphen"/>ſitions. So that to conclude, for with men ſo graue and wiſe, I néede not to enlarge.</p>
+                     <p>The reſolucion and my vowe is touching the firſt poynte, which was if onely experience were ſufficient, or elſe if Arte and learning were néedefull of which two wants in a Phiſition: The want of learning is more to be ſuffered than the want of experience, but alſo that the perfit Phiſition ought to be expert and learned, ſo that the Medecine muſte appeere on bothe ſides, that is aſwell in the experimented as rationales, and ought to haue Arte, precepts, and foundation ioyntly with experience.</p>
+                     <p>Now let vs precéede to the ſecond point, which is whether it be néedefull to haue perticuler Phiſitions, apointed &amp; ordai<g ref="char:EOLhyphen"/>ned or no. I ſay that of my former words dooth follow the true concluſion: that it is neceſſary to haue Phiſitions and
+<pb facs="tcp:21088:35"/>
+knowen maiſters, and that generally all men may not be of that vocation for al<g ref="char:EOLhyphen"/>though that only experience were ne<g ref="char:EOLhyphen"/>ceſſary: it were not poſſible that all men ſhould be experymented. How much more we haue approoued, and holde for certaine that Arte, Rules, and variable doctrines are néedefull, the which can<g ref="char:EOLhyphen"/>not be commen. And ſithence of all other Artes, and mecanycall Artifices, there are workemen, and knowen Maiſters: Medecin ought not to be of leſſe condicio<g ref="char:cmbAbbrStroke">̄</g> and to haue learned me therein, bothe to ſtudy and diſpute if néede require: then coning to be experimented, may vſe and cure with holly medecine: And it is not to holde for compariſon, that Chriſt did commaund all the Apoſtles to cure and heale infirmities, for that purpoſe was only to lay foundation of our holy faith, and not principally for corporall health whereof we now treate: how muche more, bothe for the one, and for the other, he choſe and apointed ſeuerall perſons, and gaue no power without diſtinction and election, the office and names of ordayned Phiſitions, <hi>Signor Iaſper,</hi> are of more antiquity, then as yet
+<pb facs="tcp:21088:35"/>
+we haue ſpoke<g ref="char:cmbAbbrStroke">̄</g>, no nor yet your profaine writers make thereof no proofe, for be<g ref="char:EOLhyphen"/>fore <hi>Aeſculapius,</hi> or <hi>Ipocrates,</hi> aboue <hi>500.</hi> yeares, were Phiſitions in the world, we reade <hi>Gen.</hi> chap. <hi>50.</hi> that <hi>Ioſeph</hi> com<g ref="char:EOLhyphen"/>mau<g ref="char:cmbAbbrStroke">̄</g>ded his Phiſitio<g ref="char:cmbAbbrStroke">̄</g>s in <hi>Egipt,</hi> to anoint the dead body of <hi>Iacob</hi> his father, and in <hi>Exo.</hi> chap. 21. among the lawes that God gaue vnto <hi>Moyſes</hi> for his people is one, that he who hurteth his neighbour ſhall pay, what be looſeth in his worke, for the time ſpent, and alſo the coſt and hyer of the Phiſition where manifeſtly appea<g ref="char:EOLhyphen"/>reth the wages and reward of the Phi<g ref="char:EOLhyphen"/>ſition is iuſt and of great antiquitie, and in other places of holy Scripture, we finde that Phiſitions were ordayned &amp; knowen, as appeareth in <hi>Peralipomenon 2.</hi> Chap. <hi>16.</hi> where king <hi>Aſſa</hi> was repre<g ref="char:EOLhyphen"/>hended becauſe he called not on God in his ſickneſſe, truſting more in the Arte of the Phiſitions, in which place it is plain<g ref="char:EOLunhyphen"/>ly called Arte and not experience, which place maketh for our purpoſe, and euen ſo are there many other moe. The Hiſ<g ref="char:EOLhyphen"/>tory and example of <hi>Aſclepiades,</hi> which you aledge, who was in y<hi rend="sup">e</hi> time of great <hi>Pompeus,</hi> is true. And in that time began
+<pb facs="tcp:21088:36"/>
+the ſect, and maner of curing. But it was a plaine and a manifeſt deceit that he intended, becauſe he knew not how to cure by Science, as <hi>Plyny</hi> himſelfe affyrmeth: for he was an Oratour, and becauſe he gayned little by that office, he determined to make him<g ref="char:EOLhyphen"/>ſelfe a Phiſition, and there ſpronge that hereſy in Medecine, as other hath doone in other Artes, but as a thyng without foundation, it indured but a while, how muche more <hi>Eſclepiades</hi> made not medecyne common: but his meaning was to inuent a new Arte, and to make hymſelfe Maiſter thereof.</p>
+                     <p>So that Gentlemen, let vs vnder<g ref="char:EOLhyphen"/>ſtande that experience made the Arte of Medecine, and that it is neceſſary to haue perticuler expert and learned Phiſitions, and alſo I ſay another thing which as yet hath not béene touched, and is the moſte neceſſarieſt of all, which is that ſuch men ought not only to be lear<g ref="char:EOLhyphen"/>ned, but vertuous faithfull Chriſtians, and fearefull of God without the which no good Arte can be miniſtred, and for the abuſes and defects which <hi>Signor Iaſ<g ref="char:EOLhyphen"/>per</hi> hath touched, I knowe well that
+<pb facs="tcp:21088:36"/>
+ſome doo paſſe in the world, and I true<g ref="char:EOLhyphen"/>ly deſire the remedy of them. But I ſay not what ſuch Phiſitions are, but I declare what they all ought to be. I alſo ſay and knowe ſome that ſynneth not in their opinion in manifeſting them of their dealing, aſwell in their mallice as in theyr medecynes, but the good Phiſition will cure Chriſtianlye and plainely, and apply according to wiſe<g ref="char:EOLhyphen"/>dom the Medecines conuenient, he alſo knoweth what is néedefull, either in Medecine ſimple or compound, which is the chéefeſt thing that <hi>Signor Iaſper</hi> hath impugned, but not with reaſon, for al<g ref="char:EOLhyphen"/>though the ſimples are excellent and doo profite to mixe one with another: I ſay it is not hurtfull, for ſome vertues and properties doo helpe and temper others and that which one force could not doo: two or thrée do finiſh, for ſeldom, one hu<g ref="char:EOLhyphen"/>mor offendeth the pacient, therefore it is to prouide for a whole &amp; compound infir<g ref="char:EOLhyphen"/>mitye, and thereto to apply compound medecine, and euen as we are compou<g ref="char:cmbAbbrStroke">̄</g>de of ſundry complexions and elements, e<g ref="char:EOLhyphen"/>uen ſo we ſtande in néede of compounde medecines, aſwell as of ſimples as in all
+<pb facs="tcp:21088:37"/>
+things we ſée plainly, in hot Countries, we myxe ſtronge wine with water, we compound thinges to make them more profitable for vs, we alſo ioyne and mixe our meates, to make them more ſauery and medicinall, to Uinegar we put oyle, &amp; to Hunny, Sugar, all things doo ioine, temper and reſiſt, the which certainly is moſt neceſſary in medicine, and is of great effect and profit. But if in theſe things and others there be any indiſ<g ref="char:EOLhyphen"/>creete Phiſitions or euill woorkemen: we ſhould not therefore reprooue y<hi rend="sup">e</hi> good, nor yet the Arte, which of itſelfe is good, holye and profitable: but rather to pro<g ref="char:EOLhyphen"/>cure that euery one be ſuch as is conue<g ref="char:EOLhyphen"/>nient, and to deſire of God the ſame, vn<g ref="char:EOLhyphen"/>to whom this Citty of <hi>Ciuill</hi> in my iudg<g ref="char:EOLhyphen"/>ment ought to giue moſte harty thanks, for the plentie of good and learned Phi<g ref="char:EOLhyphen"/>ſitions, which dwell in the ſame, of who<g ref="char:cmbAbbrStroke">̄</g> truly I preſume. But particulerly I haue had familiar conuerſation in my diſeaſes with fowre or fiue of them, and aſſuredly in them dooth conteyne y<hi rend="sup">e</hi> qua<g ref="char:EOLhyphen"/>lities of excellent men, bothe of experi<g ref="char:EOLhyphen"/>ence, learning and goodnes, and I haue the ſame opinion of many of the others,
+<pb facs="tcp:21088:37"/>
+and although <hi>Signor Iaſper</hi> is not conte<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLhyphen"/>ted with onely literature and precepts: let him therfore loue, and procure ioint<g ref="char:EOLhyphen"/>ly with them experience, and alſo <hi>Signor Iaſper,</hi> condemne not the doctrine in Phiſitions, and truſt not ſo little vnto them that you let to cure your ſelfe, whe<g ref="char:cmbAbbrStroke">̄</g> you are ſick. But my meaning here is not of ſuch Phiſitio<g ref="char:cmbAbbrStroke">̄</g>s as the Ieſter tolde y<hi rend="sup">e</hi> Marqueſſe <hi>Ferrara,</hi> of whom <hi>Pontanus</hi> writeth. But now here is no place to tel that tale, although it is not euill to de<g ref="char:EOLhyphen"/>clare, for ſuch as heretofore hath not harde therof. But ſithe<g ref="char:cmbAbbrStroke">̄</g>ce it is now late, I conclude for this day, the thing I was required to do: and the reſt ſhall remaine for another day.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Don Nunio.</speaker>
+                     <p>
+                        <hi>Signor Maiſter,</hi> I ſweare vnto God, that I beléeue there is no more to be ſaide, ſithence you haue ſo ſingulerly well determined the cauſe, &amp; at the leaſt I for my part, am fully ſatiſfied, and ſhould finally profit in any further diſ<g ref="char:EOLhyphen"/>putation of theſe Gentleme<g ref="char:cmbAbbrStroke">̄</g>, to chaunge me from your ſentence, howbeit I be<g ref="char:EOLhyphen"/>léeue that now they are of your iudge<g ref="char:EOLhyphen"/>ment, for alwaies troth is of great force
+<pb facs="tcp:21088:38"/>
+being alſo holpen by your authoritie and eloquence.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Bernardo.</speaker>
+                     <p>I for my part doo holde myſelfe ſatiſfi<g ref="char:EOLhyphen"/>ed, and doo conſent in the determination of <hi>Signor Maister,</hi> and I thinke <hi>Signor Iaſper</hi> will doo the like, and ſo we may depart as we came.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Iaſper.</speaker>
+                     <p>I cannot chuſe but kéepe ſilence to the thing that <hi>Signor Maiſter</hi> hath ſayd, and the ſame ought to be moſte certaine, ſi<g ref="char:EOLhyphen"/>thence he hath ſo pronounced: but yet in my iudgement I thinke it not conueni<g ref="char:EOLhyphen"/>ent to cure with Phiſitions, but rather take diet and good Regiment to be ſuf<g ref="char:EOLhyphen"/>ficient, yea and I haue heard them their ſelues ſay, that to cure therewith is a moſte happy cure, ſo that ſtill I will fol<g ref="char:EOLhyphen"/>low experience and counſell and you not able to condemne me, and for the other matters, let them paſſe in good time, as <hi>Signor Maister</hi> hath declared: and ſo we may depart, and God giue vnto your Worſhip entire health, that you neuer néede any Phiſition, but onely that you may dye of age.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Don Nunio.</speaker>
+                     <p>Patience is good for aduerſytie, but yet
+<pb facs="tcp:21088:38"/>
+I wyll not that ye depart vntill <hi>Signor Maister</hi> hath tolde his tale, touching the Phiſitions of <hi>Ferrara.</hi> And with his tale Diſputation ſhall ceaſſe for this day, for it is not late, and time there is for all.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Maiſter Velaſques.</speaker>
+                     <p>Becauſe, <hi>Signor Iaſper</hi> ſhall pacifie his anger, I will recite the tale, although he hath read the ſame as well as I: the Hi<g ref="char:EOLhyphen"/>ſtory is. That on a time, <hi>Nicholaus</hi> Mar<g ref="char:EOLunhyphen"/>queſſe of <hi>Ferrara,</hi> ſporting and ieſting with his Ieſter, he enquired of him of what Science or occupation were moſt number in <hi>Ferrara?</hi> the Ieſter aunſwe<g ref="char:EOLhyphen"/>red, ſaying ſir, the moſte in number of any one trade are Phiſitions, the Mar<g ref="char:EOLhyphen"/>queſſe hearing this aunſwer, laughed him to ſcorn, ſaying, thou idiot ſéeſt y<hi rend="sup">u</hi> not that of y<hi rend="sup">t</hi> facultie there is not in the Cit<g ref="char:EOLhyphen"/>ty aboue fiue or ſire, and I am ſure there is aboue <hi>300.</hi> Shoomakers, and as many of many other Occupacions? The Ieſter aunſwered, ſir, where your Lordſhip is occupied in great matters you haue no particuler recknings, nor yet you know what nomber of Maſſailes you haue, but beléeue me ſir I haue told you troth, y<hi rend="sup">t</hi> of the Art of medecin is the greateſt nu<g ref="char:cmbAbbrStroke">̄</g>ber
+<pb facs="tcp:21088:39"/>
+in <hi>Ferrara,</hi> and I dare lay <hi>200.</hi> Ducats that you ſhall finde it ſo.</p>
+                     <p>The Marqueſſe began to laugh againe and to deny his opinion, and in conclu<g ref="char:EOLhyphen"/>ſion the wager was layde, although he iudged it for ſimplicity and madnes, and ſo he ſoone forgot what he had layd. But the Ieſter who had great deſire of the money that was laide, hauing well con<g ref="char:EOLhyphen"/>ſidered the matter: The next day in the morning he aroſe, being Sonday, and wrapped clouts about his head, &amp; Towe and Wooll bounde to his chéekes, fay<g ref="char:EOLhyphen"/>ning that he was wonderfully vexed with the tootheache, and in this order he ſate him downe at the doore of the Ca<g ref="char:EOLhyphen"/>thedrall Church of the Cittie, and had ſitting by him a boy who was his ſonne, that had good ſkill in writing, this lad had his Pen, Inkehorne, and Paper, now the Ieſter being a man ſo common<g ref="char:EOLhyphen"/>ly knowen in the Cittie, the people that entered and came out of the Church aſ<g ref="char:EOLhyphen"/>ked of him the cauſe of his ſicknes, and he made aunſwer to euery one that he had a maruelous paine in his téeth and Gummes, deſiring them for Gods ſake to giue him ſome remedy for the ſame,
+<pb facs="tcp:21088:39"/>
+and where we generally vſe to giue cou<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLhyphen"/>ſel to thoſe whom we ſée ſuffer any pain: as many as paſſed by tolde him what to take, although ſome one thing, and ſome another. So that his boye foorth with wrote euery mans name that had giuen any remedy, and hauing abode there the time conuenient, and his copie of names and medcines full, and in the pickle that he ſate at the Church dore: he went to the Marqueſſe Pallace, who had cleane forgotte<g ref="char:cmbAbbrStroke">̄</g> his wager, &amp; as the Marqueſſe eſpied him, he as other had doone, enqui<g ref="char:EOLhyphen"/>red the cauſe of his greefe, and being an<g ref="char:EOLhyphen"/>ſwered as the others were, he of gentle<g ref="char:EOLhyphen"/>nes tolde him of remedy wherewith he ſhould be whole. The Ieſter ſayde ſir &amp; kiſſe your Honours handes, and after a while that he had abode there, he went his way home to his houſe, and cauſed all his proceſſe to be writte<g ref="char:cmbAbbrStroke">̄</g> fayre, which amounted to néere 500. perſons, who were all Phiſitions, and the Lord Mar<g ref="char:EOLhyphen"/>quis was placed for the firſt and princi<g ref="char:EOLhyphen"/>palliſt in the copie, and euery mans me<g ref="char:EOLhyphen"/>decine ioyned with his name, the next day he came to y<hi rend="sup">e</hi> Lord Marqueſſe Pal<g ref="char:EOLhyphen"/>lace without his rags about his head, as
+<pb facs="tcp:21088:40"/>
+a whole man, ſaying, right Honourable ſir, now I am whole, and I thanke God cured by the moſte honourableſt Phiſi<g ref="char:EOLhyphen"/>tion of all <hi>Italy,</hi> which is you, for with your good counſell I obtained my health. Therfore I pray you commaund to pay the wager: for aſſuredly for my diſeaſe I founde all theſe Phiſitions in <hi>Ferrara,</hi> that are here contayned in this memo<g ref="char:EOLhyphen"/>riall, and if I would haue fought for more, iwis I had found more. The Mar<g ref="char:EOLhyphen"/>queſſe beholding the roule of names and medecines, and ſéeing himſelfe the firſt man, and many other principall perſons of the Cittye, he laughed, and confeſſed that he had loſt his wager, and commau<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLhyphen"/>ded the ſame to be payde foorth with, which truely was a merry ieſt. So that if <hi>Signor Iaſper</hi> be contented with ſuche Phiſitions: I ſay he hath reaſon, and ſhall finde aboundaunce.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Don Nunio.</speaker>
+                     <p>By my trothe the tale is pretie, and to be laughed at with reaſon. I wyll there<g ref="char:EOLhyphen"/>fore ſtay you no longer, depart on Gods name.</p>
+                  </sp>
+                  <sp>
+                     <speaker>Iaſper.</speaker>
+                     <p>The Ieſter was pleaſaunt, but I pro<g ref="char:EOLhyphen"/>miſe
+<pb facs="tcp:21088:40"/>
+you on my faith, that if he had the tootheache in déede, he mought haue béen cured with the counſels giuen vnto him. And I would rather truſt the <hi>500.</hi> Phi<g ref="char:EOLhyphen"/>ſitions contained in the memoriall, then the fiue or ſixe, which the Lord Mar<g ref="char:EOLhyphen"/>queſſe ſpake of. And with this concluſion <hi>Signor Bernardo</hi> let vs depart, for al<g ref="char:EOLhyphen"/>though we haue béene earneſt in our Diſputation, yet we wyll depart as good fréendes as we came he<g ref="char:EOLhyphen"/>ther.</p>
+                  </sp>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+            <closer>
+               <signed>T. N.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

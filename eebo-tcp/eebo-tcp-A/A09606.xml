@@ -1,0 +1,845 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philogamus</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1548</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-03">2005-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A09606</idno>
+            <idno type="STC">STC 19882</idno>
+            <idno type="STC">ESTC S3853</idno>
+            <idno type="EEBO-CITATION">33151084</idno>
+            <idno type="OCLC">ocm 33151084</idno>
+            <idno type="VID">28913</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A09606)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 28913)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1882:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Philogamus</title>
+                  <author>Shepherd, Luke.</author>
+               </titleStmt>
+               <extent>[21+] p.   </extent>
+               <publicationStmt>
+                  <publisher>By W. Hill,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1548?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Caption title.</note>
+                  <note>Imprint suggested by STC (2nd ed.).</note>
+                  <note>Attributed to Luke Shepherd by STC (2nd ed.).</note>
+                  <note>Colophon reads: Quod Phylogamus, alias. J. What call ye hym.</note>
+                  <note>Imperfect: t.p lacking; stained and tightly bound, with loss of text.</note>
+                  <note>Signatures: A¹ lacking; A²⁻⁸, B⁴.</note>
+                  <note>Reproduction of original in: All Soul's College (University of Oxford). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-11</date>
+            <label>Emma (Leeson) Huber</label>Sampled and proofread</change>
+         <change>
+            <date>2004-11</date>
+            <label>Emma (Leeson) Huber</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-01</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:28913:1"/>
+            <pb facs="tcp:28913:1"/>
+            <head> Philogamus</head>
+            <div type="poem">
+               <lg>
+                  <l>
+                     <seg rend="decorInit">G</seg>yue place ye Poetes fine</l>
+                  <l>bow doune now &amp; encline</l>
+                  <l>For nowe y<hi rend="sup">e</hi> Muses nyne</l>
+                  <l>So Sacred a<g ref="char:cmbAbbrStroke">̄</g>d Diuine</l>
+                  <l>In Parnase holy Hyll</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>aue wrought theyr worthy wyll</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd by theyr goodly skyll</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ppon that myghty Mountayne</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Hellycons Fountayne</l>
+                  <l>That alwayes doth remayne</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ynce Pegase made it flowe</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s by your bokes we knowe)</l>
+                  <l>Haue washed the lyppes of one</l>
+                  <l>That slepte not longe agone</l>
+                  <l>That forked Hyll vpon</l>
+                  <l>Who after that anon</l>
+                  <l>As he had sene the Muses</l>
+                  <l>Newe Poetry he vses</l>
+                  <l>And yours he cleane refuses.</l>
+                  <l>
+                     <pb facs="tcp:28913:2"/>For wakyng sodenly</l>
+                  <l>He wrote ryght wortheily</l>
+                  <l>Suche kynde of Poetrye</l>
+                  <l>As neuer one of you</l>
+                  <l>Had hearde or sene tyl nowe</l>
+                  <l>He wrote I tel you playne</l>
+                  <l>An Antygraphe full mayne</l>
+                  <l>None suche on thys syde Spayne</l>
+                  <l>Antipus to suppresse</l>
+                  <l>And clerly to compesse</l>
+                  <l>Wherein he fayneth no lesse</l>
+                  <l>But that yf God were dead</l>
+                  <l>He myght be raysed in Bread</l>
+                  <l>Wherfore ye Poetes al</l>
+                  <l>And clarkes bothe greate and smal</l>
+                  <l>Submyt your selues ye shal</l>
+                  <l>And downe before hym fall</l>
+                  <l>And neuer not to ryse</l>
+                  <l>For you cowlde not deuyse</l>
+                  <l>So greate an interpryse</l>
+                  <l>As thys new poet dyd</l>
+                  <l>Whose connyng is yet hyd</l>
+                  <l>And many other workes</l>
+                  <l>
+                     <pb facs="tcp:28913:2"/>That secretly yet lurckes</l>
+                  <l>None suche amonge the Turkes</l>
+                  <l>Nor Saracens can be founde</l>
+                  <l>The Gospellers to confounde.</l>
+                  <l>Hys workes are so well bownd</l>
+                  <l>And buylded on suche grounde</l>
+                  <l>As cannot wel decay</l>
+                  <l>Tyl the sande be washed away.</l>
+                  <l>He is skylled so wonderously</l>
+                  <l>In the scyence of Masonrye.</l>
+                  <l>Wherfore I wyl not spare</l>
+                  <l>Hys learnyng to declare</l>
+                  <l>Although wyth myckle care</l>
+                  <l>Because I want the wayes</l>
+                  <l>Thys Poete for to prayse</l>
+                  <l>And fame vpon hym rayse</l>
+                  <l>That floweth in these dayes,</l>
+                  <l>Wythe suche exceadynge Eloquence</l>
+                  <l>And Superfluous Sapyence</l>
+                  <l>Imbute wtyh Insuffycyence</l>
+                  <l>Of learnyng and Intellygence</l>
+                  <l>Whose wrytynges are laudable</l>
+                  <l>So new founde and not able</l>
+                  <l>
+                     <pb facs="tcp:28913:3"/>I tell you wythout fable</l>
+                  <l>That no man vnder skye</l>
+                  <l>Can prayse them worthely</l>
+                  <l>They shewe them selues so fayer</l>
+                  <l>That none can them appayer</l>
+                  <l>And therfore now beholde</l>
+                  <l>And see how well he coulde</l>
+                  <l>Describe them that are bolde</l>
+                  <l>To marry beyng sworne</l>
+                  <l>To kepe them chast beforne</l>
+                  <l>Makyng theyr vow a scorne</l>
+                  <l>And takyng to them wyues,</l>
+                  <l>Wyth them to leade theyr lyues</l>
+                  <l>But wyth these blooddes he stryues</l>
+                  <l>And out of towne them dryues</l>
+                  <l>Wyth eloquent taxacions</l>
+                  <l>And vyolent vexacyons</l>
+                  <l>And earneste exprobracyons</l>
+                  <l>Wythe instant insultacions</l>
+                  <l>And straunge denomynacyons</l>
+                  <l>That none among all nacyons<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Can shew suche learned fasshyons</l>
+                  <l>
+                     <pb facs="tcp:28913:3"/>As can thys noble scholer</l>
+                  <l>He may well weare a coller</l>
+                  <l>Of. <hi>H.</hi> for hys humanitee</l>
+                  <l>And for hys greate Urbanytye</l>
+                  <l>He may weare vppon hys Bonnet</l>
+                  <l>A double. <hi>P.</hi> well set</l>
+                  <l>And wyth a traye aboue</l>
+                  <l>In tokenynge of the loue</l>
+                  <l>That towarde hym he beareth</l>
+                  <l>Whyche men to Chastenes sweareth.</l>
+                  <l>Wherfore loke vp and see</l>
+                  <l>Yf ye beleue not me</l>
+                  <l>Your owne Iudges to be</l>
+                  <l>For easely may ye spye</l>
+                  <l>Yf ye looke earnestly</l>
+                  <l>And well hys latten trye</l>
+                  <l>That oute of Barbarye</l>
+                  <l>Hys learninge he hath fett</l>
+                  <l>And all hys Knowledge gett.</l>
+               </lg>
+               <lg>
+                  <l>For thys I dare well Sweare</l>
+                  <l>
+                     <pb facs="tcp:28913:4"/>Here can no suche fyne gear</l>
+                  <l>Be had but onely theare,</l>
+                  <l>Aduise it well and reade</l>
+                  <l>For here it doth succede.</l>
+                  <l>
+                     <hi>O Insensati</hi>
+                  </l>
+                  <l>All marryed preistes that be <hi>Nuyti</hi>
+                  </l>
+                  <l>
+                     <hi>Barbis dispuisati</hi>
+                  </l>
+                  <l>
+                     <hi>Carnales hedos Uocati</hi>
+                  </l>
+                  <l>
+                     <hi>Quorum deus venter</hi>
+                  </l>
+                  <l>To y<hi rend="sup">e</hi> belly they be bou<g ref="char:cmbAbbrStroke">̄</g>d by Inde<g ref="char:cmbAbbrStroke">̄</g>ture</l>
+                  <l>
+                     <hi>Uentri semper obedire</hi>
+                  </l>
+                  <l>
+                     <hi>Uulue<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> serui<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e</hi>
+                  </l>
+                  <l>
+                     <hi>Quorum Sathan est Pater</hi>
+                  </l>
+                  <l>
+                     <hi>Et <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>eche<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ia Mater</hi>
+                  </l>
+                  <l>Thys <hi>Genera Uiperarum</hi>
+                  </l>
+                  <l>Runnes <hi>per Orbem Terrarum</hi>
+                  </l>
+                  <l>O God omnipotent</l>
+                  <l>
+                     <hi>Qui regnas et viuis</hi>
+                  </l>
+                  <l>Sende shame and punishement</l>
+                  <l>To all Prestes and theyr wyues</l>
+                  <l>And let them goo voyde of all grace</l>
+                  <l>Et in fernorum supplicia</l>
+                  <l>Wyth Lucyfer to haue a Place</l>
+                  <l>
+                     <hi>In sempiterna supplicia.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>The Prayse of the Meter.</head>
+               <l>O meter passing measure</l>
+               <l>
+                  <pb facs="tcp:28913:4" rendition="simple:additions"/>Prouokinge sporte and pleasure</l>
+               <l>O treatise of hygh treasure</l>
+               <l>So Typycal in fygure</l>
+               <l>None suche from lyn to lygure</l>
+               <l>Lapte vp in suche fyne latyn</l>
+               <l>As passeth both syls and satyn</l>
+               <l>O Homer so Heroicall</l>
+               <l>And Percius Satyricall</l>
+               <l>Where are your workes Poetycal?</l>
+               <l>O Horace where art thou</l>
+               <l>Uyrgyll and Ouide now</l>
+               <l>And all the rest of you</l>
+               <l>Let se who dare auow</l>
+               <l>One suche a worke to shew</l>
+               <l>No no, ful wel I know</l>
+               <l>Take al you on a rowe</l>
+               <l>Ye cannot do it I trow</l>
+               <l>Not one of you that wrote</l>
+               <l>Suche Satyres wel I wot</l>
+               <l>Yf he your bokes had sene</l>
+               <l>He wolde haue shamed them clene</l>
+               <l>You had no Peers you wene</l>
+               <l>Because wyth lawrel grene</l>
+               <l>Crowned you were by ryght</l>
+               <l>
+                  <pb facs="tcp:28913:5"/>But oure newe Poete myght</l>
+               <l>Be crowned wyth the Uyne</l>
+               <l>And Garland Canabyue</l>
+               <l>For engyne and for wytt</l>
+               <l>The muses dyd admytt</l>
+               <l>Not onely hym to yt</l>
+               <l>But gaue hym so muche grace</l>
+               <l>That yf he vewe the face</l>
+               <l>Of one In any place</l>
+               <l>He maye make hym wyth spede</l>
+               <l>A Poete to procede.</l>
+               <l>The profe therof indede</l>
+               <l>Ful playnly dyd appere</l>
+               <l>Wythin thys halfe yere</l>
+               <l>For one that was a Smytthe</l>
+               <l>A forger at the stytthe</l>
+               <l>A myghtye man of pytthe</l>
+               <l>And stronge of lym and lytthe</l>
+               <l>When he had bene hym wythe</l>
+               <l>And talked but a whyle</l>
+               <l>He wrote so hygh a style</l>
+               <l>As none wythin a myle</l>
+               <l>Coulde fashyon wyth a fyle</l>
+               <l>
+                  <pb facs="tcp:28913:5"/>Wyth al hys wyt and wyle,</l>
+               <l>Wel wel for all ye smyle</l>
+               <l>Certes I tel you treuth</l>
+               <l>A lack yt is greate ruth</l>
+               <l>That men wyl not beleue</l>
+               <l>The gyftes that Muses geue</l>
+               <l>Besyde all thys hys Smythery</l>
+               <l>
+                  <hi>Uul<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>anus</hi> taught hym certanly</l>
+               <l>Wherw<hi rend="sup">t</hi> he wroughe right curyously</l>
+               <l>As ye may se yt euydently</l>
+               <l>Conteyned in the testymony</l>
+               <l>And latter wylle of Heresy.</l>
+               <l>For there He sheweth Poetry</l>
+               <l>Hyghly professyng Romery</l>
+               <l>Lo, now I say therfore</l>
+               <l>Your bokes we nede no more</l>
+               <l>They maye be rent and tore</l>
+               <l>What though ye crye and rore</l>
+               <l>We nede not now your lore</l>
+               <l>For yf thys arte were drownd</l>
+               <l>Agayne it may be found</l>
+               <l>Euen by the very sound</l>
+               <l>Of these new Poetes Tooles</l>
+               <l>
+                  <pb facs="tcp:28913:6"/>They be no smalle fooles,</l>
+               <l>If they be red In scholes</l>
+               <l>You may syt downe on stooles</l>
+               <l>And so to take your rest</l>
+               <l>As I suppose it best.</l>
+               <l>But well ye thyncke I Geyst</l>
+               <l>By cocke for all your lokes</l>
+               <l>You maye claspe vp your bookes</l>
+               <l>And then go kepe the roockes</l>
+               <l>Or els wyth hangle hookes</l>
+               <l>Go fyshe and take some flookes</l>
+               <l>For cleane your cleargy crookes</l>
+               <l>And goeth no more on ryght</l>
+               <l>Synce these beganne to wryght</l>
+               <l>Ye haue no more no might</l>
+               <l>To florysh in theyr syght</l>
+               <l>But thys I wyll you tell</l>
+               <l>The Mason doth excell</l>
+               <l>Wherfore he may full well</l>
+               <l>Aboue all beare the Bell</l>
+               <l>Wherfore wyth all my power</l>
+               <l>I wyll eche daye and hower</l>
+               <l>Aduaunce hys hyghe honour</l>
+               <l>
+                  <pb facs="tcp:28913:6"/>Praiyng these Muses Sacre</l>
+               <l>Wyth Hellicons Lauacre</l>
+               <l>To washe me by theyr ayde</l>
+               <l>To do as I haue saide.</l>
+            </div>
+            <div type="poem">
+               <head>*The prayse of the Poete.</head>
+               <l>O Poete so impudent</l>
+               <l>Whyche neuer yet was studente</l>
+               <l>To thee, the Goddes prudente</l>
+               <l>Minerua is illudente</l>
+               <l>Thou wrytest thynges dyffuse</l>
+               <l>Incongrue<g ref="char:punc">▪</g> and confuse</l>
+               <l>Obfuscate and obtuse</l>
+               <l>No man the lyke doth vse</l>
+               <l>Among the Turckes or Iewes</l>
+               <l>Alwayes inuentyng newes</l>
+               <l>That are incomparable</l>
+               <l>They be so fyrme and stable</l>
+               <l>Lyke as a Shyppe is able</l>
+               <l>Wythout Ancre and Cable</l>
+               <l>Roother Maste or Sayle</l>
+               <l>Pully Rope or Nayle</l>
+               <l>In Wynde Weather or Hayle</l>
+               <l>
+                  <pb facs="tcp:28913:7"/>To guyde both top and tayle</l>
+               <l>And not the course to fayle</l>
+               <l>So thys our Poet maye</l>
+               <l>Wythout a stopp or staye</l>
+               <l>In cunnynge wend the way</l>
+               <l>Aswel by darke as day</l>
+               <l>And neuer go astray</l>
+               <l>Yf yt be as they say.</l>
+               <l>O Poet rare and Recent</l>
+               <l>Dedecorate / and indecent</l>
+               <l>Insolent and insensate</l>
+               <l>Contendyng and condensate</l>
+               <l>Obtused and obturate</l>
+               <l>O bumbylate, obdurate</l>
+               <l>Sparyng no Prest or Curate</l>
+               <l>Cyuylyan or Rurate</l>
+               <l>That be alredy marryed</l>
+               <l>And from theyr vow bene varyed</l>
+               <l>Wherto the scrypture them caried</l>
+               <l>They myght aswel haue taryed</l>
+               <l>I sweare by the north doore Rood</l>
+               <l>That stowte was whyle he stood</l>
+               <l>That they had bene as good</l>
+               <l>
+                  <pb facs="tcp:28913:7"/>To haue solde theyr best blew hood</l>
+               <l>For I am in suche a moode</l>
+               <l>That for my power and parte</l>
+               <l>Wyth al my wyt and arte</l>
+               <l>Wyth whole intent and harte</l>
+               <l>I wyl so at them Darte</l>
+               <l>That some of them shal farte</l>
+               <l>Before they feele it smarte.</l>
+               <l>Coulde not these bloods be pleased</l>
+               <l>Wyth mens wyues to be eased</l>
+               <l>And in their daughtars seased</l>
+               <l>As wel as the other greased</l>
+               <l>Though thus they had not preased?</l>
+               <l>In fayth they shalbe feased</l>
+               <l>For I set to my hand</l>
+               <l>In fyght wyth them to stand</l>
+               <l>By water and by lande</l>
+               <l>By grauell and by Sande</l>
+               <l>And by the salte sea strond</l>
+               <l>Beholde here is a wand</l>
+               <l>To beate them back and bone</l>
+               <l>I trow a thyng alone</l>
+               <l>To make these gallantes grone</l>
+               <l>
+                  <pb facs="tcp:28913:8"/>And withe our poetes ayde</l>
+               <l>They shalbe so dismayde</l>
+               <l>So fearfull and afrayde</l>
+               <l>That downe they shalbe layde,</l>
+               <l>As thycke as hoppes and hayle.</l>
+               <l>Nowe wyll I them assayle</l>
+               <l>And threashe them withe my Flayle</l>
+               <l>To marre these married Preistes</l>
+               <l>I fyghte wyth bothe my Fystes</l>
+               <l>Looke on the fraye who Lystes.</l>
+            </div>
+            <div type="poem">
+               <head>⚜ A Latten Clubbe, or Hurle Batte.</head>
+               <l>☞ OUOS Insensati</l>
+               <l>Et Sathana Nati</l>
+               <l>Satyri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Uocati</l>
+               <l>Barbis Detonsati</l>
+               <l>Loti Leuigati</l>
+               <l>Corollis designati</l>
+               <l>Quo sic effeminati</l>
+               <l>Molles et Parati</l>
+               <l>Sitis, Stupro dati</l>
+               <l>Petulantes Hoedi</l>
+               <l>Turpes et Cinoedi</l>
+               <l>Per quos Pios ledi</l>
+               <l>Ac Insontes Cedi</l>
+               <l>Certo possit Credi</l>
+               <l>Procreantes Hibride</l>
+               <l>Sed Amicti Nebride</l>
+               <l>
+                  <pb facs="tcp:28913:8"/>
+                  <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> non estis Nupti</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o plus Corrupti</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tum profitentes</l>
+               <l>Non custodientes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erum odientes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>lsum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Dorentes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ores non habentes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>as Conquerentes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>bere abnuentes</l>
+               <l>Intestui cedentes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>upi Existentes</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>upam subsequentes</l>
+               <l>Priapo seruientes</l>
+               <l>In Deum statuentes</l>
+               <l>Ipsum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Colentes<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Auluas Indegantes</l>
+               <l>Illecebras Amantes</l>
+               <l>Uelut Scortatores</l>
+               <l>Illorum Uxores</l>
+               <l>Filias et Sorores</l>
+               <l>Seruas et Ancillas</l>
+               <l>Seducentes Illas</l>
+               <l>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>apitis Ubi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Uiuentes quam obli<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Nigri Necromantici</l>
+               <l>Hydri Hydromantici</l>
+               <l>Putridi Piromantici</l>
+               <l>Incantantes Idolatres</l>
+               <l>Publici Pseudolatres</l>
+               <l>Anum Sathanam habe<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is</l>
+               <l>Patrem Papa<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Tene<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is</l>
+               <l>Matris Gremio<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> sedetis</l>
+               <l>Gomor eam Nominetis</l>
+               <l>Cum his Penas<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Lueti<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Lupinis Uestibus</l>
+               <l>
+                  <pb facs="tcp:28913:9"/>Caudis et Testibus</l>
+               <l>Dediti Incestibus</l>
+               <l>Uiperarum Genus</l>
+               <l>Quorum dea Uenus</l>
+               <l>Infernorum Te<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>us</l>
+               <l>Ducet Imperpetuum</l>
+               <l>Ad Ditis Supplicium</l>
+               <l>Id quod <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>etet Ille</l>
+               <l>Qui Seruat Millia Mille.</l>
+            </div>
+            <div type="poem">
+               <head>☞ELQUIDUOS BED?</head>
+               <lg>
+                  <l>Lo now how like you thys?</l>
+                  <l>I trowe I dyd you Blisse</l>
+                  <l>And them, as woorthy is</l>
+                  <l>To dyng tyll they shall Pisse</l>
+                  <l>Me thynke I doo not misse</l>
+                  <l>Though my Crowne be not scraped</l>
+                  <l>Nor I in Order mysshaped</l>
+                  <l>Nor for suche woorshyppe gaped</l>
+                  <l>Nor anoyted Preyste wyth Oyle</l>
+                  <l>Nor Creame or other Soyle</l>
+                  <l>Nor tooke suche fylthy Foyle</l>
+                  <l>Yet wyll I tugge and Toyle</l>
+                  <l>Tosse turne and Turmoyle</l>
+                  <l>Cumbre Clowte and Coyle</l>
+                  <l>
+                     <pb facs="tcp:28913:9"/>Dismembre and Dispoyle</l>
+                  <l>All them that I maye catche</l>
+                  <l>That dayly wayte and watche</l>
+                  <l>Feacte wenches to vpsnatche</l>
+                  <l>And marrye to their Matche</l>
+                  <l>But I wyll them dispatche</l>
+                  <l>And byggely on them beate</l>
+                  <l>For all their wyues so feacte</l>
+                  <l>That are so Nyce and Neate</l>
+                  <l>Whiche sittyng on their Seate</l>
+                  <l>Of Scriptures wyll Intreate</l>
+                  <l>And fayne woulde vs defeacte</l>
+                  <l>Wyth woordes grymme and greate</l>
+                  <l>From Beades of woodde and Geate</l>
+                  <l>And from our myghtie Meate</l>
+                  <l>That is, our God of wheate</l>
+                  <l>Puffe, so I Swelle and Sweate</l>
+                  <l>I Fridge I Frothe and Freate</l>
+                  <l>Of thys Uncowthe to thynke</l>
+                  <l>But suerly shall they Drynke</l>
+                  <l>Tyll aboue the grounde they stynke</l>
+                  <l>Wyth a Lyrycum Twynke</l>
+                  <l>For I can neuer Shrynke</l>
+                  <l>
+                     <pb facs="tcp:28913:10"/>As longe as our <hi>Uulcanus</hi>
+                  </l>
+                  <l>And lusty <hi>Longimanus</hi>
+                  </l>
+                  <l>Wyll sticke whyle he is <hi>Sanus</hi>
+                  </l>
+                  <l>For though he be <hi>Prophanus</hi>
+                  </l>
+                  <l>He is not nothyng <hi>Uanus</hi>
+                  </l>
+                  <l>Nor learned lyke <hi>Alanus</hi>
+                  </l>
+                  <l>I tell you he is no <hi>Na<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>u<gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi>
+                  </l>
+                  <l>But one of stature stoute</l>
+                  <l>No Lubber nor no Loute</l>
+                  <l>He wyll reache rounde aboute</l>
+                  <l>And ventyng wyth hys snoute</l>
+                  <l>Wyll touche them toppe and towte</l>
+                  <l>And all theyr rufflyng towte</l>
+                  <l>Wyth Clarckly clubbes to cloute</l>
+                  <l>For fyersly hath he fought</l>
+                  <l>Endeuouryng to dryue oute</l>
+                  <l>The reader in our queare</l>
+                  <l>That draweth to hym here</l>
+                  <l>Men commyng farre and neare</l>
+                  <l>There dyd oure Smythe appeare</l>
+                  <l>With countenaunce so cleare</l>
+                  <l>Full chau<g ref="char:cmbAbbrStroke">̄</g>geable in cheare</l>
+                  <l>And dapper as a deare</l>
+                  <l>
+                     <pb facs="tcp:28913:10"/>Chefely he dyd hym charge</l>
+                  <l>How he had taught at large</l>
+                  <l>More then he coulde dyscharge</l>
+                  <l>Or fynde in text or Marge</l>
+                  <l>Concernyng Consecratyon</l>
+                  <l>And Transubstanciation</l>
+                  <l>Or all oure Transmutacion</l>
+                  <l>And Substaunce Alteracion</l>
+                  <l>Deniyng Ueneracion</l>
+                  <l>And also Adoration</l>
+                  <l>In tyme of Ministration</l>
+                  <l>And that <hi>Non dentibus</hi>
+                  </l>
+                  <l>
+                     <hi>Panem Prementibus</hi>
+                  </l>
+                  <l>
+                     <hi>Nullis Euentibus</hi>
+                  </l>
+                  <l>
+                     <hi>Christum Gustari</hi>
+                  </l>
+                  <l>
+                     <hi>Nec Mancipari</hi>
+                  </l>
+                  <l>
+                     <hi>Posse vel de<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ipi</hi>
+                  </l>
+                  <l>
+                     <hi>Sensus, cum Recipi</hi>
+                  </l>
+                  <l>
+                     <hi>Dabitur Panis.</hi>
+                  </l>
+                  <l>
+                     <hi>Sed Smyth, I<gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>nanis</hi>
+                  </l>
+                  <l>
+                     <hi>Abiit Inanis</hi>
+                  </l>
+                  <l>But or he wente awaye</l>
+                  <l>He trymmed hym I saye</l>
+                  <l>Wyth goodly tantes and gaye</l>
+                  <l>And wyth a tryggum tray</l>
+                  <l>Lyke a fyne <hi>Philologus</hi>
+                  </l>
+                  <l>
+                     <pb facs="tcp:28913:11"/>Or rather a <hi>Pantolobus</hi>
+                  </l>
+                  <l>He called hym <hi>Spermologus</hi> ☜</l>
+                  <l>And wold haue a <hi>Dialogus</hi>
+                  </l>
+                  <l>But were there a <hi>Catalogus</hi>
+                  </l>
+                  <l>Of hym and al hys sect</l>
+                  <l>He myght be chef elect</l>
+                  <l>These reders to correct</l>
+                  <l>For wel can he obiect</l>
+                  <l>And Subtelly suspect</l>
+                  <l>In thynges that be dyrect</l>
+                  <l>But sure yf he be chect</l>
+                  <l>Your corrage is deiect</l>
+                  <l>And al your hope in vayne</l>
+                  <l>Yet styl wyl I remayne</l>
+                  <l>To take for you greate payne</l>
+                  <l>Yf ye wyl me retayne</l>
+                  <l>And put my selfe in parrel</l>
+                  <l>To fyght thus in your quarrell</l>
+                  <l>Yf thou O Poet once</l>
+                  <l>That well canst cowche thy stones</l>
+                  <l>Or fab<gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> wyth hys mall</l>
+                  <l>To me for helpe wyll call</l>
+                  <l>Either wyth boke or word</l>
+                  <l>
+                     <pb facs="tcp:28913:11"/>Soone wyl I be the thyrd</l>
+                  <l>So if I fynde you kynde</l>
+                  <l>Certes you shal me bynde</l>
+                  <l>To shew that is behynd</l>
+                  <l>Wel wel ye know my mynde.</l>
+               </lg>
+               <lg>
+                  <l>LO thus Philogamus</l>
+                  <l>After thys sorte</l>
+                  <l>Helpeth Misogamus</l>
+                  <l>Hym to comforte</l>
+                  <l>Agaynst Monogamus</l>
+                  <l>That dothe reporte</l>
+                  <l>That youre Apogamus</l>
+                  <l>Is but aborte.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <closer>
+               <signed>QUOD PHY<g ref="char:EOLhyphen"/>LOGAMUS. Alias. I. What call Ye Hym.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

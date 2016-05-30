@@ -1,0 +1,757 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The cherrie and the slaye. Composed into Scottis meeter, by Alexander Montgomerie</title>
+            <author>Montgomerie, Alexander, 1545?-1598.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1597</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A07656</idno>
+            <idno type="STC">STC 18049</idno>
+            <idno type="STC">ESTC S110021</idno>
+            <idno type="EEBO-CITATION">99845642</idno>
+            <idno type="PROQUEST">99845642</idno>
+            <idno type="VID">10555</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A07656)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 10555)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 437:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The cherrie and the slaye. Composed into Scottis meeter, by Alexander Montgomerie</title>
+                  <author>Montgomerie, Alexander, 1545?-1598.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed be Robert VValde-graue printer to the Kings Majestie,</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>Anno Dom. 1597.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In Scots verse.</note>
+                  <note>Signatures: A-D⁴.</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sco">sco</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2000-00</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2001-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2002-01</date>
+            <label>TCP Staff (Michigan)</label>Sampled and proofread</change>
+         <change>
+            <date>2002-01</date>
+            <label>TCP Staff (Michigan)</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2002-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:10555:1"/>
+            <pb facs="tcp:10555:1"/>
+            <p>THE CHERRIE AND THE SLAYE.</p>
+            <p>
+               <hi>Composed into Scottis Meeter,</hi> by ALEXANDER MONT<g ref="char:EOLhyphen"/>GOMERIE.</p>
+            <p>EDINBVRGH <hi>PRINTED BE RO<g ref="char:EOLhyphen"/>bert UUalde-graue Printer</hi> to the Kings Majestie. Anno Dom. 1597.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:10555:2"/>
+            <pb facs="tcp:10555:2"/>
+            <head>
+               <hi>THE CHERRIE</hi> and the Slaye.</head>
+            <lg>
+               <l>ABout ane bank, quhair birds on bewes, ten thousand times yair notes renewes ilk houre into the day:</l>
+               <l>The Merle, the Maveis may be seine, the Progney and the Philomeine, quhilk caussit me to stay:</l>
+               <l>I laye and leind me to ane busse, to heir thir birdis beir,</l>
+               <l>Thair noyce are so melodiousse, throwe natour of the zeir:</l>
+               <l>Some singing, some springing, with wingis into the skye:</l>
+               <l>So nymlie and trimlie, thir birds thay flew me by.</l>
+            </lg>
+            <lg>
+               <l>I sawe the Hurchone and the Haire, quha fed amang the flowers faire, that hopping to and fro:</l>
+               <l>I sawe the Cunnin and the Cat. quhais downes with the dewe was wat, with vther beastis mo:</l>
+               <l>The Hairt the Hynd, the Dae the Rae, the Fulmarte and the Fox:</l>
+               <l>Were skippand all from bray to bray, amang the watte<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> brox.</l>
+               <l>
+                  <pb facs="tcp:10555:3"/>
+Some feiding, some dreiding, in caice of suddaine snairis,</l>
+               <l>Some tripping, some skipping, thay huntit all in pairis.</l>
+            </lg>
+            <lg>
+               <l>The ayr was so attemperat, but ony mist immaculat, baith puryfeit and cleir:</l>
+               <l>The flouris fair ware flurischit, as natour had thame nurischit, baith delicate and deir:</l>
+               <l>And every blome on branche and bewche, so prettilie was spred:</l>
+               <l>Syne hang thair heids out over ane hewehe, in Mayis cullour cled:</l>
+               <l>Some knopping, some dropping, the balmie liquour sweit:</l>
+               <l>Distelling and smelling, throw Phoebus health some heit.</l>
+            </lg>
+            <lg>
+               <l>The Cuckoe and the Cuschate cryit, the Turtill on the vther side, no plesour had to play:</l>
+               <l>So schill in sorrowe was hir sang, that throwe hir voce the roches rang, and Ecchoe answerit aye:</l>
+               <l>Lamenting sair Narcisses cace, that steruit at the well:</l>
+               <l>Quhairthrowe the shadow of his face, for luife that slewe him sell:</l>
+               <l>Sair weiping and creiping, about the well he baid:</l>
+               <l>Quhyllis lying, quhyllis crying, bot it na answer maid.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:10555:3"/>
+               <l>The dewe as Dyamondis did hing, vpon the tender tuistis zing, over twinkling all the treis:</l>
+               <l>And ay quhair flouris flourischit faire, thair suddainlie I sawe repaire, ane swarme of sownding beeis:</l>
+               <l>Some sweitly hes the hony socht, quhill thay ware cloggit soire:</l>
+               <l>Some cunninglie the wax hes wrocht, to heape it vp in stoire:</l>
+               <l>So heiping for keiping, into thair hyues thay hydit:</l>
+               <l>Preciselie and wiselie, for winter thay prouydit.</l>
+            </lg>
+            <lg>
+               <l>To pen the plesouris of that Park, how every blome on branche and bark, aganes the Sunne did schine:</l>
+               <l>I leife thir Poets to compyle, in staitlie verse and ornat style, it passis my Ingyne:</l>
+               <l>Bot as I muissit myne allane,</l>
+               <l>I sawe ane Ryuer rin:</l>
+               <l>Out over ane Craig and rock of stane, syne lichtit in ane lin:</l>
+               <l>With tumbling and rumbling, amang the rockes round:</l>
+               <l>Devalling and falling into that pit profound.</l>
+            </lg>
+            <lg>
+               <l>To heir the startling streames cleire,</l>
+               <l>I thocht it musike to the eire, quhair deskant did abound:</l>
+               <l>With treble sweet and tenor just,
+<pb facs="tcp:10555:4"/>
+and ay the eccho repercust, the <hi>Diapason</hi> sound.</l>
+               <l>Set with the C. sol fa ut cleife, quhairby to knaw the note,</l>
+               <l>Thay sownd ane michtie semebreife, out of the Elphis throte.</l>
+               <l>Discreitlie mair sweitlie, nor craftie Amphion:</l>
+               <l>Nor muisses that vses, at fountaine Helicon.</l>
+            </lg>
+            <lg>
+               <l>Quha wald haue tyrit to heir that tune, quhilk birds corroborate abune, throw schouting of the Larkis:</l>
+               <l>Quha flewe sa hie into the skyis, quhil Cupid walknit throw the cryis, of natures chappell clarkis:</l>
+               <l>Quha leueing all the heuins aboue, syne lichtit on the eird:</l>
+               <l>Loe how that littil God of loue, befoir me thair appeird:</l>
+               <l>So mild like and childlike, with bowe thrie quartars scante:</l>
+               <l>So moylike and coylike, he luikit like ane Sancte.</l>
+            </lg>
+            <lg>
+               <l>Ane cleinly cirspe hang ouer his eies, his quauer be his naikit thies, hang in ane siluer lace:</l>
+               <l>Of gold betwein his schoulders grewe, twa proper wings quhairwith he flewe, on his left arme ane brace:</l>
+               <l>This God of all his geire he schuik, and laid it on the ground:</l>
+               <l>
+                  <pb facs="tcp:10555:4"/>
+I ran als bessie for to luik, quhair farleyis micht be found:</l>
+               <l>Amazed I gazed, to sie that geir sa gay:</l>
+               <l>Persaueing my haueing, he comptit me his pray.</l>
+            </lg>
+            <lg>
+               <l>Quhat wald thou giue my friend quod he, till haue thir prettie wings to flie, to sport thee for ane quhile:</l>
+               <l>Or quhat gif I suld lend thee heir, my bowe and all my schuitting geir, some bodie to begvle?</l>
+               <l>That geir quod I cannot be bocht, zit wald I haue it faine:</l>
+               <l>Quhat gif quod he it cost thee nocht,</l>
+               <l>Bot rander it againe:</l>
+               <l>His wings than he brings than, and band thame on my bak:</l>
+               <l>Go flie now quod he now, and so my leife I tak.</l>
+            </lg>
+            <lg>
+               <l>I sprang so heich on Cupids wings, quha bowe and quauer baith resings, to lend me for ane day:</l>
+               <l>As Icarus with borrowit flicht, quha mountit heicher nor he micht, ore perrellous ane play:</l>
+               <l>Than furth he drew that deadly dairt, quhilk sometyme hurt his mother:</l>
+               <l>Quhairwith I hurt my wanton hairt, in hope to hurt ane vther:</l>
+               <l>It hurt me and brunt me, the ofter I it handle:</l>
+               <l>
+                  <pb facs="tcp:10555:5"/>
+Cumesie now in me now, the Butterflie and candle.</l>
+            </lg>
+            <lg>
+               <l>As scho delyttis into the lowe, so was I browdin on my bowe, as ignorant as scho:</l>
+               <l>And as scho flies quhill scho be fyrit, so with the dairt that I desyrit, my handis hes hurt me to:</l>
+               <l>As fulisch Phaetone be suite, his fathers cairte obteind:</l>
+               <l>I langit in luiffis bowe to schuite, and wist not quhat it meind:</l>
+               <l>Moir wilfull nor skilfull, to flie I was so fond:</l>
+               <l>Desyring Impyring, and so was seene appond.</l>
+            </lg>
+            <lg>
+               <l>To lait I knaw quha hewes to hie, the speill sall fall into his eye, to lait I went to schooles:</l>
+               <l>To lait I hard the swallow preich, to lait experience dois teich, the School-maister of fooles:</l>
+               <l>To lait I find the nest I seik, quhen all the birdis aie flowne:</l>
+               <l>To lait the stabill dure I steik, quhen all the steids are stolne:</l>
+               <l>To lait ay thair state aye, all foolish folke espye:</l>
+               <l>They find to behind to, remeid and so do I.</l>
+            </lg>
+            <lg>
+               <l>Bot had I ryplie bene aduysit,</l>
+               <l>I had not raschelie interprysit,
+<pb facs="tcp:10555:5"/>
+to soire with borrowit pennis:</l>
+               <l>Nor zit haue say it the Archere craft, nor schot my selfe with sic ane schaft, as ressoun quite miskennis:</l>
+               <l>Fra wilfulnes gaif me the wound,</l>
+               <l>I had na force to flie:</l>
+               <l>Thane come I grauand to the ground, friend welcome hame quod he:</l>
+               <l>Quhair flew ze, quhom slew ze, or quha bringis hame the buiting:</l>
+               <l>I see now, quod he now, ze haue bein at the schuiting.</l>
+            </lg>
+            <lg>
+               <l>As scorne comes còmmonlie with skaith, sa I behuifit to bide thame baith, oh! quhat ane stakkarand stait:</l>
+               <l>For vnder cuire I got sik check, that I micht neither muife nor neck, bot ather stale or mait. myne agonie was sa extreme,</l>
+               <l>I swate and swound for feire:</l>
+               <l>Bot or I walknit of my dreame, he spuilzeit me of my geire:</l>
+               <l>With flichrthan, on hicht thane, sprang Cupid in the skyis:</l>
+               <l>Forzetting, and setting at nocht my cairfull cryis.</l>
+            </lg>
+            <lg>
+               <l>So long with sicht I follow it him, quhill baith my febillit eyis grewe dim, throw stairing on the starnes.</l>
+               <l>Quhilk flawe so thick before my eyne,</l>
+               <l>Some reid, some yeallowe, blew and greine, quhilk trubillit all my harnes:</l>
+               <l>
+                  <pb facs="tcp:10555:6"/>
+Quhill every thing appeirit two, to my barbruilzeit braine:</l>
+               <l>Bot lang micht I lye luiking tho, or Cupid come againe:</l>
+               <l>Quhais thundering, with wondering,</l>
+               <l>I hard vp throwe the ayr:</l>
+               <l>Throwe cloudis so, he thuids so, and flewe I wist not quhair.</l>
+            </lg>
+            <lg>
+               <l>Bot fra I sawe that God was gane, and I in langour left allane, and soire tormentit to:</l>
+               <l>Sumtyme I sicht quhill I was sad, sumtyme I muissit and maist gane mad,</l>
+               <l>I wist not quhat to do:</l>
+               <l>Sumtyme I ravit halfe in ane rage, as ane into dispaire:</l>
+               <l>To be opprest with sik ane page</l>
+               <l>Lord gif my hairt was saire:</l>
+               <l>Like Dido, Cupido,</l>
+               <l>I widill and I warye:</l>
+               <l>Quha left me, and reft me in sic ane furye farye.</l>
+            </lg>
+            <lg>
+               <l>Thane felt I currage and desyre, inflame my hairt with vncowth fyre, to me befoir vnknaw in:</l>
+               <l>Bot now na bluid in me remaines vnbrunt and bruilzeit throw my vaines, be luiffis bellowes blawin:</l>
+               <l>To quenche it or I was devorit, with siches I went about:</l>
+               <l>Bot ay the moire I schape to smorit, the baulder it brak out:</l>
+               <l>
+                  <pb facs="tcp:10555:6"/>
+Aye pressing, but sessing, quhil it may breik the bounds:</l>
+               <l>My hewe so, furth schew so, the dolour of my wounds.</l>
+            </lg>
+            <lg>
+               <l>With deadlie visage paill and wan, mair like ane attomie nor man,</l>
+               <l>I widderit cleine away:</l>
+               <l>As wax befoir the fyre I felt my hairt within my bosome melt, and peece and peece decay:</l>
+               <l>My vaines with brangling like to brek, my punsis lap with pithe:</l>
+               <l>So ferventlie did me infek, that I am vext thairwith:</l>
+               <l>My hairt ay, did start ay,</l>
+               <l>The fiery flames to flie:</l>
+               <l>Aye houping, throwe louping, to win to libertie,</l>
+            </lg>
+            <lg>
+               <l>Bot zit allace bide it behuiffit, within my cairfull corpis incluissit, and pressone of my breist:</l>
+               <l>With sichis so soippit and oresette, like to ane fische fast in the nette, in deadthraw vndeceist:</l>
+               <l>Quhais thocht in vaine dois striue for strenth for to pull out her head:</l>
+               <l>Quhilk profeittis nathing at the lenth, bot haistes hir to hir dead.</l>
+               <l>Ay wristing and thristing, the faster still is scho:</l>
+               <l>And I so dois lye so, my death avanceing to.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:10555:7"/>
+               <l>The mair I wressellit with the wind, the faster still my selfe I find, na mirth my mind could mease:</l>
+               <l>Mair noye nor I tried neuer nane,</l>
+               <l>I was sa alterrit and oregane, throw drowth of my disease:</l>
+               <l>Zit weaklie as I micht I rayis, my sicht grewe dim and dark:</l>
+               <l>I stakkerit at the windilstrayis, no takin I was stark:</l>
+               <l>Baith sichtles, and michtles,</l>
+               <l>I grewe almaist attanes:</l>
+               <l>In anguisch, I languisch, with mony grievous granes.</l>
+            </lg>
+            <lg>
+               <l>With sober pace I did approche hard to the River and the roche, quhairof I spak befoir:</l>
+               <l>Quhais running sicke ane murmure maid, as to the sey it swiftlie slaid, ore craig, ore clewch, ore schoir:</l>
+               <l>Thair plesoure did me so prouok, perforce for to repaire:</l>
+               <l>Betuix the River and the rock, quhair hoipe grewe with dispaire:</l>
+               <l>Ane trie thair, I see thair, of cherreis on the brais,</l>
+               <l>Belawe to, I sawe to ane bush of bitter <hi>Slais.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Chirries hang abutie my heid, like twinkling rewbeis round and reid, so hich vp in the hewch:</l>
+               <l>Quhais schaddowes in the River schew,</l>
+               <l>
+                  <pb facs="tcp:10555:7"/>
+Als graithlie glansing as thay grewe, on trimbling twistis tewch:</l>
+               <l>Quhilk bowed throw burding of thair birth, in hanging downe thair toppis:</l>
+               <l>Reflexe of Phoebus in the firth, orecouerit all the knoppis: with dansing, and glansing, in tirles dornik champ:</l>
+               <l>Quhilk streimet, and gleimet, throw lichtnes of that lamp.</l>
+            </lg>
+            <lg>
+               <l>With earnest eye I can espye, the fruit betwix me and the skye, halfe gaite almaist to hevin:</l>
+               <l>The craige so cumbersome to clime, the trie so hich of growth and trime, as ony arrowe evin:</l>
+               <l>I call to minde how Daphne did, within the Laurell schrink:</l>
+               <l>Quhen from Appollo scho hir hid, ane thousand times I think:</l>
+               <l>That trie then, to me then, as hich as laurell thocht:</l>
+               <l>Espyring, but tyring, to get the fruit I socht.</l>
+            </lg>
+            <lg>
+               <l>To clime the Craige it was na buit,</l>
+               <l>Iat be to presse to pull the fruit, in top of all the trie:</l>
+               <l>I saw na way quhairby to cum, be ony craft to get it clum, appeirandly to me:</l>
+               <l>The craig was vgly stay and dreiche, the trie heich lang and sinal:</l>
+               <l>
+                  <pb facs="tcp:10555:8"/>
+I was effrayit to mount so heich, for feir to get ane fall:</l>
+               <l>I freyit, to sey it,</l>
+               <l>I luikit vp on loft:</l>
+               <l>Quhillis minting, quhillis stinting, my purpose changit oft.</l>
+            </lg>
+            <lg>
+               <l>Thane dreid with danger and dispaire, forbad me mounting ony maire, to raxe abune my reiche:</l>
+               <l>Quhat? tusch quod curage man go to, he is but daft that hes ado, that stay is for every speiche:</l>
+               <l>For I haue oft hard wise men say, and we may sie it our selfis:</l>
+               <l>That fortune helps the hardie ay, and pultrones plaine repellis:</l>
+               <l>Thane feir not, nor heir not, dreid danger or dispaire:</l>
+               <l>To fazarts, hard hazarts, is dead or thay come thaire.</l>
+            </lg>
+            <lg>
+               <l>Quha speids botsik as hie aspyris, quha tryumphis not botsic as tyris, to win ane nobill name:</l>
+               <l>Ofschrinking quhat? bot schame succeidis, thane do as thou wald haue thy deidis, in register of fame:</l>
+               <l>I put the caice thou not preuaill, swa thou with honor die:</l>
+               <l>Thy life bot not thy curage faill, sall Poettis pen of thee.</l>
+               <l>Thy name than, from fame than, sall never be cut aff:</l>
+               <l>
+                  <pb facs="tcp:10555:8"/>
+Thy graue aye, sall haueaye, ane honest Epitaphe.</l>
+            </lg>
+            <lg>
+               <l>Quhat can thou lose quhen honor liues, renowne thy vertewe ay reviues, gif vailzeantly thou end:</l>
+               <l>Quod danger hulie friend tak heid, vntymeous spurring spillis the speid, tak tent quhat ze pretend:</l>
+               <l>Thocht currage counsall thee to clim, beware thou kep na skaith:</l>
+               <l>Haue thou na help bot hope in him, he may begyle ze baith:</l>
+               <l>Thy sell now, can tel now, the counsall of these clarkis:</l>
+               <l>Quhairthrow zit, I trowe zit, thy breist dois beir the markis.</l>
+            </lg>
+            <lg>
+               <l>Brynt bairne with fire, the danger dreids,</l>
+               <l>Sa I beleife thy bossome bleids, sen first the fire thou felt:</l>
+               <l>Besides that sendill tymes thou seis, that every currage keipis the key is, of knawledge be his belt:</l>
+               <l>Thocht he bid fordwart with the gunnes, small poulder he provides:</l>
+               <l>Be not ane novis of the Nunnes, that sies not baith the sydes:</l>
+               <l>Fuill haist aye, almaist aye, oresertis the sicht of some:</l>
+               <l>Quha huiks not, nor luiks not, quhat esterward may come.</l>
+            </lg>
+            <lg>
+               <l>Zit wisdome wisses thee to wie, the sentence of Philosophie:
+<pb facs="tcp:10555:9"/>
+ane lessoun worth to leir:</l>
+               <l>Quhilk is in time for to tak tent, and not quhen tyme is past repent, and buy repentance deir:</l>
+               <l>Is thair na honour efter lyfe, except thou slay thy sell:</l>
+               <l>Quhairfoir hes Attropus the knyfe,</l>
+               <l>I trow thou can not tell.</l>
+               <l>That but it, wald cut it, that Clotho skairse hes spun:</l>
+               <l>Distroying, thy joying, befoire it be begun.</l>
+            </lg>
+            <lg>
+               <l>All owers ar recknit to be vice, ore hie, ore law, ore rich, ore wyis: ore heit, or zit ore cauld:</l>
+               <l>Thou seemes vnconstant be thy sings, thy thocht is on ane thousand things, thou wattis not quhat thou wald:</l>
+               <l>Let fame hir pittie on the poure, quhill all thy banes ar brokin:</l>
+               <l>Zone <hi>Slaye</hi> suppose thou think it soure, may satisfie to flokkin:</l>
+               <l>Thy thrist now, I traist now, gif that thou wald it preife:</l>
+               <l>I say to, it may to, thy painis all releise.</l>
+            </lg>
+            <lg>
+               <l>Quhat fuill art thou to die for thrist, and syne may quenche it quhen thou list, so easilie but paine:</l>
+               <l>Maire honor is to vanquischane, nor feicht with tensum and be tane, and ather huit or slaine:</l>
+               <l>
+                  <pb facs="tcp:10555:9"/>
+Now all the practick is to passe, and not to interprise,</l>
+               <l>Now as gude drinking out of glasse, as gold in ony wise.</l>
+               <l>I had lever, haue ever, ane foull in hand or tway:</l>
+               <l>Nor seand, ten fleand, aboue me all the day.</l>
+            </lg>
+            <lg>
+               <l>Luik quhair thou licht befoir thou loupe, and slip na certaintie for hope, quha gydis thee but be gesse:</l>
+               <l>Quod currage cowartis takis na cuire, to sit with schame sa thay besuire,</l>
+               <l>I like thame all the lesse:</l>
+               <l>Quhat plesour purchessit is but paine, or honor woone with ease:</l>
+               <l>He will not lye quhair he is slaine, that dourtis befoir he deis.</l>
+               <l>For feir then, I heir than, bot onlie ane remeid:</l>
+               <l>That lattis, and yattis for to cutte off the heid.</l>
+            </lg>
+            <lg>
+               <l>Quhat is the way to heall thy hurt, quhat way is thair to stay thy sturt, quhat meanes may mak thee merrie:</l>
+               <l>Quhat is the comfort that thou craues, suppois the Sophists thee dessaues, thou knawis it is the Cherrie:</l>
+               <l>Sen for it only thou bot thristis, the <hi>Slae</hi> can be nabuit:</l>
+               <l>In it also thy health consistis, and in na vther fruit:</l>
+               <l>
+                  <pb facs="tcp:10555:10"/>
+Thou quaikis aye, and schaikis aye, and studies at our strife:</l>
+               <l>Aduise ye, it lyis ye, on na lesse nor thy life.</l>
+            </lg>
+            <lg>
+               <l>Gif ony patient wald be panssit, quhy suld he loup quhen he is lanceit, or schrink quhen he is schorne:</l>
+               <l>For I haue hard Chirurgianes say, oft tymes defferrand of the day, may not be mend the morne:</l>
+               <l>Tak tyme in tyme or tyme be tint, for tyme will not remaine:</l>
+               <l>Quhat forssis fyre out of the flint, bot als hard matche againe:</l>
+               <l>Delay not, nor stay not, and thou sall sie it sa:</l>
+               <l>Sic gettis ay, as settis ay, stout stomakis to the bray.</l>
+            </lg>
+            <lg>
+               <l>Thocht all beginnings be most hard, the end is plesant efterward, now schrink not for ane schoure:</l>
+               <l>Fra anes that thou thy grening get, thy paine and trauell is forzet, the sweet exceids the soure:</l>
+               <l>Go to now quicklie, fear not thir, for hope gude hap hes heichte:</l>
+               <l>Quod danger be not suddane schir, the matter is of weichte:</l>
+               <l>First spye baith, and trie baith, aduisement dois na ill:</l>
+               <l>I say to, you may to, be wilfull quhen you will.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:10555:10"/>
+               <l>Bot zit to mind thir proverbs call, quha vsis perrellis perrisch sall, schort quhile thair lyffis lastis:</l>
+               <l>And I haue hard that hope quod he, maid never schip to saill the see, that for all perrils castis:</l>
+               <l>How many throw dispaire ar dead, that never perrellis preiuit:</l>
+               <l>How many also as we read, of liues hes bene releiuit:</l>
+               <l>Some deing, some being, but danger or dispaire:</l>
+               <l>Ane hunder, I woonder, that I haue hard declair.</l>
+            </lg>
+            <lg>
+               <l>Gif we twa hald not vp thy hairt, quhilk is the cheife and nobillest pairt, thy wark will not gang weill:</l>
+               <l>Considdering that companions can, perswade ane sillie sempill man, to haissard for his heill:</l>
+               <l>Suppois thay haue disswadit some, or we and thay micht meit:</l>
+               <l>Thay get na credit quhair we come, in ony man of spreit:</l>
+               <l>Be ressoun, thair tressoun, be vs was first espyit:</l>
+               <l>Reveilling, thair deilling, quhilk dowe not be denyit.</l>
+            </lg>
+            <lg>
+               <l>With sleikit sonats seiming sweit, as all thair doings war discreit, thay wis thee to be wise:</l>
+               <l>Postponing tyme from hour to hour,
+<pb facs="tcp:10555:11"/>
+bot faith in vnderneath the flour, the lurking Serpentlyis:</l>
+               <l>Suppois thou seis hir not ane styme, till tyme scho stang thy fute:</l>
+               <l>Persauis thou not quhat pretious tyme, thy slewthing dois oreschute:</l>
+               <l>Allace man, thy cace than, in lingring I lament:</l>
+               <l>Go to now, and do now, that curage be content.</l>
+            </lg>
+            <lg>
+               <l>Quhat gif melanchollie come in, and get ane grip or thou begin, than is thy labour lost:</l>
+               <l>For he will hald thee hard and fast, till tyme and place and all be past, that thou giue vp the ghost:</l>
+               <l>Thane sall be gravin on the stane, quhilk on thy graue is laid:</l>
+               <l>Sometyme there liued sic a ane, bot how sall it be said:</l>
+               <l>Heir lyis now, but prise now, into dishonors bed:</l>
+               <l>Ane cowart, as thou art, that from his fortune fled.</l>
+            </lg>
+            <lg>
+               <l>Imagine than gif thou were laid, in graue and syne micht heir that said, wald thou not sweat for schame:</l>
+               <l>Yes faith, I dout not bot thou wald, thairfoir gif thou hes eyes behald, how thay wald smoir thy fame:</l>
+               <l>Go to, and mak na mair excuse, now life or honor lose:</l>
+               <l>
+                  <pb facs="tcp:10555:11"/>
+And ather thame or vs refuse, thair is na vther chose:</l>
+               <l>Considder, togidder, that we can never dwell:</l>
+               <l>At lenth aye, be strenth aye, sic pultrons we expell.</l>
+            </lg>
+            <lg>
+               <l>Quod danger sen I vnderstand, that counsall can be na command,</l>
+               <l>I haue na mair to say:</l>
+               <l>Except that gif he think it gude, tak counsall zit or ze conclude, of wiser men than they:</l>
+               <l>Thay ar bot witlesse, young and rasche, suppois thay think vs fleit:</l>
+               <l>Gif of our fellowschip you fasch, gang with thame hardlie be it:</l>
+               <l>God speid you, thay leid you, that hes not meikill wit:</l>
+               <l>Expell vs, and tell vs, heirefter comes not zit.</l>
+            </lg>
+            <lg>
+               <l>Quhill danger and dispair reteirit,</l>
+               <l>Experience came in and speirit, quhat all the matter meind:</l>
+               <l>With him came ressonn, wit and skill, and thay began to speir at will, quhair mak ze to my friend:</l>
+               <l>To pull zone lustie cherrie loe, quod he, and not the slaye:</l>
+               <l>Quod thay, is thair na mair adoe, or ze gang vp the braye:</l>
+               <l>Bot to it, and do it, perforce the fruit to pluck:</l>
+               <l>
+                  <pb facs="tcp:10555:12"/>
+Weill brother, some other, wer better to conduck.</l>
+            </lg>
+            <lg>
+               <l>I grant ze may be gude aneuch, bot zit the hassard of ane hewch, requyris ane better gyde:</l>
+               <l>As wise as ze ar may gang wrang, thairfoir tak counsall or ze gang, of some that stands beside:</l>
+               <l>Bot quhilk wer zone thrie ze forbad, your company richt now:</l>
+               <l>Quod will, thrie prechours to perswad, the poyssonit <hi>Slae</hi> to pow:</l>
+               <l>Thay trattell, thay rattell, ane lang halfe houre and mair:</l>
+               <l>Foul fall thame, they cal thame, dreid danger and dispair.</l>
+            </lg>
+            <lg>
+               <l>Thay ar maire faschious nor of feck, zone faissard durst not for his neck, clime vp the Craig with vs:</l>
+               <l>For we determinate war to die, or else to clime zone <hi>Cherrie</hi> trie, thay baid about the busse:</l>
+               <l>Thay ar conditionate like the Cat, that wald not weit her feit:</l>
+               <l>Bot zit gif of the fruite we gat, thay wald be faine to eit:</l>
+               <l>Thocht thay now, I say now, to haissard hes na hart:</l>
+               <l>Zit luck we, and pluck we, the fruit thay wald haue part.</l>
+            </lg>
+            <lg>
+               <l>Bot gif we get our voyage won, thay sall not than our <hi>Cherrie</hi> con,</l>
+               <l>
+                  <pb facs="tcp:10555:12"/>
+That wald not interprise:</l>
+               <l>Weill quod experience ze boist, bothe that comptis without his oist, oft tymes he comptis twise:</l>
+               <l>Ze sell the Bear skin on his bak, bot bide quhill ze it get:</l>
+               <l>Quhen ze haue done its tyme to crak, fisch not befoire the net:</l>
+               <l>Quhat haist schir, ze taist schir, the <hi>Cherrie</hi> or ze pow it:</l>
+               <l>Beware zit, ze ar zit, mair talkatiue nor trowit.</l>
+            </lg>
+            <lg>
+               <l>Call danger back agane quod skill, and see quhat he can say to will,</l>
+               <l>We see him schod to strait:</l>
+               <l>We may not trowe that ilk ane tells, quod curage we concludit ells, he serues not for our nait:</l>
+               <l>For I can tell you all perqueir, his counsall and ze will:</l>
+               <l>Quod wil, quhairto suld he come heir, he can not hald him still.</l>
+               <l>He speiks ay, and seiks ay, delayis of tymes be drifts:</l>
+               <l>He grieues vs and deues vs, with sophistries and schifts.</l>
+            </lg>
+            <lg>
+               <l>Quod ressoun, quhy was he debard, the tale is ill may not be hard, zit let vs heir him anes:</l>
+               <l>Thane danger to declaire begane, how hope and curage tuik the man, and led him all thair lanes:</l>
+               <l>
+                  <pb facs="tcp:10555:13"/>
+For thay wald haist him vp the hill, but ather stop or stay:</l>
+               <l>And quha wes welcomer nor will, he wald be foremaist ay:</l>
+               <l>He culd do, and suld do, quha ever wald or nocht:</l>
+               <l>Sic speiding, preceiding, vnlikelie was, I thocht.</l>
+            </lg>
+            <lg>
+               <l>Thairfoir I wisse him to be war, and raschlie not to run ore far, with sic ane gyde as ze:</l>
+               <l>Quod curage, friend I heir ze faill remember better on your taill, ze said it micht not be:</l>
+               <l>Beside that ze wald not consent, that ever we suld clim:</l>
+               <l>Quod will, for my part I repent, that we saw you or him:</l>
+               <l>For thay ar, the stayer, of vs als weill as he:</l>
+               <l>I think now, thay schrink now, go fordwart let thame be.</l>
+            </lg>
+            <lg>
+               <l>Go to quhat do we heir bot gucks, thay say that voyage never lucks, quhair ilk man hes ane voit:</l>
+               <l>Quod wisdome, grathlie schir I grant, we were the war your voite to want, some sentence now I note:</l>
+               <l>Suppois ze speak it bot be gesse, some fruit thairin I find:</l>
+               <l>Ze wald be fordwart I confesse, and comes oft tymes behind:</l>
+               <l>
+                  <pb facs="tcp:10555:13"/>
+It may be, that thay be, dissavit that never doutit:</l>
+               <l>Indeid schir, that heid schir, hes meikill wit about it.</l>
+            </lg>
+            <lg>
+               <l>Thane wilfull will began to rage, and sware he fand na thing in age, bot anger; yre and grudge:</l>
+               <l>And for my selfe quod he I sweir. to quite all my companions heir, and thay admit you Iudge:</l>
+               <l>Experience is growne sa auld, that he begins to raue:</l>
+               <l>The laife but curage are sa cauld, <gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a hassarting they haue:</l>
+               <l>For danger, for stranger, hes ever maid thame ware,</l>
+               <l>Go fra thame, we pray thame, that neither do nor dare.</l>
+            </lg>
+            <lg>
+               <l>Quhy may not we three lead this ane,</l>
+               <l>I led ane hundreth myne allane, but counsall of thame all?</l>
+               <l>I grant quod wisdome ze haue led, bot I wald speir how many sped, or fordward but ane fall?</l>
+               <l>For thair is nane or few I trow,</l>
+               <l>Experience can tell:</l>
+               <l>Men sayis that he may wite bot you, the first tvme that he fell:</l>
+               <l>He kens now quhais pennes now; thou borrowit fra the Clarkis:</l>
+               <l>His wounds zit, quhilk sounds zit,</l>
+               <l>I trowe dois heir the markis.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:10555:14"/>
+               <l>Than quod Experience is it trew,</l>
+               <l>Wil, flatterit him quhan that he slew, and set him in ane low:</l>
+               <l>Wil, was his counsall and convoy, to borrowe fra the blindit boy, baith quiver and his bow:</l>
+               <l>Quhairwith befoir he seyit to schuit, he never yeild to youth:</l>
+               <l>Nor zit had need of any fruit, to quench his deadly drouth:</l>
+               <l>Quhilk pynis him, and dwinis him, to deid I wat not how:</l>
+               <l>Gif Will than, did ill than, himselfe considder now.</l>
+            </lg>
+            <lg>
+               <l>For I Experience was thair, like as I vse to be all quhair: quhat tyme he wytis will</l>
+               <l>To be the cause of his mischeife, for I my self can be ane preife, and witnesse thairintill:</l>
+               <l>Thair is na bounds bot I haue bene, nor heich things from me hid,</l>
+               <l>Nor secreit things bot I haue sene, that he or any did:</l>
+               <l>Thairfoir now, na moir now, let him think to conceill:</l>
+               <l>For quhy now, evin I now, am detbond to reveill.</l>
+            </lg>
+            <lg>
+               <l>My custome is for to declair the trueth, and nather eik nor pair for any man ane jot:</l>
+               <l>Gif wilfull will delytis in leis,
+<pb facs="tcp:10555:14"/>
+exempill in thy selfe thou se is, how he can turne his cote:</l>
+               <l>And with his language till allure thee for to brek thy banes:</l>
+               <l>Sometyme ze sawe gif ze war sure, thou vsit his counsall anes:</l>
+               <l>Quha wald zit, behauld zit, to wrak thee war than we:</l>
+               <l>Think on now, of zone now, quod wisdome than to me.</l>
+            </lg>
+            <lg>
+               <l>Than quod Experience gif that he, will come himselfe to you and me,</l>
+               <l>I wat quhat I suld say:</l>
+               <l>Gif he be wise he sall not want, providing alway that he grant, to put zone will away:</l>
+               <l>And banisch baith him and dispaire, that all gude purpose spillis:</l>
+               <l>Swa he wald mell with vs na mair, let thame twa flyte thair fillis:</l>
+               <l>Sic coissing, but loissing, all honest men may vse:</l>
+               <l>That change now, were strange now, quod ressoun to refuse.</l>
+            </lg>
+            <lg>
+               <l>Thane altogidder thay began, to say come on thou martyrit man, and do as we devise:</l>
+               <l>Abaisd ane bony quhile I baid, and muissit or I answer maid, and turnit me anes or twise:</l>
+               <l>Behalding every ane about,</l>
+               <l>I feirit to speik in haist:</l>
+               <l>
+                  <pb facs="tcp:10555:15"/>
+Some seirnd assurit, some dred for dout, some ran reid wood almaist:</l>
+               <l>With wringing, and thringing, his hands on vther dang:</l>
+               <l>Dispaire to, for cair to, wald needs himselfe go hang.</l>
+            </lg>
+            <lg>
+               <l>Fra time experience persauit, quod he remember ze ressauit, as will alledgit of laite:</l>
+               <l>Quhen as he sware nocht else he saw, in age bot anger slack and slaw, and cankerit of consait:</l>
+               <l>He culd not luck as he alledgit, that all opinions speirit:</l>
+               <l>He was sa frak and fyerie edgit, he thocht not to be feirit:</l>
+               <l>Quha pansis, on chancis, quod he na worschip winnis:</l>
+               <l>Ay some best, sall come best, that hapweill rakwell rinnis.</l>
+            </lg>
+            <lg>
+               <l>Zit quod experience behauld, for all the tales that he hes tauld, how he himselfe behaues:</l>
+               <l>Because dispair culd come na speid, luik quhair he hangs all botthe heid, and in ane withie waues:</l>
+               <l>Gif thou be sory thou may see, two men that with thame mellis:</l>
+               <l>Gif thay haue hurt or help it thee, considder be thame selfis:</l>
+               <l>Than chuse ze, to vse ze, with vs or sic as zone:</l>
+               <l>
+                  <pb facs="tcp:10555:15"/>
+Say sone now, haue done now, mak ather off or one.</l>
+            </lg>
+            <lg>
+               <l>Persaues thou not quhairfra proceids, the frantick fantasses that feids. thy furious flaming fire:</l>
+               <l>Quhilk dois thy bailfull breist combuir, bot naue bot we (quod thay) can cuir, nor kennis quhat dois require:</l>
+               <l>The passions of thy pensiue spreits, that waists thy fatall breath:</l>
+               <l>Hes healit thy heavie hart with heits, desire drawes on thy death:</l>
+               <l>Thy punssis, denuncis, all kind of quiet rest:</l>
+               <l>That fever, hes ever, thy personay opprest,</l>
+            </lg>
+            <lg>
+               <l>Quod thay were thou acquaint with skill, he knawis quhat humors dois thee ill, qubair thou thy cares contraks:</l>
+               <l>He knaw is the ground of all thy griefe, and recepts to for thy releife, all medicines he maks:</l>
+               <l>Come on quod skill content am I, to put my helping hand:</l>
+               <l>Providing alwaies he apply, to counsall and command:</l>
+               <l>Quhill we than, quod he than, armindit to remane:</l>
+               <l>Gif place now, in caice now, thou get vs not agane.</l>
+            </lg>
+            <lg>
+               <l>Assure thy selfe gif that we sehed, thou fall not get thy purpose sped,</l>
+               <l>
+                  <pb facs="tcp:10555:16"/>
+Tak tent I haue thee tauld:</l>
+               <l>Haue done and driue not of the day, the man that will not quhen he may, he fall not quhen he wald:</l>
+               <l>Quhat will you do, I wald we wist, except or gif vs over:</l>
+               <l>Quod he I think me mair nor blist, to find sic famous foure:</l>
+               <l>Beside me, to gyde me, now quhen I haue ado:</l>
+               <l>Considering, the swidering, ze fand me first into.</l>
+            </lg>
+            <lg>
+               <l>Than currage with ane stomack stout, and danger drewe me into dout, with his companione dreid:</l>
+               <l>Quhillis will wald vp abune the ayre, quhillis I was dround into dispaire. quhillis hope held vp my heid:</l>
+               <l>Sic pithie ressouns and replies, on every side thay shewe,</l>
+               <l>That I quha wes not very wise, thocht all thair tales wer trewe:</l>
+               <l>So monie, and bonie, auld probleames thay expound:</l>
+               <l>Baith quicklie, and liklie,</l>
+               <l>I marvell meikill ond.</l>
+            </lg>
+            <lg>
+               <l>Zit hope and currage wan the feild, thocht dreid and danger wald not zeild, bot fled to find refudge:</l>
+               <l>Fra we conveind sa, thay were faine, because he cald thame bak againe, thay glaid to get him Iudge:</l>
+               <l>
+                  <pb facs="tcp:10555:16"/>
+Quhair thay were fugitiue befoir, now ar thay franck and fre:</l>
+               <l>To speak and stand in awe na moir, quod ressoun swa suld be:</l>
+               <l>Oft tymes nowe, but crimes now, men being forced falls:</l>
+               <l>The strangay, with wrang ay, puts waiker to the walls.</l>
+            </lg>
+            <lg>
+               <l>Quhilk is ane fault ze man confesse, strength is not ordanit to oppresse, with rigour by the richt:</l>
+               <l>Bot be the contrair to susteine, the walk anes that oreburdenit beine, als meikill as thay micht:</l>
+               <l>So hope and currage did quod I, weill exprementit like:</l>
+               <l>Schaw skills and wills occasion quhy, that danger lap the dike:</l>
+               <l>Quod dreid schir, tak heid schir, lang speiking part will spill:</l>
+               <l>Insist not, we wist not, we went aganis our will.</l>
+            </lg>
+            <lg>
+               <l>With currage ze were sa content, ze never socht our small consent, of vs ze stand na awe:</l>
+               <l>Thair logick ressouns ze allowit, ze wer determinate to trow it, alledgeance past for lawe:</l>
+               <l>For all the proverbs ze pervsit, ze thocht vs skantly skillit:</l>
+               <l>Our ressouns had bene als weill vsit, had ze bene als weill willit:</l>
+               <l>
+                  <pb facs="tcp:10555:17"/>
+Till our side, as your side, sa trewlic as wes termit:</l>
+               <l>I see now, in thee now, effection dois affermit.</l>
+               <l>Experience thairat blinkt and smylit, we are na bairns to be begylit, quod he and schuik his heid:</l>
+               <l>For authours quha alledgis vs, thay may not win about the bus, for all thair deadly foid:</l>
+            </lg>
+         </div>
+         <div type="imprimatur">
+            <p>
+               <hi>Printed be R. W.</hi> Cum Privilegio Regali.</p>
+            <pb facs="tcp:10555:17" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
