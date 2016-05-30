@@ -1,0 +1,704 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nuncius inanimatus</title>
+            <author>Godwin, Francis, 1562-1633.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1629</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A01809</idno>
+            <idno type="STC">STC 11944</idno>
+            <idno type="STC">ESTC S118694</idno>
+            <idno type="EEBO-CITATION">99853901</idno>
+            <idno type="PROQUEST">99853901</idno>
+            <idno type="VID">19302</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A01809)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 19302)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 579:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Nuncius inanimatus</title>
+                  <author>Godwin, Francis, 1562-1633.</author>
+               </titleStmt>
+               <extent>[2], 18 p.   </extent>
+               <publicationStmt>
+                  <publisher>[J. Bill]],</publisher>
+                  <pubPlace>In Vtopia [i.e. London?] :</pubPlace>
+                  <date>1629.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>On distant communication via pigeons, beacons, etc.--STC.</note>
+                  <note>Verses at end init.: Ed. M[ahon, alias] Ch[ristopher].--STC.</note>
+                  <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Homing pigeons --  England --  Early works to 1800.</term>
+               <term>Communication --  England --  Early works to 1800.</term>
+               <term>Beacons --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2000-00</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2001-06</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2001-00</date>
+            <label>TCP Staff (Michigan)</label>Sampled and proofread</change>
+         <change>
+            <date>2001-00</date>
+            <label>TCP Staff (Michigan)</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2001-11</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <body>
+         <div type="title_page">
+            <pb facs="tcp:19302:1"/>
+            <pb facs="tcp:19302:1" rendition="simple:additions"/>
+            <p>
+               <hi>NVNCIVS</hi>
+INANI<g ref="char:EOLhyphen"/>MATVS.</p>
+            <p>In Utopia. 1629.</p>
+         </div>
+         <div type="text">
+            <pb facs="tcp:19302:2"/>
+            <pb n="1" facs="tcp:19302:2"/>
+            <head>NVNCIVS
+INANIMATVS.</head>
+            <p n="1">1. NEminem latere po<g ref="char:EOLhyphen"/>test,
+qui Philoso<g ref="char:EOLhyphen"/>phiam
+vel primis
+(quod aiunt) labris
+degustarit, ad in<g ref="char:EOLhyphen"/>tellectum
+humanum nihil nisi exterio<g ref="char:EOLhyphen"/>rum
+sensuum adminiculo peruenire;
+Vt, qui alium, sine absentem, sine prae<g ref="char:EOLhyphen"/>sentem,
+suae voluntatis certiorem fa<g ref="char:EOLhyphen"/>cere
+velit, hunc aditum ingredi om<g ref="char:EOLhyphen"/>ninò
+habeat necesse.</p>
+            <p n="2">2 Et apud praesentes quidem, alio
+vix vtimur medio quam sermonis,
+qui auditus ministerio, mentem menti
+solet aperire, &amp; quasi coniungere; nisi
+si forte Pallas aliquis reperiatur quan<g ref="char:EOLhyphen"/>doque,
+qui (vt de Claudiano illo li<g ref="char:EOLhyphen"/>berto
+Tacitus) <hi>seruis nihil nisi scrip<g ref="char:EOLhyphen"/>to
+aut nutu mandare solitus est.</hi>
+               <note place="margin">Annal. 13.</note>
+            </p>
+            <p n="3">3 Absenti qui volunt aliquid in<g ref="char:EOLhyphen"/>dicare,
+<pb n="2" facs="tcp:19302:3"/>
+&amp; Nunciorum fidei non om<g ref="char:EOLhyphen"/>nia
+credere, per oculos ingerunt, quae
+per aures, aut non possunt, aut tu<g ref="char:EOLhyphen"/>tum
+non existimant. Quem quidem in
+finem, literas solemus exarare, animi
+indices, quae iussa plerunque satis fi<g ref="char:EOLhyphen"/>deliter
+peragunt, nisi vbi, vel Nuncio<g ref="char:EOLhyphen"/>rum
+perfidia, aut negligentia, vel
+itinerum impedimenta in causâ sunt,
+vt ad destinatum locum indicia nostra
+non perueniant.</p>
+            <p n="4">4 His vti<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> incommodis, remedia
+nonnulla sunt ab antiquis excogitata;
+quae (praeterea quòd viam expedire vi<g ref="char:EOLhyphen"/>debantur,
+&amp; Nuncios adhibere, qui
+facilè non possent corrumpi) celeritatem
+etiam pollicebantur, qualem nullus ho<g ref="char:EOLhyphen"/>minum
+praestare posset, nisi qui tan<g ref="char:EOLhyphen"/>quam
+Perseus alter, Pegasum nescio
+quem alatum (vt liter as, seque perfer<g ref="char:EOLhyphen"/>ret)
+nactus fuisset.</p>
+            <p n="5">5 Illorum inuenta huiusmodi a<g ref="char:EOLhyphen"/>pud
+Historicos commemorata, non pi<g ref="char:EOLhyphen"/>gebit
+paucis recensere, vt postquàm
+Nuncium porrò hunc meum descrip<g ref="char:EOLhyphen"/>serim,
+&amp; quid polliceatur retulerim,
+<pb n="3" facs="tcp:19302:3"/>
+quantum nostra Commenta anti<g ref="char:EOLhyphen"/>quorum
+illa transcendant, tunc de<g ref="char:EOLhyphen"/>mùm
+lectori innotescat.</p>
+            <p n="6">6 Cecina Volaterranus (<hi>vt ha<g ref="char:EOLhyphen"/>bet
+Plinius</hi>) comprehensas hirundi<g ref="char:EOLhyphen"/>nes
+in vrbe<g ref="char:cmbAbbrStroke">̄</g> secum auferens, victo<g ref="char:EOLhyphen"/>riae
+nuncias amicis mittebat, illito
+victoriae colore.<note place="margin">Nat. Hist. lib. 10. cap. 24.</note> 
+               <hi>Tradit &amp; Fabius Pi<g ref="char:EOLhyphen"/>ctor
+in Annalibus suis,</hi> cum obside<g ref="char:EOLhyphen"/>retur
+praesidium Rom.<note place="margin">Pli. ibid.</note> à Ligusti<g ref="char:EOLhyphen"/>nis,
+hirundinem à pullis ad se alla<g ref="char:EOLhyphen"/>tam,
+vt lino ad pede<g ref="char:cmbAbbrStroke">̄</g> eius alligato,
+nodis significaret, quo die, adue<g ref="char:EOLhyphen"/>niente
+auxilio eruptio fieri deberet.<note place="margin">Pli.lib. 10 cap. 37.</note>
+Et D. Brutus in obsidione Mutine<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>si,
+Epistolas annexas columbarum
+pedibus, misit in castra consulum.</p>
+            <p n="7">7 <hi>Sed horum omnium inuenta
+multis gradibus superauit illud Ma<g ref="char:EOLhyphen"/>maluohorum
+Aegyptiorum Alexan<g ref="char:EOLhyphen"/>driam
+incolentium, de quibus sic scri<g ref="char:EOLhyphen"/>bit
+Bern. quidam de Bridenbach De<g ref="char:EOLhyphen"/>canus
+Moguntinus.</hi>
+               <note place="margin">Itin ter. 5. in oct. 28 1483.</note> Quanquam for<g ref="char:EOLhyphen"/>tè
+sit difficile creditu (<hi>inquit ille</hi>)
+tamen omnino sic se habet quod
+narrabo. Amiraldus semper apud
+<pb n="4" facs="tcp:19302:4"/>
+se quasdam disciplinatas habet co<g ref="char:EOLhyphen"/>lumbas
+sic edoctas, vt quocunque
+perrexerint, in Amiraldi curiam
+reuertantur. Earum duas aut tres,
+naucleri (emissi in occursum Alex<g ref="char:EOLhyphen"/>andrinum
+portum petentium) se<g ref="char:EOLhyphen"/>cum
+recipientes, educunt per
+mare vsque ad locum in quo ad<g ref="char:EOLhyphen"/>uenientes
+possunt explorare, vbi
+mox conscriptam schedulam con<g ref="char:EOLhyphen"/>tinentem
+quae scitû necessaria sunt,
+ad collum vnius columbae suspen<g ref="char:EOLhyphen"/>dunt,
+eamque sinunt auolare; quae
+continuo volatu ad mensam vsque
+Amiraldi schedulam afferens, qua<g ref="char:EOLhyphen"/>les
+sint venientes indicat. Quod si
+post primam emissam columbam,
+aliud quippiam Amiraldo fuerit
+significandum, mox secundam
+emittunt columbam, vel etiam
+tertiam, si necesse fuerit: Et ita lon<g ref="char:EOLhyphen"/>ge
+antequam naues portum in<g ref="char:EOLhyphen"/>trent,
+Amiraldus de eis est edo<g ref="char:EOLhyphen"/>ctus.
+Dicitur etiam quod alias ha<g ref="char:EOLhyphen"/>bet
+columbas, quas vsque in Cay<g ref="char:EOLhyphen"/>rum
+transmittit ad Soldanum tem<g ref="char:EOLhyphen"/>pore
+<pb n="5" facs="tcp:19302:4"/>
+quo aliquod repentinum &amp;
+arduum inciderit negotium sibi
+necessariò significandum. Porro si
+naucleri ab ipso Amiraldo emissi,
+nauium conditiones inuestigare
+nequiuerint, hoc ipsum per colum<g ref="char:EOLhyphen"/>bas
+sibi renunciant, &amp;c.</p>
+            <p n="8">8 Hisce similibusque rationibus
+aliquid significatum quandoque com<g ref="char:EOLhyphen"/>perimus,
+sed anibus semper baiulis,
+cum nos internuncium dare pollicea<g ref="char:EOLhyphen"/>mur,
+qui non solum non ales aut ala<g ref="char:EOLhyphen"/>tus,
+sed ne animal quidem sit, &amp; ta<g ref="char:EOLhyphen"/>men
+celeritate animalium quoduis
+vel pernicissimum, multis (quod
+aiunt) parasangis anteeat.</p>
+            <p n="9">9 Ad institutum igitur nostrum
+propius accedit illud eorum, qui noctu
+accensis ignibus, interdiù fumo, ami<g ref="char:EOLhyphen"/>cis
+procul dissitis, breuissimo temporis
+spatio quod visum fuerit significarunt.<note place="margin">In Po<g ref="char:EOLhyphen"/>lym.</note>
+Sic Graeci è Sciatho confoederatis suis
+qui ad Artemisium castra habebant,
+&amp; Mardonius Persa ab Athenis in
+Asiam vsque, sicuti ab Herodoto tra<g ref="char:EOLhyphen"/>ditum
+est.<note place="margin">In Cal<g ref="char:EOLhyphen"/>liope.</note>
+            </p>
+            <p n="10">
+               <pb n="6" facs="tcp:19302:5"/>10 Isti enimuero (quantum per<g ref="char:EOLhyphen"/>spicio)
+non omnia quae expedire vide<g ref="char:EOLhyphen"/>rentur
+huiusmodi signis annunciabant,
+sed vnum duntaxat aliquod de quo in<g ref="char:EOLhyphen"/>ter
+ipsos antea conuentum fuerat, vt<g ref="char:EOLhyphen"/>pote
+Athenas eo temporis articulo cap<g ref="char:EOLhyphen"/>tas,
+aut <hi>exscensionem</hi> factam in ter<g ref="char:EOLhyphen"/>ram
+hostilem, tum cum in his aut illis
+locis aut flamma aut fumus excitatus
+esset.</p>
+            <p n="11">11 Plus multò mihi videntur prae<g ref="char:EOLhyphen"/>stitisse,
+Tiberiani<note place="margin">In Tib. c. 65.</note> illi apud Suetonium,
+qui quo tempore prudentium ille ne<g ref="char:EOLhyphen"/>quissimus
+in Caprearum insula hellua<g ref="char:EOLhyphen"/>retur,
+ac tunc pracipuè quando Seia<g ref="char:EOLhyphen"/>num
+opprimere satagebat; <hi>signa (ne
+nuncij morarentur) tolli procul,
+vt quid<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> foret factum mandauit.</hi>
+Quoe verba videntur innuere, ita ra<g ref="char:EOLhyphen"/>tiones
+suas instituisse Tiberium, vt
+omnia cognitu necessaria, per huius<g ref="char:EOLhyphen"/>modi
+signa in continenti procul elata,
+ipse in insula degens intellexerit.</p>
+            <p n="12">12 Quâ in re sinon hallucinor, fa<g ref="char:EOLhyphen"/>cilè
+subeat admirari, quî eueniat, vt
+ars huiusmodi, omnia animi nostri
+<pb n="7" facs="tcp:19302:5"/>
+sensa sic sine Nuncys ad absentes pro<g ref="char:EOLhyphen"/>cul
+annunciandi, in hac nostra Europa
+interierit, aut saltem ab eo tempore
+nunquam fuerit vsurpata, quantum
+Historiarum classicarum lectione pos<g ref="char:EOLhyphen"/>sum
+reperire.</p>
+            <p n="13">13 In hac, inquam, nostra Europa:
+Nam apud Cataianos in summa per<g ref="char:EOLhyphen"/>fectione
+hodieque vigere, clarissime
+patet clarissimi Scriptoris testimonio,
+Aug. Busbequij, de cuius fide dubi<g ref="char:EOLhyphen"/>tare
+esset nefas, nisi is aliena fide nite<g ref="char:EOLhyphen"/>retur.
+Sed ipsum audiamus sic lo<g ref="char:EOLhyphen"/>quentem.</p>
+            <p n="14">14 Postquam multorum Men<g ref="char:EOLhyphen"/>sium
+labore ad angustias ac ve<g ref="char:EOLhyphen"/>luti
+claustra regni Catayani per<g ref="char:EOLhyphen"/>ventum
+est; (nam bona pars diti<g ref="char:EOLhyphen"/>onis
+regis Cathay Mediterranea
+est, asperis montibus praeruptis<g ref="char:EOLhyphen"/>que
+saxis circundata, nec potest in<g ref="char:EOLhyphen"/>trari nisi
+per fauces, quae Regis il<g ref="char:EOLhyphen"/>lius
+praesidijs tenentur) ibi Merca<g ref="char:EOLhyphen"/>tores
+interrogantur, quid ferant,
+vnde veniant, &amp; quo sint numero;
+quae regij praesidiarij cognita, in<g ref="char:EOLhyphen"/>terdiù
+<pb n="8" facs="tcp:19302:6"/>
+fumo, noctu per ignes, pro<g ref="char:EOLhyphen"/>ximae
+speculae tradunt, illa vicissim
+sequenti, ac sic deinceps, donec a<g ref="char:EOLhyphen"/>liquot
+horarum, quod plurium
+dierum spatio non posset, nuncius,
+Cathaium ad regem de Mercato<g ref="char:EOLhyphen"/>rum
+aduentu transferatur, qui
+quidem pari celeritate eademque
+ratione quid sibi placeat respondet,
+admitti omnes, an partim excludi,
+aut differrivelit.<note place="margin">Epist. Turcic 4</note>
+            </p>
+            <p n="15">15 Ab huiusmodi speculis, (quas
+nos Anglicè [<hi>Beacons</hi>] appellamus)
+aliquid enuntiari posse, maiores no<g ref="char:EOLhyphen"/>stros
+non latebat, à quibus nempe
+morem accepimus hostium aduentum
+earum ope declarandi. Verum illa
+duntaxat ratione, tot hominum &amp; iu<g ref="char:EOLhyphen"/>mentorum
+numerum, gentem, merci<g ref="char:EOLhyphen"/>monia,
+&amp; alia scitu necessaria sigilla<g ref="char:EOLhyphen"/>tim
+referre, opus videtur magis ar<g ref="char:EOLhyphen"/>duum
+&amp; difficile, quàm vt solertiâ
+gentis Barbarae, &amp; Philosophiae tam
+humanae quàm diuinae penitus ignarae,
+praestari posse existimem. At<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> de vi<g ref="char:EOLhyphen"/>su,
+(quem non sine causa Cicero <hi>sen<g ref="char:EOLhyphen"/>suum
+<pb n="9" facs="tcp:19302:6"/>
+acerrimum</hi> pronunciauit.) Haec
+hactenus.<note place="margin">De Orat. 2.</note>
+            </p>
+            <p n="16">16 Vt iam ab oculis ad aures
+transeamus; legendo huc vs<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> vix
+comperi, aliquam rationem excogita<g ref="char:EOLhyphen"/>tam
+ab antiquis, aut à Modernis v<g ref="char:EOLhyphen"/>surpatam,
+quà huiusce sensus bene<g ref="char:EOLhyphen"/>ficio,
+notitiam quisquam perciperet, à
+loco, paulò longinquiori interuallo dis<g ref="char:EOLhyphen"/>sito,
+nisi per Nuncij intermeantis ser<g ref="char:EOLhyphen"/>monem.</p>
+            <p n="17">17 <hi>Huc tamen aliquid spectat,
+quod prodidit nobis Sol omnis antiqui<g ref="char:EOLhyphen"/>tatis
+(ac nostrae praesertim Britannicae</hi>
+               <note place="margin">In Britan. pag. 652.</note>
+               <hi>Camdenus in his verbis:</hi> Muri Pi<g ref="char:EOLhyphen"/>ctici,
+(quem ad Borealem Angliae
+partem construxit Seuerus) accolae
+tubulum aereum, eo artificio mu<g ref="char:EOLhyphen"/>ro
+insertum, inter singula Castella
+&amp; Turres intercurrisse ferunt, (cu<g ref="char:EOLhyphen"/>ius
+fragmenta subindè repere<g ref="char:EOLhyphen"/>runt)
+vt si quis vocem in eum qua<g ref="char:EOLhyphen"/>cunquè
+turri immisisset, statim so<g ref="char:EOLhyphen"/>nus in
+proximam, inde ad tertiam,
+&amp; omnes deinceps non interrup<g ref="char:EOLhyphen"/>tus
+perferretur, ad significandum
+<pb n="10" facs="tcp:19302:7"/>
+vbi loci hostium insultus timere<g ref="char:EOLhyphen"/>tur:
+Cuiusmodi miraculu<g ref="char:cmbAbbrStroke">̄</g> de tur<g ref="char:EOLhyphen"/>ribus
+Bizantij in Seueri Historia
+refert Xiphilinus. Sed cùm murus
+nunc iaceat, (<hi>inquit ille</hi>) &amp; tubulus
+sit nullus, multi hic circumquaque
+praedia in Cornage (vt Iuridici lo<g ref="char:EOLhyphen"/>quuntur)
+à Regibus nostris tenent,
+videlicet; vt cornu irruptiones ho<g ref="char:EOLhyphen"/>stium
+vicinis significent; quod à
+veteri Romanorum instituto de<g ref="char:EOLhyphen"/>ductum
+nonnulli existimant. <hi>Ha<g ref="char:EOLhyphen"/>ctenus
+Camdenus, qui omnia An<g ref="char:EOLhyphen"/>tiquorum
+inuenta ad hunc scopum
+tendentia his in verbis complexus est.</hi>
+            </p>
+            <p n="18">18 Haud abs re fuerit fortassis,
+vt postquam de visu &amp; anditu disse<g ref="char:EOLhyphen"/>ruimus,
+nonnihiletiam dicamus de ta<g ref="char:EOLhyphen"/>ctu:
+cuius sensus ministerio procul
+absentibus aliquid posse significari, sine
+Nuncio prasertim; neque traditum
+est huc vsque ab aliquo (vt existimo,)
+nec vt fieri possit, credibile videatur.
+Ego autem &amp; fieri posse, &amp; factu esse facile
+contendo, ad Milliaris vnius,
+aut fortè etiam alterius distantiam,
+<pb n="11" facs="tcp:19302:7"/>
+quanquam experimento vt hoc ipsum
+haberem exploratum mihi nondum
+contigit, &amp; vtrum operae pretium de<g ref="char:EOLhyphen"/>nique
+futurum sit, non pronuntio.</p>
+            <p n="19">19 Ad caeteros verò illos sensus
+quod attinet, (visus inquam &amp; audi<g ref="char:EOLhyphen"/>tus:)
+hoc dico, &amp; fidentèr dico:
+Primum, nunciari posse ab artis hu<g ref="char:EOLhyphen"/>iusce
+gnaro, ad alium similiter gna<g ref="char:EOLhyphen"/>rum
+procul absentem, (modò intra
+quantam partem milliaris) sine obses<g ref="char:EOLhyphen"/>sum,
+sine latentem, aut fortassis de<g ref="char:EOLhyphen"/>tentum
+in aliquo loco, qui nuncianti
+planè notus non sit, &amp; etiamsi notus,
+tamen non accessibilis, omnia sigilla<g ref="char:EOLhyphen"/>tim
+quaecunque voluerit, &amp; conduce<g ref="char:EOLhyphen"/>re
+existimarit. Arceantur procul om<g ref="char:EOLhyphen"/>nes
+homines, corpus in ergastulum
+compinge, vinciantur manus, caput
+obnubito; Caeteroquì non sis molestus,
+verba cuncta auribus percipiet absen<g ref="char:EOLhyphen"/>tis
+amici, illi modò amico libertas non
+sit imminuta adeò quin ea valeat face<g ref="char:EOLhyphen"/>re
+quae fieri solent quandoque à liberis
+hominibus, aut saltem quae se facere
+posse quisque existimet sine periculo.</p>
+            <p n="20">
+               <pb n="12" facs="tcp:19302:8"/>20 Dico deinde, quod cognito loco
+vbi amicus resideat ad quem notitia
+perferri debet; &amp; si vterque plena
+fruatur libertate; rationes etiam an<g ref="char:EOLhyphen"/>tea
+fuerint initae quae admedij disposi<g ref="char:EOLhyphen"/>tionem
+sunt conducibiles; ad centessi<g ref="char:EOLhyphen"/>mum
+vsque milliare (forte etiam vel
+milesimum) omnia posse nunciari tali
+amico, sine nuncio, hominum (imò
+ne animalium) quoquam intercur<g ref="char:EOLhyphen"/>rente,
+idque infra breuissimum tem<g ref="char:EOLhyphen"/>poris
+spatium, horarium puta, aut
+multo fortasse contractius.</p>
+            <p n="21">21 Miranda (inquis) sed non
+credenda, Hoccine verò tam miran<g ref="char:EOLhyphen"/>dum
+aut incredibile videatur? Habes
+adhuc generalia tantum &amp; specificè;
+eccum indiuiduum de quo minùs cre<g ref="char:EOLhyphen"/>das.
+Mandetur nuncio huic meo Lon<g ref="char:EOLhyphen"/>dini
+(modo paucis) quicquid annun<g ref="char:EOLhyphen"/>ciari
+cupis amico Bristoliae, Welliae, aut
+si mauis Exoniae degenti (neque enim
+longinquitatem viae multum moror,
+si detur facultas sternendi &amp; permea<g ref="char:EOLhyphen"/>bilem
+efficiendi) mandetur (inquam)
+Londini, idque in ipso articulo meri<g ref="char:EOLhyphen"/>diei,
+<pb n="13" facs="tcp:19302:8"/>
+vnus aliquis integer sacrae Bibliae
+versiculus annunciandus; Curabo vt
+mandata is exhibeat loco designato
+(attende quid dico) ante meridiem
+eiusdem diei.</p>
+            <p n="22">22<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>ne temerè pronunties:
+Seriùs aliquot minutis ad Bristolien<g ref="char:EOLhyphen"/>sem quam ad Londinensem meridia<g ref="char:EOLhyphen"/>num
+sol peruenit. Hoc tantum est
+quod mirere, nuncium qualemcunque
+motum celestem pernicitate posse ante<g ref="char:EOLhyphen"/>uertere.
+Iste vero faciet; faciet (in<g ref="char:EOLhyphen"/>quam)
+si opus fuerit, aut ego omni<g ref="char:EOLhyphen"/>um
+qui fari aut scribere vnquam sci<g ref="char:EOLhyphen"/>uerunt
+vanissimus.</p>
+            <p n="23">23 De arcibus aut ciuitatibus ob<g ref="char:EOLhyphen"/>sessis
+quid loquar? Nuncius noster
+inanimatus animae haud metuens, in<g ref="char:EOLhyphen"/>numerorum
+hostium phalanges per<g ref="char:EOLhyphen"/>transibit;
+non morabitur eum fossa
+ad infernum vsque depressa, aut Mu<g ref="char:EOLhyphen"/>rus
+vel Babylonijs illis moenibus excel<g ref="char:EOLhyphen"/>sior,
+quinverba fideliter perferat emit<g ref="char:EOLhyphen"/>tentis,
+modò, (quod semper moneo,)
+pauca, sine obsessus is fuerit, sine ad
+obsessum aliquid velit significare, id<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>
+               <pb n="14" facs="tcp:19302:9"/>
+velocitate incredibili, si intra aliquot
+milliaria, 5. (putà) vel 7. detur con<g ref="char:EOLhyphen"/>sistere,
+quanquam non diffido à vige<g ref="char:EOLhyphen"/>simo
+vsque hoc ipsum satis commode
+praestari posse.</p>
+            <p n="24">24 Habes iamtria huiusce nuncij
+mei promissa, quae quomodo inter se
+differant, perspicuitatis gratia operae
+pretium fortassis fuerit demonstrare.</p>
+            <p n="25">25 In primo, laudo fallendi astu<g ref="char:EOLhyphen"/>tiam;
+in secundo, transeundi celeri<g ref="char:EOLhyphen"/>tatem;
+in tertio, cuncta penetrandi
+potentiam &amp; vim inuictam.</p>
+            <p n="26">26 Quod primo in loco pollicitus
+sum, facillimè praestabit, sine sumptu;
+sine opera cuiusquam praeterquam e<g ref="char:EOLhyphen"/>mittentis.
+Hoc vero habet incommo<g ref="char:EOLhyphen"/>di,
+quod illius vsus paulò crobrior
+suspicione non vacabit.</p>
+            <p n="27">27 Quod secundo, fit etiam saepe<g ref="char:EOLhyphen"/>numero
+absque ope aliena, &amp; nonnullis
+in locis operam exhibebit temporariam
+fere sine sumptu: plerumque vero pa<g ref="char:EOLhyphen"/>rum
+aut nihil efficit sine praeparatione,
+eaque tali, vt pro singulis milliaribus,
+quiuis plus minus libris nostratibus
+<pb n="15" facs="tcp:19302:9"/>
+constare possit, si ad perpetuum vsum
+destinetur; omnino nihil sine nutu at<g ref="char:EOLhyphen"/>que
+authoritate Magistratus, cui per<g ref="char:EOLhyphen"/>quam
+facile est nuncio nostro hanc vi<g ref="char:EOLhyphen"/>am
+praecludere.</p>
+            <p n="28">28 Ad tertium quod attinet, haud
+magnum profectò sumptum requirit:
+Oportet verò vt is qui agit, in loco ali<g ref="char:EOLhyphen"/>quo
+tuto constitutus sit, eoque non ni<g ref="char:EOLhyphen"/>mium
+distante, vbi vim hostilem
+possit propulsare, donec operationem
+perfecerit: Negandum proinde non
+est, immittentis quam emittentis hic
+deteriorem esse conditionem.</p>
+            <p n="29">29 Videris mihi iam lector per<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>tari,
+quo<gap reason="illegible: broken type" extent="1 letter">
+                  <desc>•</desc>
+               </gap>am sensuum percipiente,
+haec omnia sic annuncianda amicus in<g ref="char:EOLhyphen"/>telligat;
+nam sunt sensus intellectus
+satellites (vt <hi>Cicero</hi>) interpretes
+&amp; nuncij, vt pote per quos solos ad il<g ref="char:EOLhyphen"/>lum
+peruenitur.<note place="margin">De. leg. 1. De. nat. De. l. 2.</note> Respondeo, Auditu
+nonnunquam, nonnunquam etiam vi<g ref="char:EOLhyphen"/>su.
+Rationem quaeris, quo modo?
+habebis paucis, &amp; proinde fortassis
+non tam clarè quin paradigmata re<g ref="char:EOLhyphen"/>quiras.</p>
+            <p n="30">
+               <pb n="16" facs="tcp:19302:10"/>30 Si oculis amici absentis aliquid
+eupis repraesentare, absentis inquam
+&amp; procul absentis, idque citiùs quam
+corpus aliquod sublunare ad locum
+tam longo interuallo disiunctum pos<g ref="char:EOLhyphen"/>sit
+perferri (nam &amp; id in me recipio)
+oportet vt ideae sine formae visibiles,
+augeantur quantitate, multiplicentur
+numero, &amp; pro rerum significanda<g ref="char:EOLhyphen"/>rum
+varietate, varientur, vel qualita<g ref="char:EOLhyphen"/>te,
+vel quantitate, vel situ, vel ordine.</p>
+            <p n="31">31 Auribus nihil percipi nisi per
+sonum neminem fugit. Erit igitur ne<g ref="char:EOLhyphen"/>cesse
+vt is, cui aliquid auditu medi<g ref="char:EOLhyphen"/>ante
+nunciatum fuerit, Sonos audiat,
+eosqúe distinguibiles pro numero A<gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>diendorum,
+quae cum sint infinita, infi<g ref="char:EOLhyphen"/>nita
+etiam sit oportet, sonorum eden<g ref="char:EOLhyphen"/>dorum
+varietas. Satis tamen erit, vt
+distinguantur, vel genere, vel tempo<g ref="char:EOLhyphen"/>re,
+modò etiam &amp; numero.</p>
+            <p n="32">32 Haec qui probè intellexerit (&amp;
+exemplis omnia luce fient clariora)
+quomodo perferantur huiusmodi soni
+ad locum procul distantem nunquam
+percontabitur.</p>
+            <p n="33">
+               <pb n="17" facs="tcp:19302:10"/>33 Ne verò malis &amp; damnatis
+artibus haec effici quisquam suspicetur;
+Deo Opt. Max. teste. profiteor at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>
+denuntio, illiciti nihil continere hanc
+disciplinam: nihil aut Diuinis, aut
+humanis legibus repugnans: Arith<g ref="char:EOLhyphen"/>meticae,
+Geometriae, Musicaeque auxi<g ref="char:EOLhyphen"/>lio
+plaeraque, caetera si non vsitatis, at
+legitimis rationibus perfici, id<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> sump<g ref="char:EOLhyphen"/>tu
+sanè mediocri, penè dixeraem nullo:
+Multa siquidem praestari possunt in
+hoc genere, sine aliquo vel vnius Te<g ref="char:EOLhyphen"/>runtij
+impendio.</p>
+            <p n="34">34 Ac ista quidem cùm <gap reason="illegible: broken type" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ic se ha<g ref="char:EOLhyphen"/>beant;
+sapientibus dijudicandum re<g ref="char:EOLhyphen"/>linquo,
+primum an, deinde quantum &amp;
+<gap reason="illegible: in gutter" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ous<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> haec nostra inuenta Reipub.
+vtilia sint futura. Si in primo defici<g ref="char:EOLhyphen"/>ent,
+moriantur, &amp; sicut Partus abor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iuus,
+aut lucem non videant, aut visâ
+<gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e tantillum fruantur, sed protinus in<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>eant.</p>
+            <p n="35">35 Ego enimurò, cum huiusce
+<gap reason="illegible: in gutter" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>is vsum fore permagnum existi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>em,
+tam pacis quàm belli tempore;
+<gap reason="illegible: in gutter" extent="2 letters">
+                  <desc>••</desc>
+               </gap>fficio meo consent aneum duxi, operam
+<pb n="18" facs="tcp:19302:11"/>
+meam in ea tradenda deferre; Quod
+t amen non faciam libenter ita, vt cum
+passim pluribus innotuerit, ea suo tem<g ref="char:EOLhyphen"/>pore
+vti nequeamus.</p>
+         </div>
+         <div type="epilogue">
+            <head>LECTORI
+DE AVTHORE.</head>
+            <lg>
+               <l>PRaestat pòl Scilo, Artifex peritus;</l>
+               <l>Daemon, Artifici: Artifex sed hic<gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Et Motu prior, atque maior Arte,</l>
+               <l>Praestat <gap reason="illegible: crease" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>edi<gap reason="illegible: crease" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, D<gap reason="illegible: crease" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>o<gap reason="illegible: crease" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> vel ipso;</l>
+               <l>Praestat Daemoni &amp; ante<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ertit ipso.</l>
+               <signed>Ed. M. Ch.</signed>
+            </lg>
+            <lg>
+               <head>Aliud eiusdem.</head>
+               <l>Dic quaeso, si non duce Daemone tanta,
+quis ergo?</l>
+               <l>Angelus Hic bonus est?<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>est
+bonus, Hic.</l>
+            </lg>
+            <pb facs="tcp:19302:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

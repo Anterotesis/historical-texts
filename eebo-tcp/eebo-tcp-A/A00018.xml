@@ -1,0 +1,718 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The lame[n]tacion of England</title>
+            <title>Lamentacion of England.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1558</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 66 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-10">2005-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A00018</idno>
+            <idno type="STC">STC 10015</idno>
+            <idno type="STC">ESTC S115521</idno>
+            <idno type="EEBO-CITATION">99850740</idno>
+            <idno type="PROQUEST">99850740</idno>
+            <idno type="VID">15965</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A00018)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 15965)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 566:06)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The lame[n]tacion of England</title>
+                  <title>Lamentacion of England.</title>
+               </titleStmt>
+               <extent>[1], 19, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>S.n.,</publisher>
+                  <pubPlace>[Germany? :</pubPlace>
+                  <date>1558]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Another issue, with omissions and additions, of STC 10014.</note>
+                  <note>B4 reprinted, replacing the declaration of Thomas Cranmer with an addition about Calais beginning B2v and dated 1558 at the end.</note>
+                  <note>Publication date from colophon. Suggested place of publication from STC.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  History --  Mary I, 1553-1558 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-01</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2005-01</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:15965:1"/>
+            <pb facs="tcp:15965:1"/>
+            <head>The Lame<g ref="char:cmbAbbrStroke">̄</g>tacion of England.</head>
+            <epigraph>
+               <bibl>Esay lv. chapter.</bibl>
+               <q>Seke the lorde while he may be found / and call apo<g ref="char:cmbAbbrStroke">̄</g> hym while he is nye / lett the vngodly man forsak his own wayse / and the vnrightwyse his own ymagina<g ref="char:EOLhyphen"/>cions / and torn again to the lord our god / so will he be mercifull to vs / for he is redy to forgeue.</q>
+            </epigraph>
+            <epigraph>
+               <bibl>Ioell the second chapter.</bibl>
+               <q>Thus sayth the lord / turn you vnto me with all your hartes / with fasting / weping and mourning / rent your hartes and not your garments / and turn you to the lord our god for he is gracius / merciful / long suffring / and off great compassion / and redy to pardon wickydnes / &amp;c.</q>
+            </epigraph>
+            <p>
+               <pb n="1" facs="tcp:15965:2"/>THer hath bene here tofore diuers godly and weldys<g ref="char:EOLhyphen"/>posyd persons, that for the preseruacyon and welth off ther own contres: haue taken great paines to wry<g ref="char:EOLunhyphen"/>te and put fourth diuers godly, and notable books for the re<g ref="char:EOLhyphen"/>dressyng oft many abuses vsyd in ther comon welthes. A<g ref="char:EOLhyphen"/>mong other serteine Englyshmen, perceiuyng the state and comon welth oft England to decaye, being mouyd in con<g ref="char:EOLhyphen"/>sciens off a good zeale and trwe hart, that they beare, to this ther naturall contre, haue take<g ref="char:cmbAbbrStroke">̄</g> paynes, to sett forth in prynt, dyuers notable books, which haue geuen warning to avoyd the great dangers lyke to folowe in the comon welth off this realme, yf spedy remedy were not prouidyd for.</p>
+            <p>Fyrst I wyl begyne wyth Iohan fyshe, who perceyuyg the great a busys oft the clergy and sprytualtye,<note place="margin">Iohan <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ys<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> about xxx yeres past, made a lytle treatyse, and namyd it, the supplica<g ref="char:EOLhyphen"/>cyon <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> beggers which God bepraysyd toke some effect: whe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thorow the great nomber off monks,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>upplication <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> Chanons, Nun<g ref="char:EOLunhyphen"/>nes, false flateryng fryers, and obstinatlyers, wyth ther de<g ref="char:EOLhyphen"/>uelysh disemblyng, and ypo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ryticall falshode were made manyfest<g ref="char:punc">▪</g> and openly dysclosid, that all men yong and old, dyd perceyue as clere as the day, ther abhominacions, dysem<g ref="char:EOLunhyphen"/>blyng falshod and wyckydnes: ffor the which accordyng to ther desertes, were by king henry the viij vtterly dysclo<g ref="char:EOLhyphen"/>syd confusyd and came to nawght, as it is manyfest.</p>
+            <p>Affter that one other booke was made and put forth, vn<g ref="char:EOLunhyphen"/>der the name off Rodoryck Mors, and namyd a complaynt to the perliament house,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> de tyke <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> declaryng the great nomber off Innor<g ref="char:EOLunhyphen"/>mytis and abuses that were vsid in the comon welth off this realm the which the more it is to be lamentid, toke litle effect. Besyds many and dyuers other good books made as well in the tyme off K. H. 8. as in the tyme off K. E. 6. which in lyke case toke no effecte.</p>
+            <p>More over now off late days, one more then a yere past off a good zeale that he hath to this his contre off England, made and sett forth a boke namyng it a supplycacyon to the quenes Mai.<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ppli<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ac<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> que</note> wherin he hath manyfestly declaryd, the wyc<g ref="char:EOLhyphen"/>kyd deuyses off the shameles by shoppes and clergye off Eng<g ref="char:EOLunhyphen"/>land: how they for the vpholdyng off ther deuelyshe king<g ref="char:EOLhyphen"/>dom, haue bene allweyse seruers off the tyme, As was that wyckyd Steven gardener B. off wynchester,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 paragraph">
+                     <desc>〈1 paragraph〉</desc>
+                  </gap>
+               </note> who manyfest<g ref="char:EOLhyphen"/>ly as the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> apperyth, declaryd the same by hys booke de (ve<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a obedientia) which boke being then made accordyng to
+<pb n="2" facs="tcp:15965:2"/>
+gods worde as he prouyth playnlye, that began to take rote in hym. And afterward being geuen vp off god, he re<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>usyd the same and resystyd gods worde, which booke is wholy agaynst the supremacy off the B. of Rome, the reasons grun<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lyd apon gods worde, wherin he also manyfestly declaryth the ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yag betwene K. H. 8. and quene ca<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>yue to bea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to<g ref="char:EOLunhyphen"/>gether vnlawfull and vngodly, and therby p<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th the quene to be a bastard, as playnlye apperyth·<note place="margin">Bonner B<g ref="char:punc">▪</g> off londo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> And bonner bysshop off london confirmy<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h the same by his prologe made before the same booke de vera obedientia, which is notable to be merkyd and notyd of<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that most wyckyd and dyssemblyng tyrant, who is past all shame and honesty. Also off Tunstall b. o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f du<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ram,<note place="margin">Tunstall B. on du<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ram.</note> off his sermon that he preachyd before K.H. 8. on palm sonday 1539. and is openly in print, proving by ma<g ref="char:EOLhyphen"/>ny good and probable reasons, Cardinal pole to be an arra<g ref="char:cmbAbbrStroke">̄</g>t traytore to his co<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>re, and worse then an infydell, and doc<g ref="char:EOLhyphen"/>tor smyth that wethercoke,<note place="margin">Cardinal Pole.</note> that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urni<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h with euery wynd off doctrine, as apperith by his so often recantyng. In the same supplicacion is made an exhortortacion to the lords and gen<g ref="char:EOLhyphen"/>tyllmen off England wa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nyng them to beware off the c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>af<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e and falshode off our dyssemblyng bysshoppes,<note place="margin">Doctor Sinyth.</note> and clergy who lyke most arrant traytors, go about to betraye this no<g ref="char:EOLhyphen"/>ble realm of England, in to the hands off the prince of spain only for the establyshment off ther wylkyd kingdom,<note place="margin">Bysshopps and clergy traytors.</note> w<g ref="char:EOLhyphen"/>hich if it come to passe, this noble and <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e co<g ref="char:cmbAbbrStroke">̄</g>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re shalbe brought in to most <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yle bondage, and slauery, the which I besech all<g ref="char:EOLhyphen"/>mychty god to defende yff it be his holy wyll and pleasure amen.</p>
+            <p>Sens that tyme, a trew hartyd Englyshman, percey<g ref="char:EOLhyphen"/>uyng the myserable thraldome, seruytude and bondage, that the goodly contres off Naples, Miland &amp;c be brought in to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lye,<note place="margin">Naple<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Myland.</note> to say sens the K. off spaine hath come to the croune ther off, hath made a treatyse calling it a warnyng for England, wherin he hath declaryd playnly and at large, what taxes, tolls, and tributes the K. of spayne and hys spanyerds,<note place="margin">The warni<g ref="char:cmbAbbrStroke">̄</g>g for England.</note> hath brought those goodly contres vnto both of corne, wyne, fle<g ref="char:EOLhyphen"/>she, fyshe, salt, and frutes &amp;c. and what subsydes euery ma<g ref="char:cmbAbbrStroke">̄</g> off occupacion must pay dayly, as by the same boke at large more playnly apperyth.</p>
+            <p>And although many occasyons haue bene mynystred and dayly more and more inseuyth, wherby it is to be suppo<g ref="char:EOLunhyphen"/>syd, the distruction off our contre to be nere at hand (except Gods great mercye) yett is ther <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, that hath made the la<g ref="char:EOLhyphen"/>mentacyon
+<pb n="3" facs="tcp:15965:3"/>
+therof. wherfore perceyuyng such things com to passe, as be allredy done, and dyuers other practyses, wrough and a workyng<g ref="char:punc">▪</g> only to bryng this noble realm in to most vyle bondage and slauery off the spanyerds. I. haue often be waylyd and lamentyd the state theroff: And because it is my dwtye for the loue that I. bere ther vnto I thought it good to sett it forth, that other good and vertues men perceyuyng the dystructyon theroff to be so nere at hand, that they also la<g ref="char:EOLhyphen"/>mentyng the state theroff myght be the more mouyd to make ther ernest prayers to allme<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hty god, that he for his dere sone Iesus Chrystes sak,<note place="margin">Ernest prayers.</note> wold spare and be fauorable to ur pour contre off England now over rune wyth horyble ydolatry. And that he wold perdon and forgeue vs om synnes. for the which cause, he hath sent such wyckyd rulers to raygne o<g ref="char:EOLhyphen"/>ver vs,<note place="margin">Iaco. 5.</note> for as S. Iames sayth the prayer off the Iust man avay<g ref="char:EOLunhyphen"/>lyth mych. And I doubt not, but god is mercyfull pacient and long suffring, and wyll haue mercy apon vs, and apon his pour congregacyon ther<g ref="char:punc">▪</g> orells wher stat<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ryd abrode, at such tyme as he knouyth best to his honour, and wyll also take ffrom vs our cruell rulers, that haue so sore persecutyd and ma<g ref="char:EOLunhyphen"/>de hauocke of his sayd congregacyon, the which I besech him to do for the blude of his dere sone our lord Ie<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>us Chryst, that we maye ther once agayne openly confesse his holy na<g ref="char:EOLhyphen"/>me, to the vtter confucyon off the kingdom off Antychryste amen.</p>
+            <p>But forasmych as non off the same godly books and warnings ether com not to the quenes hands, or ells wyll no<g ref="char:EOLhyphen"/>thyng molyfye here harte, but that ther is fought malyciusly and off a sett purpose the dystructyon off the noble men gen<g ref="char:EOLhyphen"/>tyllmen and comons off Englande wherby may the more easyer be brought to passe, ther most wyckyd deuyses and purposes, that is, to geue away and betray this noble realme off England, in to the hands off the king off spayne and his spaynyerds. wherfore I haue thought it good to declare vn<g ref="char:EOLunhyphen"/>to my natyue contre, serteyne off thes manyfest treasons, and practyses, but fyrst I wyll declare the prophecye off that bles<g ref="char:EOLunhyphen"/>syd marter off god mayster hugh latymer, preaching before the most vertues prynce K.E. 6. in his palays at westmynster 1549. that thes plages shold com apon vs for our vnthank<g ref="char:EOLhyphen"/>fullnes, and that god wold send such tyrants to rayne ouer vs, for our vnrepentant hartes, which now is come to passe in dede, and was thought at that tyme a thyng impossyble, but that gods worde must be trewe which was spoken by the ho<g ref="char:EOLunhyphen"/>ly
+<pb n="4" facs="tcp:15965:3"/>
+goost thorow that blessyd martyr M. latymer, and hys fe<g ref="char:EOLhyphen"/>low marters and other preachers, as it is come to passe at this day.</p>
+            <p>And because the prophecye which he then prophecied in his sermon before the king, is now all to gether fullfyllyd as playnlye apperyth,<note place="margin">The cawse off the ma<g ref="char:EOLhyphen"/>king off this lamentacion.</note> And that sermo<g ref="char:cmbAbbrStroke">̄</g> &amp; prophecye mouyd me mych to lament the state off our contre, hath also partly caw<g ref="char:EOLhyphen"/>syd me to make this lamentacyon apon this realm off Eng<g ref="char:EOLhyphen"/>land. And becawse it shall not be thought, that I wyll add or deminysh any parte off the sayd prophecy, I<g ref="char:punc">▪</g> wyll here recy<g ref="char:EOLhyphen"/>te ꝑte of hit, worde for worde as it is printid in the boke off his sermo<g ref="char:cmbAbbrStroke">̄</g>, he taking accasion to prech before the king, of the dwty of kings rulers, and Maiestrates, as here after folowith.</p>
+            <p>
+               <hi>It makyth no matter by what name the</hi> rulers be namid yf so be they shall walke ordinatly with god and direct ther steppes with god, for both patriarks, Iudges,<note place="margin">The very wordes off M. Latimers sermon.</note> and kings, had and haue ther auctorite off god, and therfore godly, but this ought to be considred, which god said. Non praeficere tibi potes hominem alienum, that is thou must not sett a strenger ouer the. It hath pleasid god to graunt vs a naturall liege king, and lord off our own nacion, an Eng<g ref="char:EOLhyphen"/>lishman, one off our own religion god hath geuen him vnto vs, and is a most precius treasure,<note place="margin">A stranger to be king.</note> and yet many off vs do de<g ref="char:EOLhyphen"/>sire a stranger to be king ouer vs. Lett vs desire no more to be bankers, but lett vs in deuoure our selues to walke ordinatly and plainly after the word off god, lett vs folow daniell, le<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t ys not seke the death of our most noble and rightfull king, our own brother both by natiuite and godly religion, lett ys pray for his godly estate that he may liue long among vs.</p>
+            <p>wel the kings grace hath sisters, my lady Mary and my lady E<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sabeth, which by succession and course ar inheritors to the crown, who yff they should mary with strangers, what shuld in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ewe god knowith, but god graunt they neuer come to coursing nor succeding, therfore to avoid this plage,<note place="margin">A strange King.</note> lett vs amend our liues, and put away all pride, which doth droune men in thes dais, all co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>etisues wherin the Magistrates and rich men off this realm ar ouer whelmid, all lechery and all other excessiue vices, prouoking gods wrath, were he not mercifull, even to take fro<g ref="char:cmbAbbrStroke">̄</g> vs, our natural king and lege lord and to plag vs uith a strange king for our vnrepentant hart, w<g ref="char:EOLunhyphen"/>herfor yff you say ye loue the king, amend your liues and the<g ref="char:cmbAbbrStroke">̄</g> ye shalbe a meane, that god shall lend him vs, long to raygn over ys, for vndoutidly s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s prouoke <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ich gods wrath scrip<g ref="char:EOLunhyphen"/>ture
+<pb n="5" facs="tcp:15965:4"/>
+saith, Dabo tibi regem in furore meo. that is I will geue the a king in my wrath, Now we haue a lawfull king, &amp; a godly king, neuerthelesses yet many euels do raign, and a litle after now I here say all things ar endid after a godly maner, or els shortly shalbe, make hast make hast, and lett vs lern to con<g ref="char:EOLunhyphen"/>vert to repente and amend our lyues, yf we do not I fere I fear least for our sinnes, &amp; vntha<g ref="char:cmbAbbrStroke">̄</g>kfullnes an hipocrite shall raign o<g ref="char:EOLhyphen"/>ver vs, Long time we haue bene seruan<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s and in bondage, seruing the pope in Egipt, god hath geuen vs a deliueret, a na<g ref="char:EOLhyphen"/>turall king,<note place="margin">A naturall King.</note> lett vs not seke no stranger of another nacion, no hipocrite which shall bring in a gain all papistry, ypocrisie, &amp; ydolatry, no diabolicall minister, which shall maintaine all deuelishe workes &amp; euell excersises,<note place="margin">M. Latimers w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rdes full<g ref="char:EOLhyphen"/>fillid.</note> but lett vs pray that god maintaine, and contin<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> our most excelent king here present trwe inheritour of this our realm both by natiuite and also ly the speciall gift and ordinance of god &amp;c.</p>
+            <p>
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> this prophecie of that blessid marter of god M. Lati<g ref="char:EOLhyphen"/>mer be not now com to passe and fullfillid let all men Iudge<g ref="char:punc">▪</g> which before was not regardid, ye it was thought a thing im<g ref="char:EOLhyphen"/>possible such alteracion and tiranny, so sone to haue folowid<g ref="char:punc">▪</g> as now plainly apperith, and yet this is but the beginning off sorows &amp; plages that shall folow, onles god of his great mer<g ref="char:EOLunhyphen"/>cy (at the crie and lamentacion of the pour oppressid, which lyue in misery and bondage of conscience) feare thes plages now begone, and manifestly appere before our eies, for our in gratitude and great vnthankfullnes.</p>
+            <p>Oh what a plage is it to see strangers rule in this noble re<g ref="char:EOLunhyphen"/>alme violently, wher befor time trwe hartid Englishmen haue gouernid quietly? what a lamentable thing is it? that although quene Mary being born in England, and had to here father a noble and trwe hartid prince and English man?<note place="margin">The <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> spa<g ref="char:EOLhyphen"/>nish mother.</note> yet she fo<g ref="char:EOLhyphen"/>lowith nothing his steppes in trew zeal to this realm, becawse she toke the most part off here blude and stomake off her spa<g ref="char:EOLhyphen"/>nish mother, and therfore from time to time euer regardid her spanish kinred, and permotid them, by geuing them l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cen<g ref="char:EOLhyphen"/>sis,<note place="margin">The span<g ref="char:EOLhyphen"/>ierds cary a<g ref="char:EOLhyphen"/>way our <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note> wherby they do cary and convay away, out of this realm fre<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y without paieng any custome therfore, our goudly &amp; best comodites, as woll Tin<g ref="char:cmbAbbrStroke">̄</g> leade lether &amp;c. to the great decay and ympouerishment, off the pour comons off this realm, by <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>son wheroff the said comodites, be now at doble pryces, that they were before, &amp; also pour men cannot be set a worke as they haue bene.</p>
+            <p>Ye who seith not but that she sekith the destruction of tho<g ref="char:EOLunhyphen"/>se
+<pb n="6" facs="tcp:15965:4"/>
+nobles &amp; gentillmen, that here noble father tenderly lo<g ref="char:EOLhyphen"/>uid? the thing is manifest and cannot be denied, who wold e<g ref="char:EOLhyphen"/>uer haue thought such vnnaturalnes, as to cawse that worthy and vertuose Lady, Lady Iane, being inocent and giltles,<note place="margin">Lady Iane<g ref="char:punc">▪</g> put to death.</note> as the quene here self did thinke, being compellid to take the stat apon here of xvij. yeres of age, and so nere off here kindrid, to be so cruelly murtherid?</p>
+            <p>Also to cawse that worthy and vertues man,<note place="margin">Thomas Cramner<g ref="char:punc">▪</g> Archbishop off canterbu<g ref="char:EOLhyphen"/>ry.</note> and mar<g ref="char:EOLhyphen"/>ter of god Thomas Cramner Archbishop of canterbury, to be so cruelly murtherid who sauid here liff, what time as K.H. 8. here father wold haue dispachid here, for her co<g ref="char:cmbAbbrStroke">̄</g>tempt &amp; diso<g ref="char:EOLhyphen"/>bedience, when nether the old duke of Nortfolke, nor oth<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> off the temporall lords of the counsell could intreat here said fa<g ref="char:EOLhyphen"/>ther, but that she shoud die, then went this meke archbisshop to be king, and so prudently pewrsadid him, that he spa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>de here and sauid her lyff, which when he had obtainid the duke off Northfolk &amp; the other lordes off the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> counsel gaue hym, such tha<g ref="char:cmbAbbrStroke">̄</g>ks for that dais worke, saieng to him that yf euer they liued and lay in ther pouer thei wold requite it, so that it is to be supppsid that yff the sayd duke off Northfolke &amp; had liuid, he shuld not haue bene so cruelly murtherid. But here is to be notid great ingratitude, and vnthanfullnes, to requite him with death that sauid here liff.</p>
+            <p>K.H. 8. here noble father perceiuing the wisdom, sobre<g ref="char:EOLhyphen"/>nes honestie, meknes, and good lerning off the said Tho<g ref="char:EOLhyphen"/>mas Cramner, promotid him not only to be archbishope off Canterbury, but also metropolitan, and primate of all Eng<g ref="char:EOLhyphen"/>land, and becawse he so prudently and soberly behauid him selff therin he made him cheff off this preuy counsell, and for the fidelite that he found in him, at the time off his death, he made him one of the cheff of his executors off his testament and last will: when he put out Gerdenar. B. of <abbr>winchest</abbr>, &amp; co<g ref="char:EOLunhyphen"/>mittid vnto him as one off his executors the gouernance off his sone, that worthy prince king Edward the vj,<note place="margin">K. Edward.</note> vnder which noble prince, this realme off England was quietly go<g ref="char:EOLunhyphen"/>uernid and rulid, with out any such cruelty and tirany as to vsid now adais.</p>
+            <p>
+               <hi>Wherfore o England / England / La<g ref="char:EOLhyphen"/>ment,</hi> lament, how great and greuouse are thin offencis, and sinnes, that god is so sore displeasid with the, to suffer such ru<g ref="char:EOLhyphen"/>lers to bridle the and so sore to plage and scourg the,<note place="margin">A very Rod<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> off god.</note> ye ve<g ref="char:EOLhyphen"/>rely a very rood of god apointid, and therfore wounderfully and meruelusly reseruid and kept, to plage England, for ther
+<pb n="7" facs="tcp:15965:5"/>
+vnthankfullnes, and for not knowing the time off ther visi<g ref="char:EOLhyphen"/>tacion<g ref="char:punc">▪</g> wherfore now England repent repent, and bewaile thy miserable sta<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, for iff thou do it not tyght sone, thow art no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> like shortly to be ouer thrown with stra<g ref="char:cmbAbbrStroke">̄</g>gers and tyra<g ref="char:cmbAbbrStroke">̄</g>ts<g ref="char:punc">▪</g> who will rule and bridle the, as they haue alredy thretenid the, thy goodly wome<g ref="char:cmbAbbrStroke">̄</g> and faier doughters will thei defile, thy pleasant houses and goodly places off pleasure shalbe geuen vnto the<g ref="char:cmbAbbrStroke">̄</g>, and they shall in ioie thy labours, which thou &amp; thy forefathers, with great pain trauell, and troble haue gathe<g ref="char:EOLhyphen"/>rid to gether for the, the thing is now a working, and the fire ackindling, so that yff god only off his great mercye help the not, thou art like to be distroid very shortly, for they that gui<g ref="char:EOLunhyphen"/>de the my people,<note place="margin">Esay. 3.</note> saith the prophet Esay, are extorcioners and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o men haue rule ouer you. O my people thy leaders de<g ref="char:EOLhyphen"/>same the, and distroy the way off this foot steppes. It is ye that haue burnt vp my vine yard, and the spoyle of the pour is in your houses, wher fore do ye oppresse my people, and smite the<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>on the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is saith the lord off hostes.</p>
+            <p>It is <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> in the 34. chap. off the booke off the holy ma<g ref="char:cmbAbbrStroke">̄</g> Iob.<note place="margin">Iob. 34.</note> that for the sinnes off the people god suffrith a tyrant to raign ouer them<g ref="char:punc">▪</g> yf England now haue not tirans and wome<g ref="char:cmbAbbrStroke">̄</g> to rule an<g ref="char:cmbAbbrStroke">̄</g> raigne ouer them, let all men Iudge? doth not all ther d<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ngan<g ref="char:cmbAbbrStroke">̄</g> procedings declare manifestly that if hath bene labo<g ref="char:EOLunhyphen"/>rid and gone about by all the wais &amp; meanes that can be deui<g ref="char:EOLunhyphen"/>sid or ymaginid to geue away (I will not saie to betray) this noble realme off England, in to the hands off the spanierds.</p>
+            <p>
+               <note place="margin">The quene <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> off Spain.</note>
+               <hi>Fyrste dyd not the quene in mediatly as</hi> sone as she came to the gouernance &amp;. dignite off this realm desire to mary with the prince off spaine, and assone as the matter was espied, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ere not, 20 off the perliament house sent to here, to declare what: normites wold folow to the realm if she maried with any stranger, and therfore desirid here to ma<g ref="char:EOLhyphen"/>ry within the realm, wherby it is esye to be perceiuid what she hath had alwaise in here minde.</p>
+            <p>After that was it not pretentyd, assone as she was maried that she was with child, and without all shame cawsid the sa<g ref="char:EOLhyphen"/>me to be published an<g ref="char:cmbAbbrStroke">̄</g> sett abrode in print and subscribid with the hand off 1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. off the preuy counsell that the hole body off the realme,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he prete<g ref="char:cmbAbbrStroke">̄</g>did <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> be with child</note> might thinke the same to be trwe, and imme<g ref="char:EOLhyphen"/>diatly apon the same callid a perliament, becawse the nobles and comons should be the more willing &amp; redy to condis<g ref="char:EOLhyphen"/>send and to geue the crone off this noble realme, to the prince off spaine, to thentent that he with his proud spainierd might
+<pb n="8" facs="tcp:15965:5"/>
+bridle this brithanishe nacion, according as it is sett out in print about the fisnamy or pictur of the quenes in thes words.</p>
+            <q>
+               <l>Illa ego,<note place="margin">The quenes pose about her fisnamy.</note> cui superare suos Deus optimus hostes</l>
+               <l>Iustitia<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, dedit gentem frenare Britannam.</l>
+            </q>
+            <p>And when it was perceiuid that ther practise wold take no place, but that it was espyed in the pliament howse, and that he could not haue the crone to him, were they not then markid and notid, who were against it and to some off them were sent parents of 100. lib. a yere some of 200. lib. a yere,<note place="margin">Patentes ge<g ref="char:EOLhyphen"/>uen, and grauntid.</note> some more some lesse according as time and accacion seruid, to stope ther mouthes withall, &amp; loke who shewid not them selues redy on inclining to take a bribe to betray this ther natu<g ref="char:EOLunhyphen"/>rall conne, was not one quarell or another pikide to him or them, wherby they were brought quorum nobis, and then to lay ether treason or heresie (as they call it) to ther charges, wherby many were brought in to preson as it is manifest, by reason wheroff who dare speake ther minds frelie in the said perliament houss, according to the auncient priuileges off this noble realme? and is not this also a plage which is come apon vs for our vn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hankfullnes according as our true prechers and prophets declarid to vs as is afore said. And for the more fur<g ref="char:EOLunhyphen"/>therance off this ther wickid purpose, did they not with out all shame, sett out in print, a genelogy or petigre in the english tonge, to proue by the same genelogy that the prince off spain came off the bloud off king Edward the third. Be all thes practises think you, for any other purpose, but for to cause the comon people, to haue such a good opinion off the prince of spa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ne, that they might be the more redy an<g ref="char:cmbAbbrStroke">̄</g> willing, to haue him cro<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nid king, off this realm. And therby to disinheret,<note place="margin">This genelo<g ref="char:EOLhyphen"/>gy had bene treason in the time of K.H. 8.</note> all the next rightfull heires off the same, and so to bring this noble realm in to the bondage off strangers, contrary to the auncient la<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>s, statu<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>s, and customs off this noble realme off England.</p>
+            <p>And no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of late who is ignorant of so many noble men and gentilmen fech<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d out off all shires, and cauillacions &amp; quarels pikid to them, and so cast in to prison (as they say) v<g ref="char:EOLhyphen"/>pon suspection of conspiracie against the quene, which thing is but vaine and ymagined as apperid lately by M. Iohn frog<g ref="char:EOLunhyphen"/>marton, who at the time off his execution,<note place="margin">Iohan frog<g ref="char:EOLhyphen"/>marten.</note> confessid openly to the people that he neuer offendid in any treason against the quene, and therapon toke his death, and yet he was most cruelly hangid drawen and quartrid: how be it I know some men will answere and say, that he was co<g ref="char:cmbAbbrStroke">̄</g>dempnid by the law
+<pb n="9" facs="tcp:15965:6"/>
+and the quest passid against him and found him gilty &amp;c but I wold know off the again? I pray the what quest dare quite a<g ref="char:EOLhyphen"/>ny man, were he as ygnorant and clere as Susanna, yff the Iud<g ref="char:EOLhyphen"/>ges conde<g ref="char:cmbAbbrStroke">̄</g>pne him, as the wickid Iudges condempnid here, be<g ref="char:EOLhyphen"/>cawse she wold not condissent to ther shamfull lust and desire.</p>
+            <p>Do ye not know how 12. honest and substancial mercha<g ref="char:cmbAbbrStroke">̄</g>t men off london were handlid not long sens, because they cle<g ref="char:EOLhyphen"/>rid &amp; found sir Nicolas throgmarten not gilty, according to ther othe and conscience, but what was ther reward, were they not all most shamfully put in preson, wher they lay mise<g ref="char:EOLhyphen"/>rably some halff a yere,<note place="margin">The quest that quit sir Nicolas frogmarten inprisonid therfore.</note> some more some lesse, and afterward were fain to pay some off them 200. lib· some 500. merks, so<g ref="char:EOLhyphen"/>me more some lesse to the quene, according to ther abillite and substance, or ells they should haue remaynyd styll in preson, with out any right, iustice, or lawe.</p>
+            <p>Here by ye may perceiue, what tyranny is vsid, and by this practise they haue so fearid honest men that should go apo<g ref="char:cmbAbbrStroke">̄</g> any quest for the quene, that they will say and do as the quene will haue them, rather then to be so cruelly and shamfully in<g ref="char:EOLhyphen"/>treatid and handlid as those 12. honest merchant men were be<g ref="char:EOLunhyphen"/>fore, who hath herd of the like tiran<g ref="char:cmbAbbrStroke">̄</g>y vsid in England before this time, I do reme<g ref="char:cmbAbbrStroke">̄</g>ber in the time of K. H. 8. that the lord da<g ref="char:EOLhyphen"/>cres of the north was indightid of treaso<g ref="char:cmbAbbrStroke">̄</g>,<note place="margin">The lord dacres.</note> and a quest of honest me<g ref="char:cmbAbbrStroke">̄</g> did quite him according to equite and iustice, and yet I ne<g ref="char:EOLhyphen"/>uer herd that any off the same quest were ether in prisonid or trublid therfore.</p>
+            <p>Is it not also manifest how shamfully, those thwo knights, Sir peter Carow and Sir Iohan Cheke wer betraied, taken and caried away, ryding betven bru<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sells and Andwerp, in the county of brabant. And had not Sir peter Carow his pardon sent him ouer the see, so liberally, both for lifflands and goods that a larger perdon hath neuer bene grauntid. And likwise Sir Iohan Cheke had he not the quenes licens, to depart the re<g ref="char:EOLunhyphen"/>alm, and being both as it was supposid in ther princes fauour<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> or at the least no ma<g ref="char:cmbAbbrStroke">̄</g> perceiuid the contrary, for they both had bene with the quenes embassadors at brussells, Andwerp and barro, mich frendly comunicacio<g ref="char:cmbAbbrStroke">̄</g> and great chere was had be<g ref="char:EOLunhyphen"/>twen the<g ref="char:cmbAbbrStroke">̄</g>, after that they riding to gether to brussells, to them bassadors, which were ther prese<g ref="char:cmbAbbrStroke">̄</g>t both to gether, wher they we<g ref="char:EOLunhyphen"/>re frendly, and louingly interteinid, and great chere was made to the<g ref="char:cmbAbbrStroke">̄</g> thre dais to gether, and no maner thing laid to ther char<g ref="char:EOLhyphen"/>ges, and also louingly and frendly toke ther leue of the sayd emblassadors, and returnid towerd Andwerp again, were most shamfully, by the kings marshall of that co<g ref="char:cmbAbbrStroke">̄</g>tre taken, and
+<pb n="10" facs="tcp:15965:6"/>
+like theues caried away, and so conuaied to the tower of lon<g ref="char:EOLhyphen"/>don. Is not this also a lamentable case, to here thes two gentil<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>, to be betraied so shamfully,<note place="margin">Princis pro<g ref="char:EOLhyphen"/>myss not pe<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>formed</note> who wil trust such rulers with any maner promisses, whe<g ref="char:cmbAbbrStroke">̄</g> they thus seke to betray, the noble and gentillmen, of this realme. Is this the truth and crede<g ref="char:cmbAbbrStroke">̄</g>s that should begeuen to princes wordes, when they thus shamfully pluke bake that they haue grauntid, and perform not that they haue promisid.</p>
+            <p>
+               <hi>More ouer who seith not playnly now</hi> that the prince of spain hath optainid to haue the name of the king of Engla<g ref="char:cmbAbbrStroke">̄</g>d and also is ꝑmittid in our english coine to ioin out english armes with the armes of spain<g ref="char:punc">▪</g> an<g ref="char:cmbAbbrStroke">̄</g> his <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>namy with the quenes, the croune of Engla<g ref="char:cmbAbbrStroke">̄</g>d being made ouer both ther heds in the midest, and yet apo<g ref="char:cmbAbbrStroke">̄</g> nether of the<g ref="char:cmbAbbrStroke">̄</g> both, and the sup<g ref="char:EOLhyphen"/>scripcio<g ref="char:cmbAbbrStroke">̄</g> about the same coines was with the name of philipe and Mary as apperith<g ref="char:punc">▪</g> sens that time, is it not manifest,<note place="margin">The king vsyth the ar<g ref="char:EOLhyphen"/>mes off eng<g ref="char:EOLhyphen"/>land in his coin with ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the quenes name o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>my.</note> that he in his own priuate coine hath vsurpid ferther, and ioinid his armes with the armes of Engla<g ref="char:cmbAbbrStroke">̄</g>d, and made his pictur alone, with themperiall crone of Engla<g ref="char:cmbAbbrStroke">̄</g>d apon his head, leauing out both the quenes picture, and also here name<g ref="char:punc">▪</g> and so vsith both the name and armes of England with out the quenes<g ref="char:punc">▪</g> hauing this sup<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cripcion about his coine Philip <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nglie, francie, n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>apolis princep. hispaine, by this ye may perceiue what he doth intend and purpose, and that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e sought not in mariage the que<g ref="char:EOLunhyphen"/>nes person, but the welthy and rich land off England.</p>
+            <p>Besides this, what practises be inuentid daily, to set Engla<g ref="char:cmbAbbrStroke">̄</g>d at va<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iance with fraunce, it is not vnknown, not only by ge<g ref="char:EOLhyphen"/>uing out that englishme<g ref="char:cmbAbbrStroke">̄</g> should go aboute to betray callis to the frenchmen, wherby our new king might haue accasio<g ref="char:cmbAbbrStroke">̄</g> to send in soldiers of his, an<g ref="char:cmbAbbrStroke">̄</g> so take the town and sortes for him selff, but also to cawse some of our Ioly <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ckers, which be soldiers about guines, or ha<g ref="char:cmbAbbrStroke">̄</g>mes, to pike quarrels with the frenchmen to set vs &amp; the<g ref="char:cmbAbbrStroke">̄</g> to gether by the eares, that by that meanes the quene might haue accasio<g ref="char:cmbAbbrStroke">̄</g>,<note place="margin">Practice<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> set vs at v<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ance with france.</note> &amp; that it might be thought she should be co<g ref="char:cmbAbbrStroke">̄</g>pellid, to send out both shippes &amp; soldiers, &amp; so not on<g ref="char:EOLhyphen"/>ly co<g ref="char:cmbAbbrStroke">̄</g>sume the greatist <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of the substa<g ref="char:cmbAbbrStroke">̄</g>ce an<g ref="char:cmbAbbrStroke">̄</g> treasure of the re<g ref="char:EOLhyphen"/>alm, with the artillary and navy of the same, but also wilbe ac<g ref="char:EOLunhyphen"/>casion off distruction off a great nomber off the noble men gentyllmen &amp; comons off this realm.</p>
+            <p>It is not long sens that we had warres with fraunce, which was for the<g ref="char:cmbAbbrStroke">̄</g>prours pleasur, but what folowid ther of, it is not vnknown dyd it not all most begger the hole realm,<note place="margin">The frutes off warres.</note> besids the losse, &amp; distructio<g ref="char:cmbAbbrStroke">̄</g> of a great no<g ref="char:cmbAbbrStroke">̄</g>ber of worthy gentilme<g ref="char:cmbAbbrStroke">̄</g> and co<g ref="char:EOLunhyphen"/>mo<g ref="char:cmbAbbrStroke">̄</g>s<g ref="char:punc">▪</g> Therfore I wold desire the states of the realm, that they
+<pb n="11" facs="tcp:15965:7"/>
+wilbe circu<g ref="char:cmbAbbrStroke">̄</g>spect an<g ref="char:cmbAbbrStroke">̄</g> well aduisid; how they attempt, to breake wyth fraunce, for the pleasure of any other princes, least they be the occasio<g ref="char:cmbAbbrStroke">̄</g> of the distruction and beggery of the hole realm.</p>
+            <p>More ouer it is to be considred when king henri the 8. bega<g ref="char:cmbAbbrStroke">̄</g> warres with fraunce, how that before he had bene at rest and quiet 30. yeres with out any warres,<note place="margin">what we ha<g ref="char:EOLhyphen"/>ue susteynid by the last warres nith france.</note> in the which time, he had gatherid diuers waies, great great substance and treasure wherby it was supposid he to haue had sufficient, to haue main<g ref="char:EOLunhyphen"/>tainid his said warres with all: but for all that, was he not sam to gather off his nobilite, clergy, and comons, diuers great sub<g ref="char:EOLunhyphen"/>sides, beniuolencis, lones or lending off mony, besides also our fine coines off gold and siluer, was turnid in to copper and brasse as it is manifest at this day<g ref="char:punc">▪</g> which was a great dacay to our como<g ref="char:cmbAbbrStroke">̄</g> welth, as it cannot be denied. wherfore yf the que<g ref="char:EOLhyphen"/>ne should now begin warres with france, for her husbo<g ref="char:cmbAbbrStroke">̄</g>ds ple<g ref="char:EOLunhyphen"/>asure,<note place="margin">The quene hath no pro<g ref="char:EOLhyphen"/>vision a fore<g ref="char:EOLunhyphen"/>hand.</note> and haue not the like prouicion aforehand in compari<g ref="char:EOLhyphen"/>son off her said noble father (as it is to be supposid that she hath not) by raison she hath geuen away so mich to the b. off Rome and his adherents, and beggerid her nobles and como<g ref="char:cmbAbbrStroke">̄</g>s to set vp her spitfull spritualty (so that the old prouerb is now fulfyllyd, S. Nicolas is on horse bake and S. George is on fote) wher apon it is to be thought that she hath nothing the like prouision, that her said noble father had, when he began to haue warres with fraunce. And therfore I will leue it to the counsell and states off the realm, to consider what will folowe,<note place="margin">The mass is the occasion off the great dearth in England.</note> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> we should at this present, haue warres nith fra<g ref="char:cmbAbbrStroke">̄</g>ce for as I do vnderstond, by other, England is in as great misery and penuri at this day, as hit hath bene in many yeres before, the dearth of come, and all maner of vitall be so exce<g ref="char:EOLhyphen"/>ding dere, although at the first coming in off the quene to he<g ref="char:EOLhyphen"/>re raygne, it was reportid, that that shamfully doll, (the bles<g ref="char:EOLhyphen"/>sid masse as they call it) had brought with it, all things plenty, which being contrary<g ref="char:punc">▪</g> now plainly apperith, to be the occasi<g ref="char:EOLhyphen"/>on off the great vengeance off god apon this realm, for so shamfully receiuing again, that wickid and abhominable pop stome, with all ther wickid ceremonies, express<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y against god and the death of his sone Christ.</p>
+            <p>This haue I writton, considring it to be my dwty in waring my natiue contre, to auoid the great plages and dangers, that be now coming apo<g ref="char:cmbAbbrStroke">̄</g> them, and knowing it also to be the dwty of euery christean &amp; trwe hartid englishman, and that man that perceiuith this his natiue contre like to come in to ruyn and distruction, and doth not indeuore hym selff by all theme <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> he can deuise, for the deliuerance ther of, the same is not
+<pb n="12" facs="tcp:15965:7"/>
+worthy to be countid a trwe hartid englishman,<note place="margin">Miles ho<g ref="char:EOLhyphen"/>gerd &amp; his fel<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ws.</note> but a traitou<g ref="char:EOLhyphen"/>re to his contre, what shall then euery trwe hartid englishma<g ref="char:cmbAbbrStroke">̄</g>, Iudge of Miles hogerd and his felow helpers, who more like swinherds haue made, a shamfull, railing, folishe, and blasphe<g ref="char:EOLhyphen"/>mus boke, against god and his pour persecutid members, and afflictid, congregacion now dispersid abrode in diuers con<g ref="char:EOLhyphen"/>ties for his names sake, who by ther flathering bocks,<note place="margin">Themisto<g ref="char:EOLhyphen"/>cles saieng.</note> extol<g ref="char:EOLhyphen"/>lith the King aboue the mone, aledging in ther books the saieng off Themistoc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, to the Athenians by thes words why mak eye thes tumultes and rumors, against rhem, off w<g ref="char:EOLhyphen"/>hom by manifold wais, ye haue receiuid so many comodites what shall all men Iudge off this shamelese flaterers. I pray you what commodites hath England receiuid, of the king: Except it be, that they bestowid an hundrid thousand ponds, for his charges, to bring him, and his nauy off spainierds in to england, which mony, thenglishe merchants latly haue paid at Andwerp as it is manifest and cannot be denied. Besids that what discomodites and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> England is like to receiue by hym, I pray god thy may bewarnid to take hede in time. And as touching the kings persone, I know non to find any faute with it, exceapt the quene her selff do,<note place="margin">The spani<g ref="char:EOLhyphen"/>erds report of the quene.</note> for lake off his compa<g ref="char:EOLhyphen"/>ny so long, the which as it is reportid he litle regardith, for as his spanierds haue blasid abrode in other contres saieng what shall the king do with such an old bich, also affirming that she may be his mother, a yonger is more meter for him, with mo<g ref="char:EOLhyphen"/>dispitfull words spoken off them, the which yff an englishma<g ref="char:cmbAbbrStroke">̄</g> should report, should be taken for to odius. And as for Eng<g ref="char:EOLhyphen"/>land with a great nomber off the states of other contres: could haue bene very well content,<note place="margin">The dowgh<g ref="char:EOLhyphen"/>ter off portin<g ref="char:EOLunhyphen"/>gal.</note> that he had ꝓcedid with his for<g ref="char:EOLunhyphen"/>mer mariage, with the dowghter off portyngall, which had bene more feter and quieter for him, both by the Iudgment of his own spanyerds, &amp; also of many other. And as for the nob<g ref="char:EOLunhyphen"/>les and comons off England, they could haue bene very well pleasiid, that the quene had also maried withi<g ref="char:cmbAbbrStroke">̄</g> the realm as with the lord Courteney earl off deuenshir borne of a noble house,<note place="margin">Lord court<g ref="char:EOLhyphen"/>ney poisonid</note> or with some other noble man. And so had the said lord Courtney not bene compellid for the saue gard off his liff, to haue trauelid beiond the sees in to strange co<g ref="char:cmbAbbrStroke">̄</g>tres, wheras it is supposid he was poisonid, for fear of<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> putting the prince off spaine besid his protensid enterprise.<note place="margin">The lady fransis dough<g ref="char:EOLunhyphen"/>ter off to the french quene</note>
+            </p>
+            <p>what shall men Iudge also off the quene, that now suf<g ref="char:EOLhyphen"/>frith the aspergement off her blude, and suffrith the hieres ap<g ref="char:EOLhyphen"/>parant off the crone to many so basely and vilre, to bring ther<g ref="char:EOLhyphen"/>by the succession, out off estima<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ion, that people may the les<g ref="char:EOLhyphen"/>se
+<pb n="31" facs="tcp:15965:8"/>
+care yf the croune, go to a stranger, which is contrary to the lawes and statu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s of this realm, which wold not haue be<g ref="char:EOLhyphen"/>ne suffrid in the time of King Henry the 8. nor in any other <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing or princes time, that had set by the honour of the realme<g ref="char:punc">▪</g> who <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erth not the practisys that is vsid daily, and all for pour England. The conclusions <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> peace with the french king, so <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> redounding to ther dishonours becawse they might the more quietly, worke, and make ther practis for Engla<g ref="char:cmbAbbrStroke">̄</g>d, with<g ref="char:punc">▪</g> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> sett or interupcion off any other forain princes.</p>
+            <p>And becawse they haue failid off ther purpose at two perl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aments and cannot haue ther desire,<note place="margin">The <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> by the comen assent who <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> not ther practise and in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ent, to enter apon the re<g ref="char:EOLhyphen"/>alm with pour and force, and so to ca<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e the prins off spayn to m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke a conqueste off thys noble Realme (yff he cann) and therby to desinheret all the n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ble blude and comons off England, and to plant in ther places the vyle spanyerds<g ref="char:punc">▪</g> c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ntrary to the rightfull laws and customs off this realm.<note place="margin">The quene <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note> And dyd not the quene when she was crownid, take a <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to mayntain and defend the old and ancyent <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> customs on this realm, and how she kepith them <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> iudge.</p>
+            <p>Moreouer what a greuounse plag is it, perceyuing the great dearth and scante off corn <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ail &amp;c to be in all eng<g ref="char:EOLhyphen"/>land at this present which hath not bene seen many yeres before,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 paragraph">
+                     <desc>〈1 paragraph〉</desc>
+                  </gap>
+               </note> wherby the comon People be in grea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> pouerty and misery: that ther is gatheryd such great subsidies off them, besids, iones or sending off mony, as is now, only to kepe them low, and in misery, that the prince off <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>payne may the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>one<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> prain to come to his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aid pretensid enterpryse.</p>
+            <p>At the quenes first coming to here rayng, she forgaue the subsidye, that was grauntid to King Edward the 6. w<g ref="char:EOLhyphen"/>herby it is to be supposid she had no great nede off mony, or ells it was to make the people more willing to consent, that she should mary with the prince off spayne.</p>
+            <p>Is it not also manifest, that sens she came to her state and dignite, that she hath had no warres, wherby here trea<g ref="char:EOLunhyphen"/>sure should be consumyd, but contrary wyse hath gotten great possessyons and substaunce off those noble men and gentyllmen, that haue suffrid most cruell death, besids great <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that she toke an<g ref="char:cmbAbbrStroke">̄</g> doth take of many noble men and other
+<pb n="14" facs="tcp:15965:8"/>
+s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns she came to her raygne as it is manyfest.<note place="margin">what the quen mea<g ref="char:EOLhyphen"/>nith by ga<g ref="char:EOLhyphen"/>thering off mony.</note> But all her gathering is to help the King her husbond, and to enrich him and to make him strong, that he may the more easely com in and conquere this noble realm.</p>
+            <p>Also is it not manyfest how many thousand pounds is dayly payd, by Thenglish merchants and staplers at And<g ref="char:EOLhyphen"/>werp, by the quenes comaundement, and daily more and more is paid by them, and therfore Thenglish merchants, ar comaundid, to make ouer but two shyppyngs a yere, to the vtter vndoing off a great sort off yong merchant men who ar not able to abide ther merkets so long,<note place="margin">wha the en<g ref="char:EOLhyphen"/>glish mer<g ref="char:EOLhyphen"/>chants must pay at and<g ref="char:EOLhyphen"/>werp for the quene.</note> and wher<g ref="char:EOLhyphen"/>fore do they cawse this ordinance to be made<g ref="char:punc">▪</g> but only that at such tymes, many clothes and wolles may be shyp<g ref="char:EOLhyphen"/>pyd ouer the sees to gether: off the which clothes and wol<g ref="char:EOLhyphen"/>les the sayd merchants must lend to the quene, a serteygne some off mony off euery cloth, &amp;. serpler off wole, that they so shyppe, that it may amount to .xxx. or xl. thou<g ref="char:EOLhyphen"/>sand pounds at a tyme to thentent that it may serue the king<g ref="char:punc">▪</g> to maynteyne hym and his mynyons out off the realm, becawse he hath no great h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st Home to the quene, being now more then xv monythes from Here, wherby it is ma<g ref="char:EOLhyphen"/>nyfest and playnly apperyth as clere as the sone, that in ma<g ref="char:EOLhyphen"/>riage he sought not the quenes persone but only the rich and welthy realm of England.</p>
+            <p>And by cawse I know my name shalbe abusyd, for wryting thus playnly my mynd, for the dwtye and good wyll that I bear to my natyue contre, I do desyre the ther<g ref="char:EOLhyphen"/>fore gentyll reader, what so euer thou be,<note place="margin">The auctors request.</note> that thou wyle consyder, how many worthy men off the Romayns, dyd not passe to venter ther liues, and gaue them selues to the de<g ref="char:EOLhyphen"/>ath, for the delyuerance off ther contre,<note place="margin">Mucius Seuola. Marcus Curcius.</note> as Caius Mucius Seuola, Marcus Curctus, and many other (as plainly ap<g ref="char:EOLhyphen"/>perith in Titus Liuius, the Romayns story) for the deliue<g ref="char:EOLhyphen"/>uerance of ther Cyte, co<g ref="char:cmbAbbrStroke">̄</g>tres and comon welth from the hands of strangers ther henemyes, like as I do at this tyme, and ther fore I do desyre them to Iudge the best off me consydryng I do but my dwtye,<note place="margin">Miles ho<g ref="char:EOLhyphen"/>gerd and his felous at blind snailes and hyssing serpents.</note> which likewise is the parte and dwry off euery trwe hartid Englishe man.</p>
+            <p>And as for hogerd and his felows who may be comparid to blind snailes, and hissing serpents, creping out of ther holes to fight against dead men<g ref="char:punc">▪</g> and also with such whose answers
+<pb n="15" facs="tcp:15965:9"/>
+cannot be suffrid to be rede and indiffere<g ref="char:cmbAbbrStroke">̄</g>tly to be iudgid, and therfore thes snailes may be bold to crepe apon ther own du<g ref="char:cmbAbbrStroke">̄</g>g<g ref="char:EOLunhyphen"/>hills, to lie, slander, and condempne, Christes pour members at ther own pleasure, for yf our answers might be suffrid open lie to be red and indifferently to be iudgid (such answers should be made to ther follshe and slanderus books wul <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aled<g ref="char:EOLunhyphen"/>gid auctors out off the grauesend barge, which be mete couers for such cuppes) they suould be so paintid out in ther colers,<note place="margin">Hogerds au<g ref="char:EOLhyphen"/>ctor aledgyd out off the grauesend barge.</note> that they should be ashamid here af<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r, to Raile and lie as they haue done, onles they be past all shame, like as that inocent prelate doctor standish, who long agone wrote a treatise a<g ref="char:EOLhyphen"/>gainst doctor barnes aste<g ref="char:punc">▪</g> he was burnid, which offentmies aff<g ref="char:EOLunhyphen"/>terward he lamentid, and recantid the same: who now be<g ref="char:EOLhyphen"/>ginnith again to wax bold like a snaile creping out of his shel seing no man dare openlie resist him, beginnith again to wri<g ref="char:EOLhyphen"/>te, and affirmith that he will now abide (by his folishe fanta<g ref="char:EOLunhyphen"/>sies) to the death,<note place="margin">D. standish is a cokes co<g ref="char:EOLunhyphen"/>me.</note> alake pour cokesscom, that turnith with e<g ref="char:EOLhyphen"/>uery wind off doctrine, as a great nomber off his felows haue done, who being more wily, and crafty then he is, although they make books ar ashamid to setto ther names, for fear off after clappes, for they dought how long this hothe wether off persecucjon, and borning wil continew, and therfore ar con<g ref="char:EOLunhyphen"/>tentid, that such swinherds as Miles hogerd and his felous be, shall beare the name,<note place="margin">Miles ho<g ref="char:EOLhyphen"/>gerd.</note> who for vain glory, and hope to come to promocion, ar contentid like blind busserds, to take it a<g ref="char:EOLhyphen"/>pon them.</p>
+            <p>
+               <note place="margin">Thomas Archbi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. off canterbury b. off londo<g ref="char:cmbAbbrStroke">̄</g>. b. off worcetr<g ref="char:cmbAbbrStroke">̄</g> b. off glocetr<g ref="char:cmbAbbrStroke">̄</g> b. S. Dauiths doctor tailor M. rogers, M. bradford M. sanders, M. filpot &amp;c</note>who euer hard off so many worthy bisshops, and lernid men, to be so cruelly martrid, as hath bene now off late dais, as namly Thomas Cramner archbissop off Canterbury, M. Ridley bisshope off london M. Latimer sometime bisshop worceter, M. hoper bisshop off gloceter M. pfarer bisshop off S. Dauiths, doctor tailer off hadle M. Rogers, M. brad<g ref="char:EOLhyphen"/>ford M. filpot, M. sanders, with many other vertues &amp; ler<g ref="char:EOLhyphen"/>nid men, befid M. grene, &amp; M. Cawsten gent<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llmen, and ma<g ref="char:EOLunhyphen"/>ny other gentillme<g ref="char:cmbAbbrStroke">̄</g> in diuers shires &amp; places off England, be<g ref="char:EOLhyphen"/>sids also many vertues men and women, whose nomder I can<g ref="char:EOLhyphen"/>not sertenly reherse, but amsure and serteine, that ther names ar writton in the boke off liff, and becawse our Rulers wold haue ther tiran<g ref="char:cmbAbbrStroke">̄</g>ie made the more manifest to the word, did they not lately burne 13. men &amp; women in one fire, at stratford the bow besids london.</p>
+            <p>Yff for our sinnes and vnthankfullnes, god hath not sent vs strangers and tirants to Raine ouer vs, according to the prophecy off M. Latimer, then was ther neuer any. Yet ha|
+<pb n="16" facs="tcp:15965:9"/>
+haue we one notable example of a wickid tirant, in the third booke off the kings. in the xvij.xviij. and xix. capters we read off that cursid woman quene Iesabell,<note place="margin">Reg. 17 18 19. chap.</note> who off a wickid zeal that she had to the seruing off here false ydols cawsid all gods holy prophets to be persecutid and staine, in so mich that the holy Prophet Elias was fain to fly in to the wildernes,<note place="margin">Quene Iesabell.</note> to saue his lyff, wher god sent arauen to fede hym, wher he cried and co<g ref="char:cmbAbbrStroke">̄</g>plainid to god, sayeng lord they haue distroied all thy holy prophets, and I am only escapid, and yet they seke after my liff, but god answerid Elias and sayd I haue yet reseruid vnto me vij. thousand, that haue not bowid ther Knees vnto <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>all not worshippid his ymage &amp;c. Euen so I trust, and doubt not, for all the greuouse persecucions,<note place="margin">Elyas.</note> and tyrany that is day<g ref="char:EOLhyphen"/>ly vsid against gods saints god hath reseruid many that haue not bowed ther knees to ther ydols, but that do continew in ther prayers still to god, for his pour afflictid church off Eng<g ref="char:EOLhyphen"/>land, now dispersid and staterid abrode, at whose <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rye and la<g ref="char:EOLhyphen"/>mentable complaint, god will aduenge him selff off his and our aduersaries, our wickid rulers, and will bring some off them to as shamfull an end, as he did that cursid, and wickid woman quene Iezeqell.</p>
+            <p>wherfore dear brethern, sease not to lament, and bewaile our sinnes, and the state and misery off our countre, that is co<g ref="char:EOLunhyphen"/>me apon vs for our vnthankfulnes and for not knowlegyng the time of our visytacyon and doubt the not, but god is good mercifull, pacient and long suffring, and will at his appo<g ref="char:EOLunhyphen"/>intid time so confou<g ref="char:cmbAbbrStroke">̄</g>d them with all ther false spitful spritualty<g ref="char:punc">▪</g> that all the world shall know, that he only is the lord in all the earth. wherfore I say once again deare brethern, lament, lame<g ref="char:cmbAbbrStroke">̄</g>t, the state of our natiue, co<g ref="char:cmbAbbrStroke">̄</g>tre, &amp; sease not to crye with me vn<g ref="char:EOLhyphen"/>to god &amp; to besech him for his deare sone our saue your Iesus Christes sake, that he will haue mercy apo<g ref="char:cmbAbbrStroke">̄</g> his po<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n church off England, and that he will not geue vs ouer in to the hands of strangers and tyrants, his and our henemies, for our sinnes and vnthankfullnes.<note place="margin">Psalm. 107.</note> for as the Prophet Dauith saith in the 107. psalm it is he that for the sinnes off the people, makith a frut<g ref="char:EOLhyphen"/>full land to be barine &amp;c. a godly &amp; compfortable psalm for all such as be oppressyd with tyranny, wherin the afflictid, &amp; troblid consciens, shalbe well satisfied. Ther vnto accordyth the saieng off the holy man Iob,<note place="margin">Iob. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>4.</note> that for the sinnes off the peo<g ref="char:EOLhyphen"/>ple, god sendith tirantes to raigne ouer them. seing then that for our sin<g ref="char:cmbAbbrStroke">̄</g>es et vntha<g ref="char:cmbAbbrStroke">̄</g>k fullnes we haue prouokid gods wrath who hath sent vs thes tira<g ref="char:cmbAbbrStroke">̄</g>es to rule ouer vs, we haue now non other wais nor meanes then only to subsmitt our selues vn<g ref="char:EOLhyphen"/>der
+<pb n="17" facs="tcp:15965:10"/>
+the migkty hand off god &amp;,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ges 10</note> to folow the example off the childern off Israell, who were gods electe and chosen people what time as they had offendid god by worshipping ydols, he ponisshid them by sending strangers &amp; tirants to Rule &amp; rain ouer them who oppressid them (as our rulers do now vs) wher<g ref="char:EOLunhyphen"/>fore they turnid to god, humhlid them selues with praier and fasting, &amp; confessyd ther sinnes and vnthankfullnes: and the lord said to them, did not the hethen before oppresse you, and ye cryed vnto me, anb I deliuerid you out off ther hands, &amp; for all that, ye forsoke me againe, and worshippid ther gods, wherfore I will help you no more, go &amp; complain vnto those gods which ye haue seruid, &amp; looke yff they will help you out off your misery. And they confessyd &amp; said to the lord, we haue sinnid, do thou with vs, what so euer pleasith the, de<g ref="char:EOLunhyphen"/>liuer vs only at this time, and they put away ther ydols and seruid the lord, and the lord had pite apon ther misery, and de<g ref="char:EOLunhyphen"/>liuerid them out off ther henemies hands &amp;c. Oh lett this godly example moue vs to crye vnto the lord, with out sea<g ref="char:EOLhyphen"/>sing, and confesse like wise our sinnes and vnthankfullnes, &amp; say to the lord with the Prophet Esay,<note place="margin">A praier for he chiurch of England. Esay 37.</note> oh lord of hostes, thou art god alone off all the kingdoms off the arth, thou only hast creatid heauen and earth, encline thin cares and consider, ope<g ref="char:cmbAbbrStroke">̄</g> thyn eyes, and see our miserys, and delyuer vs from the hands off our aduersaries, that all the kingdoms off the arth may know that thou only art the lord. Ieremy. 5. oh lord call to remembrance what we haue suffrid,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eremy. 5.</note> consider and see our co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>fucion, our in heritaunce is turnid to strangers, &amp; our hou<g ref="char:EOLhyphen"/>ses to foreners. Esay. 55. (oh lett vs seke the lord while he is to be found, &amp; lett vs call apon hym whyle he is nigh, so wyll he be marcifull to vs) Thy holy Prophet Dauith sayth.<note place="margin">Esay. 55.</note> that lyke as a father pitieth his own childern, so thou lord hast mercy and pite apon them that fear the. wherfor oh lord be mercifull to vs, and remember not our offencis, nor the offencis off our fore fathers,<note place="margin">Psalm. 103.</note> nether take thou vengeance of our sinnis, spare vs good lord, spare thy pour afflictid churh off England whom thou hast redemid with thy most precius blude, and be not angry with vs for euer, but deliuer vs this one tim from our cruell enemies, which most cruelly oppres and persecute vs with most cruell death, becawse we will not worship the works of ther own handes, which worship doth perteine to the only our lord god, therfore ar we spoilyd off our goods, &amp; persecutid from contre to contre. oh lord our god hear our prayers, which thou dost geue vs grace to make for thy pour afflictid church off England, oh do not prolong
+<pb n="18" facs="tcp:15965:10"/>
+becawse thou <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eist, how thy most holy &amp; blessyd name is day<g ref="char:EOLunhyphen"/>ly blasphemid, thorow false and wickid doctrin, wher before thy holy worde was truly preachyd &amp; taught, &amp; thy church ther did bear the professyon off thy name, oh call to remem<g ref="char:EOLhyphen"/>braunce how mercifull thou hast bene to thy people off old ti<g ref="char:EOLhyphen"/>me, when they were disobedient, &amp; did for sake the, and wor<g ref="char:EOLunhyphen"/>shippid the works of ther own ha<g ref="char:cmbAbbrStroke">̄</g>ds (like as in England they now do) thou didest not vtterly reiect them,<note place="margin">Iudges. 3. Iueges. 6. Iudges. 14. 3. Reg. 9.10. Macha. 2.3. Ieremy. 14.</note> but when they repentid, and confessyd ther sinnes and turnid to the with all ther harts, thou mercifully forgauest ther sinnes, and sentyst them deliuerers, as Aliud, ge dro<g ref="char:cmbAbbrStroke">̄</g> Samson, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ehw Machabeas &amp; other, who deliuerid them from strangers ther henemies Iere<g ref="char:EOLhyphen"/>my. 14. we knowledg oh lord all our misdeds, and the sin<g ref="char:EOLhyphen"/>nes off our fore fathers, for we haue offendid the, be not still displeasid with vs (oh lord) for thy names sake, forget not thy louing kindnes, and remenber the throu off thy glory, oh be mercifull to vs, be mercifull to vs. psalm. 83. hold not thy ton<g ref="char:EOLunhyphen"/>ge oh lord, kepe no lenger silens, refrain not thy selff oh god, for lo thin henemyes make a hurle burle, they ymagin crafft against thy people, and conspire against them, com say they lett vs rote them out, from among the people. Oh my god ma<g ref="char:EOLunhyphen"/>ke them lyke a whole, and as the stuble before the wynd, per<g ref="char:EOLhyphen"/>secute them with thy tempest, make ther facis ashamid,<note place="margin">Psalm. 83.</note> oh lord that they may seke thy name. lett the<g ref="char:cmbAbbrStroke">̄</g> be confoundid &amp; vexid euer more and more, lett them be put to shame and perish, that they may know, that thou art god alone, and that thy name is the lord, and that thou only art the most hyest over all the earth. psalm. 35. Striue thou with them that striue agaynst the and fyght thou with them that fyght against the let them be as the dust before the wind and thy angell oh lord scateryng them, lett sodayn distruction com apon them vnwares,<note place="margin">Psalm. 35.</note> And the ne<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> that they haue laid preuely cach themselfs in, that they may fall in ther own mishefe, so will we geue the thanks in the great congregacyon and prayse the among all people, oh lord here vs, oh lord be mercifull to vs,<note place="margin">Esay. 40.</note> oh lord do not prolong the tyme, becawse thy pour church off England haue borne the professyon off thy name. Thou knowist oh lord, that all flesh is as grass and all the glory off man as the flour off the feld, the grase witherith and the flour <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>adith away, but thy worde indurith for euer. wherfore oh lord call to remembraunce thy great mercies and thy louing kindnes, according to thy pro<g ref="char:EOLhyphen"/>misses, and do not consider, nor haue respect vnto the nom<g ref="char:EOLhyphen"/>ber off our daily sinnes, and wickidnes, but according to thy great mercies we do besech the to forgeue vs. in thy dear sone
+<pb n="19" facs="tcp:15965:11" rendition="simple:additions"/>
+our saueiour Christes blude, and say vnto vs, thou art our helth, which woldest not the death off a sinner, but rather that he convert and turn from hys sinnes and wickidnes. Convert thou vs vnto the, so shall we be convertid, ad turn thou vs vn<g ref="char:EOLunhyphen"/>to the, which ar in extrem misery so shall we be confortid, for as thy holy prophet Dauith sayth, yff thou shouldist loke na<g ref="char:EOLhyphen"/>rowly apon our sinnes and wickednes, lord who might abyd before t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e,<note place="margin">Psalm. 130.</note> but he saith ther is mercy with the, and therfore art thou worshippid. Again he saith lord enter not into Iudgme<g ref="char:cmbAbbrStroke">̄</g>t with thy seruants, for no man liuing shalbe found ryght wise before the. Seing oh lord thou knowist all things, and no<g ref="char:EOLhyphen"/>thing <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s hid from the,<note place="margin">Psalm. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>43.</note> thou knowist also that all fleshe is grass, &amp; no good thing can com from vs, as of our selues, being but flesh and blud, and all to gether vnproffytable seruants, stre<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> now forth thy mighty hand &amp; confound the deuisis of thin &amp; our henemies abate ther pride aswage ther mallis which styll continew, and persecu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e thy pour afflictid church off Eng<g ref="char:EOLhyphen"/>land, that all the word may know, that thou art the liuing god &amp; lord that rulist ouer the whole world, then shall we mang<g ref="char:EOLhyphen"/>nify and praise thy holy name, which liuist and raygnist one god in the holy Trynite, to whom be geuen all honour glory and prayse, for euer and euer world with out end: Amen Amen, 30. December. 1556.</p>
+            <p>
+               <note place="margin">The Addicyon:</note>
+               <hi>Here before in this treatyse christen reader / </hi> which I fynishede and sent in to my natyue contre more then a yere past, I haue declaryd what dystomodytes folowid the last warres, that we had with france, to say, not only the losse of a great nomber of noble and worthymen of our countre, but also thorow the same, our good coynes of gold and syll<g ref="char:EOLhyphen"/>uer, were turnyd into copper and brasse, as it is manyfest: wherfore I desyryde the states of the realme, to haue good con<g ref="char:EOLunhyphen"/>syderacyons, and respectes before they brake with france for any forayn prynces pleasure &amp;c. the which request I doubt not but mani trew englysch harts do now wyshe that they had folowid. Sens the which tyme, the quene and counsell as is aforesayd (being a stourge and rood to plage Engla<g ref="char:cmbAbbrStroke">̄</g>d for our vnthankfulnes) haue of ther own fantasticall ymagynacyons, for the prince of spaynes pleasure, not only with out the con<g ref="char:EOLhyphen"/>sent of any parliament broken and begone warres with fran<g ref="char:EOLhyphen"/>ce: but also co<g ref="char:cmbAbbrStroke">̄</g>trary, to thact off parliame<g ref="char:cmbAbbrStroke">̄</g>t made in the first yere of her rayne,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ead thact off <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </note> when the conclusyons were made with them<g ref="char:EOLhyphen"/>proure, for her cursyd mariage (may England say) with the
+<pb facs="tcp:15965:11"/>
+prince of spayne<g ref="char:punc">▪</g> as in the sayd statude plainly apperith: wher<g ref="char:EOLhyphen"/>by asmych as in them is, they seke the dysquyetnes of the hole realme, and to bryng the comons of the same in to great myse<g ref="char:EOLunhyphen"/>ry, which only is the frutes off warres.</p>
+            <p>For sens the begynning of thes last vnfortunate warres, now begone whath hath England wone therby? ye rather what haue we not lost, although ther were sent out with the prince off spayne a great nomber of worthy gentyllme<g ref="char:cmbAbbrStroke">̄</g> and comons, to ther great costes and charges, to the wynnyng off S. Quintynes, hawn, schatelet, and other peces ther about, the which the prince kepith for hym selff, to his own vse,<note place="margin">S. Quintin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> yet the most part of our me<g ref="char:cmbAbbrStroke">̄</g>, lest ther bones ther and the rest of the<g ref="char:cmbAbbrStroke">̄</g> that estapyd the da<g ref="char:cmbAbbrStroke">̄</g>ger of the warres, returnyd home agayn in great myssery penury and begery. More ouer wha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> lossys haue our englyshe mercha<g ref="char:cmbAbbrStroke">̄</g>ts susteynid by takyng of the thre rich shyp<g ref="char:EOLhyphen"/>pes,<note place="margin">3. Ryche shyppes ta<g ref="char:EOLhyphen"/>ken.</note> which the frenchmen toke comyng out of Flanders on barty<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mew dai last past, being worth 30. thousand pou<g ref="char:cmbAbbrStroke">̄</g>ds, be<g ref="char:EOLhyphen"/>sydes many other shyppes taken by the frenchmen sence that tyme, as they that haue susteynid the losses therby can reporte.</p>
+            <p>And now wyll I come to speake off the losse of the honowr of England which is the notable towne of Callys,<note place="margin">Callis hames and gwines lost thorow euell gouer<g ref="char:EOLhyphen"/>ment.</note> with the strong castells of hames and gwynes &amp;c. which hath be<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ne in the custodye of England more then. 200. yeres past, to be so shamfully betrayed and lost, thorow the euell gouerment off the quene and here counsell: whose dylygent study and care should haue bene. to prouyd and forsee, specyally, in thes dangerus tymes of warres, that not only Callys with ha<g ref="char:cmbAbbrStroke">̄</g>mes and gwynes, and the peces beyond the seas, to haue bene fur<g ref="char:EOLunhyphen"/>nysshed with men and vytall accordyngly, for to haue with<g ref="char:EOLhyphen"/>stand the mallys of the french men our henemyes but also to provyde that the strong townes, castells, fortresses and blok houses &amp;c. lyeng about the realm, for the saff custody and de<g ref="char:EOLhyphen"/>fence of the same, to be well furnysshed with men munycyon and vytalls, and also that the ryall Nauy of Engla<g ref="char:cmbAbbrStroke">̄</g>d had bene mayntaynyd that the subiectes off this realme, myght lyue in sanyte and quyetnes, with out danger of any forayn prince or potentate.</p>
+            <p>This is the charge and dwty of all good and polytyk ru<g ref="char:EOLunhyphen"/>ters and gouernors yff the quene had ment this to do,<note place="margin">The dwty of rulers</note> wherfo<g ref="char:EOLunhyphen"/>re hath she cawsyd to be rasyd, and defacyd those bulwarks at graue send and tylbery, &amp;c. and wherfore doth she lett fall in decay, those blokhouses and bulwarks about deal besyde douer, which her noble father, with his great trauayle,<note place="margin">Bulwarks blokhouses</note> costes and charges, byldyd and fortefyed, for the defence off the sub<g ref="char:EOLhyphen"/>iectes off the realme. But I pray you what can men otherwyse
+<pb facs="tcp:15965:12"/>
+Iudge off the quene, here in, but that she hath done it becawse the prynce off spayne may the more easyly, come in with his army and nauy off shyppes, and so to make a conquest off this noble realme off Engla<g ref="char:cmbAbbrStroke">̄</g>d as is aforesaid. But what y<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f the que<g ref="char:EOLhyphen"/>ne and her cou<g ref="char:cmbAbbrStroke">̄</g>sell haue practysyd, how to bri<g ref="char:cmbAbbrStroke">̄</g>g Callis in to the ha<g ref="char:cmbAbbrStroke">̄</g>ds of the prince of spayne, and that being perceuyd, and the french king theroff admonysshed, cawsyd hym to take his en<g ref="char:EOLhyphen"/>terprise as he dyd.</p>
+            <p>
+               <note place="margin">Callis.</note>Or whether the quene and counsell, dyd wyttyngly or wyllyngly, suffer callys to come in to the frenchmens handys (by neglecting to send ayde thether in tyme, the same being <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o oft and many tymes desyrd by the lord deputy) becawse that afferward it myght come in to the hands off the prince off spayne, ether by exchangyng for other townes or ells in some conclusyons the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ouer to make peace, that he hauing it, I mean Callys &amp;c. mygth the souer bryng his prete<g ref="char:cmbAbbrStroke">̄</g>syd enterpryse to pase with England.</p>
+            <p>wherfore o ye nobles and comens off England helpe that your bulwerks and fornesses be made vp agayn, with all spe<g ref="char:EOLhyphen"/>de and trusty men appoyntyd,<note place="margin">Ordinance Armore Treasure.</note> toward and kepe them, kepe the ordinance, Armore and treasure &amp;c. wyth in the realm, to defend the same when nede shall requyre, that with gods help ye maybe, able <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o defe<g ref="char:cmbAbbrStroke">̄</g>d your co<g ref="char:cmbAbbrStroke">̄</g>tre, from forayn princes who seke your distructio<g ref="char:cmbAbbrStroke">̄</g>, and to bring the realm in to bo<g ref="char:cmbAbbrStroke">̄</g>dage, with bride lig you, as before in this treatise is declarid at large</p>
+            <p>The burnyng of the great Harri, at the fyrst comyng off the quene to here raygne, betokenyd some desolacyo<g ref="char:cmbAbbrStroke">̄</g>, and yet the quene wold besto<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> no cost, to byld that goodly shype agayn but letti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it with the rial Nauy off England, fall in to wast and decay<g ref="char:punc">▪</g> which her noble father, as a prude<g ref="char:cmbAbbrStroke">̄</g>t and poly<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yke price mayntaynyd for the defence off the realm.</p>
+            <p>when was it euer hard off before this myserable tyme, whe<g ref="char:cmbAbbrStroke">̄</g> we had warres with france, but that iij, or iiij, thousand men were sent ouer to kepe Callys, with the castells and frunteres therabout, that they myght not only with stond the mallys and enemyte of the frenchme<g ref="char:cmbAbbrStroke">̄</g>, but also to haue made an inrod into france at tymes, as by our cronycles plainly apperith wa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> done in our tyme, by the noble prince K. H. 8.</p>
+            <p>But it is a he<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> case and mych to be lame<g ref="char:cmbAbbrStroke">̄</g>tyd, that the quene studyeth lest about such matters, which shoulde turne to the welth, comodyte and sauegard off this realme. But contrary wyse it is manifest, that all her care and study was and is, how she may bring to pase, that the prince off spayn, may haue the<g ref="char:cmbAbbrStroke">̄</g> periall crown o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f thi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> noble realm of England to hym and to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> heyres, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> by cra<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ty meanes or perfo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ce, and so to
+<pb facs="tcp:15965:12"/>
+bryng this noble and fre countre off England in to most my<g ref="char:EOLhyphen"/>serable seruytude and bondage,<note place="margin">Holland, Zeland, Brabant, Flanders<g ref="char:punc">▪</g> Neape<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s<g ref="char:punc">▪</g> Myland.</note> lyke as be his other contres off Holland, Seland, B<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aba<g ref="char:cmbAbbrStroke">̄</g>t Flanders, Namure and lytzen<g ref="char:EOLhyphen"/>burg, &amp;c. with his other goodly contres of Napels and My<g ref="char:EOLhyphen"/>land, &amp;c. the which I pray god England may take warnyng ther off by tyme.</p>
+            <p>Here para venture some wyll rayle apon me and reuile me, because I am so bold to charge the quene, and here counsell, as before in this treatyse I haue done, and now do, and also for layeng to ther charges, that thorow ther default and neglygen<g ref="char:EOLhyphen"/>ce, Callys with hames and gwynes, &amp;c. become in to the frenchmens hands, To the which I wyll answere and pro<g ref="char:EOLunhyphen"/>ue it to be trwe. Fyrst yff the quene had as is afore sayd sent ouer, iij. or iiij. thousand me<g ref="char:cmbAbbrStroke">̄</g> to haue lyen apon the borders or frunteres of Callys, and therto had spent but only, v. hundrid marks by the yere, (I speake with the most) to honest men be<g ref="char:EOLhyphen"/>ing strangers dwelling in other contres (as here noble and po<g ref="char:EOLunhyphen"/>lytyke father dyd) who myght haue sertefyed and geue<g ref="char:cmbAbbrStroke">̄</g> know<g ref="char:EOLunhyphen"/>ledge to th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> quene and counsell from tyme to tyme what the french king and other pri<g ref="char:cmbAbbrStroke">̄</g>ces practysyd, and went about. Cal<g ref="char:EOLhyphen"/>lys had not bene in the frenchmens hands as it now is.</p>
+            <p>Fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> I am sure, that the french king hath not seasyd contynwal<g ref="char:EOLunhyphen"/>ly to parctyse how he myght gett callys, and those parties, a<g ref="char:cmbAbbrStroke">̄</g>d that within thes sew<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> yeres, as the lord paget, and other off the counsell do very well knowe,<note place="margin">Lord page<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> who were of king Edwards counsell, when the french king went about his practyse in tho<g ref="char:EOLunhyphen"/>se days. And being known, ther was a gentyllman and a do<g ref="char:EOLunhyphen"/>ctor sent into Engla<g ref="char:cmbAbbrStroke">̄</g>d to geue the king and counsell warnyng theroff, after whose comyng inmedyatly, ther was proclama<g ref="char:EOLhyphen"/>cyons made that all captaynes and soldyers, should repayre in medyatly, to ther townes Castells, fortresses, and holdes, a<g ref="char:cmbAbbrStroke">̄</g>d therapon preparacion was made inmedyatly, that Callis,<note place="margin">Callys delyuerid from the frenchme<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> with the castells and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es were prouydyd, and finnysshed, wher<g ref="char:EOLhyphen"/>by the french king was dyssapoyntyd, and therfore forsoke his pretensyd enterpryse, and so Callys was sauyd at that tyme from the frenchmen. And they that brought the sayd message and gaue warnyng to the counsell, had geuen them for ther rewarde, but one hundryd marks, which mony was de<g ref="char:EOLhyphen"/>lyuerid to a frend off myne, by the sayd lord paget, as he told me at that tyme, and yet I neuer hard, that that gentyllman, that sent the sayd warnyng had any reco<g ref="char:cmbAbbrStroke">̄</g>pence at all for his labour. But yff ther had bene geue<g ref="char:cmbAbbrStroke">̄</g> hym at that ti<g ref="char:cmbAbbrStroke">̄</g>me for hys reward (accordyng to his desertes) a stipent off an C. marks or an <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>00. pounds by the yere during hys lyff, Callis had not bene in the french mens hands at this day. For I do know that the same
+<pb facs="tcp:15965:13"/>
+ma<g ref="char:cmbAbbrStroke">̄</g> had knowledge off this late p<gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>se for Callis, lo<g ref="char:cmbAbbrStroke">̄</g>g before it was known abrode, and so myght haue geue<g ref="char:cmbAbbrStroke">̄</g> knowledge long before the coming thether off the frechme<g ref="char:cmbAbbrStroke">̄</g>, a<g ref="char:cmbAbbrStroke">̄</g>d so Callis with <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>es a<g ref="char:cmbAbbrStroke">̄</g>d gines, might haue be<g ref="char:cmbAbbrStroke">̄</g>e sa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d fro<g ref="char:cmbAbbrStroke">̄</g> the<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            <p>But it is also mych to be lamentyd that the quene hath such a hate agai<g ref="char:cmbAbbrStroke">̄</g>st ho<g ref="char:EOLhyphen"/>nest men, that professe the gospell off our <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aueyour Iesus christ, and be not off her wickid relygyon, that she had rather, that the hole realme, should go to wrake, then that any honest men should be maintainid by here, for she wyll not onli geue the<g ref="char:cmbAbbrStroke">̄</g> any thyng that myght tourne to the comodite and sauegard off the realme. But contrary wyse most sha<g ref="char:cmbAbbrStroke">̄</g>fully and wrongfully with hol<g ref="char:EOLhyphen"/>dith such pencyo<g ref="char:cmbAbbrStroke">̄</g>s, as here noble father and brother gaue to them by patent, during ther lyues, for reco<g ref="char:cmbAbbrStroke">̄</g>pence of ther good and faithfull seruice and paines they toke to serue them in ther daies. Iff the quene had folowid here noble fathers <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>d, and bene rulyd by his wise prudent and sage cou<g ref="char:cmbAbbrStroke">̄</g>selers, who had the knowledge and experie<g ref="char:cmbAbbrStroke">̄</g>ce how the affayres of the realme stoode this realm, had not come to such mysery and begery as it is at this day<g ref="char:punc">▪</g> but those wyse and worthy men, whom her father tenderly louid hath she cawsyd to be cru<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>y murtherid, as is aforsaid. And hath sett vp counselors of her own, which <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> no knowledge in the affayres off the realme, but those who will say <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s she saith, and affirme her wickid will and deuises to be good and to be a <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>. Like to be co<g ref="char:cmbAbbrStroke">̄</g>parid, to Roboha<g ref="char:cmbAbbrStroke">̄</g> the sone off king Salomon, whe<g ref="char:cmbAbbrStroke">̄</g> the chil<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>n off Israell came to him saieg, thy fathers yoke was greuouse vnto vs<g ref="char:punc">▪</g> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thou it lighter (he doi<g ref="char:cmbAbbrStroke">̄</g>g as the quene now doth) folowid such counsele <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> had bene brougt vp with hym. And wold not folow the counsell of the <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and wyse men, that were off his father ki<g ref="char:cmbAbbrStroke">̄</g>g Salamo<g ref="char:cmbAbbrStroke">̄</g>s cou<g ref="char:cmbAbbrStroke">̄</g>nsell, wher fore, x. of the xij. trybes off the chylderne off Israell fell from him, as the story declarith at large, in the third booke off the kings the xij. chapter. But the text sa<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> it was the lords doing.</p>
+            <p>Oh what substa<g ref="char:cmbAbbrStroke">̄</g>ce and treasure hath the quene spe<g ref="char:cmbAbbrStroke">̄</g>t apo<g ref="char:cmbAbbrStroke">̄</g> the prince of spaine, sence the begyn<g ref="char:cmbAbbrStroke">̄</g>ing off her mariage, a<g ref="char:cmbAbbrStroke">̄</g>d what vnreaso<g ref="char:cmbAbbrStroke">̄</g>able great subsydes and lones hath she gatheryd, wherby she hath in pouerished the subiectes of this realme, for to aid him, wher off the xxii. parte wold haue kept Callis with ham<g ref="char:cmbAbbrStroke">̄</g>es and gwines, &amp;c. that they shold not haue bene in the french men<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> hands at this day, but what carith she, so that she haue here own cursyd will, although the hole realme go to d<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>struccyon, and beggery. what think you wold her noble father. K. H. 8. haue done to his sayd dowghter yff he had know, that she wold so wyckidly haue rulyd and abusid her state as she hath done, fyrst by marieng with a stranger, (and bringing in the vsurpyd autorite off the B of Rome) co<g ref="char:cmbAbbrStroke">̄</g>trary to her sayd fathers mind, for her sayd noble father by his testament and last will gaue her themperiall crown of this realme, but only apon co<g ref="char:cmbAbbrStroke">̄</g>dycio<g ref="char:cmbAbbrStroke">̄</g> as plai<g ref="char:cmbAbbrStroke">̄</g>li app<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rith by thacte, off ꝑliame<g ref="char:cmbAbbrStroke">̄</g>t, made for the suc<g ref="char:EOLhyphen"/>sessyon off the crou<g ref="char:cmbAbbrStroke">̄</g>e ano, 35. H. <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. so that she wold be rulid by the cou<g ref="char:cmbAbbrStroke">̄</g>sel, as well in mariage, as in other affayres, as in the same her fathers last wyll esta<g ref="char:EOLhyphen"/>blysshyd by act of ꝑliame<g ref="char:cmbAbbrStroke">̄</g>t plainly apperith. And whether she haue obied and folowyd, her sayd fathers last wyll, lett all men Iudge.</p>
+            <trailer>Finis.</trailer>
+            <epigraph>
+               <q>
+                  <l>Oh pray pray pray pray.</l> 
+                  <l>That god wyll take our wyckid rulers away<g ref="char:punc">▪</g>
+                  </l>
+               </q>
+            </epigraph>
+            <closer>Soli Deo honor &amp; gloria. <dateline>
+                  <date>1558.</date>
+               </dateline>
+            </closer>
+            <pb facs="tcp:15965:13"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,802 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vlysses vpon Aiax. Written by Misodiaboles to his friend Philaretes</title>
+            <author>Misodiaboles.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1596</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 81 KB of XML-encoded text transcribed from 40 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-03">2004-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A02652</idno>
+            <idno type="STC">STC 12782</idno>
+            <idno type="STC">ESTC S103777</idno>
+            <idno type="EEBO-CITATION">99839522</idno>
+            <idno type="PROQUEST">99839522</idno>
+            <idno type="VID">3951</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A02652)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 3951)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 321:08)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Vlysses vpon Aiax. Written by Misodiaboles to his friend Philaretes</title>
+                  <author>Misodiaboles.</author>
+                  <author>Harington, John, Sir, 1560-1612.</author>
+               </titleStmt>
+               <extent>[80] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>[By R. Robinson?] for Thomas Gubbins,</publisher>
+                  <pubPlace>Printed at London :</pubPlace>
+                  <date>1596.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Misattributed to Sir John Harington; in fact a reply to his: A new discourse of a stale subject, called the metamorphosis of Ajax.</note>
+                  <note>Printer's name conjectured by STC.</note>
+                  <note>Signatures: A⁴ B-E F⁴.</note>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Harington, John, --  Sir, 1560-1612. --  New discourse of a stale subject, called the metamorphosis of Ajax.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-05</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-01</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2004-01</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2004-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:3951:1"/>
+            <pb facs="tcp:3951:1"/>
+            <p>VLYSSES vpon Aiax.</p>
+            <p>Written by Misodiaboles to his friend Philaretes.</p>
+            <p>Printed at London, for Thomas Gubbins. 1596.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:3951:2"/>
+            <pb facs="tcp:3951:2"/>
+            <head>Misodiaboles the worship<g ref="char:EOLhyphen"/>full, <hi>to Misacmos the right</hi> worshipfull.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">M</seg>Isacmos,</hi> I haue spent 3. daies in idle houres, to examin the months of your meditations on a lothsom <hi>Aiax,</hi> and I finde them so vnsauerie, as it is im<g ref="char:EOLhyphen"/>possible for you to be a sauer by the<g ref="char:cmbAbbrStroke">̄</g>: your pen hath dropt excrements, and you cannot wipe them cleane with your witte. Alas, that so long filed, should so filthily be defiled: you haue spent labour without reason, and are seene for a spectacle of follie, to those that cannot see without their specta<g ref="char:EOLhyphen"/>cles.
+<pb facs="tcp:3951:3"/>
+Because the world laughes, you thinke it applaudes: but the most part that outwardly smile, doe inwardly pitie. A good wit, and a grosse sub<g ref="char:EOLhyphen"/>iect, so much I allow you: but if your ambition must needs clime, it is more comely in a courteors habite, then in a fooles antique. That I see your im<g ref="char:EOLhyphen"/>perfections, I make your selfe iudge: that I pitie your errours, my sparing reproofe may assure you. That I am ambitious as your selfe, I protest it, with discretion: yet it greeues mee that two good wittes should wrestle for a dunghill. Come come wittie <hi>Misacmos,</hi> ouerlooke howe I haue lookt ouer you. If this Aprill shower clense you, I will forbeare the tem<g ref="char:EOLhyphen"/>pest. For as I am a Germane in nature (who hate detractions) so can I be both a <hi>Molossian</hi> &amp; <hi>Melitean</hi> dog, as occasions are offered me. Would <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> be famous? why I yeeld him
+<pb facs="tcp:3951:3"/>
+the meanes: he is a courtier in regard, I a courtier in hope: he riche in anci<g ref="char:EOLhyphen"/>ent demeasne, I in good demesne: he sprightly and wittie; I diligent &amp; pleasant: a ladie blest his children, and God and our Lady my Lady mothers sonnes: he a <hi>Lincolnes Inne</hi> man, I be<g ref="char:EOLhyphen"/>longing to <hi>Lincolne.</hi> If any oddes be, he hath the interest of mony, I of Rea ding. Nowe sir: if from the meanes of a priuie, he will become a publicke gentleman, after this assault, let him burie his <hi>Aiax</hi> in a dunghill. Then perusing his bookes, walking in his sute of <hi>Abrizetta,</hi> eating fat Capons, &amp; Venison, and drinking pure hypo<g ref="char:EOLhyphen"/>cras, let him make election of his rea<g ref="char:EOLhyphen"/>dings, and chuse out a probable Sub<g ref="char:EOLhyphen"/>iect, haue with him from a fart, to all artes, I refuse no encounter: let vs iest like gentlemen, argue like schollers, be pleasa<g ref="char:cmbAbbrStroke">̄</g>t without <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ailing, that good wittes may gather treasures from our
+<pb facs="tcp:3951:4"/>
+trauels, &amp; our selues eternitie by well deseruing: If you rise by my fall, I thinke my fall happie to make you rise: and if it be your destinie to sincke in the incountry, though the desert be wholy mine, I giue you the half of the glorie. If <hi>Aiax</hi> were the froath of your wit, let it die, as to weak for my forces, and if one Cullis of conceite be left, yet play not the gormand, let the world haue parte with you. Take the choice of the weapon, I offer eue<g ref="char:EOLhyphen"/>ry aduantage: if you wil striue in wit, I am merrie without detraction: but if you play the scolde in steede of a scholler, I protest it will greeue me: for I know the Eccho of my wrongs will make double report in your eares: for renuing my disgrace, you may liue in your dishonors. Come, let's walke through Vertues temple, and so sacrifice to Honour: and if <hi>Ro<g ref="char:EOLhyphen"/>mains</hi> obserued that custom, let Chri<g ref="char:EOLhyphen"/>stians
+<pb facs="tcp:3951:4"/>
+vse it. Otherwise, both of vs may say as the duke of Northumber<g ref="char:EOLhyphen"/>land did to the lord Gray, as they rid through Shordich; The people presse to see vs, but none say, God speede vs, <hi>Pauca sapienti,</hi> I leaue you to your sops and muscadine. Protesting that if any offence come, it shall be by your seeking.</p>
+            <closer>
+               <signed>Misodiaboles.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb facs="tcp:3951:5"/>
+            <pb facs="tcp:3951:5"/>
+            <head>
+               <hi>Misodiaboles and his</hi> opinion of <hi>Misacmos</hi> and his <hi>metamorphosed</hi> Aiax, <hi>writ<g ref="char:EOLhyphen"/>ten</hi> to his deere and learned friende Master <hi>Phi<g ref="char:EOLhyphen"/>laretes.</hi>
+            </head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">P</seg>Hilaretes</hi> vpon your intreatie and in satis<g ref="char:EOLhyphen"/>faction of my pro<g ref="char:EOLhyphen"/>mise, I haue perused <hi>Misacmos</hi> and his metamorphosed <hi>A<g ref="char:EOLhyphen"/>iax,</hi> and not onely pleasantlie ouerlookt it and laught at it my selfe: But also communicated and commended the worke to the censure of many learned and discreete gentle<g ref="char:EOLhyphen"/>men; who (to be plaine with you) after they had red and conceited it, thought <note place="margin">Auban: lib: 1 ca: 6. de omni gent. rit. &amp; morib.</note> it worthy no better vsage then the brides haue among the <hi>Nasamones</hi> a people of <hi>Africa,</hi> who the first day of their ma<g ref="char:EOLhyphen"/>riage are both vsed, abused, and defiled
+<pb facs="tcp:3951:6"/>
+by all the guestes and straungers that accompany the festiuall. One said (as <hi>A<g ref="char:EOLhyphen"/>pollidorus</hi> did of <hi>Chrisippus</hi> workes) that if other mens sentences were taken out of his booke, the rest would be fit for no<g ref="char:EOLhyphen"/>thing but wast paper. An other that he <note place="margin">Bouchet au 3. Seree.</note> had plaide as mad a prancke as the mal<g ref="char:EOLhyphen"/>contented fish wife in Bouchet, who vn<g ref="char:EOLhyphen"/>der pretence to shame others that had shrowdelie angred her, turnd vp her na<g ref="char:EOLhyphen"/>ked taile in the market place to shewe the dominicall letter B in her buttockes. An other said that as (according to <hi>Au<g ref="char:EOLhyphen"/>banus) Aethiopia</hi> was mou<g ref="char:cmbAbbrStroke">̄</g>tainous toward <note place="margin">Auban lib. 1. cap: 4 Horace. Mou<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> corn<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cula risum nudata furti<g ref="char:EOLhyphen"/>uis coloribus. Plin. cap: 21. lib. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </note> the west, sandie in the midst; and desert in the east: So this booke was full of o<g ref="char:EOLhyphen"/>stentation and protestation in the ende, barraine in the middest, and dull in the beginning. Another compared it to <hi>Horace</hi> crow deckt with many sethers. An other to the herbe <hi>Ferula</hi> which is onelie a pleasant foode for asses, but a poyson to all other beastes. There were some that said that <hi>Misacmos</hi> wit was lighter then <hi>Archestratus</hi> bodie: yet <note place="margin">Mercurial: lib: de decorat: cap. 8.</note> both <hi>Aelian</hi> and <hi>Atheneus</hi> say this of him; That beeing taken by his ene<g ref="char:EOLhyphen"/>mies, and wayed in a ballance, he
+<pb facs="tcp:3951:6"/>
+and his prophecying spirite were ligh<g ref="char:EOLhyphen"/>ter then a halfpenny. All which iudge<g ref="char:EOLhyphen"/>mentes as I commend them not for true, so I condemne them not for false, but onely leaue them to his defying, and defyning, who woulde faine sweeten <hi>A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>iax</hi> by his wit and authoritie. Touching mine owne o<g ref="char:EOLhyphen"/>pinion (because you expect it, and the worlde may throughlie knowe it) I will obserue <hi>Platoes</hi> lawe in it, and so apply my woordes to the subiect, that I may rather seeme an apt and modest pleasant in writing trueth, then a foule mouth Criticke in repro<g ref="char:EOLhyphen"/>uing bitterlie, (not beeing vntaught <note place="margin">Gregor. in Ezechiel: lib. 1 Homel. 21 Ecce hoc est magisterium disciplinae, vt culpis &amp; dis<g ref="char:EOLhyphen"/>crete <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ou erit parcere, &amp; pie resecare.</note> by <hi>Gregorie</hi> descreetelle to spare, and aptlie to reprehende offences): Yet woulde <hi>Philaretes</hi> shoulde knowe, (because these times expect it) that as I will forbeare <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and de<g ref="char:EOLhyphen"/>traction as a faulte; so (in as much as the obscenitie of the subiect will suf<g ref="char:EOLhyphen"/>fer me) will I obserue <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (pleasant and scholler-like vrbanitie) which was admitted amonge the Grecians, and commended in <hi>Ci<g ref="char:EOLhyphen"/>cero.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:3951:7"/>
+Thus therefore in shorte touching this mouldie Metamorphosis: It is an affecta tion of singularitie; a fruite of discon<g ref="char:EOLhyphen"/>tent; a superfluitie of wanton wit; a madding with reason; a diligence without iudgement; a worke fit for <hi>Vo<g ref="char:EOLhyphen"/>lumnius</hi> the iester not <hi>Misacmos</hi> the cour teour. In forme contrarie to all rules of science: In matter vndecent, filthy and immodest: and touching the authorities, they are so weake and so wrested, as no chast or christian eare may in reason en<g ref="char:EOLhyphen"/>dure them, which if I prooue not by rea<g ref="char:EOLhyphen"/>son as I professe in wordes, let <hi>Philaretes</hi> disclaime me for his friend, and <hi>Misac<g ref="char:EOLhyphen"/>mos</hi> shake hands with me for a fool; This is faire play my masters whe<g ref="char:cmbAbbrStroke">̄</g> I vse friends with this equality. Touching the forme, <hi>Perseus</hi> scarre sits in <hi>Misacmos</hi> forehead; <note place="margin">Scal. lib. poet. 3. cap. 98.</note> 
+               <hi>Ostentat obstrusam eruditionem,</hi> he la<g ref="char:EOLhyphen"/>bors to shew much reading &amp; profound learning: and beside that is too formall which is no lesse grace in him then it was in the Nun who (to couer her naked top from two Friers whome she let into her monestarie) hastely discouered her tayle, <hi>cum multis alijs quae nunc perscribore lon<g ref="char:EOLhyphen"/>gum est.</hi> Shal I rip vp obscenitie in words
+<pb facs="tcp:3951:7"/>
+as filthy as euer <hi>Iuuenal</hi> vsed? shal I say that in detracting, and taxing sinnes, he instructeth them? ah las no, the world sees it, and as the welch man said of the Comedie before the Queene, I laugh, my cosen <hi>Peter</hi> laugh, <hi>Dauie ap Powell</hi> laugh, and the Queene laugh, what a Hysteron Proteron is heere to shewe the laughing at a forc't follie, a dull iest, and his idlenes? Well on afore (quoth <note place="margin">Susembrotus.</note> the procession) hold vp your torches for dropping, we shall haue more mirth at our next meeting. Where left I? at the stoole? no let <hi>Misacmos</hi> see to it, it was in the forme, so so now let vs des<g ref="char:EOLhyphen"/>cend to the subiect: <hi>Subiectumcirca quod, subauditur Aiax.</hi> Then <hi>Aiax</hi> is the sub<g ref="char:EOLhyphen"/>iect: In good time say, but which <hi>Aiax</hi> I pray you, was it that <hi>Aiax Telamonius,</hi> who wonne honour by his courage, and madnesse by his discontent? whose mind too greate for his fortune, made his pas<g ref="char:EOLhyphen"/>sion too strong for his reason? <hi>Toto erras coelo,</hi> he hath no neede to be so man<g ref="char:EOLhyphen"/>nerlie. Oh I conceiue him, I conceiue him, he abhorres <hi>Aequiuocations</hi> it is a iakes in deede that he meaneth without all sauing your reuerence: Who per<g ref="char:EOLhyphen"/>swades
+<pb facs="tcp:3951:8"/>
+him to this Paradox? <hi>Tarle<g ref="char:EOLhyphen"/>tons</hi> authority, and his cousens in<g ref="char:EOLhyphen"/>couragement.</p>
+            <p>Goe to, the first diede; a foole for his labor, the next may smell of it while hee liues, and howsoeuer <hi>Misacmos</hi> sturre him in the seruice, it will bee but a stincking sturre tho hee sturre whilst he stiffle. I, but manie haue writte of worse subiects, and whie not hee of this? A good reason, learnt bee that conclusion in Cam<g ref="char:EOLhyphen"/>bridge? Faith it shall neuer doe him credit, no more then did the <hi>Curates</hi> Argument, who applyed the autho<g ref="char:EOLhyphen"/>ritie of his Horse against those that denyed purgatorie.</p>
+            <p>Fie fie, who knowes not this, that an euill custome is no instance for an other to follow it? and that it is too weake an answere in a wanton, to excuse her selfe by saying, forsooth my mistresse taught it mee? Men are richest in infirmitie, and weakest in foresight, apt to enter<g ref="char:EOLhyphen"/>taine priuie pleasures, ignorant to re<g ref="char:EOLhyphen"/>forme them, who therefore limiteth his studdies by others industries, and
+<pb facs="tcp:3951:8"/>
+rather obserueth what othermen doe, then what hee ought to doe; rowleth <hi>Sisiphus</hi> stone to his owne miserie, and is foolishlie diligent to register his owne infirmities.</p>
+            <p>A las alas hath the good gentle<g ref="char:EOLhyphen"/>man no friends to tell him this, that it is better to suffer a few surfit in their owne sinnes, then for him to commu<g ref="char:EOLhyphen"/>nicate with them in their courses, causes and shame? I will talke with his friend, &amp; mine, (the Chaplain of Lincons Inne) about this poynt, and he shall informe him.</p>
+            <p>Now sir, what is next? The peti<g ref="char:EOLhyphen"/>agree of <hi>Aiax,</hi> preuented with the au<g ref="char:EOLhyphen"/>thoritie of Rabbelais, (a condempned Athiest by the last counsaill of Trent) and some course fictions (as filthy as Iyllyan of <hi>Braindfords</hi> fartes,) wherein (as the vomitte of a corrupt and enuious minde:) <hi>Holinsheds</hi> Chronicle hath a quippe, and <hi>Hale</hi> the olde Counsailer hath a lie for his labour. Well well, it were good <hi>Misacmos</hi> considered this of <hi>Plautus.</hi> 
+               <note place="margin">Plaut. iu Ba<g ref="char:EOLhyphen"/>caludib.</note>
+            </p>
+            <q>
+               <p>
+                  <pb facs="tcp:3951:9"/>
+Eia Lide leniter qui saeuiunt sapiunt magis. <note place="margin">Plaut in Bucaludib. Mercurial. lib. de deco. rat. cap. 8.</note>
+               </p>
+            </q>
+            <p>The bush that lente him a thorne to pricke them, wil aford a thousand to gaul him, except he be as fat as <hi>Nichomachus</hi> of <hi>Smirna,</hi> who could not feele a pinne thrust into his buttocks, or stirre nor touch his backe partes he was so grosse in the belly. To the petigree the pete<g ref="char:EOLhyphen"/>gree, for there is the misterie (the miserie <note place="margin">Il a trouue le febue au gaste <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>u.</note> I should say, and the sruite of much idle<g ref="char:EOLhyphen"/>nesse:) <hi>Stercutius</hi> or <hi>Saturne</hi> the great grandfather: how prooue you this? he first brought vp in <hi>Italy</hi> the dunging and mannuring of earth, <hi>Ergo</hi> he is grandfa<g ref="char:EOLhyphen"/>ther to <hi>A-iax:</hi> I denie the argument. By whome shall it be tried? by the olde <hi>Tusean</hi> husbandmen at this day, and those in <hi>Romagna</hi> and about <hi>Rome,</hi> who being taught by <hi>Saturne</hi> the trimming of their vines, haue likewise learnd to fatten their mould by burning them after the time of their vintage: Would not this puzle <hi>Misacmos</hi> inuention <hi>Philaretes</hi> if it were well followed? He is a Lincolns Inne man, a towarde fellow, <hi>Rafe Wil<g ref="char:EOLhyphen"/>bram</hi> the pleasant witted Barister knows him, and for his sake <hi>in perpetuam homi<g ref="char:EOLhyphen"/>nis imbecillitatem (memoriam,</hi> I shoulde
+<pb facs="tcp:3951:9"/>
+haue said) I remitte it. On a gods name, <hi>Quidnouarum rerum,</hi> what new mat<g ref="char:EOLhyphen"/>ter followeth? Lies worse then <hi>Lu<g ref="char:EOLhyphen"/>cians,</hi> which beeing affected are more ill fauoured, and howsoeuer he vnder<g ref="char:EOLhyphen"/>stande <note place="margin">Omne verbu<g ref="char:cmbAbbrStroke">̄</g> otiosum quod lo quutifuerint homines, &amp;c.</note> them, he shall not be able to stand vnder them: <hi>Verba otiosa,</hi> idle wordes, which (if the Apostle faile not) must be soundlie answered for; not <hi>spirando ambitionem</hi> in a latine stile, <hi>sed lamentando incuriam,</hi> before a seuere iudge. Songs worse then the <hi>Priapies</hi> of <hi>Virgil</hi> forbidden by <hi>Plato</hi> in his fourth booke of lawes, and by the lawe of the twelue tables condem<g ref="char:EOLhyphen"/>ned amonge the Ethnique Romanes; A songe not lesse filthie then that <note place="margin">Tertulian in Apologia Eusebius, Ni<g ref="char:EOLhyphen"/>cephorus li. 1. Ciril. epi. 20. 6 inter epi<g ref="char:EOLhyphen"/>stolas Augu<g ref="char:EOLhyphen"/>stini. Gregories li<g ref="char:EOLhyphen"/>mitation of the defence o song.</note> which the Pagans vsed in the primi<g ref="char:EOLhyphen"/>tiue Church, or more prodigious then that for which <hi>Cirils</hi> kinseman was condemned to hell fyre: A song where<g ref="char:EOLhyphen"/>in wordes are idle, wanting both <hi>rati<g ref="char:EOLhyphen"/>onem iustae necessitatis &amp; intentionem piae vtilitatis,</hi> the reason of iust necessi<g ref="char:EOLhyphen"/>tie, and intention of godlie profit. Whats the hymne? Sutable absurditie to the song; a preposterous shewe of reading, where notwithstanding there appeareth
+<pb facs="tcp:3951:10"/>
+some error, (in deuiding <hi>Aetius</hi> the he<g ref="char:EOLhyphen"/>riticke from <hi>Atheos,)</hi> if auncient and ecclesiasticall histories may be belee<g ref="char:EOLhyphen"/>ued. Touching the Etimologies of <hi>A<g ref="char:EOLhyphen"/>iax,</hi> what thinke you of them? Faith they are triuiall, the froth of wittie <hi>Iohn Wat<g ref="char:EOLhyphen"/>sons</hi> idle iests, I heard them in <hi>Paris</hi> 14. yeares agoe: besides, what balductum play is not ful of them, as this? <hi>Nose quasi</hi> no hose, <hi>Capon, quasi cap</hi> one, I woulde <hi>Misacmos</hi> would be couered: who liues not could not ad more if he made profession to be idle. <hi>Rumsey,</hi> my Lorde of <hi>Pembrokes</hi> Iester is ful of them, if <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> want coppie, he will instruct him. For his friend <hi>Philostilpnos,</hi> (with whose name he endeth this vnsauered indu<g ref="char:EOLhyphen"/>ction) I would faine knowe his godfa<g ref="char:EOLhyphen"/>thers to chide them for his bringing vp: for he hath raysed vp a sent) by his in<g ref="char:EOLhyphen"/>couragement) farre worse than the Popes legate, who brought the laste Iubile into France; who fearing the Pa<g ref="char:EOLhyphen"/>ges, who by custome bustled about him to deuide his Canipie, and suspecting Treason among them; so dainelie layde that you wot of in his britches, enough I warrant you to feast <hi>Aiax</hi> for one meale
+<pb facs="tcp:3951:10"/>
+if he were a hungrie. I am thus pleasant contrarie to my custome, to let <hi>Misac<g ref="char:EOLhyphen"/>mos</hi> know his owne counterfait in my <note place="margin">Plut. Tom. 1. in vit. licurg. fol, 118.</note> glasse, vsing therein the customes of the Spartanes, who (to bring their children in hatred of dronkennesse,) caused their slaues to drinke greate store of wine, and in their presence to sing illiberal, and lasciuious songs, &amp; vse antique &amp; filthy actions, knowing that example as it breedeth incouragement, so it yeeldeth and inforceth shame. Thus much for this <hi>Philaretes,</hi> now descend wee to the rest.</p>
+         </div>
+         <div type="part">
+            <pb facs="tcp:3951:11"/>
+            <head>Misodiabolês examination of <hi>Misacmos</hi> authorities, and ar<g ref="char:EOLhyphen"/>gumentes.</head>
+            <argument>
+               <p>
+                  <list>
+                     <item>1 Wherin he findeth scriptures abused pro<g ref="char:EOLhyphen"/>phanely,</item>
+                     <item>2 Learned men reproued vniustly,</item>
+                     <item>3 And obseruations imployed wickedly. Sic tres sequuntur tria.</item>
+                  </list>
+               </p>
+            </argument>
+            <p>NIcke <hi>Beomond</hi> (a wittie and plea<g ref="char:EOLhyphen"/>saunt gallant) being one day inuited to a rich gentlemans table, who tooke delight to heare himselfe speake, perceiuing manie matters be<g ref="char:EOLhyphen"/>gunne by him, and no man suffered to answere, at last (with a knocke or <note place="margin">Aut Tussi, aut crepitu, a man may fart by authoritie of Erasmus.</note> a hem to make the thing mannerlie) he let me a rounde cracke that was hearde throughout the companie, which the host stomaking and the rest me<g ref="char:EOLhyphen"/>relie laughing at, tut tut saide he (to the gentleman) you must not be an<g ref="char:EOLhyphen"/>gerie, for if you will not heare vs at
+<pb facs="tcp:3951:11"/>
+one ende you shall not chuse but both heare and smell vs at the other.</p>
+            <p>In like sort (if not lesse clenlie) doth <hi>Misacmos</hi> handle the world, who per<g ref="char:EOLhyphen"/>ceiuing some his precedent workes ey<g ref="char:EOLhyphen"/>ther by wisedome obscured, or rea<g ref="char:EOLhyphen"/>son contemned; his <hi>Ariosto</hi> bawdie, condemned by a counsaile: his trans<g ref="char:EOLhyphen"/>lation barrain &amp; seruile (such as <hi>Horace</hi> disdaineth) seeing the worlde so full of <note place="margin">Horat. lib. de. art. poet. Nec verbum verbo curabis reddere fidus Interpres marke this Misacmos.</note> good wittes generallie redde and ap<g ref="char:EOLhyphen"/>plauded, and himselfe so vnworthie as he cannot be hearde; in a mal<g ref="char:EOLhyphen"/>contented humor in steade of a wit<g ref="char:EOLhyphen"/>tie treatise, hath turnde me out to light his vnsauored <hi>Aiax;</hi> which howsoe<g ref="char:EOLhyphen"/>uer cloathed like an ape in purple (as he himselfe confesseth) and perfumed with his iestes (which would make a man smell though he were of <hi>A<g ref="char:EOLhyphen"/>lexanders</hi> complexion) is worse and more stinking then <hi>Beamondes</hi> fart (by three ounces of <hi>Troy</hi> waight) though himselfe holde the ballance and poise them. For which cause howe happie had he beene, if in steede of <hi>Cloaci<g ref="char:EOLhyphen"/>na,</hi> he had honoured and sacrificed to <hi>Numaes</hi> goddesse <hi>Tacita,</hi> since <note place="margin">Plutarch To<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> in vita Nume:</note>
+               <pb facs="tcp:3951:12" rendition="simple:additions"/>
+in his silence he had proued wise, where in his discourse hee is condem<g ref="char:EOLhyphen"/>ned for inconsiderate: And in him rightlie appeareth the miserie of the curious, (and the marke of follie, whereby men were signed after <hi>A<g ref="char:EOLhyphen"/>dams</hi> fall,) who byting his fingers, beating his braines, loosing his repose, and scantling his repaste, to attaine an opinion of deserte in the worlde; hath condemned himselfe, in censu<g ref="char:EOLhyphen"/>ring others, gathered a handfull of euill winde, to loose it in a breath of shorte life, beeing sure to leaue nothing eternall after him, but his ambition without measure, his en<g ref="char:EOLhyphen"/>uie without reason, and his labour without fruit: which that your iudge<g ref="char:EOLhyphen"/>ment may apprehende, as my wordes doo expresse it, consider wiselie what I write, whilst I sette downe faithfullie that which I haue <note place="margin">Grego. in Ize<g ref="char:EOLhyphen"/>chi. lib. 1. <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o. 7</note> considered.</p>
+            <p>It is <hi>Gregories</hi> opinion that a good worke muste haue discreete eyes: And Scaliger thinkes it is
+<pb facs="tcp:3951:12"/>
+the better halfe of the felicitie in a poeme to haue a good subiect: for who so imployeth his witte to in<g ref="char:EOLhyphen"/>uente, and his penne to set downe, a friuolous matter in good woordes, fareth like yoonge children, that score out their castle in the sande, which are defaced with euerie breath of winde. Witte, and follie draw<g ref="char:EOLhyphen"/>ing in a yoake, reasons chariotte is ouerturned; and a curious worke<g ref="char:EOLhyphen"/>man caruing a knottie timber, shall haue toyle withoute ende, for his e<g ref="char:EOLhyphen"/>lection without Iudgement: A croopt shoulder is a blemmish howe soeuer it be boulstered, and who paintes an olde face, shall hardlie hide the wrinckles.</p>
+            <p>Such a subiecte is onelie sitte for a vertuous and learned <hi>Misacmos,</hi> as in his owne naked perfection (like <hi>Architas</hi> the musitions Lute) can speake for his owne Maister. Doth not hee wante election that in a whole fielde of corne pickes out one cockle to laboure on? and
+<pb facs="tcp:3951:13"/>
+wants hee not discretion, that hauing a whole field of vertue before him, Phy<g ref="char:EOLhyphen"/>losophies of either kinde, sciences of greate obseruation, wordlie casualties to merease iudgement, alteration and disposition of pollicie (an excellent subiect) had rather with <hi>Daphidas</hi> be held a rayler, with <hi>Menedemus</hi> a seller of tryfles, with the fooles of the worlde, a looser of time; then with the lerned <note place="margin">Timon. de Mened. Ille supercili<g ref="char:EOLhyphen"/>um tollens &amp; vendere nugas &amp;c.</note> of his coate, an honor of his Countrie? Ah las for this man, who taketh glorie to boast of that filthinesse which brute beastes (by naturall instinct) after they haue purged themselues doe couer. What iudgement hath this man that striues to finde a lawe of reason, against the law of reuerence? Children disabled to helpe themselues, are notwithstan<g ref="char:EOLhyphen"/>ding taught by their nurses to giue mo<g ref="char:EOLhyphen"/>dest warning; and those of discreete yeares (though neuer so vnnurtured) finde many necessities of nature to bee done, that are not plainely to be talked off. A circumlocution and a blush is sufficient to interpret a filthie necessi<g ref="char:EOLhyphen"/>tie, whereas hee that taketh pleasure in speaking that which infirmitie forceth
+<pb facs="tcp:3951:13"/>
+or lust draweth him to doe, shall haue a tong worse then his tayle, though the worste of the tayle bee the T, with his complements: Shall I bee pleasant a while and trifle like <hi>Mi<g ref="char:EOLhyphen"/>sacmos,</hi> and wax as impudent at he was that shewed his tayle to the Senate, Consuls, &amp; Pretors in iudgement? Not no neighbours not so, but as clenlie as wee can (quoth the maide when shee wypt her dishes with the doggs tayle.) What thinke you of this iest my maisters? giue your opinion of their clenlinesse. A certaine gro<g ref="char:EOLhyphen"/>cers wife walking through the streets, (and holding vppe her gowne be<g ref="char:EOLhyphen"/>hinde her, because the weather was durtie,) mette with a merrie compa<g ref="char:EOLhyphen"/>nion; who desirous to laugh and be fatte, spurde her after his merrie manner this homelie question; Misteres saide hee I pray you sell me some of your spices whilest your hande is in the boxe. To whome she answered; (trussing vppe her gowne more higher;) Sir if you haue
+<pb facs="tcp:3951:14"/>
+a monthes minde to them, put your hande into the boxe, and boldlie take them: Was not this more seeme<g ref="char:EOLhyphen"/>lie for her to answere then with <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> flatly to haue tolde all to her vtter discredit? What thinke you of this likewise? Did not the husband talke more seemelie, that saide an olde shippe is alwaies leakie, then if he had saide in <hi>Misacmos</hi> broad language) his wise had bepist the bed? I could tell you more as hee hath done (out of that most learned au<g ref="char:EOLhyphen"/>thor the booke of merrie tales from whence his best iestes are deriued) but that as the olde <hi>Manciple</hi> of <hi>Brasennose</hi> Colledge in <hi>Oxforde</hi> was wont to say; There are more fooles to meete with.</p>
+            <p>
+               <hi>Lucius Catiline</hi> accused by <hi>Mar<g ref="char:EOLhyphen"/>cus, Cicero</hi> for raising a flame in the Citie, I beleeue it said hee, and if I <note place="margin">Valerius: lib. 9 cap. 11.</note> cannot extinguish it with water, I wil with ruine: Into the like intemperance is <hi>Misacmos</hi> falne, who hauing kind<g ref="char:EOLhyphen"/>led a fyre of follie by publishing his
+<pb facs="tcp:3951:14"/>
+filthie <hi>A-iax,</hi> since he cannot co<g ref="char:EOLhyphen"/>lour it with modestie, will coun<g ref="char:EOLhyphen"/>tenaunce it with wrested or wicked authorities (wherby religion is soonest ruinate.) But as the Bee looseth his life by imploying his stinge to wounde o<g ref="char:EOLhyphen"/>thers, so shal the world easelie perceiue that the sword whereby he defendeth himselfe shalbe his owne death, and those authorities and argumentes (wherby he seeketh to intangle others) are the verie-nets, trappes, and toyles to insnare himselfe. To beat out therfore a plaine path in tracting whereof we may easelie discouer his treatcherie, consider a while in <hi>Misacmos</hi> his rea<g ref="char:EOLhyphen"/>sons &amp; authorities. How approueth he the praising or writing vpon <hi>A-iax?</hi> Mary thus; Men once in 24. howres visit him, if they be in health, <hi>Ergo</hi> the homlimes of the name, &amp; praise of the same may be borne withal, temples to be raised, genealogies to be reckoned vp, <hi>Aetimologies</hi> to be sought, <hi>Hymns</hi> and <hi>Dirges</hi> to be deuised, filthie and immodest iestes to hee vsed, &amp;c.
+<pb facs="tcp:3951:15"/>
+               <hi>Non sequitur, non sequitur,</hi> you may bee ashamed of it: <hi>Corrum<g ref="char:EOLhyphen"/>punt bonos mores colloquia praua,</hi> 
+               <note place="margin">Paul. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. ad Co<g ref="char:EOLhyphen"/>rin. cap. 8.</note> euill woordes corrupt good man<g ref="char:EOLhyphen"/>ners, (saith both <hi>Paule</hi> and <hi>Me<g ref="char:EOLhyphen"/>nander);</hi> howe brookes <hi>Misacmos</hi> that counterbuffe? verie easelie: The intente of the speaker maketh them badde. Pardon me, pardon me, <hi>Paule</hi> saith the woord, not the intent. Intente is the corruption of the hearte, but woordes the poyson of the tongue. Goe to, goe to, let vs graunt that out of the aboun<g ref="char:EOLhyphen"/>dance of the hearte the tongue spea<g ref="char:EOLhyphen"/>keth, and that men forme their badde woordes according to their depraued thoughts. Nowe tell me this; whether a childe yoonge in yeares, towarde in apprehension, dearelie beloued by his parentes, cockered by his mother, learneth his swearing, idle speaking, cursings and blasphemies, by the cuill in<g ref="char:EOLhyphen"/>tent, base minde, or filthie con<g ref="char:EOLhyphen"/>ceite of his father, (perhappes
+<pb facs="tcp:3951:15"/>
+breaking out into such impieties in his choller) or by the wordes spo<g ref="char:EOLhyphen"/>ken, vndoubtedlie no waies inten<g ref="char:EOLhyphen"/>ded by him to depraue his child? In deede that's somewhat more then his hoste tolde him; But let it be, let it bee, (saide the mayde when the yoonge man kist her,) wee must haue matters of more waight to woorke vppon <hi>Misacmos.</hi> Nowe therefore consider his groundworke and positions: The vse of homelie woordes saith hee, is to be borne with in necessarie matters: Howe prooues hee that? <hi>Esay</hi> compareth our iustice <hi>panno menstruatae,</hi> the scrip<g ref="char:EOLhyphen"/>ture vseth, <hi>Anos aureos;</hi> the <hi>Psalme percussit eos in posteriora: Exodus</hi> of <hi>Stigma,</hi> or <hi>Prepuce, Paul</hi> of <hi>Sterco<g ref="char:EOLhyphen"/>ra, Saul</hi> went into a caue, <hi>vt pur<g ref="char:EOLhyphen"/>garet ventrem.</hi> Therefore <hi>Misac<g ref="char:EOLhyphen"/>mos</hi> may write of <hi>A-iaxes,</hi> be<g ref="char:EOLhyphen"/>cause a necessarie matter; write of shiting, because a necessarie mat<g ref="char:EOLhyphen"/>ter, let him beshite the canuas that concludes so, though he stoode
+<pb facs="tcp:3951:16"/>
+to be proctor; For the wordes prece<g ref="char:EOLhyphen"/>dent and afore alledged, as they bee in the scriptures, are, (as <hi>Misacmos</hi> implyeth and confesseth) properlie to beate downe sinne and sensua<g ref="char:EOLhyphen"/>litie, but not lewdlie to bee inuerted by him in maintenance of his scur<g ref="char:EOLhyphen"/>rilitie and ribaldrie. For if he consider the scriptures as he ought, and deep<g ref="char:EOLhyphen"/>lie waigh with the fathers, that the most wordes haue their misteries; he shall finde, this dragging of verbal scriptures vnchristian like into his cause, is a verie pranke of <hi>Arius; Qui verba scripturarum simplicia sicuti in eis expressa reperiuntur, itidem vt dia<g ref="char:EOLhyphen"/>bolus assimulauit.</hi> Who like the di<g ref="char:EOLhyphen"/>uell sinfullie wrested the simple words of the scripture, as they are expressed in the same (if <hi>Eusebius</hi> lie not;) who euer of all the fathers hath taken on him this custome? who euer this loosenesse of libertie? who euer this lightnesse of vanities.</p>
+            <p>
+               <hi>Augustine</hi> he sayeth, that when anie thing is founde in the historie
+<pb facs="tcp:3951:16"/>
+of the sacred scriptures, that see meth absurde or contrarie to good manners, the historicall sence is to bee left, and the metaphoricall and mixt, is to bee imbraced; and the reason is, because the sacred historie contayneth nothing which is not true, and consonant and agreeable with good manners: and an other (agreeing therein, with <hi>Isodorus)</hi> saith <note place="margin">S. August. lib. 3. de doct. Christ. cap. 5. &amp; 1. Isodore. lib. 1. de sum. bone cap. 9. Nich. de Blo. ser. 38. D.</note> 
+               <hi>Oportet sic historam tenere,</hi> so ought we to keepe the historie, as that wee interprete it morallie, and vnder<g ref="char:EOLhyphen"/>stand it spirituallie: who therefore dealeth otherwise, by the generall concent of the fathers, maie bee tearmed a rash man in applying scripture in that manner, which per<g ref="char:EOLhyphen"/>uerteth the nature, order and mea<g ref="char:EOLhyphen"/>ning of the same.</p>
+            <p>Ah las for <hi>Misacmos,</hi> (I meane, not a lasse for his bed, but ah las for his follie,) let him leaue his buil<g ref="char:EOLhyphen"/>ding gay Priuies, and get him good masters: for it is more neces<g ref="char:EOLhyphen"/>sarie
+<pb facs="tcp:3951:17"/>
+to fill the head with true know<g ref="char:EOLhyphen"/>ledge and christian lerning, then to emptie the bellie of lothsome ex<g ref="char:EOLhyphen"/>crementes: Out vpon this wresting, it driues all witt out of harmony. Then pray <hi>Misacmos</hi> to leaue it, for I sweare to him hee shall neuer get three Bishopprickes in one yeare, as <hi>Woolsey</hi> did for this doctrine, why this is worse then welchin steed of Hebrewe in Doctor <hi>Propriums</hi> sermon.</p>
+            <p>
+               <hi>Nomo contra vnanimem consensum patrum ipsam scripturam sacram alle<g ref="char:EOLhyphen"/>gare audeat:</hi> (saith the counsaile of Trent,) Let no man dare alledge the holy scriptures contrarie to the gene<g ref="char:EOLhyphen"/>rall concent of the fathers. Tut <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> cares not for them they are too precise for his purpose. Let <hi>Grego<g ref="char:EOLhyphen"/>rie</hi> (in his seauenth homelie on <hi>Eze<g ref="char:EOLhyphen"/>chiell)</hi> say the scripture in wordes con<g ref="char:EOLhyphen"/>taineth <note place="margin">Pal: de figur: sacrae Bib.</note> misteries; Let <hi>Paleologus</hi> vow that the whole bodie of hystoricall scripture is a schoole of morall dis<g ref="char:EOLhyphen"/>cipline, and hidden doctrine; but
+<pb facs="tcp:3951:17"/>
+he is a dunce. Let <hi>Ierome</hi> talke of <hi>Anagogia, Tropologia</hi> and <hi>Alle<g ref="char:EOLhyphen"/>goria,</hi> which vnited (with historie,) <note place="margin">Ierome ad paul.</note> containe the whole matter of the Bible. Let him say of <hi>Deuteronomie,</hi> that it is <hi>Euangelicae legis' praefigu<g ref="char:EOLhyphen"/>ratio;</hi> of <hi>Esay</hi> and <hi>Ieromie, Quis potest intelligere vel exprimere?</hi> It mat<g ref="char:EOLhyphen"/>ters not for the wordes, <hi>Misac<g ref="char:EOLhyphen"/>mos</hi> will abuse them, he will digni<g ref="char:EOLhyphen"/>fie his <hi>Aiax</hi> by disgracing your scripture. But harke I pray you <hi>Phi<g ref="char:EOLhyphen"/>laretes</hi> what <hi>Ierome</hi> concludeth, <hi>Haeresis dicitur Graece ab electione eo quod sibi cam eligat disciplinam quam putat esse meliorem. Quicunque igitur scripturam vel scripturae verba intel<g ref="char:EOLhyphen"/>ligit aliter, quam spiritus sanctus effla<g ref="char:EOLhyphen"/>gitat a quo scriptura est, licet ab Ecclesia non recessit, tamen Haere<g ref="char:EOLhyphen"/>ticus appellari potest.</hi> Heresie the <note place="margin">Ierome super Gal.</note> Greeke woorde (saith hee) is so called of election, because hee that is insected therewith, chooseth vn<g ref="char:EOLhyphen"/>to himselfe that kinde of doctrine which in his owne opinion hee
+<pb facs="tcp:3951:18"/>
+supposeth to be best, whosoeuer therefore shall otherwise vnder<g ref="char:EOLhyphen"/>stande eyther the scripture, or the woordes thereof, then the holie Ghost requireth (from whome the scripture is deriued) although he hath not departed from the Church, yet may hee bee called an heretike. Let <hi>Misacmos</hi> gather howe hee liste vpoon this, he shall finde the <hi>Puntilio</hi> of his hononr blunted, which trust me, of set purpose, I handle thus in cloudes without grating him to the quicke, be<g ref="char:EOLhyphen"/>cause as <hi>Socrates</hi> did in <hi>Alcibiades, Effulgentem &amp; magnum video testimo<g ref="char:EOLhyphen"/>nium eruditionis &amp; aegregiae indolis,</hi> Let him construe this if he list, least the world should suspect what I meane not.</p>
+            <p>Nowe Sir if we descend to <hi>Cloa<g ref="char:EOLhyphen"/>cina</hi> (first deified or defied by <hi>Ta<g ref="char:EOLhyphen"/>tius<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>,)</hi> what shall wee say? but that in his readinges he hath curiously obserued matters of lesse respect, and forgotten thinges of most
+<pb facs="tcp:3951:18"/>
+               <hi>decorum.</hi> For when <hi>Romulus</hi> and this (draught deifie) the one Captaine of the <hi>Romanes,</hi> the other of the <hi>Sabines</hi> were readie to wage battell, and by the intrea<g ref="char:EOLhyphen"/>tie of <hi>Hersitia</hi> and other ladies the accord and league of peace was then concluded; A lawe was made in honour of them as <hi>Plutarch</hi> wit<g ref="char:EOLhyphen"/>nesseth. <hi>Ne ijs praesentibus quic<g ref="char:EOLhyphen"/>quam obsoeni diceretur;</hi> That no filthie or immodest speech shoulde be vsed in their presence Nowe, sir, had he marked and noted this priuie<g ref="char:EOLhyphen"/>ledge, as he was diligent in obser<g ref="char:EOLhyphen"/>uing the other, he had beene more sparing in his loose speech, being taught modestie by the verie Eth<g ref="char:EOLhyphen"/>niques themselues. And surelie I thinke in my conscience it was a chiefe cause whie <hi>Romulus</hi> left <hi>Ta<g ref="char:EOLhyphen"/>tius</hi> death vnreuenged, because hee was so superstitions in dei<g ref="char:EOLhyphen"/>fying a draught house. But perhappes hee hath redde all this and woulde obserue none
+<pb facs="tcp:3951:19"/>
+of it. Then may I sate with <hi>Va<g ref="char:EOLhyphen"/>lerius, Quod rectum sit scit, sed id facere negligit:</hi> Hee knoweth that which is right, but he neglecteth to doe it; His Embleme and E<g ref="char:EOLhyphen"/>legie are prettie, and I haue redde farre wittier and better pende with<g ref="char:EOLhyphen"/>out the picture of a fellowe in a square cap, skummering at a pri<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> u<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e. And touching his obseruation of pictures, what shoulde I say in his commendation, but this. He hath prettelie obserued absurdities; But shoulde he paye for them as soundly as Captane <hi>Cheuilles</hi> souldier did in <hi>Burbonois,</hi> he would beware of writing of shitten fin<g ref="char:EOLhyphen"/>gers, whilest hee liued. Which is his next discent? For soothe to Po<g ref="char:EOLhyphen"/>ets, <note place="margin">Tireea quatre cheuar.</note> and who marcheth foremost to fighte the battaile for him? <hi>Mar tial:</hi> Oh ho I knowe wherefore hee preferreth him so much, it is because hee redde a Chapter <hi>De Cunilinguis</hi> to him; hee is verie much behouldinge I promise you:</p>
+            <p>
+               <pb facs="tcp:3951:19"/>
+But what is this Martial? Faith a good wit ill imployed like himselfe. This is hee, (I speake it in his com<g ref="char:EOLhyphen"/>mendations) that writ epigrams of <hi>Aethons</hi> farting in the capitol, of his boyes kisse; This is the incourager of letcherie, in victor, <hi>Misacmos</hi> neede <note place="margin">Lib. 2. Epig. 78 lib: 11. Epig. 11.</note> not feare to alledge him about <hi>Caca<g ref="char:EOLhyphen"/>canit,</hi> that gloried to fill Emperours eares with flatterie, bauderie and So<g ref="char:EOLhyphen"/>domie. <hi>vaugh spurciciem, nugas.</hi> It is pittie that as in Catalogina, there is a lawe, that euerie Cuckold shoulde paie a fine or tribute; So among vs there is not a statute that such as teach such filthinesse, should be publiquely punished. I will not examine the <hi>Epi<g ref="char:EOLhyphen"/>grams,</hi> for they are too obscene to be lookt vppon; and who so rubbeth stincking weedes, shall haue filthy fingers. (Moore) ingenious, tho too ressolute, whose learning deserued a better death, and whose death was accompanied with heroick constan<g ref="char:EOLhyphen"/>cie. (Looke howe this Tode sucketh poyson from the pleasant wit.) But he
+<pb facs="tcp:3951:20"/>
+that founde the <hi>Merda,</hi> let him take it; and hee that wresteth the <hi>Crepi<g ref="char:EOLhyphen"/>tus</hi> so crookedlie, let him vse it for a gale of his good fortune, till it blow him to <hi>Cloacinas</hi> temple. For maister <hi>Dauies</hi> epigram, I hold it for prittilie impure, yet two bowes and a halfe short of the cloute <hi>Haewod</hi> stucke in: and (by the way for your selfe) a <hi>Yoong</hi> that will be olde, (saith thus) in behalfe of olde <hi>Young</hi> that ex<g ref="char:EOLhyphen"/>cept you presentlie put one a habit of more conformity, if some his enimies maie promote you, you shall bee the next dog shall be sacri<g ref="char:EOLhyphen"/>fisd in the <hi>Lupercalia,</hi> and therfore prouide your selfe for it; (except you get a bettertong into you heade; or a modester pen in your hande.) Whi<g ref="char:EOLhyphen"/>ther nowe <hi>Misacmos?</hi> Cannot hee who for pietie is matchlesse, in ler<g ref="char:EOLhyphen"/>ning peerles, whose iudgement his friends admire, and enimies wonder at: cannot a spirite so heauenly, a fa<g ref="char:EOLhyphen"/>ther so reuerend, a Muse so sacred, escape your censure? Stoope and
+<pb facs="tcp:3951:20"/>
+shroud you night byrd, when this sunne shineth; hee that clotheth reli<g ref="char:EOLhyphen"/>gion with simplicitie and trueth, cly<g ref="char:EOLhyphen"/>meth highest by his humilitie, grow<g ref="char:EOLhyphen"/>eth learned in his zeale, and waxeth famous by his diligence, maie laugh at you, (whilst like the Wolfe you barke against the Moone) but you can not bite him. Come come, a poore spring, sed by the <hi>Ocean</hi> of his witte: a little sparkle gathered from his diuine flame; a verie worme of witte, a puney of Oxford, shal make you more hatefull then <hi>Battalus</hi> the huugry fidler for this presump<g ref="char:EOLhyphen"/>tion.</p>
+            <q>
+               <p>Italici Angaei stabulum faedumque cloacam. <note place="margin">Discit enim ci tius miminis<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> libentius illud Quod quis de ridet quam quod probat &amp; veneratur.</note>
+               </p>
+               <p>A te purgari Romana<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> tolli.</p>
+            </q>
+            <p>
+               <pb facs="tcp:3951:21"/>
+What fault is here? Forsooth an vnapt metaphore. O grosse, peeuish &amp; blinde absurditie! I challenge thee from the French to the Spanish; the Italian to the Latin; the Greeke to the He<g ref="char:EOLhyphen"/>brewe: Runne mee ouer the whole li<g ref="char:EOLhyphen"/>brarie of baudrie, thy legends of <hi>Athiesme,</hi> and proue me one meta<g ref="char:EOLhyphen"/>phore better applyed, and thou shalt be priuie to mee in my next neces<g ref="char:EOLhyphen"/>sities.</p>
+            <p>What fitter metaphore for so corrupt traditions, as our Church at this daye acknowledgeth, (the Church of Rome to yeelde?) which if it bee glorious in so sacred and matchlesse a maiden Princesse, to ex<g ref="char:EOLhyphen"/>hauste and ou erthrow; it shall be no indignitie in her to admit the meta<g ref="char:EOLhyphen"/>phore, (especially since) with such de<g ref="char:EOLhyphen"/>corum and art, he hath couched it, as had <hi>Moore, Haiwoode,</hi> and the rest obserued; <hi>Misacmos</hi> might bee a<g ref="char:EOLhyphen"/>shamed to alledge them. And what is that think you? He hath vsed <hi>Inu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nals</hi>
+               <pb facs="tcp:3951:21"/>
+modest moderation including that in <note place="margin">Scal. lib. Po<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 3<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Cap. 98.</note> a <hi>Greek</hi> garment, which otherwise in his owne tongue woulde seeme vncome<g ref="char:EOLhyphen"/>ly.</p>
+            <p>But in this you fare like him I haue read of in an author of yours, who begi<g ref="char:EOLhyphen"/>ning to read a certaine worke of <hi>Eras<g ref="char:EOLhyphen"/>mus</hi> intituled <hi>Moria,</hi> and hauing such a <note place="margin">Lege the booke of mery tales, Tale 130. Fre learne to quote your plac<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> shallowe wit as <hi>Misacmos</hi> hath, cast a<g ref="char:EOLhyphen"/>way the booke, fearing he should fal in<g ref="char:EOLhyphen"/>to some heresie, because the stile was so high. I meane not that great stile into <hi>Mar<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>bone</hi> Parke, neere which the two Heroicall and manly Knights fought there <hi>Duellum:</hi> but <hi>Erasmus</hi> stile which <hi>Misacmos</hi> hath pretily met with, if he had some of his pith and matter.</p>
+            <p>How proceedeth he now? forsooth he heapeth on history.</p>
+            <p>To what purpose? to prooue certaine Emperors murdered priuily, or at a pri<g ref="char:EOLhyphen"/>uy, or in a lakes, or at a Iakes; yet can I <note place="margin">Lib Cro<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> cum figur.</note> tel him this, that the Iakes <hi>Heliogabalus,</hi> (the last of the <hi>Antonini)</hi> was drag'd thorow <hi>per scurras,</hi> was <hi>per cloacaes</hi> by the sincks of <hi>Roome,</hi> and through the streets of <hi>Roome,</hi> without all paraquestions quoth <hi>Tarlton,</hi> neither hath his know<g ref="char:EOLhyphen"/>ledge
+<pb facs="tcp:3951:22"/>
+attained all the secret of historie on this subiect beside <hi>Bassianus;</hi> but that some of as serious obseruation are left for mee: as that <hi>Traian</hi> the Iust of so famous memorie, and <hi>Henry</hi> the seuenth King of the <hi>Romaines,</hi> both di<g ref="char:EOLhyphen"/>ed of the <hi>Discenteria alias dictus</hi> the lax<g ref="char:EOLhyphen"/>atiue flux. <hi>Nabuchadonoser</hi> likwise gaue <hi>Zedechias</hi> (after hee had made him daunce and play before him a long while) a laxatiue drinke, so that like a beaslly olde fellow (as there are many <note place="margin">According to an olde ballad, and <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ll to be shitte was he was he</note> such betwixt <hi>Yorke</hi> and <hi>London) totus deturpatus fuit</hi> he smelt as ill as your <hi>A<g ref="char:EOLhyphen"/>IAX.</hi>
+            </p>
+            <p>Thus may <hi>Misacmos</hi> see that other men haue examples of sent, (I woulde say sence) as well as hee, yet will I sub<g ref="char:EOLhyphen"/>scribe to him the dignitie in all things. First I acknowledge him as deep a Phi<g ref="char:EOLhyphen"/>losopher as <hi>Me<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>rocles</hi> who could neuer argue without farting. I will set to my hand that hee is well seene in a hawkes muting. Lastly I beseech Master <hi>Dalton</hi> to set vp his name in <hi>Lineolnes In</hi> priuy, and register him there among the dur<g ref="char:EOLhyphen"/>tie writers of his time in steed of a bast<g ref="char:EOLhyphen"/>ard <hi>Cronicle,</hi> because in his booke, mo<g ref="char:EOLhyphen"/>destie
+<pb facs="tcp:3951:22"/>
+is as hard to be found as <hi>Adulte<g ref="char:EOLhyphen"/>ries</hi> in <hi>Sparta;</hi> and this done:
+<q>
+                  <l>O vos de Croidon o vos de rust<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>o Ro<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>don,</l>
+                  <l>Bibite blakciackos pre gaudio soluite sackos.</l>
+               </q>
+            </p>
+            <p>Nay wee will haue yerses to which a dog shal not interpret: Here let the peo<g ref="char:EOLhyphen"/>ple laugh, for heere make I my breath<g ref="char:EOLhyphen"/>ing point.</p>
+         </div>
+         <div type="part">
+            <head>
+               <hi>Misodiaboles</hi> Perfume for filthy smels, containing a mad Purge for <hi>Misacmos</hi> Luna<g ref="char:EOLhyphen"/>cie of wit.</head>
+            <p>LIke as a good foldier in the begin<g ref="char:EOLhyphen"/>ning of a fight, first sendeth out his light armed winges to begin the skir<g ref="char:EOLhyphen"/>mish, and after bringeth on the battle, wherin consisteth the force of his good fortune; so <hi>Misacmos</hi> (hauing distasted vs at first with certaine homely fictions &amp; vnciuell <hi>Epigrames)</hi> now marcheth forth mainly with his <hi>Tatius, Tarquine, Claudius, Vespatian, Traian, Priscus,</hi> and
+<pb facs="tcp:3951:23"/>
+               <hi>Hercules,</hi> by whose lawes, proclamati<g ref="char:EOLhyphen"/>ons, letters, and decrees, he laboreth to approue, how carefully they prouided, and diligently employed both theyr time &amp; treasures, for the building with great state, and the ordering without annoiances, of vaults, common shoares, &amp; sinckes: but without al contradiction priuies. Touching which, as I consent with him in the three first, so with the old dunce <hi>(Iohannes de Portu Hibernico) Credo quod haud,</hi> concerning the last. For though (besides <hi>Dollabellas caution,</hi> the office of <hi>trium hominum,</hi> &amp; many of that kinde) I finde care &amp; dilige<g ref="char:cmbAbbrStroke">̄</g>t proui<g ref="char:EOLhyphen"/>sion made for the co<g ref="char:cmbAbbrStroke">̄</g>mon shoares: yet in particuler name I am sure (except <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> him selfe be interpreter) his foul breath'd AIAX was neuer prouided for. But I see now it fareth with him as with subtill sophisters, who wantyng matter to worke vpon, do cauill vppon words: For what signifieth this <hi>Cloaca,</hi> on which hee so much worketh? fetch him <hi>Cooper</hi> (that learned father of fa<g ref="char:EOLhyphen"/>mous memorie) his <hi>Thomas Thomasius</hi> (a diligent furtherer of good studies,) not with fie, fa, fough, a smelles, but in
+<pb facs="tcp:3951:23"/>
+plain dealing: What say they of <hi>Cloaca?</hi> a channell, a gutter, a sinke of a towne, <hi>Cloacale flumen,</hi> besides (as Vlpian tes<g ref="char:EOLhyphen"/>tifieth) there was <hi>Cloacarium,</hi> a certayne fee or scot, payd to these <hi>tres bomines,</hi> the suruayours of the commo<g ref="char:cmbAbbrStroke">̄</g> shoares, vnlesse therefore (as in talking of all kindes of grain) we set downe Rie: For al millitarie and souldierlike furniture, we nominate a dagger: so for all sinkes, shores, and vaults, <hi>Misacmos</hi> vse a pri<g ref="char:EOLhyphen"/>uie, he shall get no more fame for thys then <hi>Erostratus</hi> for burning <hi>Dianaes</hi> temple. Wel Gods blessing on his hart, <note place="margin">Eras<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>us Apo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> he is a toward yong ma<g ref="char:cmbAbbrStroke">̄</g>, and hath great cause to thanke God for his knowledg, (like the old dunce in Brazen nose col<g ref="char:EOLhyphen"/>ledge in Doctour <hi>Colmers</hi> time) who comming from a schoole among cer<g ref="char:EOLhyphen"/>taine sophisters, from a certaine <hi>Quod<g ref="char:EOLhyphen"/>libet,</hi> with a great sigh thanked god that now at last after seuen yeeres studie in the Predicables, he could define <hi>Propri<g ref="char:EOLhyphen"/>um.</hi> Now fie vpon it, fie vpon it, what is this to AIAX? you trifle, you are fond, marie that's true. Wel, if this please him not, let him stay till a second digestion, and hee shall haue <hi>Assets inter main</hi> as
+<pb facs="tcp:3951:24"/>
+assurance to prooue how well I meane <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> among <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Lawier 9.</note> him. Alas, alas how much I wronge him? beleeue me <hi>Philaretes,</hi> I am sorry for my negligence; <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> I forget his suc<g ref="char:EOLhyphen"/>cinct collection of historie: his com<g ref="char:EOLhyphen"/>pendious &amp; apr obseru<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>o<g ref="char:cmbAbbrStroke">̄</g>s in the Em<g ref="char:EOLhyphen"/>perors liues? God forbid nay you shall haue right <hi>Romain</hi> courage in me; praise for desert, though otherwise his profes<g ref="char:EOLhyphen"/>sed reprouer in <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ollie. What note? what note? Why thus much touching his suc<g ref="char:EOLhyphen"/>cinct obseruations out of the Emperors liues, I say (as <hi>Tully</hi> did of <hi>Demostines</hi> ora<g ref="char:EOLhyphen"/>tio<g ref="char:cmbAbbrStroke">̄</g>s) I like that best, which is lo<g ref="char:cmbAbbrStroke">̄</g>gest. Yet for al this the wo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>lde apprehendeth his iud<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>scretio<g ref="char:cmbAbbrStroke">̄</g>; who trapping an asse in gol<g ref="char:EOLhyphen"/>de<g ref="char:cmbAbbrStroke">̄</g> furniture, sutin<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> a cou<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>se subiect in rich ornaments of learning, hath ap<g ref="char:EOLhyphen"/>proued his great wit, &amp; litle wisedome.</p>
+            <p>Howe more happy had it beene for himselfe and more honorable for his profession, to haue obserued the customes of the <hi>V<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nctians</hi> and <hi>Germans?</hi> the first of which banish b<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>llards from their counsailes: and the next vouch<g ref="char:EOLhyphen"/>safe no degree of learning, to any of them in their most famous Vniuersi<g ref="char:EOLhyphen"/>ties. Nowe if in example of these, if his sentenses of condigne merite, had been
+<pb facs="tcp:3951:24"/>
+answered with an apt, appropriate, and fit matter; <hi>nulla publica laudaetione indi<g ref="char:EOLhyphen"/>geret</hi> (as <hi>Valerius</hi> saith of <hi>Romulus)</hi> his praise had beene generall, but in that <note place="margin">Val. lib. 3. cap. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> cleauing to rashnes (the enemy ofende<g ref="char:EOLhyphen"/>our (and forsaking discretion) which as <hi>Anthony</hi> the father said <hi>omnia laudabili fine concludit,</hi> endeth all thinges lauda<g ref="char:EOLhyphen"/>bly <note place="margin">Henri de vrmar. lib. 4. de perfect. int. hom. cap. 1.</note> he hath betrayed his owne fame to infamie. <hi>Qua</hi>
+               <q>
+                  <l>E<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>am tum v<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>uit cum esse credas mortuam. <note place="margin">Plaut. in Pres.</note>
+                  </l>
+               </q>
+Which then suruiues when thou be<g ref="char:EOLhyphen"/>leeu'st him dead.</p>
+            <p>Who liueth of any reading (were hee content to surfet in his folly) that with <hi>A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ctrine</hi> could not talke of <hi>Nana?</hi> with an other of a red nose? with <hi>Perie<g ref="char:EOLhyphen"/>res</hi> of a pie and <hi>Piaux,</hi> I haue seene an o<g ref="char:EOLhyphen"/>ration made in praise of a colledge cu<g ref="char:EOLhyphen"/>stard, &amp; very much written in co<g ref="char:cmbAbbrStroke">̄</g>men<g ref="char:EOLhyphen"/>dation of an asse; who in commending a goose, could not bring in <hi>Plutarch</hi> to proue she was sacrificed to <hi>Iuno;</hi> or in talking of an oxe, could not say it was <hi>y<hi rend="sup">e</hi>
+               </hi> stamp <hi>y<hi rend="sup">e</hi> Athenians</hi> put on their money? say a man were so foolish to make a book of lowsines, were it not possible for him (that had red history) to bring in <hi>Scilla</hi> lowsie, <hi>A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>stus</hi> the
+<pb facs="tcp:3951:25"/>
+sonne of <hi>Peleus</hi> dying lowsie, <hi>Mutiu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> 
+               <note place="margin">Plutarch.</note> the lawier, <hi>Eunus</hi> the fugitiue lowsie; <hi>Arnolphus</hi> the Emperor lowsie; <hi>Phoere<g ref="char:EOLhyphen"/>cides</hi> and <hi>Calisthenes</hi> lowsie; or if this subiecte seemed too nittie, what say you to <hi>Ioubert</hi> &amp; his booke of laughte<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> the common place of faits (handled in <hi>Bouchet)</hi> in helping a gentlewoman of the colicke?</p>
+            <p>Tut and I were set on a mery pinne, I coulde write in praise of spindle shankes, because <hi>Germanicus</hi> had such; and in commendation of pissing, bring<g ref="char:EOLhyphen"/>ing in out of <hi>Valerius,</hi> the storie of the <hi>Cretans,</hi> who beseidged by <hi>Metellus,</hi> drunke their owne pisse. How vaine a vaine is this? Nay how vaine is <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> in his vaine? trust me the very feare to heare of this folly, were suffici<g ref="char:EOLhyphen"/>ent to make the domb sonne of <hi>Crassus</hi> to cry out mainely. How vndecent is it for a man, in yeares staied, in birth no<g ref="char:EOLhyphen"/>ble, infortunes rich, in friendes mighty, to be so poore onely in his discretion?</p>
+            <p>Better had it beene and more wor<g ref="char:EOLhyphen"/>thy <hi>Misacmos</hi> learning to haue digest<g ref="char:EOLhyphen"/>ed custome into a volume, and made a treatise of obseruations, wherein as
+<pb facs="tcp:3951:25"/>
+especial, and with more decorum (then he conceited) he might write how the priuy that <hi>Arrius</hi> died on, was hangd vp euer after for a perpetual monume<g ref="char:cmbAbbrStroke">̄</g>t, till those of his Heresie (to extinguishe <note place="margin">Nicopli cap. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> lib. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> the indignitie thereof) raised and built a sumptuous house in the place. Hee might gather out of <hi>Segonius,</hi> how ca<g ref="char:EOLhyphen"/>pitall it is amongst the Turkes to dis<g ref="char:EOLhyphen"/>pute on the lawes of <hi>Mahomet,</hi> where amongst vs heere in England it is too common a custome to breake ours.</p>
+            <p>Besides if hee would be pleasant &amp; set downe Ethnique heresies, what lets him to reme<g ref="char:cmbAbbrStroke">̄</g>ber that among the Turks it is an heresie to pisse standing, &amp; here in England in <hi>Caesars</hi> time, it was a pro<g ref="char:EOLhyphen"/>phane thing to taste a hen, where nowe a daies it is good fellowshippe both to steale, and to roste it.</p>
+            <p>He might likewise seriously obserue <hi>Diagoras</hi> banishment, who (more mo<g ref="char:EOLhyphen"/>dester <note place="margin">Valerius lib. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. Cap. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> then <hi>Misacmos)</hi> only wrote that he knew not the Gods, where he both knowing, &amp; reading, the Lawes of God, and (which is most to be a bhorred) a Christian, taketh a felicitie to peruert them.</p>
+            <p>
+               <pb facs="tcp:3951:26"/>
+But such is the custome of the world, and to blind the elections of men, that the most part seeke out the poisons of wit to corrupt the same and the worlde like the maid (of whom <hi>Aristotles</hi> co<g ref="char:EOLhyphen"/>menter speaketh) being accustomed to seede on serpents, takes it now for a na<g ref="char:EOLhyphen"/>tural refection to nourish it selfe with poison.</p>
+            <p>But returne we to <hi>Misacmos</hi> teshe. I long to heare his conclusion: For<g ref="char:EOLhyphen"/>sooth and please you the last part of his learned trea<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>se, is the maner &amp; meanes how to build cleane, handsome and ne<g ref="char:EOLhyphen"/>cessary priuies, not altogether of <hi>M. Dal<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s</hi> built, whom he handles (as <hi>Ho<g ref="char:EOLhyphen"/>race</hi> did <hi>Moecc<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>as)</hi> s<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>arce cleanly for his curtesies, but with <hi>Hidraulique Engines</hi> a<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> it seemes (the manner whereof hee hath borowed from <hi>Vitruuius,</hi> or els ta<g ref="char:EOLhyphen"/>ken some patern fro<g ref="char:cmbAbbrStroke">̄</g> a trauellers mouth who hath seene the Cardinall of <hi>F<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>rra<g ref="char:EOLhyphen"/>ras</hi> buildings at <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>uolt)</hi> and truelie of al his booke, I hold this the clenliest, since hauing deuised and deified a Goddesse so filthie, hee hath at least wise founde a cleanlie conuyance to wash her f<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>e when she is too slouenlie.</p>
+            <p>
+               <pb facs="tcp:3951:26"/>
+But if with his patience I may speak, and by your courtesies be heard; <hi>Phila<g ref="char:EOLhyphen"/>retes,</hi> I dare promise a forme, and prefer an inuention, where (by the helpe of wind <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>as he by water) I wil build you a priuye without <hi>Houldens</hi> wiues priuye fault, that shall neither farre, foyste, nor stink, as she doth in her sleep; and how say you by that sir?</p>
+            <p>
+               <pb facs="tcp:3951:27"/>
+               <figure/>
+            </p>
+            <p>Mary Sir my Priuie shalbe a Round, (one of the fiue regular bodies in <hi>Geo<g ref="char:EOLhyphen"/>metrie)</hi>
+               <pb facs="tcp:3951:27"/>
+built like the tower of Babel, &amp; vppon vaults to, wel tarras't after the fi<g ref="char:EOLhyphen"/>nest fashion: now for the tunnel I mean to raise it in the midst, prouided that diuers doores and windowes shall bee made on euery side, that if neuer so lit<g ref="char:EOLhyphen"/>tle winde blowe (if a man bee wether<g ref="char:EOLhyphen"/>wise) hee shall bee able to emptie his belly without diseasing his nose: <hi>et fiet</hi> say I (like the olde end of a doctors bill) I but how if no winde blow? mary then the poore milners in Moore fields wold be banckrout for their rents, &amp; the witches to the Northwards shall sell no mery gales to sailers for their money. <note place="margin">Wier<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s d<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> pr<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>tigiis demon<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Carda<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> Let mee not iest it out, it is a very great fault in my Colfabus; but thinkes <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> that he can escape me? no marie can he not as lo<g ref="char:cmbAbbrStroke">̄</g>g as ther is a scape in my bellie. Nowe what fault a Gods name?</p>
+            <p>Forsooth, hee hath prouided no seemely glasse windowes for his A<g ref="char:EOLhyphen"/>IAX, and by that meanes hee bringeth those that shal haue vse of it, into a great inconuenience, and that shall I she we by an example (and the rather) because <hi>éxempla <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>llustrant non probant.</hi> A certaine gentleman of England going to <hi>Bocar<g ref="char:EOLhyphen"/>do</hi>
+               <pb facs="tcp:3951:28"/>
+to do sauereuere<g ref="char:cmbAbbrStroke">̄</g>ce, &amp; hauing his qui<g ref="char:EOLhyphen"/>uer well furnished to offer on <hi>Cloacinas</hi> Alter; after he had read a lecture of vn<g ref="char:EOLhyphen"/>trusse, claps mee a <hi>Corpus cum causa</hi> on the face of <hi>Don</hi> AIAX, who darkning al the house with a frowne of his furie, made the poore gentlema<g ref="char:cmbAbbrStroke">̄</g> grone &amp; grin till he were disburthened. Now sir, the priuy dark and he in the heat of his ser<g ref="char:EOLhyphen"/>uice: behold (hold B. I should haue said) a maide of his beeing sicke of <hi>Traianes</hi> disease &amp; som what laxatiue, notstaying the <hi>Qui vous la?</hi> or the word? but hauing her piece ready chargd, lets flie into her maisters lap at both endes, and sette both her winde-mill and water-mill a working. Out whore (quoth the May<g ref="char:EOLhyphen"/>sler) A'as, fie vpo<g ref="char:cmbAbbrStroke">̄</g> me (quoth the maid) new clothes cries he with a vengeance, away runnes she bare arst without wi<g ref="char:EOLhyphen"/>ping.</p>
+            <p>By this example it were good <hi>Mi<g ref="char:EOLhyphen"/>sacmos</hi> woulde bespeake Masons and Glasiers, least sitting at his AIAX in great meditation on his Elegie; a maide of his should serue a Lattitat on him &amp; lay the <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>bell in his bosome. How, say you? is not this worthy deepe conside<g ref="char:EOLhyphen"/>ration
+<pb facs="tcp:3951:28"/>
+               <hi>Philaretes</hi> especially, in so clean<g ref="char:EOLhyphen"/>lie <note place="margin">Continu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. That is as neato as Lic<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>n in his app<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>l, and as manner he as <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> country w<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nch, (who<g ref="char:cmbAbbrStroke">̄</g> the abbo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ed) who in<g ref="char:EOLhyphen"/>stead of reques<g ref="char:EOLhyphen"/>ting le<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> to dip <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ir ca<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> in the <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>: d<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>sn, de<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> bye Lo<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ship that she <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> her a<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e into his sa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ce. N<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ta <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>uod <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ota nihil va<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> a gentleman as <hi>Misacmos?</hi> What, like you my aduertisement? then haue at it for an other bout: And whats that? Mary it standeth very muche with the iudge<g ref="char:EOLhyphen"/>ment of <hi>Misacmos</hi> to alter this element of water (and if it were possible) and the reason is, least some of <hi>Floras</hi> hande<g ref="char:EOLhyphen"/>maides hauing <hi>Lots</hi> wiues sicknes, look backe on that shee let fall in the water: Why what of this? Marrye a dangerous thing, for since <hi>Ea quae per medium aquae apparent, groff<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>or avidentur,</hi> such things as are seen in the water seeme greater; it is to be feared least the poore soule should take a strong imagination, and commit more trust to her belly, then she can di<g ref="char:EOLhyphen"/>gest by her back parts. Yet an other, it must be ordered (or take<g ref="char:cmbAbbrStroke">̄</g> order by <hi>Mi<g ref="char:EOLhyphen"/>sacmos)</hi> that hys AIAX haue a doore with a spring locke, least some gentle woman going to speake with her-maid in priuity, haue as il fortune as a prity we<g ref="char:cmbAbbrStroke">̄</g>ch in my cu<g ref="char:cmbAbbrStroke">̄</g>try. Wold you kno how it was, and what it was? vnder promise you wil shew <hi>(Misacmos</hi> my good frie<g ref="char:cmbAbbrStroke">̄</g>d) how it hapened, Ile instruct you. A cer<g ref="char:EOLhyphen"/>taine noble man of Englande hauing
+<pb facs="tcp:3951:29"/>
+two necessary delights that accompany great fortunes; viz. a faire house to dwell in, and a foole to laugh at: thin<g ref="char:EOLhyphen"/>king it a decenter thing in him to chase his Iester, then for <hi>Socrates</hi> to play with <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>sla s<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>l. 1. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. cap. 5.</note> 
+               <hi>Lamprocles, Ageselaus,</hi> to ride on a Reede with his sonne, and <hi>Architas</hi> to playe with his seruants, one day in a merrie &amp; pleasant vaine, droue him vp and down from chamber to chamber, (making him smart with a rod hee carried in hys hand) hee forest hym into a necessarie place where the close stoole stoode, where the poore asse finding a wench at the priuy, and very willing to defend himselfe, because he was shrowdly pur<g ref="char:EOLhyphen"/>sued, he tooke her boldly in his armes (her clothes about her eares) and bare it single on her buttockes. Nowe sir, here growes a <hi>Quaere,</hi> and a <hi>Caution,</hi> in this place; the <hi>Quaeritur</hi> is, whether if the poore wench had called on <hi>Cloacina</hi> for help, her Goddes-ship could haue deliuered her? the <hi>Cautton,</hi> that hence<g ref="char:EOLhyphen"/>forth both <hi>Misacmos</hi> (and whatsoeuer builders) prouide the<g ref="char:cmbAbbrStroke">̄</g> sockes &amp; doores to their AIAX, least some coy Dame that feares to walke abroade without a
+<pb facs="tcp:3951:29"/>
+maske, be so dainely scratched and ierke ouer her face that hath neuer a nose. Is not this gaye geere <hi>Philaretes?</hi> haue I not matcht <hi>Misacmos</hi> at his own game<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> beleeue me, beleeuemee, I blush as I write, yet I write to make men blush.</p>
+            <p>For from my soule I protest, and to the world I publish it, that as the com<g ref="char:EOLhyphen"/>pounders of <hi>Metbridate</hi> (before the whole body of the <hi>Venetian</hi> Se<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ate) shew their simple poisons to make the<g ref="char:cmbAbbrStroke">̄</g> knowne; and as the quacksaluers in <hi>Germany</hi> swalow spiders in open assem<g ref="char:EOLhyphen"/>blies to shew the vertue of their con<g ref="char:EOLhyphen"/>fections: So to let the world know, the poison of lewd language, to bring that in hate which is nowe swallowed with too secure delight; I haue swallowed those morssels, which religion shoulde not digest; and rather opened the caue to discouer a serpent, then to suffer men hedlong to poste to hel on the backe of vnciuell pleasures. <note place="margin">Ouid 1. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. Impi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> sub dul<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> m<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>lle ven<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>na <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </note>
+               <q>
+                  <l>Helleborum frustra cum iam cutis agra tumebit.</l>
+                  <l>Poscentes videas, venienti occurrite morb<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>.</l>
+               </q>
+Preuent thy griefe, in desperat estate: To many seeke for remedy too late.</p>
+            <p>
+               <pb facs="tcp:3951:30"/>
+Thus farre <hi>Philarites</hi> hath thy friend<g ref="char:EOLhyphen"/>ship and <hi>Misacmos</hi> errors enforced me, yet this stile, and one fielde more, and thou hast brought mee home where I would be: Come, come, tho the high waies are durtie, the fieldes are de<g ref="char:EOLhyphen"/>lightfull, and a litle close of compasse may haue many trees of pleasure.</p>
+            <p>Me thinkes I see thee wonder what storie I haue to tell thee, and smile to thy selfe like leane <hi>Cicero,</hi> at the iust re<g ref="char:EOLhyphen"/>proofe of this <hi>Cotta:</hi> Harke in thine eare, <hi>Misacmos</hi> is a <hi>Satire,</hi> a quipping fel<g ref="char:EOLhyphen"/>low: But sirrha, what if with the merry Lord: in <hi>Homer,</hi> I should play the mad fellow, and aime at his <hi>Vlisses</hi> head and polliticke pate with a neats foote? Dost thou request me to doe so? why mine honest freend, I shall dispatch it quick<g ref="char:EOLhyphen"/>ly. But how? marry I shall talke to him thorow thy letter, and teach him plain<g ref="char:EOLhyphen"/>ly that which I haue obserued out of a French secretary: <hi>Que le trop cuider rou<g ref="char:EOLhyphen"/>ge les os, de l'sprit iusques aux moesles de l'ignorance:</hi> that too much presumpti<g ref="char:EOLhyphen"/>on <note place="margin">Du Trauchi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>pi. 231.</note> gnaweth the bones of the spirite euen to the marrow of ignorante: and that when as malice and enuie coupled
+<pb facs="tcp:3951:30"/>
+with presumption and ignoraunce, barke against the modestye of the ver<g ref="char:EOLhyphen"/>tuous, the fire refecteth to burne those that kindle it, lighting those that are detracted from the ruines of the malicious, till they haue attayned both the path and possession of ho<g ref="char:EOLhyphen"/>nour.</p>
+            <p>Beleeue me (ill christened as thou are by thy <hi>Greeke</hi> Godfather) as to repre<g ref="char:EOLhyphen"/>hend iustlye requireth a due discreti<g ref="char:EOLhyphen"/>on, so to detract insriouslye, in a great man, is a staine of honour, in a lear<g ref="char:EOLhyphen"/>ned, a noat of irreligion, in all sortes a plague of nature, rising from the thought of a corrupt, vnbrideled, and sinfull hart.</p>
+            <p>How much better matter hadst thou to remember, if thou hast read muche? and what a thing oughst thou sooner forget, if thou regarde socy<g ref="char:EOLhyphen"/>etye?</p>
+            <p>But thou wilt saye I haue taxed none but such as deserue it: and yet I tell thee (and therein taxe thine indiscretion) that except thou hast córrected priuatelye, before thou hast disgraced publiquelye, thou
+<pb facs="tcp:3951:31"/>
+art a good <hi>Aristarcus,</hi> but an ill christi<g ref="char:EOLhyphen"/>an. I prethe looke backe into the ages, and let my pen helpe thy memorie; and in the face of other mens fals, read thine own infirmities. Whom hath glory rai<g ref="char:EOLhyphen"/>sed so high, that enuy could not aime at? or vertue made so temperate, that misfortunes could not torture? Who e<g ref="char:EOLhyphen"/>uer had felicitie to counsaile, without weaknes to fall? or his reason so stronge that his passion could not alter it? Alas <hi>Misacmos,</hi> it is a misery of wit thou art fallen into; wherein the more thou art foulded, the more thou art fyled. <hi>Aemilus Paulus</hi> the admired for constan<g ref="char:EOLhyphen"/>cy, yet was he contemned in pouertie. <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> virtut<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>solue. The Marshall of S. Androw<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> deuic<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> 
+               <hi>Alexander</hi> the worlds wonder, though praise-worthye for his clemencye, in o<g ref="char:EOLhyphen"/>uercomming <hi>Darius:</hi> yet hated in his druncken furye, when hee murthered <hi>Clytus:</hi> So that his fortitude, liberalitye, magnanimitye, and continence, grace him not so much, but that his vnseaso<g ref="char:EOLhyphen"/>nable banqueting, inordinate excesse, his ambitio<g ref="char:cmbAbbrStroke">̄</g> in suffering the applause of his flatterers, his iniuries to <hi>Calist henes,</hi> make him subiect to detraction. <hi>Alci<g ref="char:EOLhyphen"/>biades,</hi> astuiterer and inconstant, but
+<pb facs="tcp:3951:31"/>
+that his magnificence and bounty, re<g ref="char:EOLhyphen"/>deemed those disgraces: <hi>Agesilaus</hi> a lo<g ref="char:EOLhyphen"/>uer of his citizens, yet suspected of <hi>Pe<g ref="char:EOLhyphen"/>drastria</hi> with <hi>Megabates:</hi> neither was his honor so greate in contempning vaine thynges, as his infamie deserued, in vsing all impietie in obtaining king<g ref="char:EOLhyphen"/>domes.</p>
+            <p>
+               <hi>Crassus</hi> couetous in fortune, yet constant in miserie. <hi>Demetrius</hi> con<g ref="char:EOLhyphen"/>stant and liberall, yet pompous, pro<g ref="char:EOLhyphen"/>phane, and lecherous. <hi>Cato</hi> (the sen<g ref="char:EOLhyphen"/>sor of men for all his seueritie) had not so stronge a sheild of his conti<g ref="char:EOLhyphen"/>nence, grauitie, fortitude, and per<g ref="char:EOLhyphen"/>seueraunce, but that beeing studi<g ref="char:EOLhyphen"/>ous to accuse others, hee was accu<g ref="char:EOLhyphen"/>sed himselfe of contempt of Philo<g ref="char:EOLhyphen"/>sophie, hate of Phisitions, praise of himselfe, and inhumanitie in his beha<g ref="char:EOLhyphen"/>uiour, nay they wrote this <hi>Epigram</hi> of him which followeth.
+<q>
+                  <l>Rufus mordaces solitusque illidere den<g ref="char:EOLhyphen"/>tes</l>
+                  <l>Omnibus et glaucus Porcius vt periit;</l>
+                  <l>
+                     <pb facs="tcp:3951:32"/>
+Ipsa timens saeue rabiem Proserpina li<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>guae.</l>
+                  <l>Ullum <gap reason="illegible" resp="#APEX" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> apud manes noluit esse locum.</l>
+               </q>
+            </p>
+            <p>Why presse I further, where these few may suffice me? and what may not <hi>Misacmos</hi> obserue, if hee disiest this consideratlie? If all these in the bright<g ref="char:EOLhyphen"/>nes of their honor had some blemishe and infirmitie, what priuiledge hath he far inferior to the worst of them? If he be not exempt from error (as I know he is not) but that either passion de<g ref="char:EOLhyphen"/>noureth him, ambition ouerhaleth him, intemperance seduceth him, and a thousand other imperfections attaint him: why is he so readye to breath out other mens reproches, where the sa<g ref="char:EOLhyphen"/>chell behinde his backe hath sinnes e<g ref="char:EOLhyphen"/>nough in it to blast him with? hath he a locke for all mens tongues? a brydle <note place="margin">Non videmus mantice quod intergo est.</note> for all mens pens? or impudencye to outface all disgraces? <hi>Cicero</hi> was more eloquent then he, but counted a bab<g ref="char:EOLhyphen"/>ler; <hi>Demosthenes</hi> more wise then hee, yet knowen for a coward; <hi>Socrates</hi> a iust man, but accused of impietie: <hi>Citi<g ref="char:EOLhyphen"/>es dies mihi defic<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ret quaem oratio,</hi> there
+<pb facs="tcp:3951:32"/>
+were no end if I should prosecute this. All life whatsoeuer is bu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> a <hi>Chaos</hi> of infirmities, and who so wil reprehend, must either be a God amongst men without fault, or a byword to men for his foule tong. Fye vpon me, whether am I growne? <hi>Misacmos</hi> is pleasant, why then in a pleasant and a merrye moode, let vs haue libertie to talk with him. Nay first lets shake handes as fen<g ref="char:EOLhyphen"/>cers doe ere they play their Prises, for I am sure to giue the <hi>Venie,</hi> I feele my fist so nimble. But what weapons? what weapons? faith with a pen in one hand, and a paper booke in an other: None better, haue at you Sir, I would wish you keepe your footing. Why, howe will you vse me? Faith as the milkmaid of <hi>Hackney</hi> vsed that moste wittie and learned Master <hi>Fleetwoode</hi> Recorder of <hi>London,</hi> (and that was scarce mannerly) and how it was (without any further interogatiues) I shal presently tell you. This honest Gentleman walking for his pleasure from <hi>London</hi> towardes <hi>Hackney,</hi> by chaunce (at the very towns 'end heard a bird of May singe, I think you call it a <hi>Cucko<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</hi> Heereupon
+<pb facs="tcp:3951:33"/>
+looking round about him to spie out some one to break his bitter iest vpo<g ref="char:cmbAbbrStroke">̄</g>, he e<g ref="char:cmbAbbrStroke">̄</g>countred by good hap with this mayd, whome so dainely and pleasantly, hee bourded with this question. Maide quoth he, who is this that singes so me<g ref="char:EOLhyphen"/>relie, is it the vicar of <hi>Hackney?</hi> no for<g ref="char:EOLhyphen"/>sooth saide she, you mistake your selfe, it is the recorder of London, (a foule on her for a lying queane, how vnmanerly she was?) Well he digested the matter like a wise gentleman. Now in like ma<g ref="char:EOLhyphen"/>ner must I try your patie<g ref="char:cmbAbbrStroke">̄</g>ce: Was it you that translated <hi>Ariosto?</hi> I marry was it sir. In faith you had beene better to haue sette your legges before it then your arms, for the lines are very gowty &amp; to vntoward to climb <hi>Hellicon.</hi> What are you angry at this iest? for shame be patient, you haue vs' de a Doctour farre worse, and therefore looke for ill chie<g ref="char:EOLhyphen"/>uing. <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nall lib. 3. Sa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>. 9. O Coridon Co<g ref="char:EOLhyphen"/>ridon secretum diuitis vllum es<g ref="char:EOLhyphen"/>se <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </note> I, but you set your armes before it, least after you were dead, citties and countries should striue for you as they did about <hi>Homer:</hi> Feare not that man, for what between <hi>Cloacinas</hi> Temple, the stationers pastbordes, the Grocers and Chandlers spices, and mustard-pots,
+<pb facs="tcp:3951:33"/>
+your bookes shall be out worne in your age I warrant you. Onelie if so<g ref="char:cmbAbbrStroke">̄</g>e surviue by the mercy of a friends Library, the after-world shall rather pittie your lost time, then commende your diligence. Thats for maister <hi>Daltons</hi> sake, and I pray you so take it. Nowe for mayster <hi>Plat</hi> mine old and honest friende, why what of him? His life in<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>al mens eies so vpright, his birth not to be contemned, his studie for the commoditie of hys countrie, you haue lewdely Iybed a<g ref="char:EOLhyphen"/>gainst him beeing a gentleman of your owne societie; and so iested at his coles, that you deserue to be burnt with them for your labor. <hi>Bona verba quaeso:</hi> nay you shall not so scape it. Shoulde a man (because the Fishmongers boy saw you in a goodlye gay veluet cloake and on your foote-cloth, and iestingly saide as you past by him thorowolde olde fishstreet that you sat on your horse like a slouen on a close stoole) that therefore your writing in praise of AIAX, was fore<g ref="char:EOLhyphen"/>prophecied? or to vse <hi>(Charles Chesters</hi> iest, because you are faced like <hi>Platina)</hi> 'would it not anger your hart strings, if a man shoulde say that you looke like a
+<pb facs="tcp:3951:34"/>
+sturdie Hostler that could guird a mire til she sart again. Truly it were vnseem<g ref="char:EOLhyphen"/>ly to vse a gentleman of worth so gros<g ref="char:EOLhyphen"/>ly: now if miu<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ies to your self, disgraces to your own per<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>o<g ref="char:cmbAbbrStroke">̄</g>, Iybing at your own writings so mightily moue you: Ima<g ref="char:EOLhyphen"/>gine that in others which you feele in your selfe, and if you take felicitie to heare well, remember carefully hereaf<g ref="char:EOLhyphen"/>ter to speake well. But I forget my self, I forget my selfe, there is a pad in the shaw, there is matter in it said the host<g ref="char:EOLhyphen"/>ler when he felt his horse backe, there are reasons of discontent, whiche haue mooued this desaster twixt maister <note place="margin">C<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>nelius A<g ref="char:EOLhyphen"/>g<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> de vault Sce<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>c.</note> Plat and you: I mary bether sir, he is a seducer, his coales are like the <hi>Alcu<g ref="char:EOLhyphen"/>mists Elixar,</hi> muche t<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>kte of, but neuer bronght to passe: You deceaue your selfe <hi>Misacmos,</hi> and I dare sweare it by as much honestie as you can pledge me, that the coles Maister <hi>Plat</hi> maketh pro<g ref="char:EOLhyphen"/>fession of to deuise, are possible to na<g ref="char:EOLhyphen"/>ture, not contrary to the rules of Philo<g ref="char:EOLhyphen"/>sophie, euen now this t<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>a me readye to be prooued by a demonstration, so that as <hi>Fierouants</hi> said to the <hi>Galenists</hi> of Ita<g ref="char:EOLhyphen"/>lie <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> lib. 3. <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. et a<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>i.</note> and other chimicall fellowes; May<g ref="char:EOLhyphen"/>ster
+<pb facs="tcp:3951:34"/>
+               <hi>Plat</hi> ma<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> boldely vrge against you, mine is the effect, dispute you on the cause.</p>
+            <p>I but your iudgement (say you) apprehendeth not any such thing, and for that cause you will iest at a trueth, in that you suspect it a falshoode, Heeres faire playe <hi>Misacmos,</hi> and I offer open challendge.</p>
+            <p>Drawe the quintescene of your wit, capitulate <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ll your readinges, make an abstract of your experiments, and set me downe what arguments you can against these coles, and you shall see me make you carry coles till you fall <hi>tout plat</hi> for your labour. For your coniec<g ref="char:EOLhyphen"/>ture of stale and cow-dung, it standes not with nature, it stands not with rea<g ref="char:EOLhyphen"/>son, you are mis informed, and it were good you were reformed, learne a tru<g ref="char:EOLhyphen"/>er <hi>Credo,</hi> and wee will sing a kinder <hi>Salue</hi> to you.</p>
+            <p>If you stil braue it til your conceit be blu<g ref="char:cmbAbbrStroke">̄</g>t, I wil steele it with reaso<g ref="char:cmbAbbrStroke">̄</g>, &amp; though maister <hi>Plats</hi> maide hath coulted your intelligencer, that wold haue wrought the secret of these coales out of her, vn<g ref="char:EOLhyphen"/>der pretence of a woing daunce (for
+<pb facs="tcp:3951:35"/>
+whiche cause you are waxt so tetchie,) Ile vse you more honestly; and not on<g ref="char:EOLhyphen"/>lye instruct you like a probable dispu<g ref="char:EOLhyphen"/>ter, but with as good pillers as all scien<g ref="char:EOLhyphen"/>ces consist on, I meane demonstrations (as sound matter as <hi>Aristotles Pasteriora.</hi> I warrant you) I coulde vse <hi>Tarltons</hi> lye vppon you touching the secret of Bar<g ref="char:EOLhyphen"/>ly: who (atte<g ref="char:cmbAbbrStroke">̄</g>ding one day at a great din<g ref="char:EOLhyphen"/>ner on sir <hi>Christopher Hatton</hi> Lorde Chauncellour deceased) by chance (a<g ref="char:EOLhyphen"/>mongst other pretie iests) gaue him vn<g ref="char:EOLhyphen"/>aduisedly the lie: for which, the honora<g ref="char:EOLhyphen"/>ble perso<g ref="char:cmbAbbrStroke">̄</g> merily reprouing him, insteed of submitting hi<g ref="char:cmbAbbrStroke">̄</g>self, he thus witily iusti<g ref="char:EOLhyphen"/>fied: My Lord (said he) is it not a custo<g ref="char:cmbAbbrStroke">̄</g>e when a prince hath spoken anye thing note-worthy, to say he hath deliuered it maiestically? Again whe<g ref="char:cmbAbbrStroke">̄</g> you <hi>y<hi rend="sup">e</hi>
+               </hi> are <hi>Mo<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>sieurs,</hi> my <hi>Lorts, excellenses, Altesses,</hi> &amp; such like, speak any thi<g ref="char:cmbAbbrStroke">̄</g>g: Saynot the assi<g ref="char:EOLhyphen"/>sta<g ref="char:cmbAbbrStroke">̄</g>ts straight waies, he co<g ref="char:cmbAbbrStroke">̄</g>cluded hono<g ref="char:EOLhyphen"/>rably? Nay in euery estate, if either no<g ref="char:EOLhyphen"/>ble, right worshipful, worshipful, ge<g ref="char:cmbAbbrStroke">̄</g>tle, co<g ref="char:cmbAbbrStroke">̄</g>mon, honest, dishonest, poore or rich, sick or whole <hi>(&amp; sic ad infinitum)</hi> speak any thing; dooth not the worlde
+<pb facs="tcp:3951:35"/>
+conclude straight, that they haue spo<g ref="char:EOLhyphen"/>ken nobly, right worshipfully, worship<g ref="char:EOLhyphen"/>fully, gently, commonly, honestly, dis<g ref="char:EOLhyphen"/>honestly, poorely, richly, sickly, wholy? Nought without, alye my Lord (quoth dick <hi>Tarlton)</hi> naught without a lie: Hee that therefore paies it with a frowne, or a stab, forgetteth himselfe. But thus will not I vse <hi>Misacmos,</hi> least hee that stands so muche on his pointes, shoulde point me out with his poyniard; on elie this wil I say (and that modestlie too) a<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <hi>Tully</hi> did of <hi>Voconius,</hi> and his children, and (E) onely deducted.
+<q>
+                  <l>Phaeb<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap> hand scinente hic seminauit libros. <note place="margin">Pl<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>arch in <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>a Cico. To. 3. so. <gap reason="illegible" resp="#APEX" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>.</note>
+                  </l>
+               </q>
+            </p>
+            <p>Which is as much to say, as the man had beene happy if his booke had lyen stinking in his studio. But heere mee thinkes I spie a worse then <hi>Enthimi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> miserie falne vpon you, (who abusing the <hi>Corinthians</hi> in iest, was plaugde in earnest) for in discoursing your Mona<g ref="char:EOLhyphen"/>pole, wherein you angle for nothing <note place="margin">Your own word<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> Avengeance on them that <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e these Monapol<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 17. Ed. 4. Sto<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> but <hi>Carps</hi> to feede other men with, you not onelie wax tooe bitter a curser of your betters (a fault worse the<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>Burdets,</hi>
+               <pb facs="tcp:3951:36"/>
+and it were pittie it should be expiated with his destiny). But you priuelye gird likewise at patents, (I meane not the father and the sonne both wittie and learned gentlemen) who (as I am inspi<g ref="char:EOLhyphen"/>red) are the very <hi>Genii</hi> and good angells in furthering your best studies, but <note place="margin">Iob serue not As gesclaus, law heare: Difficile est miser eriet <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>pore, but cold<g ref="char:EOLhyphen"/>ly past<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> that ouer which might be wrought like wa<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>.</note> those pattents which beeing priueled<g ref="char:EOLhyphen"/>ges graunted by a prince, fruits of her royall prerogatiue, rewardes of her trustie and honourable seruants, acte<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> for humble subiectes to receiue wyth thankes, not to examine according to their owne shallow iudgements priuat lawes in beeing priuiledges, as both the legists and schoolemen determine, are <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> not groslie to bee iested at, carelessie to be disgraced, or fondly to be delt with<g ref="char:EOLhyphen"/>al. Beware of this good <hi>Misacmos,</hi> I wish you as a friend, &amp; if hereafter you mean to rest publiquely, and force your wit to stemme the streame of worlds iudg<g ref="char:EOLhyphen"/>ments, vse <hi>Pericles</hi> custom, who deter<g ref="char:EOLhyphen"/>mining to speake any thing publikely, desired the immortall Gods, that no improuident worde shoulde passehys mouth. Away with this serious talke, let vs turkish this text into a merrier colour. One turn fro<g ref="char:cmbAbbrStroke">̄</g> Leaden hal cor<g ref="char:EOLhyphen"/>ner into Gracious streete, and so haue
+<pb facs="tcp:3951:36"/>
+with you to West minster: Why into Gracious street? Because of al streets in Londo<g ref="char:cmbAbbrStroke">̄</g> you haue thought this the best market to make proclamation of cuck<g ref="char:EOLhyphen"/>coldry. Now sir what <hi>Iohn</hi> of himself, or <hi>Iohn</hi> by constraint know you there that hathinheritance in Cornhil, who<g ref="char:cmbAbbrStroke">̄</g> you so pretilie iutitle to Hornden? Mum bud<g ref="char:EOLhyphen"/>get not a worde. In an inuentory of such housholde stuffe it is ill falling to perticulers, such vniuersall propositi<g ref="char:EOLhyphen"/>ons, or prepositions require noi<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ance. If a gentlewench haue inuited you to a banquet of Turnups, be not too talka<g ref="char:EOLhyphen"/>tiue, least suting your selfe in pure rash, your loue repent her lying abrode, and you your speaking too broadly. In ha<g ref="char:cmbAbbrStroke">̄</g>d<g ref="char:EOLhyphen"/>ling your common places, shut vp your tongue, least being <hi>Plenus <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>arum,</hi> (as <hi>Parmeno</hi> said of him selfe) you be naro<g ref="char:EOLhyphen"/>ly lookt into O <hi>Misacmos</hi> since all men may bee cuckolds, <hi>actu vel potentia</hi> it is dangerous to talk of the<g ref="char:cmbAbbrStroke">̄</g>, but if you will needs bite on this morsel, beware to be <note place="margin">T<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ent. Eunuch<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </note> offe<g ref="char:cmbAbbrStroke">̄</g>siue, for to general terms none but the guilty take exception. Should I play at this weapo<g ref="char:cmbAbbrStroke">̄</g> what should let mee to hit ho<g ref="char:cmbAbbrStroke">̄</g>e &amp; yet obserue the lawes of huma<g ref="char:EOLhyphen"/>nity? show wiht witout profe<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>g wro<g ref="char:cmbAbbrStroke">̄</g>g.</p>
+            <p>
+               <pb facs="tcp:3951:37"/>
+As thus in a pleasant <hi>Irone,</hi> to disfi<g ref="char:EOLhyphen"/>gure a householder in a figure. <hi>The man hath a great charge, and therefore this deere yeere, it is good hauing</hi> Cornucopia <hi>in his householde.</hi> 
+               <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>orn, the horn of plenty, or other<g ref="char:EOLhyphen"/>wise plenty of horne.</note>
+            </p>
+            <p>This is a iest without gall, and this no lesse pleasant then the former. <hi>If it bee true that Phisitions say, that the perfume of borne is a soueraigne medicine against the Pestilence; how happie shall many mens neighbors be that haue hornes of their owne to burne and driue the plague out of their Chambers?</hi>
+            </p>
+            <p>This is a forme I informe you of, be<g ref="char:EOLhyphen"/>cause I knowe some exceptions taken against your other deformed obserua<g ref="char:EOLhyphen"/>tion: Mend it, mendit, or burne your booke as the desperate <hi>Zanthians</hi> did theyr, Cittie least from the <hi>Babell</hi> of <note place="margin">A<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s dict<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Bable.</note> your pride, men say you deriue your babling. Harke what a tale I heard in <hi>Gratious</hi> streete of an vngratious turne, which was return'd vpon a gen<g ref="char:EOLhyphen"/>tlewoman.</p>
+            <p>A pleasant we<g ref="char:cmbAbbrStroke">̄</g>ch of the country (who beside <hi>Chaucers</hi> iest, had a great felicitie in iesting) incountring in a morning
+<pb facs="tcp:3951:37"/>
+with a farmour of hir husbands, who came that Michaelmas day to pay his quarters rent (beside a dozen of powtings for my Lanslady his mistres) seeing him scrape his curtesies a farre off, and very loath to come neere and salute her, pleasantly said thus; Come neere <hi>Thomas,</hi> be not afraid, I neither fling nor bite: T the poore felow gathering heart of grace on this encou<g ref="char:EOLhyphen"/>ragement, returned her this answer: Bith masse mistris, and you be so gentle, you are the fitter beast to be ridden: heere is <note place="margin">Diog. Laertius in vita Memn, prae moerore laque<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> vitam sibi e<gap reason="illegible" resp="#APEX" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>torsit.</note> 
+               <hi>quid pro quo:</hi> a girde for a gibe: beware of mocking plaine fellowes, lest after this sort in plain termes they thus mocke you.</p>
+            <p>Go to <hi>Menippus</hi> in wit, God keepe you from his fortune. Vse citizens wel. And though you bee as familiar with some of their wiues, as <hi>Tullies</hi> epistles: yet to the husbands reade nothing but his Offices, lest they preferre you to an office or offi<g ref="char:EOLhyphen"/>cer. I haue to talke with you for the <hi>Mar<g ref="char:EOLhyphen"/>kams</hi> too, my worthy worshipfull and be<g ref="char:EOLhyphen"/>loued friends: and therefore prepare new we apons, for I must wring you for wron<g ref="char:EOLhyphen"/>ging them. Though their desert can out<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ue your disgrace, yet shall your disgrace liue by your disgracing them: get there<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:3951:38"/>
+the grim sire to seale you a pardon of Course, or my second Course shall be so currant, that I will course you out of breath: these are but easie tricks, as wrest<g ref="char:EOLhyphen"/>lers <note place="margin">Plutare. In vita Alexand.</note> vse before they begin their vtmost. The other shalbe labored like your own, as ready to moue laughter, as <hi>Naptha</hi> to take fire, which til you meet, make a regi<g ref="char:EOLhyphen"/>ster of your best conceits, for I meane to make triall of the vtmost of your learned corage. Enough of this till the feast of e<g ref="char:EOLhyphen"/>nough follow. They say, Once warned, well armed, thanke me kindly for these courtesies.</p>
+            <p>What remaineth now? but in few words to counsell <hi>Misacmos:</hi> first, if he pretend to iest, to obserue the custome of the Spar<g ref="char:EOLhyphen"/>tans, in auoyding scurrilitie: next, in the modest carriage of his wordes, to become an Athenian, who had a custome to co<g ref="char:EOLhyphen"/>uer and colour obscenities and filthinesse with apt and decent names, according as <hi>Solon</hi> taught them. Adubber to crie, Mo<g ref="char:EOLhyphen"/>ther goe cacke, when hee is able to trusse himselfe is vndecent. Remember what your grand mother taught you <hi>Misacmos,</hi> and make your Bookes more mannerly. Lastly, in correcting, learne of Phitaroh
+<pb facs="tcp:3951:38"/>
+to doe all things in way of commiserati<g ref="char:EOLhyphen"/>on, and not in contempt, for who re<g ref="char:EOLhyphen"/>proueth in derision, defaulteth in huma<g ref="char:EOLhyphen"/>nity &amp; iudgement: To be short, instead of the salt of bitter language, let <hi>Misac<g ref="char:EOLhyphen"/>mos</hi> learne to seeke the salt of wisedome: for as the one is fretting, galling, and a sucker of bloud, so the other (as saieth <hi>Gregory) Acquiritur per pacem,</hi> is got<g ref="char:EOLhyphen"/>ten by peace, breedeth peace, nourisheth vertue, instructeth errour, and maketh the life sauery, which appeareth in that of the euangelist <hi>Marke, Habete in vobis sal, &amp; pacem habebitis inter vos.</hi> Haue salt among you, and you shall haue peace among you. To conclude with <hi>Misac<g ref="char:EOLhyphen"/>mos,</hi> let mee teach him twoo receits, and so leaue him: First, to auoyde euill smelles, let him get him a cleane tongue, and a sweete breath, for that is pleasing to gentlewomen: let him vse the incense of prayer, to kill the stinking venome of serpents lurking in his heart, lette him put lesse worme woode in his incke, and more continence in his thoughtes: and if his tongue will not leaue clacking, let him learne to light the candle of charity before him, as Gardners are wont to set
+<pb facs="tcp:3951:39"/>
+lampes by lakes sides: to put croking and troublesome frogges to silence. Finally: to purge his lunacie of wit, I neither pre<g ref="char:EOLhyphen"/>scribe him Turbith, Agaric, Sarcocolla, <note place="margin">Trincauel de vsu med. li. 1. c, 14</note> nor a dramme of Scammony, according to Dioscorides, neither rhubarb of Po<g ref="char:cmbAbbrStroke">̄</g>tus, nor manna of Calabria, but an ounce of good thought mixt with a scruple of <hi>Py<g ref="char:EOLhyphen"/>thagoricum silentium,</hi> which shall so purge him of ambition, heale the inflamations of his tongue, and exhale the venome of his heart, that when he next meetes mee, he shall say, I am the happiest of Physiti<g ref="char:EOLhyphen"/>ons (of whom Bouchet iestingly speaketh in the person of a bon Drole or Franca<g ref="char:EOLhyphen"/>tripe) <note place="margin">Bouchet au 10. Secr.</note> that the sunne beholdes their good cures, and the earth couereth their gree<g ref="char:EOLhyphen"/>uous faults.</p>
+            <p>Thus kindly leaue I <hi>Misacmos</hi> with his <note place="margin">Car ie penscray acquerir plus de lou ange au ser<g ref="char:EOLhyphen"/>uice de la vertu, que ie ne seroy pas a la suitte de vice.</note> cure, which if he requite with choller, let him resolue himselfe, that I haue wit and learning enough to make him as tame as Crassus lamprey: For hauing truth on my side, and diligence my friend, I neyther fear his grim looks, nor his Martials pen. <note place="margin">Bouchet au 7. Secr.</note> Let him write neuer so soone, I will be<g ref="char:EOLhyphen"/>come <hi>nouus homo</hi> a new man (with Cato) rising from obscuritie to same by his dis<g ref="char:EOLhyphen"/>grace: <note place="margin">Plutarch. in vita Cat.</note>
+               <pb facs="tcp:3951:39"/>
+and so I leaue him. For thee <hi>Phi<g ref="char:EOLhyphen"/>laretes</hi> and thy friends, I end, in heartily commending me: and since I am assured of your well-meaning, you may boldely commaund my seruice. But euen here in shutting vp of my letter, a merry iest in<g ref="char:EOLhyphen"/>counters me, which I must needs tel you. Henry the 8. in his youth, a prince of fa<g ref="char:EOLhyphen"/>mous memorie, riding a hunting in grasse time with certaine his nobles and famili<g ref="char:EOLhyphen"/>ars, by chance made toward a gentlemans parke of good estimation and reckoning whom he highly fauored; where (finding the parke gate lockt, and being very de<g ref="char:EOLhyphen"/>sirous to enter.) hee set his horne to his mouth, and merrily winded it to call the Keeper. Sir Andrew Flamocke (a valiant and quicke witted gentleman) standing hard behinde him (and that very instant troubled with the chollicke) euen at the very time the King drewe his horne from his mouth lets mee flie a rouncing F. from his T. The King looking backe, and angerly asking who it was that durst be so beastly in his presence? Sir Andrew (after a low congee) made this answer: If it please your Maiestie, you blew for the Keeper, and I blew for Iohn the Keepers
+<pb facs="tcp:3951:40"/>
+man. Now to allude this (Philaretes) in this sort conceit me. For those of thy fac<g ref="char:EOLhyphen"/>tion that kindely interpret, courteously accept, &amp; friendly protect my pleasures, I commit the kingly blast of incourage<g ref="char:EOLhyphen"/>ment, I meane the matters of weight, worth, and discretion. For the rest that captiously desire to prie, carelesly to con<g ref="char:EOLhyphen"/>demne, and iniuriously detract, I commit the filth, worse then sir Andrew Flamoks fart to their disgesting. And so to Tarle<g ref="char:EOLhyphen"/>tons Testament I commend you, a little more drinke, then a little more bread, a little more bread, and a few more clothes, and God be at your sport Master Tarleton.</p>
+            <closer>
+               <signed>Misodiaboles.</signed>
+            </closer>
+            <pb facs="tcp:3951:40"/>
+         </div>
+      </body>
+   </text>
+</TEI>

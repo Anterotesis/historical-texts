@@ -1,0 +1,773 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pyramus and Thisbe</title>
+            <author>Gale, Dunstan.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1617</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-07">2003-07 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A01407</idno>
+            <idno type="STC">STC 11527</idno>
+            <idno type="STC">ESTC S105674</idno>
+            <idno type="EEBO-CITATION">99841400</idno>
+            <idno type="PROQUEST">99841400</idno>
+            <idno type="VID">5981</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A01407)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 5981)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1065:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Pyramus and Thisbe</title>
+                  <author>Gale, Dunstan.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by John Beale] for Roger Iackson, and are to be sold in his shop neere Fleet Conduit,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1617.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Dunstan Gale.</note>
+                  <note>In verse.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A-C⁴.</note>
+                  <note>"Intended to be issued as pt. 2 of [STC] 12221, but only the Göttingen copy is so bound"--STC.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2003-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:5981:1"/>
+            <pb facs="tcp:5981:1"/>
+            <p>Pyramus and Thisbe.</p>
+            <p>LONDON, Printed for <hi>Roger Iackson,</hi> and are to be sold at his shop neere Fleet Conduit, 1617.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:5981:2"/>
+            <pb facs="tcp:5981:2"/>
+            <head>TO THE WORSHIPFVLL his verie friend, D. B. H. DVNSTAN GALE, wisheth all happinesse.</head>
+            <p>
+               <seg rend="decorInit">T</seg>He worthinesse (good Captaine) of your de<g ref="char:EOLhyphen"/>merits, with the benefit of your friendly cur<g ref="char:EOLhyphen"/>tesies, incites mee to make profer vnto you of this my vnpolished Pamphlet, humbly intrea<g ref="char:EOLhyphen"/>ting you to vouchsafe it acceptance, in that a<g ref="char:EOLhyphen"/>mongst many whom I haue knowne, I could finde none more meete for the patronizing it then your self. Which if it please you, I hope it wil be the better welcom to others for your sake: and if vnconstant fortune do but once more enable me for better, then shall you find a gratefull minde ready to re<g ref="char:EOLhyphen"/>quite you with a double guerdeon for your former kindnesse. Thus crauing pardon for this my rash attempt, I humbly take my leaue this <hi>25.</hi> of <hi>Nouember, 1596.</hi>
+            </p>
+            <closer>
+               <signed>Your Worships euer deuoted, <hi>Dunstan Gale.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:5981:3"/>
+            <pb facs="tcp:5981:3"/>
+            <head>
+               <hi>PYRAMVS</hi> AND <hi>THISBE.</hi>
+            </head>
+            <lg n="1">
+               <head>1</head>
+               <l>NEere to the place where <hi>Nilus</hi> channels runne,</l>
+               <l>There stood a town<g ref="char:punc">▪</g> by loue long since vndone:</l>
+               <l>For by a chance that hapned in the same,</l>
+               <l>The town's forgot, &amp; with the towne the name.</l>
+               <l>Within which towne (for then it was a towne)</l>
+               <l>Dwelt two commanders of no small renowne,</l>
+               <l>Daughter to one, was <hi>Thisbe</hi> smooth as glasse:</l>
+               <l>Fairer then <hi>Thisbe</hi> neuer woman was.</l>
+               <l>Sonne to the other, <hi>Pyramus</hi> the bright:</l>
+               <l>Yong <hi>Thisbes</hi> play-feare, <hi>Thisbe</hi> his delight:</l>
+               <l>Both firme in loue, as constant and were any,</l>
+               <l>Both crost in loue, as proud Loue crosseth many.</l>
+            </lg>
+            <lg n="2">
+               <head>2</head>
+               <l>For in the pride of sommers parching heat,</l>
+               <l>When children play and dally in the street,</l>
+               <l>Yong <hi>Thisbe</hi> seuerd from the common sort,</l>
+               <l>As gentle nurture lothes each rusticke sport,</l>
+               <l>Went to an arbour, arbours then were greene,</l>
+               <l>Where all alone, for feare she should be seene,</l>
+               <l>She gatherd violets and the Damaske rose,</l>
+               <l>And made sweet nosegaies, from the which she chose,</l>
+               <l>One of the sweetest. Sweet were all the rest,</l>
+               <l>But that which pleasd her wanton eye the best.</l>
+               <l>And this (quoth she) shall be my true loues fauor:</l>
+               <l>Her tender nonage did of true loue fauor.</l>
+            </lg>
+            <lg n="3">
+               <pb facs="tcp:5981:4"/>
+               <head>3</head>
+               <l>No sooner spake, but at her speech she blusht:</l>
+               <l>For on the sudden <hi>Pyramus</hi> in rusht,</l>
+               <l>Hauing but newly cropt the spredding pine,</l>
+               <l>And other branches that were greene and fine,</l>
+               <l>Of which to passe his idle time away,</l>
+               <l>The boy made wreaths and garlands that were gay,</l>
+               <l>And spying <hi>Thisbe, Thisbe</hi> made him start,</l>
+               <l>And he her blush, so tender was her heart:</l>
+               <l>She blusht, because another was so neere,</l>
+               <l>He started, for to finde another there;</l>
+               <l>Yet looking long, at last they knew each other,</l>
+               <l>For why, they lov'd like sister and like brother.</l>
+            </lg>
+            <lg n="4">
+               <head>4</head>
+               <l>When they left looking, for they lookt awhile,</l>
+               <l>First <hi>Pyramus,</hi> last <hi>Thisbe</hi> gan to smile,</l>
+               <l>I was afraide, thus <hi>Thisbe</hi> straight began:</l>
+               <l>Faint (he replied) a maid and feare a man?</l>
+               <l>I feard (quoth she) but now my feare is past.</l>
+               <l>Then welcome me (quoth <hi>Pyramus</hi>) at last.</l>
+               <l>Welcome (quoth she) and then she kist his lips,</l>
+               <l>And he from her, sweet <hi>Nectar</hi> drops out sips:</l>
+               <l>She pats his lips, he pals her milke white skin.</l>
+               <l>Thus children sport, and thus true loue begins:</l>
+               <l>But they as children, not as louers gamed,</l>
+               <l>For loue (alas) twixt them was neuer named.</l>
+            </lg>
+            <lg n="5">
+               <pb facs="tcp:5981:4"/>
+               <head>5</head>
+               <l>Oft would he take her by the lillie hand,</l>
+               <l>Cirkling her middle, straight as any wand,</l>
+               <l>And cast her downe, but let her lye alone,</l>
+               <l>For other pastime <hi>Pyramus</hi> knew none.</l>
+               <l>Then vp she starts and takes him by the necke,</l>
+               <l>And for that fall giues <hi>Pyramus</hi> a checke:</l>
+               <l>Yet at the length she chanst to cast him downe,</l>
+               <l>Though on the green she neuer gaind a gowne,</l>
+               <l>But rose againe, and hid her in the grasse,</l>
+               <l>That he might tract the place where <hi>Thisbe</hi> was,</l>
+               <l>And finding her (as children vse) imbrace her,</l>
+               <l>For being children nothing could disgrace her.</l>
+            </lg>
+            <lg n="6">
+               <head>6</head>
+               <l>But marke the issue, of their sportiue play,</l>
+               <l>As this sweet couple in the coole shade lay,</l>
+               <l>Faire <hi>Venus</hi> posting whom to <hi>Paphos</hi> Ile,</l>
+               <l>Spied their sports, nor could she chuse but smile,</l>
+               <l>Wherefore she straight vnyok't her siluer teame,</l>
+               <l>And walkt on foot along the Chrystall streame,</l>
+               <l>And enuying that these louers were so bold,</l>
+               <l>VVith iealous eyes she did them both behold.</l>
+               <l>And as she lookt, casting her eye awry,</l>
+               <l>It was her chance (vnhappy chance) to spy,</l>
+               <l>VVhere squint-eyd <hi>Cupid</hi> sate vpon his quiuer,</l>
+               <l>Viewing his none-eyd body in the riuer.</l>
+            </lg>
+            <lg n="7">
+               <pb facs="tcp:5981:5"/>
+               <head>7</head>
+               <l>Him straight she cald, being cald he made no stay,</l>
+               <l>But to his mother tooke the neerest way.</l>
+               <l>Yet ere he came, she markt the tother two,</l>
+               <l>Playing as oft tofore th'er wont to do:</l>
+               <l>And then she sware, yong <hi>Pyramus</hi> was faire,</l>
+               <l>
+                  <hi>Thisbe</hi> but browne, as common women are:</l>
+               <l>Anon she wisht yong <hi>Pyramus</hi> was neere,</l>
+               <l>That she might bind loue in his golden haire,</l>
+               <l>And loue him too, but that she cald to mind,</l>
+               <l>That yong <hi>Adonis</hi> proued so vnkinde.</l>
+               <l>But <hi>Cupid</hi> came, his comming causd her hate them,</l>
+               <l>And in a heat, proud <hi>Venus</hi> gan to rate them.</l>
+            </lg>
+            <lg n="8">
+               <head>8</head>
+               <l>Seest thou my sonne (quoth she) and then she fround,</l>
+               <l>Those brattish elues, that dally on the ground?</l>
+               <l>They scorne my kingdome, and neglect my minde,</l>
+               <l>Contemne me as inconstant as the winde.</l>
+               <l>Then shoot (quoth she) and strike them so in loue,</l>
+               <l>As nought but death, their loue-dart may remoue.</l>
+               <l>At this he lookt, the boy was loth to shoot,</l>
+               <l>Yet strucke them both so neere the hearts sweet root,</l>
+               <l>As that he made them both at once to cry</l>
+               <l>(Quoth he) I loue, for loue (quoth she) I die.</l>
+               <l>Of this both <hi>Venus,</hi> and her blind boy bosted,</l>
+               <l>And thence to <hi>Paphos</hi> Isle in triumph posted.</l>
+            </lg>
+            <lg n="9">
+               <pb facs="tcp:5981:5"/>
+               <head>9</head>
+               <l>Now was the time, when shepheards told their sheep,</l>
+               <l>And weary plow-men ease themselues with sleepe,</l>
+               <l>When loue-prickt <hi>Thisbe</hi> no where could be found,</l>
+               <l>Nor <hi>Pyramus,</hi> though seruants sought them round.</l>
+               <l>But newes came straight, that <hi>Pyramus</hi> was seene,</l>
+               <l>Sporting with <hi>Thisbe</hi> lately in the euen:</l>
+               <l>Like newes to both their Parents soone was brought;</l>
+               <l>Which newes (alas) the louers downfals wrought.</l>
+               <l>For though they lov'd, as you haue heard of yore,</l>
+               <l>Their angry parents hate was ten times more,</l>
+               <l>And hearing that their children were together,</l>
+               <l>Both were afraide least each had murthered other.</l>
+            </lg>
+            <lg n="10">
+               <head>10</head>
+               <l>When they came home, as long they staid not forth,</l>
+               <l>Their storming parents fround vpon them both,</l>
+               <l>And charg'd them neuer so to meet againe,</l>
+               <l>Which charge to them, God knows was endles paine:</l>
+               <l>For yeres came on, and true loue tooke such strength,</l>
+               <l>That they were welnigh slaine for loue at length:</l>
+               <l>For though their parents houses ioynd in one,</l>
+               <l>Yet they poore peats, were ioynd to liue alone.</l>
+               <l>So great and deadly was the daring hate,</l>
+               <l>Which kept their moody parents at debate,</l>
+               <l>And yet their hearts as houses ioynd together,</l>
+               <l>Though hard constraint, their bodies did disseuer.</l>
+            </lg>
+            <lg n="11">
+               <pb facs="tcp:5981:6"/>
+               <head>11</head>
+               <l>At length they found, as searching louers find,</l>
+               <l>A shift (though hard) which somwhat easd their mind:</l>
+               <l>For lo a time-worne creuis in the wall,</l>
+               <l>Through this the louers did each other call,</l>
+               <l>And often talke, but softly did they talke,</l>
+               <l>Least busie spy-faults should find out their walke:</l>
+               <l>For it was plast in such a secret roome,</l>
+               <l>As thither did their parents seldome come.</l>
+               <l>Through this they kist, but with their breath they kist,</l>
+               <l>For why the hindring wall was them betwixt,</l>
+               <l>Somtimes poor souls, they talkt till they were windles</l>
+               <l>And all their talke was of their friends vnkindnes.</l>
+            </lg>
+            <lg n="12">
+               <head>12</head>
+               <l>When they had long time vsd this late found shift,</l>
+               <l>Fearing least some should vndermine their drift,</l>
+               <l>They did agree, but through the wall agreed,</l>
+               <l>That both should hast vnto the groue with speed,</l>
+               <l>And in that arbour where they first did meet,</l>
+               <l>With semblant loue each should the other greet.</l>
+               <l>The match concluded, and the time set downe,</l>
+               <l>
+                  <hi>Thisbe</hi> prepar'd to get her forth the towne,</l>
+               <l>For well she wot, her loue would keepe his houre,</l>
+               <l>And be the first should come vnto the bowre:</l>
+               <l>For <hi>Pyramus</hi> had sworne there for to meete her,</l>
+               <l>And like to <hi>Venus</hi> champion there to greet her.</l>
+            </lg>
+            <lg n="13">
+               <pb facs="tcp:5981:6"/>
+               <head>13</head>
+               <l>
+                  <hi>Thisbe</hi> and he, for both did sit on bryers,</l>
+               <l>Till they enioyd the height of their desires:</l>
+               <l>Sought out all meanes they could to keep their vow,</l>
+               <l>And steale away, and yet they knew not how.</l>
+               <l>
+                  <hi>Thisbe</hi> at last (yet of the two the first)</l>
+               <l>Got out, she went to coole loues burning thirst,</l>
+               <l>Yet ere she went (yet as she went) she hide,</l>
+               <l>She had a care to decke her vp in pride,</l>
+               <l>Respecting more his loue to whom she went,</l>
+               <l>Then parents feare, though knowing to be shent,</l>
+               <l>And trickt her selfe so like a willing louer,</l>
+               <l>As purblind <hi>Cupid</hi> tooke her for his mother.</l>
+            </lg>
+            <lg n="14">
+               <head>14</head>
+               <l>Her vpper garment was a robe of lawne,</l>
+               <l>On which bright <hi>Venus</hi> siluer doues were drawne:</l>
+               <l>The like wore <hi>Venus, Venus</hi> robe was white,</l>
+               <l>And so was <hi>Thisbes,</hi> not so faire to sight,</l>
+               <l>Nor yet so fine, yet was it full as good,</l>
+               <l>Because it was not stain'd with true loues bloud.</l>
+               <l>About her waste, she wore a scarfe of blew,</l>
+               <l>In which by cunning needle-worke she drew</l>
+               <l>Loue-wounded <hi>Venus</hi> in the bushie groue,</l>
+               <l>VVhere she inheated, <hi>Adon</hi> scornd her loue.</l>
+               <l>This scarfe she wore, (<hi>Venus</hi> wore such another)</l>
+               <l>And that made <hi>Cupid</hi> take her for his mother.</l>
+            </lg>
+            <lg n="15">
+               <pb facs="tcp:5981:7"/>
+               <head>15</head>
+               <l>Nymph-like attyr'd (for so she was attyr'd)</l>
+               <l>She went to purchase what true loue desyr'd,</l>
+               <l>And as she trode vpon the tender grasse,</l>
+               <l>The grasse did kisse her feet as she did passe:</l>
+               <l>And when her feet against a floure did strike,</l>
+               <l>The bending floures did stoope to doe the like:</l>
+               <l>And when her feet did from the ground arise,</l>
+               <l>The ground she trod on, kist her heele likewise.</l>
+               <l>Tread where she would, faire <hi>Thisbe</hi> could not misse,</l>
+               <l>For euery grasse would rob her of a kisse.</l>
+               <l>And more the boughs wold bend, for ioy to meet her</l>
+               <l>And chanting birds, with madrigals would greet her.</l>
+            </lg>
+            <lg n="16">
+               <head>16</head>
+               <l>Thus goes this maidlike Nimph, or Nimphlike maid,</l>
+               <l>Vnto the place afore appointed laid,</l>
+               <l>And as she past the groues and fountaines cleere,</l>
+               <l>Where Nymphs vsd hunting, for Nymphs hunted there,</l>
+               <l>They sware she was <hi>Diana,</hi> or more bright.</l>
+               <l>For through the leauie boughs they tooke delight,</l>
+               <l>To view her daintie footing as she tript:</l>
+               <l>And once they smil'd, for once faire <hi>Thisbe</hi> slipt,</l>
+               <l>Yet though she slipt, she had so swift a pace,</l>
+               <l>As that her slipping wrought her no disgrace:</l>
+               <l>For of the Nymphs (whose coy eyes did attend her)</l>
+               <l>Of all was none, of all that could amend her.</l>
+            </lg>
+            <lg n="17">
+               <pb facs="tcp:5981:7"/>
+               <head>17</head>
+               <l>VVhen she had past <hi>Dianes</hi> curious traine,</l>
+               <l>The crooked way did bending turne againe,</l>
+               <l>Vpon the left hand by a forrest side,</l>
+               <l>Where (out alas) a woe chance did betide:</l>
+               <l>For loue-adoring <hi>Thisbe</hi> was so faire,</l>
+               <l>That bruitish beasts at her delighted are:</l>
+               <l>And from the rest as many beasts did rome,</l>
+               <l>A lamb deuouring Lion forth did come,</l>
+               <l>And hauing lately torne a sillie Lambe,</l>
+               <l>The full gorg'd Lion sported as it came,</l>
+               <l>To him a sport, his sport made <hi>Thisbe</hi> hie her,</l>
+               <l>For why, she durst not let the beast come nie her.</l>
+            </lg>
+            <lg n="18">
+               <head>18</head>
+               <l>Yet still it came, to welcome her it came,</l>
+               <l>And not to hurt, yet fearefull is the name,</l>
+               <l>The name more then the Lion, her dismayd,</l>
+               <l>For in her lap the Lion would haue playd.</l>
+               <l>Nor meant the beast to spill her guiltlesse bloud,</l>
+               <l>Yet doubtfull <hi>Thisbe</hi> in a fearefull moode,</l>
+               <l>Let fall her mantle, made of purest white,</l>
+               <l>And tender heart, be tooke her straight to flight,</l>
+               <l>And neere the place where she should meet her loue,</l>
+               <l>Shee slipt, but quickely slipt into a groue,</l>
+               <l>And lo a friendly Caue did entertaine her,</l>
+               <l>For feare the bloudy Lion should haue slaine her</l>
+            </lg>
+            <lg n="19">
+               <pb facs="tcp:5981:8"/>
+               <head>19</head>
+               <l>
+                  <hi>Thisbe</hi> thus scap't, for thus she scap't his force,</l>
+               <l>Although (God wot) it fell out farther worse:</l>
+               <l>The Lion came yet meant no harme at all,</l>
+               <l>And comming found the mantle she let fall,</l>
+               <l>Which now he kist, he would haue kist her too,</l>
+               <l>But that her nimble footmanship said no.</l>
+               <l>He found the robe, which quickly he might find,</l>
+               <l>For being light, it houered in the winde:</l>
+               <l>VVith which the game-some Lion long did play,</l>
+               <l>Till hunger cald him thence to seeke his prey:</l>
+               <l>And hauing playd, for play was all his pleasure,</l>
+               <l>He left the mantle, <hi>Thisbes</hi> chiefest treasure.</l>
+            </lg>
+            <lg n="20">
+               <head>20</head>
+               <l>Yet ere he left it, being in a mood,</l>
+               <l>He tore it much, and stain'd it ore with bloud,</l>
+               <l>Which done, with rage he hasted to his prey,</l>
+               <l>For they in murther passe their time away.</l>
+               <l>And now time-telling, <hi>Pyramus</hi> at last,</l>
+               <l>(For yet the houre of meeting was not past)</l>
+               <l>Got forth (he would haue got away before)</l>
+               <l>But fate and fortune sought to wrong him more:</l>
+               <l>For euen that day, more fatall then the rest,</l>
+               <l>He needs must giue attendance at a feast,</l>
+               <l>Ere which was done (swift time was shrewdly wasted)</l>
+               <l>But being done, the louely stripling hasted.</l>
+            </lg>
+            <lg n="21">
+               <pb facs="tcp:5981:8"/>
+               <head>21</head>
+               <l>In hast he ran, but ran in vaine God wot,</l>
+               <l>
+                  <hi>Thisbe</hi> he sought, faire <hi>Thisbe</hi> found he not,</l>
+               <l>And yet at last her long loue robe he found</l>
+               <l>All rent and torne vpon the bloody ground.</l>
+               <l>At which suspicion told him she was dead,</l>
+               <l>And onely that remained in her stead:</l>
+               <l>Which made him weepe, like mothers, so wept he,</l>
+               <l>That with their eyes their murthered children see;</l>
+               <l>And gathering vp the limbes in peecemeale torne,</l>
+               <l>Of their deare burthen murtherously forlorne:</l>
+               <l>So <hi>Pyramus</hi> sicke thoughted like a mother,</l>
+               <l>For <hi>Thisbes</hi> losse, more deare then any other.</l>
+            </lg>
+            <lg n="22">
+               <head>22</head>
+               <l>Or who hath seene a mournefull Doe lament</l>
+               <l>For her young Kid, in peecemeale torne and rent,</l>
+               <l>And by the poore remainders sit and mourne,</l>
+               <l>For loue of that which (out alas) is gone?</l>
+               <l>Let him behold sad <hi>Pyramus,</hi> and say,</l>
+               <l>Her losse, his loue, doth equall euery way.</l>
+               <l>For as a man that late hath lost his wits,</l>
+               <l>Breakes into fury and disaster fits,</l>
+               <l>So <hi>Pyramus</hi> in griefe without compare,</l>
+               <l>Doth rend his flesh, and teare his golden haire,</l>
+               <l>Making the trees to tremble at his mourning,</l>
+               <l>And speechlesse beasts to sorrow with his groaning.</l>
+            </lg>
+            <lg n="23">
+               <pb facs="tcp:5981:9"/>
+               <head>23</head>
+               <l>Alas (quoth he) and then he tore his flesh,</l>
+               <l>Gone is the sunne that did my Zone refresh,</l>
+               <l>Gone is the life, by which I wretch did liue,</l>
+               <l>Gone is my heauen, which hopefull blisse did giue,</l>
+               <l>To giue me heat, her selfe lyes nak't and cold,</l>
+               <l>To giue me life, to death her selfe she sold,</l>
+               <l>To giue me ioy, she bale alas did gaine,</l>
+               <l>My heat, life, ioy, procur'd her death, bale, paine:</l>
+               <l>Had I beene here, my loue had not beene dead,</l>
+               <l>At least the beasts had torne me in her stead,</l>
+               <l>Or would they yet teare me for company,</l>
+               <l>Their loue to me would slacke their tyranny.</l>
+            </lg>
+            <lg n="24">
+               <head>24</head>
+               <l>And then he cast his eyes vpon the ground,</l>
+               <l>And here and there where bloudie grasse he found;</l>
+               <l>Sweet bloud (quoth he) and then he kist the bloud,</l>
+               <l>And yet that kisse God wot did little good,</l>
+               <l>Couldst thou being powr'd into my halfe slaine brest,</l>
+               <l>Reuiue againe, or purchase <hi>Thisbes</hi> rest,</l>
+               <l>This hand should teare a passage through the same,</l>
+               <l>And yet that bloud from <hi>Thisbe</hi> neuer came.</l>
+               <l>And then he gatherd vp the bloudie grasse,</l>
+               <l>And looking grieu'd, and grieuing cryde alas,</l>
+               <l>Where shall I hide this bloud of my deare louer,</l>
+               <l>That neither man nor beast may it discouer?</l>
+            </lg>
+            <lg n="25">
+               <pb facs="tcp:5981:9"/>
+               <head>25</head>
+               <l>Then in the mantle he the grasse vp tide,</l>
+               <l>And laid it close vnto his naked side:</l>
+               <l>Lie there (quoth he) deare to me as my hart,</l>
+               <l>Of which thy mistresse had the greater part.</l>
+               <l>Tut she is dead, and then he vow'd and swore,</l>
+               <l>He would not liue to murther loue no more:</l>
+               <l>Which spoke, he drew his Rapier from his side,</l>
+               <l>Of which the loue-slaine youth would then haue dy'd,</l>
+               <l>But that he thought, that pennance too too small,</l>
+               <l>To pacifie faire <hi>Thisbes</hi> Ghost withall:</l>
+               <l>Wherefore he rag'd, and ragingly exclaimed,</l>
+               <l>That he true loue, and true loue him had maimed.</l>
+            </lg>
+            <lg n="26">
+               <head>26</head>
+               <l>And then his Rapier vp againe he tooke,</l>
+               <l>Then on the mantle cast a grieuous looke,</l>
+               <l>For me (quoth he) faire <hi>Thisbe</hi> lost this bloud,</l>
+               <l>She dead, my life would doe me little good,</l>
+               <l>And well he thought he could endure the smart</l>
+               <l>Of death, and yet he could not harme his heart:</l>
+               <l>For why his hand being guiltlesse of the deed,</l>
+               <l>Deny'd to make his harmelesse heart to bleed,</l>
+               <l>And like a trembling executioner,</l>
+               <l>Constrain'd to slay a guiltlesse prisoner,</l>
+               <l>His hand retired still, further backe and further,</l>
+               <l>As lothing to enact so vile a murther.</l>
+            </lg>
+            <lg n="27">
+               <pb facs="tcp:5981:10"/>
+               <head>27</head>
+               <l>But <hi>Pyramus</hi> like to a raging Iudge,</l>
+               <l>Seeing his executioner flinch, and grudge</l>
+               <l>To do the duty he enioyn'd him do,</l>
+               <l>Reply'd, dispatch, or Ile cut thee off too:</l>
+               <l>At which the trembling hand tooke vp the blade,</l>
+               <l>But when the second profer it had made,</l>
+               <l>It threw it downe, and boldly thus replyed,</l>
+               <l>He was not cause that louely <hi>Thisbe</hi> dyed,</l>
+               <l>Nor would I slay thee, knew I she were dead:</l>
+               <l>Then be the bloud vpon thy guiltie head.</l>
+               <l>Of these last words young <hi>Pyramus</hi> dispences,</l>
+               <l>And cald a synodie of all his seuer'd sences.</l>
+            </lg>
+            <lg n="28">
+               <head>28</head>
+               <l>His conscience told him, he deserv'd not death,</l>
+               <l>For he deprav'd not <hi>Thisbe</hi> of her breath:</l>
+               <l>But then suspicion thought, he causd her dye,</l>
+               <l>But conscience swore, suspition told a lye.</l>
+               <l>At this suspicion prompted loue in th'eare,</l>
+               <l>And bad him shew his verdict, and come neare,</l>
+               <l>Which soone he did, and sate among the rest,</l>
+               <l>As one whom <hi>Pyramus</hi> esteemed best:</l>
+               <l>For when proud Loue gaue in his faultie plea,</l>
+               <l>He askt if he were guiltie, Loue said yea,</l>
+               <l>And with the youth, fond youth by loue entangled,</l>
+               <l>Agreed his guiltlesse body should be mangled.</l>
+            </lg>
+            <lg n="29">
+               <pb facs="tcp:5981:10"/>
+               <head>29</head>
+               <l>Resolv'd to die he sought the pointed blade,</l>
+               <l>Which erst his hand had cast into the shade,</l>
+               <l>And see, proud Chance, fell Murthers chiefest frend,</l>
+               <l>Had pitcht the blade right vpwards on the end,</l>
+               <l>Which being loth from murther to depart,</l>
+               <l>Stood on the hilt, point-blanke against his hart:</l>
+               <l>At which he smil'd, and checkt his fearefull hand,</l>
+               <l>That stubbornely resisted his command.</l>
+               <l>And though (quoth he) thou scorn'd to doe my will,</l>
+               <l>What lets me now my minde for to fulfill?</l>
+               <l>Both Fate and Fortune to my death are willing,</l>
+               <l>And be thou witnesse of my minds fulfilling.</l>
+            </lg>
+            <lg n="30">
+               <head>30</head>
+               <l>With that he cast himselfe vpon the sword,</l>
+               <l>And with the fall his tender brest through gor'd:</l>
+               <l>The angry bloud, for so his bloud was sheed,</l>
+               <l>Gusht out, to finde the author of the deed,</l>
+               <l>But when it none but <hi>Pyramus</hi> had found,</l>
+               <l>Key cold with feare it stood vpon the ground,</l>
+               <l>And all the bloud, I meane that thus was spilt,</l>
+               <l>Ran downe the blade, and circled in the hilt,</l>
+               <l>And presently congeald about the same,</l>
+               <l>And would haue cald it by some murtherous name,</l>
+               <l>Could it haue spoke, nere sought it any further,</l>
+               <l>But did arrest the Rapier of the murther.</l>
+            </lg>
+            <lg n="31">
+               <pb facs="tcp:5981:11"/>
+               <head>31</head>
+               <l>And as the child that seeth his father slaine,</l>
+               <l>Will runne (alas) although he runne in vaine,</l>
+               <l>And hug about the shedder of his bloud,</l>
+               <l>Although God wot, his hugging do small good,</l>
+               <l>Euen so his bloud, the ofspring of his heart,</l>
+               <l>Ran out amaine, to take his fathers part,</l>
+               <l>And hung vpon the rapier and the hilt,</l>
+               <l>As who should say, the sword his bloud had spilt:</l>
+               <l>Nor would depart, but cleaue about the same,</l>
+               <l>So deare it lov'd the place from whence it came:</l>
+               <l>For sure it was poore <hi>Pyramus</hi> was murthered,</l>
+               <l>Nor by pursute, could his poore bloud be furthred.</l>
+            </lg>
+            <lg n="32">
+               <head>32</head>
+               <l>When this was done, as thus the deed was done,</l>
+               <l>Begun, alas, and ended too too soone,</l>
+               <l>Faire <hi>Thisbe</hi> strucken pale with cold despaire,</l>
+               <l>Came forth the Caue into the wholsome aire:</l>
+               <l>And as she came, the boughs would giue her way,</l>
+               <l>Thinking her <hi>Venus</hi> in her best array.</l>
+               <l>But she (alas) full of suspicious feare,</l>
+               <l>Least that the late feard Lion should be there,</l>
+               <l>Came quaking forth, and then start backe againe,</l>
+               <l>Fearing the beast, and yet she fear'd in vaine.</l>
+               <l>She fear'd the Lion, Lions then were feeding,</l>
+               <l>And in this feare, her nose gusht out a bleeding.</l>
+            </lg>
+            <lg n="33">
+               <pb facs="tcp:5981:11"/>
+               <head>33</head>
+               <l>Her sudden bleeding argued some mischance,</l>
+               <l>Which cast her doubtfull senses in a trance,</l>
+               <l>But of the Lion troubled <hi>Thisbe</hi> thought,</l>
+               <l>And then of him, whom fearefully she sought:</l>
+               <l>Yet sorth she went, replete with iealous feare,</l>
+               <l>Still fearing, of the Lion was her feare:</l>
+               <l>And if a bird but flew from forth a bush,</l>
+               <l>She straightwaies thought, she heard the Lion rush.</l>
+               <l>Her nose left bleeding, that amaz'd her more</l>
+               <l>Then all the troublous feare she felt before:</l>
+               <l>For sudden bleeding argues ill ensuing,</l>
+               <l>But sudden leauing, is fell feares renewing.</l>
+            </lg>
+            <lg n="34">
+               <head>34</head>
+               <l>By this she came into the open wood,</l>
+               <l>Where <hi>Pyramus</hi> had lost his dearest bloud,</l>
+               <l>And round about she rolles her sun-bright eyes</l>
+               <l>For <hi>Pyramus,</hi> whom no where she espies:</l>
+               <l>Then sorth she tript, and nearly too she tript,</l>
+               <l>And ouer hedges oft this virgin skipt.</l>
+               <l>Then did she crosse the fields, and new mown grasse,</l>
+               <l>To find the place whereas this arbour was:</l>
+               <l>For it was seated in a pleasant shade,</l>
+               <l>And by the shepheards first this bowre was made.</l>
+               <l>Faire <hi>Thisbe</hi> made more haste into the bower,</l>
+               <l>Because that now was iust the meeting hower.</l>
+            </lg>
+            <lg n="35">
+               <pb facs="tcp:5981:12"/>
+               <head>35</head>
+               <l>But comming thither, as she soone was there,</l>
+               <l>She found him not, which did augment her feare:</l>
+               <l>But straight she thought (as true loue think, the best)</l>
+               <l>He had beene laid downe in the shade to rest,</l>
+               <l>Or of set purpose hidden in the reeds,</l>
+               <l>To make her seeke him in the sedgie weeds,</l>
+               <l>For so of children they had done before,</l>
+               <l>Which made her thoughts seeme true so much the more:</l>
+               <l>But hauing sought whereas she thought he was,</l>
+               <l>Shee could not finde her <hi>Pyramus</hi> (alas)</l>
+               <l>Wherefore she back return'd vnto the arbor,</l>
+               <l>And there reposd her after all her labor.</l>
+            </lg>
+            <lg n="36">
+               <head>36</head>
+               <l>To one that's weary drowsie sleepe will creepe,</l>
+               <l>Weary was <hi>Thisbe, Thisbe</hi> fell asleepe,</l>
+               <l>And in her sleepe she dreamt she did lament,</l>
+               <l>Thinking her heart from forth her brest was rent,</l>
+               <l>By her owne censure damn'd to cruell death,</l>
+               <l>And in her sight be rest of vitall breath.</l>
+               <l>When she awak't, as long she had not slept,</l>
+               <l>She wept amaine, yet knew not why she wept:</l>
+               <l>For as before her heart was whole and sound,</l>
+               <l>And no defect about her could be found,</l>
+               <l>She dreamt she hurt, no hurt could she discouer,</l>
+               <l>Wherefore she went to seeke her late lost louer.</l>
+            </lg>
+            <lg n="37">
+               <pb facs="tcp:5981:12"/>
+               <head>37</head>
+               <l>Suspicious eyes, quick messengers of wo,</l>
+               <l>Brought home sad newes ere <hi>Thisbe</hi> farre could go:</l>
+               <l>For lo, vpon the margent of the wood,</l>
+               <l>They spy'd her loue, lye weltring in his bloud,</l>
+               <l>Hauing her late lost mantle at his side,</l>
+               <l>Stained with bloud, his hart bloud was not dry'd.</l>
+               <l>VVisty she lookt, and as she lookt did cry,</l>
+               <l>See, see, my hart, which I did iudge to dye:</l>
+               <l>Poore hart (quoth she) and then she kist his brest,</l>
+               <l>VVert thou inclosd in mine, there shouldst thou rest:</l>
+               <l>I causd thee die poor heart, yet rue thy dying,</l>
+               <l>And saw thy death, as I asleepe was lying.</l>
+            </lg>
+            <lg n="38">
+               <head>38</head>
+               <l>Thou art my hart, more deare then is mine owne,</l>
+               <l>And thee sad death in my false sleepe was showne.</l>
+               <l>And then she pluckt away the murtherous blade,</l>
+               <l>And curst the hands by whom it first was made,</l>
+               <l>And yet she kist his hand that held the same,</l>
+               <l>And double kist the wound from whence it came.</l>
+               <l>Himselfe was author of his death she knew,</l>
+               <l>For yet the wound was fresh, and bleeding new,</l>
+               <l>And some bloud yet the ill-made wound did keepe,</l>
+               <l>VVhich when she saw, she freshly gan to weepe,</l>
+               <l>And wash the wound with fresh tears down distilling,</l>
+               <l>And view'd the same (God wot) with eyes vnwilling.</l>
+            </lg>
+            <lg n="39">
+               <pb facs="tcp:5981:13"/>
+               <head>39</head>
+               <l>She would haue spoke, but griefe stopt vp her breath,</l>
+               <l>For me (quoth she) my Loue is done to death,</l>
+               <l>And shall I liue, sighes stopt her hind most word,</l>
+               <l>When speechlesse vp she tooke the bloudy sword,</l>
+               <l>And then she cast a looke vpon her Loue,</l>
+               <l>Then to the blade her eye she did remoue,</l>
+               <l>And sobbing cride, since loue hath murthred thee,</l>
+               <l>He shall not chuse but likewise murther me:</l>
+               <l>That men may say, and then she sigh'd againe,</l>
+               <l>I him, he me, loue him and me hath slaine.</l>
+               <l>Then with resolue, loue her resolue did further:</l>
+               <l>With that same blade, her selfe, her selfe did murther.</l>
+            </lg>
+            <lg n="40">
+               <head>40</head>
+               <l>Then with a sigh, she fell vpon the blade,</l>
+               <l>And from the bleeding wound the sword had made,</l>
+               <l>Her fearefull bloud ran trickling to the ground,</l>
+               <l>And sought about, till <hi>Pyramus</hi> it found:</l>
+               <l>And hauing found him, circled in his corse,</l>
+               <l>As who should say, Ile gard thee by my force.</l>
+               <l>And when it found his bloud, as forth it came,</l>
+               <l>Then would it stay, and touch, and kisse the same,</l>
+               <l>As who should say, my mistresse loue to thee,</l>
+               <l>Though dead in her, doth still remaine in me.</l>
+               <l>And for a signe of mutuall loue in either,</l>
+               <l>Their ill shed bloud congealed both together.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:5981:13"/>
+         </div>
+      </body>
+   </text>
+</TEI>

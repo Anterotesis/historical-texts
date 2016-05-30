@@ -1,0 +1,893 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The abridgement of logique]</title>
+            <author>Evans, Lewis, fl. 1574.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1568</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 49 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-03">2005-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A00454</idno>
+            <idno type="STC">STC 10588</idno>
+            <idno type="STC">ESTC S118327</idno>
+            <idno type="EEBO-CITATION">99853534</idno>
+            <idno type="PROQUEST">99853534</idno>
+            <idno type="VID">18919</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A00454)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 18919)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 885:03)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The abridgement of logique]</title>
+                  <author>Evans, Lewis, fl. 1574.</author>
+               </titleStmt>
+               <extent>[48] p.   </extent>
+               <publicationStmt>
+                  <publisher>H. Denham,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1568?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Authors name on A2r reads: Lewis Euans.</note>
+                  <note>Title from running title. Imprint and suggested publication date from STC.</note>
+                  <note>Signatures: A-C.</note>
+                  <note>Imperfect; torn affecting text and lacks title page.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Logic --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-11</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2004-11</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-01</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="dedication">
+            <pb facs="tcp:18919:1" rendition="simple:additions"/>
+            <head>To the Right Reuerende Father in God, and his singu<g ref="char:EOLhyphen"/>ler good Lord, Edmund, Bishop of London, Lewis Euans wisheth much helth, long life, with encrease of all right godly Honor.</head>
+            <p>
+               <seg rend="decorInit">W</seg>HEN I CON<g ref="char:EOLhyphen"/>sider, which thing I oftentimes do with my selfe, right Ho<g ref="char:EOLhyphen"/>norable, of what knowledge, sharpe<g ref="char:EOLhyphen"/>n<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sse of witte, and in<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ustrie, the lear<g ref="char:EOLhyphen"/>ned and wise Philo<g ref="char:EOLhyphen"/>sophiers of au<g ref="char:cmbAbbrStroke">̄</g>cient times were, I se cause both to reioyce, and to be sorie: reioyce we <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, for that through their most ex<g ref="char:EOLhyphen"/>celle<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> labors, it hath pleased almightie God, such is his goodnesse, so to open vn<g ref="char:EOLhyphen"/>to vs the secrete workings of nature, and knowledge of sundrie things, which fro<g ref="char:cmbAbbrStroke">̄</g> many, were of a long time before secret and hidden: againe, sorie we m<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap> be, to
+<pb facs="tcp:18919:2" rendition="simple:additions"/>
+see such singular instrumentes prouided for our welth and benefites, not only to be vtterlye ignorant in the moste com<g ref="char:EOLhyphen"/>fortable, most hygh, and infallible doc<g ref="char:EOLhyphen"/>trine, in the knowledge of their Creator, of our Redeemer and Maker, but also (whereat needes muste we lament) to be so dotinglye wedded vnto theyr owne willes, as wilfullie, or rather willinglie, and that (alas) without anye reason to yelde them selues bonde slaues and wret<g ref="char:EOLhyphen"/>ched captiues vnto the detestable serui<g ref="char:EOLhyphen"/>tude, and most execrable bondage that euer sithens the creation of man reigned, vnto the embracing, I will not say of the euill, but of the most wicked, horrible, and monstruous Idolatrie of the hea<g ref="char:EOLhyphen"/>thens: that is, to worship the Sunne, to adore the Mone, to reuerence the Stars, to honor the fire, to take for thei<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Gods the brute beastes of the earth, to esteeme for their Sauiours, some Rauenyng Fowle of the aire, and (if all that be not madnesse and abhomination inoughe) further to praye vnto most venemous snakes, to seeke helpe of vglie serpents,
+<pb facs="tcp:18919:2" rendition="simple:additions"/>
+to accompt them for Goddes, to keepe, seede, and honor them. O blinde harts! ô darkenesse palpable! ô learning to no purpose auailable! we may therfore wel say vnto such, yea, be he otherwise neuer so perfect an Orator, neuer so profound a Philosopher, <hi>Sapientia tua, &amp; scientia tua, haec est quae decepit te: thy worldly wisdome, thy o<g ref="char:EOLhyphen"/>uer curious knowledge, his, this, is it that hath blin<g ref="char:EOLhyphen"/>ded, beguiled, deceyued thee.</hi> For touching the excellencie of learning, and worthinesse of eloquence, if we weigh well, but the flowing stile of the incomparable <hi>Cicero,</hi> what can be more pleasant? what maye with greater vehemenc<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e perswade? what can with more efficacie disswade? who, to be briefe, may but with much admi<g ref="char:EOLhyphen"/>ration embrace it? likewise, if we consi<g ref="char:EOLhyphen"/>der the great wisedome of <hi>Socrates,</hi> who is to be accompted (this of the heathens I speake) so woorthie? so excellent? so perfect as he? <hi>Plato</hi> also was very famous, so were both the <hi>Catoes, Pythagoras, Sophocles,</hi> and <hi>Demosthenes,</hi> with many more: and yet how frowardlie, nay how frantikly these wandered from the right way, from the
+<pb facs="tcp:18919:3" rendition="simple:additions"/>
+acknowledging of <hi>one God, and the same of a diuine essence, liuing, vnderstanding, of an in<g ref="char:EOLhyphen"/>finite power, wisedome and goodnesse, true, bounte<g ref="char:EOLhyphen"/>ous, iust, chaste, and mercifull, which is the fa<g ref="char:EOLhyphen"/>ther, the sonne, and the holy ghost, three persons, and one God,</hi> how farre I say, and how wicked<g ref="char:EOLhyphen"/>lie, from this they haue strayed, so eui<g ref="char:EOLhyphen"/>dent it is, that for their sakes how should we but be sorie? for ours, how can we but reioyce? but what? haue they erred in nothing, but in the doctrine (which thing is verie all) of our creation, and re<g ref="char:EOLhyphen"/>demption? haue they not in their owne doings oftentimes so foolishly reasoned, as, i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> wee fauour<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d them not much, wee might seeme iustly to saye, that almost they had no reason? and not to speake of <hi>Protagoras</hi> follie, nor of <hi>Diagoras</hi> his im<g ref="char:EOLhyphen"/>pietie,<note place="margin">
+                  <hi>De nat. deo. lib.</hi> 1.</note> to let all others passe, what if wee ripped vp the doings but of him whom amongst them all, I fauour most, of elo<g ref="char:EOLhyphen"/>quent <hi>Cicero</hi> I meane? might we not ther<g ref="char:EOLhyphen"/>in sometimes see, verie small proofes? espie sclender reasons? and finde suche childishe shiftes? as better in my iudge<g ref="char:EOLhyphen"/>ment it were, to denie in some places the
+<pb facs="tcp:18919:3"/>
+woorke, than to acknowledge it for the doings, in other things of so incompa<g ref="char:EOLhyphen"/>rable a man? for to prooue his diuinati<g ref="char:EOLhyphen"/>on, what I pray you among other things alleageth he?<note place="margin">
+                  <hi>De diuin. lib.</hi> 1.</note> two Snakes forsooth (so he sayth) were taken in the house of a no<g ref="char:EOLhyphen"/>ble and wise man, one <hi>Ti. Gracchus,</hi> vnto whom the wise men (for so I name them, whome the Persians call <hi>Magos</hi>: the Ae<g ref="char:EOLhyphen"/>gyptians <hi>Prophetas:</hi> the Assyrians <hi>Chaldaeos:</hi> and the Indians <hi>Gymnosophistas</hi>) they being asked what these Snakes signified, did saye: that if he did let the Male escape, then should his wife shortly after die: if the Female, then should he. The Female was let gone (for, loth a Gods name he was, that <hi>P. Affricanus</hi> his daughter, be<g ref="char:EOLhyphen"/>ing a yong gentlewoman should die) so he himselfe in fewe dayes after accor<g ref="char:EOLhyphen"/>dingly died. A worthie proofe of a thing neuer able to be proued Well, if anye of the twaine, sayth he, should escape, by that meane, the man, or the wyfe must nedes die. But as he had choyse to keepe which he woulde, so was he bound by no necessitie to let go anye. Why then kept
+<pb facs="tcp:18919:4"/>
+he not both? he was a wise man, why sa<g ref="char:EOLhyphen"/>ued he not therby as well his owne life, as his wiues? after the same maner myght we easilye confute (were it not to long) the famous Oracle at <hi>Delphi,</hi> the cutting of a whetstone with the rasour by <hi>Tar<g ref="char:EOLhyphen"/>quinius,</hi> the dreame of <hi>Aeneas,</hi> and al such incredible, lewde and whetstone lies. But let <hi>Cicero</hi> herevnto (for so he doth) make this aunswere. What subtiltie is this, by trifling to condemne things, confirmed by yeares and antiquitye of time? nay, what follie is it, without any reason, to receiue dreames and fonde fables, found out we know not how, why, nor by who<g ref="char:cmbAbbrStroke">̄</g>? yet it is contained in blinde chronicles, it is of authoritie. Yea, but <hi>ipse dixit</hi> (were the authoritie better than of those, <hi>qui sui quaestus causa, fictas suscitant sententias</hi>) hin<g ref="char:EOLhyphen"/>dereth the learner, letting him from ad<g ref="char:EOLhyphen"/>iudging what in eche thing is right. In reasoning (as <hi>Cicero</hi> himself saith) the au<g ref="char:EOLhyphen"/>thoritie is not so much, as is the weight of the reason to be sought for, &amp; requi<g ref="char:EOLhyphen"/>red. What? is this, will some say the opi<g ref="char:EOLhyphen"/>nion of <hi>Cicero?</hi> is not his first booke of
+<pb facs="tcp:18919:4"/>
+Diuination written in the name of his brother <hi>Quintus?</hi> that I graunt. And yet, it is the doings of <hi>Tullie,</hi> it is his owne worke, and (though it pleaseth him ther<g ref="char:EOLhyphen"/>in to try his wit) his verie and full mind, as the same may well appeare aswell in other of his workes, as speciallye in hys writing vnto <hi>A. Caecinna,</hi> wherein he af<g ref="char:EOLhyphen"/>firmeth, that no signes can be surer, that none may be more certaine, than Diui<g ref="char:EOLhyphen"/>nation. But let his first passe, and come vnto the seconde. Denieth he not there<g ref="char:EOLhyphen"/>in, not onely dreames, whereof I speake not, but also visions? not only <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as therein the difference is pretye,<note place="margin">
+                  <hi>Suidas:</hi>
+               </note> but also <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and yet we read that in the verie booke of God, how Daniel, S. Peter, S. Iohn, with others saw visions, regarded, estemed and expounded them. But here a while to omit the heathens, I would that we likewyse, euen we that are Christians, shoulde not trust ouer<g ref="char:EOLhyphen"/>much vnto authorities, vnto the wri<g ref="char:EOLhyphen"/>tings, I meane, and coniectures of man, it is modestie to be allowed, and pruden<g ref="char:EOLhyphen"/>cie to be praysed, if we so reade them, as
+<pb facs="tcp:18919:5" rendition="simple:additions"/>
+               <hi>S. Aug.</hi> did the writings of <hi>S. Cyprian</hi>: that is,<note place="margin">
+                  <hi>Aug. lib.</hi> 2 <hi>contra quendam Donatist.</hi>
+               </note> 
+               <hi>Quod in eis diuinarum scripturarum au<g ref="char:EOLhyphen"/>thoritati congruit, cum laude eius accipio: quod autem non congruit, cum pace eius respuo, that which agreeth in the same with the authority of di<g ref="char:EOLhyphen"/>uine scriptures, to his prayse I receiue: but which agreeth not, that with his fauour I forsake, &amp; leaue.</hi> Where let none thinke, that I contemne authorities, but only wishe, <hi>Sine ratione vt non valeret authoritas, that authoritie without rea<g ref="char:EOLhyphen"/>son or scripture, should not take place, and preuaile.</hi> For to saye the troth, some receyued of many as authorities, be so fonde, <hi>vt aures à co<g ref="char:cmbAbbrStroke">̄</g>memoratione abhorreant.</hi> Peter (saith some) denied Christ, that he might follow him, and not for feare. O follie! ô madnesse! the scripture is plaine. A farre off follo<g ref="char:EOLhyphen"/>wed Peter, he feared, yea, he was greatly afrayde. Some also affirme that S. Iohn died not, but was caried aliue, as Enoch, and Elias into Paradys<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>, and yet at his sepulchre is <hi>Manna,</hi> saye they, as it were bubling vp, euen vntill this daye, a se<g ref="char:EOLhyphen"/>pulchre he had, he was buried, and not<g ref="char:EOLhyphen"/>w<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>standing all this, he died not. Alas, what weake authorities be these? nay,
+<pb facs="tcp:18919:5"/>
+what foolish, and intollerable dreaming is this, about the scriptures of God? a<g ref="char:EOLhyphen"/>gaine, such as childishlye do vnderstand, that the Lorde wil discend into a valley, vpo<g ref="char:cmbAbbrStroke">̄</g> the side of the mount Olyuet, there to iudge the worlde, is not therein their wisedome so small, and their writings so fonde, as whether is most foolish, it is hard to tell? Further, there be which al<g ref="char:EOLhyphen"/>leage, that our Sauiour in no respect fea<g ref="char:EOLhyphen"/>red death, and that he was nothing a<g ref="char:EOLhyphen"/>frayde of his passion. But the scriptures be altogether otherwise. For he himself sayth, <hi>My soule is heauye, euen vnto death.</hi> Of whom likewise the Euangelist thus spea<g ref="char:EOLhyphen"/>keth,<note place="margin">
+                  <hi>Marc.</hi> 14.</note> 
+               <hi>Christ began to feare, and to be sorowfull.</hi>
+               <note place="margin">
+                  <hi>Ibidem.</hi>
+               </note> Let them therefore be ashamed, which thinke that our Sauiour, in respect of his manhode, feared not death, and that he did not through feare of his passion say <hi>Transeat à me calix iste,</hi>
+               <note place="margin">
+                  <hi>Math.</hi> 26.</note> 
+               <hi>let this cuppe passe from me.</hi> There is moreouer, which write, that though our sauiour suffered, yet he felt no paine, though he were scourged, and wounded, yet he felt no smart, no griefe, no dolor, that all his passion was
+<pb facs="tcp:18919:6"/>
+               <hi>sine sensu poenae, without feeling of paine.</hi> What? when he cried,<note place="margin">
+                  <hi>Math.</hi> 27</note> 
+               <hi>Eli, Eli, lamasabachthani? Lord, Lord, why hast thou forsake<g ref="char:cmbAbbrStroke">̄</g> me?</hi> Were not then his paines great? his dolors vnspeakea<g ref="char:EOLhyphen"/>ble? his griefe exceding? Oh, <hi>our infirmi<g ref="char:EOLhyphen"/>ties he bare,</hi>
+               <note place="margin">
+                  <hi>Esa.</hi> 54.</note> 
+               <hi>and our sorowes did he sustein.</hi> Wher<g ref="char:EOLhyphen"/>fore, may wee not see, how slender some<g ref="char:EOLhyphen"/>times, are the writings, and authoritie of man? howe farre from the purpose they estray? and how plainelye in some places they differ, from the Prophets, Apostles, Euangelists, and holy Ghost? And to re<g ref="char:EOLhyphen"/>turne vnto the heathens againe, in whose workes although manie things be found vntrue, supersticious and lewde, yet tho<g ref="char:EOLhyphen"/>rowe them, as meanes, we haue attained the ryght entrie into Artes, the readye way how to vnderstand liberall sciences, and the playne path into the pleasaunt park of al laudable studies. And amongst all such benefits, which we thus at their handes haue receyued, no one seemeth more excellent, so profitable, and so to be accepted, as is the Arte of reasoning, which onelie (as the Prince of Orators <note place="margin">
+                  <hi>De leg. lib.</hi> 2.</note>sayth) doth conteine the whole skill of
+<pb facs="tcp:18919:6"/>
+thorowly seeing and adiudging, what both is, and ought to be in euery matter. Yea, and that man, as sayeth the diuine Philosopher <hi>Plato,</hi> which vtterly in thys Arte is ignorant, seeth nothing else, were he otherwise neuer so rich and renow<g ref="char:EOLhyphen"/>med, but the verie shadowes, and hollow bare images of things. Therefore haue I thought it (my singular good Lorde) worth the labor, if wee in our tongue, as the Latines haue done in theirs, shoulde some briefly, &amp; some at large, so set forth this Art (which I may worthily term the verie treasure house of sciences, the Cas<g ref="char:EOLhyphen"/>ket of Iewels, the ground of all good stu<g ref="char:EOLhyphen"/>dies, and the very nurse of right perfect knowledge) as it maye at the length ap<g ref="char:EOLhyphen"/>peare, that like as the Latine is nothing inferiour vnto the Greke, so our tongue may in time, either be comparable with both, or at the least (somewhat to graunt the<g ref="char:cmbAbbrStroke">̄</g>) not much inferior vnto the second. Which my smal labour howsoeuer done, although in value little aboue the apple giuen by the poore man, vnto <hi>Artaxerxes Memor,</hi> I haue yet bene bolde to dedicate,
+<pb facs="tcp:18919:7" rendition="simple:additions"/>
+and offer vnto your honor. First, as a to<g ref="char:EOLhyphen"/>ken and pledge of the vnfeined good will which (not to speake of your great cle<g ref="char:EOLhyphen"/>mencie) for sundrye good causes, I am bounde to beare during lyfe, towardes your good Lordship: then, that vnder your protection, the same being publi<g ref="char:EOLhyphen"/>shed, the malice of <hi>Momus</hi> might be wea<g ref="char:EOLhyphen"/>kened, and the spite of <hi>Zoilus</hi> abated. For it cannot be but <hi>Logique</hi> hath enimies, but reason hath foes, but one industrious sometimes shall haue aduersaries. Thus humbly I craue that your honor would, with such hart and countenance receiue it, as thereby I may be encouraged (if it shall please God, so to ayde me) to beginne, and goe forwarde with grea<g ref="char:EOLhyphen"/>ter things.</p>
+            <closer>
+               <signed>Your humble Orator Lewys Euans.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:18919:7" rendition="simple:additions"/>
+            <head>Ludouicus Euans, optimarum artium studio<g ref="char:EOLhyphen"/>sissimis. S. D.</head>
+            <p>
+               <seg rend="decorInit">Q</seg>Voniam cum omni vtilitate, quam dij hominibus, doctissi<g ref="char:EOLhyphen"/>mi viri, dederunt, ars aliqua (Ciceronianis enim qua<g ref="char:cmbAbbrStroke">̄</g> saepis<g ref="char:EOLhyphen"/>simè, &amp; libenter vtimur) con<g ref="char:EOLhyphen"/>iuncta est, per quam illa vtili<g ref="char:EOLhyphen"/>tas subinde percipi, tradi<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> pos<g ref="char:EOLhyphen"/>sit: non possum non saepè mul<g ref="char:EOLhyphen"/>tum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> admirari, quibusdam quid venire possit in mentem, eorum vt industriam, &amp; stu<g ref="char:EOLhyphen"/>dia
+<pb facs="tcp:18919:8" rendition="simple:additions"/>
+reprehendant, eorum labo<g ref="char:EOLhyphen"/>res, &amp; ingenia contemnant, qui dialecticam anglicè aeden<g ref="char:EOLhyphen"/>dam esse, at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> eam vel illitera<g ref="char:EOLhyphen"/>tis in sua cuius<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> lingua traden<g ref="char:EOLhyphen"/>dam, quàm autem praeclare vestrum esto iudicium, censu<g ref="char:EOLhyphen"/>erunt. Mihi profectò multùm, diu<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> cogitanti, quanam re no<g ref="char:EOLhyphen"/>stris possem hominibus prodes<g ref="char:EOLhyphen"/>se, nulla impraesentiarum ma<g ref="char:EOLhyphen"/>ior, nulla praeclarior occurre<g ref="char:EOLhyphen"/>bat, quàm si dialecticae artis, hoc est dicere, rationis viam traderem meis co<g ref="char:cmbAbbrStroke">̄</g>terraneis. Est
+<pb facs="tcp:18919:8"/>
+nan<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> eiusmodi hominibus vti<g ref="char:EOLhyphen"/>litati ratio, ea vt illis nihil à deo vtilius, nihil praestantius, nihil pulchrius dari posse videatur. Qua cum, quod est etiam ars quaedam coniuncta, &amp; ea qui<g ref="char:EOLhyphen"/>dem longè omnium clarissima, quae Logica dicitur, &amp; quae quasi disserendi quaedam ma<g ref="char:EOLhyphen"/>gistra est, quis vsquam adeò immanis, quis vnquam tam barbarus extitit, ea vt suos pri<g ref="char:EOLhyphen"/>uari desyderet? ea vt suos or<g ref="char:EOLhyphen"/>nari, vel ex animo non optet? Hoc fuit in causa, clari, prae<g ref="char:EOLhyphen"/>stantes<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>
+               <pb facs="tcp:18919:9" rendition="simple:additions"/>
+viri, quod ego magni<g ref="char:EOLhyphen"/>ficam hanc artem, anglicis iam literis, &amp; succinctè illustran<g ref="char:EOLhyphen"/>dam putarem. Cui sententiae vos si nihil praeuertendum pu<g ref="char:EOLhyphen"/>tatis, erit tum reliquum, vt lu<g ref="char:EOLhyphen"/>cubratiunculam hanc qualem<g ref="char:EOLhyphen"/>cun<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> meam, iniquorum contra morsus, acerbitatem, &amp; calu<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>niam, candide defendatis. Hoc si feceritis, erit cum id mihi tam gratu<g ref="char:cmbAbbrStroke">̄</g>, quàm quod gratis<g ref="char:EOLhyphen"/>simum: tum à vestra arte, hu<g ref="char:EOLhyphen"/>manitate, ingenio, &amp; literis non alienum. Valete.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:18919:9" rendition="simple:additions"/>
+            <head>The Abridgement of Logique.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">L</seg>Ogique</hi> is an Arte to de<g ref="char:EOLhyphen"/>fine the nature of things,<note place="margin">What Lo<g ref="char:EOLhyphen"/>gique is.</note> to deuide them into parts, to knit true arguments, and to detect the false.</p>
+            <p>This Arte consisteth of two parts:<note place="margin">Logique deuided.</note> thone in <hi>fin<g ref="char:EOLhyphen"/>ding</hi> out matter, and shewing the places, whence all Arguments doe spring: the o<g ref="char:EOLhyphen"/>ther in <hi>adiudging</hi> and framing of suche matter founde, aptlye togither, and for the purpose.</p>
+            <p>The ende of <hi>Logique</hi> is probably to rea<g ref="char:EOLhyphen"/>son of any matter set forth.</p>
+            <p>This Arte (being onely reason) natural<g ref="char:EOLhyphen"/>ly is engraffed in vs,<note place="margin">To wha ende Lo<g ref="char:EOLhyphen"/>gicke ser<g ref="char:EOLhyphen"/>ueth.</note> but yet nowe so dar<g ref="char:EOLhyphen"/>kened, as we haue much néede of the pre<g ref="char:EOLhyphen"/>cepts thereof, and that to instruct, and re<g ref="char:EOLhyphen"/>member vs, of such things, as by nature we haue.</p>
+            <p>Now in this Art are inuented fiue <hi>com<g ref="char:EOLhyphen"/>mon wordes,</hi> seruing to shew forth,<note place="margin">Fiue com<g ref="char:EOLhyphen"/>mon wor<g ref="char:EOLhyphen"/>des.</note> howe farre other wordes doe extende, and howe
+<pb facs="tcp:18919:10"/>
+much they contayne in them. Neyther is there any word, which is not comprehended vnder one of these <hi>common wordes</hi>: and they be these, y<hi rend="sup">e</hi> 
+               <hi>Generall,</hi> the <hi>Speciall,</hi> the <hi>Difference,</hi> the <hi>Propertie,</hi> the <hi>Accident,</hi> &amp; herevnto is also added euery <hi>proper</hi> name, or that which supplieth the roome thereof.</p>
+            <p>
+               <note place="margin">Generall.</note>The <hi>Generall</hi> is a worde which is spo<g ref="char:EOLhyphen"/>ken of manye, that differ in their <hi>Speci<g ref="char:EOLhyphen"/>alles,</hi> as a liuing creature comprehendeth a man, a horse, a dog. &amp;c. and euery <hi>Generall</hi> hath diuers <hi>Specials,</hi> &amp; is spoken euermore of them all: as a trée comprehendeth in it self, a Peare trée, an Apple trée, a fig trée. &amp;c.</p>
+            <p>The <hi>Speciall</hi> is a worde whereof the sorte or kinde is conceiued in minde:<note place="margin">Speciall.</note> as a man, a horse. &amp;c.</p>
+            <p>
+               <note place="margin">Difference</note>The <hi>Difference</hi> is a word which serueth to discerne one <hi>Speciall</hi> from another, as to be endued with reason, is the difference be<g ref="char:EOLhyphen"/>twéene man, and a beast.</p>
+            <p>
+               <note place="margin">Propertie</note>The <hi>Propertie</hi> is a word which declareth a naturall pronesse, and maner of doing, which agréeth vnto one <hi>Speciall,</hi> and to the same onlie, and that alwayes: as the <hi>pro<g ref="char:EOLhyphen"/>pertie</hi> of <hi>Grammer</hi> is to speake and write
+<pb facs="tcp:18919:10"/>
+truly: of <hi>Logique</hi> to teache aptly, and by a naturall meane: of <hi>Musicke</hi> to sing: of <hi>Arithmetick</hi> to number. &amp;c.</p>
+            <p>The <hi>Accident</hi> is that,<note place="margin">Accident.</note> which maye both be present and also absent, without any de<g ref="char:EOLhyphen"/>triment vnto the substance, wherein it is: as a man may be merie and sorie. &amp;c. And here you must note, that the <hi>Accident</hi> is two wayes to be considered: eyther <hi>separa<g ref="char:EOLhyphen"/>ble</hi> from the substance, as mirth from man, or else <hi>vnseparable,</hi> as heate from fire. But yet in thought, heate may be separated from the fire.</p>
+            <p>The special vse of these fiue <hi>co<g ref="char:cmbAbbrStroke">̄</g>mon wor<g ref="char:EOLhyphen"/>des</hi> is,<note place="margin">The vse of the .v. common wordes.</note> that we vse not the <hi>Generall</hi> for the <hi>Speciall,</hi> nor the <hi>Speciall</hi> for the <hi>Generall.</hi>
+            </p>
+            <p>There are also in this Art certaine words called y<hi rend="sup">e</hi> 
+               <hi>most general,</hi>
+               <note place="margin">Most ge<g ref="char:EOLhyphen"/>nerall.</note> which do chiefly serue to this purpose, that we confound not y<hi rend="sup">e</hi> sub<g ref="char:EOLhyphen"/>stances, or inwarde nature of things with the <hi>Accidents</hi>: and they be in number ten, the <hi>Substance,</hi> the <hi>Quantitie,</hi> the <hi>Quali<g ref="char:EOLhyphen"/>tie,</hi> the <hi>Relation,</hi> the <hi>maner of doing,</hi> the <hi>suffering, When, Where,</hi> the <hi>Seatling,</hi> and the <hi>apparayling.</hi>
+            </p>
+            <p>A <hi>substance</hi> is the inwarde nature of a<note place="margin">Substance</note>
+               <pb facs="tcp:18919:11"/>
+thing, only in mind separated from the <hi>Accidents,</hi> as God, Man, a Lion. &amp;c.</p>
+            <list>
+               <item>
+                  <hi>A sub<g ref="char:EOLhyphen"/>stance.</hi>
+                  <list>
+                     <item>
+                        <hi>Without body</hi>
+                        <list>
+                           <item>
+                              <hi>God,</hi>
+                           </item>
+                           <item>
+                              <hi>Aungelles,</hi>
+                           </item>
+                           <item>
+                              <hi>The soule of man.</hi>
+                           </item>
+                        </list>
+                     </item>
+                     <item>
+                        <hi>with body</hi>
+                        <list>
+                           <item>
+                              <hi>Without mixture</hi>
+                              <list>
+                                 <item>
+                                    <hi>Fyre.</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Ayre.</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Water.</hi>
+                                 </item>
+                                 <item>
+                                    <hi>Earth.</hi>
+                                 </item>
+                              </list>
+                           </item>
+                           <item>
+                              <hi>compounded of di<g ref="char:EOLhyphen"/>uers elements.</hi>
+                              <list>
+                                 <item>
+                                    <hi>A liuing thing as a creture.</hi>
+                                    <list>
+                                       <item>
+                                          <hi>Hauing the sence of feeling,</hi>
+                                          <list>
+                                             <item>
+                                                <hi>Endued with reason, as man.</hi>
+                                                <list>
+                                                   <item>
+                                                      <hi>Socrates</hi>
+                                                   </item>
+                                                   <item>
+                                                      <hi>Plato.</hi>
+                                                   </item>
+                                                </list>
+                                             </item>
+                                             <item>
+                                                <hi>Without reason: as beastes.</hi>
+                                                <list>
+                                                   <item>
+                                                      <hi>Cattell.</hi>
+                                                   </item>
+                                                   <item>
+                                                      <hi>Fish.</hi>
+                                                   </item>
+                                                   <item>
+                                                      <hi>Fowle.</hi>
+                                                   </item>
+                                                </list>
+                                             </item>
+                                          </list>
+                                       </item>
+                                       <item>
+                                          <hi>Without sence of feeling, as</hi>
+                                          <list>
+                                             <item>
+                                                <hi>A tree.</hi>
+                                             </item>
+                                             <item>
+                                                <hi>A shrubbe.</hi>
+                                             </item>
+                                          </list>
+                                       </item>
+                                    </list>
+                                 </item>
+                                 <item>
+                                    <hi>Wythout lyfe.</hi>
+                                    <list>
+                                       <item>
+                                          <hi>Stones.</hi>
+                                       </item>
+                                       <item>
+                                          <hi>Mettalles.</hi>
+                                       </item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </item>
+                        </list>
+                     </item>
+                  </list>
+               </item>
+            </list>
+            <p>¶This table sheweth the order of euerye substance and kinde: and also teacheth how ye maye define any thing, as if you will knowe what man is.</p>
+            <p>
+               <pb facs="tcp:18919:11"/>
+               <hi>Man</hi> is a substaunce with bodie, com<g ref="char:EOLhyphen"/>pound of diuerse elements, liuing, hauing the sense of féeling, &amp; endued with reason.</p>
+            <p>A <hi>Quantitie</hi> is the greatnesse of a thing,<note place="margin">Quantity.</note> and it is by two means perceyued, by <hi>sight,</hi> and by <hi>feeling,</hi> and his propertie is to be <hi>deuided,</hi> as an Ell into quarters, a shilling into pence, an Oration into sentences. &amp;c.</p>
+            <p>
+               <hi>Quantitie</hi> is two wayes considered,<note place="margin">Quantitie deuided.</note> the one as by asking how great, long, or broade a thing is: the other, by asking how many things there be.</p>
+            <p>
+               <hi>Qualitie</hi> is all (except <hi>Quantitie</hi>) which is subiect vnto the senses of man,<note place="margin">Qualitie.</note> and they be two wayes to be considered: either of the bodie: as coulours, soundes, smellings, ta<g ref="char:EOLhyphen"/>sting, féeling: or of the minde, as sciences, vertues and affections.</p>
+            <p>The <hi>Relation</hi> is a name giue<g ref="char:cmbAbbrStroke">̄</g> vnto things not by nature, but in the respect of an other:<note place="margin">Relation.</note> as when I say a <hi>maister,</hi> I must vnderstand <hi>seruants</hi> or <hi>scholers</hi> that he hath, in respect of whom he is so called. And there are two things here to be marked y<hi rend="sup">e</hi> 
+               <hi>grounde</hi> of eue<g ref="char:EOLhyphen"/>ry thing, and the <hi>ende</hi> whervnto it hath re<g ref="char:EOLhyphen"/>spect: as a <hi>maister</hi> is the <hi>grounde</hi> in that
+<pb facs="tcp:18919:12"/>
+he teacheth, and hath respect vnto his schol<g ref="char:EOLhyphen"/>ler which is taught: againe, the <hi>Scholler</hi> is the <hi>ground</hi> in that he is taught, and hath respect vnto his maister which teacheth him.</p>
+            <p>
+               <note place="margin">The ma<g ref="char:EOLhyphen"/>ner of doo<g ref="char:EOLhyphen"/>ing.</note>The <hi>maner of doing,</hi> is a relation vnto that which is done, or suffred: as to loue, is a relation or action, towardes the thing which is loued. And herevnto may we re<g ref="char:EOLhyphen"/>ferre the dutie of euery man: as to teach, to write, to play the lawyer or merchaunt. &amp;c.</p>
+            <p>
+               <note place="margin">Suffring.</note>The <hi>suffering,</hi> is a relation of the suffe<g ref="char:EOLhyphen"/>rer vnto the dooer, or the effect of the <hi>maner of doing</hi>: as to be loued, taught, writte<g ref="char:cmbAbbrStroke">̄</g>. &amp;c.</p>
+            <p>
+               <note place="margin">Where.</note>
+               <hi>Where,</hi> is a worde which comprehendeth the description of places, or sheweth where any thing is done: as in Englande, at home, at London, at Cambridge, in the schoole, in the church. &amp;c.</p>
+            <p>
+               <note place="margin">When.</note>
+               <hi>When,</hi> is a word, shewing at what time a thing is done: as this day, to morow. &amp;c.</p>
+            <p>
+               <note place="margin">Setling.</note>The <hi>Setling,</hi> is the disposition, gesture, or order of the body, as when it lieth, sitteth, standeth. &amp;c.</p>
+            <p>
+               <note place="margin">Apparay<g ref="char:EOLhyphen"/>ling.</note>The <hi>Apparayling,</hi> either sheweth with what thing any bodie is couered, as with a cloke, coate, gowne, chaine, scepter, mace, or
+<pb facs="tcp:18919:12"/>
+that which one possesseth, as golde, landes, wife. &amp;c. or that which co<g ref="char:cmbAbbrStroke">̄</g>taineth anie thing, as the ship holdeth or containeth wares, men. &amp;c. Further, wheras at the beginning, I sayd, that <hi>Logique</hi> was an Art to define the nature of things: as thus you maye de<g ref="char:EOLhyphen"/>fine or expresse what man is, <hi>man is a ly<g ref="char:EOLhyphen"/>uing creature endued with reason.</hi>
+               <note place="margin">A defini<g ref="char:EOLhyphen"/>tion deui<g ref="char:EOLhyphen"/>ded.</note>
+Now you shall note that a definition is foure wayes to be considered: for eyther it is <hi>Es<g ref="char:EOLhyphen"/>sentiall,</hi> which consisteth of the <hi>Generall</hi> and <hi>Difference,</hi> as in the aforesayde defini<g ref="char:EOLhyphen"/>tion of man: or it is <hi>causall,</hi> whe<g ref="char:cmbAbbrStroke">̄</g> the causes be expressed, as Béere is a drinke made of water, Hoppes, and Mault: or else it consi<g ref="char:EOLhyphen"/>steth of the <hi>parts,</hi> as Matrimony is the cou<g ref="char:EOLhyphen"/>pling togither of man and wife: or else it consisteth of the <hi>Accidentes,</hi> as the Eue<g ref="char:EOLhyphen"/>ning is a tyme wherein shadowes be most long.</p>
+            <p>Thus as a definition declareth what a thing is, so sheweth a deuision howe manye things are comprehended in the same: and it is also foure wayes to be considered, that is, the deuision of a worde,<note place="margin">A deuision deuided.</note> as <hi>tyme</hi> signifi<g ref="char:EOLhyphen"/>eth an hearbe, and also this instant: the de<g ref="char:EOLhyphen"/>uision
+<pb facs="tcp:18919:13"/>
+of the <hi>Generall</hi> into his <hi>Speciall</hi>: as a liuing creature is deuided into a man, a Lion, an Asse. &amp;c. The diuisio<g ref="char:cmbAbbrStroke">̄</g> of the whole into his partes, as a bodie into an heade, breast, bellie, féete, and handes: the deuision of the substance into his Accidents: as Ci<g ref="char:EOLhyphen"/>cero was a Philosophier, an Orator and an Astronomer. After that we haue so shewed what <hi>Logique</hi> is, what y<hi rend="sup">e</hi> 
+               <hi>common words,</hi> and the <hi>most generall</hi> are, what a <hi>defini<g ref="char:EOLhyphen"/>tion,</hi> and what a <hi>deuision</hi> is, we wyll briefly speake of the knitting of wordes to<g ref="char:EOLhyphen"/>gither in a <hi>Proposition.</hi>
+            </p>
+            <p>
+               <note place="margin">Propo<g ref="char:EOLhyphen"/>sition.</note>A <hi>Proposition</hi> is a perfect sentence: she<g ref="char:EOLhyphen"/>wing a reason true or false: as Man is a liuing creature. And euerye <hi>Proposition</hi> doth consist of two partes, the one <hi>whereof somewhat is spoken,</hi> the other <hi>which is spoken of any thing:</hi> as in this sentence, Man is a liuing creature, a liuing creature is spoken of man, so that man is that wher<g ref="char:EOLhyphen"/>of it is spoken. Euerye <hi>perfect sentence</hi> is two wayes deuyded,<note place="margin">Proposi<g ref="char:EOLhyphen"/>tion deui<g ref="char:EOLhyphen"/>ded.</note> eyther it is <hi>single,</hi> as modestie is a vertue: or else it is <hi>double,</hi> as if modestye be a vertue: it is praise wor<g ref="char:EOLhyphen"/>thy.</p>
+            <p>
+               <pb facs="tcp:18919:13"/>Againe, a <hi>Proposition</hi> is eyther true or false: true, as, all men are mortall: false, as, no men are mortall. Also it is either af<g ref="char:EOLhyphen"/>firmatiue or negatiue: as, vertue is good, vertue is not good: it is further eyther vni<g ref="char:EOLhyphen"/>uersal, as, all men are honest, or perticular, as, some men are honest, or indefinite, as, vertue is the chiefe good thing: or singular, as, Cicero is a perfect Orator.</p>
+            <p>The <hi>vniuersall proposition</hi> hath gene<g ref="char:EOLhyphen"/>rall signes, as these, <hi>all, none. &amp;c.</hi>
+            </p>
+            <p>The <hi>perticular</hi> hath perticular signes, as, <hi>some one, the most part, oftentimes.</hi>
+            </p>
+            <p>The <hi>indefinite</hi> hath no signe. And the singular hath to the one part a nowne pro<g ref="char:EOLhyphen"/>per.</p>
+            <p>The vse of a proposition,<note place="margin">The vse of a propo<g ref="char:EOLhyphen"/>sition.</note> or perfect sen<g ref="char:EOLhyphen"/>tence, is briefly to comprehend, and to couch togither in one sentence, the full summe of a long and large discourse: as in the second booke of the Aeneides of Uirgill. <hi>Troye was destroyed by the Graecians.</hi>
+            </p>
+            <p>The <hi>repugnancie</hi> of propsitions,<note place="margin">The re<g ref="char:EOLhyphen"/>pugnancie of a propo<g ref="char:EOLhyphen"/>sition.</note> is the diuersitie of two perfect sentences, consi<g ref="char:EOLhyphen"/>sting of two, and the selfe same partes. And of these repugnant propositions there be
+<pb facs="tcp:18919:14"/>
+foure:<note place="margin">A proposi<g ref="char:EOLhyphen"/>tion re<g ref="char:EOLhyphen"/>pugnant deuided.</note> the one <hi>altogither contrarie,</hi> as all men are liers, no men are liers: the other <hi>perticuler contrarie,</hi> as some men are li<g ref="char:EOLhyphen"/>ers, some men are no liers: the thirde <hi>con<g ref="char:EOLhyphen"/>tradictorie,</hi> as all men are liers, some men are no liers: the fourth (so to speake it) is <hi>subalterne,</hi> as all vertues are to be prai<g ref="char:EOLhyphen"/>sed, some vertue is to be praysed.</p>
+            <p>
+               <table>
+                  <row>
+                     <cell>
+                        <note place="margin">A table of the repug<g ref="char:EOLhyphen"/>nant pro<g ref="char:EOLhyphen"/>positions.</note>All men are good.</cell>
+                     <cell>
+                        <hi>Altogither contrarie.</hi>
+                     </cell>
+                     <cell>No men are good.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Subalterne.</hi>
+                     </cell>
+                     <cell>
+                        <hi>Contradictorie. Contradictorie.</hi>
+                     </cell>
+                     <cell>
+                        <hi>Subalterne.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Some men are good.</cell>
+                     <cell>
+                        <hi>Perticular contrarie.</hi>
+                     </cell>
+                     <cell>Some men are not good.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <note place="margin">The vse of the re<g ref="char:EOLhyphen"/>pugnancy.</note>The diuersitie of these perfect sentences, is most necessarie to discerne the truth from
+<pb facs="tcp:18919:14"/>
+that which is false: for as blacke and white being ioyned togither, the difference is soone espied: so if you ioyne two dissonant proposicions, you shall easilye discerne the true, and finde out the false.</p>
+            <p>Then followeth the <hi>turning</hi> of proposi<g ref="char:EOLhyphen"/>tions,<note place="margin">The vse of the tur<g ref="char:EOLhyphen"/>ning of a proposition</note> which serueth for the euident opening of them, for the making of short argumen<g ref="char:EOLhyphen"/>tes, and for the reducing of the seconde, and thirde <hi>figure</hi> into the first.</p>
+            <p>The <hi>turning</hi> of a proposition,<note place="margin">The tur<g ref="char:EOLhyphen"/>ning of a propo<g ref="char:EOLhyphen"/>sition.</note> is when the first parte, and latter of the same, are turned, the one into the others roume: as, some priestes are good men, some good men are priestes.</p>
+            <p>
+               <hi>A plaine turning</hi> of a proposition, is,<note place="margin">A plaine turning.</note> when the parts of the same, do supplie thone the others place, the same signes alwayes vnchaunged: as, no good man is an vsurer, no vsurer is a good man.</p>
+            <p>An <hi>accidentall turning,</hi>
+               <note place="margin">An acci<g ref="char:EOLhyphen"/>dentall turning.</note> is when y<hi rend="sup">e</hi> same signes doe not remaine: and by this are the perticulers gathered of the vniuersals: as all men are liuing creatures, some liuing creatures are men.</p>
+            <p>Hitherto hauing briefly set forth al single
+<pb facs="tcp:18919:15"/>
+wordes, and their nature, we will nowe shewe how to frame an Argument.</p>
+            <p>
+               <note place="margin">An argu<g ref="char:EOLhyphen"/>ment.</note>An <hi>argument</hi> is the proouing of a perfect sentence set forth, whereof before it was, or might be doubted.</p>
+            <p>
+               <note place="margin">An argu<g ref="char:EOLhyphen"/>ment de<g ref="char:EOLhyphen"/>uided.</note>An argument is deuided foure wayes, in<g ref="char:EOLhyphen"/>to a perfect argument, an vnperfect, an in<g ref="char:EOLhyphen"/>duction, and an example.</p>
+            <p>
+               <note place="margin">A pefrect argument.</note>A <hi>perfect argument</hi> consisteth of thrée propositions, whereof the first is called the proposition at <hi>large,</hi> the seconde is named, the <hi>lesse,</hi> and the thirde is termed the <hi>con<g ref="char:EOLhyphen"/>clusion</hi>: as for example.</p>
+            <list type="syllogism">
+               <item>
+                  <note place="margin">At large.</note>Euerie vertue is to be praysed:</item>
+               <item>
+                  <note place="margin">The lesse.</note>Modestie is a <hi>vertue,</hi>
+               </item>
+               <item>
+                  <note place="margin">Conclu<g ref="char:EOLhyphen"/>sion.</note>Therefore modestie is to be praysed:</item>
+            </list>
+            <p>And here you must well note one worde, called the <hi>double repeate,</hi> conteyned in the two first propositions, which in y<hi rend="sup">e</hi> aforesayd argument is this word <hi>vertue,</hi> for it knit<g ref="char:EOLhyphen"/>teth togither the two first propositions, pro<g ref="char:EOLhyphen"/>uing the thing, and neuer entreth into the conclusion.</p>
+            <p>As for rules concerning a perfect argu<g ref="char:EOLhyphen"/>ment to be obserued, to one marking well, though onelye his figures and moodse they
+<pb facs="tcp:18919:15"/>
+are not so néedefull.</p>
+            <p>The <hi>figures</hi> appertaining vnto a perfect argument are three: the first, the seconde,<note place="margin">3. figures.</note> the thirde.</p>
+            <p>The first figure is when the double re<g ref="char:EOLhyphen"/>peate is placed in the former part of the first proposition, and in the latter of the seconde.<note place="margin">1. figure.</note>
+            </p>
+            <p>And vnto this first figure there doeth be<g ref="char:EOLhyphen"/>long foure <hi>moodes,</hi> which be nothing else, than words inuented,<note place="margin">4. Modes·</note> that only by the vow<g ref="char:EOLhyphen"/>els of the same, the qualitie and quantitie of the proposition maye be knowne, that is, whether it be vniuersall affirmatiue, or v<g ref="char:EOLhyphen"/>niuersall negatiue, perticuler affirmatiue, or perticular negatiue: the <hi>moodes</hi> or the wordes are these: <hi>Barbara, Celarent, Da<g ref="char:EOLhyphen"/>rij, Ferio:</hi> the vowels whereof are thus to be considered.
+<list>
+                  <item>
+                     <hi>A</hi> signi<g ref="char:EOLhyphen"/>fieth <hi>A proposition vniuersal affirmatiue</hi>
+                  </item>
+                  <item>
+                     <hi>E</hi> signi<g ref="char:EOLhyphen"/>fieth <hi>An vniuersall negatiue.</hi>
+                  </item>
+                  <item>
+                     <hi>I</hi> signi<g ref="char:EOLhyphen"/>fieth <hi>A particular affirmatiue.</hi>
+                  </item>
+                  <item>
+                     <hi>O</hi> signi<g ref="char:EOLhyphen"/>fieth <hi>A particular negatiue.</hi>
+                  </item>
+               </list>
+These things thus being well marked, you may by euerie one of the saide foure moodes frame an argument, which euermore must be made from the <hi>general</hi> bnto the <hi>special,</hi>
+               <pb facs="tcp:18919:16"/>
+as thus.
+<list type="syllogism">
+                  <item>
+                     <hi>Bar-</hi> All liuing creatures are of Gods creation:</item>
+                  <item>
+                     <hi>ba-</hi> All men are liuing creatures,</item>
+                  <item>
+                     <hi>ra.</hi> Therfore all men are of Goddes creation.</item>
+               </list>
+               <list type="syllogism">
+                  <item>
+                     <hi>Ce-</hi> No iustice is a vice:</item>
+                  <item>
+                     <hi>la-</hi> All pietie is iustice,</item>
+                  <item>
+                     <hi>rent.</hi> Therfore no pietie is a vice.</item>
+               </list>
+               <list type="syllogism">
+                  <item>
+                     <hi>Da-</hi> All filthinesse is to be auoyded:</item>
+                  <item>
+                     <hi>ri-</hi> Some pleasure is a filthinesse,</item>
+                  <item>
+                     <hi>j.</hi> Therfore, some pleasure is to be auoyded.</item>
+               </list>
+               <list type="syllogism">
+                  <item>
+                     <hi>Fe-</hi> No Arte is to be contemned:</item>
+                  <item>
+                     <hi>ri-</hi> Logique is an Arte,</item>
+                  <item>
+                     <hi>o</hi> Therefore Logique is not to be contemned.</item>
+               </list>
+The second <hi>figure</hi> hath the <hi>double repeat</hi> in the last rehersed parte of both propositi<g ref="char:EOLhyphen"/>ons,<note place="margin">2. figure.</note> and it hath also foure <hi>moodes,</hi>
+               <note place="margin">4. Modes</note> which be these: <hi>Cesare, Camestres, Festino, Ba<g ref="char:EOLhyphen"/>roco,</hi> the vowels wherof as before, are most to be considered.</p>
+            <list>
+               <item>
+                  <hi>Ce-</hi> No good men doe robbe their neighbours:</item>
+               <item>
+                  <hi>sa-</hi> All theeues doe rob their neighbours,</item>
+               <item>
+                  <hi>re.</hi> Therefore no theeues are good men.</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Ca-</hi> All drunkardes doe hate good diet:</item>
+               <item>
+                  <hi>mes-</hi> No good men doe hate good diet,</item>
+               <item>
+                  <hi>tres.</hi> Therfore no good men are drunkards.</item>
+            </list>
+            <list>
+               <pb facs="tcp:18919:16"/>
+               <item>
+                  <hi>Fes-</hi> No wisemen doe boast themselues<g ref="char:punc">▪</g>
+               </item>
+               <item>
+                  <hi>ti- Thraso</hi> doth boast himselfe,</item>
+               <item>
+                  <hi>no.</hi> Therefore, <hi>Thraso</hi> is not wise.</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Ba-</hi> Al good me<g ref="char:cmbAbbrStroke">̄</g> are tha<g ref="char:cmbAbbrStroke">̄</g>kful to their benefactors</item>
+               <item>
+                  <hi>ro- Nero</hi> was vnthankefull to his benefactor,</item>
+               <item>
+                  <hi>co.</hi> Therefore, <hi>Nero</hi> was no good man.</item>
+            </list>
+            <p>The third <hi>figure</hi> hath the <hi>double repeate</hi> in the former part of both propositions,<note place="margin">3. figure.</note> and there be sixe <hi>moodes,</hi> appertayning vnto the same: <hi>Darapti, Felapton, Disamis,</hi>
+               <note place="margin">6. Moods.</note> 
+               <hi>Datisi, Bocardo, Ferison,</hi> the vowels lyke<g ref="char:EOLhyphen"/>wise wherof, are as afore, specially to be con<g ref="char:EOLhyphen"/>sidered.</p>
+            <list>
+               <item>
+                  <hi>Da-</hi> All drunkardes are to be punished,</item>
+               <item>
+                  <hi>rap-</hi> All drunkardes are excessiue drinkers,</item>
+               <item>
+                  <hi>ti.</hi> therfore, excessiue drinkers are to be punished</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Fe-</hi> No lawfull matrimonie is to be rebuked,</item>
+               <item>
+                  <hi>lap-</hi> All lawfull matrimonie haue dissentions,</item>
+               <item>
+                  <hi>ton.</hi> therfore, some disse<g ref="char:cmbAbbrStroke">̄</g>tio<g ref="char:cmbAbbrStroke">̄</g>s are not to be rebuked</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Di-</hi> Some learned men be heretiques:</item>
+               <item>
+                  <hi>sa-</hi> All learned men haue knowledge,</item>
+               <item>
+                  <hi>mis.</hi> therfore some hauing knowlege, are heretiks</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Da-</hi> All knowledge is necessary vnto a Diuine,</item>
+               <item>
+                  <hi>ti-</hi> Some knowledge is Philosophie:</item>
+               <item>
+                  <hi>si.</hi> Philosophie is necessarie vnto a Diuine.</item>
+            </list>
+            <list>
+               <pb facs="tcp:18919:17"/>
+               <item>
+                  <hi>Bo-</hi> Some man is no drunkarde.</item>
+               <item>
+                  <hi>car-</hi> Euerie man is a liuing creature,</item>
+               <item>
+                  <hi>do.</hi> therfore, some liuing creature is no dru<g ref="char:cmbAbbrStroke">̄</g>kard</item>
+            </list>
+            <list>
+               <item>
+                  <hi>Fe-</hi> No man is an asse,</item>
+               <item>
+                  <hi>ri-</hi> Some man is a liuing creature:</item>
+               <item>
+                  <hi>son.</hi> Therfore, some liuing creature is no asse.</item>
+            </list>
+            <p>Here I haue shewed the thrée <hi>figures,</hi> what they are, and their examples, and yet sufficient it is, that we vse the <hi>first,</hi> and the <hi>second,</hi> for the <hi>thirde</hi> (as in that Melanc<g ref="char:EOLhyphen"/>thon, and others doe verie well write) you may refuse.</p>
+            <p>
+               <note place="margin">An argu<g ref="char:EOLhyphen"/>ment of a nowne pro<g ref="char:EOLhyphen"/>per.</note>There is further an other argument vn<g ref="char:EOLhyphen"/>to this thirde figure referred, in the which the <hi>double repeate,</hi> in the first part of both propositions, is a nowne proper, as
+<list type="syllogism">
+                  <item>Dauid in possessing his owne, did not of<g ref="char:EOLhyphen"/>fend:</item>
+                  <item>Dauid was a christian,</item>
+                  <item>Therefore, a christian in possessing hys owne doth not offend.</item>
+               </list>
+            </p>
+            <p>An <hi>vnperfect argument,</hi> is where one proposition is omitted,<note place="margin">An vnper<g ref="char:EOLhyphen"/>fect argu<g ref="char:EOLhyphen"/>ment.</note> and that eyther for breuitie, or else, for that the part omitted, is otherwyse vndoubtedlye knowne well y<g ref="char:EOLhyphen"/>nough:
+<pb facs="tcp:18919:17"/>
+as<g ref="char:punc">▪</g>
+            </p>
+            <p>Drunkennesse is an euill thing,</p>
+            <p>Therfore, it is to be auoyded.</p>
+            <p>Wherevnto if you adde the <hi>Proposition at large,</hi> which is wanting, that is, euerye euill thing is to be auoyded, then your argu<g ref="char:EOLhyphen"/>ment shall bée perfect, in the <hi>moode Darij,</hi> of the first <hi>figure.</hi>
+            </p>
+            <p>This vnperfect argument consisteth part<g ref="char:EOLhyphen"/>ly of likelyhoodes,<note place="margin">Note.</note> and partly of infallible reasons, therefore it must be foreséene, that lykelyhoodes bée not taken for necessarie reasons.</p>
+            <p>An <hi>Induction,</hi> is,<note place="margin">An In<g ref="char:EOLhyphen"/>duction.</note> when we make an vni<g ref="char:EOLhyphen"/>uersall conclusion, vpon a sufficient num<g ref="char:EOLhyphen"/>ber of proper names: as thus,</p>
+            <p>Red Wyne maketh one warme:</p>
+            <p>Hippocras maketh one warme:</p>
+            <p>Spanishe Wyne maketh one warme:</p>
+            <p>French Wyne maketh one warme<g ref="char:punc">▪</g>
+            </p>
+            <p>Tyre maketh one warme:</p>
+            <p>Neyther is there any vnlyke example,</p>
+            <p>Therfore, al wynes maketh one warme.</p>
+            <p>An <hi>Example,</hi>
+               <note place="margin">An exa<g ref="char:cmbAbbrStroke">̄</g>ple.</note> is the applying of a lyke thing, or reason, from one person, to an o<g ref="char:EOLhyphen"/>ther: as,</p>
+            <p>
+               <pb facs="tcp:18919:18"/>Thy father against King Priamus was not so cruell,</p>
+            <p>Therefore, you ought not, agaynst thys man to be so cruell.</p>
+            <p>Here vnto are referred the Fables of Po<g ref="char:EOLhyphen"/>ets, Prouerbs, and Parables.</p>
+            <p>
+               <note place="margin">A heaping argument.</note>There is an other kinde of reasoning, cal<g ref="char:EOLhyphen"/>led a <hi>heaped argument,</hi> which is when the laste worde of the one proposition is, and that throughout the argument, repeated in the first part of the second, and that also when voyces necessarily agréeing thervnto, that is, when the <hi>generall, speciall, causes,</hi> and <hi>effect,</hi> are ioyned togither: as,</p>
+            <p>Idlenesse bréedeth riotousnesse,</p>
+            <p>Riotousnesse bréedeth pouertie,</p>
+            <p>Pouertie bréedeth theft,</p>
+            <p>Therefore idlenesse, bréedeth theft.</p>
+            <p>Now it remayneth (where as I shewed before, that of perfect Sentences, some bée single and some double, and hauing spo<g ref="char:EOLhyphen"/>ken as briefely, so sufficiently of the single) that we speake somewhat of a double pro<g ref="char:EOLhyphen"/>position, and that before I doe set forth the <hi>places,</hi> whence all arguments doe spring.</p>
+            <p>A <hi>double proposition</hi> consisteth of two
+<pb facs="tcp:18919:18"/>
+single, knit togither with some coniuncti<g ref="char:EOLhyphen"/>on, eyther <hi>conditionall,</hi>
+               <note place="margin">A double propositio<g ref="char:cmbAbbrStroke">̄</g>.</note> as if iustice be a vertue, it is praise worthy: or <hi>Disiunctiue,</hi> as, eyther it is day, or else it is night: or else <hi>Copulatiue,</hi> as loue being vnlawfull, is not to be praised.</p>
+            <p>A <hi>conditionall</hi> proposition is euermore true when the partes are so knit together, that the latter must néedes follow vpon the first.</p>
+            <p>A <hi>disiunctiue</hi> is then true, when one of the partes is true.</p>
+            <p>A <hi>copulatiue</hi> is onely then true, when both the partes are true.</p>
+            <div type="part">
+               <head>Of the seconde part of Logique, which is, of the finding out of an Argument.</head>
+               <p>
+                  <hi>A Place</hi> is the seat,<note place="margin">A place.</note> or resting corner of an Argument, and whence we are war<g ref="char:EOLhyphen"/>ned, how to grounde or talke, and to laye the foundation of our reason, of which pla<g ref="char:EOLhyphen"/>ces some are appertayning vnto <hi>persons,</hi> and some vnto <hi>thinges,</hi> but vnto the per<g ref="char:EOLhyphen"/>sons doe belong these which followe, and from thence we thus doe reason: as from,</p>
+               <pb facs="tcp:18919:19" rendition="simple:additions"/>
+               <p>The <hi>Countrie,</hi>
+               </p>
+               <p>He is a Grecian: therefore, light, incon<g ref="char:EOLhyphen"/>stant, and disceitfull.</p>
+               <p>The <hi>kinde,</hi>
+               </p>
+               <p>Shée is a Woman: therefore, vnapt for warres.</p>
+               <p>The <hi>Parents,</hi>
+               </p>
+               <p>He is king Henry the eights sonne: ther<g ref="char:EOLhyphen"/>fore valyant.</p>
+               <p>The <hi>Age,</hi>
+               </p>
+               <p>He is old: therfore to be asked counsell of.</p>
+               <p>Bringing vp,</p>
+               <p>He was Lucius Scholler: therefore an Heretique.</p>
+               <p>
+                  <hi>Art,</hi> or <hi>trade of lyfe,</hi>
+               </p>
+               <p>He is a shoemaker: therefore no louer of liberall Sciences.</p>
+               <p>
+                  <hi>Fellowship,</hi>
+               </p>
+               <p>He liued alwayes with drunkards: ther<g ref="char:EOLhyphen"/>fore, what maruell, if he be a drunkard?</p>
+               <p>
+                  <hi>Maner of doing,</hi>
+               </p>
+               <p>I did it not through anger, enuy, rashe<g ref="char:EOLhyphen"/>nesse, but being thought vpon, &amp; of a long time considered: therfore, it was well done, and perfect.</p>
+               <p>
+                  <hi>Maner of dying.</hi>
+               </p>
+               <p>
+                  <pb facs="tcp:18919:19"/>Enoch, and Elias were taken a lyue vp into Heauen: therefore, they are become blessed.</p>
+               <p>
+                  <hi>Signes,</hi>
+               </p>
+               <p>Shée is brought to bed: therfore, no maid.</p>
+               <p>
+                  <hi>Antecedent,</hi>
+               </p>
+               <p>He sought a good whyle a gone to robbe me: therefore it is possible, that he robbed mée now.</p>
+               <p>
+                  <hi>Consequent,</hi>
+               </p>
+               <p>He fled: therefore, it is probable that he committed this offence.</p>
+               <p>The places of things are all suche, as be not of the persons, and from them we rea<g ref="char:EOLhyphen"/>son thus: as from,</p>
+               <p>
+                  <hi>Definition,</hi>
+               </p>
+               <p>
+                  <hi>Fortitude</hi> is a vertue, fighting in the quarrel of right: therfore it is praise worthy.</p>
+               <p>
+                  <hi>Generall,</hi>
+               </p>
+               <p>He is no lyuing creature: therfore no ma<g ref="char:cmbAbbrStroke">̄</g>.</p>
+               <p>
+                  <hi>Speciall,</hi>
+               </p>
+               <p>He is a man: therfore, a lyuing creature.</p>
+               <p>
+                  <hi>Difference,</hi>
+               </p>
+               <p>He is endued with reason: therfore, a ma<g ref="char:cmbAbbrStroke">̄</g>.</p>
+               <p>
+                  <hi>Propertie,</hi>
+               </p>
+               <p>He barketh: therefore, he is a Dogge.</p>
+               <pb facs="tcp:18919:20" rendition="simple:additions"/>
+               <p>
+                  <hi>Hole,</hi>
+               </p>
+               <p>It is a house: therfore, walles, a roufe. &amp;c.</p>
+               <p>
+                  <hi>Yoked wordes,</hi>
+               </p>
+               <p>He doth wisely: therfore, he is a wise ma<g ref="char:cmbAbbrStroke">̄</g>.</p>
+               <p>
+                  <hi>Efficient cause,</hi>
+               </p>
+               <p>God hath ordeyned the Magistrate: ther<g ref="char:EOLhyphen"/>fore we ought to obey hym.</p>
+               <p>
+                  <hi>Matter,</hi>
+               </p>
+               <p>He wanteth cloath: therfore, he can haue no coate.</p>
+               <p>
+                  <hi>Fourme,</hi>
+               </p>
+               <p>This Table is well preporcioned, there<g ref="char:EOLhyphen"/>fore, it had a good workeman.</p>
+               <p>
+                  <hi>Ende,</hi>
+               </p>
+               <p>Publique Schooles doe cause men to be ci<g ref="char:EOLhyphen"/>uill: therefore they are to be erected.</p>
+               <p>
+                  <hi>Effect, or euent,</hi>
+               </p>
+               <p>They of India do heare the word of God: therfore, they are of God.</p>
+               <p>
+                  <hi>Relation,</hi>
+               </p>
+               <p>He is <hi>Constancius</hi> father: therefore, not his sonne.</p>
+               <p>
+                  <hi>Contrary,</hi>
+               </p>
+               <p>The water is hoate: therfore, not colde.</p>
+               <p>
+                  <hi>Priuation,</hi>
+               </p>
+               <p>It is darke: therefore, not light.</p>
+               <pb facs="tcp:18919:20"/>
+               <p>
+                  <hi>Contradictorie,</hi>
+               </p>
+               <p>Iohn wryteth: therfore, that Iohn should now not write, it is impossible.</p>
+               <p>
+                  <hi>Greater,</hi>
+               </p>
+               <p>Hector could not ouercome Achilles: ther<g ref="char:EOLhyphen"/>fore Paris might lesse doe it.</p>
+               <p>
+                  <hi>Lesser,</hi>
+               </p>
+               <p>It is lawfull vpon the Sabbaoth daye to saue an Oxe: therefore it is more lawfull to saue a man.</p>
+               <p>Now it remayneth, that we speake some<g ref="char:EOLhyphen"/>what, of the discerning, and vnderstanding of <hi>vntrue arguments,</hi> which two wayes are speciallye considered, for eyther is, the fault in the <hi>forme</hi> onely, that is in the <hi>con<g ref="char:EOLhyphen"/>sequence:</hi> or else in the <hi>matter,</hi> or things. And if the fault be in the consequence, you maye then reiect the whole argument, she<g ref="char:EOLhyphen"/>wing the fault of the <hi>consequence</hi>: as,
+<list type="syllogism">
+                     <item>In al holy men now liuing there is sinne:</item>
+                     <item>Adulterie is sinne.</item>
+                     <item>Therfore in all holy men lyuing, there is adulterie.</item>
+                  </list>
+               </p>
+               <p>Here may you denie the consequence, and so reiect the argument. And the reason ther<g ref="char:EOLhyphen"/>of is, that in the second figure of meere adfir<g ref="char:EOLhyphen"/>matiues
+<pb facs="tcp:18919:21" rendition="simple:additions"/>
+(as the moodes there teach you) there can nothing follow. Marke therefore dili<g ref="char:EOLhyphen"/>gently your <hi>figures,</hi> and <hi>moodes,</hi> and then is the fault of the consequence soone espied. But if the fault be in the <hi>matter,</hi> or things, then haue we thrée wayes to reiect, and con<g ref="char:EOLhyphen"/>fute the same, eyther by denying the vntrue proposition, shewing the vntruth thereof, out of the place, or seate of things, as out of the definition, diuision, causes, and such o<g ref="char:EOLhyphen"/>thers: as,
+<list type="syllogism">
+                     <item>A flattering, and a dissembling kinde of speach, doth not become Philosophers:</item>
+                     <item>Eloquence is a flattering, and a dissem<g ref="char:EOLhyphen"/>bling kinde of speach.</item>
+                     <item>Therefore Eloquence doth not become Philosophers.</item>
+                  </list>
+               </p>
+               <p>Here may you denie the lesse proposition, shewing that the definition of Eloquence is not right, for Eloquence is an Arte to set foorth thinges well and plainely, and in a méete, and perfect kinde of speach.</p>
+               <p>Or else by distinguishing of the things ambigous, and doubtfull: as,
+<list type="syllogism">
+                     <item>
+                        <note place="margin">Iohn. <gap reason="illegible" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>.</note>No sinner is heard of God:</item>
+                     <item>All men héere lyuing are sinners:</item>
+                     <item>
+                        <pb facs="tcp:18919:21"/>Therefore no man here lyuing, is heard of God.</item>
+                  </list>
+               </p>
+               <p>Here are the proposition at <hi>large,</hi> and the <hi>lesse</hi> to be distinguished, for of sinners, some doe repent, some doe not, therefore of such onely as repent not, the first proposition is true, also the <hi>lesse</hi> proposition is to be distin<g ref="char:EOLhyphen"/>guished, for as all men are sinners, so are some without repentance, and some haue repented, in whome notwithstanding yet remayneth naughtie affections, and lewde desires.</p>
+               <p>Or else in reproouing the false propositi<g ref="char:EOLhyphen"/>on, by shewing a contrarie example: as,</p>
+               <p>No Legates ought in their iourneys to be hindered:</p>
+               <p>Therefore, this ought not be hindered.</p>
+               <p>Here we may aunswere vnto the <hi>antece<g ref="char:EOLhyphen"/>dent</hi> thus: that if a Legate going from Flau<g ref="char:cmbAbbrStroke">̄</g>ders through France: into Hispaine, doe carie with him Letters, or anye thing hurtfull vnto the realme of France: he may be hindered, taken, and punished: as they of Athens, tooke the Legates of the Lace<g ref="char:EOLhyphen"/>demonians, going to the king of Persia: and as the Romaines tooke the Legates of
+<pb facs="tcp:18919:22"/>
+                  <hi>Hannibal,</hi> going to y<hi rend="sup">e</hi> king of <hi>Macedonia.</hi> And thus I adiudge to be ynough, for the vnderstanding of arguments, and for the discerning of the faultes of the same, whe<g ref="char:EOLhyphen"/>ther it be in the forme, or matter.</p>
+               <p>Thus hauing most briefely considered o<g ref="char:EOLhyphen"/>uer, both the partes of <hi>reason,</hi> that is, how to frame an argument, and how to adiudge of the same, the labour being small, and the commodity great, let none therein omit such diligence, but that he thereby at the length, may vnderstande the truth, finde not fals<g ref="char:EOLhyphen"/>hood, conceyue the certaintie of things, and so shake off fonde opinions, selfe will, obsti<g ref="char:EOLhyphen"/>nacie, childishe brawlings, and errors, for than the sight of truth, what can bée more excellent? on the other side, what is so to be hated, as the wallowing in the foule myre of ignoraunce? What therein is so to be ab<g ref="char:EOLhyphen"/>horred as the opinion of Pyrro? or as in that the iudgement of the Academikes? who doe alleage all things to be vncertaine, &amp; doubt<g ref="char:EOLhyphen"/>full, this foolishnesse, I might well say, this madnesse, séeketh to ouerthrowe the most singuler gifte of God, that is, truth, it en<g ref="char:EOLhyphen"/>deuoreth to abolish all artes, and stay of life,
+<pb facs="tcp:18919:22"/>
+it laboureth to bereaue vs of the knowledge of God, which being, howsoeuer ingraffed in the nature of man, is (all being Gods gifts) by true arguments to be made manifest, by good reasons to be opened, and by sure con<g ref="char:EOLhyphen"/>clusions to be confirmed. But where as some arguments grounded vpon manye of the places aforesayd, may seme right weake, and of small force, therein it shal be the part of the discrete, and wise reader, so to weigh, and consider them, as he, discerning likely<g ref="char:EOLhyphen"/>hoodes from truth, probalitie from playne proofes, maye onely embrace the veritie, and following the same, maye be al<g ref="char:EOLhyphen"/>waies thankfull vnto God, whose worthy praise (as <hi>Plato</hi> saith) doth most at large in all Artes and Scien<g ref="char:EOLhyphen"/>ces appere.</p>
+               <p>
+                  <hi>Epitomes dialecticae finis, Ludouico Euans, Brytanno autore.</hi>
+               </p>
+               <pb facs="tcp:18919:23" rendition="simple:additions"/>
+               <q>
+                  <bibl>
+                     <hi>Aug:</hi>
+                  </bibl>
+                  <p>THe knowledge of reasoning is of a great force to all kinde of questions, which are in the holy Scriptures to be weig<gap reason="illegible" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>, and made manifest.</p>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Hieron.</hi>
+                  </bibl>
+                  <p>What peruerse doctrine soeuer is in the worlde, and smelling out of worldly wise<g ref="char:EOLhyphen"/>dome, is thought strong, the same by Lo<g ref="char:EOLhyphen"/>gique is ouerthrowne, and as sparkes of <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> is dashed in péeces.</p>
+               </q>
+               <q>
+                  <bibl>
+                     <hi>Rodolph Agricola.</hi>
+                  </bibl>
+                  <p>It is certaine that Logique is profitable, if to be dec<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>yued, &amp; to take falshood for truth, and truth for <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> adiudge vnpro<g ref="char:EOLhyphen"/>fitable.</p>
+               </q>
+               <pb facs="tcp:18919:23" rendition="simple:additions"/>
+               <pb facs="tcp:18919:24" rendition="simple:additions"/>
+               <pb facs="tcp:18919:24" rendition="simple:additions"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
