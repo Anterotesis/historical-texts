@@ -1,0 +1,2886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet TYPE="text/css" href="http://www.lib.umich.edu/tcp/docs/code/pfs.css"?>
+<!DOCTYPE ETS SYSTEM "http://www.lib.umich.edu/tcp/docs/code/eebo2prf.xml.dtd">
+<ETS>
+<TEMPHEAD>
+<REVDESCR>
+<CHANGE><DATE>yyyy-mm-dd</DATE><RESPSTMT><NAME>[name of reviewer]</NAME><RESP>MURP</RESP></RESPSTMT><ITEM>Proofed text and corrected markup.</ITEM></CHANGE>
+</REVDESCR>
+</TEMPHEAD>
+
+<EEBO>
+<IDG S="marc" R="OX" ID="K029306.000">
+<STC T="C">T018531</STC>
+<BIBNO T="docno">CW3313299404</BIBNO>
+<VID SET="ecll">0577100200</VID>
+</IDG>
+<TEXT>
+<FRONT>
+<DIV1 TYPE="title page">
+<PB REF="1"/>
+<P>THE NABOB; A COMEDY. WRITTEN by Mr. FOOTE, PUBLISHED by Mr. COLMAN.</P>
+<P>[Price One Shilling and Sixpence.]</P>
+</DIV1>
+<DIV1>
+<PB REF="2" MS="y"/>
+<P>THE <HI>NABOB</HI>; A COMEDY, IN THREE ACTS. AS IT IS PERFORMED AT THE THEATRE-ROYAL in the HAYMARKET. WRITTEN BY THE LATE <HI>SAMUEL FOOTE, Esq.</HI> AND NOW PUBLISHED BY <HI>Mr. COLMAN.</HI></P>
+<P>LONDON, <HI>Printed by T. Sherlock,</HI> For T. CADELL, in the Strand. <ABBR>MDCCLXXVIII.</ABBR></P>
+</DIV1>
+<DIV1 TYPE="prologue">
+<PB REF="3"/>
+<HEAD>PROLOGUE, Spoken by Mr. FOOTE, At the Theatre-Royal in DUBLIN, On the 19th of November, 1773.</HEAD>
+<L>UPWARDS of twenty years are sled and wasted</L>
+<L>Since in this spot your favour first I tasted.</L>
+<L>Urg'd by your smiles thro' various realms to roam,</L>
+<L>The Muse now brings her motley cargo home;</L>
+<L>For frugal Nature, with an equal hand,</L>
+<L>Bestows peculiar gifts to every land.</L>
+<L>To France she gave her rapid repartee,</L>
+<L>Bows, and <HI>bons mots,</HI> fibs, fashions, flattery,</L>
+<L>Shrugs, grins, grimace, and sportive gaiety:</L>
+<L>Arm'd with the whole artillery of love,</L>
+<L>Latium's soft sons possess the powers to move:</L>
+<L>Humour, the foremost of the festive crew,</L>
+<L>Source of the comic scene, she gave to you;</L>
+<L>Humour, with arched brow, and leering eye,</L>
+<L>Shrewd, solemn, sneering, subtle, slow and sly;</L>
+<L>Serious herself, yet laughter still provoking,</L>
+<L>By teasing, tickling, jeering, gibing, joking:</L>
+<L>Impartial gift, that owns nor rank nor birth!</L>
+<L>'Tis theirs who rule the realm, or till the earth;</L>
+<L>Theirs who in senates wage the wordy war,</L>
+<L>And theirs whose humble lot conducts the car:</L>
+<L>If aught deriv'd from her adorns my strain,</L>
+<L>You gave, at least discover'd first, the vein.</L>
+<L>Should wide experience, or maturing age,</L>
+<L>Have brought or mirth or moral to the stage,</L>
+<L><PB N="vi" REF="4"/>To you, the patrons of the wilder song,</L>
+<L>The chaster notes in justice must belong:</L>
+<L>But should infirmities with time conspire,</L>
+<L>My force to weaken or abate my fire,</L>
+<L>Less entertainment may arise to you,</L>
+<L>But to myself less danger will ensue.</L>
+<L>If age contracts my muscles, shrills my tone,</L>
+<L>No man will claim those foibles as his own;</L>
+<L>Nor, if I halt or hobble thro' the scene,</L>
+<L>Malice point out what citizen I mean:</L>
+<L>No foe I fear more than a legal fury,</L>
+<L>Unless I gain this circle for my jury.</L>
+</DIV1>
+<DIV1 TYPE="dramatis personae">
+<PB REF="5"/>
+<HEAD>DRAMATIS PERSONAE.</HEAD>
+<LIST>
+<LABEL>Sir MATTHEW MITE,</LABEL>
+<ITEM><HI>Mr. Foote.</HI></ITEM>
+<LABEL>Sir JOHN OLDHAM,</LABEL>
+<ITEM><HI>Mr. Gentleman.</HI></ITEM>
+<LABEL>Mr. THOMAS OLDHAM,</LABEL>
+<ITEM><HI>Mr. Aickin.</HI></ITEM>
+<LABEL>YOUNG OLDHAM,</LABEL>
+<ITEM><HI>Mr. Du-Bellamy.</HI></ITEM>
+<LABEL>Mr. MAYOR,</LABEL>
+<ITEM><HI>Mr. Parsons.</HI></ITEM>
+<LABEL>TOUCHIT,</LABEL>
+<ITEM><HI>Mr. Baddeley.</HI></ITEM>
+<LABEL>FIRST ANTIQUARIAN,</LABEL>
+<ITEM><HI>Mr. Loyd.</HI></ITEM>
+<LABEL>SECOND ANTIQUARIAN,</LABEL>
+<ITEM><HI>Mr. Hamilton.</HI></ITEM>
+<LABEL>SECRETARY,</LABEL>
+<ITEM><HI>Mr. Davis.</HI></ITEM>
+<LABEL>RAPINE,</LABEL>
+<ITEM><HI>Mr. Lings.</HI></ITEM>
+<LABEL>NATHAN,</LABEL>
+<ITEM><HI>Mr. Castle.</HI></ITEM>
+<LABEL>MOSES,</LABEL>
+<ITEM><HI>Mr. Jacobs.</HI></ITEM>
+<LABEL>JANUS,</LABEL>
+<ITEM><HI>Mr. Weston.</HI></ITEM>
+<LABEL>PUTTY,</LABEL>
+<ITEM><HI>Mr. Weston.</HI></ITEM>
+<LABEL>CONSERVE,</LABEL>
+<ITEM><HI>Mr. Fearon.</HI></ITEM>
+<LABEL>WAITER,</LABEL>
+<ITEM><HI>Mr. Ward.</HI></ITEM>
+<LABEL>LADY OLDHAM,</LABEL>
+<ITEM><HI>Mrs. Egerton.</HI></ITEM>
+<LABEL>SOPHY,</LABEL>
+<ITEM><HI>Miss Ambrose.</HI></ITEM>
+<LABEL>Mrs. MATCH'EM,</LABEL>
+<ITEM><HI>Mrs. Gardner.</HI></ITEM>
+<LABEL>CROCUS,</LABEL>
+<ITEM><HI>Miss Craven.</HI></ITEM>
+</LIST>
+<P>Beadle, Servants, <HI>&amp;c.</HI></P>
+</DIV1>
+</FRONT>
+<BODY>
+<DIV1 TYPE="play">
+<PB REF="6"/>
+<HEAD>THE NABOB.</HEAD>
+<DIV2 N="1" TYPE="act">
+<HEAD><HI>ACT I.</HI> A Chamber.</HEAD>
+<STAGE><HI>Enter Lady Oldham and Sir John Oldham.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Lady Oldham.</HI></SPEAKER>
+<P>NOT a syllable more will I hear!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Nay, but, my dear—</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I am amazed, Sir John, at your meanness! or that you could submit to give his paltry proposals so much as a reading!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Nay, my dear, what would you have had me done?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Done? returned them with the con∣tempt they deserved. But, come, unfold! I am calm: Reveal the pretty project your precious head has produced.</P>
+</SP>
+<SP>
+<PB N="2" REF="7"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Nay, my dear, as to that, my head produced—</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Nay, I don't wonder that shame has tied up your tongue! But, come; I will spare the confusion, and tell you what you would say. Here, Lady Oldham, Sir Matthew Mite has just sent me a letter, modestly desiring that, in return for the ruin he has brought on me and my house, I would be so kind as to bestow upon him my darling daughter, the hopes of my— And is it possible you can be mean enough to think of such an alliance? Will you, Sir John, oblige me with an answer to a few short questions?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Without doubt.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I suppose you consider yourself as sprung from a family at least as ancient as any in the county you live in?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>That I fancy will not be denied.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Nor was it, I fancy, dishonoured by an alliance with mine?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>My Lady, the very reverse.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>You succeeded, Sir, to a patrimony, which though the liberal and hospitable spirit of your predecessors would not suffer to encrease, yet their prudence took care should never be diminished?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>True.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>From the public and private virtues of
+<PB N="3" REF="8"/>
+your ancestors, the inhabitants of the neighbour∣ing borough thought their best and dearest in∣terests in no hands so secure as in theirs?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Right.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Nor till lately were they so tainted by the fashion of the times, as to adopt the egregious absurdity, That to be faithfully served and pro∣tected above, it was necessary to be largely bribed and corrupted below?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Why, I can't say, except now and then a bit of venison, or an annual dinner, they have ever put me to any great——</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Indulge me yet a moment, Sir John! In this happy situation, did the last year chear∣fully close; our condition, though not opulent, affluent, and you happy in the quiet possession of your family honours.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>There is no gainsaying of that.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Now, look at the dismal, shocking reverse!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>There is but too much reason in what your ladyship says.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>And consider, at the same time, to whom you are obliged.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Why, what could we do? your ladyship knows there was nobody more against my giving up than yourself.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Let me proceed. At this crisis,
+<PB N="4" REF="9"/>
+preceded by all the pomp of Asia, Sir Matthew Mite, from the Indies, came thundering amongst us; and, profusely scattering the spoils of ruined provinces, corrupted the virtue and alienated the affections of all the old friends to the family.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>That is nothing but truth.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Compelled by the same means to defend those that were employed in attacking your interest, you have been obliged deeply to encumber your fortune; his superior address has procured a return, and probably your petition will complete the ruin his opposition began.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Let us hope all for the best.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>And who can tell, but you may be soon forced to part with your patrimony, to the very insolent worthless individual, who has been the author of your distress?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>I would sooner perish, my Lady!</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Parallel instances may be produced; nor is it at all unlikely, but Sir Matthew, taking a liking to your family mansion, has pursued this very method to compel you to sell it.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>It is, my dear, to avoid this necessity that I wish you to give his letter a reading.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L Old.</HI></SPEAKER>
+<P>Is it possible, not to mention the mean∣ness, that you can be weak enough to expect any real service from that infamous quarter?</P>
+</SP>
+<SP>
+<PB N="5" REF="10"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Who can tell, my love, but a con∣sciousness of the mischief he has done us, may have roused some feelings that—</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>His feelings! will he listen to a pri∣vate complaint, who has been deaf to the cries of a people? or drop a tear for particular dis∣tress, who owes his rise to the ruin of thousands?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Well, Lady Oldham, I find all that I say signifies nothing. —But here comes brother Thomas; two heads are better than one; let us take his opinion, my love.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>What need of any opinion? the case is too clear; nor indeed, if there had been a necessity for consulting another, should I have thought your brother the properest man to ad∣vise with on the occasion.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>And why not? there is not a mer∣chant whose judgment would be sooner taken.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Perhaps not, on the value of mer∣chandize, or the goodness of a Bill of Exchange: But there is a nicety, a delicacy, an elevation of sentiment, in this case, which people who have narrowed their notions with commerce, and con∣sidered during the course of their lives their in∣terest alone, will scarce comprehend.</P>
+</SP>
+<STAGE><HI>Enter Mr. Thomas Oldham.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>So, sister! what! upon your old topic, I find?</P>
+</SP>
+<SP>
+<PB N="6" REF="11"/>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Sir!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Some pretty comparisons, I suppose, not much to the honour of trade.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Nay, brother, you know I have always allowed merchants to be a useful body of men; and considered commerce, in this country, as a pretty resource enough for the younger shoots of a family.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Exceedingly condescending, indeed! And yet, sister, I could produce you some in∣stances where the younger shoots have flou∣rished and throve, when the reverend trunk has decayed.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Perhaps, brother Thomas—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, nay, don't let us revive our antient disputes!—You seem warm; no misun∣derstanding, I hope?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>No, no; none, in the least: You know, my lady's temper's apt to be lively now and then.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, sister—But, come! what ha<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> occasioned this mighty debate?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>You know, brother, how affair stand between Sir Matthew and us.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Well!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>He has sent us here a kind of compromise; I don't know well what to ca<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> it; a sort of a treaty.</P>
+</SP>
+<SP>
+<PB N="7" REF="12"/>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>That in your hand?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Yes; and I can't prevail on my lady to give it a reading.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And why not?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>To what end?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>A very natural one; in order to know the contents.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Of what importance can they be to us?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>That the letter will tell you. But surely, Lady Oldham, you are rather too nice. Give it me!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Is it your ladyship's pleasure?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Psha! here's a rout, indeed!—One would be apt to suspect that the packet was pestilential, and came from the Archipelago, instead of the Indies. Now let us see what this formidable memorial contains! <STAGE><HI>opens the letter.</HI></STAGE> <Q>“To Sir John Oldham. Sir Matthew Mite hav∣ing lately seen, at Lady Levant's rout, the eldest Miss Oldham, and being struck with her personal charms, proposes to her father ”the following treaty.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>A very monarchical address!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P><Q>“<HI>Imprimis</HI>; Upon a matrimonial union between the young lady and him, all hostilities and contention shall cease, and Sir ”John be suffered to take his seat in security.</Q></P>
+</SP>
+<SP>
+<PB N="8" REF="13"/>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>That he will do, without an obliga∣tion to him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Are you, sister, certain of that?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>You don't harbour the least doubt of our merits?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But do they always prevail?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>There is now, brother Thomas, no danger to dread; the restraint the popular part of government has in this instance laid on itself, at the same time that it does honour to them, distributes equal justice to all.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And are you aware what the expence will be to obtain it?—But, pray, let me pro∣ceed!—<Q>“Secondly, as Sir Matthew is bent upon a large territorial acquisition in England, and Sir John Oldham's finances are at present a lit∣tle out of repair, Sir Matthew Mite will make up the money already advanced in another name, by way of future mortgage upon his estate, for the entire purchase, five lacks of ”roupees.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Now, Sir John! was I right in my guess?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Your ladyship is never out.—But, brother Thomas, these same lacks—to what may they amount?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Sixty thousand, at least.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>No inconsiderable offer, my lady.</P>
+</SP>
+<SP>
+<PB N="9" REF="14"/>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Contemptible! But pray, Sir, proceed.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P><Q>“Or if it should be more agreeable to the parties, Sir Matthew will settle upon Sir John and his Lady, for their joint lives, ”a jagghire.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>A jagghire?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>The term is Indian, and means an annual income.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>What strange jargon he deals in!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>His stile is a little Oriental, I must own; but most exceedingly clear.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Yes, to Cossim Ali-Khan, or Mier Jaffeir. I hope you are near the conclusion.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But two articles more, <STAGE><HI>reads</HI></STAGE> <Q>“And that the principals may have no cares for the younger parts of their family, Sir Matthew will, at his own expence, transport the two young ladies, Miss Oldham's two sisters, to Madrass or Calcutta, and there procure them ”suitable husbands.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Madrass, or Calcutta!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Your patience, dear sister!—<Q>“And as for the three boys, they shall be either made supercargoes, ships' husbands, or go out cadets ”and writers in the Company's service.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Why, he treats my children like a parcel of convicts: Is this their method of sup∣plying their settlements?</P>
+</SP>
+<SP>
+<PB N="10" REF="15"/>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>This, with now and then a little kid∣napping, dear sister.—Well, madam, you have now the means of getting rid of all your offspring at once: Did not I tell you the paper was worth your perusal? You will reply to his wish; you can have no doubts, I suppose.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Not the least, as I will shew you. <STAGE><HI>Tears the letter.</HI></STAGE> And, if Sir John has the least spirit or pride, he will treat the insolent principal as I do his proposals.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But that method, as things stand, may not be altogether so safe. I am sorry you were so hasty in destroying the letter: If I remember rightly, there is mention made of advancing money in another man's name.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>We have been compelled to borrow, I own; but I had no conception that he was the lender.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>That's done by a common contrivance; not a country lawyer but knows the doctrine of transfer.—How much was the sum?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Ten thousand pounds.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And what, Sir John, were the terms?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>As I could give no real security, my estate being settled till my son John comes of age▪ I found myself obliged to comply with all that was asked.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>A judgment, no doubt.</P>
+</SP>
+<SP>
+<PB N="11" REF="16"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>They divided the sum, and I gave them a couple.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Which will affect not only your per∣son, but personal property; so they are both in his power.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Too true, I am afraid!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And you may be sent to a gaol, and your family turned into the streets, whenever he pleases.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>How! Heaven forbid!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Not the least doubt can be made.— This is an artful project: No wonder that so much contrivance and cunning has been an over∣match for a plain English gentleman, or an inno∣cent Indian. And what is now to be done? Does your daughter Sophy know of this letter?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Sir John?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>It reached my hands not ten minutes ago.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I had some reason to think, that, had you complied, you would not have found her very eager to second your wishes.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I don't know that, brother: Young girls are easily caught with titles and splendor; magnificence has a kind of magick for them.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I have a better opinion of Sophy. You know, Lady Oldham, I have often hinted, that my boy was fond of his cousin; and possibly
+<PB N="12" REF="17"/>
+my niece not totally averse to his wish; but you have always stopp'd me short, under a notion that the children were too nearly allied.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Why, brother, don't yon think——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But that, sister, was not the right reason; you could have easily digested the <HI>cousins,</HI> but the <HI>compting-house</HI> stuck in his way: Your favourite maxim has been, that citizens are a distinct race, a sort of creatures that should mix with each other.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Bless me, brother, you can't conceive that I—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, no apology, good Lady Oldham! perhaps you have a higher alliance in view; and let us now consider what is to be done. You are totally averse to this treaty?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Can that be a question?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Some little management is necessary, as to the mode of rejection: As matters now stand, it would not be prudent to exasperate Sir Matthew.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Let Sir John discharge the debt due to him at once.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But where shall we get materials?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Can that be a difficult task?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Exceedingly so, as I apprehend: But few can be found to advance so large a sum on such slender security; nor is it to be expected,
+<PB N="13" REF="18"/>
+indeed, unless from a friend to relieve, or a foe to ruin.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Is it possible Sir Matthew can have acted from so infernal a motive, to have advanced the money with a view of distressing us deeper?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Sir Matthew is a profound politi∣cian, and will not stick at trifles to carry his point.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>With the wealth of the East, we have too imported the worst of its vices. What a horrid crew!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Hold, sister! don't gratify your re∣sentment at the expence of your justice; a gene∣ral conclusion from a single instance is but in∣different logick.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Why, is not this Sir Matthew——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Perhaps as bad a subject as your passion can paint him: But there are men from the Indies, and many too, with whom I have the honour to live, who dispense nobly and with hospitality here, what they have acquired with honour and credit elsewhere; and, at the same time they have increased the dominions and wealth, have added virtues too to their country.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Perhaps so: But what is to be done? Suppose I was to wait on Sir Matthew myself.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>If your ladyship is secure of com∣manding your temper.</P>
+</SP>
+<SP>
+<PB N="14" REF="19"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Mercy on us, brother Thomas, there's no such thing as trusting to that!</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>You are always very obliging, Sir John! if the embassy was to be executed by you——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Come, come, to end the dispute, I will undertake the commission myself.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>You will take care, brother, to make no concessions that will derogate from——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Your dignity, in my hands, will have nothing to fear.—But should not I see my niece first? she ought to be consulted, I think.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>By all means.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>For, if she approves of the knight, I don't see any thing in the alliance so much to be dreaded.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I will send Sophy to her uncle di∣rectly; but I desire the girl may be left to her∣self; no undue influence!<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>The caution was needless.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Why, really, now, brother, but that my lady's too warm, I don't see any thing so very unreasonable in this same paper here that lies scattered about. But, I forget, did he men∣tion any thing of any fortune he was to have with the girl?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Pho! a paltry consideration, below his concern.</P>
+</SP>
+<SP>
+<PB N="15" REF="20"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>My lady herself must own there is something generous in that.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Will you stay and represent the case to Sophy yourself?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<L>She is here!</L>
+<STAGE><HI>Enter Sophy.</HI></STAGE>
+<L>Your uncle, child, has something to say to you:</L>
+<L>You know he loves you, my dear, and will ad∣vise you for the best.<STAGE><HI>Exit.</HI></STAGE></L>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Come hither, Sophy, my love! don't be alarmed. I suppose my lady has opened to you, that Sir Matthew has sent a strange kind of a romantic letter.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>But she did not seem, Sir, to suppose that it deserved much attention.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>As matters now stand, perhaps more than she thinks. But come, my good girl, he explicit: Suppose the affairs of your family should demand a compliance with this whimsical letter, should you have any reluctance to the union proposed?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Me, Sir? I never saw the gentleman but once in my life.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And I don't think that would interest you much in his favour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Sir!</P>
+</SP>
+<SP>
+<PB N="16" REF="21"/>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>No prepossession? no prior object that has attracted your notice?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>I hope, Sir, my behaviour has not occasioned this question.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Oh, no, my dear; it naturally took its rise from the subject. Has your cousin lately been here?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Sir!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Tom Oldham, my son?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>We generally see him, Sir, every day.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I am glad to hear that: I was afraid some improper attachment had drawn him from the city so often of late.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Improper! I dare say, Sir, you will have nothing of that kind to fear from my cousin.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I hope not: And yet I have had my suspicions, I own; but not unlikely you can re∣move 'em: Children rarely make confidants of their fathers.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Sir!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Similarity of sentiments, nearness of blood, and the same season of life, perhaps may have induced him to unbosom to you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Do you suppose, Sir, that he would discover to me, what he chose to conceal from so affectionate a father?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, prithee, Sophy, don't be grave! What, do you imagine I should think his pre∣ferring
+<PB N="17" REF="22"/>
+your ear to mine, for a melting passionate tale, any violent breach of his duty?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>You are merry, Sir.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And who knows but you might re∣pay the communication with a similar story? You blush, Sophy.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>You are really pleased to be so very particular, that I scarce know what answer to make.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Come, my good niece, I will perplex you no longer: My son has concealed nothing from me; and did the completion of your wishes depend on my approbation alone, you would have but little to fear: But my lady's notions are so very peculiar, you know, and all her prin∣ciples so determined and fixed——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>The merits of my cousin, which she herself is not slow to acknowledge, and time, might, I should hope, soften my mother.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Why then, my dear niece, leave it to time, in most cases the ablest physician. But let your partiality for Tom be a secret!—I must now endeavour to learn when I can obtain an audience from Sir Matthew.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>An audience from <HI>him?</HI></P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Yes, child; these new gentlemen, who from the caprice of Fortune, and a strange
+<PB N="18" REF="23"/>
+chain of events, have acquired immoderate wealth, and rose to uncontroled power abroad, find it difficult to descend from their dignity, and ad∣mit of any equal at home. Adieu, my dear niece! But keep up your spirits! I think I fore∣see an event that will produce some change in our favour.<STAGE><HI>Exeunt.</HI></STAGE></P>
+</SP>
+<STAGE><HI>Sir Matthew Mite's Hall.</HI></STAGE>
+<STAGE><HI>Janus and Conserve discovered.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>I own the place of a porter, if one can bear the confinement—And then, Sir Matthew has the character of—<STAGE><HI>low tap.</HI></STAGE> Use no cere∣mony, Mr. Janus; mind your door, I beseech you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No hurry! keep your seat, Mr. Con∣serve; it's only the tap of a tradesman: I make those people stay till they collect in a body, and so let in eight or ten at a time; it saves trouble.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>And how do they brook it?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Oh, wonderfully well, here with us. In my last place, indeed, I thought myself bound to be civil; for as all the poor devils could get was good words, it would have been hard to have been sparing of them.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Very considerate!</P>
+</SP>
+<SP>
+<PB N="19" REF="24"/>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>But here we are rich; and as the fel∣lows don't wait for their money, it is but fair they should wait for admittance.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Or they would be apt to forget their condition.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>True.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Upon the whole, then, you do not re∣gret leaving my lord?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No; Lord Levee's place had its sweets, I confess; perquisites pretty enough: But what could I do? they wanted to give me a rider.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>A rider?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Yes; to quarter Monsieur Frissart, my Lady's valet de chambre, upon me; so you know I could not but in honour resign.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>No; there was no bearing to be rid by a Frenchman; there was no staying in after that.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>It would have been quoted as a pre∣cedent against the whole corps.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Yes. Pox on 'em! our masters are damned fond of encroachments. Is your pre∣sent duty severe?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>I drudge pretty much at the door; but that, you know, is mere bodily labour: But then, my mind is at ease; not obliged to rack my brain for invention.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>No?</P>
+</SP>
+<SP>
+<PB N="20" REF="25"/>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No; not near the lying here, as in my last place.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>I suppose not, as your master is but newly in town; but you must expect that branch to encrease.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>When it does, I shall insist the door be done by a deputy.<STAGE><HI>Two raps.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Hark! to your post!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No; sit still! that is some aukward body out of the city; one of our people from Leadenhall-Street; perhaps a director; I sha'n't stir for him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Not for a director? I thought he was the commanding officer, the Great Captain's captain.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No, no; quite the reverse; the tables are turned, Mr. Conserve: In acknowledgment for appointing us their servants abroad, we are so obliging as to make them directors at home.</P>
+</SP>
+<STAGE><HI>A loud rapping.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>That rap will rouse you, I think.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Let me take a peep at the wicket. Oh, oh! is it you, with a pox to you? How the deuce came your long legs to find the way hi∣ther?—I shall be in no haste to open for you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Who is it?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>That eternal teizer, Sir Timothy Tall∣boy.
+<PB N="21" REF="26"/>
+When once he gets footing, there is no such thing as keeping him out.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>What, you know him then?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Yes, rot him, I know him too well! he had like to have lost me the best place I ever had in my life.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>How so?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Lord Lofty had given orders on no account to admit him. The first time, he got by me under a pretence of stroking Keeper the house-dog; the next, he nick'd me by desiring only just leave to scratch the poll of the parrot, Poll, Poll, Poll! I thought the devil was in him if he deceived me a third; but he did, notwith∣standing.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Prithee, Janus, how?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>By begging to set his watch by Tompion'<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> clock in the Hall; I smoaked his design, and laid hold of him here: <STAGE><HI>taking hold of his coat.</HI></STAGE> As sure as you are alive, he made but one leap from the stairs to the study, and left the skirt of his coat in my hand?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>You got rid of him then?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>He made one attempt more; and, for fear he should slip by me, (for you know he is as thin as a slice of beef at Marybone-Gardens), I slapped the door in his face, and told him, the dog was mad, the parrot dead, and the clock
+<PB N="22" REF="27"/>
+stood; and, thank Heaven, I have never sat eyes on him since.<STAGE><HI>Knock louder.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>But the door!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Time enough.—You had no particular commands, master Conserve?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Only to let you know that Betsy Robins has a rout and supper on Sunday next.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Constant still, Mr. Conserve, I see. I am afraid I can't come to cards; but shall be sure to attend the repast. A nick-nack, I suppose?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Yes, yes; we all contribute, as usual: The substantials from Alderman Sirloin's; Lord Frippery's cook finds fricasees and ragouts; Sir Robert Bumper's butler is to send in the wine; and I shall supply the desert.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>There are a brace of birds and a hare, that I cribbed this morning out of a basket of game.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>They will be welcome.—<STAGE><HI>Knock louder.</HI></STAGE> But the folks grow impatient!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>They must stay till I come.—At the old place, I suppose?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>No; I had like to have forgot! Betsy grew sick of St. Paul's, so I have taken her a house amongst the new buildings; both the air and the company is better.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Right.</P>
+</SP>
+<SP>
+<PB N="23" REF="28"/>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>To say truth, the situation was disagree∣able on many accounts. Do you know, though I took care few people should behave better at Christmas, that because he thought her a citizen, the housekeeper of Drury-Lane Theatre, when his master mounted, refused her a side-box?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No wonder Miss Betsy was bent upon moving.—What is the name of her street?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Cons.</HI></SPEAKER>
+<P>Rebel-Row: It was built by a messenger who made his market in the year forty-five. But shall Miss Robins send you a card?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>No, no; I shall easily find out the place. <STAGE><HI>Knock.</HI></STAGE> Now let us see; who have we here? Gads my life, Mrs. Match'em! my master's amorous agent: It is as much as my place is worth to let her wait for a minute.</P>
+</SP>
+<STAGE><HI>Opens the door. Exit Cons.</HI></STAGE>
+<STAGE><HI>Enter Mrs. Match'em, some Tradespeople, who bow low to Janus, and Thomas Oldham.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>So, Sir! this is pretty treatment, for a woman like me to dangle at your gate, sur∣rounded by a parcel of tradespeople!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>I beg pardon; but, madam—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Suppose any of my ladies had chanced to drive by: In a pretty situation they'd have seen me! I promise you I shall make my com∣plaints to Sir Matthew.</P>
+</SP>
+<SP>
+<PB N="24" REF="29"/>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>I was receiving some particular com∣mands from my master.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>I shall know that from him. Where is he? let him know I must see him directly; my hands are so full I have not a moment to spare.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>At that door the groom of the cham∣ber will take you in charge; I am sure you'll be admitted as soon as announced.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>There is as much difficulty to get a sight of this signior, as of a member when the parliament's dissolved!<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Soh! what, you have brought in your bills? damned punctual, no doubt! The stew∣ard's room is below.—And, do you hear? when you are paid, be sure to sneak away without see∣ing me.</P>
+</SP>
+<SP>
+<SPEAKER><HI>All Trades.</HI></SPEAKER>
+<P>We hope you have a better opi∣nion—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Well, well, march! <STAGE><HI>Exe. Tradesmen.</HI></STAGE> So, friend; what is your business, pray?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I have a message to deliver to Sir Matthew.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>You have? and pray what is the pur∣port?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>That's for his ear alone.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>You will find yourself mistaken in that.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>How?</P>
+</SP>
+<SP>
+<PB N="25" REF="30"/>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>It must make its way to his, by passing thro' mine.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Is that the rule of the house?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Ay; and the best way to avoid idle and impertinent pratlers.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>And of that you are to judge?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Or I should not be fit for my post. But, you are very importunate; who are you? I suppose a Jew broker, come to bring my master the price of the stocks?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>No.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Or some country cousin, perhaps?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nor that neither.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>Or a voter from our borough below? we never admit them but against an election.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Still wide of the mark.—<STAGE><HI>Aside.</HI></STAGE> There is but one way of managing here; I must give the Cerberus a sop, I perceive.—Sir, I have really business with Sir Matthew, of the utmost importance; and if you can obtain me an in∣terview, I shall think myself extremely obliged.</P>
+</SP>
+<STAGE><HI>Gives money.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>As I see, Sir, by your manner, that it is a matter of moment, we will try what can be done; but you must wait for his levee; there is no seeing him yet.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>No?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>He is too busy at present; the waiter
+<PB N="26" REF="31"/>
+at Almack's has just brought him home his macaroni dress for the hazard-table, and is in∣structing him to throw the dice with a grace.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Then where can I wait?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Janus.</HI></SPEAKER>
+<P>If you will step into that room, I will take care to call you in time.<STAGE><HI>Exit Mr. Old.</HI></STAGE> —<STAGE><HI>Looking at the money.</HI></STAGE> A good sensible fellow! At first sight, how easily one may be mistaken in men!<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+</DIV2>
+<DIV2 N="2" TYPE="act">
+<PB N="27" REF="32"/>
+<HEAD><HI>ACT II.</HI> A Chamber. Sir Matthew Mite in his gaming dress, a Waiter attending.</HEAD>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>MAIN and chance?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Five to nine, please your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I am at all that is set. How must I proceed?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>With a tap, as the chances are equal; then raise the box genteelly and gently, with the finger and thumb.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Thus?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Exactly, your honour. Cinque and quater: You're out.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What is next to be done?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Flitt the bones with an air of indiffe∣rence, and pay the money that's set.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Will that do?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>With a little more experience, your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Then pass the box to my neighbour?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Yes; or you make a back hand, if you please.</P>
+</SP>
+<SP>
+<PB N="28" REF="33"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Cou'dn't you give me some general rules? for then, you know, I might practise in private.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>By all means. Seven, Sir, is better nicked by a stamp.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>So?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Yes. When you want to throw six and four, or two cinques, you must take the long gallery, and whirl the dice to the end of the table.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Thus?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Pretty well, please your honour. When your chance is low, as tray, ace, or two deuces, the best method is to dribble out the bones from the box.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Will that do?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Your honour comes rapidly on.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>So that, perhaps, in a couple of months, I shall be able to tap, flirt, stamp, dribble, and whirl, with any man in the club?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>As your honour has a genius, you will make a wonderful progress, no doubt: But these nice matters are not got in a moment; there must be parts, as well as practice, your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What! parts for the performance of this?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>This? Why, there's Sir Christopher Clumsey, in the whole losing his fortune, (and
+<PB N="29" REF="34"/>
+I believe he was near a twelvemonth about it) never once threw, paid, or received, with one atom of grace.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>He must have been a dull devil, indeed.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>A mere dunce! got no credit by losing his money; was ruined without the least reputation.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Perhaps so. Well, but, Dick, as to the oaths and phrases that are most in use at the club?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>I have brought them here in this pa∣per: As soon as your honour has got them by heart, I will teach you when and in what man∣ner to use them.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P><STAGE><HI>after looking at the paper.</HI></STAGE>How long do you apprehend before I may be fit to appear at the table?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>In a month or six weeks. I would advise your honour to begin in the Newmarket week, when the few people left do little better than piddle.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Right: So I shall gain confidence against the club's coming to town.</P>
+</SP>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Mrs. Crocus, from Brompton, your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Has she brought me a bouquet?</P>
+</SP>
+<SP>
+<PB N="30" REF="35"/>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Your honour?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Any nosegays, you blockhead?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>She has a boy with a basket.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Shew her in! <STAGE><HI>Exit Servant.</HI></STAGE>—Well, Dick, you will go down to my steward, and teach him the best method of making a rouleau. And, do you hear? let him give you one for your pains.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Waiter.</HI></SPEAKER>
+<P>Your honour's obedient! You'd have me attend every morning?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Without doubt: It would be madness to lose a minute, you know.<STAGE><HI>Exit Waiter.</HI></STAGE></P>
+<STAGE><HI>Enter Mrs. Crocus.</HI></STAGE>
+<P>Well, Mrs. Crocus; let us see what you have brought me. Your last bouquet was as big as a broom, with a tulip strutting up like a ma∣gistrate's mace; and, besides, made me look like a devil.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>I hope your honour could find no fault with the flowers? It is true, the polyan∣thuses were a little pinched by the easterly winds; but for pip, colour, and eye, I defy the whole parish of Fulham to match 'em.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Perhaps not; but it is not the flowers, but the mixture, I blame. Why, here now, Mrs. Crocus, one should think you were out of your senses, to cram in this clump of jonquils!</P>
+</SP>
+<SP>
+<PB N="31" REF="36"/>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>I thought your honour was fond of their smell.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Damn their smell! it is their colour I talk of. You know my complexion has been tinged by the East, and you bring me here a blaze of yellow, that gives me the jaundice. Look! do you see here, what a fine figure I cut? You might as well have tied me to a bundle of sun-flowers!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>I beg pardon, your honour!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Pardon! there is no forgiving faults of this kind. Just so you served Harry Hectic; you stuck into his bosom a parcel of hyacinths, though the poor fellow's face is as pale as a primrose.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>I did not know——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And there, at the opera, the poor crea∣ture sat in his side-box, looking like one of the figures in the glass-cases in Westminster-Abbey; dead and drest!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>If gentlemen would but give direc∣tions, I would make it my study to suit 'em.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>But that your cursed climate won't let you. Have you any pinks or carnations in bloom?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>They are not in season, your honour. Lillies of the valley—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I hate the whole tribe! What, you
+<PB N="32" REF="37"/>
+want to dress me up like a corpse! When shall you have any rose-buds?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>The latter end of the month, please your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>At that time you may call.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Crocus.</HI></SPEAKER>
+<P>Your honour has no further com∣mands?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>None. You may send nosegays for my chairmen, as usual. <STAGE><HI>Exit Mrs. Crocus.</HI></STAGE> Pic∣card! Here, take that garland away: I believe the woman thought she was dressing a may-pole. Make me a bouquet with the artificial flowers I brought from Milan.</P>
+</SP>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Would your honour please to see Ma∣dam Match'em?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Introduce her this instant.</P>
+<STAGE><HI>Enter Mrs. Match'em.</HI></STAGE>
+<P>My dear Match'em! Well, what news from Cheapside?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Bad enough; very near a total defeat.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>How so? you were furnished with am¦ple materials.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>But not of the right kind, please your honour. I have had but little intercourse with that part of the world: My business has chiefl<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/>
+<PB N="33" REF="38"/>
+lain on this side of the Bar; and I was weak enough to think both cities alike.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And arn't they?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>No two nations can differ so widely! Though money is supposed the idol of mer∣chants, their wives don't agree in the worship.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>In that article I thought the whole world was united.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>No; they don't know what to do with their money; a Pantheon subscription, or a masquerade ticket, is more negotiable there than a note from the Bank.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What think you of a bracelet, or a well-fancied aigret?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>I should think they must make their way.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I have sent some rough diamonds to be polished in Holland; when they are returned, I will equip you, Match'em, with some of these toys.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Toys? how light he makes of these things!—Bless your noble and generous soul! I believe for a trifle more I could have obtained Lady Lurcher last night.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Indeed?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>She has been pressed a good deal to discharge an old score, long due to a knight from the North; and play-debts, your honour
+<PB N="34" REF="39"/>
+knows, there is no paying in part: She seemed deeply distressed; and I really believe another hun∣dred would have made up the sum.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And how came you not to advance it?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>I did not chuse to exceed my com∣mission; your honour knows the bill was only for five.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Oh, you should have immediately made it up; you know I never stint myself in these matters.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Why, had I been in cash, I believe I should have ventured, your honour. If your honour approves, I have thought of a project that will save us both a good deal of trouble.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Communicate, good Mrs. Match'em!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>That I may not pester you with ap∣plications for every trifle I want, suppose you were to deposit a round sum in my hands.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What, Match'em, make you my banker for beauty? Ha, ha, ha!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Exactly, your honour. Ha, ha, ha!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Faith, Match'em, a very good conceit.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>You may depend on my punctuality in paying your drafts.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I don't harbour the least doubt of your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Would you have me proceed in Patty Parrington's business? She is expected from Bath in a week.</P>
+</SP>
+<SP>
+<PB N="35" REF="40"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And what becomes of her aunt?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>That Argus is to be left in the country.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>You had better suspend your operations for a while. Do you know, Mrs. Match'em, that I am a-going to be married?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Married? your honour's pleased to be pleasant: That day I hope never to see.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>The treaty wants nothing but her friends' ratification; and I think there is no danger of their with-holding that.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Nay, then, the matter is as good as concluded: I was always in dread of this fatal stroke!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>But, March'em, why should you be so averse to the measure?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Can it be thought, that with dry eyes I could bear the loss of such a friend as your honour? I don't know how it is, but I am sure I never took such a fancy to any man in my life.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Nay, Match'em!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Something so magnificent and princely in all you say or do, that a body has, as I may say, a pleasure in taking pains in your service.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Well, but prithee, child——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>And then, when one has brought matters to bear, no after-reproaches, no grum∣blings from parties, such general satisfaction on all sides! I am sure, since the death of my hus∣band,
+<PB N="36" REF="41"/>
+band, as honest a man, except the thing he died for—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>How came that about, Mrs. Match'em?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Why, Kit was rather apt to be careless, and put a neighbour's name to a note without stopping to ask his consent.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Was that all?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Nothing else. Since that day, I saw no mortal has caught my eye but your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Really, Match'em?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>I can't say, neither, it was the charms of your person—though they are such as any lady might like—but it was the beauties of your mind, that made an impression upon me.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Nay, prithee, Match'em, dry up your tears! you distress me! Be persuaded you have nothing to fear.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>How!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why, you don't suppose that I am prompted to this project by passion?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>No?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Pho! no; only wanted a wife to com∣plete my establishment; just to adorn the head of my table.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>To stick up in your room, like any other fine piece of furniture?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Nothing else; as an antique bust or a picture.</P>
+</SP>
+<SP>
+<PB N="37" REF="42"/>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>That alters the case.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Perhaps, I shall be confined a little at first; for when you take or bury a wife, decency requires that you should keep your house for a week: After that time, you will find me, dear Match'em, all that you can wish.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Ah! that is more than your honour can tell. I have known some of my gentlemen, before marriage, make as firm and good resolu∣tions not to have the least love or regard for their wives; but they have been seduced after all, and turned out the poorest tame family fools!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Indeed?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Good for nothing at all.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>That shall not be my case.</P>
+</SP>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Your honour's levee is crouded.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I come. Piccard, give me my coat!—I have had some thoughts of founding in this town a seraglio; they are of singular use in the Indies: Do you think I could bring it to bear?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>Why, a customer of mine did formerly make an attempt; but he pursued too violent measures at first; wanted to confine the ladies against their consent; and that too in a country of freedom.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Oh, fy! How the best institutions may fail, for want of a man proper to manage!</P>
+</SP>
+<SP>
+<PB N="38" REF="43"/>
+<SPEAKER><HI>Match.</HI></SPEAKER>
+<P>But your honour has had great ex∣perience. If you would bestow the direction on me—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Impossible, Match'em! in the East we never confide that office to your sex or com∣plexion. I had some thoughts of importing three blacks from Bengal, who have been properly prepared for the service; but I sha'n't venture till the point is determined whether those crea∣tures are to be considered as mere chattels, or men.<STAGE><HI>Exeunt.</HI></STAGE></P>
+</SP>
+<STAGE><HI>A Saloon.</HI></STAGE>
+<STAGE><HI>Enter Mayor, Touchit, Nathan, Moses, &amp;c.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Walk in, gentlemen! his honour will be presently here.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Do you see, Mr. Mayor? look about you! here are noble apartments!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>Very fine, very curious, indeed! But, after all, Master Touchit, I am not so over-fond of these Nabobs; for my part, I had rather sell myself to somebody else.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>And why so, Mr. Mayor?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>I don't know—they do a mortal deal of harm in the country: Why, wherever any of them settles, it raises the price of provisions for thirty miles round. People rail at seasons and crops; in my opinion, it is all along with them there folks, that things are so scarce.</P>
+</SP>
+<SP>
+<PB N="39" REF="44"/>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Why, you talk like a fool! Suppose they have mounted the beef and mutton a trifle; a'n't we obliged to them too for raising the value of boroughs? You should always set one against t'other.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>That, indeed, is nothing but fair. But how comes it about? and where do these here people get all their wealth?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>The way is plain enough; from our settlements and possessions abroad.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>Oh, may be so. I've been often minded to ask you what sort of things them there settle∣ments are; because why, as you know, I have been never beyond sea.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Oh, Mr. Mayor, I will explain that in a moment: Why, here are a body of mer∣chants that beg to be admitted as friends, and take possession of a small spot in a country, and carry on a beneficial commerce with the inoffensive and innocent people, to which they kindly give their consent.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>Don't you think now that is very civil of them?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Doubtless. Upon which, Mr. Mayor, we cunningly encroach, and fortify by little and by little, till at length, we growing too strong for the natives, we turn them out of their lands, and take possession of their money and jewels.</P>
+</SP>
+<SP>
+<PB N="40" REF="45"/>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>And don't you think, Master Touchit, that is a little uncivil in us?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Oh, nothing at all: These people are but a little better than Tartars or Turks.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mayor.</HI></SPEAKER>
+<P>No, no, Master Touchit; just the reverse; it is <HI>they</HI> have caught the Tartars in us.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Ha, ha, ha! well said, Mr. Mayor. But, hush! here comes his honour. Fall back!</P>
+</SP>
+<STAGE><HI>Enter Sir Matthew Mite.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Oh, Nathan! are you there? You have split the stock, as I bid you?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>I vas punctually obey your directions.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And I shall be in no danger of losing my list?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>Dat is safe, your honour; we have noting to fear.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Moses Mendoza! You will take care to qualify Peter Pratewell and Counsellor Quibble? I shall want some speakers at the next General Court.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Moses.</HI></SPEAKER>
+<P>Please your honour, I shall be careful of dat.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>How is the stock?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Moses.</HI></SPEAKER>
+<P>It vas got up the end of the veek.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Then sell out till you sink it two and a half. Has my advice been followed for burning the tea?</P>
+</SP>
+<SP>
+<PB N="41" REF="46"/>
+<SPEAKER><HI>Moses.</HI></SPEAKER>
+<P>As to dat matter, I vas not enquire dat; I believe not.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>So that commodity will soon be a drug. The English are too proud to profit by the prac∣tice of others: What would become of the spice trade, if the Dutch brought their whole growth to market?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Moses.</HI></SPEAKER>
+<P>Dat is very true. Your honour has no farder commands?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>None at present, master Mendoza.</P>
+</SP>
+<STAGE><HI>Exit Mendoza.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>For de next settlement, would your honour be de bull or de bear?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I shall send you my orders to Jona∣than's. Oh, Nathan! did you tell that man in Berkshire, I would buy his estate?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>Yes; but he say he has no mind, no occasion to sell it; dat de estate belong to great many faders before him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why, the man must be mad; did you tell him I had taken a fancy to the spot, when I was but a boy?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>I vas tell him as much.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And that all the time I was in India, my mind was bent upon the purchase?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>I vas say so.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And now I'm come home, am deter∣mined to buy it?</P>
+</SP>
+<SP>
+<PB N="42" REF="47"/>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>I make use of de very vords.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Well then! what would the booby be at?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Nathan.</HI></SPEAKER>
+<P>I don't know.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Give the fellow four times the value, and bid him turn out in a month.—<STAGE><HI>To Touchit.</HI></STAGE> May I presume, Sir, to ask who you are, and what your business may be?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>My name, Sir, is Touchit, and these gentlemen some friends and neighbours of mine. We are ordered by the Christian Club, of the borough of Bribe'em, to wait upon your honour, with a tender of the nomination of our two members at the ensuing election.</P>
+</SP>
+<SP>
+<SPEAKER><HI><GAP DESC="illegible" EXTENT="1 letter" DISP="•"/>ite.</HI></SPEAKER>
+<P>Sir, I accept their offer with pleasure; and am happy to find, notwithstanding all that has been said, that the union still subsists be∣tween Bengal and the ancient corporation of Bribe'em.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>And if they ever are severed, I can assure your honour the Christian Club will not be to blame. Your honour understands me, I hope?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Perfectly. Nor shall it, I promise you, be my fault, good Mr. Touchit. But, (you will forgive my curiosity, Sir!) the name your club has adopted, has at first at whimsical sound; but you had your reasons, no doubt.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>The very best in the world, please
+<PB N="43" REF="48"/>
+your honour: From our strict union and bro∣therly kindness, we hang together; like the primitive Christians too, we have all things in common.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>In common? I don't apprehend you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Why, please your honour, when the bargain is struck, and the deposit is made, as a proof that we love our neighbours as well as ourselves, we submit to an equal partition; no man has a larger share than another.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mile.</HI></SPEAKER>
+<P>A most Christian-like dispensation!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Yes; in our borough all is unanimity now: Formerly, we had nothing but discontents and heart-burnings amongst us; each man jea∣lous and afraid that his neighbour got more and did better than him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Indeed?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Ay, and with reason sometimes. Why, I remember, at the election some time ago, when I took up my freedom, I could get but thirty guineas for a new pair of jack-boots; whilst Tom Ramskin over the way had a fifty-pound note for a pair of wash-leather breeches.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Very partial indeed!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>So, upon the whole, we thought it best to unite.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Oh, much the best. Well, Sir, you may assure your principals that shall <GAP DESC="illegible" EXTENT="1 word" DISP="〈◊〉"/> <GAP DESC="illegible" EXTENT="1 letter" DISP="•"/>are
+<PB N="44" REF="49"/>
+properly to acknowledge the service they do me.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>No doubt, no doubt. But—will your honour step a little this way?—Though no question can be made of your honour's keeping your word, yet it has always been the rule with our club to receive the proper acknowledgment before the service is done.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Ay, but, Mr. Touchit, suppose the service should never be done?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>What then must become of our con∣sciences? We are Christians, your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>True; but, Mr. Touchit, you remem∣ber the proverb?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>What proverb, your honour?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>There are two bad pay-masters; those who pay before, and those who never pay.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>True, your honour; but our club has always found, that those who don't pay be∣fore are sure never to pay.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>How! impossible! the man who breaks his word with such faithful and honest adhe∣rents, deserves richly a halter. Gentlemen, in my opinion, he deserves to be hanged.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Hush! have a care what you say.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What is the matter?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>You see the fat man that is behind; he will be the returning officer at the election.</P>
+</SP>
+<SP>
+<PB N="45" REF="50"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>What then?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>On a gibbet at the end of our town there hangs a smuggler, for robbing the custom-house.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Well?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>The mayor's own brother, your ho∣nour: Now, perhaps, he may be jealous that you meant to throw some reflection on him or his family.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Not unlikely.—I say, gentlemen, who∣ever violates his promise to such faithful friends as you are, in my poor opinion, deserves to be damned!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>That's right! stick to that! for tho' the Christian Club may have some fears of the gallows, they don't value damnation of a farthing.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why should they, as it may be so long before any thing of that kind may happen, you know?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Good! good again! Your honour takes us rightly, I see: I make no doubt, it won't be long before we come to a good understanding.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>The sooner the better, good master Touchit; and, therefore, in one word, pray what are your terms?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Do you mean for one, or would your honour bargain for both?</P>
+</SP>
+<SP>
+<PB N="46" REF="51"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Both, both.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Why, we could not have afforded you one under three thousand at least; but as your honour, as I may say, has a mind to deal in the gross, we shall charge you but five for both.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Oh fy! above the market, good Mr. Touchit!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Dog-cheap; neck-beef; a penny-loaf for a halfpenny! Why, we had partly agreed to bring in Sir Christopher Quinze and major Match'em for the very same money; but the major has been a little unlucky at Almack's, and at present can't deposit the needful; but he says, however, if he should be successful at the next Newmarket meeting, he will faithfully abide by the bargain: But the turf, your honour knows, is but an uncertain estate, and so we can't de∣pend upon him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>True. Well, Sir, as I may soon have occasion for all the friends I can make, I shall haggle no longer; I accept your proposals: In the next room we will settle the terms.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Your honour will always find the Christians steady and firm.—But, won't your honour introduce us to his Worship whilst we are here?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>To his Worship? to whom?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>To the gentleman in black.</P>
+</SP>
+<SP>
+<PB N="47" REF="52"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<L>Worship? you are mad, Mr. Touchit!</L>
+<L>That is a slave I brought from the Indies.</L>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Good lack! may be so! I did not know but the gentleman might belong to the tribe, who, we are told by the papers, conferred those splendid titles upon your honour in India.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Well, Master Touchit, what then?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>I thought it not unlikely, but, in return to that compliment, your honour might chuse to make one of the family member for the corporation of Bribe'em.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why, you would not submit to accept of a Negro?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>Our present member, for aught we know, may be of the same complexion, your honour; for we have never set eyes on them yet.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>That's strange! But, after all, you could not think of electing a black?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Touchit.</HI></SPEAKER>
+<P>That makes no difference to us: The Christian Club has ever been persuaded, that a good candidate, like a good horse, can't be of a bad colour.<STAGE><HI>Exit with friends.</HI></STAGE></P>
+</SP>
+<STAGE><HI>Enter Thomas Oldham and others.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Mite</HI></SPEAKER>
+<P><STAGE><HI>to Oldham.</HI></STAGE>What is your business, and name?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thom<GAP DESC="illegible" EXTENT="2 letters" DISP="••"/>.</HI></SPEAKER>
+<P>Oldham</P>
+</SP>
+<SP>
+<PB N="48" REF="53"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>The brother of Sir John? I have heard of you: You are, if I mistake not, a merchant?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I have that honour, Sir Matthew.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Um! honour!—Well, Sir; and what are your commands?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I wait on you in the name of my bro∣ther, with—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>An answer to the message I sent him. When do we meet to finish the matter? It must be tomorrow, or Sunday; for I shall be busy next week.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Tomorrow?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Ay; it is not for a man like me to dan∣gle and court, Mr. Oldham.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Why, to be plain, Sir Matthew, it would, I am afraid, be but losing your time.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Sir?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>As there is not one in the family, that seems the least inclined to favour your wish.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>No? ha, ha, ha! that's pleasant enough! ha, ha, ha! And why not?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>They are, Sir Matthew, no strangers to your great power and wealth; but corrupt as you may conceive this country to be, there are superior spirits living, who would disdain an al∣liance with grandeur obtained at the expence of honour and virtue.</P>
+</SP>
+<SP>
+<PB N="49" REF="54"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And what relation has this sentimental declaration to me?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>My intention, Sir Matthew, was not to offend; I was desired to wait on you with a civil denial.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And you have faithfully discharged your commission.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Why, I'm a man of plain manners, Sir Matthew; a supercilious air, or a sneer, won't prevent me from speaking my thoughts.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Perfectly right, and prodigiously pru∣dent!—Well, Sir; I hope it won't be thought too presuming, if I desire to hear my sentence proceed from the mouth of the father and daughter.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>By all means; I will wait on you thither.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>That is not so convenient, at present. I have brought from Italy, antiques, some cu∣rious remains, which are to be deposited in the archives of this country: The Antiquarian So∣ciety have, in consequence, chosen me one of their body, and this is the hour of reception.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>We shall see you in the course of the day?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>At the close of the ceremony. Perhaps, I shall have something to urge, that may procure me some favour from your very respectable
+<PB N="50" REF="55"/>
+family.—Piccard, attend Mr. A—a—a to the door.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I guess your design.<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Who waits there?</P>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<P>Step to my attorney directly; bid him attend me within an hour at Oldham's, armed with all the powers I gave him.<STAGE><HI>Exit Servant.</HI></STAGE> I will see if I can't bend to my will this sturdy race of insolent beggars!—After all, riches to a man who knows how to employ them, are as useful in England as in any part of the East: There they gain us those ends in spite and defiance of law, which, with a proper agent, may here be obtained under the pretence and colour of law.</P>
+</SP>
+<STAGE><HI>Exit.</HI></STAGE>
+</DIV2>
+<DIV2 N="3" TYPE="act">
+<PB N="51" REF="56"/>
+<HEAD><HI>ACT III.</HI> The Antiquarian Society.</HEAD>
+<SP>
+<SPEAKER><HI>Secretary.</HI></SPEAKER>
+<P>SIR Matthew Mite, preceded by his presents; will attend this honourable Society this morning.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Is he apprised that an inauguration-speech is required, in which he is to express his love of vertù, and produce proofs of his antique erudition?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P>He has been apprised, and is rightly prepared.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>Are the minutes of our last meeting fairly recorded and entered?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P>They are.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>And the valuable antiques which have happily escaped the depredations of time ranged and registered rightly?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P>All in order.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>As there are new acquisitions to the Society's stock, I think it is right that the me∣bers should be instructed in their several natures and names.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>By all means. Read the list!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“<HI>Imprimis,</HI> In a large glass-case, and in fine preservation, the toe of the slipper of
+<PB N="52" REF="57"/>
+Cardinal Pandulpho, with which he kick'd the breech of King John at Swinstead-Abbey, when ”he gave him absolution and penance.</Q></P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>A most noble remains!</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>An excellent antidote against the pro∣gress of Popery, as it proves the Pontiss's inso∣lent abuse of his power!—Proceed.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“A pair of nut-crackers presented by Harry the Eighth to Anna Bullen the eve of their nuptials; the wood supposed to be ”walnut.</Q></P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Which proves that before the Reforma∣tion walnut-trees were planted in England.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“The cape of Queen Elizabeth's riding∣hood, which she wore on a solemn festival, when carried behind Burleigh to Paul's; the ”cloth undoubtedly Kidderminster.</Q></P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>A most instructive lesson to us, as it proves that patriotic princess wore nothing but the manufactures of England!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“A cork-screw presented by Sir John Falstaff to Harry the Fifth, with a tobacco-stopper of Sir Walter Raleigh's, made of the stern of the ship in which he first compassed the globe; given to the Society by a clergy∣man ”from the North-Riding of Yorkshire.</Q></P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>A rare instance of generosity▪ as they must have both been of singular use to the reve∣rend donor himself!</P>
+</SP>
+<SP>
+<PB N="53" REF="58"/>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“A curious collection, in regular and undoubted succession, of all the tickets of Islington-Turnpike, from its first institution ”to the twentieth of May.</Q></P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>Preserve them with care, as they may hereafter serve to illustrate that part of the English History.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“A wooden medal of Shakespeare, made from the mulberry-tree he planted himself; with a Queen Anne's farthing; from the Manager of ”Drury-Lane Playhouse.</Q></P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Has he received the Society's thanks?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P>They are sent.</P>
+</SP>
+<STAGE><HI>Enter Beadle.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Beadle.</HI></SPEAKER>
+<P>Sir Matthew Mite attends at the door.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Let him be admitted directly.</P>
+</SP>
+<STAGE><HI>Enter Sir Matthew Mite, preceded by four Blacks; first Black bearing a large book; second, a green chamber-pot; third, some lava from the mountain Vesuvius; fourth, a box. Sir Matthew lakes his seat; Secretary receives the first present, and reads the label.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><Q>“Purchased of the Abbé Montini at Naples for five hundred pounds, an illegible manuscript in Latin, containing the twelve ”books of Livy, supposed to be lost.</Q></P>
+</SP>
+<SP>
+<PB N="54" REF="59"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>This invaluable treasure was very near falling into the hands of the Pope, who designed to deposit it in the Vatican Library, and I re∣scued it from idolatrous hands.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>A pious, learned, and laudable pur∣chase!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><STAGE><HI>receives the second present, and reads the label.</HI></STAGE><Q>“A sarcophagus, or Roman urn, dug ”from the temple of Concord.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Supposed to have held the dust of Marc-Antony's coachman.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sec.</HI></SPEAKER>
+<P><STAGE><HI>receives the third present, and reads.</HI></STAGE><Q>“A large piece of the lava, thrown from the Vesuvian ”volcano at the last great eruption.</Q></P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>By a chymical analysis, it will be easy to discover the constituent parts of this mass; which, by properly preparing it, will make it no difficult task to propagate burning mountains in England, if encouraged by premiums.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>Which it will, no doubt!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Gentlemen! Not contented with col∣lecting, for the use of my country, these inesti∣mable relics, with a large catalogue of petri∣factions, bones, beetles, and butterflies, con∣tained in that box, <STAGE><HI>pointing to the present borne by the fourth Black.</HI></STAGE> I have likewise laboured for the advancement of national knowledge: For which end, permit me to clear up some doubts relative to a material and interesting point in the
+<PB N="55" REF="60"/>
+English history. Let others toil to illumine the dark annals of Greece, or of Rome; my searches are sacred only to the service of Britain!</P>
+<P>The point I mean to clear up, is an error crept into the life of that illustrious magistrate, the great Whittington, and his no-less-eminent Cat: And in this disquisition four material points are in question.</P>
+</SP>
+<SP>
+<SPEAKER>1st.</SPEAKER>
+<P>Did Whittington ever exist?</P>
+</SP>
+<SP>
+<SPEAKER>2d.</SPEAKER>
+<P>Was Whittington Lord-Mayor of Lon∣don?</P>
+</SP>
+<SP>
+<SPEAKER>3d.</SPEAKER>
+<P>Was he really possessed of a Cat?</P>
+</SP>
+<SP>
+<SPEAKER>4th.</SPEAKER>
+<P>Was that Cat the source of his wealth?</P>
+<P>That Whittington lived, no doubt can be made; that he was Lord-Mayor of London, is equally true; but as to his Car, that, gentle∣men, is the gordian knot to untie. And here, gentlemen, be it permitted me to define what a Cat is. A Cat is a domestic, whiskered, four-footed animal, whose employment is catching of mice; but let Puss have been ever so subtle, let Puss have been ever so successful, to what could Puss's captures amount? no tanner can curry the skin of a mouse, no family make a of the meat; consecquently, no Cat could give Whittington his wealth. From whence then does this error proceed? be that my care <GAP DESC="illegible" EXTENT="1 word" DISP="〈◊〉"/> point out!</P>
+<P>The commerce this worthy merchant carried
+<PB N="56" REF="61"/>
+on, was chiefly confined to our coasts; fo<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> this purpose, he constructed a vessel, which, from its agility and lightness, he aptly christened a Cat. Nay, to this our day, gentlemen, all our coals from Newcastle are imported in nothing but Cats. From thence it appears, that it was not the whiskered, four-footed, mouse-killing Cat that was the source of the magistrate's wealth but the coasting, sailing, coal-carrying Cat; that gentlemen, was Whittington's Cat.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>What a fund of learning!</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>Amazing acuteness of erudition!</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Let this discovery be made publi<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> directly.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>And the author mentioned with ho¦nour.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>I make no doubt but the city of Lon¦don will desire him to sit for his picture, or sen<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> him his freedom in a fifty-pound box.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P>The honour done their first magistrat<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> richly deserves it.</P>
+</SP>
+<SP>
+<SPEAKER>1 <HI>Ant.</HI></SPEAKER>
+<P>Break we up this assembly, with a lou<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/> declaration, that Sir Matthew Mite is equal<GAP DESC="illegible" EXTENT="2 letters" DISP="••"/> skilled in arts as well as in arms.</P>
+</SP>
+<SP>
+<SPEAKER>2 <HI>Ant.</HI></SPEAKER>
+<P><HI>Tam Mercurio quam Marti.</HI><STAGE><HI>Exe. A<GAP DESC="illegible" EXTENT="2 letters" DISP="••"/></HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Having thus discharged my debt to t<GAP DESC="illegible" EXTENT="2 letters" DISP="••"/> public, I must attend to my private affairs. Wi<GAP DESC="illegible" EXTENT="2 letters" DISP="••"/> R<GAP DESC="illegible" EXTENT="1 letter" DISP="•"/>pine, my attorney, attend as I bid him?</P>
+</SP>
+<SP>
+<PB N="57" REF="62"/>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>He will be punctual, your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Then drive to Hanover-Square.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty</HI></SPEAKER>
+<STAGE><HI>without.</HI></STAGE>
+<P>I will come in!</P>
+</SP>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>There's a little shabby fellow without, that insists on seeing your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why, who and what can he be?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>He calls himself Putty, and says he went to school with your honour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<STAGE><HI>within.</HI></STAGE>
+<P>His honour don't know you!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>I will come in! Not know me, you oaf? what should ail him? Why, I tell you we were bred up together from boys. Stand by, or I'll——</P>
+<STAGE><HI>Enter Putty.</HI></STAGE>
+<P>Hey! yes, it is—no, it a'n't—yes, it is Mat∣thew Mite.—Lord love your queer face! what a figure you cut! how you are altered! well, had I met with you by chance, I don't think I should ever have known you. I have had a deuced deal of work to get at you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>This is a lucky encounter!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>There is a little fat fellow, that opens the door at your house, was as pert as a pren∣tice just out of his time: He would not give me the least inkling about you; and I should have re∣turned
+<PB N="58" REF="63"/>
+to Shoreditch as wise as I came, if some folks who are gazing at the fine gilt coach in the street, hadn't told me 'twas yours. Well, Master Mite, things are mainly changed since we were boys at the Blue-Coat: Who could have thought that you would have got so up in the world? for you know you were reckoned a dull one at school.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Friend, do you know who you talk to?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>Yes, friend, much better than you do. I am told he is become a Knight, and a Nabob; and what of all that? For your Nabobs, they are but a kind of outlandish creatures, that won't pass current with us; and as to knights, we have a few of them in the city, whom I dare speak to without doffing my hat. So, Mr. Scrape∣trencher, let's have no more of your jaw!—I say, Mat, doesn't remember one Easter-Tuesday, how you tipt the barrow-woman into Fleet-Ditch, as we were going about with the hymns?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>An anecdote that does me infinite ho∣nour!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>How all the folks laughed to see how bolt upright the stood on her head in the mud! ha! ha! ha! And one fifth of November, I shall never forget! how you frightened a preach∣ing methodist taylor, by throwing a cracker into the pulpit.</P>
+</SP>
+<SP>
+<PB N="59" REF="64"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Another pretty exploit!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>At every bounce, how poor Stitch ca∣pered and jumped! Ah! many's the merry freak we have had! for this I must say, though Mat was but bad at his book, for mischiefful mat∣ters there wasn't a more ingenous, cuterer lad in the school.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Yes; I have got a fine reputation, I see!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>Well, but Mat! what, be'st dumb? why doesn't speak to a school-fellow?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>That at present is more than I'll own.— I fancy, Mr. A—a—a, you have made some mistake.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>Some mistake?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I don't recollect that I ever had the ho∣nour to know you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>What, don't you remember Phil Putty?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>No.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>That was prentice to Master Gibson, the glazier in Shoreditch?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>No.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>That at the Blue-Coat-Hospital has often saved your bacon by owning your pranks?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>No.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>No! What, then, mayhap you ben't Mat Mite, son of old John and Margery Mite, at the Sow and Sausage in St. Mary Axe, that took the tarts from the man in Pye-corner, and
+<PB N="60" REF="65"/>
+was sent beyond sea, for fear worse should come on it?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>You see, Mr. Putty, the glazier, if that is your name and profession, you are entirely out in this matter; so you need not repeat your vi∣sits to me.<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Putty.</HI></SPEAKER>
+<P>Now here's a pretty purse-proud son of a——who, forsooth, because he is grown great by robbing the heathens, won't own an old friend and acquaintance, and one too of the livery beside! Dammee, the great Turk himself need not be ashamed to shake hands with a citi∣zen! "Mr. Putty the glazier!" well, what a pox am I the better for you? I'll be sworn our company has made more money by a single election at Brentford, than by all his exploits put together.<STAGE><HI>Exit.</HI></STAGE></P>
+</SP>
+<STAGE><HI>Sir John Oldham's house.</HI></STAGE>
+<STAGE><HI>Enter Mr. Thomas Oldham, followed by a Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Sir Matthew Mite is not come?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>No, Sir.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Is Tom here?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Mr. Oldham is, I believe, with Miss in the parlour.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Let him know I would see him. <STAGE><HI>Exit Serv.</HI></STAGE> Poor boy! Nay, I sincerely grieve for them both! this disappointment, like an
+<PB N="61" REF="66"/>
+untimely frost, will hang heavy on their tender years: To conquer the first and finest feelings of nature is an arduous task!</P>
+<STAGE><HI>Enter Young Oldham.</HI></STAGE>
+<P>So, Tom! still attached to this spot, I perceive?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>Sir, I arrived but the instant before you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, child, I don't blame you. You are no stranger to the almost-invincible bars that oppose your views on my niece; it would be therefore prudent, instead of indulging, to wean yourself by degrees.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>Are there no hopes, then, Sir, of subduing my aunt?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I see none: Nay, perhaps, as mat∣ters now stand, a compliance may be out of her power.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>How is that possible, Sir? out of her power?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I won't anticipate: Misfortunes come too soon of themselves; a short time will explain what I mean.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>You alarm me! Would you conde∣scend to instruct me, I hope, Sir, I shall have discretion enough——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>It would answer no end. I would have you both prepare for the worst: See your
+<PB N="62" REF="67"/>
+cousin again; and remember, this perhaps, may be the last time of your meeting.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>The last of our—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>But Sophy is here. I must go in to Sir John.<STAGE><HI>Oldham bows low to Sophy and retires</HI></STAGE></P>
+</SP>
+<STAGE><HI>Enter Sophy.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Sir! What can be the meaning of this▪ My uncle Oldham avoids me! you seem shocked! no additional misfortune, I hope?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>My father has threatened me, in obscure terms, I confess, with the worst that can happen.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>How!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>The total, nay, perhaps, immediate loss of my Sophy.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>From what cause?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>That in tenderness he chose to con∣ceal.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>But why make it a mystery? have you no guess?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Y. Old.</HI></SPEAKER>
+<P>Not the most distant conception. My lady's dislike would hardly prompt her to such violent measures. I can't comprehend how this can possibly be; but yet my father has too firm, too manly a mind, to encourage or harbour vain fears.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Here they come. I suppose the riddle will soon be explained.</P>
+</SP>
+<STAGE><PB N="63" REF="68"/><HI>Enter Sir John, Lady, and Thomas Oldham.</HI></STAGE>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>But what motive could he have for demanding this whimsical interview? he could not doubt your credentials, or think his pre∣sence could be grateful to us.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I have delivered my message.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Perhaps he depends on his rhetorical powers: I hear he has a good opinion of them. Stay, Sophy! Sir Matthew Mite, distrusting the message we begged your uncle to carry, de∣sires to have it confirmed by ourselves: I fancy, child, you will do yourself no violence in re∣jecting this lover. He is an amiable swain, I confess!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>I shall be always happy in obeying your ladyship's orders.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Are you sure of that, Sophy? a time may soon come for the trial.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Well, in the main, I am glad of this meeting; it will not only put a final end to this business, but give us an opportunity of discussing other matters, my dear.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Is that your opinion, Sir John? I fancy he will not be very fond of prolonging his visit.</P>
+</SP>
+<STAGE><HI>Enter Servant.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Serv.</HI></SPEAKER>
+<P>Sir Matthew Mite!</P>
+</SP>
+<SP>
+<PB N="64" REF="69"/>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Shew him in!—Now, Sir John, be on your guard; support this scene with a dignity that becomes one of your birth and—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>Never fear my dignity, love. I warrant you I'll give him as good as he brings.</P>
+</SP>
+<STAGE><HI>Enter Sir Matthew Mite.</HI></STAGE>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I find the whole tribe is convened.—I hope I am not an intruder; but I confess the extraordinary answer I received from the mouth of this worthy citizen, to a message conveyed by my secretary, induced me to question its au∣thenticity, unless confirmed by yourselves.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>And why should you think our reply so very extraordinary?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>You must give me leave to smile at that question.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>A very decisive answer, I own!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>You are, Lady Oldham, a woman of the world, and supposed not to be wanting in sense.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Which this conduct of mine inclines you to doubt?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Why, to be plain, my condition and your own situation considered, prudence might have dictated a different reply.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>And yet, Sir Matthew, upon the ma∣turest deliberation, all the parties, you see, persist in giving no other.</P>
+</SP>
+<SP>
+<PB N="65" REF="70"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Is it so? You will permit me, Lady Oldham, to desire one of those reasons which influenced this august assembly upon the occasion?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>They will, I dare say, appear but trifling to you.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Let us have them, however.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>First, we think it right to have a little regard to <HI>her</HI> happiness, as she is indebted for her existence to us.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Which you think she risques in a union with me? <STAGE><HI>Lady Oldham bows.</HI></STAGE> And why so? I have the means to procure her, madam, those enjoyments with which your sex is chiefly delighted.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>You will, Sir Matthew, pardon my weakness; but I would much rather see my child with a competence, nay, even reduced to an in∣digent state, than voluptuously rioting in plea∣sures that derive their source from the ruin of others.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Ruin! what, you, I find, adopt the po∣pular prejudice, and conclude that every man that is rich is a villain?</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I only echo the voice of the public. Besides, I would wish my daughter a more solid establishment: The possessions arising from plun∣der very rarely are permanent; we every day see what has been treacherously and rapaciously gained, as profusely and full as rapidly squandered.</P>
+</SP>
+<SP>
+<PB N="66" REF="71"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I am sorry, madam, to see one of your fashion, concur in the common cry of the times; but such is the gratitude of this country to those who have given it dominion and wealth.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I could wish even that fact was well founded, Sir Matthew. Your riches (which per∣haps too are only ideal) by introducing a general spirit of dissipation, have extinguished labour and industry, the slow, but sure source of national wealth.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>To these refinements I have no time to reply. By one of your ladyship's hints I shall profit at least: I shall be a little more careful of the plunder I have made. Sir John Oldham, you recollect a small sum borrowed by you?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>I do.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>The obligations for which are in my possession at present.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>I understand as much by your letter.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>As I find there is an end of our treaty, it would be right, I think, to discharge them directly.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>I can't say that is quite so convenient; besides, I understood the party was to wait till the time that Jack comes of age.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I am told the law does not understand what is not clearly expressed. Besides, the probable event of your death, or the young gentleman's
+<PB N="67" REF="72"/>
+shyness to fulfil the agreement, are enough to put a man on his guard.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Now comes on the storm.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>And, that my prudence might not suffer in that lady's opinion, I have taken some pre∣cautions which my attorney will more clearly unfold.—Mr. Rapine!</P>
+<STAGE><HI>Enter Rapine.</HI></STAGE>
+<P>You will explain this affair to Sir John: I am a military man, and quite a stranger to your legal manoeuvres.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>By command of my client, Sir Matthew, I have issued here a couple of writs.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Sir John!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>What?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>By one of which, plaintiff possesses the person, by t'other goods and chattels, of Sir John the defendant.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>A definition very clear and concise!</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Goods, Sir? what, must I be turned out of my house?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>No, madam; you may stay here till we fell, which perhaps mayn't happen these two days. We must, indeed, leave a few of our people, just to take care that there is nothing embezzled.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>A short respite, indeed! For a little
+<PB N="68" REF="73"/>
+time, I dare say, my brother Oldham will afford us protection. Come, Sir John, nor let us in∣dulge that monster's malice with a longer sight of our misery.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>You, madam, are a wife, and may go where you please; but as to Sir John—</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Well!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>He must not stir: We are answerable for the possession of him.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Of him? a prisoner? then indeed is our ruin complete!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Oh, uncle!—You have been pleased, Sir, to express an affection for me: Is it possible, Sir, you can be so cruel, so unkind to my parents—</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>They are unkind to themselves.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Let me plead for mercy! suspend but a little!—My uncle, you, Sir, are wealthy too!— Indeed we are honest! you will not run the least risque.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>There is a condition, Miss, in which you have a right to command.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Sir!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>It is in your power, and that of your pa∣rents, to establish one common interest amongst us.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Never! after rejecting, with the con∣tempt they deserved, the first arrogant offers you made, do you suppose this fresh insult will gain us?</P>
+</SP>
+<SP>
+<PB N="69" REF="74"/>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>I am answered.—I presume, Mr. Rapine, there is no longer occasion for me?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Sophy.</HI></SPEAKER>
+<P>Stop, Sir! Mr. Oldham teaches me what I should do. Can I see their distress? Heaven knows with what eagerness I would sacri∣fice my own peace, my own happiness, to procure them relief!<STAGE><HI>Kneels to Sir Matthew.</HI></STAGE></P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Rise, niece! nor hope to soften that breast, already made too callous by crimes! I have long seen, Sir, what your malice intended, and pre∣pared myself to baffle its purpose. I am instructed, Sir, in the amount of this man's demands on my brother: You will there find a sum more than sufficient to pay it.—And now, my dear sister, I hope you will please to allow a citizen may be useful sometimes.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Mr. Rapine, is this manoeuvre according to law?</P>
+</SP>
+<SP>
+<SPEAKER><HI>Rap.</HI></SPEAKER>
+<P>The law, Sir Matthew, always sleeps when satisfaction is made.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>Does it? Our practice is different in the Mayor's Court at Calcutta.—I shall now make my bow; and leave this family, whom I wished to make happy in spite of themselves, soon to regret the fatal loss sustained by their obstinate folly.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nor can it be long, before the wisdom of their choice will appear; as by partaking of
+<PB N="70" REF="75"/>
+the spoil, they might have been involved in that vengeance, which soon or late can't fail to fall on the head of the author: And, Sir, notwithstanding your seeming security, perhaps the hour of re∣tribution is near!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Mite.</HI></SPEAKER>
+<P>You must, Master Oldham, give me leave to laugh at your prophetic effusion. This is not Sparta, nor are these the chaste times of the Roman republic: Now-a-days, riches possess at least one magical power, that, being rightly dispensed, they closely conceal the source from whence they proceeded: That wisdom, I hope never to want.— I am the obsequious servant of this respectable family! Adieu!—Come along, Rapine!</P>
+</SP>
+<STAGE><HI>Exit with Rapine.</HI></STAGE>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Brother, what words can I use, or how can we thank you as we ought? Sir John! Sophy!</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>I am doubly paid, Lady Oldham, in supplying the wants of my friends, and defeating the designs of a villain: As to the mere money, we citizens indeed are odd kind of folks, and always expect good security for what we advance.</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>Sir John's person, his fortune, every——</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Nay, nay, nay, upon this occasion we will not be troubled with land; If you, sister, will place as a pledge my fair cousin in the hands of my son—</P>
+</SP>
+<SP>
+<SPEAKER><HI>L. Old.</HI></SPEAKER>
+<P>I freely resign her disposal to you.</P>
+</SP>
+<SP>
+<PB N="71" REF="76"/>
+<SPEAKER><HI>Sir John.</HI></SPEAKER>
+<P>And I.</P>
+</SP>
+<SP>
+<SPEAKER><HI>Thomas.</HI></SPEAKER>
+<P>Then be happy, my children! And as to my young cousins within, I hope we shall be able to settle them without Sir Matthew's assistance: For, however praiseworthy the spirit of adventure may be, whoever keeps his post, and does his duty at home, will be found to ren∣der his country best service at last!<STAGE><HI>Exeunt.</HI></STAGE></P>
+</SP>
+</DIV2>
+<TRAILER>FINIS.</TRAILER>
+</DIV1>
+</BODY>
+<BACK>
+<DIV1 TYPE="colophon">
+<PB REF="77"/>
+<P>Just Published, The COMEDIES of <HI>The Cozeners</HI>; (Containing TWO ORIGINAL SCENES, not inserted in the spurious Impressions) <HI>The Maid of Bath</HI>; AND <HI>The Devil Upon Two Sticks.</HI> All written by the same Author, And published by the same Editor. And in a few Days will be Published, <HI>The Tailors</HI>; A TRAGEDY for WARM WEATHER. As it is Performed at the Theatre-Royal, Haymarket.</P>
+</DIV1>
+</BACK>
+</TEXT>
+</EEBO>
+</ETS>
