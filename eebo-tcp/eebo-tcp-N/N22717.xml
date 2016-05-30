@@ -1,0 +1,604 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The hasty-pudding: a poem, in three cantos, / by Joel Barlow. ; Written in Germany, in Savoy, January, 1793. ; [Two lines of text]</title>
+            <author>Barlow, Joel, 1754-1812.</author>
+         </titleStmt>
+         <extent>Approx. 21 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI :</pubPlace>
+            <date when="2006-06">2006-06.</date>
+            <idno type="DLPS">N22717</idno>
+            <idno type="TCP">N22717</idno>
+            <idno type="STC">Evans 30024</idno>
+            <idno type="NOTIS">APX1802</idno>
+            <idno type="IMAGE-SET">30024</idno>
+            <idno type="EVANS-CITATION">99018497</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early American Imprints, 1639-1800 ; no. 30024.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(Evans-TCP ; no. N22717)</note>
+            <note>Transcribed from: (Readex Archive of Americana ; Early American Imprints, series I ; image set 30024)</note>
+            <note>Images scanned from Readex microprint and microform: (Early American imprints. First series ; no. 30024)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The hasty-pudding: a poem, in three cantos, / by Joel Barlow. ; Written in Germany, in Savoy, January, 1793. ; [Two lines of text]</title>
+                  <author>Barlow, Joel, 1754-1812.</author>
+               </titleStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the purchaser.,</publisher>
+                  <pubPlace>New-York: :</pubPlace>
+                  <date>[1796]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Date of publication supplied by Evans.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>France --  Politics and government --  1789-1815.</term>
+               <term>Poems --  1796.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-09</date>
+            <label>SPi Global (Manila)</label>Keyed and coded from Readex/Newsbank page images</change>
+         <change>
+            <date>2006-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2006-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-04</date>
+            <label>pfs.</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="unknown:030024_0000_0FE3F2988D3A5E28"/>
+            <pb facs="unknown:030024_0001_0FE3F117B8305A88"/>
+            <p>THE HASTY-PUDDING: A POEM, IN THREE CANTOS, BY JOEL BARLOW.</p>
+            <p>WRITTEN IN GERMANY, IN SAVOY, JANUARY, 1793.</p>
+            <q>Omne tulit punctum qui miscuit utile dulci.</q>
+            <p>He makes a good breakfast who mixes pudding with molasses.</p>
+            <p>NEW-YORK: PRINTED FOR THE PURCHASER.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="unknown:030024_0002_0FE3F11B80CF69A8"/>
+            <head>THE HASTY-PUDDING, A POEM.</head>
+            <div n="1" type="canto">
+               <head>CANTO I.</head>
+               <lg>
+                  <l>YE Alps audacious, thro' the Heavens that rise,</l>
+                  <l>To cramp the day and hide me from the skies;</l>
+                  <l>Ye Gallic flags, that o'er their heights unfurl'd,</l>
+                  <l>Bear death to kings, and freedom to the world,</l>
+                  <l>I sing not you. A softer theme I choose,</l>
+                  <l>A virgin theme, unconscious of the Muse,</l>
+                  <l>But fruitful, rich, well suited to inspire</l>
+                  <l>The purest phrenzy of poetic fire.</l>
+               </lg>
+               <lg>
+                  <l>Despise it not, ye Bards to terror steel'd,</l>
+                  <l>Who hurl'd your thunders round the epic field;</l>
+                  <l>Nor ye who strain your midnight throats to sing</l>
+                  <l>Joys that the vineyard and the still-house bring:</l>
+                  <l>Or on some distant fair your notes employ,</l>
+                  <l>And speak of raptures that you ne'er enjoy.</l>
+                  <l>I sing the sweets I know, the charms I feel,</l>
+                  <l>My morning incense, and my evening meal,</l>
+                  <l>The sweets of Hasty-Pudding Come, dear bowl,</l>
+                  <l>Glide o'er my palate, and inspire my soul.</l>
+                  <l>The milk beside thee, smoking from the kine.</l>
+                  <l>Its substance mingled, married in with thine,</l>
+                  <l>Shall cool and temper thy superior heat,</l>
+                  <l>And save the pains of blowing while I eat.</l>
+               </lg>
+               <lg>
+                  <l>Oh! could the smooth, the emblematic song</l>
+                  <l>Flow like thy genial juices o'er my tongue,</l>
+                  <l>Could those mild morsels in my numbers chime,</l>
+                  <l>And as they roll in substance, roll in rhyme,</l>
+                  <l>No more thy awkward, unpoetic name,</l>
+                  <l>Should shun the Muse, or prejudice thy fame;</l>
+                  <l>But rising grateful to th' accustom'd ear,</l>
+                  <l>All Bards should catch it, and all realms revere!</l>
+               </lg>
+               <lg>
+                  <pb n="4" facs="unknown:030024_0003_0FE3F1B40A6DA1C8"/>
+                  <l>Assist me first with pious toil to trace,</l>
+                  <l>Thro' wrecks of time thy lineage and thy race;</l>
+                  <l>Declare what lovely squaw, in days of yore,</l>
+                  <l>(Ere great Columbus sought thy native shore)</l>
+                  <l>First gave thee to the world; her works of fame</l>
+                  <l>Have liv'd indeed, but liv'd without a name.</l>
+                  <l>Some tawny Ceres, goddess of her days,</l>
+                  <l>First learn'd with stones to crack the well-dry'd maize,</l>
+                  <l>Thro' the rough sieve to shake the golden show'r,</l>
+                  <l>In boiling water stir the yellow flour;</l>
+                  <l>The yellow flour, bestrew'd and stirr'd with haste,</l>
+                  <l>Swell in the flood and thickens to a paste,</l>
+                  <l>Then puffs and wallops, rises to the brim,</l>
+                  <l>Drinks the dry knobs that on the surface swim;</l>
+                  <l>The knobs at last the busy ladle breaks,</l>
+                  <l>And the whole mass its true consistence takes.</l>
+               </lg>
+               <lg>
+                  <l>Could but her sacred name, unknown so long,</l>
+                  <l>Rise like her labors, to the son of song,</l>
+                  <l>To her, to them, I'd consecrate my lays,</l>
+                  <l>And blow her pudding with the breath of praise.</l>
+                  <l>If 'twas Oella, whom I sang before,</l>
+                  <l>I here ascribe her one great virtue more.</l>
+                  <l>Not thro' the rich Peruvian realms alone</l>
+                  <l>The fame of Sol's sweet daughter should be known</l>
+                  <l>But o'er the world's wide climes should live secure,</l>
+                  <l>Far as his rays extend, as long as they endure.</l>
+               </lg>
+               <lg>
+                  <l>Dear Hasty-Pudding, what unpromis'd joy</l>
+                  <l>Expands my heart, to meet thee in Savoy!</l>
+                  <l>Doom'd o'er the world thro' devious paths to roam,</l>
+                  <l>Each clime my country, and each house my home,</l>
+                  <l>My soul is sooth'd, my cares have found an end,</l>
+                  <l>I greet my long-lost, unforgotten friend.</l>
+               </lg>
+               <lg>
+                  <l>For thee thro' Paris, that corrupted town,</l>
+                  <l>How long in vain I wander'd up and down,</l>
+                  <l>Where shameless Bacchus, with his drenching hoard,</l>
+                  <l>
+                     <pb n="5" facs="unknown:030024_0004_0FE3F1B9F3580330"/>Cold from his cave, usurps the morning board.</l>
+                  <l>London is lost in smoke and steep'd in tea,</l>
+                  <l>No Yankee there can lisp the name of thee;</l>
+                  <l>The uncouth word, a libel on the town,</l>
+                  <l>Would call a proclamation from the crown.<note n="*" place="bottom">A certain king, at the time when this was written, was publishing proclamations to prevent American principles from being propagated in his country.</note>
+                  </l>
+                  <l>For climes oblique, that fear the sun's full rays,</l>
+                  <l>Chill'd in their fogs, exclude the generous maize<g ref="char:punc">▪</g>
+                  </l>
+                  <l>A grain whose rich luxurient growth requires</l>
+                  <l>Short gentle showers, and bright etherial fires.</l>
+               </lg>
+               <lg>
+                  <l>But here tho' distant from our native shore,</l>
+                  <l>With mutual glee we meet and laugh once more,</l>
+                  <l>The same! I know thee by that yellow face,</l>
+                  <l>That strong complexion of true Indian race,</l>
+                  <l>Which time can never change, nor soil impair,</l>
+                  <l>Nor Alpine snows, nor Turkey's morbid air;</l>
+                  <l>For endless years, thro every mild domain,</l>
+                  <l>Where grows the maize, there thou art sure to reign</l>
+               </lg>
+               <lg>
+                  <l>But man, more fickle, the bold license claims,</l>
+                  <l>In different realms to give thee different names.</l>
+                  <l>Thee the soft nations round the warm Levant,</l>
+                  <l>
+                     <hi>Polanta</hi> call, the French of course <hi>Polante;</hi>
+                  </l>
+                  <l>Ev'n in thy native region, how I blush</l>
+                  <l>To hear the Pennsylvanians call thee <hi>Mush!</hi>
+                  </l>
+                  <l>On Hudson's banks, while men of Belgic spawn</l>
+                  <l>Insult and eat thee by the name <hi>suppawn.</hi>
+                  </l>
+                  <l>All spurious appellations void of truth:</l>
+                  <l>I've better known thee from my earliest youth,</l>
+                  <l>Thy name is <hi>Hasty-Pudding!</hi> thus our sires</l>
+                  <l>Were wont to greet thee fuming from their fires;</l>
+                  <l>And while they argu'd in thy just defence</l>
+                  <l>With logic clear, they thus explain'd the sense:</l>
+                  <l>"In <hi>haste</hi> the boiling caldron o'er the blaze,</l>
+                  <l>"Receives and cooks the ready-powder'd maize.</l>
+                  <l>"In <hi>haste</hi> 'tis serv'd, and then in equal <hi>haste.</hi>
+                  </l>
+                  <l>"With cooling milk, we make the sweet repast.</l>
+                  <l>
+                     <pb n="6" facs="unknown:030024_0005_0FE3F247BA17EED8"/>"No carving to be done, no knife to grate</l>
+                  <l>"The tender ear, and wound the stony plate,</l>
+                  <l>"But the smooth spoon, just fitted to the lip,</l>
+                  <l>"And taught with art the yielding mass to dip,</l>
+                  <l>"By frequent journies to the bowl well stor'd,</l>
+                  <l>"Performs the hasty honors of the board."</l>
+                  <l>Such is thy name, significant and clear,</l>
+                  <l>A name, a sound to every Yankee dear,</l>
+                  <l>But most to me, whose heart and palate chaste,</l>
+                  <l>Preserve my pure hereditary taste.</l>
+               </lg>
+               <lg>
+                  <l>There are who strive to stamp with disrepute</l>
+                  <l>The luscious food, because it feeds the brute,</l>
+                  <l>In tropes of high-strain'd wit, while gaudy prigs</l>
+                  <l>Compare thy nursling man to pamper'd pigs;</l>
+                  <l>With sovereign scorn I treat the vulgar jest,</l>
+                  <l>Nor fear to share thy bounties with the beast.</l>
+                  <l>What though the generous cow gives me to quaff</l>
+                  <l>The milk nutritious; am I then a calf?</l>
+                  <l>Or can the genius of the noisy swine,</l>
+                  <l>Tho' nurs'd on pudding, thence lay claim to mine?</l>
+                  <l>Sure the sweet song, I fashion to thy praise,</l>
+                  <l>Runs more melodious than the notes they raise.</l>
+               </lg>
+               <lg>
+                  <l>My song resounding in its grateful glee,</l>
+                  <l>No merit claims; I praise myself in thee.</l>
+                  <l>My father lov'd thee thro' his length of days;</l>
+                  <l>For thee his fields were shaded o'er with maize;</l>
+                  <l>From thee what health, what vigor he possest,</l>
+                  <l>Ten sturdy freemen from his loins attest;</l>
+                  <l>Thy constellation rul'd my natal morn,</l>
+                  <l>And all my bones were made of Indian corn.</l>
+                  <l>Delicious grain! whatever form it take,</l>
+                  <l>To roast or boil, to smother or to bake,</l>
+                  <l>In every dish 'tis welcome still to me,</l>
+                  <l>But most, my Hasty-Pudding, most in thee.</l>
+               </lg>
+               <lg>
+                  <l>Let the green Succatash with thee contend.</l>
+                  <l>Let beans and corn their sweetest juices blend,</l>
+                  <l>Let butter drench them in its yellow tide.</l>
+                  <l>
+                     <pb n="7" facs="unknown:030024_0006_0FE3F24ED6D6FC20"/>And a long slice of bacon grace their side;</l>
+                  <l>Not all the plate, how fam'd soe'er it be,</l>
+                  <l>Can please my palate like a bowl of thee.</l>
+               </lg>
+               <lg>
+                  <l>Some talk of Hoe-cake, fair Virginia's pride,</l>
+                  <l>Rich Johnny-cake this mouth has often try'd;</l>
+                  <l>Both please me well, their virtues much the same;</l>
+                  <l>Alike their fabric, as allied their fame,</l>
+                  <l>Except in dear New-England, where the last</l>
+                  <l>Receives a dash of pumpkin in the paste,</l>
+                  <l>To give it sweetness and improve the taste.</l>
+                  <l>But place them all before me, smoking hot,</l>
+                  <l>The big round dumplin rolling from the pot;</l>
+                  <l>The pudding of the bag, whose quivering breast,</l>
+                  <l>With suet lin'd leads on the Yankee feast:</l>
+                  <l>The Charlotte brown, within whose crusty sides</l>
+                  <l>A belly soft the pulpy apple hides;</l>
+                  <l>The yellow bread, whose face like amber glows,</l>
+                  <l>And all of Indian that the bake-pan knows—</l>
+                  <l>You tempt me not—my fav'rite greets my eyes,</l>
+                  <l>To that lov'd bowl my spoon by instinct flies<g ref="char:punc">▪</g>
+                  </l>
+               </lg>
+            </div>
+            <div n="2" type="canto">
+               <head>CANTO II.</head>
+               <lg>
+                  <l>To mix the food by vicious rules of art,</l>
+                  <l>To kill the stomach and to sink the heart,</l>
+                  <l>To make mankind to social virtue soor,</l>
+                  <l>Cram o'er each dish, and be what they devour:</l>
+                  <l>For this the kitchen Muse first fram'd her book,</l>
+                  <l>Commanding sweets to stream from every cook;</l>
+                  <l>Children no more their antic gambols tried,</l>
+                  <l>And friends to physic wonder'd why they died.</l>
+                  <l>Not so the Yankee—his abundant feast.</l>
+                  <l>With simples furnished, and with plainness drest,</l>
+                  <l>A numerous offspring gathers round the board,</l>
+                  <l>And cheers alike the servant and the lord;</l>
+                  <l>Whose well-bought hunger prompts the joyous taste,</l>
+                  <l>And health attends them from the short repast.</l>
+               </lg>
+               <lg>
+                  <pb n="8" facs="unknown:030024_0007_0FE3F254503F58F8"/>
+                  <l>While the full pail rewards the milk-maid's toil,</l>
+                  <l>The mother sees the morning caldron boil;</l>
+                  <l>To stir the pudding next demands their care,</l>
+                  <l>To speed the table and the bowls prepare;</l>
+                  <l>To feed the children, as their portions cool,</l>
+                  <l>And comb their heads, and send them off to school</l>
+               </lg>
+               <lg>
+                  <l>Yet may the simplest dish some rules impart,</l>
+                  <l>For nature scorns not all the aids of art.</l>
+                  <l>E'en Hasty-Pudding, purest of all food,</l>
+                  <l>May still be bad, indifferent, or good,</l>
+                  <l>As sage experience the short process guides,</l>
+                  <l>Or want of skill, or want of care presides,</l>
+                  <l>Whoe'er would form it on the surest plan,</l>
+                  <l>To rear the child and long sustain the man;</l>
+                  <l>To shield the morals while it mends the size,</l>
+                  <l>And all the powers of every food supplies,</l>
+                  <l>Attend the lessons that the Muse shall bring,</l>
+                  <l>Suspend your spoons, and listen while I sing.</l>
+               </lg>
+               <lg>
+                  <l>But since, O man! thy life and health demand</l>
+                  <l>Not food alone, but labor from thy hand,</l>
+                  <l>First in the field, beneath the sun's strong rays,</l>
+                  <l>Ask of thy mother earth the needful maize;</l>
+                  <l>She loves the race that courts her yielding soil,</l>
+                  <l>And gives her bounties to the sons of toil.</l>
+               </lg>
+               <lg>
+                  <l>When now the ox, obedient to thy call,</l>
+                  <l>Repays the loan that fill'd the winter stall,</l>
+                  <l>Pursue his traces o'er the furrow'd plain,</l>
+                  <l>And plant in measur'd hills the golden grain.</l>
+                  <l>But when the tender germ begins to shoot,</l>
+                  <l>And the green spire declares the sprouting root,</l>
+                  <l>Then guard your nursling from each greedy foe,</l>
+                  <l>Th' insidious worm, the all-devouring crow.</l>
+                  <l>A little ashes sprinkled round the spire,</l>
+                  <l>Soon steep'd in rain, will bid the worm retire;</l>
+                  <l>The feather'd robber with his hungry maw</l>
+                  <l>Swift flies the field before your man of straw,</l>
+                  <l>A frightful image, such as tom-boys bring,</l>
+                  <l>When met to burn the Pope, or hang the King.</l>
+                  <l>
+                     <pb n="9" facs="unknown:030024_0008_0FE3F259D3D39F60"/>Thrice in the season, through each verdant row</l>
+                  <l>Wield the strong plough-share &amp; the faithful hoe.</l>
+                  <l>The faithful hoe, a double task that takes,</l>
+                  <l>To till the summer corn, &amp; roast the winter cakes.</l>
+               </lg>
+               <lg>
+                  <l>Slow springs the blade, while cheek'd by chil<g ref="char:EOLhyphen"/>ling rains,</l>
+                  <l>Ere yet the sun the seat of Cancer gains;</l>
+                  <l>But when his fiercest fires emblaze the land,</l>
+                  <l>Then start the juices, then the roots expand.</l>
+                  <l>Then, like a column of Corinthian mould,</l>
+                  <l>The stalk struts upward, and the leaves unfold.</l>
+                  <l>The bushy branches all the ridges till,</l>
+                  <l>Entwine their arms, and kiss from hill to hill.</l>
+                  <l>Here cease to vex them, all your cares are done,</l>
+                  <l>Leave the last labors to the parent sun;</l>
+                  <l>Beneath his genial smiles the well-drest field.</l>
+                  <l>When autumn calls, a plenteous crop shall yield.</l>
+               </lg>
+               <lg>
+                  <l>Now the strong foliage bears the standards high</l>
+                  <l>And shoots the tall top-gallants to the sky;</l>
+                  <l>The suckling ears their silky fringes bend,</l>
+                  <l>And pregnant grown, their swelling coats distend;</l>
+                  <l>The loaded stalk, while still the burthen grows,</l>
+                  <l>O'erhangs the space that runs between the rows;</l>
+                  <l>High as a hop-field waves the silent grove,</l>
+                  <l>A safe retreat for little thefts of love,</l>
+                  <l>When the pledg'd roasting ears invite the maid,</l>
+                  <l>To meet her swain beneath the new-form'd shade,</l>
+                  <l>His generous hand unloads the cumbrous hill,</l>
+                  <l>And the green spoils her ready basket fill;</l>
+                  <l>Small compensation for the two-fold bliss,</l>
+                  <l>The promis'd wedding and the present kiss.</l>
+               </lg>
+               <lg>
+                  <l>Slight depredations these, but now the moon</l>
+                  <l>Calls from his hollow tree the sly raccoon;</l>
+                  <l>And while by night he bears his prize away,</l>
+                  <l>The bolder squirrel labors thro' the day.</l>
+                  <l>Both thieves alike, but provide<gap reason="illegible: indecipherable" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible: indecipherable" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>,</l>
+                  <l>A virtue, rare, that almost hides their crime.</l>
+                  <l>
+                     <pb n="10" facs="unknown:030024_0009_0FE3F26072193DB8"/>Then let them steal the little stores they can,</l>
+                  <l>And fill their granaries from the toils of man;</l>
+                  <l>We've one advantage where they take no part,</l>
+                  <l>With all their wiles they ne'er have found the art</l>
+                  <l>To boil the Hasty-Pudding; here we shine</l>
+                  <l>Superior far to tenants of the pine;</l>
+                  <l>This envied boon to man shall still belong,</l>
+                  <l>Unshar'd by them in substance or in song.</l>
+               </lg>
+               <lg>
+                  <l>At last the closing season browns the plain,</l>
+                  <l>And ripe October gathers in the grain;</l>
+                  <l>Deep loaded carts the spacious corn-house fill,</l>
+                  <l>The sack distended marches to the mill;</l>
+                  <l>The lab'ring mill beneath the burthen groans,</l>
+                  <l>And showers the future pudding from the stones,</l>
+                  <l>Till the glad house-wife greets the powder'd gold,</l>
+                  <l>And the new crop exterminates the old.</l>
+               </lg>
+            </div>
+            <div n="3" type="canto">
+               <head>CANTO III.</head>
+               <lg>
+                  <l>THE days grow short; but tho' the falling sun</l>
+                  <l>To the glad swain proclaims his day's work done,</l>
+                  <l>Night's pleasing shades his various task prolong,</l>
+                  <l>And yield new subjects to my various song.</l>
+                  <l>For now the corn-house fill'd, the harvest home,</l>
+                  <l>Th' invited neighbours to the <hi>Husking</hi> come;</l>
+                  <l>A frolic scene, where work, and mirth, and play,</l>
+                  <l>Unite their charms, to chase the hours away.</l>
+               </lg>
+               <lg>
+                  <l>Where the huge heap lies center'd in the hall,</l>
+                  <l>The lamp suspended from the cheerful wall,</l>
+                  <l>Brown corn-fed nymphs and strong hard-handed beaux,</l>
+                  <l>Alternate rang'd, extend in circling rows,</l>
+                  <l>Assume their seats, the solid mass attack;</l>
+                  <l>The dry husks rustle and the corn cobs crack:</l>
+                  <l>The song, the laugh, alternate notes resound,</l>
+                  <l>And the sweet cider trips in silence round.</l>
+               </lg>
+               <lg>
+                  <l>The laws of Husking ev'ry wight can tell;</l>
+                  <l>And sure no laws he ever keeps so well.</l>
+                  <l>For each red ear a general kiss he gains,</l>
+                  <l>With each smut ear she smuts the luckless swains,</l>
+                  <l>But when to some sweet maid a prize is cast,</l>
+               </lg>
+               <lg>
+                  <pb n="11" facs="unknown:030024_0010_0FE3F26625D5AB40"/>
+                  <l>Red as her lips, and taper as her waist,</l>
+                  <l>She walks the round, and culls one favor'd beau,</l>
+                  <l>Who leaps, the luscious tribute to bestow.</l>
+                  <l>Various the sport, as are the wits and brains</l>
+                  <l>Of well pleased lasses and contented swains;</l>
+                  <l>Till the vast mound of corn is sweep away,</l>
+                  <l>And he that gets the last ear, wins the day.</l>
+               </lg>
+               <lg>
+                  <l>Meanwhile the house-wife urges all her care,</l>
+                  <l>The well-earn'd feast to hasten and prepare.</l>
+                  <l>The sifted meal already waits her hand,</l>
+                  <l>The milk is strain'd, the bowls in order stand,</l>
+                  <l>The fire flames high; and, as a pool (that takes breaks)</l>
+                  <l>The headlong stream that o'er the mill-dam</l>
+                  <l>Foams, roars and rages with incessant toils,</l>
+                  <l>So the vext caldron rages, roars and boils.</l>
+               </lg>
+               <lg>
+                  <l>First with clean salt she seasons well the food,</l>
+                  <l>Then strews all flour and thickens all the flood.</l>
+                  <l>Long o'er the simmering fire she lets it stand;</l>
+                  <l>To stir it well demands a stronger hand;</l>
+                  <l>The husband takes his turn; and round and round</l>
+                  <l>The ladle flies; at last the toil is crown'd;</l>
+                  <l>When to the board the thronging huskers pour,</l>
+                  <l>And take their seats as at the corn before.</l>
+               </lg>
+               <lg>
+                  <l>I leave them to their feast. There still belong</l>
+                  <l>More copious matters to my faithful song.</l>
+                  <l>For rules there are, tho' ne'er unfolded yet,</l>
+                  <l>Nice rules and wise, how pudding should be ate.</l>
+                  <l>Some with molasses line the luscious treat,</l>
+                  <l>And mix, like Bards, the useful with the sweet.</l>
+                  <l>A wholesome dish and well deserving praise,</l>
+                  <l>A great resource in those bleak wintry days,</l>
+                  <l>When the chill'd earth lies buried deep in snow,</l>
+                  <l>And raging Boreas drives the shivering cow.</l>
+               </lg>
+               <lg>
+                  <l>Blest cow! thy praise shall still my notes employ,</l>
+                  <l>Great source of health, the only source of joy;</l>
+                  <l>Mother of Egypt's god, but sure for me</l>
+                  <l>Were I to leave <hi>my</hi> God, I'd worship thee:</l>
+                  <l>How oft thy teats these pious hands have prest!</l>
+                  <l>How oft thy bounties prove my only feast!</l>
+                  <l>How oft I've fed thee with my fav'rite grain!</l>
+                  <l>And roar'd, like thee, to find thy children slain!</l>
+               </lg>
+               <lg>
+                  <l>Ye swains who know her various worth to prize,</l>
+                  <l>Ah! house her well from Winter's angry skies.</l>
+                  <l>
+                     <pb n="12"
+                         facs="unknown:030024_0011_0FE3F26B55828010"
+                         rendition="simple:additions"/>Potatoes, Pumpkins, should her sadness cheer,</l>
+                  <l>Corn from your crib, and mashes from your beer;</l>
+                  <l>When spring returns she'll well acquit the loan,</l>
+                  <l>And nurse at once your infants and her own.</l>
+               </lg>
+               <lg>
+                  <l>Milk then with pudding I should always chuse<g ref="char:punc">▪</g>
+                  </l>
+                  <l>To this in future I confine my Muse,</l>
+                  <l>Till she in haste some further hints unfold,</l>
+                  <l>Well for the young, nor useless to the old.</l>
+                  <l>First in your bowl the milk abundant take,</l>
+                  <l>Then drop with care along the silver lake</l>
+                  <l>Your ſlakes of pudding; these at first will hide</l>
+                  <l>Their little bulk beneath the swelling tide;</l>
+                  <l>But when their growing mass no more can sink,</l>
+                  <l>When the soft island looms above the brink,</l>
+                  <l>Then check your hand; you've got the portion's due,</l>
+                  <l>So taught our sires, and what they taught is true.</l>
+               </lg>
+               <lg>
+                  <l>There is a choice in spoons. Tho' small appear</l>
+                  <l>The nice distinction, yet to me 'tis clear<g ref="char:punc">▪</g>
+                  </l>
+                  <l>The deep bowl'd Gallic spoon, contriv'd to scoop</l>
+                  <l>In ample draughts the thin diluted soup,</l>
+                  <l>Performs not well in those substantial things,</l>
+                  <l>Whose mass adhesive to the metal clings;</l>
+                  <l>Where the strong labial muscles must embrace,</l>
+                  <l>The gentle curve, and sweep the hollow space.</l>
+                  <l>With ease to enter and discharge the freight,</l>
+                  <l>A bowl less concave but still more dilate,</l>
+                  <l>Becomes the pudding best. The shape, the size,</l>
+                  <l>A secret rests unknown to vulgar eyes,</l>
+                  <l>Experienc'd feeders can alone impart</l>
+                  <l>A rule so much above the lore of art.</l>
+                  <l>These tuneful lips, that thousand spoons have tried,</l>
+                  <l>With just decision could the point decide,</l>
+                  <l>Tho' not in song; the muse but poorly shines</l>
+                  <l>In cones, and cubes, and geometric lines.</l>
+                  <l>Yet the true form, as near as she can tell,</l>
+                  <l>Is that small section of a goose-egg-shell,</l>
+                  <l>Which in two equal portions shall divide</l>
+                  <l>The distance from the centre to the side.</l>
+               </lg>
+               <lg>
+                  <l>Fear not to slaver; 'tis no deadly sin,</l>
+                  <l>Like the free Frenchman, from your joyous chin</l>
+                  <l>Suspend the ready napkin; or, like me,</l>
+                  <l>Poise with one hand your bowl upon your knee;</l>
+                  <l>Just in the zenith your wise head project,</l>
+                  <l>Your full spoon rising in a line direct.</l>
+                  <l>Bold as a bucket, heeds no drops that fall,</l>
+                  <l>The wide mouth'd, bowl will surely catch them all.</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

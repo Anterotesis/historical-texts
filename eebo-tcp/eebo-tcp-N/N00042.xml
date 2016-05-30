@@ -1,0 +1,836 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse about civil government in a new plantation whose design is religion. Written many years since, by that Reverend and worthy Minister of the Gospel, John Cotton, B.D. ; And now published by some undertakers of a new plantation, for general direction and information.</title>
+            <author>Cotton, John, 1584-1652.</author>
+         </titleStmt>
+         <extent>Approx. 58 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI :</pubPlace>
+            <date when="2005-10">2005-10.</date>
+            <idno type="DLPS">N00042</idno>
+            <idno type="TCP">N00042</idno>
+            <idno type="STC">Evans 79</idno>
+            <idno type="STC">Wing D358</idno>
+            <idno type="NOTIS">APZ0336</idno>
+            <idno type="IMAGE-SET">79</idno>
+            <idno type="EVANS-CITATION">99037955</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early American Imprints, 1639-1800 ; no. 79.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(Evans-TCP ; no. N00042)</note>
+            <note>Transcribed from: (Readex Archive of Americana ; Early American Imprints, series I ; image set 79)</note>
+            <note>Images scanned from Readex microprint and microform: (Early American imprints. First series ; no. 79)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse about civil government in a new plantation whose design is religion. Written many years since, by that Reverend and worthy Minister of the Gospel, John Cotton, B.D. ; And now published by some undertakers of a new plantation, for general direction and information.</title>
+                  <author>Cotton, John, 1584-1652.</author>
+                  <author>Davenport, John, 1597-1670.</author>
+               </titleStmt>
+               <extent>24 p. ;  18 cm. (4to) </extent>
+               <publicationStmt>
+                  <publisher>Printed by Samuel Green and Marmaduke Johnson.,</publisher>
+                  <pubPlace>Cambridge [Mass.]: :</pubPlace>
+                  <date>MDCLXIII. [1663]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Erroneously attributed to John Davenport by Cotton Mather and by Evans. For a discussion of authorship see: American Historical Review 37 (1932): 267-269.</note>
+                  <note>Errata note, p. 24.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Political science.</term>
+               <term>Church and state.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-01</date>
+            <label>SPi Global (Manila)</label>Keyed and coded from Readex/Newsbank page images</change>
+         <change>
+            <date>2005-03</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2005-03</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-04</date>
+            <label>pfs.</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="unknown:000079_0000_0F9F8F9450F01328"/>
+            <pb facs="unknown:000079_0001_0F9F8F8551F91AD0"
+                rendition="simple:additions"/>
+            <p>A DISCOURSE ABOUT CIVIL GOVERNMENT IN A NEW PLANTATION Whose <hi>DESIGN</hi> is RELIGION.</p>
+            <p>Written many Years since, By that Reverend and Worthy Minister of the GOSPEL, JOHN COTTON B.D.</p>
+            <p>And now Published by some UNDERTAKERS of a New Plantation, for General Direction and Information.</p>
+            <p>CAMBRIDGE: Printed by <hi>Samuel Green</hi> and <hi>Marmaduke Johnson,</hi> MDCLXIII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="3" facs="unknown:000079_0002_0F9F8F862887ABE0"/>
+            <head>A DISCOURSE ABOUT CIVIL GOVERNMENT IN A NEW PLANTATION</head>
+            <argument>
+               <p>Where all, or the most considerable part of free Planters profess their de<g ref="char:EOLhyphen"/>sire and purpose of e<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>joying, &amp; securing to themselves and their Po<g ref="char:EOLhyphen"/>sterity, the pure and peaceable enjoyment of the Ordinances of Christ in Church-fell<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wship with his Peop<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, and have liberty to cast themselves into that Mould or Form of a Common-wealth, which shall appear to be best for them. Tending to prove the Ex<g ref="char:EOLhyphen"/>pediency and Necessi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y in that case of intrusting free Burgesses wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ch are members of Churches gathered amongst them according to Christ, with the power <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f Chusing from among themselves Ma<g ref="char:EOLhyphen"/>gistrates, and men to whom the Managing of all Publick Civil Affairs of Importance is to be committed. And to vindicate the same from an Imputation of an Vnder-Power upon the Churches of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>st, which hath been cast upon it through a Mistake of the true state of the Question.</p>
+            </argument>
+            <opener>
+               <salute>Reverend Sir,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>He <hi>Sparrow</hi> being now gone, and one dayes respite from publick Labours on the Lords-day falling to me in course, I have sought out your Writing, and have re<g ref="char:EOLhyphen"/>viewed it, and finde (as I formerly expressed to your self) that the Quest<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on is mis-stated by you; and that the Arguments which you produce to prove that wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch is not de<g ref="char:EOLhyphen"/>nied, are (in reference to this Question) spent in vain, as arrows are when they fall wide of the Marks they should hit, though they strike in a White which the Archer is not called to shoot at.</p>
+            <p>
+               <pb n="4" facs="unknown:000079_0003_0F9F8F86D403B3F8"/>The terms wherein you state the Question, are these:
+<q>Whether the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Power of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Civil Magistrates <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Church of Christ?</q>
+            </p>
+            <p>To omit all critical <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nquiries, in your thus stating the Question, I utterly d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke two things.</p>
+            <p n="1">1. That you speak <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f <hi>Civ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l M<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gis<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rate<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndefinitely, and without <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi>
+               <g ref="char:punc">▪</g> under wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch notion, all Magistrates in the world are in<g ref="char:EOLhyphen"/>cluded, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> as well as <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>. Now no man, I think, holdeth or imag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>neth, that a Chu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th power and right to chuse all Civil Magistrates through<g ref="char:EOLhyphen"/>out the World: For,</p>
+            <p n="1">1 In some Countreys there is no Church of Christ, all the in<g ref="char:EOLhyphen"/>habitants being Heathen men and Idolaters; and amongst those who are called <hi>Christian<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> the number of the Churches of Christ will be found to be so small<g ref="char:punc">▪</g> and the Members of them so f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>w and mean, that it is impossible that the Right and Power of choosing Civil Magistrates in all places, should belong to the Chu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ches of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st</p>
+            <p n="2">2. Nor have the Churches countenance of State in all Coun<g ref="char:EOLhyphen"/>treys, but are under Restraint and Persecution in some; as the <hi>Jews</hi> in <hi>Aegypt</hi> under <hi>Pha<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>oh,</hi> and in the Captivity in <hi>Babyl<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</hi> and the <hi>Christian Churches</hi> 300 years after Christ persecuted by <hi>Ro<g ref="char:EOLhyphen"/>man Emperours:</hi> and in these dayes those Reformed Churches <hi>sub <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ruce</hi> in <hi>Antwerp,</hi> and other Popish Countreys.</p>
+            <p n="3">3. In some Countreys the Churches are indeed under the Pro<g ref="char:EOLhyphen"/>tection of Magist<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ates, as Forreigners<g ref="char:punc">▪</g> permitted quietly to sit down under their Wings: but neither are the Members capable of Mag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stracy there, nor have they power of Voting in the choice of Magistrates: Such was that Church of Strangers gathered in <hi>Lon<g ref="char:EOLhyphen"/>don</hi> by <hi>Johannes Al<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> with allowance of State under the Broad Seal of <hi>England</hi> in <hi>Edw.</hi> 6. Such are the <hi>Dutch</hi> and <hi>French Chur<g ref="char:EOLhyphen"/>ches</hi> in <hi>England,</hi> and other Churches in the <hi>Netherlands</hi> at this day.</p>
+            <p n="4">4. In some Countreys sundry Nations are so mingled, that they have severally an equal Right unto several parts of the Countrey, and therefo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e though they live in the same general Countrey, yet they are governed by different Laws, and have several Magistrates
+<pb n="5" facs="unknown:000079_0004_0F9F8F87A4F9E588"/>
+ch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sen by themselves severally neither of them being capable of Ma<g ref="char:EOLhyphen"/>g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>acy in the others parts, nor having Right and Power o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> chusing Civil Magistrates there. Thus were the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> joyned with the <hi>Canaanite<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> that were left in <hi>Canaan</hi> unsubdued: and thus are the <hi>E<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sh</hi> planted in these parts of <hi>Americ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> where sundry Nations of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> dwell near them, and are Proprietaries of the places which they inhabit. Now he that should affirm, that the Churches of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st, as such, have Right and Power of choosing Civ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l Magistrates in such <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>laces, see <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eth to me more to need Phy<g ref="char:EOLhyphen"/>sick then Arguments, to recover him from his Errour.</p>
+            <p n="2">2. The second thing that I d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>slike in your stating the Question, is, in that you make the <hi>Churches of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>st to be the subject of this R<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ht and Power of choosing Civil Magistrates.</hi> For 1. The Church so considered is a Spiritual Political Body, consisting of divers Mem<g ref="char:EOLhyphen"/>bers Male and Female, Bond and Free; sundry of which are not capable of Magistracy, not of Voting in the choice of Magistrates, inasmuch as none have that Right and Power but free Burgesses, among whom Women and Servants are not reckoned, though they may be, and are Church-members. 2. The Members of the Churches of Christ are considerable under a twofold respect an<g ref="char:EOLhyphen"/>swerable to the twofold man, which is in all the Members of the Church whilst they are in this world, <hi>the inward &amp; the outward man.</hi>
+               <note place="margin">2 Cor. 4.16.</note> Whereunto the onely wise God hath fitted and appointed two sorts of Administrations, <hi>Ecclesiastical</hi> and <hi>Civil.</hi> Hence they are ca<g ref="char:EOLhyphen"/>pable of a twofold Relation, and of Action and Power sutable to them both; <hi>viz. Civil</hi> and <hi>Spiritual,</hi> and accordingly must b<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ex<g ref="char:EOLhyphen"/>ercised about both in their seasons, without confounding those two different states, or destroying either of them, whilest what they transact in civil Affairs, is done by virtue of their civil Relation, their Church-state onely fitting them to do it according to God.</p>
+            <p>Now that the state of the Question may appear, I think it sea<g ref="char:EOLhyphen"/>sonable and necessary to premise a few Distinctions, to prevent all mistakes, if it may be.</p>
+            <p>First then, let us distinguish between the two Administrations or <label type="milestone">
+                  <seg type="milestoneunit">distinction </seg>1</label> Pol<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ties, <hi>Ecclesiastical</hi> and <hi>Civil,</hi> which men commonly call <hi>the Church,</hi> and <hi>Common-wealth.</hi> I incline rather to them who speak<g ref="char:EOLhyphen"/>ing of a <hi>Christian Communion,</hi> make the Communion to be the
+<pb n="6" facs="unknown:000079_0005_0F9F8F885273D0E0"/>
+               <hi>Genus,</hi> and the State Ecclesiastical and Civil to be the <hi>Species</hi> of it. For in a Christian Communion there a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ese d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fferent Admini<g ref="char:EOLhyphen"/>strations or Pol<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ties or States, Ecclesi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stical &amp; Civil: Ecclesiastical Administrations, are a <hi>Divine Order a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>poin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed to Believers for holy com<g ref="char:EOLhyphen"/>munion of holy things:</hi> Civil Administrations, are <hi>An Humane Order appointed by God to men for Civ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l Fellowship of humane things.</hi> Thus <hi>Junius</hi> defineth them; and maketh 1. Order <hi>the Genus of th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m both.</hi> 2. God <hi>the Efficient and Author of them both.</hi> 3. Gods Glory <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> last End of them both.</hi> 4. Man <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he common Subject of both.</hi> And so they agree very well in the <hi>General Nature, Efficien<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, End</hi> and <hi>Sub<g ref="char:EOLhyphen"/>ject</hi>; yet with difference in all. For,</p>
+            <p n="1">1. Though both agree in this, that there is Order in their Ad<g ref="char:EOLhyphen"/>ministrations, yet with this diffe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ence, that the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the Church have not a Despotical<g ref="char:punc">▪</g> but Oeconomical Power onely, <note n="(a)" place="margin">John <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.23. Matth 3.11. 1 Cor. 3.5, 2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 1 Cor. 1.1.24. &amp; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 5. &amp; 5.20. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pet. 5.1. Matth. 28.18.</note> being <hi>not Lords over Ch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ists heritage, but stewards and ministers of Christ and of the Church</hi>; the Dominion and Law-giving Power being reser<g ref="char:EOLhyphen"/>ved to <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hrist</hi> alone, as <hi>he onely Head of the Ch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rch.</hi> But in the other State he hath given Lordly Power, Authority and Dominion unto men <note n="(b)" place="margin">Luke 22.25. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ohn 1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.10. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pet. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note>.</p>
+            <p n="2">2. Though both agree in this, that <hi>Man is the common Subject of the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> yet with this difference, Man by Nature being a Rea<g ref="char:EOLhyphen"/>sonable and Sociable Creature, capable of Civil Order, is or may be the Subject of Civil Power and State: But Man by Grace called out of the world to fellowship with Jesus Christ, and with his People, is the onely Subject of Church-power; yet so, as the Out<g ref="char:EOLhyphen"/>ward man of Church-members is subject to the Civil Power in common w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th other men, whilest their Inward man is the subject of Spiritual Order and Administrations.</p>
+            <p n="3">3. Though they both agree in this, that <hi>God is the Efficient and A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>thor of them <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, and that by Christ,</hi> yet not <hi>eadem ratione.</hi> For, God as the Creator and Governour of the world<g ref="char:punc">▪</g> is the Author of Civil Order and Administrations: But God as in Covenant with his People in Christ, is the Author of Church-Administrations. So likew<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e Christ, as the Essential Word and Wisdome of God crea<g ref="char:EOLhyphen"/>ting and governing the World is the Efficient and Fountain of Civil Order &amp; Admin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>strations <note n="(c)" place="margin">Joh. 1.1, 3, 10 <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 1.17. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eb. 1.2, 3. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rov 8.15.</note>: But as Mediator of the New Cove<g ref="char:EOLhyphen"/>nant, &amp; Head of the Church<note n="(d)" place="margin">Eph. 1.22 &amp; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.23. &amp; 4.8, 11.</note>, he establisheth Ecclesiastical Order.</p>
+            <p n="4">
+               <pb n="7" facs="unknown:000079_0006_0F9F8F8910CC8598"/>4. Though they both agree in this, that they have <hi>the same last End.</hi> viz. <hi>The Glory <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f God,</hi> yet they differ in their next Ends; for the next End of Civil Order and Administrations, i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>The Preservation of Humane S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cieties in outward Honour, Justice and Peace:</hi> But the next Ends of Church Order and Administrations, are <hi>The Conver<g ref="char:EOLhyphen"/>sion, Edification, and Salvation of Souls, Pardon of Sin, Power against Sin, Peace with God.</hi> &amp;c.</p>
+            <p n="5">5. Hence ariseth another Difference about the <hi>Objects</hi> of these different States: for though both agree in this, that they have the <hi>common Welfa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</hi> for their aime and scope; yet the things about wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch the Civil Power is primarily conversant, are <hi>Bodies,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, 1 <hi>Cor.</hi> 6.4. or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the things of this life,</hi> as <hi>Goods<g ref="char:punc">▪</g> Lands, Honour, the Liberties and Peace of the outward man.</hi> The things whereabout the Church Power is exercised, are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Heb. 5.1.</note> 
+               <hi>The things of God,</hi> as <hi>the Souls and Consciences of men, the Doctrine and Worship of God, the Communion of the Saints.</hi> Hence also 1. They have different Laws: 2 Different Officers 3. Diffe<g ref="char:EOLhyphen"/>rent Power, whereby to reduce men to Order, according to their different Objects and Ends. Now that a just harmony may be kept between these two different Orders and Administrations, two Ex<g ref="char:EOLhyphen"/>tremes must be avoided: 1. That they be not confounded<g ref="char:punc">▪</g> either by giving the Spiritual Power, which is proper to the Church, into the hand of the Civil Magistrate, as <hi>Eras<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us</hi> would have done in the matter of Excommunication. If any Magistrate should presume to thrust himself by h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Authority or otherwise, into a Work which properly belongs to a Church-Officer, let him remember what be<g ref="char:EOLhyphen"/>fell <hi>Saul</hi> and <hi>Vzz<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> for so doing: or 2. By giving Civil Power to Church-Officers, who are called to attend onely to Spiritual mat<g ref="char:EOLhyphen"/>ters and <hi>the things of God,</hi> and therefore may not be d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stracted from them by Secular intanglements. I say, Church-Officers, not Church-members; f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r they (not being limited as the Officers are by God) are capable of two different imployments, suting with two d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fferent <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> in them, in different respects, as hath been said: and as they may lawfully be imployed about things of this l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe, so they are of all men fittest, being sanctified and dedicated to God to carry on all worldly and civil business to Gods ends, as we shall declare
+<pb n="8" facs="unknown:000079_0007_0F9F8F89DB2975F0"/>
+in due time. But concerning Church-Officers I am able with Gods help to prove, that the devolving of Civ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l Power upon Pastors of Churches, (upon how specious pretences soever it began) gave that Rise to the <hi>M<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n of S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n,</hi> which at last set his feet on the necks of t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Princes of the Ea<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>h, yea, of the Empe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ours of the World. It was your mistake, when you too confidently affirmed, That <hi>the limiting of the Right and Pow<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r of choosing Civil O<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ficers unto free Bur<g ref="char:EOLhyphen"/>gesses that are Members of Churches, brought that Tyranny into the Romish Church, which all the Churches of C<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rist complain of.</hi> It would well have become you to have better digested your own thoughts, before such words had passed through your lips; for you will never be able to produce any good Author that will confirm what you say. The truth is quite contrary; for that I may instance in <hi>Rome</hi> it self: Had Churches been rightly managed<g ref="char:punc">▪</g> when the most considerable part in that City embraced the Christian Faith, in the ceasing of the <hi>Ten Persecutions,</hi> that onely such as had been fit for the State, had been admitted into Church-f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llowship, that they alone had had power, out of themselves to have chosen Ma<g ref="char:EOLhyphen"/>g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>strates, such Magistrates would not have been chos<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, as would have given their Power to the Pope; not would those Churches have suffered their Pastors to become Worldly Princes and Rulers, as the Pope and his Cardinals are; nor would they have given up the Power of the Church from the Church into the Officers hands, but would have called upon them to <hi>f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lfill their Ministry which they had r<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ceived of the Lord</hi>; and if need were, would by the power of Christ have compelled them so to do: And then where had the Popes Supremacy been, which is made up of the Spoils of the Ecclesiastical and Civil State? but had by the course which now we plead for, been prevented.</p>
+            <p n="2">2. The second Extreme to be avoided, is, That these two dif<g ref="char:EOLhyphen"/>ferent Orders and States, <hi>Ecclesiastical</hi> and <hi>Civil,</hi> be not set in op<g ref="char:EOLhyphen"/>position as contraries, that one should destroy the other, but as co<g ref="char:EOLhyphen"/>ordinate States in the same place reaching forth help mutually each to other, for the welfare of both, according to God: So that both Officers and Members of Churches be subject, in respect of the outward man, to the Civil Power of those who bear Rule in the Civil State according to God, and teach others so to do: And that
+<pb n="9" facs="unknown:000079_0008_0F9F8F8A9B157CA8"/>
+the Civil Magistrates and Officers, in regard of the inward man<g ref="char:punc">▪</g> subj<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct themselves Spiritually to the power of Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st in Church-Ordinances, and by their Civil Power preserve the same in out<g ref="char:EOLhyphen"/>ward Peace and Purity; and this will best be attained, when the Pastor may say to the Magistrate, as <hi>Gregory Nazianzen</hi> wrote to the Magistrate of <hi>Nazianzum, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rem mei gregis esse sacri greges sacram <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>em:</hi> I know thou art a sheep of my Flock, a holy sheep of a holy-Flock. Again, <hi>Cum Christo imperas, cum Christo etiam administras, ab eo est tibi gladius, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> narium à te pu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ei qui dedit conservetur</hi>; that is, Thou rulest with Christ, and administrest to Christ; thou hast the Sword from him: let th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s gift which thou hast received from him, be kept pure for him. And when the Civil Magistrate in his Church-state, answereth <hi>Ambrose</hi> his description of a good Emperour: <hi>Ipse Imperator bonus intra Ecclesiam, non su<g ref="char:EOLhyphen"/>pra Ecclesiam est.</hi> A good Magistrate is within the Church, not above it. Lastly, when according to <hi>Junius</hi> his description of the Power of the Christian Magistrate in Church-matters, be accounts it his duty to embrace in Fellowship with the whole Church, <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ut verum Christi &amp; <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> memorum</hi> the Laws given by God in the Church, and the means sanctified by him to nourish the inward man, and to protect and defend the same: [<hi>Tanquam Magistratus a Deo Ordina<g ref="char:EOLhyphen"/>tus</hi>] for, saith he, <hi>As he is a Christian,</hi> he is <hi>sancta oris de sancto Christi grege, (i. e.</hi> A holy sheep of Christ's holy flock. But as a Magistrate he is [<hi>Custos Ordinis vinde<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> publici:</hi>] that is, <hi>A preserver of publick order.</hi> Such were (besides the good Kings of <hi>Judah) Constantine, Theodosius,</hi> &amp;c. in some measure, though very defective. So much shall serve to have been spoken concerning the first Di<g ref="char:EOLhyphen"/>stinction.</p>
+            <p>The second <hi>Distinction</hi> to be premised for clearing the true state <label type="milestone">
+                  <seg type="milestoneunit">distinction </seg>2</label> of the Question, is, [<hi>Inter Remp. constitutam &amp; constituendan</hi>] Be<g ref="char:EOLhyphen"/>tween a Common-wealth already setled, and a Common-wealth yet to be setled, and wherein men are free to chuse what Form they shall judge best. For I conceive, when <hi>Paul</hi> exhorted the <hi>Romans</hi> to <hi>be <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ject to the higher Powers,</hi> who at that time were Heathen men, and Persecutors, he considered that Civil State as setled, and suted his Advice accordingly. But if he had been to Direct them about laying the Foundation of a Christian Common-wealth, he
+<pb n="10" facs="unknown:000079_0009_0F9F8F8B53A54FE8"/>
+would not have advised them to chuse such Governours as were out of the Church, but would have seriously forewarned them of the danger whereunto the Church would have been exposed thereby, and that unavoidably. And that this may not be thought a slight and uncertain conjecture, let us consider what advice he gave in like cases: Ye know, that writing to persons already Married he exhort<g ref="char:EOLhyphen"/>eth <hi>the believing wife to live w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th the unbelieving husband</hi>;<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Cor. 7.13.</note> yet the same Apostle directeth the same Church in case they were free to make their own choice, to avoid such matches: <hi>Be not unequally yoked</hi> (saith he) <hi>with Infidels;</hi>
+               <note place="margin">2 Cor. 6.14, 15.</note> 
+               <hi>for what fellowship hath righteousness with un<g ref="char:EOLhyphen"/>righteousnes? and what part hath the believer with the infidel?</hi> In like manner,<note place="margin">1 Pet. 2.18.</note> when <hi>Peter</hi> exhorted Christian <hi>Servants to be subject to their Masters wi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h all fear, not onely to the good and gentle, but also to the froward,</hi> he did accommodate his instruction to their present con<g ref="char:EOLhyphen"/>dition. But had he been to direct them in another state being free, to chuse what might be best for themselves, he would have expres<g ref="char:EOLhyphen"/>sed himself otherwise, as may appear by this. The same Spirit that inspired <hi>Peter</hi> thus to advise in this case, guided <hi>Paul</hi> further in a dif<g ref="char:EOLhyphen"/>ferent case:<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Cor. 7.2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>Art thou called being a servant,</hi> (saith he) <hi>care not for it; but if thou maist be free, use it rather.</hi> And that if he had written to a company of Believers in a New Plantation, where the Founda<g ref="char:EOLhyphen"/>tions of the Church and Civil State, and the communion of both, was to be laid for many Generations to come, he would have advised them to take the same course which we plead for, may appear by his reproving the Church in <hi>Co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>inth,</hi> for carrying <hi>their differences before Heathen Magistrates to be judged by them,</hi> though he press them to be <hi>subject to their power:</hi>
+               <note place="margin">1 Cor. 6.1.</note> Had the unbelieving Magistrates cited them to appear before their Judgement-seats, he taught them both by Precept and by his Example to submit. But when they were at li<g ref="char:EOLhyphen"/>berty to compose civil Differences among themselves, and yet they would voluntarily, and of their own accord, chuse to bring their cases before those that were without the Church, this he blameth in them; and that so farre as he demandeth why <hi>they do not rather suffe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hen take such a course? plainly intimating, that men that profess the fear of God if they be free to make choice of their Civil Judges, (as in this New Plantation we are) they should rather chuse such as are Members of the Church for that purpose,
+<pb n="11" facs="unknown:000079_0010_0F9F8F8C20378730"/>
+then others that are not in that estate. The same Rule holdeth by proportion in all things of like nature: for <hi>Pari<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m par est ratio.</hi>
+            </p>
+            <p>The third <hi>D<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>stinct<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>on</hi> to be premised for clearing the truth in this <label type="milestone">
+                  <seg type="milestoneunit">distinction </seg>3</label> Point, is <hi>between free Burgesses and free Inhabitants in a Civil St<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>te.</hi> Concerning whom, there must be had a different consideration. This d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fference of People living under the same Civil jurisdiction, is held and observed in all Countreys, as well Heathen as others, as may at large be proved, if it were needful, out of t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Histories of all Nations and Times; and the Experience of our Times, as well in our own Native Countrey, as in other places, confirmeth it. In all which, many are Inhabitants that are not Citizens, that are never likely to be numbred among <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or Rulers: An<g ref="char:EOLhyphen"/>swerably it is in the case now in question. So that when we urge, that Magistrates be chosen out of free Burgesses, and by them, and that those free Burgesses be chosen out of such as are Members of these Churches, we do not thereby go about to exclude those that are not in Church-Order, from any Civil Right or Liberty that is due unto them as Inhabitants and Planters, as if none should have Lots in due proportion with other men, nor the benefit of Justice under the Government where they live, but onely Church-members; (for this were indeed to have the Common-wealth swallowed up of the Church) but seeing there ever will be difference between the World and the Church in the same place, and that both men of the world are allowed of God the use and enjoyment of the help of Civil Government, for their quiet and comfortable subsistence in the world: and Church-members (though called out of the world into fellowship with Christ, yet) living in the world, having many worldly necessities and businesses in common with men of the world that l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ve among them, stand in need of the civil Power to right them against civil injuries, and to protect them in their right, and outward orderly use of their Spirituals, against those that are apt to be injurious to them in the one, or in the other respect; which be<g ref="char:EOLhyphen"/>ing without, are not under the Churches Power; and yet living within the Verge of the same Civil Jurisdiction, are under the Civil Power of the Magistrates. Hence it is, that we plead for this Or<g ref="char:EOLhyphen"/>der to be set in Civil Affairs, that such a course may be taken as may best secure to our selves and our posterities the faithful managing of
+<pb n="12" facs="unknown:000079_0011_0F9F8F8CD10C5970"/>
+Civil Government for the <hi>common welf<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re</hi> of all as well in the Church as without; which will then most certainly be effected, when the pub<g ref="char:EOLhyphen"/>lick Trust and Power of these matters is committed to such men as are m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st approved according to God; and these are Church-mem<g ref="char:EOLhyphen"/>bers <note n="*" place="margin">By <hi>Church Members</hi> in all this Discourse, is meant su<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h as are in full Com<g ref="char:EOLunhyphen"/>munion.</note>, a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> shall afterward, God ass<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sting, be proved</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">distinction </seg>4</label> The fourth <hi>Distinction</hi> to be premised for clearing the truth, and to prevent m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stakes in this Question, shall be <hi>between the Actions of Church-members.</hi> For some actions are done <hi>by them all<g ref="char:punc">▪</g> joyntly as a Spiritual Body,</hi> in reference to Spiritual ends; and some actions are done onely <hi>by some of the Body,</hi> in reference to Civil ends. Act<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ons of the first sort, are said to be done <hi>by the Church of Christ, as a Church of Christ</hi>; such are <hi>Admission of members, and Excommunication of them according to Christ's order,</hi> and other actions of that kinde; but these fall not under our Question, which is wholly about <hi>the transaction of Civil Affairs</hi>: so that your whole Disp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>te wanteth a good ground, and your labour about it might well have been spared. Actions of the second sort, are of a larger extent, and reach to businesses of a <hi>Civil Nature,</hi> such as that <hi>Civil Judgement</hi> whereof <hi>Paul</hi> speaketh, 1 <hi>Cor.</hi> 6. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in <hi>matters that concern this life,</hi> as <hi>the Lives, Goods,</hi> (and which is dearer to them then both) <hi>the Reputations of men, and their outward Liberty and Peace.</hi> Concerning which, Members fitly chosen out of the Church, and made free Burgesses, are fitter to judge and determine according to God, then other men, and that for weighty Reasons; some whereof are rendred by <hi>Paul</hi> in that Cha<g ref="char:EOLhyphen"/>pter, whereunto others may be added, when we shall argue that Point, the Lord helping us.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">distinction </seg>5</label> The fifth <hi>D<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>stinction</hi> to be premised for the clearing of the truth in this Point, is <hi>between Places, where all, or the most considerable part of first and free Planters, profess their desire and purpose of entring into Church-fellowship according to Christ, and of enjoying in that State all the Ordinances in purity and peace, and of securing the same unto their posterity, so farre as men are able</hi>; and <hi>those Places where all or the most considerable part of the first and free Planters are otherwise minded, and profess the contrary.</hi> Our Question is of the first-sort, not of the se<g ref="char:EOLhyphen"/>cond. As for those of the second sort, if the <hi>major,</hi> or more consi<g ref="char:EOLhyphen"/>derable part among them, will be like Heathen men, without such Church-fellowship, as is according to Christ in all things, a Heathen
+<pb n="11" facs="unknown:000079_0012_0F9F8F8E40C7D058"/>
+man or meer civil worldly Polititian, will be good enough to be their Magistrate; or if they desire to set up <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dolatry and Supe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>stit<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> an I<g ref="char:EOLhyphen"/>dolatrous and superstitious Governor in the Civil State will best sute their ends; and so they may be said to their just reproof and shame, <hi>Like Priest, like People</hi>; and <hi>Like <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, like People.</hi> Thus sometimes the Lord hath spoken against a licent<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>us people concerning their pro<g ref="char:EOLhyphen"/>phets, <hi>He that will prophecy of w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ne and strong drink,</hi>
+               <note place="margin">Micah 2.11.</note> 
+               <hi>he shall be the pro<g ref="char:EOLhyphen"/>phet to this people.</hi> He that sometimes giveth such <hi>G<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ides in the Church</hi> to a people in <hi>his indignation,</hi> doth also sometimes give <hi>Magistrates &amp; Rulers</hi> to a people <hi>in the Civil State</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n <hi>his wrath,</hi> when men are <hi>for<g ref="char:EOLhyphen"/>saken of him,</hi> and <hi>given up more to affe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t</hi> outward fancy and <hi>vanity,</hi> then <hi>Gods Order:</hi> as when the <hi>people of Israel sought a King,</hi> without respect to the <hi>right Tribe,</hi> from whence by Gods order they ought to expect one, <hi>He gave them a King to his anger, and took him away in his wrath.</hi> In such case<g ref="char:punc">▪</g>
+               <note place="margin">Hosea 13.11.</note> what shall the people of God do that live in such a place? surely if God give them liberty and ability, they should attend to the voice of God, which hath said in a like case to his peo<g ref="char:EOLhyphen"/>ple, <hi>Arise and depart, this is not your rest</hi>;<note place="margin">Micah 2.10.</note> and follow <hi>the steps of Christs flock</hi> to any place, <hi>where he causeth his flock to feed,</hi>
+               <note place="margin">Cantic. 1.6, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>and lye down</hi> under a comfortable shadow <hi>at noon</hi>: As in <hi>Jeroboam</hi>'s time, the <hi>Levites left their suburbs, and came to Judah and Jerusal<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m, and after them of all the Tribes of Israel, such as set their hearts to seek the Lord God of Israel, and strengthned the Kingdome of Judah,</hi> where Gods Ordinances both concerning Civil Government and Religious Worship were better observed. But if Divine Providence doth necessitate their stay and abode in such places, they are to <hi>pray for those in Authority,</hi>
+               <note place="margin">1 Tim. 2.12.</note> that they may become such, as <hi>under whom they may live a quiet and peaceable life, in all godliness and honesty</hi>; and to be <hi>subject to their Power,</hi> even in those things wherein they may not obey their Com<g ref="char:EOLhyphen"/>mands, nor seek their help, 1 <hi>Cor.</hi> 6.1, 2 til<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> God shall give them liberty from that Yoke, either by removing them to those places where fitter Magistrates bear Rule in Civil matters, or by giving them opportunity of Chusing more sutable ones from among them<g ref="char:EOLhyphen"/>selves.</p>
+            <p>So much shall serve to have been spoken to the <hi>Distinctions,</hi> which having thus premised, we now proceed to declare the true state of the Question: which is as followeth.</p>
+            <q>
+               <pb n="14" facs="unknown:000079_0013_0F9F8F8E90B84600"/>
+               <note place="margin">
+                  <hi>The true state of the Question.</hi>
+               </note>
+               <hi>Q.</hi> Whether a new Plantation, where all or the most considerable part of free Planters profess their purpose and desire of securing to themselves and to their posterity, the pure and peaceable enjoyment of Christ's Ordinances; Whether, I say, such Planters are bound in laying the Foundations of Church and Civil State, to take order, that all the free Burgesses be such as are in fellowship of the Church or Churches which are, or may be gathered according to Christ; and that those free Burgesses have the only power of chusing from among themselves Civil Magistrates, and m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n to be intrusted with transacting all publick Af<g ref="char:EOLhyphen"/>fairs of Importance, according to the rules and directions of Scripture?</q>
+            <p>I hold the Affirmative part of this Question upon this ground, that this course will most conduce to the good of both States; and by consequence to the <hi>common welfare of all,</hi> whereunto all men are bound principally to attend in laying the <hi>Foundation of a Common-wealth,</hi> lest Posterity rue the first Miscarriages, when it will be too late to redress them. They that are skilful in Architecture observe, <hi>that the breaking or yielding of a stone in the groundwork of a Building but the breadth of the back of a knife, will make a cleft of more then half a foot in the Fabrick aloft: So important</hi> (saith mine Author) <hi>are fundamental Errours.</hi> The Lord awaken us to look to it in time, and send us his Light and Truth to lead us into the safest wayes in these beginnings.</p>
+            <p>The Question being thus stated, I now proceed with Gods help to prove the Affirmative part: and thus I argue, to prove that <hi>the Form of Government which is described in the true stating of the Question is the best, and by consequence, that men that are free to chuse (as in new Planta<g ref="char:EOLhyphen"/>tions they are) ought to establish it in a Christian Common-wealth.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">argument </seg>1</label> Theocratie, <hi>or to make the Lord God our Governour</hi> 
+               <note n="(a)" place="margin">Deut. 33.29. Isai. 33.22. Judg. 8.23.</note>, <hi>is the best Form of Government in a Christian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to est<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>b<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>sh. The Form of Government described in the true stating of the Question is</hi> Theocratie, <hi>or that wherein we make the Lord God our Governour. Therefore that Form of Government which is described in the true stating of the Question, is the best Form of Government in a Christian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to establish.</hi> The Proposition is clear of it self. The Assumption I prove thus:</p>
+            <p>
+               <hi>That Form of Government where</hi> 1. <hi>The people that have the power of
+<pb n="15" facs="unknown:000079_0014_0F9F8F8F19FDE670"/>
+abusing their Governors are in Covenant with God</hi>
+               <note n="(b)" place="margin">Exod. 19.5. Deut. 1.13, 14.</note> 2. <hi>Wherein the men chosen by them are godly men, and f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed with a spirit of Government</hi> 
+               <note n="(c)" place="margin">Exod. 18.2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Deut. 1.13.</note>: 3. <hi>In which the Laws they rule by are the Laws of God</hi> 
+               <note n="(d)" place="margin">Numb. 11.24, 25. Isa. 33.22.</note>: 4. <hi>Wherein Laws are executed, Inheritances allotted, and civil differences are composed, according to Gods appointment</hi> 
+               <note n="(e)" place="margin">Num 35.29. &amp; 6.27. &amp; 2.3. 1 Cor. 6.1, 2.</note>: 5. <hi>In which men of God are consulted with in all hard cases, and in matters of Religion</hi> 
+               <note n="(f)" place="margin">Deut. 17 8. <hi>to</hi> 11. &amp; 19.16, 17. 2 Cor. 10.4. <hi>to</hi> 11<g ref="char:punc">▪</g>
+               </note>, is the Form which was received and established among the people of <hi>Israel</hi> whil'st the Lord God was their Governour, as the places of Scripture alledged shew; and is the very same with that which we plead for, as will ap<g ref="char:EOLhyphen"/>pear to him that shall examine the true stating of the Question. The Conclusion follows necessarily.</p>
+            <p>
+               <hi>That Form of Government which giveth unto Christ his due prehemi<g ref="char:EOLhyphen"/>nence,<label type="milestone">
+                     <seg type="milestoneunit">argument </seg>2</label> is the best Form of Government in a Christian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to establish. The Form of Government described in the true stating of the Question, is that which giveth unto Christ his due preheminence. There<g ref="char:EOLhyphen"/>fore the Forms of Government which is described in the true stating of the Question, is the best Form of Government in a Christian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to establish.</hi>
+            </p>
+            <p>The Proposition is proved out of two places of Scripture, <hi>Col.</hi> 1.15. <hi>to</hi> 19. with <hi>Eph<g ref="char:punc">▪</g>
+               </hi> 1<g ref="char:punc">▪</g> 21, 22. From which Texts it doth appear, that it is a prehemince due to Christ, that all things, and all Governments in the wo<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d, should serve to Christs ends, for the welfare of the Church whe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eof he is the Head. For 1. In relation to God, he hath this by Right o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Primogeniture, as he is <hi>the first-born, and so Heir of all things, higher then the Kings of the earth.</hi> 2. In relation to the World it is said, <hi>All things were made by him, and for him, and do con<g ref="char:EOLhyphen"/>sist in h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m,</hi> and therefore it is a preheminence due to him that they all serve him. 3. In relation to the Church, it is said, <hi>He hath made all things subject under his feel, and hath given him over all things to be Head of the Church, that in all things he might have the preheminence.</hi> And indeed that he upholdeth the Creatures, and the Order that is in them, it is for his Churches sake; when that is once compleat, the world shall soon be at an end. And if you reade the stories of the great Monarchies that have been and judge of them by Scripture-light, you will finde they stood or fell, according as God purposed
+<pb n="16" facs="unknown:000079_0015_0F9F8F9166F897D0"/>
+to make use of them about some service to be done about his Church. So that the onely considerable part for which the world standeth at this day, is the Church: and therefore it is a Prehem<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nence due to Christ, that his Headship over the Church should be exalted and ac<g ref="char:EOLhyphen"/>knowledged<g ref="char:punc">▪</g> and served by all. In which respect also the Title of <hi>The fir<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t-born</hi> is given to the Members of the Church, and they are called <hi>The first-fr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>its of his Creatures,</hi> to sh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>w both their prehemi<g ref="char:EOLhyphen"/>nence above others, and that they are fittest to serve to Gods ends.</p>
+            <p>The Assumption (<hi>That the Form of Government described in the true stating of the Question, doth give unto Christ his due preheminence</hi>) will easily be granted by those that shall consider what Civil Magi<g ref="char:EOLhyphen"/>strates and Rulers in the Common wealth those are, who are fittest to serve to Christ's ends for the good and welfare of his Church; which will be evident from two places of Scripture: First, in Ps<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. 2.10, 11, 12 you have a description of those that are fitted to order Civil Affairs in their Magistracy to Christ's ends; they are such as are not onely wise and learned in matters of Religion but also do reduce their knowledge into practise: they <hi>Worship the Lord in fear</hi>; and not only so, but <hi>Kiss the Son,</hi> which was a solemn &amp; outward <hi>Pro<g ref="char:EOLhyphen"/>fession of love</hi> 
+               <note n="(a)" place="margin">1 Pet. 5.14.</note>, and <hi>of Subjection</hi> 
+               <note n="(b)" place="margin">Gen. 41.40. 1 Sam 10.1.</note>, and <hi>of Religious Worship</hi> 
+               <note n="(c)" place="margin">Hos. 13.2.</note>, and so fitly serveth to express their joyning themselves to the Church of Christ. Secondly, in <hi>Isa.</hi> 49.23. it is promised to the Church, that <hi>Kings and Queens shall be their nursing-fathers and nursing-mothers,</hi> and therefore it is added, <hi>They shall worship with their faces to the earth, and lick up the dust of thy feet</hi>; which is a proverbial expression of their voluntary humbling of themselves to Christ in his Ordinances, (taken from the manner of the <hi>Persians,</hi> in declaring their Subjection to their Emperour <note n="(d)" place="margin">
+                  <hi>Val. Max.</hi> lib 7. chap. 3.</note>, which the Apostle calls <hi>a voluntary submis<g ref="char:EOLhyphen"/>sion to the Gospel</hi>
+               <note n="(e)" place="margin">2 Cor. 9.13.</note>, which is the spirit of the Members of the Chur<g ref="char:EOLhyphen"/>ches of Christ. And for this Reason it is<g ref="char:punc">▪</g> that the Lord, when he moulded a Communion among his own People, wherein all Civil Administrations should serve to holy ends, he described the men to whom that Trust should be committed, by certain Properties, which also qualified them for fellowship in Church-Ordinances, as <hi>Men of ability and power over their own affections</hi> 
+               <note n="(f)" place="margin">Exod. 18.21 Deut. 1.13.</note>; secondly, <hi>fearing God, Truly Religious, Men of Courage, hating Covetousn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ss, men of Wisdom<g ref="char:punc">▪</g> men of understanding,</hi> and <hi>men known</hi> or approved of <hi>among the people
+<pb n="17" facs="unknown:000079_0016_0F9F8F921D33A988"/>
+of God,</hi> &amp; <hi>chosen by the Lord from among their Brethren,</hi> &amp; not a stran<g ref="char:EOLhyphen"/>ger, which is no Brother: the most of which concurre to describe Church-members in a Church rightly gathered and ordered, who are also in respect of their union with Christ and fellowship toge<g ref="char:EOLhyphen"/>ther, called <hi>Brethren</hi> frequently in the New Testament, wherein the equity of that Rule is established to us. Object.<note place="margin">Object.</note> 
+               <hi>Christ will have his due Preheminence, though the Civil Rulers oppose him, and per<g ref="char:EOLhyphen"/>secute the Churches, as in</hi> Rome: <hi>Therefore it is not necessary that this course be taken in Civil Affairs to establish Christs Preheminence. Ans.</hi>
+               <note place="margin">
+                  <hi>Answ.</hi>
+               </note> The Question is of a Christian Commonwealth that should wil<g ref="char:EOLhyphen"/>lingly subject themselves to Christ, not of a Heathen State that shall perforce be subdued unto Christ. It is concerning what Gods people being free should chuse, not what his enemies are compell'd unto.</p>
+            <p>
+               <hi>That Form of Government wherein the best provision is made for the <label type="milestone">
+                     <seg type="milestoneunit">argument </seg>3</label> good both of the Church and of the Civil State, is the best Form of Go<g ref="char:EOLhyphen"/>vernment in a Christian Communion, and which men that are free to chuse (as in new Plantations they are) ought to establish. The Form of Govern<g ref="char:EOLhyphen"/>ment described in the true stating of the Question, is that wherein the best provision is made for the good both of the Church and Civil State. There<g ref="char:EOLhyphen"/>fore the Form of Government described in the true stating of the Q<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>stion, is the best Form of Government in a Christian Communion, and which men that are free to chuse (as in new Plantations they are) ought to establish.</hi> The Proposition (if need be) may be confirm<g ref="char:EOLhyphen"/>ed from the end of all Civil Government &amp; Administrations which is <hi>the publick and common Good,</hi> whether Natural, as in <hi>the preservation of Life and Safety</hi>; or Moral, as <hi>Justice and Honesty in Humane Socie<g ref="char:EOLhyphen"/>ties</hi>; or Civil, as <hi>Peace, Liberty of Commerce</hi>; or Spiritual as <hi>to pro<g ref="char:EOLhyphen"/>tect the Church in Spiritual, though outward, Order and Administra<g ref="char:EOLhyphen"/>tions in peace &amp; purity.</hi> And this last is principally to be attended unto, and therefore such as are intrusted with this care, are called <hi>The Mi<g ref="char:EOLhyphen"/>nisters of God,</hi> to note the principal end whereunto they serve, <hi>viz.</hi> The things wherein God is most directly and immediately honour<g ref="char:EOLhyphen"/>ed, which is in promoting man's Spiritual good, so farre as they are enabled by their Civil Power.</p>
+            <p>The Assumption (<hi>That the Form of Government in the Common-wealth which we plead for, is that wherein the best provision is made for the good both of the Church and of the Civil State</hi>) may appear by the
+<pb n="18" facs="unknown:000079_0017_0F9F8F995E62B790"/>
+blessing of God which usually is upon the Communion, where the scouring of the Spiritual good of men, in the peace and purity of Gods Ordinances, is principally attended unto by all sorts as may be proved by the state of things in the Communion of <hi>Israel,</hi> whil'st the service of the Lord was with due care attended to <hi>all the dayes of Jo<g ref="char:EOLhyphen"/>shua,</hi>
+               <note place="margin">Iosh. 24.31.</note> 
+               <hi>and all the dayes of the Elders that over-lived Joshu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, which had known all the works of the Lord which he had done for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</hi> Many more places of Scripture might be alledged; but I will onely note <hi>Psal.</hi> 72. wherein all sorts of good are assured to the Common-wealth, wherein <hi>the fear of God,</hi> that is Matters of Religion are so regarded, as the preservation thereof to after ages is duely pr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>v<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ded for: which how can it be done, if the course described in the true stating of the Question be neglected by those that are free to cast the Common-wealth into what Mould they please?</p>
+            <p>
+               <note place="margin">
+                  <hi>Junius Eccles.</hi> lib. 3. chap. 5.</note>This <hi>Junius,</hi> a Learned and Godly man, and much exercised in State Affairs, as appears by the Story of his Life, saw clearly; and therefore speaking of the Consent and Harmony of the Church and Civil State in the concurrence of their several Administrations to the welfare of a Christian Common-wealth, he expresseth it by the <hi>conjunction of the Soul and Body in a Man</hi>; and concludeth, that <hi>Nothing will be of so much avail to the welfare of civil Administrations, as will the best Administrations of the Church giving attendance to the holy and just Communion of Saints,</hi> (ut ad parentem officiorum omni<g ref="char:EOLhyphen"/>um) <hi>as to the Parent of all Duties:</hi> and, that <hi>Nothing will so secure and strengthen Church Administrations, as that security</hi> (quam prae<g ref="char:EOLhyphen"/>bitura est justa pi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Magistratus atque fidelis <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) <hi>which the just Administrations of a godly and faithful Magistrate will afford.</hi> Now <hi>Pii &amp; Fideles, Men that are godly and faithful,</hi> are such as are described in our stating of the Question. And having thus said, he breaks out into an affectionate Admiration of the Happiness of a Communion so ordered: <hi>Ecquid obsecro futurum est, si optima Eccle<g ref="char:EOLhyphen"/>sia, cum Republicâ optima co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lescat? O beatum populum, in quo uno ore, &amp; uno animo, utra<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> administratio, ad sanctam communionem cum ci<g ref="char:EOLhyphen"/>vili Societate continendam, &amp; augendam conspiraverit! Non minuit il<g ref="char:EOLhyphen"/>lam haec administratio, sed altera alteram st<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ntem, confirmat, labantem, statuminat, collapsam erigit.</hi> Which I thus English: <hi>What I pray may be expected in future times, if the best Church, and the best Common-wealth
+<pb n="19" facs="unknown:000079_0018_0F9F8F9C1DFBB860"/>
+grew up together? Oh blessed people, among whom each Administration shall conspire with one mouth, and one minde, to conjoyn and advance the Communion of Saints with the Civil Society! One of these Administra<g ref="char:EOLhyphen"/>tions will not detract from the other, but each will confirm the other if it stand, and stay it if it be falling, and raise it up if it be fa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> down.</hi> And a little after he thus concludeth, <hi>Magistratum cui credita est civi<g ref="char:EOLhyphen"/>lis administratio non in Ecclesia so<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m, sed etiam ex Ecclesia esse affirma<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>us; We affirm, that the Magistrate to whom the Civil Administra<g ref="char:EOLhyphen"/>tion is committed, is or ought to be not onely in the Church, but also taken out of the Church.</hi> Thus <hi>Juniu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> thought, and taught, and published to the world. And indeed what is more equal, then that he who by Office is to be a <hi>Minister of God,</hi> should be chosen by and out of those who are by open Profession in the Church-estate, the Servants of the Lord and have more helps to know his Minde, and deep en<g ref="char:EOLhyphen"/>gagements to seek his Ends, and observe his Will, then other men? But if any be otherwise minded, let them shew some other course, wherein the publick good may be promoted according to God, with assurance of a blessing by virtue of the Promises.</p>
+            <p>The fourth Argument shall be taken out of 1 <hi>Cor</hi> 6. <hi>ver.</hi> 1, <hi>to</hi> 8.<label type="milestone">
+                  <seg type="milestoneunit">argument </seg>4</label> Whence I thus argue: <hi>That Form of Government wherein the power of Civil Administrations is denied unto unbelievers, and committed to the Saints, is the best Form of Government in a Christian Common-wealth, and which men <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat are free to chuse (as in new Plantations they are) ought to establ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sh. The Form of Government described in the true stating of the Question, is that wherein the power <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f Civil Administrations is de<g ref="char:EOLhyphen"/>nied to unbelievers, and committed to the Saints. Therefore the Form of Government described in the true stating of the Q<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>estion, is the best Form of Government in a Christian Commun<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>on, and which men that are free to chuse (as in new Plantations they are) <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ught to est<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>blish.</hi> The Pro<g ref="char:EOLhyphen"/>position is evident from the Scripture alledged. For, the thing which <hi>Paul</hi> blameth in them, is not, that living under unbelieving Magi<g ref="char:EOLhyphen"/>strates, they submitted to their Civil Judicature when they were cited to appear before their Judgement-seats: but this be reproveth, that when they were free to chuse other Judge<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, (as in voluntary re<g ref="char:EOLhyphen"/>ferences they were) they would out of ch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ice be judged under the unjust, and not under Saints. His Arguments against this are many and weighty. 1. From the danger of thus exalting unbelievers,
+<pb n="20" facs="unknown:000079_0019_0F9F8F9C95DEE468"/>
+and abasing the Saints, in these words, <hi>Dare any of you having a mat<g ref="char:EOLhyphen"/>ter against another, be judged under the unjust, and not under the Saints?</hi> 2. From the quality of unbelieving Judges whom he calleth <hi>unjust,</hi> because they are destitute of the righteousness that is by Faith, and which is the Fountain of all true Moral Justice: and because they were ill-affected to Christians, and to the Church of Christ, and apt to vex them injuriously, if they had any business before them; and because though some men out of Christ may be found civilly honest, and morally just, as were also some Heathen men, yet you can have no assurance of their justice, seeing this is the genius and nature of all men out of Christ to be unrighteous. 3. From the property of Church-members, whom he calls <hi>Saints,</hi> that is, men consecrated to God and to his ends in all things; for so they are in their Church-estate, and by virtue of their Covenant are bound so to be: when as others are (or at least are not manifested to be otherwise according to Gods order) worldly-minded, or self-seekers, <hi>minding their own things, and not the things of Jesus Christ.</hi> The 4<hi rend="sup">•h</hi> Argument is <hi>a majo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> for he saith <hi>The Saints shal<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> judge the world,</hi> and blames their igno<g ref="char:EOLhyphen"/>rance that question it: <hi>Know ye not that the Saints shall judge the world?</hi> and thence inferreth, that they should much more have judge<g ref="char:EOLhyphen"/>ment <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>in matters that concern this life</hi>
+               <g ref="char:punc">▪</g> such are Humane Contracts, mens Goods<g ref="char:punc">▪</g> and Lives, and outward Liberties. The 5<hi rend="sup">t</hi> Argument is from the Wisdom wherewith the Church of God is furnished for all Civil businesses: <hi>Is there not a wise man among you?</hi> as if he should say, It cannot be that more wisdome should be for transacting of businesses according to God in men that are out of the Church, then in those that are in the Church? howsoever much worldly wisdome is sometimes given to men of the world, yet not sufficient to reach Gods ends that is the Priviledge of Saints, they onely are <hi>wise as Serpent,</hi> the other men may be as <hi>subtile as Foxes.</hi> And seeing it is by Christ that <hi>K<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ngs reign, and Princes decree justice,</hi>
+               <note place="margin">Prov. 8.15.</note> how can it be supposed that Christ, who is the Head of the Church, will furnish others with a Spirit of Wisdome and Govern<g ref="char:EOLhyphen"/>ment in Civil Matters, and deny it to the Church, Members of his own Body, whom he alone sanctifieth to his end?</p>
+            <p>The Assumption <hi>(That the Form of Government in t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Common-wealth which we plead for, is that wherei<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the power of c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vil Admini<g ref="char:EOLhyphen"/>strations
+<pb n="21" facs="unknown:000079_0020_0F9F8F9D52C61378"/>
+is denied to unbelievers, and committed to the Saints)</hi> is evident of it self. For whom doth the Apostle call <hi>Sa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nts</hi> there, but Mem<g ref="char:EOLhyphen"/>bers of the Church? when he had said before, they <hi>were sanctified in Christ Jesus, Saints by calling.</hi>
+               <note place="margin">1 Cor. 1.2.</note> Hence it is that he speaks of men esteemed in the Church, <hi>v.</hi> 4. and of men that can judge between <hi>Brethren, v.</hi> 5. which is a Title given to Church-members ordinarily in the New Testament.</p>
+            <p>If it be objected, <hi>He speaketh there of Church-members,</hi>
+               <note place="margin">Object.</note> 
+               <hi>in opposi<g ref="char:EOLhyphen"/>tion to Infidels which persecuted the truth, not in opposition to m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n that may fear God, and be accounted Believers, though they be not in Church-fellowship.</hi>
+            </p>
+            <p>I Answer, The fear of God, and Faith of those men,<note place="margin">
+                  <hi>Answ.</hi>
+               </note> may be justly doubted, whose setled abode is in a place where Churches are gather'd and order'd according to Christ<g ref="char:punc">▪</g> and yet are not after a conveni<g ref="char:EOLhyphen"/>ent time joyned to them: For if in those times and places where the Name of Christ was a Reproach, men were no sooner converted, then they were <hi>added to the Church,</hi> and their being added to the Church, was made an evidence of their conversion; what may we think of those men who living in times and places where the Or<g ref="char:EOLhyphen"/>dinances of the Gospel may be enjoyed in purity, with peace in Church-fellowship, do yet live without the Church? 2. Though there be sundry degrees of distance from the Church, to be found among men that are out of Church f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>llowship, as the Heathen are further off then moral Christians, yet the same Spirit of unrighteous<g ref="char:EOLhyphen"/>ness and enmity against Christ, worketh and bears rule in an uncon<g ref="char:EOLhyphen"/>verted Christian, as doth in an unbaptized Heathen: He is unsancti<g ref="char:EOLhyphen"/>fied as the other is, and so unsutable to Gods ends in civil Admini<g ref="char:EOLhyphen"/>strations; and therefore it will not be safe, nor according to the Rule, that where a Church is gathered according to Christ, the Members should be neglected, and such men intrusted with mana<g ref="char:EOLhyphen"/>ging the Publick Affairs<g ref="char:punc">▪</g> as are not in fellowship with them.</p>
+            <p>The fifth Argument may be taken from the Nature and Power <label type="milestone">
+                  <seg type="milestoneunit">argument </seg>5</label> of Church-Order, which when it is managed according to Chr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st's appointment, affordeth best security to a Christian State, for the faithful discharge of any Trust that shall be committed to those that are under it. Whence I thus argue: <hi>That Form of Government where<g ref="char:EOLhyphen"/>in the power of chusing from among themselves, men to be intrusted with
+<pb n="22" facs="unknown:000079_0021_0F9F8F9E16E1C1F0"/>
+managing all publick Affairs of Importance, is committed to them who are furnished with the best helps for securing to a Christian State the faith<g ref="char:EOLhyphen"/>full discharge of such a Trust, is the best Form of Government in a Chri<g ref="char:EOLhyphen"/>stian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to establish. The Form of Government de<g ref="char:EOLhyphen"/>scribed in the true stating of the Question is such. The<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>efore the Form of Government described in the true stating of the Question, is the best Form of Government in a Christian Common-wealth, and which men that are free to chuse (as in new Plantations they are) ought to establish.</hi> The Proposition is undeniable.</p>
+            <p>The Assumption <hi>(That the Form of Government which we plead for, is that wherein the power of chusing men to be intrusted with ma<g ref="char:EOLhyphen"/>naging of all publick Affairs of Importance, is committed to them who are furnished with the best helps for securing to a Christian State the faithful discharge of such a Trust)</hi> may be confirmed, by shewing what these Helps are; <hi>viz.</hi> 1. That the Members of the Church are <hi>Saints by calling,</hi>
+               <note place="margin">1 Cor. 1.2. John 15.19. Heb. 12.23. James 1.18. Isai. 11.1, 2. Luke 1.75. Psal. 50.5. Deut. 26.17, 18.</note> i. e. men <hi>separated from the world, and the pollutions thereof,</hi> out of which <hi>they are called, and dedicated to God</hi>; as the <hi>first-born,</hi> and the <hi>first-fruits</hi> were; and they are qualified, by <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he spirit of wisdome and understanding, the spirit of counsel and strength, the spirit of knowledge and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he fear of the Lord,</hi> in some measure through fel<g ref="char:EOLhyphen"/>lowship with Christ, to serve God and men <hi>in holiness and righ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eous<g ref="char:EOLhyphen"/>ness all the dayes of their lives.</hi> 2. That these <hi>Saints by calling</hi> being in Church-Order according to Christ's appointment, are in Cove<g ref="char:EOLhyphen"/>nant with God, and one with another whereby they are most strict<g ref="char:EOLhyphen"/>ly bound to do faithfully, whatsoever they do to God or men. 3. That by virtue of this Order, they are bound to mutual helpful<g ref="char:EOLhyphen"/>ness, in Watching over one another, Instructing, Admonishing, and Exhorting one another to prevent sin, or to recover such as are faln, or to encourage one another, and strengthen them in well-doing.</p>
+            <p>Thus are they bound in a threefold Cable unto all Faithfulness <hi>in all things to God and Man.</hi> The like assurance cannot be had in any other way, if this course be neglected.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">argument </seg>6</label> The sixth Argument, with which I will conclude, that I may not weary you with Reading, as I have wearied my self with W<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>it<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng) shall be taken from <hi>The Danger of devolving this Power upon those that a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e not in Church-Order.</hi> From whence the Apostle would
+<pb n="23" facs="unknown:000079_0022_0F9F8F9ED43ED4B0"/>
+have men to be affrighted:<note place="margin">1 Cor. 6.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>Dare any of you having business against another, be judged under the unjust, and not under the Saints?</hi> The Danger therefore that is to be feared in reference to the <hi>Chrrch,</hi> is, The disturbance of the Churches Peace, when Power shall be put into their hands, who being of worldly spirits, hate <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Saints and their Communion; and being of the <hi>seed of th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Serpent,</hi>
+               <note place="margin">John 15.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> Gen. 3.15. Zech. 3.1. Revel. 12.7.</note> 
+               <hi>are at enmity against the seed of the Woman</hi>; and being Satans instruments, who is the <hi>God <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f this World,</hi> are resisting and fighting against Christ his Kingdome and Government in the Church. 2. Adde hereunto, The Danger of corrupting Church Order, either by compelling them to receive into fellowship unsutable ones, or by imposing upon them Ordinances of men<g ref="char:punc">▪</g> and worldly Rudiments;<note place="margin">Col. 2.22, 23.</note> or by establish<g ref="char:EOLhyphen"/>ing Idolatrous Worship; or by strengthning Hereticks in subvert<g ref="char:EOLhyphen"/>ing the common Faith, as those <hi>Arrian Emperours,</hi> and Ido<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>atrous Kings and States have done, of which we reade so many instances.</p>
+            <p>Secondly, the Danger to be feared in reference to the Civil State, is, 1. The raising of Factions to the disturbance of Publick Peace, whil'st some Magistrates out of the Church, watch their seasons to strengthen themselves against those that are in the Church, till they have wrought them out of Office and Power in the Civil State: and in the mean time, what other can be expected from such unequal mixture in State,<note place="margin">Dan. 2.42, 43.</note> but that they should be as <hi>the toes of the feet</hi> of <hi>Ne<g ref="char:EOLhyphen"/>buchadnezzar</hi>'s <hi>image,</hi> which <hi>were part of iron, and part of clay,</hi> they should be partly broken, and partly strong, and not comfortably joyn one with another, as iron cannot be mixed with clay. The second Danger to the Civil State, will be, A perverting of <hi>Justice</hi> by Magistrates of worldly spirits, through Bribery, respect of persons, unacquaintance with the Law of God, and injuriousness to the ser<g ref="char:EOLhyphen"/>vants of God. But I must break off, lest I grow too tedious. How easily might I adde the Consent of all Nations to this Truth in some proportion, who generally practise accordingly? In our Native Countrey, none are intrusted with managing of Publick Affairs, but <hi>Members of the Church of England,</hi> (as they call them.) In <hi>Holland,</hi> when the <hi>Arminian</hi> Party had many Burgomasters on their side, <hi>Grave Maurice</hi> came into divers of their Cities with Troops of Souldiers, by Order from the <hi>States Generall,</hi> and put those <hi>Arm<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>nian</hi> Magistrates out of Office, and caused them to chuse onely
+<pb n="24" facs="unknown:000079_0023_0F9F8F9F99B0D010"/>
+such as were of the <hi>Dutch Churches.</hi> And in <hi>Rotendam</hi> (and I think it is so in other Towns) the <hi>Vrents<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ap</hi> (who are all of them of the <hi>Dutch Church,</hi> and free Burgers) do out of their own company chuse the Burgomaster, and other Magistrates and Officers. In all Popish Countreys and Plantations, they observe it strictly, to in<g ref="char:EOLhyphen"/>trust none with the managing of Publick Civil Affairs<g ref="char:punc">▪</g> but such as are <hi>Catholic<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s</hi> (as they speak) and of the <hi>Roman Church.</hi> Yea, in <hi>Turkey</hi> it self, they are careful that none but a man devoted to <hi>Ma<g ref="char:EOLhyphen"/>homet</hi> bear publick Office. Yea, these very <hi>Indians</hi> that Worship the Devil, will not be under the Government of any <hi>Sagamores,</hi> but such as joyn with them in Observance of their <hi>Pawawes</hi> and <hi>Idolatries</hi>: That it seems to be a Principle imprinted in the mindes and hearts of all men in the equity of it, <hi>That such a Form of Go<g ref="char:EOLhyphen"/>vernment as best serveth to Establish their Religion, should by the con<g ref="char:EOLhyphen"/>sent of all be Established in the Civil State.</hi>
+            </p>
+            <p>Other things I might adde, but I hope enough hath been said for Defence and Confirmation of what I have affirmed touching this matter. If you remain unsatisfied, I shall desire that you will pla<g ref="char:EOLhyphen"/>cidly, and lovingly, and impartially weigh the Grounds of my judgement, and communicate yours if any remain against it, in writing. For though much writing be wearisome unto me, yet I finde it the safer way for me Now the God of Peace and Truth lead us into all wayes of Peace and Truth, to the Praise of his Grace through <hi>the Lord Jesus Christ,</hi> who is <hi>the Way, the Truth, and the Life. To whom be in all things the Preheminence, and Glory, and Praise.</hi> Amen.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <p>
+               <hi>ERRATA.</hi> Page 8. line 17. <hi>for</hi> the State <hi>read</hi> that estate. <hi>Ibid. for</hi> that <hi>read</hi> and. p. 11. l. 27. <hi>read</hi> and having.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

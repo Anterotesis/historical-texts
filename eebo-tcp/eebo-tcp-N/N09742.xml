@@ -1,0 +1,900 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The American village, a poem. : To which are added, several other original pieces in verse. / By Philip Freneau, A.B. ; [Two lines in Latin from Horace]</title>
+            <author>Freneau, Philip Morin, 1752-1832.</author>
+         </titleStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 30 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI :</pubPlace>
+            <date when="2007-01">2007-01.</date>
+            <idno type="DLPS">N09742</idno>
+            <idno type="TCP">N09742</idno>
+            <idno type="STC">Evans 12397</idno>
+            <idno type="NOTIS">APX7979</idno>
+            <idno type="IMAGE-SET">12397</idno>
+            <idno type="EVANS-CITATION">99024874</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early American Imprints, 1639-1800 ; no. 12397.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(Evans-TCP ; no. N09742)</note>
+            <note>Transcribed from: (Readex Archive of Americana ; Early American Imprints, series I ; image set 12397)</note>
+            <note>Images scanned from Readex microprint and microform: (Early American imprints. First series ; no. 12397)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The American village, a poem. : To which are added, several other original pieces in verse. / By Philip Freneau, A.B. ; [Two lines in Latin from Horace]</title>
+                  <author>Freneau, Philip Morin, 1752-1832.</author>
+               </titleStmt>
+               <extent>[2], 27, [1] p. ;  (4to) </extent>
+               <publicationStmt>
+                  <publisher>Printed by S. Inslee and A. Car, on Moor's Wharf.,</publisher>
+                  <pubPlace>New-York: :</pubPlace>
+                  <date>M,DCC,LXXII. [1772]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata notice, p. [28].</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Poems --  1772.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-12</date>
+            <label>AEL Data (Chennai)</label>Keyed and coded from Readex/Newsbank page images</change>
+         <change>
+            <date>2006-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2006-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-09</date>
+            <label>pfs.</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="unknown:012397_0000_0F893F5CE3EE22A8"/>
+            <pb facs="unknown:012397_0001_0F893F5DA50733C8"/>
+            <p>THE AMERICAN VILLAGE, A POEM. TO WHICH ARE ADDED, Several other ORIGINAL PIECES in VERSE.</p>
+            <p>BY PHILIP FRENEAU, A. B.</p>
+            <q>
+               <l>—Arva, beata</l>
+               <l>Petamus arva, divites &amp; insulas.</l>
+               <bibl>HOR. Epod. Ode 16, V. 41, &amp; sequentes.</bibl>
+            </q>
+            <p>NEW-YORK: Printed by S. INSLEE and A. CAR, on MOOR'S WHARF.</p>
+            <p>M,DCC,LXXII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="unknown:012397_0002_0F893F5E63B6AF58"/>
+            <head>THE AMERICAN VILLAGE, &amp;c.</head>
+            <lg>
+               <l>WHERE yonder stream divides the fertile plain,</l>
+               <l>Made fertile by the labours of the swain;</l>
+               <l>And hills and woods high tow'ring o'er the rest,</l>
+               <l>Behold a village with fair plenty blest:</l>
+               <l>Each year tall harvests crown the happy field;</l>
+               <l>Each year the meads their stores of fragrance yield,</l>
+               <l>And ev'ry joy and ev'ry bliss is there,</l>
+               <l>And healthful labour crowns the flowing year.</l>
+            </lg>
+            <lg>
+               <l>THOUGH <hi>Goldsmith</hi> weeps in melancholy strains,</l>
+               <l>Deserted Auburn and forsaken plains,</l>
+               <l>And mourns his village with a patriot sigh,</l>
+               <l>And in that village sees Britannia die:</l>
+               <l>Yet shall this land with rising pomp divine,</l>
+               <l>In it's own splendor and Britannia's shine.</l>
+               <l>O muse, forget to paint her ancient woes,</l>
+               <l>Her Indian battles, or her Gallic foes;</l>
+               <l>Resume the pleasures of the rural scene,</l>
+               <l>Describe the village rising on the green,</l>
+               <l>It's harmless people, born to small command,</l>
+               <l>Lost in the bosom of this western land:</l>
+               <l>
+                  <pb n="2" facs="unknown:012397_0003_0F893F5F2633F7E0"/>
+So shall my verse run gentle as the floods,</l>
+               <l>So answer all ye hills, and echo all ye woods;</l>
+               <l>So glide ye streams in hollow channels pent,</l>
+               <l>Forever wasting, yet not ever spent.</l>
+               <l>Ye clust'ring boughs by hoary thickets bore!</l>
+               <l>Ye fields high waving with eternal corn!</l>
+               <l>Ye woodland nymphs the tender tale rehearse,</l>
+               <l>The fabled authors of immortal verse:</l>
+               <l>Ye Dryads fair, attend the scene I love,</l>
+               <l>And Heav'n shall centre in yon' blooming grove.</l>
+               <l>What tho' thy woods, AMERICA, contain</l>
+               <l>The howling forest, and the tiger's den,</l>
+               <l>The dang'rous serpent, and the beast of prey,</l>
+               <l>Men are more fierce, more terrible than they.</l>
+               <l>No monster with it's vile contagious breath,</l>
+               <l>No flying scorpion darting instant death;</l>
+               <l>No pois'nous adder, burning to enrage,</l>
+               <l>Has half the venom or has half the rage.</l>
+               <l>What tho' the Turk protests to heav'n his ire,</l>
+               <l>With lift up hand amidst his realms of fire;</l>
+               <l>And Russia's Empress sends her fleets afar,</l>
+               <l>To aid the havock of the burning war:</l>
+               <l>Their rage dismays not, and their arms in vain,</l>
+               <l>In dreadful fury bathe with blood the plain;</l>
+               <l>Their terrors harmless, tho' their story heard,</l>
+               <l>How this one conquer'd or was nobly spar'd:</l>
+               <l>
+                  <pb n="3" facs="unknown:012397_0004_0F893F5FE5BDBE40"/>
+Vain is their rage, to us their anger vain,</l>
+               <l>The deep Atlantic raves and roars between.</l>
+            </lg>
+            <lg>
+               <l>To yonder village then will I descend,</l>
+               <l>There spend my days, and there my ev'nings spend;</l>
+               <l>Sweet haunt of peace whose mud' wall'd sides delight,</l>
+               <l>The rural mind beyond the city bright:</l>
+               <l>Their tops with hazles or with alders wove,</l>
+               <l>Remurmur magic to the neighb'ring grove;</l>
+               <l>And each one lab'ring in his own employ,</l>
+               <l>Comes weary home at night, but comes with joy:</l>
+               <l>The soil which lay for many thousand years</l>
+               <l>O'er run by woods, by thickets and by bears;</l>
+               <l>Now reft of trees, admits the chearful light,</l>
+               <l>And leaves long prospects to the piercing sight;</l>
+               <l>Where once the lynx nocturnal sallies made,</l>
+               <l>And the tall chesnut cast a dreadful shade:</l>
+               <l>No more the panther stalks his bloody rounds,</l>
+               <l>Nor bird of night her hateful note resounds;</l>
+               <l>Nor howling wolves roar to the rising moon,</l>
+               <l>As pale arose she o'er yon eastern down.</l>
+               <l>Some prune their trees, a larger load to bear</l>
+               <l>Of fruits nectarine blooming once a year:</l>
+               <l>See groaning waggons to the village come</l>
+               <l>Fill'd with the apple, apricot or plumb;</l>
+               <l>And heavy beams suspended from a tree,</l>
+               <l>To press their juice against the winter's day:</l>
+               <l>
+                  <pb n="4" facs="unknown:012397_0005_0F893F60A672FCB0"/>
+Or see the plough torn through the new made field,</l>
+               <l>Ordain'd a harvest, yet unknown to yield.</l>
+               <l>The rising barn whose spacious floor receives</l>
+               <l>The welcome thousands of the wheaten sheaves,</l>
+               <l>And spreads it's arms to take the plenteous store,</l>
+               <l>Sufficient for its master and the poor:</l>
+               <l>For as Eumoeus us'd his beggar guest</l>
+               <l>The great Ulysses in his tatters drest:</l>
+               <l>So here fair Charity puts forth her hand,</l>
+               <l>And pours her blessings o'er the greatful land:</l>
+               <l>No needy wretch the rage of winter fears,</l>
+               <l>Secure he sits and spends his aged years,</l>
+               <l>With thankful heart to gen'rous souls and kind,</l>
+               <l>That save him from the winter and the wind.</l>
+            </lg>
+            <lg>
+               <l>A LOVELY island once adorn'd the sea,</l>
+               <l>Between New-Albion and the Mexic' Bay;</l>
+               <l>Whose sandy sides wash'd by the ocean wave,</l>
+               <l>Scarce heard a murmur but what the ocean gave:</l>
+               <l>Small it's circumference, or high it's coast,</l>
+               <l>But shady woods the happy isle could boast;</l>
+               <l>On ev'ry side new prospects catch'd the eye,</l>
+               <l>There rose blue mountains to the arched sky:</l>
+               <l>Here thunder'd ocean in conclusive throws,</l>
+               <l>And dash'd the island as it's waters rose:</l>
+               <l>Yet peaceful all within, no tumults there,</l>
+               <l>But fearless steps of the unhunted hare;</l>
+               <l>
+                  <pb n="5" facs="unknown:012397_0006_0F893F62913906F0"/>
+And nightly chauntings of the fearless dove,</l>
+               <l>Or blackbird's note, the harbinger of love.</l>
+               <l>So peaceful was this haunt that nature gave,</l>
+               <l>Still as the stars, and silent as the grave;</l>
+               <l>No loud applause there rais'd the patriot breast,</l>
+               <l>No shouting armies their mad joy confest,</l>
+               <l>For battles gain'd, or trophies nobly won,</l>
+               <l>Or nations conquer'd near the rising sun;</l>
+               <l>No clam'rous, crews, or wild nocturnal cheer,</l>
+               <l>Or murd' rous russians for no men were here.</l>
+               <l>On it's east end a grove of oak was seen,</l>
+               <l>And shrubby hazels fill'd the space between;</l>
+               <l>Dry alders too, and aspin leaves that shook</l>
+               <l>With ev'ry wind, conspir'd to shade a brook,</l>
+               <l>Whose gentle stream just bubbling from the ground,</l>
+               <l>Was quickly in the falter ocean drown'd.</l>
+               <l>Beyond whose fount, the center of the isle,</l>
+               <l>Wild plumb trees flourishe'd on the shaded soil.</l>
+               <l>In the dark bosom of this sacred wood,</l>
+               <l>Had fate but smil'd, some village might have stood</l>
+               <l>Secluded from the world, and all it's own,</l>
+               <l>Of other lands unknowing, and unknown.</l>
+               <l>Here might the hunter have destroy'd his prey,</l>
+               <l>Transfix'd the goat before the dawn of day;</l>
+               <l>And trudging homeward with his welcome load,</l>
+               <l>The fruit of wand'rings thro' each by-way road:</l>
+               <l>
+                  <pb n="6" facs="unknown:012397_0007_0F893F62E65B5218"/>
+Thrown down his burthen with the needless sigh,</l>
+               <l>And gladly feasted his small family.</l>
+               <l>Small fields had shen suffic'd, and grateful they,</l>
+               <l>The annual labours of his hands to pay;</l>
+               <l>And free his right to search the briny flood</l>
+               <l>For fish, or slay the creatures of the wood.</l>
+            </lg>
+            <lg>
+               <l>THUS spent his days in labour's pleasant, pain,</l>
+               <l>Had liv'd and dy'd the homely shepherd swain:</l>
+               <l>Had seen his children and his children's heirs,</l>
+               <l>The fruit of love and memory of years</l>
+               <l>To agriculture's first fair service bent,</l>
+               <l>The work of mortals, and their great intent,</l>
+               <l>So had the Sire his days of pleasure known,</l>
+               <l>And wish'd to change no country for his own:</l>
+               <l>So had he with his fair endearing wife,</l>
+               <l>Pass'd the slow circle of a harmless life;</l>
+               <l>With happy ignorance divinely blest,</l>
+               <l>The path, the centre and the home of rest.</l>
+               <l>Long might the sun have run his bright career,</l>
+               <l>And long the moon her mantled visage rear;</l>
+               <l>And long the stars their nightly vigils kept,</l>
+               <l>And spheres harmonious either sung or wept:</l>
+               <l>He had not dream'd of worlds besides his own,</l>
+               <l>And thought them only stars, beyond the moon;</l>
+               <l>
+                  <pb n="7" facs="unknown:012397_0008_0F893F63A6EC4B60"/>
+Enjoy'd himself, nor hear'd of future hell,</l>
+               <l>Or heav'n, the recompence of doing well;</l>
+               <l>Had scarcely thought of an eternal-state,</l>
+               <l>And left his being in the hands of fate.—</l>
+               <l>O had this isle such souls sublime contain'd,</l>
+               <l>And there for ages future sons remain'd,</l>
+               <l>But envious time conspiring with the sea,</l>
+               <l>Wash'd all it's landscapes, and it's groves away.</l>
+               <l>It's trees declining, stretch'd upon the sand,</l>
+               <l>No more their shadows throw across the land.</l>
+               <l>It's vines no more their clust'ring beauty show,</l>
+               <l>Nor sturdy oaks embrace the mountain's brow.</l>
+               <l>Bare sands alone now overwhelm the coast,</l>
+               <l>Lost in it's grandeur, and it's beauty lost.</l>
+            </lg>
+            <lg>
+               <l>THUS, tho' my fav'rite isle to ruin gone,</l>
+               <l>Inspires my sorrow, and demands my moon;</l>
+               <l>Yet this wide land it's place can well supply</l>
+               <l>With landscapes, hills and grassy mountains high.</l>
+               <l>O HUDSON! thy fair flood shall be my theme,</l>
+               <l>Thy winding river, or thy glassy stream;</l>
+               <l>On whose tall banks tremendous rocks I spy,</l>
+               <l>Dread nature in primaeval majesty.</l>
+               <l>Rocks, to whose summits clouds eternal cling,</l>
+               <l>Or clust'ring birds in their wild wood notes sing.</l>
+               <l>
+                  <pb n="8" facs="unknown:012397_0009_0F893F64677885D0"/>
+Hills, from whose sides the mountain echo roars,</l>
+               <l>Rebounding dreadful from the distant shores;</l>
+               <l>Or vallies, where refreshing breezes blow,</l>
+               <l>And rustic huts in fair confusion grow,</l>
+               <l>Safe from the winds, secur'd by mountains high,</l>
+               <l>That seem to hide the concave of the sky;</l>
+               <l>To whose top oft' the curious hind ascends,</l>
+               <l>And wonders where the arch'd horizon bends;</l>
+               <l>Pleas'd with the distant prospects rising new,</l>
+               <l>And hills o'er hills, a never ending view.</l>
+               <l>Through various paths with hasty step he scours,</l>
+               <l>And breathes the odours of surrounding flow'rs,</l>
+               <l>Caught from their bosoms by the fragrant breath,</l>
+               <l>Of western breezes, or the gale of death.<note n="*" place="bottom">South wind.</note>
+               </l>
+               <l>Then low descending, seeks the humble dome,</l>
+               <l>And centres all his pleasures in his home,</l>
+               <l>'Till day returning, brings the welcome toil,</l>
+               <l>To clear the forest, or to tame the soil;</l>
+               <l>To burn the woods, or catch the tim'rous deer,</l>
+               <l>To scour the thicket, or contrive the snare.</l>
+            </lg>
+            <lg>
+               <l>SUCH was the life our great fore-fathers led,</l>
+               <l>The golden season now from BRITAIN fled,</l>
+               <l>E'er since dread commerce stretch'd the nimble sail,</l>
+               <l>And sent her wealth with ev'ry foreign gale.—</l>
+               <l>
+                  <pb n="9" facs="unknown:012397_0010_0F893F6529398338"/>
+Strange fate, but yet to ev'ry county known,</l>
+               <l>To love all other riches but it's own.</l>
+               <l>Thus fell the mistress of the conquer'd earth,</l>
+               <l>Great ROME, who ow'd to ROMULUS her birth,</l>
+               <l>Fell to the monster Luxury, a prey,</l>
+               <l>Who forc'd a hundred nations to obey.</l>
+               <l>She whom nor mighty CARTHAGE could withstand,</l>
+               <l>Nor strong JUDEA'S once thrice holy land:</l>
+               <l>She all the west, and BRITAIN could subdue,</l>
+               <l>While vict'ry with the ROMAN eagles flew;</l>
+               <l>She, she herself eternal years deny'd,</l>
+               <l>Like ROME she conquer'd, but by ROME she dy'd:</l>
+               <l>But if AMERICA, by this decay,</l>
+               <l>The world itself must fall as well as she.</l>
+               <l>No other regions latent yet remain,</l>
+               <l>This spacious globe has been research'd in vain.</l>
+               <l>Round it's whole circle oft' have navies gone,</l>
+               <l>And found but sea or lands already known.</l>
+               <l>When she has seen her empires, cities, kings,</l>
+               <l>Time must begin to flap his weary wings;</l>
+               <l>The earth itself to brighter days aspire,</l>
+               <l>And wish to feel the purifying fire.</l>
+            </lg>
+            <lg>
+               <l>NOR think this mighty land of old contain'd</l>
+               <l>The plund'ring wretch, or man of bloody mind:</l>
+               <l>
+                  <pb n="10" facs="unknown:012397_0011_0F893F65E71124F8"/>
+Renowned SACHEMS once their empires rais'd</l>
+               <l>On wholesome laws; and sacrifices blaz'd.</l>
+               <l>The gen'rous soul inspir'd the honest breast,</l>
+               <l>And to be free, was doubly to be blest:</l>
+               <l>'Till the east winds did here COLUMBUS blow,</l>
+               <l>And wond'ring nations saw his canvas flow.</l>
+               <l>'Till her CABOT descended on the strand,</l>
+               <l>And hail'd the beauties of the unknown land;</l>
+               <l>And rav'nous nations with industrious toil,</l>
+               <l>Conspir'd to rob them of their native soil:</l>
+               <l>Then bloody wars, and death and rage arose,</l>
+               <l>And ev'ry tribe resolv'd to be our foes.</l>
+               <l>Full many a feat of them I could rehearse,</l>
+               <l>And actions worthy of immortal verse:</l>
+               <l>Deeds ever glorious to the INDIAN name,</l>
+               <l>And fit to rival GREEK or ROMAN fame.</l>
+               <l>But one sad story shall my Muse relate,</l>
+               <l>Full of paternal love, and full of fate;</l>
+               <l>Which when ev'n yet the northern shepherd hears,</l>
+               <l>It swells his breast, and bathes his face in tears,</l>
+               <l>Prompts the deep groan, and lifts the heaving sigh,</l>
+               <l>Or brings soft torrents from the female eye.</l>
+            </lg>
+            <lg>
+               <l>FAR in the arctic skies, where HUDSON'S BAY</l>
+               <l>Rolls it's cold wave, and combats with the sea,</l>
+               <l>
+                  <pb n="11" facs="unknown:012397_0012_0F893F66AAC4A778"/>
+A dreary region lifts it's dismal head,</l>
+               <l>True sister to the regions of the dead.</l>
+               <l>Here thund'ring storms continue half the year,</l>
+               <l>Or deep-laid snows their joyless visage rear:</l>
+               <l>Eternal rocks, from whose prodigious steep</l>
+               <l>The angry tiger stuns the neighb'ring deep;</l>
+               <l>While through the wild wood, or the shrouded plain,</l>
+               <l>The moose deer seeks his food, but often seeks in vain.</l>
+               <l>Yet in this land, froze by inclement skies,</l>
+               <l>The Indian huts in wild succession rise;</l>
+               <l>And daily hunting, when the short-liv'd spring</l>
+               <l>Shoots joyous forth, th' industrious people bring</l>
+               <l>Their beaver spoils beneath another sky,</l>
+               <l>PORT NELSON, and each BRITISH factory:</l>
+               <l>In slender boats from distant lands they sail,</l>
+               <l>Their small masts bending to the inland gale,</l>
+               <l>On traffic sent to gain the little store,</l>
+               <l>Which keeps them plenteous, tho' it keeps them poor.</l>
+               <l>Hither CAFFRARO in his slighty boat,</l>
+               <l>One hapless spring his furry riches brought;</l>
+               <l>And with him came, for fail'd he not alone,</l>
+               <l>His consort COLMA, and his little son.</l>
+               <l>While yet from land o'er the deep wave he plough'd,</l>
+               <l>And tow'rds the shore with manly prowess row'd.</l>
+               <l>His barque unfaithful to it's trusted freight,</l>
+               <l>Sprung the large leak, the messenger of fate;</l>
+               <l>
+                  <pb n="12" facs="unknown:012397_0013_0F893F684C511F38"/>
+But no lament or female cry was heard,</l>
+               <l>Each for their fate most manfully prepar'd,</l>
+               <l>From bubbling waves to send the parting breath</l>
+               <l>To lands of shadows, and the shade of death.</l>
+            </lg>
+            <lg>
+               <l>O FATE! unworthy such a tender train,</l>
+               <l>O day, lamented by the Indian swain!</l>
+               <l>Full oft' of it the strippling youth shall hear,</l>
+               <l>And sadly mourn their fortune with a tear:</l>
+               <l>The Indian maids full oft' the tale attend,</l>
+               <l>And mourn their COLMA as they'd mourn a friend.</l>
+            </lg>
+            <lg>
+               <l>Now while in waves the barque demerg'd, they strive,</l>
+               <l>Dead with despair, tho' nature yet alive:</l>
+               <l>Forth from the shore a friendly brother flew,</l>
+               <l>In one small boat, to save the drowning crew.</l>
+               <l>He came, but in his barque of trifling freight,</l>
+               <l>Could save but two, and one must yield to fate.</l>
+               <l>O dear CAFFRARO, said the hapless wife,</l>
+               <l>O save our son, and save thy dearer life:</l>
+               <l>'Tis thou canst teach him how to hunt the doe,</l>
+               <l>Transfix the buck, or tread the mountain snow.</l>
+               <l>Let me the sentence of my fate receive,</l>
+               <l>And to thy care my tender infant leave.</l>
+               <l>He sigh'd nor answer'd, but as firm as death,</l>
+               <l>Resolv'd to save her with his latest breath:</l>
+               <l>
+                  <pb n="13" facs="unknown:012397_0014_0F893F68EA776DF0"/>
+And as suspended by the barque's low side,</l>
+               <l>He rais'd the infant from the chilling tide,</l>
+               <l>And plac'd it safe; he forc'd his COLMA too</l>
+               <l>To save herself, what more could mortal do?</l>
+               <l>But nobly scorning life, she rais'd her head</l>
+               <l>From the flush'd wave, and thus divinely said:</l>
+            </lg>
+            <lg>
+               <l>OF life regardless, I to fate resign,</l>
+               <l>But thou, CAFFRARO, art forever mine.</l>
+               <l>O let thy arms no future bride embrace,</l>
+               <l>Remember COLMA, and her beauteous face,</l>
+               <l>Which won thee youthful in thy gayest pride,</l>
+               <l>With captives, trophies, victors at thy side;</l>
+               <l>Now I shall quick to blooming regions fly,</l>
+               <l>A spring eternal, and a nightless sky,</l>
+               <l>Far to the west, where radiant Sol descends,</l>
+               <l>And wonders where the arch'd horizon ends:</l>
+               <l>There shall my soul thy lov'd idea keep;</l>
+               <l>And 'till thy image comes, unceasing weep.</l>
+               <l>There, tho' the tiger is but all a shade,</l>
+               <l>And mighty panthers but the name they had;</l>
+               <l>And proudest hills, and lofty mountains there,</l>
+               <l>Light as the wind, and yielding as the air;</l>
+               <l>Yet shall our souls their ancient feelings have,</l>
+               <l>More strong, more noble than this side the grave.</l>
+               <l>
+                  <pb n="14" facs="unknown:012397_0015_0F893F69AA6C4290"/>
+There lovely blossoms blow throughout the year,</l>
+               <l>And airy harvests rise without our care:</l>
+               <l>And all our fires and mighty ancestors,</l>
+               <l>Renown'd for battles and successful wars,</l>
+               <l>Behold their sons in fair succession rise,</l>
+               <l>And hail them happy to serener skies.</l>
+               <l>There shall I see thee too, and see with joy</l>
+               <l>Thy future charge, my much lov'd Indian boy:</l>
+               <l>The thoughtless infant, whom with tears I see,</l>
+               <l>Once sought my breast, or hung upon my knee;</l>
+               <l>Tell him, ah tell him, when in manly years,</l>
+               <l>His dauntless mind, nor death nor danger fears,</l>
+               <l>Tell him, ah tell him, how thy COLMA dy'd</l>
+               <l>His fondest mother, and thy youthful bride:</l>
+               <l>Point to my tomb thro' yonder furzy glade,</l>
+               <l>And show where thou thy much lov'd COLMA laid.</l>
+               <l>O may I soon thy blest resemblance see,</l>
+               <l>And my sweet infant all reviv'd in thee.</l>
+               <l>'Till then I'll haunt the bow'r or lonely shade,</l>
+               <l>Or airy hills for contemplation made,</l>
+               <l>And think I see thee in each ghostly shoal,</l>
+               <l>And think I clasp thee to my weary soul.</l>
+               <l>Oft, oft thy form to my expecting eye,</l>
+               <l>Shall come in dreams with gentle majesty;</l>
+               <l>Then shall I joy to find my bliss began</l>
+               <l>To love an angel, whom I lov'd a man!</l>
+               <l>
+                  <pb n="15" facs="unknown:012397_0016_0F893F6A6EEC0A08"/>
+She said, and downward in the hoary deep</l>
+               <l>Plung'd her far form to everlasting sleep;</l>
+               <l>Her parting soul it's latest struggle gave,</l>
+               <l>And her last breath came bubbling thro' the wave.</l>
+            </lg>
+            <lg>
+               <l>THEN sad CAFFRARO all his grief declares,</l>
+               <l>And swells the torrent of the gulph with tears;</l>
+               <l>And senseless stupid to the shore is borne</l>
+               <l>In death-like slumbers, 'till the rising morn,</l>
+               <l>Then sorrowing, to the sea his course he bent</l>
+               <l>Full sad, but knew not for what cause he went,</l>
+               <l>'Till, sight distressing, from the lonely strand,</l>
+               <l>He saw dead COLMA wafting to the land.</l>
+               <l>Then in a stupid agony of pray'r,</l>
+               <l>He rent his mantle, and he tore his hair;</l>
+               <l>Sigh'd to the stars, and shook his honour'd head,</l>
+               <l>And only wish'd a place among the dead!</l>
+               <l>O had the winds been sensible of grief,</l>
+               <l>Or whisp'ring angels come to his relief;</l>
+               <l>Then had the rocks not echo'd to his pain,</l>
+               <l>Nor hollow mountains answer'd him again:</l>
+               <l>Then had the floods their peaceful courses kept,</l>
+               <l>Nor the sad pine in all it's murmurs wept;</l>
+               <l>Nor pensive deer stray'd through the lonely grove,</l>
+               <l>Nor sadly wept the sympathising dove.—</l>
+               <l>
+                  <pb n="16" facs="unknown:012397_0017_0F893F6B2CB96AC8"/>
+Thus far'd the fire through his long days of pain,</l>
+               <l>Or with his offspring rov'd the silent plain;</l>
+               <l>'Till years approaching, bow'd his sacred head</l>
+               <l>Deep in the dust, and sent him to the dead:</l>
+               <l>Where now perhaps in some strange fancy'd land,</l>
+               <l>He grasps the airy bow, and flies across the strand;</l>
+               <l>Or with his COLMA shares the fragrant grove,</l>
+               <l>It's vernal blessings, and the bliss of love.</l>
+            </lg>
+            <lg>
+               <l>FAREWELL lamented paid, and whate'er state</l>
+               <l>Now class you round, and sinks you deep in fate;</l>
+               <l>Whether the firey kingdom of the sun,</l>
+               <l>Or the slow wave of silent Acheron,</l>
+               <l>Or Christian's heaven, or planetary sphere,</l>
+               <l>Or the third region of the cloudless air;</l>
+               <l>Or if return'd to dread nihility,</l>
+               <l>You'll still be happy, for you will not be.</l>
+            </lg>
+            <lg>
+               <l>Now fairest village of the fertile plain,</l>
+               <l>Made fertile by the labours of the swain;</l>
+               <l>Who first my drowsy spirit did inspire,</l>
+               <l>To sing of woods, and strike the rural lyre:</l>
+               <l>Who last shou'd see He wand'ring from thy cells,</l>
+               <l>And groves of oak where contemplation dwells.</l>
+               <l>Wou'd fate but raise me o'er the smaller cares,</l>
+               <l>Of Life unwelcome and distressful years,</l>
+               <l>
+                  <pb n="17" facs="unknown:012397_0018_0F893F6BEAD14208"/>
+Pedantic labours and a hateful ease,</l>
+               <l>Which scarce the hoary wrinkled sage cou'd please.</l>
+               <l>Hence springs each grief, each long reflective sigh,</l>
+               <l>And not one comfort left but poetry.</l>
+               <l>Long, long ago with her I could have stray'd,</l>
+               <l>To woods, to thickets or the mountain shade;</l>
+               <l>Unfit for cities and the noisy throng,</l>
+               <l>The drunken revel and the midnight song;</l>
+               <l>The gilded beau and scenes of empty joy,</l>
+               <l>Which please a moment and forever die.</l>
+               <l>Here then shall center ev'ry wish, and all</l>
+               <l>The tempting beauties of this spacious ball:</l>
+               <l>No thought ambitious, and no bold design,</l>
+               <l>But heaven born contemplation shall be mine.</l>
+               <l>In yonder village shall my fancy stray,</l>
+               <l>Nor rove beyond the confines of to-day;</l>
+               <l>The aged volumes of some plain divine,</l>
+               <l>In broken order round my hut shou'd shine;</l>
+               <l>Whose solemn lines should soften all my cares,</l>
+               <l>And sound devotion to th' eternal stars:</l>
+               <l>And if one fin my rigid breast did stain,</l>
+               <l>Thou poetry shou'dst be the darling sin;</l>
+               <l>Which heav'n without repentance might forgive,</l>
+               <l>And which an angel might commit and live:</l>
+               <l>And where yon' wave of silent water falls,</l>
+               <l>O'er the smooth rock or Adamantine walls:</l>
+               <l>
+                  <pb n="18" facs="unknown:012397_0019_0F893F6CAEDB54B0"/>
+The summer morns and vernal eves should see,</l>
+               <l>MILTON, immortal bard my company;</l>
+               <l>Or SHAKESPEARE, DRYDEN, each high sounding name,</l>
+               <l>The pride of BRITAIN, and one half her fame:</l>
+               <l>Or him who wak'd the fairy muse of old,</l>
+               <l>And pleasing tales of lands inchanted told.</l>
+               <l>Still in my hand, he his soft verse shou'd find</l>
+               <l>His verse, the picture of the poets mind:</l>
+               <l>Or heav'nly POPS, who now harmonious mourns,</l>
+               <l>"Like the rapt seraph that adores and burns."</l>
+               <l>Then in sharp satire, with a giant's might,</l>
+               <l>Forbids the blockhead and the fool to write:</l>
+               <l>And in the centre of the bards be shown</l>
+               <l>The deathless lines of godlike ADDISON;</l>
+               <l>Who, bard thrice glorious, all delightful flows,</l>
+               <l>And wrapt the soul of poetry in prose.</l>
+            </lg>
+            <lg>
+               <l>NOW cease, O muse, thy tender tale to chaunt,</l>
+               <l>The smiling village, or the rural haunt;</l>
+               <l>New scenes invite me, and no more I rove,</l>
+               <l>To tell of shepherds, or the vernal grove.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="19" facs="unknown:012397_0020_0F893F6E4FD4FE68"/>
+            <head>THE FARMER'S WINTER EVENING, A POEM. To the NYMPH I never saw.</head>
+            <lg>
+               <l>FAR be the pleasures of the day,</l>
+               <l>And mirth and festive joy from me,</l>
+               <l>When cold December nips the plains,</l>
+               <l>Or frozen January reigns.</l>
+               <l>Far be the hunts-man's noisy horn,</l>
+               <l>And coursers fleet thro' thickets borne,</l>
+               <l>Swift as the wind, and far the sight,</l>
+               <l>Of snowy mountains, sadly white;</l>
+               <l>But thou, O night, with sober charms,</l>
+               <l>Shall clasp me in thy sable arms.</l>
+               <l>For thee I love the winter eve,</l>
+               <l>The noisy day for thee I leave.</l>
+               <l>Beneath some mountain's tow'ring height,</l>
+               <l>In cottage low I hail the night,</l>
+               <l>Where jovial swains, with heart sincere,</l>
+               <l>And timely mirth dishearten care:</l>
+               <l>
+                  <pb n="20" facs="unknown:012397_0021_0F893F6EEB3D32D8"/>
+Each tells his tale, or chaunts a song</l>
+               <l>Of her for whom he sigh'd so long;</l>
+               <l>Of CLARA fair, or FLORA coy,</l>
+               <l>Disdaining still her shepherd boy,</l>
+               <l>While near the hoary headed sage,</l>
+               <l>Recalls the days of youthful age,</l>
+               <l>Describes his course of manly years,</l>
+               <l>His journey thro' this vale of tears;</l>
+               <l>How champion he with champions met,</l>
+               <l>And fiercely they did combat it,</l>
+               <l>'Till envious night in ebon chair,</l>
+               <l>Urg'd faster on her chariotteer,</l>
+               <l>And robb'd him, O for shame, of glory</l>
+               <l>And feats fit for renown in story.—</l>
+               <l>Thus spent in tales the ev'ning hour,</l>
+               <l>And quaffing juice of sober pow'r,</l>
+               <l>Which handsome KATE with malt did steep,</l>
+               <l>To lead on balmy visag'd sleep,</l>
+               <l>While her neat hand the milk pail strains,</l>
+               <l>A sav'ry supper for the swains.</l>
+               <l>And now the moon exalted high,</l>
+               <l>Gives lustre to the earth and sky,</l>
+               <l>And from the mighty ocean's glass,</l>
+               <l>Reflects the beauty of her face:</l>
+               <l>About her orb you may behold,</l>
+               <l>A thousand stars of burnish'd gold,</l>
+               <l>
+                  <pb n="21" facs="unknown:012397_0022_0F893F6FABE32B20"/>
+Which slowly to the west retire,</l>
+               <l>And lose a while their glitt'ring fire.</l>
+            </lg>
+            <lg>
+               <l>O COULD I here find my abode,</l>
+               <l>And live within this fancy'd wood,</l>
+               <l>With thee the weeks and years to pass,</l>
+               <l>My pretty rural shepherdess;</l>
+               <l>With thee the cooling spring to sip,</l>
+               <l>Or live upon thy damask lip:</l>
+               <l>Then sacred groves, and shades divine,</l>
+               <l>And all ARCADIA should be mine.</l>
+               <l>Steep me, steep me some poppies deep</l>
+               <l>In beechen bowl, to bring on sleep;</l>
+               <l>Love hath my mind in shackles kept,</l>
+               <l>Thrice the cock crew, nor once I slept.</l>
+               <l>O gentle sleep, wrap me in dreams,</l>
+               <l>Of fields and woods, and running streams;</l>
+               <l>Of rivers wide, and castles rare,</l>
+               <l>And be my lovely FLORA there:</l>
+               <l>A larger draught, a larger bowl</l>
+               <l>To gratify my drowsy soul;</l>
+               <l>"A larger draught is yet in store,</l>
+               <l>Perhaps with this you wake no more."</l>
+               <l>Then I my lovely maid shall see thee</l>
+               <l>Drinking the deep streams of LETHE,</l>
+               <l>
+                  <pb n="22" facs="unknown:012397_0023_0F893F706EE6BE90"/>
+Where now dame ARETHUSA scatters</l>
+               <l>Her soft stream with ALPHEUS' waters,</l>
+               <l>To forget her earthly cares,</l>
+               <l>Lost in LETHE, lost in years!</l>
+               <l>And I too will quaff the water,</l>
+               <l>Lest it should be said, O daughter</l>
+               <l>Of my giddy, wand'ring brain,</l>
+               <l>I sigh'd for one I've never seen.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <lg>
+               <head>THE MISERABLE LIFE OF A PEDAGOGUE.</head>
+               <l>To form the manners of our youth,</l>
+               <l>To guide them in the way of truth,</l>
+               <l>To lead them through the jarring schools,</l>
+               <l>Arts, sciences, and grammar rules;</l>
+               <l>Is certainly an arduous work,</l>
+               <l>Enough to tire out Jew or Turk;</l>
+               <l>
+                  <pb n="23" facs="unknown:012397_0024_0F893F712BB7CD90"/>
+And make a christian bite his nails,</l>
+               <l>For do his best, he surely fails;</l>
+               <l>And spite of all that some may say,</l>
+               <l>His praise is trifling as his pay.</l>
+            </lg>
+            <lg>
+               <l>FOR my part I, tho' vers'd in booking,</l>
+               <l>Still sav'd my carcase from such cooking;</l>
+               <l>And always slyly shunn'd a trade,</l>
+               <l>Too trifling as I thought and said;</l>
+               <l>But at a certain crazy season,</l>
+               <l>When men have neither sense or reason:</l>
+               <l>By some confounded misadventure,</l>
+               <l>I found myself just in it's centre.</l>
+            </lg>
+            <lg>
+               <l>ODD'S fish and blood, and noun and neuter,</l>
+               <l>And tenses present, past and future;</l>
+               <l>I utter'd with a wicked sigh,</l>
+               <l>Where are my brains, or where am I?</l>
+               <l>The dullest creature of the wood,</l>
+               <l>Knows how to shun the distant flood;</l>
+               <l>Whales, dolphins, and a hundred more,</l>
+               <l>Are not the fools to run ashore.</l>
+            </lg>
+            <lg>
+               <l>WELL, now contented I must be,</l>
+               <l>Forc'd by the dame Necessity,</l>
+               <l>Who like the tribunal of Spain,</l>
+               <l>Let's you speak once, but not again;</l>
+               <l>
+                  <pb n="24" facs="unknown:012397_0025_0F893F71F0F5E7B0"/>
+And swift to execute the blow,</l>
+               <l>Ne'er tells you why or whence it's so:</l>
+            </lg>
+            <lg>
+               <l>Now I am ask'd a thousand questions,</l>
+               <l>Of ALEXANDERS and EPHESTIONS;</l>
+               <l>With fly design to know if I</l>
+               <l>Am vers'd in GRECIAN history;</l>
+               <l>And then again my time destroy,</l>
+               <l>With aukward grace to tell of TROY:</l>
+               <l>From that huge giant POLYPHEMUS,</l>
+               <l>Quite down to ROMULVS and REMUS.</l>
+               <l>Then I'm oblig'd to give them lectures,</l>
+               <l>On quadrants, circles, squares and sectors;</l>
+               <l>Or in my wretched mem'ry bear,</l>
+               <l>What weighs a cubic inch of air.</l>
+            </lg>
+            <lg>
+               <l>"SIR, here's my son, I beg you'd mind,</l>
+               <l>The graces have been very kind,</l>
+               <l>And on him all their blessings shed,</l>
+               <l>[Except a genius and a head]</l>
+               <l>Teach him the doctrine of the sphere,</l>
+               <l>The sliding circle and the square,</l>
+               <l>And starry worlds, I know not where:</l>
+               <l>And let him quickly learn to say,</l>
+               <l>Those learned words Penna, Pennae;</l>
+               <l>
+                  <pb n="25" facs="unknown:012397_0026_0F893F72AAE431B0"/>
+Which late I heard our parson call,</l>
+               <l>As learning, knowledge all in all."</l>
+            </lg>
+            <lg>
+               <l>AND there a city dame approaches,</l>
+               <l>Known by her horsemen, chairs and coaches:</l>
+               <l>"Sir, here's my son, teach him to speak</l>
+               <l>The Hebrew, Latin, and the Greek:</l>
+               <l>And this I half forgot, pray teach</l>
+               <l>My tender boy—the parts of speech—</l>
+               <l>But never let this son of me,</l>
+               <l>Learn that vile thing Astronomy:</l>
+               <l>Upon my word it's all a sham,"—</l>
+               <l>O I'm your humble servant ma'am.</l>
+               <l>There certainly is something, in it—</l>
+               <l>"Boy, drive the coach off in a minute."</l>
+               <l>And thus I'm left in street or road,</l>
+               <l>A laughing stock to half the crowd,</l>
+               <l>To argue with myself the case,</l>
+               <l>And prove its being to my face.</l>
+            </lg>
+            <lg>
+               <l>A plague I say on such employment,</l>
+               <l>Where's neither pleasure nor enjoyment:</l>
+               <l>Whoe'er to such a life is ty'd,</l>
+               <l>Was born the day he should have dy'd;</l>
+               <l>Born in an hour when angry spheres</l>
+               <l>Were tearing caps, or pulling ears:</l>
+               <l>
+                  <pb n="26" facs="unknown:012397_0027_0F893F736AA910F8"/>
+And Saturn slow 'gainst swift Mercurius,</l>
+               <l>Was meditating battles furious;</l>
+               <l>Or comets with their blazing train,</l>
+               <l>Decreed their life, a life of pain.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Upon a very ANCIENT DUTCH HOUSE on LONG-ISLAND.</head>
+            <lg>
+               <l>BEHOLD this antique dome by envious time,</l>
+               <l>Grown crazy, and in ev'ry part decay'd;</l>
+               <l>Full well, alas, it claims my humble rhyme,</l>
+               <l>For such lone haunts and contemplation made.</l>
+            </lg>
+            <lg>
+               <l>Ah see the hearth, where once the chearful fire!</l>
+               <l>Blaz'd high, and warm'd the winter trav'lers toes;</l>
+               <l>And see the walls, which once did high aspire,</l>
+               <l>Admit the storms, and ev'ry wind that blows.</l>
+            </lg>
+            <lg>
+               <l>In yonder corner, now to ruin gone,</l>
+               <l>The ancient housewife's curtain'd bed appear'd,</l>
+               <l>Where she and her man JOHN did sleep alone,</l>
+               <l>Nor nightly robber, nor the screach owl fear'd.</l>
+               <l>
+                  <pb n="27" facs="unknown:012397_0028_0F893F750EF423E8"/>
+There did they snore full oft' the whole night out,</l>
+               <l>Smoking the sable pipe, 'till that did fall,</l>
+               <l>Rest from their jaws by Somnus' sleepy rout,</l>
+               <l>And on their faces pour'd its scorched gall.</l>
+            </lg>
+            <lg>
+               <l>And in the compass of yon' smaller gang,</l>
+               <l>The swain BATAVIAN once his courtship made,</l>
+               <l>To some DUTCH lass, as thick as she was long;</l>
+               <l>"Come then, my angel, come, the shepherd said,</l>
+            </lg>
+            <lg>
+               <l>"And let us for the bridal bed prepare;</l>
+               <l>For you alone shall case my future life,</l>
+               <l>And you alone shall soften all my care,</l>
+               <l>My strong, my hearty, and industrious wife."</l>
+            </lg>
+            <lg>
+               <l>Thus they—but eating ruin now hath spread</l>
+               <l>Its wings destructive o'er the antique dome;</l>
+               <l>The mighty fabrick now is all a shed,</l>
+               <l>Scarce fit to be the wand'ring beggar's home.</l>
+            </lg>
+            <lg>
+               <l>And none but me it's piteous fate lament,</l>
+               <l>None, none but me o'er it's sad ashes mourn,</l>
+               <l>Sent by the fates, and by APOLLO sent,</l>
+               <l>To shed their latest tears upon it's silent urn.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <pb n="28" facs="unknown:012397_0029_0F909114260BD288"/>
+            <head>ERRATA.</head>
+            <list>
+               <item>Page 2, Line 5, for bore, read borne.</item>
+               <item>2, 17, for enrage, read engage.</item>
+               <item>4, 18, dele the.</item>
+               <item>4, 19, for or, read nor.</item>
+               <item>4, 23, for conclusive, read convulsive.</item>
+               <item>16, 10, for class, read clasps.</item>
+               <item>16, 21, for he, read me.</item>
+            </list>
+         </div>
+      </back>
+   </text>
+</TEI>

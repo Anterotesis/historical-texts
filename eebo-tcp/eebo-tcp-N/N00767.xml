@@ -1,0 +1,776 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grace triumphant. Or, A notable exemple [sic] of a great sinner, becoming a great saint. Improved for the direction and encouragement, of them that have sinned exceedingly, to seek salvation from all their sins. : [Three lines of quotation in Latin]</title>
+            <author>Mather, Cotton, 1663-1728.</author>
+         </titleStmt>
+         <extent>Approx. 47 KB of XML-encoded text transcribed from 45 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI :</pubPlace>
+            <date when="2006-02">2006-02.</date>
+            <idno type="DLPS">N00767</idno>
+            <idno type="TCP">N00767</idno>
+            <idno type="STC">Evans 925</idno>
+            <idno type="STC">Wing M1113</idno>
+            <idno type="NOTIS">APX1972</idno>
+            <idno type="IMAGE-SET">925</idno>
+            <idno type="EVANS-CITATION">99018674</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early American Imprints, 1639-1800 ; no. 925.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(Evans-TCP ; no. N00767)</note>
+            <note>Transcribed from: (Readex Archive of Americana ; Early American Imprints, series I ; image set 925)</note>
+            <note>Images scanned from Readex microprint and microform: (Early American imprints. First series ; no. 925)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Grace triumphant. Or, A notable exemple [sic] of a great sinner, becoming a great saint. Improved for the direction and encouragement, of them that have sinned exceedingly, to seek salvation from all their sins. : [Three lines of quotation in Latin]</title>
+                  <author>Mather, Cotton, 1663-1728.</author>
+               </titleStmt>
+               <extent>44+ p. ;  13 cm. (12mo) </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. Green, sold by Benjamin Eliot.,</publisher>
+                  <pubPlace>Boston, in N.E. :</pubPlace>
+                  <date>1700.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Cotton Mather by Holmes. Cf. Diary of Cotton Mather I, p. 363.</note>
+                  <note>Only copy located lacks all after p. 44.</note>
+                  <note>Error in paging: p. 42 misnumbered 32.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Salvation.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-08</date>
+            <label>SPi Global (Manila)</label>Keyed and coded from Readex/Newsbank page images</change>
+         <change>
+            <date>2005-10</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2005-10</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-01</date>
+            <label>pfs.</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="unknown:000925_0000_0FAD3CEB02465A08"/>
+            <pb facs="unknown:000925_0001_0FAD3CEBDFD7EAA0"/>
+            <p>GRACE TRIUMPHANT.</p>
+            <p>OR, A Notable EXEMPLE of a Great SINNER, Becoming A Great SAINT.</p>
+            <p>Improved for the DIRECTION and ENCOURAGEMENT, of them that have <hi>SINNED</hi> Exceedingly, to ſeek <hi>Salvation</hi> from all their <hi>SINS.</hi>
+            </p>
+            <q>Admone<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur omnis <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>as, id fiere poſſe, quod aliquando factum est.</q>
+            <p>
+               <hi>Boſton,</hi> in <hi>N. E.</hi> Printed by <hi>T. Green,</hi> Sold by <hi>Benjamin Eliot.</hi> 1700.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="unknown:000925_0002_0FAD3CEC811AB318"/>
+            <head>To the READER.</head>
+            <p>THe Author was in a <hi>Courſe of Sermons,</hi> upon, <hi>The Cahpter of Faith,</hi> in the Epiſtle to the <hi>He<g ref="char:EOLhyphen"/>brews.</hi> One of the <hi>Sermons,</hi> which had nothing elſe to diſtinguiſh it, had a <hi>Singular Impreſſion</hi> upon ſome of the <hi>Hearers.</hi> The affected <hi>Hearers,</hi> Loving to ſee <hi>Grace Magnified,</hi> ask'd for a Copy of the Diſcourſe, that they might again have it as <hi>Readers.</hi> The poor, and plain Diſcourſe, is, without any <hi>Ornaments,</hi> but thoſe of a <hi>Con<g ref="char:EOLhyphen"/>ſtant Preaching,</hi> (ſometimes more than twice or thrice in a week,) here Expoſed. And perhaps, the leſs <hi>A<g ref="char:EOLhyphen"/>dorn'd</hi> it is, the more <hi>
+                  <g ref="char:V">Ʋ</g>ſeful</hi> it will be to thoſe, whoſe Edification is therein moſt aimed at. A Miniſter of the Goſpel, ſhould not be diſcou<g ref="char:EOLhyphen"/>raged from uſing all <hi>Opportunities to Do Good</hi>; but rather in Endeavours to <hi>bring forth much Fruit,</hi> render him<g ref="char:EOLhyphen"/>ſelf worthy of the Name, which I find was the Name of a <hi>Spaniſh</hi> Biſhop; namely, <hi>Fructuoſus.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="3" facs="unknown:000925_0003_0FAD3CEF2DB756B0"/>
+            <head>Grace Triumphant.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Heb. XI.</hi>31.</bibl>
+                  <p>By Faith, the Harlot <hi>Rahab</hi> Periſhed not, with them that Believed <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, when ſhe had received the Spies with Peace.</p>
+                  <p>
+                     <hi>Stand ſtill, O my Hearers, and <hi>Con<g ref="char:EOLhyphen"/>ſider the wondrous Works of God.</hi>
+                     </hi>
+                  </p>
+               </q>
+            </epigraph>
+            <p>THE <hi>Jews</hi> Confeſs, (and it is a very <hi>Chriſtian</hi> Confeſſi<g ref="char:EOLhyphen"/>on,) that all the ſix hun<g ref="char:EOLhyphen"/>dred and thirteen Precepts, which they reckon in the <hi>Law,</hi> are ſumm'd up in that <hi>One,</hi> Hab. 2.4. <hi>The Juſt by Faith ſhall Live.</hi> A <hi>Juſtify<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <pb n="4" facs="unknown:000925_0004_0FAD3CF014185150"/>
+Faith,</hi> is, A Reliance upon God for <hi>Life,</hi> through His promiſed <hi>Meſſiah.</hi> The Apoſtle <hi>Paul</hi> (for the Apoſtle <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eter</hi> tells us, it was he!) calls upon the <hi>Hebrews,</hi> to continue ſtedfaſt in the <hi>Faith</hi> of our Lord Jeſus Chriſt, though the expected Kingdom of the <hi>Meſſiah</hi> at the <hi>Reſurrection from the Dead,</hi> were for a while deferred. The Glorious <hi>Exemples</hi> and <hi>Atchieve<g ref="char:EOLhyphen"/>ments</hi> of a Juſtifying <hi>Faith,</hi> are here therefore in a <hi>whole Chapter</hi> of them Exhibited.</p>
+            <p>The laſt Believer, of whoſe <hi>Faith,</hi> we have a particular Account and Ap<g ref="char:EOLhyphen"/>plauſe, in the Apoſtolical <hi>Catalogue,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow appears before us. It is a <hi>Woman,</hi> for <hi>Faith</hi> is Compatible to both Sexes: and it is a Woman of wonderful Cir<g ref="char:EOLhyphen"/>cumſtances, to be found in ſuch a <hi>Catalogue.</hi> For the Larger and Ful<g ref="char:EOLhyphen"/>ler Hiſtory of the matter, you muſt have Recourſe to the Second Chapter of <hi>Joſhua.</hi>
+            </p>
+            <p>It is not among the <hi>Hebrews</hi> only, that the Examples of a Great <hi>Faith</hi>
+               <pb n="5" facs="unknown:000925_0005_0FAD3CF041F023B8"/>
+are to be found: We find them a<g ref="char:EOLhyphen"/>mong the <hi>Gentiles</hi> alſo: <hi>Rahab</hi> was one of them. Now, what was this <hi>Rahab?</hi> What was the <hi>Action</hi> of <hi>Rahab</hi>? What was the <hi>Iſſue</hi> of the <hi>Action</hi>?</p>
+            <p>Firſt. The <hi>Perſon</hi> famous for <hi>Faith,</hi> was, <hi>The Harlot Rahab.</hi> The word that firſt ſignified an <hi>Hoſteſs,</hi> did come alſo to ſignify an <hi>Harlot.</hi> In thoſe Debauch'd Countreys, and thoſe Brutiſh Ages, <hi>Women</hi> that kept pub<g ref="char:EOLhyphen"/>lick Houſes of Entertainment made them to be <hi>Bawdy</hi> Houſes as well as <hi>Drinking</hi> Houſes. 'Tis true, in our better Times of Chriſtianity, we often ſee more Vertuous and Modeſt women, Employ'd about publick Houſes. But the <hi>Old Scandal</hi> ſhould admoniſh them, to keep the ſtricter Guard upon their Vertue. <hi>Rahab</hi> it ſeems, comes under an unhappy Cha<g ref="char:EOLhyphen"/>racter, both for <hi>Idolatry</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>nchaſti<g ref="char:EOLhyphen"/>ty:</hi> No doubt the One ſubordinate unto the Other. The <hi>Rites</hi> of <hi>Idola<g ref="char:EOLhyphen"/>try</hi> were nouriſhed, and maintained
+<pb n="6" facs="unknown:000925_0006_0FAD3CF1ACB98620"/>
+by the Snares of <hi>Unchaſtity.</hi> The women that ſerved the <hi>Temples,</hi> where men did <hi>Sacrifice to Idols,</hi> were provided alſo for their <hi>Fornication. Rahab</hi> ſeems to have been of that quality. And it was not on any Ill Deſign, that the Honeſt men of <hi>Iſrael,</hi> went into the Houſe of a woman of that quality; But God had prepared the <hi>Heart</hi> of the poor woman for their coming to her <hi>Houſe,</hi> Even a <hi>Faith</hi> of Gods fulfilling to His <hi>Iſrael,</hi> the Great Promiſe of His <hi>Meſſiah</hi> to come. She had heard <hi>What</hi> Great Things had been done by God, for His Choſen people, and <hi>That</hi> theſe Great Things were in Order to the Appearing of the Redeemer of the world, one Day among them. And God ſet Home what ſhe <hi>Heard</hi>; By this <hi>Hearing,</hi> there <hi>came Faith</hi> unto her.</p>
+            <p>Secondly. The <hi>Action</hi> whereto <hi>Faith</hi> inclined this perſon, was that of <hi>Receiving the Spies with peace.</hi> It was <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> a <hi>Young Faith,</hi> which had
+<pb n="7" facs="unknown:000925_0007_0FAD3CF1C466BD50"/>
+been infuſed into her; and yet a <hi>Y<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ung Faith</hi> muſt be a <hi>Tried One.</hi> Chriſtian, If thou haſt any <hi>Faith,</hi> look for ſome <hi>Trial</hi> of it. The Prince of <hi>Jericho</hi> had got ſome Information, that certain <hi>Iſraelitiſh pies</hi> were come unto her. She not only covered and concealed the <hi>Spies,</hi> and notably aſſiſt<g ref="char:EOLhyphen"/>ed their Eſcape, when ſhe might have gained the Princes Favour by Betraying them, and ſhe ran the Haz<g ref="char:EOLhyphen"/>ard of her very Life by not Betraying them: but alſo upon her Examinati<g ref="char:EOLhyphen"/>on, ſhe told an <hi>Officious Lye</hi> to pre<g ref="char:EOLhyphen"/>ſerve them. How contrary now is the <hi>Goodneſs</hi> of God, unto the <hi>Ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es</hi> of man! The way of <hi>Man</hi> uſually is This: If there be ſome little <hi>Infir<g ref="char:EOLhyphen"/>mity</hi> in any One, we Proclame it, we Magnify it, we Aggravate it, with all the Reproach imaginable: And ra<g ref="char:EOLhyphen"/>ther than fail, we will Stigmatize that for an <hi>Infirmity,</hi> which rather is an <hi>Excellency.</hi> On the other ſide, Behold the way of <hi>God! He</hi> takes no notice of <hi>Rahabs Fault</hi>: But He publiſhes
+<pb n="8" facs="unknown:000925_0008_0FAD3CF2913188F8"/>
+               <hi>Rahab Faith,</hi> with all poſſible Com<g ref="char:EOLhyphen"/>mendation. <hi>My wayes are not like your wayes, ſaith the Lord.</hi>
+            </p>
+            <p>Thirdly. The <hi>Iſſue</hi> of the <hi>Action</hi> produced by the <hi>Faith</hi> of this perſon; was, Her <hi>not Periſhing with them that Believed not.</hi> If there be but <hi>One Be<g ref="char:EOLhyphen"/>liever</hi> in a Multitude, in a Town, in a Land, you ſee, God will find out that <hi>One Believer,</hi> with ſingular Expreſſi<g ref="char:EOLhyphen"/>ons of His Favour. Chriſtian, If thou haſt the <hi>leaſt Grain</hi> of true <hi>Faith,</hi> nei<g ref="char:EOLhyphen"/>ther Thou, nor thy <hi>Faith</hi> ſhall be loſt. She <hi>Periſhed not</hi>! No, when all the reſt of the City were dreadfully De<g ref="char:EOLhyphen"/>ſtroyed in their Sins, <hi>Rahab</hi> had the Pardon of all her Sins. The <hi>Life</hi> of her ſelf, and of all her Family was given to her. <hi>Life,</hi> did I ſay? Yea, ſhe was honourably Married unto One of the Nobles of <hi>Iſrael.</hi> And more than ſo? Our Lord Jeſus Chriſt Himſelf deſcended from her: You ſee <hi>Rahab</hi> her ſelf by Name, among the Anceſtors of our Lord Jeſus Chriſt.</p>
+            <p>
+               <pb n="9" facs="unknown:000925_0009_0FAD3CF34CA0E518"/>Will you not now Stand aſtoniſhed, O Congregation? Stand aſtoniſhed at the Triumphs of <hi>Juſtifying Faith!</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd with a Juſt aſtoniſhment now give Attention to this <hi>Doctrine</hi> of God.</p>
+            <q>The Vileſt of Sinners may become the Higheſt of Saints; and by Believing on the Lord Ieſus Chriſt, Eſcape the horrible Perdi<g ref="char:EOLhyphen"/>tion, that ſhall Overwhelm thoſe who Perſiſt in Vnbelief.</q>
+            <p>We have theſe PROPOSITIONS now before us.</p>
+            <p n="1">I. The Great God ſingles <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſometimes the <hi>Vileſt of Sinners,</hi> to make them the <hi>Higheſt of Saints.</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>the Harlot Rahab,</hi> Stand as an Eter<g ref="char:EOLhyphen"/>nal Monument of what Forgiveneſs, what Holineſs, what Bleſſedneſs, the <hi>V<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>leſt of S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nners</hi> may arrive unto! <hi>Rahab,</hi> a <hi>Canaaniteſs,</hi> yea, an <hi>Amoriteſs,</hi> belonging to a Nation, devoted by God unto Everlaſting Deſolation; a
+<pb n="10" facs="unknown:000925_0010_0FAD3CF4029095F0"/>
+Serpent in a <hi>Generation of Vipers: Ra<g ref="char:EOLhyphen"/>hab,</hi> One that had worſhipped <hi>Idols</hi> and <hi>Devils</hi> with her <hi>Spirit,</hi> and that with her <hi>Body</hi> perpetrated the moſt Filthy Villany, the moſt Loathſome Filthineſs: <hi>Rahab,</hi> a ſcandalous Wretch, a Pagan and a Proſtitute<g ref="char:punc">▪</g> This <hi>Rahab</hi> you ſee incorporated into the only true Church of God, and ſo diſtinguiſhed with ſignal ſmiles of Heaven. She became a <hi>Mother in Iſrael</hi>; Yea, a <hi>Mother</hi> to the <hi>Saviour of Iſrael.</hi> And when <hi>Sal<g ref="char:EOLhyphen"/>mon,</hi> an Eminent perſon in <hi>Iſrael</hi> Eſ<g ref="char:EOLhyphen"/>pouſed her, it was not becauſe of her Eminency in worldly Riches and Honours; for ſhe had nothing: but becauſe of her Eminency in <hi>Piety.</hi> If her <hi>Piety</hi> &amp; <hi>Sanctity</hi> had not been as Notorious as once her <hi>Wickedneſs,</hi> doubtleſs the Oracles of God would not more than once in the <hi>New-Teſtament,</hi> have celebrated her, as a moſt <hi>Exemplary Perſon.</hi>
+            </p>
+            <p>We meet with another woman, that was a very Vile woman. It
+<pb n="11" facs="unknown:000925_0011_0FAD3CF4C11E4140"/>
+was the <hi>Samaritaneſs,</hi> who Succeſſive<g ref="char:EOLhyphen"/>ly and Illegally procured her ſelf to be Divorced from ſeveral Husbands, and was an <hi>Abominable Adultereſs.</hi> And yet! We read, Joh. 4.39 This woman did not only become a <hi>Diſci<g ref="char:EOLhyphen"/>ple</hi> of the Lord Jeſus Chriſt her ſelf, but alſo was an <hi>Instrument</hi> of <hi>Diſci<g ref="char:EOLhyphen"/>pling</hi> many others.</p>
+            <p>We meet with a Third woman, who was alſo a very Vile woman. It was <hi>Mary Magdalene,</hi> who was Emphatically one that every One cal<g ref="char:EOLhyphen"/>led <hi>A Sinner.</hi> And yet! We <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Luk. 7.47. <hi>Her Sins, which <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> were <hi>Forgiven her,</hi> for ſhe <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>much.</hi>
+            </p>
+            <p>In the <hi>Genealogy</hi> of our Lord J<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ſus Chriſt, there are ſeveral <hi>Women</hi> mentioned. But there was in ſome one Remarkable Reſpect or other, an Ill Note upon every One of thoſe women. And it is the Note, which one of the Ancients hath upon it, This was, <hi>
+                  <g ref="char:V">Ʋ</g>t qui propter peccatores venerat, de peccat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ribis naſcens, Omni<g ref="char:EOLhyphen"/>um
+<pb n="12" facs="unknown:000925_0012_0FAD3CF6A8B7B8A8"/>
+peccata deleret</hi>: Our Lords <hi>Birth</hi> was <hi>from</hi> Sinners of all ſorts, to teach us, that His <hi>Death</hi> is <hi>for</hi> Sinners of all ſorts.</p>
+            <p>Will you Believe it, Sirs? There is no Sinner ſo Vile, but what may come to be <hi>Juſtified,</hi> and <hi>Sanctified.</hi> It is an amazing paſſage! 1 Cor. 6.9, 10, 11. <hi>Foznicatozs, Idolaters, Adulterers, Effeminate, [<hi>i. e.</hi>
+               </hi> Self-Polluters;] <hi>Sodomites, Thieves, Ephe<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>us, Drunkards, Revilers, E<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tioners: Such were ſome of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>but ye are Waſhed, but ye are <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>, but ye are Juſtified, in the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> of the Lord Jeſus, and by the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of our God.</hi>
+               </hi> Yea, Sometimes <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of a more Civil and Moral behaviour, may finally Periſh in their <hi>
+                  <g ref="char:V">Ʋ</g>nregeneracy,</hi> when perſons that have been moſt notorious and flagitious for the <hi>worſt</hi> of Crimes, have become <hi>Regenerate.</hi> Certainly, there were many more Innocent women than <hi>Ra<g ref="char:EOLhyphen"/>hab</hi> in <hi>Jericho,</hi> who periſhed under the Wrath and Curſe of God, when
+<pb n="13" facs="unknown:000925_0013_0FAD3CF7F4D44AC0"/>
+               <hi>the Harlot Rahab,</hi> at laſt became the Saved of the Lord. Moſt Noted and Awful, are thoſe words of our Lord Jeſus Chriſt, Mat. 21.31. <hi>The Pub<g ref="char:EOLhyphen"/>licans and Harlots go into the Kingdom of God, before</hi> the <hi>Phariſees.</hi>
+            </p>
+            <p>But what is the <hi>Reaſon</hi> of ſuch a Diſ<g ref="char:EOLhyphen"/>penſation in the <hi>Providence</hi> of God?</p>
+            <p>The Grand &amp; Sole <hi>Reaſon</hi> of it, is, that Firſt Reaſon of all Reaſons, The <hi>Pleaſure</hi> of God. We muſt fall down before <hi>Sovereign Grace,</hi> and ſay, Mat. 11.26. <hi>Even ſo, Father, for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſeemed Good in thy ſight.</hi>
+            </p>
+            <p>More particularly.</p>
+            <p>
+               <hi>Firſt.</hi> God will diſplay His own <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>finite <hi>Mercy,</hi> in receiving the <hi>Vileſt of Sinners</hi> to His <hi>Mercy.</hi> When God will ſhow <hi>Mercy,</hi> He will do it like a GOD. Hence, as <hi>God will have Mercy, on whom He will have Mercy,</hi> ſo He will make the <hi>Vilest of
+<pb n="14" facs="unknown:000925_0014_0FAD3CF8E151D8A0"/>
+Sinners,</hi> the Subjects of His <hi>Mercy</hi>: and He will put up <hi>Injuries,</hi> and paſs by <hi>Offences,</hi> that would break the back of all Humane Patience. Thus 'tis ſaid, Hoſ. 11.9. <hi>I will not Execute the fierceneſs of my Anger, for I am God, and not man.</hi> The <hi>Free-Grace</hi> and <hi>Mercy</hi> of God is a <hi>Boundleſs Ocean:</hi> And God will declare the Glory of His <hi>Mercy,</hi> by caſting the Greateſt of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ins, into the <hi>Depths</hi> of that <hi>Ocean.</hi> The Deſign of God, in bringing home Sinners to Himſelf, is to Exerciſe and Glorify His <hi>Free-Grace:</hi> He does what He does, to <hi>manifeſt the Exceed<g ref="char:EOLhyphen"/>ing Riches of His Grace.</hi> Now the <hi>Free Grace</hi> of the <hi>moſt High</hi> God, is Glorified unto the <hi>Heighth,</hi> in Chooſ<g ref="char:EOLhyphen"/>ing the <hi>Vileſt of Sinners</hi> from the reſt of mankind, and bringing <hi>them</hi> home unto Himſelf. As 'tis ſaid; Tit. 3.3, 5. <hi>We were ſometimes fooliſh, diſobe<g ref="char:EOLhyphen"/>dient, deceived, ſerving diverſe luſts and pleaſures, living in malice and envy, hateful, —but according to His Mer<g ref="char:EOLhyphen"/>cy He Saved us:</hi> Thus, when the moſt
+<pb n="15" facs="unknown:000925_0015_0FAD3CF94DEA0EB8"/>
+               <hi>fooliſh</hi> and <hi>hateful</hi> of Sinners, and they that wallowed in the <hi>Vileſt of Luſts,</hi> are <hi>Saved,</hi> Oh, how much will the <hi>Mercy</hi> of God ſhine forth in their Salvation! Methinks, I overhear the <hi>Songs of the Redeemed; Lord, If thou hadſt not been abundant in Mercy, I tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> have abounded in Sin, could never have been Saved! Lord, If thou hadſt not De<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ghted in Mercy, thou would never have Saved me, that have made Sin my De<g ref="char:EOLhyphen"/>light! Lord, Thou art Merciful, and Ready to Pardon, Elſe I, who have been Ready to Sin, had never found a Pardon!</hi> And the <hi>Angels</hi> of God, make a Con<g ref="char:EOLhyphen"/>ſort hereto, with Eternal <hi>Hallelujahs.</hi>
+            </p>
+            <p>
+               <hi>Secondly.</hi> God will diſplay the Infinite <hi>Merit</hi> of our Lord Jeſus Chriſt, by making the <hi>Vileſt of Sin<g ref="char:EOLhyphen"/>ners</hi> feel the Efficacy of that <hi>Merit.</hi> If only Sinners, of an Ordinary Ele<g ref="char:EOLhyphen"/>vation in Sin, were Saved, the <hi>Merit</hi> of our Lord Jeſus Chriſt, would not be ſeen to be of ſuch an <hi>Unlimited Va<g ref="char:EOLhyphen"/>lue</hi> as indeed it is. But when <hi>Extra<g ref="char:EOLhyphen"/>ordinary
+<pb n="16" facs="unknown:000925_0016_0FAD3CFA7A2043A8"/>
+Sinners,</hi> &amp; the talleſt Giants, and the fierceſt Monſters, of Sin, come to be Saved, <hi>Then</hi>! Then in<g ref="char:EOLhyphen"/>deed, it is made Evident, that the <hi>Blood o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Jeſus Chriſt, the Son of God, cleanſes from <hi>All Sin.</hi>
+               </hi> Hence 'tis urged, Pſal. 25.11. <hi>For thy Names ſake, O Lord, Pardon mine Iniquity, for it is Great.</hi> What is <hi>Great?</hi> Why, As the <hi>Sin</hi> is <hi>Great,</hi> ſo, the <hi>Name</hi> is <hi>Great</hi> the <hi>Name</hi> of God, that is to ſay, the <hi>Chriſt</hi> of God. When <hi>Great Sin</hi> is <hi>Pardoned,</hi> it ſhows, that there is a <hi>Great Chriſt</hi> who has purchaſed the Pardon, and that he has paid a <hi>Great Price</hi> for the purchaſe of it, and that He is, <hi>A Saviour, and a Great One.</hi> When the <hi>Vileſt of Sinners</hi> are Saved, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> is a vaſt Encouragement unto <hi>other Sinners</hi> to come unto the Lord Jeſus Chriſt, who, they ſee, will not <hi>Caſt out</hi> the <hi>Vileſt of Sinners,</hi> when they <hi>Come unto Him,</hi> &amp; whoſe <hi>Blood</hi> is an <hi>Open Fountain</hi> for the <hi>Vilest of Sinners.</hi> Thus the Apoſtle, 1 Tim. 1.15, 16. <hi>Chriſt Je<g ref="char:EOLhyphen"/>ſus came into the world, to Save Sinners
+<pb n="17" facs="unknown:000925_0017_0FAD3CFAE06165F0"/>
+of whom I am Chief; I obtained Mer<g ref="char:EOLhyphen"/>cy, that in me first, Jeſus Chriſt might ſhew forth all long-ſuffering, for a Pat<g ref="char:EOLhyphen"/>tern to others.</hi> When the <hi>Chief of Sinners</hi> are <hi>Saved,</hi> there is a <hi>Pattern</hi> given, of what the <hi>Blood</hi> of the Lord Jeſus Chriſt can do for them that come unto it.</p>
+            <p>
+               <hi>Thirdly.</hi> God will diſplay the Infinite <hi>Power</hi> of His Holy <hi>Spirit,</hi> by making the <hi>Vileſt of Sinners</hi>
+               <g ref="char:punc">▪</g> feel the transforming Effects of that <hi>Power</hi> upon them. When Sinners are Saved, they are not only Releaſed from the <hi>Damnation</hi> whereto they were Expoſed by their Sins, but they are alſo Reſcued from the <hi>Dominion</hi> which th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Sins had over them. In the Saving of Sinners, the old Sinners are made <hi>New Creatures</hi>; They have <hi>New</hi> Principles, <hi>New</hi> Abilities, <hi>New</hi> Diſpoſitions: The Sinners undergo a wonderful <hi>Renovation</hi> in all their Faculties: The <hi>Image</hi> of Satan is A<g ref="char:EOLhyphen"/>boliſhed in them, and the <hi>Image</hi> of
+<pb n="18" facs="unknown:000925_0018_0FAD3CFBA7646D48"/>
+God Introduced: A <hi>Toad</hi> is turn'd into a <hi>Man,</hi> yea, a <hi>Serpent</hi> is turn'd into an <hi>Angel.</hi> This <hi>Converſion of a Sinner</hi> is a mighty work, and a work that can be done by none but the Almighty <hi>Power</hi> of God: We are told, Eph. 1.19. <hi>We believe according to the working of His mighty Power.</hi> Now, for the <hi>Vileſt of Sinners</hi> to have the Experience of ſuch a Change, as that which is undergone in Conver<g ref="char:EOLhyphen"/>ſion, &amp; be Changed from the <hi>Slaves</hi> of Hell, into the <hi>Sons</hi> of God; This, Oh! This does manifeſt the <hi>Power</hi> of the <hi>Holy Spirit,</hi> with a very mar<g ref="char:EOLhyphen"/>vellous Demonſtration. To fetch a forlorn Sinner from the very belly and bottom of Hell, and Extinguiſh all the hideous Luſts which he is de<g ref="char:EOLhyphen"/>praved withal, and Rectify all that is amiſs in him, and make him a very <hi>Picture</hi> of the Lord Jeſus Chriſt Himſelf throughout Eternal Ages: Oh! the <hi>Power</hi> of the <hi>Spirit,</hi> that ſhall do ſuch a thing? Tis ſaid, Act. 11.21. <hi>The Hand of the Lord was with
+<pb n="19" facs="unknown:000925_0019_0FAD3CFC43030EA0"/>
+them, a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d a great Number Believed, and Turned unto the Lord.</hi> Now when the <hi>vileſt of Sinners</hi> are <hi>Turned unto the Lord,</hi> He as it were Glories in it, ſaying, <hi>See what my Hand can do!</hi> One of the Heathen writers in the Primitive Times, made that Cavil ag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>inſt Chriſtianity, <hi>That it was a Sanctuary for the vileſt of Sinners! Ori<g ref="char:EOLhyphen"/>gen</hi> made this Excellent Anſwer to the Cavil, <hi>A Sanctuary, Sir! No, Tis an Hoſpital for the vileſt of Sinners.</hi> Chriſtianity indeed <hi>Receives</hi> the <hi>Vileſt of Sinners,</hi> but it <hi>Releives</hi> thoſe whom it <hi>Receives.</hi> God will ſhow what His <hi>Holy Spirit</hi> can do, by making the <hi>Vileſt of Sinners</hi> become the moſt <hi>Holy Chriſtians.</hi>.</p>
+            <p n="2">II. <hi>Believing</hi> is a ſufficient Se<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>rity againſt <hi>Periſhing.</hi> If a <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> do <hi>not Periſh,</hi> it is <hi>by Faith</hi> ſhe muſt be <hi>Saved. Salvation</hi> is moſt certainly ſecured by <hi>Believing.</hi>
+            </p>
+            <p>We will Enquire, <hi>Firſt,</hi> What is the <hi>Believing,</hi> that will ſecure <hi>Sal<g ref="char:EOLhyphen"/>vation</hi>?</p>
+            <p>
+               <pb n="20" facs="unknown:000925_0020_0FAD3CFD039D2BC0"/>And that Enquiry ſhall be thus Anſwered. It is a <hi>Looking</hi> to, and <hi>Truſting</hi> in, the Lord Jeſus Chriſt, for <hi>Salvation. <hi>Faith</hi>
+               </hi> cannot be bet<g ref="char:EOLhyphen"/>ter deſcribed, than in that Call to <hi>Faith</hi> which our Lord has given us, Iſa. 45.22. <hi>Look unto me, &amp; be ye Saved.</hi> A man mu<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> ſee himſelf plunged into doleful circumſtances of Sinfulneſs &amp; Wretch<g ref="char:EOLhyphen"/>edneſs, by his <hi>Fall</hi> from God, &amp; ſee him<g ref="char:EOLhyphen"/>ſelf unable to help himſelf out of thoſe doleful circumſtances. A man muſt ſee <hi>God manifest in Fleſh,</hi> and the Son of God become Incar<g ref="char:EOLhyphen"/>nate, in our Lord Jeſus Chriſt, and the Lord Jeſus Chriſt become the only Mediator between God and man. A man muſt ſee the Lord Je<g ref="char:EOLhyphen"/>ſus Chriſt making <hi>Satisfaction</hi> for the Sins of His Choſen by His Obedi<g ref="char:EOLhyphen"/>ence to the Death, and now <hi>Ever<g ref="char:EOLhyphen"/>living to make Interceſſion for us,</hi> and <hi>able to Save unto the uttermoſt all that come to God by Him.</hi> A <hi>Sight</hi> of theſe things, &amp; a <hi>Flight</hi> unto the Lord Jeſus Chriſt upon what we ſee, This is <hi>Faith. Faith</hi> is an <hi>Addreſſing</hi> to, &amp; a <hi>Depending</hi> on<g ref="char:punc">▪</g>
+               <pb n="21" facs="unknown:000925_0021_0FAD3CFDD074C4C0"/>
+the Lord Jeſus Chriſt, as the only One, that ſhall Recover us to Everlaſting Happineſs. <hi>Faith</hi> is a <hi>Repairing</hi> to the Lord Jeſus Chriſt for <hi>Salvation.</hi> It ſaith, Pſal. 116.4. <hi>I beſeech thee, O Lord, to deliver my Soul.</hi> And <hi>Faith</hi> is a <hi>Relying</hi> on the Lord Jeſus Chrſt for <hi>Salvation.</hi> It ſaith, Pſal 62.5, 6. <hi>My Soul, wait thou only upon God, for my Expectation is from Him, He only is my Salvation.</hi>
+            </p>
+            <p>We will Enquire, <hi>Secondly,</hi> What is the <hi>Salvation,</hi> that we ſecure by <hi>Believing?</hi>
+            </p>
+            <p>And that Enquiry ſhall be thus Anſwered. All the <hi>Benefits</hi> to be derived and expected from the Lord Jeſus Chriſt, are comprized in th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> One word, <hi>Salvation.</hi>
+            </p>
+            <p>More particularly.</p>
+            <p>
+               <hi>Adoption</hi> is one ſtroke i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the <hi>Sal<g ref="char:EOLhyphen"/>vation,</hi> that follows upon <hi>Believing.</hi> We read; Gal. 3.20. <hi>Ye are all the Children of God, by Faith in Chriſt Jeſus.</hi> We no ſooner <hi>Believe</hi> on the
+<pb n="22" facs="unknown:000925_0022_0FAD3CFE885A4670"/>
+Lord Jeſus Chri<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>, but <hi>Then</hi> we are fetch'd out of the <hi>Devils Family <hi>Then</hi>
+               </hi> the Almighty God ſayes unto us, <hi>Ye are my Sons and my Daughters</hi>
+               <g ref="char:punc">▪</g> And the <hi>Angels</hi> of Heaven acknow<g ref="char:EOLhyphen"/>ledge us for their <hi>Brethren.</hi>
+            </p>
+            <p>
+               <hi>Juſtification</hi> is another part of the <hi>Salvation</hi> that follows upon <hi>Be<g ref="char:EOLhyphen"/>lieving.</hi> We read, Rom. 5.1. <hi>We are Juſtified by Faith.</hi> When we <hi>Be<g ref="char:EOLhyphen"/>lieve</hi> on the Lord Jeſus Chriſt<g ref="char:punc">▪</g> 
+               <hi>Then</hi> we are accquitted from all the <hi>Curſes</hi> which the <hi>Law</hi> of God had pronounced upon us; <hi>Then</hi> we are inve<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ted with the perfect <hi>Righteouſneſs</hi> of that Obedience which our Surety has yielded unto the <hi>Law</hi> for us; we are entituled unto the <hi>Bleſſedneſs of the Righteous; <hi>Then</hi>
+               </hi> the Great God ſayes unto us, <hi>Be of Good Cheer, thy ſins are forgiven thee.</hi>
+            </p>
+            <p>
+               <hi>Sanctification</hi> is one more part of the <hi>Salvation</hi> that follows upon <hi>Be<g ref="char:EOLhyphen"/>lieving.</hi> We read, 2 Theſ. 2.13.
+<pb n="23" facs="unknown:000925_0023_0FAD3CFF44690B28"/>
+               <hi>God hath Choſen us to Salvation, through Sanctification of the Spirit, and Belief of the Truth.</hi> When we <hi>Believe</hi> on the Lord Jeſus Chriſt, <hi>Then</hi> we <hi>Dy</hi> to Sin and <hi>Live</hi> to God, and we are ſet at Liberty from the <hi>Bondage</hi> of our Corruptions; <hi>Then</hi> the Divine Influences of our Lord <hi>Renew us in the Spirit of our mind,</hi> and Adorn us with His Heavenly Graces, and Aſſiſt us to bring forth much of that <hi>Fruit whereby our Heavenly Father may be Glorified</hi>; and render us <hi>meet for the Inheritance of the Saints in Light.</hi>
+            </p>
+            <p>But, finally, the <hi>Conſummation</hi> of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur <hi>Salvation</hi> is in that <hi>Inheritance.</hi> We read 1 Joh. 5.13. <hi>You that Believe <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the Name of the Son of God, may <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>now, that you have Eternal Life.</hi> If we <hi>Believe</hi> on our Lord Jeſus Chriſt, <hi>Then</hi> we ſhall at the <hi>End of our Life, receive the End of our Faith,</hi> even the <hi>Salvation of our Soul,</hi> in <hi>Everlasting Life. <hi>Then</hi>
+               </hi> we ſhall at our <hi>De<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>arture,</hi> go to be with the Lord on
+<pb n="24" facs="unknown:000925_0024_0FAD3D003B5C51D0"/>
+whom we have <hi>Believed,</hi> where to be <hi>is by far the beſt of all,</hi> and find that we <hi>know whom we have Be<g ref="char:EOLhyphen"/>l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eved,</hi> for He has <hi>kept</hi> what we have <hi>committed unto Him. <hi>Then</hi>
+               </hi> at the Second Coming of our Lord, when He ſhall be <hi>Admired in all them that Believe,</hi> we ſhall be Raiſed from our Graves, and in <hi>Raiſed Bodies</hi> we ſhall converſe with our Lord Jeſus Chriſt, and partake of a Felicity which <hi>Eye hath not ſeen, Ear hath not heard, and the Heart of man hath not conceived.</hi>
+            </p>
+            <p>We will Enquire <hi>Thirdly,</hi> The <hi>Security</hi> that our <hi>Salvation</hi> hath by our <hi>Believing,</hi> what is it, and where lyes it?</p>
+            <p>Our Anſwer to that Enquiry muſt be This.</p>
+            <p>Firſt, <hi>Faith</hi> puts the <hi>Believer</hi> un<g ref="char:EOLhyphen"/>der a <hi>Promiſe</hi> of <hi>Salvation.</hi> We have the unfailing <hi>Promiſe</hi> of the <hi>God that cannot Lye</hi>; It is the <hi>Pro<g ref="char:EOLhyphen"/>miſe</hi>
+               <pb n="25" facs="unknown:000925_0025_0FAD3D00C109E650"/>
+of God, Mar. 16.16. <hi>He that Believeth ſhall be Saved.</hi> It is the <hi>Promiſe</hi> of God, Act. 16.31. <hi>Believe on the Lord Jeſus Chriſt, and thou ſhalt be Saved.</hi> And becauſe of this <hi>Pro<g ref="char:EOLhyphen"/>miſe,</hi> 'tis ſaid, Joh. 3.36. <hi>He that Believeth on the Son, hath Everlaſt<g ref="char:EOLhyphen"/>ing Life.</hi>
+            </p>
+            <p>And then Secondly, <hi>Faith</hi> is the <hi>Inſtrument</hi> by which the <hi>Believer</hi> does <hi>Receive</hi> the <hi>Promiſed <hi>Salvation.</hi> Salvation</hi> is all for the <hi>Receiver.</hi> If men won't <hi>Reject <hi>Salvation,</hi>
+               </hi> but <hi>Receive</hi> it, they ſhall have it. Now, <hi>Faith</hi> is a <hi>Receiving.</hi> All the Bleſ<g ref="char:EOLhyphen"/>ſings of the New Covenant are tendered unto us: The Great God makes this Tender, <hi>Wilt thou have my Son, and ſhall His Righteouſneſs be Imputed unto thee? Wilt thou have my Spirit, and ſhall His Holi<g ref="char:EOLhyphen"/>neſs be Imprinted upon thee? Wilt thou have my Word, for the only Rule of thy Life, and wilt thou have thy Happineſs, in my Kingdom for <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>?</hi>
+               <pb n="26" facs="unknown:000925_0026_0FAD3D030F200260"/>
+The Heart, the conquered Heart, anſwering, <hi>Lord, I take <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t, I take it, with all my Heart!</hi> That's <hi>Faith</hi>: Here's <hi>Faith. Faith</hi> is a <hi>Receiving</hi> of the Lord Jeſus Chriſt, who is the <hi>Saviour.</hi> We read, Joh. 1.12. <hi>They that Receive Him, are they that Believe on H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s Name.</hi> Hence it cannot but be a <hi>Receiving</hi> of <hi>Sal<g ref="char:EOLhyphen"/>vation</hi> with Him. When the Lord Jeſus Chriſt is <hi>Received</hi> by any Soul, He ſayes unto that Soul, as He ſaid unto <hi>Zacheus, This Day Salvation is come unto thee.</hi> As <hi>Rahab</hi> was <hi>Mar<g ref="char:EOLhyphen"/>ried</hi> unto <hi>Salmon,</hi> ſo by <hi>Faith</hi> we are <hi>Married,</hi> unto our <hi>Saviour.</hi> When the <hi>Myſtical Marriage</hi> is brought about, <hi>He</hi> is ours; but if <hi>He</hi> be <hi>ours, All</hi> is <hi>ours</hi>; and God will with Him, <hi>give us all things.</hi>
+            </p>
+            <p n="3">III. <hi>Perdition</hi> will be the una<g ref="char:EOLhyphen"/>voidable, the irremediable, the in<g ref="char:EOLhyphen"/>tolerable Conſequence of <hi>Vnbelief.</hi> The Inhabitants of <hi>Jericho,</hi> from whom <hi>Rahab</hi> therefore <hi>came out</hi> (as
+<pb n="27" facs="unknown:000925_0027_0FAD3D03DEE364F8"/>
+likewiſe all they muſt that would not be Deſtroyed with the <hi>Romiſh Jericho</hi>!) were to be <hi>Deſtroyed.</hi> Now that which Expoſed them to Deſtruction was, their <hi>Vnbelief:</hi> That is, They would not come in, and ſubmit unto the God of <hi>Iſrael,</hi> and Liſt themſelves, among the people of His <hi>Meſſiah. <hi>Vnbelief</hi>
+               </hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> not the only Deſtroying Sin; the <hi>Wages</hi> of every Sin, is Death. But it is the <hi>only Sin,</hi> that makes <hi>De<g ref="char:EOLhyphen"/>ſtruction</hi> Unavoidable, and Irrem<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>diable. What can be more Moni<g ref="char:EOLhyphen"/>tory, than that Thunder, Mar. 16.16. <hi>He that Believeth not, ſhall be Damned</hi>: And that, Joh. 3.18. <hi>He that Believeth not, is Condemned al<g ref="char:EOLhyphen"/>ready</hi>: And that, Heb. 3.18. <hi>To whom Sware He, that they ſhould not Enter into His Reſt, but to them that Believed not?</hi>
+            </p>
+            <p>Lay together theſe CONCLUSIONS</p>
+            <p>
+               <pb n="28" facs="unknown:000925_0028_0FAD3D0482C30800"/>
+               <hi>Firſt.</hi> Though <hi>Every Sin</hi> be a <hi>Deſtructive Evil</hi>: yet God has pro<g ref="char:EOLhyphen"/>vided a <hi>Remedy</hi> to deliver a Sin<g ref="char:EOLhyphen"/>ner from Deſtruction. As it was ſaid, Hoſ. 13.9. <hi>O Iſrael, Thou hast deſtroyed thy ſelf, but in me is thy Help</hi>: So may the God of Heaven ſay, <hi>O Sinner, thy Sin has deſtroy'd thee, but I ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e provided Help for thee.</hi> The <hi>Leaſt Sin,</hi> is againſt the <hi>Great God.</hi> The <hi>Dignity</hi> of the Ob<g ref="char:EOLhyphen"/>ject affronted, and offended, by Sin, makes the <hi>Deſtruction</hi> of the offend<g ref="char:EOLhyphen"/>ing Sinner, to be the Demerit of it: There muſt be a <hi>Destruction to the workers of Iniquity.</hi> But the Lord Jeſus Chriſt, the God-man, has been made a <hi>Sacrifice</hi> to God for man. That <hi>Sacrifice</hi> has made <hi>Atonement</hi> for Sin. If we made uſe of that <hi>Sacrifice,</hi> we ſhould be Delivered from the <hi>Deſtruction,</hi> whereto we are obnoxius.</p>
+            <p>
+               <hi>Secondly. Vnbelief</hi> is a <hi>Refuſal</hi>
+               <pb n="29" facs="unknown:000925_0029_0FAD3D05BA904388"/>
+of the only <hi>Remedy,</hi> for the Deli<g ref="char:EOLhyphen"/>verance of a Sinner from <hi>Deſtruction.</hi> As 'tis ſaid, Heb. 2.3. <hi>How ſhall we Eſcape, if we neglect ſo great Salva<g ref="char:EOLhyphen"/>tion?</hi> Truly, <hi>Vnbelief</hi> is a <hi>Neglect<g ref="char:EOLhyphen"/>ing,</hi> yea, a <hi>Rejecting</hi> of the <hi>Salva<g ref="char:EOLhyphen"/>tion,</hi> which God has prepared for us. Had a Stung <hi>Iſraelite</hi> Refuſed and Forbore, to have Look'd unto the Healing Serpent, he muſt have remained unheal'd; but he could have Blamed none but himſelf. An Unbeliever is a <hi>Refuſer</hi> of the Lord Jeſus Chriſt, and of that <hi>Wiſdom,</hi> that <hi>R<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ghteouſneſs,</hi> that <hi>Sanctification,</hi> and that <hi>Redemption,</hi> which the Lord Jeſus Chriſt is ready to beſtow upon us. The <hi>Deſtruction</hi> of the <hi>Vnbe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>liever</hi> cannot be prevented, becauſe He <hi>Deſpiſes</hi> and <hi>Refuſes,</hi> the <hi>Only Name whereby he can be Saved.</hi>
+            </p>
+            <p>
+               <hi>Thirdly. <hi>Poſitive</hi> Vnbelief</hi> makes the <hi>Deſtruction</hi> of a Sinner, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> only <hi>
+                  <g ref="char:V">Ʋ</g>navoidable,</hi> and <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rremediable</hi>
+               <g ref="char:punc">▪</g> but alſo of all, the moſt <hi>Intolerable</hi>
+               <g ref="char:punc">▪</g>
+               <pb n="30" facs="unknown:000925_0030_0FAD3D0615D3FF58"/>
+The <hi>Negative <hi>Vnbelief</hi>
+               </hi> of them that never heard of the Lord Jeſus Chriſt, makes their <hi>Deſtruction</hi> to be <hi>
+                  <g ref="char:V">Ʋ</g>navoidable,</hi> and <hi>Irremediable.</hi> But then; If they that <hi>know not God,</hi> ſhall be <hi>puniſhed with Ever<g ref="char:EOLhyphen"/>laſting Destruction,</hi> what ſhall they be, that <hi>Obey not the Goſpel of God</hi>? Surely, when our Lord ſhall be <hi>Re<g ref="char:EOLhyphen"/>vealed from Heaven in flaming Fire,</hi> none ſhall ſo Exquiſitely feel the Scalds of it, as they that have ſlighted Him, after they have had Him <hi>Re<g ref="char:EOLhyphen"/>vealed from Heaven, in the Light</hi> of the Goſpel to them. There is a <hi>Poſitive Vnbelief,</hi> which Lies in a Contempt of the Lord Jeſus Chriſt by them that ſit under the Tidings and the Tenders, of the Goſpel. Herein, men that have the Lord Jeſus Chriſt ſet before them, do <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rample under foot the Son of God, and count the Blood of the Covenant an <g ref="char:V">Ʋ</g>nholy th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng.</hi> And what can remain for thoſe, but a <hi>fearful Expectation of a fiery Indignation to devour them?</hi>
+               <pb n="31" facs="unknown:000925_0031_0FAD3D06C580D810"/>
+The <hi>Deſtruction</hi> of theſe Criminals, truly t'will be of all the moſt <hi>In<g ref="char:EOLhyphen"/>tolerable.</hi> The mouth of <hi>Truth</hi> it ſelf hath ſpoken it; Mat. 11.24. <hi>It ſhall be more tolerable for Sodom and Gomorrah, in the Da<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of Judg<g ref="char:EOLhyphen"/>ment, than for them.</hi> Truly, Sirs, It will be a <hi>Sorer Puniſhment,</hi> than a <hi>Death without Mercy,</hi> that ſuch miſerable <hi>Vnbelievers</hi> will be doom'd unto. The ſaddeſt, the darkeſt Portion, of the Damned, is called, Luk. 12.46. <hi>A Portion with <g ref="char:V">Ʋ</g>n<g ref="char:EOLhyphen"/>believers.</hi>
+            </p>
+            <p>But let us now Apply theſe <hi>Faithful ſayings of God.</hi>
+            </p>
+            <div type="application">
+               <head>APPLICATION.</head>
+               <p>
+                  <hi>Deſpair! Deſpair!</hi> Thou art never to open thy mouth any more. What? May <hi>Rahab,</hi> the <hi>Harlot,</hi> be<g ref="char:EOLhyphen"/>come a Sincere, and a Saved <hi>Be<g ref="char:EOLhyphen"/>liever?</hi> And may the <hi>Blackeſt</hi> of <hi>Sinners,</hi> become the <hi>Brighteſt</hi> of
+<pb n="32" facs="unknown:000925_0032_0FAD3D07CEC616D8"/>
+                  <hi>Saints</hi>? Let no Sinner after this be <hi>Deſpaired</hi> of<g ref="char:punc">▪</g> Never, Never let it be ſaid, concerning the Vileſt Sin<g ref="char:EOLhyphen"/>ners, that are not yet gone down into the place of Torment<g ref="char:punc">▪</g> and the <hi>P<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> where the ca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>not hope <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> Chriſt of God,</hi> as it was of old ſaid, Ezek. 37.11. <hi>Our Hope is loſt.</hi> Sinner, be thou never ſo far gone in Sin, yet, Oh, yet! <hi>There is H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pe in I<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>el concerning thee.</hi> If, as the Pſalmiſt complain'd, Pſal. 3.2. <hi>Ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y the<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e be, which ſay of my Soul, There is no Help for him in God:</hi> So if the <hi>Sin<g ref="char:EOLhyphen"/>ner</hi> ſhould have <hi>many</hi> Objections, and <hi>many</hi> Temptations, againſt <hi>Hope</hi> for the Mercies of God, let him Reply, <hi>Yes, O my Soul, There is Help for thee. Though Defiled, though Depraved, though Deſtroy'd unto the uttermost; not there is a CHRIST, that can Save thee to the utte<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>moſt.</hi>
+               </p>
+               <p>Wherefore,</p>
+               <p>
+                  <hi>Firſt.</hi> Let no Sinner fall into an
+<pb n="33" facs="unknown:000925_0033_0FAD3D0840E94E90"/>
+                  <hi>Affrighting Deſpair,</hi> as if it were Impoſſible, he ſhould have all his horrid, and bloody Sins, <hi>Forgiven,</hi> him. It was not Impoſſible, for a <hi>Menaſſeh</hi> himſelf, to be <hi>Forgiven,</hi> though he had <hi>wrought much Evil in the Sight of the Lord, to provoke Him unto Anger:</hi> And though he had <hi>made others to Err,</hi> and to do <hi>worſe than the Heathen.</hi> To thee, O Sinner, is directed that Heart-melting word, of a God, who <hi>for<g ref="char:EOLhyphen"/>gives Iniquity, Tranſgreſſion and Sin</hi>; Iſa. 1.18. <hi>Come now, and let us Rea<g ref="char:EOLhyphen"/>ſon together, ſaith the Lord; Though your Sins be as Scarlet, they ſhall be as white as Snow, though they be <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> like Crimſon, they ſhall be as <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g>
+                  </hi> The <hi>Invitation</hi> of the Lord Jeſus Chriſt, is to thee, O <hi>Polluted</hi> Crea<g ref="char:EOLhyphen"/>ture, though thou haſt a Soul a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> black as Hell, and art but one <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> out of Hell. He Invites thee, in theſe terms, Mat. 11.28. <hi>Come to me, all ye that labour, and are heavy laden.</hi> Come to Thee; Ah, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb n="34" facs="unknown:000925_0034_0FAD3D0A97A880D8"/>
+Lord! For what? Oh, For what? <hi>Come to me,</hi> He ſayes, <hi>That my Blood may Cleanſe thee from all Sin, though thou art as Unclean, as all Sin can render thee. Come to me,</hi> He ſayes, <hi>That though thou art the moſt Guilty upon Earth, yet thou mayeſt now ſtand in my Righteouſneſs, without Guilt be<g ref="char:EOLhyphen"/>fore the Court of Heaven.</hi> But who may Come? He ſayes, <hi>Let all Come!</hi> What? Lord, may <hi>Rahab</hi> Come? Yes, let <hi>Rahab</hi> Come. Oh, Don't ſtand aloof, Don't keep away: when the Lord Jeſus Chriſt thus Calls thee to Him! The <hi>Bad</hi> may Come, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> well as the <hi>Good.</hi> [Se Mat. 22.<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>] Return, O <hi>Prodigal,</hi> Return; <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Bowels of thy grieved Father, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ill yet yearn towards thee. And <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ere will be <hi>Joy among the Angels <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> God,</hi> at thy Return. I remember, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Peter,</hi> had been weeping over <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> prodigious Crimes<g ref="char:punc">▪</g> one of the <hi>Angels</hi> was raviſh'd with it: Sayes <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Go tell His Diſciples, and Peter, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> before you</hi>: — he takes
+<pb n="35" facs="unknown:000925_0035_0FAD3D0B6686A3F0"/>
+more Notice of <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eter,</hi> than of all the reſt of the <hi>Diſciples.</hi> It is a ſurprizing paſſage, 2 Cor. 5.20. <hi>As though God did beſeech you by us, we <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ray you in Chriſt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s ſtead, Be ye Re<g ref="char:EOLhyphen"/>conciled unto God.</hi> Come now, and thus argue upon it; <hi>Oh thou God of all Grace, dost thou Beſeech me to be Reconciled unto thee, after all my Wicked and Curſed Enmity againſt the! my Soul is astoniſhed at this Grace! That which I do, with inexpreſſible Ardours of Soul, beſeech of thee, is, That thou wilt be Reconciled unto me, I could never have Believed ſuch a thing to have been poſſible, if thou hadſt not Commanded, and Enabled me, to <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>lieve it. And, ſince thou doeſt (<gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Wonderful Grace! Infinite Grace!) Beſeech me to be Reconciled, ſurely thou wilt be Reconciled, now thou doſt but it in my Heart thus ardently to Beſeech it of thee.</hi>
+               </p>
+               <p>
+                  <hi>Secondly.</hi> Let no Sinner fall in<g ref="char:EOLhyphen"/>to an <hi>Enfeebling Deſpair,</hi> as if it
+<pb n="36" facs="unknown:000925_0036_0FAD3D0C0C5B8360"/>
+were Impoſſible, he ſhould ever obtain a <hi>Victozy</hi> over his Violent Sins. It is not Impoſſible, for a woman that has been a <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Sinner</hi> againſt the Lord, to become. <hi>Great Lover</hi> of the Lord. Many <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e diſ<g ref="char:EOLhyphen"/>couraged, like thoſe, Jer. 18.12. <hi>They ſaid, There is no Hope, but we will every one do the Im<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nation of his Evil Heart</hi>; Or, like thoſe, Jer. 2.25. <hi>Thou ſaidst, There is no Hope<g ref="char:punc">▪</g> No, for I have Loved Strangers, and after them I will go.</hi> Thus, they ſay, <hi>There is no Hope,</hi> that ever I, ſhall ſhake off the <hi>Chains of Darkneſs</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> are upon my Soul; <hi>There is <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Hope</hi> that ever I ſhall be Effectu<g ref="char:EOLhyphen"/>ally Reclaimed from all my Evil Courſes; <hi>There i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> no Hope,</hi> that ever I, ſhall attain the Graces, and Com<g ref="char:EOLhyphen"/>forts, of an Heavenly Life. Oh! Say not ſo! There is <hi>Hope,</hi> there is <hi>Hope.</hi> Even a <hi>Rahab</hi> her ſelf, may become Renowned for Godly <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>verſion; God may fetch a <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ain<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> of the <hi>St<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ws,</hi> and make a <hi>Rahab,</hi>
+                  <pb n="37" facs="unknown:000925_0037_0FAD3D0CC1D78EC0"/>
+a Pattern of Godlineſs, to <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <hi>Iſrael.</hi> A <hi>Wanton</hi> may <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Pattern of <hi>Chaſtity</hi>; A <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> may become a Pattern of <hi>Sobriety</hi>; A <hi>Swearer</hi> may come to have <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Tongue</hi> made a <hi>Tree of Life</hi>; and the <hi>Mouth</hi> which <hi>Curſed Many,</hi> may come to <hi>Feed Many.</hi> And be it known to thee, O Deſolate Sinner; when thou art come to <hi>Repentance,</hi> all thy Old miſcarriages will be Forgotten, as if they had never been at all. The Bleſſed <hi>God</hi> will fulfil that word unto thee, Jer. 31.34. <hi>I will Forgive their Iniquity, and I will Remember their Sin no more.</hi> And no <hi>Man</hi> will <hi>Remember</hi> it, and <hi>Mention</hi> it, for thy Diſgrace, except he be a <hi>Baſe man,</hi> unworthy the Name of a <hi>Man:</hi> and one to whom the Reviled perſon may ſay, as <hi>Beza</hi> did of them that baſely twit<g ref="char:EOLhyphen"/>ted him, with the Repented Vani<g ref="char:EOLhyphen"/>ties of his youth, <hi>What ſtrange Folks are theſe, to Envy me the Grace of my Lord Jeſus Chriſt!</hi>
+               </p>
+               <p>
+                  <pb n="38" facs="unknown:000925_0038_0FAD3D0D84CE7FD0"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Let us not with <hi>Vtter</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> over any Sinner, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> our <hi>Friends,</hi> for whom we are Concerned. Perhaps we may have <hi>Relations,</hi> (or others,) that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> given over to all Impiety. No Counſils, No Charges, No Warnings, take any Impreſſion on them, to make them deſiſt from their Impiety; However, let not us give over, theſe Extravagent Sinners, or our Counſils to them. Who can tell, what God may do for them? We read, Rom. 5.20. <hi>Where Sin did abound, Grace did much more abound.</hi> It may be, the <hi>Grace</hi> of God, may bring that Sinner, to <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>urn for, and to turn from <hi>Sin,</hi> and become a <hi>Remarkable Penitent</hi> after all. Chriſtian, That <hi>Wild Son</hi> of thine, for which thy Soul is in <hi>Tra<g ref="char:EOLhyphen"/>v<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>l,</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oth ſuch <hi>
+                     <g ref="char:V">Ʋ</g>nutterable Groans,</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ny yet be Recovered. Thy <hi>Lewd Child</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> and yet <hi>come back.</hi>
+                  <pb n="39" facs="unknown:000925_0039_0FAD3D0ED49DE888"/>
+Thou mayſt yet have <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> to Sing, <hi>He was dead, but</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> And he may one day <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Heart as <hi>Glad,</hi> as he now <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <hi>Sad.</hi> God, in the Saving of Sinner<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>does marvellous things without <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi>
+                  <g ref="char:punc">▪</g> Excuſe the Roughneſs of the Expreſ<g ref="char:EOLhyphen"/>ſion, if I ſay, That Sinning, Sin<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Relation, for which thou haſt Em<g ref="char:EOLhyphen"/>ployed ſo many <hi>Prayers,</hi> and <hi>Tears,</hi> that it is hardly poſſible they ſhould Peaiſh, <hi>Deſpair</hi> not of them, I ſay, <hi>Deſpair</hi> not, and <hi>Give them not over,</hi> until you ſee them <hi>turn'd over at the Gallows.</hi>
+               </p>
+               <p n="2">II. But what ſhall we <hi>Do,</hi> That we may ſecure <hi>Salvation,</hi> that we may avoid <hi>Perdition?</hi> Do! It is not to be done by <hi>Doing,</hi> but by <hi>Believing.</hi>
+               </p>
+               <p>We muſt Every one of us, <hi>Be<g ref="char:EOLhyphen"/>lieve</hi> on the Lord Jeſus Chriſt, or <hi>Deſpair</hi> of mercy; <hi>Believe</hi> on the
+<pb n="40" facs="unknown:000925_0040_0FAD3D0F0210C348"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Jeſus Chriſt, I ſay, or elſe <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Periſh under the Indigna<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> God<g ref="char:punc">▪</g> 
+                  <hi>Believe</hi>; That is to ſay, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a periſhing Soul into the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ving Hands of the Lord Jeſus Chriſt, <hi>knowing,</hi> that He is Able, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Willing, to <hi>Save, what thou haſt <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mitted unto Him. Accept</hi> the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Influences of the Lord Jeſus Chriſt, and Requeſt Him to <hi>Rule</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, as well as to <hi>Save</hi> thee. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nſent that the Lord Jeſus Chriſt ſhould make thee <hi>Righteous,</hi> by Do<g ref="char:EOLhyphen"/>ing, and by Dying for thee, and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is Good Spirit, make thee <hi>Holy,</hi> as the Fruit and Sign of His having made the <hi>Righteous.</hi>
+               </p>
+               <p>The Queſtion of the Diſheartned <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>inner, is, <hi>May I Venture to Believe in the Lord Jeſus Chriſt, after all my Superlative Sinfulneſs?</hi> Why not, as well as <hi>Rahab? Venture</hi>! Yea, thou art Siez'd by the Eternal Venge<g ref="char:EOLhyphen"/>ance of God, if thou do not <hi>Ven<g ref="char:EOLhyphen"/>ture.
+<pb n="41" facs="unknown:000925_0041_0FAD3D100635AD08"/>
+May I Venture?</hi> Yea, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> not only <hi>Mayſt,</hi> but <hi>Muſt.</hi> Ther<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> is the Indiſpenſable <hi>Command</hi> of Go<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> for it; 1 Joh. 3.23. <hi>This is His Commandment, That we ſhould Believe on the Name of His Son Jeſus Chriſt.</hi> Your <hi>Weal,</hi> or your <hi>Wo</hi> throughout Eternal Ages, turns upon your O<g ref="char:EOLhyphen"/>beying of this Command; <hi>Neceſſity is laid upon you: and Wo unto you, if you do it not.</hi>
+               </p>
+               <p>But then, this <hi>Admonition</hi> remains to be introduced. <hi>Reſt not in a Falſe Faith.</hi> Even from <hi>Rahab,</hi> we are taught, <hi>That a Saving Faith, will be a working Faith.</hi> There is no cauſe to Reject the Epiſtle of <hi>James,</hi> for that paſſage in it, Jam. 2.25. <hi>Was not Rahab the Harlot Justified by works, when ſhe had received the Meſſengers, and had ſent them another way?</hi> The Sincerity and Reality of our <hi>Justifying Faith</hi> in the <hi>Righte<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>neſs</hi>
+                  <pb n="42" facs="unknown:000925_0042_0FAD3D12D52905D0"/>
+of our Lord Jeſus Chriſt, muſt be <hi>Juſtified</hi> by <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the <hi>Works</hi> of <hi>Evan<g ref="char:EOLhyphen"/>gelical Obedience.</hi>
+               </p>
+               <p>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> this, more <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ook Enti<g ref="char:EOLhyphen"/>tuled, <hi>The E<g ref="char:EOLhyphen"/>verlaſting Goſ<g ref="char:EOLhyphen"/>pel.</hi>]</p>
+               <p>You <hi>Judge</hi> that you <hi>Believe:</hi> Shall I now <hi>Try,</hi> whether you do or no?</p>
+               <p>Firſt, What uſe do you make of the <hi>Scarlet Line</hi>? The ſafety of <hi>Rahab,</hi> was managed by that Sign, Joſh. 2, 21. <hi>She bound a Scarlet Line <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> the window</hi>; And the ſight of that Sign, according to previous Contract, preſerved her. The <hi>Blood</hi> of the Lord Jeſus Chriſt, ſhall be that, whereto the <hi>Scarlet Line</hi> ſhall Conduct our meditations. I ſay then; Do you ſhow the <hi>Blood</hi> of the Lord Jeſus Chriſt on all occa<g ref="char:EOLhyphen"/>ſions, and make <hi>That</hi> your only plea, for your preſervation? <hi>Faith</hi> will produce the <hi>Blood</hi> of the Lord
+<pb n="43" facs="unknown:000925_0043_0FAD3D13B79DA3F0"/>
+Jeſus Chriſt, as the only Defence, againſt all the terrible ſtrokes of Heaven.</p>
+               <p>Secondly, What <hi>Company</hi> do you <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ke? The <hi>Faith</hi> of <hi>Rahab</hi> was Con<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>icious, in her forſaking the <hi>Com<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ny</hi> of all her wicked Countrey-men<g ref="char:punc">▪</g> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ave you Renounced the <hi>Company</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> all that you ſee to be Vitious, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d Ungodly, and Embraced the <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>mpany</hi> of them that have the <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ower of Godlineſs,</hi> to recommend them. <hi>Faith</hi> inclined one to ſay, Pſal. 119.63. <hi>Lord, I am a Companion of all them that Fear thee, and that keep thy Precepts.</hi>
+               </p>
+               <p>Thirdly, What <hi>Confeſſion</hi> do you make? The <hi>Faith</hi> of <hi>Rahab,</hi> was <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>videnced, in her making a <hi>Con<g ref="char:EOLhyphen"/>feſſion</hi> of what Effect, the Words and Works of God had upon her. Do
+<pb n="44" facs="unknown:000925_0044_0FAD3D144387BF60"/>
+you, as the Apoſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le ſpeaks, <hi>Ad unto your Faith, Courage</hi>? Or, are you unable, or unwilling to make a <hi>Confeſſion</hi> of the Lord Jeſus Chriſt o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Aſham'd</hi> of a <hi>Confeſſion,</hi> that ſha<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> Declare what He hath done <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> you, and what you Deſire to <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> for Him? 'Tis ſaid, Rom. 10.10 <hi>With the Heart man Believeth</hi> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Righteouſneſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, and with the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Confeſſion is made unto Salvation.</hi>
+               </p>
+               <p>Finally, What Reſpect have y<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> for the <hi>Meſſengers <hi>of Joſhua?</hi>
+                  </hi> The <hi>Faith</hi> of <hi>Rahab</hi> cauſed her to <hi>Re<g ref="char:EOLhyphen"/>ceive the Spies with Peace.</hi> Th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Faithful Miniſters of the Goſpel, are the <hi>Spies</hi> of the Lord Jeſus Chriſt: But men much maligned in the world. If you are carried away with a Spirit of malignity again<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> them, 'tis a very Ill Symptome up<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> your <hi>Faith.</hi> Eſpecially, if th<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hoſe Miniſtry <hi>Faith</hi> was wrough<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </p>
+               <gap reason="missing" extent="1+ pages">
+                  <desc>〈1… pages missing〉</desc>
+               </gap>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
