@@ -1,0 +1,720 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gotham. A poem. Book I. By C. Churchill</title>
+            <author>Churchill, Charles, 1731-1764.</author>
+         </titleStmt>
+         <extent>25 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2007-10">2007 October</date>
+            <idno type="DLPS">004793358</idno>
+            <idno type="ESTC">T1706</idno>
+            <idno type="DOCNO">CW114249655</idno>
+            <idno type="TCP">K020958.000</idno>
+            <idno type="GALEDOCNO">CW3314249655</idno>
+            <idno type="CONTENTSET">ECLL</idno>
+            <idno type="IMAGESETID">0779800100</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Gotham. A poem. Book I. By C. Churchill</title>
+                  <author>Churchill, Charles, 1731-1764.</author>
+               </titleStmt>
+               <extent>[4],24p. ; 4⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for the author, and sold by W. Flexney; G. Kearsley; C. Henderson; J. Coote; J. Gardiner; and J. Almon,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1764.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>The first of 3 books, each with separate half-title, titlepage, pagination and register.</note>
+                  <note>P. 5 has signature: C.</note>
+                  <note>Also issued, without a titlepage, as part of: 'Poems by C. Churchill', vol. 2, London, 1765.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>Grant, 13</note>
+                  <note>English Short Title Catalog, ESTCT1706.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:0779800100:1" rendition="simple:additions"/>
+            <p>GOTHAM. A POEM. BOOK I. BY C. CHURCHILL.</p>
+            <p>LONDON: PRINTED FOR THE AUTHOR, And Sold by W. FLEXNEY, near Gray's-Inn Gate, Holborn; G. KEARSLY, oppoſite St. Martin's Church, Ludgate-Street; C. HENDERSON, at the Royal-Exchange; J. COOTE, in Pater-noſter-Row; J. GARDINER, in Charles-Street, Weſtminſter; and J. ALMON, in Piccadilly. MDCCLXIV.</p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="book">
+            <pb facs="tcp:0779800100:2"/>
+            <head>GOTHAM. BOOK I.</head>
+            <lg>
+               <l>FAR off (no matter whether <hi>Eaſt</hi> or <hi>Weſt,</hi>
+               </l>
+               <l>A real Country, or one made in jeſt)</l>
+               <l>Not yet by modern MANDEVILLES diſgrac'd,</l>
+               <l>Nor by <hi>Map-jobbers</hi> wretchedly miſplac'd,</l>
+               <l>There lies an <hi>Iſland,</hi> neither great nor ſmall,</l>
+               <l>Which, for diſtinction ſake, I GOTHAM call.</l>
+            </lg>
+            <lg>
+               <l>The Man, who finds an unknown Country out,</l>
+               <l>By giving it a name acquires, no doubt,</l>
+               <l>
+                  <pb n="2" facs="tcp:0779800100:3"/>A Goſpel title, tho' the people there</l>
+               <l>The pious Chriſtian thinks not worth his care.</l>
+               <l>Bar this pretence, and into air is hurl'd</l>
+               <l>The claim of EUROPE to the <hi>Weſtern World.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Caſt by a tempeſt on the ſavage coaſt,</l>
+               <l>Some roving Buccaneer ſet up a Poſt;</l>
+               <l>A Beam, in proper form tranſverſely laid,</l>
+               <l>Of his Redeemer's Croſs the figure made,</l>
+               <l>Of that Redeemer, with whoſe laws his life,</l>
+               <l>From firſt to laſt, had been one ſcene of ſtrife;</l>
+               <l>His royal maſter's name thereon engrav'd,</l>
+               <l>Without more proceſs, the whole race enſlav'd,</l>
+               <l>Cut off that Charter they from Nature drew,</l>
+               <l>And made them Slaves to men they never knew.</l>
+            </lg>
+            <lg>
+               <l>Search antient hiſtories, conſult records,</l>
+               <l>Under this title the moſt Chriſtian Lords</l>
+               <l>Hold (thanks to Conſcience) more than half the Ball;</l>
+               <l>O'erthrow this title, they have none at all.</l>
+               <l>For never yet might any Monarch dare,</l>
+               <l>Who liv'd to Truth, and breath'd a Chriſtian air,</l>
+               <l>Pretend that Chriſt (who came, we all agree,</l>
+               <l>To bleſs his people, and to ſet them free)</l>
+               <l>
+                  <pb n="3" facs="tcp:0779800100:4"/>To make a Convert ever one law gave,</l>
+               <l>By which Converters made him firſt a ſlave.</l>
+            </lg>
+            <lg>
+               <l>Spite of the gloſſes of a canting Prieſt,</l>
+               <l>Who talks of Charity, but means a feaſt,</l>
+               <l>Who recommends it (whilſt he ſeems to feel</l>
+               <l>The holy glowings of a real zeal)</l>
+               <l>To all his hearers, as a deed of worth,</l>
+               <l>To give them heav'n, whom they have robb'd of earth,</l>
+               <l>Never ſhall One, One truly honeſt man,</l>
+               <l>Who, bleſt with LIBERTY, reveres her plan,</l>
+               <l>Allow one moment, that a Savage ſire</l>
+               <l>Could from his wretched race, for childiſh hire,</l>
+               <l>By a wild grant, their All, their Freedom paſs,</l>
+               <l>And ſell his Country for a bit of glaſs.</l>
+            </lg>
+            <lg>
+               <l>Or grant this barb'rous right, Let SPAIN and FRANCE,</l>
+               <l>In Slav'ry bred, as purchaſers advance,</l>
+               <l>Let them, whilſt Conſcience is at diſtance hurl'd,</l>
+               <l>With ſome gay bawble buy a golden world;</l>
+               <l>An ENGLISHMAN, in <hi>charter'd</hi> FREEDOM born,</l>
+               <l>Shall ſpurn the ſlaviſh merchandize, ſhall ſcorn</l>
+               <l>To take from others, thro' baſe private views,</l>
+               <l>What He himſelf would rather die, than loſe.</l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:0779800100:5"/>
+               <l>Happy the Savage of thoſe <hi>early</hi> times</l>
+               <l>'Ere EUROPE's ſons were known, and EUROPE's crimes!</l>
+               <l>Gold, curſed Gold! ſlept in the womb of earth,</l>
+               <l>Unfelt its miſchiefs, as unknown its worth;</l>
+               <l>In full Content he found the trueſt wealth;</l>
+               <l>In Toil he found Diverſion, Food, and Health;</l>
+               <l>Strange to the eaſe and luxury of Courts,</l>
+               <l>His Sports were Labours, and his Labours Sports;</l>
+               <l>His Youth was hardy, and his Old Age green;</l>
+               <l>Life's Morn was vig'rous, and her Eve ſerene;</l>
+               <l>No rules he held, but what were made for uſe;</l>
+               <l>No Arts he learn'd, nor ills which Arts produce;</l>
+               <l>Falſe Lights he follow'd, but believ'd them true;</l>
+               <l>He knew not much, but liv'd to what he knew.</l>
+            </lg>
+            <lg>
+               <l>Happy, thrice happy <hi>now</hi> the Savage race,</l>
+               <l>Since EUROPE took their <hi>Gold,</hi> and gave them <hi>Grace!</hi>
+               </l>
+               <l>Paſtors ſhe ſends to help them in their need,</l>
+               <l>Some who can't write, with others who can't read,</l>
+               <l>And, on ſure grounds the Goſpel Pile to rear,</l>
+               <l>Sends <hi>Miſſionary</hi> Felons ev'ry Year;</l>
+               <l>Our Vices, with more Zeal than holy pray'rs,</l>
+               <l>She teaches them, and in return takes theirs;</l>
+               <l>
+                  <pb n="5" facs="tcp:0779800100:6"/>Her rank Oppreſſions give them cauſe to riſe,</l>
+               <l>Her Want of Prudence means, and Arms ſupplies,</l>
+               <l>Whilſt her brave rage, not ſatisfied with life,</l>
+               <l>Riſing in blood, adopts the <hi>Scalping-Knife</hi>;</l>
+               <l>Knowledge She gives, enough to make them know</l>
+               <l>How abject is their State, how deep their Woe;</l>
+               <l>The Worth of Freedom ſtrongly She explains,</l>
+               <l>Whilſt She bows down, and loads their necks with Chains;</l>
+               <l>Faith too She plants, for her own ends impreſt,</l>
+               <l>To make them bear the worſt, and hope the beſt;</l>
+               <l>And whilſt She teaches on vile int'reſt's plan,</l>
+               <l>As Laws of God, the wild decrees of man,</l>
+               <l>Like PHARISERS, of whom the Scriptures tell,</l>
+               <l>She makes them ten times more the Sons of Hell.</l>
+            </lg>
+            <lg>
+               <l>But whither do theſe grave reflexions tend?</l>
+               <l>Are they deſign'd for any, or no end?</l>
+               <l>Briefly but this—to prove, that by no act</l>
+               <l>Which Nature made, that by no equal pact</l>
+               <l>'Twixt Man and Man, which might, if Juſtice heard,</l>
+               <l>Stand good, that by no benefits conferr'd,</l>
+               <l>Or purchaſe made, EUROPE in chains can hold</l>
+               <l>The Sons of INDIA, and her mines of gold.</l>
+               <l>
+                  <pb n="6" facs="tcp:0779800100:7"/>Chance led her there in an accurſed hour,</l>
+               <l>She ſaw, and made the Country her's by pow'r;</l>
+               <l>Nor, drawn by Virtue's Love from Love of Fame,</l>
+               <l>Shall my raſh Folly controvert the claim,</l>
+               <l>Or wiſh in thought that title overthrown,</l>
+               <l>Which coincides with, and involves my own.</l>
+            </lg>
+            <lg>
+               <l>EUROPE diſcover'd INDIA firſt; I found</l>
+               <l>My right to Gotham on the ſelf-ſame ground;</l>
+               <l>I firſt diſcover'd it, nor ſhall that plea</l>
+               <l>To Her be granted, and denied to Me.</l>
+               <l>I plead Poſſeſſion, and till one more bold</l>
+               <l>Shall drive me out, will that Poſſeſſion hold.</l>
+               <l>With EUROPE's rights my kindred rights I twine;</l>
+               <l>
+                  <hi>Hers</hi> be the WESTERN WORLD, be GOTHAM <hi>Mine.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of Gladneſs, and on ev'ry tongue,</l>
+               <l>In Strains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:0779800100:8"/>
+               <l>As on a Day, a high and holy Day,</l>
+               <l>Let ev'ry inſtrument of Muſic play,</l>
+               <l>
+                  <hi>Antient</hi> and <hi>Modern</hi>; Thoſe which drew their birth</l>
+               <l>(Punctilios laid wide) from <hi>Pagan</hi> earth,</l>
+               <l>As well as thoſe by <hi>Chriſtian</hi> made and <hi>Jew</hi>;</l>
+               <l>Thoſe known to many, and thoſe known to few;</l>
+               <l>Thoſe which in whim and frolic lightly float,</l>
+               <l>And thoſe which ſwell the ſlow and ſolemn note;</l>
+               <l>Thoſe which (whilſt Reaſon ſtands in wonder by)</l>
+               <l>Make ſome <hi>complexions</hi> laugh, and others cry;</l>
+               <l>Thoſe which, by ſome ſtrange faculty of ſound,</l>
+               <l>Can build walls up, and raze them to the ground;</l>
+               <l>Thoſe which can tear up foreſts by the roots,</l>
+               <l>And make brutes dance like Men, and Men like brutes;</l>
+               <l>Thoſe which, whilſt RIDICULE leads up the dance,</l>
+               <l>Make Clowns of MONMOUTH ape the Fops of FRANCE;</l>
+               <l>Thoſe which, where <hi>Lady</hi> DULLNESS with <hi>Lord</hi> MAYORS</l>
+               <l>Prefides, diſdaining light and trifling airs,</l>
+               <l>Hallow the feaſt with <hi>Pſalmody,</hi> and Thoſe</l>
+               <l>Which, planted in our Churches to diſpoſe</l>
+               <l>And lift the mind to Heaven, are diſgrac'd</l>
+               <l>With what a foppiſh Organiſt calls <hi>Taſte.</hi>
+               </l>
+               <l>All, from the Fiddle (on which ev'ry Fool,</l>
+               <l>The pert Son of dull Sire, diſcharg'd from School,</l>
+               <l>
+                  <pb n="8" facs="tcp:0779800100:9"/>Serves an apprenticeſhip in College eaſe,</l>
+               <l>And riſes thro' the <hi>Ganiut</hi> to degrees)</l>
+               <l>To Thoſe which (tho' leſs common, not leſs ſweet)</l>
+               <l>From fam'd <hi>Saint Giles's,</hi> and more fam'd <hi>Vine-ſtreet,</hi>
+               </l>
+               <l>(Where Heav'n, the utmoſt wiſh of man to grant,</l>
+               <l>Gave me an old Houſe, and an older Aunt)</l>
+               <l>THORNTON, whilſt HUMOUR pointed out the road</l>
+               <l>To her arch cub, hath hitch'd into an ode;</l>
+               <l>All Inſtruments (attend Ye liſt'ning Spheres,</l>
+               <l>Attend Ye Sons of Men, and hear with ears)</l>
+               <l>All Inſtruments (nor ſhall they ſeek one Hand</l>
+               <l>Impreſt from <hi>modern</hi> MUSIC's <hi>coxcomb</hi> band)</l>
+               <l>All Inſtruments, <hi>ſelf-acted,</hi> at my name</l>
+               <l>Shall pour forth harmony, and loud proclaim,</l>
+               <l>Loud but yet ſweet, to the according globe,</l>
+               <l>My praiſes, whilſt <hi>gay</hi> NATURE, in a robe,</l>
+               <l>A <hi>Coxcomb Doctor's robe,</hi> to the full ſound</l>
+               <l>Keeps time, like BOYCE, and the World dances round.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice!</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>
+                  <pb n="9" facs="tcp:0779800100:10"/>The Praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>INFANCY, ſtraining backward from the breaſt,</l>
+               <l>Tetchy and wayward, what he loveth beſt</l>
+               <l>Refuſing in his fits, whilſt all the while</l>
+               <l>The Mother eyes the wrangler with a ſmile,</l>
+               <l>And the fond Father ſits on t'other ſide,</l>
+               <l>Laughs at his moods, and views his ſpleen with pride,</l>
+               <l>Shall murmur forth my name, whilſt at his hand</l>
+               <l>Nurſe ſtands interpreter, thro' GOTHAM's land.</l>
+            </lg>
+            <lg>
+               <l>CHILDHOOD who, like an <hi>April</hi> morn, appears,</l>
+               <l>Sunſhine and Rain, Hopes clouded o'er with fears,</l>
+               <l>Pleas'd and diſpleas'd by ſtarts, in paſſion warm,</l>
+               <l>In Reaſon weak, who, wrought into a ſtorm,</l>
+               <l>Like to the fretful bullies of the deep,</l>
+               <l>Soon ſpends his rage, and cries himſelf aſleep,</l>
+               <l>Who, with a fev'riſh appetite oppreſs'd,</l>
+               <l>For trifles ſighs, but hates them when poſſeſs'd,</l>
+               <l>His trembling laſh ſuſpended in the air,</l>
+               <l>Half-bent, and ſtroking back his long, lank hair,</l>
+               <l>Shall to his mates look up with eager glee,</l>
+               <l>And let his Top go down to prate of Me.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:0779800100:11"/>
+               <l>YOUTH, who fierce, fickle, inſolent, and vain,</l>
+               <l>Impatient urges on to MANHOOD's reign,</l>
+               <l>Impatient urges on, yet, with a caſt</l>
+               <l>Of dear regard, looks back on CHILDHOOD paſt,</l>
+               <l>In the <hi>mid-chaſe,</hi> when the hot blood runs high,</l>
+               <l>And the quick ſpirits mount into his eye,</l>
+               <l>When Pleaſure, which he deems his greateſt wealth,</l>
+               <l>Beats in his heart, and paints his cheeks with health,</l>
+               <l>When the chaf'd Steed tugs proudly at the rein,</l>
+               <l>And, 'ere he ſtarts, hath run o'er half the plain,</l>
+               <l>When, wing'd with fear, the Stag flies full in view,</l>
+               <l>And in full cry the eager hounds purſue,</l>
+               <l>Shall ſhout my praiſe to hills which ſhout again,</l>
+               <l>And e'en the <hi>Huntſman</hi> ſtop to cry <hi>Amen.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>MANHOOD, of form erect, who would not bow</l>
+               <l>Tho' Worlds ſhould crack around him; on his brow</l>
+               <l>WISDOM ſerene, to Paſſion giving law,</l>
+               <l>Beſpeaking Love, and yet commanding Awe;</l>
+               <l>DIGNITY into Grace by Mildneſs wrought;</l>
+               <l>COURAGE attemper'd and refin'd by Thought;</l>
+               <l>VIRTUE ſupreme enthron'd; within his breaſt</l>
+               <l>The Image of his Maker deep impreſs'd;</l>
+               <l>
+                  <pb n="11" facs="tcp:0779800100:12"/>Lord of this Earth, which trembles at his Nod,</l>
+               <l>With Reaſon bleſs'd, and only leſs than God;</l>
+               <l>MANHOOD, tho' weeping Beauty kneels for aid,</l>
+               <l>Tho' Honour calls in Danger's form array'd,</l>
+               <l>Tho', cloath'd with ſackcloth, Juſtice in the gates,</l>
+               <l>By wicked Elders chain'd, Redemption waits,</l>
+               <l>MANHOOD ſhall ſteal an hour, a little hour,</l>
+               <l>(Is't not a little One?) to hail my pow'r.</l>
+            </lg>
+            <lg>
+               <l>OLD-AGE, a <hi>ſecond Child,</hi> by Nature curs'd</l>
+               <l>With more and greater evils than the firſt,</l>
+               <l>Weak, ſickly, full of pains; in ev'ry breath</l>
+               <l>Railing at life, and yet afraid of death;</l>
+               <l>Putting things off, with ſage and ſolemn air,</l>
+               <l>From day to day, without one day to ſpare;</l>
+               <l>Without enjoyment, covetous of pelf,</l>
+               <l>Tireſome to friends, and tireſome to himſelf,</l>
+               <l>His faculties impair'd, his temper ſour'd,</l>
+               <l>His memory of recent things devour'd</l>
+               <l>E'en with the acting, on his ſhatter'd brain</l>
+               <l>Tho' the ſtale Regiſters of Youth remain;</l>
+               <l>From morn to evening babbling forth vain praiſe</l>
+               <l>Of thoſe rare men, who liv'd in thoſe rare days</l>
+               <l>
+                  <pb n="12" facs="tcp:0779800100:13"/>When He, the Hero of his tale, was Young,</l>
+               <l>Dull Repetitions falt'ring on his tongue,</l>
+               <l>Praiſing gray hairs, ſure mark of Wiſdom's ſway,</l>
+               <l>E'en whilſt he curſes time which made him gray,</l>
+               <l>Scoffing at Youth, e'en whilſt he would afford</l>
+               <l>All, but his gold, to have his Youth reſtor'd,</l>
+               <l>Shall for a moment, from himſelf ſet free,</l>
+               <l>Lean on his Crutch, and pipe forth praiſe to Me.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>Things without life ſhall in this Chorus join,</l>
+               <l>And, dumb to others' praiſe, be loud in mine.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Snow-drop,</hi> who, in habit white and plain,</l>
+               <l>Comes on the <hi>Herald</hi> of fair FLORA's train;</l>
+               <l>The Coxcomb <hi>Crocus,</hi> flow'r of ſimple note,</l>
+               <l>Who by her ſide ſtruts in a <hi>Herald</hi>'s coat;</l>
+               <l>
+                  <pb n="13" facs="tcp:0779800100:14"/>The <hi>Tulip,</hi> idly glaring to the view,</l>
+               <l>Who, tho' no Clown, his birth from Holland drew,</l>
+               <l>Who, once full-dreſs'd, fears from his place to ſtir,</l>
+               <l>The Fop of flow'rs, the MORE of a Parterre;</l>
+               <l>The <hi>Wood-bine,</hi> who her <hi>Elm</hi> in marriage meets,</l>
+               <l>And brings her dowry in ſurrounding ſweets;</l>
+               <l>The <hi>Lilly,</hi> ſilver Miſtreſs of the vale,</l>
+               <l>The <hi>Roſe</hi> of SHARON which perfumes the gale;</l>
+               <l>The <hi>Jeſſamine,</hi> with which the Queen of flow'rs</l>
+               <l>To charm her God adorns his fav'rite bow'rs,</l>
+               <l>Which Brides, by the plain hand of neatneſs dreſt,</l>
+               <l>Unenvied rival, wear upon their breaſt,</l>
+               <l>Sweet as the incenſe of the Morn, and chaſte</l>
+               <l>As the pure Zone, which circles DIAN's waiſt;</l>
+               <l>All flow'rs, of various names, and various forms,</l>
+               <l>Which the Sun into ſtrength and beauty warms,</l>
+               <l>From the dwarf <hi>Daiſy,</hi> which, like infants, clings,</l>
+               <l>And fears to leave the earth from whence it ſprings,</l>
+               <l>To the proud Giant of the garden race,</l>
+               <l>Who, madly ruſhing to the Sun's embrace,</l>
+               <l>O'ertops her fellows with aſpiring aim,</l>
+               <l>Demands his wedded Love, and bears his name;</l>
+               <l>All, One and All, ſhall in this Chorus join,</l>
+               <l>And, dumb to others' praiſe, be loud in mine.</l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:0779800100:15"/>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>Forming a gloom, thro' which to ſpleen-ſtruck minds</l>
+               <l>Religion, horror-ſtamp'd, a paſſage finds,</l>
+               <l>The <hi>Ivy</hi> crawling o'er the hallow'd cell,</l>
+               <l>Where ſome old Hermit's wont his beads to tell</l>
+               <l>By day, by night; the <hi>Myrtle</hi> ever-green,</l>
+               <l>Beneath whoſe ſhade Love holds his rites unſeen;</l>
+               <l>The <hi>Willow</hi> weeping o'er the fatal wave,</l>
+               <l>Where many a Lover finds a watry grave;</l>
+               <l>The <hi>Cypreſs</hi> ſacred held, when Lovers mourn</l>
+               <l>Their true Love ſnatch'd away; the <hi>Laurel</hi> worn</l>
+               <l>By Poets in old time, but deſtin'd now</l>
+               <l>In grief to wither on a WHITEHEAD's brow;</l>
+               <l>The <hi>Fig,</hi> which, large as what in India grows,</l>
+               <l>Itſelf a Grove, gave our firſt Parents cloaths;</l>
+               <l>The <hi>Vine,</hi> which, like a bluſhing new-made Bride,</l>
+               <l>Cluſt'ring, empurples all the Mountain's ſide;</l>
+               <l>
+                  <pb n="15" facs="tcp:0779800100:16"/>The <hi>Yew,</hi> which, in the place of ſculptur'd ſtone,</l>
+               <l>Marks out the reſting-place of men unknown;</l>
+               <l>The hedge-row <hi>Elm,</hi> the <hi>Pine</hi> of mountain race;</l>
+               <l>The <hi>Fir,</hi> the SCOTCH <hi>Fir,</hi> never out of place;</l>
+               <l>The <hi>Cedar,</hi> whoſe top mates the higheſt cloud,</l>
+               <l>Whilſt his old Father LEBANON grows proud</l>
+               <l>Of ſuch a child, and his vaſt Body laid</l>
+               <l>Out many a mile, enjoys the filial ſhade;</l>
+               <l>The <hi>Oak,</hi> when living, monarch of the wood;</l>
+               <l>The ENGLISH <hi>Oak,</hi> which, dead, commands the flood;</l>
+               <l>All, One and All, ſhall in this Chorus join,</l>
+               <l>And, dumb to others' praiſe, be loud in mine.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Show'rs,</hi> which make the young hills, like young Lambs,</l>
+               <l>Bound and rebound, the old Hills, like old Rams,</l>
+               <l>
+                  <pb n="16" facs="tcp:0779800100:17"/>Unwieldy, jump for joy; the <hi>Streams,</hi> which glide,</l>
+               <l>Whilſt PLENTY marches ſmiling by their ſide,</l>
+               <l>And from their boſom riſing COMMERCE ſprings;</l>
+               <l>The <hi>Winds,</hi> which riſe with healing on their wings,</l>
+               <l>Before whoſe cleanſing breath Contagion flies;</l>
+               <l>The <hi>Sun</hi> who, travelling in Eaſtern ſkies,</l>
+               <l>Freſh, full of ſtrength, juſt riſen from his bed,</l>
+               <l>Tho' in JOVE's paſtures they were born and bred,</l>
+               <l>With voice and whip, can ſcarce make his ſteeds ſtir,</l>
+               <l>Step by Step, up the perpendicular;</l>
+               <l>Who, at the hour of Eve, panting for reſt,</l>
+               <l>Rolls on amain, and gallops down the Weſt,</l>
+               <l>As faſt as JEHU, oil'd for AHAB's ſin,</l>
+               <l>Drove for a crown, or <hi>Poſt-boys</hi> for an Inn;</l>
+               <l>The <hi>Moon,</hi> who holds o'er night her ſilver reign,</l>
+               <l>Regent of tides, and Miſtreſs of the Brain,</l>
+               <l>Who to her Sons, thoſe Sons who own her pow'r,</l>
+               <l>And do her homage at the midnight hour,</l>
+               <l>Gives madneſs as a bleſſing, but diſpenſes</l>
+               <l>Wiſdom to fools, and damns them with their Senſes;</l>
+               <l>The <hi>Stars</hi> who, by I know not what ſtrange right,</l>
+               <l>Preſide o'er mortals in their own deſpite,</l>
+               <l>Who without Reaſon govern Thoſe, who moſt</l>
+               <l>(How truly judge from hence!) of Reaſon boaſt,</l>
+               <l>
+                  <pb n="17" facs="tcp:0779800100:18"/>And, by ſome mighty Magic yet unknown,</l>
+               <l>Our actions guide, yet cannot guide their own;</l>
+               <l>All, One and All, ſhall in this Chorus join,</l>
+               <l>And, dumb to others' praiſe, be loud in Mine.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>The <hi>Moment, Minute, Hour, Day, Week, Month, Year,</hi>
+               </l>
+               <l>
+                  <hi>Morning</hi> and <hi>Eve,</hi> as they in turn appear;</l>
+               <l>
+                  <hi>Moments</hi> and <hi>Minutes</hi> which, without a crime,</l>
+               <l>Can't be omitted in accounts of time,</l>
+               <l>Or, if omitted, (proof we might afford)</l>
+               <l>Worthy by Parliaments to be reſtor'd;</l>
+               <l>The <hi>Hours</hi> which, dreſt by turns in black and white,</l>
+               <l>Ordain'd as Handmaids, wait on Day and Night;</l>
+               <l>The <hi>Day,</hi> thoſe hours I mean, when Light preſides,</l>
+               <l>And BUSINESS in a cart with PRUDENCE rides;</l>
+               <l>The <hi>Night,</hi> thoſe hours I mean with darkneſs hung,</l>
+               <l>When Senſe ſpeaks free, and Folly holds her tongue;</l>
+               <l>
+                  <pb n="18" facs="tcp:0779800100:19"/>The <hi>Morn,</hi> when Nature, rouſing from her ſtrife</l>
+               <l>With death-like ſleep, awakes to ſecond life;</l>
+               <l>The <hi>Eve,</hi> when, as unequal to the taſk,</l>
+               <l>She mercy from her foe deſcends to aſk;</l>
+               <l>The <hi>Week,</hi> in which Six days are kindly given</l>
+               <l>To think of Earth, and One to think of Heaven;</l>
+               <l>The <hi>Months,</hi> twelve Siſters, all of diff'rent hue,</l>
+               <l>Tho' there appears in all a likeneſs too,</l>
+               <l>Not ſuch a likeneſs, as, thro' HAYMAN's works,</l>
+               <l>Dull Manneriſt, in Chriſtians, Jews, and Turks,</l>
+               <l>Cloys with a ſameneſs in each female face,</l>
+               <l>But a ſtrange Something, born of Art and Grace,</l>
+               <l>Which ſpeaks them All, to vary and adorn,</l>
+               <l>At diff'rent times of the ſame Parents born;</l>
+               <l>All, One and All, ſhall in this Chorus join,</l>
+               <l>And, dumb to others' praiſe, be loud in Mine.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <pb n="19" facs="tcp:0779800100:20"/>
+               <l>Frore JANUARY, Leader of the year,</l>
+               <l>
+                  <hi>Minc'd-pies</hi> in van, and <hi>Calves-heads</hi> in the rear;</l>
+               <l>Dull <hi>February,</hi> in whoſe leaden reign,</l>
+               <l>My Mother bore a bard without a brain;</l>
+               <l>MARCH various, fierce, and wild, with wind-crack'd cheeks,</l>
+               <l>By wilder Welchmen led, and crown'd with leeks!</l>
+               <l>APRIL with fools, and MAY with baſtards bleſt;</l>
+               <l>JUNE with White Roſes on her rebel breaſt;</l>
+               <l>JULY, to whom, the Dog-Star in her train,</l>
+               <l>
+                  <hi>Saint</hi> JAMES gives oyſters, and <hi>Saint</hi> SWITHIN rain;</l>
+               <l>AUGUST, who, baniſh'd from her <hi>Smithfield</hi> ſtand,</l>
+               <l>To <hi>Chelſea</hi> flies, with DOGGET in her hand;</l>
+               <l>SEPTEMBER, when by Cuſtom (right divine)</l>
+               <l>Geeſe are ordain'd to bleed at MICHAEL's ſhrine,</l>
+               <l>Whilſt the Prieſt, not ſo full of grace as wit,</l>
+               <l>Falls to, unbleſs'd, nor gives the Saint a bit;</l>
+               <l>OCTOBER, who the cauſe of FREEDOM join'd,</l>
+               <l>And gave a <hi>ſecond</hi> GEORGE to bleſs mankind;</l>
+               <l>NOVEMBER, who at once to grace our earth,</l>
+               <l>
+                  <hi>Saint</hi> ANDREW boaſts, and our AUGUSTA's birth;</l>
+               <l>DECEMBER, laſt of Months, but beſt, who gave</l>
+               <l>A CHRIST to Man, a Saviour to the Slave,</l>
+               <l>Whilſt, falſely grateful, Man, at the full feaſt,</l>
+               <l>To do God honour, makes himſelf a beaſt;</l>
+               <l>
+                  <pb n="20" facs="tcp:0779800100:21"/>All, One and All, ſhall in this Chorus join,</l>
+               <l>And dumb to others' praiſe, be loud in Mine.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>The <hi>Seaſons</hi> as they roll; SPRING, by her ſide</l>
+               <l>
+                  <hi>Letch'ry</hi> and <hi>Lent, Lay-Folly,</hi> and <hi>Church-Pride,</hi>
+               </l>
+               <l>By a rank Monk to Copulation led,</l>
+               <l>A tub of <hi>ſainted Salt-Fiſh</hi> on her head;</l>
+               <l>SUMMER, in light, tranſparent Gawze array'd,</l>
+               <l>Like Maids of Honour at a Maſquerade,</l>
+               <l>In bawdry Gawze, for which our daughters leave</l>
+               <l>The Fig, more modeſt, firſt brought up by EVE,</l>
+               <l>Panting for breath, enflam'd with luſtful fires,</l>
+               <l>Yet wanting ſtrength to perfect her deſires,</l>
+               <l>Leaning on SLOTH, who, fainting with the heat,</l>
+               <l>Stops at each ſtep, and ſlumbers on his feet;</l>
+               <l>AUTUMN, when NATURE, who with ſorrow feels</l>
+               <l>Her dread foe Winter treading on her heels,</l>
+               <l>
+                  <pb n="21" facs="tcp:0779800100:22"/>Makes up in value what ſhe wants in length,</l>
+               <l>Exerts her pow'rs, and puts forth all her ſtrength,</l>
+               <l>Bids Corn and Fruits in full perfection riſe,</l>
+               <l>Corn Fairly Tax'd, and Fruits without Exciſe;</l>
+               <l>WINTER, benumb'd with cold, no longer known</l>
+               <l>By robes of Fur, ſince Furs became <hi>our own,</hi>
+               </l>
+               <l>A Hag who, loathing all, by all is loath'd,</l>
+               <l>With weekly, daily, hourly libels cloath'd,</l>
+               <l>Vile FACTION at her heels, who, mighty grown,</l>
+               <l>Would rule the Ruler, and <hi>forecloſe</hi> the throne,</l>
+               <l>Would turn all State-affairs into a trade,</l>
+               <l>Make Laws one day, the next to be Unmade,</l>
+               <l>Beggar at home a People fear'd abroad,</l>
+               <l>And, force defeated, make them Slaves by Fraud;</l>
+               <l>All, One and All, ſhall in this Chorus join,</l>
+               <l>And, dumb to other's praiſe, be loud in Mine.</l>
+            </lg>
+            <lg>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall CHURCHILL reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <pb n="22" facs="tcp:0779800100:23"/>
+               <l>The <hi>Year,</hi> Grand Circle, in whoſe ample round</l>
+               <l>The Seaſons regular and fix'd are bound,</l>
+               <l>(Who, in his courſe repeated o'er and o'er,</l>
+               <l>Sees the ſame things which he had ſeen before.</l>
+               <l>The ſame <hi>Stars</hi> keep their Watch, and the ſame Sun</l>
+               <l>Runs in the track where he from firſt hath run;</l>
+               <l>The ſame Moon rules the night, Tides ebb and flow,</l>
+               <l>
+                  <hi>Man</hi> is a Puppet, and this World a Show,</l>
+               <l>Their old dull follies old dull fools purſue,</l>
+               <l>And Vice in nothing, but in Mode, is new,</l>
+               <l>He—a Lord (now fair befall that Pride,</l>
+               <l>He liv'd a Villain, but a Lord he died)</l>
+               <l>DASHWOOD is <hi>pious,</hi> BERKLEY <hi>fix'd as fate,</hi>
+               </l>
+               <l>SANDWICH (THANK HEAV'N) firſt Miniſter of State,</l>
+               <l>And, tho' by <hi>Fools</hi> deſpis'd, by <hi>Saints</hi> unbleſs'd,</l>
+               <l>By <hi>Friends</hi> neglected, and by <hi>Foes</hi> oppreſs'd,</l>
+               <l>Scorning the ſervile arts of each <hi>Court-Elf,</hi>
+               </l>
+               <l>Founded on Honour, WILKES is ſtill <hi>himſelf)</hi>
+               </l>
+               <l>The <hi>Year,</hi> encircled with the various train</l>
+               <l>Which waits, and fills the glories of his reign,</l>
+               <l>Shall, taking up this theme, in Chorus join,</l>
+               <l>And, dumb to others' Praiſe, be loud in Mine.</l>
+            </lg>
+            <lg>
+               <pb n="23" facs="tcp:0779800100:24"/>
+               <l>Rejoice, Ye happy GOTHAMITES, rejoice;</l>
+               <l>Lift up your voice on high, a mighty voice,</l>
+               <l>The voice of gladneſs, and on ev'ry tongue,</l>
+               <l>In ſtrains of gratitude, be praiſes hung,</l>
+               <l>The praiſes of ſo great and good a King;</l>
+               <l>Shall Churchill reign, and ſhall not GOTHAM ſing?</l>
+            </lg>
+            <lg>
+               <l>Thus far in Sport—nor let our Critics hence,</l>
+               <l>Who ſell out monthly traſh, and call it Senſe,</l>
+               <l>Too lightly of our preſent labours deem,</l>
+               <l>Or judge at random of ſo high a Theme;</l>
+               <l>High is our Theme, and worthy are the men</l>
+               <l>To feel the ſharpeſt ſtroke of Satire's Pen;</l>
+               <l>But when kind Time a proper ſeaſon brings,</l>
+               <l>In ſerious mood to treat of ſerious things,</l>
+               <l>Then ſhall they find, diſdaining idle play,</l>
+               <l>That I can be as grave and dull as They.</l>
+            </lg>
+            <lg>
+               <l>Thus far in Sport—nor let half Patriots, (thoſe</l>
+               <l>Who ſhrink from ev'ry blaſt of Pow'r which blows,</l>
+               <l>Who, with tame Cowardice familiar grown,</l>
+               <l>Would hear my thoughts, but fear to ſpeak their own,</l>
+               <l>Who, leſt bold Truths, to do ſage Prudence ſpite,</l>
+               <l>Should burſt the Portals of their lips by night,</l>
+               <l>
+                  <pb n="24" facs="tcp:0779800100:25"/>Tremble to truſt themſelves one hour in ſleep,)</l>
+               <l>Condemn our courſe, and hold our Caution cheap.</l>
+               <l>When brave Occaſion bids, for ſome great end</l>
+               <l>When Honour calls the Poet as a Friend,</l>
+               <l>Then ſhall They find, that, e'en on danger's brink,</l>
+               <l>He dares to Speak, what they ſcarce dare to Think.</l>
+            </lg>
+            <trailer>END OF THE FIRST BOOK.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

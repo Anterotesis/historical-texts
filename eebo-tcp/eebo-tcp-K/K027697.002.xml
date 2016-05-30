@@ -1,0 +1,920 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The life and opinions of Tristram Shandy, gentleman: ... [pt.2]</title>
+            <title>Life and opinions of Tristram Shandy, gentleman</title>
+            <author>Sterne, Laurence, 1713-1768.</author>
+         </titleStmt>
+         <extent>183 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2007-01">2007 January</date>
+            <idno type="DLPS">004792564</idno>
+            <idno type="ESTC">T14790</idno>
+            <idno type="DOCNO">CW110887383</idno>
+            <idno type="TCP">K027697.002</idno>
+            <idno type="GALEDOCNO">CW3310887566</idno>
+            <idno type="CONTENTSET">ECLL</idno>
+            <idno type="IMAGESETID">0238000202</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The life and opinions of Tristram Shandy, gentleman: ...</title>
+                  <title>Life and opinions of Tristram Shandy, gentleman</title>
+                  <author>Sterne, Laurence, 1713-1768.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The second edition.</edition>
+               </editionStmt>
+               <extent>2v. ; 8⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for R. and J. Dodsley,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1760.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Anonymous. By Laurence Sterne.</note>
+                  <note>Vols. 1-2.</note>
+                  <note>There are a number of press variants in both volumes.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>Monkman, K. The Florida edition of the works of Laurence Sterne, appendix 5., I-2 II-2c</note>
+                  <note>English Short Title Catalog, ESTCT14790.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:0238000202:1"/>
+            <p>THE LIFE AND OPINIONS OF TRISTRAM SHANDY, GENTLEMAN.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </p>
+            <p>VOL. II.</p>
+            <p>The SECOND EDITION.</p>
+            <p>LONDON: Printed for R. and J. DODSLEY in <hi>Pall-Mall.</hi> M.DCC.LX.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:0238000202:2"/>
+            <head>THE LIFE and OPINIONS OF TRISTRAM SHANDY, Gent.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <p>I Have begun a new book, on purpoſe that I might have room enough to explain the nature of the perplexities in which my uncle <hi>Toby</hi> was involved, from the many diſcourſes and interroga<g ref="char:EOLhyphen"/>tions about the ſiege of <hi>Namur,</hi> where he received his wound.</p>
+               <p>I muſt remind the reader, in caſe he has read the hiſtory of King <hi>William</hi>'s
+<pb n="2" facs="tcp:0238000202:3"/>
+wars,—but if he has not,—I then inform him, that one of the moſt memorable at<g ref="char:EOLhyphen"/>tacks in that ſiege, was that which was made by the <hi>Engliſh</hi> and <hi>Dutch</hi> upon the point of the advanced counterſcarp, be<g ref="char:EOLhyphen"/>fore the gate of <hi>St. Nicolas,</hi> which inclo<g ref="char:EOLhyphen"/>ſed the great ſluice or water-ſtop, where the <hi>Engliſh</hi> were terribly expoſed to the ſhot of the counter-guard and demi<g ref="char:EOLhyphen"/>baſtion of <hi>St. Roch:</hi> The iſſue of which hot diſpute, in three words, was this; That the <hi>Dutch</hi> lodged themſelves upon the counter-guard,—and that the <hi>Engliſh</hi> made themſelves maſters of the covered way before <hi>St. Nicolas</hi>'s gate, notwith<g ref="char:EOLhyphen"/>ſtanding the gallantry of the <hi>French</hi> offi<g ref="char:EOLhyphen"/>cers, who expoſed themſelves upon the glacis ſword in hand.</p>
+               <p>As this was the principal attack of which my uncle <hi>Toby</hi> was an eye-witneſs
+<pb n="3" facs="tcp:0238000202:4"/>
+at <hi>Namur,</hi>—the army of the beſiegers being cut off, by the confluence of the <hi>Maes</hi> and <hi>Sambre,</hi> from ſeeing much of each other's operations,—my uncle <hi>Toby</hi> was generally more eloquent and parti<g ref="char:EOLhyphen"/>cular in his account of it; and the many perplexities he was in, aroſe out of the almoſt inſurmountable difficulties he found in telling his ſtory intelligibly, and giving ſuch clear ideas of the differ<g ref="char:EOLhyphen"/>ences and diſtinctions between the ſcarp and counterſcarp,—the glacis and co<g ref="char:EOLhyphen"/>vered way,—the half-moon and rave<g ref="char:EOLhyphen"/>lin,—as to make his company fully comprehend where and what he was about.</p>
+               <p>Writers themſelves are too apt to con<g ref="char:EOLhyphen"/>found theſe terms;—ſo that you will the leſs wonder, if in his endeavours to explain them, and in oppoſition to ma<g ref="char:EOLhyphen"/>ny
+<pb n="4" facs="tcp:0238000202:5"/>
+miſconceptions, that my uncle <hi>Toby</hi> did oft times puzzle his viſiters, and ſometimes himſelf too.</p>
+               <p>To ſpeak the truth, unleſs the compa<g ref="char:EOLhyphen"/>ny my father led up ſtairs were tolerably clear-headed, or my uncle <hi>Toby</hi> was in one of his beſt explanatory moods, 'twas a difficult thing, do what he could, to keep the diſcourſe free from obſcurity.</p>
+               <p>What rendered the account of this affair the more intricate to my uncle <hi>Toby,</hi> was this,—that in the attack of the counterſcarp before the gate of <hi>St. Ni<g ref="char:EOLhyphen"/>colas,</hi> extending itſelf from the bank of the <hi>Maes,</hi> quite up to the great water<g ref="char:EOLhyphen"/>ſtop;—the ground was cut and croſs-cut with ſuch a multitude of dykes, drains, rivulets, and ſluices, on all ſides,—and he would get ſo ſadly bewilder'd and ſet
+<pb n="5" facs="tcp:0238000202:6"/>
+faſt amongſt them, that frequently he could neither get backwards or for<g ref="char:EOLhyphen"/>wards to ſave his life; and was oft times obliged to give up the attack upon that very account only.</p>
+               <p>Theſe perplexing rebuffs gave my uncle <hi>Toby Shandy</hi> more perturbations than you would imagine; and as my father's kindneſs to him was continually dragging up freſh friends and freſh in<g ref="char:EOLhyphen"/>quirers,—he had but a very uneaſy taſk of it.</p>
+               <p>No doubt my uncle <hi>Toby</hi> had great command of himſelf,—and could guard appearances, I believe, as well as moſt men;—yet any one may imagine, that when he could not retreat out of the ra<g ref="char:EOLhyphen"/>velin without getting into the half-moon, or get out of the covered way without
+<pb n="6" facs="tcp:0238000202:7"/>
+falling down the counterſcarp, nor croſs the dyke without danger of ſlipping into the ditch, but that he muſt have fretted and fumed inwardly:—He did ſo;—and theſe little and hourly vexations, which may ſeem trifling and of no account to the man who has not read <hi>Hippocrates,</hi> yet, whoever has read <hi>Hippocrates,</hi> or Dr. <hi>James Mackenzie,</hi> and has conſidered well the effects which the paſſions and affections of the mind have upon the di<g ref="char:EOLhyphen"/>geſtion,—(Why not of a wound as well as of a dinner?)—may eaſily conceive what ſharp paroxiſms and exacerbations of his wound my uncle <hi>Toby</hi> muſt have undergone upon that ſcore only.</p>
+               <p>—My uncle <hi>Toby</hi> could not philoſo<g ref="char:EOLhyphen"/>phize upon it;—'twas enough he felt it was ſo,—and having ſuſtained the pain and ſorrows of it for three months toge<g ref="char:EOLhyphen"/>ther,
+<pb n="7" facs="tcp:0238000202:8"/>
+he was reſolved ſome way or other to extricate himſelf.</p>
+               <p>He was one morning lying upon his back in his bed, the anguiſh and nature of the wound upon his groin ſuffering him to lye in no other poſition, when a thought came into his head, that if he could purchaſe ſuch a thing, and have it paſted down upon a board, as a large map of the fortifications of the town and citadel of <hi>Namur,</hi> with its environs, it might be a means of giving him eaſe.—I take notice of his deſire to have the environs along with the town and cita<g ref="char:EOLhyphen"/>del, for this reaſon,—becauſe my uncle <hi>Toby</hi>'s wound was got in one of the tra<g ref="char:EOLhyphen"/>verſes, about thirty toiſes from the re<g ref="char:EOLhyphen"/>turning angle of the trench, oppoſite to the ſalient angle of the demi-baſtion of <hi>St. Roch</hi>;—ſo that he was pretty con<g ref="char:EOLhyphen"/>fident
+<pb n="8" facs="tcp:0238000202:9"/>
+he could ſtick a pin upon the iden<g ref="char:EOLhyphen"/>tical ſpot of ground where he was ſtand<g ref="char:EOLhyphen"/>ing in when the ſtone ſtruck him.</p>
+               <p>All this ſucceeded to his wiſhes, and not only freed him from a world of ſad explanations, but, in the end, it prov'd the happy means, as you will read, of procuring my uncle <hi>Toby</hi> his HOBBY-HORSE.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II.</head>
+               <p>THERE is nothing ſo fooliſh, when you are at the expence of making an entertainment of this kind, as to or<g ref="char:EOLhyphen"/>der things ſo badly, as to let your cri<g ref="char:EOLhyphen"/>ticks and gentry of refined taſte run it down: Nor is there any thing ſo likely
+<pb n="9" facs="tcp:0238000202:10"/>
+to make them do it, as that of leaving them out of the party, or, what is full as offenſive, of beſtowing your attention upon the reſt of your gueſts in ſo parti<g ref="char:EOLhyphen"/>cular a way, as if there was no ſuch thing as a critick (by occupation) at table.</p>
+               <p>—I guard againſt both; for, in the firſt place, I have left half a dozen places purpoſely open for them;—and, in the next place, I pay them all court,—Gentlemen, I kiſs your hands,—I pro<g ref="char:EOLhyphen"/>teſt no company could give me half the pleaſure,—by my ſoul I am glad to ſee you,—I beg only you will make no ſtrangers of yourſelves, but ſit down without any ceremony, and fall on hear<g ref="char:EOLhyphen"/>tily.</p>
+               <p>
+                  <pb n="10" facs="tcp:0238000202:11"/>
+I ſaid I had left ſix places, and I was upon the point of carrying my complai<g ref="char:EOLhyphen"/>ſance ſo far, as to have left a ſeventh open for them,—and in this very ſpot I ſtand on;—but being told by a critick, (tho' not by occupation,—but by nature) that I had acquitted myſelf well enough, I ſhall fill it up directly, hoping, in the mean time, that I ſhall be able to make a great deal of more room next year.</p>
+               <p>—How, in the name of wonder! could your uncle <hi>Toby,</hi> who, it ſeems, was a military man, and whom you have repreſented as no fool,—be at the ſame time ſuch a confuſed, pudding-headed, muddle-headed fellow, as—Go look.</p>
+               <p>So, Sir Critick, I could have replied; but I ſcorn it.—'Tis language un<g ref="char:EOLhyphen"/>urbane,—and only befitting the man
+<pb n="11" facs="tcp:0238000202:12"/>
+who cannot give clear and ſatisfactory accounts of things, or dive deep enough into the firſt cauſes of human ignorance and confuſion. It is moreover the re<g ref="char:EOLhyphen"/>ply valiant,—and therefore I reject it; for tho' it might have ſuited my uncle <hi>Toby</hi>'s character as a ſoldier excellently well,—and had he not accuſtomed him<g ref="char:EOLhyphen"/>ſelf, in ſuch attacks, to whiſtle the <hi>Lilla<g ref="char:EOLhyphen"/>bullero,</hi>—as he wanted no courage, 'tis the very anſwer he would have given; yet it would by no means have done for me. You ſee as plain as can be, that I write as a man of erudition;—that even my ſimilies, my alluſions, my illuſtra<g ref="char:EOLhyphen"/>tions, my metaphors, are erudite,—and that I muſt ſuſtain my character properly, and contraſt it properly too,—elſe what would become of me? Why, Sir, I ſhould be undone;—at this very mo<g ref="char:EOLhyphen"/>ment that I am going here to fill up one
+<pb n="12" facs="tcp:0238000202:13"/>
+place againſt a critick,—I ſhould have made an opening for a couple.</p>
+               <p>—Therefore I anſwer thus:</p>
+               <p>Pray, Sir, in all the reading which you have ever read, did you ever read ſuch a book as <hi>Locke</hi>'s Eſſay upon the Human Underſtanding?—Don't anſwer me raſhly,—becauſe many, I know, quote the book, who have not read it,—and many have read it who underſtand it not:—If either of theſe is your caſe, as I write to inſtruct, I will tell you in three words what the book is.—It is a hiſtory.—A hiſtory! of who? what? where? when? Don't hurry yourſelf.—It is a hiſtory-book, Sir, (which may poſſibly recom<g ref="char:EOLhyphen"/>mend it to the world) of what paſſes in a man's own mind; and if you will ſay ſo much of the book, and no more, believe
+<pb n="13" facs="tcp:0238000202:14"/>
+me, you will cut no contemptible figure in a metaphyſic circle.</p>
+               <p>But this by the way.</p>
+               <p>Now if you will venture to go along with me, and look down into the bottom of this matter, it will be found that the cauſe of obſcurity and confuſion, in the mind of man, is threefold.</p>
+               <p>Dull organs, dear Sir, in the firſt place. Secondly, ſlight and tranſient impreſſions made by objects when the ſaid organs are not dull. And, thirdly, a memory like unto a ſieve, not able to retain what it has received.—Call down <hi>Dolly</hi> your cham<g ref="char:EOLhyphen"/>ber-maid, and I will give you my cap and bell along with it, if I make not this matter ſo plain that <hi>Dolly</hi> herſelf ſhall underſtand it as well as <hi>Malbranch.</hi>—
+<pb n="14" facs="tcp:0238000202:15"/>
+When <hi>Dolly</hi> has indited her epiſtle to <hi>Robin,</hi> and has thruſt her arm into the bottom of her pocket hanging by her right-ſide;—take that opportunity to recollect that the organs and faculties of perception, can, by nothing in this world, be ſo aptly typified and explained as by that one thing which <hi>Dolly</hi>'s hand is in ſearch of.—Your organs are not ſo dull that I ſhould inform you,—'tis an inch, Sir, of red ſeal-wax.</p>
+               <p>When this is melted and dropped upon the letter, if <hi>Dolly</hi> fumbles too long for her thimble, till the wax is over harden'd, it will not receive the mark of her thim<g ref="char:EOLhyphen"/>ble from the uſual impulſe which was wont to imprint it. Very well: If <hi>Dolly</hi>'s wax, for want of better, is bees-wax, or of a temper too ſoft,—tho' it may re<g ref="char:EOLhyphen"/>ceive,—it will not hold the impreſſion,
+<pb n="15" facs="tcp:0238000202:16"/>
+how hard ſoever <hi>Dolly</hi> thruſts againſt it; and laſt of all, ſuppoſing the wax good, and eke the thimble, but applied there<g ref="char:EOLhyphen"/>to in careleſs haſte, as her Miſtreſs rings the bell;—in any one of theſe three caſes, the print, left by the thimble, will be as unlike the prototype as a braſs<g ref="char:EOLhyphen"/>jack.</p>
+               <p>Now you muſt underſtand that not one of theſe was the true cauſe of the confuſion in my uncle <hi>Toby</hi>'s diſcourſe; and it is for that very reaſon I enlarge upon them ſo long, after the manner of great phyſiologiſts,—to ſhew the world what it did <hi>not</hi> ariſe from.</p>
+               <p>What it did ariſe from, I have hinted above, and a fertile ſource of obſcurity it is,—and ever will be,—and that is the unſteady uſes of words which have per<g ref="char:EOLhyphen"/>plexed
+<pb n="16" facs="tcp:0238000202:17"/>
+the cleareſt and moſt exalted un<g ref="char:EOLhyphen"/>derſtandings.</p>
+               <p>It is ten to one (at <hi>Arthur</hi>'s) whether you have ever read the literary hiſtories of paſt ages;—if you have,—what ter<g ref="char:EOLhyphen"/>rible battles, 'yclept logomachies, have they occaſioned and perpetuated with ſo much gall and ink-ſhed,—that a good natured man cannot read the accounts of them without tears in his eyes.</p>
+               <p>Gentle critick! when thou haſt weigh'd all this, and conſider'd within thyſelf how much of thy own knowledge, diſcourſe, and converſation has been peſtered and diſordered, at one time or other, by this, and this only:—What a pudder and racket in COUNCILS about <gap reason="foreign" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and <gap reason="foreign" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>; and in the SCHOOLS of the learned about power and about ſpirit;—about
+<pb n="17" facs="tcp:0238000202:18"/>
+eſſences, and about quinteſſences;—about ſubſtances, and about ſpace.—What confuſion in greater THEATRES from words of little meaning, and as in<g ref="char:EOLhyphen"/>determinate a ſenſe;—when thou conſi<g ref="char:EOLhyphen"/>ders this, thou wilt not wonder at my uncle <hi>Toby</hi>'s perplexities,—thou wilt drop a tear of pity upon his ſcarp and his coun<g ref="char:EOLhyphen"/>terſcarp;—his glacis and his covered-way;—his ravelin and his half-moon: 'Twas not by ideas,—by heaven! his life was put in jeopardy by words.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III.</head>
+               <p>WHEN my uncle <hi>Toby</hi> got his map of <hi>Namur</hi> to his mind, he began immediately to apply himſelf, and with the utmoſt diligence, to the ſtudy of it; for nothing being of more importance
+<pb n="18" facs="tcp:0238000202:19"/>
+to him than his recovery, and his reco<g ref="char:EOLhyphen"/>very depending, as you have read, up<g ref="char:EOLhyphen"/>on the paſſions and affections of his mind, it behoved him to take the niceſt care to make himſelf ſo far maſter of his ſubject, as to be able to talk upon it without emotion.</p>
+               <p>In a fortnight's cloſe and painful ap<g ref="char:EOLhyphen"/>plication, which, by the bye, did my uncle <hi>Toby</hi>'s wound, upon his groin, no good,—he was enabled, by the help of ſome marginal documents at the feet of the elephant, together with <hi>Gobeſius</hi>'s mi<g ref="char:EOLhyphen"/>litary architecture and pyroballogy, tran<g ref="char:EOLhyphen"/>ſlated from the <hi>Flemiſh,</hi> to form his diſ<g ref="char:EOLhyphen"/>courſe with paſſable perſpicuity; and before he was two full months gone,—he was right eloquent upon it, and could make not only the attack of the advan<g ref="char:EOLhyphen"/>ced
+<pb n="19" facs="tcp:0238000202:20"/>
+counterſcarp with great order;—but having, by that time, gone much deeper into the art, than what his firſt motive made neceſſary,—my uncle <hi>Toby</hi> was able to croſs the <hi>Maes</hi> and <hi>Sambre</hi>; make diverſions as far as <hi>Vauban</hi>'s line, the abbey of <hi>Salſines, &amp;c.</hi> and give his viſiters as diſtinct a hiſtory of each of their attacks, as of that of the gate of <hi>St. Nicolas,</hi> where he had the honour to receive his wound.</p>
+               <p>But the deſire of knowledge, like the thirſt of riches, increaſes ever with the ac<g ref="char:EOLhyphen"/>quiſition of it. The more my uncle <hi>Toby</hi> pored over his map, the more he took a liking to it;—by the ſame proceſs and electrical aſſimilation, as I told you, thro' which I ween the ſouls of connoiſſeurs themſelves, by long friction and incum<g ref="char:EOLhyphen"/>bition, have the happineſs, at length, to
+<pb n="20" facs="tcp:0238000202:21"/>
+get all be-virtu'd,—be-pictur'd,—be-butterflied, and be-fiddled.</p>
+               <p>The more my uncle <hi>Toby</hi> drank of this ſweet fountain of ſcience, the greater was the heat and impatience of his thirſt, ſo that, before the firſt year of his con<g ref="char:EOLhyphen"/>finement had well gone round, there was ſcarce a fortified town in <hi>Italy</hi> or <hi>Flanders,</hi> of which, by one means or other, he had not procured a plan, reading over as he got them, and carefully collating there<g ref="char:EOLhyphen"/>with the hiſtories of their ſieges, their de<g ref="char:EOLhyphen"/>molitions, their improvements, and new works, all which he would read with that intenſe application and delight, that he would forget himſelf, his wound, his con<g ref="char:EOLhyphen"/>finement, his dinner.</p>
+               <p>In the ſecond year my uncle <hi>Toby</hi> pur<g ref="char:EOLhyphen"/>chaſed <hi>Ramelli</hi> and <hi>Cataneo,</hi> tranſlated
+<pb n="21" facs="tcp:0238000202:22"/>
+from the <hi>Italian</hi>;—likewiſe <hi>Stevinus, Marolis,</hi> the Chevalier <hi>de Ville, Lorini, Cochorn, Sheeter,</hi> the Count <hi>de Pagan,</hi> the Marſhal <hi>Vauban,</hi> Monſ. <hi>Blondel,</hi> with almoſt as many more books of military architecture, as Don <hi>Quixote</hi> was found to have of chivalry, when the curate and barber invaded his library.</p>
+               <p>Towards the beginning of the third year, which was in <hi>Auguſt,</hi> ninety-nine, my uncle <hi>Toby</hi> found it neceſſary to un<g ref="char:EOLhyphen"/>derſtand a little of projectiles:—And ha<g ref="char:EOLhyphen"/>ving judged it beſt to draw his know<g ref="char:EOLhyphen"/>ledge from the fountain-head, he began with <hi>N. Tartaglia,</hi> who it ſeems was the firſt man who detected the impoſition of a canon-ball's doing all that miſchief under the notion of a right line.—This <hi>N. Tartaglia</hi> proved to my uncle <hi>Toby</hi> to be an impoſſible thing.</p>
+               <p>
+                  <pb n="22" facs="tcp:0238000202:23"/>
+—Endleſs is the Search of Truth!</p>
+               <p>No ſooner was my uncle <hi>Toby</hi> ſatisfied which road the cannon-ball did not go, but he was inſenſibly led on, and reſolved in his mind to enquire and find out which road the ball did go: For which purpoſe he was obliged to ſet off afreſh with old <hi>Maltus,</hi> and ſtudied him devout<g ref="char:EOLhyphen"/>ly.—He proceeded next to <hi>Gallileo</hi> and <hi>Torricellius,</hi> wherein, by certain geome<g ref="char:EOLhyphen"/>trical rules, infallibly laid down, he found the preciſe path to be a PARABOLA,—or elſe an HYPERBOLA,—and that the pa<g ref="char:EOLhyphen"/>rameter, or <hi>latus rectum,</hi> of the conic ſec<g ref="char:EOLhyphen"/>tion of the ſaid path, was to the quantity and amplitude in a direct <hi>ratio,</hi> as the whole line to the ſine of double the angle of incidence, form'd by the breech upon an horizontal plane;—and that the ſemi<g ref="char:EOLhyphen"/>parameter,
+<pb n="23" facs="tcp:0238000202:24"/>
+—ſtop! my dear uncle <hi>Toby,</hi>—ſtop!—go not one foot further into this thorny and bewilder'd track,—intricate are the ſteps! intricate are the maſes of this labyrinth! intricate are the troubles which the purſuit of this bewitch<g ref="char:EOLhyphen"/>ing phantom, KNOWLEDGE, will bring upon thee.—O my uncle! fly—fly—fly from it as from a ſerpent.—Is it fit, good-natur'd man! thou ſhould'ſt fit up, with the wound upon thy groin, whole nights baking thy blood with hectic watchings?—Alas! 'twill exaſperate thy ſymptoms,—check thy perſpirations,—evaporate thy ſpirits,—waſte thy animal ſtrength,—dry up thy radical moiſture,—bring thee into a coſtive habit of body, impair thy health,—and haſten all the infirmities of thy old age.—O my uncle! my uncle <hi>Toby!</hi>
+               </p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="24" facs="tcp:0238000202:25"/>
+               <head>CHAP. IV.</head>
+               <p>I Would not give a groat for that man's knowledge in pen-craft, who does not underſtand this,—That the beſt plain narrative in the world, tack'd very cloſe to the laſt ſpirited apoſtrophe to my un<g ref="char:EOLhyphen"/>cle <hi>Toby,</hi>—would have felt both cold and vapid upon the reader's palate;—there<g ref="char:EOLhyphen"/>fore I forthwith put an end to the chap<g ref="char:EOLhyphen"/>ter,—though I was in the middle of my ſtory.</p>
+               <p>—Writers of my ſtamp have one principle in common with painters.—Where an exact copying makes our pictures leſs ſtriking, we chooſe the leſs evil; deeming it even more pardonable to treſpaſs againſt truth, than beauty.—This is to be underſtood <hi>cum grano ſalis</hi>;
+<pb n="25" facs="tcp:0238000202:26"/>
+but be it as it will,—as the parallel is made more for the ſake of letting the apoſtrophe cool, than any thing elſe,—'tis not very material whether upon any other ſcore the reader approves of it or not.</p>
+               <p>In the latter end of the third year, my uncle <hi>Toby</hi> perceiving that the parameter and ſemi-parameter of the conic ſection, angered his wound, he left off the ſtudy of projectiles in a kind of a huff, and betook himſelf to the practical part of fortification only; the pleaſure of which, like a ſpring held back, returned upon him with redoubled force.</p>
+               <p>It was in this year that my uncle be<g ref="char:EOLhyphen"/>gan to break in upon the daily regularity of a clean ſhirt,—to diſmiſs his barber unſhaven,—and to allow his ſurgeon
+<pb n="26" facs="tcp:0238000202:27"/>
+ſcarce time ſufficient to dreſs his wound, concerning himſelf ſo little about it, as not to aſk him once in ſeven times dreſ<g ref="char:EOLhyphen"/>ſing how it went on: When, lo!—all of a ſudden, for the change was as quick as lightening, he began to ſigh heavily for his recovery,—complain'd to my father, grew impatient with the ſurgeon;—and one morning as he heard his foot com<g ref="char:EOLhyphen"/>ing up ſtairs, he ſhut up his books, and thruſt aſide his inſtruments, in order to expoſtulate with him upon the protrac<g ref="char:EOLhyphen"/>tion of his cure, which, he told him, might ſurely have been accompliſhed at leaſt by that time:—He dwelt long upon the miſeries he had undergone, and the ſorrows of his four years melancholy impriſonment;—adding, that had it not been for the kind looks, and fraternal chearings of the beſt of brothers,—he had long ſince ſunk under his misfor<g ref="char:EOLhyphen"/>tunes.
+<pb n="27" facs="tcp:0238000202:28"/>
+—My father was by: My uncle <hi>Toby</hi>'s eloquence brought tears into his eyes;—'twas unexpected.—My uncle <hi>Toby,</hi> by nature, was not eloquent;—it had the greater effect.—The ſurgeon was confounded;—not that there wanted grounds for ſuch, or greater, marks of impatience,—but 'twas unexpected too; in the four years he had attended him, he had never ſeen any thing like it in my uncle <hi>Toby</hi>'s carriage;—he had never once dropp'd one fretful or diſcontented word;—he had been all patience,—all ſubmiſſion.</p>
+               <p>—We oſe the right of complaining ſometimes by forbearing it;—but we oftner treble the force:—The ſurgeon was aſtoniſhed;—but much more ſo, when he heard my uncle <hi>Toby</hi> go on, and peremptorily inſiſt upon his healing up
+<pb n="28" facs="tcp:0238000202:29"/>
+the wound directly,—or ſending for Monſieur <hi>Ronjat,</hi> the King's Serjeant-Surgeon, to do it for him.</p>
+               <p>The deſire of life and health is im<g ref="char:EOLhyphen"/>planted in man's nature;—the love of liberty and enlargement is a ſiſter-paſſion to it: Theſe my uncle <hi>Toby</hi> had in com<g ref="char:EOLhyphen"/>mon with his ſpecies;—and either of them had been ſufficient to account for his earneſt deſire to get well and out of doors;—but I have told you before that nothing wrought with our family after the common way;—and from the time and manner in which this eager deſire ſhew'd itſelf in the preſent caſe, the pe<g ref="char:EOLhyphen"/>netrating reader will ſuſpect there was ſome other cauſe or crotchet for it in my uncle <hi>Toby</hi>'s head:—There was ſo, and 'tis the ſubject of the next chapter to ſet forth what that cauſe and crotchet was.
+<pb n="29" facs="tcp:0238000202:30"/>
+I own, when that's done, 'twill be time to return back to the parlour fire-ſide, where we left my uncle <hi>Toby</hi> in the mid<g ref="char:EOLhyphen"/>dle of his ſentence.</p>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V.</head>
+               <p>WHEN a man gives himſelf up to the government of a ruling paſ<g ref="char:EOLhyphen"/>ſion,—or, in other words, when his HOBBY-HORSE grows head-ſtrong,—farewell cool reaſon and fair diſcretion!</p>
+               <p>My uncle <hi>Toby</hi>'s wound was near well, and as ſoon as the ſurgeon recovered his ſurprize, and could get leave to ſay as much—he told him, 'twas juſt beginning to incarnate; and that if no freſh exfolia<g ref="char:EOLhyphen"/>tion happen'd, which there was no ſigns of,—it would be dried up in five or ſix
+<pb n="30" facs="tcp:0238000202:31"/>
+weeks. The ſound of as many olym<g ref="char:EOLhyphen"/>piads twelve hours before, would have convey'd an idea of ſhorter duration to my uncle <hi>Toby</hi>'s mind.—The ſucceſſion of his ideas was now rapid,—he broil'd with impatience to put his deſign in execution;—and ſo, without conſulting further with any ſoul living,—which, by the bye, I think is right, when you are predetermined to take no one ſoul's advice,—he privately ordered <hi>Trim,</hi> his man, to pack up a bundle of lint and dreſſings, and hire a chariot and four to be at the door exactly by twelve o'clock that day, when he knew my father would be upon 'Change.—So leaving a bank-note upon the table for the ſurgeon's care of him, and a letter of tender thanks for his brother's,—he pack'd up his maps, his books of fortification, his in<g ref="char:EOLhyphen"/>ſtruments, <hi>&amp;c.</hi>—and, by the help of a
+<pb n="31" facs="tcp:0238000202:32"/>
+crutch on one ſide, and <hi>Trim</hi> on the other,—my uncle <hi>Toby</hi> embark'd for <hi>Shandy-Hall.</hi>
+               </p>
+               <p>The reaſon, or rather the riſe, of this ſudden demigration, was as follows:</p>
+               <p>The table in my uncle <hi>Toby</hi>'s room, and at which, the night before this change happened, he was ſitting with his maps, <hi>&amp;c.</hi> about him,—being ſomewhat of the ſmalleſt, for that infinity of great and ſmall inſtruments of knowledge which uſually lay crouded upon it;—he had the accident, in reaching over for his tobacco-box, to throw down his com<g ref="char:EOLhyphen"/>paſſes, and in ſtooping to take the com<g ref="char:EOLhyphen"/>paſſes up, with his ſleeve he threw down his caſe of inſtruments and ſnuffers;—and as the dice took a run againſt him, in his endeavouring to catch the ſnuffers
+<pb n="32" facs="tcp:0238000202:33"/>
+in falling,—he thruſt Monſieur <hi>Blondel</hi> off the table and Count <hi>de Pagan</hi> o'top of him.</p>
+               <p>'Twas to no purpoſe for a man, lame as my uncle <hi>Toby</hi> was, to think of redreſ<g ref="char:EOLhyphen"/>ſing all theſe evils by himſelf,—he rung his bell for his man <hi>Trim</hi>;—<hi>Trim!</hi> quoth my uncle <hi>Toby,</hi> pri'thee ſee what confu<g ref="char:EOLhyphen"/>ſion I have here been making.—I muſt have ſome better contrivance, <hi>Trim.</hi>—Can'ſt not thou take my rule and mea<g ref="char:EOLhyphen"/>ſure the length and breadth of this table, and then go and beſpeak me one as big again?—Yes, an' pleaſe your Honour, replied <hi>Trim,</hi> making a bow;—but I hope your Honour will be ſoon well enough to get down to your country ſeat, where,—as your Honour takes ſo much pleaſure in fortification, we could ma<g ref="char:EOLhyphen"/>nage this matter to a T.</p>
+               <p>
+                  <pb n="33" facs="tcp:0238000202:34"/>
+I muſt here inform you, that this ſer<g ref="char:EOLhyphen"/>vant of my uncle <hi>Toby</hi>'s, who went by the name of <hi>Trim,</hi> had been a Corporal in my uncle's own company,—his real name was <hi>James Butler,</hi>—but having got the nick-name of <hi>Trim</hi> in the regi<g ref="char:EOLhyphen"/>ment, my uncle <hi>Toby,</hi> unleſs when he hap<g ref="char:EOLhyphen"/>pened to be very angry with him, would never call him by any other name.</p>
+               <p>The poor fellow had been diſabled for the ſervice, by a wound on his left knee by a muſket-bullet, at the battle of <hi>Landen,</hi> which was two years before the affair of <hi>Namur</hi>;—and as the fellow was well beloved in the regiment, and a handy fellow into the bargain, my uncle <hi>Toby</hi> took him for his ſervant, and of ex<g ref="char:EOLhyphen"/>cellent uſe was he, attending my uncle <hi>Toby</hi> in the camp and in his quarters as valet, groom, barber, cook, ſempſter,
+<pb n="34" facs="tcp:0238000202:35"/>
+and nurſe; and indeed, from firſt to laſt, waited upon him and ſerved him with great fidelity and affection.</p>
+               <p>My uncle <hi>Toby</hi> loved the man in re<g ref="char:EOLhyphen"/>turn, and what attached him more to him ſtill, was the ſimilitude of their knowledge:—For Corporal <hi>Trim,</hi> (for ſo, for the future, I ſhall call him) by four years occaſional attention to his Maſter's diſcourſe upon fortified towns, and the advantage of prying and peeping continually into his Maſter's plans, <hi>&amp;c.</hi> excluſive and beſides what he gained HOBBY-HORSICALLY, as a body-ſervant, <hi>Non Hobby-Horſical per ſe</hi>;—had be<g ref="char:EOLhyphen"/>come no mean proficient in the ſcience; and was thought, by the cook and cham<g ref="char:EOLhyphen"/>ber-maid, to know as much of the na<g ref="char:EOLhyphen"/>ture of ſtrong-holds as my uncle <hi>Toby</hi> himſelf.</p>
+               <p>
+                  <pb n="35" facs="tcp:0238000202:36"/>
+I have but one more ſtroke to give to finiſh Corporal <hi>Trim</hi>'s character,—and it is the only dark line in it.—The fellow lov'd to adviſe,—or rather to hear him<g ref="char:EOLhyphen"/>ſelf talk; his carriage, however, was ſo perfectly reſpectful, 'twas eaſy to keep him ſilent when you had him ſo; but ſet his tongue a-going,—you had no hold of him;—he was voluble;—the eternal interlardings of <hi>your Honour,</hi> with the reſpectfulneſs of Corporal <hi>Trim</hi>'s manner, interceding ſo ſtrong in behalf of his elocution,—that tho' you might have been incommoded,—you could not well be angry. My uncle <hi>Toby</hi> was ſeldom either the one or the other with him,—or, at leaſt, this fault, in <hi>Trim,</hi> broke no ſquares with 'em. My uncle <hi>Toby,</hi> as I ſaid, loved the man;—and beſides, as he ever looked upon a faithful ſervant,—but as a humble friend,—he could not
+<pb n="36" facs="tcp:0238000202:37"/>
+bear to ſtop his mouth.—Such was Cor<g ref="char:EOLhyphen"/>poral <hi>Trim.</hi>
+               </p>
+               <p>If I durſt preſume, continued <hi>Trim,</hi> to give your Honour my advice, and ſpeak my opinion in this matter.—Thou art welcome, <hi>Trim,</hi> quoth my uncle <hi>Toby,</hi>—ſpeak,—ſpeak what thou thinkeſt upon the ſubject, man, without fear. Why then, replied <hi>Trim,</hi> (not hanging his ears and ſcratching his head like a country lout, but) ſtroking his hair back from his forehead, and ſtanding erect as before his diviſion.—I think, quoth <hi>Trim,</hi> advancing his left, which was his lame leg, a little forwards,—and point<g ref="char:EOLhyphen"/>ing with his right hand open towards a map of <hi>Dunkirk,</hi> which was pinn'd againſt the hangings,—I think, quoth Corporal <hi>Trim,</hi> with humble ſubmiſſion to your Honour's better judgment,—that theſe
+<pb n="37" facs="tcp:0238000202:38"/>
+ravelins, baſtions, curtins, and horn-works make but a poor, contemptible, fiddle faddle piece of work of it here upon paper, compared to what your Ho<g ref="char:EOLhyphen"/>nour and I could make of it, were we in the country by ourſelves, and had but a rood, or a rood and a half of ground to do what we pleaſed with: As ſummer is coming on, continued <hi>Trim,</hi> your Ho<g ref="char:EOLhyphen"/>nour might ſit out of doors, and give me the nography—(call it ichnography, quoth my uncle)—of the town or cita<g ref="char:EOLhyphen"/>del, your Honour was pleaſed to ſit down before,—and I will be ſhot by your Ho<g ref="char:EOLhyphen"/>nour upon the glacis of it, if I did not fortify it to your Honour's mind.—I dare ſay thou would'ſt, <hi>Trim,</hi> quoth my uncle.—For if your Honour, continued the Corporal, could but mark me the poly<g ref="char:EOLhyphen"/>gon, with its exact lines and angles.—That I could do very well, quoth my
+<pb n="38" facs="tcp:0238000202:39"/>
+uncle.—I would begin with the foſsé, and if your Honour could tell me the proper depth and breadth,—I can to a hair's breadth, <hi>Trim,</hi> replied my uncle,—I would throw out the earth upon this hand towards the town for the ſcarp,—and on that hand towards the campaign for the counterſcarp.—Very right, <hi>Trim</hi>; quoth my uncle <hi>Toby.</hi>—And when I had ſloped them to your mind,—an' pleaſe your Honour, I would face the glacis, as the fineſt fortifications are done in <hi>Flan<g ref="char:EOLhyphen"/>ders,</hi> with ſods,—and as your Honour knows they ſhould be,—and I would make the walls and parapets with ſods too;—The beſt engineers call them ga<g ref="char:EOLhyphen"/>zons, <hi>Trim,</hi> ſaid my uncle <hi>Toby</hi>;—Whe<g ref="char:EOLhyphen"/>ther they are gazons or ſods, is not much matter, replied <hi>Trim,</hi> your Honour knows they are ten times beyond a facing either of brick or ſtone;—I know they are,
+<pb n="39" facs="tcp:0238000202:40"/>
+                  <hi>Trim,</hi> in ſome reſpects,—quoth my uncle <hi>Toby,</hi> nodding his head;—for a cannon-ball enters into the gazon right onwards, without bringing any rubbiſh down with it, which might fill the foſsé, (as was the caſe at <hi>St. Nicolas</hi>'s <hi>Gate</hi>) and facilitate the paſſage over it.</p>
+               <p>Your Honour underſtands theſe mat<g ref="char:EOLhyphen"/>ters, replied Corporal <hi>Trim,</hi> better than any officer in his Majeſty's ſervice;—but would your Honour pleaſe to let the beſpeaking of the table alone, and let us but go into the country, I would work under your Honour's directions like a horſe, and make fortifications for you ſomething like a tanſy, with all their batteries, ſaps, ditches, and paliſadoes, that it ſhould be worth all the world's riding twenty miles to go and ſee it.</p>
+               <p>
+                  <pb n="40" facs="tcp:0238000202:41"/>
+My uncle <hi>Toby</hi> bluſhed as red as ſcar<g ref="char:EOLhyphen"/>let as <hi>Trim</hi> went on;—but it was not a bluſh of guilt,—of modeſty,—or of an<g ref="char:EOLhyphen"/>ger;—it was a bluſh of joy;—he was fired with Corporal <hi>Trim</hi>'s project and deſcription.—<hi>Trim!</hi> ſaid my uncle <hi>Toby,</hi> thou haſt ſaid enough.—We might be<g ref="char:EOLhyphen"/>gin the campaign, continued <hi>Trim,</hi> on the very day that his Majeſty and the Allies take the field, and demoliſh them town by town as faſt as—<hi>Trim,</hi> quoth my uncle <hi>Toby,</hi> ſay no more.—Your Ho<g ref="char:EOLhyphen"/>nour, continued <hi>Trim,</hi> might ſit in your arm-chair (pointing to it) this fine weather, giving me your orders, and I would—Say no more, <hi>Trim,</hi> quoth my uncle <hi>Toby.</hi>—Beſides, your Honour would get not only pleaſure and good paſtime,—but good air, and good exer<g ref="char:EOLhyphen"/>ciſe, and good health,—and your Ho<g ref="char:EOLhyphen"/>nour's wound would be well in a month.
+<pb n="41" facs="tcp:0238000202:42"/>
+Thou haſt ſaid enough, <hi>Trim,</hi>—quoth my uncle <hi>Toby</hi> (putting his hand into his breeches-pocket)—I like thy project mightily;—And if your Honour pleaſes, I'll, this moment, go and buy a pioneer's ſpade to take down with us, and I'll be<g ref="char:EOLhyphen"/>ſpeak a ſhovel and a pick-ax, and a couple of—Say no more, <hi>Trim,</hi> quoth my uncle <hi>Toby,</hi> leaping up upon one leg, quite overcome with rapture,—and thruſting a guinea into <hi>Trim</hi>'s hand,—<hi>Trim,</hi> ſaid my uncle <hi>Toby,</hi> ſay no more;—but go down, <hi>Trim,</hi> this moment, my lad, and bring up my ſupper this in<g ref="char:EOLhyphen"/>ſtant.</p>
+               <p>
+                  <hi>Trim</hi> ran down and brought up his Maſter's ſupper,—to no purpoſe:—<hi>Trim</hi>'s plan of operation ran ſo in my uncle <hi>Toby</hi>'s head, he could not taſte it.—<hi>Trim,</hi> quoth my uncle <hi>Toby,</hi> get me
+<pb n="42" facs="tcp:0238000202:43"/>
+to-bed;—'twas all one.—Corporal <hi>Trim</hi>'s deſcription had fired his imagination,—my uncle <hi>Toby</hi> could not ſhut his eyes.—The more he conſider'd it, the more be<g ref="char:EOLhyphen"/>witching the ſcene appeared to him;—ſo that, two full hours before day-light, he had come to a final determination, and had concerted the whole plan of his and Corporal <hi>Trim</hi>'s decampment.</p>
+               <p>My uncle <hi>Toby</hi> had a little neat coun<g ref="char:EOLhyphen"/>try-houſe of his own, in the village where my father's eſtate lay at <hi>Shandy,</hi> which had been left him by an old uncle, with a ſmall eſtate of about one hundred pounds a year. Behind this houſe, and contiguous to it, was a kitchen-garden of about half an acre;—and at the bot<g ref="char:EOLhyphen"/>tom of the garden, and cut off from it by a tall yew hedge, was a bowling-green, containing juſt about as much
+<pb n="43" facs="tcp:0238000202:44"/>
+ground as Corporal <hi>Trim</hi> wiſhed for;—ſo that as <hi>Trim</hi> uttered the words, "A rood and a half of ground to do what they would with:"—this identical bowling-green inſtantly preſented itſelf, and became curiouſly painted, all at once, upon the retina of my uncle <hi>Toby</hi>'s fancy;—which was the phyſical cauſe of making him change colour, or at leaſt, of heightening his bluſh to that immo<g ref="char:EOLhyphen"/>derate degree I ſpoke of.</p>
+               <p>Never did lover poſt down to a belov'd miſtreſs with more heat and expectation, than my uncle <hi>Toby</hi> did, to enjoy this ſelf-ſame thing in private;—I ſay in pri<g ref="char:EOLhyphen"/>vate;—for it was ſheltered from the houſe, as I told you, by a tall yew hedge, and was covered on the other three ſides, from mortal ſight, by rough holly and thickſet flowering ſhrubs;—ſo that the
+<pb n="44" facs="tcp:0238000202:45"/>
+idea of not being ſeen, did not a little contribute to the idea of pleaſure pre<g ref="char:EOLhyphen"/>conceived in my uncle <hi>Toby</hi>'s mind.—Vain thought! however thick it was planted about,—or private ſoever it might ſeem,—to think, dear uncle <hi>Toby,</hi> of enjoying a thing which took up a whole rood and a half of ground,—and not have it known!</p>
+               <p>How my uncle <hi>Toby</hi> and Corporal <hi>Trim</hi> managed this matter,—with the hiſtory of their campaigns, which were no way barren of events,—may make no unin<g ref="char:EOLhyphen"/>tereſting under-plot in the epitaſis and working up of this drama.—At preſent the ſcene muſt drop,—and change for the parlour fire-ſide.</p>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="45" facs="tcp:0238000202:46"/>
+               <head>CHAP. VI.</head>
+               <p>—What can they be doing, brother? ſaid my father.—I think, re<g ref="char:EOLhyphen"/>plied my uncle <hi>Toby,</hi>—taking, as I told you, his pipe from his mouth, and ſtrik<g ref="char:EOLhyphen"/>ing the aſhes out of it as he began his ſentence;—I think, replied he,—it would not be amiſs, brother, if we rung the bell.</p>
+               <p>Pray, what's all that racket over our heads, <hi>Obadiah?</hi>—quoth my father;—my brother and I can ſcarce hear our<g ref="char:EOLhyphen"/>ſelves ſpeak.</p>
+               <p>Sir, anſwer'd <hi>Obadiah,</hi> making a bow towards his left-ſhoulder,—my Miſtreſs is taken very badly;—and where's <hi>Su<g ref="char:EOLhyphen"/>ſannah</hi> running down the garden there,
+<pb n="46" facs="tcp:0238000202:47"/>
+as if they were going to raviſh her?—Sir, ſhe is running the ſhorteſt cut into the town, replied <hi>Obadiah,</hi> to fetch the old midwife.—Then ſaddle a horſe, quoth my father, and do you go direct<g ref="char:EOLhyphen"/>ly for Dr. <hi>Slop,</hi> the man-midwife, with all our ſervices,—and let him know your Miſtreſs is fallen into labour,—and that I deſire he will return with you with all ſpeed.</p>
+               <p>It is very ſtrange, ſays my father, ad<g ref="char:EOLhyphen"/>dreſſing himſelf to my uncle <hi>Toby,</hi> as <hi>Obadiah</hi> ſhut the door,—as there is ſo expert an operator as Dr. <hi>Slop</hi> ſo near—that my wife ſhould perſiſt to the very laſt in this obſtinate humour of hers, in truſting the life of my child, who has had one misfortune already, to the ignorance of an old woman;—and not only the life of my child, brother,—but her own
+<pb n="47" facs="tcp:0238000202:48"/>
+life, and with it the lives of all the chil<g ref="char:EOLhyphen"/>dren I might, peradventure, have begot out of her hereafter.</p>
+               <p>Mayhap, brother, replied my uncle <hi>Toby,</hi> my ſiſter does it to ſave the ex<g ref="char:EOLhyphen"/>pence:—A pudding's end,—replied my father,—the doctor muſt be paid the ſame for inaction as action,—if not bet<g ref="char:EOLhyphen"/>ter,—to keep him in temper.</p>
+               <p>—Then it can be out of no<g ref="char:EOLhyphen"/>thing in the whole world, quoth my uncle <hi>Toby,</hi> in the ſimplicity of his heart,—but MODESTY:—My ſiſter, I dare ſay, added he, does not care to let a man come ſo near her * * * *. I will not ſay whether my uncle <hi>Toby</hi> had com<g ref="char:EOLhyphen"/>pleted the ſentence or not;—'tis for his advantage to ſuppoſe he had,—as, I think, he could have added no
+<pb n="48" facs="tcp:0238000202:49"/>
+ONE WORD which would have im<g ref="char:EOLhyphen"/>proved it.</p>
+               <p>If, on the contrary, my uncle <hi>Toby</hi> had not fully arrived at his period's end,—then the world ſtands indebted to the ſudden ſnapping of my father's tobacco-pipe, for one of the neateſt examples of that ornamental figure in oratory, which Rhetoricians ſtile the <hi>Apoſiopeſis.</hi>—Juſt heaven! how does the <hi>Poco piu</hi> and the <hi>Poco meno</hi> of the <hi>Italian</hi> artiſts;—the in<g ref="char:EOLhyphen"/>ſenſible MORE or LESS, determine the preciſe line of beauty in the ſentence, as well as in the ſtatue! How do the ſlight touches of the chifel, the pencil, the pen, the fiddle-ſtick, <hi>et caetera,</hi>—give the true ſwell, which give the true pleaſure!—O my countrymen!—be nice;—be cau<g ref="char:EOLhyphen"/>tious of your language;—and never, O! never let it be forgotten upon what
+<pb n="49" facs="tcp:0238000202:50"/>
+ſmall particles your eloquence and your fame depend.</p>
+               <p>—"My ſiſter, mayhap," quoth my uncle <hi>Toby,</hi> "does not chooſe to let a man come ſo near her * * * *" Make this daſh,—'tis an Apoſiopeſis.—Take the daſh away, and write <hi>Backſide,</hi>—'tis Bawdy.—Scratch Backſide out, and put <hi>Cover'd-way</hi> in,—'tis a Metaphor;—and, I dare ſay, as fortification ran ſo much in my uncle <hi>Toby</hi>'s head, that if he had been left to have added one word to the ſentence,—that word was it.</p>
+               <p>But whether that was the caſe or not the caſe;—or whether the ſnapping of my father's tobacco-pipe ſo critically, happened thro' accident or anger,—will be ſeen in due time.</p>
+            </div>
+            <div n="7" type="chapter">
+               <pb n="50" facs="tcp:0238000202:51"/>
+               <head>CHAP. VII.</head>
+               <p>THO' my father was a good natural philoſopher,—yet he was ſome<g ref="char:EOLhyphen"/>thing of a moral philoſopher too; for which reaſon, when his tobacco-pipe ſnapp'd ſhort in the middle,—he had nothing to do,—as ſuch,—but to have taken hold of the two pieces, and thrown them gently upon the back of the fire.—He did no ſuch thing;—he threw them with all the violence in the world;—and, to give the action ſtill more emphaſis,—he ſtarted up upon both his legs to do it.</p>
+               <p>This look'd ſomething like heat;—and the manner of his reply to what my uncle <hi>Toby</hi> was ſaying, prov'd it was ſo.</p>
+               <p>
+                  <pb n="51" facs="tcp:0238000202:52"/>
+—"Not chooſe," quoth my father, repeating my uncle <hi>Toby</hi>'s words) "to let a man come ſo near her."—By hea<g ref="char:EOLhyphen"/>ven, brother <hi>Toby!</hi> you would try the patience of a <hi>Job</hi>;—and I think I have the plagues of one already, without it.—Why?—Where?—Wherein?—Wherefore?—Upon what account, re<g ref="char:EOLhyphen"/>plied my uncle <hi>Toby,</hi> in the utmoſt aſto<g ref="char:EOLhyphen"/>niſhment.—To think, ſaid my father, of a man living to your age, brother, and knowing ſo little about women!—I know nothing at all about them,—re<g ref="char:EOLhyphen"/>plied my uncle <hi>Toby</hi>; and I think, con<g ref="char:EOLhyphen"/>tinued he, that the ſhock I received the year after the demolition of <hi>Dunkirk,</hi> in my affair with widow <hi>Wadman</hi>;—which ſhock you know I ſhould not have re<g ref="char:EOLhyphen"/>ceived, but from my total ignorance of the ſex,—has given me juſt cauſe to ſay, That I neither know, nor do pretend to
+<pb n="52" facs="tcp:0238000202:53"/>
+know, any thing about 'em, or their concerns either.—Methinks, brother, replied my father, you might, at leaſt, know ſo much as the right end of a woman from the wrong.</p>
+               <p>It is ſaid in <hi>Ariſtotle</hi>'s <hi>Maſter-Piece,</hi> "That when a man doth think of any thing which is paſt,—he looketh down upon the ground;—but that when he thinketh of ſomething which is to come, he looketh up towards the heavens."</p>
+               <p>My uncle <hi>Toby,</hi> I ſuppoſe, thought of neither,—for he look'd horizontally.—Right end,—quoth my uncle <hi>Toby,</hi> mut<g ref="char:EOLhyphen"/>tering the two words low to himſelf, and fixing his two eyes inſenſibly as he mut<g ref="char:EOLhyphen"/>tered them, upon a ſmall crevice, form'd by a bad joint in the chimney-piece.—Right end of a woman!—I declare,
+<pb n="53" facs="tcp:0238000202:54"/>
+quoth my uncle, I know no more which it is, than the man in the moon;—and if I was to think, continued my uncle <hi>Toby,</hi> (keeping his eye ſtill fix'd upon the bad joint) this month together, I am ſure I ſhould not be able to find it out.</p>
+               <p>Then brother <hi>Toby,</hi> replied my father, I will tell you.</p>
+               <p>Every thing in this world, continued my father (filling a freſh pipe)—every thing in this earthly world, my dear bro<g ref="char:EOLhyphen"/>ther <hi>Toby,</hi> has two handles.—Not always, quoth my uncle <hi>Toby.</hi>—At leaſt, replied my father, every one has two hands,—which comes to the ſame thing.—Now, if a man was to ſit down cooly, and con<g ref="char:EOLhyphen"/>ſider within himſelf the make, the ſhape, the conſtruction, com-at-ability, and con<g ref="char:EOLhyphen"/>venience of all the parts which conſtitute
+<pb n="54" facs="tcp:0238000202:55"/>
+the whole of that animal, call'd Woman, and compare them analogically.—I never underſtood rightly the meaning of that word,—quoth my uncle <hi>Toby.</hi>—ANALOGY, replied my father, is the cer<g ref="char:EOLhyphen"/>tain relation and agreement, which dif<g ref="char:EOLhyphen"/>ferent—Here a devil of a rap at the door ſnapp'd my father's definition (like his tobacco pipe) in two,—and, at the ſame time, cruſhed the head of as notable and curious a diſſertation as ever was engen<g ref="char:EOLhyphen"/>dered in the womb of ſpeculation;—it was ſome months before my father could get an opportunity to be ſafely deliver'd of it:—And, at this hour, it is a thing full as problematical as the ſubject of the diſſertation itſelf,—(conſidering the con<g ref="char:EOLhyphen"/>fuſion and diſtreſſes of our domeſtic miſ<g ref="char:EOLhyphen"/>adventures, which are now coming thick one upon the back of another) whether
+<pb n="55" facs="tcp:0238000202:56"/>
+I ſhall be able to find a place for it in the third volume or not.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII.</head>
+               <p>IT is about an hour and a half's tole<g ref="char:EOLhyphen"/>rable good reading ſince my uncle <hi>Toby</hi> rung the bell, when <hi>Obadiah</hi> was order'd to ſaddle a horſe, and go for Dr. <hi>Slop</hi> the man-midwife;—ſo that no one can ſay, with reaſon, that I have not allowed <hi>Obadiah</hi> time enough, poetically ſpeaking, and conſidering the emergency too, both to go and come;—tho', morally and truly ſpeaking, the man, perhaps, has ſcarce had time to get on his boots.</p>
+               <p>If the hypercritic will go upon this; and is reſolved after all to take a pen<g ref="char:EOLhyphen"/>dulum,
+<pb n="56" facs="tcp:0238000202:57"/>
+and meaſure the true diſtance betwixt the ringing of the bell, and the rap at the door;—and, after finding it to be no more than two minutes, thirteen ſeconds, and three fifths,—ſhould take upon him to inſult over me for ſuch a breach in the unity, or rather probability, of time;—I would remind him, that the idea of duration and of its ſimple modes, is got merely from the train and ſucceſ<g ref="char:EOLhyphen"/>ſion of our ideas,—and is the true ſcho<g ref="char:EOLhyphen"/>laſtic pendulum,—and by which, as a ſcholar, I will be tried in this matter,—abjuring and deteſting the juriſdiction of all other pendulums whatever.</p>
+               <p>I would, therefore, deſire him to con<g ref="char:EOLhyphen"/>ſider that it is but poor eight miles from <hi>Shandy-Hall</hi> to Dr. <hi>Slop,</hi> the man mid<g ref="char:EOLhyphen"/>wife's houſe;—and that whilſt <hi>Obadiah</hi> has been going thoſe ſaid miles and back,
+<pb n="57" facs="tcp:0238000202:58"/>
+I have brought my uncle <hi>Toby</hi> from <hi>Na<g ref="char:EOLhyphen"/>mur,</hi> quite acroſs all <hi>Flanders,</hi> into <hi>Eng<g ref="char:EOLhyphen"/>land:</hi>—That I have had him ill upon my hands near four years;—and have ſince travelled him and Corporal <hi>Trim,</hi> in a chariot and four, a journey of near two hundred miles down into <hi>Yorkſhire</hi>;—all which put together, muſt have prepared the reader's imagination for the entrance of Dr. <hi>Slop</hi> upon the ſtage,—as much, at leaſt (I hope) as a dance, a ſong, or a concerto between the acts.</p>
+               <p>If my hypercritic is intractable,—al<g ref="char:EOLhyphen"/>ledging, that two minutes and thirteen ſeconds are no more than two minutes and thirteen ſeconds,—when I have ſaid all I can about them;—and that this plea, tho' it might ſave me dramatically, will damn me biographically, rendering my book, from this very moment, a pro<g ref="char:EOLhyphen"/>feſs'd
+<pb n="58" facs="tcp:0238000202:59"/>
+ROMANCE, which, before, was a book apocryphal:—If I am thus preſ<g ref="char:EOLhyphen"/>ſed.—I then put an end to the whole objection and controverſy about it all at once,—by acquainting him, that <hi>Obadiah</hi> had not got above threeſcore yards from the ſtable-yard before he met with Dr. <hi>Slop</hi>;—and indeed he gave a dirty proof that he had met with him,—and was within an ace of giving a tragical one too.</p>
+               <p>Imagine to yourſelf;—but this had better begin a new chapter.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>CHAP. IX.</head>
+               <p>IMagine to yourſelf a little, ſquat, un<g ref="char:EOLhyphen"/>courtly figure of a Doctor <hi>Slop,</hi> of about four feet and a half perpendicular
+<pb n="59" facs="tcp:0238000202:60"/>
+height, with a breadth of back, and a ſeſquipedality of belly, which might have done honour to a ſerjeant in the horſe-guards.</p>
+               <p>Such were the out-lines of Dr. <hi>Slop</hi>'s figure, which,—if you have read <hi>Ho<g ref="char:EOLhyphen"/>garth</hi>'s analyſis of beauty, and if you have not, I wiſh you would;—you muſt know, may as certainly be caracatur'd, and con<g ref="char:EOLhyphen"/>vey'd to the mind by three ſtrokes as three hundred.</p>
+               <p>Imagine ſuch a one,—for ſuch, I ſay, were the out-lines of Dr. <hi>Slop</hi>'s figure, coming ſlowly along, foot by foot, wad<g ref="char:EOLhyphen"/>dling thro' the dirt upon the vertebrae of a little diminutive pony,—of a pretty colour;—but of ſtrength,—alack!—ſcarce able to have made an amble of it, under ſuch a fardel, had the roads been
+<pb n="60" facs="tcp:0238000202:61"/>
+in an ambling condition.—They were not.—Imagine to yourſelf, <hi>Obadiah</hi> mounted upon a ſtrong monſter of a coach-horſe, prick'd into a full gallop, and making all practicable ſpeed the ad<g ref="char:EOLhyphen"/>verſe way.</p>
+               <p>Pray, Sir, let me intereſt you a mo<g ref="char:EOLhyphen"/>ment in this deſcription.</p>
+               <p>Had Dr. <hi>Slop</hi> beheld <hi>Obadiah</hi> a mile off, poſting in a narrow lane directly to<g ref="char:EOLhyphen"/>wards him, at that monſtrous rate,—ſplaſhing and plunging like a devil thro' thick and thin, as he approach'd, would not ſuch a phaenomenon, with ſuch a vor<g ref="char:EOLhyphen"/>tex of mud and water moving along with it, round its axis,—have been a ſubject of juſter apprehenſion to Dr. <hi>Slop</hi> in his ſituation, than the <hi>worſt</hi> of <hi>Whiſton</hi>'s co<g ref="char:EOLhyphen"/>mets?—To ſay nothing of the NUCLEUS;
+<pb n="61" facs="tcp:0238000202:62"/>
+that is, of <hi>Obadiah</hi> and the coach-horſe.—In my idea, the vortex alone of 'em was enough to have involved and carried, if not the doctor, at leaſt the doctor's pony quite away with it. What then do you think muſt the terror and hydrophobia of Dr. <hi>Slop</hi> have been, when you read (which you are juſt going to do) that he was advancing thus warily along towards <hi>Shandy-Hall,</hi> and had ap<g ref="char:EOLhyphen"/>proach'd to within ſixty yards of it, and within five yards of a ſudden turn, made by an acute angle of the garden wall,—and in the dirtieſt part of a dirty lane,—when <hi>Obadiah</hi> and his coach-horſe turn'd the corner, rapid, furious,—pop,—full upon him!—Nothing, I think, in nature, can be ſuppoſed more terrible, than ſuch a Rencounter,—ſo imprompt! ſo ill prepared to ſtand the ſhock of it as Dr. <hi>Slop</hi> was!</p>
+               <p>
+                  <pb n="62" facs="tcp:0238000202:63"/>
+What could Dr. <hi>Slop</hi> do?—He croſs'd himſelf <g ref="char:cross">✚</g> —Pugh!—but the doctor, Sir, was a Papiſt.—No matter; he had better have kept hold of the pummel. He had ſo;—nay, as it happened, he had better have done nothing at all;—for in croſſing himſelf he let go his whip,—and in attempting to ſave his whip be<g ref="char:EOLhyphen"/>twixt his knee and his ſaddle's ſkirt, as it ſlipp'd, he loſt his ſtirrup,—in loſing which, he loſt his ſeat;—and in the multitude of all theſe loſſes (which, by the bye, ſhews what little advantage there is in croſſing) the unfortunate doc<g ref="char:EOLhyphen"/>tor loſt his preſence of mind. So that, without waiting for <hi>Obadiah</hi>'s onſet, he left his pony to its deſtiny, tumbling off it diagonally, ſomething in the ſtile and manner of a pack of wool, and without any other conſequence from the fall, ſave that of being left (as it would have been)
+<pb n="63" facs="tcp:0238000202:64"/>
+with the broadeſt part of him ſunk about twelve inches deep in the mire.</p>
+               <p>
+                  <hi>Obadiah</hi> pull'd off his cap twice to Dr. <hi>Slop</hi>;—once as he was falling,—and then again when he ſaw him ſeated.—Ill<g ref="char:EOLhyphen"/>timed complaiſance!—had not the fel<g ref="char:EOLhyphen"/>low better have ſtopp'd his horſe, and got off and help'd him?—Sir, he did all that his ſituation would allow;—but the MOMENTUM of the coach-horſe was ſo great, that <hi>Obadiah</hi> could not do it all at once;—he rode in a circle three times round Dr. <hi>Slop,</hi> before he could fully ac<g ref="char:EOLhyphen"/>compliſh it any how;—and at the laſt, when he did ſtop his beaſt, 'twas done with ſuch an exploſion of mud, that <hi>Oba<g ref="char:EOLhyphen"/>diah</hi> had better have been a league off. In ſhort, never was a Dr. <hi>Slop</hi> ſo beluted, and ſo tranſubſtantiated, ſince that affair came into faſhion.</p>
+            </div>
+            <div n="10" type="chapter">
+               <pb n="64" facs="tcp:0238000202:65"/>
+               <head>CHAP. X.</head>
+               <p>WHEN Dr. <hi>Slop</hi> entered the back-parlour, where my father and my uncle <hi>Toby</hi> were diſcourſing upon the na<g ref="char:EOLhyphen"/>ture of women,—it was hard to deter<g ref="char:EOLhyphen"/>mine whether Dr. <hi>Slop</hi>'s figure, or Dr. <hi>Slop</hi>'s preſence, occaſioned more ſurprize to them; for as the accident happened ſo near the houſe, as not to make it worth while for <hi>Obadiah</hi> to remou<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> him,—<hi>Obadiah</hi> had led him in as he was, <hi>un<g ref="char:EOLhyphen"/>wiped, unappointed, unanealed,</hi> with all his ſtains and blotches on him.—He ſtood like <hi>Hamlet</hi>'s ghoſt, motionleſs and ſpeechleſs, for a full minute and a half, at the parlour door (<hi>Obadiah</hi> ſtill hold<g ref="char:EOLhyphen"/>ing his hand) with all the majeſty of mud. His hinder parts, upon which he had re<g ref="char:EOLhyphen"/>ceived his fall, totally beſmear'd,—and
+<pb n="65" facs="tcp:0238000202:66"/>
+in every other part of him, blotched over in ſuch a manner with <hi>Obadiah</hi>'s explo<g ref="char:EOLhyphen"/>ſion, that you would have ſworn (with<g ref="char:EOLhyphen"/>out mental reſervation) that every grain of it had taken effect.</p>
+               <p>Here was a fair opportunity for my uncle <hi>Toby</hi> to have triumph'd over my father in his turn;—for no mortal, who had beheld Dr. <hi>Slop</hi> in that pickle, could have diſſented from ſo much, at leaſt, of my uncle <hi>Toby</hi>'s opinion, "That may-hap his ſiſter might not care to let ſuch a Dr. <hi>Slop</hi> come ſo near her * * * *" But it was the <hi>Argu<g ref="char:EOLhyphen"/>mentum ad hominem</hi>; and if my uncle <hi>Toby</hi> was not very expert at it, you may think, he might not care to uſe it.—No; the reaſon was,—'twas not his na<g ref="char:EOLhyphen"/>ture to inſult.</p>
+               <p>
+                  <pb n="66" facs="tcp:0238000202:67"/>
+Dr. <hi>Slop</hi>'s preſence, at that time, was no leſs problematical than the mode of it; tho', it is certain, one moment's re<g ref="char:EOLhyphen"/>flection in my father might have ſolved it; for he had apprized Dr. <hi>Slop</hi> but the week before, that my mother was at her full reckoning; and as the doctor had heard nothing ſince, 'twas natural and very political too in him, to have taken a ride to <hi>Shandy-Hall,</hi> as he did, merely to ſee how matters went on.</p>
+               <p>But my father's mind took unfortu<g ref="char:EOLhyphen"/>nately a wrong turn in the inveſtigation; running, like the hypercritic's, altogether upon the ringing of the bell and the rap upon the door,—meaſuring their di<g ref="char:EOLhyphen"/>ſtance,—and keeping his mind ſo intent upon the operation, as to have power to think of nothing elſe,—common-place infirmity of the greateſt mathematicians!
+<pb n="67" facs="tcp:0238000202:68"/>
+working with might and main at the de<g ref="char:EOLhyphen"/>monſtration, and ſo waſting all their ſtrength upon it, that they have none left in them to draw the corollary, to do good with.</p>
+               <p>The ringing of the bell and the rap upon the door, ſtruck likewiſe ſtrong upon the ſenſorium of my uncle <hi>Toby,</hi>—but it excited a very different train of thoughts;—the two irreconcileable pul<g ref="char:EOLhyphen"/>ſations inſtantly brought <hi>Stevinus,</hi> the great engineer, along with them, into my uncle <hi>Toby</hi>'s mind:—What buſineſs <hi>Stevinus</hi> had in this affair,—is the greateſt problem of all;—it ſhall be ſolved,—but not in the next chapter.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="68" facs="tcp:0238000202:69"/>
+               <head>CHAP. XI.</head>
+               <p>WRiting, when properly managed, (as you may be ſure I think mine is) is but a different name for converſa<g ref="char:EOLhyphen"/>tion: As no one, who knows what he is about in good company, would venture to talk all;—ſo no author, who under<g ref="char:EOLhyphen"/>ſtands the juſt boundaries of decorum and good breeding, would preſume to think all: The trueſt reſpect which you can pay to the reader's underſtanding, is to halve this matter amicably, and leave him ſomething to imagine, in his turn, as well as yourſelf.</p>
+               <p>For my own part, I am eternally pay<g ref="char:EOLhyphen"/>ing him compliments of this kind, and do all that lies in my power to keep his imagination as buſy as my own.</p>
+               <p>
+                  <pb n="69" facs="tcp:0238000202:70"/>
+'Tis his turn now;—I have given an ample deſcription of Dr. <hi>Slop</hi>'s ſad over<g ref="char:EOLhyphen"/>throw, and of his ſad appearance in the back parlour;—his imagination muſt now go on with it for a while.</p>
+               <p>Let the reader imagine then, that Dr. <hi>Slop</hi> has told his tale;—and in what words, and with what aggravations his fancy chooſes:—Let him ſuppoſe, that <hi>Obadiah</hi> has told his tale alſo, and with ſuch rueful looks of affected concern, as he thinks will beſt contraſt the two figures as they ſtand by each other:—Let him imagine, that my father has ſtepp'd up ſtairs to ſee my mother:—And, to conclude this work of imagina<g ref="char:EOLhyphen"/>tion,—let him imagine the doctor waſh'd,—rubb'd down,—condoled with,—felicitated,—got into a pair of <hi>Obadiah</hi>'s pumps, ſtepping forwards towards the
+<pb n="70" facs="tcp:0238000202:71"/>
+door, upon the very point of entring upon action.</p>
+               <p>Truce!—truce, good Dr. <hi>Slop!</hi>—ſtay thy obſtetric hand;—return it ſafe into thy boſom to keep it warm;—little doſt thou know what obſtacles;—little doſt thou think what hidden cauſes retard its operation!—Haſt thou, Dr. <hi>Slop,</hi>—haſt thou been intruſted with the ſecret ar<g ref="char:EOLhyphen"/>ticles of this ſolemn treaty which has brought thee into this place?—Art thou aware that, at this inſtant, a daughter of <hi>Lucina</hi> is put obſtetrically over thy head? Alas! 'tis too true.—Beſides, great ſon of <hi>Pilumnus!</hi> what canſt thou do?—Thou haſt come forth unarm'd;—thou haſt left thy <hi>tire tête,</hi>—thy new-invented <hi>forceps,</hi>—thy <hi>crotchet,</hi>—thy <hi>ſquirt,</hi> and all thy inſtruments of ſalvation and deli<g ref="char:EOLhyphen"/>verance behind thee.—By heaven!
+<pb n="71" facs="tcp:0238000202:72"/>
+at this moment they are hanging up in a green bays bag, betwixt thy two piſtols, at thy bed's head!—Ring;—call;—ſend <hi>Obadiah</hi> back upon the coach-horſe to bring them with all ſpeed.</p>
+               <p>—Make great haſte, <hi>Obadiah,</hi> quoth my father, and I'll give thee a crown;—and, quoth my uncle <hi>Toby,</hi> I'll give him another.</p>
+            </div>
+            <div n="12" type="chapter">
+               <head>CHAP. XII.</head>
+               <p>YOUR ſudden and unexpected ar<g ref="char:EOLhyphen"/>rival, quoth my uncle <hi>Toby,</hi> ad<g ref="char:EOLhyphen"/>dreſſing himſelf to Dr. <hi>Slop</hi> (all three of them ſitting down to the fire together, as my uncle <hi>Toby</hi> began to ſpeak)—in<g ref="char:EOLhyphen"/>ſtantly brought the great <hi>Stevinus</hi> into my head, who, you muſt know, is a fa<g ref="char:EOLhyphen"/>vourite
+<pb n="72" facs="tcp:0238000202:73"/>
+author with me.—Then, added my father, making uſe of the ar<g ref="char:EOLhyphen"/>gument <hi>Ad Crumenam,</hi>—I will lay twenty guineas to a ſingle crown piece, (which will ſerve to give away to <hi>Oba<g ref="char:EOLhyphen"/>diah</hi> when he gets back) that this ſame <hi>Stevinus</hi> was ſome engineer or other,—or has wrote ſomething or other, either directly or indirectly, upon the ſcience of fortification.</p>
+               <p>He has ſo,—replied my uncle <hi>Toby.</hi>—I knew it, ſaid my father;—tho', for the ſoul of me, I cannot ſee what kind of connection there can be betwixt Dr. <hi>Slop</hi>'s ſudden coming, and a diſcourſe upon fortification;—yet I fear'd it.—Talk of what we will, brother,—or let the occaſion be never ſo foreign or unfit for the ſubject,—you are ſure to bring it in: I would not, brother <hi>Toby,</hi> con<g ref="char:EOLhyphen"/>tinued
+<pb n="73" facs="tcp:0238000202:74"/>
+my father,—I declare I would not have my head ſo full of curtins and horn-works.—That, I dare ſay, you would not, quoth Dr. <hi>Slop,</hi> interrupting him, and laughing moſt immoderately at his pun.</p>
+               <p>
+                  <hi>Dennis</hi> the critic could not deteſt and abhor a pun, or the inſinuation of a pun, more cordially than my father;—he would grow teſty upon it at any time;—but to be broke in upon by one, in a ſerious diſcourſe, was as bad, he would ſay, as a fillip upon the noſe;—he ſaw no difference.</p>
+               <p>Sir, quoth my uncle <hi>Toby,</hi> addreſſing himſelf to Dr. <hi>Slop,</hi>—the curtins my brother <hi>Shandy</hi> mentions here, have no<g ref="char:EOLhyphen"/>thing to do with bed-ſteads;—tho', I know, <hi>Du Cange</hi> ſays, "That bed-cur<g ref="char:EOLhyphen"/>tains,
+<pb n="74" facs="tcp:0238000202:75"/>
+in all probability, have taken their name from them;"—nor have the horn-works, he ſpeaks of, any thing in the world to do with the horn-works of cuckoldom:—But the <hi>curtin,</hi> Sir, is the word we uſe in fortification, for that part of the wall or rampart which lies between the two baſtions and joins them.—Be<g ref="char:EOLhyphen"/>ſiegers ſeldom offer to carry on their at<g ref="char:EOLhyphen"/>tacks directly againſt the curtin, for this reaſon, becauſe they are ſo well <hi>flanked.</hi> ('Tis the caſe of other curtins, quoth Dr. <hi>Slop,</hi> laughing). However, continued my uncle <hi>Toby,</hi> to make them ſure, we ge<g ref="char:EOLhyphen"/>nerally chooſe to place ravelins before them, taking care only to extend them beyond the foſsé or ditch:—The com<g ref="char:EOLhyphen"/>mon men, who know very little of for<g ref="char:EOLhyphen"/>tification, confound the ravelin and the half-moon together,—tho' they are very different things;—not in their figure or
+<pb n="75" facs="tcp:0238000202:76"/>
+conſtruction, for we make them exactly aliks in all points;—for they always con<g ref="char:EOLhyphen"/>ſiſt of two faces, making a ſalient angle, with the gorges, not ſtraight, but in form of a creſcent.—Where then lies the difference? (quoth my father, a little teſtily.)—In their ſituations, anſwered my uncle <hi>Toby:</hi>—For when a ravelin, bro<g ref="char:EOLhyphen"/>ther, ſtands before the curtin, it is a ra<g ref="char:EOLhyphen"/>velin; and when a ravelin ſtands before a baſtion, then the ravelin is not a rave<g ref="char:EOLhyphen"/>lin;—it is a half-moon;—a half-moon likewiſe is a half-moon, and no more, ſo long as it ſtands before its baſtion;—but was it to change place, and get before the curtin,—'twould be no longer a half-moon; a half-moon, in that caſe, is not a half-moon;—'tis no more than a rave<g ref="char:EOLhyphen"/>lin.—I think, quoth my father, that the noble ſcience of defence has its weak ſides,—as well as others.</p>
+               <p>
+                  <pb n="76" facs="tcp:0238000202:77"/>
+—As for the horn-works (high! ho! ſigh'd my father) which, continued my uncle <hi>Toby,</hi> my brother was ſpeaking of, they are a very conſiderable part of an outwork;—they are called by the <hi>French</hi> engineers, <hi>Ouvrage à corne,</hi> and we gene<g ref="char:EOLhyphen"/>rally make them to cover ſuch places as we ſuſpect to be weaker than the reſt;—'tis form'd by two epaulments or demi<g ref="char:EOLhyphen"/>baſtions,—they are very pretty, and if you will take a walk, I'll engage to ſhew you one well worth your trouble.—I own, continued my uncle <hi>Toby,</hi> when we crown them,—they are much ſtronger, but then they are very expenſive, and take up a great deal of ground; ſo that, in my opinion, they are moſt of uſe to cover or defend the head of a camp; otherwiſe the double tenaille—By the mother who bore us!—brother
+<pb n="77" facs="tcp:0238000202:78"/>
+                  <hi>Toby,</hi> quoth my father, not able to hold out any longer,—you would provoke a ſaint;—here have you got us, I know not how, not only ſouſe into the middle of the old ſubject again:—But ſo full is your head of theſe confounded works, that tho' my wife is this moment in the pains of labour,—and you hear her cry out,—yet nothing will ſerve you but to carry off the man-midwife.—<hi>Accoucheur,</hi>—if you pleaſe, quoth Dr. <hi>Slop.</hi>—With all my heart, replied my father, I don't care what they call you,—but I wiſh the whole ſcience of fortification, with all its inventors, at the devil;—it has been the death of thouſands,—and it will be mine, in the end.—I would not, I would not, brother <hi>Toby,</hi> have my brains ſo full of ſaps, mines, blinds, gabions, paliſadoes, ravelins, half-moons, and ſuch trum<g ref="char:EOLhyphen"/>pery,
+<pb n="78" facs="tcp:0238000202:79"/>
+to be proprietor of <hi>Namur,</hi> and of all the towns in <hi>Flanders</hi> with it.</p>
+               <p>My uncle <hi>Toby</hi> was a man patient of injuries;—not from want of courage,—I have told you in the fifth chapter of this ſecond book, "That he was a man of courage:"—And will add here, that where juſt occaſions preſented, or called it forth,—I know no man under whoſe arm I would ſooner have taken ſhelter; nor did this ariſe from any inſenſibility or obtuſeneſs of his intellectual parts;—for he felt this inſult of my father's as feelingly as a man could do;—but he was of a peaceful, placid nature,—no jarring element in it,—all was mix'd up ſo kindly within him; my uncle <hi>Toby</hi> had ſcarce a heart to retaliate upon a fly.</p>
+               <p>
+                  <pb n="79" facs="tcp:0238000202:80"/>
+—Go—ſays he, one day at dinner, to an over-grown one which had buzz'd about his noſe, and tormented him cruel<g ref="char:EOLhyphen"/>ly all dinner-time,—and which, after in<g ref="char:EOLhyphen"/>finite attempts, he had caught at laſt, as it flew by him;—I'll not hurt thee, ſays my uncle <hi>Toby,</hi> riſing from his chair, and going a-croſs the room, with the fly in his hand,—I'll not hurt a hair of thy head:—Go, ſays he, lifting up the ſaſh, and opening his hand as he ſpoke, to let it eſcape;—go poor devil, get thee gone, why ſhould I hurt thee?—This world ſurely is wide enough to hold both thee and me.</p>
+               <p>I was but ten years old when this hap<g ref="char:EOLhyphen"/>pened;—but whether it was, that the action itſelf was more in uniſon to my nerves at that age of pity, which inſtant<g ref="char:EOLhyphen"/>ly ſet my whole frame into one vibration
+<pb n="80" facs="tcp:0238000202:81"/>
+of moſt pleaſurable ſenſation;—or how far the manner and expreſſion of it might go towards it;—or in what degree, or by what ſecret magic,—a tone of voice and harmony of movement, attuned by mercy, might find a paſſage to my heart, I know not;—this I know, that the leſſon of univerſal good-will then taught and imprinted by my uncle <hi>Toby,</hi> has never ſince been worn out of my mind: And tho' I would not depreciate what the ſtudy of the <hi>Literae humaniores,</hi> at the univerſity, have done for me in that reſpect, or diſ<g ref="char:EOLhyphen"/>credit the other helps of an expenſive edu<g ref="char:EOLhyphen"/>cation beſtowed upon me, both at home and abroad ſince;—yet I often think that I owe one half of my philanthropy to that one accidental impreſſion.</p>
+               <p>☞ This is to ſerve for parents and governors inſtead of a whole volume upon the ſubject.</p>
+               <p>
+                  <pb n="81" facs="tcp:0238000202:82"/>
+I could not give the reader this ſtroke in my uncle <hi>Toby</hi>'s picture, by the inſtru<g ref="char:EOLhyphen"/>ment with which I drew the other parts of it,—that taking in no more than the mere HOBBY-HORSICAL likeneſs;—this is a part of his moral character. My father, in this patient endurance of wrongs, which I mention, was very dif<g ref="char:EOLhyphen"/>ferent, as the reader muſt long ago have noted; he had a much more acute and quick ſenſibility of nature, attended with a little ſoreneſs of temper; tho' this never tranſported him to any thing which looked like malignancy;—yet, in the little rubs and vexations of life, 'twas apt to ſhew itſelf in a drolliſh and witty kind of peeviſhneſs:—He was, how<g ref="char:EOLhyphen"/>ever, frank and generous in his nature;—at all times open to conviction; and in the little ebullitions of this ſub<g ref="char:EOLhyphen"/>acid humour towards others, but parti<g ref="char:EOLhyphen"/>cularly
+<pb n="82" facs="tcp:0238000202:83"/>
+towards my uncle <hi>Toby,</hi> whom he truly loved;—he would feel more pain, ten times told (except in the af<g ref="char:EOLhyphen"/>fair of my aunt <hi>Dinah,</hi> or where an hy<g ref="char:EOLhyphen"/>potheſis was concerned) than what he ever gave.</p>
+               <p>The characters of the two brothers, in this view of them, reflected light upon each other, and appear'd with great ad<g ref="char:EOLhyphen"/>vantage in this affair which aroſe about <hi>Stevinus.</hi>
+               </p>
+               <p>I need not tell the reader, if he keeps a HOBBY-HORSE,—that a man's HOBBY-HORSE is as tender a part as he has about him; and that theſe unprovoked ſtrokes, at my uncle <hi>Toby</hi>'s could not be unfelt by him.—No;—as I ſaid above, my uncle <hi>Toby</hi> did feel them, and very ſenſibly too.</p>
+               <p>
+                  <pb n="83" facs="tcp:0238000202:84"/>
+Pray, Sir, what ſaid he?—How did he behave?—Oh, Sir!—it was great: For as ſoon as my father had done in<g ref="char:EOLhyphen"/>ſulting his HOBBY-HORSE,—he turned his head, without the leaſt emotion, from Dr. <hi>Slop,</hi> to whom he was addreſ<g ref="char:EOLhyphen"/>ſing his diſcourſe, and look'd up into my father's face, with a countenance ſpread over with ſo much good nature;—ſo placid;—ſo fraternal;—ſo inexpreſſibly tender towards him;—it penetrated my father to his heart: He roſe up haſtily from his chair, and ſeizing hold of both my uncle <hi>Toby</hi>'s hands as he ſpoke.—Brother <hi>Toby,</hi> ſaid he,—I beg thy par<g ref="char:EOLhyphen"/>don;—forgive, I pray thee, this raſh humour which my mother gave me.—My dear, dear brother, anſwer'd my uncle <hi>Toby,</hi> riſing up by my father's help, ſay no more about it;—you are heartily welcome, had it been ten times as much,
+<pb n="84" facs="tcp:0238000202:85"/>
+brother. But 'tis ungenerous, replied, my father, to hurt any man;—a brother worſe;—but to hurt a brother of ſuch gentle manners,—ſo unprovoking,—and ſo unreſenting;—'tis baſe:—By heaven, 'tis cowardly.—You are heartily wel<g ref="char:EOLhyphen"/>come, brother, quoth my uncle <hi>Toby,</hi>—had it been fifty times as much.—Beſides, what have I to do, my dear <hi>Toby,</hi> cried my father, either with your amuſe<g ref="char:EOLhyphen"/>ments or your pleaſures, unleſs it was in my power (which it is not) to increaſe their meaſure?</p>
+               <p>—Brother <hi>Shandy,</hi> anſwer'd my uncle <hi>Toby,</hi> looking wiſtfully in his face,—you are much miſtaken in this point;—for you do increaſe my pleaſure very much, in begetting children for the <hi>Shandy</hi> fa<g ref="char:EOLhyphen"/>mily at your time of life.—But, by that, Sir, quoth Dr. <hi>Slop,</hi> Mr. <hi>Shandy</hi> in<g ref="char:EOLhyphen"/>creaſes
+<pb n="85" facs="tcp:0238000202:86"/>
+his own.—Not a jot, quoth my father.</p>
+            </div>
+            <div n="13" type="chapter">
+               <head>CHAP. XIII.</head>
+               <p>MY brother, does it, quoth my uncle <hi>Toby,</hi> out of <hi>principle.</hi>—In a fa<g ref="char:EOLhyphen"/>mily-way, I ſuppoſe, quoth Dr. <hi>Slop.</hi>—Pſhaw!—ſaid my father,—'tis not worth talking of.</p>
+            </div>
+            <div n="14" type="chapter">
+               <head>CHAP. XIV.</head>
+               <p>AT the end of the laſt chapter, my father and my uncle <hi>Toby</hi> were left both ſtanding, like <hi>Brutus</hi> and <hi>Caſſius</hi> at the cloſe of the ſcene making up their accounts.</p>
+               <p>
+                  <pb n="86" facs="tcp:0238000202:87"/>
+As my father ſpoke the three laſt words,—he ſat down;—my uncle <hi>Toby</hi> exactly followed his example, only, that before he took his chair, he rung the bell, to order Corporal <hi>Trim,</hi> who was in waiting, to ſtep home for <hi>Stevinus</hi>;—my uncle <hi>Toby</hi>'s houſe being no further off than the oppoſite ſide of the way.</p>
+               <p>Some men would have dropp'd the ſubject of <hi>Stevinus</hi>;—but my uncle <hi>Toby</hi> had no reſentment in his heart, and he went on with the ſubject, to ſhew my father that he had none.</p>
+               <p>Your ſudden appearance, Dr. <hi>Slop,</hi> quoth my uncle, reſuming the diſcourſe, inſtantly brought <hi>Stevinus</hi> into my head. (My father, you may be ſure, did not offer to lay any more wagers upon <hi>Ste<g ref="char:EOLhyphen"/>vinus</hi>'s head)—Becauſe, continued my
+<pb n="87" facs="tcp:0238000202:88"/>
+uncle <hi>Toby,</hi> the celebrated ſailing chariot, which belonged to Prince <hi>Maurice,</hi> and was of ſuch wonderful contrivance and velocity, as to carry half a dozen peo<g ref="char:EOLhyphen"/>ple thirty <hi>German</hi> miles, in I don't know how few minutes,—was invented by <hi>Stevinus,</hi> that great mathematician and engineer.</p>
+               <p>You might have ſpared your ſervant the trouble, quoth Dr. <hi>Slop</hi> (as the fellow is lame) of going for <hi>Stevinus</hi>'s account of it, becauſe, in my return from <hi>Leyden</hi> thro' the <hi>Hague,</hi> I walked as far as <hi>Schev<g ref="char:EOLhyphen"/>ling,</hi> which is two long miles, on purpoſe to take a view of it.</p>
+               <p>—That's nothing, replied my uncle <hi>Toby,</hi> to what the learned <hi>Peireſkius</hi> did, who walked a matter of five hundred miles, reckoning from <hi>Paris</hi> to <hi>Schevling,</hi>
+                  <pb n="88" facs="tcp:0238000202:89"/>
+and from <hi>Schevling</hi> to <hi>Paris</hi> back again, in order to ſee it,—and nothing elſe.</p>
+               <p>Some men cannot bear to be out-gone.</p>
+               <p>The more fool <hi>Peireſkius,</hi> replied Dr. <hi>Slop.</hi> But mark, 'twas out of no con<g ref="char:EOLhyphen"/>tempt of <hi>Peireſkius</hi> at all;—but that <hi>Peireſkius</hi>'s indefatigable labour in trudg<g ref="char:EOLhyphen"/>ing ſo far on foot out of love for the ſciences, reduced the exploit of Dr. <hi>Slop,</hi> in that affair, to nothing;—the more fool <hi>Peireſkius,</hi> ſaid he again:—Why ſo?—replied my father, taking his brother's part, not only to make reparation as faſt as he could for the inſult he had given him, which ſat ſtill upon my father's mind;—but partly, that my father began really to intereſt himſelf in the diſcourſe.—Why ſo?—ſaid he. Why is <hi>Peireſkius,</hi> or any man elſe, to be abuſed for an ap<g ref="char:EOLhyphen"/>petite
+<pb n="89" facs="tcp:0238000202:90"/>
+for that, or any other morſel of ſound knowledge? For, notwithſtand<g ref="char:EOLhyphen"/>ing I know nothing of the chariot in queſtion, continued he, the inventor of it muſt have had a very mechanical head; and tho' I cannot gueſs upon what prin<g ref="char:EOLhyphen"/>ciples of philoſophy he has atchiev'd it;—yet certainly his machine has been conſtructed upon ſolid ones, be they what they will, or it could not have anſwer'd at the rate my brother mentions.</p>
+               <p>It anſwered, replied my uncle <hi>Toby,</hi> as well, if not better; for, as <hi>Peireſkius</hi> elegantly expreſſes it, ſpeaking of the velocity of its motion, <hi>Tam citus erat, quam erat ventus</hi>; which, unleſs I have forgot my Latin, is, <hi>that it was as ſwift as the wind itſelf.</hi>
+               </p>
+               <p>
+                  <pb n="90" facs="tcp:0238000202:91"/>
+But pray, Dr. <hi>Slop,</hi> quoth my father, interrupting my uncle (tho' not with<g ref="char:EOLhyphen"/>out begging pardon for it, at the ſame time) upon what principles was this ſelf<g ref="char:EOLhyphen"/>ſame chariot ſet a-going?—Upon very pretty principles to be ſure, replied Dr. <hi>Slop</hi>;—and I have often wondered, continued he, evading the queſtion, why none of our gentry, who live upon large plains like this of ours,—(eſpecially they whoſe wives are not paſt child-bearing) attempt nothing of this kind; for it would not only be infinitely expeditious upon ſudden calls, to which the ſex is ſubject,—if the wind only ſerved,—but would be excellent good huſbandry to make uſe of the winds, which coſt no<g ref="char:EOLhyphen"/>thing, and which eat nothing, rather than horſes, which (the devil take 'em) both coſt and eat a great deal.</p>
+               <p>
+                  <pb n="91" facs="tcp:0238000202:92"/>
+For that very reaſon, replied my fa<g ref="char:EOLhyphen"/>ther, "Becauſe they coſt nothing, and becauſe they eat nothing,"—the ſcheme is bad;—it is the conſumption of our products, as well as the manufactures of them, which gives bread to the hungry, circulates trade,—brings in money, and ſupports the value of our lands;—and tho', I own, if I was a prince, I would generouſly recompenſe the ſcientific head which brought forth ſuch contrivances;—yet I would as peremptorily ſuppreſs the uſe of them.</p>
+               <p>My father here had got into his ele<g ref="char:EOLhyphen"/>ment,—and was going on as pro<g ref="char:EOLhyphen"/>ſperouſly with his diſſertation upon trade, as my uncle <hi>Toby</hi> had before, upon his of fortification;—but, to the loſs of much ſound knowledge, the deſtinies in the morning had decreed that no
+<pb n="92" facs="tcp:0238000202:93"/>
+diſſertation of any kind ſhould be ſpun by my father that day;—for as he opened his mouth to begin the next ſentence,</p>
+            </div>
+            <div n="15" type="chapter">
+               <head>CHAP. XV.</head>
+               <p>IN popp'd Corporal <hi>Trim</hi> with <hi>Stevi<g ref="char:EOLhyphen"/>nus:</hi>—But 'twas too late,—all the diſcourſe had been exhauſted without him, and was running into a new channel.</p>
+               <p>—You may take the book home again, <hi>Trim,</hi> ſaid my uncle <hi>Toby,</hi> nodding to him.</p>
+               <p>But pri'thee, Corporal, quoth my fa<g ref="char:EOLhyphen"/>ther, drolling,—look firſt into it, and ſee if thou canſt ſpy aught of a ſailing chariot in it.</p>
+               <p>
+                  <pb n="93" facs="tcp:0238000202:94"/>
+Corporal <hi>Trim,</hi> by being in the ſervice, had learned to obey,—and not to re<g ref="char:EOLhyphen"/>monſtrate;—ſo taking the book to a ſide-table, and running over the leaves; an' pleaſe your Honour, ſaid <hi>Trim,</hi> I can ſee no ſuch thing;—however, continued the Corporal, drolling a little in his turn, I'll make ſure work of it, an' pleaſe your Honour;—ſo taking hold of the two covers of the book, one in each hand, and letting the leaves fall down, as he bent the covers back, he gave the book a good ſound ſhake.</p>
+               <p>There is ſomething fallen out, how<g ref="char:EOLhyphen"/>ever, ſaid <hi>Trim,</hi> an' pleaſe your Honour; but it is not a chariot, or any thing like one:—Pri'thee Corporal, ſaid my father, ſmiling, what is it then?—I think, an<g ref="char:EOLhyphen"/>ſwered <hi>Trim,</hi> ſtooping to take it up,—'tis more like a ſermon,—for it begins,
+<pb n="94" facs="tcp:0238000202:95"/>
+with a text of ſcripture, and the chapter and verſe;—and then goes on, not as a chariot,—but like a ſermon directly.</p>
+               <p>The company ſmiled.</p>
+               <p>I cannot conceive how it is poſſible, quoth my uncle <hi>Toby,</hi> for ſuch a thing as a ſermon to have got into my <hi>Stevinus.</hi>
+               </p>
+               <p>I think 'tis a ſermon, replied <hi>Trim</hi>;—but if it pleaſe your Honours, as it is a fair hand, I will read you a page;—for <hi>Trim,</hi> you muſt know, loved to hear himſelf read almoſt as well as talk.</p>
+               <p>I have ever a ſtrong propenſity, ſaid my father, to look into things which croſs my way, by ſuch ſtrange fatalities as theſe;—and as we have nothing bet<g ref="char:EOLhyphen"/>ter to do, at leaſt till <hi>Obadiah</hi> gets back,
+<pb n="95" facs="tcp:0238000202:96"/>
+I ſhould be obliged to you, brother, if Dr. <hi>Slop</hi> has no objection to it, to order the Corporal to give us a page or two of it,—if he is as able to do it, as he ſeems willing. An' pleaſe your Honour, quoth <hi>Trim,</hi> I officiated two whole campaigns in <hi>Flanders,</hi> as clerk to the chaplain of the regiment.—He can read it, quoth my uncle <hi>Toby,</hi> as well as I can.—<hi>Trim,</hi> I aſſure you, was the beſt ſcholar in my company, and ſhould have had the next halberd, but for the poor fellow's miſ<g ref="char:EOLhyphen"/>fortune. Corporal <hi>Trim</hi> laid his hand upon his heart, and made an humble bow to his maſter;—then laying down his hat upon the floor, and taking up the ſermon in his left-hand, in order to have his right at liberty,—he advanced, nothing doubting, into the middle of the room, where he could beſt ſee, and be beſt ſeen by, his audience.</p>
+            </div>
+            <div n="16" type="chapter">
+               <pb n="96" facs="tcp:0238000202:97"/>
+               <head>CHAP. XVI.</head>
+               <p>—If you have any objection,—ſaid my father, addreſſing himſelf to Dr. <hi>Slop.</hi> Not in the leaſt, replied Dr. <hi>Slop</hi>;—for it does not appear on which ſide of the queſtion it is wrote;—it may be a compoſition of a divine of our church, as well as yours,—ſo that we run equal riſks.—'Tis wrote upon neither ſide, quoth <hi>Trim,</hi> for 'tis only upon <hi>Conſcience,</hi> an' pleaſe your Honours.</p>
+               <p>
+                  <hi>Trim</hi>'s reaſon put his audience into good humour,—all but Dr. <hi>Slop,</hi> who, turning his head about towards <hi>Trim,</hi> look'd a little angry.</p>
+               <p>Begin, <hi>Trim,</hi>—and read diſtinctly, quoth my father;—I will, an' pleaſe your
+<pb n="97" facs="tcp:0238000202:98"/>
+Honour, replied the Corporal, making a bow, and beſpeaking attention with a ſlight movement of his right-hand.</p>
+            </div>
+            <div n="17" type="chapter">
+               <head>CHAP. XVII.</head>
+               <p>—But before the Corporal begins, I muſt firſt give you a deſcription of his attitude;—otherwiſe he will naturally ſtand repreſented, by your imagination, in an uneaſy poſture,—ſtiff,—perpendi<g ref="char:EOLhyphen"/>cular,—dividing the weight of his body equally upon both legs;—his eye fix'd, as if on duty;—his look determined,—clinching the ſermon in his left-hand, like his firelock:—In a word, you would be apt to paint <hi>Trim,</hi> as if he was ſtand<g ref="char:EOLhyphen"/>ing in his platoon ready for action:—His attitude was as unlike all this as you can conceive.</p>
+               <p>
+                  <pb n="98" facs="tcp:0238000202:99"/>
+He ſtood before them with his body ſwayed, and bent forwards juſt ſo far, as to make an angle of 85 degrees and a half upon the plain of the horizon;—which ſound orators, to whom I addreſs this, know very well, to be the true per<g ref="char:EOLhyphen"/>ſuaſive angle of incidence;—in any other angle you may talk and preach;—'tis certain,—and it is done every day;—but with what effect,—I leave the world to judge!</p>
+               <p>The neceſſity of this preciſe angle of 85 degrees and a half to a mathematical exactneſs,—does it not ſhew us, by the way,—how the arts and ſciences mutu<g ref="char:EOLhyphen"/>ally befriend each other?</p>
+               <p>How the duce Corporal <hi>Trim,</hi> who knew not ſo much as an acute angle from an obtuſe one, came to hit it ſo ex<g ref="char:EOLhyphen"/>actly;
+<pb n="99" facs="tcp:0238000202:100"/>
+—or whether it was chance or nature, or good ſenſe or imitation, <hi>&amp;c.</hi> ſhall be commented upon in that part of this cyclopaedia of arts and ſciences, where the inſtrumental parts of the elo<g ref="char:EOLhyphen"/>quence of the ſenate, the pulpit, the bar, the coffee-houſe, the bed-chamber, and fire-ſide, fall under conſideration.</p>
+               <p>He ſtood,—for I repeat it, to take the picture of him in at one view, with his body ſway'd, and ſomewhat bent forwards,—his right-leg firm under him, ſuſtaining ſeven-eighths of his whole weight,—the foot of his left-leg, the de<g ref="char:EOLhyphen"/>fect of which was no diſadvantage to his attitude, advanced a little,—not lateral<g ref="char:EOLhyphen"/>ly, nor forwards, but in a line betwixt them;—his knee bent, but that not vio<g ref="char:EOLhyphen"/>lently,—but ſo as to fall within the li<g ref="char:EOLhyphen"/>mits of the line of beauty;—and I add,
+<pb n="100" facs="tcp:0238000202:101"/>
+of the line of ſcience too;—for conſider, it had one eighth part of his body to bear up;—ſo that in this caſe the poſi<g ref="char:EOLhyphen"/>tion of the leg is determined,—becauſe the foot could be no further advanced, or the knee more bent, than what would allow him mechanically, to receive an eighth part of his whole weight under it,—and to carry it too.</p>
+               <p>☞ This I recommend to painters?—need I add,—to orators?—I think not; for, unleſs they practiſe it,—they muſt fall upon their noſes.</p>
+               <p>So much for Corporal <hi>Trim</hi>'s body and legs.—He held the ſermon looſely,—not careleſsly, in his left-hand, raiſed ſome<g ref="char:EOLhyphen"/>thing above his ſtomach, and detach'd a little from his breaſt;—his right-arm falling negligently by his ſide, as nature
+<pb n="101" facs="tcp:0238000202:102"/>
+and the laws of gravity ordered it,—but with the palm of it open and turned to<g ref="char:EOLhyphen"/>wards his audience, ready to aid the ſen<g ref="char:EOLhyphen"/>timent, in caſe it ſtood in need.</p>
+               <p>Corporal <hi>Trim</hi>'s eyes and the muſcles of his face were in full harmony with the other parts of him;—he look'd frank,—unconſtrained,—ſomething aſſured,—but not bordering upon aſſurance.</p>
+               <p>Let not the critic aſk how Corporal <hi>Trim</hi> could come by all this; I've told him it ſhall be explained;—but ſo he ſtood before my father, my uncle <hi>Toby,</hi> and Dr. <hi>Slop,</hi>—ſo ſwayed his body, ſo contraſted his limbs, and with ſuch an oratorical ſweep throughout the whole figure,—a ſtatuary might have modell'd from it;—nay, I doubt whether the oldeſt Fellow of a College,—or the <hi>He<g ref="char:EOLhyphen"/>brew</hi>
+                  <pb n="102" facs="tcp:0238000202:103"/>
+Profeſſor himſelf, could have much mended it.</p>
+               <p>
+                  <hi>Trim</hi> made a bow, and read as follows:</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon">
+                           <head>The SERMON.</head>
+                           <epigraph>
+                              <bibl>HEBREWS xiii. 18.</bibl>
+                              <q>—For we<hi> truſt</hi> we have a good Conſcience.—</q>
+                           </epigraph>
+                           <p>"TRuſt!—Truſt we have a good conſcience!"</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[Certainly, <hi>Trim,</hi> quoth my father, in<g ref="char:EOLhyphen"/>terrupting him, you give that ſentence a very improper accent; for you curl up your noſe, man, and read it with ſuch a ſneering tone, as if the Parſon was going to abuſe the Apoſtle.</p>
+               <p>
+                  <pb n="103" facs="tcp:0238000202:104"/>
+He is, an' pleaſe your Honour, replied <hi>Trim.</hi> Pugh! ſaid my father, ſmiling.</p>
+               <p>Sir, quoth Dr. <hi>Slop, Trim</hi> is certainly in the right; for the writer (who I per<g ref="char:EOLhyphen"/>ceive is a Proteſtant) by the ſnappiſh manner in which he takes up the Apoſtle, is certainly going to abuſe him,—if this treatment of him has not done it already. But from whence, replied my father, have you concluded ſo ſoon, Dr. <hi>Slop,</hi> that the writer is of our Church?—for aught I can ſee yet,—he may be of any Church:—Becauſe, anſwered Dr. <hi>Slop,</hi> if he was of ours.—he durſt no more take ſuch a licence,—than a bear by his beard:—If, in our communion, Sir, a man was to inſult an Apoſtle,—a ſaint,—or even the paring of a ſaint's nail,—he would have his eyes ſcratched out.—What, by the ſaint, quoth my
+<pb n="104" facs="tcp:0238000202:105"/>
+uncle <hi>Toby.</hi> No, replied Dr. <hi>Slop,</hi>—he would have an old houſe over his head. Pray is the Inquiſition an antient build<g ref="char:EOLhyphen"/>ing, anſwered my uncle <hi>Toby,</hi> or is it a modern one?—I know nothing of archi<g ref="char:EOLhyphen"/>tecture, replied Dr. <hi>Slop.</hi>—An' pleaſe your Honours, quoth <hi>Trim,</hi> the Inqui<g ref="char:EOLhyphen"/>ſition is the vileſt—Pri'thee ſpare thy deſcription, <hi>Trim,</hi> I hate the very name of it, ſaid my father.—No matter for that, anſwered Dr. <hi>Slop,</hi>—it has its uſes; for tho' I'm no great advocate for it, yet in ſuch a caſe as this, he would ſoon be taught better manners; and I can tell him, if he went on at that rate, would be flung into the Inquiſition for his pains. God help him then, quoth my uncle <hi>Toby.</hi> Amen, added <hi>Trim</hi>; for, heaven above knows, I have a poor brother who has been fourteen years a captive in it.—I never heard one word of it before, ſaid
+<pb n="105" facs="tcp:0238000202:106"/>
+my uncle <hi>Toby,</hi> haſtily:—How came he there, <hi>Trim?</hi>—O, Sir! the ſtory will make your heart bleed,—as it has made mine a thouſand times;—but it is too long to be told now;—your Honour ſhall hear it from firſt to laſt ſome day when I am working beſide you in our fortifications;—but the ſhort of the ſtory is this:—That my brother <hi>Tom</hi> went over a ſervant to <hi>Liſbon,</hi>—and then married a <hi>Jew</hi>'s widow, who kept a ſmall ſhop, and ſold ſauſages, which, ſome how or other, was the cauſe of his being taken in the middle of the night out of his bed, where he was lying with his wife and two ſmall children, and carried di<g ref="char:EOLhyphen"/>rectly to the Inquiſition, where, God help him, continued <hi>Trim,</hi> fetching a ſigh from the bottom of his heart,—the poor ho<g ref="char:EOLhyphen"/>neſt lad lies confined at this hour;—he was as honeſt a ſoul, added <hi>Trim,</hi>
+                  <pb n="106" facs="tcp:0238000202:107"/>
+(pulling out his handkerchief) as ever blood warm'd.—</p>
+               <p>—The tears trickled down <hi>Trim</hi>'s cheeks faſter than he could well wipe them away.—A dead ſilence in the room enſued for ſome minutes.—Certain proof of pity!</p>
+               <p>Come, <hi>Trim,</hi> quoth my father, after he ſaw the poor fellow's grief had got a little vent,—read on,—and put this me<g ref="char:EOLhyphen"/>lancholy ſtory out of thy head:—I grieve that I interrupted thee;—but pri'thee begin the ſermon again;—for if the firſt ſentence in it is matter of abuſe, as thou ſayeſt, I have a great deſire to know what kind of provocation the Apoſtle has given.</p>
+               <p>Corporal <hi>Trim</hi> wiped his face, and re<g ref="char:EOLhyphen"/>turning his handkerchief into his pocket,
+<pb n="107" facs="tcp:0238000202:108"/>
+and, making a bow as he did it,—he be<g ref="char:EOLhyphen"/>gan again.]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon_begun_again">
+                           <head>The SERMON.</head>
+                           <epigraph>
+                              <bibl>HEBREWS xiii. 18.</bibl>
+                              <q>—For we <hi>truſt</hi> we have a good Conſcience.—</q>
+                           </epigraph>
+                           <p>"TRuſt! truſt we have a good con<g ref="char:EOLhyphen"/>ſcience! Surely if there is any thing in this life which a man may depend upon, and to the knowledge of which he is capable of arriving upon the moſt indiſputable evidence, it muſt be this very thing,—whether he has a good conſcience or no."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[I am poſitive I am right, quoth Dr. <hi>Slop.</hi>]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>
+                              <pb n="108" facs="tcp:0238000202:109"/>
+"If a man thinks at all, he cannot well be a ſtranger to the true ſtate of this account;—he muſt be privy to his own thoughts and deſires;—he muſt remember his paſt purſuits, and know certainly the true ſprings and motives, which, in general, have go<g ref="char:EOLhyphen"/>verned the actions of his life."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[I defy him, without an aſſiſtant, quoth Dr. <hi>Slop.</hi>]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"In other matters we may be deceived by falſe appearances; and, as the wiſe man: complains, <hi>hardly do we gueſs aright at the things that are upon the earth, and with labour do we find the things that are before us.</hi> But here the mind has all the evidence and facts within herſelf;—is conſcious of the web ſhe has wove;—knows its texture and
+<pb n="109" facs="tcp:0238000202:110"/>
+fineneſs, and the exact ſhare which every paſſion has had in working upon the ſeveral deſigns which virtue or vice has plann'd before her."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[The language is good, and I declare <hi>Trim</hi> reads very well, quoth my father.]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"Now,—as conſcience is nothing elſe but the knowledge which the mind has within herſelf of this; and the judg<g ref="char:EOLhyphen"/>ment, either of approbation or cenſure, which it unavoidably makes upon the ſucceſſive actions of our lives; 'tis plain you will ſay, from the very terms of the propoſition,—whenever this inward teſtimony goes againſt a man, and he ſtands ſelf-accuſed,—that he muſt ne<g ref="char:EOLhyphen"/>ceſſarily be a guilty man.—And, on the contrary, when the report is fa<g ref="char:EOLhyphen"/>vourable on his ſide, and his heart con<g ref="char:EOLhyphen"/>demns
+<pb n="110" facs="tcp:0238000202:111"/>
+him not;—that it is not a mater of <hi>truſt,</hi> as the Apoſtle intimates,—but a matter of <hi>certainty</hi> and fact, that the conſcience is good, and that the man muſt be good alſo."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[Then the Apoſtle is altogether in the wrong, I ſuppoſe, quoth Dr. <hi>Slop,</hi> and the Proteſtant divine is in the right. Sir, have patience, replied my father, for I think it will preſently appear that <hi>St. Paul</hi> and the Proteſtant divine are both of an opinion.—As nearly ſo, quoth Dr. <hi>Slop,</hi> as eaſt is to weſt;—but this, continued he, lifting both hands, comes from the liberty of the preſs.</p>
+               <p>It is no more, at the worſt, replied my uncle <hi>Toby,</hi> than the liberty of the pulpit; for it does not appear that the ſermon is printed, or ever likely to be.</p>
+               <p>
+                  <pb n="111" facs="tcp:0238000202:112"/>
+Go on, <hi>Trim,</hi> quoth my father.]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"At firſt ſight this may ſeem to be a true ſtate of the caſe; and I make no doubt but the knowledge of right and wrong is ſo truly impreſſed upon the mind of man,—that did no ſuch thing ever happen, as that the conſcience of a man, by long habits of ſin, might (as the ſcripture aſſures it may) inſen<g ref="char:EOLhyphen"/>ſibly become hard;—and, like ſome tender parts of his body, by much ſtreſs and continual hard uſage, loſe, by degrees, that nice ſenſe and per<g ref="char:EOLhyphen"/>ception with which God and nature endow'd it:—Did this never happen;—or was it certain that ſelf-love could never hang the leaſt bias upon the judgment;—or that the little intereſts below, could riſe up and perplex the faculties of our upper regions, and
+<pb n="112" facs="tcp:0238000202:113"/>
+encompaſs them about with clouds and thick darkneſs:—Could no ſuch thing as favour and affection enter this ſacred COURT:—Did WIT diſdain to take a bribe in it;—or was aſham'd to ſhew its face as an advocate for an unwarrantable enjoyment:—Or, laſtly, were we aſſured, that INTEREST ſtood always unconcern'd whilſt the cauſe was hearing,—and that paſſion never got into the judgment-ſeat, and pro<g ref="char:EOLhyphen"/>nounc'd ſentence in the ſtead of reaſon, which is ſuppoſed always to preſide and determine upon the caſe:—Was this truly ſo, as the objection muſt ſuppoſe;—no doubt then, the religious and moral ſtate of a man would be exactly what he himſelf eſteem'd it;—and the guilt or innocence of every man's life could be known, in general, by no better meaſure, than the de<g ref="char:EOLhyphen"/>grees
+<pb n="113" facs="tcp:0238000202:114"/>
+of his own approbation and cen<g ref="char:EOLhyphen"/>ſure."</p>
+                           <p>"I own, in one caſe, whenever a man's conſcience does accuſe him (as it ſel<g ref="char:EOLhyphen"/>dom errs on that ſide) that he is guil<g ref="char:EOLhyphen"/>ty; and, unleſs in melancholy and hy<g ref="char:EOLhyphen"/>pocondriac caſes, we may ſafely pro<g ref="char:EOLhyphen"/>nounce upon it, that there is always ſufficient grounds for the accuſation.</p>
+                           <p>"But the converſe of the propoſition will not hold true;—namely, that whenever there is guilt, the conſcience muſt accuſe; and if it does not, that a man is therefore innocent.—This is not fact:—So that the common con<g ref="char:EOLhyphen"/>ſolation which ſome good chriſtian or other is hourly adminiſtring to him<g ref="char:EOLhyphen"/>ſelf,—that he thanks God his mind does not miſgive him; and that, con<g ref="char:EOLhyphen"/>ſequently,
+<pb n="114" facs="tcp:0238000202:115"/>
+he has a good conſcience, becauſe he has a quiet one,—is falla<g ref="char:EOLhyphen"/>cious;—and as current as the inference is, and as infallible as the rule appears at firſt ſight, yet, when you look nearer to it, and try the truth of this rule upon plain facts,—you ſee it liable to ſo much error from a falſe application;—the principle upon which it goes ſo often perverted;—the whole force of it loſt, and ſometimes ſo vilely caſt away, that it is painful to produce the common examples from human life which confirm the account.</p>
+                           <p>"A man ſhall be vicious and utterly debauched in his principles;—excep<g ref="char:EOLhyphen"/>tionable in his conduct to the world; ſhall live ſhameleſs, in the open com<g ref="char:EOLhyphen"/>miſſion of a ſin which no reaſon or pre<g ref="char:EOLhyphen"/>tence can juſtify;—a ſin, by which
+<pb n="115" facs="tcp:0238000202:116"/>
+contrary to all the workings of huma<g ref="char:EOLhyphen"/>nity, he ſhall ruin for ever the deluded partner of his guilt;—rob her of her beſt dowry; and not only cover her own head with diſhonour,—but involve a whole virtuous family in ſhame and ſorrow for her ſake.—Surely, you will think conſcience muſt lead ſuch a man a troubleſome life;—he can have no reſt night or day from its reproaches.</p>
+                           <p>"Alas! CONSCIENCE had ſomething elſe to do, all this time, than break in upon him; as <hi>Elijah</hi> reproached the God <hi>Baal,</hi>—this domeſtic God <hi>was either talking, or purſuing, or was in a journey, or peradventure he ſlept and could not be awoke.</hi>
+                           </p>
+                           <p>"Perhaps HE was gone out in com<g ref="char:EOLhyphen"/>pany with HONOUR to fight a duel;
+<pb n="116" facs="tcp:0238000202:117"/>
+to pay off ſome debt at play;—or dirty annuity, the bargain of his luſt: Perhaps CONSCIENCE all this time was engaged at home, talking loud againſt petty larceny, and executing vengeance upon ſome ſuch puny crimes as his fortune and rank in life ſecured him againſt all temptation of committing; ſo that he lives as merrily," [If he was of our church tho', quoth Dr. <hi>Slop,</hi> he could not]—"ſleeps as ſoundly in his bed;—and at laſt meets death as un<g ref="char:EOLhyphen"/>concernedly;—perhaps much more ſo than a much better man."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>All this is impoſſible with us, quoth Dr. <hi>Slop,</hi> turning to my father,—the caſe could not happen in our church.—It happens in ours, however, replied my fa<g ref="char:EOLhyphen"/>ther, but too often.—I own, quoth Dr. <hi>Slop</hi> (ſtruck a little with my father's
+<pb n="117" facs="tcp:0238000202:118"/>
+frank acknowledgment)—that a man in the <hi>Romiſh</hi> church may live as badly;—but then he cannot eaſily die ſo.—'Tis little matter, replied my father, with an air of indifference,—how a raſcal dies.—I mean, anſwer'd Dr. <hi>Slop,</hi> he would be denied the benefits of the laſt ſacraments.—Pray how many have you in all, ſaid my uncle <hi>Toby,</hi>—for I always forget?—Seven, anſwered Dr. <hi>Slop.</hi>—Humph!—ſaid my uncle <hi>Toby</hi>;—tho' not accented as a note of acquieſcence,—but as an in<g ref="char:EOLhyphen"/>terjection of that particular ſpecies of ſur<g ref="char:EOLhyphen"/>prize, when a man, in looking into a drawer, finds more of a thing than he ex<g ref="char:EOLhyphen"/>pected.—Humph! replied my uncle <hi>Toby.</hi> Dr. <hi>Slop,</hi> who had an ear, underſtood my uncle <hi>Toby</hi> as well as if he had wrote a whole volume againſt the ſeven ſacra<g ref="char:EOLhyphen"/>ments.—Humph! replied Dr. <hi>Slop,</hi> (ſtating my uncle <hi>Toby</hi>'s argument over,
+<pb n="118" facs="tcp:0238000202:119"/>
+again to him)—Why, Sir, are there not ſeven cardinal virtues?—Seven mortal ſins?—Seven golden candle-ſticks?—Seven heavens?—'Tis more than I know, replied my uncle <hi>Toby.</hi>—Are there are not ſeven won<g ref="char:EOLhyphen"/>ders of the world?—Seven days of the creation?—Seven planets?—Seven plagues?—That there are, quoth my father, with a moſt affected gravity. But pri'thee, continued he, go on with the reſt of thy characters, <hi>Trim.</hi>]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"Another is ſordid, unmerciful," (here <hi>Trim</hi> waved his right-hand) "a ſtrait-hearted, ſelfiſh wretch, incapable either of private friendſhip or public ſpirit. Take notice how he paſſes by the wi<g ref="char:EOLhyphen"/>dow and orphan in their diſtreſs, and ſees all the miſeries incident to human life without a ſigh or a prayer." [And
+<pb n="119" facs="tcp:0238000202:120"/>
+pleaſe your Honours, cried <hi>Trim,</hi> I think this is a viler man than the other.]</p>
+                           <p>"Shall not conſcience riſe up and ſting him on ſuch occaſions?—No; thank God there is no occaſion; <hi>I pay every man his own</hi>;—<hi>I have no fornication to anſwer to my conſcience</hi>;—<hi>no faithleſs vows or promiſes to make up</hi>;—<hi>I have debauched no man's wife or child</hi>; <hi>thank God, I am not as other men, adulterers, unjuſt, or even as this libertine, who ſtands before me.</hi>"</p>
+                           <p>"A third is crafty and deſigning in his nature. View his whole life;—'tis nothing but a cunning contexture of dark arts and unequitable ſubterfuges, baſely to defeat the true intent of all laws,—plain dealing and the ſafe en<g ref="char:EOLhyphen"/>joyment of our ſeveral properties.—
+<pb n="120" facs="tcp:0238000202:121"/>
+You will ſee ſuch a one working out a frame of little deſigns upon the ig<g ref="char:EOLhyphen"/>norance and perplexities of the poor and needy man;—ſhall raiſe a fortune upon the inexperience of a youth, or the unſuſpecting temper of his friend, who would have truſted him with his life.</p>
+                           <p>"When old age comes on, and re<g ref="char:EOLhyphen"/>pentance calls him to look back upon this black account, and ſtate it over again with his conſcience,—CON<g ref="char:EOLhyphen"/>SCIENCE looks into the STATUTES at LARGE;—finds no expreſs law broken by what he has done;—perceives no penalty or forfeiture of goods and chat<g ref="char:EOLhyphen"/>tels incurred;—ſees no ſcourge waving over his head, or priſon opening his gates upon him:—What is there to affright his conſcience?—Conſcience
+<pb n="121" facs="tcp:0238000202:122"/>
+has got ſafely entrenched behind the Letter of the Law; ſits there invul<g ref="char:EOLhyphen"/>nerable, fortified with <hi>Caſes</hi> and <hi>Re<g ref="char:EOLhyphen"/>ports</hi> ſo ſtrongly on all ſides;—that it is not preaching can diſpoſſeſs it of its hold."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[Here Corporal <hi>Trim</hi> and my uncle <hi>Toby</hi> exchanged looks with each other.—Aye,—aye, <hi>Trim!</hi> quoth my uncle <hi>Toby,</hi> ſhaking his head,—theſe are but ſorry fortifications, <hi>Trim.</hi>—O! very poor work, anſwered <hi>Trim,</hi> to what your Ho<g ref="char:EOLhyphen"/>nour and I make of it.—The cha<g ref="char:EOLhyphen"/>racter of this laſt man, ſaid Dr. <hi>Slop,</hi> in<g ref="char:EOLhyphen"/>terrupting <hi>Trim,</hi> is more deteſtable than all the reſt;—and ſeems to have been taken from ſome pettifogging Law<g ref="char:EOLhyphen"/>yer amongſt you:—Amongſt us, a man's conſcience could not poſſibly con<g ref="char:EOLhyphen"/>tinue ſo long <hi>blinded</hi>;—three times in
+<pb n="122" facs="tcp:0238000202:123"/>
+a year, at leaſt, he muſt go to confeſſion. Will that reſtore it to ſight, quoth my uncle <hi>Toby?</hi>—Go on, <hi>Trim,</hi> quoth my father, or <hi>Obadiah</hi> will have got back before thou haſt got to the end of thy ſermon;—'tis a very ſhort one, replied <hi>Trim.</hi>—I wiſh it was longer, quoth my uncle <hi>Toby,</hi> for I like it hugely.—<hi>Trim</hi> went on.]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"A fourth man ſhall want even this refuge;—ſhall break through all this ceremony of ſlow chicane;—ſcorns the doubtful workings of ſecret plots and cautious trains to bring about his purpoſe:—See the bare-faced villain, how he cheats, lies, perjures, robs, murders.—Horrid!—But indeed much better was not to be expected, in the preſent caſe,—the poor man was in the dark!—his prieſt had got
+<pb n="123" facs="tcp:0238000202:124"/>
+the keeping of his conſcience;—and all he would let him know of it, was, That he muſt believe in the Pope;—go to Maſs;—croſs himſelf;—tell his beads;—be a good Catholic, and that this, in all conſcience, was enough to carry him to heaven. What;—if he perjures!—Why;—he had a men<g ref="char:EOLhyphen"/>tal reſervation in it.—But if he is ſo wicked and abandoned a wretch as you repreſent him;—if he robs,—if he ſtabs,—will not conſcience, on every ſuch act, receive a wound itſelf? Aye,—but the man has carried it to con<g ref="char:EOLhyphen"/>feſſion;—the wound digeſts there, and will do well enough, and in a ſhort time be quite healed up by ab<g ref="char:EOLhyphen"/>ſolution. O Popery! what haſt thou to anſwer for?—when, not content with the too many natural and fatal ways, thro' which the heart of man is
+<pb n="124" facs="tcp:0238000202:125"/>
+every day thus treacherous to itſelf above all things;—thou haſt wilfully ſet open this wide gate of deceit before the face of this unwary traveller, too apt, God knows, to go aſtray of him<g ref="char:EOLhyphen"/>ſelf; and confidently ſpeak peace to himſelf, when there is no peace.</p>
+                           <p>"Of this the common inſtances which I have drawn out of life, are too no<g ref="char:EOLhyphen"/>torious to require much evidence. If any man doubts the reality of them, or thinks it impoſſible for a man to be ſuch a bubble to himſelf,—I muſt refer him a moment to his own reflections, and will then venture to truſt my ap<g ref="char:EOLhyphen"/>peal with his own heart.</p>
+                           <p>"Let him conſider in how different a degree of deteſtation, numbers of wicked actions ſtand <hi>there,</hi> tho' equally
+<pb n="125" facs="tcp:0238000202:126"/>
+bad and vicious in their own natures;—he will ſoon find that ſuch of them, as ſtrong inclination and cuſtom have prompted him to commit, are gene<g ref="char:EOLhyphen"/>rally dreſs'd out and painted with all the falſe beauties, which a ſoft and a flattering hand can give them;—and that the others, to which he feels no propenſity, appear, at once, naked and deformed, ſurrounded with all the true circumſtances of folly and diſ<g ref="char:EOLhyphen"/>honour.</p>
+                           <p>"When <hi>David</hi> ſurprized <hi>Saul</hi> ſleep<g ref="char:EOLhyphen"/>ing in the cave, and cut off the ſkirt of his robe,—we read his heart ſmote him for what he had done:—But in the matter of <hi>Uriah,</hi> where a faithful and gallant ſervant, whom he ought to have loved and honoured, fell to make way for his luſt,—where con<g ref="char:EOLhyphen"/>ſcience
+<pb n="126" facs="tcp:0238000202:127"/>
+had ſo much greater reaſon to take the alarm, his heart ſmote him not. A whole year had almoſt paſſed from the firſt commiſſion of that crime, to the time <hi>Nathan</hi> was ſent to reprove him; and we read not once of the leaſt ſorrow or compunction of heart which he teſtified, during all that time, for what he had done.</p>
+                           <p>"Thus conſcience, this once able mo<g ref="char:EOLhyphen"/>nitor,—placed on high as a judge within us, and intended by our maker as a juſt and equitable one too,—by an unhappy train of cauſes and impe<g ref="char:EOLhyphen"/>diments, takes often ſuch imperfect cognizance of what paſſes,—does its office ſo negligently,—ſometimes ſo corruptly,—that it is not to be truſted alone; and therefore we find there is a neceſſity, an abſolute neceſſity of
+<pb n="127" facs="tcp:0238000202:128"/>
+joining another principle with it to aid, if not govern, its determinations.</p>
+                           <p>"So that if you would form a juſt judgment of what is of infinite impor<g ref="char:EOLhyphen"/>tance to you not to be miſled in,—namely, in what degree of real merit you ſtand either as an honeſt man, an uſeful citizen, a faithful ſubject to your king, or a good ſervant to your God,—call in religion and morality.—Look,—What is written in the law of God?—How readeſt thou?—Conſult calm reaſon and the unchangeable ob<g ref="char:EOLhyphen"/>ligations of juſtice and truth;—what ſay they?</p>
+                           <p>"Let CONSCIENCE determine the matter upon theſe reports;—and then if they heart condemns thee not, which is the caſe the Apoſtle ſuppoſes,—the
+<pb n="128" facs="tcp:0238000202:129"/>
+rule will be infallible;" [Here Dr. <hi>Slop</hi> fell aſleep] "<hi>thou wilt have confidence to<g ref="char:EOLhyphen"/>wards God</hi>;—that is, have juſt grounds to believe the judgment thou haſt paſt upon thyſelf, is the judgment of God; and nothing elſe but an anticipation of that righteous ſentence which will be pronounced upon thee hereafter by that Being, to whom thou art finally to give an account of thy actions.</p>
+                           <p>"<hi>Bleſſed is the man,</hi> indeed then, as the author of the book of <hi>Eccleſiaſticus</hi> expreſſes it, <hi>who is not prick'd with the multitude of his ſins: Bleſſed is the man whoſe heart hath not condemn'd him</hi>; <hi>whether he be rich, or whether he be poor, if he have a good heart</hi> (a heart thus guided and informed) <hi>he ſhall at all times rejoice in a chearful counte<g ref="char:EOLhyphen"/>nance</hi>; <hi>his mind ſhall tell him more than</hi>
+                              <pb n="129" facs="tcp:0238000202:130"/>
+                              <hi>ſeven watch-men that ſit above upon a tower on high.</hi>"—[A tower has no ſtrength, quoth my uncle <hi>Toby,</hi> un<g ref="char:EOLhyphen"/>leſs 'tis flank'd.] "In the darkeſt doubts it ſhall conduct him ſafer than a thou<g ref="char:EOLhyphen"/>ſand caſuiſts, and give the ſtate he lives in a better ſecurity for his beha<g ref="char:EOLhyphen"/>viour than all the clauſes and re<g ref="char:EOLhyphen"/>ſtrictions put together, which law<g ref="char:EOLhyphen"/>makers are forced to multiply:—<hi>Forced,</hi> I ſay, as things ſtand; hu<g ref="char:EOLhyphen"/>man laws not being a matter of ori<g ref="char:EOLhyphen"/>ginal choice, but of pure neceſſity, brought in to fence againſt the miſ<g ref="char:EOLhyphen"/>chievous effects of thoſe conſciences which are no law unto themſelves; well intending, by the many provi<g ref="char:EOLhyphen"/>ſions made,—that in all ſuch cor<g ref="char:EOLhyphen"/>rupt and miſguided caſes, where prin<g ref="char:EOLhyphen"/>ciples and the checks of conſcience will not make us upright,—to
+<pb n="130" facs="tcp:0238000202:131"/>
+ſupply their force, and, by the ter<g ref="char:EOLhyphen"/>rors of goals and halters, oblige us to it."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[I ſee plainly, ſaid my father, that this ſermon has been compoſed to be preached at the Temple,—or at ſome Aſſize.—I like the reaſoning,—and <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſorry that Dr. <hi>Slop</hi> has fallen aſleep before the time of his conviction;—for it is now clear, that the Parſon, as I thought at firſt, never inſulted St. <hi>Paul</hi> in the leaſt;—nor has there been, bro<g ref="char:EOLhyphen"/>ther, the leaſt difference between them.—A great matter, if they had dif<g ref="char:EOLhyphen"/>fered, replied my uncle <hi>Toby,</hi>—the beſt friends in the world may differ ſome<g ref="char:EOLhyphen"/>times.—True,—brother <hi>Toby,</hi> quoth my father, ſhaking hands with him,—we'll fill our pipes, brother, and then. <hi>Trim</hi> ſhall go on.</p>
+               <p>
+                  <pb n="131" facs="tcp:0238000202:132"/>
+Well,—what doſt thou think of it? ſaid my father, ſpeaking to Corporal <hi>Trim,</hi> as he reach'd his tobacco-box.</p>
+               <p>I think, anſwer'd the Corporal, that the ſeven watch-men upon the tower, who, I ſuppoſe, are all centinels there,—are more, an' pleaſe your Honour, than were neceſſary;—and, to go on at that rate, would harraſs a regiment all to pieces, which a commanding officer, who loves his men, will never do, if he can help it; becauſe two centinels, added the Corporal, are as good as twenty.—I have been a commanding officer myſelf in the <hi>Corps de Garde</hi> a hundred times, continued <hi>Trim,</hi> riſing an inch higher in his figure, as he ſpoke,—and all the time I had the ho<g ref="char:EOLhyphen"/>nour to ſerve his Majeſty King <hi>William,</hi> in relieving the moſt conſiderable poſts, I never left more than two in my life.—
+<pb n="132" facs="tcp:0238000202:133"/>
+Very right, <hi>Trim,</hi> quoth my uncle <hi>Toby,</hi>—but you do not conſider, <hi>Trim,</hi> that the towers, in <hi>Solomon</hi>'s days, were not ſuch things as our baſtions, flank'd and defended by other works;—this, <hi>Trim,</hi> was an invention ſince <hi>Solomon</hi>'s death; nor had they horn-works, or ravelins be<g ref="char:EOLhyphen"/>fore the curtin, in his time;—or ſuch a foſsé as we make with a cuvette in the middle of it, and with cover'd-ways and counterſcarps palliſadoed along it, to guard againſt a <hi>Coup de main:</hi>—So that the ſeven men upon the tower were a party, I dare ſay, from the <hi>Corps de Garde,</hi> ſet there, not only to look out, but to defend it.—They could be no more, an' pleaſe your Honour, than a Corporal's Guard.—My father ſmiled inwardly,—but not outwardly;—the ſubject between my uncle <hi>Toby</hi> and Corporal <hi>Trim</hi> being rather too ſerious, conſidering what had
+<pb n="133" facs="tcp:0238000202:134"/>
+happened, to make a jeſt of:—So put<g ref="char:EOLhyphen"/>ting his pipe into his mouth, which he had juſt lighted,—he contented himſelf with ordering <hi>Trim</hi> to read on. He read on as follows:]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"To have the fear of God before our eyes, and, in our mutual dealings with each other, to govern our actions by the eternal meaſures of right and wrong:—The firſt of theſe will comprehend the duties of religion;—the ſecond, thoſe of morality, which are ſo inſeparably connected together, that you cannot divide theſe two <hi>tables,</hi> even in imagi<g ref="char:EOLhyphen"/>nation (tho' the attempt is often made in practice) without breaking and mu<g ref="char:EOLhyphen"/>tually deſtroying them both.</p>
+                           <p>"I ſaid the attempt is often made, and ſo it is;—there being nothing
+<pb n="134" facs="tcp:0238000202:135"/>
+more common than to ſee a man who has no ſenſe at all of religion,—and in<g ref="char:EOLhyphen"/>deed has ſo much honeſty as to pre<g ref="char:EOLhyphen"/>tend to none, who would take it as the bittereſt affront, ſhould you but hint at a ſuſpicion of his moral character,—or imagine he was not conſcientiouſly juſt and ſcrupulous to the uttermoſt mite.</p>
+                           <p>"When there is ſome appearance that it is ſo,—tho' one is unwilling even to ſuſpect the appearance of ſo amiable a virtue as moral honeſty, yet were we to look into the grounds of it, in the preſent caſe, I am perſuaded we ſhould find little reaſon to envy ſuch a one the honour of his motive.</p>
+                           <p>"Let him declaim as pompouſly as he chooſes upon the ſubject, it will
+<pb n="135" facs="tcp:0238000202:136"/>
+be found to reſt upon no better foun<g ref="char:EOLhyphen"/>dation than either his intereſt, his pride, his eaſe, or ſome ſuch little and change<g ref="char:EOLhyphen"/>able paſſion as will give us but ſmall dependance upon his actions in matters of great ſtreſs.</p>
+                           <p>"I will illuſtrate this by an ex<g ref="char:EOLhyphen"/>ample.</p>
+                           <p>"I know the banker I deal with, or the phyſician I uſually call in," [There is no need, cried Dr. <hi>Slop,</hi> (waking) to call in any phyſician in this caſe] "to be neither of them men of much religion: I hear them make a jeſt of it every day, and treat all its ſanctions with ſo much ſcorn, as to put the matter paſt doubt. Well;—notwithſtanding this, I put my fortune into the hands of the one;—and what is dearer ſtill to me,
+<pb n="136" facs="tcp:0238000202:137"/>
+I truſt my life to the honeſt ſkill of the other.</p>
+                           <p>"Now, let me examine what is my reaſon for this great confidence.—Why, in the firſt place, I believe there is no probability that either of them will employ the power I put into their hands to my diſadvantage;—I con<g ref="char:EOLhyphen"/>ſider that honeſty ſerves the purpoſes of this life:—I know their ſucceſs in the world depends upon the fairneſs of their characters.—In a word,—I'm perſuaded that they cannot hurt me, without hurting themſelves more.</p>
+                           <p>"But put it otherwiſe, namely, that intereſt lay, for once, on the other ſide; that a caſe ſhould happen, wherein the one, without ſtain to his reputation, could ſecrete my fortune, and leave
+<pb n="137" facs="tcp:0238000202:138"/>
+me naked in the world;—or that the other could ſend me out of it, and en<g ref="char:EOLhyphen"/>joy an eſtate by my death, without diſhonour to himſelf or his art:—In this caſe, what hold have I of either of them?—Religion, the ſtrongeſt of all motives, is out of the queſtion:—In<g ref="char:EOLhyphen"/>tereſt, the next moſt powerful motive in the world, is ſtrongly againſt me:—What have I left to caſt into the oppo<g ref="char:EOLhyphen"/>ſite ſcale to balance this temptation?—Alas! I have nothing,—nothing but what is lighter than a bubble—I muſt lay at the mercy of HONOUR, or ſome ſuch capricious principle.—Strait ſecu<g ref="char:EOLhyphen"/>rity for two of my moſt valuable bleſ<g ref="char:EOLhyphen"/>ſings!—my property and my life.</p>
+                           <p>"As, therefore, we can have no de<g ref="char:EOLhyphen"/>pendence upon morality without reli<g ref="char:EOLhyphen"/>gion;—ſo, on the other hand, there is
+<pb n="138" facs="tcp:0238000202:139"/>
+nothing better to be expected from religion without morality;—neverthe<g ref="char:EOLhyphen"/>leſs, 'tis no prodigy to ſee a man whoſe real moral character ſtands very low, who yet entertains the higheſt notion of himſelf, in the light of a religious man.</p>
+                           <p>"He ſhall not only be covetous, re<g ref="char:EOLhyphen"/>vengeful, implacable,—but even wanting in points of common ho<g ref="char:EOLhyphen"/>neſty; yet, inaſmuch as he talks aloud againſt the infidelity of the age,—is zealous for ſome points of reli<g ref="char:EOLhyphen"/>gion,—goes twice a day to church,—attends the ſacraments,—and amuſes himſelf with a few inſtrumental parts of religion,—ſhall cheat his conſcience into a judgment that, for this, he is a religious man, and has diſcharged truly his duty to God:
+<pb n="139" facs="tcp:0238000202:140"/>
+And you will find that ſuch a man, through force of this deluſion, gene<g ref="char:EOLhyphen"/>rally looks down with ſpiritual pride upon every other man who has leſs affectation of piety,—though, perhaps, ten times more moral honeſty than, himſelf.</p>
+                           <p>"<hi>This likewiſe is a ſore evil under the ſun</hi>; and, I believe there is no one mi<g ref="char:EOLhyphen"/>ſtaken principle, which, for its time, has wrought more ſerious miſchiefs.—For a general proof of this,—examine the hiſtory of the <hi>Romiſh</hi> church;"—[Well, what can you make of that, cried Dr. <hi>Slop?</hi>]—"ſee what ſcenes of cru<g ref="char:EOLhyphen"/>elty, murders, rapines, blood-ſhed," [They may thank their own obſtinacy, cried Dr. <hi>Slop</hi>] "have all been ſanctified by a religion not ſtrictly governed by morality.</p>
+                           <p>
+                              <pb n="140" facs="tcp:0238000202:141"/>
+"In how many kingdoms of the world," [Here <hi>Trim</hi> kept waving his right-hand from the ſermon to the extent of his arm, returning it backwards and forwards to the concluſion of the paragraph.]</p>
+                           <p>"In how many kingdoms of the world has the cruſading ſword of this miſ<g ref="char:EOLhyphen"/>guided ſaint-errant ſpared neither age, or merit, or ſex, or condition?—and, as he fought under the banners of a religion which ſet him looſe from ju<g ref="char:EOLhyphen"/>ſtice and humanity, he ſhew'd none; mercileſsly trampled upon both,—heard neither the cries of the unfortu<g ref="char:EOLhyphen"/>nate, nor pitied their diſtreſſes."</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[I have been in many a battle, an' pleaſe your Honour, quoth <hi>Trim,</hi> ſighing, but never in ſo melancholy a one as this.—I would not have drawn a tricker
+<pb n="141" facs="tcp:0238000202:142"/>
+in it, againſt theſe poor ſouls,—to have been made a general officer.—Why? what do you underſtand of the affair? ſaid Dr. <hi>Slop,</hi> looking towards <hi>Trim</hi> with ſomething more contempt than the Corporal's honeſt heart deſerved.—What do you know, friend, about this battle you talk of?—I know, replied <hi>Trim,</hi> that I never refuſed quarter in my life to any man who cried out for it;—but to a woman or a child, continued <hi>Trim,</hi> before I would level my muſket at them, I would loſe my life a thou<g ref="char:EOLhyphen"/>ſand times.—Here's a crown for thee, <hi>Trim,</hi> to drink with <hi>Obadiah</hi> to-night, quoth my uncle <hi>Toby,</hi> and I'll give <hi>Oba<g ref="char:EOLhyphen"/>diah</hi> another too.—God bleſs your Ho<g ref="char:EOLhyphen"/>nour, replied <hi>Trim,</hi>—I had rather theſe poor women and children had it.—Thou art an honeſt fellow, quoth my uncle <hi>Toby.</hi>—My father nodded his
+<pb n="142" facs="tcp:0238000202:143"/>
+head,—as much as to ſay,—and ſo he is.—</p>
+               <p>But pri'thee <hi>Trim,</hi> ſaid my father, make an end,—for I ſee thou haſt but a leaf or two left.]</p>
+               <p>Corporal <hi>Trim</hi> read on.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"If the teſtimony of paſt centuries in this matter is not ſufficient,—con<g ref="char:EOLhyphen"/>ſider at this inſtant, how the votaries of that religion are every day thinking to do ſervice and honour to God, by actions which are a diſhonour and ſcan<g ref="char:EOLhyphen"/>dal to themſelves.</p>
+                           <p>"To be convinced of this, go with me for a moment into the priſons of the inquiſition." [God help my poor brother <hi>Tom.</hi>]—"Behold <hi>Religion,</hi> with
+<pb n="143" facs="tcp:0238000202:144"/>
+                              <hi>Mercy</hi> and <hi>Juſtice</hi> chained down under her feet,—there ſitting ghaſtly upon a black tribunal, propp'd up with racks and inſtruments of torment. Hark!—hark! what a piteous groan!" [Here <hi>Trim</hi>'s face turned as pale as aſhes.] "See the melancholy wretch who ut<g ref="char:EOLhyphen"/>ter'd it,"—[Here the tears began to trickle down] "juſt brought forth to un<g ref="char:EOLhyphen"/>dergo the anguiſh of a mock trial, and endure the utmoſt pains that a ſtudied ſyſtem of cruelty has been able to in<g ref="char:EOLhyphen"/>vent."—[D<gap reason="blank" resp="#OXF" extent="1+ letters">
+                                 <desc>_…</desc>
+                              </gap>n them all, quoth <hi>Trim,</hi> his colour returning into his face as red as blood.]—"Behold this helpleſs victim delivered up to his tormentors,—his body ſo waſted with ſorrow and con<g ref="char:EOLhyphen"/>finement."—[Oh! 'tis my brother, cried poor <hi>Trim</hi> in a moſt paſſionate exclamation, dropping the ſermon upon the ground, and clapping his hands to<g ref="char:EOLhyphen"/>gether
+<pb n="144" facs="tcp:0238000202:145"/>
+—I fear 'tis poor <hi>Tom.</hi> My fa<g ref="char:EOLhyphen"/>ther's and my uncle <hi>Toby</hi>'s hearts yearn'd with ſympathy for the poor fellow's di<g ref="char:EOLhyphen"/>ſtreſs,—even <hi>Slop</hi> himſelf acknowledged pity for him.—Why, <hi>Trim,</hi> ſaid my fa<g ref="char:EOLhyphen"/>ther, this is not a hiſtory,—'tis a ſermon thou art reading;—pri'thee begin the ſentence again.]—"Behold this helpleſs victim deliver'd up to his tormentors,—his body ſo waſted with ſorrow and confinement, you will ſee every nerve and muſcle as it ſuffers.</p>
+                           <p>"Obſerve the laſt movement of that horrid engine!" [I would rather face a cannon, quoth <hi>Trim,</hi> ſtamping.]—"See what convulſions it has thrown him into!—Conſider the nature of the poſture in which he now lies ſtretched,—what exquiſite tortures he endures by it!"—[I hope 'tis not in
+<pb n="145" facs="tcp:0238000202:146"/>
+                              <hi>Portugal.</hi>]—"'Tis all nature can bear! Good God! ſee how it keeps his weary ſoul hanging upon his trembling lips!"</p>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>[I would not read another line of it, quoth <hi>Trim,</hi> for all this world;—I fear, an' pleaſe your Honours, all this is in <hi>Portugal,</hi> where my poor brother <hi>Tom</hi> is. I tell thee, <hi>Trim,</hi> again, quoth my father, 'tis not an hiſtorical account,—'tis a de<g ref="char:EOLhyphen"/>ſcription.—'Tis only a deſcription, honeſt man, quoth <hi>Slop,</hi> there's not a word of truth in it.—That's another ſtory, replied my father.—However, as <hi>Trim</hi> reads it with ſo much concern,—'tis cruelty to force him to go on with it.—Give me hold of the ſermon, <hi>Trim,</hi>—I'll finiſh it for thee, and thou mayſt go. I muſt ſtay and hear it too, replied <hi>Trim,</hi> if your Ho<g ref="char:EOLhyphen"/>nour will allow me;—tho' I would not read it myſelf for a Colonel's pay.—
+<pb n="146" facs="tcp:0238000202:147"/>
+Poor <hi>Trim!</hi> quoth my uncle <hi>Toby.</hi> My father went on.]</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="sermon__continued">
+                           <p>"—Conſider the nature of the poſture in which he now lies ſtretch'd,—what exquiſite torture he endures by it!—'Tis all nature can bear!—Good God! See how it keeps his weary ſoul hang<g ref="char:EOLhyphen"/>ing upon his trembling lips,—willing to take its leave,—but not ſuffered to depart!—Behold the unhappy wretch led back to his cell!" [Then, thank God, however, quoth <hi>Trim,</hi> they have not killed him]—"See him dragg'd out of it again to meet the flames, and the inſults in his laſt agonies, which this principle,—this principle, that there can be religion without mercy, has prepared for him." [Then, thank God,—he is dead, quoth <hi>Trim,</hi>—he is
+<pb n="147" facs="tcp:0238000202:148"/>
+out of his pain,—and they have done their worſt at him.—O Sirs!—Hold your peace, <hi>Trim,</hi> ſaid my father, going on with the ſermon, leſt <hi>Trim</hi> ſhould in<g ref="char:EOLhyphen"/>cenſe Dr. <hi>Slop,</hi>—we ſhall never have done at this rate.]</p>
+                           <p>"The ſureſt way to try the merit of any diſputed notion is, to trace down the conſequences ſuch a notion has produced, and compare them with the ſpirit of Chriſtianity;—'tis the ſhort and deciſive rule which our Saviour hath left us, for theſe and ſuch-like caſes, and it is worth a thouſand ar<g ref="char:EOLhyphen"/>guments,—<hi>By their fruits ye ſhall know them.</hi>
+                           </p>
+                           <p>"I will add no further to the length of this ſermon, than, by two or three
+<pb n="148" facs="tcp:0238000202:149"/>
+ſhort and independent rules deducible from it.</p>
+                           <p>"<hi>Firſt,</hi> Whenever a man talks loudly againſt religion,—always ſuſpect that it is not his reaſon, but his paſſions which have got the better of his CREED. A bad life and a good belief are diſagree<g ref="char:EOLhyphen"/>able and troubleſome neighbours, and where they ſeparate, depend upon it, 'tis for no other cauſe but quietneſs ſake.</p>
+                           <p>"<hi>Secondly,</hi> When a man, thus repreſen<g ref="char:EOLhyphen"/>ted, tells you in any particular inſtance,—That ſuch a thing goes <hi>againſt</hi> his conſcience,—always believe he means exactly the ſame thing, as when he tells you ſuch a thing goes <hi>againſt</hi> his ſto<g ref="char:EOLhyphen"/>mach;—a preſent want of appetite being generally the true cauſe of both.</p>
+                           <p>
+                              <pb n="149" facs="tcp:0238000202:150"/>
+"In a word,—truſt that man in no<g ref="char:EOLhyphen"/>thing, who has not a CONSCIENCE in every thing.</p>
+                           <p>"And, in your own caſe, remember this plain diſtinction, a miſtake in which has ruined thouſands,—that your conſcience is not a law:—No, God and reaſon made the law, and have placed conſcience within you to determine;—not like an <hi>Aſiatic</hi> Cadi, according to the ebbs and flows of his own paſſions,—but like a <hi>Britiſh</hi> judge in this land of liberty and good ſenſe, who makes no new law, but faithfully declares that law which he knows al<g ref="char:EOLhyphen"/>ready written."</p>
+                           <trailer>FINIS.</trailer>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>
+                  <pb n="150" facs="tcp:0238000202:151"/>
+Thou haſt read the ſermon extremely well, <hi>Trim,</hi> quoth my father.—If he had ſpared his comments, replied Dr. <hi>Slop,</hi> he would have read it much better. I ſhould have read it ten times better, Sir, anſwered <hi>Trim,</hi> but that my heart was ſo full.—That was the very reaſon, <hi>Trim,</hi> replied my father, which has made thee read the ſermon as well as thou haſt done; and if the clergy of our church, continued my father, addreſſing himſelf to Dr. <hi>Slop,</hi> would take part in what they deliver, as deeply as this poor fellow has done,—as their compoſitions are fine; (I deny it, quoth Dr. <hi>Slop</hi>) I maintain it, that the eloquence of our pulpits, with ſuch ſub<g ref="char:EOLhyphen"/>jects to inflame it,—would be a model for the whole world:—But, alas! con<g ref="char:EOLhyphen"/>tinued my father, and I own it, Sir, with ſorrow, that, like <hi>French</hi> politicians in this reſpect, what they gain in the cabinet
+<pb n="151" facs="tcp:0238000202:152"/>
+they loſe in the field.—'Twere a pity, quoth my uncle, that this ſhould be loſt. I like the ſermon well, replied my fa<g ref="char:EOLhyphen"/>ther,—'tis dramatic,—and there is ſomething in that way of writing, when ſkilfully managed, which catches the at<g ref="char:EOLhyphen"/>tention.—We preach much in that way with us, ſaid Dr. <hi>Slop.</hi>—I know that very well, ſaid my father,—but in a tone and manner which diſguſted Dr. <hi>Slop,</hi> full as much as his aſſent, ſimply, could have pleaſed him.—But in this, added Dr. <hi>Slop,</hi> a little piqued,—our ſermons have greatly the advantage, that we ne<g ref="char:EOLhyphen"/>ver introduce any character into them below a patriarch or a patriarch's wife, or a martyr or a ſaint.—There are ſome very bad characters in this, however, ſaid my father, and I do not think the ſermon a jot the worſe for 'em.—But pray, quoth my uncle <hi>Toby,</hi>—who's can this
+<pb n="152" facs="tcp:0238000202:153"/>
+be?—How could it get into my <hi>Stevi<g ref="char:EOLhyphen"/>nus?</hi> A man muſt be as great a conjurer as <hi>Stevinus,</hi> ſaid my father, to reſolve the ſecond queſtion:—The firſt, I think, is not ſo difficult;—for unleſs my judg<g ref="char:EOLhyphen"/>ment greatly deceives me,—I know the author, for 'tis wrote, certainly, by the parſon of the pariſh.</p>
+               <p>The ſimilitude of the ſtile and man<g ref="char:EOLhyphen"/>ner of it, with thoſe my father con<g ref="char:EOLhyphen"/>ſtantly had heard preach'd in his pa<g ref="char:EOLhyphen"/>riſh-church, was the ground of his con<g ref="char:EOLhyphen"/>jecture,—proving it as ſtrongly, as an argument <hi>à priori,</hi> could prove ſuch a thing to a philoſophic mind, That it was <hi>Yorick</hi>'s and no one's elſe:—It was proved to be ſo <hi>à poſteriori,</hi> the day after, when <hi>Yorick</hi> ſent a ſer<g ref="char:EOLhyphen"/>vant to my uncle <hi>Toby</hi>'s houſe to enquire after it.</p>
+               <p>
+                  <pb n="153" facs="tcp:0238000202:154"/>
+It ſeems that <hi>Yorick,</hi> who was inqui<g ref="char:EOLhyphen"/>ſitive after all kinds of knowledge, had borrowed <hi>Stevinus</hi> of my uncle <hi>Toby,</hi> and had careleſly popp'd his ſermon, as ſoon as he had made it, into the middle of <hi>Stevinus</hi>; and, by an act of forgetfulneſs, to which he was ever ſubject, he had ſent <hi>Stevinus</hi> home, and his ſermon to keep him company.</p>
+               <p>Ill-fated ſermon! Thou waſt loſt, after this recovery of thee, a ſecond time, dropp'd thro' an unſuſpected fiſſure in thy maſter's pocket, down into a trea<g ref="char:EOLhyphen"/>cherous and a tatter'd lining,—trod deep into the dirt by the left hind foot of his Roſinante, inhumanly ſtepping upon thee as thou falledſt;—buried ten days in the mire,—raiſed up out of it by a beggar, ſold for a halfpenny to a pariſh-clerk,—transferred to his parſon,—loſt for ever
+<pb n="154" facs="tcp:0238000202:155"/>
+to thy own, the remainder of his days,—nor reſtored to his reſtleſs MANES till this very moment, that I tell the world the ſtory.</p>
+               <p>Can the reader believe, that this ſer<g ref="char:EOLhyphen"/>mon of <hi>Yorick</hi>'s was preach'd at an aſſize, in the cathedral of <hi>York,</hi> before a thou<g ref="char:EOLhyphen"/>ſand witneſſes, ready to give oath of it, by a certain prebendary of that church, and actually printed by him when he had done,—and within ſo ſhort a ſpace as two years and three months after <hi>Yorick</hi>'s death.—<hi>Yorick,</hi> indeed, was never better ſerved in his life!—but it was a little hard to male-treat him after, and plun<g ref="char:EOLhyphen"/>der him after he was laid in his grave.</p>
+               <p>However, as the gentleman who did it, was in perfect charity with <hi>Yorick,</hi>—and, in conſcious juſtice, printed but a
+<pb n="155" facs="tcp:0238000202:156"/>
+few copies to give away;—and that, I am told, he could moreover have made as good a one himſelf, had he thought fit,—I declare I would not have publiſhed this anecdote to the world;—nor do I publiſh it with an intent to hurt his cha<g ref="char:EOLhyphen"/>racter and advancement in the church;—I leave that to others;—but I find my<g ref="char:EOLhyphen"/>ſelf impelled by two reaſons, which I cannot withſtand.</p>
+               <p>The firſt is, That, in doing juſtice, I may give reſt to <hi>Yorick</hi>'s ghoſt;—which, as the country people,—and ſome others, believe,—<hi>ſtill walks.</hi>
+               </p>
+               <p>The ſecond reaſon is, That, by laying open this ſtory to the world, I gain an opportunity of informing it,—That in caſe the character of parſon <hi>Yorick,</hi> and this ſample of his ſermons is liked,—that
+<pb n="156" facs="tcp:0238000202:157"/>
+there are now in the poſſeſſion of the <hi>Shandy</hi> family, as many as will make a handſome volume, at the world's ſer<g ref="char:EOLhyphen"/>vice,—and much good may they do it.</p>
+            </div>
+            <div n="18" type="chapter">
+               <head>CHAP. XVIII.</head>
+               <p>OBADIAH gain'd the two crowns without diſpute; for he came in jingling, with all the inſtruments in the green bays bag we ſpoke of, ſlung acroſs his body, juſt as Corporal <hi>Trim</hi> went out of the room.</p>
+               <p>It is now proper, I think, quoth Dr. <hi>Slop</hi> (clearing up his looks) as we are in a condition to be of ſome ſervice to Mrs. <hi>Shandy,</hi> to ſend up ſtairs to know how ſhe goes on.</p>
+               <p>
+                  <pb n="157" facs="tcp:0238000202:158"/>
+I have ordered, anſwered my father, the old midwife to come down to us upon the leaſt difficulty;—for you muſt know, Dr. <hi>Slop,</hi> continued my fa<g ref="char:EOLhyphen"/>ther, with a perplexed kind of a ſmile upon his countenance, that by expreſs treaty, ſolemnly ratified between me and my wife, you are no more than an auxi<g ref="char:EOLhyphen"/>liary in this affair,—and not ſo much as that,—unleſs the lean old mother of a midwife above ſtairs cannot do without you.—Women have their particular fancies, and in points of this nature, continued my father, where they bear the whole burden, and ſuffer ſo much acute pain for the advantage of our families, and the good of the ſpe<g ref="char:EOLhyphen"/>cies,—they claim a right of deciding, <hi>en Soveraines,</hi> in whoſe hands, and in what faſhion, they chuſe to undergo it.</p>
+               <p>
+                  <pb n="158" facs="tcp:0238000202:159"/>
+They are in the right of it,—quoth my uncle <hi>Toby.</hi> But, Sir, replied Dr. <hi>Slop,</hi> not taking notice of my uncle <hi>Toby</hi>'s opinion, but turning to my father,—they had better govern in other points;—and a father of a family, who wiſhed its per<g ref="char:EOLhyphen"/>petuity, in my opinion, had better ex<g ref="char:EOLhyphen"/>change this prerogative with them, and give up ſome other rights in lieu of it.—I know not, quoth my father, anſwering a little too teſtily, to be quite diſpaſſion<g ref="char:EOLhyphen"/>ate in what he ſaid,—I know not, quoth he, what we have left to give up, in lieu of who ſhall bring our children into the world,—unleſs that,—of who ſhall beget them.—One would almoſt give up any thing, replied Dr. <hi>Slop.</hi>—I beg your pardon,—anſwered my uncle <hi>Toby.</hi>—Sir, replied Dr. <hi>Slop,</hi> it would aſto<g ref="char:EOLhyphen"/>niſh you to know what Improvements we have made of late years in all branches
+<pb n="159" facs="tcp:0238000202:160"/>
+of obſtetrical knowledge, but particu<g ref="char:EOLhyphen"/>larly in that one ſingle point of the ſafe and expeditious extraction of the <hi>foetus,</hi>—which has received ſuch lights, that, for my part (holding up his hands) I declare I wonder how the world has—I wiſh, quoth my uncle <hi>Toby,</hi> you had ſeen what prodigious armies we had in <hi>Flanders.</hi>
+               </p>
+            </div>
+            <div n="19" type="chapter">
+               <head>CHAP. XIX.</head>
+               <p>I Have dropp'd the curtain over this ſcene for a minute,—to remind you of one thing,—and to inform you of an<g ref="char:EOLhyphen"/>other.</p>
+               <p>What I have to inform you, comes, I own, a little out of its due courſe;—for it ſhould have been told a hundred and
+<pb n="160" facs="tcp:0238000202:161"/>
+fifty pages ago, but that I foreſaw then 'twould come in pat hereafter, and be of more advantage here than elſewhere.—Writers had need look before them to keep up the ſpirit and connection of what they have in hand.</p>
+               <p>When theſe two things are done,—the curtain ſhall be drawn up again, and my uncle <hi>Toby,</hi> my father, and Dr. <hi>Slop</hi> ſhall go on with their diſcourſe, without any more interruption.</p>
+               <p>Firſt, then, the matter which I have to remind you of, is this;—that from the ſpecimens of ſingularity in my father's notions in the point of Chriſtian-names, and that other point previous thereto,—you was led, I think, into an opinion, (and I am ſure I ſaid as much) that my father was a gentleman altogether as odd
+<pb n="161" facs="tcp:0238000202:162"/>
+and whimſical in fifty other opinions. In truth, there was not a ſtage in the life of man, from the very firſt act of his be<g ref="char:EOLhyphen"/>getting,—down to the lean and ſlipper'd pantaloon in his ſecond childiſhneſs, but he had ſome favourite notion to himſelf, ſpringing out of it, as ſceptical, and as far out of the high-way of thinking, as theſe two which have been explained.</p>
+               <p>—Mr. <hi>Shandy,</hi> my father, Sir, would ſee nothing in the light in which others placed it;—he placed things in his own light;—he would weigh nothing in com<g ref="char:EOLhyphen"/>mon ſcales;—no,—he was too refined a reſearcher to lay open to ſo groſs an im<g ref="char:EOLhyphen"/>poſition.—To come at the exact weight of things in the ſcientific ſteel-yard, the fulcrum, he would ſay, ſhould be almoſt inviſible, to avoid all friction from po<g ref="char:EOLhyphen"/>pular tenets;—without this the minutiae
+<pb n="162" facs="tcp:0238000202:163"/>
+of philoſophy, which ſhould always turn the balance, will have no weight at all.—Knowledge, like matter, he would affirm, was diviſible <hi>in infinitum</hi>;—that the grains and ſcruples were as much a part of it, as the gravitation of the whole world.—In a word, he would ſay, error was error,—no matter where it fell,—whether in a fraction,—or a pound,—'twas alike fatal to truth, and ſhe was kept down at the bottom of her well as inevitably by a miſtake in the duſt of a butterfly's wing,—as in the diſk of the ſun, the moon, and all the ſtars of heaven put together.</p>
+               <p>He would often lament that it was for want of conſidering this properly, and of applying it ſkilfully to civil matters, as well as to ſpeculative truths, that ſo many things in this world were out of joint;—that the political arch was giving way;—
+<pb n="163" facs="tcp:0238000202:164"/>
+and that the very foundations of our ex<g ref="char:EOLhyphen"/>cellent conſtitution in church and ſtate, were ſo ſapp'd as eſtimators had reported.</p>
+               <p>You cry out, he would ſay, we are a ruined, undone people.—Why? he would aſk, making uſe of the ſorites or fyllogiſm of <hi>Zeno</hi> and <hi>Chryſippus,</hi> without knowing it belonged to them.—Why? why are we a ruined people?—Becauſe we are corrup<g ref="char:EOLhyphen"/>ted.—Whence is it, dear Sir, that we are corrupted?—Becauſe we are needy;—our poverty, and not our wills, conſent.—And wherefore, he would add,—are we needy?—From the neglect, he would an<g ref="char:EOLhyphen"/>ſwer, of our pence and our halfpence:—Our bank-notes, Sir, our guineas,—nay our ſhillings, take care of themſelves.</p>
+               <p>'Tis the ſame, he would ſay, through<g ref="char:EOLhyphen"/>out the whole circle of the ſciences;—
+<pb n="164" facs="tcp:0238000202:165"/>
+the great, the eſtabliſhed points of them, are not to be broke in upon.—The laws of nature will defend themſelves;—but error—(he would add, looking earneſtly at my mother)—error, Sir, creeps in thro' the minute holes, and ſmall crevices, which human nature leaves unguarded.</p>
+               <p>This turn of thinking in my father, is what I had to remind you of:—The point you are to be informed of, and which I have reſerved for this place, is as follows:</p>
+               <p>Amongſt the many and excellent rea<g ref="char:EOLhyphen"/>ſons, with which my father had urged my mother to accept of Dr. <hi>Slop</hi>'s aſ<g ref="char:EOLhyphen"/>ſiſtance preferably to that of the old wo<g ref="char:EOLhyphen"/>man,—there was one of a very ſingular nature; which, when he had done ar<g ref="char:EOLhyphen"/>guing the matter with her as a Chriſtian, and came to argue it over again with her
+<pb n="165" facs="tcp:0238000202:166"/>
+as a philoſopher, he had put his whole ſtrength to, depending indeed upon it as his ſheet anchor.—It failed him; tho' from no defect in the argument itſelf; but that, do what he could, he was not able for his ſoul to make her comprehend the drift of it.—Curſed luck!—ſaid he to himſelf, one afternoon, as he walk'd out of the room, after he had been ſta<g ref="char:EOLhyphen"/>ting it for an hour and a half to her, to no manner of purpoſe;—curſed luck! ſaid he, biting his lip as he ſhut the door,—for a man to be maſter of one of the fineſt chains of reaſoning in nature,—and have a wife at the ſame time with ſuch a head-piece, that he cannot hang up a ſingle inference within ſide of it, to ſave his ſoul from deſtruction.</p>
+               <p>This argument, tho' it was intirely loſt upon my mother,—had more weight with
+<pb n="166" facs="tcp:0238000202:167"/>
+him, than all his other arguments joined together:—I will therefore endeavour to do it juſtice,—and ſet it forth with all the perſpicuity I am maſter of.</p>
+               <p>My father ſet out upon the ſtrength of theſe two following axioms:</p>
+               <p>
+                  <hi>Firſt,</hi> That an ounce of a man's own wit, was worth a tun of other peoples; and,</p>
+               <p>
+                  <hi>Secondly,</hi> (Which, by the bye, was the ground-work of the firſt axiom,—tho' it comes laſt) That every man's wit muſt come from every man's own ſoul,—and no other body's.</p>
+               <p>Now, as it was plain to my father, that all ſouls were by nature equal,—and that the great difference between the moſt acute and the moſt obtuſe underſtanding,
+<pb n="167" facs="tcp:0238000202:168"/>
+—was from no original ſharpneſs or bluntneſs of one thinking ſubſtance above or below another,—but aroſe merely from the lucky or unlucky organization of the body, in that part where the ſoul princi<g ref="char:EOLhyphen"/>pally took up her reſidence,—he had made it the ſubject of his enquiry to find out the identical place.</p>
+               <p>Now, from the beſt accounts he had been able to get of this matter, he was ſatisfied it could not be where <hi>Des Cartes</hi> had fixed it, upon the top of the <hi>pineal</hi> gland of the brain; which, as he philo<g ref="char:EOLhyphen"/>ſophiſed, formed a cuſhion for her about the ſize of a marrow pea; tho' to ſpeak the truth, as ſo many nerves did terminate all in that one place,—'twas no bad con<g ref="char:EOLhyphen"/>jecture;—and my father had certainly fallen with that great philoſopher plumb into the center of the miſtake, had it not
+<pb n="168" facs="tcp:0238000202:169"/>
+been for my uncle <hi>Toby,</hi> who reſcued him out of it, by a ſtory he told him of a <hi>Walloon</hi> officer at the battle of <hi>Landen,</hi> who had one part of his brain ſhot away by a muſket-ball,—and another part of it taken out after by a <hi>French</hi> ſurgeon; and, after all, recovered, and did his duty very well without it.</p>
+               <p>If death, ſaid my father, reaſoning with himſelf, is nothing but the ſeparation of the ſoul from the body;—and if it is true that people can walk about and do their buſineſs without brains,—then certes the ſoul does not inhabit there. Q. E. D.</p>
+               <p>As for that certain, very thin, ſubtle, and very fragrant juice which <hi>Coglioniſſimo Borri,</hi> the great <hi>Milaneze</hi> phyſician, af<g ref="char:EOLhyphen"/>firms, in a letter to <hi>Bartholine,</hi> to have diſ<g ref="char:EOLhyphen"/>covered in the cellulae of the occipital parts
+<pb n="169" facs="tcp:0238000202:170"/>
+of the cerebellum, and which he likewiſe affirms to be the principal ſeat of the rea<g ref="char:EOLhyphen"/>ſonable ſoul (for, you muſt know, in theſe latter and more enlightened ages, there are two ſouls in every man living,—the one, according to the great <hi>Metheglingius,</hi> being called the <hi>Animus,</hi> the other the <hi>Anima</hi>);—as for this opinion, I ſay, of <hi>Borri,</hi>—my father could never ſubſcribe to it by any means; the very idea of ſo noble, ſo refined, ſo immaterial, and ſo ex<g ref="char:EOLhyphen"/>alted a being as the <hi>Anima,</hi> or even the <hi>Ani<g ref="char:EOLhyphen"/>mus,</hi> taking up her reſidence, and ſitting dabbling, like a tad-pole, all day long, both ſummer and winter, in a puddle,—or in a liquid of any kind, how thick or thin ſoever, he would ſay, ſhock'd his imagination; he would ſcarce give the doctrine a hearing.</p>
+               <p>What, therefore, ſeem'd the leaſt liable to objections of any, was, that the chief
+<pb n="170" facs="tcp:0238000202:171"/>
+ſenſorium, or head-quarters of the ſoul, and to which place all intelligences were referred, and from whence all her man<g ref="char:EOLhyphen"/>dates were iſſued,—was in, or near, the cerebellum,—or rather ſome-where about the <hi>medulla oblongata,</hi> wherein it was ge<g ref="char:EOLhyphen"/>nerally agreed by <hi>Dutch</hi> anatomiſts, that all the minute nerves from all the organs of the ſeven ſenſes concentered, like ſtreets and winding alleys, into a ſquare.</p>
+               <p>So far there was nothing ſingular in my father's opinion,—he had the beſt of philoſophers, of all ages and climates, to go along with him.—But here he took a road of his own, ſetting up another <hi>Shan<g ref="char:EOLhyphen"/>dean</hi> hypotheſis upon theſe corner-ſtones they had laid for him;—and which ſaid hypotheſis equally ſtood its ground; whe<g ref="char:EOLhyphen"/>ther the ſubtilty and fineneſs of the ſoul depended upon the temperature and clear<g ref="char:EOLhyphen"/>neſs
+<pb n="171" facs="tcp:0238000202:172"/>
+of the ſaid liquor, or of the finer net-work and texture in the cerebellum itſelf; which opinion he favoured.</p>
+               <p>He maintained, that next to the due care to be taken in the act of propaga<g ref="char:EOLhyphen"/>tion of each individual, which required all the thought in the world, as it laid the foundation of this incomprehenſible contexture in which wit, memory, fancy, eloquence, and what is uſually meant by the name of good natural parts, do con<g ref="char:EOLhyphen"/>ſiſt;—that next to this and his Chriſtian<g ref="char:EOLhyphen"/>name, which were the two original and moſt efficacious cauſes of all;—that the third cauſe, or rather what logicians call the <hi>Cauſa ſine quâ non,</hi> and without which all that was done was of no manner of ſignificance,—was the preſervation of this delicate and fine-ſpun web, from the ha<g ref="char:EOLhyphen"/>vock which was generally made in it by
+<pb n="172" facs="tcp:0238000202:173"/>
+the violent compreſſion and cruſh which the head was made to undergo, by the nonſenſical method of bringing us into the world by that part foremoſt.</p>
+               <p>—This requires explanation.</p>
+               <p>My father, who dipp'd into all kinds of books, upon looking into <hi>Lithopaedus Senoneſis de Partu difficili</hi> 
+                  <note n="*" place="bottom">The author is here twice miſtaken;—for <hi>Lithopaedus</hi> ſhould be wrote thus, <hi>Lithopaedii Seno<g ref="char:EOLhyphen"/>nenſis Icon.</hi> The ſecond miſtake is, that this <hi>Li<g ref="char:EOLhyphen"/>thopaedus</hi> is not an author, but a drawing of a petrified child. The account of this, publiſhed by <hi>Alboſius,</hi> 1580, may be ſeen at the end of <hi>Cordaeus</hi>'s works in <hi>Spachius.</hi> Mr. <hi>Triſtram Shandy</hi> has been led into this error, either from ſeeing <hi>Lithopaedus</hi>'s name of late in a catalogue of lear<g ref="char:EOLhyphen"/>ned writers in Dr. <gap reason="blank" resp="#OXF" extent="1 word">
+                        <desc> _____ </desc>
+                     </gap>, or by miſtaking <hi>Li<g ref="char:EOLhyphen"/>thopaedus</hi> for <hi>Trinecavellius,</hi>—from the too great ſimilitude of the names.</note>, publiſhed by
+<pb n="173" facs="tcp:0238000202:174"/>
+                  <hi>Adrianus Smelvgot,</hi> had found out, That the lax and pliable ſtate of a child's head in parturition, the bones of the cranium having no futures at that time, was ſuch,—that by force of the woman's efforts, which, in ſtrong labour-pains, was equal, upon an average, to a weight of 470 pounds averdupoiſe acting per<g ref="char:EOLhyphen"/>pendicularly upon it;—it ſo happened that, in 49 inſtances out of 50, the ſaid head was compreſſed and moulded into the ſhape of an oblong conical piece of dough, ſuch as a paſtry-cook generally rolls up in order to make a pye of.—Good God! cried my father, what ha<g ref="char:EOLhyphen"/>vock and deſtruction muſt this make in the infinitely fine and tender texture of the cerebellum!—Or if there is ſuch a juice as <hi>Borri</hi> pretends,—is it not enough to make the cleareſt liquor in the world both feculent and mothery?</p>
+               <p>
+                  <pb n="174" facs="tcp:0238000202:175"/>
+But how great was his apprehenſion, when he further underſtood, that this force, acting upon the very vertex of the head, not only injured the brain itſelf or cerebrum,—but that it neceſſarily ſqueez'd and propell'd the cerebrum to<g ref="char:EOLhyphen"/>wards the cerebellum, which was the im<g ref="char:EOLhyphen"/>mediate ſeat of the underſtanding.—Angels and Miniſters of grace defend us! cried my father,—can any ſoul withſtand this ſhock?—No wonder the intellectual web is ſo rent and tatter'd as we ſee it; and that ſo many of our beſt heads are no better than a puzzled ſkein of ſilk,—all perplexity,—all confuſion within ſide.</p>
+               <p>But when my father read on, and was let into the ſecret, that when a child was turn'd topſy-turvy, which was eaſy for an operator to do, and was extracted by the feet;—that inſtead of the cerebrum
+<pb n="175" facs="tcp:0238000202:176"/>
+being propell'd towards the cerebellum, the cerebellum, on the contrary, was pro<g ref="char:EOLhyphen"/>pell'd ſimply towards the cerebrum where it could do no manner of hurt:—By heavens! cried he, the world is in a con<g ref="char:EOLhyphen"/>ſpiracy to drive out what little wit God has given us,—and the profeſſors of the obſtetric art are liſted into the ſame con<g ref="char:EOLhyphen"/>ſpiracy.—What is it to me which end of my ſon comes foremoſt into the world, provided all goes right after, and his ce<g ref="char:EOLhyphen"/>rebellum eſcapes uncruſhed?</p>
+               <p>It is the nature of an hypotheſis, when once a man has conceived it, that it aſſi<g ref="char:EOLhyphen"/>milates every thing to itſelf as proper nouriſhment; and, from the firſt moment of your begetting it, it generally grows the ſtronger by every thing you ſee, hear, read, or underſtand. This is of great uſe.</p>
+               <p>
+                  <pb n="176" facs="tcp:0238000202:177"/>
+When my father was gone with this about a month, there was ſcarce a phae<g ref="char:EOLhyphen"/>nomenon of ſtupidity or of genius, which he could not readily ſolve by it;—it ac<g ref="char:EOLhyphen"/>counted for the eldeſt ſon being the great<g ref="char:EOLhyphen"/>eſt blockhead in the family.—Poor devil, he would ſay,—he made way for the capa<g ref="char:EOLhyphen"/>city of his younger brothers.—It unriddled the obſervation of drivellers and monſtrous heads,—ſhewing, <hi>à priori,</hi> it could not be otherwiſe,—unleſs * * * * I don't know what. It wonderfully explain'd and ac<g ref="char:EOLhyphen"/>counted for the acumen of the <hi>Aſiatic</hi> ge<g ref="char:EOLhyphen"/>nius, and that ſprightlier turn, and a more penetrating intuition of minds, in warmer climates; not from the looſe and common-place ſolution of a clearer ſky, and a more perpetual ſun-ſhine, <hi>&amp;c.</hi>—which, for aught he knew, might as well rarify and dilute the faculties of the ſoul into nothing, by one extreme,—as they
+<pb n="177" facs="tcp:0238000202:178"/>
+are condenſed in colder climates by the other;—but he traced the affair up to its ſpring-head;—ſhew'd that, in warmer climates, nature had laid a lighter tax upon the faireſt parts of the creation;—their pleaſures more;—the neceſſity of their pains leſs, inſomuch that the preſ<g ref="char:EOLhyphen"/>ſure and reſiſtance upon the vertex was ſo ſlight, that the whole organization of the cerebellum was preſerved;—nay, he did not believe, in natural births, that ſo much as a ſingle thread of the net-work was broke or diſplaced,—ſo that the ſoul might juſt act as ſhe liked.</p>
+               <p>When my father had got ſo far,—what a blaze of light did the accounts of the <hi>Caeſarian</hi> ſection, and of the towering geniuſes who had come ſafe into the world by it, caſt upon this hypotheſis? Here you ſee, he would ſay, there was no injury done to the ſenſorium;—no preſ<g ref="char:EOLhyphen"/>ſure
+<pb n="178" facs="tcp:0238000202:179"/>
+of the head againſt the pelvis;—no propulſion of the cerebrum towards the cerebellum, either by the <hi>os pubis</hi> on this ſide, or the <hi>os coxcygis</hi> on that;—and, pray, what were the happy conſequences? Why, Sir, your <hi>Julius Caeſar,</hi> who gave the operation a name;—and your <hi>Her<g ref="char:EOLhyphen"/>mes Triſmegiſtus,</hi> who was born ſo before ever the operation had a name;—your <hi>Scipio Africanus</hi>; your <hi>Manlius Torquatus</hi>; our <hi>Edward</hi> the Sixth,—who, had he lived, would have done the ſame honour to the hypotheſis:—Theſe, and many more, who figur'd high in the annals of fame,—all came <hi>ſide-way,</hi> Sir, into the world.</p>
+               <p>This inciſion of the <hi>abdomen</hi> and <hi>ute<g ref="char:EOLhyphen"/>rus,</hi> ran for ſix weeks together in my fa<g ref="char:EOLhyphen"/>ther's head;—he had read, and was ſatis<g ref="char:EOLhyphen"/>fied, that wounds in the <hi>epigaſtrium,</hi> and thoſe in the <hi>matrix,</hi> were not mortal;—ſo that the belly of the mother might be
+<pb n="179" facs="tcp:0238000202:180"/>
+opened extremely well to give a paſſage to the child.—He mentioned the thing one afternoon to my mother,—merely as a matter of fact;—but ſeeing her turn as pale as aſhes at the very mention of it, as much as the operation flattered his hopes,—he thought it as well to ſay no more of it,—contenting himſelf with ad<g ref="char:EOLhyphen"/>miring—what he thought was to no pur<g ref="char:EOLhyphen"/>poſe to propoſe.</p>
+               <p>This was my father Mr. <hi>Shandy</hi>'s hypo<g ref="char:EOLhyphen"/>theſis; concerning which I have only to add, that my brother <hi>Bobby</hi> did as great honour to it (whatever he did to the fa<g ref="char:EOLhyphen"/>mily) as any one of the great heroes we ſpoke of:—For happening not only to be chriſten'd, as I told you, but to be born too, when my father was at <hi>Epſom,</hi>—being moreover my mother's <hi>firſt</hi> child,—coming into the world with his head <hi>foremoſt,</hi>—and turning out afterwards a
+<pb n="180" facs="tcp:0238000202:181"/>
+lad of wonderful ſlow parts,—my father ſpelt all theſe together into his opinion; and as he had failed at one end,—he was determined to try the other.</p>
+               <p>This was not to be expected from one of the ſiſterhood, who are not eaſily to be put out of their way,—and was therefore one of my father's great reaſons in favour of a man of ſcience, whom he could bet<g ref="char:EOLhyphen"/>ter deal with.</p>
+               <p>Of all men in the world, Dr. <hi>Slop</hi> was the fitteſt for my father's purpoſe;—for though his new-invented forceps was the armour he had proved, and what he maintained, to be the ſafeſt inſtrument of deliverance,—yet, it ſeems, he had ſcat<g ref="char:EOLhyphen"/>tered a word or two in his book, in fa<g ref="char:EOLhyphen"/>vour of the very thing which ran in my father's fancy;—tho' not with a view to the ſoul's good in extracting by the feet,
+<pb n="181" facs="tcp:0238000202:182"/>
+as was my father's ſyſtem,—but for rea<g ref="char:EOLhyphen"/>ſons merely obſtetrical.</p>
+               <p>This will account for the coalition be<g ref="char:EOLhyphen"/>twixt my father and Dr. <hi>Slop,</hi> in the en<g ref="char:EOLhyphen"/>ſuing diſcourſe, which went a little hard againſt my uncle <hi>Toby.</hi>—In what manner a plain man, with nothing but common ſenſe, could bear up againſt two ſuch allies in ſcience,—is hard to conceive.—You may conjecture upon it, if you pleaſe,—and whilſt your imagination is in mo<g ref="char:EOLhyphen"/>tion, you may encourage it to go on, and diſcover by what cauſes and effects in nature it could come to paſs, that my uncle <hi>Toby</hi> got his modeſty by the wound he received upon his groin.—You may raiſe a ſyſtem to account for the loſs of my noſe by marriage articles,—and ſhew the world how it could happen, that I ſhould have the misfortune to be called TRISTRAM, in oppoſition to my father's
+<pb n="182" facs="tcp:0238000202:183"/>
+hypotheſis, and the wiſh of the whole family, God-fathers and God-mothers not excepted.—Theſe, with fifty other points left yet unraveled, you may en<g ref="char:EOLhyphen"/>deavour to ſolve if you have time;—but I tell you before-hand it will be in vain,—for not the ſage <hi>Alquiſe,</hi> the magician in Don <hi>Belianis</hi> of <hi>Greece,</hi> nor the no leſs famous <hi>Urganda,</hi> the ſorcereſs his wife, (were they alive) could pretend to come within a league of the truth.</p>
+               <p>The reader will be content to wait for a full explanation of theſe matters till the next year,—when a ſeries of things will be laid open which he little expects.</p>
+            </div>
+            <trailer>
+               <hi>END of the</hi> SECOND VOLUME.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

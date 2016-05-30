@@ -1,0 +1,937 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The dragon of Wantley: A burlesque opera. The musick by Mr. John Frederick Lampe, and performed at the Theatre-Royal in Covent-Garden. Moderniz'd from the old ballad after the Italian manner, by Sig. Carini.</title>
+            <author>Carey, Henry, 1687?-1743.</author>
+         </titleStmt>
+         <extent>23 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2007-10">2007 October</date>
+            <idno type="DLPS">004834783</idno>
+            <idno type="ESTC">T57982</idno>
+            <idno type="DOCNO">CW111547950</idno>
+            <idno type="TCP">K051001.000</idno>
+            <idno type="GALEDOCNO">CW3311547950</idno>
+            <idno type="CONTENTSET">ECLL</idno>
+            <idno type="IMAGESETID">0341501000</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The dragon of Wantley: A burlesque opera. The musick by Mr. John Frederick Lampe, and performed at the Theatre-Royal in Covent-Garden. Moderniz'd from the old ballad after the Italian manner, by Sig. Carini.</title>
+                  <author>Carey, Henry, 1687?-1743.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The second edition.</edition>
+               </editionStmt>
+               <extent>24p. ; 8⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for J. Shuckburgh,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1737.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Sig. Carini = Henry Carey.</note>
+                  <note>The text only.</note>
+                  <note>With a half-title.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT57982.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="half_title">
+            <pb facs="tcp:0341501000:1"/>
+            <p>THE DRAGON OF <hi>WANTLEY.</hi>
+            </p>
+            <p>[Price Six-pence,]</p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:0341501000:2"/>
+            <p>THE DRAGON OF <hi>WANTLEY.</hi> A BURLESQUE OPERA. The MUSICK By Mr. JOHN FREDERICK LAMPE, And Performed at the THEATRE-ROYAL in <hi>Govent-Garden. Moderniz'd from the</hi> OLD BALLAD <hi>after the</hi> Italian <hi>Manner, by Sig.</hi> CARINI.</p>
+            <p>The SECOND EDITION.</p>
+            <p>
+               <hi>LONDON:</hi> Printed for J. SHUCKBURGH, at the <hi>Sun</hi> near the <hi>Inner-Temple-Gate</hi> in <hi>Fleet-ſtreet,</hi> 1737. (Price Six-pence.)</p>
+         </div>
+         <div type="dramatis_personae">
+            <pb n="4" facs="tcp:0341501000:3"/>
+            <head>DRAMATIS PERSONAE.</head>
+            <p>
+               <list>
+                  <label>
+                     <hi>The</hi> Dragon,</label>
+                  <item>
+                     <hi>Mr.</hi> REINHOLD.</item>
+                  <label>Moore <hi>of</hi> Moore-Hall,</label>
+                  <item>
+                     <hi>Mr.</hi> SALWAY,</item>
+                  <label>
+                     <hi>Gaffer</hi> Gubbins, <hi>Fa<g ref="char:EOLhyphen"/>ther to</hi> Margery,</label>
+                  <item>
+                     <hi>Mr.</hi> LAGUERRE.</item>
+                  <label>Margery,</label>
+                  <item>
+                     <hi>Miſs</hi> ISABELLA YOUNG.</item>
+                  <label>Mauxalinda,</label>
+                  <item>
+                     <hi>Miſs</hi> ESTHER YOUNG.</item>
+               </list>
+            </p>
+            <p>CHORUS <hi>of Nymphs and Swains.</hi>
+            </p>
+            <p>SCENE <hi>that Part of</hi> Yorkſhire <hi>near</hi> Rotheram.</p>
+         </div>
+      </front>
+      <body>
+         <head>
+            <pb n="5" facs="tcp:0341501000:4"/>THE DRAGON of <hi>WANTLEY.</hi>
+         </head>
+         <div n="1" type="act">
+            <head>ACT I.</head>
+            <div n="1" type="scene">
+               <head>SCENE I. A Rural Proſpect.</head>
+               <sp>
+                  <speaker>CHORUS.</speaker>
+                  <l>FLY, Neighbours, fly,</l>
+                  <l>The Dragon's nigh,</l>
+                  <l>Save your Lives and fly;</l>
+                  <l>Away, away,</l>
+                  <l>For if you ſtay,</l>
+                  <l>Sure as a Gun you die. Fly, &amp;c.</l>
+               </sp>
+               <stage>[Exeunt.</stage>
+               <stage>[The Dragon croſſes the Stage.</stage>
+            </div>
+            <div type="scene">
+               <pb n="6" facs="tcp:0341501000:5"/>
+               <head>SCENE, <hi>A Hall.</hi>
+               </head>
+               <stage>GUBBINS, MARGERY, <hi>and</hi> CHORUS.</stage>
+               <sp>
+                  <speaker>Gub.</speaker>
+                  <l>What wretched Havock does this Dragon make!</l>
+                  <l>He ſticks at nothing for his Belly's Sake:</l>
+                  <l>Feeding but makes his Appetite the ſtronger,</l>
+                  <l>He'll eat us all, if he 'bides here much longer!</l>
+               </sp>
+               <sp>
+                  <speaker>CHORUS.</speaker>
+                  <l>Houſes and Churches,</l>
+                  <l>To Him are Geeſe and Turkies.</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>O Father! Father! as our noble 'Squire</l>
+                  <l>Was ſate at Breakfaſt by his Parlour Fire,</l>
+                  <l>With Wife and Children, all in pleaſant Tattle,</l>
+                  <l>The Table ſhook, the Cups began to rattle;</l>
+                  <l>A diſmal Noiſe was heard within the Hall,</l>
+                  <l>Away they flew, the Dragon ſcar'd them all:</l>
+                  <l>He drank up all their Coffee at a Sup,</l>
+                  <l>And next devour'd their Toaſt and Butter up.</l>
+               </sp>
+               <lg>
+                  <pb n="7" facs="tcp:0341501000:6"/>
+                  <head>AIR.</head>
+                  <lg>
+                     <l>But to hear the Children mutter,</l>
+                     <l>When they'd loſt their Toaſt and Butter,</l>
+                     <l>And to ſee my Lady moan,</l>
+                     <l>Oh! 'twould melt a Heart of Stone.</l>
+                  </lg>
+                  <lg>
+                     <l>Here the 'Squire with Servants wrangling;</l>
+                     <l>There the Maids and Miſtreſs jangling,</l>
+                     <l>And the pretty hungry Dears</l>
+                     <l>All together by the Ears,</l>
+                     <l>Scrambling for a Barley-Cake:</l>
+                     <l>Oh! 'twould make one's Heart to ake. But to hear, &amp;c.</l>
+                  </lg>
+               </lg>
+               <sp>
+                  <speaker>Gub</speaker>
+                  <l>This Dragon very modiſh, ſure, and nice is:</l>
+                  <l>What ſhall we do in this diaſt'rous Criſis?</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>A Thought, to quell him, comes into my Head;</l>
+                  <l>No way more proper than to kill him dead.</l>
+               </sp>
+               <sp>
+                  <speaker>Gub.</speaker>
+                  <l>O Miracle of Wiſdom! rare Suggeſtion!</l>
+                  <l>But how, or who to do it, that's the Queſtion.</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>Not far from hence there lives a valiant Knight,</l>
+                  <l>A Man of Proweſs great, and mickle Might:</l>
+                  <l>He has done Deeds St. <hi>George</hi> himſelf might brag on;</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>This very Man is he ſhall kill the Dragon.</l>
+               </sp>
+               <lg>
+                  <pb n="8" facs="tcp:0341501000:7"/>
+                  <head>AIR.</head>
+                  <l>He's a Man ev'ry Inch, I aſſure you,</l>
+                  <l>Stout, vig'rous, active and tall;</l>
+                  <l>There's none can from Danger ſecure you,</l>
+                  <l>Like brave gallant <hi>Moore</hi> of <hi>Moore-Hall.</hi>
+                  </l>
+                  <l>No Giant or Knight e'er quell'd him,</l>
+                  <l>He fills all their Hearts with Alarms;</l>
+                  <l>No Virgin yet ever beheld him,</l>
+                  <l>But wiſh'd herſelf claſp'd in his Arms.</l>
+               </lg>
+               <sp>
+                  <speaker>CHORUS.</speaker>
+                  <l>Let's go to his Dwelling,</l>
+                  <l>With Yelping and Yelling;</l>
+                  <l>We'll move him to Pity,</l>
+                  <l>And tell him, and tell him a ſorrowful Ditty.</l>
+               </sp>
+               <stage>[Exeunt.</stage>
+            </div>
+            <div type="scene">
+               <head>SCENE, <hi>Moore-Hall.</hi>
+               </head>
+               <head>Symphony.</head>
+               <stage>MOORE <hi>and his Companions.</hi>
+               </stage>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>Come, Friends, let's circulate the cheerful Glaſs;</l>
+                  <l>Let each true Toper toaſt his favourite Laſs.</l>
+                  <l>Sound all your Inſtruments of Joy, and play:</l>
+                  <l>Let's drink and ſing, and paſs the Time away.</l>
+               </sp>
+               <lg>
+                  <pb n="9" facs="tcp:0341501000:8"/>
+                  <head>AIR.</head>
+                  <l>Zeno, Plato, Ariſtotle,</l>
+                  <l>
+                     <hi>All were Lovers of the Bottle;</hi>
+                  </l>
+                  <l>
+                     <hi>Poets, Painters and Muſicians,</hi>
+                  </l>
+                  <l>
+                     <hi>Churchmen, Lawyers and Phyſicians,</hi>
+                  </l>
+                  <l>
+                     <hi>All admire a pretty Laſs,</hi>
+                  </l>
+                  <l>
+                     <hi>All require a cheerful Glaſs.</hi>
+                  </l>
+                  <l>
+                     <hi>Ev'ry Pleaſure has its Seaſon,</hi>
+                  </l>
+                  <l>
+                     <hi>Love and Drinking are no Treaſon.</hi>
+                  </l>
+                  <l>[Zeno, <hi>&amp;c.</hi>
+                  </l>
+               </lg>
+               <stage>Enter GUBBINS, MAUXALINDA, MAR<g ref="char:EOLhyphen"/>GERY, and others.</stage>
+               <sp>
+                  <speaker>CHORUS.</speaker>
+                  <l>
+                     <hi>O ſave us all!</hi>
+                  </l>
+                  <l>Moore <hi>of</hi> Moore-Hall!</l>
+                  <l>
+                     <hi>Or elſe this curſed Dragon</hi>
+                  </l>
+                  <l>
+                     <hi>Will plunder our Houſes,</hi>
+                  </l>
+                  <l>
+                     <hi>Our Daughters and Spouſes,</hi>
+                  </l>
+                  <l>
+                     <hi>And leave us the Devil a Rag on.</hi>
+                  </l>
+                  <l>
+                     <hi>[O ſave,</hi> &amp;c.</l>
+               </sp>
+               <sp>
+                  <pb n="10" facs="tcp:0341501000:9"/>
+                  <speaker>Marg.</speaker>
+                  <lg>
+                     <head>AIR.</head>
+                     <l>Gentle Knight! all Knights exceeding,</l>
+                     <l>Pink of Proweſs, and good Breeding,</l>
+                     <l>Let a Virgin's Tears inſpire thee;</l>
+                     <l>Let a Maiden's Bluſhes fire thee.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <stage>(aſide)</stage>
+                  <l>Her Looks ſhoot thro' my Soul, her Eyes ſtrike Fire;</l>
+                  <l>I'm all a Conflagration of Deſire.</l>
+                  <stage>(To her)</stage>
+                  <l>Fair Maid, I grant whatever you can ask,</l>
+                  <l>The Deed is done, when once you name the Task.</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>The Dragon, Sir, the Dragon!</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>Say no more,</l>
+                  <l>You ſoon ſhall ſee him weltring in his Gore.</l>
+               </sp>
+               <sp>
+                  <speaker>Marg.</speaker>
+                  <l>Moſt mighty <hi>Moore!</hi> do but this Dra<g ref="char:EOLhyphen"/>gon kill,</l>
+                  <l>All that we have is wholly at your Will.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>The only Bounty I require, is this,</l>
+                  <l>That thou may'ſt fire me with an ardent Kiſs;</l>
+                  <l>That thy ſoft Hands may 'noint me over Night,</l>
+                  <l>And dreſs me in the Morning e'er I fight.</l>
+               </sp>
+               <sp>
+                  <pb n="11" facs="tcp:0341501000:10"/>
+                  <speaker>Marg.</speaker>
+                  <lg>
+                     <head>AIR.</head>
+                     <l>If that's all you ask,</l>
+                     <l>My Sweeteſt,</l>
+                     <l>My Feateſt,</l>
+                     <l>Compleateſt,</l>
+                     <l>And Neateſt,</l>
+                     <l>I'm proud of the Task.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <stage>(overhearing.)</stage>
+                  <l>A forward Lady! ſhe grows fond apace,</l>
+                  <l>But I ſhall catch her in a proper Place.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>Leave her with me; conclude the Dra<g ref="char:EOLhyphen"/>gon dead:</l>
+                  <l>If I don't maul the Dog, I'll loſe my Head.</l>
+               </sp>
+               <stage>
+                  <hi>[All go off but</hi> Moore <hi>and</hi> Margery.</stage>
+               <floatingText xml:lang="eng" type="song">
+                  <body>
+                     <head>DUETTO.</head>
+                     <sp>
+                        <speaker>Moore.</speaker>
+                        <l>Let my Deareſt be near me;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>I'll ever be near thee.</l>
+                     </sp>
+                     <sp>
+                        <speaker>Moore.</speaker>
+                        <l>To warm me, to cheer me;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>To warm thee, to cheer thee.</l>
+                     </sp>
+                     <sp>
+                        <speaker>Moore.</speaker>
+                        <l>To fire me, inſpire me;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>To fire thee, inſpire thee</l>
+                     </sp>
+                     <sp>
+                        <speaker>Both.</speaker>
+                        <l>With Kiſſes and Ale.</l>
+                     </sp>
+                     <sp>
+                        <pb n="12" facs="tcp:0341501000:11"/>
+                        <speaker>Moore.</speaker>
+                        <l>Your Fears I'll aboliſh;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>This Dragon demoliſh.</l>
+                     </sp>
+                     <sp>
+                        <speaker>Moore.</speaker>
+                        <l>I'll work him;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>Ay, work him.</l>
+                     </sp>
+                     <sp>
+                        <speaker>Moore.</speaker>
+                        <l>I'll jerk him;</l>
+                     </sp>
+                     <sp>
+                        <speaker>Marg.</speaker>
+                        <l>
+                           <hi>Ay, jerk him</hi>
+                        </l>
+                     </sp>
+                     <sp>
+                        <speaker>Both.</speaker>
+                        <l> 
+                           <hi>From Noſtril to Tail.</hi>
+                        </l>
+                        <l>
+                           <hi>[Let my,</hi> &amp;c.</l>
+                     </sp>
+                  </body>
+               </floatingText>
+               <stage>MOORE <hi>leads off</hi> MARGERY; MAUXA<g ref="char:EOLhyphen"/>LINDA <hi>enters, and pulls him back by the Sleeve.</hi>
+               </stage>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>O Villain! Monſter! Devil! Baſely baſe!</l>
+                  <l>How can you dare to look me in the Face?</l>
+                  <l>Did you not ſwear laſt <hi>Chriſtmas</hi> we ſhould marry?</l>
+                  <l>Oh, 'tis enough to make a Maid miſcarry!</l>
+                  <l>Witneſs this Piece of Six-pence, certain Token</l>
+                  <l>Of my true Heart, and your falſe Promiſe broken.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>The Devil's in the Woman! What's the Matter?</l>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>Now you inſult me; Time was, you cou'd flatter.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>Upon my Soul, I don't know what you mean!</l>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>Don't you know <hi>Margery</hi> of <hi>Roth'ram-Green?</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <pb n="13" facs="tcp:0341501000:12"/>
+                  <speaker>Moore.</speaker>
+                  <l>Not I, upon my Honour.</l>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>That's a Lie.</l>
+                  <l>What do you think I've neither Ear nor Eye.</l>
+                  <l>Villain! I will believe my Eyes and Ears!</l>
+                  <l>She whom you kiſs'd, and call'd ten thouſand Dears.</l>
+                  <stage>(Sings mocking)</stage>
+                  <l>
+                     <hi>Let my Deareſt be near me,</hi> &amp;c.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <stage>(aſide.)</stage>
+                  <l>By Jove! I'm blown. Zounds! how came this about?</l>
+                  <l>However, I'm reſolv'd to ſtand it out.</l>
+               </sp>
+               <sp>
+                  <speaker>To Maux.</speaker>
+                  <l>I only out of Policy was civil;</l>
+                  <l>But, 'faith, I hate her as I hate the Devil.</l>
+                  <l>You're all I value, witneſs this cloſe Hug,</l>
+                  <l>I'm yours, and only yours.</l>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>Ah Coaxing Pug!</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>My pretty <hi>Mauxy,</hi> prithee don't be jealous.</l>
+               </sp>
+               <sp>
+                  <speaker>Maux.</speaker>
+                  <l>Dear me! you Men are ſuch bewitching Fellows;</l>
+                  <l>You ſteal into our Hearts by ſly Degrees,</l>
+                  <l>Then make poor Girls believe juſt what you pleaſe.</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <lg>
+                     <head>AIR.</head>
+                     <l>By the Beer, as brown as Berry;</l>
+                     <l>By the Cyder and the Perry,</l>
+                     <l>Which ſo oft has made us merry,</l>
+                     <l>With a Hy-down, Ho-down-derry,</l>
+                     <l>
+                        <hi>Mauxalinda</hi>'s I'll remain,</l>
+                     <l>True Blue will never ſtain.</l>
+                  </lg>
+               </sp>
+               <sp>
+                  <pb n="14" facs="tcp:0341501000:13"/>
+                  <speaker>Maux.</speaker>
+                  <l>But do you really love me?</l>
+               </sp>
+               <sp>
+                  <speaker>Moore.</speaker>
+                  <l>By this Kiſs,</l>
+                  <l>By Raptures paſt, and Hopes of future Bliſs.</l>
+               </sp>
+               <sp>
+                  <lg>
+                     <head>DUETTO.</head>
+                     <l>Pigs ſhall not be</l>
+                     <l>So fond as we;</l>
+                     <l>We will out-cooe the Turtle Dove.</l>
+                     <l>Fondly toying,</l>
+                     <l>Still enjoying,</l>
+                     <l>Sporting Sparrows we'll out-love.</l>
+                  </lg>
+               </sp>
+            </div>
+            <trailer>End of the Firſt ACT.</trailer>
+         </div>
+         <div n="2" type="act">
+            <pb n="15" facs="tcp:0341501000:14"/>
+            <head>ACT II. SCENE I.</head>
+            <stage>A Garden.</stage>
+            <sp>
+               <speaker>MARGERY <hi>ſola.</hi>
+               </speaker>
+               <l>SURE my Stays will burſt with ſobbing,</l>
+               <l>And my Heart quite crack with throbbing.</l>
+               <l>My poor Eyes are red as Ferrets,</l>
+               <l>And I ha'n't a Grain of Spirits.</l>
+            </sp>
+            <stage>
+               <hi>[To her</hi> Moore.</stage>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>My <hi>Madge!</hi> my Honey-ſuckle, in the Dumps!</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Put your Hand here, and feel my Heart how't thumps.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Good lack a day! how great a Palpi<g ref="char:EOLhyphen"/>tation!</l>
+               <l>Tell me, my Dear! the Cauſe of this Vexation.</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>An ugly Dream has put me in a Fright;</l>
+               <l>I dreamt the Dragon ſlew my gentle Knight:</l>
+               <l>If ſuch a thing ſhould happen unto thee,</l>
+               <l>O miſerable, miſerable, <hi>Margery!</hi>
+               </l>
+            </sp>
+            <sp>
+               <pb n="16" facs="tcp:0341501000:15"/>
+               <speaker>Moore.</speaker>
+               <l>Don't fright thy ſelf with Dreams, my Girl, ne'er fear him,</l>
+               <l>I'll work his Buff, if ever I come near him.</l>
+               <l>I've ſuch a Suit of ſpiked Armour bought,</l>
+               <l>Bears, Lions, Dragons, it will ſet at nought:</l>
+               <l>In which, when I'm equip'd, my <hi>Madge</hi> ſhall ſee,</l>
+               <l>I'll ſcare the Dragon, not the Dragon me.</l>
+               <l>But Time grows ſhort, I muſt a while away.</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Make haſte, my Dear!</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>My Duck! I will not ſtay.</l>
+            </sp>
+            <stage>[Exit.</stage>
+            <stage>
+               <hi>Enter</hi> MAUXALINDA <hi>to</hi> MARGERY.</stage>
+            <sp>
+               <speaker>Maux.</speaker>
+               <l>So Madam! have I found you out at laſt?</l>
+               <l>You now ſhall pay full dear for all that's paſt.</l>
+               <l>Were you as fine as e'er wore Silk or Sattin,</l>
+               <l>I'd beat your Harlot's Brains out with my Pattin,</l>
+               <l>Before you ſhall delude a Man of mine.</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Who in the Name of Wonder made him thine?</l>
+            </sp>
+            <sp>
+               <speaker>Maux.</speaker>
+               <l>D'ye laugh, you Minx! I'll make you change your Note,</l>
+               <l>
+                  <pb n="17" facs="tcp:0341501000:16"/>
+Or drive your grinning Grinders down your Throat.</l>
+            </sp>
+            <sp>
+               <lg>
+                  <head>DUETTO.</head>
+                  <l>Inſulting Gipſey,</l>
+                  <l>Your ſurely tipſy,</l>
+                  <l>Or non ſe ipſe,</l>
+                  <l>To chatter ſo.</l>
+                  <l>Your too much feeding</l>
+                  <l>All Rules exceeding,</l>
+                  <l>Has ſpoil'd your Breeding,</l>
+                  <l>Go, Trollop, go.</l>
+                  <l>Inſulting, &amp;c.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Lauk, what a monſtrous Tail our Cat has got!</l>
+            </sp>
+            <sp>
+               <speaker>Maux.</speaker>
+               <l>Nay, if you brave me, then you go to pot.</l>
+               <l>Come, Bodkin, come! take <hi>Mauxalinda</hi>'s Part,</l>
+               <l>And ſtab her hated Rival to the Heart.</l>
+            </sp>
+            <stage>
+               <hi>[Goes to kill</hi> Margery, <hi>ſhe ſwoons.</hi>
+            </stage>
+            <stage>
+               <pb n="18" facs="tcp:0341501000:17"/>
+               <hi>Enter</hi> MOORE, <hi>takes away the Bodkin.</hi>
+            </stage>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Why, what the Devil is the Woman doing!</l>
+            </sp>
+            <sp>
+               <speaker>Maux.</speaker>
+               <l>To put an End to all your Worſhip's Wooing.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>'Tis well I came, before the Whim went further;</l>
+               <l>Had I ſtay'd longer, here had ſure been Murder.</l>
+               <l>This curſed Jade has thrown the Girl in Fits.</l>
+               <l>How do'ſt, my Dear?</l>
+            </sp>
+            <stage>[Margery <hi>Recovers.</hi>
+            </stage>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Frighted out of my Wits.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>But fear her not, for by her own Con<g ref="char:EOLhyphen"/>feſſion,</l>
+               <l>I'll bind her over to the Quarter-Seſſion.</l>
+            </sp>
+            <sp>
+               <speaker>Maux.</speaker>
+               <lg>
+                  <head>AIR.</head>
+                  <l>O give me not up to the Law,</l>
+                  <l>I'd much rather beg upon Crutches;</l>
+                  <l>Once in a Sollicitor's Paw,</l>
+                  <l>You never get out of his Clutches.</l>
+               </lg>
+            </sp>
+            <sp>
+               <pb n="19" facs="tcp:0341501000:18"/>
+               <speaker>Marg.</speaker>
+               <l>Come, come, forgive her.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Here my Anger ends.</l>
+            </sp>
+            <sp>
+               <speaker>Maux.</speaker>
+               <l>And ſo does mine.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Why then let's buſs and Friends.</l>
+            </sp>
+            <stage>[Kiſs round.</stage>
+            <floatingText xml:lang="eng" type="song">
+               <body>
+                  <head>TRIO.</head>
+                  <sp>
+                     <speaker>Maux.</speaker>
+                     <l>Oh how eaſy is a Woman,</l>
+                     <l>How deluding are you Men!</l>
+                     <l>Oh how rare, to find a true Man,</l>
+                     <l>Not ſo oft as one in ten.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Moore.</speaker>
+                     <l>Oh how charming is a Woman,</l>
+                     <l>Form'd to captivate us Men;</l>
+                     <l>Yet ſo eager to ſubdue Man,</l>
+                     <l>That for one ſhe covets ten.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Marg.</speaker>
+                     <l>Let's reward them as they treat us,</l>
+                     <l>Women prove ſincere as Men;</l>
+                     <l>But if they deceive and cheat us,</l>
+                     <l>Let us e'en cheat them again.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Omnes.</speaker>
+                     <l>Let's reward them as they treat us, &amp;c.</l>
+                  </sp>
+               </body>
+            </floatingText>
+            <stage>
+               <hi>Enter</hi> GUBBINS.</stage>
+            <sp>
+               <speaker>Gub.</speaker>
+               <l>Now, now, or never ſave us, valiant <hi>Moore!</hi>
+               </l>
+               <l>The Dragon's coming, don't you hear him roar?</l>
+            </sp>
+            <sp>
+               <pb n="20" facs="tcp:0341501000:19"/>
+               <speaker>Moore.</speaker>
+               <l>Why let him roar his Heart out, 'tis no matter:</l>
+               <l>Stand clear, my Friends, this is no Time to chatter.</l>
+            </sp>
+            <sp>
+               <speaker>Gub.</speaker>
+               <l>Here take your Spear.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>—I ſcorn Sword, Spear, or Dart;</l>
+               <l>I'm arm'd compleatly in a valiant Heart.</l>
+               <l>But firſt I'll drink, to make me ſtrong and mighty,</l>
+               <l>Six Quarts of Ale, and one of <hi>Aqua Vitae.</hi>
+               </l>
+            </sp>
+            <sp>
+               <speaker>CHORUS.</speaker>
+               <l>Fill, fill, fill a mighty Flagon,</l>
+               <l>Kill, kill, kill this monſtrous Dragon.</l>
+            </sp>
+            <stage>[Exeunt.</stage>
+         </div>
+         <div n="3" type="act">
+            <pb n="21" facs="tcp:0341501000:20"/>
+            <head>ACT III. SCENE I.</head>
+            <stage>A rural Proſpect near the Dragon's Den.</stage>
+            <stage>
+               <hi>Enter</hi> MOORE <hi>in Armour, and</hi> MARGERY.</stage>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>ONe Buſs, dear <hi>Margery,</hi> and then a<g ref="char:EOLhyphen"/>way.</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>I cannot go, my Love!</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>You muſt not ſtay.</l>
+               <l>Get up, ſweet Wench, get up in yonder Tree,</l>
+               <l>And there ſecurely you may hear and ſee.</l>
+               <stage>[Margery <hi>gets up into the Tree.</hi>
+               </stage>
+               <l>Come, Mr. <hi>Dragon,</hi> or by <hi>Jove</hi> I'll fetch you;</l>
+               <l>I'll trim your Raſcals Jacket, if I catch you.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <lg>
+                  <head>AIR.</head>
+                  <l>Dragon! Dragon! thus I dare thee:</l>
+                  <l>Soon to Atoms thus I'll tear thee;</l>
+                  <l>Thus thy Inſolence ſubdue.</l>
+                  <l>But regarding where my Dear is,</l>
+                  <l>Then, alas! I feel what Fear is,</l>
+                  <l>Sweeteſt <hi>Margery</hi> for you.</l>
+                  <l>Dragon! &amp;c.</l>
+               </lg>
+            </sp>
+            <stage>
+               <pb n="22" facs="tcp:0341501000:21"/>Dragon roars.</stage>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>It is not Strength that always wins;</l>
+               <l>Good Wit does Strength excel.</l>
+               <l>Confound the Raſcal, how he grins,—</l>
+               <l>I'll creep into this Well.</l>
+               <stage>[Gets into the Well.</stage>
+               <stage>[Enter Dragon, and goes to the Well, as to drink.</stage>
+            </sp>
+            <sp>
+               <speaker>Dragon.</speaker>
+               <l>What naſty Dog has got into the Well,</l>
+               <l>Diſturbs my Drink, and makes the Water ſmell.</l>
+               <stage>[Moore <hi>within, cries Boh!</hi>
+               </stage>
+            </sp>
+            <sp>
+               <speaker>Dragon.</speaker>
+               <lg>
+                  <head>AIR.</head>
+                  <l>Oho, Mr. <hi>Moore,</hi>
+                  </l>
+                  <l>You Son of a Whore,</l>
+                  <l>I wiſh I'd known your Tricks before.</l>
+               </lg>
+            </sp>
+            <stage>[Moore <hi>gets out of the Well, and en<g ref="char:EOLhyphen"/>counters the Dragon.</hi>
+            </stage>
+            <sp>
+               <speaker>Drag.</speaker>
+               <l>Oh! oh! oh!</l>
+               <l>The Devil take your Toe.</l>
+            </sp>
+            <stage>[Dies.</stage>
+            <sp>
+               <pb n="23" facs="tcp:0341501000:22"/>
+               <speaker>CHORUS.</speaker>
+               <p>
+                  <hi>H<g ref="char:V">Ʋ</g>ZZA!</hi>
+               </p>
+            </sp>
+            <stage>
+               <hi>To him</hi> MARGERY.</stage>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Oh, my Conqu'ror! how d'ye do?</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Oh, my Charmer! how are you?</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Very well, thank you;</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>I'm ſo too.</l>
+               <l>Your Eyes were livid, and your Cheeks were pale;</l>
+               <l>But now you look as brisk as bottled Ale.</l>
+               <l>Give me a Buſs.</l>
+            </sp>
+            <sp>
+               <speaker>Marg.</speaker>
+               <l>Ah, twenty if you pleaſe.</l>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>With all my heart, and twenty after theſe.</l>
+            </sp>
+            <sp>
+               <lg>
+                  <head>DUETT.</head>
+                  <l>My ſweet Honey ſuckle, my Joy and Delight,</l>
+                  <l>I'll kiſs thee all Day, and I'll hug thee all Night.</l>
+                  <l>My Deareſt is made of ſuch excellent Stuff,</l>
+                  <l>I think I ſhall never have Kiſſing enough.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Moore.</speaker>
+               <l>Now nimbly dance, ye Nymphs and Swains be gay,</l>
+               <l>The Dragon's dead, and you may ſafely play.</l>
+            </sp>
+            <stage>
+               <pb n="24" facs="tcp:0341501000:23"/>A DANCE.</stage>
+            <sp>
+               <speaker>Gub.</speaker>
+               <l>Moſt mighty <hi>Moore,</hi> what Wonders haſt thou done,</l>
+               <l>Deſtroy'd the Dragon, and my <hi>Margery</hi> won,</l>
+               <l>The Loves of this brave Knight, and my fair Daughter,</l>
+               <l>In <hi>Roratorios</hi> ſhall be ſung hereafter.</l>
+               <l>Begin your Songs of Joy; begin, begin,</l>
+               <l>And rend the <hi>Welkin</hi> with harmonious Din.</l>
+            </sp>
+            <sp>
+               <speaker>CHORUS.</speaker>
+               <l>
+                  <hi>Sing, ſing, and rorio,</hi>
+               </l>
+               <l>
+                  <hi>An Oratorio</hi>
+               </l>
+               <l>
+                  <hi>To gallant</hi> Morio,</l>
+               <l>
+                  <hi>Of</hi> Moore-Hall.</l>
+               <l>
+                  <hi>To</hi> Margereenia</l>
+               <l>
+                  <hi>Of</hi> Roth'ram-Greenia,</l>
+               <l>
+                  <hi>Beauty's bright Queenia,</hi>
+               </l>
+               <l>
+                  <hi>Bellow and bawl.</hi>
+               </l>
+            </sp>
+            <stage>Chorus of H<g ref="char:V">Ʋ</g>ZZA! repeated.</stage>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>

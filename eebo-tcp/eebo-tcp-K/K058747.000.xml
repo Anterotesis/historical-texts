@@ -1,0 +1,760 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A dialogue upon the gardens of the Right Honourable the Lord Viscount Cobham, at Stow in Buckinghamshire</title>
+            <author>Gilpin, William, 1724-1804.</author>
+         </titleStmt>
+         <extent>63 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2011-06">2011 June</date>
+            <idno type="DLPS">004842514</idno>
+            <idno type="ESTC">T68772</idno>
+            <idno type="DOCNO">CW102384904</idno>
+            <idno type="TCP">K058747.000</idno>
+            <idno type="GALEDOCNO">CW3302384904</idno>
+            <idno type="CONTENTSET">ECHG</idno>
+            <idno type="IMAGESETID">0170600800</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A dialogue upon the gardens of the Right Honourable the Lord Viscount Cobham, at Stow in Buckinghamshire</title>
+                  <author>Gilpin, William, 1724-1804.</author>
+               </titleStmt>
+               <extent>iv,60p. ; 8⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for B. Seeley, in Buckingham, and sold by J. and J. Rivington, in St. Paul's Church-Yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1748.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Anonymous. By William Gilpin.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>Henrey, 1395</note>
+                  <note>English Short Title Catalog, ESTCT68772.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:0170600800:1"/>
+            <p>A DIALOGUE UPON THE GARDENS OF THE RIGHT HONOURABLE THE Lord Viſcount <hi>COBHAM,</hi> AT STOW in BUCKINGHAMSHIRE.</p>
+            <q>
+               <l>Here Order in Variety we ſee,</l>
+               <l>Where all Things differ, yet where all agree.</l>
+               <bibl>
+                  <hi>Mr. POPE.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for B. SEELEY, Bookſeller in <hi>Buckingham,</hi> and Sold by J. and J. RIVINGTON, in <hi>St. Paul's Church-Yard.</hi>
+            </p>
+            <p>M DCC XLVIII.</p>
+            <p>[Price One Shilling.]</p>
+         </div>
+         <div type="note">
+            <pb facs="tcp:0170600800:2"/>
+            <head>THE ADVERTISEMENT.</head>
+            <p>WE read of a great Prince of Antiquity, who would ſuffer his Portrait to be taken only by the greateſt Artiſt. And he thought juſtly without queſtion: A great Object ought ever to be handled by a great Maſter. But yet I am apt to think that if <hi>Apelles</hi> had not offered his Service, the Monarch, rather than have had his Form unknown to Poſte<g ref="char:EOLhyphen"/>rity, would have been glad to have employed ſome meaner Hand.—If <hi>Stow</hi> had been as fortunate in this Particular as <hi>Alexander,</hi> I need not now have taken up my Pencil: But as this charming Landſkip is yet un<g ref="char:EOLhyphen"/>touched by a <hi>Titian,</hi> or a <hi>Pouſſin,</hi> a mere Bungler has been tempted to ven<g ref="char:EOLhyphen"/>ture upon it.</p>
+            <p>
+               <pb n="iv" facs="tcp:0170600800:3"/>But in Excuſe for the Meanneſs of the Performance it may be ſaid, that it is not deſigned to be conſidered as a finiſhed Piece: This View was not taken upon the Spot, as it ought to have been, but only from my Memory and a few looſe Scratches; if the Public therefore will call it only a rough Draught, or at beſt a coloured Sketch, my Ambition will be fully ſa<g ref="char:EOLhyphen"/>tisfied. The Curious therefore muſt purchaſe it rather from their Neceſ<g ref="char:EOLhyphen"/>ſity than its Merit; as they do meaner Engravings of the Cartoons, where <hi>Dorigny</hi>'s are not to be had: <q>'Tis true, Gentlemen, ſays the Print<g ref="char:EOLhyphen"/>ſeller, they are far from being good, but take my Word for it, you will meet with no better.</q>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:0170600800:4"/>
+            <head>A DIALOGUE UPON THE GARDENS <hi>of the Right Honourable the</hi> Lord Viſcount COBHAM, <hi>&amp;c.</hi>
+            </head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">P</seg>OLYPTHON</hi> was a Gentle<g ref="char:EOLhyphen"/>man engaged in a way of Life, that excuſed him two Months in the Year from Buſineſs; which Time he uſed generally to ſpend in viſiting what was curious in the ſeveral Counties around him. As he had long promiſed his Friend <hi>Callophilus</hi> to paſs away his Va<g ref="char:EOLhyphen"/>cancy, at ſome time or other, in <hi>Bucking<g ref="char:EOLhyphen"/>hamſhire,</hi> he determined upon it this Year, and accordingly paid him a Viſit at * * *. <hi>Stow</hi> was one of the firſt Places where his Curioſity carried him; and indeed he had
+<pb n="2" facs="tcp:0170600800:5"/>ſcarce got his Foot within the Garden-door, before he broke out into the fol<g ref="char:EOLhyphen"/>lowing Exclamation.</p>
+            <p>Why, here is a View that gives me a kind of Earneſt of what my Expectation is raiſed to!</p>
+            <p>It is a very fine one indeed (replied <hi>Callophilus:</hi>) I do not wonder it ſhould catch your Sight: The old Ruin upon the left of the Canal, the Opening to the Pyra<g ref="char:EOLhyphen"/>mid, the View towards the Houſe, the River, the beautiful Diſpoſition of the Trees on the other ſide of it, and that venerable old Temple, make a fine Variety of Objects. But your Eye is ſo taken up with Views at a diſtance, that you neglect ſomething here at hand very well worth your notice. What do you think of theſe two Pavilions?</p>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Why really they are light, gen<g ref="char:EOLhyphen"/>teel Buildings enough. I like theſe rough Paintings too; they are done in a very free, maſterly Manner. Pray, Sir, do you know the Stories?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>They are both taken from <hi>Paſtor Fido;</hi> the diſconſolate Nymph there, poor <hi>Dorinda,</hi> had long been in love with <hi>Syl<g ref="char:EOLhyphen"/>vio,</hi>
+                  <pb n="3" facs="tcp:0170600800:6"/>a wild Hunter, of barbarous Manners, in whoſe Breaſt ſhe had no reaſon to believe ſhe had raiſed an anſwering Paſſion. As ſhe was roving in the Woods, ſhe acciden<g ref="char:EOLhyphen"/>tally met his Dog, and ſaw her beloved Hunter himſelf at a diſtance hollowing, and running after it. She immediately calls the Hound to her, and hides it amongſt the Buſhes. <hi>Sylvio</hi> comes up to her, and en<g ref="char:EOLhyphen"/>quires very eagerly after his Dog: The poor Nymph puts him off, and tries all her Art to inſpire him with Love, but to no purpoſe; the cold Youth was quite inſen<g ref="char:EOLhyphen"/>ſible, and his Thoughts could admit no other Object but his Dog. Almoſt deſpair<g ref="char:EOLhyphen"/>ing, ſhe at length hopes to bribe his Af<g ref="char:EOLhyphen"/>fections, and lets him know ſhe has his Dog, which ſhe will return if he will pro<g ref="char:EOLhyphen"/>miſe to love her, and give her a Kiſs; <hi>Sylvio</hi> is overjoyed at the Propoſal, and promiſes to give her ten thouſand Kiſſes. <hi>Dorinda</hi> upon this brings the Dog: but alas! ſee there the Succeſs of all her Pains: the Youth tranſported at the Sight of his Dog, throws his Arms round its Neck and laviſhes upon it thoſe Kiſſes and Endear<g ref="char:EOLhyphen"/>ments, in the very Sight of the poor af<g ref="char:EOLhyphen"/>flicted Lady, which ſhe had been flattering herſelf would have fallen to her ſhare. — On this other Wall Diſdain and Love have taken different Sides; the Youth is warm,
+<pb n="4" facs="tcp:0170600800:7"/>and the Nymph is coy: Poor <hi>Myrtillo</hi> had long loved <hi>Amarillis;</hi> the Lady was en<g ref="char:EOLhyphen"/>gaged to another, and rejected his Paſſion. Gladly would he only have ſpoke his Grief, but the cruel fair One abſolutely forbid him her Preſence. At length a Scheme was laid by <hi>Coriſca,</hi> the young Lover's Confi<g ref="char:EOLhyphen"/>dant, which was to gain him Admiſſion into his dear <hi>Amarillis</hi>'s Company. The Lady is enticed into the Fields with ſome of <hi>Coriſca</hi>'s Companions, (who were let into the Plot) to play at Blindman's Buff, where <hi>Myrtillo</hi> was to ſurprize her. See there he ſtands heſitating what uſe to make of ſo favourable an Opportunity, which Love has put into his Hands. — If you have ſatisfied your Curioſity here, let us walk towards the Temple of <hi>Venus.</hi> But hold: we had better firſt go down towards that Wilderneſs, and take a View of the Lake.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Upon my Word here is a noble Piece of Water!</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Not many Years ago I remem<g ref="char:EOLhyphen"/>ber it only a Marſh: it ſurprized me pro<g ref="char:EOLhyphen"/>digiouſly when I firſt ſaw it floated in this manner with a Lake. Obſerve, pray, what a fine Effect that old Ruin has at the Head of it: Its Ornaments too, the Caſcade,
+<pb n="5" facs="tcp:0170600800:8"/>the Trees and Shrubs, half concealing, and half diſcovering the ragged View, and the Obelisk riſing beyond it, are Objects hap<g ref="char:EOLhyphen"/>pily diſpoſed.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Yes, indeed, I think the Ruin a great Addition to the Beauty of the Lake. There is ſomething ſo vaſtly pictu<g ref="char:EOLhyphen"/>reſque, and pleaſing to the imagination in ſuch Objects, that they are a great Addi<g ref="char:EOLhyphen"/>tion to every Landskip. And yet perhaps it would be hard to aſſign a reaſon, why we are more taken with Proſpects of this ruinous kind, than with Views of Plenty and Pro<g ref="char:EOLhyphen"/>ſperity in their greateſt Perfection: Bene<g ref="char:EOLhyphen"/>volence and Good-nature, methinks, are more concerning in the latter kind.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Yes: but cannot you make a diſtinction between natural and moral Beau<g ref="char:EOLhyphen"/>ties? Our ſocial Affections undoubtedly find their Enjoyment the moſt compleat when they contemplate, a Country ſmil<g ref="char:EOLhyphen"/>ing in the midſt of Plenty, where Houſes are well-built, Plantations regular, and every thing the moſt commodious and uſe<g ref="char:EOLhyphen"/>ful. But ſuch Regularity and Exactneſs excites no manner of Pleaſure in the Ima<g ref="char:EOLhyphen"/>gination, unleſs they are made uſe of to contraſt with ſomething of an oppoſite kind. The Fancy is ſtruck by <hi>Nature</hi>
+                  <pb n="6" facs="tcp:0170600800:9"/>alone; and if <hi>Art</hi> does any thing more than improve her, we think ſhe grows im<g ref="char:EOLhyphen"/>pertinent, and wiſh ſhe had left off a little ſooner. Thus a regular Building perhaps gives us very little pleaſure; and yet a fine Rock, beautifully ſet off in Claro-obſcuro, and garniſhed with flouriſhing Buſhes, Ivy, and dead Branches, may afford us a great deal; and a ragged Ruin, with venerable old Oaks, and Pines nodding over it, may perhaps pleaſe the Fancy yet more than either of the other two Objects.—You old Hermitage, ſituated in the midſt of this de<g ref="char:EOLhyphen"/>lightful Wilderneſs, has an exceeding good Effect: it is of the romantick Kind; and Beauties of this ſort, where a probable Na<g ref="char:EOLhyphen"/>ture is not exceeded, are generally pleaſing. —This Opening will lead us again into the Terrace.—That large Bulding, the In<g ref="char:EOLhyphen"/>ſcription lets you ſee, is a Temple dedicated to <hi>Venus.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Upon my Word a Maſter has been at work here! I cannot ſay I have met with any modern Touching, this long time, that has pleaſed me better. I ſee very little to be cavilled at, with regard either to the Deſign, Colouring, or Drawing. Theſe Stories are taken from the <hi>Fairy-Queen</hi> I dare ſay; they look like <hi>Spencer</hi>'s Ideas.</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:0170600800:10"/>
+               <speaker>Calloph.</speaker>
+               <p>Yes: that Lady is the fair <hi>Hel<g ref="char:EOLhyphen"/>linore,</hi> who having left a diſagreeable Huſ<g ref="char:EOLhyphen"/>band, and wandering in the Woods, was met by the polite Sett of Gentry ſhe is dancing with: She likes their Manner of Life, and reſolves to enjoy it with them. Her old Spouſe <hi>Malbecco</hi> is inconſolable for his Loſs: he wanders many Days in ſearch of her, and at length finds her (you ſee him at a diſtance peeping from behind a Tree) revelling with a beaſtly Herd of Satyrs. When the Evening comes on, he follows the Company to their Retirement, takes a commodious ſtand, and to his great Torment ſees every thing that paſſes among them. After they were all laid aſleep, he creeps gently to his Lady, and you ſee him in the other Painting offering to be recon<g ref="char:EOLhyphen"/>ciled to her again, if ſhe will return back with him. But <hi>Hellinore</hi> threatens to awake the Satyrs, and get him ſeverely hand<g ref="char:EOLhyphen"/>led if he does not immediately leave her. Upon which the poor Cuckold is obliged to fly, and ſoon after runs diſtracted.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>This looſe Story, theſe luxu<g ref="char:EOLhyphen"/>rious Couches, and the Embelliſhments round the Walls, give the Place quite a <hi>Cy<g ref="char:EOLhyphen"/>prian</hi> Air, and make it a very proper Retreat for its incontinent Inhabitant upon the
+<pb n="8" facs="tcp:0170600800:11"/>Roof.— But let us move forward towards yon cubico pyramidical Building It looks like a mighty ſubſtantial one: I fancy it is Sir <hi>John</hi>'s; he is generally pretty liberal of his Stone. However, it terminates this Terrace extremely well: the Aſcent up to it too has a good Effect.—Pray, do you know what that Field there, upon the right, is to be improved into?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I am ſurprized the Beauty of it, in its preſent Form, does not ſtrike you at firſt ſight. It is deſigned, like a Glaſs of Bitters before Dinner, to quicken your Ap<g ref="char:EOLhyphen"/>petite for the elegant Entertainment that is to follow. For my part, I aſſure you, I find it a very great Relief to my Eye, to take it from theſe grand Objects, and caſt it for a few Minutes upon ſuch a rural Scene as this. Do not you think that Haycock contraſts extremely well with this Temple? Such Oppoſitions, in my Opinion, are highly pleaſing.—That Building there is called, <hi>The Belvidere.</hi> Whatever you may think of it, from this Stand, it has its Uſe, I aſſure you, in ſeveral Proſpects in the Gardens.—There is a very good Copy of the <hi>Roman</hi> Boxers.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I like its Situation extreamly: it terminates theſe Alleys, and that Opening
+<pb n="9" facs="tcp:0170600800:12"/>from the Terrace, very beautifully; much better, I think, than the fighting Gladia<g ref="char:EOLhyphen"/>tor, and <hi>Sampſon</hi> killing the <hi>Philiſtine,</hi> do that other vaſt Terrace; the Objects there, in my Opinion, are too ſmall for the Diſtance: Here both are juſtly propor<g ref="char:EOLhyphen"/>tioned.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Your Criticiſm, I think, is ra<g ref="char:EOLhyphen"/>ther too refined: I cannot ſee what occaſion there is always for a confined View; a more open one ſometimes makes Variety.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>You miſtake me: I am not againſt a Proſpect's being bounded even by the blue Hills in the Country. All I mean is this, that where Objects are ſet up to ter<g ref="char:EOLhyphen"/>minate a View, they ought to be of ſuch a Nature as to afford Pleaſure at any Diſtance they are deſigned to be viewed from. Theſe Statues I have been mentioning, are Ob<g ref="char:EOLhyphen"/>jects ſo ſmall, that at one end of the Ter<g ref="char:EOLhyphen"/>race it is impoſſible to make out what is offered you at the other.—I have too much Envy in my Temper, you muſt know, to bear to ſee any thing perfect; and I came in here fully determined to cavil, if I ſaw the leaſt Grounds. But this is a ſad Place, I find, for a malicious Spirit to enter: He whoſe chief <hi>Entertainment</hi> is finding fault, will here meet with a very ſlender <hi>Repaſt:</hi>
+                  <pb n="10" facs="tcp:0170600800:13"/>As the Devil did at Sight of the Creation, in ſpite of Envy he muſt cry out,
+<q>
+                     <l>Terreſtrial Heaven!—</l>
+                     <l>With what Delight could I have walk'd thee round,</l>
+                     <l>If I could joy in ought: Sweet Inter<g ref="char:EOLhyphen"/>change</l>
+                     <l>Of Hill, and Valley, Rivers, Woods, and Plains!</l>
+                     <l>Now Land, now Sea, and Shores with Foreſt crown'd,</l>
+                     <l>Rocks, Dens, and Caves.—</l>
+                  </q>
+But what have we got here?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>This is the Building we took notice of from the Temple of <hi>Venus.</hi> I know you are no Friend to a cloathed Statue; ſo I queſtion whether you will meet with any thing here to your Taſte.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>There is ſomething extremely grand and noble, I have always thought, in ſeveral of the old cloathed Statues, and par<g ref="char:EOLhyphen"/>ticularly in ſome of the <hi>Roman</hi> conſular ones; yet I muſt confeſs I am always better pleaſed when I find them without their Finery. Marble, tho' admirably fitted to expreſs the Roundneſs of a Muſcle, very often fails when it attempts to give you the
+<pb n="11" facs="tcp:0170600800:14"/>Folds of Drapery. The Ancients, it muſt be owned, even in their Draperies are often ſucceſsful; but amongſt our modern At<g ref="char:EOLhyphen"/>tempts in this Way, how many horrid Pieces of Rock-work have I beheld!</p>
+               <q>
+                  <l>—atram</l>
+                  <l>Deſinet in <hi>rupem</hi> mulier—</l>
+               </q>
+               <p>
+                  <hi>Michael Angelo,</hi> whenever he found him<g ref="char:EOLhyphen"/>ſelf obliged to cloath his Statues, uſed to do it with wet Linnen; which is unqueſtion<g ref="char:EOLhyphen"/>ably the moſt advantageous kind of Cloath<g ref="char:EOLhyphen"/>ing for a Statue.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Since you are not to be pleaſed here, let us paſs on to ſomething elſe. There is no Occaſion to turn down to that Pyra<g ref="char:EOLhyphen"/>mid; it is an Object not deſigned to be viewed at a Yard's Diſtance; but you will ſee its Uſe by and by, in a Variety of beau<g ref="char:EOLhyphen"/>tiful Views: Let us purſue our Walk along this Terrace.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Why here we entirely loſe ſight of the Garden; our elegant Proſpects are all vaniſhed: I cannot conceive what this impertinent Hedge does here.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Did you never experience in a Concert vaſt Pleaſure when the whole Band
+<pb n="12" facs="tcp:0170600800:15"/>for a few Moments made a full Pauſe? The Caſe is parallel: You have already had a great many fine Views, and that you may not be cloyed, this Hedge ſteps in to keep your Attention awake. One Extreme recommends ano<g ref="char:EOLhyphen"/>ther: The Moraliſts obſerve, that a lit<g ref="char:EOLhyphen"/>tle Adverſity quickens our Reliſh for the Enjoyment of Life; and it is the Man of Taſte's Care not to diſtribute his Beauties with too profuſe a Hand, for a Reaſon of the ſame kind.</p>
+               <q>
+                  <l>Let not each Beauty every where be ſpy'd,</l>
+                  <l>Where half the Skill is decently to hide.</l>
+               </q>
+               <p>But if you muſt have ſomething to look at, the Park there upon your left Hand affords you ſome very fine Views. I like that Equeſ<g ref="char:EOLhyphen"/>trian Statue extremely: It is, in my Opinion, a very beautiful Circumſtance. What a Number of fine Viſtas it terminates thro' the Trees, varying its Appearance in each of them.—There you have a charming View ſtruck out towards the Temple of Ancient Virtue.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Methinks that Statue of the Faun ſtands a little aukwardly: He might at leaſt, I ſhould think, have fixed himſelf in the Middle of the Semi-circle.</p>
+            </sp>
+            <sp>
+               <pb n="13" facs="tcp:0170600800:16"/>
+               <speaker>Calloph.</speaker>
+               <p>You do not certainly attend to his Uſe: He ſtands there to receive the Eye placed at the other End of that Opening.— That elegant little Building I think they call <hi>Nelſon</hi>'s Scat.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>The Painting is done maſterly enough: The Inſcriptions, I ſee, explain the Deſigns. Thoſe Boys fixing the Trophies are prettily imagined. From hence that round Building terminates the View ex<g ref="char:EOLhyphen"/>tremely well. Let us walk to it.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Hold—turn to the Right a lit<g ref="char:EOLhyphen"/>tle: We muſt firſt pay a Viſit here to the Temple of <hi>Bacchus.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>We have had a pretty long Walk, ſuppoſe we ſit down here a Mo<g ref="char:EOLhyphen"/>ment: Theſe Walls ſeem to promiſe us ſome Entertainment.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Here, Sir, you ſee repreſented the Triumphs and Happineſs of Drunken<g ref="char:EOLhyphen"/>neſs. Thoſe muſical Ladies too are not improper Companions to this mirthfully-diſpoſed Deity.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Some of thoſe ſmaller Figures are really done extremely well: And thoſe two Vaſes are delightfully touched. I can<g ref="char:EOLhyphen"/>not
+<pb n="14" facs="tcp:0170600800:17"/>ſay I am ſo much pleaſed with the jolly Inhabitant: Even <hi>Bacchus</hi> himſelf certainly never made ſo enormous a Figure.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I am admiring the fine View from hence: So great a Variety of beautiful Objects, and all ſo happily diſpoſed, make a moſt delightful Picture. Don't you think this Building too is a very genteel one, and is extremely well ſituated? Theſe Trees give it an agreeable, cool Air, and make it, I think, as elegant a Retreat for the Enjoy<g ref="char:EOLhyphen"/>ment of a Summer's Evening, as can well be imagined.—But it is mere trifling to ſit here: Let us walk towards the Rotunda.— This little Alley will carry us to <hi>Dido</hi>'s Cave.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>
+                  <hi>Dido</hi>'s Cave! why 'tis built of hewn Stone! Here ſhe is however, and her <hi>pious</hi> Companion along with her.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Thoſe two Cupids joining their Torches, I never ſee but I admire extremely: they are very finely painted.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I think they are indeed. But let us be a little complaiſant, and not in<g ref="char:EOLhyphen"/>terrupt theſe kind Lovers too long. I want to ſee this Rotunda.</p>
+            </sp>
+            <sp>
+               <pb n="15" facs="tcp:0170600800:18"/>
+               <speaker>Calloph.</speaker>
+               <p>There then you have it: I hope you cannot complain of an heavy Building here. I do not know any Piece of Stone<g ref="char:EOLhyphen"/>work in the whole Garden that ſhews itſelf to more Advantage than this does, or makes a more beautiful Figure in a Variety of fine Views from ſeveral Parts of the Garden: Several Parts of the Garden likewiſe return the Compliment, by offering a great many very elegant Proſpects to it. There you have an Opening laid out with all the De<g ref="char:EOLhyphen"/>corations of Art; a ſpacious Theatre; the Area floated by a Canal, and peopled with Swans and Wild-ducks: Her late Majeſty is the principal Figure in the Scene, and around her a merry Company of Nymphs and Swains enjoying themſelves in the Shade.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I muſt confeſs I cannot very much admire—</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Come; none of your Cavils,— Obſerve how this View is beautifully con<g ref="char:EOLhyphen"/>traſted by one on the oppoſite Side of a dif<g ref="char:EOLhyphen"/>ferent kind; in which we are almoſt ſolely obliged to Nature. You muſt know I look upon this as a very noble Proſpect! The Field is formed by that Semi-circle of Trees into a very grand Theatre. The Point of Sight is centred in a beautiful manner by the Pyramid, which appears to great Advantage
+<pb n="16" facs="tcp:0170600800:19"/>amongſt thoſe venerable Oaks: Two or three other Buildings, half hid amongſt the Trees, come in for their Share in the Pro<g ref="char:EOLhyphen"/>ſpect, and add much to the Beauty of it.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I agree with you entirely; nor do I think this other View inferior to it. That Variety of different Shades amongſt the Trees; the Lake ſpread ſo elegantly amongſt them, and glittering here and there thro' the Buſhes, with the Temple of <hi>Venus</hi> as a Termination to the View, make up a very beautiful Landskip.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Here is a Viſta likewiſe very happily terminated by the Canal, and the Obelisk riſing in the Midſt of it. There is another cloſe View likewiſe towards <hi>Nel<g ref="char:EOLhyphen"/>son</hi>'s Seat.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Upon my Word, we have a Variety of very elegant Proſpects centred in this Point. I could ſit here very agreeably a little longer.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Nay, if you are inclined to reſt, come along with me: I'll carry you to where you may indulge your Humour with great Propriety. Deep in the Retirement of that Wood, the God of Sleep has reared his Habitation, where he will afford you every
+<pb n="17" facs="tcp:0170600800:20"/>Convenience to make a Nap agreeable — It comes into my Head that I forgot to carry you to a little Place, which it is hardly worth while to travel back to from this Diſtance: It is called <hi>St. Auſtin</hi>'s Cave, and anſwers its Title very well; it appears quite Cell-like, ſtands retired, and is made of no other Materials but Roots and Moſs. In the Inſide a Straw Couch offers you an hard Seat, and the Walls three humorous Inſcriptions, in Monkiſh Verſe. You may buy them, bound up with Copies of all the other Inſcriptions, in a Six-penny Pamphlet, that will be offered us at the Inn.— There, Sir, is the Temple of Sleep.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Why really I muſt confeſs <hi>Ovid</hi> himſelf could ſcarce have buried the ſenſeleſs God in an happier Retirement. This gloomy Darkneſs, theſe eaſy Couches, and that excellent <hi>Epicurean</hi> Argument above the Door, would incline me wonderfully to indulge a little, if theſe beautiful Ornaments did not keep my Attention awake. There is wanting too a purling Stream, to ſing a Requiem to the Senſes; tho' the Want is in ſome meaſure made up by the drowſy Lullibies of that murmuring Swarm, which this Shade has invited to wanton beneath it. You would laugh at me, or I ſhould certainly throw myſelf down upon one of
+<pb n="18" facs="tcp:0170600800:21"/>theſe Couches; I am perſuaded I ſhould need no Opium to cloſe my Eyes.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I own ſleeping is a Compliment as much due to this Place, as Admiration and Attention are to <hi>Raphael</hi> at <hi>Hampton-Court.</hi> But try if your Curioſity cannot keep you awake. Come, leave theſe drowſy Abodes, they are infectious; like luſcious Food they will blunt your Appetite before the Entertainment is half over. Walk down that Alley, and pop your Head into the firſt Door you come to.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>What the D—l have we got here? What wretched Scrawler has been at work upon theſe Walls?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I aſſure you, Sir, I look upon this as a very great Maſter-piece. You muſt know this Houſe is inhabited by a Necro<g ref="char:EOLhyphen"/>mancer; and that Inſcription lets you ſee the Hand that has been employed to paint it. The Compoſition, Drawing, and Pencilling, I can allow you, are not the moſt elegant; yet if the Deſign and Figures are the Artiſt's own, I can aſſure you he has ſhewn excel<g ref="char:EOLhyphen"/>lent Humour, and an exceeding good In<g ref="char:EOLhyphen"/>vention. That Conſultation is well ima<g ref="char:EOLhyphen"/>gined; and ſo are theſe Witches and Wizards, their Employments likewiſe, their Form<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="19" facs="tcp:0170600800:22"/>and Attitudes are well varied.—But I ſee this is a Scene not ſuited to your Taſte: Our next, I hope, will pleaſe you better.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Pray, what Building is that be<g ref="char:EOLhyphen"/>fore us? I cannot ſay I diſlike the Taſte it is deſigned in. It ſeems an Antique.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>It is the Temple, Sir, of An<g ref="char:EOLhyphen"/>cient Virtue; the Place I am now conduct<g ref="char:EOLhyphen"/>ing you to. You will meet within it a very illuſtrious Aſſembly of great Men; the wiſeſt Lawgiver, the beſt Philoſopher, the moſt divine Poet, and the moſt able Captain, that perhaps ever lived.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>You may poſſibly, Sir, engage yourſelf in a Diſpute, by fixing your Epithers in ſuch an abſolute manner; there are ſo many Competitors in each of theſe Ways, that altho' Numbers may be called truly eminent, it will be a difficult matter to fix Pre-eminence upon any.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>You will hardly, I fancy, diſſent from me, when I introduce you to theſe great Heroes of Antiquity: There ſtands <hi>Lycurgus;</hi> there <hi>Socrates;</hi> there <hi>Homer;</hi> and there <hi>Epaminondas.</hi> Illuſtrious Chiefs, who made Virtue their only Purſuit, and the Welfare of Mankind their only Study;
+<pb n="20" facs="tcp:0170600800:23"/>in whoſe Breaſts mean Self-intereſt had no Poſſeſſion. To eſtabliſh a well-regulated Conſtitution; to dictate the ſoundeſt Mo<g ref="char:EOLhyphen"/>rality, to place Virtue in the moſt amiable Light; and bravely to defend a People's Liberty, were Ends which neither the Dif<g ref="char:EOLhyphen"/>ficulty in overcoming the Prejudices, and taming the ſavage Manners of a barbarous State; the Corruptions of a licentious Age, and the Ill-uſage of an invidious City; nei<g ref="char:EOLhyphen"/>ther the vaſt Pains of ſearching into Nature, and laying up a Stock of Knowledge ſuf<g ref="char:EOLhyphen"/>ficient to produce the nobleſt Work of Art; nor popular Tumults at Home, and the moſt threatning Dangers Abroad, could ever tempt them to loſe Sight of, or in the leaſt abate that Ardency of Temper with which they purſued them.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>A noble Panegyric upon my Word! why, Sir, theſe great Spirits have inſpired you with the very Soul of Oratory. However, in earneſt, I confeſs your Enco<g ref="char:EOLhyphen"/>mium is pretty juſt; and I am apt to be<g ref="char:EOLhyphen"/>lieve that if any of thoſe worthy Gentlemen ſhould take it into his Head to walk from his Nitch, it would puzzle the World to find his Equal to fix in his Room.— That old Ruin, I ſuppoſe, is intended to contraſt with this new Building.</p>
+            </sp>
+            <sp>
+               <pb n="21" facs="tcp:0170600800:24"/>
+               <speaker>Calloph.</speaker>
+               <p>Yes, Sir, it is intended to con<g ref="char:EOLhyphen"/>traſt with it not only in the Landskip, but likewiſe in its Name and Deſign. Walk a little nearer, and you will ſee its Inten<g ref="char:EOLhyphen"/>tion.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I can ſee nothing here to let me into its Deſign, except this old Gentle<g ref="char:EOLhyphen"/>man; neither can I find any thing extraor<g ref="char:EOLhyphen"/>dinary in him, except that he has met with a Fate that he is entirely deſerving of, which is more than falls to the Share of every worthleſs Fellow.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Have you obſerved how the Sta<g ref="char:EOLhyphen"/>tue is decorated?</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>O! I ſee the whole Deſign: A very elegant Piece of Satyr, upon my Word! This pompous Edifice is intended, I ſuppoſe, to repreſent the flouriſhing Condition, in which ancient Virtue ſtill exiſts; and thoſe poor ſhattered Remains of what has never been very beautiful (notwithſtanding, I ſee, they are placed within a few Yards of a Pariſh-church) are deſigned to let us ſee the ruinous State of decayed modern Virtue. And the Moral is, that Glory founded up<g ref="char:EOLhyphen"/>on true Worth and Honour, will exiſt, when Fame, built upon Conqueſt and popular Ap<g ref="char:EOLhyphen"/>plauſe, will fade away. This is really the
+<pb n="22" facs="tcp:0170600800:25"/>beſt thing I have ſeen: I am moſt prodigiouſ<g ref="char:EOLhyphen"/>ly taken with it.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I intend next to carry you to a Scene of another kind. I am going to ſhew you the Grotto, a Place generally very tak<g ref="char:EOLhyphen"/>ing with Strangers.—I thought that Piece of Satyr would catch your Attention: I hope likewiſe you will be as well pleaſed here. This Gate will carry us into the ro<g ref="char:EOLhyphen"/>mantic Retirement. What do you think of this Scene?</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Why really, Sir, it is quite a Novelty: This Profuſion of Mirrors has a very extraordinary Effect: The Place ſeems divided into a thouſand beautiful Apart<g ref="char:EOLhyphen"/>ments, and appears fifty times as large as it is. The Proſpects without are likewiſe transferred to the Walls within: And the Sides of the Room are elegantly adorned with Landskips, beyond the Pencil of <hi>Titian;</hi> with this farther Advantage, that every View, as you change your Situation, varies itſelf into another Form, and preſents you with ſomething new.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Don't you think that ſerpentine River, as it is called, is a great Addition to the Beauty of the Place?</p>
+            </sp>
+            <sp>
+               <pb n="23" facs="tcp:0170600800:26"/>
+               <speaker>Polypth.</speaker>
+               <p>Undoubtedly it is. Water is of as much Uſe in a Landskip, as Blood is in a Body; without theſe two Eſſentials, it is impoſſible there ſhould be life in either one or the other. Yet methinks it is a prodigious Pity that this ſtagnate Pool ſhould not by ſome Magic be metamorphoſed in<g ref="char:EOLhyphen"/>to a cryſtal Stream, rolling over a Bed of Pebbles. Such a quick Circulation would give an infinite Spirit to the View. I could wiſh his Lordſhip had ſuch a ſtream at his Command; he would ſhew it, I dare ſay, to the beſt Advantage, in its Paſſage thro' the Gardens. But we cannot <hi>make</hi> Nature, the utmoſt we can do is to <hi>mend</hi> her. — I have heard a <hi>Scotch</hi> Gentleman ſpeak of the River, upon which the Town of <hi>Sterling</hi> ſtands, which is as remarkable a Meander as I have ever heard of. From <hi>Sterling</hi> to a little Village upon the Banks of this River, by Land it is only four Miles, and yet if you ſhould follow the Courſe of the Water, you will find it above twenty.— There is an Houſe likewiſe that ſtands upon a narrow Iſthmus of a Peninſula, formed by this ſame River, which is mighty remarkable: The Water runs cloſe to both Ends of it, and yet if you ſail from one to the other, you will be carried a Compaſs of four Miles.—Such a River winding about this Place, would make it a Paradiſe indeed!</p>
+               <p>
+                  <pb n="24" facs="tcp:0170600800:27"/>As we are got into the North, I muſt confeſs I do not know any Part of the King<g ref="char:EOLhyphen"/>dom that abounds more with elegant na<g ref="char:EOLhyphen"/>tural Views: Our well-cultivated Plains, as you obſerved before, are certainly not com<g ref="char:EOLhyphen"/>parable to their rough Nature in point of Proſpect. About three Years ago I rode the Northern Circuit: The Weather was extremely fine; and I ſcarce remember be<g ref="char:EOLhyphen"/>ing more agreeably entertained than I was with the ſeveral charming Views exhibited to me in the northern Counties. Curioſity indeed, rather than Buſineſs, carried me down: And as I had my Time pretty much to myſelf, I ſpent it in a great meaſure in hunting after beautiful Objects. Sometimes I found myſelf hemmed within an Amphi<g ref="char:EOLhyphen"/>theatre of Mountains, which were variouſly ornamented, ſome with ſcattered Trees, ſome with tufted Wood, ſome with graz<g ref="char:EOLhyphen"/>ing Cattle, and ſome with ſmoaking Cot<g ref="char:EOLhyphen"/>tages. Here and there an elegant View likewiſe was opened into the Country.— A Mile's riding, perhaps, would have car<g ref="char:EOLhyphen"/>ried me to the Foot of a ſteep Precipice, down which thundered the whole Weight of ſome vaſt River, which was daſhed into Foam at the Bottom, by the craggy Points of ſeveral riſing Rocks: A deep Gloom over<g ref="char:EOLhyphen"/>ſpread the Proſpect, occaſioned by the cloſe Wood that hung round it on every Side.—
+<pb n="25" facs="tcp:0170600800:28"/>I could deſcribe to you a Variety of other Views I met with there, if we <hi>here</hi> wanted Entertainment in the Way of Landskip. One, however, I cannot forbear mention<g ref="char:EOLhyphen"/>ing, and wiſhing at the ſame time that his Lordſhip had ſuch Materials to work with, and it could not be but he would make a moſt noble Picture.—The Place I have in view is upon the Banks of the Ri<g ref="char:EOLhyphen"/>ver <hi>Eden</hi> (which is indeed one of the fineſt Rivers I ever ſaw). I ſcarce know a fitter Place for a Genius in this Way to exert it<g ref="char:EOLhyphen"/>ſelf in. There is the greateſt Variety of garniſhed Rocks, ſhattered Precipices, riſ<g ref="char:EOLhyphen"/>ing Hills, ornamented with the fineſt Woods, thro' which are opened the moſt elegant Vales that I have ever met with: Not to mention the moſt enchanting Views up and down the River, which winds itſelf in ſuch a manner as to ſhew its Banks to the beſt Advantage, which, together with very charm<g ref="char:EOLhyphen"/>ing Proſpects into the Country, terminated by the blue Hills at a Diſtance, make as fine a Piece of Nature, as perhaps can any where be met with.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I admire your Taſte in Landskip extremely; you have marked out juſt ſuch Circumſtances as would take me moſt in a View. I am I find almoſt as enthuſiaſtic a Lover of Nature as you are. Yet tho' I can
+<pb n="26" facs="tcp:0170600800:29"/>allow her to have an excellent <hi>Fancy,</hi> I do not think ſhe has the beſt <hi>Judgment.</hi> Tho' Nature is an admirable <hi>Colouriſt,</hi> her <hi>Com<g ref="char:EOLhyphen"/>poſition</hi> is very often liable to Cenſure. For which Reaſon I am for having her placed un<g ref="char:EOLhyphen"/>der the Direction of <hi>Art:</hi> And the Rule I would go by ſhould be Mr. <hi>Pope</hi>'s;
+<q>
+                     <l>—Treat the Goddeſs like a modeſt Fair,</l>
+                     <l>Not over-dreſs, nor leave her wholly bare</l>
+                  </q>
+               </p>
+               <p>Suppoſe, therefore, we leave your ro<g ref="char:EOLhyphen"/>mantic Nature, and continue our View of her here, where ſhe is treated according to this Preſcription of the Poet.—That Building is called the Temple of Contem<g ref="char:EOLhyphen"/>plation; thoſe Bas-relief Heads it is adorned with, are, I aſſure you, extremely good ones.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Pray, Sir, what kind of a Build<g ref="char:EOLhyphen"/>ing have we yonder, that ſtruck our Sight as we croſſed that Alley?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>We will walk up to it if you pleaſe: It is a <hi>Chineſe</hi> Houſe.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>A mighty whimſical Appearance it makes truly.</p>
+            </sp>
+            <sp>
+               <pb n="27" facs="tcp:0170600800:30"/>
+               <speaker>Calloph.</speaker>
+               <p>In my Opinion it is a pretty Object enough, and varies our View in a very becoming manner. Its cool ſtand up<g ref="char:EOLhyphen"/>on the Lake, and thoſe canvas Windows, deſigned as well to keep out the Sun, as let in the Air, give us a good Notion of the Manner of living in an hot Country. It is finely painted in the Inſide: Will you look into it?</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Finely painted indeed! Our Travellers tell us the <hi>Chineſe</hi> are a very in<g ref="char:EOLhyphen"/>genious People; and that Arts and Sciences flouriſh amongſt them in great Beauty. But for my Part, whenever I ſee any of their Paintings, I am apt, I muſt confeſs, in every thing elſe to call their Taſte into queſ<g ref="char:EOLhyphen"/>tion. It is impoſſible for one <hi>Art</hi> to be in Perfection, without introducing the reſt. They are all <hi>Links</hi> of the ſame <hi>Chain:</hi> If you draw up one, you muſt expect the reſt will follow. <hi>Cognoſcitur ex ſocio,</hi> is an old Rule you know in judging of <hi>Men;</hi> and I believe it may be applied with as much Propriety in judging of <hi>Arts.</hi> It is hardly to be imagined that any <hi>Art,</hi> perfect in its Kind, would claim any Kindred, or even bear to keep Company with ſuch a wretched <hi>Art of Painting</hi> as prevails amongſt the <hi>Chineſe:</hi> Its whole Myſtery conſiſts in dawbing on glaring Colours: Correctneſs
+<pb n="28" facs="tcp:0170600800:31"/>of Drawing, Beauty of Compoſition, and harmony of colouring, they ſeem not to have even the leaſt Notion of.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I like your Reflections extremely. We ſhould certainly have ſome more elegant Productions from <hi>China,</hi> if they were able to anſwer the Character I have ſometimes heard given of them. They have very little of true, manly Taſte, I fancy, among them: Their Ingenuity lies chiefly in the knick<g ref="char:EOLhyphen"/>knack Way; and is, I imagine, pretty much of the <hi>Dutch</hi> Kind.—Hold, Sir: This Way if you pleaſe. We will walk again towards the River, and purſue it to the Canal.—It is divided, you ſee, in<g ref="char:EOLhyphen"/>to three Parts; one takes its Riſe from the Grotto; another from the Pebble Bridge (as it is called) which is, I think, a pretty Object; and the third iſſues from a dark Wood.—There, Sir, let me preſent you to an illuſtrious ſet of your gallant Countrymen. This Place is called the Tem<g ref="char:EOLhyphen"/>ple of <hi>Britiſh</hi> Worthies; and is gloriouſly filled, you ſee, with the greateſt Wits, Pa<g ref="char:EOLhyphen"/>triots, and Heroes, that are to be met with in our Chronicles.</p>
+               <q>
+                  <l>Unſpotted Names, and memorable long!</l>
+                  <l>If there be Force in Virtue, or in Song.</l>
+               </q>
+               <p>Does not your Pulſe beat high, while you
+<pb n="29" facs="tcp:0170600800:32"/>thus ſtand before ſuch an awful Aſſembly? Is not your Breaſt warmed by a Variety of grand Ideas, which this Sight muſt give Birth to?—There you have a View of the calm Philoſophers, who ſought Vir<g ref="char:EOLhyphen"/>tue in her Retirement, and benefited Man<g ref="char:EOLhyphen"/>kind by Thought and Meditation.— Some took the human Mind for their Theme, examined the various Powers it is endowed with, and gave us, <hi>to know ourſelves.</hi>— Others took <hi>Nature</hi> for their Subject, look<g ref="char:EOLhyphen"/>ed thro' all her Works, and enlarged our Notions of a God.—While others, warmed with a generous Reſentment againſt Vice and Folly, made Morality their Care: To the cool Reaſoner ſerious Philoſophy, without any Ornament but Truth, was re<g ref="char:EOLhyphen"/>commended: To the gayer Diſpoſition the moral Song was directed, and the Heart was improved, while the Fancy was delighted: To thoſe who were yet harder to work upon, the Force of Example was made uſe of: Folly is put to the Teſt of Ridicule, and laughed out of countenance, while the moral Scene, like a diſtorting Mirror, ſhews the Villain his Features in ſo deformed a Manner, that he ſtarts at his own Image with Horror and Affright.—On the other Side you are preſented with a View of thoſe illuſtrious Worthies, who ſpent their Lives in Action; who left Retirement to the cool Philoſo<g ref="char:EOLhyphen"/>pher, entered into the Buſtle of Mankind,
+<pb n="30" facs="tcp:0170600800:33"/>and purſued Virtue in the dazling Light in which ſhe appears to Patriots and Heroes. Inſpired by every generous Sentiment, theſe gallant Spirits founded Conſtitutions, ſtem<g ref="char:EOLhyphen"/>med the Torrent of Corruption, battled for the State, ventured their Lives in the De<g ref="char:EOLhyphen"/>fence of their Country, and gloriouſly bled in the Cauſe of Liberty.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>What an happy Man you are, thus to find an Opportunity of moralizing upon every Occaſion! What a noble View you have diſplayed before me; when per<g ref="char:EOLhyphen"/>haps if I had been alone, I ſhould have en<g ref="char:EOLhyphen"/>tertained myſelf no otherwiſe than in ex<g ref="char:EOLhyphen"/>amining the Buſts; or if I read the Inſcrip<g ref="char:EOLhyphen"/>tions, they would only have drawn a Re<g ref="char:EOLhyphen"/>mark from me, that they were well wrote.— The Aſſembly yonder on the oppoſite Side of the Water, will be, I ſuppoſe, the next Subject for your Rapſody. Pray what Titles are thoſe Gentry diſtinguiſhed by? At this Diſtance I can hardly find out whether they are Philoſophers or Milk-maids.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, you have there a View of the Kingdom of <hi>Parnaſſus:</hi> That Aſſembly is compoſed of <hi>Apollo,</hi> and his Privy-council. But as I believe they will hardly pay us, by any Beauty in their Work<g ref="char:EOLhyphen"/>manſhip, for our Trouble, ſhould we go round and make them a Viſit; it is my Ad<g ref="char:EOLhyphen"/>vice
+<pb n="31" facs="tcp:0170600800:34"/>that we walk directly from hence to the Temple of Friendſhip, and ſo return by that Terrace back again to thoſe Parts of the Garden that remain yet unſeen.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>With all my Heart: But let us turn in here, I beſeech you, and walk as much in the Shade as poſſible, for the Day grows vaſtly warm.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I am ready to follow you amongſt the Trees, not more out of Complaiſance than Inclination: I like a cool Retreat as well as you. When I plan a Garden, I believe, I ſhall deal much in ſhady Walks; wherever I open a grand Terrace, I intend to lengthen out by its Side a cloſe Viſta: through the one I ſhall lead Strangers, in the other enjoy my Friends. I am a great Admirer of walking in a Shade; it is a kind of Emblem of the moſt agreeable Situation in Life, the retired one: Every fantaſtic View is hid from us, and we may if we pleaſe, be Poets, or Philoſophers, or what we will. I own I admire the Taſte of theſe buzzing Inſects, ſporting themſelves in the Shade; a glaring Sun ſhine neither in the World, nor in a Walk, is agreeable to my Way of thinking.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>If all the World thought as you do, we ſhould have neither Stateſmen to
+<pb n="32" facs="tcp:0170600800:35"/>mend our Laws, nor Coblers to mend our Shoes: We ſhould all run and hide our<g ref="char:EOLhyphen"/>ſelves amongſt Trees, and what then would become of Society?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>If I thought you did not will<g ref="char:EOLhyphen"/>fully miſtake my Meaning, I would take the Trouble of telling you that I am an Advo<g ref="char:EOLhyphen"/>cate for no other <hi>Retirement</hi> than ſuch as is conſiſtent with the Duties of Life. A Love for which kind of Retirement, <hi>properly qualified,</hi> is <hi>Health</hi> to the Mind; but when it is <hi>made up</hi> unskillfully, it throws us into a <hi>fatal Lethargy,</hi> from whence be<g ref="char:EOLhyphen"/>gins the Date of an uſeleſs Life. Every vir<g ref="char:EOLhyphen"/>tuous Mind, in a greater or a leſs Degree, has a turn this Way, and the <hi>beſt,</hi> I believe, ought to be at the <hi>moſt</hi> Pains to guard a<g ref="char:EOLhyphen"/>gainſt carrying this Inclination into the Ex<g ref="char:EOLhyphen"/>treme.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>And yet the Annals of moſt Nations let us ſee that their greateſt Men have often indulged it; and much for the Benefit of Mankind too; witneſs many of the illuſtrious Worthies we have juſt been viſiting: You forget the Panegyric you be<g ref="char:EOLhyphen"/>ſtowed upon them.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>No, Sir: But do you remem<g ref="char:EOLhyphen"/>ber that I placed theſe cool Reaſoners on
+<pb n="33" facs="tcp:0170600800:36"/>the beſt Side of a Compariſon with thoſe who entred into the World, and ſpent their Lives in Action? On the contrary, this latter kind of Men have always ſtood faireſt in my Eſteem. The Life of a Recluſe I would re<g ref="char:EOLhyphen"/>commend to none but a Valetudinarian. We were intended to aſſiſt each other as much as we are able. For my Part, it has always been my Opinion, that <hi>one good Man</hi> does more Service in the World, than <hi>a thouſand good Books.</hi>—But we'll drop our Ar<g ref="char:EOLhyphen"/>gument at preſent, becauſe I ſee we have finiſhed our Walk.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Is that Building the Temple of Friendſhip: I cannot ſay that I extremely ad<g ref="char:EOLhyphen"/>mire it: But I hope I ſhall meet with more Entertainment within, than I am able to do without.—Well: This is elegant I muſt confeſs.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Ay, look round, and tell me if you are not ſtruck by ſeveral very beautiful Objects. Thoſe buſts I aſſure you are <hi>all</hi> pretty well done, and <hi>ſome</hi> of them extreme<g ref="char:EOLhyphen"/>ly well.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>So they are indeed: But I am chiefly intent upon the Painting, which I am much taken with: It is by the ſame Hand, I dare ſay, with that in the Temple
+<pb n="34" facs="tcp:0170600800:37"/>of <hi>Venus.</hi> That Emblem of Friendſhip a<g ref="char:EOLhyphen"/>bove the Door, thoſe of Juſtice and Liberty, and thoſe other Ornaments upon the Walls, are well touched. What is that Painting upon the Cieling? I do not rightly under<g ref="char:EOLhyphen"/>ſtand it.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, it is a Piece of Sa<g ref="char:EOLhyphen"/>tyr: I am ſure you will like it if you will give yourſelf the Trouble to examine it: It is in your Taſte I know exactly.— There you ſee ſits <hi>Britannia;</hi> upon one Side are held the Glory of her Annals, the Reigns of Queen <hi>Elizabeth</hi> and <hi>Edward</hi> III. and on the other is offered the Reign of —, which ſhe frowns upon, and puts by with her Hand.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Excellent, upon my Word! Faith, this is good! Never accept it, honeſt Lady, till Corruption is at an End, and pub<g ref="char:EOLhyphen"/>lic Spirit revives.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>With ſo little Malevolence as I know you are poſſeſſed of, I do not think I ever met with any body in my Life ſo eager to catch at any thing to blame; or to whom an Opportunity of that kind af<g ref="char:EOLhyphen"/>forded a more ſeeming real Pleaſure than it does to you.—But I know it pro<g ref="char:EOLhyphen"/>ceeds from an honeſt Nature.—Well: Suppoſe we continue our Walk.—I look
+<pb n="35" facs="tcp:0170600800:38"/>upon that Statue as one of the fineſt in the World: I would give all the Money in my Pocket for a Sight of the Original.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>The Poſture always to me ap<g ref="char:EOLhyphen"/>pears a little too much ſtrained. I can ſcarce throw myſelf into ſuch an attitude. Yet it is fine I muſt confeſs.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>You have the beſt View of it, Sir, from hence. Moſt of the Engravings I have met with give us the back View, but I think the Statue appears infinitely to the beſt Advantage when taken in Front. The Air of the Head is delightful, and cannot be hid without depriving the Figure of half its Life.—I am leading you now to that genteel Piece of Building which goes by the Name of the Palladian Bridge.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I have ſeen, I think, ſomething like it at my Lord <hi>Pembroke</hi>'s.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I believe, Sir, the Model was taken from thence. Tho' if I remember right, the Roof is there ſupported by Pil<g ref="char:EOLhyphen"/>lars on both Sides.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I think it is.—But what have we got there? You are taking me paſt ſome<g ref="char:EOLhyphen"/>thing curious.</p>
+            </sp>
+            <sp>
+               <pb n="36" facs="tcp:0170600800:39"/>
+               <speaker>Calloph.</speaker>
+               <p>I beg your Pardon: Indeed I had almoſt forgot the Imperial Cloſet: And I wonder I ſhould, for I aſſure you I have the greateſt Veneration for its Inhabitants.— There, Sir, is a noble Triumvirate. <hi>Titus, Trajan,</hi> and <hi>Aurelius,</hi> are Names which want not the Pomp of Title to add a Luſ<g ref="char:EOLhyphen"/>tre to them.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I wiſh you could perſuade all the Kings in <hi>Europe</hi> to take them as Pat<g ref="char:EOLhyphen"/>terns. But, God knows, public Spirit is now at a low Ebb amongſt us: There is more of it in that ſingle honeſt Sentiment, <hi>Pro me: ſi merear, in me,</hi> than I believe is to be found in this degenerate Age in half a Kingdom.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>I ſee, my good Friend, you can moralize upon Occaſion too.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Moralize! The D—l take me, if I would not this Moment, in ſpite of—</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Nay, come, don't grow ſerious: You know I have long ſince laid it down as a Rule, to ſtop my Ears when you get into your political Vein. I am not now to learn that there is no keeping you within the Bounds of Temperance upon that Topic.</p>
+            </sp>
+            <sp>
+               <pb n="37" facs="tcp:0170600800:40"/>
+               <speaker>Polypth.</speaker>
+               <p>Well then, let us have ſome<g ref="char:EOLhyphen"/>thing elſe to talk about.—Yon Wall at this Diſtance ſeems to promiſe us ſome Baſs-relief.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Yes, Sir; you are there pre<g ref="char:EOLhyphen"/>ſented with a View of the different Quarters of the World, bringing their various Pro<g ref="char:EOLhyphen"/>ducts to <hi>Britannia.</hi> It is a pretty Orna<g ref="char:EOLhyphen"/>ment enough for a Bridge, which, like the Art of Navigation, joins one Land to ano<g ref="char:EOLhyphen"/>ther.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I can't ſay I much admire the Workmanſhip. There is a great degree of Auk wardneſs in ſeveral of the Figures.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why really I am ſo far of your way of thinking, that I muſt own I am no great Admirer of this kind of Work, except it be extremely fine.—The beſt thing in this Way, that ever I met with, is a Piece of Alt-relief, which his Lordſhip keeps with<g ref="char:EOLhyphen"/>in Doors. We ſhall ſcarce, I believe have time now, but we muſt take an Opportu<g ref="char:EOLhyphen"/>nity of ſeeing it before you leave the Coun<g ref="char:EOLhyphen"/>try. You will meet with likewiſe in thoſe Apartments ſeveral very good Pictures: I remember ſpending an Afternoon about half a Year ago, in a very agreeable Manner a<g ref="char:EOLhyphen"/>mongſt them. But this Piece of Alt-relief
+<pb n="38" facs="tcp:0170600800:41"/>ſtruck me beyond every thing. The Story is <hi>Darius</hi>'s Tent; and it is ſo charmingly told, that I have had, I can tell you, a meaner Opinion of <hi>Le Brun</hi> upon that Subject, ever ſince I have ſeen it: The Compoſition is ſo juſt, the Figures ſo grace<g ref="char:EOLhyphen"/>ful and correct, nay, the very Drapery ſo free and eaſy, that I declare I was altogether aſtoniſhed at the Sight of it.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Well; I ſhall find ſome Op<g ref="char:EOLhyphen"/>portunity of paying it a Viſit. There is ſo much Art required, and ſo much Difficulty attends doing any thing in this Way as it ought to be, that when we do meet with a good Piece of Workmanſhip of this kind, it affords us an extreme Pleaſure.— So, Sir <hi>William,</hi> have I met you here! I ſhould rather have expected to have ſeen you among the <hi>Britiſh</hi> Worthies.— This ſame <hi>Penn,</hi> Sir, I aſſure you, is a great Favourite of mine. I eſteem him one of the moſt worthy Legiſlators upon Record. His Laws, I am told, act ſtill with great Force in <hi>Penſylvania,</hi> and keep the honeſt, inoffenſive People there in extreme good Order.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Our Sailors mention his Colony as a very happy Set of People; they live en<g ref="char:EOLhyphen"/>tirely at Peace amongſt themſelves; and
+<pb n="39" facs="tcp:0170600800:42"/>(bred up in a ſtrict Obſervance of Probity) without any Knowledge of an Art Military amongſt them, are able to preſerve the moſt ſociable Terms with their Neighbours.— Theſe Buſts ſeem to have eſcaped your Ob<g ref="char:EOLhyphen"/>ſervation.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>No, Sir, I am not ſo incu<g ref="char:EOLhyphen"/>rious as to ſuffer any thing that has been in <hi>Italy</hi> to ſlip my Notice: Some of thoſe par<g ref="char:EOLhyphen"/>ticularly that ſtand on the Side next <hi>Raw<g ref="char:EOLhyphen"/>leigh,</hi> I was exceedingly taken with.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Pray what is your Opinion of checquered Marble's being made uſe of in Buſts?</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Why, Sir, I never ſee any of theſe party-coloured Faces, but I am moved with Indignation at the Sculptor's ridiculous Humour. It is ſo abſurd a Taſte, that I cannot conceive how it ſhould ever enter into a Workman's Head, to make every Fea<g ref="char:EOLhyphen"/>ture of a Man's Face of a different Colour; and it amazes me, I aſſure you, that we meet with daily ſo many Inſtances of ſuch Ab<g ref="char:EOLhyphen"/>ſurdity.—In ſeveral Parts of the Gar<g ref="char:EOLhyphen"/>den, I have had various Views of that old <hi>Gothic</hi> Building; we are now at laſt I hope moving towards it. I am ſo wonderfully pleaſed with its outward Appearance, that
+<pb n="40" facs="tcp:0170600800:43"/>I ſhall be diſappointed if I don't meet ſome thing anſwerable within.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, as old as it looks, I aſſure you it is not yet finiſhed. You will meet with nothing ornamental in the Inſide; ſo I would have you perſuade yourſelf it has al<g ref="char:EOLhyphen"/>ready done all in its Power to entertain you. And upon my Word I think it has done a great deal: Without it, I am ſure this Part of the Garden would be quite naked and lifeleſs; nor would any other Part appear with ſo much Beauty. It puts one in Mind of ſome generous Patriot in his Retirement; his own Neighbourhood feels moſt the Ef<g ref="char:EOLhyphen"/>fects of that Bounty, which in ſome mea<g ref="char:EOLhyphen"/>ſure ſpreads itſelf over a whole Country.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I like this Diſpoſition within, I aſſure you, altogether as well as its Form without.—There are two or three Pieces of the beſt painted Glaſs that I have any where met with: Thoſe little hiſtorical Pieces are exceedingly beautiful; and ſo are thoſe Landskips likewiſe.—This Hill I think appears rather too naked.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Throw your Eye over it then, and tell me if you are not raviſhed with the View before you. Nothing certainly in the kind can be more beautiful or great,
+<pb n="41" facs="tcp:0170600800:44"/>than that pompous Pile riſing in ſo mag<g ref="char:EOLhyphen"/>nificent a manner above the Wood. The Building cannot poſſibly be ſhewn to greater Advantage: The Appearance it <hi>makes</hi> pre<g ref="char:EOLhyphen"/>ſents you with an idea ſufficiently grand; yet your Imagination cannot be perſuaded but that it is in fact much grander, and that the Wood hides a great Part of what is to be ſeen from your Eye. This is a moſt de<g ref="char:EOLhyphen"/>lightful manner of pleaſing: A grand Object left to a good Imagination to improve up<g ref="char:EOLhyphen"/>on, ſeldom loſes by its Aſſiſtance. Our View likewiſe is greatly added to in point of Beauty, by thoſe ſeveral other ſmaller Buildings which offer themſelves, ſome only half hid amongſt the Branches, and others juſt peeping from amongſt tufted Trees, which make very beautiful little gar<g ref="char:EOLhyphen"/>niſhed Diſhes in this moſt elegant Enter<g ref="char:EOLhyphen"/>tainment.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>As you have thus painted the near Objects, let my Pencil, I beg, come in for a few rough Touches in the back<g ref="char:EOLhyphen"/>grounds: Without ſomething of an Offskip, your Man of Art, you know, ſeldom eſteems his View perfect. And in this Landskip there are as many beautiful Objects thrown off to a Diſtance as can well be imagined: That Variety of fine Wood; that bright Surface of Water, with the pointed Obelisk
+<pb n="42" facs="tcp:0170600800:45"/>in the Midſt of it; thoſe two Pavilions up<g ref="char:EOLhyphen"/>on the Banks of the Canal; and the ſtill more diſtant View into the Country, are Objects which, in my Opinion, make no ſmall Addition to the Beauty of your Land<g ref="char:EOLhyphen"/>skip; or, to carry on your Alluſion, may very well come in as a ſecond Courſe in your Entertainment.— Our Attention, I think, in the next Place, is demanded by this venerable Aſſembly. That old Gentle<g ref="char:EOLhyphen"/>man there ſits with great Dignity: I like his Attitude extremely: If I underſtood the <hi>Runic</hi> Character, I might have known pro<g ref="char:EOLhyphen"/>bably (for this Inſcription I fancy would in<g ref="char:EOLhyphen"/>form me) by what Title he is diſtinguiſhed. But the Gracefulneſs of his Poſture diſcovers him to have been nothing leſs than an Hero of the firſt Rank. He puts me in Mind of a <hi>Roman</hi> Senator, ſitting in his Curule Chair to receive the <hi>Gauls.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, you have done him great Honour I muſt own; but you have not yet honoured him according to his Dig<g ref="char:EOLhyphen"/>nity: He is nothing leſs, Sir, I aſſure you, than the Repreſentative of a <hi>Saxon</hi> Deity. You ſee here
+<q>
+                     <hi>Thor</hi> and <hi>Woden</hi> fabled Gods—</q>
+with the whole Syſtem of your Anceſtor's
+<pb n="43" facs="tcp:0170600800:46"/>Theology. Walk round the Aſſembly, they will ſmile upon a true <hi>Briton,</hi> and try if you can acknowledge each by his diſtinct Symbol.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>I muſt confeſs they do not to me ſeem accoutered like Gods: For my Part, I ſhould rather ſuſpect them to be Statues of Heroes and Lawgivers, meta<g ref="char:EOLhyphen"/>morphiſed into Divinities by the Courteſy of the Place: I ſhall not however go about to diſpute their Titles; but like my good Anceſtors before me, acquieſce piouſly in what other People tell me.—Tho' I cannot ſay but that Lady there, bearing the Sun (who repreſents I ſuppoſe <hi>Sunday</hi>) looks whimſical enough; and makes juſt ſuch an Appearance as I could imagine the miſled Conception of an enthuſiaſtic <hi>Saxon</hi> might mould his Deities into. But in theſe other Figures I muſt own I cannot ſee Superſtition at all characterized, which you may obſerve generally forms its Objects of Worſhip into the moſt miſ-created things that can poſſibly enter the Imagination of Man.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, amongſt the <hi>Greeks</hi> and <hi>Romans,</hi> you may obſerve ſeveral very well-ſhaped Deities: The <hi>Hercules,</hi> the <hi>Apollo,</hi> and the <hi>Venus,</hi> are at this Day Standards of Beauty.</p>
+            </sp>
+            <sp>
+               <pb n="44" facs="tcp:0170600800:47"/>
+               <speaker>Polypth.</speaker>
+               <p>Yes; but I am apt to attribute this rather to the Imagination of their Sculp<g ref="char:EOLhyphen"/>tors, than their Prieſts. To <hi>ſhew Art,</hi> ra<g ref="char:EOLhyphen"/>ther than to <hi>expreſs Religion,</hi> was the Point aimed at in theſe enchanting Pieces of Work<g ref="char:EOLhyphen"/>manſhip.—But when Superſtition acted without Controul; when the fantaſtic No<g ref="char:EOLhyphen"/>tions of Prieſts were put into the Hands of ordinary Workmen, even amongſt the po<g ref="char:EOLhyphen"/>lite <hi>Greeks</hi> and <hi>Romans</hi> themſelves, Lord! what misſhapen Monſters crouded into Temples, and reared themſelves aloft above Altars! Search other Countries likewiſe, <hi>Egypt</hi> and <hi>Africa. China</hi> and <hi>Japan,</hi> or any Place either ancient or modern, where Superſtition prevails, and I dare engage in the whole Catalogue of their Deities you will ſcarce meet with one that bears any thing like the human Shape.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why their Demi-Gods, or ca<g ref="char:EOLhyphen"/>nonized Heroes, of which all pagan Nations had Abundance, were generally I fancy re<g ref="char:EOLhyphen"/>preſented in the human Form. And theſe <hi>Saxon</hi> Divinities, I ſuppoſe, pretend not to any ſuperior Rank — But however, as no Degree of Veneration is exacted from you, you may I think let them reſt quietly upon their Pedeſtals, without any farther Mo<g ref="char:EOLhyphen"/>leſtation.—We have a good View into the Country from hence. Thoſe Woods are
+<pb n="45" facs="tcp:0170600800:48"/>extremely elegant in their kind; we muſt certainly contrive to take a Ride thither ſome Evening. They are laid out in a very fine Manner, and cut into very beautiful Ridings.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Ay, that is the kind of Improve<g ref="char:EOLhyphen"/>ment that takes moſt with me (let us ſtep in here a Moment, we are caught I ſee in a Shower) I am altogether of the Poet's Opinion, that
+<q>'Tis <hi>Uſe</hi> alone that ſanctifies Expence.</q>
+Were I a Nobleman, I ſhould endeavour to turn my Eſtate into a Garden, and make my Tenants my Gardiners: Inſtead of uſeleſs Temples, I would build Farm-houſes; and inſtead of cutting out unmeaning Viſtas, I would beautify and mend Highways: The Country ſhould ſmile upon my Labours, and the Public ſhould partake in my Pleaſures. What ſignifies all this oſtentatious Work? Is any Man the better for it? Is it not Money moſt vilely ſquandered away?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>So far from it, that I aſſure you, conſidered even in a public Light, I look upon it as an Expence that may very pro<g ref="char:EOLhyphen"/>perly be ſaid to be ſanctified by <hi>Uſe.</hi>
+               </p>
+            </sp>
+            <sp>
+               <pb n="46" facs="tcp:0170600800:49"/>
+               <speaker>Polypth.</speaker>
+               <p>I ſuppoſe you are going to tell me that it feeds two or three poor Labour<g ref="char:EOLhyphen"/>ers; and when you have ſaid this, I know not what more you can ſay to defend it. But how is it poſſible for a Man to throw away his Money without doing ſome Ser<g ref="char:EOLhyphen"/>vice in the World?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>How? Why by ſpending it in gaming, to the Encouragement of Cheats and Sharpers: By ſquandering it away upon Luſts and Appetites, in the Support of Stews and Bawdy-houſes: Or by Dealing it out in Bribes, in oppoſition to Honeſty, and to advance Corruption. In Arts like theſe, what Numbers conſume their Wealth! It is not enough for them to prevent Mankind's being benefited by their affluent Mankind's being benefited by their affluent Circumſtan<g ref="char:EOLhyphen"/>ces; but they do their utmoſt, while they diminiſh their Fortunes, to make all they can influence as worthleſs as themſelves. So that I aſſure you I ſhould look upon it as a very great Point gained, if all our Men of Fortune would only take care that their Wealth proves of no Diſſervice to Mankind. Tho' I am far from deſiring they ſhould ſtop there: I would have them endeavour to turn it into ſome uſeful Channel. And in my Opinion, it is laid out in a very laudable Manner, when it is ſpent, as it is here, in circulating thro' a Variety of Trades, in ſup<g ref="char:EOLhyphen"/>porting
+<pb n="47" facs="tcp:0170600800:50"/>a Number of poor Families, and in the Encouragement of Art and Induſtry.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Well, Sir, I confeſs Wealth thus laid out, is beneficial to a Country; but ſtill you keep from the Point: I ask whether all theſe good Ends would not be anſwered, and more too, were this Wealth laid out according to my Scheme, in public Works, or ſomething of an <hi>uſeful</hi> Nature.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>And ſo you have no Notion of any Uſe ariſing from theſe elegant Productions of Art: You cannot conceive how they ſhould be of any Service to the Public. Why you are a mere <hi>Goth,</hi> an unpoliſhed <hi>Vandal;</hi> were you impowered to reform the Age, I ſuppoſe I ſhould ſee you, like one of thoſe wild miſguided People, courſing furiouſly round the Land, and laying deſolate every thing beautiful you met with. But in my Opinion, Sir, theſe noble Productions of Art, conſidered merely as ſuch, may be looked upon as Works of a very public Na<g ref="char:EOLhyphen"/>ture. Do you think no <hi>End</hi> is anſwered when a Nation's Taſte is regulated with re<g ref="char:EOLhyphen"/>gard to the moſt innocent, the moſt refined, and elegant of its Pleaſures? In all polite Countries the Amuſements of the People were thought highly deſerving a Legiſlator's Inſpection. To eſtabliſh a juſt Taſte in theſe,
+<pb n="48" facs="tcp:0170600800:51"/>was eſteemed in ſome meaſure as advancing the Intereſt of Virtue: And can it be con<g ref="char:EOLhyphen"/>ſidered as a Work entirely of a private Na<g ref="char:EOLhyphen"/>ture, for a ſuperior Genius to exert itſelf in an Endeavour to fix a true Standard of Beau<g ref="char:EOLhyphen"/>ty in any of theſe allowed and uſeful kinds of Pleaſure? In the Way of Gardening par<g ref="char:EOLhyphen"/>ticularly, the Taſte of the Nation has long been ſo depraved, that I ſhould think we might be obliged to any one that would un<g ref="char:EOLhyphen"/>dertake to reform it. While a Taſte for Painting, Muſic, Architecture, and other polite Arts, in ſome meaſure prevailed a<g ref="char:EOLhyphen"/>mongſt us, our Gardens for the moſt Part were laid out in ſo formal, auk ward, and wretched a Manner, that they were really a Scandal to the very Genius of the Nation; a Man of Taſte was ſhocked whenever he ſet his Foot into them. But <hi>Stow,</hi> it is to be hoped, may work ſome Reformation: I would have our Country Squires flock hither two or three times in a Year, by way of Im<g ref="char:EOLhyphen"/>provement, and after they have looked about them a little, return Home with new No<g ref="char:EOLhyphen"/>tions, and begin to ſee the Abſurdity of their clipped Yews, their Box-wood Borders, their flouriſhed Parterres, and their lofty Brick-walls.—You may ſmile, but! aſſure you ſuch an Improvement of public Taſte, tho' there is no Occaſion to conſider it as a matter of the firſt Importance, is cer<g ref="char:EOLhyphen"/>tainly
+<pb n="49" facs="tcp:0170600800:52"/>a Concern that ought by no means to be neglected. Perhaps indeed I may carry the Matter farther than the generality of People; but to me I muſt own there ap<g ref="char:EOLhyphen"/>pears a very viſible Connection between an <hi>improved</hi> Taſte for Pleaſure, and a Taſte for Virtue: When I ſit raviſhed at an Ora<g ref="char:EOLhyphen"/>torio, or ſtand aſtoniſhed before the Car<g ref="char:EOLhyphen"/>toons, or enjoy myſelf in theſe happy Walks, I can feel my Mind expand itſelf, my Notions enlarge, and my Heart better diſpoſed either for a religious Thought, or a benevolent Action: In a Word, I cannot help imagining a Taſte for theſe exalted Plea<g ref="char:EOLhyphen"/>ſures contributes towards making me a bet<g ref="char:EOLhyphen"/>ter Man.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Good God! what an Enthuſiaſt you are! Polite Arts improve Virtue! an Aſſertion indeed for a Philoſopher to make. Why are they not always conſidered as ha<g ref="char:EOLhyphen"/>ving a natural Tendency to Luxury, to Riot, and Licentiouſneſs?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>No more, in my Opinion, than a wholeſome Meal has to a Surfeit, or reading the Scriptures to Hereſy: All things are capable, we know, of Abuſe; and per<g ref="char:EOLhyphen"/>haps the beſt things the moſt capable: And tho' this may indeed argue a Depravity in <hi>us,</hi> yet it by no means, I think, argues a Tendency
+<pb n="50" facs="tcp:0170600800:53"/>in <hi>them</hi> to deprave us. However, (to let what I have yet ſaid ſtand for nothing) I can tell you one very great Piece of Service ariſing to the Country from Wealth laid cut in this elegant manner, which you ſeem ſo much to grumble at; and that is, the Money ſpent in the Neighbourhood by the Company daily crouding hither to ſatisfy their Curioſity. We have a kind of a con<g ref="char:EOLhyphen"/>tinual Fair; and I have heard ſeveral of the Inhabitants of the neighbouring Town aſ<g ref="char:EOLhyphen"/>ſert, that it is one of the beſt Trades they have: Their Inns, their Shops, their Farms, and Shambles, all find their Account in it: So that, in my Opinion, viewed in this Light only, ſuch Productions of Art may be con<g ref="char:EOLhyphen"/>ſidered as very great Advantages to every Neighbourhood that enjoys the lucky Situa<g ref="char:EOLhyphen"/>tion of being placed near them. —To this Advantage might be added, the great Degree of Pleaſure from hence derived daily to ſuch Numbers of People: A Place like this is a kind of keeping open Houſe, there is a Repaſt at all times ready for the Enter<g ref="char:EOLhyphen"/>tainment of Strangers. And ſure if you have any Degree of Benevolence, you muſt think an <hi>uſeful End</hi> anſwered in thus affording an innocent Gratification to ſo many of your Fellow-creatures. A <hi>Sunday</hi> Evening ſpent here, adds a new Reliſh to the Day of Reſt and makes the Sabbath appear more chearful
+<pb n="51" facs="tcp:0170600800:54"/>to the Labourer after a toilſome Week. For my Part, I aſſure you I have ſcarce expe<g ref="char:EOLhyphen"/>rienced a greater Pleaſure than I have often felt upon meeting a Variety of pleaſed Faces in theſe Walks: All Care and Uneaſineſs ſeems to be left behind at the Garden-door, and People enter here fully reſolved to enjoy themſelves, and the ſeveral beautiful Ob<g ref="char:EOLhyphen"/>jects around them: In one Part a Face pre<g ref="char:EOLhyphen"/>ſents itſelf marked with the Paſſion of gap<g ref="char:EOLhyphen"/>ing Wonder; in another you meet a Coun<g ref="char:EOLhyphen"/>tenance bearing the Appearance of a more rational Pleaſure; and in a third, a Sett of Features compoſed into ſerene Joy; while the Man of Taſte is ſeen examining every Beauty with a curious Eye, and diſcovering his Approbation in an half-formed Smile.— To this I might ſtill add another Advantage, of a public Nature, derived from theſe ele<g ref="char:EOLhyphen"/>gant Productions of Art; and that is their Tendency to raiſe us in the Opinion of Fo<g ref="char:EOLhyphen"/>reigners. If our Nation had nothing of this kind to boaſt of, all our Neighbours would look upon us a ſtupid, taſteleſs Set of People, and not worth viſiting. So that for the Credit of the Country, I think, ſomething of this kind ought to be exhibited amongſt us. Our public Virtues, if we have any, would not, I dare ſay, appear to leſs Ad<g ref="char:EOLhyphen"/>vantage when recommended by theſe Em<g ref="char:EOLhyphen"/>belliſhments of Art.</p>
+            </sp>
+            <sp>
+               <pb n="52" facs="tcp:0170600800:55"/>
+               <speaker>Polypth.</speaker>
+               <p>I wonder you ſhould not know me better than to imagine I am always in earneſt when I find fault. My Thoughts and yours, I aſſure you, agree exactly upon this Subject. I only wanted to engage you in ſome Diſcourſe till the Shower was over; and as the Sky ſeems now quite clear, if you will, we'll venture out, and viſit what we have yet to ſee.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>You are a humorous Fellow: This is not the firſt time you have made me play my Lungs to no purpoſe.—As we walk along this Terrace, you may obſerve the great Advantage of low Walls: By this means the Garden is extended beyond its Limits, and takes in every thing entertain<g ref="char:EOLhyphen"/>ing that is to be met with in the range of half a County. Villages, Works of Hus<g ref="char:EOLhyphen"/>bandry, Groups of Cattle, Herds of Deer, and a Variety of other beautiful Objects, are brought into the Garden, and make a Part of the Plan. Even to the <hi>niceſt</hi> Taſte theſe rural Scenes are highly delightful.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Nay you may add, that whoever has no Reliſh for them, gives Reaſon for a Suſpicion that he has no Taſte at all.</p>
+               <q>
+                  <l>Straight mine Eye hath caught new Pleaſures</l>
+                  <l>Whilſt the Landskip round it meaſures;</l>
+                  <l>
+                     <pb n="53" facs="tcp:0170600800:56"/>Ruſſet Lawns, and Fallows gray,</l>
+                  <l>Where the nibbling flocks do ſtray;</l>
+                  <l>Mountains, on whoſe barren Breaſt</l>
+                  <l>The labouring Clouds do often reſt;</l>
+                  <l>Meadows trim with Daiſies pide,</l>
+                  <l>Shallow Brooks, and Rivers wide:</l>
+                  <l>Towers and Battlements it ſees</l>
+                  <l>Boſom'd high in tufted Trees,</l>
+                  <l>Where perhaps ſome Beauty lies,</l>
+                  <l>The Cynoſure of neighbouring Eyes.</l>
+                  <l>Hard by a Cottage Chimney ſmokes,</l>
+                  <l>From betwixt two aged Oaks.</l>
+               </q>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Can you repeat no more? I could have liſtened with great Pleaſure if you had gone on with the whole Piece. It is quite Nature: That View of an old Caſtle, <hi>bo<g ref="char:EOLhyphen"/>ſom'd high in tufted Trees,</hi> pleaſes me ex<g ref="char:EOLhyphen"/>ceedingly: And the two following Lines,
+<q>
+                     <l>Where perhaps ſome Beauty lies,</l>
+                     <l>The Cynoſure of neighbouring Eyes,</l>
+                  </q>
+give it an elegant, romantic Air; and add greatly to the Idea before conceived.— But to purſue our former Argument: It muſt be owned indeed that theſe Walks want ſuch Openings into the Country as little as any Place can well be imagined to do; yet even <hi>Stow</hi> itſelf, I aſſure you, is much improved
+<pb n="54" facs="tcp:0170600800:57"/>by them. They contraſt beautifully with this more poliſhed Nature, and ſet it off to greater Advantage. After ſurfeiting itſelf with the Feaſt here provided for it, the Eye, by uſing a little Exerciſe in travelling about the Country, grows hungry again, and re<g ref="char:EOLhyphen"/>turns to the Entertainment with freſh Appe<g ref="char:EOLhyphen"/>tite. Beſides, there is nothing ſo diſtaſteful to the Eye as a confined Proſpect (where the Reaſonableneſs of it does not appear) eſpe<g ref="char:EOLhyphen"/>cially if a dead Wall, or any other ſuch diſ<g ref="char:EOLhyphen"/>agreeable Object ſteps in between. The Eye naturally loves Liberty, and when it is in queſt of Proſpects, will not reſt content with the moſt beautiful Diſpoſitions of Art, con<g ref="char:EOLhyphen"/>fined within a narrow Compaſs, but (as ſoon as the Novelty of the Sight is over) will be<g ref="char:EOLhyphen"/>gin to grow diſſatisfied, till the whole Limits of the Horizon be given it to range through.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>The Eye, according to your Ac<g ref="char:EOLhyphen"/>count, ſeems to be ſomething like a Bee: Plant as many Flowers as you will near its Hive, yet ſtill the little Inſect will be diſcontented, unleſs it be allowed to wander o'er the Country, and be its own Caterer. — I have got a few very ſevere Exclamations at my Tongue's End, which I will not vent till you have told me the Architect's Name, who has loaded the Ground with that monſtrous Piece of Build<g ref="char:EOLhyphen"/>ing,
+<pb n="55" facs="tcp:0170600800:58"/>tho' I believe I can gueſs him without your Information.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Suffer me to intercede in his Behalf. You are ſo unmerciful a Reprover, that I have not Patience to hear you. The Room above is deſigned, I am told, to be fitted up in a very elegant manner; but as very little is yet done to it, we ſhall find nothing I fancy to anſwer the Trouble of going up Stairs.—This Part of the Garden, you ſee, is yet unfiniſhed. If we have the Plea<g ref="char:EOLhyphen"/>ſure of your Company in this Country next Year, you will ſee I dare ſay great Alterations here. That <hi>Baſe</hi> is to ſhoot up into a lofty Monument: And ſeveral of thoſe Objects you ſee before you are to take new Forms upon them.</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>Yonder likewiſe ſeems to be a Monument <note n="*" place="bottom">Since this View of the Gardens was taken, the Monu<g ref="char:EOLhyphen"/>ment here ſpoken of has been finiſhed. The following Lines are a Tranſlation of its Inſcription, which in the Original is wrote in Latin.
+<q>
+                        <lg>
+                           <l>As a Monument</l>
+                           <l>To teſtify both his Applauſe and Grief,</l>
+                           <l>RICHARD Lord Viſcount COBHAM</l>
+                           <l>Erected this Naval Pillar to the Memory of his Nephew</l>
+                           <l>CAPTAIN GRENVILLE,</l>
+                           <l>Who commanding a Ship of War in the <hi>Britiſh</hi> Fleet</l>
+                           <l>Under ADMIRAL ANSON,</l>
+                           <l>In an Engagement with the <hi>French,</hi> was</l>
+                           <l>Mortally wounded upon the Thigh</l>
+                           <l>By a Fragment of his ſhattered Ship;</l>
+                           <l>Yet with his laſt Breath had the Bravery to cry out,</l>
+                           <l>"How much more deſireable is it thus to meet Death,</l>
+                           <l>"Than, convicted of Cowardice, to meet Juſtice!"</l>
+                        </lg>
+                        <lg>
+                           <l>May this noble Inſtance of Virtue</l>
+                           <l>Prove inſtructive to an abandoned Age,</l>
+                           <l>And teach <hi>Britons</hi> how to act</l>
+                           <l>In their Country's Cauſe!</l>
+                        </lg>
+                     </q>
+                  </note> riſing: Pray who is it intended to do Honour to?</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Why, Sir, it is intended to do Honour to a Gentleman, who has done Ho<g ref="char:EOLhyphen"/>nour to his Country: It is dedicated to the Memory of Captain <hi>Grenville,</hi> and joins
+<pb n="56" facs="tcp:0170600800:59"/>with the Nation in applauding a Man, who puſhed forwards by Honour, and a Love for his Country, met Danger and Death with the Spirit of a <hi>Roman.</hi> —Well, how do you like the Plan which you ſee laid out before you?</p>
+            </sp>
+            <sp>
+               <speaker>Polypth.</speaker>
+               <p>As far as I can judge of the fu<g ref="char:EOLhyphen"/>ture Landskip from this Sketch, it will be an admirable one. I am extremely taken with it. That Baſon has a very fine Effect.— I could return back the ſame Round with great Pleaſure, but my Watch informs me that Mr. —, has been expecting us this half Hour.</p>
+            </sp>
+            <sp>
+               <speaker>Calloph.</speaker>
+               <p>Is it ſo late? The Time has ſtole off very ſlily. However you need be under no
+<pb n="57" facs="tcp:0170600800:60"/>Apprehenſions; that honeſt Gentleman is ſeldom very haſty in his Motions.</p>
+               <p>Having thus finiſhed their Round, our two Gentlemen directed their Faces back again towards the Gate.</p>
+            </sp>
+            <p>
+               <hi>Polypthon,</hi> notwithſtanding the ſour Hu<g ref="char:EOLhyphen"/>mour he had given ſo many Evidences of in his Walk, began now to relent, and could talk of nothing but the agreeable Entertain<g ref="char:EOLhyphen"/>ment that had been afforded him. Some<g ref="char:EOLhyphen"/>times he would run out into the higheſt En<g ref="char:EOLhyphen"/>comiums of the many beautiful Terminations of the ſeveral Walks and Viſtas; and obſerve how many Uſes each Object ſerved, and in how many different Lights it was made to vary itſelf. <q>For Inſtance, ſays he, the Pavilion you ſhewed me from the Tem<g ref="char:EOLhyphen"/>ple of <hi>Venus,</hi> terminates that Terrace in a very grand Manner; and makes like<g ref="char:EOLhyphen"/>wiſe a very magnificent Appearance, where it correſponds with another of the ſame Form, at the Entrance into the Park: Yet the ſame Building, like a Per<g ref="char:EOLhyphen"/>ſon acquainted with the World, who can ſuit his Behaviour to Time and Place, can vary itſelf upon occaſion into a more hum<g ref="char:EOLhyphen"/>ble Shape, and when viewed thro' a re<g ref="char:EOLhyphen"/>tired Viſta, can take upon it the lowly Form of a cloſe Retreat.</q>—When
+<pb n="58" facs="tcp:0170600800:61"/>he had enlarged pretty copiouſly upon this Subject, he would next launch out into the higheſt Praiſes of the vaſt Variety of Objects that was every where to be met with: <q>Men of all Humours, ſays he, will here find ſomething pleaſing and ſuited to their Taſte. The thoughtful may meet with retired Walks calculated in the beſt Man<g ref="char:EOLhyphen"/>ner for Contemplation: The gay and chearful may ſee Nature in her lovelieſt Dreſs, and meet Objects correſponding with their moſt lively Flights. The ro<g ref="char:EOLhyphen"/>mantic Genius may entertain itſelf with ſeveral very beautiful Objects in its own Taſte, and grow wild with Ideas of the inchanted kind. The diſconſolate Lover may hide himſelf in ſhady Groves, or me<g ref="char:EOLhyphen"/>lancholy wander along the Banks of Lakes and Canals; where he may ſigh to the gentle Zephyrs; mingle his Tears with the bubbling Water; or where he may have the beſt Opportunity, if his Malady be grown to ſuch an Height, of ending his Deſpair, and finiſhing his Life with all the Decency and Pomp of a Lover in a Romance. In ſhort, ſays he, theſe Gar<g ref="char:EOLhyphen"/>dens are a very good Epitome of the World: They are calculated for Minds of every Stamp, and give free Scope to Inclinations of every kind: And if it be ſaid that in ſome Parts they too much hu<g ref="char:EOLhyphen"/>mour
+<pb n="59" facs="tcp:0170600800:62"/>the debauched Taſte of the Senſu<g ref="char:EOLhyphen"/>aliſt, it cannot be denied on the other hand, but that they afford ſeveral very noble In<g ref="char:EOLhyphen"/>citements to Honour and Virtue.</q>—But what beyond all other things ſeemed moſt to pleaſe him, was the amicable and beauti<g ref="char:EOLhyphen"/>ful Conjunction of <hi>Art</hi> and <hi>Nature</hi> thro' the whole: He obſerved that the <hi>former</hi> never appeared ſtiff, or the <hi>latter</hi> extra<g ref="char:EOLhyphen"/>vagant.</p>
+            <p>Upon many other Topicks of Praiſe <hi>Po<g ref="char:EOLhyphen"/>lypthon</hi> run out with great Warmth. <hi>Cal<g ref="char:EOLhyphen"/>lophilus</hi> ſeemed ſurprized, and could not forbear asking him, By what means his Opinions became ſo ſuddenly changed? <q>Why, ſays he, Sir, I have ſaid nothing now that contradicts any thing I ſaid be<g ref="char:EOLhyphen"/>fore. I own I met with two or three Objects that were not entirely to my Taſte, which I am far from condemning for that Reaſon; tho' if I ſhould, it is nothing to the purpoſe, becauſe I am now taking a Survey of the whole together; in which Light I muſt confeſs I am quite aſtoniſhed with the View before me. Be<g ref="char:EOLhyphen"/>ſides, I hate one of your wondering Mor<g ref="char:EOLhyphen"/>tals, who is perpetually breaking out into a Note of Admiration at every thing he ſees: I am always apt to ſuſpect his Taſte or his Sincerity. It is impoſſible that
+<pb n="60" facs="tcp:0170600800:63"/>all Genius's can alike agree in their Opinions of any Work of Art; and the Man who never <hi>blames,</hi> I can ſcarce be<g ref="char:EOLhyphen"/>lieve is qualified to <hi>commend.</hi> Beſides, finding fault now and then, adds Weight to Commendation, and makes us believed to be in earneſt. However, notwith<g ref="char:EOLhyphen"/>ſtanding what you may think of my fre<g ref="char:EOLhyphen"/>quent Cavils, I aſſure you, with the greateſt Sincerity, I never before ſaw any thing of the kind at all comparable to what I have here ſeen: I ſhall by no means cloſe this Day with a <hi>Diem perdidi;</hi> nor would the <hi>Roman</hi> Emperor himſelf, I be<g ref="char:EOLhyphen"/>lieve, have made the Reflection if he had ſpent his condemned Hours in this Place.</q>
+            </p>
+            <p>By this time the Gentlemen were come to the Gate, thro' which <hi>Polypthon</hi> aſſured his Friend he paſſed with the greateſt Re<g ref="char:EOLhyphen"/>luctance, and went growling out of this delightful Garden, as the Devil is ſaid to have done out of Paradiſe.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

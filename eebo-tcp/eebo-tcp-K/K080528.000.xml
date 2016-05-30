@@ -1,0 +1,3123 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coriolanus: A tragedy. As it is acted at the Theatre-Royal in Covent-Garden. By the late James Thomson.</title>
+            <author>Thomson, James, 1700-1748.</author>
+         </titleStmt>
+         <extent>70 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2007-01">2007 January</date>
+            <idno type="DLPS">004864247</idno>
+            <idno type="ESTC">T100060</idno>
+            <idno type="DOCNO">CW114143458</idno>
+            <idno type="TCP">K080528.000</idno>
+            <idno type="GALEDOCNO">CW3314143458</idno>
+            <idno type="CONTENTSET">ECLL</idno>
+            <idno type="IMAGESETID">0744600800</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Coriolanus: A tragedy. As it is acted at the Theatre-Royal in Covent-Garden. By the late James Thomson.</title>
+                  <author>Thomson, James, 1700-1748.</author>
+               </titleStmt>
+               <extent>[8],62,[2]p. ; 8⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for A. Millar,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1749.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With a half-title and a final epilogue leaf.</note>
+                  <note>Catchword on p.58: of.</note>
+                  <note>The ornaments are those used by William Bowyer.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT100060.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="frontispiece">
+            <pb facs="tcp:0744600800:1" rendition="simple:additions"/>
+            <p>CORIOLANUS.
+A
+TRAGEDY.</p>
+            <p>[Price One Shilling and Six Pence.]</p>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:0744600800:2"/>
+            <head>BOOKS printed for A. MILLAR.</head>
+            <p>THE Complete Works of <hi>James Thomſon,</hi> in 3 vol.
+Octavo, Price bound 15s. containing,</p>
+            <list>
+               <item>Vol. I. The Seaſons: A Hymn; a Poem to the Me<g ref="char:EOLhyphen"/>mory
+of Sir <hi>Iſaac Newton; Britannia,</hi> a Poem; and <hi>So<g ref="char:EOLhyphen"/>phoniſba,</hi> a Tragedy.</item>
+               <item>Vol. II. Antient and Modern <hi>Italy</hi> compar'd; <hi>Greece,
+Rome, Britain,</hi> and the Proſpect, being the Five Parts
+of <hi>Liberty,</hi> a Poem; <hi>Agamemnon,</hi> a Tragedy; <hi>Edward</hi>
+and <hi>Eleonora,</hi> a Tragedy; and a Poem to the Memory
+of the late Lord Chancellor <hi>Talbot.</hi>
+               </item>
+               <item>Vol. III. <hi>Tancred</hi> and <hi>Sigiſmunda,</hi> a Tragedy; the Caſtle
+of Indolence, and allegorical Poem, written in Imitation
+of <hi>Spenſer; Coriolanus,</hi> a Tragedy; and <hi>Alfred,</hi> a Maſk:
+This laſt written by Mr. <hi>Thomſon</hi> and Mr. <hi>Mallet.</hi>
+               </item>
+            </list>
+            <p>The Second or Third Volume to be had ſeparate; as
+are moſt of the Pieces.</p>
+            <p>⁂ The SEASONS are to be had alone, in a neat Pocket
+Edition, Price bound 3s.</p>
+            <list>
+               <head>Next Month will be Publiſh'd,</head>
+               <item>In Six Volumes 12mo, Price bound 18s.
+1. The Hiſtory of TOM JONES, a Foundling, by <hi>Henry
+Fielding</hi> Eſq.
+<q>—Mores hominum multorum.</q>
+               </item>
+               <item>2. <hi>Ophiomaches,</hi> or Deiſm Revealed. In Eight Dia<g ref="char:EOLhyphen"/>logues.
+In Two Volumes.</item>
+            </list>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:0744600800:4"/>
+            <p>CORIOLANUS.
+A
+TRAGEDY.
+As it is Acted at the
+THEATRE-ROYAL
+IN
+<hi>COVENT-GARDEN.</hi>
+            </p>
+            <p>By the late <hi>JAMES THOMSON.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi>
+Printed for A. MILLAR at <hi>Buchanan's</hi> Head in
+the <hi>Strand.</hi> MDCCXLIX.</p>
+         </div>
+         <div type="dramatis_personae">
+            <pb facs="tcp:0744600800:3"/>
+            <head>The Perſons Repreſented.</head>
+            <list>
+               <label>CAIUS MARCIUS CORIOLA<g ref="char:EOLhyphen"/>NUS.</label>
+               <item>Mr. <hi>Quin.</hi>
+               </item>
+               <label>ATTIUS TULLUS, General of the <hi>Volſcian</hi> Army.</label>
+               <item>Mr. <hi>Ryan.</hi>
+               </item>
+               <label>GALESUS, one of the Deputies of the <hi>Volſcian</hi> States attend<g ref="char:EOLhyphen"/>ing the Camp.</label>
+               <item>Mr. <hi>Delane.</hi>
+               </item>
+               <label>The other Deputies of the <hi>Vol<g ref="char:EOLhyphen"/>ſcian</hi> States.</label>
+               <item> </item>
+               <label>VOLUSIUS, one of the Princi<g ref="char:EOLhyphen"/>pal <hi>Volſcian</hi> Officers.</label>
+               <item>Mr. <hi>Sparks.</hi>
+               </item>
+               <label>TITUS, Freed-man of GALE<g ref="char:EOLhyphen"/>SUS.</label>
+               <item>Mr. <hi>Ridout.</hi>
+               </item>
+               <label>MARCUS MINUCIUS, Conſul and Principal of the Depu<g ref="char:EOLhyphen"/>tation from <hi>Rome</hi> to CORIO<g ref="char:EOLhyphen"/>LANUS.</label>
+               <item>Mr. <hi>Bridgwater.</hi>
+               </item>
+               <label>POSTHUMUS COMINIUS, a Con<g ref="char:EOLhyphen"/>ſular Senator, one of the De<g ref="char:EOLhyphen"/>putation, and who had been the <hi>Roman</hi> General at the taking of <hi>Corioli.</hi>
+               </label>
+               <item>Mr. <hi>Anderſon.</hi>
+               </item>
+               <label>VETURIA, Mother of CORIO<g ref="char:EOLhyphen"/>LANUS.</label>
+               <item>Mrs. <hi>Woffington.</hi>
+               </item>
+               <label>VOLUMNIA, Wife of CORIO<g ref="char:EOLhyphen"/>LANUS.</label>
+               <item>Miſs <hi>Bellamy.</hi>
+               </item>
+               <label>
+                  <hi>Roman</hi> Senators, Prieſts, Augurs, &amp;c. of the firſt
+Deputation. <hi>Roman</hi> Ladies, in the Train of
+VETURIA and VOLUMNIA, of the ſecond Depu<g ref="char:EOLhyphen"/>tation.</label>
+               <item> </item>
+               <label>Volſcian OFFICERS, LICTORS, SOLDIERS, &amp;c.</label>
+               <item> </item>
+            </list>
+            <stage>SCENE, The <hi>Volſcian</hi> Camp.</stage>
+         </div>
+      </front>
+      <body>
+         <div type="prologue">
+            <pb facs="tcp:0744600800:21"/>
+            <head>PROLOGUE</head>
+            <stage>Spoken by Mr. QUIN.</stage>
+            <l>I Come not here your Candour to implore</l>
+            <l>For Scenes, whoſe Author is, alas! no more;</l>
+            <l>He wants no Advocate his Cauſe to plead;</l>
+            <l>You will yourſelves be Patrons of the Dead.</l>
+            <l>No Party his Benevolence confin'd</l>
+            <l>No Sect—alike it flow'd to all Mankind.</l>
+            <l>He lov'd his Friends (forgive this guſhing Tear:</l>
+            <l>Alas! I feel I am no Actor here)</l>
+            <l>He lov'd his Friends with ſuch a Warmth of Heart,</l>
+            <l>So clear of Int'reſt, ſo devoid of Art,</l>
+            <l>Such generous Freedom, ſuch unſhaken Zeal,</l>
+            <l>No Words can ſpeak it, but our Tears may tell.—</l>
+            <l>O candid Truth, O Faith without a Stain,</l>
+            <l>O Manners gently firm, and nobly plain,</l>
+            <l>O ſympathizing Love of others Bliſs,</l>
+            <l>Where will you find another Breaſt like His?—</l>
+            <l>Such was the Man—the Poet well you know:</l>
+            <l>Oft has he touch'd your Hearts with tender Woe:</l>
+            <l>Oft in this crouded Houſe with juſt Applauſe</l>
+            <l>You heard him teach fair Virtue's pureſt Laws;</l>
+            <l>For his chaſte Muſe employ'd her Heav'n-taught Lyre</l>
+            <l>None but the nobleſt Paſſions to inſpire,</l>
+            <l>Not one immoral, one corrupted Thought,</l>
+            <l>One Line, which dying he could wiſh to blot.</l>
+            <l>Oh may To-night your favourable Doom</l>
+            <l>Another Laurel add to grace his Tomb:</l>
+            <l>Whilſt he, ſuperior now to Praiſe or Blame,</l>
+            <l>Hears net the feeble Voice of Human Fame.</l>
+            <l>
+               <pb facs="tcp:0744600800:22"/>
+Yet if to thoſe whom moſt on Earth he lov'd,</l>
+            <l>From whom his pious Care is now remov'd,</l>
+            <l>With whom his liberal Hand, and bounteous Heart</l>
+            <l>Shar'd all his little Fortune could impart,</l>
+            <l>If to thoſe Friends your kind Regard ſhall give</l>
+            <l>What they no longer can from His receive,</l>
+            <l>That, that, even now, above yon ſtarry Pole,</l>
+            <l>May touch with Pleaſure his immortal Soul.</l>
+         </div>
+         <div n="1" type="act">
+            <pb facs="tcp:0744600800:5"/>
+            <head>CORIOLANUS.
+A
+TRAGEDY.</head>
+            <div n="1" type="scene">
+               <head>ACT I. SCENE I.</head>
+               <stage>The Volſcian Camp.</stage>
+               <stage>ATTIUS TULLUS, VOLUSIUS.</stage>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>WHENCE is it, TULLUS, that our Arms are ſtopt</l>
+                  <l>Here on the Borders of the <hi>Roman</hi> State?</l>
+                  <l>Why ſleeps that Spirit, whoſe Heroic Ardour</l>
+                  <l>Urg'dy ou to break the Truce, and pour'd our Hoſt,</l>
+                  <l>From all th'united Cantons of the <hi>Volſci,</hi>
+                  </l>
+                  <l>On their unguarded Frontier? Such Deſigns</l>
+                  <l>Brook rot an Hour's Delay; their whole Succeſſ</l>
+                  <l>Depends on inſtant vigorous Execution.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>VOLUSIUS, I approve thy brave Impatience;</l>
+                  <l>And will to thee, in Confidence of Friendſhip,</l>
+                  <l>Diſcloſe my ſecret Soul. Thou know'ſt GALESUS,</l>
+                  <l>
+                     <pb n="2" facs="tcp:0744600800:6"/>
+Whoſe Freedom <hi>CAIUS MARCIUS,</hi> once his Gueſt,</l>
+                  <l>Of all the Spoil of ſack'd <hi>Corioli,</hi>
+                  </l>
+                  <l>Alone demanded; and who thence to <hi>Rome,</hi>
+                  </l>
+                  <l>From Gratitude and Friendſhip, follow'd MARCIUS;</l>
+                  <l>Whence lately to our <hi>Antium</hi> he return'd,</l>
+                  <l>With Overtures of Peace propos'd by <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>I know him well; an antiquated Sage</l>
+                  <l>Of that romantic School, <hi>Pythagoras</hi>
+                  </l>
+                  <l>Eſtabliſh'd here on our <hi>Heſperian</hi> Shore;</l>
+                  <l>Whoſe gentle Dictates only ſerve to tame</l>
+                  <l>Enfeebled Mortals into Slaves.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>GALESUS,</l>
+                  <l>Doubtleſs, poſſeſſes many civil Virtues;</l>
+                  <l>Is gentle, good; for Rectitude of Heart</l>
+                  <l>And Innocence of Life by all rever'd.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Pardon me, TULLUS, if my faithful Bluntneſs</l>
+                  <l>Deems you too lib'ral in his Praiſe. In Peace,</l>
+                  <l>Such may perhaps do well, when Prating rules</l>
+                  <l>An idle World; but in tempeſtuous Times</l>
+                  <l>They are ſtark naught, theſe viſionary Stateſmen,</l>
+                  <l>Fit Rulers only for their golden Age.</l>
+                  <l>The rugged Genius of rapacious <hi>Rome</hi>
+                  </l>
+                  <l>For other Men, and other Counſels, calls.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Your Thoughts are mine—I only meant to tell thee</l>
+                  <l>The Part he bears in this ill-tim'd Delay.</l>
+                  <l>Soon as our gather'd Army march'd from <hi>Antium,</hi>
+                  </l>
+                  <l>The <hi>Roman</hi> Senate, whoſe attentive Caution</l>
+                  <l>Watch'd all our Motions, took at once th' Alarm</l>
+                  <l>And ſent a Herald, ere we paſt their Borders,</l>
+                  <l>With formal Ceremony, to demand</l>
+                  <l>The Cauſe of our Approach.—Had I been Maſter,</l>
+                  <l>I would have anſwer'd at the Gates of <hi>Rome.</hi>
+                  </l>
+                  <l>But this GALESUS, who attends our Camp</l>
+                  <l>Among the <hi>Volſcian</hi> Deputies, ſo pleaded</l>
+                  <l>
+                     <pb n="3" facs="tcp:0744600800:7"/>
+The Laws of Nations, made ſuch loud Complaints</l>
+                  <l>Againſt th' Infraction of the Publick Faith,</l>
+                  <l>So teaz'd us with the Pedantry of States,</l>
+                  <l>That I was forc'd, unwilling, to permit</l>
+                  <l>His Freedman, TITUS, to be ſent to <hi>Rome</hi>
+                  </l>
+                  <l>With our Demands. If theſe the Senate grants,</l>
+                  <l>We then are in the Toils of Peace entangled,</l>
+                  <l>In ſpite of all my Efforts to avoid them.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>O 'tis a wild Chimera! Peace with <hi>Rome!</hi>
+                  </l>
+                  <l>Dream not of that, unleſs die <hi>Volſcian</hi> Courage</l>
+                  <l>Be quite ſubdu'd, and only ſeeks to gild</l>
+                  <l>A vile Submiſſion with that ſpecious Name.</l>
+                  <l>Learn Wiſdom from your Neighbours. Peace with
+<hi>Rome</hi>
+                  </l>
+                  <l>Has quell'd the <hi>Latines,</hi> tam'd their free-born Spirit,</l>
+                  <l>And by her Friendſhip honour'd them with Chains.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>She ne'er will grant it on the juſt Conditions</l>
+                  <l>I now have brought the <hi>Volſci</hi> to demand:</l>
+                  <l>The Reſtitution of our conquer'd Cities,</l>
+                  <l>And fair Alliance upon equal Terms.</l>
+                  <l>I know the <hi>Roman</hi> Inſolence will ſcorn</l>
+                  <l>To yield to this: and TITUS muſt return</l>
+                  <l>Within three Days, the longeſt Term allow'd him;</l>
+                  <l>Of which the Third is near elaps'd already.</l>
+                  <l>Then even GALESUS will not dare to ſtop us,</l>
+                  <l>With ſuperſtitious Forms, and ſolemn Triſles,</l>
+                  <l>From letting looſe th'unbridled Rage of War</l>
+                  <l>Againſt thoſe hated Tyrants of <hi>Heſperia.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Thanks to the Gods! my Sword will then be free.</l>
+                  <l>Then, poor <hi>Corioli!</hi> thy bleeding Wounds,</l>
+                  <l>Thy Treaſures ſack'd, thy captivated Matrons,</l>
+                  <l>Shall amply be reveng'd by thy VOLUSIUS:</l>
+                  <l>Then, TULLUS, from the loſty Brows of MARCIUS</l>
+                  <l>Thou may'ſt regain the wreaths his conquering hand,</l>
+                  <l>
+                     <pb n="4" facs="tcp:0744600800:8"/>
+By partial Fortune aided, tore from thine.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>O my VOLUSIUS! thou, who art a Soldier,</l>
+                  <l>A try'd and brave one too, ſay, in thy Heart</l>
+                  <l>Doſt thou not ſcorn me? thou, who ſaw'ſt me bend</l>
+                  <l>Beneath the half-ſpent Thunder of a Foe,</l>
+                  <l>Warm from the Conqueſt of <hi>Corioli,</hi>
+                  </l>
+                  <l>Which, ruſhing furious in with thoſe, whoſe Sally</l>
+                  <l>He had repell'd, he feiz'd almoſt alone;</l>
+                  <l>And gave to Fire and Sword. Yet thence he flew,</l>
+                  <l>Scorning the Plunder of our richeſt City,</l>
+                  <l>His Wounds undreſt, without a Moment's Reſpite,</l>
+                  <l>To where our Armies on the fearful Edge</l>
+                  <l>Of Battle ſtflood; and, aſking of the Conſul</l>
+                  <l>To be oppos'd to me, with mighty Rage,</l>
+                  <l>Reſiſtleſs, bore us down.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>True Valour, TULLUS,</l>
+                  <l>Lies in the Mind, the never-yielding Purpoſe,</l>
+                  <l>Nor owns the blind Award of giddy Fortune.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>My Soul, my Friend, my Soul is all on Fire!</l>
+                  <l>Thirſt of Revenge conſumes me! the Revenge</l>
+                  <l>Of generous Emulation, not of Hatred.</l>
+                  <l>This happy <hi>Roman,</hi> this proud MARCIUS haunts me.</l>
+                  <l>Each troubled Night when Slaves and Captives ſleep,</l>
+                  <l>Forgetful of their Chains, I, in my Dreams,</l>
+                  <l>Anew am vanquiſh'd; and, beneath his Sword</l>
+                  <l>With Horror ſinking, feel a tenfold Death,</l>
+                  <l>The Death of Honour. But I will redeem—</l>
+                  <l>Yes, MARCIUS, I will yet redeem my Fame.</l>
+                  <l>To face thee once again is the great Purpoſe</l>
+                  <l>For which alone I live.—Till then how ſlow,</l>
+                  <l>How tedious lags the Time! while Shame corrodes
+me,</l>
+                  <l>With many a bitter Thought; and injur'd Honour</l>
+                  <l>Sick, and deſponding, preys upon itſelf.</l>
+               </sp>
+               <sp>
+                  <pb n="5" facs="tcp:0744600800:9"/>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>It faſt approaches now, the Hour of Vengeance,</l>
+                  <l>To this fam'd Land, to ancient <hi>Latium</hi> due.</l>
+                  <l>Unballanc'd <hi>Rome,</hi> at Variance with herſelf,</l>
+                  <l>To Order loſt, in deep and hot Commotion,</l>
+                  <l>Stands on the dangerous Point of civil War;</l>
+                  <l>Her haughty Nobles and ſeditious Commons</l>
+                  <l>Reviling, fearing, hating one another:</l>
+                  <l>While, on our part, all wears a proſperous Face:</l>
+                  <l>Our Troops united, numerous, high in Spirit,</l>
+                  <l>As if their Gen'ral's Soul inform'd them all.</l>
+                  <l>O long-expected Day!</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Go, brave VOLUSIUS,</l>
+                  <l>Go breathe thy Ardour into every Breaſt,</l>
+                  <l>That when the <hi>Volſcian</hi> Envoy ſhall return,</l>
+                  <l>Whom ere the Cloſe of Evening I expect,</l>
+                  <l>One Spirit may unite us in the Cauſe</l>
+                  <l>Of generous Freedom, and our native Rights,</l>
+                  <l>So long oppreſt by <hi>Rome's</hi> encroaching Power,</l>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>SCENE II.</head>
+               <stage>TULLUS alone.</stage>
+               <l>GALESUS ſaid that MARCIUS ſtands for Conſul.</l>
+               <l>O favour thou his ſuit, propitious <hi>Jove!</hi>
+               </l>
+               <l>That I may brave him at his Army's Head,</l>
+               <l>In all the Majeſty of ſovereign Pow'r!</l>
+               <l>That the whole Conduct of the War may reſt</l>
+               <l>Oh us alone, and prove by its Deciſion,</l>
+               <l>Which of the two is worthieſt to command—</l>
+            </div>
+            <div n="3" type="scene">
+               <pb n="6" facs="tcp:0744600800:10"/>
+               <head>SCENE III.</head>
+               <stage>TULLUS, OFFICER.</stage>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Ha! why this Haſte? you look alarm'd.</l>
+               </sp>
+               <sp>
+                  <speaker>OFFICER.</speaker>
+                  <l>My Lord,</l>
+                  <l>One of exalted Port, his Viſage hid,</l>
+                  <l>Has plac'd himſelf upon your ſacred Hearth,</l>
+                  <l>Beneath the dread Protection of your <hi>Lares;</hi>
+                  </l>
+                  <l>And ſits majeſtic there in ſolemn Silence.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Did you not aſk him who, and what he was?</l>
+               </sp>
+               <sp>
+                  <speaker>OFFICER.</speaker>
+                  <l>My Lord, I could not ſpeak; I felt appall'd,</l>
+                  <l>As if the Preſence of ſome God had ſtruck me.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Come, Daſtard! let me find this Man of Terrors.</l>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>SCENE IV.</head>
+               <stage>The back Scene opens, and diſcovers CORIOLANUS
+as deſcribed above.</stage>
+               <stage>CORIOLANUS, TULLUS.</stage>
+               <sp>
+                  <speaker>TULLUS, after ſome Silence.</speaker>
+                  <l>Illuſtrious Stranger—for thy high Demeanour</l>
+                  <l>Beſpeaks thee ſuch—who art thou?</l>
+               </sp>
+               <sp>
+                  <pb n="7" facs="tcp:0744600800:11"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>[Riſing and unmuffling his Face.</stage>
+                  <l>View me, TULLUS—</l>
+                  <stage>[After ſome pauſe.</stage>
+                  <l>Doſt thou not know me?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>No. That noble Front</l>
+                  <l>I never ſaw before. What is thy Name?</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Does not the ſecret Voice of hoſtile Inſtinct,</l>
+                  <l>Does not thy ſwelling Heart declare me to thee?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Gods! can it be?—</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS</speaker>
+                  <l>Yes. I am CAIUS MARCIUS;</l>
+                  <l>Known to thy ſmarting Country by the Name</l>
+                  <l>Of CORIOLANUS. That alone is left me,</l>
+                  <l>That empty Name, for all my Toils, my Service,</l>
+                  <l>The Blood which I have ſhed for thankleſs <hi>Rome.</hi>
+                  </l>
+                  <l>Behold me baniſh'd thence, a Victim yielded</l>
+                  <l>By her weak Nobles to the maddening Rabble.</l>
+                  <l>I ſeek Revenge. Thou may'ſt employ my Sword,</l>
+                  <l>With keener Edge, with heavier Force againſt her,</l>
+                  <l>Than e'er it fell upon the <hi>Volſcian</hi> Nation.</l>
+                  <l>But if thou, TULLUS, doſt refuſe me this,</l>
+                  <l>The only Wiſh of my collected Heart,</l>
+                  <l>Where every Paſſion in one burning Point</l>
+                  <l>Concenters, give me Death: Death from thy Hand</l>
+                  <l>I ſure have well deſerv'd—Nor ſhall I bluſh</l>
+                  <l>To take or Life or Death from ATTIUS TULLUS.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>O CAIUS MARCIUS ! in this one ſhort Moment,</l>
+                  <l>That we have friendly talk'd, my raviſh'd Heart</l>
+                  <l>Has undergone a great, a wonderous Change.</l>
+                  <l>I ever held thee in my beſt Eſteem;</l>
+                  <l>But this Heroic Confidence has won me,</l>
+                  <l>Stampt me at once thy Friend. I were indeed</l>
+                  <l>
+                     <pb n="8" facs="tcp:0744600800:12"/>
+A Wretch as mean as this thy Truſt is noble,</l>
+                  <l>Could I refuſe thee thy Demand—Yes, MARCIUS!</l>
+                  <l>Thou haſt thy Wiſh! take half of my Command:</l>
+                  <l>If that be not enough, then take the whole.</l>
+                  <l>We have, my Friend, a gallant Force on Foot,</l>
+                  <l>An Army, MARCIUS, fit to follow thee.</l>
+                  <l>Go, lead them on, and take thy full Revenge.</l>
+                  <l>All ſhould unite to puniſh the Ungrateful.</l>
+                  <l>Ingratitude is Treaſon to Mankind.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS, embracing him.</speaker>
+                  <l>Thus, generous TULLUS, take a Soldier's Thanks,</l>
+                  <l>Who is not practis'd in the Gloſs of Words—</l>
+                  <l>Thou Friend indeed! Friend to my Cauſe, my Quarrel!</l>
+                  <l>Friend to the darling Paſſion of my Soul!</l>
+                  <l>All elſe I ſet at nought!—Immortal Gods!</l>
+                  <l>I am new-made, and wonder at myſelf!</l>
+                  <l>A little while ago, and I was nothing;</l>
+                  <l>A powerleſs Reptile, crawling on the Earth,</l>
+                  <l>Curs'd with a Soul that reſtleſs wiſh'd to wield</l>
+                  <l>The Bolts of <hi>Jove!</hi> I dwelt in <hi>Erebus,</hi>
+                  </l>
+                  <l>I wander'd through the hopeleſs Glooms of Hell,</l>
+                  <l>Stung with Revenge, tormented by the Furies!</l>
+                  <l>Now, TULLUS, like a God, you draw me thence,</l>
+                  <l>Throne me amidſt the Skies, with Tempeſt charg'd,</l>
+                  <l>And put the ready Thunder in my Hand!</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>What I have promis'd, MARCIUS, I will do.</l>
+                  <l>Within an Hour at fartheſt we expect</l>
+                  <l>The Freedman of GALESUS back from <hi>Rome,</hi>
+                  </l>
+                  <l>Who carry'd to the Senate our Demands.</l>
+                  <l>Their Anſwer will, I doubt not, end the Truce,</l>
+                  <l>And inſtant draw our angry Swords againſt them.</l>
+                  <l>Till then retire within my inmoſt Tent,</l>
+                  <l>Unknown to all but me, that when our Chiefs</l>
+                  <l>Meet in full Council to declare for War,</l>
+                  <l>I may produce thee to their wondering Eyes,</l>
+                  <l>
+                     <pb n="9" facs="tcp:0744600800:13"/>
+As if deſcended from avenging Heaven</l>
+                  <l>To humble lofty <hi>Rome,</hi> and teach her Juſtice.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>To thy Direction, TULLUS, I reſign</l>
+                  <l>My future Life: my Fate is in thy Hands;</l>
+                  <l>And, if I judge aright, the Fate of <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <trailer>The End of the Firſt <hi>ACT.</hi>
+               </trailer>
+            </div>
+         </div>
+         <div n="2" type="act">
+            <pb n="10" facs="tcp:0744600800:14"/>
+            <head>ACT II.</head>
+            <div n="1" type="scene">
+               <head>SCENE I.</head>
+               <stage>GALESUS, TITUS.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>INDEED! my TITUS, I had Hopes that <hi>Rome,</hi>
+                  </l>
+                  <l>Vext as ſhe is with her domeſtic Broils,</l>
+                  <l>Her Frontier weak, her Armies unprepar'd,</l>
+                  <l>Might have comply'd with our Demands, and given us</l>
+                  <l>The ſame Alliance granted to the <hi>Latines.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>The Senate ſcarce would hear the Terms I offer'd;</l>
+                  <l>But order'd me to bear this Anſwer back:</l>
+                  <l>"If firſt the <hi>Volſci</hi> take up Arms, the <hi>Romans</hi>
+                  </l>
+                  <l>"Will be the laſt to lay them down."</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Alas!</l>
+                  <l>This Anſwer ſeals the Doom of many a Wretch.</l>
+                  <l>Unchain'd <hi>Bellona</hi> from her Temple ruſhes,</l>
+                  <l>With all the Crimes and Vices in her Train.</l>
+                  <l>Earth fades at her Approach. To rural Peace,</l>
+                  <l>Fair Plenty, and the ſocial Joy of Cities,</l>
+                  <l>Soon will ſucceed Rage, Rapine, Devaſtation,</l>
+                  <l>Each cruel Horror ſanctify'd by Names.</l>
+                  <l>O Mortals! Mortals! when will you, content</l>
+                  <l>With Nature's Bounty, that in fuller Flow,</l>
+                  <l>Still as your Labours open more its Sources,</l>
+                  <l>Abundant guſhes o'er the happy World;</l>
+                  <l>
+                     <pb n="11" facs="tcp:0744600800:15"/>
+When will you baniſh Violence, and Outrage,</l>
+                  <l>To dwell with Beaſts of Prey in Woods and Deſarts?</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>Never till <hi>Rome</hi> ſhall change her conquering Maxims.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Her haughty Spirit now will ſoar beyond</l>
+                  <l>Its uſual Pitch, upborne by CAIUS MARCIUS.</l>
+                  <l>Stands he not for the Conſulate?</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>He did.</l>
+                  <l>But is no more a Citizen of <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>What mean'ſt thou, TITUS?</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>MARCIUS is from <hi>Rome</hi>
+                  </l>
+                  <l>Baniſh'd for ever.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>O immortal Powers!</l>
+                  <l>On what Pretence could they to Exile doom</l>
+                  <l>Their wiſeſt Captain, and their braveſt Soldier?</l>
+                  <l>Nor leſs renown'd for Piety, for Juſtice,</l>
+                  <l>An uncorrupted Heart, and pureſt Manners.</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>The Charge againſt him was entirely groundleſs,</l>
+                  <l>What not his Enemies themſelves believ'd,</l>
+                  <l>Affecting of tyrannic Power in <hi>Rome.</hi>
+                  </l>
+                  <l>His real Crime was only ſome hot Words,</l>
+                  <l>Struck from his fiery Temper, in the Senate,</l>
+                  <l>Againſt thoſe factious Miniſters of Diſcord,</l>
+                  <l>The Tribunes of the People. They to Rage,</l>
+                  <l>And frantic Fury, rous'd the mad Plebeians;</l>
+                  <l>By whom ſupported in their bold Attempt,</l>
+                  <l>They durſt preſume to ſummon to the Bar</l>
+                  <l>Of an enrag'd and partial Populace,</l>
+                  <l>The moſt illuſtrious Senator of <hi>Rome.</hi>
+                  </l>
+                  <l>To this the Nobles yielded—and, with his,</l>
+                  <l>Gave up their own and Childrens Rights for ever.</l>
+               </sp>
+               <sp>
+                  <pb n="12" facs="tcp:0744600800:16"/>
+                  <speaker>GALESUS.</speaker>
+                  <l>O ſhameful Weakneſs in a <hi>Roman</hi> Senate,</l>
+                  <l>So much renown'd for Firmneſs! Yet, my TITUS,</l>
+                  <l>Spite of my Love to MARCIUS, I muſt own it,</l>
+                  <l>The vigorous Soil whence his Heroic Virtues</l>
+                  <l>Luxuriant riſe, if not with careful Hand</l>
+                  <l>Severely weeded, teems with Imperfections.</l>
+                  <l>His lofty Spirit brooks no Oppoſition.</l>
+                  <l>His Rage, if once offended, knows no Bounds.</l>
+                  <l>He deems Plebeians, with Patrician Blood</l>
+                  <l>Compar'd, the Creatures of a lower Species,</l>
+                  <l>Mere menial Hands by Nature meant to ſerve him.</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>It was this high Patrician Pride undid him.</l>
+                  <l>The furious People triumph'd in his Ruin</l>
+                  <l>As if they had expell'd another <hi>Tarquin:</hi>
+                  </l>
+                  <l>While, like a captive Train, the vanquiſh'd Nobles</l>
+                  <l>Hung their dejected Heads in ſilent Shame.</l>
+                  <l>MARCIUS alone ſeem'd unconcern'd; tho' deep</l>
+                  <l>The latent Tempeſt boil'd within his Breaſt,</l>
+                  <l>Choak'd up and ſmother'd with exceſſive Rage.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>You were his Gueſt at <hi>Rome,</hi> and therefore, TITUS,</l>
+                  <l>Might on this ſad Occaſion be permitted</l>
+                  <l>To join your Tears with his domeſtic Friends.</l>
+                  <l>Saw you that moving Scene?</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>I did, GALESUS.</l>
+                  <l>I follow'd MARCIUS home—His Mother, there,</l>
+                  <l>VETURIA, the moſt venerable Matron</l>
+                  <l>Theſe Eyes have e'er beheld, and ſoft VOLUMNIA,</l>
+                  <l>His lovely, virtuous Wife, amidſt his Children,</l>
+                  <l>Spread on the Ground, lay loſt in dumb Deſpair.</l>
+                  <l>He ſwelling ſtood a while, and could not ſpeak,</l>
+                  <l>Th'affronted Hero ſtruggling with the Man;</l>
+                  <l>Then thus at laſt he broke the gloomy Silence:</l>
+                  <l>"'Tis done. The guilty Sentence is pronounc'd.</l>
+                  <l>"Ungrateful <hi>Rome</hi> has caſt me from her Boſom.</l>
+                  <l>
+                     <pb n="13" facs="tcp:0744600800:17"/>
+"Support this Blow with Fortitude and Courage,</l>
+                  <l>"As it becomes two generous <hi>Roman</hi> Matrons.</l>
+                  <l>"I recommend my Children to your Care.</l>
+                  <l>"Farewel. I go, I quit, without Regret,</l>
+                  <l>"A City grown an Enemy to Virtue."</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Oh godlike MARCIUS! oh unconquer'd Strength</l>
+                  <l>And Dignity of Mind ! How much ſuperior</l>
+                  <l>Is ſuch a Soul to all the Power of Fortune!</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>This ſaid, he ſternly try'd to break away:</l>
+                  <l>When, holding in her Hand his eldeſt Son,</l>
+                  <l>VETURIA follow'd; while the poor VOLUMNIA,</l>
+                  <l>All drown'd in Tears, and bearing in one Arm</l>
+                  <l>Their youngeſt, yet an Infant, with the other</l>
+                  <l>Hung clinging at his Knees—he, turning to them,</l>
+                  <l>Half ſoften'd, half ſevere, breath'd from his Soul</l>
+                  <l>Theſe broken Accents—"Ceaſe your vain Com<g ref="char:EOLhyphen"/>plaints.</l>
+                  <l>"Mother, you have no more a Son; and thou,</l>
+                  <l>"Thou beſt of Women! thou, my dear VOLUMNIA!</l>
+                  <l>"No more a Huſband"—Pierc'd with theſe dire
+Words,</l>
+                  <l>VOLUMNIA lifeleſs ſunk: and off he flung,</l>
+                  <l>With wild Precipitation.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Thy ſad Tale</l>
+                  <l>Blinds my old Eyes with Tears—But whither, tell me,</l>
+                  <l>O whither, TITUS, bent he then his Courſe?</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>Where the blind Genius of regardleſs Rage</l>
+                  <l>And Deſperation led. On to the Gate,</l>
+                  <l>
+                     <hi>Capena</hi> call'd, attended by the Nobles,</l>
+                  <l>He ſtalk'd in ſullen Majeſty along;</l>
+                  <l>Nor deign'd a Word. A godlike virtuous Anger</l>
+                  <l>Beam'd thro' his Features, and ſublim'd his Air.</l>
+                  <l>With downcaſt Eyes he walk'd; or if aſide</l>
+                  <l>He chanc'd to look, each Look was great Reproach.</l>
+                  <l>
+                     <pb n="14" facs="tcp:0744600800:18"/>
+Thus in emphatic Silence, that made Words</l>
+                  <l>Void and inſipid all, he parted from them,</l>
+                  <l>The Day preceding my Return from <hi>Rome;</hi>
+                  </l>
+                  <l>Nor has been heard of ſince, loſt in th'Abyſs</l>
+                  <l>Of his own Woes.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>O MARCIUS, noble MARCIUS!</l>
+                  <l>How ſhall my Friendſhip ſuccour thy Diſtreſs?</l>
+                  <l>Where ſhall I find thee, to partake thy Sorrows,</l>
+                  <l>And make myſelf Companion of thy Exile?</l>
+                  <l>But, TITUS, we indulge Diſcourſe too long—</l>
+                  <l>Go, and aſſemble thou the <hi>Volſcian</hi> Chiefs,</l>
+                  <l>Whilſt I repair to TULLUS, to inform,</l>
+                  <l>And bring him to the Council, there to hear</l>
+                  <l>The fatal Anſwer thou haſt brought from <hi>Rome.</hi>
+                  </l>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>SCENE II.</head>
+               <stage>Changes to TULLUS'S Tent.</stage>
+               <stage>CORIOLANUS, TULLUS.</stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Forgive me, TULLUS, if I count the Moments</l>
+                  <l>That ſtop the Purpoſe of thy noble Kindneſs,</l>
+                  <l>And keep me here confin'd in tame Inaction.</l>
+                  <l>Why lingers TITUS?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Calm thy reſtleſs Heart,</l>
+                  <l>Brave MARCIUS; every Minute I expect him.</l>
+                  <l>Soon from the Cloud that hides thee, ſhalt thou break</l>
+                  <l>With double Brightneſs; ſoon thy firey Rage</l>
+                  <l>Shall wither all the Strength and Pride of <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>O righteous <hi>Jove,</hi> Protector of the Injur'd!</l>
+                  <l>If from my earlieſt Youth, with pious Awe,</l>
+                  <l>I ſtill have reverenc'd thy all-powerful Juſtice,</l>
+                  <l>Still by her ſacred Dictates rul'd my Actions,</l>
+                  <l>
+                     <pb n="15" facs="tcp:0744600800:19"/>
+O let that Juſtice now ſupport my Cauſe,</l>
+                  <l>And arm my ſtrong Right-hand with all her Terrors!.</l>
+                  <l>When that is done, be Life or Death my Lot,</l>
+                  <l>As thy almighty Pleaſure ſhall determine.</l>
+                  <stage>[Enter an Officer to <hi>TULLUS.</hi>
+                  </stage>
+               </sp>
+               <sp>
+                  <speaker>OFFICER.</speaker>
+                  <l>My Lord, GALESUS aſks Admittance to you.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>MARCIUS, retire an Inſtant, till I hear</l>
+                  <l>The Buſineſs brings him hither—Bid him enter.</l>
+                  <stage>[Exit Officer and <hi>CORIOLANUS.</hi>
+                  </stage>
+                  <stage>Enter <hi>GALESUS.</hi>
+                  </stage>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>SCENE III.</head>
+               <stage>TULLUS, GALESUS.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>TULLUS, the <hi>Roman</hi> Senate has return'd</l>
+                  <l>No other Anſwer, to our late Demands,</l>
+                  <l>But absolute Denial and Defiance.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>It is what I expected—We ſhall teach them</l>
+                  <l>An humbler Language ſoon—Haſt thou aſſembled,</l>
+                  <l>As I deſir'd, the <hi>Volſcian</hi> Chiefs in Council?</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>TITUS is gone to ſummon their Attendance.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>It is enough—Come forth, my noble Gueſt!</l>
+                  <l>And ſhew GALESUS how the Gods aſſiſt us.</l>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <pb n="16" facs="tcp:0744600800:20"/>
+               <head>SCENE IV.</head>
+               <stage>CORIOLANUS, TULLUS, GALESUS.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>O My aſtoniſh'd Soul! what do I ſee?</l>
+                  <l>What! <hi>CAIUS MARCIUS! CAIUS MARCIUS</hi> here,</l>
+                  <l>Beneath one Tent with TULLUS?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Ay, and more,</l>
+                  <l>With TULLUS, now his Friend and fellow Soldier.</l>
+                  <l>Yes, thou ſhalt ſee him thundering at the Head</l>
+                  <l>Of <hi>Volſcian</hi> Armies; he, who oft has carry'd</l>
+                  <l>Deſtruction thro' their Ranks—Your Leave a Mo<g ref="char:EOLhyphen"/>ment,</l>
+                  <l>While to our Chiefs, and Fathers, I announce</l>
+                  <l>Their unexpected Gueſt.</l>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>SCENE V.</head>
+               <stage>CORIOLANUS, GALESUS.</stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Thou good old Man !</l>
+                  <l>Cloſe let me ſtrain thee to my faithful Heart,</l>
+                  <l>Which now is doubly thine, united more</l>
+                  <l>By the Protection which thy Country gives me,</l>
+                  <l>Than by our former Friendſhip.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Strange Event!</l>
+                  <l>This is thy Work, almighty Providence!</l>
+                  <l>Whoſe Power, beyond the Stretch of human Thought,</l>
+                  <l>
+                     <pb n="17" facs="tcp:0744600800:23"/>
+Revolves the Orbs of Empire; bids them ſink</l>
+                  <l>Deep in the deadning Night of thy Diſpleaſure,</l>
+                  <l>Or riſe majeſtic o'er a wondering World.</l>
+                  <l>The Gods by thee—I ſee it, CORIOLANUS,—</l>
+                  <l>Mean to exalt us, and depreſs the <hi>Romans.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>GALESUS, yes, the Gods have ſent me hither;</l>
+                  <l>Thoſe righteous Gods; who; when vindictive Juſtice</l>
+                  <l>Excites them to deſtroy a worthleſs People,</l>
+                  <l>Make their own Crimes and Follies ſtrike the Blow.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Cheriſh theſe Thoughts; that teach us what we are,</l>
+                  <l>And tame the Pride of Man. There is a Power,</l>
+                  <l>Unſeen that rules th'illimitable World;</l>
+                  <l>That guides its Motions, from the brighteſt Star,</l>
+                  <l>To the leaſt Duſt of this ſin-tainted Mold;</l>
+                  <l>While Man, who madly deems himſelf the Lord</l>
+                  <l>Of all, is nought but Weakneſs and Dependance.</l>
+                  <l>This ſacred Truths, by ſure Experience taught,</l>
+                  <l>Thou muſt have learnt, when, wandering all alone,</l>
+                  <l>Each Bird, each Inſect, flitting thro' the Sky,</l>
+                  <l>Was more ſufficient for itſelf, than thou—</l>
+                  <l>Ah the full Image of thy Woes diſſolves me!</l>
+                  <l>The Pangs that muſt have torn, at parting from thee,</l>
+                  <l>Thy Mother and thy Wife. I cannot think</l>
+                  <l>Of that ſad Scene without ſome Drops of Pity!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Who was it forc'd me to that bitter Parting?</l>
+                  <l>Who, in one cruel haſty Moment, chas'd me</l>
+                  <l>From Wife, from Children, Friends; and Houſhold
+Gods,</l>
+                  <l>Me! who ſo often had protected theirs?</l>
+                  <l>Who, from the ſacred City of my Fathers</l>
+                  <l>Drove me with Nature's Commoners to dwell,</l>
+                  <l>To lodge beneath their wide unſhelter'd Roof,</l>
+                  <l>And at their Table feed? O blaſt me, Gods!</l>
+                  <l>With ev'ry Woe! Debility of Mind,</l>
+                  <l>Diſhonour, juſt Contempt, and palſy'd Weakneſs,</l>
+                  <l>
+                     <pb n="18" facs="tcp:0744600800:24"/>
+If I forgive the Villains! yes GALESUS,</l>
+                  <l>Yes, I will offer to the Powers of Vengeance</l>
+                  <l>A great, a glorious Victim—a whole City!—</l>
+                  <l>Why, TULLUS, this Delay?</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>May CORIOLANUS</l>
+                  <l>Be to the <hi>Volſcian</hi> Nation, and himſelf;</l>
+                  <l>The dread, the godlike Inſtrument of Juſtice !</l>
+                  <l>But let not Rage and Vengeance mix their Rancour;</l>
+                  <l>Let them not trouble with their fretful Storm,</l>
+                  <l>Their angry Gleams, that Azure, where enthron'd</l>
+                  <l>The calm Divinity of Juſtice ſits</l>
+                  <l>And pities, while ſhe puniſhes, Mankind.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>What ſaidſt thou? What, againſt the Powers of
+Vengeance?</l>
+                  <l>The Gods gave honeſt Anger, juſt Revenge,</l>
+                  <l>To be the awful Guardians of the Rights</l>
+                  <l>And native Dignity of Human kind.</l>
+                  <l>O were it not for them, the ſaucy World</l>
+                  <l>Would grow a noiſome Neſt of little Tyrants!</l>
+                  <l>Each Carrion Crow, on Eagle Merit perch'd,</l>
+                  <l>Would peck his Eyes out, and the mungril Cur</l>
+                  <l>At pleaſure bait the Lyon—No, GALESUS,</l>
+                  <l>I would not raſhly, nor on light Occaſion,</l>
+                  <l>Receive the deep Impreſſion in my Breaſt;</l>
+                  <l>But when the Baſe, the Brutal and Unjuſt,</l>
+                  <l>Or worſe than all, th' Ungrateful, ſtamp it there,</l>
+                  <l>O I will then with Luxury ſupreme,</l>
+                  <l>Enjoy the Pleaſure of offended Gods,</l>
+                  <l>A righteous, juſt Revenge!—Behold my Soul.</l>
+                  <stage>[Enter an Officer.</stage>
+               </sp>
+               <sp>
+                  <speaker>OFFICER.</speaker>
+                  <l>My Lords, th'aſſembled Chiefs deſire your Preſence.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Come, noble MARCIUS; let My joyful Hand</l>
+                  <l>Conduct thee thither—Doubt not thy Reception</l>
+                  <l>Will be proportion'd to thy Fame and Merit.</l>
+               </sp>
+            </div>
+            <div n="6" type="scene">
+               <pb n="19" facs="tcp:0744600800:25"/>
+               <head>SCENE VI.</head>
+               <stage>The back Scene opens, and diſcovers the Deputies of
+the <hi>Volſcian</hi> States, aſſembled in Council. They
+riſe and ſalute <hi>CORIOLANUS;</hi> then reſume their
+Places.</stage>
+               <stage>GALESUS, TULLUS, CORIOLANUS, SENATORS.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Aſſembled States, and Captains of the <hi>Volſci,</hi>
+                  </l>
+                  <l>Behold the Chief ſo much renown'd in War;</l>
+                  <l>Our once ſo formidable Foe; but now</l>
+                  <l>Our proffer'd Friend and Soldier—CAIUS MARCIUS.</l>
+               </sp>
+               <sp>
+                  <speaker>1<hi rend="sup">ſt</hi> SENATOR.</speaker>
+                  <l>We give him hearty Welcome, from our Souls!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Moſt noble Chiefs, and Fathers of the <hi>Volſci,</hi>
+                  </l>
+                  <l>I need not ſay, how by the People's Rage;</l>
+                  <l>And the poor Weakneſs of the timid Nobles,</l>
+                  <l>I am expell'd from <hi>Rome.</hi> Had I confin'd</l>
+                  <l>My Wiſhes merely to a ſafe Retreat,</l>
+                  <l>Some <hi>Latine</hi> City might have given me that;</l>
+                  <l>Or any nameleſs Corner. What imports it,</l>
+                  <l>Where a tame patient Exile rots in Silence?</l>
+                  <l>But, <hi>Volſcian</hi> Lords, permit me to declare,</l>
+                  <l>I would at once cut ſhort my uſeleſs Days,</l>
+                  <l>Rather than be that deſpicable Wretch,</l>
+                  <l>Who neither can take Vengeance on his Foes,</l>
+                  <l>Nor ſerve his Friends. That is my Temper, Chiefs.</l>
+                  <l>I ſhall be glad to merit, by my Sword,</l>
+                  <l>Th'Aſylum which I ſeek among the <hi>Volſci.</hi>
+                  </l>
+                  <l>
+                     <hi>Rome</hi> is our common Foe: Then let us join</l>
+                  <l>Our common Suffering, Paſſions, and Reſentments.</l>
+                  <l>Yes, tho' but one, I bring ſo many Wrongs,</l>
+                  <l>So large a Share of powerful Enmity,</l>
+                  <l>
+                     <pb n="20" facs="tcp:0744600800:26"/>
+Into the War, as gives me the Preſumption,</l>
+                  <l>To offer to the <hi>Volſcian</hi> States th'Alliance</l>
+                  <l>Even of my ſingle Arm.—</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>That ſingle Arm</l>
+                  <l>Is in itſelf a numerous Army, MARCIUS;</l>
+                  <l>The <hi>Volſcians</hi> ſo eſteem it—But proceed.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I will not mention, <hi>Volſcian</hi> Chiefs, what Talent</l>
+                  <l>The World allows me to poſſeſs in War:</l>
+                  <l>But be it what it will, you may employ it.</l>
+                  <l>Soldier, or Captain, in whatever Station</l>
+                  <l>You place me, I will loſe each Drop of Blood,</l>
+                  <l>Or with this Hand I'll fix the <hi>Volſcian</hi> Standard</l>
+                  <l>On the proud Towers of Capitolian <hi>Jove.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Chiefs of the <hi>Volſcian</hi> League, I give you Joy</l>
+                  <l>Of our new Citizen, the noble MARCIUS.</l>
+                  <l>The Genius of the <hi>Volſcian</hi> State has ſent him,</l>
+                  <l>Whetted by Wrongs into a keener Hatred</l>
+                  <l>Than that we bear to <hi>Rome.</hi> It were contemning,</l>
+                  <l>With impious ſelf-ſufficient Arrogance,</l>
+                  <l>This Bounty of the Gods, not to accept,</l>
+                  <l>With every Mark of Honour, of his Service.</l>
+                  <l>I, <hi>Volſcians,</hi> I, even ATTIUS TULLUS, give,</l>
+                  <l>Firſt of you all, my Voice, that CAIUS MARCIUS</l>
+                  <l>Be now receiv'd to high Command among us;</l>
+                  <l>That inſtantly we do appoint him General</l>
+                  <l>Of half our Troops, which here, with your Conſent,</l>
+                  <l>I to him yield.—Speak, Chiefs, is this your Pleaſure?</l>
+               </sp>
+               <sp>
+                  <speaker>1<hi rend="sup">ſt</hi> SENATOR.</speaker>
+                  <l>It is,—We give unanimous Conſent.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS, embracing him.</speaker>
+                  <l>MARCIUS, I joy to call thee my Companion,</l>
+                  <l>And Collegue in this War.</l>
+               </sp>
+               <sp>
+                  <pb n="21" facs="tcp:0744600800:27"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>By all the Gods!</l>
+                  <l>Thou art the generous Victor of my Soul!</l>
+                  <l>Yes, TULLUS, I am conquer'd by thy Virtue.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Tho' I have oft, on great Occaſions? TULLUS,</l>
+                  <l>Beheld thee in the Senate, and the Field,</l>
+                  <l>Cover'd with Glory; yet, I muſt avow,</l>
+                  <l>I never ſaw thee ſhew ſuch genuine Greatneſs,</l>
+                  <l>Such true Sublimity of Soul, as now.</l>
+                  <l>To ſcorn th' all-powerful Charm of ſelfiſh Paſſions,</l>
+                  <l>Chiefly the dazzling Pride of Emulation,</l>
+                  <l>That noble Weakneſs of Heroic Minds,</l>
+                  <l>To ſink thyſelf that thou may'ſt raiſe thy Country;</l>
+                  <l>To put the Sword into thy Rival's Hand,</l>
+                  <l>And twine thy promis'd Laurels round his Brow—</l>
+                  <l>O 'tis a Flight beyond the higheſt Point</l>
+                  <l>Of Martial Glory! and what few can reach.</l>
+                  <l>Go forth, the choſen Miniſters of Juſtice;</l>
+                  <l>And may that awful Power, whoſe ſecret Hand</l>
+                  <l>Sways all our Paſſions, turns our partial Views</l>
+                  <l>All to its own dread Purpoſes, attend you !</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I burn to enter on the glorious Taſk</l>
+                  <l>You now have mark'd me out. How ſlow the Time</l>
+                  <l>To the warm Soul, that in the very Inſtant</l>
+                  <l>It forms, would, execute, a great Deſign.</l>
+                  <l>'Tis my Advice we march direct to <hi>Rome;</hi>
+                  </l>
+                  <l>We cannot be too quick. Let the firſt Dawn</l>
+                  <l>See us in bright Array before her Walls.</l>
+                  <l>Perhaps when they behold their Exile there,</l>
+                  <l>Back'd by your Force, ſome conſcious Hearts among
+them</l>
+                  <l>May feel th' Alarm of Guilt.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>I much approve</l>
+                  <l>Of this Advice. 'Tis what I thought before,</l>
+                  <l>Ere ſtrengthen'd, MARCIUS, by thy mighty Arm:</l>
+                  <l>
+                     <pb n="22" facs="tcp:0744600800:28"/>
+But now 'tis doubly right. Here, <hi>Volſcian</hi> Chiefs,</l>
+                  <l>Here let our Council terminate—The Troops</l>
+                  <l>Have had Repoſe ſufficient. Strait to <hi>Rome,</hi>
+                  </l>
+                  <l>Come, let us urge our March—As yet the Stars</l>
+                  <l>Ride in their middle Watch: we ſhall with Eaſe,</l>
+                  <l>Reach it by Dawn.—</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Yes, we have time—too much!</l>
+                  <l>Six tedious Hours till Morn—But hence! away!</l>
+                  <l>My Soul on Fire anticipates the Dawn.</l>
+               </sp>
+               <trailer>End of the Second <hi>ACT.</hi>
+               </trailer>
+            </div>
+         </div>
+         <div n="3" type="act">
+            <pb n="23" facs="tcp:0744600800:29"/>
+            <head>ACT III.</head>
+            <div n="1" type="scene">
+               <head>SCENE I.</head>
+               <stage>CORIOLANUS, TULLUS, VOLUSIUS, TITUS, <hi>with a
+Croud of</hi> Volſcian <hi>Officers. Acclamations behind
+the Scenes.</hi>
+               </stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>NO more—I merit not this laviſh Praiſe.</l>
+                  <l>True, we have driven the <hi>Roman</hi> Legions back,</l>
+                  <l>Defeated, and diſgrac'd—But what is this?</l>
+                  <l>Nothing, ye <hi>Volſci,</hi> nothing yet is done.</l>
+                  <l>We but begin the wonderous Leaf of Story,</l>
+                  <l>That marks the <hi>Roman</hi> Doom. At length it dawns,</l>
+                  <l>The deſtin'd Hour, that eaſes of their Fears</l>
+                  <l>The Nations round, and ſets <hi>Heſperia</hi> free.</l>
+                  <l>Come on, my brave Companions of the War!</l>
+                  <l>Come, let us finiſh at one mighty Stroke?</l>
+                  <l>This Toil of labouring Fate—We will, or periſh!</l>
+                  <l>While, noble TULLUS, you protect the Camp,</l>
+                  <l>I, with my Troops, all Men of choſen Valour,</l>
+                  <l>And well-approv'd to-day, will ſtorm the City.</l>
+               </sp>
+               <sp>
+                  <speaker>TITUS.</speaker>
+                  <l>Beneath thy animating Conduct, MARCIUS,</l>
+                  <l>What can the <hi>Volſcian</hi> Valour not perform.</l>
+                  <l>Thy very Sight and Voice ſubdues the <hi>Romans.</hi>
+                  </l>
+                  <l>When, lifting up your Helm, you ſhew'd your Face,</l>
+                  <l>That like a Comet glar'd Deſtruction on them,</l>
+                  <l>I ſaw their braveſt Veterans fly before thee.</l>
+                  <l>Their ancient Spirit has with thee forſook them,</l>
+                  <l>And Ruin hangs o'er yon devoted Walls.</l>
+                  <stage>[Enter an Officer; who addreſſes himſelf to <hi>Coriolanus.</hi>
+                  </stage>
+               </sp>
+               <sp>
+                  <pb n="24" facs="tcp:0744600800:30"/>
+                  <speaker>OFFICER.</speaker>
+                  <l>My Lord, a Herald is arriv'd from <hi>Rome,</hi>
+                  </l>
+                  <l>To ſay, a Deputation from the Senate,</l>
+                  <l>Attended by the Miniſters of Heaven,</l>
+                  <l>A venerable Train of Prieſts and Flamens,</l>
+                  <l>Is on the Way, addreſs'd to you.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>To me!</l>
+                  <l>What can this Meſſage mean!—Stand to your Arms,</l>
+                  <l>Ye <hi>Volſcian</hi> Troops; and let theſe <hi>Romans</hi> paſs</l>
+                  <l>Betwixt the lowring Frown of double Files.</l>
+                  <l>What! do they think me ſuch a milky Boy,</l>
+                  <l>To pay my Vengeance with a few ſoft Words.</l>
+                  <l>Come, fellow Soldiers, TULLUS, come, and ſee.</l>
+                  <l>If I betray the Honours you have done me.</l>
+                  <stage>[Goes out with a Train of <hi>Volſcian</hi> Officers.</stage>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>SCENE II.</head>
+               <stage>TULLUS, VOLUSIUS, <hi>who remain.</hi>
+               </stage>
+               <sp>
+                  <speaker>VOLUSIUS, <hi>after ſome Silence,</hi>
+                  </speaker>
+                  <l>Are we not, TULLUS, failing in our Duty</l>
+                  <l>Not to attend our General?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>How! What ſaidſt thou?</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Methought, my Lord, his parting Orders were,</l>
+                  <l>We ſhould attend the Triumph now preparing</l>
+                  <l>O'er all his Foes at once—<hi>Romans</hi> and <hi>Volſci!</hi>
+                  </l>
+                  <l>Come, we ſhall give Offence.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Of this no more.</l>
+                  <l>I pray thee ſpare thy bitter Irony.</l>
+               </sp>
+               <sp>
+                  <pb n="25" facs="tcp:0744600800:31"/>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Shall I then ſpeak without Diſguiſe?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Speak out:</l>
+                  <l>With all the honeſt Bluntneſs of a Friend.</l>
+                  <l>Think'ſt thou I fear the Truth?</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Then, TULLUS, know,</l>
+                  <l>Thou art no more the General of the <hi>Volſci.</hi>
+                  </l>
+                  <l>Thou haſt, by this thy generous Weakneſs, ſunk</l>
+                  <l>Thyſelf into a private Man of <hi>Antium.</hi>
+                  </l>
+                  <l>Yes, thou haſt taken from thy laurel'd Brow</l>
+                  <l>The well-earn'd Trophies of thy Toils and Perils,</l>
+                  <l>Thy ſpringing Hopes, the faireſt ever budded,</l>
+                  <l>And heap'd them on a Man too proud before.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>He bears it high.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Death, and Perdition! high!</l>
+                  <l>With uncontroul'd Command!—You ſee, already,</l>
+                  <l>He will not be encumber'd with the Fetters</l>
+                  <l>Of our Advice. He ſpeaks his Sovereign Will;</l>
+                  <l>On every Hand he iſſues out his Orders,</l>
+                  <l>As to his natural Slaves.—For you, my Lord,</l>
+                  <l>He has, I think, confin'd you to your Camp,</l>
+                  <l>There in inglorious Indolence to languiſh;</l>
+                  <l>While he, beneath your blaſted Eye, ſhall reap</l>
+                  <l>The Harveſt of your Honour.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>No, VOLUSIUS,</l>
+                  <l>Whatever Honour ſhall by him be gain'd</l>
+                  <l>Reverts to me, from whole ſuperior Bounty</l>
+                  <l>He drew the Means of all his glorious Deeds.</l>
+                  <l>This mighty Chief, this Conqueror of <hi>Rome</hi>
+                  </l>
+                  <l>Is but my Creature.—</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Wretched Self-Deluſion;</l>
+                  <l>He and the <hi>Volſcians</hi> know he is thy Maſter.</l>
+                  <l>
+                     <pb n="26" facs="tcp:0744600800:32"/>
+He acts as ſuch in all Things—Now by <hi>Mars,</hi>
+                  </l>
+                  <l>Could my abhorrent Soul endure the Thought</l>
+                  <l>Of ſtooping to a <hi>Roman</hi> Chief, I here</l>
+                  <l>Would leave thee in thy ſolitary Camp,</l>
+                  <l>And go where Glory calls.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Indeed, VOLUSIUS,</l>
+                  <l>I did expect more equal Treatment from him.</l>
+                  <l>But what of that?—The generous Pride of Virtue</l>
+                  <l>Diſdains to weigh too nicely, the Returns</l>
+                  <l>Her Bounty meets with—Like the liberal Gods,</l>
+                  <l>From her own gracious Nature ſhe beſtows,</l>
+                  <l>Nor ſtoops to aſk Reward—Yet muſt I own,</l>
+                  <l>I thought he would not have ſo ſoon forgot</l>
+                  <l>What he ſo lately was, and what I am.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Gods! knew ye not his Character before?</l>
+                  <l>Did you not know his Genius was to yours</l>
+                  <l>Averſe, as are Antipathies in Nature?</l>
+                  <l>High, over-weening, tyranouſly Proud,</l>
+                  <l>And only fit to hold Command o'er Slaves?</l>
+                  <l>Hence, as repugnant to that equal Life,</l>
+                  <l>Which is the quickening Soul of all Republicks,</l>
+                  <l>The <hi>Roman</hi> People caſt him forth; and we,</l>
+                  <l>Shall we receive the Bane of their Repoſe,</l>
+                  <l>Into our Breaſt? Are we leſs free than they?</l>
+                  <l>Or ſhall we be more patient of a Tyrant?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>All this I knew. But while his Imperfections</l>
+                  <l>Are thy glad Theme, thou haſt forgot his Virtues.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>I leave that Subject to the ſmooth GALESUS,</l>
+                  <l>And theſe his <hi>Volſcian</hi> Flatterers—His Virtues!</l>
+                  <l>Truſt me there is no Inſolence that treads</l>
+                  <l>So high as that which rears itſelf on Virtue.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Well, be it ſo—I meant, that even his Vices</l>
+                  <l>Should, on this great Occaſion, ſerve the <hi>Volſci.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <pb n="27" facs="tcp:0744600800:33"/>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Confuſion! there it is! there lurks the Sting</l>
+                  <l>Of our Diſhonour! while this MARCIUS leads</l>
+                  <l>The <hi>Roman</hi> Armies, ours are driven before him.</l>
+                  <l>Behold, he changes Sides; when with him changes</l>
+                  <l>The Fortune of the War. Strait they grow <hi>Volſci</hi>
+                  </l>
+                  <l>And we victorious <hi>Romans</hi>—Such, no doubt,</l>
+                  <l>Such is his ſecret Boaſt—Ay, this vile Brand,</l>
+                  <l>Succeſs itſelf will fix for ever on us;</l>
+                  <l>And, TULLUS, thou, 'tis thou muſt anſwer for it.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS, aſide.</speaker>
+                  <l>His Words are Daggers to my Heart; I feel</l>
+                  <l>Their Truth, but am aſham'd to own my Folly.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>O Shame! O Infamy! the Thought conſumes me,</l>
+                  <l>It ſcalds my Eyes with Tears, to ſee a <hi>Roman</hi>
+                  </l>
+                  <l>Borne on our Shoulders to immortal Fame:</l>
+                  <l>Juſt in the happy Moment that decided</l>
+                  <l>The long Diſpute of Ages, that for which</l>
+                  <l>Our generous Anceſtors had toil'd and bled,</l>
+                  <l>To ſee him then ſtep in and ſteal our Glory!</l>
+                  <l>O that we firſt had periſh'd all! A People,</l>
+                  <l>Who cannot find in their own proper Force</l>
+                  <l>Their own Protection, are not worth the ſaving !</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS</speaker>
+                  <l>It muſt have Way! I will no more ſuppreſs it—</l>
+                  <l>Know, then, my rough old Friend, no leſs than thee</l>
+                  <l>His Conduct hurts me, and upbraids my Folly.</l>
+                  <l>I wake as from a Dream. What Demon mov'd me?</l>
+                  <l>What doating Generoſity? his Woes,</l>
+                  <l>Was it his Woes! to ſee the brave reduc'd</l>
+                  <l>To truſt his mortal Foe? perhaps, a little</l>
+                  <l>That work'd within my Boſom—But, VOLUSIUS,</l>
+                  <l>That was not all—I will to thee confeſs</l>
+                  <l>The Weakneſs of my Heart—Yes, it was Pride,</l>
+                  <l>The dazzling Pride to ſee my Rival-Warriour</l>
+                  <l>The great CORIOLANUS, bend his Soul,</l>
+                  <l>His haughty Soul, to ſue for my Protection.</l>
+                  <l>
+                     <pb n="28" facs="tcp:0744600800:34"/>
+Protection ſaid I? were it that alone,</l>
+                  <l>I had been baſe to have refus'd him that,</l>
+                  <l>To have refus'd him aught a gallant Foe</l>
+                  <l>Owes to a gallant Foe.—But to exalt him</l>
+                  <l>To the ſame Level, nay above myſelf;</l>
+                  <l>To yield him the Command of half my Troops,</l>
+                  <l>The choiceſt acting Half—That, that was Madneſs!</l>
+                  <l>Was weak, was mean, unworthy of a Man!—</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>I ſcorn to flatter thee—It was indeed.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Curſe on the Slave, GALESUS ! ſoothing, he</l>
+                  <l>Seiz'd the fond Moment of Infatuation,</l>
+                  <l>And clinch'd the Chains my generous Folly forg'd,</l>
+                  <l>How ſhall I from this Labyrinth eſcape?</l>
+                  <l>Muſt it then be! what cruel Genius dooms me,</l>
+                  <l>In War or Peace to creep beneath his Fortune?</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>That Genius is thyſelf. If thou canſt bear</l>
+                  <l>The very Thought of ſtooping to this <hi>Roman,</hi>
+                  </l>
+                  <l>Thou from that Moment art his Vaſſal, TULLUS;</l>
+                  <l>By that thou doſt acknowledge, Parent Nature</l>
+                  <l>Has form'd him thy Superior. But if fix'd</l>
+                  <l>Upon the Baſe of manly Reſolution,</l>
+                  <l>Thou ſay'ſt—I will be free! I will command!</l>
+                  <l>I and my Country! then—O never doubt it—</l>
+                  <l>We ſhall find Means to cruſh this vain Intruder;</l>
+                  <l>Even I myſelf—this Hand—</l>
+                  <l>Nay, hear me, TULLUS,</l>
+                  <l>'Tis not yet come to that, that laſt Reſource.</l>
+                  <l>I do not ſay we ſhould employ the Dagger,</l>
+                  <l>While other, better Means are in our Power.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>No, my VOLUSIUS, Fortune will not drive us,</l>
+                  <l>Or I am much deceiv'd, to that Extreme:</l>
+                  <l>We ſhall not want the ſtrongeſt faireſt Plea,</l>
+                  <l>To give a ſolemn Sanction to his Fate.</l>
+                  <l>He will betray himſelf. Whate'er his Rage</l>
+                  <l>
+                     <pb n="29" facs="tcp:0744600800:35"/>
+Of Paſſion talks, a Weakneſs for his Country</l>
+                  <l>Sticks in his Soul, and he is ſtill a <hi>Roman.</hi>
+                  </l>
+                  <l>Soon ſhall we ſee him tempted to the Brink</l>
+                  <l>Of this ſure Precipice—Then down, at once,</l>
+                  <l>Without Remorſe, we hurl him to Perdition!—</l>
+                  <l>But hark! the Trumpet calls us to a Scene</l>
+                  <l>I ſhould deteſt, if not from Hope we thence</l>
+                  <l>May gather Matter to mature our Purpoſe.</l>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>SCENE III.</head>
+               <stage>The back Scene opens, and diſcovers <hi>CORIOLANUS</hi>
+ſitting on his Tribunal, attended by his Lictors,
+and a Croud of <hi>Volſcian</hi> Officers. Files of
+Troops drawn up on either Hand. In the Depth
+of the Scene appear the Deputies from the <hi>Ro<g ref="char:EOLhyphen"/>man</hi>
+Senate, <hi>M. MINUCIUS, POSTHUMUS CO<g ref="char:EOLhyphen"/>MINIUS,
+SP. LARTIUS, P. PINNARIUS,</hi> and
+<hi>Q. SULPITIUS,</hi> all Conſular Senators, who had
+been his moſt zealous Friends. And behind them
+march the Prieſts, the Sacrificers, the Augurs,
+and the Guardians of the ſacred Things, dreſt in
+their Ceremonial Habits. Theſe advance ſlowly,
+betwixt the Files of Soldiers, under Arms. As
+<hi>TULLUS</hi> enters, <hi>CORIOLANUS</hi> riſing ſalutes him.</stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Here, noble TULLUS, ſit, and judge my Conduct;</l>
+                  <l>Nor ſpare to check me if I act amiſs.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>MARCIUS, the <hi>Volſcian</hi> Fate is in thy Hands.</l>
+                  <stage>
+                     <hi>[CORIOLANUS</hi> is ſeated again, and <hi>TULLUS</hi> places
+himſelf upon a Tribunal on his Left Hand. Mean
+time the <hi>Roman</hi> Deputies advance up to <hi>CO<g ref="char:EOLhyphen"/>RIOLANUS</hi>
+and ſalute him, which he returns.</stage>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>What, <hi>Romans,</hi> from the Generals of the <hi>Volſci</hi>
+                  </l>
+                  <l>Is your Demand?</l>
+               </sp>
+               <sp>
+                  <pb n="30" facs="tcp:0744600800:36"/>
+                  <speaker>MINUCIUS.</speaker>
+                  <l>O CORIOLANUS, <hi>Rome,</hi>
+                  </l>
+                  <l>Nurſe of thy tender Years, thy Parent-City,</l>
+                  <l>Her Senators, her People, Prieſts, and Augurs,</l>
+                  <l>Her every Order and Degree, by us,</l>
+                  <l>Thy ever-zealous, ſtill-unſhaken Friends,</l>
+                  <l>Sue in the moſt pathetic Terms for Peace.</l>
+                  <l>And if in This; conſtrain'd, We from our Maxim,</l>
+                  <l>Never to aſk but give it, muſt depart;</l>
+                  <l>It is ſome Conſolation, in the State</l>
+                  <l>To which thou haſt by thy ſuperior Valour</l>
+                  <l>Reduc'd us, that we aſk it from a <hi>Roman.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I was a <hi>Roman</hi> once, and thought the Name</l>
+                  <l>Was hot diſhonour'd by me; but it pleas'd</l>
+                  <l>Your Lords, the Mob of <hi>Rome,</hi> to take it from me;</l>
+                  <l>Nor will I now receive it back again.</l>
+               </sp>
+               <sp>
+                  <speaker>MILUCIUS.</speaker>
+                  <l>The Name thou mayſt reject, but canſt not throw</l>
+                  <l>The Duties from thee which that Name imports;</l>
+                  <l>Indiſſoluble Duties, bound upon thee</l>
+                  <l>By the ſtrong Hand of Nature, and confirm'd</l>
+                  <l>By the dread Sanction of all-ruling <hi>Jove.</hi>
+                  </l>
+                  <l>Then hear thy Country's ſupplicating Voice;</l>
+                  <l>By all thoſe Duties I conjure thee hear us.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Well—I will hear thee; ſpeak, declare thy Meſſage.</l>
+               </sp>
+               <sp>
+                  <speaker>MILUCIUS.</speaker>
+                  <l>Give Peace, give healing Peace, to two brave Nations,</l>
+                  <l>Fatigu'd with War, arid ſick of cruel Deeds!</l>
+                  <l>To carry on Deſtruction's eaſy Trade,</l>
+                  <l>Afflict Mankind, and ſcourge the World with War,</l>
+                  <l>Is what each wicked, each ambitious Man,</l>
+                  <l>Who lets his furious Paſſions looſe, may do:</l>
+                  <l>But in the flattering Torrent of Succeſs,</l>
+                  <l>To check his Rage, and drop th'avenging Sword,</l>
+                  <l>When a repenting People aſk it of him,</l>
+                  <l>That is the genuine Bounty of a God.</l>
+                  <l>
+                     <pb n="31" facs="tcp:0744600800:37"/>
+Then urge no further this your juſt Reſentment;</l>
+                  <l>Which, injur'd as you are, you needs muſt feel,</l>
+                  <l>But never ought to carry into Action,</l>
+                  <l>Againſt your ſacred Country; whence you drew</l>
+                  <l>Your Life, your Virtues, every mortal Good,</l>
+                  <l>That very Valour you employ againſt her.</l>
+                  <l>Stop, CORIOLALUS, ere, beyond Retreat,</l>
+                  <l>You plunge yourſelf in Crimes. To the fierce Joy</l>
+                  <l>Of Vengeance puſh'd to barbarous Exceſs,</l>
+                  <l>Repentance will ſucceed, and ſickning Horror.</l>
+                  <l>Conſider too the ſlippery State of Fortune.</l>
+                  <l>The Gods take Pleaſure oft, when haughty Mortals</l>
+                  <l>On their own Pride erect a mighty Fabrick,</l>
+                  <l>By ſlighteſt means, to lay their towering Schemes</l>
+                  <l>Low in the Duſt, and teach them they are nothing.</l>
+                  <l>Return, thou virtuous <hi>Roman!</hi> to the Boſom</l>
+                  <l>Of thy imploring Country. Lo! her Arms,</l>
+                  <l>She fondly ſpreads to take thee back again,</l>
+                  <l>And by redoubled Love efface her Harſhneſs.</l>
+                  <l>Return, and crown thee with the nobleſt Wreathe,</l>
+                  <l>Which Glory can beſtow—the Palm of Mercy!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>MARCUS MINUCIUS, and ye other <hi>Romans,</hi>
+                  </l>
+                  <l>Reſpected Senators, and holy Flamens,</l>
+                  <l>Attend, and take to your Demand this Anſwer:</l>
+                  <l>Why court you me, the Servant of the <hi>Volſci?</hi>
+                  </l>
+                  <l>It is to them that you muſt bend for Peace,</l>
+                  <l>Which on theſe only Terms they will accord you.</l>
+                  <l>"Reſtore the conquer'd Lands, your former Wars</l>
+                  <l>"Have raviſh'd from them: from their Towns an
+Cities,</l>
+                  <l>"Won by your Arms, withdraw your Colonies;</l>
+                  <l>"And to the full Immunities of <hi>Rome</hi>
+                  </l>
+                  <l>"Frankly admit them, as you have the <hi>Latines.</hi>"</l>
+                  <l>Then, <hi>Romans,</hi> you have Peace, and not till then !</l>
+                  <l>If theſe are Terms which ſuit not your Ambition,</l>
+                  <l>They ſuit the State to which the <hi>Volſcian</hi> Arms</l>
+                  <l>
+                     <pb n="32" facs="tcp:0744600800:38"/>
+Have now reduc'd you—We have learn'd from <hi>Rome</hi>
+                  </l>
+                  <l>To uſe our Fortune, and command the Vanquiſh'd.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS,</speaker>
+                  <stage>(aſide.)</stage>
+                  <l>Death to my Hopes! I'm now his Slave for ever.</l>
+                  <l>CORIOLANUS, <hi>addreſſing himſelf to the</hi> Volſci</l>
+                  <l>This, my illuſtrious Patrons and Protectors,</l>
+                  <l>
+                     <hi>Volſci,</hi> to you I ow'd. Permit me now</l>
+                  <l>To do myſelf and injur'd Honour Juſtice.</l>
+                  <stage>
+                     <hi>[Turning again to the</hi> Romans.</stage>
+                  <l>As to the Liberty you idly vaunt</l>
+                  <l>To give me of returning to your City,</l>
+                  <l>'Tis what I hold unworthy of Acceptance.</l>
+                  <l>Can I return into th' ungrateful Boſom</l>
+                  <l>Of a diſtracted State, where, to the Rage</l>
+                  <l>Of a vile ſenſeleſs Populace, the Laws</l>
+                  <l>Are by your ſhameful Weakneſs given a Prey?</l>
+                  <l>Who are the Men that hold the Sway among you?</l>
+                  <l>And whom have you expell'd, as even unworthy</l>
+                  <l>To live within the Cincture of your Walls!—</l>
+                  <l>O the wild Thought breaks in and troubles Reaſon!—</l>
+                  <l>With what, ye <hi>Romans,</hi> can the ſowereſt Cenſor,</l>
+                  <l>The moſt envenom'd Malice, juſtly charge me?</l>
+                  <l>Did I e'er break your Laws? Nay, did I e'er</l>
+                  <l>Do aught that could diſturb the ſacred Order,</l>
+                  <l>The Peace and ſocial Harmony of Life;</l>
+                  <l>Or taint your ancient Sanctity of Manners?</l>
+                  <l>What was my Crime? I could not bear to ſee</l>
+                  <l>Your Dignity debas'd: to ſee the Rabble,</l>
+                  <l>Tread on the reverend grey Authority</l>
+                  <l>Of Senatorial Wiſdom: Yes, for you,</l>
+                  <l>In your Defence I did enrage this Monſter;</l>
+                  <l>And yet you baſely left me to its Fury.</l>
+                  <l>Then talk no more of Services and Friendſhip:</l>
+                  <l>A Friend, who can, and does not ſhield, betrays me.</l>
+                  <l>Or if the Power was wanting, then your Senate</l>
+                  <l>Is ſunk into Servility, and Bondage,</l>
+                  <l>Nor ſhould a Freeman deign to ſit among you.</l>
+               </sp>
+               <sp>
+                  <pb n="33" facs="tcp:0744600800:39"/>
+                  <speaker>MINUCIUS.</speaker>
+                  <l>The Wiſeſt are ſometimes compell'd to yield</l>
+                  <l>To popular Storms: Yet I defend not, MARCIUS,</l>
+                  <l>Our timid Conduct; we have felt our Error,</l>
+                  <l>And now invite thee back to aid the Senate,</l>
+                  <l>With thy heroic Spirit to reſtrain</l>
+                  <l>The giddy Rage of Faction, and to hold</l>
+                  <l>The Reins of Government more firm hereafter.</l>
+                  <l>As to th' Appeal which thou haſt nobly made</l>
+                  <l>In Vindication of thy ſpotleſs Fame,</l>
+                  <l>With Pleaſure we confirm it, and bear Witneſs</l>
+                  <l>To all thy public and thy private Virtues:</l>
+                  <l>But let us alſo beg thee not to ſtain</l>
+                  <l>The Brightneſs of that Glory by a Crime,</l>
+                  <l>Which, unrepented, would diſgrace them all,</l>
+                  <l>A dire rebellious War againſt thy Country.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Abſurd! What can you mean? To call a People,</l>
+                  <l>Who with the laſt Indignity have us'd me,</l>
+                  <l>To call my Foes my Country! No, MINUCIUS,</l>
+                  <l>It is the generous Nation of the <hi>Volſci,</hi>
+                  </l>
+                  <l>Theſe brave, theſe virtuous Men, you ſee around me,</l>
+                  <l>Who, when I wander'd a poor helpleſs Exile,</l>
+                  <l>Took Pity of my Injuries and Woes;</l>
+                  <l>Forgot the former Miſchiefs of my Sword;</l>
+                  <l>Heap'd on me Kindneſs, Honours, Dignities;</l>
+                  <l>Fear'd not to truſt me with this high Command,</l>
+                  <l>And plac'd me here the Guardian of their Cauſe:—</l>
+                  <l>Be Witneſs, <hi>Jove!</hi>—It is alone their Nation</l>
+                  <l>I henceforth will acknowlege for my Country!</l>
+                  <l>Let this ſuffice—You have my Anſwer, ROMANS.</l>
+               </sp>
+               <sp>
+                  <speaker>COMINIUS.</speaker>
+                  <l>This Anſwer, CORIOLANUS, is the Dictate</l>
+                  <l>More of thy Pride than Magnanimity:</l>
+                  <l>'Tis thy Revenge that gives it, not thy Virtue.</l>
+                  <l>Art thou above the Gods? who joy to ſhow'r</l>
+                  <l>Their doubled Goodneſs on repenting Mortals?</l>
+                  <l>But think not I intend, by This, to urge</l>
+                  <l>
+                     <pb n="34" facs="tcp:0744600800:40"/>
+Our proffer'd Peace, ſo harſhly treated, further.</l>
+                  <l>That were a Weakneſs ill becoming <hi>Romans.</hi>
+                  </l>
+                  <l>Yet I muſt tell thee, it would better fuit</l>
+                  <l>A fierce deſpotic Chief of barbarous Slaves,</l>
+                  <l>Than the calm Dignity of one who ſits</l>
+                  <l>In the grave Senate of a free Republic,</l>
+                  <l>To talk ſo high, and as it were to thruſt</l>
+                  <l>Plebeians from the native Rights of Man.—</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Ha! doſt thou come the People's Advocate</l>
+                  <l>To Me, COMINIUS! Com'ſt thou to inſult me?</l>
+               </sp>
+               <sp>
+                  <speaker>COMINIUS.</speaker>
+                  <l>Nay, hear me, MARCIUS:—Theſe grey Hairs
+impower me</l>
+                  <l>To ſet thee right before this great Aſſembly:</l>
+                  <l>And there was once a Time, thou wouldſt have heard</l>
+                  <l>Thy General with more Deference and Patience.—</l>
+                  <l>I tell thee then, whoe'er amidſt the Sons</l>
+                  <l>Of Reaſon, Valour, Liberty, and Virtue,</l>
+                  <l>Diſplays diſtinguiſh'd Merit, is a Noble</l>
+                  <l>Of Nature's own creating. Such have riſen</l>
+                  <l>Sprung from the Duſt, or where had been our Honours?</l>
+                  <l>And ſuch in radiant Bands will riſe again,</l>
+                  <l>In yon immortal City, that, when moſt</l>
+                  <l>Depreſt by Fate, and near apparent Ruin,</l>
+                  <l>Returns, as with an Energy divine,</l>
+                  <l>On her aſtoniſh'd Foes, and ſhakes them from her—</l>
+                  <l>Your Pardon, VOLSCI—But This, CORIOLANUS,</l>
+                  <l>Is what I had to ſay.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>And I have heard it—</l>
+                  <stage>[Riſing from his Tribunal; and
+the Prieſts advancing to ad<g ref="char:EOLhyphen"/>dreſs
+him, he prevents them.</stage>
+                  <l>For you, ye awful Miniſters of Heaven,</l>
+                  <l>Let me not hear your holy Lips profan'd</l>
+                  <l>By urging what my Duty muſt refuſe.</l>
+                  <l>I bow in Adoration to the Gods;</l>
+                  <l>
+                     <pb n="35" facs="tcp:0744600800:41"/>
+I venerate their Servants. But there is,</l>
+                  <l>There is a Power, their chief, their darling Care,</l>
+                  <l>The Guardian of Mankind, which to betray</l>
+                  <l>Were violating all—And that is JUSTICE.</l>
+                  <l>So far my public Character demands;</l>
+                  <l>So far my Honour.—Now, what ſhould forbid</l>
+                  <l>The Man, and Friend, to be indulg'd a little?</l>
+                  <l>Permit me to embrace thee, good MINUCIUS;</l>
+                  <l>Thee, LARTIUS; you, PINNARIUS and SULPICIUS:</l>
+                  <l>But chiefly thee, COMINIUS, who firſt rais'd me</l>
+                  <l>To Deeds of Arms; who from thy Conſolar Brow</l>
+                  <l>Took thy own Crown, and with it circled mine.</l>
+                  <l>Tho nought can ſhake my Purpoſe, yet I wiſh</l>
+                  <l>That <hi>Rome</hi> had ſent me others on this Errand.</l>
+                  <l>I thank you for your Friendſhip. The Protection,</l>
+                  <l>Which you have given to thoſe, whom once I call'd</l>
+                  <l>By tender Names, I would not now remember.</l>
+                  <l>How ſhall I—ſay—return your generous Goodneſs?</l>
+                  <l>O there is nothing you, as Friends, can aſk,</l>
+                  <l>My grateful Heart will not with Pleaſure grant you.</l>
+               </sp>
+               <sp>
+                  <speaker>COMINIUS.</speaker>
+                  <l>We thank thee, <hi>CORIOLANUS</hi>—But a <hi>Roman</hi>
+                  </l>
+                  <l>Diſdains that Favour you refuſe his Country.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>
+                     <hi>To the</hi> Volſcian <hi>Officers.</hi>
+                  </l>
+                  <l>See that they be, with due Regard and Safety,</l>
+                  <l>Conducted back.</l>
+                  <stage>[To the <hi>Roman</hi> Senators.</stage>
+                  <l>I will ſuſpend th' Aſſault,</l>
+                  <l>Till to theſe Terms, of which we will not bate</l>
+                  <l>The ſmalleſt Part, your Senate may have Time</l>
+                  <l>To ſend their lateſt Anſwer. Then we cut</l>
+                  <l>All further Treaty off. <hi>Romans,</hi> farewell.</l>
+               </sp>
+               <trailer>The End of the Third <hi>ACT.</hi>
+               </trailer>
+            </div>
+         </div>
+         <div n="4" type="act">
+            <pb n="36" facs="tcp:0744600800:42"/>
+            <head>ACT IV.</head>
+            <div n="1" type="scene">
+               <head>SCENE I.</head>
+               <stage>TULUS alone.</stage>
+               <l>WHAT is the Mind of Man? A reſtleſs Scene</l>
+               <l>Of Vanity and Weakneſs; ſhifting ſtill,</l>
+               <l>As ſhift the Lights of our uncertain Knowlege;</l>
+               <l>Or as the various Gale of Paſſion breathes.</l>
+               <l>None ever thought himſelf more deeply founded</l>
+               <l>On what is right, nor felt a nobler Ardor,</l>
+               <l>Than I, when I inveſted CAIUS MARCIUS</l>
+               <l>With this ill-judg'd Command. Now it appears</l>
+               <l>Diſtraction, Folly, monſtrous Folly! Meanneſs!</l>
+               <l>And down I plunge, betray'd even by my Virtue,</l>
+               <l>From Gulph to Gulph, from Shame to deeper Shame.</l>
+            </div>
+            <div n="2" type="scene">
+               <head>SCENE II.</head>
+               <stage>TULLUS. GALESUS.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>I liſten'd, TULLUS, to th' important Scene</l>
+                  <l>That lately paſs'd before us, with moſt ſtrict</l>
+                  <l>Unprejudic'd Attention; and have ſince</l>
+                  <l>Revolv'd it in my Mind, both as a Man,</l>
+                  <l>Ally,d to all Mankind, and as a <hi>Volſcian.</hi>
+                  </l>
+                  <l>Indeed our Terms are high, and by the Manner</l>
+                  <l>
+                     <pb n="37" facs="tcp:0744600800:43"/>
+In which they were preſcrib'd by CORIOLANUS,</l>
+                  <l>Are what we cannot hope will e'er be granted.</l>
+                  <l>They ſhould be ſoften'd. Let us yield a little,</l>
+                  <l>Conſcious ourſelves to a great Nation's Pride,</l>
+                  <l>The Pride of human Nature. Could the <hi>Romans</hi>
+                  </l>
+                  <l>Stoop to ſuch Peace, commanded by the Sword,</l>
+                  <l>They then were Slaves, unworthy our Alliance.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Gods! do I hear in thee, one of the Chiefs</l>
+                  <l>Intruſted with the Honour of the <hi>Volſci,</hi>
+                  </l>
+                  <l>An Advocate for <hi>Rome?</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>I glory, TULLUS,</l>
+                  <l>To own myſelf an Advocate for Peace.</l>
+                  <l>Peace is the happy natural State of Man;</l>
+                  <l>War his Corruption, his Diſgrace—</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>His Safeguard!</l>
+                  <l>His Pride! his Glory!—What but War, juſt War,</l>
+                  <l>Gave <hi>Greece</hi> her Heroes? Thoſe who drew the Sword</l>
+                  <l>(As we do now) againſt the Sons of Rapine;</l>
+                  <l>To quell proud Tyrants, and to free Mankind.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Yes, TULLUS, when to juſt Defence the Warrior</l>
+                  <l>Confines his Force, he is a worſhip'd Name,</l>
+                  <l>Dear to Mankind, the Firſt and Beſt of Mortals!</l>
+                  <l>Yet ſtill, if this can by ſoft Means be done,</l>
+                  <l>And fair Accommodation, that is better.</l>
+                  <l>Why ſhould we purchaſe with the Blood of Thou<g ref="char:EOLhyphen"/>ſands,</l>
+                  <l>What may be gain'd by mutual juſt Conceſſion?</l>
+                  <l>Why give up Peace, the beſt of human Bleſſings,</l>
+                  <l>For the vain cruel Pride of uſeleſs Conqueſt?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Theſe ſoothing Dreams of philoſophic Quiet</l>
+                  <l>Are only fit for unfrequented Shades.</l>
+                  <l>The Sage ſhould quit the buſy buſtling World</l>
+                  <l>
+                     <pb n="38" facs="tcp:0744600800:44"/>
+Ill ſuited to his gentle Meditations,</l>
+                  <l>And in ſome Deſart find that Peace he loves.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Miſtaken Man! Philoſophy conſiſts not</l>
+                  <l>In airy Schemes, or idle Speculations:</l>
+                  <l>The Rule and Conduct of all ſocial Life</l>
+                  <l>Is her great Province. Not in lonely Cells</l>
+                  <l>Obſcure ſhe lurks, but holds her heavenly Light</l>
+                  <l>To Senates and to Kings, to guide their Councils,</l>
+                  <l>And teach them to reform and bleſs Mankind.</l>
+                  <l>All Policy but her's is falſe, and rotten;</l>
+                  <l>All Valour not conducted by her Precepts</l>
+                  <l>Is a deſtroying Fury ſent from Hell</l>
+                  <l>To plague unhappy Man, and ruin Nations.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>To ſtop the Waſte of that deſtroying Fury,</l>
+                  <l>Is the great Cauſe and Purpoſe of this War.</l>
+                  <l>Art thou a Friend to Peace?—ſubdue the <hi>Romans.</hi>
+                  </l>
+                  <l>Who, who, but they, have turn'd this antient Land,</l>
+                  <l>Where, from <hi>Saturnian</hi> Times, harmonious Concord</l>
+                  <l>Still lov'd to dwell, into a Scene of Blood,</l>
+                  <l>Of endleſs Diſcord, and perpetual Rapine?</l>
+                  <l>The Sword, the vengeful Sword, muſt drain away</l>
+                  <l>This boiling Blood, that thus diſturbs the Nations!</l>
+                  <l>Talk not of Terms. It is a vain Attempt</l>
+                  <l>To bind th' Ambitious and Unjuſt by Treaties:</l>
+                  <l>Theſe they elude a thouſand ſpecious Ways;</l>
+                  <l>Or if they cannot find a fair Pretext,</l>
+                  <l>They bluſh not in the Face of Heaven to break them.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Why then affronted Heaven will combat for us.</l>
+                  <l>Set Juſtice on our Side, and then my Voice</l>
+                  <l>Shall be as loud for War as thine; my Sword</l>
+                  <l>Shall ſtrike as deep; at leaſt my Blood ſhall flow</l>
+                  <l>As freely, TULLUS, in my Country's Cauſe.</l>
+                  <l>But as I then would die to ſerve the <hi>Volſcians,</hi>
+                  </l>
+                  <l>So now I dare to ſerve them by oppoſing,</l>
+                  <l>Even with my ſingle Voice, th' impetuous Torrent</l>
+                  <l>
+                     <pb n="39" facs="tcp:0744600800:45"/>
+That hurries us away beyond the Bounds</l>
+                  <l>Of temperate Wiſdom; and preſume to tell thee,</l>
+                  <l>It is thy Paſſion, not thy Prudence dictates</l>
+                  <l>This haughty Language.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Yes, it is my Paſſion,</l>
+                  <l>A Paſſion for the Glory of my Country,</l>
+                  <l>That ſcorns your narrow Views of timid Prudence.</l>
+                  <l>Our injur'd Honour drew our Swords, and never</l>
+                  <l>Shall they be ſheath'd while I command the <hi>Volſcians,</hi>
+                  </l>
+                  <l>Till <hi>Rome</hi> ſubmits to <hi>Antium.</hi>—</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>
+                     <hi>Rome</hi> will periſh</l>
+                  <l>Ere ſhe ſubmit; and ſhe has ſtill her Walls,</l>
+                  <l>The Strength of her Allies, her native Valour,</l>
+                  <l>Which oft has ſav'd her in the worſt Extremes,</l>
+                  <l>And, ſtronger yet than all, Deſpair, to aid her.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>All theſe will nought avail her, if our Fears</l>
+                  <l>Come not to her Aſſiſtance—But, GALESUS,</l>
+                  <l>Why urge you this to me? Go, talk to MARCIUS.</l>
+                  <l>The War has given him all his Pride could hope for,</l>
+                  <l>To ſee <hi>Rome</hi>'s Senate humbled at his Feet:</l>
+                  <l>He now may wiſh to reign in Peace at <hi>Antium,</hi>
+                  </l>
+                  <l>And thou, perhaps, art come an Envoy from him,</l>
+                  <l>To learn if I ſhall prove a quiet Subject.</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Thro' this unguarded Opening of thy Soul,</l>
+                  <l>I ſee what ſtings thee—Ah! beware of Envy!</l>
+                  <l>If that pale Fury ſeize thee, thou art loſt!</l>
+                  <l>TULLUS, 'tis eaſier far, from the clear Breaſt,</l>
+                  <l>To keep out treacherous Vice, than to expel it.</l>
+                  <l>Farewel. Remember I have done my Duty.</l>
+                  <stage>[Goes out.</stage>
+               </sp>
+               <sp>
+                  <speaker>TULLUS, alone.</speaker>
+                  <l>This Man diſcerns my Heart—Well: What of that?</l>
+                  <l>Am I afraid its Movement ſhould be ſeen?</l>
+                  <l>I, whoſe clear Thoughts have never ſhunn'd the Light,</l>
+                  <l>
+                     <pb n="40" facs="tcp:0744600800:46"/>
+Muſt I now ſeek to hide them? O Misfortune!</l>
+                  <l>To have reduc'd myſelf to ſuch a State,</l>
+                  <l>So much beneath the Greatneſs of my Soul,</l>
+                  <l>That, like a Coward, I muſt learn to practiſe</l>
+                  <l>The wretched Arts of vile Diſſimulation!</l>
+                  <l>By Heaven I will not do't—I will not ſtoop</l>
+                  <l>To veil my Diſcontent a Moment longer.</l>
+                  <l>But ſee! my Rival comes, the happy MARCIUS.</l>
+                  <l>His haughty Mien, his very Looks, affront me.</l>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>SCENE III.</head>
+               <stage>CORIOLANUS, TULLUS.</stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>TULLUS, I have receiv'd Intelligence,</l>
+                  <l>That a ſtrong Body of the <hi>Latin</hi> Troops</l>
+                  <l>Is in full March to raiſe the Siege of <hi>Rome.</hi>
+                  </l>
+                  <l>Another Day will bring them to its Aid.</l>
+                  <l>But go thou forth, and lead the valiant Bands,</l>
+                  <l>By thee commanded, to repel theſe Succours.</l>
+                  <l>Go, and cut off from <hi>Rome</hi> its laſt Reſource.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>I lead my Troops, from the great Scene of Action,</l>
+                  <l>From falling <hi>Rome,</hi> which, ere To-morrow's Sun</l>
+                  <l>Shall ſet, may be our Prey! Sure you forget</l>
+                  <l>My Rank and Station—I diſdain the Service:</l>
+                  <l>Give it to ſome you may command. For me,</l>
+                  <l>I own no Maſter but the <hi>Volſcian</hi> States.</l>
+                  <l>
+                     <hi>Rome</hi> is my Object. I from <hi>Antium</hi> brought</l>
+                  <l>The nobleſt Army ever ſhook her Walls.</l>
+                  <l>And ſhall I now, on that deciſive Day,</l>
+                  <l>Doom'd by the Gods to lay her Pride in Aſhes,</l>
+                  <l>Shall I be abſent from the glorious Work?</l>
+                  <l>It is the higheſt Outrage even to think it.—</l>
+                  <l>Juſt Gods! Doſt thou preſume to give thy Orders</l>
+                  <l>
+                     <pb n="41" facs="tcp:0744600800:47"/>
+To me? to me! thy Equal in Command?</l>
+                  <l>Nay, thy Superior? Was it not my Hand,</l>
+                  <l>My laviſh Hand, beſtow'd thy Power upon thee?</l>
+                  <l>And know, proud <hi>Roman,</hi> that the Man who gave it,</l>
+                  <l>Can at his Will reſume it.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I propos'd</l>
+                  <l>This Expedition to thee as thy Friend,</l>
+                  <l>Not as thy General, <hi>TULLUS.</hi> We are both</l>
+                  <l>Commanders here; and for my Share of Pow'r,</l>
+                  <l>Whene'er the Council of the <hi>Volſcian</hi> States,</l>
+                  <l>Who cloath'd me with it, ſhall again demand it,</l>
+                  <l>I at their Feet will lay it down, perſuaded,</l>
+                  <l>The canker'd Tongue of Envy's Self muſt own,</l>
+                  <l>That by my Service I have well deſerv'd it.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS</speaker>
+                  <l>Was it to Them, or Me, you hither came</l>
+                  <l>To crave Protection? Was not then your Fortune,</l>
+                  <l>Your Liberty, your Life, at my Diſpoſal?</l>
+                  <l>I rais'd you from the Duſt, a wretched Exile,</l>
+                  <l>An Outcaſt, helpleſs, friendleſs, driven to beg</l>
+                  <l>The loweſt Refuge which Deſpair can ſeek,</l>
+                  <l>Shelter amidſt thy Foes. My pitying Goodneſs</l>
+                  <l>Protected, truſted, and believ'd you grateful.</l>
+                  <l>O ill-plac'd Confidence! What for all this</l>
+                  <l>Is thy Return? Pride; Self-ſufficiency,</l>
+                  <l>Councils apart from mine; deſpotic Orders;</l>
+                  <l>The Glory of the War all pilfer'd from me:</l>
+                  <l>And, to complete the Whole, a <hi>Latin</hi> Army</l>
+                  <l>Now conjur'd up to draw me from the Siege;</l>
+                  <l>Till by cajoling our tame Chiefs, and dazling</l>
+                  <l>The ſenſeleſs Eyes of the low Mob of Soldiers,</l>
+                  <l>Thou ſhalt be ſolely ſeated in the Power</l>
+                  <l>Which, thank my Folly! now is ſhar'd betwixt us.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Immortal Gods! Hear I theſe Words from TULLUS!</l>
+                  <l>I will be calm—I will.—Thou doſt accuſe me</l>
+                  <l>Of the worſt Vice that can debaſe Mankind,</l>
+                  <l>
+                     <pb n="42" facs="tcp:0744600800:48"/>
+Of black Ingratitude. On what Foundations?</l>
+                  <l>What have I done to merit ſuch a Charge?</l>
+                  <l>Is it my Fault, if in the <hi>Volſcian</hi> Army</l>
+                  <l>My Name is as rever'd and great as thine?</l>
+                  <l>Can I forbid Authority, and Fame,</l>
+                  <l>To follow Merit and Succeſs?—You knew</l>
+                  <l>The Man whom you employ'd, and ſhould have known,</l>
+                  <l>He would not be a Cypher in Employment.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Think'ſt thou my Heart can better brook than thine</l>
+                  <l>To be that Cypher! that diſhonour'd Tool!</l>
+                  <l>Subſervient to th' Ambition of another?</l>
+                  <l>Gods! I had rather live a drudging Peaſant,</l>
+                  <l>Unknown to Glory, in ſome <hi>Alpine</hi> Village;</l>
+                  <l>Than, at the Head of theſe victorious Legions,</l>
+                  <l>Bear the high Name of Chief, without the Power.</l>
+                  <l>No, MARCIUS, no. I will command indeed:</l>
+                  <l>And thou ſhalt learn, with all the <hi>Volſcian</hi> Army,</l>
+                  <l>To treat their General with Reſpect.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Reſpect!</l>
+                  <l>O TULLUS! TULLUS! by the Powers divine!</l>
+                  <l>I bore thee once Reſpect, as high as Man</l>
+                  <l>Can ſhew to Man. From thee, my Foe, my Rival,</l>
+                  <l>I nor diſdain'd nor fear'd to ask Protection.</l>
+                  <l>You gave me all I ask'd, you gave me more,</l>
+                  <l>With noble Warmth of Heart! which, to Eſteem,</l>
+                  <l>Added the Ties to Gratitude, and Friendſhip.</l>
+                  <l>Whatever ſince, in Council, or in Arms,</l>
+                  <l>Has been by me atchiev'd, was done for thee.</l>
+                  <l>My Glory all was thine. The Plams I gain'd</l>
+                  <l>Only compos'd a Garland for his Brow,</l>
+                  <l>Who rais'd this baniſh'd Man to tread on <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>To tread on him who rais'd him—That, I know,</l>
+                  <l>Is thy ambitious Purpoſe; but be certain,</l>
+                  <l>However <hi>Rome</hi> may bend beneath thy Fortune,</l>
+                  <l>Thou ſhalt not find an eaſy Conqueſt here.</l>
+               </sp>
+               <sp>
+                  <pb n="43" facs="tcp:0744600800:49"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>May <hi>Jove</hi> with Lightning ſtrike me to the Centre!</l>
+                  <l>If from the Day I ſaw thy Face at <hi>Antium,</hi>
+                  </l>
+                  <l>My Heart has ever form'd one ſecret Thought</l>
+                  <l>To hurt thy Honour, or depreſs thy Greatneſs:</l>
+                  <l>I was thy Friend, thy Soldier, and thy Servant.</l>
+                  <l>But now I will as openly avow,</l>
+                  <l>Thy Jealouſy has, with envenom'd Breath,</l>
+                  <l>Made ſuch a ſudden Ravage in our Friendſhip,</l>
+                  <l>I know not what to think.—</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Think me thy Foe.</l>
+                  <l>There is no laſting Friendſhip with the Proud.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Nor with the Jealous—But of this enough.</l>
+                  <l>Come, let us turn our Fire a nobler Way:</l>
+                  <l>We have a worthier Quarrel to purſue.—</l>
+                  <l>It were unjuſt, diſhonourable, baſe,</l>
+                  <l>Our Pride ſhould hurt the <hi>Volſcian</hi> Cauſe.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>No, MARCIUS.</l>
+                  <l>I mean to guard it better for the future:</l>
+                  <l>The <hi>Volſcian</hi> Cauſe is ſafeſt with a <hi>Volſcian.</hi>
+                  </l>
+                  <l>I therefore claim, inſiſt upon my Right;</l>
+                  <l>That you ſhall yield me my Command in Turn.</l>
+                  <l>The firſt Attack was yours: 'Tis ſcanty Juſtice,</l>
+                  <l>The ſecond ſhould be mine.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>TULLUS, 'tis yours.</l>
+                  <l>O it imports not which of us command!</l>
+                  <l>Give me the loweſt Rank among your Troops:</l>
+                  <l>All <hi>Italy</hi> will know, the Voice of Fame</l>
+                  <l>Will tell all future Times, that I was preſent;</l>
+                  <l>That CORIOLANUS in the <hi>Volſcian</hi> Army</l>
+                  <l>Aſſiſted, when Imperial <hi>Rome</hi> was ſack'd;</l>
+                  <l>That City which, while he maintain'd her Cauſe,</l>
+                  <l>Invincible herſelf, made <hi>Antium</hi> tremble.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>What arrogant Preſumption!</l>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <pb n="44" facs="tcp:0744600800:50"/>
+               <head>SCENE. IV.</head>
+               <stage>To them VOLUSIUS, entering haſtily.</stage>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Ha! VOLUSIUS,</l>
+                  <l>Thy Looks declare ſome Meſſage of Importance.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>TULLUS, they do—I was to find thee, MARCIUS.</l>
+                  <l>To thee a ſecond Deputation comes,</l>
+                  <l>Thy Mother, and thy Wife, with a long Train</l>
+                  <l>Of all the nobleſt Ladies <hi>Rome</hi> can boaſt,</l>
+                  <l>In mourning Habits clad, approach our Camp,</l>
+                  <l>Preceded by a Herald, to demand</l>
+                  <l>Another Audience of Thee.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>How, VOLUSIUS!</l>
+                  <l>Said you, the <hi>Roman</hi> Ladies! Low, indeed,</l>
+                  <l>Muſt be the State of <hi>Rome,</hi> when thus her Matrons</l>
+                  <l>She ſends amidſt the Tumults of a Camp,</l>
+                  <l>To beg Protection for the Men, who lie</l>
+                  <l>Trembling behind their Ramparts—Come! once more!</l>
+                  <l>And ſee me put an End to Prayers and Treaty!</l>
+               </sp>
+            </div>
+            <div n="5" type="scene">
+               <head>SCENE V.</head>
+               <stage>TULLUS. VOLUSIUS.</stage>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>TULLUS, 'tis well. This anſwers to my Wiſhes.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>How? What is well? That humbled <hi>Rome</hi> once more</l>
+                  <l>Shall deck him with the Trophies of our Arms?</l>
+               </sp>
+               <pb n="45" facs="tcp:0744600800:51"/>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>And hop'ſt thou nothing from this bleſt Event?</l>
+                  <l>They who have often blaſted mighty Heroes,</l>
+                  <l>Who oft have ſtoln into the firmeſt Hearts,</l>
+                  <l>And melted them to Folly; They, my Friend,</l>
+                  <l>Will do what Wiſdom never could effect.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Think'ſt thou the Prayers and Tears of wailing Women</l>
+                  <l>Can ſhake the Man, who with ſuch cold Diſdain</l>
+                  <l>Stood firm againſt thoſe venerable Conſuls,</l>
+                  <l>And ſpurn'd the Genius of his kneeling Country?</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>It was his Pride alone that made him ours.</l>
+                  <l>That Paſſion kept him firm; the flattering Charm</l>
+                  <l>Of humbling thoſe, who in their Perſons bore</l>
+                  <l>The whole collected Majeſty of <hi>Rome.</hi>
+                  </l>
+                  <l>Theſe Women are no proper Objects for it:</l>
+                  <l>He cannot triumph o'er his Wife and Mother.</l>
+                  <l>On this my Hopes are founded, that theſe Women</l>
+                  <l>May by their gentler Influence ſubdue him.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Whate'er th' Event, he ſhall no longer here,</l>
+                  <l>As wave his Paſſions, dictate Peace, or War.</l>
+                  <l>Whether his ſtubborn Soul maintains its Firmneſs,</l>
+                  <l>Or yields to Female Prayers, the <hi>Volſcian</hi> Honour</l>
+                  <l>Will be alike betray'd. If <hi>Rome</hi> prevails,</l>
+                  <l>He ſtops our conquering Arms from her Deſtruction;</l>
+                  <l>If he rejects her Suit, he reigns our Tyrant.</l>
+                  <l>But, by th' Immortal Gods! his ſhort-liv'd Empire</l>
+                  <l>Shall never ſee you radiant Sun deſcend.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Bleſt be thoſe Gods that have at laſt inſpir'd thee</l>
+                  <l>With Reſolution equal to thy Cauſe,</l>
+                  <l>The Cauſe of Liberty!—</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Be ſure, VOLUSIUS,</l>
+                  <l>If that ſhould happen which thy Hopes portend;</l>
+                  <l>Should he, by Nature tam'd, diſarm'd by Love,</l>
+                  <l>
+                     <pb n="46" facs="tcp:0744600800:52"/>
+Reſpite the <hi>Roman</hi> Doom—He ſeals his own:</l>
+                  <l>By Heaven! he dies.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Let me embrace thee, TULLUS!</l>
+                  <l>Now breaking from the Cloud, which, like the Sun,</l>
+                  <l>Thy own too bounteous Beams had drawn around thee.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>You was deceiv'd, my Friend. When I with Tameneſs,</l>
+                  <l>With Tameneſs which aſtoniſh'd thy brave Spirit,</l>
+                  <l>Seem'd to ſubmit to that unequal Sway</l>
+                  <l>He arrogated o'er me; know, my Heart</l>
+                  <l>Ne'er ſwell'd ſo high as in that cruel Moment.</l>
+                  <l>My Indignation, like th' impriſon'd Fire</l>
+                  <l>Pent in the troubled Breaſt of glowing <hi>Aetna,</hi>
+                  </l>
+                  <l>Burnt deep and ſilent: But, collected now,</l>
+                  <l>It ſhall beneath its Fury bury MARCIUS!</l>
+                  <l>'Tis fixt. Our Tyrant dies.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>TULLUS, my Sword</l>
+                  <l>Here claims to be employ'd.—Nor mine alone—</l>
+                  <l>There are ſome worthy <hi>Volſci</hi> ſtill remaining,</l>
+                  <l>Who think with us, and pine beneath the Laurels</l>
+                  <l>A <hi>Roman</hi> Chief beſtows.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Go, find them ſtrait,</l>
+                  <l>And bring them to the Space before his Tent;</l>
+                  <l>'Tis there he will receive this Deputation.</l>
+                  <l>Then if he ſinks beneath theſe Womens Prayers—</l>
+                  <l>Or if he does not—But, VOLUSIUS, wait,</l>
+                  <l>I give thee ſtricteſt Charge to wait my Signal.</l>
+                  <l>Perhaps I may find Means to free the <hi>Volſci</hi>
+                  </l>
+                  <l>Without his Blood. If not—We will be free.</l>
+               </sp>
+               <trailer>The End of the Fourth <hi>ACT.</hi>
+               </trailer>
+            </div>
+         </div>
+         <div n="5" type="act">
+            <pb n="47" facs="tcp:0744600800:53"/>
+            <head>ACT. V.</head>
+            <div n="1" type="scene">
+               <head>SCENE I.</head>
+               <stage>Trumpets ſounding.</stage>
+               <stage>The Scene diſcovers the Camp, a Croud of
+<hi>Volſcian</hi> Officers with Files of Soldiers,
+drawn up as before. Enter <hi>CORIOLANUS,
+TULLUS, GALESUS, VOLUSIUS.</hi> The
+<hi>Roman</hi> Ladies advance ſlowly from the
+Depth of the Stage, with <hi>VETURIA</hi> the
+Mother of <hi>CORIOLANUS,</hi> and <hi>VOLUMNIA</hi>
+his Wife, at their Head, all clad in Ha<g ref="char:EOLhyphen"/>bits
+of Mourning. <hi>CORIOLANUS</hi> ſtands
+at the Head of the <hi>Volſci,</hi> ſurrounded by
+his Lictors; but, when he perceives his
+Mother and Wife, after ſome Struggle, he
+advances, and goes haſtily to embrace them.</stage>
+               <sp>
+                  <speaker>CORIOLANUS advancing.</speaker>
+                  <l>LOWER your Faſces, Lictors—</l>
+                  <l>Oh VETURIA!</l>
+                  <l>Thou beſt of Parents!</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>CORIOLANUS, ſtop.</l>
+                  <l>Whom am I to embrace? A Son, or Foe?</l>
+                  <l>Say, in what Light am I regarded here?</l>
+                  <l>Thy Mother, or thy Captive?</l>
+               </sp>
+               <sp>
+                  <pb n="48" facs="tcp:0744600800:54"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Juſtly, Madam,</l>
+                  <l>You check my Fondneſs, that, by Nature hurry'd,</l>
+                  <l>Forgot I was the General of the <hi>Volſci,</hi>
+                  </l>
+                  <l>And you a Deputy from hoſtile <hi>Rome.</hi>
+                  </l>
+               </sp>
+               <stage>He goes back to his former Station.</stage>
+               <l>I hear you with Reſpect. Speak your Commiſſion.</l>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Think not I come a Deputy from <hi>Rome.</hi>
+                  </l>
+                  <l>
+                     <hi>Rome,</hi> once rejected, ſcorns a Second Suit.</l>
+                  <l>You have already heard whate'er the Tongue</l>
+                  <l>Of Eloquence can plead, whate'er the Wiſdom</l>
+                  <l>Of ſacred Age, the Dignity of Senates,</l>
+                  <l>And Virtue, can enforce. Behold me here,</l>
+                  <l>Sent by the Shades of your immortal Fathers,</l>
+                  <l>Sent by the Genius of the <hi>Marcian</hi> Line,</l>
+                  <l>Commiſſion'd by my own maternal Heart,</l>
+                  <l>To try the ſoft, yet ſtronger Powers of Nature.</l>
+                  <l>Thus authoriz'd, I aſk, nay, claim a Peace,</l>
+                  <l>On equal, fair, and honourable Terms,</l>
+                  <l>To Thee, to <hi>Rome,</hi> and to the <hi>Volſcian</hi> People.</l>
+                  <l>Grant it, my Son! Thy Mother begs it of thee,</l>
+                  <l>Thy Wife, the beſt, the kindeſt of her Sex,</l>
+                  <l>And theſe illuſtrious Matrons, who have ſooth'd</l>
+                  <l>The gloomy Hours thou haſt been abſent from us.</l>
+                  <l>We, by whate'er is great and good in Nature,</l>
+                  <l>By every Duty, by the Gods, conjure Thee!</l>
+                  <l>To grant us Peace, and turn on other Foes</l>
+                  <l>Thy Arms, where thou may'ſt purchaſe virtuous Glory.</l>
+               </sp>
+               <sp>
+                  <speaker>COIRIOLANUS.</speaker>
+                  <l>I ſhould, VETURIA, break thoſe holy Bonds</l>
+                  <l>That hold the wide Republic of Mankind,</l>
+                  <l>Society, together; I ſhould grow</l>
+                  <l>A Wretch, unworthy to be call'd thy Son;</l>
+                  <l>I ſhould, with my VOLUMNIA's fair Eſteem,</l>
+                  <l>Forfeit her Love; theſe Matrons would deſpiſe me—</l>
+                  <l>Could I betray the <hi>Volſcian</hi> Cauſe, thus truſted,</l>
+                  <l>
+                     <pb n="49" facs="tcp:0744600800:55"/>
+Thus recommended to me—No, my Mother,</l>
+                  <l>You cannot ſure, you cannot aſk it of me!</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>And does my Son ſo little know me? me!</l>
+                  <l>Who took ſuch Care to form his tender Years,</l>
+                  <l>Left to my Conduct by his dying Father?</l>
+                  <l>Have I ſo ill deſerv'd that Truſt? Alas!</l>
+                  <l>Am I ſo low in thy Eſteem, that thou</l>
+                  <l>Should'ſt e'er imagine I could urge a Part</l>
+                  <l>Which in the leaſt might ſtain the <hi>Marcian</hi> Honour?</l>
+                  <l>No, let me periſh rather! periſh All!</l>
+                  <l>Life has no Charms compar'd to ſpotleſs Glory!</l>
+                  <l>I only aſk, thou would'ſt forbid thy Troops</l>
+                  <l>To waſte our Lands, and to aſſault yon City,</l>
+                  <l>Till Time be given for mild and righteous Meaſures.</l>
+                  <l>Grant us but One Year's Truce: Mean while thou may'ſt,</l>
+                  <l>With Honour and Advantage to both Nations,</l>
+                  <l>Betwixt us mediate a perpetual Peace.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Alas! my Mother! That were granting all.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Canſt thou refuſe me ſuch a juſt Petition,</l>
+                  <l>The Firſt Requeſt thy Mother ever made Thee?</l>
+                  <l>Canſt thou to her Intreaties, Prayers, and Tears,</l>
+                  <l>Prefer a ſavage obſtinate Revenge?</l>
+                  <l>Have Love and Nature loſt all Power within thee?</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>No,—in my Heart they reign as ſtrong as ever.</l>
+                  <l>Come, I conjure you, quit ungrateful <hi>Rome,</hi>
+                  </l>
+                  <l>Come, and complete my Happineſs at <hi>Antium,</hi>
+                  </l>
+                  <l>You, and my dear VOLUMNIA—There, VETURIA,</l>
+                  <l>There ſhall you ſee with what Reſpect the <hi>Volſci</hi>
+                  </l>
+                  <l>Will treat the Wife and Mother of their General.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Treat me thyſelf with more Reſpect, my Son;</l>
+                  <l>Nor dare to ſhock my Ears with ſuch Propoſals.</l>
+                  <l>Shall I deſert my Country, I who come</l>
+                  <l>To plead her Cauſe? Ah no!—A Grave in <hi>Rome</hi>
+                  </l>
+                  <l>
+                     <pb n="50" facs="tcp:0744600800:56"/>
+Would better pleaſe me, than a Throne at <hi>Antium.</hi>
+                  </l>
+                  <l>How haſt thou thus forſaken all my Precepts?</l>
+                  <l>How haſt thou thus forgot thy Love to <hi>Rome?</hi>
+                  </l>
+                  <l>O CORIOLANUS, when with hoſtile Arms,</l>
+                  <l>With Fire and Sword, you enter'd on our Borders,</l>
+                  <l>Did not the foſtering Air, that breathes around us,</l>
+                  <l>Allay thy guilty Fury, and inſtil</l>
+                  <l>A certain native Sweetneſs thro' thy Soul?</l>
+                  <l>Did not your Heart thus murmur to itſelf?</l>
+                  <l>"Theſe Walls contain whatever can command</l>
+                  <l>"Reſpect from Virtue, or is dear to Nature,</l>
+                  <l>"The Monuments of Piety and Valour,</l>
+                  <l>"The ſculptur'd Forms, the Trophies of my Fathers,</l>
+                  <l>"My houſhold Gods, my Mother, Wife and Chil<g ref="char:EOLhyphen"/>dren!"</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Ah! you ſeduce me with too tender Views!—</l>
+                  <l>Theſe Walls contain the moſt corrupt of Men,</l>
+                  <l>A baſe ſeditious Herd; who trample Order,</l>
+                  <l>Diſtinction, Juſtice, Laws, beneath their Feet,</l>
+                  <l>Inſolent Foes to Worth, the Foes of Virtue!</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Thou haſt not thence a Right to lift thy Hand</l>
+                  <l>Againſt the whole Community, which forms</l>
+                  <l>Thy ever-ſacred Country—That conſiſts</l>
+                  <l>Not of coeval Citizens alone:</l>
+                  <l>It knows no Bounds; it has a Retroſpect</l>
+                  <l>To Ages paſt; it looks on thoſe to come;</l>
+                  <l>And graſps of all the general Worth and Virtue.</l>
+                  <l>Suppoſe, my Son, that I to thee had been</l>
+                  <l>A harſh obdurate Parent, even unjuſt:</l>
+                  <l>How would the monſtrous Thought with Horror ſtrike thee,</l>
+                  <l>Of plunging, from Revenge, thy raging Steel</l>
+                  <l>Into her Breaſt, who nurs'd thy infant Years!—</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>
+                     <hi>Rome</hi> is no more! that <hi>Rome</hi> which nurs'd my Youth;</l>
+                  <l>That <hi>Rome,</hi> conducted by <hi>Patrician</hi> Virtue,</l>
+                  <l>
+                     <pb n="51" facs="tcp:0744600800:57"/>
+She is no more! My Sword ſhall now chaſtiſe</l>
+                  <l>Theſe Sons of Pride and Dirt! Her upſtart Tyrants!</l>
+                  <l>Who have debas'd the nobleſt State on Earth</l>
+                  <l>Into a ſordid Democratic Faction.</l>
+                  <l>Why will my Mother join her Cauſe to theirs?</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Forbid it, <hi>Jove!</hi> that I ſhould e'er diſtinguiſh</l>
+                  <l>My Intereſt from the general Cauſe of <hi>Rome;</hi>
+                  </l>
+                  <l>Or live to ſee a foreign hoſtile Arm</l>
+                  <l>Reform th'Abuſes of our Land of Freedom. Pauſing.</l>
+                  <l>But 'tis in vain, I find, to reaſon more.</l>
+                  <l>Is there no way to reach thy filial Heart,</l>
+                  <l>Once fam'd as much for Piety as Courage?</l>
+                  <l>Oft haſt thou juſtly triumph'd, CORIOLANUS;</l>
+                  <l>Now yield one Triumph to thy widow'd Mother;</l>
+                  <l>And ſend me back amidſt the loud Acclaims,</l>
+                  <l>The grateful Tranſports of deliver'd <hi>Rome,</hi>
+                  </l>
+                  <l>The happieſt far, the moſt renown'd of Women!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Why, why, VETURIA, wilt thou plead in vain?</l>
+                  <stage>TULLUS. <hi>Aſide to</hi> VOLUSIUS.</stage>
+                  <l>See, ſee, VOLUSIUS, how the ſtrong Emotions</l>
+                  <l>Of powerful Nature ſhake his inmoſt Soul!</l>
+                  <l>See how they tear him.—If he long reſiſts them,</l>
+                  <l>He is a God, or ſomething worſe than Man.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>O MARCIUS, MARCIUS! canſt thou treat me thus?</l>
+                  <l>Canſt thou complain of <hi>Rome</hi>'s Ingratitude,</l>
+                  <l>Yet be to me ſo cruelly ungrateful?</l>
+                  <l>To me! who anxious rear'd thy Youth to Glory?</l>
+                  <l>Whoſe only Joy, theſe many Years, has been,</l>
+                  <l>To boaſt that CORIOLANUS was my Son?</l>
+                  <l>And doſt thou then renounce me for thy Mother?</l>
+                  <l>Spurn me before theſe Chiefs, before thoſe Soldiers,</l>
+                  <l>That weep thy ſtubborn Cruelty? Art thou</l>
+                  <l>
+                     <pb n="52" facs="tcp:0744600800:58"/>
+The hardeſt Man to me in this Aſſembly?</l>
+                  <l>Look at me! Speak!</l>
+                  <stage>[Pauſing, during which he appears
+in great Agitation.</stage>
+                  <l>Still doſt thou turn away?</l>
+                  <l>Inexorable? Silent?—Then, behold me,</l>
+                  <l>Behold thy Mother, at whoſe Feet thou oft</l>
+                  <l>Haſt kneel'd with Fondneſs, kneeling now at thine,</l>
+                  <l>Wetting thy ſtern Tribunal with her Tears.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>[Raiſes her.</stage>
+                  <l>VETURIA, riſe. I cannot ſee Thee thus.</l>
+                  <l>It is a Sight uncomely, to behold</l>
+                  <l>My Mother at my Feet, and that to urge</l>
+                  <l>A Suit, relentleſs Honour muſt refuſe.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUMNIA.</speaker>
+                  <stage>[Advancing.</stage>
+                  <l>Since CORIOLANUS, thou doſt ſtill retain,</l>
+                  <l>In ſpite of all thy Mother now has pleaded,</l>
+                  <l>Thy dreadful Purpoſe, Ah! how much in vain</l>
+                  <l>Were it for me to join my Supplications!</l>
+                  <l>The Voice of thy VOLUMNIA, once ſo pleaſing</l>
+                  <l>How ſhall it hope to touch the Husband's Heart,</l>
+                  <l>When proof againſt the Tears of ſuch a Parent?</l>
+                  <l>I dare not urge what to thy Mother thou</l>
+                  <l>So firmly haſt deny'd—But I muſt weep—</l>
+                  <l>Muſt weep, if not thy harſh Severity,</l>
+                  <l>At leaſt thy Situation. O permit me,</l>
+                  <stage>[Taking his Hand.</stage>
+                  <l>To ſhed my guſhing Tears upon thy Hand!</l>
+                  <l>To preſs it with the cordial Lips of Love!</l>
+                  <l>And take my laſt Farewel!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Yet, yet, my Soul,</l>
+                  <l>Be firm, and perſevere—</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUMNIA.</speaker>
+                  <l>Ah CORIOLANUS!</l>
+                  <l>Is then this Hand<g ref="char:punc">▪</g> this Hand to me devoted,</l>
+                  <l>The Pledge of Nuptial Love, that has ſo long</l>
+                  <l>
+                     <pb n="53" facs="tcp:0744600800:59"/>
+Protected, bleſs'd, and ſhelter'd us with Kindneſs,</l>
+                  <l>Now lifted up againſt us? Yet I love it,</l>
+                  <l>And, with ſubmiſſive Veneration, bow</l>
+                  <l>Beneath th' Affliction which it heaps upon us.</l>
+                  <l>But O! what nobler Tranſports would it give thee!</l>
+                  <l>What Joy beyond Expreſſion! couldſt thou once</l>
+                  <l>Surmount the furious Storm of fierce Revenge,</l>
+                  <l>And yield thee to the Charms of Love and Mercy.</l>
+                  <l>Oh make the glorious Trial!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Mother! Wife!</l>
+                  <l>Are all the Powers of Nature leagu'd againſt me?</l>
+                  <l>I cannot!—will not!—Leave me, my VOLUMNIA!</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUMNIA.</speaker>
+                  <l>Well, I obey—How bitter thus to part!</l>
+                  <l>Upon ſuch Terms to part! perhaps for ever!—</l>
+                  <l>But tell me, ere I hence unroot my Feet,</l>
+                  <l>When to my lonely Home I ſhall return,</l>
+                  <l>What from their Father, to our little Slaves,</l>
+                  <l>Unconſcious of the Shame to which you doom them,</l>
+                  <l>What ſhall I ſay?</l>
+                  <stage>[Pauſing; He highly agitated.</stage>
+                  <l>Nay—tell me, CORIOLANUS!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Tell thee! What ſhall I tell thee? See theſe Tears!</l>
+                  <l>Theſe Tears will tell thee what exceeds the Power</l>
+                  <l>Of Words to ſpeak, whate'er the Son, the Husband,</l>
+                  <l>And Father, in one complicated Pang,</l>
+                  <l>Can feel—But leave me;—even in Pity leave me!</l>
+                  <l>Ceaſe, ceaſe, to torture me, my dear <hi>VOLUMNIA!</hi>
+                  </l>
+                  <l>You only tear my Heart; but cannot ſhake it:</l>
+                  <l>For by th' immortal Gods, the dread Avengers</l>
+                  <l>Of broken Faith!—</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUMNIA.</speaker>
+                  <stage>[Kneeling.</stage>
+                  <l>Oh ſwear not, CORIOLANUS!</l>
+                  <l>Oh vow not our Deſtruction!</l>
+               </sp>
+               <sp>
+                  <pb n="54" facs="tcp:0744600800:60"/>
+                  <speaker>VETURIA.</speaker>
+                  <l>Daughter, riſe.</l>
+                  <l>Let us no more before the <hi>Volſian</hi> People</l>
+                  <l>Expoſe ourſelves a Spectacle of Shame.</l>
+                  <l>It is in vain we try to melt a Breaſt,</l>
+                  <l>That, to the beſt Affections Nature gives us,</l>
+                  <l>Prefers the worſt—Hear me, proud Man! I have</l>
+                  <l>A Heart as ſtout as thine. I came not hither,</l>
+                  <l>To be ſent back rejected, baffled, ſham'd,</l>
+                  <l>Hateful to <hi>Rome,</hi> becauſe I am Thy Mother:</l>
+                  <l>A <hi>Roman</hi> Matron knows, in ſuch Extremes,</l>
+                  <l>What Part to take—And thus I came provided.</l>
+                  <stage>[Drawing from under her Robe a Dagger.</stage>
+                  <l>Go! barbarous Son! go! double Parricide!</l>
+                  <l>Ruſh o'er my Corſe to thy belov'd Revenge!</l>
+                  <l>Tread on the bleeding Breaſt of her, to whom</l>
+                  <l>Thou ow'ſt thy Life!—Lo, thy firſt Victim!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Seizing her Hand.</l>
+                  <l>Ha!</l>
+                  <l>What doſt thou mean?</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>To die, while <hi>Rome</hi> is free,</l>
+                  <l>To ſeize the Moment ere thou art her Tyrant.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>O uſe thy Power more juſtly! Set not thus</l>
+                  <l>My treacherous Heart in Arms againſt my Reaſon.</l>
+                  <l>Here! here! thy Dagger will be well employ'd;</l>
+                  <l>Strike here! and reconcile my fighting Duties.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Off!—Set me free!—Think'ſt thou that Graſp, which binds</l>
+                  <l>My feeble Hand, can fetter too my Will?</l>
+                  <l>No, my proud Son! Thou canſt not make me live,</l>
+                  <l>If <hi>Rome</hi> muſt fall!—No Pow'r on Earth can do it!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Pity me, generous VOLSCI!—You are Men—</l>
+                  <l>Muſt it then be?—Confuſion!—Do I yield?</l>
+                  <l>What is it? Is it Weakneſs? Is it Virtue?—</l>
+                  <l>Well!—</l>
+               </sp>
+               <sp>
+                  <pb n="55" facs="tcp:0744600800:61"/>
+                  <speaker>VETURIA.</speaker>
+                  <l>What? Speak!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>O, no!—my ſtifled Words refuſe</l>
+                  <l>A Paſſage to the Throes that wring my Heart.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>Nay, if thou yieldeſt, yield like CORIOLANUS;</l>
+                  <l>And what thou do'ſt, do nobly!</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>[Quitting her Hand.</stage>
+                  <l>There!—'Tis done!—</l>
+                  <l>Thine is the Triumph, Nature!</l>
+                  <stage>[To <hi>VETURIA</hi> in
+a low Tone of Voice.</stage>
+               </sp>
+               <sp>
+                  <speaker>Ah VETURIA!</speaker>
+                  <l>
+                     <hi>Rome</hi> by thy Aid is ſav'd—but thy Son loſt.</l>
+               </sp>
+               <sp>
+                  <speaker>VETURIA.</speaker>
+                  <l>He never can be loſt, who ſaves his Country.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>
+                     <hi>[Turning to the</hi> Roman <hi>Ladies.</hi>
+                  </stage>
+                  <l>Ye Matrons, Guardians of the <hi>Roman</hi> Safety,</l>
+                  <l>You to the Senate may report this Anſwer.</l>
+                  <l>We grant the Truce you ask. But on theſe Terms:</l>
+                  <l>That <hi>Rome,</hi> mean-time, ſhall to a Peace agree,</l>
+                  <l>Fair, equal, juſt, and ſuch as may ſecure</l>
+                  <l>The Safety, Rights, and Honour of the VOLSCI.</l>
+                  <stage>[To the Troops.</stage>
+                  <l>VOLSCI, We raiſe the Siege. Go, and prepare,</l>
+                  <l>By the firſt Dawn, for your Return to <hi>Antium.</hi>
+                  </l>
+                  <stage>
+                     <hi>[As the Troops retire, and</hi> CORIOLANUS
+<hi>turns to the</hi> Roman <hi>Ladies;</hi>
+                  </stage>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <stage>
+                     <hi>To</hi> VOLUSIUS <hi>aſide.</hi>
+                  </stage>
+                  <l>'Tis as we wiſh'd, VOLUSIUS—To your Station.</l>
+                  <l>But mark me well—Till thou ſhalt hear my Call,</l>
+                  <l>I charge thee not to ſtir. One Offer more</l>
+                  <l>My Honour bids me make to this proud Man,</l>
+                  <l>Before we ſtrike the Blow—If he rejects it,</l>
+                  <l>His Blood be on his Head.</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Well! I obey you.</l>
+                  <stage>[He goes out.</stage>
+               </sp>
+               <sp>
+                  <pb n="56" facs="tcp:0744600800:62"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Be it thy Care, <hi>Galeſus,</hi> that a Safeguard</l>
+                  <l>Attend theſe noble Matrons back to <hi>Rome.</hi>
+                  </l>
+               </sp>
+            </div>
+            <div n="2" type="scene">
+               <head>SCENE II.</head>
+               <stage>CORIOLANUS. TULLUS.</stage>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I plainly, TULLUS, by your Looks diſcern</l>
+                  <l>You diſapprove my Conduct.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>CAIUS MARCIUS,</l>
+                  <l>I mean not to aſſail thee with the Clamour</l>
+                  <l>Of loud Reproaches, and the War of Words;</l>
+                  <l>But, Pride apart, and all that can pervert</l>
+                  <l>The Light of ſteady Reaſon, here to make</l>
+                  <l>A candid fair Propoſal</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Speak. I hear thee.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>I heed not tell thee, that I have perform'd</l>
+                  <l>My utmoſt Promiſe. Thou haſt been protected;</l>
+                  <l>Haſt had thy ampleſt, moſt ambitious Wiſh:</l>
+                  <l>Thy wounded Pride is heal'd, thy dear Revenge</l>
+                  <l>Completely ſated; and, to crown thy Fortune,</l>
+                  <l>At the ſame time, thy Peace with <hi>Rome</hi> reſtor'd.</l>
+                  <l>Thou art no more a <hi>Volſcian,</hi> but a <hi>Roman.</hi>
+                  </l>
+                  <l>Return, return; thy Duty calls upon thee,</l>
+                  <l>Still to protect the City thou haſt ſav'd:</l>
+                  <l>It ſtill may be in Danger from our Arms.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Inſolent Man! Is this thy fair Propoſal?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Be patient—Hear! By hoſpitable <hi>Jove!</hi>
+                  </l>
+                  <l>I mean thee well—Yes, one laſt Bounty more</l>
+                  <l>
+                     <pb n="57" facs="tcp:0744600800:63"/>
+I frankly will beſtow. I have already</l>
+                  <l>From <hi>Rome</hi> protected thee; now from the <hi>Volſci,</hi>
+                  </l>
+                  <l>From their juſt Vengeance, I will ſtill protect Thee.</l>
+                  <l>Retire. I will take care thou may'ſt with Safety.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>With Safety!—Heav'ns !—And think'ſt thou</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS</speaker>
+                  <l>Will ſtoop to thee for Safety? No! my Safeguard</l>
+                  <l>Is in myſelf, a Boſom void of Blame,</l>
+                  <l>And the Great Gods, Protectors of the Juſt.—</l>
+                  <l>O 'tis an Act of Cowardice and Baſeneſs,</l>
+                  <l>To ſeize the very Time my Hands are fetter'd,</l>
+                  <l>By the ſtrong Chain of former Obligations,</l>
+                  <l>The ſafe ſure Moment to inſult me.—Gods!</l>
+                  <l>Were I now free, as on that Day I was,</l>
+                  <l>When at <hi>Corioli</hi> I tam'd thy Pride,</l>
+                  <l>This had not been.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Thou ſpeak'ſt the Truth: It had not.</l>
+                  <l>O for that Time again! Propitious Gods,</l>
+                  <l>If you will bleſs me, grant it!—Know, for That,</l>
+                  <l>For that dear Purpoſe, I have now propos'd</l>
+                  <l>Thou ſhould'ſt return. I pray thee, <hi>Marcius,</hi> do it!</l>
+                  <l>And we ſhall meet again on nobler Terms.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>When to the <hi>Volſci</hi> I have clear'd my Faith,</l>
+                  <l>Doubt not I ſhall find Means to meet thee nobly.</l>
+                  <l>We then our generous Quarrel may decide</l>
+                  <l>In the bright Front of ſome embattel'd Field,</l>
+                  <l>And not in private Brawls, like fierce Barbarians.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Thou canſt not hope Acquittal from the <hi>Volſci.</hi>—</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>I do:—Nay more, expect their Approbation,</l>
+                  <l>Their Thanks ! I will obtain them ſuch a Peace</l>
+                  <l>As thou durſt never aſk; a perfect Union</l>
+                  <l>Of their whole Nation with imperial <hi>Rome</hi>
+                  </l>
+                  <l>
+                     <pb n="58" facs="tcp:0744600800:64"/>
+In all her Privileges, all her Rights.</l>
+                  <l>By the juſt Gods, I will! What would'ſt thou more?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>What would I more! Proud <hi>Roman;</hi> This I would;</l>
+                  <l>Fire the curſt Foreſt where theſe <hi>Roman</hi> Wolves</l>
+                  <l>Haunt and infeſt their nobler Neighbours round them;</l>
+                  <l>Extirpate from the Boſom of this Land,</l>
+                  <l>A falſe perfidious People, who, beneath</l>
+                  <l>The Maſk of Freedom, are a Combination</l>
+                  <l>Againſt the Liberty of Human-kind,</l>
+                  <l>The genuine Seed of Outlaws and of Robbers.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>The Seed of Gods!—'Tis not for thee, vain Boaſter!</l>
+                  <l>'Tis not for ſuch as Thou, ſo often ſpar'd</l>
+                  <l>By her victorious Sword, to talk of <hi>Rome,</hi>
+                  </l>
+                  <l>But with Reſpect and awful Veneration.</l>
+                  <l>Whate'er her Blots, whate'er her giddy Factions,</l>
+                  <l>There is more Virtue in one ſingle Year</l>
+                  <l>Of <hi>Roman</hi> Story, than your <hi>Volſcian</hi> Annals</l>
+                  <l>Can boaſt thro' all your creeping dark Duration!</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>I thank thy Rage. This full diſplays the Traitor.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Ha! Traitor!</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Firſt, to thy own Country, Traitor!</l>
+                  <l>And Traitor, now, to mine !</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Ye heavenly Powers!</l>
+                  <l>I ſhall break looſe—My Rage—But let us part—</l>
+                  <l>Leſt my raſh Hand ſhould do a haſty Deed</l>
+                  <l>My cooler Thought forbids.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>For the laſt] time,</l>
+                  <l>Hear me, and mark my Words; the ſober Dictates</l>
+                  <l>
+                     <pb n="59" facs="tcp:0744600800:65"/>
+Of well-weigh'd Reſolution. Thou and I</l>
+                  <l>Are in that State for which reſiſtleſs Nature</l>
+                  <l>Has form'd us, Foes again—Begone—Return—</l>
+                  <l>To head the <hi>Roman</hi> Troops. I grant thee Quittance</l>
+                  <l>Full and complete of all thoſe Obligations</l>
+                  <l>Thou haſt ſo oft inſultingly complain'd</l>
+                  <l>Fetter'd thy Hands. They now are free. I court</l>
+                  <l>The worſt thy Sword can do; whilſt thou from me</l>
+                  <l>Haſt nothing to expect, but ſore Deſtruction.</l>
+                  <l>Quit then this hoſtile Camp. Once more I tell thee,</l>
+                  <l>Thou art not here one ſingle Hour in Safety.</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Think'ſt thou to fright me hence?</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Thou wilt not then?</l>
+                  <l>Thou wilt not take the Safety which I offer?</l>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <l>Till I have clear'd my Honour in your Council,</l>
+                  <l>And prov'd before them all, to thy Confuſion,</l>
+                  <l>The Falſhood of thy Charge; as ſoon in Battle</l>
+                  <l>I would before thee fly, and howl for Mercy,</l>
+                  <l>As quit the Station they have here aſſign'd me.</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>
+                     <hi>Voluſius!</hi> Hoa!</l>
+               </sp>
+            </div>
+            <div n="3" type="scene">
+               <head>SCENE III.</head>
+               <stage>To them <hi>Voluſius,</hi> and Conſpirators, with their
+Swords drawn.</stage>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>Seize, and ſecure the Traitor!</l>
+               </sp>
+               <sp>
+                  <pb n="60" facs="tcp:0744600800:66"/>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>[Laying his Hand upon his Sword.</stage>
+                  <l>Who dares approach me, dies!</l>
+               </sp>
+               <sp>
+                  <speaker>VOLUSIUS.</speaker>
+                  <l>Die thou!</l>
+                  <stage>[As <hi>Coriolanus</hi> draws his Sword,
+<hi>Voluſius</hi> and the Conſpirators
+ruſh upon and ſtab him. <hi>Tul<g ref="char:EOLhyphen"/>lus</hi>
+ſtanding by without having
+drawn his Sword.</stage>
+               </sp>
+               <sp>
+                  <speaker>CORIOLANUS.</speaker>
+                  <stage>[Endeavouring to free himſelf.</stage>
+                  <l>Off!—Villains!</l>
+                  <stage>[Falling.</stage>
+                  <l>Oh murdering Slaves ! Aſſaſſinating Cowards!</l>
+                  <stage>[Dies.</stage>
+               </sp>
+            </div>
+            <div n="4" type="scene">
+               <head>SCENE IV.</head>
+               <stage>[Upon the Noiſe of the Tumult, enter haſtily
+to them <hi>Galeſus,</hi> the other Deputies of the
+<hi>Volſcian</hi> States, Officers Friends of <hi>Corio<g ref="char:EOLhyphen"/>lanus,</hi>
+and <hi>Titus</hi> with a large Band of
+Soldiers.</stage>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <stage>[As he enters.</stage>
+                  <l>Are we a Nation rul'd by Laws, or Fury?</l>
+                  <l>How! Whence this Tumult?—</l>
+                  <stage>[Pauſing.</stage>
+                  <l>Gods ! what do I ſee?</l>
+                  <l>The noble MARCIUS ſlain!</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>You ſee a Traitor</l>
+                  <l>
+                     <pb n="61" facs="tcp:0744600800:67"/>
+Puniſh'd as he deſerv'd, the <hi>Roman</hi> Yoke</l>
+                  <l>That thrall'd us broken, and the <hi>Volſci</hi> free!</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>Hear me, great <hi>Jove!</hi> Hear, all you injur'd Powers</l>
+                  <l>Of Friendſhip, Hoſpitality, and Faith!</l>
+                  <l>By that heroic Blood, which from the Ground</l>
+                  <l>Reeking to you for Vengeance cries, I ſwear!</l>
+                  <l>This impious Breach of your eternal Laws,</l>
+                  <l>This daring Outrage on the <hi>Volſcian</hi> Honour,</l>
+                  <l>Shall find in me a rigorous Avenger!</l>
+                  <l>On the ſame Earth, polluted by their Crime,</l>
+                  <l>I will not live with theſe unpuniſh'd Ruffians !</l>
+               </sp>
+               <sp>
+                  <speaker>TULLUS.</speaker>
+                  <l>This Deed is mine: I claim it all!—Theſe Men,</l>
+                  <l>Theſe valiant Men, were but my Inſtruments,</l>
+                  <l>To puniſh him who to our Face betray'd us.</l>
+                  <l>We ſhall not fear to anſwer to the <hi>Volſci,</hi>
+                  </l>
+                  <l>In a full Council of their States at <hi>Antium,</hi>
+                  </l>
+                  <l>The glorious Charge of having ſtabb'd their Tyrant!</l>
+               </sp>
+               <sp>
+                  <speaker>GALESUS.</speaker>
+                  <l>TITUS, till then ſecure them.</l>
+                  <stage>[<hi>Tullus</hi> and Conſpirators
+are led off.</stage>
+                  <stage>[Galeſus, <hi>ſtanding over the
+Body of</hi> Coriolanus, after
+a ſhort Pauſe, proceeds.</stage>
+                  <l>
+                     <hi>Volſcian</hi> Fathers,</l>
+                  <l>And ye, brave Soldiers, ſee an awful Scene,</l>
+                  <l>Demanding ſerious ſolemn Meditation.</l>
+                  <l>This Man was once the Glory of his Age,</l>
+                  <l>Diſintereſted, juſt, with every Virtue</l>
+                  <l>Of civil Life adorn'd, in Arms unequall'd.</l>
+                  <l>His only Blot was this; That, much provok'd,</l>
+                  <l>He rais'd his vengeful Arm againſt his Country.</l>
+                  <l>And, lo! the righteous Gods have now chaſtis'd him,</l>
+                  <l>Even by the Hands of thoſe for whom he fought.</l>
+                  <l>
+                     <pb n="62" facs="tcp:0744600800:68"/>
+Whatever private Views and Paſſions plead,</l>
+                  <l>No Cauſe can juſtify ſo black a Deed:</l>
+                  <l>Theſe, when the angry Tempeſt clouds the Soul,</l>
+                  <l>May darken Reaſon, and her Courſe controul;</l>
+                  <l>But when the Proſpect clears, her ſtartled Eye</l>
+                  <l>Muſt from the treacherous Gulph with Horror fly,</l>
+                  <l>On whoſe wild Wave, by ſtormy Paſſions toſt,</l>
+                  <l>So many hapleſs Wretches have been loſt.</l>
+                  <l>Then be this Truth the Star by which we ſteer;</l>
+                  <l>
+                     <hi>Above</hi> Ourſelves <hi>our</hi> COUNTRY <hi>ſhould be dear.</hi>
+                  </l>
+               </sp>
+            </div>
+            <trailer>The END.</trailer>
+         </div>
+         <div type="epilogue">
+            <pb facs="tcp:0744600800:69"/>
+            <head>EPILOGUE.</head>
+            <stage>SPOKEN BY
+Mrs. WOFFINGTON.</stage>
+            <l>WELL! Gentlemen! and are you ſtill ſo vain</l>
+            <l>To treat our Sex with arrogant Diſdain,</l>
+            <l>And think, to you alone by partial Heav'n</l>
+            <l>Superior Senſe and ſovereign Pow'r are given.</l>
+            <l>When in the Story told To-night, you find,</l>
+            <l>With what a boundleſs Sway we rule the Mind,</l>
+            <l>And, by a few ſoft Words of ours, with Eaſe,</l>
+            <l>Can turn the proudeſt Hearts juſt where we pleaſe?</l>
+            <l>If an old Mother had ſuch pow'rful Charms,—</l>
+            <l>To ſtop a ſtubborn <hi>Roman</hi>'s conquering Arms,—</l>
+            <l>Soldiers and Stateſmen of theſe Days, with you</l>
+            <l>What think you wou'd a fair young Miſtreſs do?</l>
+            <l>If with my grave Diſcourſe, and wrinkled Face,</l>
+            <l>I thus could bring a Hero to Diſgrace,</l>
+            <l>How abſolutely may I hope to reign</l>
+            <l>Now I am turn'd to my own Shape again !</l>
+            <l>However, I will uſe my Empire well;</l>
+            <l>And, if I have a certain magic Spell</l>
+            <l>
+               <pb facs="tcp:0744600800:70"/>
+Or in my Tongue, or Wit, or Shape, or Eyes,</l>
+            <l>Which can ſubdue the Strong, and fool the Wiſe,</l>
+            <l>Be not alarm'd: I will not interfere</l>
+            <l>In State-Affairs, nor undertake to ſteer,</l>
+            <l>The Helm of Government,—as we are told</l>
+            <l>Thoſe Female Politicians did of old:</l>
+            <l>Such dangerous Heights I never wiſh'd to climb—</l>
+            <l>Thank Heav'n! I better can employ my Time—</l>
+            <l>Aſk you to what my Pow'r I ſhall apply?</l>
+            <l>To make my Subjects bleſt, is my Reply.</l>
+            <l>My Purpoſes are gracious all, and kind,</l>
+            <l>Some may be told—and ſome may be divin'd:</l>
+            <l>One, which at preſent I have moſt at Heart,</l>
+            <l>To you without Reſerve I will impart:</l>
+            <l>It is my Sovereign Will,—Hear, and obey,—</l>
+            <l>That you with Candour treat this <hi>Orphan Play.</hi>
+            </l>
+         </div>
+      </body>
+   </text>
+</TEI>

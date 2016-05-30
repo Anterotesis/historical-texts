@@ -1,0 +1,939 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise of the urinary passages: Containing their description, powers, and uses; together with the principal distempers that affect them; in particular the stone of the kidneys and bladder, ... By William Rutty, M.D. ...</title>
+            <author>Rutty, William, 1687-1730.</author>
+         </titleStmt>
+         <extent>71 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2012-11">2012 November</date>
+            <idno type="DLPS">004847078</idno>
+            <idno type="ESTC">T75415</idno>
+            <idno type="DOCNO">CW109198159</idno>
+            <idno type="TCP">K063327.000</idno>
+            <idno type="GALEDOCNO">CW3309198159</idno>
+            <idno type="CONTENTSET">ECMS</idno>
+            <idno type="IMAGESETID">0966000800</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise of the urinary passages: Containing their description, powers, and uses; together with the principal distempers that affect them; in particular the stone of the kidneys and bladder, ... By William Rutty, M.D. ...</title>
+                  <author>Rutty, William, 1687-1730.</author>
+               </titleStmt>
+               <extent>[8],54,[6]p.,plates ; 4⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed for Tho. Worrall,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1726.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With a half-title and a final advertisement leaf.</note>
+                  <note>The Gulstonian lecture at the Royal College of Physicians on 17-19 March 1725/6.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT75415.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="half_title">
+            <pb facs="tcp:0966000800:1"/>
+            <p>A TREATISE OF THE URINARY PASSAGES, <hi>&amp;c.</hi>
+            </p>
+            <pb facs="tcp:0966000800:2"/>
+         </div>
+         <div type="approbation">
+            <p>Librum hunc cui Titulus (<hi>A Treatiſe of the Urinary Paſſages,</hi> &amp;c.) dignum cenſemus qui Typis man<g ref="char:EOLhyphen"/>detur.</p>
+            <closer>
+               <dateline>
+                  <hi>Comitiis Cenſoriis ex. AEdibus Collegii noſtri Dat'</hi> 
+                  <date>
+                     <hi>6<hi rend="sup">o</hi> Maii</hi> 1726.</date>
+               </dateline>
+               <signed>
+                  <hi>Hans Sloane.</hi> Praeſes.
+<list>
+                     <head> Cenſores.</head>
+                     <item>
+                        <hi>Joannes Hawys</hi>
+                     </item>
+                     <item>
+                        <hi>Thomas Weſt</hi>
+                     </item>
+                     <item>
+                        <hi>Gulielmus Stukeley</hi>
+                     </item>
+                     <item>
+                        <hi>Georgius Wharton</hi>
+                     </item>
+                  </list>
+               </signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:0966000800:3" rendition="simple:additions"/>
+            <p>A TREATISE OF THE URINARY PASSAGES.</p>
+            <p>Containing their <hi>Deſcription, Powers,</hi> and <hi>Uſes;</hi> Together with the Principal DISTEMPERS that affect them; in particular the <hi>STONE</hi> of the <hi>KIDNEYS</hi> and <hi>BLADDER,</hi> As deliver'd at the GULSTONIAN LECTURE in the Theatre of the <hi>Royal College</hi> of PHYSICIANS, <hi>London,</hi> on the 17th, 18th, and 19th Days of <hi>March</hi> 1725/26.</p>
+            <p>By <hi>WILLIAM RUTTY,</hi> M. D. Fellow of the ſaid College, or the <hi>Royal Society,</hi> and Reader of ANATOMY at <hi>Surgeons-Hall.</hi>
+            </p>
+            <p>
+               <hi>Illuſtrated with Copper Plates.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for THO. WORRALL, at the <hi>Judge's-Head</hi> over againſt St. <hi>Dunstan</hi>'s Church, <hi>Fleet-ſtreet.</hi> M.DCC.XXVI.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:0966000800:4"/>
+            <head>TO Sir <hi>HANS SLOANE</hi> Bart. <hi>Preſident of the</hi> ROYAL COLLEGE <hi>of</hi> PHYSICIANS, <hi>London,</hi> &amp;c.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>HE Publication of the follow<g ref="char:EOLhyphen"/>ing <hi>Lecture,</hi> read by your Com<g ref="char:EOLhyphen"/>mand, is owing in great meaſure to the Requeſt of ſeveral of the <hi>Faculty</hi> and others, who heard it; but chief<g ref="char:EOLhyphen"/>ly to YOUR Deſire, which as ſoon as com<g ref="char:EOLhyphen"/>municated bore with me the Authority of a Command. For HE, who by his OWN La<g ref="char:EOLhyphen"/>bours has brought ſo much Honour to the Profeſſion in general, has an undoubted Right, I think, to that of every Member in the particular Body of which he is the HEAD. Accordingly I have ventur'd to
+<pb facs="tcp:0966000800:5"/>expoſe it to publick Cenſure; which from the many Defects in it, I take for granted, will be ſevere enough: However I dar'd not do even this without firſt putting it under your Patronage; well knowing that if you pronounce favourably upon it, who from your extenſive Knowledge, and large Expe<g ref="char:EOLhyphen"/>rience, are ſo deſervedly eminent, the Gene<g ref="char:EOLhyphen"/>rality will ſoften their Reflections.</p>
+            <p>YOU cannot be ſurpriz'd, Sir, that I ſhould be deſirous of Your Protection, if you will but reflect on Your Merit, and the Character You bear in the World. One, who has made ALL NATURE his Study, has outgone the moſt emulating of his Co<g ref="char:EOLhyphen"/>temporaries both at Home and Abroad, bears ſuch a Sway in the <hi>Phyſical World,</hi> without caballing for a Reputation, or uſing the low Methods too frequently taken to raiſe one, muſt ſurely be a deſirable Patron: and if this Pittance of a Performance happens to pleaſe you as much in the Reading, as it
+<pb facs="tcp:0966000800:6"/>to do upon Hearing it, I flatter my ſelf that it will meet with your Approbation.</p>
+            <p>IN Diſcourſes of this ſort much <hi>Novelty</hi> is not to be expected; the Deſign of them being to ſet before the Audience in a clear Light and narrow Compaſs the STATED Rules and ESTABLISH'D Laws of the Science they treat of, as well as to communicate what may have occurr'd to private Obſervation: If therefore the Deſcription of the Parts is juſt, their Uſes and Powers properly aſcertain'd, the Diſtempers incident to them rightly in<g ref="char:EOLhyphen"/>veſtigated, it is ſufficient. This will an<g ref="char:EOLhyphen"/>ſwer the Deſign of the FOUNDER, which if I have ſucceeded in, it will be lucky; if any thing is advanc'd beſides, that may be of Uſe to the <hi>Students</hi> of the <hi>Science,</hi> I ſhall be very well pleas'd; and if the Per<g ref="char:EOLhyphen"/>formance upon the Whole is not ſo mean as to be a <hi>Diſgrace</hi> to that Learned BODY, of which I am a Member, and whoſe Ho<g ref="char:EOLhyphen"/>nour I hold in the greateſt Eſtimation, I ſhall be fully ſatisfy'd.</p>
+            <pb facs="tcp:0966000800:7"/>
+            <p>THE two firſt <hi>Sections</hi> of this <hi>Lecture,</hi> with the firſt part of the Third, were fi<g ref="char:EOLhyphen"/>niſh'd four Years ago, upon receiving your Orders for undertaking it; the laſt upon the <hi>Stone of the Bladder</hi> has been added ſince, to make the Subject more Complete. Such as it is, I now offer it to You, as a Token of my Reſpect, being</p>
+            <closer>
+               <signed>
+                  <hi>SIR, Your very humble Servant,</hi> William Rutty.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb n="1" facs="tcp:0966000800:8"/>
+            <head>A TREATISE OF THE <hi>URINARY PASSAGES,</hi> &amp;c.</head>
+            <div n="1" type="section">
+               <head>SECT. I.</head>
+               <p>
+                  <seg rend="decorInit">I</seg>N purſuance to the Inſtitution of this Lecture, which obliges me to read upon ſome particular Parts of the Body, and upon two or more Diſ<g ref="char:EOLhyphen"/>tempers that are incident to ſuch Parts, I have pitch'd upon thoſe that are form'd for the Separation of the Urine, or are immediately ſubſervient to it afterwards in its Paſſage out of the Body: which I have taken more out of Neceſſity than Choice; the moſt conſiderable Organs having been treated of already by ſome of our learned Members, whoſe Notions and Obſervations I can't pretend to amend. To this purpoſe it is neceſſary, before I enter upon the Diſeaſes that affect them, to give an <hi>Anatomical</hi> Deſcription of the <hi>
+                     <g ref="char:V">Ʋ</g>rinary Paſſages,</hi> and to en<g ref="char:EOLhyphen"/>quire into the Nature of the Fluid ſecreted by them, and flow<g ref="char:EOLhyphen"/>ing through them; as the Knowledge of theſe will lead us to
+<pb n="2" facs="tcp:0966000800:9"/>the <hi>
+                     <g ref="char:V">Ʋ</g>ſes</hi> and <hi>Powers</hi> peculiar to each, and thereby inform us in great meaſure, by what means they become ſo alter'd and vitiated, as to produce the <hi>Diſtempers</hi> we ſhall give an account of: And by ſuch a Method, as I take it, the<note n="*" place="bottom">Dr. <hi>GULSTON.</hi>
+                  </note> 
+                  <hi>Founder's</hi> Deſign will be beſt anſwer'd, in ordering this Lecture to be read over a <hi>human Body.</hi>
+               </p>
+               <p>THE firſt then that are concern'd, and preſent themſelves to our Inſpection, are the <hi>Kidneys:</hi> which, as is commonly known, are <hi>ſituate</hi> in a duplicature of the <hi>Peritonaeum,</hi> one on each ſide; the right between the <hi>Liver</hi> and the <hi>Muſculus Lumbaris,</hi> or <hi>Pſoas;</hi> the left between the <hi>Spleen</hi> and the ſame Muſcle on that ſide. In human Subjects the Right is plac'd lower than the Left, in order to make more room for the large <hi>Viſcus</hi> of the <hi>Liver,</hi> as in Brutes frequently the contrary; not only as the prone Situation of their Bodies does not require ſuch a Poſition, the Liver in them projecting forwards and downwards, and thence leaving a greater Space for the right Kidney; but becauſe theſe Animals being very voracious, their Stomachs are often ſo diſ<g ref="char:EOLhyphen"/>tended with Food, that it was neceſſary to place the left Kid<g ref="char:EOLhyphen"/>ney lower, to prevent its being compreſs'd by this Organ (toge<g ref="char:EOLhyphen"/>ther with the Spleen) during ſo great a Diſtenſion.</p>
+               <p>THE Kidneys are <hi>cover'd</hi> with two Coats or Membranes; the exterior of which is borrow'd from the <hi>Peritonaeum,</hi> and en<g ref="char:EOLhyphen"/>velops them but looſely, generally abounding with Fat; which not only lubricates their Surface, but forms a proper <hi>Nidus,</hi> wherein they lay ſecure from the preſſure and action of the cir<g ref="char:EOLhyphen"/>cumjacent Parts. Their interior or proper Coat is only a Pro<g ref="char:EOLhyphen"/>duction of the outer Integument of the Blood-Veſſels, for which reaſon it adheres cloſely to their Surface; tho not ſo firmly, but it may be ſeparated from it, without any conſiderable Lace<g ref="char:EOLhyphen"/>ration of their Subſtance.</p>
+               <p>THEY are <hi>connected</hi> to different Parts, in order either to keep them in their juſt Situation, or to communicate their proper Fluids to each other. The <hi>Tunica adipoſa</hi> ſtrongly affixes them
+<pb n="3" facs="tcp:0966000800:10"/>to the Loins, and prevents their falling down into the Cavity of the <hi>Abdomen,</hi> which wou'd occaſion the ſides of the emulgent Veſſels to collapſe at their Orifices next the great Blood-Veſſels, and thereby take off any Communication between them and the Kidneys. As a farther Security, the Right is ſometimes connected to the Liver, ſometimes to the <hi>Inteſtinum caecum,</hi> and the left to the <hi>Colon</hi> and <hi>Spleen.</hi> They communicate with the <hi>Aorta</hi> and <hi>Vena Cava,</hi> by means of the <hi>Emulgents,</hi> and <hi>Arteria,</hi> and <hi>Vena adipoſa,</hi> and have a near Relation to the Bladder by means of the <hi>
+                     <g ref="char:V">Ʋ</g>reters.</hi>
+               </p>
+               <p>THEY have <hi>Nerves</hi> from the Intercoſtals and ſpinal Marrow, which together form the <hi>Plexus Renalis,</hi> though very few in number, and their Twigs very ſmall; ſeeming only deſign'd to be ſubſervient to the other Veſſels that are immediately employ'd in the Secretion of Urine: but they are pretty plentifully ſtock'd with <hi>Lymphaticks;</hi> ſome of which coming out of their <hi>con<g ref="char:EOLhyphen"/>cave</hi> Side, and making ſeveral Anaſtomoſes in various places, are at lengh inſerted into a Gland in human Bodies, and thence carry the Lymph to the <hi>Receptaculum Chyli;</hi> whilſt others ariſing from their <hi>gibboſe</hi> Side, form a double Trunk: one of which creeping upwards, the other downwards along their Back, and both making a Flexure towards the Emulgent Veſſels, terminate likewiſe in a Gland, and thence proceed to the ſame Receptacle. Theſe Lymphaticks ſpring from ſo minute an Ori<g ref="char:EOLhyphen"/>gin, that it eſcapes the Eye, though aſſiſted by the beſt Micro<g ref="char:EOLhyphen"/>ſcope, which has occaſion'd variety of Conjectures concerning them: But <hi>Nuck</hi>'s Experiments<note n="*" place="bottom">Nuckii adenographia, cap. 6. p. 61.</note>, from whom I have taken this Account, (not being able my ſelf to trace their Beginning) have taught us, that they ariſe from the Capillary Branches of the Emulgent Arterties: for by blowing into this Artery, the <hi>Flatus</hi> eaſily paſs'd into theſe <hi>Ducts,</hi> and diſtended them. As this Experiment demonstrates the Communication between theſe Veſſels, it at the ſame time gives us an inſight into the uſe of the <hi>Lymphaticks</hi> of theſe Parts; which is to receive and carry off the <hi>Lymph</hi> from the Blood brought for the Nouriſhment of the Kidney, as the Urinary Tubes receive the excrementitious Parts, or the Urine.</p>
+               <pb n="4" facs="tcp:0966000800:11"/>
+               <p>WE come now to the <hi>Body</hi> of the <hi>Kidneys,</hi> whoſe external Superficies in <hi>Adults</hi> is uniform and even, but in <hi>Infants</hi> rough and unequal, being divided as it were into diſtinct Lobes; which has made ſeveral imagine the <hi>Kidney</hi> to be compos'd of a Number of conglomerate Glands: but its <hi>inward Structure</hi> has occaſion'd a great Variety of Opinions<note n="*" place="bottom">
+                     <hi>Vid.</hi> Ariſtotle, Galen, Veſalius, Fallopius, Highmore, Veſlingius, Bartholin.</note> ſuitable to the Philoſophy in vogue at the Time the Authors wrote concerning them: To examine which is now altogether needleſs, becauſe the modern Improvements in Anatomy have demonſtrated them to be ſo many Fictions of learned Men. It will however be worth while to take notice, that the great <hi>Hippocrates</hi>
+                  <note n="‡" place="bottom">Lib. de glandulis.</note> obſerving the Matter contain'd in the Glands to be White, and reſembling Phlegm or <hi>Pituita,</hi> aſcribes a Uſe to them of receiving any re<g ref="char:EOLhyphen"/>dundancy of Moiſture in the Body, which by the peculiar ſpon<g ref="char:EOLhyphen"/>gineſs of their Subſtance they attract; and accordingly tells us, that the <hi>Kidneys</hi> abounding with much Humidity have <hi>Glands,</hi> and theſe larger than in any other Part. From this Deſcription of the largeneſs of theſe Glands, it is certain <hi>Hippocrates</hi> did not ſay this from obſerving the inward Structure of the Kid<g ref="char:EOLhyphen"/>neys, but from reflecting on the Quantity of Urine proceeding from them; which, according to his Notion, muſt have Glands proportionably large to attract and percolate it. But however, what he concluded from his penetrating Sagacity laid a good Foundation for farther Anatomical Inquiries into their Make; which it is a wonder were attended for ſo many Ages after him with ſo little Succeſs, excepting only by <hi>Aretaeus,</hi> who ſays the ſame thing<note n="‡" place="bottom">Lib. 2. de Cauſis, &amp;c. Auctorum Morborum, cap. 3. Id. diutur<g ref="char:EOLhyphen"/>norum morb. cap. 4.</note>. And indeed I muſt ſay thus much for the honour of this <hi>great Father of Phyſick,</hi> (tho it has been endeavour'd to make us believe the contrary) that even in this <hi>knowing Age</hi>
+                  <note n="‖" place="bottom">Blackmore<hi>'s Preface to his Eſſay on the Small-Pox.</hi>
+                  </note> whoever will take the pains to read him, and has the proper Requiſites to underſtand him, will find <hi>Gains worthy of his Labour,</hi> and <hi>upon many Accounts be<g ref="char:EOLhyphen"/>come the better Phyſician for it.</hi>
+               </p>
+               <pb n="5" facs="tcp:0966000800:12"/>
+               <p>THE firſt Author, who gives a Deſcription of all the consti<g ref="char:EOLhyphen"/>tuent Parts of the <hi>Kidney,</hi> that comes near the Fact, is <hi>Bar<g ref="char:EOLhyphen"/>tholomaeus Euſtachius,</hi> a Scholar and Cotemporary of <hi>Veſalius.</hi> He obſerves, that in ſome Animals, as Bulls, Bears, <hi>&amp;c.</hi> the <hi>Kidneys</hi> have <hi>Glands,</hi> which appear very conſpicuous, both in the exterior and interior part of them: but that in human Bodies theſe glandulous Subſtances are found in the inmoſt part of the <hi>Kidney</hi> only<note n="*" place="bottom">De Renum ſtructura, cap. 2.</note>, and are plac'd in that particular part of it, where the Branches of the <hi>
+                     <g ref="char:V">Ʋ</g>reter</hi> terminate, covering the ex<g ref="char:EOLhyphen"/>tremity of each Branch; which Glands being divided length<g ref="char:EOLhyphen"/>ways, certain Furrows or little Channels may be perceiv'd, like ſo many ſmall Hairs, thro' which he does not doubt, but that the Urine percolates<note n="‡" place="bottom">Id. cap. 7.</note>. This Account has a very near Reſem<g ref="char:EOLhyphen"/>blance of their real Structure: but at the ſame time it proves, that he miſtook the <hi>Carunculae Papillares</hi> for Glands, as he did the Interſtices between the Urinary Ducts for Channels to convey the <hi>
+                     <g ref="char:V">Ʋ</g>rine;</hi> for he does not admit of any Tubes for this purpoſe: but in oppoſition to ſome, who imagin'd theſe ſmall Filaments might be ſo many minute Veſſels, he gives it as <hi>his</hi> Opinion, that they are only Furrows elegantly engrav'd in the Subſtance of the Kidney<note n="‡" place="bottom">Id. cap. 37.</note>.</p>
+               <p>THESE Miſtakes are rectify'd by <hi>Bellini,</hi> who was the firſt Diſcoverer of the <hi>
+                     <g ref="char:V">Ʋ</g>rinary Ducts;</hi> (though very likely the former Author gave him the Hint) and has alſo ſhewn from whence they ſpring, and how they are propagated<note n="††" place="bottom">De ſtructurâ Ren. p. 19.</note>. From what has been wrote by him, and from reiterated Inſpections and Ex<g ref="char:EOLhyphen"/>periments ſince his Time, it appears, that the Subſtance of the <hi>Kidney</hi> is only a Congeries of Blood-Veſſels and Excretory Ducts wrapt up in one common Covering:<note place="margin">
+                     <hi>Tab.</hi> I.</note> for the <hi>Emulgent Artery,</hi> which goes off from the Trunk of the <hi>Aorta,</hi>
+                  <note place="margin">
+                     <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ig</hi> I.</note> in its Progreſs toward the Kidney divides firſt into two Branches, and theſe again into two, three, and ſometimes four more, which pierce the concave Side of it; when they immediately diſperſe themſelves between the Coats of the <hi>Pelvis.</hi> Theſe at their <hi>exit</hi> from hence, ſend off ſmaller Branches; which being incurvated, and meeting each other, form ſeveral <hi>Anaſtomoſes.</hi> From theſe,
+<pb n="6" facs="tcp:0966000800:13"/>towards the <hi>gibboſe</hi> part of the <hi>Kidney,</hi> ariſe ſtill more minute Ramifications, which are propagated to the outer Superficies, and by their different Convolutions and Contortions there form a ſort of Net-work,<note place="margin">
+                     <hi>Fig.</hi> II.</note> not unlike a Ball of Silk; but before their ultimate Branches loſe their form, and aſſume that of <hi>Excretory Ducts,</hi> they change their circular Progreſs into a ſerpentine one<note n="*" place="bottom">Ruyſch. Theſaur. 6. <hi>p.</hi> 13.</note>. From the Extremities of theſe capillary arterial Branches ariſe the <hi>Veins,</hi> which being divided into the like Ramifications (tho differently modify'd) are inclos'd in one common <hi>Capſula</hi> with the Artery, and accompany it throughout the whole Kidney, going out where the Artery enters, and terminating in the <hi>Cava.</hi> In ſome Brutes of the Cat-kind this Vein is differently diſpos'd: for inſtead of accompanying the Artery within the Kidney, it propagates its Branches upon the <hi>Surface,</hi> as you may ſee in ſome very curious Preparations of Mr. <hi>Ranby</hi>'s here given.<note place="margin">
+                     <hi>Fig.</hi> V.</note>
+               </p>
+               <p>NEXT within theſe appears a Number of ſmall Filaments, which look like <hi>fleſhy</hi> Fibres, but are really <hi>membranous</hi> and <hi>hollow,</hi> and agree with other excretory Ducts both in Sub<g ref="char:EOLhyphen"/>ſtance and Uſe. Theſe were firſt found out by <hi>Bellini,</hi> and are therefore call'd <hi>Tubuli Belliniani:</hi>
+                  <note place="margin">
+                     <hi>Fig.</hi> III.</note> They ſeem ſo ſpring from the Sides of the Capillary Arteries, and extending them<g ref="char:EOLhyphen"/>ſelves in a right Line towards the Centre or <hi>Pelvis</hi> of the Kidney, are collected at their Extremities into twelve Claſſes, and form the <hi>Papillae,</hi> which are nothing elſe but the Endings of theſe Ducts ſo collected together, and not <hi>Glands,</hi> as <hi>Eu<g ref="char:EOLhyphen"/>ſtachius</hi> ſuppos'd. The remaining part of the Kidney is poſ<g ref="char:EOLhyphen"/>ſeſs'd by a Dilatation of the <hi>
+                     <g ref="char:V">Ʋ</g>reter,</hi> which forms the <hi>Pelvis,</hi> and then ſends off twelve Branches call'd <hi>Fiſtulae Membranaceae,</hi> which join the <hi>Papillae,</hi> and have Fat interſpers'd between each of them for the Lubrication of their Subſtance.</p>
+               <p>THIS Diſpoſition and Communication of the Veſſels in the Kidneys eaſily appears, by blowing into the Emulgent Artery, or injecting a colour'd Liquor into it, which will not only very much diſtend the whole, but will paſs into the Emulgent Veins, the Tubes juſt mention'd, and ſometimes the <hi>
+                     <g ref="char:V">Ʋ</g>reter</hi> it ſelf.</p>
+               <pb n="7" facs="tcp:0966000800:14"/>
+               <p>BUT beſides this aggregate of Veſſels, the accurate <hi>Malpighius</hi> has obſerv'd a conſiderable Number of exceeding ſmall Bodies, of a round Figure like the Eggs of Fiſh, which are annex'd to the ends of the Arteries, and plac'd between them and the <hi>Tubuli <g ref="char:V">Ʋ</g>rinarii;</hi> to the laſt of which they are likewiſe join'd by their proper Excretory Ducts, and correſpond to them in Number; and which upon filling the Emulgent Artery with Ink, will alſo, he ſays, appear ting'd with it, and their Adheſion to the Capil<g ref="char:EOLhyphen"/>lary Branches thereby diſcover'd<note n="*" place="bottom">De Renibus, cap. 3.</note>. This has occaſion'd Anato<g ref="char:EOLhyphen"/>miſts to differ about the Structure of this Part of the <hi>Kidney: Malpighius</hi> will have theſe Appearances to be diſtinct <hi>Glands,</hi> and the immediate Inſtruments of the Secretion of Urine.</p>
+               <p>THE curious Dr. <hi>Ruyſch</hi> abſolutely denies that there are any ſuch Veſicular Bodies in this Part, and confirms his Judgment by repeated Injections, which diſcover'd the immediate conti<g ref="char:EOLhyphen"/>nuity of the Arteries and Urinary Ducts without any inter<g ref="char:EOLhyphen"/>vening Subſtance<note n="‡" place="bottom">Theſaur. 2. pag. 64, 65.</note>: He acknowledges indeed to have obſerv'd certain round diaphanous Bodies in the middle of the Kidney, but they were not in number ſufficient to anſwer the Ends aſ<g ref="char:EOLhyphen"/>ſign'd<note n="‡" place="bottom">Id. pag. 65.</note>; and even theſe vaniſh'd upon Injection, and conſequent<g ref="char:EOLhyphen"/>ly could not be Glands<note n="††" place="bottom">Theſaur. 1. p. 35, 58.</note>. The Queſtion between them then is not whether there are <hi>Glands</hi> in the Kidney, for they both al<g ref="char:EOLhyphen"/>low that; but concerning the intimate Structure of that par<g ref="char:EOLhyphen"/>ticular Part of them, which is the immediate <hi>ſeparating Organ:</hi> The one being of opinion that the Blood is alter'd, or in other words, the Urine is ſecreted in theſe membranous Follicles, which afterwards empty themſelves thro' their own proper Excretory Ducts into thoſe of <hi>Bellini:</hi> The other, that there are none ſuch; and if there were, yet that they are not diſtinct Glands, but that the Percolation is ſimply made by the Orifi<g ref="char:EOLhyphen"/>ces of the <hi>Bellinian</hi> Ducts themſelves.</p>
+               <p>IF it be lawful in <hi>this Place</hi> to enter into the nicer Parts of A<g ref="char:EOLhyphen"/>natomy, we may obſerve, that Dr. <hi>Ruyſch</hi>'s Aſſertions are very much confirm'd by ſeveral Preparations of this Part; in which
+<pb n="8" facs="tcp:0966000800:15"/>the ſpherical Bodies that ſeem'd to be ſo many Glands before they were injected, appear after it to be only the Convolutions of the Capillary Branches of the Emulgent Artery, which the injected Liquor ſubtilly permeates, and paſſes directly thence into the <hi>Tubuli <g ref="char:V">Ʋ</g>rinarii.</hi> This is more eaſily ſeen in the Kidneys of Infants, which are the propereſt for this purpoſe, becauſe they are of a looſer Contexture, and divided in a man<g ref="char:EOLhyphen"/>ner into Cluſters of Glands; ſo that if theſe membranous Folli<g ref="char:EOLhyphen"/>cles would appear at all, they would in ſuch Subjects. Whe<g ref="char:EOLhyphen"/>ther, as ſome will have it, the Injection at the ſame time it fills theſe <hi>Veſiculae,</hi> does not introduce ſuch a Confuſion, by en<g ref="char:EOLhyphen"/>larging their Dimenſions, and making them preſs againſt one another on all Sides, that the exceeding thin Membranes which compoſe them can't be diſtinguiſh'd from the injected Matter it ſelf, is not ſo eaſy abſolutely to be determin'd; nor whether from the Diſtenſion it makes in the Veſſel it flows thro', it may not compreſs ſuch others as lie contiguous and are not in<g ref="char:EOLhyphen"/>jected; at the ſame time it makes the one viſible, totally ob<g ref="char:EOLhyphen"/>literating the other: but it is not likely that it produces ſuch Effects, becauſe in other Preparations of this ſort, we find that it diſcovers the natural Contexture of the Part, which renders Dr. <hi>Ruyſch</hi>'s Notion more certain and probable.</p>
+               <p>HOWEVER, admitting there are ſuch membranous Blad<g ref="char:EOLhyphen"/>ders where <hi>Malpighius</hi> has plac'd them, which the Favourers of this Aſſertion ſtrenuouſly contend for, from the regular Appear<g ref="char:EOLhyphen"/>ances in his different Experiments<note n="*" place="bottom">Malpighii Epiſt. ad Spon. p. 25.</note>, and from other Obſerva<g ref="char:EOLhyphen"/>tions of their own, eſpecially upon morbid Kidneys, in which they have been found pretty large and turgid with Urine, when the Urinary Ducts have been obſtructed<note n="‡" place="bottom">Memoires d' Academie des Sciences; Ann. 1705. p. 40.</note>; yet that they are <hi>diſtinct Glands,</hi> and the proper <hi>ſecretory Organs</hi> of the <hi>
+                     <g ref="char:V">Ʋ</g>rine,</hi> is no way agreeable to Nature in other Parts of the like kind; becauſe where-ever we find theſe Follicles with their own pro<g ref="char:EOLhyphen"/>per inveſting Membranes and Excretory Ducts, they don't per<g ref="char:EOLhyphen"/>form the Office of a Gland, but are only <hi>Appendages</hi> of it,
+<pb n="9" facs="tcp:0966000800:16"/>or Receptacles to contain the Fluid already ſeparated by the Gland, till it is proper to diſcharge it into ſome common Outlet, analogous to the <hi>Veſiculae Seminales, Gall-Bladder,</hi> and ſuch like. And by the way, in this conſiſts one Difference in the Compoſition of the Glands of the Body: that thoſe Glands which ſecrete a Liquor, that is afterwards to be diſcharg'd from them at <hi>diſtant Intervals,</hi> as occaſions require, are furniſh'd with theſe membranous Follicles, into which the ſeparating Canal empties its Contents, which are reſerv'd there for that pur<g ref="char:EOLhyphen"/>poſe; ſuch are the <hi>Mamillary Glands,</hi> thoſe of the <hi>Stomach</hi> and <hi>Guts,</hi> and ſeveral other in different Parts of the Body: As on the contrary, thoſe Glands which ſeparate a Fluid that is <hi>conti<g ref="char:EOLhyphen"/>nually</hi> to flow from them to ſome other Part, have no ſuch Pro<g ref="char:EOLhyphen"/>viſion within their Subſtance, neither do they want it; of which ſort are the <hi>Brain,</hi> the <hi>Teſticles,</hi> ſeveral of the Conglomerate kind, and the <hi>Kidneys.</hi> This Diſtinction founded upon the ſtricteſt Inquiries, may in ſome degree decide the Controverſy now depending between Anatomiſts concerning the peculiar Make of theſe Bodies<note n="*" place="bottom">
+                     <hi>Bo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rhaave</hi> de Fabricâ Glandularum.</note>; for both are in the right, when they confine their Aſſertions to <hi>particular</hi> Glands, as they both err, when they expend them to the whole <hi>Genus.</hi> But to return,</p>
+               <p>THE remaining part of the Kidneys, as before obſerv'd, is poſſeſs'd by a Dilatation of the <hi>
+                     <g ref="char:V">Ʋ</g>reters,</hi> which make the <hi>Pelvis;</hi> theſe at their <hi>exit</hi> from hence contract their Dimen<g ref="char:EOLhyphen"/>ſions, and form each of them a ſmall <hi>Tube,</hi> which runs with a tortuous inflexion to the Bladder.<note place="margin">
+                     <hi>Fig.</hi> V.</note> They are naturally of the bigneſs of a Gooſe-Quill; but are capable of being diſtended to a much greater Size, as is evident in ſome calculous Caſes; of which ſort I have ſeen two remarkable Inſtances, where their Orifices were ſo enlarg'd, that upon injecting the Bladder, in order to perform the high Operation of Cutting for the Stone, the Water paſs'd into the very <hi>Pelvis</hi> of the Kidney, ſo that the Bladder was never diſtended, which appear'd to be the Caſe upon Diſſection. They are of unequal Diameters in different parts of them, being contracted and dilated alternately through<g ref="char:EOLhyphen"/>out their whole len<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th, and not in that <hi>ſingle</hi> part only, where
+<pb n="10" facs="tcp:0966000800:17"/>they deſcend over the <hi>Iliack Arteries,</hi> according to the com<g ref="char:EOLhyphen"/>mon Opinion. This appears by making a Ligature at one end of the <hi>
+                     <g ref="char:V">Ʋ</g>reter,</hi> and after having inflated it, cloſing the other Extre<g ref="char:EOLhyphen"/>mity, and letting it dry. Hence <hi>Morgagni</hi>
+                  <note n="*" place="bottom">Adverſar. 2. Animadverſ. 47.</note> rightly infers, that this alternate Contraction and Dilatation proceeds from their natural Conformation; to which I may add for a particular Deſign too, which will preſently appear, and not only becauſe their Sides are compreſs'd by the Pulſation of the <hi>Iliack Ar<g ref="char:EOLhyphen"/>teries,</hi> which Mr. <hi>Cowper</hi> aſſigns as the ſole Cauſe of this Ine<g ref="char:EOLhyphen"/>quality of their Dimenſions<note n="‡" place="bottom">
+                     <hi>Cowpen</hi>'s Appendix, <hi>Tab.</hi> IV.</note>.</p>
+               <p>THEY are compos'd of three <hi>Coats,</hi> which make them more than ordinary thick in proportion to the Space they encloſe, and enable them the better to reſiſt the weight of the diſtend<g ref="char:EOLhyphen"/>ed Inteſtines, (and in Women the <hi>
+                     <g ref="char:V">Ʋ</g>terus</hi> likewiſe) which might otherwiſe ſo compreſs them, as to hinder the Transflux of Urine. Anatomiſts particularly deſcribe the Subſtance of theſe Coats, and call the outer <hi>Membranous,</hi> the middle <hi>Muſcular,</hi> and the innermoſt Nervous: but upon the niceſt Inſpection, there is no ſuch Diſtinction appears, but the whole ſeems to be a thick nervous Membrane; in the inſide of which are plac'd divers ſmall Glands that emit a <hi>Mucus</hi> to guard them from the Salts of the Urine.</p>
+               <p>THEY are inſerted into the Bladder very obliquely, after ha<g ref="char:EOLhyphen"/>ving paſs'd about a Finger's breadth between its Coats, and are remarkably contracted at the Place of their opening into it. They are furniſh'd with Arteries and Veins from the Trunks of the <hi>Aorta</hi> and <hi>Vena Cava,</hi> and have Nerves from the Inter<g ref="char:EOLhyphen"/>coſtals and ſpinal Marrow; which laſt render them extremely ſenſible, and occaſion that exceſſive Pain upon any forcible Diſ<g ref="char:EOLhyphen"/>tention.</p>
+               <p>IN the common Courſe of Nature there is only <hi>one <g ref="char:V">Ʋ</g>reter</hi> to each Kidney; but ſometimes ſhe furniſhes both of them with <hi>two,</hi> when unavoidable Neceſſity requires ſuch a Deviation from her general Rules. <hi>Double <g ref="char:V">Ʋ</g>reters</hi> have been often obſerv'd,
+<pb n="11" facs="tcp:0966000800:18"/>but ſeldom to <hi>both</hi> Kidneys, as in the Preparation following;<note place="margin">
+                     <hi>Tab.</hi> II.</note> in which may be obſerv'd,<note place="margin">
+                     <hi>Fig.</hi> I.</note> that there are <hi>two <g ref="char:V">Ʋ</g>reters</hi> ariſing diſtinctly, the one above the Emulgent Veſſels, the other below them, which running ſeparately almoſt, their whole Courſe, are at length conjoin'd juſt at their penetrating the outward Coat of the Bladder, and there forming one <hi>Tube</hi> terminate in a ſingle Orifice as uſual.</p>
+               <p>SUCH an extraordinary Proviſion in this Subject was abſo<g ref="char:EOLhyphen"/>lutely neceſſary from the uncommon Structure of the Kidneys; in which the <hi>Fiſtulae Membranaceae</hi> do not diſcharge themſelves into one common <hi>Pelvis,</hi> but into <hi>two</hi> diſtinct ones; which not communicating with each other, but being ſeparated by the Sub<g ref="char:EOLhyphen"/>ſtance of the Kidney, it was requiſite that <hi>each</hi> ſhould be fur<g ref="char:EOLhyphen"/>niſh'd with its proper <hi>
+                     <g ref="char:V">Ʋ</g>reter,</hi> to carry off the Urine ſent into it.</p>
+               <p>WE come now to the grand Receptacle of the Urine, the <hi>Bladder.</hi> This is ſituate in the <hi>Pelvis</hi> of the <hi>Abdomen,</hi> be<g ref="char:EOLhyphen"/>tween a Duplicature of the <hi>Peritonaeum;</hi> the outer <hi>Lamella</hi> covering its fore-part, the inner paſſing over its <hi>Fundus,</hi> and covering the hinder: It is compos'd of three Coats; the outer is a Covering of the <hi>Peritonaeum,</hi> the middle is Muſcular, and made up partly of Longitudinal, and partly of Fibres vari<g ref="char:EOLhyphen"/>ouſly interſecting each other. The inner is Nervous, in which are plac'd ſeveral Glands that ſeparate an unctuous Matter to defend it from the Acrimony of the Urine. This Coat is ca<g ref="char:EOLhyphen"/>pable of very great Diſtention; but not having a Power of con<g ref="char:EOLhyphen"/>tracting its Dimenſions as the two others have, it is therefore, when not diſtended, and the Bladder empty, corrugated in ſe<g ref="char:EOLhyphen"/>veral places.</p>
+               <p>THE middle Coat is plac'd by Anatomiſts among the Muſcles,<note place="margin">
+                     <hi>Tab.</hi> III. <hi>Fig.</hi> I.</note> and nam'd <hi>Detruſor <g ref="char:V">Ʋ</g>rinae</hi> from its Office; but it is not eaſy to apprehend how the Contraction of this Muſcle ſhould pro<g ref="char:EOLhyphen"/>duce ſuch an Effect as it is commonly deſcrib'd; ſince its Longi<g ref="char:EOLhyphen"/>tudinal Fibres having no fix'd Point whence they ſpring, but terminating at each end in the lower Orifice of the Bladder, they would rather pull up the Neck of it when they contract
+<pb n="12" facs="tcp:0966000800:19"/>themſelves,<note place="margin">
+                     <hi>Fig.</hi> I. II.</note> than bring the <hi>Fundus</hi> downwards. Dr. <hi>Douglas,</hi> among his other curious Preparations of this Part, has one which gives us a <hi>different,</hi> but the <hi>true</hi> Diſpoſition of theſe Longitudi<g ref="char:EOLhyphen"/>nal Fibres; whence he found, that they ariſe from the inner and lower part of the <hi>Os Pubis,</hi> and the fore part of the <hi>Proſtata,</hi> and paſſing from thence over the <hi>Fundus</hi> of the Bladder, come down the hinder part of it, and are inſerted into the back part of this Gland: and that theſe Fibres are rang'd in the manner that accurate Anatomiſt has deſcrib'd, the two annex'd Prepa<g ref="char:EOLhyphen"/>rations plainly ſhew, which have been made for that purpoſe ſince his communicating this his Diſcovery to me; for which I take this Opportunity publickly to return him Thanks, as well as for ſeveral others, that are well worthy Obſervation, and when he thinks proper to oblige the Publick with them, will appear very much to his Honour. Analogous to the <hi>Proſtata,</hi> in Women, is the <hi>Vagina <g ref="char:V">Ʋ</g>teri,</hi> in which the Fibres terminate. As this Muſcle is ſo diſpos'd, we eaſily ſee that by its Contrac<g ref="char:EOLhyphen"/>tion the <hi>Fundus</hi> of the <hi>Bladder</hi> will be pull'd forwards and downwards towards the <hi>Os Pubis</hi> by the Longitudinal Fibres, at the ſame time that the Oblique ones leſſen its Dimenſions, and ſo both together will exclude the Urine.</p>
+               <p>THE <hi>Bladder</hi> has three Orifices; one External for the <hi>exit</hi> of the Urine, and two Internal for its <hi>Admiſſion,</hi> where the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> open into it.<note place="margin">
+                     <hi>Fig.</hi> III.</note> From each of theſe latter <hi>Morgagni</hi> has obſerv'd in both Sexes, that there proceeds a ſmall but pretty thick and compact <hi>fleſhy Body,</hi> which paſſing from the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> obliquely downwards on the back part of the Bladder, and being ſomewhat Protuberant within its Neck joins its Fellow, and both together make an Angle at their Juncture; from whence in Males a Line is extended downwards as far as the <hi>Caput Gallinaginis.</hi> Theſe Bodies he takes to be a <hi>Production</hi> of the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> themſelves, and with very good reaſon; for by depreſſing them with your Fingers, the Mouths of the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> contract and are clos'd<note n="*" place="bottom">Adverſar. 1. <hi>Pag.</hi> 5.</note>. The <hi>Bladder</hi> is divided into two Parts, the <hi>Fundus</hi> and the <hi>Neck;</hi> the former of which is the larger
+<pb n="13" facs="tcp:0966000800:20"/>Part, which reſts upon the <hi>Inteſtinum Rectum</hi> in Men; but in Women upon the <hi>Vagina <g ref="char:V">Ʋ</g>teri:</hi> The Neck is the ſmaller, which is much more contracted, and longer in Men than in that Sex. At the bottom of this is plac'd a ſmall Muſcle of circular Fibres, call'd the <hi>Sphincter,</hi> which prevents the involuntary Emiſſion of Urine.</p>
+               <p>THE Neck of the Bladder is fix'd behind to the <hi>Rec<g ref="char:EOLhyphen"/>tum</hi> in Men, in Women to the <hi>Vagina;</hi> and before in both to the <hi>Os Pubis,</hi> by means of the <hi>Peritonaeum.</hi> Its <hi>Fundus</hi> is ty'd above to the Navel by the <hi>
+                     <g ref="char:V">Ʋ</g>rachus,</hi> degenerated into a Ligament. But beſides this Connexion to theſe different Parts, Dr. <hi>Bohn,</hi> a Profeſſor of <hi>Leipſwick</hi> near fifty Years ago, ob<g ref="char:EOLhyphen"/>ſerv'd another particular Adheſion of the <hi>Bladder;</hi> which is, that the greater part of the <hi>Fundus</hi> in human Bodies, adheres to or is continuous on the fore-part of it to the <hi>Peritonaeum</hi> and Muſcles of the <hi>Abdomen;</hi> and upon this Conſideration, and be<g ref="char:EOLhyphen"/>cauſe this Part of the Bladder is not <hi>merely Membranous,</hi> but <hi>Muſcular</hi> alſo throughout its whole extent, he admoniſhes us not at all to deſpair of Wounds made in it; inaſmuch as the <hi>Muſ<g ref="char:EOLhyphen"/>cles, Peritonaeum</hi> and <hi>Bladder,</hi> being thus continuous to each other, their Fibres will grow together, and all of 'em unite in one common <hi>Cicatrix,</hi> provided proper Care is taken in the Dreſſing, and the Wound not dilated with Tents, as he and the Surgeons attending obſerv'd in a Student about ſix Years before<note n="*" place="bottom">OEconom. Animal. Progymnaſ. 24. <hi>pag.</hi> 224.</note>. <hi>Stalpart vander Wiel,</hi> who wrote his Obſervations about that time, has taken notice of the ſame thing<note n="‡" place="bottom">Centur. 1. Obſervat. 83.</note>, and how near they both come to the Truth, our Surgeons are now ſufficiently in<g ref="char:EOLhyphen"/>form'd of, ſince Mr. <hi>Douglas</hi> upon much the ſame Principles has introduc'd a ſucceſsful Operation for extracting the Stone out of the Bladder above the <hi>Os Pubis,</hi> by making an Inciſion into this very Part<note n="‡" place="bottom">Lithotomia Douglaſſiana, <hi>Sect.</hi> 9. <hi>pag.</hi> 49.</note>. But to go on, the <hi>Bladder</hi> has Arteries and Veins from the <hi>Epigaſtricks</hi> and <hi>Iliacks,</hi> and Nerves from the two <hi>Plexuſes</hi> in the <hi>Pelvis,</hi> made out of the Branches of the <hi>Par Vagum,</hi> and the Nerves of the <hi>Os Sacrum.</hi>
+               </p>
+               <pb n="14" facs="tcp:0966000800:21"/>
+               <p>ADJOINING to the Neck of the Bladder is the <hi>
+                     <g ref="char:V">Ʋ</g>rethra,</hi> which in Men makes a Curvature of about four Inches in length under the <hi>Os Pubis,</hi> and is extended underneath and between the <hi>Corpora Cavernoſa Penis</hi> to the end of the <hi>Glands.</hi> Its Sub<g ref="char:EOLhyphen"/>ſtance is partly ſpongious, and partly nervous; but as it relates to the Emiſſion of Urine, in which Circumſtance only we con<g ref="char:EOLhyphen"/>ſider it here; we need only take notice of its <hi>inward</hi> Mem<g ref="char:EOLhyphen"/>brane.<note place="margin">
+                     <hi>Fig.</hi> IV.</note> This is extremely ſoft, and of exquiſite Senſe. The upper part of it is perforated in ſeveral Places by the Mouths of ſeveral ſmall <hi>Ducts</hi> which lye immediately upon it, and run length-ways; commencing about a Thumb's breadth from the <hi>Glans,</hi> and ending about the breadth of ſeven or eight Inches from it. Theſe Ducts probably come from ſome ſmall Glands plac'd within the Body of the <hi>
+                     <g ref="char:V">Ʋ</g>rethra;</hi> and the Liquor they ſeparate is the ſame Colour and Conſiſtence with that ſeparated by Mr. <hi>Cowper</hi>'s Glands, though the Uſe of it ſeems rather to defend the Cavity of the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> from the ſharpneſs of the Urine than to lubricate it for the freer Paſſage of the Seed, (which is the principal Office of the others) becauſe the ſame are found in the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> of Women (over and above the <hi>Lacunae</hi>) where they can contribute nothing in <hi>Coitu.</hi>
+               </p>
+               <p>THE <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> is likewiſe furniſh'd with a Muſcle,<note place="margin">
+                     <hi>Fig.</hi> V.</note> which is ſerviceable to it as a Urinary Veſſel, and call'd from its Office <hi>Accelerator <g ref="char:V">Ʋ</g>rinae.</hi> This ariſes fleſhy from the upper Part of the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> on both ſides as it paſſes under the <hi>Oſſa Pubis,</hi> and encompaſſing the Bulb meets on its inferior Part; where having run along a little way in the <hi>Peritonaeum,</hi> it divides its ſelf, and makes two tendinous Inſertions into the ſides of the <hi>Corpora Cavernoſa Penis.</hi>
+               </p>
+               <p>AS to the Diſpoſition and Structure of the other Parts of this <hi>Tube,</hi> as the <hi>Corpora Cavernoſa,</hi> the <hi>Glandulae Mucoſae</hi> of Mr. <hi>Cowper</hi>
+                  <note n="*" place="bottom">Philoſophical Tranſactions, N<hi rend="sup">o</hi>. 258.</note>, the <hi>Lacunae</hi> of <hi>De Graaf</hi>
+                  <note n="‡" place="bottom">De Mulier. Organis, cap. 6. pag. 163.</note>, <hi>&amp;c.</hi> they relate to it as it is an Inſtrument of Generation, and not as a Conduit-pipe to the Urine, and are therefore foreign to the Subject in hand:
+<pb n="15" facs="tcp:0966000800:22"/>We ſhall only take notice in general, that it has Arteries and Veins from the <hi>Hypogaſtricks,</hi> and in Women from the <hi>Pudenda,</hi> and is furniſh'd with Nerves from thoſe of the <hi>Os Sacrum.</hi>
+               </p>
+               <p>BEFORE we finiſh this Section, it will be proper to take notice of the <hi>Glandulae Renales;</hi> becauſe moſt Anatomiſts have fancy'd that they contribute ſomething to the Kidneys in perform<g ref="char:EOLhyphen"/>ing their Office; for they are ſituate ſo near each other, that the Membranes which inveſt them both externally are connected very faſt together, and in a <hi>Foetus</hi> theſe Bodies lye ſo contiguous, that they ſeem at firſt Sight to be the ſame. Theſe Glands are about an Inch broad and two long, but much bigger proportionably in Children; and in a <hi>Foetus</hi> near as big as the Kidneys themſelves, but they don't increaſe in proportion with other Parts. Within they have a pretty large <hi>Sinus,</hi> which the late Dr. <hi>Tyſon,</hi> by blowing into, found to empty themſelves into two Veins; where<g ref="char:EOLhyphen"/>of the Right paſs'd immediately into the <hi>Cava,</hi> the Left into the <hi>Emulgent</hi>
+                  <note n="*" place="bottom">
+                     <hi>Philoſophical Tranſactions,</hi> N<hi rend="sup">o</hi> 142.</note>. They have Arteries from the <hi>Emulgents,</hi> ſome<g ref="char:EOLhyphen"/>times from the <hi>Aorta</hi> itſelf, but their <hi>Excretory</hi> Ducts could never be found, and therefore the Uſe of theſe Glands has not been aſcertain'd, till very lately <hi>Valſalva</hi> obſerv'd them, which he ſays deſcend to the <hi>Teſticles</hi> in Men; but in Women are ſent to the <hi>Ovaria,</hi> and are therefore inſtrumental in Generation<note n="‡" place="bottom">Id. N<hi rend="sup">o</hi> 385.</note>: This has put ſeveral upon inſpecting theſe Bodies more narrow<g ref="char:EOLhyphen"/>ly, but to no purpoſe, for none ſuch appear'd. However Mr. <hi>Ranby</hi> has diſcover'd, inſtead of them, two <hi>Spermatick Arte<g ref="char:EOLhyphen"/>ries</hi> never taken notice of before, which very probably are what <hi>Valſalva</hi> took for <hi>Excretory Ducts</hi>
+                  <note n="‡" place="bottom">Id. N<hi rend="sup">o</hi> 387.</note>; for the Deſcription of the Diſpoſition and Progreſs of both are very much alike; and we all know, that the ſmaller Arteries in dead Bodies, ap<g ref="char:EOLhyphen"/>pear white like thoſe Veſſels. Theſe Arteries are near as big as the Seminal. That on the right ſprings from the <hi>Aorta,</hi> about a Finger's breadth above the Seminal, firſt ſending off a large Branch to the <hi>Glandula Renalis,</hi> and then another, which being en<g ref="char:EOLhyphen"/>clos'd in the ſame common <hi>Capſula</hi> with the <hi>Spermatick Ar<g ref="char:EOLhyphen"/>tery</hi> and <hi>Vein,</hi> deſcends along with them to the <hi>Teſticle.</hi> That on the Left is propagated in the ſame manner, only ſometimes
+<pb n="16" facs="tcp:0966000800:23"/>it ariſes from the <hi>Aorta,</hi> ſometimes from the <hi>Emulgent.</hi> But not<g ref="char:EOLhyphen"/>withſtanding this Diſcovery, we are ſtill as much at a Loſs for the Uſe of theſe Glands as ever: for though theſe Arteries diſtribute a Branch both to them and the <hi>Teſticles,</hi> yet there is nothing communicated from one to the other upon that account; an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> that they ſeparate a Liquor for diluting the Venal Blood, which is too thick after its being robb'd of its aqueous Parts by the Filter of the Kidneys, as is the Opinion of ſome, does not ap<g ref="char:EOLhyphen"/>pear altogether rational; for if this was their Office, why are they ſo very large in a <hi>Foetus</hi> where there is ſo little Urine ſe<g ref="char:EOLhyphen"/>creted? What <hi>Morgagni</hi> hints upon this Subject appears much more probable; that they are <hi>Lymphatick Glands,</hi> and of the ſame Nature with thoſe plac'd near the <hi>Receptaclum Chyli,</hi> and the beginning of the <hi>Thoracick Duct:</hi> Namely, continually to pour forth a Liquor through their <hi>Lymphatick Veſſels,</hi> in order either to dilute the <hi>Chyle,</hi> or to keep open and lubricate the Paſ<g ref="char:EOLhyphen"/>ſages; and this may agree with their extraordinary Bulk in <hi>Foe<g ref="char:EOLhyphen"/>tuſes,</hi> ſince in them there is either no <hi>Chyle,</hi> and therefore a greater Quantity of <hi>Lymph</hi> is neceſſary to keep theſe <hi>Viae Lacteae</hi> open; or if there is, it is in ſo ſmall a Quantity, and at the ſame time not acted upon by the <hi>Diaphragm,</hi> that more <hi>Lymph</hi> is requir'd to carry it through theſe Ducts into the <hi>Subclavian Vein</hi>
+                  <note n="‡" place="bottom">Adverſar. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <hi rend="sup">o</hi>. Animad<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>erſ. 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. p. 66.</note>.</p>
+               <p>I HAVE now gone through the Anatomy of the Parts; in which I have taken notice of every late Diſcovery that is con<g ref="char:EOLhyphen"/>firm'd by Inſpection, and which don't commonly occur in Au<g ref="char:EOLhyphen"/>thors. Some may reckon theſe among the <hi>Minutiae</hi> of Anatomy; but then theſe <hi>Minutiae</hi> are not only the immediate Inſtruments of Action, but alſo the latent <hi>Niduſes</hi> of the grand Diſtempers incident to theſe Parts. The ſearching theſe out therefore cannot be uſeleſs, as they will lead us to the Knowledge of the <hi>Powers</hi> peculiar to each, and to the <hi>Riſe</hi> and <hi>Nature</hi> of theſe Diſtempers themſelves, which I hope will appear in the Sequel of this L<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ct<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re.</p>
+            </div>
+            <div n="2" type="section">
+               <pb n="17" facs="tcp:0966000800:24"/>
+               <head>
+                  <hi>SECTION II.</hi> Of the Uſes and Powers of the Urinary Organs.</head>
+               <p>
+                  <seg rend="decorInit">W</seg>E come now to inquire into the Uſes of the Or<g ref="char:EOLhyphen"/>gans deſcrib'd, and into the Powers with which they reſpectively act upon the Fluids that paſs through their Cavities. That the general Uſe of them is to ſeparate the Urine from the Blood, and to promote its Paſſage afterwards out of the Body, appears <hi>primâ facie,</hi> upon diſſecting theſe ſeveral Parts: but the Manner how this Separation is perform'd has been very little underſtood by all the antient Writers, as well as by many of the more mo<g ref="char:EOLhyphen"/>dern ones, which has occaſion'd this Action to be attributed to different Cauſes. As, that the Urine was ſecreted from the Blood by means of <hi>Digeſtion</hi>
+                  <note n="*" place="bottom">Van Helmont.</note>; that the aqueous <hi>Serum</hi> was <hi>precipi<g ref="char:EOLhyphen"/>tated</hi> from the <hi>Cruor</hi> by a peculiar <hi>Ferment</hi> reſiding in the Kid<g ref="char:EOLhyphen"/>neys<note n="†" place="bottom">Sylvii Praxis Med. lib. 1. cap. 55. Du Hamel de Affect. Corpor. lib. 2. cap. 3.</note>; that the Blood was diſpos'd to part with its Seroſity by a Ferment that put it into <hi>Fuſion</hi>
+                  <note n="‡" place="bottom">Williſ. Pharmaceut. Part. 1. Sect. 4. cap. 3.</note>, and that the Kidneys ſepa<g ref="char:EOLhyphen"/>rated the aqueous Parts from the reſt by an <hi>attractive</hi> Power inherent in their Subſtance<note n="††" place="bottom">Galen de uſu Part. lib. 5. cap. 6, &amp; 7.</note>: the bare Recital of which in this Age is ſufficient to ſhew, that they have no Exiſtence in this part of the Animal OEconomy.</p>
+               <p>IT will not however be amiſs, before we explain the Nature of this Secretion, to premiſe, that <hi>Bellini</hi> and <hi>Profeſſor Boer<g ref="char:EOLhyphen"/>haave,</hi> though both of them reject theſe Hypotheſes, have not<g ref="char:EOLhyphen"/>withſtanding fallen into a Miſtake about this Affair; for the firſt
+<pb n="18" facs="tcp:0966000800:25"/>imagines, that the Blood, when arriv'd at the Extremities of the Emulgent Arteries, is <hi>extravaſated</hi> through their patent Orifices into a <hi>ſmall Space</hi> that lays between them, and the Origination of the <hi>Tubuli <g ref="char:V">Ʋ</g>rinarii</hi> and Emulgent Veins; the former re<g ref="char:EOLhyphen"/>ceiving the urinous Parts, the latter the refluent Blood by means of the <hi>different Configuration</hi> of their Orifices: whereas it is not only evident to Senſe, from <hi>injecting</hi> the Kidney, that the Urinary Ducts ſpring <hi>immediately</hi> from the extreme Branches of of the Artery; but it is demonſtrable likewiſe from the Nature of Fluids, that the Orifices of theſe Veſſels cannot be different in Figure; becauſe the Preſſure of all Liquors being conſtantly perpendicular to the Sides of the containing Veſſels, theſe will hereby be every where diſtended equally, that is, they muſt be Circular<note n="*" place="bottom">Bellini de Structurâ Renum pag. 23.</note>.</p>
+               <p>THE Blood indeed is previouſly diſpos'd for a particular Secretion by the peculiar Attrition of its Parts, and the Preſſure it undergoes in the various Complications and Contor<g ref="char:EOLhyphen"/>tions of the <hi>Arteriolae</hi> of the Gland; whereby it is determin'd to part with ſuch Particles as are adapted to the Orifices of of the ſecerning Canals, which will be imping'd upon them with a certain Velocity; and as theſe Complications and Contor<g ref="char:EOLhyphen"/>tions are vaſtly different in different Glands, there will hence ariſe a Variety of Secretions in theſe Bodies: but that the Orifices of the Secretory Ducts muſt be <hi>Circular,</hi> (though their Dimenſions differ in different Glands) is evident from the ne<g ref="char:EOLhyphen"/>ceſſary Effects of Fluids upon yielding Veſſels, as they run through them. And by the way, the whole Doctrine of Secre<g ref="char:EOLhyphen"/>tion depends upon the <hi>particular Contexture</hi> and <hi>Diſpoſition</hi> of the Arterial Branches of the Gland, the Velocity with which the Blood is imping'd upon the Orifices of the ſeparating Canals, and the <hi>Diameters</hi> of the Orifices themſelves.</p>
+               <p>THE <hi>laſt Author</hi> has err'd, by concluding, that the Secretion of the Urine is perform'd two ways; the one more ſimple, by the immediate Percolation of the Urinous Parts through the <hi>Bel<g ref="char:EOLhyphen"/>linian
+<pb n="19" facs="tcp:0966000800:26"/>Ducts;</hi> the other more complex'd, by the Aſſiſtance of <hi>diſtinct Glands:</hi> whereas there are no ſuch Bodies, in his Senſe of that word, to be found in the Kidneys<note n="*" place="bottom">Boerhavei Inſtitut. N<hi rend="sup">o</hi> 353.</note>.</p>
+               <p>THE Separation of this Liquor then from the Blood is per<g ref="char:EOLhyphen"/>form'd by a very ſimple piece of Mechaniſm, ariſing only from the Structure of the Kidneys, and ſome Properties of the Blood circulating through them. For from the Deſcription of the con<g ref="char:EOLhyphen"/>ſtituent Parts of theſe Organs already given, it appears, that the Blood by the Force of the Heart is propell'd through the vari<g ref="char:EOLhyphen"/>ous Ramifications and Convolutions of the Emulgent Arteries, till it comes to the Orifices of the <hi>Bellinian Ducts,</hi> which are the ſeparating Canals; but theſe not being capable from the ſmall<g ref="char:EOLhyphen"/>neſs of their Diameters, of admitting the whole heterogeneous Maſs, but only ſuch Parts of it as are proportionate to them, theſe only will be receiv'd, whilſt the groſſer Compound will cir<g ref="char:EOLhyphen"/>culate through the more patent Originations of the <hi>Emulgent Veins,</hi> to be return'd by them into the <hi>Vena Cava.</hi> Now the <hi>aqueous</hi> part of the Blood conſiſting of much the ſmalleſt Par<g ref="char:EOLhyphen"/>ticles of it, and the <hi>Salts</hi> of the Blood having a cloſe Union with the watery Part, as being diſſolv'd in it, theſe will firſt paſs through the Orifices of the Secretory Veſſels, and the ſe<g ref="char:EOLhyphen"/>cern'd Fluid will conſequently for the moſt part conſiſt of theſe Principles; which that the Urine does, will preſently appear.</p>
+               <p>THE Urine thus ſeparated, flows through theſe Ducts to the <hi>Papillae,</hi> and is diſcharg'd by them into the <hi>Fiſtulae Mebranaceae,</hi> which convey it to the <hi>Pelvis.</hi> This Cavity, though different from what Nature practiſes in other glandulous Parts, the Ex<g ref="char:EOLhyphen"/>cretory Ducts of ſuch generally terminating in one large common Duct without any Cavity interpos'd, yet is abſolutely neceſſary from the <hi>Figure</hi> of the Kidney; for this making a conſiderable Segment of a Circle, in which the Urinary Tubes are propagated in great numbers from the Circumference towards the Centre, if they had open'd there at once in a Duct of a <hi>ſmall</hi> Diameter, their Orifices would have been brought ſo cloſe to one another,
+<pb n="20" facs="tcp:0966000800:27"/>and with Directions ſo oppoſite, as neceſſarily to have hinder'd ſeveral of them from diſcharging their Contents, or at beſt have render'd ſuch Diſcharge very irregular; which is prevented by this <hi>Baſin,</hi> whereby their Orifices are remov'd farther from the Centre and one another, and the Diſcharge render'd thereby equal and uniform.</p>
+               <p>FROM hence the Urine deſcends through the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> into the <hi>Bladder;</hi> but whether by its own Gravity, or whether it is forwarded in its Courſe by the Action of theſe Tubes, has not yet been determin'd. Some<note n="*" place="bottom">Verheyen Anatom. Tractat. 2. cap. 18. Dionis Anatom. Demonſtrat. 3.</note> Anatomiſts of great Note have in<g ref="char:EOLhyphen"/>ferr'd, from the ſubſtance and diſpoſition of their inveſting Coats, that they are not merely paſſive, and barely afford a Paſſage to the Urine, but that they are endu'd with a ſort of <hi>Pe<g ref="char:EOLhyphen"/>riſtaltick</hi> Motion, which promotes its Deſcent into the Bladder. In Brutes indeed this Action of the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> ſeems ſomewhat needful, by reaſon of the Horizontal Situation of their Bodies, the Urine not flowing downwards as in Men, and conſequently its Weight contributing little or nothing to its Motion; but in Men there is no ſuch Neceſſity for this Action, becauſe the Urine will deſcend of courſe from the erect Poſition of theſe Tubes. On the other hand, I am apt to think, that the Courſe of the Urine in us rather requires a Check than a Spur, in or<g ref="char:EOLhyphen"/>der to prevent its coming too violently into the Bladder, which would create an uneaſy Senſation; and that for this reaſon Na<g ref="char:EOLhyphen"/>ture has made the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> of <hi>unequal</hi> Dimenſions in different parts of them, and has remarkably <hi>contracted</hi> their Orifices at their opening into the Bladder, that they might be ſo many Im<g ref="char:EOLhyphen"/>pediments to any ſudden Influx. But beſides this Conſideration, it is ſtill more probable that they want this Power, becauſe theſe Tubes, contrary to all other Parts that have muſcular Fibres, when once they are forcibly diſtended, never reſume their former Dimenſions, as is obſerv'd in hard Drinkers, and in Nephritick Caſes<note n="†" place="bottom">Ruyſch. Theſaur. N<hi rend="sup">o</hi> 8. p. 13.</note>, which they would do if they enjoy'd a periſtaltick Mo<g ref="char:EOLhyphen"/>tion. But to proceed,</p>
+               <pb n="21" facs="tcp:0966000800:28"/>
+               <p>THE Urine is receiv'd from the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> by the <hi>Bladder,</hi> and is prevented from regurgitating into them by the Contrac<g ref="char:EOLhyphen"/>tion of their Orifices, and the Obliquity of their Inſertion. Here it remains, till by its Quantity and Acrimony it diſtends and ſtimulates its inmoſt Coat, which cauſes the muſcular Coat to contract its Fibres, and act ſtrongly upon it; the two <hi>Corpora Carnoſa</hi> of <hi>Morgagni</hi> ſhortening their Fibres at the ſame time, and ſo ſtraitening the Orifices of the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> that none ſhould eſcape that way. By this Preſſure, and that of the <hi>Abdominal Muſcles,</hi> the Urine is protruded downwards with a Force ſuffi<g ref="char:EOLhyphen"/>cient to overcome the <hi>Sphincter</hi> of the Bladder, and to carry it through the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> ſome diſtance from the Body. But leſt any part of it ſhould ſtay in this <hi>Tube,</hi> when the Preſſure ceaſes and the <hi>Sphincter</hi> is clos'd, the <hi>Accelerator Muſcle</hi> begins to act, which expels any Remains that lodge therein.</p>
+               <p>THE Force with which the Bladder acts in projecting the Urine has been attempted to be fix'd by two ſpeculative Mathema<g ref="char:EOLhyphen"/>ticians: but their Calculations are widely different; the <hi>one</hi> making it amount to an <hi>uncommon Weight,</hi> whilſt the <hi>other</hi> re<g ref="char:EOLhyphen"/>duces it to a <hi>Trifle.</hi>
+               </p>
+               <p>THE late ingenious Dr. <hi>Keil</hi> has computed it, excluſive of the<note n="*" place="bottom">Keil's Eſſays, pag. 91.</note>
+                  <hi>Abdominal Muſcles,</hi> to be equal to no more than <hi>three Ounces;</hi> which ſeems too inconſiderable to overcome the Con<g ref="char:EOLhyphen"/>tranitency of the <hi>Sphincter,</hi> and at the ſame time project the Urine ſix Foot from the Body in a Horizontal Direction; for the <hi>Abdominal Muſcles</hi> contribute very little, except when we hold our Breath and ſtrain, and then indeed they force ſtrongly downwards and preſs upon the Bladder. But this Calculation is very defective: for not to mention what <hi>Michelotti</hi> has obſerv'd, that Dr. <hi>Keil</hi> has not at all taken notice of the <hi>Vis Compreſſionis</hi> in<g ref="char:EOLhyphen"/>nate to all Parts of the Bladder's <hi>internal Superficies,</hi> but only to that part of it which anſwers to a <hi>tranſverſe Section of the
+<pb n="22" facs="tcp:0966000800:29"/>
+                     <g ref="char:V">Ʋ</g>rethra,</hi> it is farther deficient, in that he has omitted to con<g ref="char:EOLhyphen"/>ſider the <hi>Length</hi> of the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> from the Orifice of the Blad<g ref="char:EOLhyphen"/>der, and the <hi>Friction</hi> ariſing therefrom, which he ought to have done to make it more perfect; for though the Force that cauſes a Fluid to run out at an <hi>Orifice</hi> with a certain Velocity, is as he has laid down; yet if there is a <hi>Tube</hi> expended <hi>any diſtance from it,</hi> through which the Fluid muſt paſs afterwards, the Velocity of it at its coming out at the <hi>end</hi> of this <hi>Tube</hi> will be, <hi>caeteris paribus,</hi> as its <hi>Length;</hi> and a greater Force will be re<g ref="char:EOLhyphen"/>quir'd, for example, to move a Fluid with a given Velocity through a <hi>Tube</hi> of <hi>twelve</hi> Inches long, than through one of <hi>four</hi> and of the ſame Diameter. This will raiſe the <hi>Power</hi> of the Bladder ſomewhat higher; but will ſcarcely yet be ſufficient to throw the Urine ſo far from the Body.</p>
+               <p>
+                  <hi>MICHELOTTI</hi> on the other hand<note n="*" place="bottom">De Separatione Fluidorum, pag. 117. &amp; ſeq.</note>, from <hi>mechanical</hi> Deductions raiſes the Power of the Bladder to 504 lb. Weight, but then the <hi>Principle</hi> he ſets out upon is <hi>falſe;</hi> for he lays down, that the <hi>Force</hi> by which a Fluid running out at the Ori<g ref="char:EOLhyphen"/>fice of any Canal acquires a certain Velocity, is equal to the Weight of a Cylinder of the ſame Fluid, whoſe Baſis correſ<g ref="char:EOLhyphen"/>ponds to the Orifice it flows through, and whoſe Altitude is equal to the <hi>ſimple</hi> Altitude of the extreme Superficies of the Fluid above it; whereas it has been <hi>demonſtrated</hi> by Sir <hi>Iſaac Newton</hi>
+                  <note n="‡" place="bottom">Philoſophiae Principia, Lib. 2. Prop. 36. Corollar. 2.</note>, that <hi>this Force</hi> muſt amount to that of a Cylinder of the ſame Baſis, but of <hi>double</hi> the Height, from whence any heavy Body muſt fall to gain ſuch a Velocity. However, what deduces from the <hi>Principle</hi> he lays down is juſt; and if he had proceeded in the ſame manner upon Sir <hi>Iſaac Newton</hi>'s, as he has upon <hi>his own,</hi> he would have come as near as poſſible to the entire Force of this Organ. The <hi>whole Propoſition,</hi> with what he draws from it, is much too long to be tranſcrib'd into a Diſcourſe of this kind: I ſhall therefore refer you to the <hi>Work</hi> it ſelf; and only obſerve, that from hence may be ſeen
+<pb n="23" facs="tcp:0966000800:30"/>the Uncertainty even of <hi>mechanical Reaſoning,</hi> when apply'd to explain <hi>ſome Powers</hi> in the Animal OEconomy; though it is the <hi>beſt</hi> we can make uſe of in this part of Learning.</p>
+               <p>FROM this curſory View of the Actions of the reſpective Parts, and of the Nature of the Urinous Secretion, may be drawn ſome <hi>Concluſions,</hi> which will ſerve as ſo many Anſwers to ſeveral Queries that commonly occur among the Writers of <hi>Inſtitutions:</hi> For from hence we learn, that the Urine is not an Excrement of any <hi>particular</hi> Concoction, as the Antients term it, but that all the Digeſtions ſupply Matter for it; becauſe whatever is brought to the Kidneys has undergone the Action of the <hi>Stomach,</hi> has been broken and divided in its Paſſage through the <hi>Lungs</hi> by the Force of Reſpiration, and from thence flows blended with the <hi>nutritious</hi> part of the Blood, till it is ſe<g ref="char:EOLhyphen"/>parated from it by the Orifices of the Urinary Tubes; and con<g ref="char:EOLhyphen"/>ſequently is an Excrement of <hi>all</hi> the Concoctions.</p>
+               <p>HENCE likewiſe we can account why we urine ſo <hi>frequent<g ref="char:EOLhyphen"/>ly</hi> when we drink plentifully; and particularly why this Excre<g ref="char:EOLhyphen"/>ment is ſecern'd in ſo <hi>ſhort</hi> a time, and in ſuch <hi>large</hi> Quantities, after taking Diuretick Liquors upon an empty Stomach, without having recourſe to any <hi>occult</hi> Paſſages from this Organ to the Bladder, which Anatomy has never ſhewn, and which repeated Obſervations have prov'd to have no Exiſtence. For notwith<g ref="char:EOLhyphen"/>ſtanding an Experiment printed in the <hi>Philoſophical Tranſactions</hi> ſomewhat favours this Notion, a pretty Quantity of Urine be<g ref="char:EOLhyphen"/>ing found in a Dog's Bladder, though the <hi>
+                     <g ref="char:V">Ʋ</g>reters</hi> were ty'd, and were alſo a little ſwell'd above the <hi>Ligature,</hi> yet on the other hand, upon opening the Bladders of Perſons dead of a Sup<g ref="char:EOLhyphen"/>preſſion of Urine from an Obſtruction of the common Paſſages of the <hi>Kidneys</hi> and <hi>
+                     <g ref="char:V">Ʋ</g>reters,</hi> there never was found a Drop of Urine in them<note n="*" place="bottom">
+                     <hi>Philoſoph. Tranſact.</hi> N<hi rend="sup">o</hi>. 65, 67.</note>.</p>
+               <p>NEITHER indeed is there any occaſion for a ſhorter Convey<g ref="char:EOLhyphen"/>ance than what Nature has made <hi>apparent;</hi> for as to the frequent
+<pb n="24" facs="tcp:0966000800:31"/>Emiſſions during the time of Drinking, it is to be obſerv'd, that before this happens, the <hi>Stomach,</hi> the <hi>ſmaller Inteſtines,</hi> and the <hi>Lacteal Veins</hi> are replete with the Potables, ſo that the Blood receives a freſh ſupply of a Fluid from the next Draught that is taken down, which, if I may ſo call it, protrudes what is al<g ref="char:EOLhyphen"/>ready contain'd in the Veſſels above-mention'd into the <hi>Subcla<g ref="char:EOLhyphen"/>vian Vein:</hi> The Conſequence of which will be, that a greater Quantity of Blood will be brought to the Kidneys than uſual, and therefore more Urine ſeparated; and ſo much the more, the more frequent the Draughts are repeated. And this is the reaſon why the firſt Urine that is voided is of a higher Colour, and bears the Tokens of Concoction; whereas the ſubſequent Emiſ<g ref="char:EOLhyphen"/>ſions loſe theſe Signs, and the Urine at length flows perfectly limpid and crude, which it will continue to do till this extraor<g ref="char:EOLhyphen"/>dinary Supply has quite paſs'd off, and then it will reaſſume its former Colour, <hi>&amp;c.</hi>
+               </p>
+               <p>AS to the other Caſe, where the Stomach is empty, and the Blood is ſuppos'd to be diverted of the Urinous Matter in great meaſure, if we attend to the time which Fluids take up in paſſing from the Stomach into the Blood, and how ſoon afterwards they are carry'd to the Kidneys by the Rapidity of its Cir<g ref="char:EOLhyphen"/>culation, we ſhall find the common Paſſages altogether ſuf<g ref="char:EOLhyphen"/>ficient.</p>
+               <p>IT muſt be conſider'd then, that though <hi>ſolid</hi> Subſtances re<g ref="char:EOLhyphen"/>quire a good deal of time to be comminuted by the Stomach, in order to have their Parts render'd ſmall enough to enter the Lac<g ref="char:EOLhyphen"/>teals, yet <hi>Fluids</hi> when taken alone, from the minuteneſs of their Particles are naturally fit to paſs through them, and from their Aptitude to Motion will yield to the firſt Impreſſion; for which reaſon they will make no ſtay there, but very ſoon be protruded by the Action of the Stomach and Guts into <hi>theſe Veſſels:</hi> and that the Progreſs of Fluids through <hi>them</hi> takes up but a very ſhort time, is demonſtrated from the almoſt inſtanta<g ref="char:EOLhyphen"/>neous Depletion of the <hi>Lacteals</hi> in living Animals, that have
+<pb n="25" facs="tcp:0966000800:32"/>been open'd for this purpoſe ſome time after a full Meal, when the <hi>Chyle</hi> has been flowing through them; ſo that if that part of the Liquids which comes away by Urine is not longer in flowing through the <hi>Heart</hi> to the <hi>Orifices</hi> of the Urinary Ducts of the Kidneys, than the ſame is in paſſing from the <hi>Stomach</hi> to the <hi>Heart,</hi> the <hi>common</hi> Channels will be found every way to anſwer theſe Emergencies.</p>
+               <p>NOW, as the <hi>Heart</hi> throws out every <hi>Syſtole</hi> one <hi>Ounce</hi> of Blood, and beats <hi>ſixty Syſtoles</hi> in a Minute, there will paſs into the <hi>Aorta</hi> 900 Ounces in a Quarter of an Hour: taking therefore the Dimenſions of the <hi>emulgent Arteries,</hi> which ſpring immediately from its Trunk, to be <hi>one Tenth</hi> of that of the <hi>Aorta,</hi> (which is very near the matter,) the Quantity of <hi>Blood</hi> paſſing through <hi>them</hi> in that time will be <hi>ninety Ounces,</hi> or <hi>ſeven Pounds ſix Ounces Troy.</hi> Add to this, that the <hi>Serum</hi> makes up the greater part of the Blood, and at this time is in a much larger Proportion, from the Addition of the ingeſted Li<g ref="char:EOLhyphen"/>quor, and we may conclude reaſonably, that two or three <hi>Pints</hi> of Urine may be ſecreted from ſuch a Quantity of Blood in that time, and great part of it much ſooner: which will anſwer every thing that has been obſerv'd, as to the quick Paſſage of <hi>Diu<g ref="char:EOLhyphen"/>reticks;</hi> the Effects of which upon this Secretion, either as to its Quantity or Quality, being at the ſooneſt more than half this time.</p>
+               <p>THIS Notion of an immediate Paſſage from the Stomach to the Bladder, ſo contrary to Anatomy and the Nature of the Animal OEconomy, one would imagine ſhould have been explo<g ref="char:EOLhyphen"/>ded at the firſt Diſſection of an Human Body; much more now, when theſe Parts are ſo accurately known: but it ſeems it is a<g ref="char:EOLhyphen"/>gain reviv'd and ſtrenuouſly argu'd for<note n="*" place="bottom">Morgan's Principles of Phyſick, Lond. 1725.</note>, which is the reaſon for inſerting the foregoing Paragraphs. But to proceed,</p>
+               <pb n="26" facs="tcp:0966000800:33"/>
+               <p>AS a <hi>Corollary</hi> to the foregoing it may be laid down, that the Quantity of Urine ought to be proportionate to the Quan<g ref="char:EOLhyphen"/>tity we drink. For <hi>caeteris paribus,</hi> the Quantity of the ſe<g ref="char:EOLhyphen"/>cern'd Fluid is in proportion to the Quantity of Blood brought to the Orifice of the ſeparating Canal; but the Quantity of the <hi>aqueous</hi> part of the Blood, of which the Urine chiefly con<g ref="char:EOLhyphen"/>ſiſts, is in proportion to the ingeſted Liquors; therefore the Quantity of Urine will be in proportion to them likewiſe. But here ſome Allowance muſt be made for what paſſes off by <hi>Per<g ref="char:EOLhyphen"/>ſpiration</hi> and <hi>Sweat,</hi> in <hi>Exſpiration,</hi> and with the <hi>Saliva;</hi> as like<g ref="char:EOLhyphen"/>wiſe for different Circumſtances. For Example, from Heat or Exerciſe, the <hi>aqueous</hi> Parts of the Blood paſſing through the Pores of the Skin in Sweat, the Quantity of Urine will be leſs; as on the contrary, the Pores of the Skin being ſtop'd by Cold, a larger Portion than uſual will be voided.</p>
+               <p>AS the laſt Inference from the foregoing Theory, it appears, that <hi>other Particles</hi> beſides what naturally compoſe the Urine, though of <hi>unequal</hi> Surfaces, one of which too may be longer than the Diameter of the Secretory Canal, may nevertheleſs be ſeparated together with it, provided the Surface that preſents it ſelf to the Orifice does not exceed its Diameter. And that <hi>Blood</hi> it ſelf may paſs through, if it is imping'd with a Force ſufficient to diſtend and enlarge the Secretory Ducts; analogous to what happens to ſome other Veſſels that are naturally ſmaller, but ampliated for a time, as in critical and ſymptomatical <hi>Hae<g ref="char:EOLhyphen"/>morrhages,</hi> and in the <hi>Menſtrua.</hi>
+               </p>
+               <p>THE Doctrine laid down is ſo well eſtabliſh'd upon the <hi>mechanical</hi> Properties of the Parts concern'd, that it is ſcarce liable to any Objection. The main one which ſeems to affect it is this: That ſeeing all the Parts that conſtitute the Urine are in the Blood when it is brought to the Orifices of the Urinary Ducts, if the Percolation of theſe from the reſt only depended on <hi>their Diameters,</hi> they would all be ſecern'd at the ſame time, being of the ſame Nature and adapted to them, which is con<g ref="char:EOLhyphen"/>trary to <hi>Fact;</hi> the refluent Blood found in the Emulgent Veins
+<pb n="27" facs="tcp:0966000800:34"/>being ſtill poſſeſs'd of ſome of the Principles of the Urine. But if we conſider that part of the Blood is ſpent upon the <hi>Nouriſh<g ref="char:EOLhyphen"/>ment</hi> of the Kidneys, and does not come to theſe Orifices, but is immediately receiv'd by the Venal Branches that correſpond to them, we ſhall find the reaſon why it ſtill retains theſe Prin<g ref="char:EOLhyphen"/>ciples in ſome degree, (which by the way may be ſeparated from it in ſome ſubſequent Circulation through theſe Organs) and at the ſame time ſee this Objection obviated.</p>
+               <p>WE come now to conſider the Nature and Properties of the Urine <hi>it ſelf;</hi> this conſiſts of a <hi>fluid</hi> Subſtance, in which are ſuſtain'd ſeveral denſe and <hi>ſolid</hi> Particles. The elementary or more ſimple Parts of it are <hi>Water, Salt,</hi> and <hi>Earth,</hi> which are manifeſted to the Senſes in the Experiments of <hi>Bellini</hi>
+                  <note n="*" place="bottom">Bellini de Urinis, <hi>pag.</hi> 9.</note>.</p>
+               <p>THAT ſimple Water is the <hi>fluid</hi> Part of the Urine, almoſt wholly, is known from a gentle Evaporation of it; by which means what is exhal'd is found to be limpid and inſipid as the pureſt Water, and the inſpiſſated <hi>Reſiduum</hi> after the Evaporation is over, is in all reſpects reſtor'd to the ſtate of true Urine again; that is, in Colour, Taſte, Smell and Conſiſtence, by pouring the ſame Quantity of common Water upon it, inſtead of the Fluid that was evaporated.</p>
+               <p>THE Exiſtence of a Salt is prov'd by the Taſte, which becomes more pungent, the more the <hi>aqueous Menſtruum</hi> is ex<g ref="char:EOLhyphen"/>hal'd, till at length there is left a black viſcid Subſtance that liquifies in the Air like common Salt, and is ſo poignant as ſcarce to be borne by the Tongue. The Nature of this eſſential Salt has not been conſider'd by this Author; but by Experi<g ref="char:EOLhyphen"/>ments we find, that it is not a pure <hi>Alkali</hi> as ſome Chymiſts have imagin'd, neither is it an Acid, but is <hi>ſui generis,</hi> and partakes of both Qualities. For if you pour Spirit of <hi>Nitre, Aquafor<g ref="char:EOLhyphen"/>tis,</hi> or the like <hi>Acid</hi> upon the Urine, they will only produce a ſomewhat <hi>higher</hi> Colour in it; which <hi>acid</hi> Spirits, when mix'd
+<pb n="28" facs="tcp:0966000800:35"/>with either a fix'd or volatile <hi>Alkali,</hi> always occaſion a <hi>conſi<g ref="char:EOLhyphen"/>derable Ebullition.</hi> So if you put a <hi>nitrous</hi> Salt into the Spi<g ref="char:EOLhyphen"/>rit of Urine, it will turn it <hi>milky;</hi> and the like will happen if you do the ſame <hi>Salt of Tartar;</hi> which Experiments plainly prove this Salt to have both <hi>Acid</hi> and <hi>Alkali</hi> in its Compoſition. But to proceed,</p>
+               <p>THE Particles of <hi>Earth</hi> in the Urine are perceiv'd by the following one: If you evaporate the Urine till it comes to the Conſiſtence of Honey, and pour upon it the ſame Quantity of common Water, the Artificial Urine will have this in common with the Natural; that it will grow turbid and putrify, and be<g ref="char:EOLhyphen"/>fore its Putrifaction, will let fall a perfectly inſipid, ſubpallid and impalpable Powder every way agreeing with Elementary Earth.</p>
+               <p>THAT there is a <hi>Sulphur</hi> alſo in the Urine, though over<g ref="char:EOLhyphen"/>look'd by <hi>Bellini,</hi> is evident from the ſtrong Smell it has when only voided; but chiefly from that Foetidneſs ariſing from it, when it is in a State of Putrifaction, or during Evaporation; though there is indeed but a ſmall Quantity of this Principle, becauſe there is ſcarce any of it comes off in Diſtillation.</p>
+               <p>UPON theſe three Principles of Water, Salt, and Earth, and the different Proportions they bear to each other, depend in great meaſure the <hi>Colour, Saltneſs,</hi> and <hi>Couſiſtence</hi> of the Urine, with all the Varieties obſervable in each. If the aqueous Parts more than ordinary exceed the other, the Urine will be limpid or pale: If the Salts abound too plentifully, it will be of a ſhining flammeous Colour, but ſtill clear; the Salts being pellu<g ref="char:EOLhyphen"/>cid Bodies. If the Earth prevails, being an Opake Body, it will obſtruct the Paſſage of the Rays of Light, and produce a more intenſe Colour, taking off from the Clearneſs and Pellucidneſs of the Urine, and the more ſo as its Quantity encreaſes in an Over-proportion, till at length the Urine will be turbid and thick.</p>
+               <pb n="29" facs="tcp:0966000800:36"/>
+               <p>BUT beſides theſe three, it is reaſonable to think, that the natural Colour of the Urine is owing in great meaſure to the <hi>Sulphur</hi> contain'd in it. For though its Quantity is but ſmall, yet it ſtill retains its Colour after it is ſeparated from the other Principles, and will give a conſiderable Tincture to Water, when mix'd with it, which the other Principles of Salt and Earth will not do after their Separation, and yet <hi>they</hi> are allow'd on all hands to contribute chiefly to its Colour.</p>
+               <p>THE different Degrees of <hi>Saltneſs</hi> in the Urine ariſe from the different Quantities of Salt floating in the aqueous <hi>Men<g ref="char:EOLhyphen"/>ſtruum;</hi> whoſe Pungency upon the Tongue will be greater, the leſs Fluid there is to diſſolve them and obtund their <hi>Spiculae,</hi> and ſo <hi>vice versâ.</hi> And that the Urine will be of a <hi>groſſer</hi> or <hi>thinner</hi> Conſiſtence, as the ſolid Particles are in a greater or leſſer Degree, is ſo evident, that it wants no Explanation.</p>
+               <p>THE <hi>Contents</hi> obſervable in the Urine, which bear the Names of <hi>Nubeculae, Suſpenſiones</hi> and <hi>Sedimenta,</hi> are nothing elſe but theſe ſolid Particles; which when this compound Fluid is out of the Body and at <hi>reſt,</hi> ſeparate from the aqueous Part, and take place according to their ſpecifick Gravities; ha<g ref="char:EOLhyphen"/>ving theſe Appellations given them as they are found in the upper, middle, or loweſt part of the Urine: but ſo neverthe<g ref="char:EOLhyphen"/>leſs, that the different Denſity of theſe <hi>Contents</hi> at one time more than another, and the different Reſiſtance of the Medium in which they are ſuſpended, may afterwards alter their Situa<g ref="char:EOLhyphen"/>tion; inſomuch that what was at firſt a <hi>Suſpenſion,</hi> may at length ſubſide and become a <hi>Sediment.</hi>
+               </p>
+               <p>THE Nature of the Urine being thus known, we may draw ſeveral Inferences from it that will explain ſome Affections com<g ref="char:EOLhyphen"/>mon to the Animal OEconomy. Hence firſt the Reaſon ap<g ref="char:EOLhyphen"/>pears, why upon uſing Exerciſe, and in hot Weather, the Urine is of a higher Colour, and more ſalt and ſtimulating than at other times: and why the like Urine is made, after having ab<g ref="char:EOLhyphen"/>ſtain'd
+<pb n="30" facs="tcp:0966000800:37"/>ſome time from taking any Liquid. For in both caſes the ſolid Contents will be in a greater proportion than the aque<g ref="char:EOLhyphen"/>ous <hi>Menſtruum;</hi> this laſt being carry'd off through the Pores of the Skin in the firſt Inſtance, as in the ſecond a freſh Supply of it being for ſome time taken off from the Blood, what is ſecreted by the Kidneys in ſuch Circumſtances will be more than ordinarily ſaturated with theſe ſolid Principles.</p>
+               <p>THE foregoing Obſervation ſhews the Cauſe, which makes the Urine of healthy People and of a ſtrong Habit of Body, to have ſeldom the <hi>Nubeculae</hi> and <hi>Suſpenſiones</hi> found in it, but the Sediment more frequently; becauſe the two firſt conſiſting of the more fine and ſubtile Parts of the ſolid Contents, paſs off toge<g ref="char:EOLhyphen"/>ther with the aqueous by Sweat and Perſpiration, which the more groſs and heavy Particles that form the Sediment can't do, by reaſon of their Bulk and Figure, and therefore will be ſecreted by the Kidneys, and ſubſide by their own Gravity. The ſame ſhews the near Relation between the <hi>
+                     <g ref="char:V">Ʋ</g>rine</hi> and <hi>Sweat;</hi> and that the Increaſe of the laſt may ſupply the Defect of the Urinous Se<g ref="char:EOLhyphen"/>cretion in ſome meaſure; which is the reaſon that Patients linger ſo long under a total Suppreſſion of Urine from a Stoppage in the Kidneys, before this Ailment kills them; which ſome times in ſtrong Bodies is <hi>eighteen</hi> or <hi>twenty days:</hi> and there are ſe<g ref="char:EOLhyphen"/>veral Inſtances where the Urine has been totally ſuppreſs'd from the ſame Cauſe for <hi>fifteen</hi> and <hi>ſixteen</hi> Days together, and yet the Patients <hi>recover'd</hi>
+                  <note n="*" place="bottom">Stalpart. Obſervat. Centur. 1. Obſervat. 51</note>.</p>
+               <p>TO determine the exact <hi>Colour</hi> and <hi>Conſiſtence</hi> the Urine ought to have in healthy Perſons is almoſt impoſſible, by reaſon of the great Latitude that muſt be allow'd for the difference of <hi>Age, Conſtitution,</hi> and <hi>Diet</hi> of different Perſons, and of theſe in the ſame at different times. But ſeeing the two Extremes of a limpid Urine, and of a red and turbid one, are produc'd as either the watery <hi>Menſtruum</hi> or the ſolid Contents abound beyond meaſure, we may venture to conclude thus far, that from a due portion and mixture of theſe in a ſtate of perfect health,
+<pb n="31" facs="tcp:0966000800:38"/>there ſhould ariſe a <hi>Medium</hi> between theſe Extremes, which is a light <hi>yellow,</hi> or <hi>Citrine</hi> Colour. As to its <hi>Conſiſtence,</hi> re<g ref="char:EOLhyphen"/>gard being had to the foregoing Circumſtances, it ſhould be pret<g ref="char:EOLhyphen"/>ty near that of common Water, but ſomewhat more thick and heavy, by reaſon of the ſolid Principles contain'd in it.</p>
+               <p>WHY the natural <hi>Sediment</hi> ſhould be white, light and equal, is more eaſily accounted for. For ſeeing the Fluids ſecreted from the Blood, will be as the ſtate of the Blood at the time of their Secretion; and the Blood in a natural State is ſuppos'd always to be alike and equal to it ſelf, whatſoever Parts of it are ſeparated by the Kidneys in equal times, will alſo be alike and equal; and conſequently when out of the Body and at reſt, will mutually take place by one another, and render the <hi>Sediment</hi> equal. The <hi>Whiteneſs</hi> of it is owing to the large Quantity of <hi>Salts</hi> contain'd in it (as is manifeſt from the <hi>Bellinian</hi> Experi<g ref="char:EOLhyphen"/>ment)<note n="*" place="bottom">De Urinis, <hi>pag.</hi> 13.</note> which being united with the thick viſcid Parts of the Urine, will ſubſide along with them, and by the <hi>Rules of Op<g ref="char:EOLhyphen"/>ticks</hi> produce ſuch a Colour.</p>
+               <p>Hence in the laſt place we may know, how far the Inſpection of the Urine is <hi>uſeful</hi> in the practice of Phyſick: for by com<g ref="char:EOLhyphen"/>paring the ſeveral Appearances in the Urine of <hi>diſeaſed</hi> Perſons, with thoſe that <hi>naturally</hi> ariſe in it, and obſerving in what re<g ref="char:EOLhyphen"/>ſpects they differ from each other, we ſhall be inform'd in great meaſure of the preſent ſtate of the Blood, as to the mixture of its Parts, and the Proportion between them. And if we take notice at the ſame time of all the Symptoms that <hi>accompany</hi> ſuch Appearances, and <hi>follow</hi> upon them, we ſhall diſcover what the Diſtemper is that proceeds from ſuch a <hi>Craſis</hi> of Blood, and alſo prognoſticate the Event of it.</p>
+               <p>IT were eaſy to ſhew from Authors and private Obſervation what State of Blood each Alteration of the Urine diſcovers: but being confin'd to treat only of the Diſtempers belonging to ſome particular Organs, it will be impertinent to take notice of
+<pb n="32" facs="tcp:0966000800:39"/>any other, than what will lead us to the Knowledge of theſe; which will be ſeen in the remaining part of this Lecture.</p>
+               <p>WE have now gone through the <hi>
+                     <g ref="char:V">Ʋ</g>ſes</hi> of the <hi>Parts,</hi> and enquir'd into the <hi>Nature</hi> of the <hi>
+                     <g ref="char:V">Ʋ</g>rine;</hi> in which laſt I have for the moſt part follow'd <hi>Bellini</hi> in the moſt conciſe manner poſſible, as his Account of it is the beſt, both by his <hi>Experi<g ref="char:EOLhyphen"/>ments,</hi> and the <hi>Concluſions</hi> he draws from them. And as the <hi>latter</hi> are here prov'd by different Mediums from what he him<g ref="char:EOLhyphen"/>ſelf made uſe of, they ſo far make them bid fairer for Truth.</p>
+            </div>
+            <div n="3" type="section">
+               <pb n="33" facs="tcp:0966000800:40"/>
+               <head>SECTION III.</head>
+               <div type="part">
+                  <head> PART I. Of a <hi>STONE</hi> in the <hi>KIDNEYS.</hi>
+                  </head>
+                  <p>
+                     <seg rend="decorInit">T</seg>HE <hi>Organs of <g ref="char:V">Ʋ</g>rine</hi> are incident to ſeveral Indiſ<g ref="char:EOLhyphen"/>poſitions, in common with other Parts of the like Structure and Compoſition, and which ſpring alſo from the ſame general Cauſes; As <hi>Inflammations, Tumours, Abſceſſes, <g ref="char:V">Ʋ</g>lcers, Schirri, &amp;c.</hi> but the moſt frequent, and indeed chief Diſtempers that afflict them proceed from the Urine ſeparated by them, or paſſing through them. Theſe are attend<g ref="char:EOLhyphen"/>ed with very untoward Symptoms, and if of long Continuance, very fatal Conſequences: none of which are more common than thoſe ariſing from a <hi>Stone</hi> in the <hi>Kidneys</hi> or <hi>Bladder;</hi> which ſhall therefore be the Subject of the remaining part of this <hi>Lecture.</hi>
+                  </p>
+                  <p>IF we compare what has been ſaid in the foregoing part of it, concerning the Elementary Principles of the Urine, with ſeveral Experiments made upon theſe concreted Subſtances, it will appear, that the material Cauſe of a <hi>Stone</hi> in the <hi>Kidney</hi> is originally in the natural Compoſition of this Fluid: For we find from Chymiſtry and microſcopical Obſervations, that what we call a <hi>Stone</hi> almoſt entirely conſiſts of a volatile and fix'd <hi>Salt,</hi> ſuch as the Urine plentifully abounds with. In order therefore to form a calculous Concretion, there is no <hi>Petrefac<g ref="char:EOLhyphen"/>tion</hi> requir'd, as the Naturaliſts term it, nor any change of Sub<g ref="char:EOLhyphen"/>ſtance in the conſtituent Parts of the Urine, but only a Separa<g ref="char:EOLhyphen"/>tion of the ſaline and ſome earthy Particles of it from the Fluid, and ſuch an intimate Coheſion of theſe ſolid Corpuſcles there<g ref="char:EOLhyphen"/>upon, as not to be diſunited or diſſolv'd again by any ſubſequent Afflux of Urine upon them.</p>
+                  <pb n="34" facs="tcp:0966000800:41"/>
+                  <p>BOTH theſe Accidents will happen, if either the <hi>Salts</hi> are in ſuch <hi>great abundance</hi> in the Urine, that they cannot paſs through the <hi>exceeding ſmall Ducts</hi> that form the <hi>Papillae;</hi> or if they are hinder'd from moving through them by any <hi>viſcid Matter</hi> that is ſeparated along with them, and ſo unites them to<g ref="char:EOLhyphen"/>gether; or if theſe <hi>Ducts</hi> themſelves are ſo much <hi>compreſs'd</hi> or <hi>contracted,</hi> as not to admit the Salts through their Cavities. For in all theſe Circumſtances the ſaline <hi>Lympha</hi> will ſtagnate at the <hi>Papillae,</hi> whereby the Salts will be brought too near one another; which being Corpuſcles of very great attractive Powers, they will be more ſtrongly attracted by each other than by the Fluid in which they are ſuſpended, and conſequently will ſepa<g ref="char:EOLhyphen"/>rate from it, and unite in one ſolid Subſtance.</p>
+                  <p>THAT any of theſe three Cauſes may ſingly produce ſuch a Concrete, if they exiſt in the Degree laid down, is prov'd from the Nature of <hi>Salts in general,</hi> when in <hi>Fluore,</hi> and the Con<g ref="char:EOLhyphen"/>ſequences that muſt follow from their being brought too much within the Sphere of each others Activity; more particularly from the Nature of <hi>thoſe,</hi> of which the <hi>Stone</hi> conſiſts; which are ſo very attractive, that even when a <hi>Calculus</hi> is reduc'd to a <hi>Caput Mortuum,</hi> and beat into an impalpable Powder, ſo that it will diſſolve in Water, yet in a ſhort time the Salts will ſe<g ref="char:EOLhyphen"/>parate from it, and coagulate ſo ſtrongly, that though the Wa<g ref="char:EOLhyphen"/>ter is heated never ſo intenſely, they will not diſſolve in it again.</p>
+                  <p>HOWEVER it is reaſonable to think, that a <hi>Nucleus</hi> of a firm Conſiſtence is ſeldom form'd by the firſt or ſecond Cauſe, without the Concurrence of the laſt; as on the other hand, that the laſt alone will produce one. For though there ſhould be an over large Quantity of Salts in the Urine, or if an uſual Quantity ſhould be envellop'd in a viſcid Matter, yet if the <hi>urinary Ducts</hi> are of a natural Dimenſion, they would not ſtagnate at the <hi>Papillae,</hi> unleſs theſe Qualities were in a very great degree; but would be protruded through their Orifices by the force and weight of the next Urine flowing upon them:
+<pb n="35" facs="tcp:0966000800:42"/>whereas if theſe Ducts ſhould be much contracted, even a natu<g ref="char:EOLhyphen"/>ral proportion of Salts would ſtagnate there. And I think it is plainly prov'd, that a <hi>Nucleus</hi> is form'd more from the Fault of the <hi>Kidney</hi> it ſelf, than from the Qualities of the Urine; in that <hi>one</hi> Kidney only is generally affected, whilſt the other remains free. For if the Fault lay as much in the Urine, they would <hi>both</hi> be affected alike, the U<g ref="char:EOLhyphen"/>rine ſeparated by <hi>both Kidneys</hi> neceſſarily partaking of the ſame Qualities. However, that the two firſt are concomitant Cauſes, and very much contribute towards the Generation of a <hi>Stone</hi> is highly probable; and it is almoſt certain, that a ſa<g ref="char:EOLhyphen"/>bulous Sediment, or what is call'd the <hi>Gravel,</hi> may owe its Origin to either of theſe Cauſes ſingly.</p>
+                  <p>AS a farther Confirmation of the Truth of what has been laid down, it were eaſy to ſhew, that the antecedent Cauſes of a Nephritick Fit introduce one or both of theſe Qualities in the Urine, or affect the Paſſages of the <hi>Kidneys</hi> in the manner juſt mention'd: but as it will be troubling you with frequent Repe<g ref="char:EOLhyphen"/>titions of the ſame way of Reaſoning, to explain how each in particular operates towards producing one or more of theſe Effects, I ſhall mention the chief and moſt common procatartick Cauſes, which are comprehended in the following Obſervation, <hi>viz.</hi> that thoſe Perſons who make <hi>ſpirituous Liquors</hi> their conſtant Drink, and uſe them too plentifully; or thoſe who have <hi>weak Stomachs,</hi> or live upon Food that abounds with <hi>viſcid Juices;</hi> or thoſe who altogether lead an <hi>unactive</hi> and <hi>ſedentary Life,</hi> are, above all others, moſt afflicted with this Diſtemper. And that the Urine of ſuch Perſons muſt neceſſa<g ref="char:EOLhyphen"/>rily be over-ſtock'd with Salts, or with a tenacious viſcid Mat<g ref="char:EOLhyphen"/>ter, or that the Channels of the <hi>Kidneys</hi> will be too much ſtraitned or compreſs'd according as either of theſe Cauſes prevail, will appear upon Examination.</p>
+                  <p n="1">
+                     <hi>1ſt.</hi> IN the firſt Part of this Obſervation it is to be taken notice of, that all <hi>ſpirituous Liquors</hi> abound plentifully with Salts; a Spirit being nothing elſe but a large Quantity of theſe Subſtances ſuſpended in a little Water and Oil; whence from frequent drinking theſe Liquors the Blood will be over-ſtock'd
+<pb n="36" facs="tcp:0966000800:43"/>with this <hi>Principle.</hi> But beſides this, from an habitual Uſe of them, in proceſs of Time, the <hi>Serum</hi> which is the moſt aque<g ref="char:EOLhyphen"/>ous part of the Blood, will contain a large Portion of a ſpiri<g ref="char:EOLhyphen"/>tuous Fluid; and we know from Experiments, that a urinous Salt will not diſſolve in ſuch a <hi>Menſtruum:</hi> upon which ac<g ref="char:EOLhyphen"/>count the Quantity of Salts brought into the Blood with our Food will be daily encreas'd. Now the Urine being ſeparated principally and immediately from the <hi>Serum,</hi> which is over ſalt upon a double account, muſt likewiſe from the Nature of its Secretion be over ſalt too.</p>
+                  <p>HENCE we can account why the Fits of the <hi>Stone</hi> are not ſo ſevere in Women as in Men; they generally drinking leſs Wine, and feeding leſs upon ſuch groſs Meats as abound with Salts. And for the ſame reaſon we may conclude, that the Exemption thoſe Perſons enjoy from this Diſtemper, who only drink Malt Liquors, is owing a great deal to the leſſer Quantity of Salts in theſe Potables, than in Wine.</p>
+                  <p n="2">
+                     <hi>2dly.</hi> AS an over ſalt Urine is the Conſequence of the fore<g ref="char:EOLhyphen"/>going Cauſe, ſo from a <hi>bad Digeſtion</hi> and <hi>viſcid Food</hi> the Urine will be ſlimy and roapy. For the Aliment being too viſcid, or not ſufficiently comminuted in the Stomach, the Chyle will be more than ordinary viſcid, which being conſtantly ſent into the Blood, will render that in ſome time of the ſame Nature. But over and above this, the Salts which are the moſt incor<g ref="char:EOLhyphen"/>ruptible part of our Food, being not thoroughly broken through the weakneſs of the digeſtive Powers, will exiſt in larger Combi<g ref="char:EOLhyphen"/>nations than uſual; and at the ſame time be enclos'd in a gelati<g ref="char:EOLhyphen"/>nous Chyle, which will hold them together; for which reaſon the Blood will not only be too viſcid, but the Salts of it will not be ſufficiently diſſolv'd in its <hi>Serum;</hi> whence it follows from the ſame Reaſoning as in the former, that the Urine muſt be likewiſe too viſcid, and its Salts brought too near one another, which will occaſion them to cohere. From hence it appears, that <hi>Galen</hi> did not altogether err, when he attributed the material Cauſe of a <hi>Stone</hi> to a thick, ſlimy, and tenacious Matter<note n="*" place="bottom">De Renum affect.</note>, not<g ref="char:EOLhyphen"/>withſtanding
+<pb n="37" facs="tcp:0966000800:44"/>withſtanding his Notion has been rejected by ſeveral modern Writers: ſince being thus explain'd as a concomitant Cauſe, it is agreeable both to Reaſon and Fact.</p>
+                  <p>ACCORDINGLY we find, that Children are more tor<g ref="char:EOLhyphen"/>mented with the <hi>Stone</hi> of the <hi>Bladder</hi> than Adults; and eſpe<g ref="char:EOLhyphen"/>cially the poorer ſort of them who are generally nouriſh'd with Food that affords ſlimy and tenacious Juices. <hi>Hippocrates</hi> a<g ref="char:EOLhyphen"/>ſcribes one Principle of the <hi>Stone</hi> in Children to bad <hi>Milk;</hi> which he ſays, being earthy and phlegmatick, will induce a Len<g ref="char:EOLhyphen"/>tor into the Stomach, and when mix'd with the Sediment of the Urine in the Bladder cohere and become ſolid<note n="*" place="bottom">Lib. de Morbis 4. Sect. 28.</note>; much more then will the ſame Conſequences follow from <hi>Cheeſe, Fiſh,</hi> and the other coarſer Diet of the Poor; and there has been no bet<g ref="char:EOLhyphen"/>ter Reaſon aſſign'd, why ſuch young Subjects being once cut, ſeldom require the Operation a ſecond time, than that as they grow up, their Diet is either alter'd, or the digeſtive Powers en<g ref="char:EOLhyphen"/>creaſe, and the Solids become ſtronger, whereby the Aliment will be more intimately divided, and any viſcous Matter or Com<g ref="char:EOLhyphen"/>bination of Salts be broken by this means, and excluded the Ha<g ref="char:EOLhyphen"/>bit by the force of Labour and Exerciſe. Agreeable to this is another Obſervation of <hi>Hippocrates</hi>
+                     <note n="‡" place="bottom">Coacae Praenotiones N<hi rend="sup">o</hi> 512.</note> that a <hi>Stone</hi> is not form'd in the <hi>Bladder</hi> from the <hi>Fourteenth</hi> to the <hi>Sixty third</hi> Year of Age; in which time we all know the digeſtive Powers are moſt vigorous.</p>
+                  <p n="3">
+                     <hi>3dly,</hi> HOW an <hi>unactive ſedentary</hi> Life, which is the laſt pro<g ref="char:EOLhyphen"/>catartick Cauſe taken notice of, ſhould bring on a ſtraitneſs in the Urinary Paſſages of the Kidney, a competent Knowledge in Anatomy will inform us. This teaches us, that by a ſedentary and bending Poſture of the Body, not only all the <hi>Viſcera</hi> of the <hi>Abdomen,</hi> but the greater Blood-Veſſels themſelves will be com<g ref="char:EOLhyphen"/>preſs'd; eſpecially the <hi>Emulgents,</hi> and that part of the <hi>Aorta</hi> and <hi>Vena Cava</hi> whence they go off, as being plac'd where the Flexure is greateſt. But this is not the only Conſequence; for from ſuch a Poſition the <hi>Viſcera</hi> will alſo be forc'd backwards and downwards, and will conſequently preſs externally upon
+<pb n="38" facs="tcp:0966000800:45"/>theſe Veſſels, ſo that the weighty <hi>Viſcus</hi> of the <hi>Liver</hi> on one ſide, and the <hi>Spleen</hi> on the other, will as it were ſqueeze the <hi>Kidneys,</hi> which are plac'd between them and the <hi>Muſculi Lum<g ref="char:EOLhyphen"/>bares:</hi> upon both which accounts, it is no wonder if the Uri<g ref="char:EOLhyphen"/>nary Ducts that are continu'd from the Emulgent Arteries, and are by much the moſt yielding Subſtance and of the fineſt Con<g ref="char:EOLhyphen"/>tecture, ſhould ſuffer moſt, and be ſo ſtraitned as to occaſion the ſaline <hi>Lympha</hi> to ſtagnate in them.</p>
+                  <p>TO this Cauſe it is owing, that thoſe Tradeſmen and Artifi<g ref="char:EOLhyphen"/>cers, who ſit much at their Work, are troubled with Pains in their Loins, as <hi>Rammazzini</hi> has obſerv'd<note n="*" place="bottom">De morbis Artificum, cap. 33.</note>; and that Nephri<g ref="char:EOLhyphen"/>tick Complaints are almoſt entail'd upon ſtudious Men<note n="‡" place="bottom">Id. cap. 43.</note>. And from the ſame Cauſe it comes to paſs, that few People who are troubled with the <hi>Gout</hi> eſcape theſe Complaints at the laſt; for although as long as the <hi>Kidneys</hi> are able to do their Office, and tranſmit all the conſtituent Parts of the Urine through them, theſe Nephritick Symptoms will not ariſe (though they proceed from one common Parent) yet when the Fits of the <hi>Gout</hi> be<g ref="char:EOLhyphen"/>come frequent, and of ſuch long continuance, as to confine the Patient very often, and for a great while together, the Conſe<g ref="char:EOLhyphen"/>quence will be ſuch a Diſpoſition of the <hi>Kidneys</hi> as is juſt de<g ref="char:EOLhyphen"/>ſcrib'd, and the <hi>Stone</hi> will come in aid to his Deſtruction.</p>
+                  <p>MANY other Errors in the Non-naturals which are reckon'd by our Writers among the procatartick Cauſes of this Diſeaſe, are included in the foregoing Obſervation, or may be accounted for the ſame way; excepting an <hi>hereditary Diſpoſition,</hi> which cannot be rank'd amongſt any of them, and requires a parti<g ref="char:EOLhyphen"/>cular Explanation to its ſelf; but this is needleſs formally to en<g ref="char:EOLhyphen"/>ter upon, ſince it is as eaſy to conceive, that Parents may com<g ref="char:EOLhyphen"/>municate a parricular Diſpoſition of their Solids and Fluids to their Offspring, as that they can ſtamp upon them their Features, or tinge them with their Complexion.</p>
+                  <pb n="39" facs="tcp:0966000800:46"/>
+                  <p>TO proceed then, a <hi>Nucleus</hi> thus form'd in the Urinary <hi>Tubes</hi> of the <hi>Kidney,</hi> will at length by its own Weight and that of the Urine coming upon it, be forc'd through the <hi>Carunculae Papillares</hi> into the <hi>Pelvis:</hi> where if it makes no long ſtay, but is ſmall enough to paſs through the <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> into the <hi>Bladder,</hi> it will not occaſion a Nephritick Paroxiſm, but only ſome Pain from the roughneſs and hardneſs of its Subſtance preſſing againſt and vellicating the extreme ſenſible Fibres of this Tube. But if from its pointed Surface it ſhould chance to adhere to the <hi>Pel<g ref="char:EOLhyphen"/>vis,</hi> or from any other Accident lodge in it ſo long, till by the addition of adventitious Concretions, it is render'd too big to paſs through the Head of the <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> without diſtending it, a true <hi>Nephritick Fit</hi> will be produc'd.</p>
+                  <p>THIS is attended with the following <hi>Diagnoſticks,</hi> viz. <hi>A</hi> fixed Pain <hi>in the Region of the Loins, which is propagated through the whole length of the</hi> Ureter, <hi>and accompany'd with a</hi> Nauſea <hi>and</hi> Vomiting, <hi>a</hi> numbneſs <hi>in the Thigh and Leg of the ſide affected, and a</hi> Retraction <hi>of the Teſticle of the ſame ſide. The</hi> Urine <hi>about the beginning is</hi> thin, aqueous, <hi>and</hi> pale, <hi>and voided in</hi> ſmall <hi>Quantities; and if both Kidneys are affected, ſometimes totally</hi> ſuppreſs'd; <hi>but in the</hi> Decline <hi>of a Fit, and after the</hi> Stone <hi>has paſs'd into the</hi> Bladder, <hi>it becomes</hi> thick <hi>and</hi> turbid, <hi>and is diſcharg'd</hi> copiouſly. <hi>Very often</hi> Blood <hi>flows out together with the <g ref="char:V">Ʋ</g>rine; which is many times in ſo large a Quantity, as eaſily to diſcover it ſelf; at others in ſmall a one, as only to tinge it of a Coffee Colour. But the moſt cer<g ref="char:EOLhyphen"/>tain</hi> Diagnoſtick, <hi>and which is a</hi> Pathagnomick <hi>Sign is, if to any of the foregoing is added a frequent Excretion of</hi> ſabulous <hi>Matter, or a ſmall</hi> Stone.</p>
+                  <p>BESIDES the Diagnoſticks now cited, for the Knowledge of which the World ſtands indebted to Hippocrates<note n="*" place="bottom">Lib. de intern. affect. Sect. 15. Id. lib Epidemic. 6. Sect. 1.</note>, there is another taken notice of by him, which although when alone does not particularly indicate a Stone in this Part, yet together
+<pb n="40" facs="tcp:0966000800:47"/>with ſome of the former, will aſſiſt us in making a right Judg<g ref="char:EOLhyphen"/>ment of the Diſtemper. This is contain'd in one of his Apho<g ref="char:EOLhyphen"/>riſms, and is certainly above a <hi>Nurſe's</hi> Obſervation (though we have been lately told the contrary) <hi>let her be never ſo old or experienc'd.</hi> He lays it down as a Maxim, that when <hi>Bubbles</hi> ſwim upon the Surface of the Urine, they indicate Nephritick Diſorders, and a long Indiſpoſition *.</p>
+                  <p>THESE Diagnoſticks may all appear at one time or other in the Courſe of one Paroxiſm; but generally the Symptoms are in a greater or leſſer Degree, and ſometimes one, ſometimes another ſhows it ſelf according to the <hi>Nature</hi> of the <hi>Stone,</hi> and the particular <hi>Place</hi> where it is lodg'd. If it as yet remains within the <hi>Body</hi> of the <hi>Kidney,</hi> and has not enter'd the Head of the <hi>
+                        <g ref="char:V">Ʋ</g>reter,</hi> the Pain will be obtuſe and eaſily born; the Sub<g ref="char:EOLhyphen"/>ſtance of the <hi>Kidney</hi> being very ſparingly furniſh'd with Nerves. Nay it is certain that it may lie quiet a long time, without cre<g ref="char:EOLhyphen"/>ating any remarkable Inconvenience, from ſeveral Examples in daily Practice, of ſuch a Body's being found in this Part, which has fill'd the <hi>Pelvis,</hi> all its Branches, and even poſſeſs'd the greateſt Part of the <hi>Kidney,</hi> and yet the Subjects, from whom it was taken, have labour'd under no very painful Symptoms, nor have had but very little Warning before ſome accidental Shock has unfortunately alter'd its Poſition, and ſo brought on a <hi>Paroxiſm</hi> that ended fatally. Agreeable to this, <hi>Heur<g ref="char:EOLhyphen"/>nius</hi>
+                     <note n="‡" place="bottom">Aphoriſm. 34. Sect. 7. cap. 12.</note>, upon opening a Patient, took out of one Kidney <hi>ſeventy</hi> ſmall Stones, and from the other <hi>fourſcore,</hi> and yet the Perſon had never before complain'd of any Nephritick Symptoms. And <hi>Bonetus</hi>
+                     <note n="‡" place="bottom">Medicin. Septentrional. Lib. 3. de imo Ventre, Sect. 25. cap. 6.</note> relates from <hi>Anton. de Pozzis,</hi> that he found in each <hi>Kidney</hi> a <hi>Stone</hi> weighing <hi>ſix Ounces,</hi> without any previous Symptoms either of Gravel or Numbneſs in the Loins, or a Di<g ref="char:EOLhyphen"/>minution in the Quantity of Urine, it flowing more copiouſly, but limpid as Water, only attended with an inſatiable Thirſt.<note n="‡" place="bottom">Fernelii Opera à Heurnio Edit. Part 2. Lib. 6.</note>
+                  </p>
+                  <pb n="41" facs="tcp:0966000800:48"/>
+                  <p>BUT when the <hi>Stone</hi> moves into the <hi>head of the <g ref="char:V">Ʋ</g>reter,</hi> and twitches and diſtracts its extreme ſenſible Membranes, the Pain will be <hi>acute, pungent</hi> and <hi>lancing,</hi> and all the other Symp<g ref="char:EOLhyphen"/>toms vehemently exaggerated. The <hi>Vomiting</hi> will be frequent and violent; becauſe the <hi>Stone</hi> irritating the Branches of the <hi>In<g ref="char:EOLhyphen"/>tercoſtal Nerve,</hi> the <hi>Par Vagum</hi> will ſuffer by conſent, being intimately interwoven with the former, and both together making <hi>one Plexus</hi> in this part of the Body. Hence the Animal Spirits will flow convulſively and in great plenty to the Stomach, which receives Nerves from the <hi>Par Vagum;</hi> by which means its Fibres will be brought into Spaſmodick Contractions, which will forci<g ref="char:EOLhyphen"/>bly throw out any Contents lodg'd therein.</p>
+                  <p>THERE will be a <hi>Numbneſs</hi> felt in the <hi>Thigh</hi> and <hi>Leg</hi> of the ſide affected, both by reaſon that the <hi>Pſoas Muſcle,</hi> upon which the <hi>Kidney</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> lay, will be compreſs'd by this extraneous Body; and foraſmuch as the <hi>Nerve</hi> that is ſent off from the Spinal Marrow, and is diſtributed through the <hi>Crural</hi> Muſcles will undergo the like Compreſſion: whence the free Influx of the Animal Spirits into the Muſcles being partly taken off, ſuch a Senſation will naturally ariſe. And to the ſame Cauſe, together with the Nerves of theſe Parts, being convuls'd by the <hi>Stimulus</hi> of the <hi>Stone,</hi> is owing that difficulty of walking up<g ref="char:EOLhyphen"/>right obſervable in the Fit.</p>
+                  <p>THIS convulſive Contraction from the Violence of the Pain, will be propagated to all the Parts that lie contiguous, and have any near Relation to thoſe immediately affected. For which rea<g ref="char:EOLhyphen"/>ſon the <hi>Peritonaeum,</hi> in whoſe duplicative the <hi>Kidney</hi> is plac'd, and which gives an outward Coat to it, as alſo the <hi>Vaſa Praepa<g ref="char:EOLhyphen"/>rantia,</hi> which run between its <hi>Lamellae,</hi> and are furniſh'd with Nerves from the ſame Pair that the <hi>
+                        <g ref="char:V">Ʋ</g>reters</hi> are, will be conſi<g ref="char:EOLhyphen"/>derably contracted, and <hi>draw up the Teſticle</hi> to which they are affix'd. But this Symptom proceeds likewiſe in great meaſure, if not principally, from the praeternatural ſhortneſs of the <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> at this time; whereby the <hi>Vas Deferens,</hi> which paſſes over it
+<pb n="42" facs="tcp:0966000800:49"/>and between it and the <hi>Bladder,</hi> will be pull'd up by the <hi>
+                        <g ref="char:V">Ʋ</g>re<g ref="char:EOLhyphen"/>ter,</hi> and draw the <hi>Teſticle</hi> after it.</p>
+                  <p>AS all theſe Symptoms are aggravated whilſt the <hi>Stone</hi> re<g ref="char:EOLhyphen"/>mains in the <hi>
+                        <g ref="char:V">Ʋ</g>reter,</hi> ſo they abate or altogether ceaſe, as ſoon as it has paſs'd into the <hi>Bladder.</hi> In like manner the other concomitant Signs vary according to the Nature of the <hi>Stone:</hi> If it is ſo large as to plug up the Orifices of the <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> or <hi>Pa<g ref="char:EOLhyphen"/>pillae,</hi> and both <hi>Kidneys</hi> affected, the Urine will be <hi>totally ſup<g ref="char:EOLhyphen"/>preſs'd;</hi> or if it is ſo big, or plac'd in ſuch a manner, as not to give room for the ſolid Contents to paſs through, the Urine will be <hi>thin, aqueous</hi> and <hi>limpid.</hi> If the <hi>Stone</hi> by its pointed Sur<g ref="char:EOLhyphen"/>face ſhould have lacerated the Blood-Veſſels, or by its bigneſs very much diſtended the <hi>
+                        <g ref="char:V">Ʋ</g>rinary Ducts,</hi> as it mov'd through them, in both Caſes the Urine will be <hi>bloody.</hi> If its Coheſion is ſo lax, as eaſily to be broken, ſome of its Parts will be waſh'd away gradually by the transfluent Urine; or if it occaſions a <hi>Paroxiſm,</hi> before it is much indurated, a Portion of Sand ad<g ref="char:EOLhyphen"/>hering to its Surface will be abraded by the ſame Transflux; in both which Caſes there will be a <hi>frequent Secretion of ſabulous Matter:</hi> and if it is of a firm Conſiſtence, but ſmall enough to move through the <hi>
+                        <g ref="char:V">Ʋ</g>reter,</hi> though with the utmoſt difficulty, it will be voided <hi>entire.</hi>
+                  </p>
+                  <p>BUT there is another Reaſon, beſides this now given, why the Urine at the beginning of a Fit ſhould be pale, and made in ſmall Quantities, but in its Decline become turbid and diſcharg'd copiouſly, which at the ſame time has no relation to the Nature of the <hi>Stone;</hi> and that is, becauſe this praeternatural Subſtance irritating the <hi>Kidney,</hi> the <hi>Tubuli <g ref="char:V">Ʋ</g>rinarii,</hi> which are the ſepara<g ref="char:EOLhyphen"/>ting Canals, will be very much contracted, as lying ſo near the greateſt Force of the <hi>Stimulus:</hi> by which means, there will not only be very little <g ref="char:V">Ʋ</g>rine ſeparated during ſuch Circumſtan<g ref="char:EOLhyphen"/>ces, but likewiſe what is, will be thinner than uſual, the more groſs Parts of it not being ſmall enough to paſs through their Orifices in this contracted State; or if they do, will ſtagnate at the <hi>Papillae.</hi> And theſe Effects will be propagated in ſome de<g ref="char:EOLhyphen"/>gree
+<pb n="43" facs="tcp:0966000800:50"/>alſo to the other <hi>Kidney,</hi> as it is furniſh'd with Nerves from the ſame <hi>Plexus.</hi> But when the <hi>Stone</hi> has mov'd through the <hi>
+                        <g ref="char:V">Ʋ</g>reter,</hi> or the <hi>Stimulus</hi> it occaſions is cluded by proper Reme<g ref="char:EOLhyphen"/>dies, theſe ſmall <hi>Tubes</hi> will be relax'd, and recover their former Dimenſions; whereby a larger Quantity of Urine will be ſepa<g ref="char:EOLhyphen"/>rated, and thoſe ſolid Particles that ſtagnated in them waſh'd a<g ref="char:EOLhyphen"/>way, which mixing with the Urine will make it turbid.</p>
+                  <p>IF we reflect on the Nature of theſe various Diagnoſticks, we ſhall find, that though all of them taken together are Direc<g ref="char:EOLhyphen"/>tion ſufficient to pronounce the Complaint to be the <hi>Stone,</hi> yet when conſider'd ſeparately, many of them are <hi>equivocal,</hi> and may ſpring from other Cauſes: and it is commonly known, that the Symptoms of the <hi>Cholick</hi> bear ſo near a reſemblance to many of theſe, that it is frequently difficult to diſtinguiſh between them. Indeed when any of the <hi>Pathognomonick</hi> Signs appear, as Sand or ſmall Stones in the Urine, the Cauſe ſtands confeſs'd; or if the Urine is bloody, and a Numbneſs perceiv'd in the Thigh and Leg, we may know that it is not the <hi>Cholick:</hi> but when none of theſe ſhew themſelves, the Cauſe is ſtill latent, and muſt be diſcover'd by ſome diſtinguiſhing Characteriſticks peculiar to it ſelf. Theſe were firſt mark'd out by <hi>Galen,</hi> from whom all ſucceeding Writers have borrow'd, or rather copy'd what they have wrote on this Subject: to whom therefore I refer the Inquiſitive; and ſo much the rather, becauſe it will thence appear, that <hi>ſome beneficial Knowledge</hi> may be got from <hi>Galen too, though one of the antient Writers of the Faculty</hi>
+                     <note n="*" place="bottom">Galen de loc. affect. lib. 6. cap. 2.</note>.</p>
+                  <p>THE Symptoms likewiſe that ariſe when the <hi>Kidneys</hi> are <hi>hyſterically</hi> affected, mimick a Nephritick Fit, not only in the Nature and Situation of the Pain, and the exorbitant Vomiting which attends it, but alſo in the Propagation of it into the <hi>
+                        <g ref="char:V">Ʋ</g>re<g ref="char:EOLhyphen"/>ters, &amp;c.</hi> and are not eaſily diſtinguiſh'd, unleſs from the <hi>pre<g ref="char:EOLhyphen"/>vious Diſpoſition</hi> of the Patient to one Complaint more than the other, or from the diſcharge of a <hi>porraceous</hi> Matter by Vomit, or from the conſtant <hi>Limpidneſs</hi> of the Urine, which
+<pb n="44" facs="tcp:0966000800:51"/>in the Hyſterick Affection continues hi the ſame Condition all the time it laſts, whereas in the other it grows higher colour'd and turbid. A <hi>Rheumatick</hi> Pain in the Loins produces the ſame Effects, but may be diſcern'd from the Difficulty the Patient finds in <hi>raiſing</hi> his Body from a bending Poſture to an erect one, and the <hi>Senſation</hi> ariſing thereupon; which is as if he was cut through the middle. The laſt I ſhall mention is the <hi>Nephritis</hi> or <hi>genuine</hi> Inflammation of the <hi>Kidney,</hi> which reſembles a Ne<g ref="char:EOLhyphen"/>phritick <hi>Paroxiſm</hi> in moſt Points, but may be known from the <hi>acute Fever</hi> that conſtantly attends it, and from the <hi>revers'd Condition</hi> of the Urine; which in this Diſeaſe is red and flam<g ref="char:EOLhyphen"/>meous at the beginning; but when the Inflammation is at the greateſt height, it becomes aqueous and limpid, whereas in the Nephritick <hi>Paroxiſm</hi> it is juſt the contrary.</p>
+                  <p>THE <hi>Prognoſtick</hi> during a <hi>Paroxiſm,</hi> is taken from the vehemence and duration of the Symptoms, and the different Ap<g ref="char:EOLhyphen"/>pearances that ariſe in the Courſe of it; which any one may foreſee the Conſequence of, who is acquainted with the Reaſon of their appearing. As to the Diſeaſe in general, in <hi>old</hi> People who have been haraſs'd with <hi>many Shocks</hi> of it, and whoſe <hi>
+                        <g ref="char:V">Ʋ</g>rine and Kidneys have been a long time faulty,</hi> it is <hi>incurable</hi>
+                     <note n="*" place="bottom">Hippocrat. aph. 6. ſect. 6.</note>: Ac<g ref="char:EOLhyphen"/>cording to which <hi>Aretaeus</hi> has obſerv'd, that it is more difficult to prevent the <hi>Kidneys</hi> and <hi>Bladder,</hi> that are obnoxious to a calculous Diſpoſition, from generating theſe Subſtances, than it is to make a <hi>Prolifick Womb barren</hi>
+                     <note n="‡" place="bottom">De curatione Morbor. diuturn. lib. 2. cap. 3.</note> When it proceeds like<g ref="char:EOLhyphen"/>wiſe from an <hi>hereditary Diſpoſition,</hi> or if at the ſame time there is an <hi>
+                        <g ref="char:V">Ʋ</g>lcer</hi> in the <hi>Kidneys</hi>
+                     <note n="‡" place="bottom">Sennertus lib. 3. Part 7. Sect. 1. cap. 6.</note>, the ſame Judgment is to be made: and indeed at beſt the general Prognoſtick is melancholy enough; the moſt that a Phyſician can do, being to relieve the Patient from a preſent Fit, and ward off another as long as he can.</p>
+                  <p>THE Indications of Cure during a <hi>Paroxiſm</hi> are to force the <hi>Stone</hi> into the <hi>Bladder;</hi> to facilitate its Paſſage thither, by relaxing and enlarging the Dimenſions of the <hi>
+                        <g ref="char:V">Ʋ</g>reters,</hi> that they may yield and give way to its Motion; to guard them againſt
+<pb n="45" facs="tcp:0966000800:52"/>the hardneſs and aſperity of its Subſtance, that it may not injure them in irs way; and laſtly, to mitigate and take off the exorbi<g ref="char:EOLhyphen"/>tant Symptoms.</p>
+                  <p n="1">
+                     <hi>1ſt.</hi> THE firſt is anſwer'd by a plentiful adminiſtration of <hi>Diuretick Medicines;</hi> eſpecially ſuch, as by their attenuating and deterſive Qualities do thin viſcid Humours, and ſcour the Veſſels they paſs through. But ſince in the preſent Caſe there is a great Stricture and Tenſion of the Parts from the Violence of the Pain, and as the <hi>ſtronger</hi> Diureticks act with a <hi>Stimulus,</hi> it is unſafe to uſe them; leſt inſtead of forcing a Paſſage they ſhould contract and ſtraiten what was too ſtrait before: The only Re<g ref="char:EOLhyphen"/>medies of this Claſs then, that can ſafely be adminiſtred with a free Hand, are thoſe, which at the ſame time they encreaſe the Quantity of the Urine, do by their <hi>balſamick</hi> Properties and <hi>Smoothneſs</hi> lubricate and relax the Urinary Paſſages: upon which account the <hi>Turpentines</hi> and <hi>Balſams</hi> are of ſingular Service in theſe Complaints; eſpecially when blended with Me<g ref="char:EOLhyphen"/>dicines appropriated to the next Intention.</p>
+                  <p n="2">
+                     <hi>2dly.</hi> THIS indicates the Uſe of <hi>emollient, lenient</hi> and <hi>anodyne</hi> Remedies; of which ſort are oily Compoſitions, and ſuch Roots and Herbs as abound with ſmooth mucilaginous Juices; which, at the ſame time they relax the ſolid Fibres, do by their Smoothneſs and Viſcoſity blunt the Acrimony of the Humours, and defend the Paſſages from the roughneſs of the <hi>Stone. Emollient Clyſters</hi> injected at proper Intervals very much contribute to theſe Ends; both as they empty the <hi>Colon</hi> of Wind and Excrement, which diſtending the Inteſtine, cauſe it to preſs againſt the <hi>Kidney</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>reter;</hi> and as by their kindly Warmth and ſoftening Quality they relax its Fibres, and com<g ref="char:EOLhyphen"/>municate the ſame Effects to the Parts contiguous. For the ſame Reaſon a <hi>Purge</hi> is neceſſary, when the ſmaller Inteſtines are loaded with a <hi>Saburra</hi> of crude Humours, which are out of the reach of a Clyſter's Operation; which frequently happens in this Caſe. But what is of the moſt ſignal Benefit in this Inten<g ref="char:EOLhyphen"/>tion is the uſe of warm <hi>lenient Baths,</hi> which introduce an uni<g ref="char:EOLhyphen"/>verſal Relaxation of the Paſſages. This is directed by <hi>Hippo<g ref="char:EOLhyphen"/>crates</hi>
+                     <note n="*" place="bottom">Lib. de intern. affect. Sect. 15.</note>, who always directs judiciouſly: for Experience teaches,
+<pb n="46" facs="tcp:0966000800:53"/>that there is more Advantage found from a gentle Medicine ad<g ref="char:EOLhyphen"/>miniſtred whilſt ſitting <hi>in Semicupio,</hi> than from all the <hi>Farrago</hi> of <hi>Lithontripticks,</hi> or the moſt pompous Means whatſoever. The preſent Age, ſo fruitful of Diſcoveries, has not yet found out a Specifick of this Virtue; much leſs might we expect it from the Antients. <hi>Galen</hi> therefore cannot be eſteem'd the leſs for frankly declaring, that in his time no Remedy was diſcover'd which could break a <hi>Stone;</hi> but that the whole Cure depended on <hi>Surgery</hi> and <hi>Inciſion.</hi>
+                  </p>
+                  <p n="3">
+                     <hi>3dly.</hi> AS to the Symptoms, the firſt to be attended to is the exceſſive Pain: and this is of ſuch Conſequence, that unleſs it is aſſuag'd, there is little to be expected from the moſt rational Proceſs. For as long as this is exorbitant, the Contraction of the Veſſels will continue, which will hinder the <hi>Stone's</hi> paſſing through them. This is alleviated in great meaſure by the Reme<g ref="char:EOLhyphen"/>dies adapted to the foregoing Intention; but what is particular<g ref="char:EOLhyphen"/>ly indicated here, is <hi>Phlebotomy,</hi> and a cautious Uſe of <hi>Opiates:</hi> the firſt as it empties the Blood-Veſſels, and thereby takes off the Diſtention; the other as they quiet the Orgaſm of the Spirits, and elude the Force of the <hi>Stimulus.</hi> It is therefore with good reaſon, that a ſhining Ornament of our Body lays down, <hi>that no one can more happily go about to aſſuage Nephritick Pains than by letting blood</hi>
+                     <note n="*" place="bottom">Mead de imperio Sol. &amp; Lun. <hi>pag.</hi> 85.</note>.</p>
+                  <p>THE Vomiting that accompanies a Fit ceaſes as ſoon as the <hi>Stone</hi> has paſs'd into the <hi>Bladder:</hi> but as the Stomach is ſome<g ref="char:EOLhyphen"/>times ſo affected as to throw up whatever is taken, we muſt en<g ref="char:EOLhyphen"/>deavour to mitigate this Symptom by gentle <hi>Stomachicks</hi> blend<g ref="char:EOLhyphen"/>ed with <hi>Opiates,</hi> which will take off the Irritation for a while, and give time to the proper Medicines to paſs into the Blood.</p>
+                  <p>IF theſe means prove unſucceſsful, and we have reaſon to apprehend that the <hi>Stone</hi> is <hi>larger</hi> than ordinary, which is per<g ref="char:EOLhyphen"/>ceiv'd from the <hi>fix'd heavy Pain,</hi> and the <hi>Abſence of any Cal<g ref="char:EOLhyphen"/>culous Excretions,</hi> rather than leave the Patient deſtitute of Help, we muſt have recourſe to more forcible Methods; ſuch
+<pb n="47" facs="tcp:0966000800:54"/>as <hi>Vomits,</hi> Purges of the <hi>ſtronger ſort,</hi> and the more <hi>powerful</hi> Diureticks: which from the Shocks they give the Parts may poſſibly remove the <hi>Stone,</hi> and force it through the <hi>
+                        <g ref="char:V">Ʋ</g>reter.</hi> But theſe are to be try'd only in very bad Caſes, leſt by ſhifting it from a larger Space into a ſmaller, they ſhould fix it there irremoveably.</p>
+                  <p>AS to <hi>Nephrotomy,</hi> or the cutting into the <hi>Kidney</hi> in order to extract the <hi>Stone,</hi> it has been recommended by <hi>Roſettus;</hi> and the <hi>Philoſophical Tranſactions</hi> inform us, that it was per<g ref="char:EOLhyphen"/>form'd once with ſucceſs by <hi>Dominicus Marchetti,</hi> a Phyſician of <hi>Padua,</hi> upon a Countryman of our own<note n="*" place="bottom">No. 223.</note>. But if we at<g ref="char:EOLhyphen"/>tend to the Parts to be cut through in this Operation, we ſhall find it only barely poſſible to ſucceed: which is not a ſufficient inducement to a wary Practitioner, either for to adviſe it or un<g ref="char:EOLhyphen"/>dertake it; it being much more eligible to alleviate the Symp<g ref="char:EOLhyphen"/>toms and wait the Event, than to add to the Patient's Torment, and render his Death more certain.</p>
+                  <p>THE <hi>Prophylactick</hi> Part in this Diſtemper, in order to keep off another Fit, or to leſſen the frequency of its returning, is partly obſerv'd by religiouſly avoiding any of thoſe Errors in the Non-naturals, that are reckon'd among the diſtant Cauſes of it. But beſides this, we muſt endeavour to <hi>diminiſh</hi> the <hi>Salts</hi> intro<g ref="char:EOLhyphen"/>duc'd into the Blood with our Food, by <hi>purging Medicines,</hi> and <hi>moderate Exerciſe</hi> repeated at proper Intervals.</p>
+                  <p>WE muſt ſtrive to prevent the Salts from running into <hi>Com<g ref="char:EOLhyphen"/>binations,</hi> and to <hi>attenuate</hi> any viſcid Matter that may unite them together by proper <hi>Diluters,</hi> which by their Aquoſity will diſ<g ref="char:EOLhyphen"/>ſolve them; and by <hi>ſtrengthening</hi> the <hi>Inſtruments of Digeſtion,</hi> which will occaſion the Chyle to be ſufficiently comminuted, and the Salts intimately divided. But we muſt chiefly aim at <hi>relaxing</hi> and <hi>widening</hi> the Capacities of the <hi>
+                        <g ref="char:V">Ʋ</g>rinary Paſſages,</hi> that they may freely admit all the conſtituent Parts of the Urine through them, which is partly obtain'd from the Uſe of <hi>Balſa<g ref="char:EOLhyphen"/>mick Emollient Diureticks,</hi> and from <hi>gentle Exerciſe;</hi> which
+<pb n="48" facs="tcp:0966000800:55"/>
+                     <hi>laſt</hi> by promoting the Circulation drives the groſſer Particles of the Fluids through the Capillary Veſſels, whilſt the <hi>firſt</hi> enlarges their Dimenſions by their relaxing Properties.</p>
+                  <p>AMONGST all the Variety of <hi>Purgers,</hi> none ſeem ſo well adapted to anſwer all theſe Ends, as ſome of the <hi>mercu<g ref="char:EOLhyphen"/>rial</hi> Preparations; theſe not only evacuating the Salts, but ha<g ref="char:EOLhyphen"/>ving alſo a peculiar Power of breaking and obtunding their <hi>Spi<g ref="char:EOLhyphen"/>culae,</hi> of removing Obſtructions and enlarging the Veſſels.</p>
+                  <p>THE <hi>Stomachicks</hi> that are of moſt Service, are ſuch as by their gentle aſtringency brace the Fibres of the Stomach, and by their mild grateful Warmth attenuate any viſcid Matter lodg'd therein. For as to the <hi>botter</hi> and <hi>ſtronger</hi> Bitters, they induce a univerſal Rigidity in the Fibres of the whole Body; and for that reaſon will do more harm than good. <hi>Galen</hi> thought in this way, when he laid down, that moſt Medicines proper for Calcu<g ref="char:EOLhyphen"/>lous Patients are <hi>Bitters</hi>
+                     <note n="*" place="bottom">De Compoſition. Medicament. ſecund. Loc. lib. 10.</note>: But then he tempers them before with this Hint, that by no means it is proper to give ſuch Perſons very <hi>heating</hi> Remedies<note n="‡" place="bottom">De Sanitat. tuend. Lib. 6.</note>.</p>
+                  <p>THE <hi>Diureticks</hi> ought to be ſuch only, as at the ſame time they force open any Obſtruction form'd in the <hi>Kidneys,</hi> will likewiſe relax their Urinary Ducts: thoſe of this Tribe being carefully to be avoided, that are prepar'd from <hi>ſtony</hi> or <hi>earthy</hi> Sub<g ref="char:EOLhyphen"/>ſtances, which by attracting one another in the Capillary Tubes, inſtead of doing Service, may lay a Foundation for another Fit.</p>
+                  <p>UPON all theſe accounts the <hi>Bath, Spaw,</hi> and other <hi>Cha<g ref="char:EOLhyphen"/>lybeate Waters,</hi> are of the utmoſt Benefit in the Intervals be<g ref="char:EOLhyphen"/>tween the Fits, as they <hi>diſſolve</hi> the Salts, <hi>ſtrengthen</hi> the Sto<g ref="char:EOLhyphen"/>mach and Bowels, <hi>ſcour</hi> the Urinary Paſſages, and carry any <hi>Recrement</hi> out of the Body by <hi>Perſpiration</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>rine.</hi>
+                  </p>
+               </div>
+               <div type="part">
+                  <pb n="49" facs="tcp:0966000800:56"/>
+                  <head>SECT. III. PART II. Of a STONE in the BLADDER.</head>
+                  <p>
+                     <seg rend="decorInit">W</seg>E come now to conſider the Conſequences that will follow, when a <hi>Stone</hi> has chang'd its Seat, and lodg'd ſome time in the <hi>Bladder.</hi> That a <hi>Nucleus</hi> genera<g ref="char:EOLhyphen"/>ted in the <hi>Kidney,</hi> when once receiv'd into this <hi>Or<g ref="char:EOLhyphen"/>gan,</hi> is the general Baſis of thoſe large Concretions found in it, is evident from inſpecting theſe Bodies; in the Centre of which for the moſt part is found a ſolid Subſtance, of a different Co<g ref="char:EOLhyphen"/>lour and Conſiſtence from the reſt of the ſtony Integuments, over which the adventitious Concretions are ſpread <hi>lamellatim,</hi> and encloſe it as a Shell does the Kernel of a Nut. Not but that a <hi>Stone</hi> may be primarily generated here, without the <hi>Kidneys</hi> being firſt affected: which not only appears in Chil<g ref="char:EOLhyphen"/>dren, who are frequently troubled with this Diſeaſe without the leaſt previous Complaint of Nephritick Symptoms, but likewiſe from the reaſon of the thing: For if the ſolid Parts of the Urine ſhould be depoſited in the Bladder in ſuch manner, as to be brought near to one another, and not be waſh'd away by a fol<g ref="char:EOLhyphen"/>lowing Afflux, they will unite by means of their attractive Powers. This will happen if the Urine is over <hi>viſcid</hi> and too much loaded with <hi>ſaline</hi> and <hi>earthy</hi> Principles: for if it ſtays any conſiderable time before it is voided, theſe will ſubſide to the Bottom by their own Gravity; where they will conſequent<g ref="char:EOLhyphen"/>ly be brought into a narrow Compaſs, and at the ſame time may adhere to it by the Tenacity of the Parts that envellope them. Accordingly conſtant Obſervation tallies with it; the Urine of Perſons ſubject to theſe Complaints being generally <hi>thick</hi> and <hi>viſcid,</hi> and dropping a <hi>whitiſh Sediment</hi> which ſticks to the bot<g ref="char:EOLhyphen"/>tom of the Veſſel it is contain'd in. Thus then there may be a
+<pb n="50" facs="tcp:0966000800:57"/>
+                     <hi>Stone</hi> form'd in the <hi>Bladder</hi> without a <hi>Nucleus</hi> previouſly gene<g ref="char:EOLhyphen"/>rated in the <hi>Kidney:</hi> but this is not near ſo frequent; for the <hi>Bladder</hi> being a large Veſſel, and ſo often diſtended with Urine, ſuch a Depoſition of the ſolid Contents will very rarely happen; but they will either flow out with the aqueous Vehicle, or elſe be waſh'd away by the weight of the Urine that ſo often falls upon them: whereas a <hi>Nucleus</hi> already form'd being a ſolid concrete and <hi>ponderous,</hi> it may be ſo lodg'd, that the Urine may paſs over it, or its Surface ſo pointed as to adhere too cloſely to be ſepa<g ref="char:EOLhyphen"/>rated: and accordingly we find, that <hi>Stones</hi> are form'd in, the <hi>Bladder,</hi> when any <hi>extraneous</hi> ſolid Bodies have accidentally got in there, which have been the Foundation of the ſubſequent Incruſtations, of which there are many Inſtances<note n="*" place="bottom">
+                        <hi>Philoſoph. Tranſact.</hi> N<hi rend="sup">o</hi>. 168. 171. 266.</note>.</p>
+                  <p>THE Baſis of a <hi>Calculus</hi> being laid in this manner, it will neceſſarily encreaſe if it ſtays any conſiderable time there. For as it conſiſts of a Subſtance, which in its Nature is very attractive, it will draw the ſolid Particles of the Urine to it, which are of the ſame Nature, and will therefore ſeparate from the Fluid and adhere to its Surface: and this attractive Power will be greater as the Surface of this ſolid Body grows larger; ſo that a Baſis once form'd, the <hi>Stone</hi> will become large in a ſhorter time than is commonly imagin'd: every new Incruſtation not only adding to the Quantity of Matter, but encreaſing the Surface in a very great Proportion. The Diſpoſition of the ſeveral <hi>Lamellae</hi> that compoſe the <hi>Calculus,</hi> ſhews that it encreaſes in this way: for their running <hi>parallel</hi> to one another can be only owing to this force of <hi>Attraction;</hi> by which the ſolid Particles of the Urine, when brought to a certain Diſtance from the <hi>Concretion,</hi> are im<g ref="char:EOLhyphen"/>pell'd towards it, and unite themſelves to it on all ſides, at equal Diſtances from its Centre, as near as the Figure of the Place in which it is lodg'd will allow of.</p>
+                  <p>FROM hence it appears, that the <hi>Stones</hi> of the <hi>Kidneys</hi> and <hi>Bladder</hi> are of the <hi>ſame Nature,</hi> and form'd in the ſame man<g ref="char:EOLhyphen"/>ner; which I believe will hold good likewiſe in all <hi>Stones</hi> of the Body, in whatſoever Part they are found, and howſoever they differ in Figure, Colour, or Weight: though the <hi>Effects</hi> produc'd
+<pb n="51" facs="tcp:0966000800:58"/>by them will vary, as they are lodg'd in <hi>one</hi> Part or <hi>another.</hi> When ſuch a Subſtance is in the <hi>Bladder,</hi> it will produce the <hi>following.</hi>
+                  </p>
+                  <p>
+                     <hi>AT firſt,</hi> little or no Diſturbance will ariſe from it; becauſe being ſmall and light, the <hi>Mucus</hi> that lines the <hi>Bladder</hi> is ſuffici<g ref="char:EOLhyphen"/>ent to guard it from the hardneſs and aſperity of its Surface; on<g ref="char:EOLhyphen"/>ly the Urine is now and then <hi>intercepted</hi> in its Voidance, when the <hi>Stone</hi> caſually falls upon the Orifice of the <hi>
+                        <g ref="char:V">Ʋ</g>rethra.</hi> But when it grows larger and more weighty it will abrade this Muco<g ref="char:EOLhyphen"/>ſity, and twitch and vellicate the nervous Coat; more eſpecially when it moves from one place to another. Hence the Urine will become <hi>thick</hi> and <hi>ſlimy</hi> from the abraded <hi>Mucus</hi>
+                     <note place="margin">n="*" Hippocratis Aphoriſm. 79. Sect. 4.</note>, which Quali<g ref="char:EOLhyphen"/>ties will encreaſe as the <hi>Stone</hi> grows larger, the Glands ſeparating more <hi>Mucus</hi> as the <hi>Stimulus</hi> grows more forcible. This <hi>Stimu<g ref="char:EOLhyphen"/>lus</hi> at the ſame time will extend farther, and create a <hi>Pain</hi> in the Neck of the <hi>Bladder,</hi> which will increaſe towards the end of <hi>Micturition,</hi> and be propagated towards the end of the <hi>Glans;</hi> the one becauſe the <hi>Calculus</hi> falls to its more depending part, the <hi>Neck,</hi> the other becauſe the nervous Coat of the <hi>
+                        <g ref="char:V">Ʋ</g>rethra</hi> is no more than the Continuation of the ſame nervous Membrane: and it is no wonder, that when theſe Parts, which lie ſo near, endure a <hi>Pain,</hi> that the more <hi>diſtant</hi> of the procreative Organs ſhould enjoy only a <hi>Pruritus.</hi> As the Bulk of the <hi>Stone</hi> increa<g ref="char:EOLhyphen"/>ſes, it will preſs more forcibly upon theſe Parts, from whence the Pain will become more <hi>intenſe,</hi> and a <hi>Weight</hi> perceiv'd in the Region of the <hi>Os Pubis</hi> and in <hi>Perinaeo:</hi> and the Irritation it produces will be extended farther to the <hi>Sphincter Ani</hi> and <hi>Inteſtinum Rectum,</hi> both theſe being contiguous to this Part, and receiving Branches from the <hi>ſame Nerve;</hi> ſo that a Deſire of <hi>going to ſtool</hi> will come upon every Attempt to <hi>make water.</hi> This muſt be very <hi>frequent</hi> by reaſon of the continual <hi>Stimulus</hi> upon the <hi>Bladder,</hi> which will provoke it to diſcharge its Con<g ref="char:EOLhyphen"/>tents; but at the ſame time it will be voided with the <hi>greateſt difficulty,</hi> and <hi>guttatim,</hi> from the Stones lying upon the Ori<g ref="char:EOLhyphen"/>fice of the <hi>
+                        <g ref="char:V">Ʋ</g>rethra,</hi> and ſtopping it up: ſo that the Pa<g ref="char:EOLhyphen"/>tient is obliged ſometimes to lie in a <hi>ſupine Poſture,</hi> in or<g ref="char:EOLhyphen"/>der to remove it from thence before the Urine will paſs off. Hence it is not at all ſurpriſing, that when this Body has accu<g ref="char:EOLhyphen"/>mulated,
+<pb n="52" facs="tcp:0966000800:59" rendition="simple:additions"/>it ſhould occaſion a <hi>difficulty</hi> of <hi>moving</hi> from place to place, ſince the Preſſure of it upon the lower Parts is ſo great.</p>
+                  <p>THESE are the natural Effects of a Lodgment of the <hi>Stone</hi> in the <hi>Bladder;</hi> but as it does not create all of them at the ſame time, but <hi>ſeriatim</hi> as it grows in magnitude, its <hi>Diagnoſis</hi> is uncertain; ſo that we are oblig'd to have recourſe to ſome <hi>Colla<g ref="char:EOLhyphen"/>teral Tokens,</hi> the better to form a ſurer Judgment of the Caſe. Thus we muſt have an Eye to the previous Diſpoſition of the Pa<g ref="char:EOLhyphen"/>tient to <hi>Nephritick</hi> Symptoms, which will guide us a little; as alſo whether the Remedies proper for this Diſtemper have a <hi>lau<g ref="char:EOLhyphen"/>dable</hi> Effect. But we principally depend upon the introduction of the <hi>Catheter</hi> into the <hi>Bladder,</hi> or the Finger in <hi>Anum,</hi> though I have known the former to fail; and a <hi>Schirrus</hi> has imitated the <hi>Stone</hi> ſo artfully in all Symptoms, as to diſappoint the <hi>Litho<g ref="char:EOLhyphen"/>tomiſt:</hi> agreeable to which is an Obſervation of <hi>Baglivi</hi>
+                     <note n="*" place="bottom">Praxis Medic. lib. 5. cap. 13. Sect. 8. lib. 2. cap. 4.</note>. The <hi>Haemorhoides</hi> alſo mimick this Affection; but then the Pain they occaſion is not ſo acute. But the moſt remarkable Caſe of this kind is from Dr. <hi>Bamber,</hi> wherein a great Quantity of <hi>tophace<g ref="char:EOLhyphen"/>ous</hi> Subſtances, that ſeem'd to me ſo many Globules of hardned <hi>Excrement,</hi> were lodg'd in the beginning of the <hi>Colon</hi> where the <hi>Ileum</hi> is ingrafted, and created Symptoms which aped the <hi>Stone</hi> of the <hi>Bladder</hi> ſo nicely, that only Death and Diſſection there<g ref="char:EOLhyphen"/>upon detected the Fallacy. In this Caſe it was almoſt impoſſible but the moſt skilful Surgeon ſhould be deceiv'd; for theſe concre<g ref="char:EOLhyphen"/>ted Subſtances gave the ſame Reſiſtance to the <hi>Catheter,</hi> and caus'd the ſame Senſation to the Hand that a <hi>Stone</hi> would, when in the Cavity of the <hi>Bladder.</hi> However it was very lucky for this Gentleman, conſidering the cenſorious Humour of the World, that the Patient died before he underwent the Operation. Sometimes the Surface of the <hi>Stone</hi> is ſo rough and pointed as to adhere to the inward Coat of the <hi>Bladder;</hi> but then there will be no <hi>Suppreſſion of <g ref="char:V">Ʋ</g>rine</hi> along with its other Diagnoſticks, as <hi>Aretaeus</hi> has obſerv'd<note n="‡" place="bottom">De cauſ. &amp; ſign. diuturnor. morb.</note>: : from the Abſence of which we may juſtly ſuſpect an Adheſion, if the Patient labours under the other Symptoms. This is a deſparate Caſe, for if you endeavour to
+<pb n="53" facs="tcp:0966000800:60"/>extract the <hi>Stone</hi> forcibly, you will lacerate the nervous Mem<g ref="char:EOLhyphen"/>brane of the <hi>Bladder,</hi> upon which will enſue an Inflammation and Mortification of this Veſſel, with all the direful Train of conſequential Symptoms. But I cannot well conceive how the <hi>Stone</hi> can be enclos'd in a membranous <hi>Cyſtis;</hi> for if ſo, how can it increaſe, the <hi>Capſula</hi> keeping any adventitious Concre<g ref="char:EOLhyphen"/>tions from its Surface? Poſſibly this may not happen before it is grown large, and has adher'd ſome time; and ſo by wounding and dividing the nervous Coat, (whilſt the cloſeneſs of its Adheſion hinders it from reuniting) it may occaſion this Membrane to ſhoot over it and form a Caſe for it.</p>
+                  <p>Here I cannot help mentioning an extraordinary Caſe of the <hi>Stone,</hi> that fell under the Inſpection of the famous Dr. <hi>Gliſſon,</hi> and Dr. <hi>Hugh Chamberlain, ſen.</hi> The Daughter of Sir <hi>Hugh Middleton,</hi> who had been before troubled with Nephritick Symp<g ref="char:EOLhyphen"/>toms, upon riding a Journey unfortunately alter'd the Poſi<g ref="char:EOLhyphen"/>tion of the <hi>Stone,</hi> and turn'd it <hi>tranſverſe,</hi> which brought on a Suppreſſion of Urine which kill'd her; for as one <hi>Kidney</hi> was choak'd up by a large <hi>Stone, that</hi> only officiated, in whoſe <hi>
+                        <g ref="char:V">Ʋ</g>re<g ref="char:EOLhyphen"/>ter</hi> the other <hi>Stone</hi> was lodg'd, which occaſion'd her Death. Upon opening the Body by Mr. <hi>Holliard</hi> Surgeon, there was found <q>"An Abſceſs in the left Kidney, with abundance of purulent Matter, and a brown <hi>hollow</hi> long <hi>Stone</hi> of near two Drams Weight in the bottom of the <hi>
+                           <g ref="char:V">Ʋ</g>reter,</hi> at its Inſertion into the <hi>Bladder.</hi> The right <hi>Kidney</hi> was likewiſe Ulcerous, contain<g ref="char:EOLhyphen"/>ing a thicker <hi>Pus;</hi> and at the bottom of it, at the Ingreſs of the <hi>
+                           <g ref="char:V">Ʋ</g>reter,</hi> a larger whitiſh <hi>Stone</hi> weighing three Drams, two Scruples and a half."</q> This Caſe being very uncommon from the <hi>hollowneſs</hi> of the <hi>Stone</hi> through which the Urine paſs'd, being the firſt Inſtance I have any where met with of ſuch a one's being found in the <hi>
+                        <g ref="char:V">Ʋ</g>reter,</hi> though they are ſometimes, but rarely, in the <hi>Bladder,</hi> I have thought it worth inſerting; more eſpe<g ref="char:EOLhyphen"/>cially ſince it has not heretofore been made publick. The <hi>Stones,</hi> together with the Caſe, were left for ſome time in the Cuſtody of Mr. <hi>Dobyns</hi> Surgeon, but are at preſent in the Hands of Dr. <hi>Middleton Maſſey;</hi> who, to give a clearer Idea of them, has made a very accurate <hi>Drawing,</hi> which is here annex'd.<note place="margin">
+                        <hi>Tab.</hi> III. <hi>Fig.</hi> VI.</note>
+                  </p>
+                  <pb n="54" facs="tcp:0966000800:61"/>
+                  <p>CONSIDERING the <hi>nervous</hi> Contexture of this Organ, which renders it of a very acute Senſe, and the important Office it bears in the Animal OEconomy, ſuch a Praeternatural Subſtance muſt neceſſarily <hi>prognoſticate</hi> very <hi>bad</hi> Events: and according<g ref="char:EOLhyphen"/>ly, not only the Phyſicians of the preſent time, but Antiquity too have regiſter'd a perfect Catalogue of Evils it induces. A <hi>Suppreſſion of <g ref="char:V">Ʋ</g>rine,</hi> the <hi>Fever</hi> it occaſions, the <hi>Convulſions</hi> it introduces, and the <hi>emaciated Habit</hi> that follows, are common Effects of this Cauſe<note n="*" place="bottom">Aretaei de diuturnor. morbor. cauſis &amp;c. lib. 2. cap. 3, 4.</note>, if it is let ſtay a long time in the <hi>Blad<g ref="char:EOLhyphen"/>der,</hi> or the Patient will not ſubmit to the <hi>artificial</hi> Extraction.</p>
+                  <p>THE Method of <hi>Cure</hi> in this Diſtemper, as far as it regards the <hi>Phyſician,</hi> which is only, whilſt the <hi>Calculus</hi> is ſmall enough to be forc'd through the <hi>
+                        <g ref="char:V">Ʋ</g>rethra</hi> by medicinal Proceſs, is very much the ſame with that to be uſed in the <hi>Stone</hi> of the <hi>Kidney:</hi> and if it is grown to any conſiderable ſize, it is the <hi>Surgeon's</hi> Province, and requires the <hi>Operation;</hi> under whoſe hands there<g ref="char:EOLhyphen"/>fore for the preſent I leave it.</p>
+               </div>
+            </div>
+         </div>
+         <div n="1" type="table">
+            <pb facs="tcp:0966000800:62"/>
+            <head>TABLE I.</head>
+            <div n="1" type="description_of_figure">
+               <head>FIG. I.</head>
+               <p>THE emulgent Artery injected and cleans'd from the Sub<g ref="char:EOLhyphen"/>ſtance of the <hi>Kidney.</hi>
+               </p>
+               <list>
+                  <item>
+                     <hi>a.</hi> Its Trunk.</item>
+                  <item>
+                     <hi>b b b b b.</hi> The minute Ramifications of its ſmaller Branches, as they are propagated throughout the <hi>Kidney.</hi>
+                  </item>
+                  <item>
+                     <hi>c.</hi> A Portion of the <hi>
+                        <g ref="char:V">Ʋ</g>reter.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="2" type="description_of_figure">
+               <head>FIG. II.</head>
+               <p>THE numerous Convolutions of the Capillary Branches of the Emulgent Artery upon the external Surface of the Body of the <hi>Kidney.</hi>
+               </p>
+            </div>
+            <div n="3" type="description_of_figure">
+               <head>FIG. III.</head>
+               <p>THE internal Structure of the <hi>Kidney</hi> taken from Dr. <hi>Ruyſch,</hi> with which a Preparation by me exactly correſponds.</p>
+               <list>
+                  <item>
+                     <hi>a a.</hi> The ſerpentine Progreſs of the Emulgent Artery, before it terminates in the <hi>Bellinian Ducts.</hi>
+                  </item>
+                  <item>
+                     <hi>b b.</hi> The ſaid <hi>Ducts.</hi>
+                  </item>
+                  <item>
+                     <hi>c c.</hi> The <hi>Papillae.</hi>
+                  </item>
+                  <item>
+                     <hi>d d.</hi> The <hi>Fiſtulae Membranaceae.</hi>
+                  </item>
+                  <item>
+                     <hi>e.</hi> The <hi>Pelvis.</hi>
+                  </item>
+                  <item>
+                     <hi>f.</hi> Part of the <hi>
+                        <g ref="char:V">Ʋ</g>teter.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="4" type="description_of_figure">
+               <head>FIG. IV.</head>
+               <p>THE <hi>Kidney</hi> of an <hi>Hyaena</hi> injected, taken from the invalu<g ref="char:EOLhyphen"/>able Collection of Sir <hi>Hans Sloane,</hi> in which the Emulgent Vein ſpreads its Branches on its <hi>outward</hi> Surface.</p>
+               <list>
+                  <item>
+                     <hi>a.</hi> The Trunk of the Emulgent Artery.</item>
+                  <item>
+                     <hi>b.</hi> That of the Vein.</item>
+                  <item>
+                     <hi>c c c c.</hi> The various Ramifications of this Vein.</item>
+               </list>
+            </div>
+            <div n="5" type="description_of_figure">
+               <head>FIG. V.</head>
+               <p>THE <hi>Kidney</hi> of a <hi>Cat,</hi> which ſhews the <hi>like</hi> Diſpoſition of the Emulgent Vein in <hi>that Species.</hi>
+               </p>
+            </div>
+            <div n="6" type="description_of_figure">
+               <pb facs="tcp:0966000800:63"/>
+               <head>FIG. VI.</head>
+               <p>SHEWS the unequal Dimenſions of the <hi>
+                     <g ref="char:V">Ʋ</g>reters.</hi>
+               </p>
+            </div>
+         </div>
+         <div n="2" type="table">
+            <head>TAB. II.</head>
+            <div n="1" type="description_of_figure">
+               <head>FIG. I.</head>
+               <p>REPRESENTS the Urinary Paſſages in which each <hi>Kidney</hi> has <hi>two Pelves,</hi> and <hi>double <g ref="char:V">Ʋ</g>reters.</hi>
+               </p>
+               <list>
+                  <item>A. The left <hi>Kidney.</hi>
+                     <list>
+                        <item>
+                           <hi>a.</hi> The Emulgent Artery before its entring the <hi>Kidney.</hi>
+                        </item>
+                        <item>
+                           <hi>b.</hi> The Emulgent Vein.</item>
+                        <item>
+                           <hi>c.</hi> The <hi>exit</hi> of the upper <hi>
+                              <g ref="char:V">Ʋ</g>reter.</hi>
+                        </item>
+                        <item>
+                           <hi>d.</hi> That of the lower.</item>
+                     </list>
+                  </item>
+                  <item>B. The right <hi>Kidney</hi> divided longitudinally to ſhew its peculiar inward Structure.
+<list>
+                        <item>
+                           <hi>e.</hi> The upper <hi>Pelvis.</hi>
+                        </item>
+                        <item>
+                           <hi>f.</hi> The lower.</item>
+                        <item>
+                           <hi>g.</hi> The Subſtance of the <hi>Kidney</hi> interpos'd between them.</item>
+                        <item>
+                           <hi>h.</hi> The Head of the upper <hi>
+                              <g ref="char:V">Ʋ</g>reter.</hi>
+                        </item>
+                        <item>
+                           <hi>i.</hi> The ſame of the lower.</item>
+                        <item>
+                           <hi>k k.</hi> The Diſpoſition of the four <hi>
+                              <g ref="char:V">Ʋ</g>reters</hi> in their Progreſs towards the <hi>Bladder.</hi>
+                        </item>
+                     </list>
+                  </item>
+               </list>
+               <list>
+                  <item>C. The <hi>Bladder</hi> laid open.
+<list>
+                        <item>
+                           <hi>l.</hi> The Union of the double <hi>
+                              <g ref="char:V">Ʋ</g>reters</hi> before their Inſertion into it.</item>
+                        <item>
+                           <hi>m.</hi> The Obliqueneſs of their Inſertions on the right ſide.</item>
+                        <item>
+                           <hi>n.</hi> Their opening into it on the left.</item>
+                     </list>
+                  </item>
+               </list>
+            </div>
+            <div n="2" type="description_of_figure">
+               <head>FIG. II.</head>
+               <p>THE <hi>Bladder</hi> of an Infant, with part of the <hi>
+                     <g ref="char:V">Ʋ</g>reter</hi> inject<g ref="char:EOLhyphen"/>ed, in which the Diſtribution of the <hi>Artery</hi> upon the outward appears.</p>
+            </div>
+         </div>
+         <div n="3" type="table">
+            <pb facs="tcp:0966000800:64"/>
+            <head>TAB. III.</head>
+            <div n="1" type="description_of_figure">
+               <head>FIG. I.</head>
+               <p>SHEWS the Forepart of the <hi>Bladder of <g ref="char:V">Ʋ</g>rine</hi> ſtrip'd of its outward Coat.</p>
+               <list>
+                  <item>
+                     <hi>a.</hi> The Origin of its <hi>Longitudinal Muſcular Fibres,</hi> from the inner and lower part of the <hi>Oſſa Pubis,</hi> and the fore-part of the <hi>Proſtata.</hi>
+                  </item>
+                  <item>
+                     <hi>b b.</hi> The Progreſs of the ſame Fibres over the <hi>fore-part</hi> of the <hi>Bladder.</hi>
+                  </item>
+                  <item>
+                     <hi>c c.</hi> The <hi>Oblique</hi> Fibres of its Muſcular Coat interſecting each other.</item>
+                  <item>
+                     <hi>d.</hi> The <hi>
+                        <g ref="char:V">Ʋ</g>rachus.</hi>
+                  </item>
+                  <item>
+                     <hi>e e.</hi> A Portion of the <hi>
+                        <g ref="char:V">Ʋ</g>reter.</hi>
+                  </item>
+                  <item>
+                     <hi>f f.</hi> The <hi>Proſtata.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="2" type="description_of_figure">
+               <head>FIG. II.</head>
+               <p>SHEWS the hinder part of the <hi>Bladder</hi> fore-ſhorten'd.</p>
+               <list>
+                  <item>
+                     <hi>a a.</hi> The Courſe of the <hi>Longitudinal Fibres</hi> down <hi>this ſide</hi> of it.</item>
+                  <item>
+                     <hi>b.</hi> Their Inſertion into the back-part of the <hi>Proſtata.</hi>
+                  </item>
+                  <item>
+                     <hi>c c.</hi> The <hi>Oblique Fibres,</hi> as in the former.</item>
+                  <item>
+                     <hi>d d.</hi> A part of the <hi>
+                        <g ref="char:V">Ʋ</g>reters,</hi> as they appear in this Poſition of the <hi>Bladder.</hi>
+                  </item>
+                  <item>
+                     <hi>e e.</hi> The <hi>
+                        <g ref="char:V">Ʋ</g>eſiculae Seminales,</hi> turn'd downwards, to ſhew the tendency of the <hi>Longitudinal Fibres.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="3" type="description_of_figure">
+               <head>FIG. III.</head>
+               <p>THE <hi>Bladder</hi> open'd, to diſcover what is moſt remarkable within it.</p>
+               <list>
+                  <item>
+                     <hi>a a.</hi> Its <hi>Nervoſe Coat.</hi>
+                  </item>
+                  <item>
+                     <hi>b b.</hi> The <hi>Orifices of the <g ref="char:V">Ʋ</g>reters</hi> that terminate in it.</item>
+                  <pb facs="tcp:0966000800:65"/>
+                  <item>
+                     <hi>c.</hi> The <hi>fleſhy Fibres</hi> extended from each of them.</item>
+                  <item>
+                     <hi>d.</hi> Their <hi>Termination</hi> in an Angle on the backſide of the <hi>Bladder,</hi> near its Neck.</item>
+               </list>
+            </div>
+         </div>
+         <div n="4" type="table">
+            <head>TABLE IV.</head>
+            <div n="1" type="description_of_figure">
+               <head>FIG. I.</head>
+               <p>THE lower part of the <hi>Penis,</hi> with the <hi>
+                     <g ref="char:V">Ʋ</g>rethra</hi> laid open.</p>
+               <list>
+                  <item>
+                     <hi>a a.</hi> The outward Subſtance of the <hi>Penis.</hi>
+                  </item>
+                  <item>
+                     <hi>b.</hi> The <hi>Nervous Coat</hi> of the <hi>
+                        <g ref="char:V">Ʋ</g>rethra.</hi>
+                  </item>
+                  <item>
+                     <hi>c c c c c.</hi> The <hi>Oſtiola</hi> of the Ducts opening into it.</item>
+                  <item>
+                     <hi>d.</hi> A remarkable one very near the <hi>Glans.</hi>
+                  </item>
+                  <item>
+                     <hi>e.</hi> Another in the upper part, whoſe <hi>Duct</hi> runs the length of an Inch.</item>
+                  <item>
+                     <hi>f.</hi> The <hi>Accelerator <g ref="char:V">Ʋ</g>rinae</hi> divided.</item>
+                  <item>
+                     <hi>g g.</hi> The <hi>Muſculi Erectores.</hi>
+                  </item>
+                  <item>
+                     <hi>h h.</hi> The <hi>Tranſverſales.</hi>
+                  </item>
+                  <item>
+                     <hi>i i.</hi> The <hi>Veſiculae Seminales.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="2" type="description_of_figure">
+               <head>FIG. II.</head>
+               <p>SHEWS a <hi>hollow</hi> Stone in two Poſitions, which was lodg'd at the bottom of the left <hi>
+                     <g ref="char:V">Ʋ</g>reter.</hi>
+               </p>
+               <list>
+                  <item>
+                     <hi>a.</hi> Its <hi>upper</hi> orifice, through which the Urine from the Kid<g ref="char:EOLhyphen"/>ney paſs'd.</item>
+                  <item>
+                     <hi>b.</hi> Its <hi>lower</hi> Orifice at the Aperture of the <hi>
+                        <g ref="char:V">Ʋ</g>reter</hi> into the Cavity of the <hi>Bladder.</hi>
+                  </item>
+               </list>
+            </div>
+            <div n="3" type="description_of_figure">
+               <head>FIG. III.</head>
+               <list>
+                  <item>
+                     <hi>a.</hi> A whitiſh <hi>Stone,</hi> which plugg'd up the <hi>Right Kidney</hi> of the ſame Subject.</item>
+                  <item>
+                     <hi>b.</hi> A <hi>Fruſtulum</hi> of the ſame.</item>
+               </list>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+         <div type="plate_of_figures">
+            <pb facs="tcp:0966000800:66" rendition="simple:additions"/>
+            <head>Tab. I.</head>
+            <p>
+               <figure>
+                  <figDesc>artery and kidney</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 2</head>
+                  <figDesc>capillaries on external surface of kidney</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 3</head>
+                  <figDesc>internal structure of kidney</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 4</head>
+                  <figDesc>kidney of a hyena</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 5</head>
+                  <figDesc>kidney of a cat</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 6</head>
+                  <figDesc>a section of ureter</figDesc>
+               </figure>
+            </p>
+            <byline>I. G. Scheuchzer ad viv: delin</byline>
+            <byline>G. V.<hi rend="sup">dr</hi>: Gucht Sc:</byline>
+         </div>
+         <div type="plate_of_figures">
+            <pb facs="tcp:0966000800:67" rendition="simple:additions"/>
+            <head>TAB. II.</head>
+            <p>
+               <figure>
+                  <head>Fig. 1</head>
+                  <figDesc>urinary passages</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 2</head>
+                  <figDesc>bladder of an infant</figDesc>
+               </figure>
+            </p>
+            <byline>I. G. Scheuchzer delin.</byline>
+            <byline>Vander Gucht Sculp</byline>
+         </div>
+         <div type="plate_of_figures">
+            <pb facs="tcp:0966000800:68" rendition="simple:additions"/>
+            <head>Tab. III</head>
+            <p>
+               <figure>
+                  <head>Fig. 2</head>
+                  <figDesc>front side of bladder</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 1</head>
+                  <figDesc>back side of bladder</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <figDesc>interior of bladder</figDesc>
+               </figure>
+            </p>
+            <byline>I.G.S delin.</byline>
+            <byline>V<hi rend="sup">dr</hi>: Gucht Scul:</byline>
+         </div>
+         <div type="plate_of_figures">
+            <pb facs="tcp:0966000800:69" rendition="simple:additions"/>
+            <head>
+               <hi>Tab.</hi> IV.</head>
+            <p>
+               <figure>
+                  <head>Fig. 1</head>
+                  <figDesc>lower part of penis</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 3<hi rend="sup">d</hi>. a</head>
+                  <figDesc>kidney stone</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 2<hi rend="sup">d</hi>. b</head>
+                  <figDesc>upper orifice of ureter</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 3<hi rend="sup">d</hi>. b</head>
+                  <figDesc>frustulum of kidney stone</figDesc>
+               </figure>
+            </p>
+            <p>
+               <figure>
+                  <head>Fig. 2<hi rend="sup">d</hi>. a</head>
+                  <figDesc>lower orifice of ureter</figDesc>
+               </figure>
+            </p>
+            <byline>I. G. Scheuchzer. delin.</byline>
+            <byline>
+               <hi>Vander Gucht Scu<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</hi>
+            </byline>
+            <pb facs="tcp:0966000800:70"/>
+            <argument>
+               <p>
+                  <hi>The Engraver not being able to inſert all the Figures in three Plates, as firſt deſign'd, has occaſion'd ſeveral</hi> Errata <hi>in the</hi> References <hi>to them. The others, which are very few, are overſights of the Preſs.</hi>
+               </p>
+            </argument>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>PAG. 4. l. penult. pro <hi>Auctorum,</hi> l. <hi>Acutor.</hi> P. 6. l. 8. poſt <hi>like,</hi> adde <hi>number.</hi> P. 14. l. 4. pro <hi>Glands,</hi> l. <hi>Glans.</hi> Id. l. 8. pro <hi>Fig.</hi> 4. l. <hi>Tab.</hi> 4. <hi>Fig.</hi> 1. Id. l. 22. pro <hi>Fig.</hi> 5. l. <hi>Tab.</hi> 4. <hi>Fig.</hi> 1. P. 22. l. 25. adde <hi>he.</hi> P. 28. l. 4. adde <hi>with.</hi> P. 38. l. 30. pro <hi>parricular,</hi> l. <hi>particular.</hi> P. 39. l. 25. adde <hi>ſo.</hi> Id. l. 27. pro <hi>Pathognomick,</hi> l. <hi>Pathog<g ref="char:EOLhyphen"/>nomonick.</hi> P. 53. l. ult. pro <hi>Tab.</hi> 3. <hi>Fig</hi> 6. l. <hi>Tab.</hi> 4. <hi>Fig.</hi> 2. P. 54. l. 6. pro <hi>have,</hi> l. <hi>has.</hi> In tabula<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>n.</hi> 2. <hi>Fig.</hi> 2. l. ult. adde <hi>Coat.</hi>
+            </p>
+         </div>
+         <div type="publishers_advertisement">
+            <head>BOOKS and PAMPHLETS lately printed for <hi>T. WORRALL.</hi>
+            </head>
+            <p n="1">1. <hi>CUrſus Mathematicus,</hi> or a complete Courſe of the Mathe<g ref="char:EOLhyphen"/>maticks, in 5 Vol. Octavo. Vol. I. Contains a Treatiſe of Algebra, and the Elements of <hi>Euclid.</hi> Vol. II. Arithmetick and Tri<g ref="char:EOLhyphen"/>gonometry, with correct Tables of Logarithms, Sines and Tangents. Vol. III. Geometry and Fortification. Vol. IV. Mechanicks and Per<g ref="char:EOLhyphen"/>ſpective. Vol. V. Geography and Dialling: The whole illuſtrated with near 200 Copper Plates. Done into <hi>Engliſh</hi> from the <hi>French</hi> of Monſieur <hi>Ozanam,</hi> with Improvements and Additions. By <hi>J. T. Deſa<g ref="char:EOLhyphen"/>guliers,</hi> L.L.D. F.R.S. and other hands. Price 1 <hi>l.</hi> 5 <hi>s.</hi>
+            </p>
+            <p>The Practiſing Attorney, or Lawyer's Office; containing the Buſi<g ref="char:EOLhyphen"/>neſs of an Attorney in all its Branches, <hi>viz.</hi> 1. The Practice of the Courts of King's-Bench and Common-Pleas; ſhewing the Nature and Forms of Writs, Entries, Declarations, Pleadings, Judgments, Exe<g ref="char:EOLhyphen"/>cutions, <hi>&amp;c.</hi> With Directions in all Caſes relating to Cauſes and Trials. 2. Proceedings of the High Court of Chancery and Exche<g ref="char:EOLhyphen"/>quer from the leading Proceſs the Subpaena, to the Final Order or Decree, interſpers'd with great Variety of Bills, Anſwers, Replica<g ref="char:EOLhyphen"/>tions, Rejoinders, <hi>&amp;c.</hi> 3. The Attorney's Practice in Conveyancing; with Precedents of Leaſes, Mortgages, Aſſignments, Releaſes of Lands, Deeds to lead Uſes of Fines and Recoveries, Marriage Set<g ref="char:EOLhyphen"/>tlements, and Wills. 4. Of Court-keeping, the Charges of Stewards, and Proceedings of Attorneys therein; and the Forms of the Grants, Sur<g ref="char:EOLhyphen"/>renders, Admittances, Copies of Court-Roll, Preſentments, <hi>&amp;c.</hi> The Second Edition carefully corrected and much improved, with the Rules and Orders of the ſeveral Courts, and the Laws and Statutes under each Head, continued to this Time. By <hi>William Bohun</hi> of the <hi>Middle-Temple</hi>Eſq; Price 6 <hi>s.</hi>
+            </p>
+            <pb facs="tcp:0966000800:71"/>
+            <p>A Diſcourſe on Murder, preached in the Chapel of <hi>Lincolns-Inn,</hi> and publiſhed at the Requeſt of the Worſhipful the Maſters of the Bench. By <hi>William Lupton,</hi> D. D. Preacher to that honourable Society. Pr. 6<hi>d.</hi>
+            </p>
+            <p>A Poetical Paraphraſe on part of the Book of <hi>Job,</hi> in Imitation of the Style of <hi>Milton.</hi> By <hi>W. Thompſon,</hi> Fellow of <hi>Trinity College</hi> in <hi>Dub<g ref="char:EOLhyphen"/>lin.</hi> Pr. 1 <hi>s.</hi>
+            </p>
+            <p>Original Poems, Serious and Humourous. By Mr. <hi>Henry Baker,</hi> in two Parts. Pr. 1 <hi>s.</hi> 6 <hi>d.</hi> each, ſtitch'd; or 4 <hi>s.</hi> bound together, in Calf.</p>
+            <p>An exact Account of the <hi>French</hi> King's Marriage with the Princeſs <hi>Mary,</hi> Daughter of King <hi>Staniſlaus.</hi> Together with the excellent Ad<g ref="char:EOLhyphen"/>vice the ſaid Prince gave his Daughter at her Departure from <hi>Strasbourg,</hi> and alſo the ſeveral elegant Speeches on that Occaſion of the Duke of <hi>Autin,</hi> the Card. <hi>de Rohan,</hi> the Univerſity of <hi>Strasbourg,</hi> the <hi>Jews</hi> of <hi>Metz,</hi> the Bp. of <hi>Angers,</hi> the Bp. of <hi>Luſon,</hi> the Bp. of <hi>Blois,</hi> the Count <hi>de Hoym, &amp;c.</hi> To which are prefix'd ſome Memoirs of the Revolu<g ref="char:EOLhyphen"/>tions in <hi>Poland,</hi> with a ſhort Account of that Kingdom and its Conſti<g ref="char:EOLhyphen"/>tution. Illuſtrated with geographical Notes. Pr. 1 <hi>s.</hi>
+            </p>
+            <p>Love upon Tick, or Implicit Gallantry, exemplify'd in ſome merry Memoirs of the Riſe and Progreſs of an extrordinary and occaſional Amour, in which the whole Mechaniſm of that Paſſion is expoſed, and made obvious to the meaneſt Capacity. By the Author of —</p>
+            <q>
+               <l>Doubtleſs of the Pleaſure is as great</l>
+               <l>Of being cheated as to cheat.</l>
+               <bibl>Hud.</bibl>
+            </q>
+            <q>
+               <l>Semel inſanivimus Omnes.</l>
+            </q>
+            <p>The 3d Edition. Pr. 1 <hi>s.</hi> 6 <hi>d.</hi>
+            </p>
+            <p>An Eſſay on Book-keeping, according to the true <hi>Italian</hi> Method of Debtor and Creditor, by double Entry; wherein the Theory of that excellent Art is clearly laid down in a few plain Rules, and the Prac<g ref="char:EOLhyphen"/>tice made evident and eaſy, by variety of intelligible Examples: The whole in a Method new and conciſe. The 3d Edition corrected and improv'd. By <hi>William Webſter,</hi> Writing-Maſter, Author of <hi>Arithme<g ref="char:EOLhyphen"/>tick in Epitome.</hi> Pr. 1 <hi>s.</hi> 6 <hi>d.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>

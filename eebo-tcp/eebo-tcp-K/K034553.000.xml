@@ -1,0 +1,826 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A compendious treatise of the diseases of the skin: from the slightest itching humour in particular parts only, to the most inveterate itch ... by T. S.</title>
+            <title>Short account of the itch</title>
+            <author>Spooner, Thomas, of Lemon Street.</author>
+         </titleStmt>
+         <extent>72 600dpi bitonal TIFF page images and SGML/XML encoded text</extent>
+         <publicationStmt>
+            <publisher>University of Michigan Library</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date when="2012-11">2012 November</date>
+            <idno type="DLPS">004800562</idno>
+            <idno type="ESTC">T30965</idno>
+            <idno type="DOCNO">CW107112837</idno>
+            <idno type="TCP">K034553.000</idno>
+            <idno type="GALEDOCNO">CW3307112837</idno>
+            <idno type="CONTENTSET">ECMS</idno>
+            <idno type="IMAGESETID">0202300200</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A compendious treatise of the diseases of the skin: from the slightest itching humour in particular parts only, to the most inveterate itch ... by T. S.</title>
+                  <title>Short account of the itch</title>
+                  <author>Spooner, Thomas, of Lemon Street.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The fifth edition, corrected.</edition>
+               </editionStmt>
+               <extent>[8],56,[8]p. ; 8⁰.</extent>
+               <publicationStmt>
+                  <publisher>printed, and sold by J. Nicks, A. Dodd, and M. Halsey,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1724.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Preface signed: T. Spooner.</note>
+                  <note>First published in 1714 as 'A short account of the itch'.</note>
+                  <note>Reproduction of original from the British Library.</note>
+                  <note>English Short Title Catalog, ESTCT30965.</note>
+                  <note>Electronic data. Farmington Hills, Mich. : Thomson Gale, 2003. Page image (PNG). Digitized image of the microfilm version produced in Woodbridge, CT by Research Publications, 1982-2002 (later known as Primary Source Microfilm, an imprint of the Gale Group).</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="https://data.historicaltexts.jisc.ac.uk/view?pubId=ecco-$1&amp;index=ecco&amp;pageId=ecco-$1-$20"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:0202300200:1" rendition="simple:additions"/>
+            <p>A Short Account OF THE ITCH, OR A Compendious Treatiſe of the Diſeaſes of the <hi>SKIN,</hi> from the ſlighteſt Itching Hu<g ref="char:EOLhyphen"/>mour in particular Parts only, to the moſt inveterate Itch, ſtubborn Scabbineſs, and con<g ref="char:EOLhyphen"/>firmed Leproſy.</p>
+            <p>Plainly deſcribing Their Symptoms, Nature, Dependance on each other, original Cauſe, and diſmal Conſequence to the Patients and their Poſterity, if neglected or miſmanaged.</p>
+            <p>ALSO The dangerous Effects of Quickſilver Girdles, Oint<g ref="char:EOLhyphen"/>ments, Waſhes, and other pernicious Mercurial-Medicines.</p>
+            <p>DISCOVERING The True and only certain Method of Curing thoſe Diſtempers with Safety, Ea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e and Expedition, and without the Uſe of daubing Ointments <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>imſtone, or other nau<g ref="char:EOLhyphen"/>ſeous and ill-ſmelling Remedies, Confinement of the Pa<g ref="char:EOLhyphen"/>tient, Diſorder of the Body, or Knowledge of the neareſt Friend.</p>
+            <p>THE WHOLE Illuſtrated with ſeveral extraordinary Caſes, and very remarkable Cures performed by the Author, Neceſ<g ref="char:EOLhyphen"/>ſary to be read by all Perſons, but more eſpecially thoſe who are unhappily troubled with the ITCH, or any other Cutaneous Diſtemper.</p>
+            <p>By T. S.</p>
+            <p>
+               <hi>The Sixth Edition, Corrected.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed, And Sold by <hi>J. Roberts</hi> near the <hi>Oxford Arms</hi> in <hi>Warwick-Lane,</hi> and <hi>A. Dodd</hi> at the <hi>Peacock</hi> without <hi>Temple-Bar.</hi> 1728.</p>
+            <p>Price Sti<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>'d 1 s.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:0202300200:2"/>
+            <head>THE PREFACE.</head>
+            <p>THE fifth Edition of this little Book being ſold off, and the Bookſeller calling on me to reprint it, I quickly determined to look it over carefully for that End; and what did not a little conduce to my publiſhing it again ſo readily, was, the favourable Reception the former Editions met with from the Publick, who were ſo indulgent as to eſteem it a plain honeſt Account of the Diſtempers it treats of, and (what I my ſelf have not Vanity enough to think) more to the purpoſe than any thing wrote before.</p>
+            <p>THE great Experience alſo I have had (ſince I firſt publiſhed this little Book) of the Method I re<g ref="char:EOLhyphen"/>commended in it as moſt rational for the Cure of the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy,</hi> was anothor Motive of my venturing it again into the World; for I can truly ſay my Suc<g ref="char:EOLhyphen"/>ceſs in Curing Cutaneous Diſeaſes (having been ex<g ref="char:EOLhyphen"/>ceedingly great, greater perhaps than many can eaſily believe) is a thorough Confirmation of the Efficacy of the Method I have mentioned to uſe, and by which I have reſtored abundance of People to perfect Health, who from the inveteracy of the Diſeaſe, length of Time they had been afflicted, and from their having often tried other Means in vain, almoſt deſpaired of ever being Cured; of which I could give many In<g ref="char:EOLhyphen"/>ſtances of Men of Worth and Probity, were it proper.</p>
+            <pb facs="tcp:0202300200:3"/>
+            <p>I have added at the latter End, an Index to the whole, that thoſe who have not Leiſure or Inclination to begin and read the Book quite through (which yet is much the beſt way) may however, by looking over That, know what it contains, and turn to the Page they think moſt likely to inform them, of what they want chiefly to be acquainted with.</p>
+            <p>THE Index, conſidering the ſmallneſs of the Book it ſelf, may be thought ſtrange by ſome, it being as large as what is commonly found to a Book of ſix times the Bulk of this; but their wonder will ceaſe, when the conſider that this <hi>Short Account,</hi> under ſome Authors Pens, would have ſwell'd perhaps to more than ſix times its bigneſs, without containing more in Fact, than it does now. For my part, I think the fewer Words a Man expreſſes his Thoughts in, the bet<g ref="char:EOLhyphen"/>ter, provided he can be clearly underſtood; for to uſe more, or be prolix in Writing, ſerves only, in my Opi<g ref="char:EOLhyphen"/>nion, to puzzle the Cauſe, or amuſe the Reader.</p>
+            <p>BUT whoſoever Writes and Publiſhes his Thoughts upon any Subject to the World, would be vain in the laſt degree, ſhould he expect every one would approve of them; the moſt Correct Books in all Arts and Sci<g ref="char:EOLhyphen"/>ences, have ever met with ill-natur'd and unjuſt Cenſure from ſome, which indeed is no wonder, ſince <hi>Holy Writ</hi> it ſelf has not eſcaped the Ridicule of Profligate Wretches; it is truly ſaid, unhappy is that Perſon of whom every one ſpeaks well, alluding that there never was or can be ſuch a one, and in that Senſe we may ſay, Vile and Contemptible is the Book, which every body likes: The Man therefore who ſets Pen to Paper, in order to communicate any thing to
+<pb facs="tcp:0202300200:4"/>the Publick, ought firſt to reſolve to bear unmov'd, all the Calumny and invidious Reflections that Malice can invent.</p>
+            <p>THIS I fully determin'd when I began the follow<g ref="char:EOLhyphen"/>ing Treatiſe, and ſhall be altogether unconcerned for the Succeſs it meets with amongſt the cavilling part of Mankind.</p>
+            <p>I have given my Thoughts freely on the <hi>Itch,</hi> in<g ref="char:EOLhyphen"/>veterate <hi>Itching Humours, Scabbineſs</hi> and <hi>Lepro<g ref="char:EOLhyphen"/>ſy,</hi> under one or other of which, almoſt all Cuticular Eruptions, that are not the immediate Effects of acute Diſeaſes, may be compriſed; I thought it need<g ref="char:EOLhyphen"/>leſs in this <hi>Short Account</hi> to treat particularly of <hi>Tetters, Ringworms,</hi> &amp;c. more eſpecially ſince the Medicines that will Cure the <hi>Itch,</hi> &amp;c. will likewiſe Cure them, and moſt, if not all, other De<g ref="char:EOLhyphen"/>filements of the Skin that take their Riſe from Chronick Diſtempers.</p>
+            <p>I am not ſo opinionated of my own Performances, as to imagine that what I have written is without fault; yet I hope the Candid and Benevolent Rea<g ref="char:EOLhyphen"/>der will take what I have done in good Part.</p>
+            <p>HE that writes his Sentiments of any Diſtemper, or concerning any Matter or Thing, with unfeigned Sincerity, is, in my Opinion, excuſable, tho' he may not be wholly free from Error, and tho' a great Mo<g ref="char:EOLhyphen"/>tive of it may be Self-Intereſt <hi>viz.</hi> gaining Honours, or increaſing his Subſtance; but thoſe are truly blama<g ref="char:EOLhyphen"/>ble, who to obtain either of theſe, publiſh to the World as ſolemn Truths, their own ſprightly Inventions, which have no real Foundation, and which in Fact, they do not believe themſelves.</p>
+            <pb facs="tcp:0202300200:5"/>
+            <p>AND that ſuch groundleſs Hypotheſes are to be found among Phyſical Authors, and that plain deal<g ref="char:EOLhyphen"/>ing is a Virtue not always to be met with, may be ga<g ref="char:EOLhyphen"/>thered from the Works of Dr. <hi>Sydenham,</hi> the moſt worth and ſincere Phyſician <hi>Europe</hi> ever bred, who being importuned to write an Hiſtory of Chronick Di<g ref="char:EOLhyphen"/>ſtempers, complained of the difficulty of ſuch a Task, in the following Words.</p>
+            <p>
+               <q>'FOR among Phyſical Writers, if you except <hi>Hippocrates,</hi> and ſome very few others, ſcarce any Footſteps can be found whereby I might trace thro' theſe impaſſable Ways, obſtructed with ſo many Difficulties; for the Lights and Helps which Authors promiſe, are rather <hi>Ignes fatui,</hi> than true Lights; which rather miſguide to Rocks and Preci<g ref="char:EOLhyphen"/>pices, than direct for the finding the Genuine Me<g ref="char:EOLhyphen"/>thod of Nature; for moſt of their Writings are built upon Hypotheſes proceeding from their own Fancies; and the very <hi>Phoenomena</hi> of Diſeaſes, of which the Hiſtory of them conſiſts, as they are deſcribed by theſe, are modelled in the ſame Shop of Suppoſitions, and the very Practice wherewith they undertake Diſeaſes, (which is the certain Plague and Deſtruction of Mankind) is ſuited to this kind of <hi>Poſtulata,</hi> and not according to the Truth of the Thing, ſo reigning are theſe Mens Whimſies almoſt in every Page; and in the mean while the Directions of Nature are ſlighted.'</q>
+            </p>
+            <p>WHAT this moſt Excellent Phyſician ſays is very much to be lamented; for to be ſwayed by an embrac'd Hypotheſis, and to be inſincere in what relates ſo
+<pb facs="tcp:0202300200:6"/>eminently to Life, and Health the greateſt Bleſſing of it, muſt ſurely be highly Criminal, and in the laſt degree Barbarous.</p>
+            <p>IF I know my own Heart, I have wrote the fol<g ref="char:EOLhyphen"/>lowing Pages with that Integrity that becomes an honeſt Man, and have given as plain and natural an Account of the Illneſſes I have treated about, as I poſſibly could; for the reſt I do not trouble my ſelf, I pretend not to Correctneſs of Stile; all the uſe I know of Words, is to convey one Man's ſenſe of Things to another, if therefore I can be underſtood, it is ſufficient: This I am ſatisfied of, from very great Experience, that the Method I have deſcribed for the Cure of the Diſeaſes the Title mentions, will, if they are curable, by Bleſſing of God, take Ef<g ref="char:EOLhyphen"/>fect; and not only in them, but in the <hi>King's-Evil,</hi> and all <hi>Scrophulous,</hi> Caſes alſo, in a very ſhort Time, in proportion to the inveteracy of them, provi<g ref="char:EOLhyphen"/>ded the Patients will follow Directions; and ſuch of them who think fit to apply to me, may depend upon faithful and civil Treatment, as I am ſure all who have been under my Care hitherto, will acknowledge they have found, from</p>
+            <closer>
+               <signed>T. SPOONER.</signed>
+               <dateline>
+                  <hi>From my Houſe, next the</hi> Black-Horſe <hi>Inn, in</hi> Leman-Street, <hi>in</hi> Goodman's-Fields,
+<date>April <hi>15, 1728.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:0202300200:7"/>
+            <head>THE CONTENTS.</head>
+            <list>
+               <item>
+                  <label>CHAP. I.</label> THE Deſcription, Symptoms, Nature, and dangerous Conſequence of the <hi>Itch,</hi> parti<g ref="char:EOLhyphen"/>cular <hi>Itching Humours, Scabbineſs</hi> and <hi>Le<g ref="char:EOLhyphen"/>proſy.</hi> Page 1.</item>
+               <item>
+                  <label>CHAP. II.</label> Of the Original Cauſe of the <hi>Itch,</hi> Inveterate <hi>Itch<g ref="char:EOLhyphen"/>ing Humours, Scabbineſs</hi> and <hi>Leproſy. p. 16.</hi>
+               </item>
+               <item>
+                  <label>CHAP. III.</label> Of ſeveral Methods of curing the <hi>Itch,</hi> particular <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy;</hi> the Reaſon why ſo many miſs of being Cured; the Danger of falling into grievous and incurable Diſtempers by ill Methods and pernicious Mercurial Applications; and of the ſafe, eaſy and effectual Method of Cure advanced by the Author. <hi>p. 24.</hi>
+               </item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="tract">
+            <pb n="1" facs="tcp:0202300200:8"/>
+            <head>A Short Account OF THE ITCH, <hi>&amp;c.</hi>
+            </head>
+            <div n="1" type="chapter">
+               <head>
+                  <hi>CHAP. I.</hi> The Deſcription, Symptoms, Nature and dangerous Conſequences of the <hi>Itch,</hi> particular <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>HE <hi>Itch</hi> is a filthy Diſtemper, in<g ref="char:EOLhyphen"/>feſting the External Parts of the Bo<g ref="char:EOLhyphen"/>dy univerſally, but more particular<g ref="char:EOLhyphen"/>ly the Joints, and between the Fin<g ref="char:EOLhyphen"/>gers, commonly with Puſtulous E<g ref="char:EOLhyphen"/>ruptions raiſed upon the Scarf-Skin, by almoſt unavoidable ſcratching, occaſioned thro' violent itching of the Parts; from theſe Puſtulous Erup<g ref="char:EOLhyphen"/>tions or little Bladders, when broke, there iſ<g ref="char:EOLhyphen"/>ſues a thin Cryſtalline Humour, which touch<g ref="char:EOLhyphen"/>ing any other Part not yet infected, ſoon cauſes inceſſant itching, and upon ſcratching, more Bladders to ariſe.</p>
+               <pb n="2" facs="tcp:0202300200:9"/>
+               <p>AND by this means the <hi>Itch,</hi> in whatever Part it begins firſt, is ſoon ſpread over the whole Body, and very remarkably fixes upon the Wriſts, Hams, and eſpecially between the Fingers, which peculiarly diſtinguiſhes a real <hi>Itch</hi> from that ſlight itching of the Body, many People are troubled with for a ſhort time, commonly about the beginning of Winter, and in the Spring, occaſioned only by Strait<g ref="char:EOLhyphen"/>neſs, or Conſtipation, of the Pores of the Skin, thro' change or coldneſs of the Seaſon, and which moſtly goes away, upon enlarging or opening the Pores again, either by proper Exerciſe, or the help of the Bagnio, without further Trouble, or Medicines; yet if it con<g ref="char:EOLhyphen"/>tinues, it may lay the Foundation of a true <hi>Itch</hi> ſoon after to follow, as will be ſhewn hereafter.</p>
+               <p>WHEN the <hi>Itch</hi> has continued long, and is become confirmed, the little Ulcerations en<g ref="char:EOLhyphen"/>creaſe, and the clear Humour, contained in the little Bladders, degenerates to a porulent Matter, which ſtill makes the Diſeaſe more Nauſeous and Infectious.</p>
+               <p>SOMETIMES the <hi>Itch</hi> appears in a dry form, without thoſe Puſtules before mention<g ref="char:EOLhyphen"/>ed, and then the Scarf-Skin looks red, rugged or uneven, and when by long continuance it is grown inveterate, the Parts affected are co<g ref="char:EOLhyphen"/>vered over with a dry kind of thin Scab, and this is the worſt and moſt ſtubborn ſort of <hi>Itch,</hi> which, as well as the moiſt kind before ſpoken of, if neglected, in length of
+<pb n="3" facs="tcp:0202300200:10"/>Time, turns to a foul <hi>Scabies</hi> or <hi>Scabbineſs</hi> of the whole Body, quickly to be deſcribed.</p>
+               <p>THE moiſt <hi>Itch,</hi> tho' not ſo ſtubborn o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> virulent as the dry kind, yet, by means of its moiſture, ſooner and more eaſily communi<g ref="char:EOLhyphen"/>cates its Infection to Sound Bodies.</p>
+               <p>AND ſo Contagious is the <hi>Itch</hi> of either ſort, that lying in Bed with a Perſon troubled with it, or in the Sheets an itchy Perſon has lain in, or to wipe one's Hands with the ſame Cloth, or draw on a Glove ſuch a Perſon has worn, or even to have Linnen waſhed with the Linnen of one afflicted with the <hi>Itch,</hi> is ſufficient to catch the Diſtemper and as the Famous and Ingenious Dr. <hi>Willi.</hi> ſays, <q>'Certainly the Infection of no one Diſ<g ref="char:EOLhyphen"/>eaſe is more eaſily and certainly propagated (the Plague only excepted) than this of the <hi>Itch.</hi>'</q>
+               </p>
+               <p>YET ſome Perſons are much more ſubject to be infected with it than others; for i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> many there is a certain aptneſs to receiv<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Diſeaſes of this kind, and ſuch Perſons catc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> it ſooner than others, as Experience demon<g ref="char:EOLunhyphen"/>ſtrates; which difference 'tis likely may hap<g ref="char:EOLhyphen"/>pen through the Natural Structure of the External Pores of the Body, or their bein<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> larger in one Perſon than in another, ſo a to imbibe or receive the infecting Humou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſooner and more ſurely.</p>
+               <p>BUT when One Perſon in a Family o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Houſe is infected with the <hi>Itch,</hi> it commonl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> runs thro' the whole, and eſpecially ſeizes <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb n="4" facs="tcp:0202300200:11"/>thoſe who Eat, Drink and Lye, or are very converſant with the Perſon who has ſo acci<g ref="char:EOLhyphen"/>dentally caught it; and thus the <hi>Itch</hi> is com<g ref="char:EOLhyphen"/>municated from one Perſon, and one Family to another, by means of lying in ſtrange Beds, by Children of different Families playing to<g ref="char:EOLhyphen"/>gether, or by Servant Maids or Nurſes, <hi>&amp;c.</hi> that have had this loathſome Diſeaſe, and come into Families before they are perfectly cured of it.</p>
+               <p>WHEN the <hi>Itch</hi> is caught by Infection, the Scarf or outward Skin only, for ſome time, is infected, and the Blood not at all tainted with it, and then it may eaſily and quickly be cured by proper Medicines regularly ad<g ref="char:EOLhyphen"/>miniſter'd.</p>
+               <p>BUT when it has been neglected long, and the little Ulcers have crept deeper, and touched the <hi>Cutis</hi> or real Skin, ſo that the infecting Humour penetrates the ſmall Veins, and is circled about with the Blood, it ſoon contaminates its whole Maſs, and all the other Juices of the Body, and then becomes con<g ref="char:EOLhyphen"/>firmed, is more dangerous, and much more difficult to Cure.</p>
+               <p>SO alſo where it happens to aged People, and likewiſe if it is complicated with other Diſtempers, in which laſt Caſe it muſt be treated with the utmoſt Skill, for then the Circumſtances of the Patient will not often admit of its being cured after the neareſt manner, but require it to be managed with
+<pb n="5" facs="tcp:0202300200:12"/>great Care and Caution, and with a particular regard to the other Illneſſes that afflict the Patient; who otherwiſe may be kill'd inſtead of being cured, as in another Caſe hap<g ref="char:EOLhyphen"/>pen'd to a certain Perſon labouring under a Conſumption of the Lungs and the <hi>Venereal</hi> Diſeaſe together, the Perſon he apply'd to for Cure imprudently put him into a Salivation for the latter, without minding the former, and ſo deſtroy'd him; for which he was deſervedly Proſecuted in a Court of Juſtice.</p>
+               <p>SOME Authors, Antient and Modern, are of the Opinion, that when the <hi>Itch</hi> has con<g ref="char:EOLhyphen"/>tinued many Months together, and got into the whole Habit of the Body, it cannot be cured; but with Submiſſion, I muſt diſſent from them, being ſatisfy'd from my own Ex<g ref="char:EOLhyphen"/>perience, that the moſt inveterate <hi>Itch</hi> may be perfectly and ſafely cured, by the Rational Method recommended in the latter Part of this Book, of which I alſo flatter my ſelf my Readers will be convinced.</p>
+               <p>YET that an inveterate <hi>Itch</hi> is much more difficult to Cure than a ſlight one, is moſt certain, and Dr. <hi>Willis</hi> before-mentioned, ſpeaking of ſome of his Patients that were afflicted with the <hi>Itch,</hi> which proved ſo ſtub<g ref="char:EOLhyphen"/>born, that with the moſt powerful Remedies, and even repeated Salivations, he could no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Cure, tells us, that <q>'The Veneral Diſeaſe tho' it be extreamly Malignant, and cauſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> moſt foul Ca<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oethick Ulcers that Eat th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <pb n="6" facs="tcp:0202300200:13"/>Fleſh and Bones, may more eaſily and cer<g ref="char:EOLhyphen"/>tainly be cured than the <hi>Itch.</hi>'</q>
+               </p>
+               <p>ANOTHER Author, writing upon this Diſtemper, has the following Words, <q>'I knew three Brothers, all young Men, die purely of the <hi>Itch,</hi> which by length of Time be<g ref="char:EOLhyphen"/>coming habitual, at laſt corrupted the whole Body, which with putrid and eating Ulcers deſtroyed them.'</q>
+               </p>
+               <p>AND thus we find Authors believe this Diſeaſe when grown inveterate, by being neg<g ref="char:EOLhyphen"/>lected too long, to be not only Incurable, but Mortal; but with them I cannot agree, for in my Opinion, the Diſeaſe that kill'd the Three Brothers the laſt quoted Author men<g ref="char:EOLhyphen"/>tions (judging by the latter part of his own Words) was rather a confirmed and univer<g ref="char:EOLhyphen"/>ſal <hi>Scabbineſs</hi> properly the <hi>Itch</hi> it ſelf, which I believe never proves Mortal till it turns to a loathſome <hi>Scabbineſs,</hi> which indeed many times brings on Death.</p>
+               <p>HOWEVER certain it is, that there is a vaſt Difference in this Diſtemper, it being much harder to Cure in ſome Perſons than in others; the Reaſon of which ſeems very plain, and my Experience every Day confirms it more and more, to be generally ſpeaking thus, That thoſe in whom it proves ſtubborn, are themſelves the occaſion of it; for when they firſt find they have caught the <hi>Itch,</hi> inſtead of
+<pb n="7" facs="tcp:0202300200:14"/>applying inſtantly to an ingenious Phyſician for a regular Cure, as they ought to do, they tamper with it themſelves, and neither take and uſe trifling Remedies, ſo as to let the Diſeaſe gain ground of it ſelf, or elſe more miſchievous ones, ſo as haſtily to fix it in the Blood and Juices, by which, of courſe, it becomes very ſtubborn and inveterate.</p>
+               <p>AN Example of which I very lately met with in a Tradeſman, who having caught the <hi>Itch,</hi> follow'd the Advice of a Woman and other unskilful Perſons, and alſo by uſing ſe<g ref="char:EOLhyphen"/>veral Pretended Infallible Remedies, on his own Head, had ſo ingag'd the Diſeaſe, fix'd it in all his Fluids, and render'd it ſo very ſtub<g ref="char:EOLhyphen"/>born and inveterate, that it was with much difficulty I overcame it, and perfectly Cured him.</p>
+               <p>ONE would admire that People ſhould be thus infatuated to their own Detriment, and, as ſometimes it proves, to their own Deſtructi<g ref="char:EOLhyphen"/>on; but ſo it is, and that not only now and then, but very frequently; and what one would ſtill more wonder at, I have almoſt daily Ac<g ref="char:EOLhyphen"/>counts from Perſons of the beſt Senſe and Worth, who apply to me for Cure in thoſe ſtubborn Caſes, of their having injured them<g ref="char:EOLhyphen"/>ſelves in this Manner, which I think, can pro<g ref="char:EOLhyphen"/>ceed from nothing elſe, than that either they are aſham'd to acquaint a Phyſician that they are troubled with ſuch a Diſtemper, which is an Error, or elſe they imagine the <hi>Itch</hi> to be a Diſeaſe of little or no Conſequence
+<pb n="8" facs="tcp:0202300200:15"/>and with Danger, which is a very great and ſometimes fatal Miſtake, as in the Courſe of theſe Papers, will be made apper.</p>
+               <p>BUT beſides the Diſtemper commonly call'd the <hi>Itch,</hi> there are particular and in<g ref="char:EOLhyphen"/>veterate <hi>Itching Humours</hi> of various Kinds or Appearances, that do not affect the Body univerſally as That does, but fix upon par<g ref="char:EOLhyphen"/>ticular Parts only, as in ſome Perſons upon the back of one or both of the Hands, in others upon the Shoulders or Arms, and in others upon one or both of the Thighs, or ſome other particular Parts, either of the Head, Face, Body or Limbs, many times about as broad as a Man's Hand; but ſome Perſons have them much broader, and others much narrower; and in whatever Parts they firſt appear, they moſtly continue, ſometimes di<g ref="char:EOLhyphen"/>miniſhing and ſometimes increaſing, in reſpect both to largeneſs in inveteracy, for many Months and oftentimes Years together, un<g ref="char:EOLhyphen"/>leſs prudently managed and perfectly Cured, by Internal as well as External Reme<g ref="char:EOLhyphen"/>dies.</p>
+               <p>NOW and then the inveterate <hi>Itching Hu<g ref="char:EOLhyphen"/>mours</hi> of this kind in ſome Patients change their Station, and diſappearing in the Parts they firſt affected, ſoon after ariſe in others; but this they ſeldom do, unleſs the Perſons troubled with them, tamper with outward Applications, which, alone, are dangerous,
+<pb n="9" facs="tcp:0202300200:16"/>as will be made appear in the following Sheets.</p>
+               <p>THESE particular <hi>Itching Humours,</hi> in whatever Parts they ſhew themſelves, make the Scarf-Skin look Red, Angry and Un<g ref="char:EOLhyphen"/>equal, and beſides the violent Itching that moſtly attends them, little Pimples, upon ſcratching, commonly ariſe, that are very fore for a ſhort time, and often ſend forth a thin Humour, that may be ſeen ſtanding upon the Parts affected, almoſt like Dew, and when the Soreneſs abates, the Pimples diminiſh, and the Itching increaſes, and then little dry Scurf falls off, and freſh Pimples ſoon ariſe, ſo that there is unſufferable itching, and ſever<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſoreneſs, almoſt at the ſame time, which proves exceeding troubleſome to thoſe unhap<g ref="char:EOLhyphen"/>pily fatigued therewith.</p>
+               <p>THESE inveterate <hi>Itching Humours</hi> differ not much from the Diſeaſe, called <hi>Scabies</hi> or <hi>Scabbineſs,</hi> excepting only that they confine themſelves to particular Parts, as before ſhewn, and That moſtly affects the Body univerſally</p>
+               <p>
+                  <hi>SCABIES</hi> or <hi>Scabbineſs,</hi> is a Diſeaſe moſt commonly ſucceeding an inveterate <hi>Itch</hi> either moiſt or dry, for when either kin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> has continued long, or been ill Cured, ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> that the very Fountains of the Blood and Juices are corrupted, an inveterate and filthy <hi>Scabbineſs,</hi> quickly follows, which not only affects the <hi>Cuticula</hi> or Scarf-Skin, as tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> does, but penetrates deeper, and fixes upo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="10" facs="tcp:0202300200:17"/>the <hi>Cutis</hi> or real Skin, which it gnaws and ulcerates, and cauſes naſtly Scabs to cover the Parts.</p>
+               <p>IF it follows the moiſt <hi>Itch,</hi> foul Ichorous Matter iſſues from them, which is very con<g ref="char:EOLhyphen"/>tagious, and infects and found Part it touches; but if it ſucceeds the dry <hi>Itch,</hi> there is ſeldom any Pus iſſues from the Scabs, which then appear very cruſty, dry and nauſeous to the ſight.</p>
+               <p>SOMETIMES a <hi>Scabbineſs</hi> happens when the <hi>Itch</hi> has not gone before it, but this is not near ſo frequent as the <hi>Scabbineſs</hi> following the <hi>Itch,</hi> which as before ſaid, is generally a Preludium to this hateful Diſtemper.</p>
+               <p>A <hi>Scabbineſs</hi> is alſo accompany'd with itch<g ref="char:EOLhyphen"/>ing as well as ſoreneſs, eſpecially about the Edges of the ſmall Ulcers that void a foul cor<g ref="char:EOLhyphen"/>rupted Pus in the moiſt kind, and about the cruſty Scabs in the dry ſort.</p>
+               <p>AN univerſal <hi>Scabbineſs,</hi> as it is much worſe than the <hi>Itch</hi> for Filthineſs and Putre<g ref="char:EOLhyphen"/>faction, ſo it is much more dangerous and difficult to Cure.</p>
+               <p>IF it continues long without being Cured, the Ulcerations increaſe in number as well as largeneſs, and the diſcharge of Matter from them is ſo great, the Humours continually flowing that way, that the Body being robb'd or drain'd of its moiſture, falls of courſe into a Conſumption, which, together with the fatigue the Patient undergoes in the Day time, and want of Reſt and Sleep at Night, oc<g ref="char:EOLhyphen"/>caſioned
+<pb n="11" facs="tcp:0202300200:18"/>by continual alternate itching and ſmarting, quickly finiſhes the fatal Cataſtrophe, and the unhappy Patient is obliged to ſubmit to a miſerable Death.</p>
+               <p>BUT this muſt be underſtood only of the moiſt <hi>Scabbineſs,</hi> for the dry one, tho' very Inveterate and Malign, yet ſeldom or never is attended with Death, but firſt uſhers in a poiſonous <hi>Leproſy,</hi> that, if not timely Cured, ſoon puts a Period to the Patient's Life.</p>
+               <p>THE <hi>Leproſy</hi> is the moſt Malignant Diſtem<g ref="char:EOLhyphen"/>per that affects the External Parts of the Body, the Blood and Juices being contaminated with its fatal Poiſon, whence proceeds the great Difficulty of curing it.</p>
+               <p>THE <hi>Leproſy</hi> is ſometimes the Hereditary Diſeaſe of the Family, but is much more com<g ref="char:EOLhyphen"/>monly contracted by Infection.</p>
+               <p>AND it may indeed be termed, as in the Learned Dr. <hi>Blancard</hi>'s Phyſical Dictionary, a Diſeaſe, by which, <q>'The Temperature, Form, and Figure, and at laſt the very Continuity of the Body is corrupted; <hi>and as he again ſays,</hi> 'Is a Canker commonly to the whole Body.'</q>
+               </p>
+               <p>THE <hi>Itch</hi> and <hi>Scabies</hi> are uſually the Fore<g ref="char:EOLhyphen"/>runners of it, for the <hi>Itch,</hi> being neglected, turns to an univerſal <hi>Scabies,</hi> and That to the <hi>Leproſy</hi> as before ſhewn, which is the worſt of Cutaneous Diſeaſes, and accompanied with the higheſt degree of Corruption and Putre<g ref="char:EOLhyphen"/>faction.</p>
+               <pb n="12" facs="tcp:0202300200:19"/>
+               <p>THE Symptoms accompanying this direful Diſeaſe, are both Internal and External con<g ref="char:EOLhyphen"/>ciſely ſumm'd up as follow:</p>
+               <q>
+                  <p>'THE Internal are Acid or Muſty Belch<g ref="char:EOLhyphen"/>ings, Coſtiveneſs, Thirſt, a ſtinking Sweat, thick Urine, inſomuch, that the Powder of Lead will ſwim upon it; an extream propen<g ref="char:EOLhyphen"/>ſity to Venery; thickneſs, viſcoſity, and unctuoſity of the Blood when drawn forth, and little Clots of Sand ſticking to the Cloth thro' which it is ſtrained; ſtinking Breath, a weari<g ref="char:EOLhyphen"/>neſs of the Limbs, Chilneſs, Stupidity, and a hoarſe Voice, as if it came thro' the Noſe.'</p>
+                  <p>'THE External Symptoms are theſe, the Skin appears livid, black or yellow; it wrinkles when expoſed to the Cold; it is notably rough and oily, inſomuch, that Wa<g ref="char:EOLhyphen"/>ter will not ſtick to it; it is covered over with a Purple or white Dandriff; little moveable painleſs Knots and Swellings beſet the Forehead, Chin and Joints; a dry Ring<g ref="char:EOLhyphen"/>worm and Puſhes cover the whole Body, and affect not only the Skin but the Muſcles; an eternal <hi>Itch</hi> like the gnawing of Worms, or pricking with Needles moleſts 'em; when they ſcratch any Part, it turns dry and ſcaly, but voids no Matter; the Hair of their Head and Eyebrows falls of; their Forehead is furrowed with wrinkles; their Ears ſtretched and ſwelled; the Eyebrows callous and raiſed; their Eyes round red and ſparkling, infeſted with little hard ſwel<g ref="char:EOLhyphen"/>lings in the corners, and apt to water; the
+<pb n="13" facs="tcp:0202300200:20"/>upper Part of their Noſe contracted, while the inferiour is enlarged, troubled with fre<g ref="char:EOLhyphen"/>quent ſneezing, and infeſted with a Polypus and Cancrous corroſive Ulcers; the Face and Lips are pale, hard, livid, and chop'd; their Tongue and Mouth liable to hard Swellings, Chops and Corroſion; the Gums rough and ſwol'n; the Spittle Viſcous; their Breaſts hard, and their Veins ſwol'n; the Joints wither'd, and beſet with callous indolent Ulcers, that are apt to bleed upon the ſlighteſt touch; the Muſcles of their Hands, eſpecially thoſe of the Thumb, and firſt Finger, are much conſumed; the Fin<g ref="char:EOLhyphen"/>gers and Toes benumb'd; the Joints diſtorted and knotty, and the Nails black, bowed and chopped.'</p>
+               </q>
+               <p>THE Reader, I preſume will readily allow, that Perſons labouring under all theſe Symp<g ref="char:EOLhyphen"/>toms, can have but ſmall, if any hopes of Life, and indeed here are ſo many dreadful ones enumerated, that the very Thoughts of them, one would think, are ſufficient not only to ſink a Perſon Afflicted with them to the Grave, but alſo to make him deſire a ſpeedy Death, as a kind Relief to the grievous Mi<g ref="char:EOLhyphen"/>ſery he muſt neceſſarily endure.</p>
+               <p>BUT it muſt not be imagined, that every one affected with the <hi>Leproſy,</hi> is afflicted with all theſe Symptoms; ſome Perſons are not troubled with one half of them, and yet are as ſurely <hi>Leprous</hi> as thoſe labouring under the greateſt part, or all, that have been ſumm'd up.</p>
+               <pb n="14" facs="tcp:0202300200:21"/>
+               <p>THE moſt diſtinguiſhing Sign of the <hi>Lepro<g ref="char:EOLhyphen"/>ſy,</hi> is the Fiſh like Scales, of a Branny Colour, that fall from the External Parts of the diſeaſed Perſon; and whether that is attended with many more of the before-mentioned Symptoms, as it moſtly is, or not, it beſpeaks the <hi>Le<g ref="char:EOLhyphen"/>proſy.</hi>
+               </p>
+               <p>THE ſooner the Cure of this Diſtemper is undertaken, and the fewer the Symptoms are, the better it will be overcome, and the ſooner and more certainly will the Patient be reſtored to Health; but if it be neglected for a conſi<g ref="char:EOLhyphen"/>derable time, till the Symptoms are multi<g ref="char:EOLhyphen"/>pied, the Strength of the Patient much im<g ref="char:EOLhyphen"/>paired, and the Diſeaſe arrived to the higheſt degree, it may then be ſaid to be incurable, and the ſuffering Wretch has nothing more to do, than to ſettle his Worldly Affairs, com<g ref="char:EOLhyphen"/>mit his Soul to God who gave it, and pati<g ref="char:EOLhyphen"/>ently expect his Diſſolution to put a final End to his intolerable Torment.</p>
+               <p>BY the Account and Deſcription of the Symptoms, Nature and Danger of the Exter<g ref="char:EOLhyphen"/>nal Diſeaſes here given, I think it plainly ap<g ref="char:EOLhyphen"/>pears how inexcuſably remiſs, and in the laſt degree negligent of themſelves thoſe Perſons are, who being afflicted in the ſlighteſt man<g ref="char:EOLhyphen"/>ner with Cutaneous Diſtempers, or ſuch as affect the External Parts univerſally, omit to ſeek for a regular Cure in time, ſince it has been ſufficiently proved, that the moſt trifling <hi>Itch,</hi> if neglected, becomes more and more inveterate, and advances ſtep by ſtep, from
+<pb n="15" facs="tcp:0202300200:22"/>one degree to another, till from the <hi>Itch</hi> it turns to an univerſal and nauſeous <hi>Scabies,</hi> which many times kills the Patients unfortunnately troubled with it, and if it does not, turns to a loathſome <hi>Leproſy,</hi> that very often proves in<g ref="char:EOLhyphen"/>curable, and fails not to render the unhappy Sufferers, and oftentimes their Poſterity after them, miſerable Spectacles to others, as well as lamentable Torments to themſelves, and at laſt accompliſhes their Deſtruction, by the unavoidable Death it certainly brings on.</p>
+               <p>AND no leſs imprudent are they, who being troubled with <hi>Tetters, Ringworms,</hi> and other breakings out, in particular Parts, neg<g ref="char:EOLhyphen"/>lect to get Cured; for they are for the moſt part Species of one or other of the Diſeaſes I have deſcribed, and are of very ill Conſequence, if not quickly remedied.</p>
+               <p>I have not inlarged on thoſe ſeveral breakings out, by their particular Names, as found in Authors, becauſe, as they may be comprehend<g ref="char:EOLhyphen"/>ed under the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabies,</hi> or <hi>Leproſy,</hi> which I have diſcourſed on I would neither tire the Reader's Patience, or ſwell theſe Papers beyond my firſt Intention.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="16" facs="tcp:0202300200:23"/>
+               <head>
+                  <hi>CHAP. II.</hi> Of the Original Cauſe of the <hi>Itch,</hi> in<g ref="char:EOLhyphen"/>veterate <hi>Itching Humours, Scabbi<g ref="char:EOLhyphen"/>neſs</hi> and <hi>Leproſy.</hi>
+               </head>
+               <p>THAT the External Diſeaſes I treat of, are for the moſt part occaſioned by In<g ref="char:EOLhyphen"/>fection, is very certain, there being, I believe, ſcarcely One Perſon in Fifty troubled with them, but what were infected by others in the manner I have ſhewn in the foreging Chapter; yet as the communicating of them from one Perſon to another, cannot properly be called the Cauſe, but rather the ſpreading of Diſeaſes before cau<g ref="char:EOLhyphen"/>ſed, I deſign here, paſſing over that, as ſufficient<g ref="char:EOLhyphen"/>ly proved and already known, to proceed to an enquiry after the Original Cauſe of thoſe Cuta<g ref="char:EOLhyphen"/>neous Diſtempers, when they ariſe and hap<g ref="char:EOLhyphen"/>pen to Perſons who have not been infected by, or received them from others, and that from the Opinions of ſome of the Ancient as well as Modern Phyſicians, many of whom aſſign the <hi>Itch, Scabies, Leproſy,</hi> &amp;c. to one and the ſame Cauſe, and are of Opinion that thoſe Diſeaſes differ from one another only in degree. Nevertheleſs it muſt be al<g ref="char:EOLhyphen"/>low'd, that inveterate <hi>Itching Humours</hi> in par<g ref="char:EOLhyphen"/>ticular Parts, are ſometimes of a Scrophulous Nature, and proceed from the <hi>King's-Evil.</hi>
+               </p>
+               <pb n="17" facs="tcp:0202300200:24"/>
+               <p>
+                  <hi>GALEN</hi> lays the fault of Diſeaſes of the Skin on melancholy or aduſt Matter.</p>
+               <p>
+                  <hi>AVICEN</hi> is of Opinion that, <q>'Blood with which Choler is mixt, and that with Salt Flegm converted into Melancholy, is the cauſe of <hi>Scabbineſs.</hi>'</q>
+               </p>
+               <p>
+                  <hi>LANGIUS</hi> accuſes, <q>'Impure Cholerick Blood, or aduſt and Faeculent, mixt with Li<g ref="char:EOLhyphen"/>quor of Salt Flegm (produced by diſcracy of the Liver, and oftentimes obſtruction of the Spleen) as the cauſe of the <hi>Itch.</hi>'</q>
+               </p>
+               <p>THE Learned Dr. <hi>Blancard,</hi> in his Phy<g ref="char:EOLhyphen"/>ſical Dictionary, ſays, the <hi>Leproſy</hi> is cauſed by <q>'Black Bile diffuſed thro' the whole Body.'</q>
+               </p>
+               <p>OTHERS are alſo of the Opinion, that the <hi>Itch</hi> proceeds from <q>
+                     <p>'Choler, ſubtilized and ſent into the Habit of the Body, which be<g ref="char:EOLhyphen"/>ing mixt with thin Salt Flegm, and ſpread<g ref="char:EOLhyphen"/>ing into the Superficies of the Body, breaks out in the <hi>Cuticula</hi> with ſmall watery Pu<g ref="char:EOLhyphen"/>ſtules cauſing great Itching.'</p>
+                     <p>'THAT a <hi>Scabbineſs</hi> proceeds from Blood and Lympha defiled with Excrementitious Humours, not ſufficiently ſeparated and ex<g ref="char:EOLhyphen"/>pelled by Urine, Stool, Sweat, <hi>&amp;c.</hi> So that the Sanguineous and Lymphatick Juices muſt of neceſſity be corrupted with ſharp and biting Humours, mixt with Salt Flegm and aduſt Choler.'</p>
+                     <pb n="18" facs="tcp:0202300200:25"/>
+                     <p>THAT the <hi>Leproſy</hi> is cauſed by 'Salt Flegm poſſibly putrified with a mixture of oily Humours, as a depraved Lympha and aduſt Choler.'</p>
+                     <p>AND that the remote Cauſes of this De<g ref="char:EOLhyphen"/>pravation of the Choler and Lympha, are 'Feeding upon Salt, Acrid and Hot Meats; alſo want of Cleanlineſs, or keeping the Body ſweet and clean.'</p>
+                  </q>
+               </p>
+               <p>Dr. <hi>Willis</hi> believes the Cauſe of the <hi>Itch,</hi> &amp;c. to be the Depravation of the Humour of the Cutaneous Glands:</p>
+               <p>
+                  <q>
+                     <p>'THE Glandulous Humour, <hi>ſays he,</hi> de<g ref="char:EOLhyphen"/>praved either by the Blood being very im<g ref="char:EOLhyphen"/>pure, and alſo diſſolved, leaving its Cor<g ref="char:EOLhyphen"/>ruption and Recrements plentifully in the Cutaneous Glands, which there aſſuming the Nature of a more Corroſive Ferment, does ferment and variouſly Coagulate with other Juices that come thither or paſs that way, and ſo produces the <hi>Itch,</hi> &amp;c. or the Humour gathered in the Cutaneous Glands, ſome<g ref="char:EOLhyphen"/>times by mere Stagnation, becomes not only Itchy but Corruptive. Therefore thoſe kept long in Priſon, or that lead a Sedentary Life, and are uſed to filth and ſtink, are Obnoxious to theſe Diſeaſes.'</p>
+                     <p>AGAIN, the ſame Author tells us, That in a <hi>Scabbineſs</hi> and <hi>Leproſy,</hi> '<hi>Acido-Saline</hi> Con<g ref="char:EOLhyphen"/>cretions (like Tartar in Wine) do happen in the Maſs of Blood, which when they
+<pb n="19" facs="tcp:0202300200:26"/>cannot be conquered or diſſolved, are dri<g ref="char:EOLhyphen"/>ven to the Skin, as in the other Caſe, <hi>(viz. Wine)</hi> to the ſides of the Cask.'</p>
+                  </q>
+               </p>
+               <p>THE Excellent <hi>Etmuller</hi> aſſigns the Cauſe of the <hi>Itch,</hi> to <q>
+                     <p>'Sharp Particles of the <hi>Serum,</hi> repairing to the Surface in ſmall Quantities.'</p>
+                     <p>OF a <hi>Scabbineſs,</hi> to the 'Depravation of the Nutritive <hi>Serum,</hi> or Juice of the Parts under the Skin, occaſioned by a Preternatural Acid, that takes its Riſe from ſudden Cold, ſucceeding Heat, and ſhutting up the Steams of the Body within the ſtraitned Pores; and which by continuance may at laſt infect the Blood.'</p>
+                     <p>HE alſo ſays, that 'A <hi>Scabbineſs</hi> proceeds ſometimes, but very rarely, from Internal Cauſes, as <hi>Scurvy, French-Pox,</hi> &amp;c.'</p>
+                     <p>AND treating of the <hi>Leproſy,</hi> he gives his Opinion that it is cauſed by 'A Saline Cor<g ref="char:EOLhyphen"/>roſive Acid reigning in the <hi>Serum.</hi>'</p>
+                     <p>HE likewiſe ingeniouſly gives the Reaſon why Cutaneous Diſeaſes are ſometimes moiſt and ſometimes dry, as follows:</p>
+                     <p>'IF the Nutritive Juice be very ſerous and apt to corrupt, the Breakings out run much; if balmy and impregnated with a Volatile Oily Salt, they are cruſty and dry.'</p>
+                  </q>
+               </p>
+               <p>BY what has been ſaid, it appears how much Phyſicians differ from one another, concerning the Cauſe of thoſe Cutaneous Diſtempers, but in my Judgment the two laſt quoted Authors
+<pb n="20" facs="tcp:0202300200:27"/>have hit the Mark much nearer than others, and their Opinions, which amount almoſt to one and the ſame thing, will appear more Ra<g ref="char:EOLhyphen"/>tional, if what the accurate and learned Phy<g ref="char:EOLhyphen"/>ſician Dr. <hi>J. Keill</hi> ſays concerning the Scarf-Skin, in his Anatomy of the Human Body abridg'd, be conſider'd; his Words follow:
+<q>
+                     <p>'THIS <hi>(i. e. the Scarf-Skin)</hi> is that ſoft Skin which riſes in a Bliſter upon any burn<g ref="char:EOLhyphen"/>ing, or the application of a Bliſtering Plaiſter. It ſticks cloſe to the Surface of the true Skin, to which it is alſo tied by the Veſſels which nouriſh it, tho' they are ſo ſmall as not to be ſeen; when we examine the Scarf-Skin with a Microſcope, it appears to be made up of ſeveral Lays of exceeding ſmall Scales, which cover one another more or leſs, according to the different thickneſs of the Scarf-Skin in the ſeveral Parts of the Body. In the Lips where the Scales appear plaineſt, becauſe the Skin is thineſt, they only in a manner touch one another. Now theſe Scales are either the excretory Ducts of the Glands of the true Skin, as I think is apparent in Fiſhes, or elſe theſe Glands have their Pipes opening between the Scales.'</p>
+                     <p>'THESE Scales are often glewed one to another by the groſſer parts of our inſenſible Tranſpiration, hardening upon them by the Heat of our Body, which carries off the more Volatile Particles. The Humour which is afterwards ſeparated by the Glands of the Skin, being pent in between the
+<pb n="21" facs="tcp:0202300200:28"/>Scales, cauſes frequent Itchings, and where the Matter has been longer pent up, ſmall Pimples.'</p>
+                  </q> Thus far the Ingenious Dr. <hi>Keill.</hi>
+               </p>
+               <p>NOW if the Humour deſigned by Nature to be excreted, by being pent in, thro' Cold or any other Accident, cauſes frequent <hi>Itchings,</hi> and by a longer continuance, ſmall Pimples, as certainly it does, why may it not be ſup<g ref="char:EOLhyphen"/>poſed, according to <hi>Willis</hi> and <hi>Etmuller,</hi> that, by a yet longer Confinement or Stagnation, it will be depraved, become corruptive, and at laſt infectious, eſpecially if the remote Cauſes, ſuch as leading a Sedentary Life, eating Salt Meats, the Relicks of other Diſtempers, or liv<g ref="char:EOLhyphen"/>ing in Naſtineſs or Filth, have obſtructed or impaired the Glandules of the Body, or any way injured their Structure, and alſo cauſed irregular Cohaeſions of Particles in the Blood and Juices, ſo as to make them apt upon the leaſt Stagnation to Corrupt and Putrify?</p>
+               <p>MUCH might be ſaid to ſtrengthen and de<g ref="char:EOLhyphen"/>fend this Opinion; yet after all the fine Spe<g ref="char:EOLhyphen"/>culations and Notions Men have, and propa<g ref="char:EOLhyphen"/>gate concerning the Original Cauſe of theſe and many other Diſeaſes, it muſt be acknow<g ref="char:EOLhyphen"/>ledged that it is doubtful, whether we can more than gueſs at the real Eſſence of them; and the moſt faithful Phyſician that ever wrote, the Immortal <hi>Sydenham,</hi> our Coun<g ref="char:EOLhyphen"/>tryman, appears to have had the ſame Senti<g ref="char:EOLhyphen"/>ments, when treating of another Diſtemper he tells us:</p>
+               <pb n="22" facs="tcp:0202300200:29"/>
+               <p>
+                  <q>'AS to the intrinſick Nature and Eſſence of this Diſeaſe, as they ſay, I count I am to ſeek for it no further than as it appears by the Symptoms we have deſcribed, no more than I am obliged to ſearch into the Eſſence of any Plant or Animal.'</q>
+               </p>
+               <p>THIS admirable Man being ſenſible, no doubt, of the inſufficiency of Human Reaſon to penetrate into the Abſtruſe Principles or firſt moving Cauſes of Diſeaſes, ſeems to have apply'd himſelf wholly to the Obſervation of Diſtempers, their ſeveral Symptoms, Stages and Terminations, together with the moſt Natural and Effectual Method of curing them, as his admirable Works, ſo juſtly valued all over <hi>Europe,</hi> ſhew.</p>
+               <p>AND it would be well if all Perſons who Practiſe Phyſick, and who have the good of Mankind moſt at Heart, would Copy after the Learned and Incomparable <hi>Sydenham,</hi> whoſe Works will never Die, and whoſe Ex<g ref="char:EOLhyphen"/>ample all ought to follow, and not be forward to broach New Notions, and ſtrain every thing to ſupport an embrac'd Hypotheſis, or to aſſert this or that to be the Original Cauſe of any Diſtemper, unleſs it could be made appear by undeniable Demonſtration; but rather apply themſelves diligently to the Ob<g ref="char:EOLhyphen"/>ſervation of Diſeaſes, thro' their Beginning, State and Declination, and be thereby per<g ref="char:EOLhyphen"/>fectly acquainted with all their Symptoms, Variations, and Conſequences, ſo as to be able ſafely and quickly to Cure them, which I
+<pb n="23" facs="tcp:0202300200:30"/>am ſure all unprejudic'd Perſons will agree, would be much better for the unhappy Patients afflicted with Diſtempers, than for their Phy<g ref="char:EOLhyphen"/>ſicians to be taken up with airy Speculations concerning them, and at the ſame time per<g ref="char:EOLhyphen"/>haps, be at a Loſs how to effect their Cure</p>
+               <p>AND, indeed, the many Miſtakes there are made, and Errors committed in the Cure of Cutaneous Diſeaſes, even by thoſe from whom one would be far from expecting Miſmanage<g ref="char:EOLhyphen"/>ment, are very ſurprizing, and what I could not believe, if almoſt daily Experience did not con<g ref="char:EOLhyphen"/>vince me of it, of which I could give very many Examples, but that I think it much better rather to draw a Veil over the Miſcarriages of others, than expoſe them to Publick View.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="24" facs="tcp:0202300200:31"/>
+               <head>
+                  <hi>CHAP. III.</hi> Of ſeveral Methods of curing the <hi>Itch,</hi> particular <hi>Itching Humours, Scabbi<g ref="char:EOLhyphen"/>neſs</hi> and <hi>Leproſy;</hi> the Reaſons why ſo many miſs of being Cured; the Danger of falling into grievous and incurable Diſtempers by ill Me<g ref="char:EOLhyphen"/>thods, and pernicious Mercurial Applications; and of the ſafe, eaſy, and effectual Method of Cure ad<g ref="char:EOLhyphen"/>vanced by the Author.</head>
+               <p>MOST Authors agree, that the ſame Method and Medicines that will Cure an inveterate <hi>Itch,</hi> will likewiſe take Place in a <hi>Scabbineſs, Leproſy,</hi> and moſt other Defilements of the Skin, if curable; and indeed Experience anſwers for the Truth of it, only with this difference, that the Method muſt be cloſely fol<g ref="char:EOLhyphen"/>lowed for a longer Time, and the Medicines be made ſtronger for a <hi>Scabbineſs</hi> and <hi>Leproſy,</hi> than it is requiſite they ſhould be for the firſt men<g ref="char:EOLhyphen"/>tioned Infection.</p>
+               <p>BUT what that Method and thoſe Medi<g ref="char:EOLhyphen"/>cines are, that with the greateſt Certainty, leaſt Trouble, and without Danger, will ac<g ref="char:EOLhyphen"/>compliſh the Cure of Cutaneous Diſeaſes, is what Phyſicians differ very much about.</p>
+               <pb n="25" facs="tcp:0202300200:32"/>
+               <p>SOME recommend Bleeding and Purging as abſolutely neceſſary; the firſt to cauſe Re<g ref="char:EOLhyphen"/>vulſion, temperate the Blood, and allay its too great Ebullition, the laſt to cleanſe the Stomach, Bowels, and all the Juices, from Impurities, and both of them to diminiſh the Humours of the Body in general, without all which, they are of Opinion the <hi>Itch</hi> and other Defaedations cannot ſafely or eaſily, if at all, be cured.</p>
+               <p>OTHERS adviſe to <hi>Sudorificks,</hi> or Sweat<g ref="char:EOLhyphen"/>ing Medicines; and others to <hi>Diureticks,</hi> or ſuch as work by Urine; ſome neglecting all eva<g ref="char:EOLhyphen"/>cuating Medicines, preſcribe ſweetners of the Blood, and cooling <hi>Alteratives,</hi> which they be<g ref="char:EOLhyphen"/>lieve will Cure by ſubduing the Cholerick Diſ<g ref="char:EOLhyphen"/>poſition and Acrid Quality of the Juices.</p>
+               <p>OTHERS, laying aſide all Internal Reme<g ref="char:EOLhyphen"/>dies, rely wholly upon External Applications for the Cure of Cuticular Maladies, ſuch as Ointments, Baths and Waſhes, made of Tobac<g ref="char:EOLhyphen"/>co, Brimſtone, Elecampane, Sharp pointed Dock, <hi>&amp;c.</hi> and others chiefly inſiſt on Mer<g ref="char:EOLhyphen"/>cury or Quickſilver, outwardly applied, either by a Girdle, or mix'd with Unguents, <hi>&amp;c.</hi> which they ſay will effectually kill the <hi>Itch,</hi> and other Diſeaſes of the Skin.</p>
+               <p>THUS Phyſical Authors vary exceedingly in their Opinions one from another, and each brings ſeveral Reaſons and Arguments to ſup port the Opinion he is of, or has advanced Thoſe who plead moſt for External Applica<g ref="char:EOLunhyphen"/>tions, have but an indifferent Opinion o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Purging, and inveigh mightily againſt Bleed<g ref="char:EOLhyphen"/>ing,
+<pb n="26" facs="tcp:0202300200:33"/>which they ſay draws the foul Humour, that either never reached deeper than the Skin, or elſe that Nature had kindly expelled to the outer Parts, into the Blood and Juices, ſo as certainly to corrupt them, and fix the Diſtem<g ref="char:EOLhyphen"/>per upon the whole Habit of the Body, and thereby render it incurable.</p>
+               <p>
+                  <hi>MARTIANUS</hi> gives an Account of a certain Perſon, <q>
+                     <p>'Who labouring under the <hi>Itch,</hi> would have Four Pound of Blood taken from him by opening a Vein, upon which, that very Day, revulſion of the Putrid Humour being made from the Skin to the greater Veins by Venae-Section, he was taken with a Malignant Fever, which kill'd him the Fifth Day.'</p>
+                     <p>'LETTING Blood <hi>(ſays another Author)</hi> muſt abſolutely be avoided in this Cure, for thereby the Impurity is drawn into the Blood, and that defiled which before was pure.'</p>
+                  </q>
+               </p>
+               <p>THE famous <hi>Helmont</hi> mentions purging Medicines in this Diſtemper, as well as in other Caſes, with Deriſion.</p>
+               <p>BUT <hi>Willis,</hi> amongſt many others, is of Opinion, that both Bleeding and Purging in Cutaneous Diſeaſes are neceſſary.</p>
+               <p>SPEAKING of Bleeding he ſays, <q>
+                     <p>'The Effect is not taken away till firſt the Cauſe be removed, which may this way properly be done. Yea for an univerſal Diſeaſe, ſuch as the <hi>Itch</hi> is, an univerſal Remedy, ſuch as letting Blood is, ſeems convenient.'</p>
+                     <p>HE likewiſe mightily recommends Purging in the following Words; 'Therefore Purges
+<pb n="27" facs="tcp:0202300200:34"/>ought both to begin and make an end of this Method of Cure; for tho' <hi>Helmont</hi> treats a Cathartick Medicine with high Diſ<g ref="char:EOLhyphen"/>dain, and, as it were, leads it in Triumph, becauſe of it ſelf it does not Cure the <hi>Itch;</hi> yet we may affirm, that this Diſeaſe is ſcarce ever eaſily, but never ſafely cured, without this ſort of Phyſick.'</p>
+                     <p>'HE that would Cure the <hi>Itch, (ſays Hart<g ref="char:EOLhyphen"/>manus)</hi> muſt firſt of all Cleanſe the Blood, for it lodges in the Saline, Vitriolick, and Alu<g ref="char:EOLhyphen"/>minous Impurities thereof.'</p>
+                  </q>
+               </p>
+               <p>
+                  <hi>ETMULLER</hi> alſo adviſes to Purging; and <hi>Sydenham,</hi> directing to ſweating Medicines, and outward Applications for an Inveterate <hi>Itch,</hi> ſays, <q>'But theſe Things ought not to be applied till the Patient's Body hath been firſt duly prepared by Bleeding and Purging.'</q>
+               </p>
+               <p>BESIDES the Authorities of theſe Great and Learned Men for Bleeding and Purging in the <hi>Itch, &amp;c.</hi> there are many Examples given by Authors, of the unhappy Conſequences o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> attempting the Cure of External Diſeaſes by outward Applications only.</p>
+               <p>
+                  <hi>BORELLUS</hi> informs us of a Man, who being troubled with an exceeding Itching, an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> endeavouring to Cure himſelf with a Waſh in a few Hours after uſing it, <q>
+                     <p>'There wer<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Bliſters rais'd all over his Body, and in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> little while after, he was ſo troubled wit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Faintings and Swoonings, that he was ver<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> nigh Death.'</p>
+                     <pb n="28" facs="tcp:0202300200:35"/>
+                     <p>'A luſty Matron <hi>(ſays Hildanus)</hi> about Forty Years Old, fat and of a moiſt Conſti<g ref="char:EOLhyphen"/>tution of Body, when in the Month of <hi>Fe<g ref="char:EOLhyphen"/>bruary,</hi> ſhe had put on a Quickſilver Girdle for a ſmall <hi>Itch,</hi> and had worn it for three Weeks Night and Day, ſhe indeed was rid of her <hi>Itch,</hi> but there followed a Saliva<g ref="char:EOLhyphen"/>tion, exulceration of the Gums, and heavi<g ref="char:EOLhyphen"/>neſs in the Head, which was followed by a Catarrh on the Left Side, and weakneſs of the ſame.'</p>
+                  </q>
+               </p>
+               <p>
+                  <hi>VELSCHIUS</hi> gives an Account of a Per<g ref="char:EOLhyphen"/>ſon afflicted with this Diſeaſe, <q>'Who neg<g ref="char:EOLhyphen"/>lecting Univerſals, kill'd the <hi>Itch</hi> with Oint<g ref="char:EOLhyphen"/>ments; preſently upon which, Defluxions of Salt Humours ſupervening, and falling upon his Lungs, he ſpit Blood at times, and at length, an Hectick coming upon him, he died: When he was dead, his Lungs were found altogether corrupted, and moſt part of 'em harden'd into a Scirrhus.'</q>
+               </p>
+               <p>BY theſe Accounts, amongſt many others, that are left upon Record, to warn us againſt the like irrepairable Miſchiefs, the Readers may judge what Care there ought to be taken, and what Skill there is required in curing Chronick Diſeaſes of the Skin; and I believe it will be eaſily allow'd, that it is not only re<g ref="char:EOLhyphen"/>quiſite to Cure them ſurely, but ſafely too; for to omit Internal Remedies, and ſtrike in thoſe Diſtempers by external and repelling Ap<g ref="char:EOLhyphen"/>plications, tho' ever ſo ſeemingly innocent in themſelves, may be attended with very bad
+<pb n="29" facs="tcp:0202300200:36"/>Accidents, ſuch as violent Fevers, Aſthmas, Conſumptions of the Lungs, Convulſions, Fall<g ref="char:EOLhyphen"/>ing Sickneſs, Palſies, Apoplexies, Madneſs, internal Ulcers, Scirrhous Tumours, and other dangerous, and oftentimes incurable Maladies, under which, if the Patients eſcape with Life, they may remain miſerable all their Days.</p>
+               <p>FOR when the malignant Humour is thus forc'd to retire from the external Parts of the Body, it is then circled about with the Blood, till it is depoſited and fix'd upon ſuch of the No<g ref="char:EOLhyphen"/>ble internal Parts, as happen to be moſt weak, or apt to receive it. Thus if it falls on the Brain and Nerves, it produces the Apoplexy, Falling-Sickneſs, Palſy, Convulſions, or Madneſs, <hi>&amp;c.</hi> If it happens to fix on the Breaſt, it cauſes a vio<g ref="char:EOLhyphen"/>lent Cough, dreadful Aſthma, or Ulceration of the Lungs and incurable Conſumption; if upon the Urinary Parts, it occaſions the Diſeaſes com<g ref="char:EOLhyphen"/>mon to them, ſuch as racking Pains, Dyſury, Strangury, incurable Ulceration of the Kidneys, or Bladder, <hi>&amp;c.</hi> If upon the Liver and Spleen, Obſtructions and Scirrhous Tumours of thoſe Parts are produced; if it fixes on the Bowels, it cauſes a ſevere Cholick, Diarrhaea, Dyſente<g ref="char:EOLhyphen"/>ry, Inflammation of the Gutts, or Illiack Paſſion, <hi>&amp;c.</hi> And if it does not happen to lodge on any of thoſe particular Parts, it then commonly inflames the whole Maſs of Blood univerſally, and ſo produces violent Fevers, continual or intermitting, threatning ſpeedy Death.</p>
+               <pb n="30" facs="tcp:0202300200:37"/>
+               <p>AND the Illneſſes that happen by ſuch im<g ref="char:EOLhyphen"/>prudent Management, ſometimes do not appear till ſome Months after ſuch outward Applica<g ref="char:EOLhyphen"/>tions have been forborn.</p>
+               <p>WHAT a riſque therefore do thoſe run, who, being unhappily troubled with the <hi>Itch,</hi> or any other Cutaneous Diſtemper, endeavour to Cure themſelves with Ointments, Waſhes, Quickſilver Girdles, <hi>&amp;c.</hi> which if they do not take effect, as very often happens, are then a very great Fatigue to them to no purpoſe, and if they do Cure, then expoſe them to the Danger of worſe Diſeaſes, and even Loſs of Life.</p>
+               <p>THE Ingenious Dr. <hi>Fuller,</hi> in the Appendix to his Book, intituled, <hi>Medicina Gymnaſtica,</hi> informs us, that he ſplit upon this Rock, and endured the moſt violent Illneſs imaginable for many Years together, by means of curing himſelf, with a Quickſilver Girdle, of an <hi>Itch</hi> that he had accidentally caught; an Abſtract of which take as follows:</p>
+               <q>
+                  <p>'I wore it <hi>(ſays he, meaning a Mercurial Girdle)</hi> for ſeveral Months by times, and then laid it quite aſide; but the Miſchief was be<g ref="char:EOLhyphen"/>gun, tho' I was not aware of it; for about a Month after, I awak'd one Morning with an unuſual Giddineſs, and in a little time after, I found ſeveral Convulſions begin to come upon me, in the Capillary Arteries of my Eyes, <hi>&amp;c.</hi> Sometimes I ſhould have my Hands drawn in, and my Fingers brought to the Palm of my Hand involuntarily. I
+<pb n="31" facs="tcp:0202300200:38"/>was not a little terrified, as any may imagine; but by proper means the ſeverity of the Symptoms went off, and I remain'd only with a Giddineſs, which was very trouble<g ref="char:EOLhyphen"/>ſome. Once upon drinking the <hi>Bath</hi> Waters too long, that Vertiginous Rotation was ſo increaſed, that I was laid up for a Month with it, being ſcarce able to go about with<g ref="char:EOLhyphen"/>out ſtaggering like a drunken Man; but this extremity abated, and I remain'd heal<g ref="char:EOLhyphen"/>thy under that Giddineſs for ſeveral Years, till happening once to be more indiſpoſed than uſually, upon taking a Chalybeate, the Humour ſtruck deeper into the Nerves of the Pectoral Muſcles; ſo that I found my Shoulders begin to be contracted involuntari<g ref="char:EOLhyphen"/>ly, and upon walking, a ſhortneſs of Breath, which I could diſcern, was cauſed by the preternatural preſſure of thoſe Muſcles upon my Breaſt, which I have ſometimes reſiſted ſo far, when it has happen'd to come upon me in the Streets, before I could get to a Houſe I knew, that it has made my Eyes Flaſh, and brought other Epileptick Symp<g ref="char:EOLhyphen"/>toms upon me, that I have been forced to take into a Shop, and deſire leave to reſt me for a time. Theſe Things continued on me for a Year or more, and declining under theſe Spaſms of my Breaſt, I was at length quite confined to my Home for near three Months, all the while growing worſe and worſe, in ſpite of the Power of any Medi<g ref="char:EOLhyphen"/>cines I took, when it happend that I was
+<pb n="32" facs="tcp:0202300200:39"/>caſually directed to the uſe of Riding, in order to which I removed to <hi>Hampſtead,</hi> where I rode at leaſt twice a Day, for the ſpace of Seven Weeks. After I had by theſe means recovered a good Meaſure of Health, I enjoyed it about a Year and half, by the help of Riding at due Intervals; but think<g ref="char:EOLhyphen"/>ing my ſelf ſtronger than I really was, and Riding long Journies, I was took of a ſud<g ref="char:EOLhyphen"/>den with the ſtrangeſt ſort of <hi>Deliquium (or Fainting)</hi> that perhaps ever was heard of; to theſe ſort of Fits was added a <hi>Diarrhaea (or Looſneſs)</hi> which was attended with a Nauſe<g ref="char:EOLhyphen"/>ouſneſs and Inclination to Vomit; and what is Remarkable, thoſe Nights after my Vomiting, I ſhould Sweat to that degree, as to make my Shirt and Sheets as wet as if they had been dip'd in Water, upon which I was refreſhed and freed from the greater ſe<g ref="char:EOLhyphen"/>verity of thoſe Symptoms, which plainly ſhews how pernicious that Pſoradick <hi>(or Itchy)</hi> Salt was, which the Mercurial Particles had repelled and intimately mix'd in my Blood.'</p>
+                  <p>'THUS I had three Calamities upon me at once, a Flux, a Vomiting, and the <hi>Deli<g ref="char:EOLhyphen"/>quiums (or Faintings)</hi> I ſpoke of before, the laſt of which had ſomething ſo incredible to 'em, that I ſhall forbear to relate it; I do not ſpeak in heat, but ſeriouſly and calmly, that the Vomiting, tho' very frequent and ſevere, was deſirable, if compared with theſe moſt ſtrange Faintings, which were ſo tor<g ref="char:EOLhyphen"/>menting
+<pb n="33" facs="tcp:0202300200:40"/>and inſupportable, that if I had been Stab'd or had had my Fleſh cut with Knives, I am certain I could much eaſier have born it; I betook my ſelf to moderate Riding again, and held out even under ſuch preſſing Severities, as I have related, no leſs a time than a Year and Nine Months, when at length theſe Evils gained upon me, and my Vomit<g ref="char:EOLhyphen"/>ings were ſo frequent and incredibly violent, that they took away the uſe of my Limbs, ſo that I was forced to be lifted every time up<g ref="char:EOLhyphen"/>on my Horſe, that I might continue my Ri<g ref="char:EOLhyphen"/>ding, tho' it were but to gain a little perio<g ref="char:EOLhyphen"/>dical Eaſe, till that ſeiſure on my Limbs in<g ref="char:EOLhyphen"/>creaſing, I was confined to my Chamber, my Legs and Thighs ſwell'd, and I was very near the End of this tedious Journey of Life.'</p>
+               </q>
+               <p>THE Account this Learned and Ingenious Phyſician gives of his own dreadful Illneſs, occaſioned by his wearing a Quickſilver Girdle, together with the Inſtances before given, of the Miſchiefs that have been done by that Method, as alſo by Waſhes and Ointments, are ſuf<g ref="char:EOLhyphen"/>ficient, one would think, to deter all Perſons from tampering with outward Medicines, for the Cure of Cutaneous Diſeaſes, without taking proper Internal Remedies alſo, by the Directi<g ref="char:EOLhyphen"/>on of a Skilful Phyſician.</p>
+               <p>AND here it will not be amiſs to exemplify the great danger of Quickſilver Girdles, by another Caſe that lately happen'd.</p>
+               <p>ON the 24th of <hi>May,</hi> an Ingenious Wo<g ref="char:EOLhyphen"/>man of very good Repute, in the utmoſt Fright
+<pb n="34" facs="tcp:0202300200:41"/>and Conſternation (for which, indeed, ſhe had a great deal of Reaſon) deſired my Aſſiſtance; She gave me to underſtand, that ſhe had for ſome time before been troubled with the <hi>Itch,</hi> and for the Cure of it, had put on a Quick<g ref="char:EOLhyphen"/>ſilver Girdle, which, in a ſhort time, raiſed ſuch a violent Salivation, as I ſcarcely ever ſaw before; for beſides the ordinary Symp<g ref="char:EOLhyphen"/>toms of ſoreneſs of the Mouth, exulceration of the Gums, ſtinking Breath, looſneſs of the Teeth, <hi>&amp;c.</hi> it was attended with others very ſevere and dangerous; particularly ſuch a prodigious Inflammation and ſwelling of the Glandules about her Throat, that at firſt, I queſtioned very much whether I ſhould be able to ſave her Life; and I really believe if ſhe had not apply'd for Relief at the Inſtant ſhe did, ſhe would in a little time have been ſuf<g ref="char:EOLhyphen"/>focated or choak'd, and ſo have periſh'd by the effect of that pernicious Girdle.</p>
+               <p>I immediately endeavour'd to check the Salivation, and remove the Symptoms by <hi>Ca<g ref="char:EOLhyphen"/>tharticks,</hi> Specifick <hi>Abſorbents, Cardiacks, Gar<g ref="char:EOLhyphen"/>gariſms,</hi> and other proper Remedies, which, by God's Bleſſing, had all the wiſh'd for Suc<g ref="char:EOLhyphen"/>ceſs, ſav'd her from the Grave, and reſtor'd her to perfect Health.</p>
+               <p>THE narrow eſcape this Woman had, and what has been ſaid before on this Head, will, I hope, prevent all Perſons who happen to read theſe Papers, from making uſe of Mercurial or Quickſilver Girdles, on any account what<g ref="char:EOLhyphen"/>ever.</p>
+               <pb n="35" facs="tcp:0202300200:42"/>
+               <p>NEITHER is frequent Bleeding, or in a large quantity at a time, to be attempted without Danger; for it is certain, that irregu<g ref="char:EOLhyphen"/>lar Bleeding many times draws the pernicious Humour of the <hi>Itch, &amp;c.</hi> from the Scarf-Skin, which alone was infected, into the Maſs of Blood, and to the Internal and more Noble Parts, that before were not in the leaſt tainted with it.</p>
+               <p>SO likewiſe Purging imprudently with ſtrong Medicines, will have the ſame effect, and not often clear the External Parts of their troubleſome defilement neither; many times it happens that Patients may Purge themſelves into the Grave, with the common violent <hi>Ca<g ref="char:EOLhyphen"/>tharticks,</hi> before their Skin will be freed from the <hi>Itch, &amp;c.</hi> and this <hi>Helmont</hi> well knew, and made a handle of it to deſpiſe Purging, in the manner before mentioned.</p>
+               <p>IF therefore Learned Phyſicians themſelves, who make the Body of Man, and all the De<g ref="char:EOLhyphen"/>fects and Diſtempers it is liable to, their con<g ref="char:EOLhyphen"/>tinual Study; and who are well acquainted with the Virtue, Nature and Uſe of Medicines, which are keen Inſtruments in their Hands and which, when well apply'd, reſtore the Di<g ref="char:EOLhyphen"/>ſeaſed Body to priſtine Health, but when im<g ref="char:EOLhyphen"/>properly preſcribed, quite the contrary; if I ſay, ſuch Eminent Men make falſe ſteps, as in the Inſtances juſt now given, and diffe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> from one another about the moſt effectual Me<g ref="char:EOLhyphen"/>thod of curing the <hi>Itch, &amp;c.</hi> as already ſhewn How ſhould the Afflicted Patients, who muſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="36" facs="tcp:0202300200:43"/>be ſuppoſed to be wholly Ignorant of the Na<g ref="char:EOLhyphen"/>ture, Cauſe, <hi>&amp;c.</hi> of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Diſtemper, and who know not the Virt<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> of Medicines, or at leaſt, when, and when not, there is a pro<g ref="char:EOLhyphen"/>per Indication for their Uſe, be able to form a right Judgment, or take and uſe the moſt ſeemingly innocent Remedies, without ex<g ref="char:EOLhyphen"/>tream Danger?</p>
+               <p>HAVING thus given the Opinion of Phy<g ref="char:EOLhyphen"/>ſicians, concerning Bleeding, Purging, and Ex<g ref="char:EOLhyphen"/>ternal Applications in the Cure of the <hi>Itch, &amp;c.</hi> and appriſed the Reader of the Danger that attends the unskilful uſe of them, it may not be amiſs to offer my own Opinion concerning their true Uſe, and then deſcribe the Method that to me appears moſt Rational for the Cure of Cutaneous Diſtempers, and which Experi<g ref="char:EOLhyphen"/>ence has confirmed to be the Safeſt, Sureſt, and moſt Expeditious to eradicate the <hi>Itch,</hi> Invete<g ref="char:EOLhyphen"/>rate <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy</hi> when Curable.</p>
+               <p>FIRST then, as to Bleeding, it ought not promiſcuouſly to be adviſed to all Perſons, nei<g ref="char:EOLhyphen"/>ther is it abſolutely to be forborn; large or frequent Bleeding weakens the Patient, and, as already ſaid, draws the Infection inwards, and often fixes it upon the habit of the Body, ſo as to render it very difficult to Cure; but to omit Bleeding entirely, where a Patient is Young, and of a Plethorick Conſtitution, and whoſe Juices are apt to be much diſturbed, and whole Body diſordered upon adminiſtring Remedies, is certainly very erroneous; and that omiſſion
+<pb n="37" facs="tcp:0202300200:44"/>may be attended with an acute Fever, or other Accidents, end<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ering Life.</p>
+               <p>EXTREAMS the<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>fore muſt be avoided, and if a Fever is to be feared, Bleeding in a ſmall quantity, may without Danger of at<g ref="char:EOLhyphen"/>tracting the foul Humour inwards, be premiſed, in order to prevent all Accidents, but in my Opinion, for no other reaſon.</p>
+               <p>GENTLE Purging is always requiſite for all Perſons, whoſe Circumſtances of Body will admit of it, ſome very few excepted; but the ſtrong common Purges muſt be avoided, not only as too fatiguing to the Patient, but per<g ref="char:EOLhyphen"/>nicious alſo; for all <hi>Catharticks</hi> made uſe of in theſe Caſes, ought to be very gentle, that ſo Nature may not be oppreſſed, but on the con<g ref="char:EOLhyphen"/>trary aſſiſted, and the offending Matter be car<g ref="char:EOLhyphen"/>ried off by a conſtant and eaſy Evacuation, by which the Patient will eſcape the Danger of drawing the Diſeaſy Humour to the Internal Parts, and of fixing it in the Blood and Juices, which violent Purges would expoſe him to.</p>
+               <p>PROPER External Applications are alſo exceeding neceſſary to expedite the Cure, and to eradicate more certainly the foul Infection, and are very ſafe to be uſed, when gentle <hi>Ca<g ref="char:EOLhyphen"/>tharticks</hi> (with which <hi>Specificks</hi> muſt ever be<g ref="char:EOLhyphen"/>mixed) are alſo inwardly given; but are very dangerous when uſed unskilfully, alone, or without the neceſſary Precautions.</p>
+               <p>IN the choice of External Applications <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> there is much Judgment required; for ſuch a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> are proper for one Perſon troubled with th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="38" facs="tcp:0202300200:45"/>
+                  <hi>Itch, &amp;c.</hi> may not be ſo for another; yet in ge<g ref="char:EOLhyphen"/>neral they ought to be of a very ſubtile and pe<g ref="char:EOLhyphen"/>netrating Nature, that they may eaſily enter the External Pores of the Skin, and be alſo en<g ref="char:EOLhyphen"/>dued with a Specifick Quality, to mortify or kill the pernicious ſharp Humour lodged there<g ref="char:EOLhyphen"/>in, and likewiſe be adapted to enlarge the excretory Ducts, that there may be free per<g ref="char:EOLhyphen"/>ſpiration for the future, and that the excre<g ref="char:EOLhyphen"/>mentitious Salts combined with Sulphur, may no more be pent in, and by Stagnation acquire Acrimony, and ſo cauſe Itching, <hi>&amp;c.</hi>
+               </p>
+               <p>SPECIFICK <hi>Alteratives, Diureticks</hi> and <hi>Sudorificks,</hi> are alſo often very uſeful to mend the Craſis of the Blood, depurate the Juices, rectify the Glands, open the External Pores, and reſtore their Tone, and muſt be preſcri<g ref="char:EOLhyphen"/>bed as the Caſe may require.</p>
+               <p>I might here give various Preſcriptions, of Remedies of every kind I have mentioned, from the Works of Learned and Eminent Phy<g ref="char:EOLhyphen"/>ſicians, for the Cure of the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy;</hi> but conſidering that the Judgment of a Skilful Man is always requiſite for their right Appli<g ref="char:EOLhyphen"/>cation, even in the moſt trifling <hi>Itch,</hi> and that tho' thoſe Preſcriptions might be excellent in their kind, and ſhould fully anſwer the Cha<g ref="char:EOLhyphen"/>racter Authors have given of them; yet if Pa<g ref="char:EOLhyphen"/>tients ſhould proceed on their own Heads, and unskilfully take or uſe them, they might prove very prejudicial, and inſtead of Curing their Diſeaſes, injure their Bodies, and perhaps en<g ref="char:EOLhyphen"/>danger
+<pb n="39" facs="tcp:0202300200:46"/>their Lives, I thought it beſt to omit them.</p>
+               <p>BUT the Method that I think moſt proper to Cure the <hi>Itch,</hi> and other Chronick Diſeaſes of the Skin, is this, <hi>viz.</hi> In the firſt place, if the Patient is Young, of a Sanguine Complexion, Plethorick, or inclined to a Fever, the Day before I order any Medicines, I direct to Bleed<g ref="char:EOLhyphen"/>ing in a ſmall quantity, in order to prevent a Fever, or other acute Illneſs, and for no other end; but if no ſuch Accident is to be feared, I omit Bleeding, and immediately adviſe to both Internal and External Remedies, to be taken and uſed together.</p>
+               <p>THE External Medicines I direct to, cer<g ref="char:EOLhyphen"/>tainly clear the Skin from all manner of foulneſs, rendering it in a ſhort time ſmooth, fair, and entirely free from Itching, and from all Pim<g ref="char:EOLhyphen"/>ples, Scurf, Scabs, and other Defilements; whilſt the Internal ones, which are gently <hi>Purging, Diuretick,</hi> and <hi>Alterative,</hi> cleanſe the Blood and Juices from Impurities, deſtroy and carry off ſharp Humours, and Acrid Particles, that may have intimately mixed with the Blood, and infected its whole Maſs; break the Combinations of Saline and Sulphureous Cor<g ref="char:EOLhyphen"/>puſcles, rectify the Glandules, free the Pores from obſtructing Viſcoſities, and effectually clear the whole Habit from all Filth and Putrefaction whatſoever; and yet are ſo ho<g ref="char:EOLhyphen"/>mogeneous to Nature, as not to cauſe any Sickneſs at Stomach, diſorder of Body, or re<g ref="char:EOLhyphen"/>quire Confinement, more than barely to guard
+<pb n="40" facs="tcp:0202300200:47"/>againſt Wet Weather, or more than ordinary Cold.</p>
+               <p>NEITHER are the External Remedies I adviſe to, compounded with Brimſtone, or ac<g ref="char:EOLhyphen"/>companied with any nauſeous Smell, but may be uſed by the moſt delicate Perſon, without Offence, and yet are more effectual for the Intention than thoſe with which Brimſtone is mix'd: Now by this Method, and the Me<g ref="char:EOLhyphen"/>dicines I Order (which I always prepare my ſelt, and which both External and Internal are different from the common Remedies) the Diſeaſy Matter, in whatſoever Corner it lurks, will be ferreted out and entirely deſtroyed, with ſafety to the Patients, who will thereby be happily reſtored to their Priſtine Health.</p>
+               <p>IT may here be enquired of me, why, ſince the External Medicines I ſpeak of, will effectu<g ref="char:EOLhyphen"/>ally clear the Skin from all Defilements, I do not rely on them for the Cure of a recent <hi>Itch,</hi> that has only infected the Scarf-Skin and not penetrated deeper, without adviſing to Inter<g ref="char:EOLhyphen"/>nal Remedies? To which I anſwer, That no Man can be aſſured, that ſome of the ſubtile Itchy Particles have not penetrated the ſmall Blood Veſſels, and if it ſhould happen that they have, tho' the <hi>Itch,</hi> to all appearance might be cured, yet thoſe ſmall Particles, that by getting into the Blood have eſcaped being de<g ref="char:EOLhyphen"/>stroyed by the outward Remedies, will, by circulating about with it, ſoon infect all the Fluids, and ſo the <hi>Itch</hi> will break out again in a few Months after, and prove worſe and
+<pb n="41" facs="tcp:0202300200:48"/>more ſtubborn than before, as Perſons without Number who have endeavoured to be cured that way, have experienced to their Coſt, and which, by taking proper Internals at the ſame time, might have been effectually prevented; beſides, by adminiſtring peculiar. Purging and Alterative Medicines, all Accidents and Diſtem<g ref="char:EOLhyphen"/>pers, that the uſing of even the Safeſt outward Applications make the Patients liable to, as be<g ref="char:EOLhyphen"/>fore ſhewn, are abſolutely guarded againſt.</p>
+               <p>IT may likewiſe be asked, why, If the In<g ref="char:EOLhyphen"/>ternal Remedies I direct to, are of ſuch Effica<g ref="char:EOLhyphen"/>cy as I mention, I do not wholly depend upon them for the Cure of Diſeaſes of the Skin, without adviſing to External Applications? To which it may be anſwered, That we ought to attack ſuch ſtubborn Diſtempers with all our force, and by all likely ways of ſucceeding; beſides which, we cannot reaſonably ſuppoſe it poſſible for a Patient to be cured near ſo ſoon by Internal Medicines alone, as by them and External Applications together; the whole Maſs of Blood and Juices will take up a conſi<g ref="char:EOLhyphen"/>derable time to be perfectly altered and purifi<g ref="char:EOLhyphen"/>ed, and much longer will it be, before the Diſ<g ref="char:EOLhyphen"/>eaſy Particles lodged in the External Pores of the Skin, can by Internals alone, be abſolutely overcome and deſtroyed; but when with them we joyn proper outward Remedies, which are always ſafe whilſt gentle <hi>Catharticks, &amp;c.</hi> are given inwardly, we then anſwer all the Intentions of Cure, and ſtrike home to th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Morbifick Matter, ſo as to deſtroy it Root an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="42" facs="tcp:0202300200:49"/>Branch, and from thence may reaſonably pro<g ref="char:EOLhyphen"/>miſe our ſelves happy Succeſs in a very ſhort time.</p>
+               <p>FROM what has been ſaid, may be ga<g ref="char:EOLhyphen"/>thered the Reaſons why ſo many Perſons miſs of being perfectly cured of the <hi>Itch, &amp;c.</hi> for many Months, and oftentimes Years; for by uſing outward Applications alone, tho' proper ones, the Cure even of a new caught <hi>Itch,</hi> is not often perfectly accompliſhed, and when it is, not without Danger; neither can Perſons hand<g ref="char:EOLhyphen"/>ſomely, I'm ſure not expeditiouſly, be Cured by taking Internal Medicines, tho' exceeding good, unleſs aſſiſted with proper Externals at the ſame time; and to take and uſe Internal and External Remedies together, that are not very Efficacious (a misfortune often happening to Perſons who follow the Vulgar Methods) is only trifling with the Diſtemper and pro<g ref="char:EOLhyphen"/>longing their Affliction; for if they happen to be better, and ſeem quite Cured, it is general<g ref="char:EOLhyphen"/>ly but for a ſhort time, and the Diſeaſe ſoon after breaks out again, with greater force than before.</p>
+               <p>MANY Perſons have been thus fatigued with a ſimple <hi>Itch,</hi> ſometimes for Years toge<g ref="char:EOLhyphen"/>ther, and at laſt ended their Days, by means of a ſevere <hi>Scabbineſs</hi> or <hi>Leproſy,</hi> when if at <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>irſt they had been treated in a regular Me<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hod, with the moſt effectual Medicines, they <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ight have been compleatly Cured, perhaps <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n a few Days.</p>
+               <pb n="43" facs="tcp:0202300200:50"/>
+               <p>TO theſe Reaſons, why Perſons miſs of be<g ref="char:EOLhyphen"/>ing entirely cured, we may add, that thoſe afflicted with the <hi>Itch, &amp;c.</hi> are for the moſt part aſhamed to own it, and alſo imagining, being otherwiſe well in Health, that the Di<g ref="char:EOLhyphen"/>ſeaſe is but of ſlight Conſequence, and not at all Dangerous, they neglect to apply to a Skil<g ref="char:EOLhyphen"/>ful Phyſician for their Cure, but follow the Advice of ſome good Woman or other, few of whom are without a Receipt of ſome Oint<g ref="char:EOLhyphen"/>ment, or other Medicine, which they really think will certainly Cure the <hi>Itch, &amp;c.</hi> or elſe they take or uſe Brimſtone, the vulgar Remedy, which, beſides its Nauſeouſneſs, often proves of dangerous Conſequence, eſpecially to thoſe Hectically inclined; and ſo the Patients are very much fatigued, and many times ruined inſtead of being Cured.</p>
+               <p>NAY, that they are ſometimes kill'd out<g ref="char:EOLhyphen"/>right, by following the Advice of Women, and other unskilful Perſons, is demonſtrated by a deplorable Accident that happen'd but a few Years ago; for on the 15th of <hi>December,</hi> 1717. four young Men, Apprentices to Mr. <hi>Sluce,</hi> a Weaver in <hi>Old George-ſtreet Spittle-Fields,</hi> being peſter'd with the <hi>Itch,</hi> took each of them a Doſe of ſome pernicious Drug, that a Woman (Siſter to one of the young Men) gave them, with an Aſſurance that it would certainly Cure the <hi>Itch;</hi> and which it too ſurely and unhappily did, by depriving every one of them of Life that very Day, to the great ſurprize and Sor<g ref="char:EOLhyphen"/>row of their Friends, and unſpeakable Grief and
+<pb n="44" facs="tcp:0202300200:51"/>diſtracting Terror of Mind of the unfortunate Woman who gave it them, and who, it ſeems, was very far from deſigning 'em any Injury.</p>
+               <p>SOME People I have met with, who think to lightly of the <hi>Itch</hi> as to judge it a thing of nothing, a ſlight matter, ſcarcely worth mind<g ref="char:EOLhyphen"/>ing, and are ſo very weak as to expect to be cured of it for a Trifle, and ſeem frightned when they are told of being put into a regular Me<g ref="char:EOLhyphen"/>thod of Cure, that will come to more than Ten or Twenty Shillings Expence.</p>
+               <p>TO hear ſuch Perſons talk would almoſt provoke one to Laughter, were it not for the diſmal Effects that uſually attend their Igno<g ref="char:EOLhyphen"/>rance; for I have obſerved, that for the moſt part it is this Claſs of People who are ſeldom cured of the <hi>Itch,</hi> but ſuffer it in length of Time, to terminate in a foul <hi>Scabbineſs</hi> or loath<g ref="char:EOLhyphen"/>ſome <hi>Leproſy;</hi> or if they are cured of the <hi>Itch</hi> by Brimſtone, Quickſilver-Girdles, Ointments, <hi>&amp;c.</hi> to one or other of which they commonly have Recourſe, they are often precipitated into other dreadful Diſeaſes; in either of which Caſes, they would then give above half they are worth in the World, to be reſtor'd to Health.</p>
+               <p>IT would be well therefore, if thoſe trou<g ref="char:EOLhyphen"/>bled with the <hi>Itch, &amp;c.</hi> would ſeriouſly reflect upon the dangerous Conſequences I have men<g ref="char:EOLhyphen"/>tion'd, and conſider, That it is not This or That Medicine (tho' ever ſo good) that ought to be relied on; but that it is requiſite to know when, and when not, it is proper. That the Habit of the Body, State of the Diſeaſe, and
+<pb n="45" facs="tcp:0202300200:52"/>other Circumſtances of the Patient, ſhould be carefully conſidered: That the beſt Medicines often prove hurtful, when preſcribed unskilfully, or at Random; and that therefore for Patients to proceed on their own Heads, or to follow the Advice of Women, or other unskilful Perſons, is exceeding dangerous, may be attended with Diſ<g ref="char:EOLhyphen"/>mal Conſequences, and perhaps coſt them their Lives, as the Examples before given, fully prove.</p>
+               <p>AMONG the many Inſtances I could give of the taking and uſing Brimſtone ineffectually, I ſhall only trouble my Readers with the follow<g ref="char:EOLhyphen"/>ing, which are very remarkable.</p>
+               <p>A Country Gentleman happening in a Fa<g ref="char:EOLhyphen"/>mily who were all troubled with the <hi>Itch,</hi> was quickly infected with that Diſtemper, which, as ſoon as he precieved, he endeavoured to Cure by taking Brimſtone and Milk inwardly, and uſing Brimſtone in an Ointment outwardly, in a very plentiful Manner, according to the vulgar Method, and for a longer Time than is cuſtomary, but to no purpoſe; for he de<g ref="char:EOLhyphen"/>clared to me, that his <hi>Itch</hi> continued upon him as vexatious and bad as ever.</p>
+               <p>HE then had the Opinion of ſeveral Phyſi<g ref="char:EOLhyphen"/>cians, one after another, and by their Advice took and uſed abundance of Medicines, which, together with their Fees, coſt him a large Sum of Money; at laſt the Diſtemper ſeem'd to be conquer'd, and he thought himſelf perfectly cured, and in a ſhort ſpace of Time married; ſoon after which, the <hi>Itch</hi> broke out again upon him to as great a degree as ever; nei<g ref="char:EOLhyphen"/>ther
+<pb n="46" facs="tcp:0202300200:53"/>did the New married Lady eſcape, but was as much peſter'd with that Diſtemper as himſelf.</p>
+               <p>AT that time he happened to meet with the firſt Edition of this little Book, and after read<g ref="char:EOLhyphen"/>ing it, thought proper to put himſelf and Spouſe under my Care for Cure; and in a ſhort time, by punctually following my Directions, they were both entirely freed from that tor<g ref="char:EOLhyphen"/>menting Diſeaſe, for which the Gentleman (who could neither be cured by Brimſtone, nor any of the Medicines he had before taken and uſed) with abundance of Thanks, not only paid me to my Content, but alſo made me a handſome Preſent, expreſſing at the ſame time the greateſt Joy and Satisfaction, for having been ſo fortunate as to meet with my little Treatiſe, which he ſaid he would not but have ſeen for ever ſo much, the reading of it having cauſed him to apply to me, and be (as he was pleaſed to ſay himſelf) ſo ſafely and eaſily Cured; for he aſſured me that what he had taken and uſed before, by his Phyſician's Pre<g ref="char:EOLhyphen"/>ſcriptions, (as well as the Brimſtone) was not only ineffectual, but very nauſeous, and withal exceeding coſtly.</p>
+               <p>ANOTHER Gentleman who lived not far from <hi>Epſom,</hi> apply'd to me very lately for the Cure of the <hi>Itch,</hi> with which not only himſelf but his Son was very much afflicted; his Son, as the Gentleman inform'd me, had in vain gone through a very long and nauſeous Brimſtone Courſe, had taken <hi>Epſom</hi> Waters,
+<pb n="47" facs="tcp:0202300200:54"/>uſed a Liquor which is publickly ſold, and which the Author pretends will Cure the <hi>Itch</hi> without any other help, and had taken and uſed many other things, but all to no pur<g ref="char:EOLhyphen"/>poſe; for which reaſon the Gentleman, finding the ill Succeſs his Son had, would try none of them himſelf, but came to me for Advice and Medicines, and as ſoon as he was cured, ſent his Son to me alſo, whom I put into a regular Courſe, and quickly diſcharged perfectly well, to the entire Satisfaction of them both.</p>
+               <p>BRIMSTONE alſo, in the Cure of the <hi>Itch, &amp;c.</hi> is attended with this further Incon<g ref="char:EOLhyphen"/>venience, that it obliges thoſe who take and uſe it, either to confine themſelves during the whole Courſe, or elſe to let every one they come near, know they are troubled with the <hi>Itch;</hi> for the ſmell of it is ſo very ſtrong, as not to be overcome, or be concealed, from even thoſe who only juſt paſs by the Perſons who uſe it, much leſs from them they converſe with, to whom it ſmells much more plain, ſtrong and filthy than to themſelves: And it is as natural for People to believe that thoſe who uſe Brimſtone, uſe it for the <hi>Itch,</hi> as it is for them to believe, that thoſe that ſmell of it, uſe it.</p>
+               <p>AS to ſuch as are aſhamed to own they are troubled with the <hi>Itch, &amp;c.</hi> and for that Rea<g ref="char:EOLhyphen"/>ſon neglect to apply to a Phyſician, or a Skil<g ref="char:EOLhyphen"/>ful Perſon, for Cure, they are certainly much in the wrong; for they may be aſſured, that it is the Principle, as well as Intereſt of all
+<pb n="48" facs="tcp:0202300200:55"/>Phyſicians or Perſons practiſing Phyſick, to keep private any Illneſs their Patients are de<g ref="char:EOLhyphen"/>ſirous to conceal, and to direct to ſuch Reme<g ref="char:EOLhyphen"/>dies as may be taken and uſed privately, with<g ref="char:EOLhyphen"/>out the knowledge of any other Perſon, and without Confinement; as the Medicines I ad<g ref="char:EOLhyphen"/>viſe to in ſuch Caſes moſt certainly may, and ſo as not to be diſcover'd, even by the neareſt Friend, tho' lying in the ſame Bed.</p>
+               <p>I muſt not omit another Reaſon, why Per<g ref="char:EOLhyphen"/>ſons are often peſtered with the <hi>Itch,</hi> every Three or Four Months, Spring and Fall, <hi>&amp;c. viz.</hi> That when by a proper Method they find themſelves tolerably well, and free from Itching, <hi>&amp;c.</hi> they grow weary of the trouble of taking and uſing Medicines, and leave them off before the Diſeaſy Particles are wholly Eradicated, and thereby deceive themſelves; for if the leaſt part of the Itchy Infection hap<g ref="char:EOLhyphen"/>pens to remain in their Clothes, Gloves, <hi>&amp;c.</hi> as ſometimes may happen even after Waſhing, they then catch the Diſtemper afreſh, which would be prevented by continuing the uſe of Remedies according to the Direction of a Skil<g ref="char:EOLhyphen"/>ful Man, for a reaſonable Time, that ſo all the very Seeds of the Diſeaſe, either in their Bo<g ref="char:EOLhyphen"/>dies or Clothes, may be utterly deſtroyed.</p>
+               <p>AND for the better preventing all Danger of this kind, it is neceſſary for the Patients, as ſoon as the Itching and appearance of the Diſtemper are taken off, to change their Clothes, Sheets, <hi>&amp;c.</hi> immediately, and be very careful not to wear them again, till they are ſure,
+<pb n="49" facs="tcp:0202300200:56"/>by often boiling, waſhing, and cleanſing, all the Itchy Particles that lodged in them, are entirely mortify'd and expung'd.</p>
+               <p>FOR want of due Care in this particular on<g ref="char:EOLhyphen"/>ly, abundance of Perſons have been exceeding<g ref="char:EOLhyphen"/>ly fatigued with this hateful Diſeaſe, on and off, for many Months, and ſometimes Years together; of which I could give ſeveral Ex<g ref="char:EOLhyphen"/>amples that have happen'd within my own Knowledge, but ſhall mention but one.</p>
+               <p>A Gentleman of Conſideration came to me ſometime ſince, troubled with a ſevere and univerſal <hi>Itch;</hi> upon enquiring how he had re<g ref="char:EOLhyphen"/>ceived the Infection, <hi>&amp;c.</hi> He told me he had been troubled with that Diſtemper ſome Months before, but had been perfectly cured of it, and aſſured me that he caught it again to that degree I ſaw, only by his Servant giv<g ref="char:EOLhyphen"/>ing him, by Miſtake, a pair of Gloves to wear, that he remember'd afterwards to have worn, but once or twice at the moſt, during the time he was peſter'd with the <hi>Itch.</hi> He added, that he kept them on his Hands ſcarce<g ref="char:EOLhyphen"/>ly an Hour, before he perceived the Miſtake, threw them away, and preſently waſh'd and ſcour'd his Hands two or three times, but all to no purpoſe; for the <hi>Itch</hi> ſoon diſcovered it ſelf between his Fingers, <hi>&amp;c.</hi> and from thence ſpread all over his Body.</p>
+               <p>BY this Relation all Perſons may perceive how very ſubtle, penetrating, and infecting the Itchy Particles are, that could lie ſo long in a pair of Gloves, and afterwards ſo ſoon
+<pb n="50" facs="tcp:0202300200:57"/>and ſo far inſinuate themſelves into the Skin, as not to be waſh'd or ſcour'd off, but to cauſe a very ſevere, univerſal and ſtubborn <hi>Itch.</hi>
+               </p>
+               <p>THIS Gentleman I put into a regular Me<g ref="char:EOLhyphen"/>thod of Cure, which ſoon had the deſired Effect, for which he handſomely gratify'd me, and is at this Time perfectly well.</p>
+               <p>NOW by the Method I have advanced, the Directions I give, and the Medicines I have mentioned to uſe, (which, as before ſaid, I always prepare my ſelf, and which are not difficult to take, or to be apply'd, or in the leaſt fatiguing to the Patients) thoſe miſerably afflicted with the <hi>Itch,</hi> inveterate <hi>Itching Hu<g ref="char:EOLhyphen"/>mours, Scabbineſs</hi> or <hi>Leproſy</hi> that are Curable, and even many that have been pronounced in<g ref="char:EOLhyphen"/>curable, may be certainly reſtored to Health in a reaſonable time, proportionably to the Stub<g ref="char:EOLhyphen"/>borneſs and Inveteracy of thoſe Diſeaſes.</p>
+               <p>SO alſo Perſons troubled with the <hi>King's-Evil,</hi> ſtubborn <hi>Scrophulous Breakings out, Tu<g ref="char:EOLhyphen"/>mours, Running Ulcers,</hi> &amp;c. may, by the Me<g ref="char:EOLhyphen"/>thod I have propoſed, be more aſſuredly and ſooner Cured, with the Bleſſing of God, than by any other whatever.</p>
+               <p>A few Remedies well adapted and rightly adminiſter'd, for a reaſonable time in all thoſe Caſes, will generally take effect, without fa<g ref="char:EOLhyphen"/>tiguing the Patients with a vaſt number of Me<g ref="char:EOLhyphen"/>dicines to nauſeate their Stomachs, and tire their Patience.</p>
+               <pb n="51" facs="tcp:0202300200:58"/>
+               <p>BUT what hinders many People afflicted with the <hi>King's-Evil</hi> and <hi>Leproſy</hi> from being Cured, is their want of ſufficient Reſolution to go through a regular Courſe; for tho' they are put into one that is neither nauſeous troubleſome, nor requiring Confinement; and tho' they ſeem at firſt reſolved to go thro' it and are convinced, that unleſs they do conti<g ref="char:EOLhyphen"/>nue it for a reaſonable time, they cannot be Cured; yet, which is ſtrange, they often ſtag<g ref="char:EOLhyphen"/>ger in their Reſolution, grow weary they know not why, and many times leave off before they themſelves can ſo much as expect Relief<g ref="char:punc">▪</g> whereas if they would have ſtedfaſtly adhered to the Reſolution they firſt took, they might in all human Probability, have been certainly Cured of their Diſtemper, and been reſtor'd to perfect Health.</p>
+               <p>THERE are alſo many Perſons, labouring under the laſt mentioned ſtubborn Chronick Diſeaſes, who, dreading the uncertain Expence of a regular Courſe of Medicines, are deſirous to enter into a Contract, to be Cured for a cer<g ref="char:EOLhyphen"/>tain Sum of Money. Theſe ſort of People, in my Opinion, are the fitteſt in the World to fall into the Hands of ſome of our bold, daring Practitioners, who venture at all, and never fail to promiſe Wonders; for Patients of this kind, are apt to be pleaſed and taken with the poſitive Aſſurances theſe Men give them, o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> perfectly and infallibly Curing them, <hi>&amp;c.</hi> whereas a modeſt, faithful Phyſician neither will, nor ought to undertake Patients in that
+<pb n="52" facs="tcp:0202300200:59"/>manner, but only deſire a reaſonable Price for his Medicines, and ſuitable Fees in Conſidera<g ref="char:EOLhyphen"/>tion of his Trouble, Advice, or Attendance; nei<g ref="char:EOLhyphen"/>ther will he give his Patients ſuch poſitive Aſ<g ref="char:EOLhyphen"/>ſurances of an infallible Cure, but be cautious in what he ſays, and only promiſe in theſe and all other difficult Caſes, to endeavour to the utmoſt of his Power to Cure them; and for that End, put them into ſuch a rational Courſe of Medicine, as he really believes, and has found, to be moſt effectual for ſuch ſtubborn Maladies, and from which Courſe they, as well as he, may reaſonably, and in all likelihood, expect the deſired Succeſs.</p>
+               <p>THIS is the only Method I take; and the Succeſs God has been pleaſed to bleſs me with, in the Cure of the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy,</hi> &amp;c. is very remarkable, and I believe can hardly be parallel'd; having, ſince I firſt publiſhed this little Treatiſe, diſcharg<g ref="char:EOLhyphen"/>ed from under my Care great Numbers of Per<g ref="char:EOLhyphen"/>ſons, who apply'd to me for Cure of inveterate Diſeaſes of the Skin, perfectly well, and who are, many of them, Men of the firſt Rank, and of Eminent Learning and Parts, and had gone through many Courſes of Phyſick to no purpoſe, before they came to me; particularly one Gentle<g ref="char:EOLhyphen"/>man, a Divine of the Church of <hi>England,</hi> that had been unfortunately afflicted with a very foul <hi>Scabbineſs</hi> for ſome Years, and had ineffectually tried almoſt all Methods, whom I perfectly Cured in a very ſhort time, (conſidering the invete<g ref="char:EOLhyphen"/>racy of the Diſeaſe) to his entire Satisfaction.</p>
+               <pb n="53" facs="tcp:0202300200:60"/>
+               <p>ANOTHER Perſon, who had been af<g ref="char:EOLhyphen"/>flicted with a <hi>Leprous Humour</hi> about his Thighs and Privy Parts for many Years together, and had gone through ſeveral Courſes of Phyſick in vain, and afterwards tried abundance of particular Remedies to no Purpoſe, apply'd himſelf to me, tho' at the ſame time ſeem'd to deſpair of being ever perfectly Cured, but hoped only to be reliev'd in ſome Meaſure, his <hi>Leprous Humour</hi> having grown, for ſome time before, more than ordinarily troubleſome to him, and when he came to me, was ſo very Vex<g ref="char:EOLhyphen"/>atious as to hinder Sleep at Night; this Man I put into the Method of Cure I thought moſt proper, which had ſuch Succeſs, that in a reaſonable Time, contrary to his own Ex<g ref="char:EOLhyphen"/>pectation, he was not only made perfectly eaſy, but was alſo compleatly Cured, at which he mightily rejoiced; about four Months after I had been paid for his Cure, and had diſ<g ref="char:EOLhyphen"/>miſs'd him, he came voluntarily and acknow<g ref="char:EOLhyphen"/>ledg'd the Service I had done him, in a very handſome manner.</p>
+               <p>A little while ago a young Man about Se<g ref="char:EOLhyphen"/>venteen Years of Age, who was in a very bad Condition indeed, put himſelf under my Care for Cure; when he came to me, he was all over from Head to Foot ſo full of red, angry, ſore Pimples, (which by turns alſo itched in<g ref="char:EOLhyphen"/>tolerably) that one could ſcarcely ſtick a Pin between them; and his Arms and Legs were ſo ſore and ſtiff with them, that he had much ado to walk from the <hi>Royal Exchange,</hi> to my
+<pb n="54" facs="tcp:0202300200:61"/>Houſe; he told me his Mother had been ſo before him, and ſuppoſed he had it from her Hereditarily; the Apothecary, who is made uſe of by the Family he lives with, had done all he could for him, without his receiving the leaſt Benefit; this young Man I put into a regular eaſy Courſe, which, thro' God's Mer<g ref="char:EOLhyphen"/>cy, had the deſired Effect, and he was perfectly Cured in ſuch a ſhort time, that himſelf and Friends admired at it; ſome time after he had paid me, and I had diſcharg'd him, he came unexpectedly and full of Joy, to return me Thanks for my Care of him, and at the ſame time ſhewed his Gratitude, by making me a ſmall Preſent.</p>
+               <p>I could give many more Examples of ex<g ref="char:EOLhyphen"/>traordinary Caſes that I have met with, and have had Succeſs in, but think thoſe I have already given, ſufficient.</p>
+               <p>I cannot here conclude, without taking No<g ref="char:EOLhyphen"/>tice, of the Abſurdity of ſome Practitioners, who confine themſeves to one Sett of Medicines, which they give to all Perſons troubled with the Diſtempers I have treated about, and which they think will anſwer the End, in People of all Habits, Ages and Conſtitutions; which undoubtedly is altogether againſt Reaſon, and needs no further Confutation.</p>
+               <p>I find my ſelf often obliged to vary my Me<g ref="char:EOLhyphen"/>dicines, according to the State of the Diſeaſe, Habit of the Body, and other Circumſtances of the Patient, tho' generally ſpeaking, the Method I take (except in ſome extraordinary
+<pb n="55" facs="tcp:0202300200:62"/>Caſes, in which a <hi>Cardiack</hi> and <hi>Sudorifick</hi> Courſe, <hi>&amp;c.</hi> may be required, and where Di<g ref="char:EOLhyphen"/>ſeaſes of the Skin are complicated with other Illneſſes) is one and the ſame, tho' the Medi<g ref="char:EOLhyphen"/>cines may be different.</p>
+               <p>AND even for a Conſideration of leſs mo<g ref="char:EOLhyphen"/>ment than that of Health, <hi>viz.</hi> for conveni<g ref="char:EOLhyphen"/>ency of the Patient, it is ſometimes neceſſary to change the External Remedies; as for Ex<g ref="char:EOLhyphen"/>ample, Inſtead of ordering Ointments outward<g ref="char:EOLhyphen"/>ly, I have been obliged for the ſake of nice Perſons, who were utterly againſt uſing any thing daubing, or that would appear upon their Linnen, to prepare a Liquor as clear as fair Water, and of a pleaſant Scent, to be uſed externally for the ſame purpoſe, and which will certainly have the ſame good Effect; it being a delicate Medicine, very Efficacious, and not to be ſeen after uſing, either upon the Skin, or Linnen, only being a difficult Preparation, is ſomewhat more expenſive to the Patient than many other Applications.</p>
+               <p>FROM this ſhort Account of Cutaneous Diſeaſes, I hope my Readers, at leaſt the un<g ref="char:EOLhyphen"/>prejudiced part of them, will be convinced, that the <hi>Itch, &amp;c.</hi> may be eaſily and ſafely Cured, without the uſe of Brimſtone, Confine<g ref="char:EOLhyphen"/>ment of the Patient, or knowledge of other Perſons; for that there are other Remedies much pleaſanter, and more effectual than Brim<g ref="char:EOLhyphen"/>ſtone (which beſides its nauſeouſneſs, often<g ref="char:EOLhyphen"/>times will not Cure; but on the contrary, when taken and uſed by Hectical Perſons, proves
+<pb n="56" facs="tcp:0202300200:63"/>very injurious) is moſt certain, ſince Expe<g ref="char:EOLhyphen"/>rience vouches for it; and that Patients may be Cured of the <hi>Itch, &amp;c.</hi> without more than ordinary Confinement, is as true, ſince the Evacuating Remedies I have found neceſſary, and make uſe of, are ſo very gentle, that thoſe who take them may go Abroad about their Bu<g ref="char:EOLhyphen"/>ſineſs, without any Diſorder, or further Obſer<g ref="char:EOLhyphen"/>vation, than only not to expoſe themſelves to wet Weather, or to extraordinary Cold; and alſo that Patients may be Cured without the knowledge of other Perſons, is very plain, be<g ref="char:EOLhyphen"/>cauſe the External Medicines I adviſe to, may be uſed privately, and as they have not any ill Scent, they can by no means be diſcovered.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="index">
+            <pb facs="tcp:0202300200:64"/>
+            <head>THE INDEX.</head>
+            <list>
+               <item>OF the <hi>Itch, Page 1.</hi>
+               </item>
+               <item>Its Deſcription, <hi>ibid.</hi>
+               </item>
+               <item>Its manner of ſpreading from one part to another, <hi>p. 2.</hi>
+               </item>
+               <item>How to diſtinguiſh a real <hi>Itch,</hi> from a ſlight Itching of the Body, ſome are troubled with, Spring and Fall, <hi>ibid.</hi>
+               </item>
+               <item>That there are two ſorts of <hi>Itch,</hi> one moiſt, the other dry, <hi>ibid.</hi>
+               </item>
+               <item>That both kinds turn to a ſoul <hi>Scabbineſs,</hi> if neglected, <hi>ibid.</hi>
+               </item>
+               <item>The moiſt <hi>Itch</hi> not ſo ſtubborn as the dry kind, yet ſooner communicates its Infection to ſound Bodies, <hi>p. 3.</hi>
+               </item>
+               <item>That the <hi>Itch</hi> is exceeding Contagious, <hi>ibid.</hi>
+               </item>
+               <item>The Famous <hi>Willis</hi>'s Opinion that no one Diſeaſe (ex<g ref="char:EOLhyphen"/>cept the Plague) is more eaſily propagated than the <hi>Itch, ibid.</hi>
+               </item>
+               <item>Some Perſons more ſubject to be infected with the <hi>Itch</hi> than others, and the reaſon of it, <hi>ibid.</hi>
+               </item>
+               <item>How the <hi>Itch</hi> is communicated from one Perſon and on<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Family to another, <hi>ibid.</hi>
+               </item>
+               <item>That when the <hi>Itch</hi> is firſt caught, the Scarf-Skin only is infected, and the Blood not tainted with it, <hi>p. 4.</hi>
+               </item>
+               <item>A confirm'd <hi>Itch</hi> much more dangerous than a ſlight one, <hi>ibid.</hi>
+               </item>
+               <item>That where the <hi>Itch</hi> happens to aged Perſons, or to thoſe afflicted with other Diſeaſes, it muſt be treated with the utmoſt Care and Skill, otherwiſe the Patients may be Killed inſtead of being Cured, as happen'd to a cer<g ref="char:EOLhyphen"/>tain Perſon in another Caſe, <hi>ibid.</hi>
+               </item>
+               <item>That Caſe related, <hi>p. 5.</hi>
+               </item>
+               <item>The Opinion of ſome Ancient and Modern Writers, tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:0202300200:65"/>the <hi>Itch,</hi> when it has continued many Months, can<g ref="char:EOLhyphen"/>not be Cured, <hi>ibid.</hi>
+               </item>
+               <item>That Opinion refuted by the Author's own Experience of the contrary, <hi>ibid.</hi>
+               </item>
+               <item>Dr. <hi>Willis</hi>'s Opinion that the <hi>Venereal Diſeaſe</hi> may more eaſily be Cured than an inveterate <hi>Itch, ibid.</hi>
+               </item>
+               <item>Another Writer's Account of three Brothers whom he knew to die purely of the <hi>Itch, p. 6.</hi>
+               </item>
+               <item>The Author's Opinion that the <hi>Itch,</hi> how inveterate ſo<g ref="char:EOLhyphen"/>ever, is neither incurable nor mortal, <hi>ibid.</hi>
+               </item>
+               <item>That the <hi>Itch</hi> is much more ſtubborn in ſome Perſons than in others, and the reaſon of it, <hi>ibid.</hi>
+               </item>
+               <item>Illuſtrated by an Example, <hi>p. 7.</hi>
+               </item>
+               <item>That abundance of People troubled with the <hi>Itch</hi> are infatuated to their own Detriment, &amp;c. and whence it proceeds, <hi>ibid.</hi>
+               </item>
+               <item>Of inveterate <hi>Itching Humours</hi> of various kinds, that ſix on particular Parts only, <hi>p. 8.</hi>
+               </item>
+               <item>That they ſometimes change their Station, <hi>ibid.</hi>
+               </item>
+               <item>Their Deſcription and Nature, <hi>p. 9.</hi>
+               </item>
+               <item>That they differ not much from the Diſeaſe called <hi>Sca<g ref="char:EOLhyphen"/>bies</hi> or <hi>Scabbineſs, ibid.</hi>
+               </item>
+               <item>Of <hi>Scabies</hi> or <hi>Scabbineſs, ibid.</hi>
+               </item>
+               <item>That it commonly ſucceeds an inveterate <hi>Itch,</hi> either moiſt or dry, and is alſo of two kinds, <hi>ibid.</hi>
+               </item>
+               <item>The Nature of a <hi>Scabbineſs,</hi> when it follows the moiſt <hi>Itch, p. 10.</hi>
+               </item>
+               <item>How it appears when it ſucceeds the dry <hi>Itch, ibid.</hi>
+               </item>
+               <item>That a <hi>Scabbineſs</hi> ſometimes happens when the <hi>Itch</hi> has not gone before it, <hi>ibid.</hi>
+               </item>
+               <item>That 'tis accompanied with Itching as well as ſoreneſs, and is much more filthy and dangerous than the <hi>Itch, ibid.</hi>
+               </item>
+               <item>That the moiſt <hi>Scabbineſs,</hi> if not timely cured, certain<g ref="char:EOLhyphen"/>ly brings on Death, <hi>ibid.</hi>
+               </item>
+               <item>That the dry ſort firſt uſhers in a poiſonous <hi>Leproſy, p. 11.</hi>
+               </item>
+               <item>Of the <hi>Leproſy, ibid.</hi>
+               </item>
+               <item>That it is the moſt malignant Diſtemper that affects the External Parts of the Body, <hi>ibid.</hi>
+               </item>
+               <pb facs="tcp:0202300200:66"/>
+               <item>That it is ſometimes the Hereditary Diſeaſe of a Family, but much oftner contracted by Infection, <hi>ibid.</hi>
+               </item>
+               <item>Dr. <hi>Blancard</hi>'s Definition of the <hi>Leproſy, ibid.</hi>
+               </item>
+               <item>That the <hi>Itch</hi> and <hi>Scabies</hi> are commonly the fore-runners of it, <hi>ibid.</hi>
+               </item>
+               <item>The Symptoms of the <hi>Leproſy</hi> Internal and External ſumm'd up, <hi>p. 12.</hi>
+               </item>
+               <item>That thoſe afflicted with all of them, deſire a ſpeedy Death to be relieved from the grievous miſery they endure, <hi>p. 13.</hi>
+               </item>
+               <item>That every one troubled with the <hi>Leproſy,</hi> is not afflict<g ref="char:EOLhyphen"/>ed with all the enumerated Symptoms, <hi>ibid.</hi>
+               </item>
+               <item>What the moſt diſtinguiſhing Sign of the <hi>Leproſy</hi> is <hi>p. 14.</hi>
+               </item>
+               <item>That the ſooner the Cure is undertaken, and the fewe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Symptoms are, the better will the <hi>Leproſy</hi> be overcome, and the Patient more certainly be reſtorea to Health, <hi>ibid.</hi>
+               </item>
+               <item>That thoſe are inexcuſably wanting to themſelves, wh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> being afflicted in the ſlighteſt manner with the <hi>Itch, Scabbineſs,</hi> &amp;c. omit to ſeek for a regular Cure in time. <hi>ibid.</hi>
+               </item>
+               <item>That thoſe who neglect to get cur'd of <hi>Tetters, Ring<g ref="char:EOLhyphen"/>worms,</hi> &amp;c. are no leſs imprudent, <hi>p. 15</hi>
+               </item>
+               <item>That not one in fifty who are troubled with the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabbineſs</hi> or <hi>Leproſy,</hi> but what receiv'd them from others by Inſection, <hi>p. 16</hi>
+               </item>
+               <item>An Inquiry after the Original Cauſe of Cutaneous Di<g ref="char:EOLhyphen"/>ſtempers, when they happen to Perſons who have no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> been infected by, or received them from others, <hi>ibid.</hi>
+               </item>
+               <item>The Opinion of many Antient and Modern Phyſi<g ref="char:EOLhyphen"/>cians, that thoſe Diſeaſes proceed from one and th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſame Cauſe, and differ only from one another in degree <hi>ibid.</hi>
+               </item>
+               <item>
+                  <hi>Galen's</hi> Opinion of the Cauſe of thoſe Diſeaſes, <hi>p. 17</hi>
+               </item>
+               <item>The Opinion of <hi>Avicen. ibid</hi>
+               </item>
+               <item>
+                  <hi>Langius</hi>'s Opinion, <hi>ibid</hi>
+               </item>
+               <item>The Learned <hi>Blancard's</hi> Opinion, <hi>ibid</hi>
+               </item>
+               <item>The Opinion of other Writers of the Cauſe of the <hi>Itch</hi> &amp;c. <hi>ibid.</hi>
+               </item>
+               <pb facs="tcp:0202300200:67"/>
+               <item>Dr. <hi>Willis</hi>'s Opinion, <hi>p. 18.</hi>
+               </item>
+               <item>The excellent <hi>Etmuller</hi>'s Opinion, <hi>p. 19.</hi>
+               </item>
+               <item>His reaſon why Cutaneous Diſtempers are ſometimes moiſt and ſometimes dry, <hi>ibid.</hi>
+               </item>
+               <item>The Author's Judgment of thoſe Opinions, <hi>ibid.</hi>
+               </item>
+               <item>Illuſtrated by the conſideration of the Structure of the Scarf-Skin, as deſcribed by the accurate and learned Dr. <hi>J. Keill, p. 20.</hi>
+               </item>
+               <item>That leading a Sedentary Life, eating Salt Meats, the Rel<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ks of other Diſtempers, or living in Naſtineſs and Filth, are the remote Cauſes of theſe Diſeaſes, <hi>p. 21.</hi>
+               </item>
+               <item>That after all the fine Speculations and Notions Men have concerning the Original Cauſe of theſe and ma<g ref="char:EOLhyphen"/>ny other Diſeaſes, 'tis doubtful whether we can more then gueſs at the real Eſſence of them, <hi>ibid.</hi>
+               </item>
+               <item>That the moſt faithful Dr. <hi>Sydenham</hi> had the ſame Sen<g ref="char:EOLhyphen"/>timents, <hi>ibid.</hi>
+               </item>
+               <item>That he ind<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>fatigably apply'd himſelf to the Obſervation of Diſeaſes, and to find out the moſt effectual Method of curing them, <hi>p. 22.</hi>
+               </item>
+               <item>That it would be well if all who practiſe Phyſick would da the ſame, and not be too Much taken up with airy Speculations, or be forward in broaching new Notions, <hi>ibid.</hi>
+               </item>
+               <item>The many Miſtakes and Errors committed in the Cure of Cat<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>neous Diſeaſes taken notice of, <hi>p. 23.</hi>
+               </item>
+               <item>The Opinion of Authors, that the ſame Method and Medicines that will Cure an inveterate <hi>Itch,</hi> will likewiſe Cure a <hi>Scabbineſs,</hi> and <hi>Leproſy, p. 24.</hi>
+               </item>
+               <item>How far Experience anſwers for the Truth of it, <hi>ibid.</hi>
+               </item>
+               <item>That Phyſicians differ very much about the moſt effectu<g ref="char:EOLhyphen"/>al Method and Medicines for the Cure of thoſe Di<g ref="char:EOLhyphen"/>ſtempers, <hi>ibid.</hi>
+               </item>
+               <item>Some recommend Bleeding and Purging as abſolutely neceſſary, <hi>p. 25.</hi>
+               </item>
+               <item>Others adviſe to ſweating Medicines, <hi>ibid.</hi>
+               </item>
+               <item>Others to ſuch as work by Urine, <hi>ibid.</hi>
+               </item>
+               <item>Some preſcribe ſweetners of the Blood and cooling Altera<g ref="char:EOLhyphen"/>tives, <hi>ibid.</hi>
+               </item>
+               <pb facs="tcp:0202300200:68"/>
+               <item>Others rely wholly upon outward Applications, as Oint<g ref="char:EOLhyphen"/>ments, Baths, Waſhes, Quickſilver Girdles, <hi>&amp;c. ibid.</hi>
+               </item>
+               <item>That thoſe who plead moſt for External Applications, in<g ref="char:EOLhyphen"/>veigh mightily againſt Bleeding and Purging, <hi>ibid.</hi>
+               </item>
+               <item>
+                  <hi>Martianus</hi>'s Account of a Man, who by Bleeding for the <hi>Itch,</hi> drew the putrid Humour inwards, which cauſed a malignant Fever, and kill'd him, <hi>p. 26.</hi>
+               </item>
+               <item>Another Author's Opinion, that letting Blood muſt ab<g ref="char:EOLhyphen"/>ſolutely be avoided in the <hi>Itch, ibid.</hi>
+               </item>
+               <item>The famous <hi>Helmont</hi> againſt Purging in the <hi>Itch, ibid.</hi>
+               </item>
+               <item>
+                  <hi>Willis</hi>'s Opinion that both Bleeding and Purging are ne<g ref="char:EOLhyphen"/>ceſſary, <hi>ibid.</hi>
+               </item>
+               <item>He affirms the <hi>Itch</hi> is never ſafely Cured without Purg<g ref="char:EOLhyphen"/>ing, <hi>ibid.</hi>
+               </item>
+               <item>
+                  <hi>Hartmanus</hi>'s Opinion, that to Cure the <hi>Itch,</hi> the Blood muſt be cleanſed, <hi>p. 27.</hi>
+               </item>
+               <item>
+                  <hi>Etmuller</hi> adviſes to Purging, <hi>ibid.</hi>
+               </item>
+               <item>
+                  <hi>Sydenham</hi> approves of Bleeding and Purging, <hi>ibid.</hi>
+               </item>
+               <item>That there are many Examples of the unhappy Conſe<g ref="char:EOLhyphen"/>quences of attempting the Cure of Diſeaſes of the Skin by outward Applications only, <hi>ibid.</hi>
+               </item>
+               <item>
+                  <hi>Borelius</hi> acquaints us with the dreadful Effects of a Waſh made uſe of by a Man for the <hi>Itch, ibid.</hi>
+               </item>
+               <item>
+                  <hi>Hildanus</hi>'s Account of the diſmal Conſequences that attended a Woman's wearing a Quickſilver Girdle, <hi>p. 28.</hi>
+               </item>
+               <item>
+                  <hi>Velſchius</hi>'s Account of the fatal Effects of Ointments in the <hi>Itch, ibid.</hi>
+               </item>
+               <item>That great Skill and Care are required to Cure Diſeaſes of the Skin, <hi>ibid.</hi>
+               </item>
+               <item>That to omit inward Remedies, and ſtrike in thoſe Di<g ref="char:EOLhyphen"/>ſtempers by outward Applications, tho' ſeemingly in<g ref="char:EOLhyphen"/>nocent, may be attended with violent <hi>Fevers, Aſth<g ref="char:EOLhyphen"/>mas, Conſumptions of the Lungs, Convulſions, Fall<g ref="char:EOLhyphen"/>ing Sickneſs, Palſies, Apoplexies,</hi> and other dange<g ref="char:EOLhyphen"/>rous Maladies, <hi>p. 29.</hi>
+               </item>
+               <item>That the unhappy Efects of ſuch imprudent Manage<g ref="char:EOLhyphen"/>ment, ſometimes do not appear till ſome Months after, <hi>p. 30.</hi>
+               </item>
+               <pb facs="tcp:0202300200:69"/>
+               <item>The great Riſque thoſe run, who venture to uſe Medi<g ref="char:EOLhyphen"/>cines on their own Heads, <hi>ibid.</hi>
+               </item>
+               <item>The Ingenious Dr. <hi>Fuller</hi>'s Account of the moſt violent Illneſs imaginable, that he endured for many Years together, by means of curing himſelf of the <hi>Itch</hi> with a Quickſilver Girdle, <hi>ibid.</hi>
+               </item>
+               <item>The aanger of Quickſilver Girdles further exemplify'd by a Diſaſter that lately happened to a Woman by that means, whoſe Life the Author ſaved, <hi>p. 33.</hi>
+               </item>
+               <item>The Author's Opinion, that large or frequent Bleeding is dangerous, and for what Reaſon, <hi>p. 35.</hi>
+               </item>
+               <item>That imprudent Purging with the common ſtrong Medi<g ref="char:EOLhyphen"/>cines is as bad, <hi>ibid.</hi>
+               </item>
+               <item>How far Bleeding is proper, <hi>p. 36.</hi>
+               </item>
+               <item>What ſort of Purging is requiſite, <hi>p. 37.</hi>
+               </item>
+               <item>In what reſpect outward Applications are allowable, <hi>ibid.</hi>
+               </item>
+               <item>Of what Nature External Medicines ought to be, <hi>ibid.</hi>
+               </item>
+               <item>That ſpecifick <hi>Alteratives, Diureticks</hi> and <hi>Sudorificks,</hi> are often very uſeful, <hi>p. 38.</hi>
+               </item>
+               <item>The Author's Method of curing Diſeaſes of the Skin, particularly deſcribed, <hi>p. 39.</hi>
+               </item>
+               <item>The effect of the Medicines the Author makes uſe of both External and Internal, <hi>ibid.</hi>
+               </item>
+               <item>That the outward Remedies the Author adviſes to, are not compounded with Brimſtone, or accompanied with any nauſeous Smell, <hi>p. 40.</hi>
+               </item>
+               <item>Reaſons why Internal and External Medicines ought to be taken and uſed together, <hi>ibid.</hi>
+               </item>
+               <item>How it happens that many Perſons miſs of being Cured of the <hi>Itch,</hi> for many Months, and ſometimes Years, <hi>p. 42.</hi>
+               </item>
+               <item>That Brimſtone taken and uſed, often proves of dange<g ref="char:EOLhyphen"/>rous Conſequence, <hi>p. 43.</hi>
+               </item>
+               <item>That Perſons are ſometimes kill'd by following the Ad<g ref="char:EOLhyphen"/>vice of Women, and other unskilful Perſons, <hi>ibid.</hi>
+               </item>
+               <item>Demonſtrated by the Death of four young Men who liv'd in <hi>Spittle-Fields, ibid.</hi>
+               </item>
+               <item>The weakneſs of thoſe who expect to be Cured in a regu<g ref="char:EOLhyphen"/>lar manner for a Trifle, cenſured, <hi>p. 44.</hi>
+               </item>
+               <pb facs="tcp:0202300200:70"/>
+               <item>That they are their own Enemies, and commonly ſuffer in a dreadful manner, <hi>ibid.</hi>
+               </item>
+               <item>What thoſe troubled with the <hi>Itch</hi> ought ſeriouſly to con<g ref="char:EOLhyphen"/>ſider, <hi>ibid.</hi>
+               </item>
+               <item>An eminent Inſtance of the ineffectual uſe of Brimſtone in the <hi>Itch, p. 45.</hi>
+               </item>
+               <item>Another Inſtance of the inſignificancy of Brimſtone, tho' in a large quantity and for a long time taken and uſed, <hi>p. 46.</hi>
+               </item>
+               <item>The further Inconvenience of Brimſtone, <hi>p. 47.</hi>
+               </item>
+               <item>That thoſe who neglect to apply for a regular Cure be<g ref="char:EOLhyphen"/>cauſe they are aſhamed to own they are troubled with the <hi>Itch,</hi> &amp;c. are very much in the wrong, and why, <hi>ibid.</hi>
+               </item>
+               <item>Another reaſon of Perſons being peſter'd with the <hi>Itch</hi> off and on for a long time, <hi>p. 48.</hi>
+               </item>
+               <item>When Patients afflicted with the <hi>Itch</hi> ought to change their Clothes, <hi>ibid.</hi>
+               </item>
+               <item>The Caſe of a Gentleman of Conſideration relating to that particular. <hi>p. 49.</hi>
+               </item>
+               <item>The ſubtiltyt penetrating and infecting Quality of the Itchy Particles taken Notice of, <hi>ibid.</hi>
+               </item>
+               <item>That by the Author's Method, Medicines and Directi<g ref="char:EOLhyphen"/>ons, thoſe afflicted with the <hi>Itch,</hi> inveterate <hi>Itching Humours, Scabbineſs</hi> and <hi>Leproſy,</hi> may be certainly Cured, <hi>p. 50.</hi>
+               </item>
+               <item>That thoſe troubled with the <hi>King</hi>'s <hi>Evil,</hi> ſtubborn <hi>Scrophulous Tumours, Breakings out, running Ul<g ref="char:EOLhyphen"/>cers, &amp;c.</hi> may alſo be more aſſuredly Cured by the Author's Method than by any other, <hi>ibid.</hi>
+               </item>
+               <item>That a few Remedies well adapted, are generally ſuffici<g ref="char:EOLhyphen"/>ent in thoſe Caſes, <hi>ibid.</hi>
+               </item>
+               <item>What it is that hinders many Perſons afflicted with the <hi>King's Evil</hi> and <hi>Leproſy</hi> from being Cured, <hi>p. 51.</hi>
+               </item>
+               <item>The Humour of thoſe who are deſirous of making a Con<g ref="char:EOLhyphen"/>tract to be Cured for a certain Sum of Money, coſider'd <hi>ibid.</hi>
+               </item>
+               <item>The Author's Succeſs in the Cure of Diſeaſes of the Skin, <hi>p. 52</hi>
+               </item>
+               <item>The Caſe of a Divine of the Church of <hi>England,</hi> whom
+<pb facs="tcp:0202300200:71"/>the Author Cured of a foul and inveterate <hi>Scabbineſs, ibid.</hi>
+               </item>
+               <item>The Caſe one efflicted with an old ſix'd <hi>Leprous Hu<g ref="char:EOLhyphen"/>mour,</hi> whom the Author Cured, <hi>p. 53.</hi>
+               </item>
+               <item>The Caſe of a Young Man in a very bad Condition, who was Cured by the Author, <hi>ibid.</hi>
+               </item>
+               <item>The abſurdity of ſome Practitioners, who confine them<g ref="char:EOLhyphen"/>ſelves to one Sett of Medicines in theſe Diſeaſes, <hi>p. 54.</hi>
+               </item>
+               <item>That the Author varies his Remedies according to the State of the Diſeaſe, Habit of the Body, and other Circumſtances of the Patient, <hi>ibid.</hi>
+               </item>
+               <item>The Concluſion, <hi>p. 55.</hi>
+               </item>
+            </list>
+            <pb facs="tcp:0202300200:72"/>
+         </div>
+      </back>
+   </text>
+</TEI>
