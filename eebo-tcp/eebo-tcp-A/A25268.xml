@@ -1,0 +1,837 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Islington-Wells, or, The threepenny-academy a poem.</title>
+            <author>Ames, Richard, d. 1693.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1691</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-12">2005-12 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A25268</idno>
+            <idno type="STC">Wing A2983</idno>
+            <idno type="STC">ESTC R8702</idno>
+            <idno type="EEBO-CITATION">12640940</idno>
+            <idno type="OCLC">ocm 12640940</idno>
+            <idno type="VID">65016</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A25268)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 65016)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 340:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Islington-Wells, or, The threepenny-academy a poem.</title>
+                  <author>Ames, Richard, d. 1693.</author>
+               </titleStmt>
+               <extent>[5], 19 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for E. Richardson,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1691.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Richard Ames. Cf. NUC pre-1956.</note>
+                  <note>Reproduction of original in Newberry Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-03</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-04</date>
+            <label>Melanie Sanders</label>Sampled and proofread</change>
+         <change>
+            <date>2005-04</date>
+            <label>Melanie Sanders</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:65016:1"/>
+            <p>
+               <pb facs="tcp:65016:1"/>
+               <hi>Islington-Wells; OR THE</hi> Threepenny = Academy.</p>
+            <p>
+               <hi>A POEM.</hi>
+            </p>
+            <p>—Equidem hoc studio bullatis ut mihi nugis, Pagina turgescat.—</p>
+            <p>
+               <hi>Perseus Sat. 5.</hi>
+            </p>
+            <p>LONDON, <hi>Printed for</hi> E. Richardson, <hi>1691.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:65016:2"/>
+            <pb facs="tcp:65016:2"/>
+            <head>Epistle Dedicatory.</head>
+            <l>TO all Pretty young <hi>Girls,</hi> by a late sawcy Pen,</l>
+            <l>Expos'd to an <hi>Auction</hi> as Matches for Men,</l>
+            <l>Who to <hi>Lincolns-Inn-Walks,</hi> and the <hi>Park</hi> make their Pace</l>
+            <l>To shew their fine <hi>Cloaths,</hi> but their much finer <hi>Faces,</hi>
+            </l>
+            <l>And who frequently (cause they can do nothing else)</l>
+            <l>With their Presence do Honour fam'd <hi>Islington-Wells.</hi>
+            </l>
+            <l>To all <hi>Ladies</hi> whose Portions are <hi>Thousands</hi> a <hi>Piece,</hi>
+            </l>
+            <l>From my Lord<hi>'s youngest Daughter</hi> to <hi>Aldermans Niec</hi>
+            </l>
+            <l>Who go thither as oft as Occasion requires,</l>
+            <l>To Cool their young Bloods and Inflame their Desires.</l>
+            <l>To all sorts of <hi>Wives</hi> (but most chiefly the Young)</l>
+            <l>Who each Morning in Clusters to <hi>Islington</hi> Throng,</l>
+            <l>And Drink <hi>VVaters,</hi> as most Men the story believe,</l>
+            <l>To render their <hi>Bodies</hi> more apt to <hi>Conceive;</hi>
+            </l>
+            <l>Tho both <hi>Antient</hi> and <hi>Modern</hi> agree in the Matter.</l>
+            <l>That a <hi>Chopping young Heir</hi> was ne're got by <hi>thin Water</hi>
+            </l>
+            <l>
+               <pb facs="tcp:65016:3"/>
+But <hi>Opinion's</hi> the <hi>Standard</hi> of all things below,</l>
+            <l>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f she proves but <hi>with Child,</hi> let the <hi>Father</hi> guess <hi>How;</hi>
+            </l>
+            <l>For however we banter an <hi>Implicit Faith,</hi>
+            </l>
+            <l>We are bound to believe what our <hi>Bed-fellow</hi> saith.</l>
+            <l>To all <hi>fine Dressing Beaus</hi> with their sparkish Long <hi>Wigs,</hi>
+            </l>
+            <l>To all brisk <hi>Lawyers Clerks,</hi> and pert <hi>City</hi> young <hi>Prigs,</hi>
+            </l>
+            <l>Who having fine <hi>Cloaths</hi> must go thither to shew em,</l>
+            <l>Is humbly Presented This following <hi>Poem.</hi>
+            </l>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:65016:3"/>
+            <head>
+               <hi>Islington = Wells:</hi> OR, THE Threepenny-ACADEMY, &amp;c.</head>
+            <lg>
+               <l>FEv'rish and Hot by Drinking <hi>Claret,</hi>
+               </l>
+               <l>(And where's the Mortal can forbear it?)</l>
+               <l>All Pillow-consultations scorning,</l>
+               <l>I left my Bed by <hi>Six</hi> i'th' Morning;</l>
+               <l>About which time dull Sots are Snoaring,</l>
+               <l>And Sparks just rose from private Whoring;</l>
+               <l>But being Drest, I found the Curse,</l>
+               <l>Of a hot Head and cooling Purse,</l>
+               <l>My <hi>Guineas</hi> spent, my <hi>Angels</hi> flown,</l>
+               <l>And nothing but a Clipt <hi>Half-Crown,</hi>
+               </l>
+               <l>
+                  <pb n="2" facs="tcp:65016:4"/>
+(Which twinkling lay like Snuff in Socket)</l>
+               <l>To keep the Devil from my Pocket:</l>
+               <l>Then think how could a Scene of Pleasure,</l>
+               <l>Be Purchas'd with so small a Treasure?</l>
+               <l>Our Inclinations may be Sparkish,</l>
+               <l>When Pocket at Low-water-mark is;</l>
+               <l>But having rack'd my <hi>Pia Mater,</hi>
+               </l>
+               <l>For some cheap Mirth by Land or Water,</l>
+               <l>At last could pitch on nothing else,</l>
+               <l>But <hi>Islington</hi>'s Renowned <hi>Wells,</hi>
+               </l>
+               <l>Where twice or thrice a Week most duly,</l>
+               <l>In Months of <hi>May, June, August, July,</hi>
+               </l>
+               <l>The <hi>Doctor</hi> and his sly <hi>Jacall,</hi>
+               </l>
+               <l>Whom some the <hi>'Pothecary</hi> call,</l>
+               <l>
+                  <hi>Lawyers, Divines, Civilians, Quakers,</hi>
+               </l>
+               <l>Some <hi>Cuckolds,</hi> but more <hi>Cuckold-Makers,</hi>
+               </l>
+               <l>
+                  <hi>Sharpers, Decoys, Trapans</hi> and <hi>Bullies,</hi>
+               </l>
+               <l>Designing <hi>Cracks</hi> and sneaking <hi>Cullies,</hi>
+               </l>
+               <l>Fine modish <hi>Sparks,</hi> and dressing <hi>Beau</hi>'s,</l>
+               <l>Who Charm the Women with their Cloaths;</l>
+               <l>
+                  <hi>Ladies</hi> some <hi>Chast</hi> and others <hi>Common,</hi>
+               </l>
+               <l>
+                  <hi>Young, Old,</hi> and many other <hi>Women;</hi>
+               </l>
+               <l>
+                  <pb n="3" facs="tcp:65016:4"/>
+The <hi>Tradesman</hi> and his lovely <hi>Spouse,</hi>
+               </l>
+               <l>Th' Enamour'd <hi>Youth</hi> and's dear <hi>Queen Blouze,</hi>
+               </l>
+               <l>
+                  <hi>Taylors</hi> and other Trades which Rack</l>
+               <l>Invention to Adorn the Back,</l>
+               <l>Go there to make their Observation,</l>
+               <l>Upon the Dresses of the Nation,</l>
+               <l>Of either Sex whole Droves together,</l>
+               <l>To see and to be seen flock thither,</l>
+               <l>To Drink, and not to <hi>Drink</hi> the <hi>Water,</hi>
+               </l>
+               <l>And here promiscously they <hi>Chatter.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>'Twas Seaven a Clock when I came thither,</l>
+               <l>Serene the Air and Calm the Weather,</l>
+               <l>Which Prophesied a Randezvous,</l>
+               <l>Of <hi>Coquet Dames</hi> and <hi>Sparkish Beau</hi>'s.</l>
+               <l>As yet no Beauties fill'd the place,</l>
+               <l>No, not so much as Coat with Lace;</l>
+               <l>But five old <hi>Cits</hi> who walking, Blundred,</l>
+               <l>And talk'd of Thirty in the Hundred,</l>
+               <l>What Ships abroad were Bound for home,</l>
+               <l>And that the <hi>Smyrna Fleet</hi> was come;</l>
+               <l>How to put off their <hi>Musty Daughters,</hi>
+               </l>
+               <l>To Rich young Heirs, and such like Matters,</l>
+               <l>
+                  <pb n="4" facs="tcp:65016:5"/>
+Which did to me as Grateful prove,</l>
+               <l>As Cats at Midnight making Love;</l>
+               <l>So quickly out of Ear-shot getting,</l>
+               <l>As loathing their Insipid prating,</l>
+               <l>Planted my self in Arbour Green,</l>
+               <l>So Shaded that I scarce was seen:</l>
+               <l>So long I was not in that post Sir,</l>
+               <l>As one might say his <hi>Pater-Noster;</hi>
+               </l>
+               <l>But in the Arbour next to me,</l>
+               <l>I heard loud Noise of <hi>Ha, Ha, He,</hi>
+               </l>
+               <l>And louder yet the sound redoubles,</l>
+               <l>From the shrill Throats of Female Trebles;</l>
+               <l>I Peep'd, and did most plainly see,</l>
+               <l>Three Ladies Drest <hi>Dishabillee,</hi>
+               </l>
+               <l>Who had, it seems, with other Women,</l>
+               <l>Been at the Labour of a Seaman<g ref="char:EOLhyphen"/>s Wife, who in the Pains of Child-birth,</l>
+               <l>Cry'd out, her Fruit would be an ill-birth,</l>
+               <l>Unless her Husband, first (to tell ye,)</l>
+               <l>Had laid his Hand upon her Belly,</l>
+               <l>Which done, was brought to Bed as well,</l>
+               <l>As full Ripe <hi>Philbert</hi> dropt from Shell.</l>
+               <l>
+                  <pb n="5" facs="tcp:65016:5"/>
+But Lord! to hear their wild Descants,</l>
+               <l>And most unheard uncommon Rants,</l>
+               <l>Would make one Swear that <hi>Aristotle</hi>
+               </l>
+               <l>Would have Improv'd to hear their <hi>Tattle;</hi>
+               </l>
+               <l>Yet this we must not <hi>Baudry</hi> call,</l>
+               <l>No, no, 'tis <hi>Philosophical:</hi>
+               </l>
+               <l>What they Obscene in us condemn,</l>
+               <l>Is but meer Natural Talk with them.</l>
+               <l>But in the midst of all their Laughing,</l>
+               <l>I fell unluckily a Coughing,</l>
+               <l>Which put them into such a <hi>Fright,</hi>
+               </l>
+               <l>As if they'd seen a <hi>Ghost</hi> or <hi>Spright;</hi>
+               </l>
+               <l>Supposing there was no one near 'em,</l>
+               <l>Perceiving I did over hear 'em,</l>
+               <l>Clapt <hi>Vizors</hi> on, and 'mongst the <hi>Bushes,</hi>
+               </l>
+               <l>Hid both their <hi>Faces</hi> and their <hi>Blushes.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>By this time Company Repair,</l>
+               <l>As thick as to a <hi>Wake</hi> or <hi>Fair:</hi>
+               </l>
+               <l>No <hi>Broacher</hi> of a <hi>New Religion,</hi>
+               </l>
+               <l>Nor <hi>Flatnoz'd Quack,</hi> nor <hi>Stage Physitian,</hi>
+               </l>
+               <l>
+                  <hi>"Nor</hi> Indian King <hi>unto his Palace,</hi>
+               </l>
+               <l>
+                  <hi>"Nor Knots of Highway-men to th' Gallows,</hi>
+               </l>
+               <l>
+                  <pb n="6" facs="tcp:65016:6"/>
+More followers have ever known,</l>
+               <l>Than come to <hi>Wells</hi> of <hi>Islington.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>First came an Old Grave <hi>Governant,</hi>
+               </l>
+               <l>With two <hi>Young Things,</hi> who call'd her <hi>Aunt,</hi>
+               </l>
+               <l>So Pert, so Innocent, and Pretty,</l>
+               <l>Unpractiz'd in the Tricks o'th' City:</l>
+               <l>In each of which so lovely Creature,</l>
+               <l>Was seen pure unadulterate Nature,</l>
+               <l>Before she learnt to <hi>Love</hi> by <hi>Rules,</hi>
+               </l>
+               <l>And make them more <hi>Accomplish'd Fools.</hi>
+               </l>
+               <l>Next came a <hi>Beau</hi> bedawb'd with <hi>Lace,</hi>
+               </l>
+               <l>Conducting in with <hi>Damn'd Grimace,</hi>
+               </l>
+               <l>A Tawdry <hi>Punk</hi> in fluttering Cloaths,</l>
+               <l>Whom you must <hi>Quality</hi> suppose;</l>
+               <l>Then a Young <hi>Sempstress</hi> of th' <hi>Exchange,</hi>
+               </l>
+               <l>In an <hi>Undress</hi> so loose and Strange,</l>
+               <l>That she was thought by every Man,</l>
+               <l>To come from <hi>China</hi> or <hi>Japan.</hi>
+               </l>
+               <l>Two <hi>Sisters</hi> then so Drest in strictness,</l>
+               <l>That one was but the others Likeness.</l>
+               <l>Next came three <hi>Scarlet-Coat Commanders,</hi>
+               </l>
+               <l>Newly <hi>Equipt</hi> to go for <hi>Flanders,</hi>
+               </l>
+               <l>
+                  <pb n="7" facs="tcp:65016:6"/>
+Who had to shew their <hi>Active Valours,</hi>
+               </l>
+               <l>Two Hours before well <hi>Kickt</hi> their <hi>Taylors,</hi>
+               </l>
+               <l>For giving <hi>Dun</hi> at <hi>Chamber Door,</hi>
+               </l>
+               <l>For <hi>Cloaths</hi> had of them <hi>Years before.</hi>
+               </l>
+               <l>A <hi>Doctor</hi> then with twirling Cane,</l>
+               <l>Well skill'd in each Disease and Pain,</l>
+               <l>Which do the Corps of Man Assail,</l>
+               <l>From <hi>Crown</hi> of <hi>Head</hi> to <hi>Great-Toe-Nail,</hi>
+               </l>
+               <l>And can of all the <hi>Plants</hi> tell Stories,</l>
+               <l>From <hi>Saffron</hi> down to <hi>Stinking Orrice.</hi>
+               </l>
+               <l>Next him a young spruce <hi>City Fop,</hi>
+               </l>
+               <l>
+                  <hi>Chief</hi> of a <hi>Linnen-Drapers Shop,</hi>
+               </l>
+               <l>With a <hi>Long-Wig</hi> and <hi>Tilter</hi> on,</l>
+               <l>To make him look like <hi>Gentleman;</hi>
+               </l>
+               <l>And he might long for such have past,</l>
+               <l>If he had not himself Disgrac'd,</l>
+               <l>To shew his mighty Wit and Skill in,</l>
+               <l>Bantring upon a <hi>Ladies Linnen,</hi>
+               </l>
+               <l>Who quickly Silenc'd the Pert <hi>Fop,</hi>
+               </l>
+               <l>By telling him 'twas bought at's <hi>Shop.</hi>
+               </l>
+               <l>Then half a Dozen of the <hi>Fry,</hi>
+               </l>
+               <l>Who can so neatly <hi>Cogg</hi> a <hi>Dye,</hi>
+               </l>
+               <l>
+                  <pb n="8" facs="tcp:65016:7"/>
+And all the Tricks and Customs know,</l>
+               <l>Of the <hi>High-fullhams</hi> and the <hi>Low.</hi>
+               </l>
+               <l>A brace of <hi>Country 'Squires</hi> next enter,</l>
+               <l>In chase of some unheard <hi>Adventure,</hi>
+               </l>
+               <l>Who thinking of themselves in <hi>Heaven,</hi>
+               </l>
+               <l>Steal off with <hi>Punks</hi> about Eleven,</l>
+               <l>VVho in few days the difference Scan,</l>
+               <l>'Twixt Country <hi>Joan</hi> and City <hi>Nan.</hi>
+               </l>
+               <l>Of <hi>Women</hi> next an Inundation,</l>
+               <l>All drest by strictest rules of Fashion,</l>
+               <l>VVho think by all their gay <hi>Attire,</hi>
+               </l>
+               <l>To set poor Mortals Hearts on <hi>Fire;</hi>
+               </l>
+               <l>But he deserves to have a <hi>Bib on,</hi>
+               </l>
+               <l>That's taken with the Charms of <hi>Ribbon,</hi>
+               </l>
+               <l>Or walk into the whining <hi>Road,</hi>
+               </l>
+               <l>Out of respect to Drest <hi>Commode.</hi>
+               </l>
+               <l>Of <hi>Gentlemen</hi> a num'rous store</l>
+               <l>With <hi>Tickets,</hi> throng to reach the Door,</l>
+               <l>Whose only <hi>Business</hi> and whose <hi>Trade</hi> is,</l>
+               <l>Each day to <hi>Complement</hi> the <hi>Ladies,</hi>
+               </l>
+               <l>VVhich they in words so finely can dress,</l>
+               <l>They Can't forbear it to their Laundress;</l>
+               <l>
+                  <pb n="9" facs="tcp:65016:7"/>
+For using vulgar words and Phrases,</l>
+               <l>Their Mouth most Inf'nitely Debases,</l>
+               <l>To say they've Melancholly been,</l>
+               <l>Is Bar'brous; no, they are <hi>Chagrin.</hi>
+               </l>
+               <l>To say a Ladies Looks are Well,</l>
+               <l>Is common; no, <hi>her Air is Belle.</hi>
+               </l>
+               <l>If any thing Offends, the <hi>Wig</hi>
+               </l>
+               <l>Is tost, and they'r in such <hi>Fatigue:</hi>
+               </l>
+               <l>But now the Evidence to sum up,</l>
+               <l>To such cheap Pleasures most can come up,</l>
+               <l>And therefore 'twould be strange to <hi>Rob,</hi>
+               </l>
+               <l>Some topping <hi>Gentry</hi> of the <hi>Mob,</hi>
+               </l>
+               <l>Of the Diversion ev'ry <hi>Munday,</hi>
+               </l>
+               <l>To shew clean Linnen worn on <hi>Sunday,</hi>
+               </l>
+               <l>Especially if they're but Civil,</l>
+               <l>(We must do Justice to the Devil)</l>
+               <l>For their ill-shap't unfashion'd Cloaths,</l>
+               <l>May serve as <hi>Foils</hi> to set off <hi>Beans;</hi>
+               </l>
+               <l>
+                  <hi>So Blacks</hi> by Ladies standing seen,</l>
+               <l>Heighten the <hi>Whiteness</hi> of their <hi>Skin.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And now like <hi>Modern</hi> sort of <hi>Criticks,</hi>
+               </l>
+               <l>By <hi>Antients</hi> call'd <hi>Peripateticks,</hi>
+               </l>
+               <l>
+                  <pb n="10" facs="tcp:65016:8"/>
+Walk't sometimes hither, sometimes thither,</l>
+               <l>Conferring learned Notes together;</l>
+               <l>So here the Ladies keep a pother,</l>
+               <l>In Censuring of one another.</l>
+               <l>
+                  <hi>"Lord! Madam, did you e're behold,</hi>
+               </l>
+               <l>"Says one, <hi>a Dress so very Old?</hi>
+               </l>
+               <l>
+                  <hi>"Sure that</hi> Commode <hi>was made, I'faith,</hi>
+               </l>
+               <l>
+                  <hi>"In Days of Queen</hi> Elizabeth:</l>
+               <l>
+                  <hi>"Or else it was Esteem'd the Fashion</hi>
+               </l>
+               <l>
+                  <hi>"At</hi> Charles <hi>the Second</hi>'s <hi>Coronation;</hi>
+               </l>
+               <l>
+                  <hi>"The Lady by her</hi> Manteaus <hi>Forebody,</hi>
+               </l>
+               <l>
+                  <hi>"Sure takes a Pride to Dress like no Body,</hi>
+               </l>
+               <l>When at the very self same time</l>
+               <l>She's taxt by others for the Crime,</l>
+               <l>Of Dressing of her Head so High,</l>
+               <l>As if she would with Steeples Vye,</l>
+               <l>Or Rival with her <hi>Modish Skill,</hi>
+               </l>
+               <l>The <hi>Monument</hi> on <hi>Fishstreet-Hill;</hi>
+               </l>
+               <l>Nor can the <hi>Sparks</hi> themselves escape</l>
+               <l>From Censures on their Mein and Shape;</l>
+               <l>For Cloaths made Fashionably well,</l>
+               <l>Not always can the <hi>Fop</hi> conceal:</l>
+               <l>
+                  <pb n="11" facs="tcp:65016:8"/>
+                  <hi>"Tho Nature made Mans Brest no Windores,</hi>
+               </l>
+               <l>
+                  <hi>"To Publish what he does within doors,</hi>
+               </l>
+               <l>As saith Immortal <hi>Hudibras,</hi>
+               </l>
+               <l>Yet one may plainly see an <hi>Ass,</hi>
+               </l>
+               <l>Discern a <hi>Fool,</hi> or view a <hi>Prig</hi> in</l>
+               <l>All his accomplisht Modes of <hi>Rigging.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Motions of the Wandring <hi>Stars,</hi>
+               </l>
+               <l>So talkt of by <hi>Astrologers,</hi>
+               </l>
+               <l>Cannot be more Irregular,</l>
+               <l>Than were the Mortal motions here;</l>
+               <l>Some to the <hi>Well</hi> advance their pace,</l>
+               <l>While others in a nameless place,</l>
+               <l>In privacy demurely scatter</l>
+               <l>The kind effects of <hi>Mineral Water.</hi>
+               </l>
+               <l>Some to the <hi>Raffling-shop</hi> advance,</l>
+               <l>To see the strange effects of <hi>Chance,</hi>
+               </l>
+               <l>And view the <hi>Sparks</hi> with <hi>Spotted-bones,</hi>
+               </l>
+               <l>Lose both their <hi>Wits</hi> and <hi>Gold</hi> at once;</l>
+               <l>Whilst others at the <hi>Royal-Oak,</hi>
+               </l>
+               <l>With lift-up Eyes good Luck Invoke.</l>
+               <l>Much Pleasure sure must needs be had,</l>
+               <l>To see <hi>Fulls, Halfs,</hi> and <hi>Quarters</hi> laid,</l>
+               <l>
+                  <pb n="12" facs="tcp:65016:9"/>
+To see a Town not far from <hi>Dover,</hi>
+               </l>
+               <l>Butter'd with <hi>Megs</hi> and <hi>Smelts</hi> all over,</l>
+               <l>It needs must make their Hearts all Merry,</l>
+               <l>To hear the <hi>Ball</hi> Speak <hi>Canterbury.</hi>
+               </l>
+               <l>Others who would cheap Pleasures choose,</l>
+               <l>To <hi>Coffee-house</hi> to Read the <hi>News</hi>
+               </l>
+               <l>Retire, and there devoutly Prate</l>
+               <l>Of <hi>Luxemburgh</hi> and <hi>Catinat,</hi>
+               </l>
+               <l>And talk as briskly of <hi>Commanders,</hi>
+               </l>
+               <l>Who now are at their Posts in <hi>Flanders,</hi>
+               </l>
+               <l>As if in Heats and Colds and Rains,</l>
+               <l>They'd past together some <hi>Campaigns,</hi>
+               </l>
+               <l>When they had never crost the <hi>Seas,</hi>
+               </l>
+               <l>But in a Map with <hi>Compasses:</hi>
+               </l>
+               <l>While others of Plebean Fashion,</l>
+               <l>Who thither came for Recreation;</l>
+               <l>In Arbours closely shaded o're,</l>
+               <l>With climbing Shrubs and Sycamore,</l>
+               <l>In mighty State themselves <hi>Regale,</hi>
+               </l>
+               <l>With Fly-Plumb-Cakes and Windy Ale.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Incognito</hi> I past along,</l>
+               <l>Through all the <hi>Male</hi> and <hi>Female</hi> throng,</l>
+               <l>
+                  <pb n="13" facs="tcp:65016:9"/>
+Saluted by the Fragrancy</l>
+               <l>Of <hi>Powder</hi> de <hi>Orange,</hi>
+               </l>
+               <l>
+                  <hi>Jesmine, Pulvil,</hi> and something else,</l>
+               <l>Us'd to correct some worser smells.</l>
+               <l>Till I arriv'd at Rails which hem in</l>
+               <l>This famous <hi>Well,</hi> where two Old <hi>Women</hi>
+               </l>
+               <l>Do kindly give the <hi>Water</hi> Gratis,</l>
+               <l>(What nothing costs, at under-rate is)</l>
+               <l>There cooling of their Brains or Blood,</l>
+               <l>A Knot of Sparks and Ladies stood;</l>
+               <l>Tho 'tis believ'd upon the Matter,</l>
+               <l>They better <hi>Coolers</hi> knew than <hi>Water.</hi>
+               </l>
+               <l>Some <hi>Doctors</hi> too, who gave <hi>Advice,</hi>
+               </l>
+               <l>
+                  <hi>(Most wonderful)</hi> without their <hi>Fees,</hi>
+               </l>
+               <l>
+                  <hi>Physitians</hi> being still of course,</l>
+               <l>Our <hi>Bodies</hi> dearest <hi>Confessors.</hi>
+               </l>
+               <l>The two young <hi>Ladies</hi> too were there,</l>
+               <l>With their old <hi>Gouty</hi> Overseer,</l>
+               <l>Who did more closely watch this <hi>Couple,</hi>
+               </l>
+               <l>Than <hi>Dragon</hi> did the <hi>Golden Apple:</hi>
+               </l>
+               <l>As in her Hand with half pint Glass,</l>
+               <l>The youngest of them Drinking was,</l>
+               <l>
+                  <pb n="14" facs="tcp:65016:10"/>
+A <hi>Doctor</hi> comes with Humble Grin,</l>
+               <l>Bending his Hams, and stroaking's Chin,</l>
+               <l>And just against the <hi>Lady</hi> plac'd,</l>
+               <l>Demanded <hi>how her VVaters past:</hi>
+               </l>
+               <l>She (blushing Innocence) asham'd</l>
+               <l>To hear so <hi>strange an Action</hi> Nam'd;</l>
+               <l>Away with more confusion fled,</l>
+               <l>Than if she'd seen the <hi>Gorgon</hi>'s Head,</l>
+               <l>And 'tis believ'd will come no more;</l>
+               <l>So Am'rous <hi>Sparks</hi> upon that score,</l>
+               <l>Have lost her <hi>Beauties Influence,</hi>
+               </l>
+               <l>By one <hi>Old Fool</hi>'s <hi>Impertinence.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>Musick Plays,</hi> and 'tis such <hi>Musick,</hi>
+               </l>
+               <l>As quickly will make me or you <hi>Sick;</hi>
+               </l>
+               <l>Nothing the <hi>Ears</hi> so sorely wounds,</l>
+               <l>As ill scrap't Notes and jarring Sounds;</l>
+               <l>But they to give the thing a <hi>Grace,</hi>
+               </l>
+               <l>Had got three <hi>Trebles</hi> and a <hi>Base,</hi>
+               </l>
+               <l>With which (as <hi>Apes</hi> are often seen</l>
+               <l>To imitate the acts of <hi>Men)</hi>
+               </l>
+               <l>So vainly these pretend to Play</l>
+               <l>Some Lessons in the <hi>Opera,</hi>
+               </l>
+               <l>
+                  <pb n="15" facs="tcp:65016:10"/>
+But still with much the same Success,</l>
+               <l>As <hi>Quacks</hi> do when they would express</l>
+               <l>Their Skill in <hi>Drugs,</hi> like <hi>Learn'd Physitian,</hi>
+               </l>
+               <l>Or <hi>Sign-post Painters</hi> copying <hi>Titian.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>'Twas now about the Hour of <hi>Ten,</hi>
+               </l>
+               <l>Precisely just the Minute when</l>
+               <l>To <hi>VVells</hi> the <hi>Hackney-Coaches</hi> trot,</l>
+               <l>As fast as Wasps to Honey-pot.</l>
+               <l>One brings a Couple newly Married,</l>
+               <l>As yet in neithers <hi>Love</hi> Miscarried,</l>
+               <l>But <hi>Islington</hi> may prove to both</l>
+               <l>Their Matrimonial <hi>Shibboleth.</hi>
+               </l>
+               <l>For he perhaps in Gazing round,</l>
+               <l>Has some new <hi>Charming Mistress</hi> found,</l>
+               <l>Whom he does 'fore his Wife prefer,</l>
+               <l>So leaving <hi>Spouse</hi> makes <hi>Love</hi> to her,</l>
+               <l>While she alone in pensive pace,</l>
+               <l>Walking along so strange a Place,</l>
+               <l>Is by some <hi>Spark of Dress and Carriage,</hi>
+               </l>
+               <l>Seduc'd from Vows of <hi>Holy Marriage,</hi>
+               </l>
+               <l>Liking his <hi>Modish soft Caresses</hi>
+               </l>
+               <l>Above her Husbands <hi>forc'd Adresses,</hi>
+               </l>
+               <l>
+                  <pb n="16" facs="tcp:65016:11"/>
+And so contrives that very <hi>Morning</hi>
+               </l>
+               <l>A Plot for <hi>Poverty</hi> and <hi>Horning.</hi>
+               </l>
+               <l>Another <hi>Hackney-Coach</hi> does <hi>Rattle,</hi>
+               </l>
+               <l>Crouded with <hi>Taudry Female Cattle,</hi>
+               </l>
+               <l>Who thither come in hast to meet</l>
+               <l>Some choice He-friend from <hi>Norfolk-street,</hi>
+               </l>
+               <l>Thence highly to <hi>Oblige</hi> their <hi>Pockets,</hi>
+               </l>
+               <l>To go and <hi>Dine</hi> with them at <hi>Lockets.</hi>
+               </l>
+               <l>Then in a <hi>Coach</hi> as fine as may be,</l>
+               <l>Comes old Sir <hi>Fumble</hi> and his <hi>Lady,</hi>
+               </l>
+               <l>With the <hi>Greensickness</hi> thing their <hi>Daughter,</hi>
+               </l>
+               <l>Who thither comes to <hi>Drink</hi> the <hi>VVater,</hi>
+               </l>
+               <l>Although 'tis plainly understood,</l>
+               <l>Something would do her much more good.</l>
+               <l>Then in <hi>Guilt-Coach</hi> with fine Device</l>
+               <l>Comes in the Spruce Sir <hi>Courtly Nice,</hi>
+               </l>
+               <l>Who is with <hi>Ladies</hi> all Men know</l>
+               <l>The very <hi>Pam</hi> at <hi>Lanktraloo;</hi>
+               </l>
+               <l>A petty Chance to some may fall,</l>
+               <l>But he's the Knave that Picks up all.</l>
+               <l>To crown the Mornings Work at last,</l>
+               <l>Come in some Men with seeming hast,</l>
+               <l>
+                  <pb n="17" facs="tcp:65016:11"/>
+Conducting in with <hi>Dam'd Grimaces,</hi>
+               </l>
+               <l>Six Women with fine <hi>Wainscot Faces,</hi>
+               </l>
+               <l>By which it was not hard to guess,</l>
+               <l>Th'were <hi>French Men</hi> and their <hi>Mistresses,</hi>
+               </l>
+               <l>Who in all places of Resort,</l>
+               <l>Appear to make their publick Court:</l>
+               <l>Our <hi>English Breeding</hi> they condemn,</l>
+               <l>For we are <hi>Clowns</hi> compar'd with them:</l>
+               <l>They walk before their <hi>Ladies</hi> bare,</l>
+               <l>To shew their Rev'rence for the Fair,</l>
+               <l>Tho 'tis Indecent, some Men have said,</l>
+               <l>All people Love not smell of <hi>Calves Head;</hi>
+               </l>
+               <l>Besides so very loud they Prattle,</l>
+               <l>That Petticoat <hi>Subburbian</hi> Cattle,</l>
+               <l>Half Drunk at Christnings cannot bray</l>
+               <l>With half such noise and din as they.</l>
+            </lg>
+            <lg>
+               <l>And now the Plot begins to thicken,</l>
+               <l>For <hi>Sparks</hi> with Inclination stricken,</l>
+               <l>Make Love to every Face they meet,</l>
+               <l>And all with like Affection treat.</l>
+               <l>Each <hi>Lady</hi> is their <hi>Mistress</hi> known,</l>
+               <l>And every Man their Rival grown;</l>
+               <l>
+                  <pb n="18" facs="tcp:65016:12"/>
+But did they earnest Love persue,</l>
+               <l>Heaven knows what Bloodshed might ensue;</l>
+               <l>That Passion is not in their Power,</l>
+               <l>They'l triffle with't for half an hour,</l>
+               <l>And very well the <hi>Ladies</hi> know</l>
+               <l>To what inconstant <hi>God</hi> they bow,</l>
+               <l>So treat with <hi>Railery</hi> their Discourse,</l>
+               <l>And Laugh at all their feign'd <hi>Amours.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>'Twas now about the Hour Eleven,</l>
+               <l>When the bright <hi>Sun,</hi> who lookt from <hi>Heaven</hi>
+               </l>
+               <l>Had sure forgot his former Duty,</l>
+               <l>And 'gan to <hi>Scorch</hi> the <hi>Ladies Beauty;</hi>
+               </l>
+               <l>Most to avoid his sawcy Scorching,</l>
+               <l>To Room design'd for <hi>Dancing,</hi> march in,</l>
+               <l>And seat themselves on several <hi>Benches,</hi>
+               </l>
+               <l>(Like <hi>Soldiers</hi> at a <hi>Siege</hi> in <hi>Trenches)</hi>
+               </l>
+               <l>Expecting when the <hi>Sparks</hi> advance,</l>
+               <l>To take them out for <hi>Country Dance;</hi>
+               </l>
+               <l>Each by himself with Wonder stares,</l>
+               <l>And none to take a <hi>Lady</hi> dares:</l>
+               <l>
+                  <hi>Indians</hi> were not surprised more,</l>
+               <l>To see the <hi>Spaniards</hi> on their Shore;</l>
+               <l>
+                  <pb n="19" facs="tcp:65016:12"/>
+So these spruce <hi>Prigs</hi> admire the Sight,</l>
+               <l>But dare not come to closer Fight.</l>
+               <l>The <hi>Ladies</hi> wondring what the Sight meant,</l>
+               <l>(As <hi>Women</hi> hate a Disappointment)</l>
+               <l>Went from their Seats, and by their Frowns,</l>
+               <l>Exprest their Hatred of the <hi>Clowns.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Six hours thus Idly thrown away,</l>
+               <l>In what was neither Work nor Play,</l>
+               <l>(Yet'tmust be own'd the Vanity</l>
+               <l>Had very much Variety)</l>
+               <l>Musing on what I'de seen and heard,</l>
+               <l>My Honest Friend <hi>H. N.</hi> appeard,</l>
+               <l>
+                  <hi>"Come leave,</hi> says he, <hi>or I'll Condemnye,</hi>
+               </l>
+               <l>
+                  <hi>"This Noisy Dressing Academy,</hi>
+               </l>
+               <l>
+                  <hi>"This place of empty boyish Prattle,</hi>
+               </l>
+               <l>
+                  <hi>"And go with me and crack a Bottle:</hi>
+               </l>
+               <l>I like't the Motion, and we met</l>
+               <l>With Glass of Rare in <hi>Grace-Church-Street;</hi>
+               </l>
+               <l>Finding our <hi>Wine</hi> was very good</l>
+               <l>To chear the Heart and warm the Blood,</l>
+               <l>We staid till Six, and chew'd the <hi>Cud.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1865 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enchiridion, seu, Fasciculus adagiorum selectissimorum, or, A manuall of the choysest adagies, collected out of the most ancient poets and philosophers, neuer before translated into English, with the proper sense and application authore Iohanne Leycester.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1623</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 53 KB of XML-encoded text transcribed from 33 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-03">2004-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A21336</idno>
+            <idno type="STC">STC 7681.3</idno>
+            <idno type="STC">ESTC S1918</idno>
+            <idno type="EEBO-CITATION">22917749</idno>
+            <idno type="OCLC">ocm 22917749</idno>
+            <idno type="VID">25885</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A21336)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 25885)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1792:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Enchiridion, seu, Fasciculus adagiorum selectissimorum, or, A manuall of the choysest adagies, collected out of the most ancient poets and philosophers, neuer before translated into English, with the proper sense and application authore Iohanne Leycester.</title>
+                  <author>Leycester, John, b. 1598.</author>
+               </titleStmt>
+               <extent>[3], 30 [i.e. 60], [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by George Eld,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1623.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Latin and English on facing pages.</note>
+                  <note>Signatures: A-D⁸.</note>
+                  <note>Page numbers repeated on facing pages.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Proverbs.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-10</date>
+            <label>Daniel Haig</label>Sampled and proofread</change>
+         <change>
+            <date>2003-10</date>
+            <label>Daniel Haig</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-12</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:25885:1"/>
+            <p>ENCHIRIDION, SEV FASCICVLVS <hi>ADAGIORVM</hi> SELECTISSIMORVM: OR A MANVALL OF the choysest <hi>Adagies,</hi> collected out of the <hi>most ancient Poets and Philosophers,</hi> neuer before translated into English, with the proper sense and <hi>Application.</hi>
+            </p>
+            <p>Authore <hi>Iohanne Leycester.</hi>
+            </p>
+            <q>
+               <p>Hoc ab homine exigitur, vt prosit hominibus: si potes<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>multis; si minùs, paucis; si minùs, proximis; si minùs sibi.</p>
+               <bibl>
+                  <hi>Seneca.</hi>
+               </bibl>
+            </q>
+            <p>LONDON Printed by GEORGE ELD. 1623.</p>
+         </div>
+         <div xml:lang="lat" type="poem" subtype="to_the__reader">
+            <pb facs="tcp:25885:2"/>
+            <pb facs="tcp:25885:2" rendition="simple:additions"/>
+            <head>Ad Lectores.</head>
+            <l>FVrtiuis olim varijs<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> superbijt Oschen</l>
+            <l>Plumis: ex multis fit liber iste libris.</l>
+            <l>Redde cui<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> suum, vil<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>scit protinus Oschen:</l>
+            <l>Hic sine natura foetet, &amp; arte liber.</l>
+            <l>Ex herbis fit mel; hominis ceu simia, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </l>
+            <l>Aemula naturae est, Moeonidis<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Mare.</l>
+            <l>Sic licèt ex multis opus hoc, tame<g ref="char:cmbAbbrStroke">̄</g> vtile quonis</l>
+            <l>Teste, voluminibus candidius<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tuis.</l>
+            <closer>
+               <signed>Per Iohannem Leycester.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="lat" type="version">
+            <pb n="1" facs="tcp:25885:3"/>
+            <head>ENCHIRIDION ADAGIORVM.</head>
+            <p n="1">
+               <hi>1</hi> 
+               <seg rend="decorInit">A</seg>Pertae Musarum januae. Propertius.</p>
+            <p n="2">
+               <hi>2</hi> Applica ad amussim lapidem, non ad lapidem amussim. <hi>Plutar.</hi>
+            </p>
+            <p n="3">
+               <hi>3</hi> Aduersus solem ne loquitor. <hi>Pythagor.</hi>
+            </p>
+            <p n="4">
+               <hi>4</hi> Asinus asino, sus sui pulcher. <hi>Alcimus.</hi>
+            </p>
+            <p n="5">
+               <pb n="2" facs="tcp:25885:4"/>
+               <hi>5</hi> Asinus in paleas. <hi>Aristoph.</hi>
+            </p>
+            <p n="6">
+               <hi>6</hi> Annosa vulpes haud capitur la<g ref="char:EOLhyphen"/>queo. <hi>Aemil.</hi>
+            </p>
+            <p n="7">
+               <hi>7</hi> Ante tubam trepidas. <hi>Cicero.</hi>
+            </p>
+            <p n="8">
+               <hi>8</hi> Animus in pedes decidit. <hi>Ho<g ref="char:EOLhyphen"/>mer.</hi>
+            </p>
+            <p n="9">
+               <hi>9</hi> Ante victoriam encomium ca<g ref="char:EOLhyphen"/>nis. <hi>Athenaeus.</hi>
+            </p>
+            <p n="10">
+               <hi>10</hi> Adhibes Lucernam in meri<g ref="char:EOLhyphen"/>diem. <hi>Diogen.</hi>
+            </p>
+            <p n="11">
+               <hi>11</hi> Aiacis risus. <hi>Diogen.</hi>
+            </p>
+            <p n="12">
+               <hi>12</hi> Ab Asino lanam quaeris.</p>
+            <p n="13">
+               <hi>13</hi> Ab equis ad Asinos. <hi>Procop.</hi>
+            </p>
+            <p n="14">
+               <pb n="3" facs="tcp:25885:5"/>
+               <hi>14</hi> Ad ambas vs<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> aures: <hi>Suidas.</hi>
+            </p>
+            <p n="15">
+               <hi>15</hi> Acurem tangere: <hi>Plautus.</hi>
+            </p>
+            <p n="16">
+               <hi>16</hi> Aliorum medicus, ipse vlceri<g ref="char:EOLhyphen"/>bus scatens: <hi>Plutarch.</hi>
+            </p>
+            <p n="17">
+               <hi>17</hi> Alis luporum catulos: <hi>Theo<g ref="char:EOLhyphen"/>crit.</hi>
+            </p>
+            <p n="18">
+               <hi>18</hi> Alter Hercules: <hi>Aristot.</hi>
+            </p>
+            <p n="19">
+               <hi>19</hi> Alter Ianus: <hi>Cicero.</hi>
+            </p>
+            <p n="20">
+               <hi>20</hi> A fronte at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> à tergo: <hi>Plato.</hi>
+            </p>
+            <p n="21">
+               <hi>21</hi> Altera manu fert aquam, alte<g ref="char:EOLhyphen"/>ra ignem: <hi>Plutar.</hi>
+            </p>
+            <p n="22">
+               <pb n="4" facs="tcp:25885:6"/>
+               <hi>22</hi> Amicus amico: <hi>Teren.</hi>
+            </p>
+            <p n="23">
+               <hi>23</hi> Auro loquente, nihil pollet quaeuis oratio: <hi>Horat.</hi>
+            </p>
+            <p n="24">
+               <hi>24</hi> Adrastia Nemesis.</p>
+            <p n="25">
+               <hi>25</hi> Aethiopem lauas.</p>
+            <p n="26">
+               <hi>26</hi> Asinus esuriens fustem negligit: <hi>Aristot.</hi>
+            </p>
+            <p n="27">
+               <hi>27</hi> Asinus portans mysteria: <hi>Ari<g ref="char:EOLhyphen"/>stoph.</hi>
+            </p>
+            <p n="28">
+               <hi>28</hi> Asinus ad tibiam.</p>
+            <p n="29">
+               <hi>29</hi> Aquam igni miscere: <hi>Plu<g ref="char:EOLhyphen"/>tarch.</hi>
+            </p>
+            <p n="30">
+               <pb n="5" facs="tcp:25885:7"/>
+               <hi>30</hi> Arenam metiris: <hi>Teren.</hi>
+            </p>
+            <p n="31">
+               <hi>31</hi> A Remo ad tribunal: <hi>Plautus.</hi>
+            </p>
+            <p n="32">
+               <hi>32</hi> Aquila uon capit muscas: <hi>Suidas.</hi>
+            </p>
+            <p n="33">
+               <hi>33</hi> Argenti fontes: <hi>Diogen.</hi>
+            </p>
+            <p n="34">
+               <hi>34</hi> Assidua stilla saxum excauat.</p>
+            <p n="35">
+               <hi>35</hi> Baeta tum hyeme &amp; aestate bo<g ref="char:EOLhyphen"/>na: <hi>Suidas.</hi>
+            </p>
+            <p n="36">
+               <hi>36</hi> Bellerophontes literas: <hi>Zenod.</hi>
+            </p>
+            <p n="37">
+               <pb n="6" facs="tcp:25885:8"/>
+               <hi>37</hi> Bis septem plagis Polypus con<g ref="char:EOLhyphen"/>tusus: <hi>Zenod.</hi>
+            </p>
+            <p n="38">
+               <note place="margin">
+                  <hi>The third part of</hi> Spaine, <hi>so called of the Riuer</hi>
+                  <unclear>Batis</unclear>.</note>
+               <hi>38</hi> Baetica Cantilena.</p>
+            <p n="39">
+               <hi>39</hi> Bonus dux bonum reddit comi<g ref="char:EOLhyphen"/>tem. <hi>Aristot.</hi>
+            </p>
+            <p n="40">
+               <hi>40</hi> Bos ad praesepe.</p>
+            <p n="41">
+               <hi>41</hi> Bos apud aceruum: <hi>Suidas.</hi>
+            </p>
+            <p n="43">
+               <hi>43</hi> Boues messis tempus expectan<g ref="char:EOLhyphen"/>tes.</p>
+            <p n="44">
+               <hi>44</hi> Brasidas vir bonus, sed Lace<g ref="char:EOLhyphen"/>demon multos habet praestan<g ref="char:EOLhyphen"/>tiores: <hi>Plutarch.</hi>
+            </p>
+            <p n="45">
+               <hi>45</hi> Bubo canit lasciuè.</p>
+            <p n="46">
+               <pb n="7" facs="tcp:25885:9"/>
+               <hi>46</hi> Bunias index est: <hi>Zenod.</hi>
+            </p>
+            <p n="47">
+               <hi>47</hi> Cancer Leporem capit: <hi>Ari<g ref="char:EOLhyphen"/>stoph.</hi>
+            </p>
+            <p n="48">
+               <hi>48</hi> Camelus saltat: <hi>Plutar.</hi>
+            </p>
+            <p n="49">
+               <hi>49</hi> Cani das paleas, asino ossa: <hi>Plutarch.</hi>
+            </p>
+            <p n="50">
+               <hi>50</hi> Canis festinans coecos parit ca<g ref="char:EOLhyphen"/>tulos: <hi>Aristot.</hi>
+            </p>
+            <p n="51">
+               <hi>51</hi> Capram caelestem ex oriente co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>spexerint: <hi>Plutarch.</hi>
+            </p>
+            <p n="52">
+               <hi>52</hi> Capra Scyria: <hi>Plaut.</hi>
+            </p>
+            <p n="53">
+               <pb n="8" facs="tcp:25885:10"/>
+               <hi>53</hi> Carpet citiùs quàm imitabi<g ref="char:EOLhyphen"/>tur.</p>
+            <p n="54">
+               <hi>54</hi> Cauam Arabiam serere: Nam caua Arabia sua sponte per se te<g ref="char:EOLhyphen"/>nax est.</p>
+            <p n="55">
+               <hi>55</hi> Cauda blandiri.</p>
+            <p n="56">
+               <hi>56</hi> Coecus coeco dux: <hi>Hora.</hi>
+            </p>
+            <p n="57">
+               <hi>57</hi> Coecus &amp; claudus non intrabunt Templum: <hi>1</hi> Regu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Chap. <hi>5.</hi>
+            </p>
+            <p n="58">
+               <hi>58</hi> Ceruinus vir: <hi>Plutarch.</hi>
+            </p>
+            <p n="59">
+               <hi>59</hi> Celinis in ferro: <hi>Aristoph.</hi>
+            </p>
+            <p n="60">
+               <hi>60</hi> Coeci perscriptio: <hi>Diogen.</hi>
+            </p>
+            <p n="61">
+               <pb n="9" facs="tcp:25885:11"/>
+               <hi>61</hi> Ceruus canes trahit. <hi>Theocrit.</hi>
+            </p>
+            <p n="62">
+               <hi>62</hi> Corui mali ouum malum.</p>
+            <p n="63">
+               <hi>63</hi> Crocodili Lachrymae.</p>
+            <p n="64">
+               <hi>64</hi> 
+               <note n="*" place="margin">
+                  <hi>A mea<g ref="char:EOLhyphen"/>sure vsed amongst the Gre<g ref="char:EOLhyphen"/>cians, which held as much Corne as would serue a man for one day.</hi>
+               </note> Chaenici ne insideas. <hi>Pythag.</hi>
+            </p>
+            <p n="65">
+               <hi>65</hi> Chironium vulnus.</p>
+            <p n="66">
+               <hi>66</hi> Cibum in matulam ne immit<g ref="char:EOLhyphen"/>tas. <hi>Plaut.</hi>
+            </p>
+            <p n="67">
+               <hi>67</hi> Citius vsura currit quam <hi>He<g ref="char:EOLhyphen"/>raclitus. Aristoph.</hi>
+            </p>
+            <p n="68">
+               <hi>68</hi> Clamosior lauro ardente. <hi>Diogen.</hi>
+            </p>
+            <p n="69">
+               <pb n="10" facs="tcp:25885:12"/>
+               <hi>69</hi> Cocheae vita. <hi>Plutar.</hi>
+            </p>
+            <p n="70">
+               <hi>70</hi> Colubrum in sinu fouere. <hi>Aesop.</hi>
+            </p>
+            <p n="71">
+               <hi>71</hi> Claue findere ligna, &amp; securi fores aperire. <hi>Plutar.</hi>
+            </p>
+            <p n="72">
+               <hi>72</hi> Colophonia ferocia. <hi>Diogen.</hi>
+            </p>
+            <p n="73">
+               <hi>73</hi> Compendiaria res improbitas, virtus vero tarda. <hi>Martial.</hi>
+            </p>
+            <p n="74">
+               <hi>74</hi> Complura masculi canis cubi<g ref="char:EOLhyphen"/>lia. <hi>Suidas.</hi>
+            </p>
+            <p n="75">
+               <hi>75</hi> Coturnix <hi>Herculem.</hi>
+            </p>
+            <p n="76">
+               <pb n="11" facs="tcp:25885:13"/>
+               <hi>76</hi> Crater litium. <hi>Aristip.</hi>
+            </p>
+            <p n="77">
+               <hi>77</hi> Cupidinum Crumena porri folio vincta est.</p>
+            <p n="78">
+               <hi>78</hi> Cur non suspendis te? <hi>Aristop.</hi>
+            </p>
+            <p n="79">
+               <hi>79</hi> Cretizare cum Cretensibus.</p>
+            <p n="80">
+               <hi>80</hi> Cui multum est piperis etiam oleribus miscet. <hi>Martial.</hi>
+            </p>
+            <p n="81">
+               <hi>81</hi> Cum hasta cum scuto. <hi>Hom.</hi> Hasta<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> &amp; gladio Saxis<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>inge<g ref="char:cmbAbbrStroke">̄</g>tibus insta<g ref="char:cmbAbbrStroke">̄</g>t.</p>
+            <p n="82">
+               <hi>82</hi> Date mihi peluim. <hi>Suidas.</hi>
+            </p>
+            <p n="83">
+               <hi>83</hi> De alieno liberalis. <hi>Homer.</hi>
+            </p>
+            <p n="84">
+               <pb n="12" facs="tcp:25885:14"/>
+               <hi>84</hi> De calcaria in carbonariam. <hi>Tertull.</hi>
+            </p>
+            <p n="85">
+               <hi>85</hi> De Coelo ad Synagogam. <hi>Tertull.</hi>
+            </p>
+            <p n="86">
+               <hi>86</hi> De fructu arborem cognosco.</p>
+            <p n="87">
+               <hi>87</hi> Dulce commune naufragium. <hi>Plautus.</hi>
+            </p>
+            <p n="88">
+               <hi>88</hi> Delio natatore eget. <hi>Proper.</hi>
+            </p>
+            <p n="89">
+               <hi>89</hi> Destitutus ventis, remis ad<g ref="char:EOLhyphen"/>hibe.</p>
+            <p n="90">
+               <hi>90</hi> De toga ad pallium. <hi>Tertull.</hi>
+            </p>
+            <p n="91">
+               <hi>91</hi> Deus ex improuiso apparens. <hi>Lucian.</hi>
+            </p>
+            <p n="92">
+               <pb n="13" facs="tcp:25885:15"/>
+               <hi>92</hi> Dicendo dicere discunt. <hi>Tere<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+            </p>
+            <p n="93">
+               <hi>93</hi> Digna canis pabulo. <hi>Suidas.</hi>
+            </p>
+            <p n="94">
+               <hi>94</hi> Digna canis sede. <hi>Diogen.</hi>
+            </p>
+            <p n="95">
+               <hi>95</hi> Dionysius Corinthi. <hi>Cicer.</hi>
+            </p>
+            <p n="96">
+               <hi>96</hi> Discum quàm Philosophum videre malunt. <hi>Plaut.</hi>
+            </p>
+            <p n="97">
+               <hi>97</hi> Diues factus iam desijt gaude<g ref="char:EOLhyphen"/>re lente. <hi>Aristip.</hi>
+            </p>
+            <p n="98">
+               <hi>98</hi> Diues promissis. <hi>Plutar.</hi>
+            </p>
+            <p n="99">
+               <hi>99</hi> Domi manere oportet belle for<g ref="char:EOLhyphen"/>tunatum.</p>
+            <p n="100">
+               <pb n="14" facs="tcp:25885:16"/>
+               <hi>100</hi> Duabus Anchoris fultus. <hi>Aristid.</hi>
+            </p>
+            <p n="101">
+               <hi>101</hi> Duos insequens lepores, neu<g ref="char:EOLhyphen"/>trum capit. <hi>Zenod.</hi>
+            </p>
+            <p n="102">
+               <hi>102</hi> Dulce pomum quum abest Custos.</p>
+            <p n="103">
+               <hi>103</hi> Duobus pedibus fugere. <hi>Suidas.</hi>
+            </p>
+            <p n="105">
+               <hi>105</hi> Eadem oberrare chorda. <hi>Horat.</hi>
+            </p>
+            <p n="106">
+               <hi>106</hi> Eandem tundere incudem. <hi>Cicer.</hi>
+            </p>
+            <p n="107">
+               <hi>107</hi> Elephantem ex musca facis. <hi>Lucian.</hi>
+            </p>
+            <p n="108">
+               <pb n="15" facs="tcp:25885:17"/>
+               <hi>108</hi> Ex eodem ore calidum &amp; fri<g ref="char:EOLhyphen"/>gidum efflare.</p>
+            <p n="109">
+               <hi>109</hi> E multis paleis parum fru<g ref="char:EOLhyphen"/>ctum collegi.</p>
+            <p n="110">
+               <hi>110</hi> Endymionis somnum somnis. <hi>Aristot.</hi>
+            </p>
+            <p n="111">
+               <hi>111</hi> E perforato poculo bibere. <hi>Zenod.</hi>
+            </p>
+            <p n="112">
+               <hi>112</hi> E Squilla non nascitur Rosa. <hi>Theog.</hi>
+            </p>
+            <p n="113">
+               <hi>113</hi> Etiam chorcorus inter olera. <hi>Zenod.</hi>
+            </p>
+            <p n="114">
+               <pb n="16" facs="tcp:25885:18"/>
+               <hi>114</hi> Euitans Charybdim in Scyl<g ref="char:EOLhyphen"/>lam incidit. <hi>Homer.</hi>
+            </p>
+            <p n="115">
+               <hi>115</hi> Faciem vel os perfricare. <hi>Plin.</hi>
+            </p>
+            <p n="116">
+               <hi>116</hi> Facilè cum valemus recta consilia aegrotis damus.</p>
+            <p n="117">
+               <hi>117</hi> Falces postulabas. <hi>Suidas.</hi>
+            </p>
+            <p n="118">
+               <hi>118</hi> Fame mori miserrimum est. <hi>Homer.</hi>
+            </p>
+            <p n="119">
+               <hi>119</hi> Fertilior seges in agro alie<g ref="char:EOLhyphen"/>no. <hi>Ouid.</hi>
+            </p>
+            <p n="120">
+               <hi>120</hi> Filum neuisti, &amp; acu opus est. <hi>Hermip.</hi>
+            </p>
+            <p n="121">
+               <pb n="17" facs="tcp:25885:19"/>
+               <hi>121</hi> Finem vitae specta. <hi>Solon.</hi>
+            </p>
+            <p n="122">
+               <hi>122</hi> Fluuius non semper fert secu<g ref="char:EOLhyphen"/>ros. <hi>Aesop.</hi>
+            </p>
+            <p n="123">
+               <hi>123</hi> Flamma fumo proxima. <hi>Plaut.</hi>
+            </p>
+            <p n="124">
+               <hi>124</hi> Formica Camelus. <hi>Lucian.</hi>
+            </p>
+            <p n="125">
+               <hi>125</hi> Fortes fortuna iuuat. <hi>Cicer.</hi>
+            </p>
+            <p n="126">
+               <hi>126</hi> Fortuna reddit insolentes. <hi>Homer.</hi>
+            </p>
+            <p n="127">
+               <hi>127</hi> Fratrum inter se irae sunt a<g ref="char:EOLhyphen"/>cerbissimae. <hi>Euripid.</hi>
+            </p>
+            <p n="128">
+               <pb n="18" facs="tcp:25885:20"/>
+               <hi>128</hi> Fricantem refrica: <hi>Diogen.</hi>
+            </p>
+            <p n="129">
+               <hi>129</hi> Gallus insistit: <hi>Hor.</hi>
+            </p>
+            <p n="130">
+               <hi>130</hi> Gigis annulus: <hi>Lucian.</hi>
+            </p>
+            <p n="131">
+               <hi>131</hi> Grues lapidem deglutientes<g ref="char:punc">▪</g> 
+               <hi>Aristot.</hi>
+            </p>
+            <p n="132">
+               <hi>132</hi> Habet &amp; musca splenem.</p>
+            <p n="133">
+               <hi>133</hi> Halcyonis agis dies.</p>
+            <p n="134">
+               <hi>134</hi> Hanc technam in te ipsum struxisti: <hi>Lucan.</hi>
+            </p>
+            <p n="135">
+               <hi>135</hi> Herbam dare. <hi>Fest. Pom<g ref="char:EOLhyphen"/>pon.</hi>
+            </p>
+            <p n="136">
+               <pb n="19" facs="tcp:25885:21"/>
+               <hi>136</hi> Herostrati gloria.</p>
+            <p n="137">
+               <hi>137</hi> Hinnulus Leonem: <hi>Lucan.</hi>
+            </p>
+            <p n="138">
+               <hi>138</hi> Hodie nullus, cras maximus: <hi>Aristoph.</hi>
+            </p>
+            <p n="139">
+               <hi>139</hi> Hydram secare.</p>
+            <p n="139">
+               <hi>139</hi> Ignem igni ne addas: <hi>Teren.</hi>
+            </p>
+            <p n="140">
+               <hi>140</hi> Ilias malorum: <hi>Suidas.</hi>
+            </p>
+            <p n="141">
+               <hi>141</hi> In alieno foro litigare: <hi>Mar<g ref="char:EOLhyphen"/>tial.</hi>
+            </p>
+            <p n="142">
+               <hi>142</hi> Industriam adiuuat Deus: <hi>Homer.</hi> Partìm Diuûm a<g ref="char:EOLhyphen"/>liquis tibi suggeret.</p>
+            <p n="143">
+               <hi>143</hi> In vino veritas: <hi>Athenaeus.</hi>
+            </p>
+            <p n="144">
+               <pb n="20" facs="tcp:25885:22"/>
+               <hi>144</hi> Laqueus laqueum caepit: <hi>Lucan.</hi>
+            </p>
+            <p n="145">
+               <hi>145</hi> Lecythy pinguior: <hi>Diogen.</hi>
+            </p>
+            <p n="146">
+               <hi>146</hi> Lerna malorum.</p>
+            <p n="147">
+               <hi>147</hi> Linum lino nectis: <hi>Proper.</hi>
+            </p>
+            <p n="148">
+               <hi>148</hi> Locrensis Bos.</p>
+            <p n="149">
+               <hi>149</hi> Lupus est in fabula: <hi>Teren.</hi>
+            </p>
+            <p n="150">
+               <hi>150</hi> Lutum luto purgare: <hi>Aristoph.</hi>
+            </p>
+            <p n="151">
+               <hi>151</hi> Machinas post bellum afferr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Brutus.</hi>
+            </p>
+            <p n="152">
+               <pb n="21" facs="tcp:25885:23"/>
+               <hi>152</hi> Magis mutus quàm piscis.</p>
+            <p n="153">
+               <hi>153</hi> Male parta male dilabuntur.</p>
+            <p n="154">
+               <hi>154</hi> Meliores nancisci aues: <hi>Ze<g ref="char:EOLhyphen"/>nod.</hi>
+            </p>
+            <p n="155">
+               <hi>155</hi> Mortuo Leoni &amp; lepores in<g ref="char:EOLhyphen"/>sultant. <hi>Homer.</hi> in mortem Hectoris.</p>
+            <p n="156">
+               <hi>156</hi> Mutua defensio tutissima: <hi>Homer.</hi>
+            </p>
+            <p n="157">
+               <hi>157</hi> Non certatur de Oleastro: <hi>Plato.</hi>
+            </p>
+            <p n="158">
+               <hi>158</hi> Odium agreste: <hi>Lucian.</hi>
+            </p>
+            <p n="159">
+               <hi>159</hi> Olet lucernam: <hi>Proper.</hi>
+            </p>
+            <p n="160">
+               <hi>160</hi> Ouium nullus vsus.</p>
+            <p n="161">
+               <pb n="22" facs="tcp:25885:24"/>
+               <hi>161</hi> Palinodiam canere.</p>
+            <p n="162">
+               <hi>162</hi> Parturiunt montes, nascetur ridiculus mus. <hi>Aesop.</hi>
+            </p>
+            <p n="163">
+               <hi>163</hi> Penelopes telam texere. <hi>Ho<g ref="char:EOLhyphen"/>mer.</hi>
+            </p>
+            <p n="164">
+               <hi>164</hi> Pica cum Luscinia certat.</p>
+            <p n="165">
+               <hi>165</hi> Pinguis venter non gignit sensum tenuem.</p>
+            <p n="166">
+               <hi>166</hi> Plumbeo iugulare gladio. <hi>Tull.</hi>
+            </p>
+            <p n="167">
+               <hi>167</hi> Porcellus Acarnanius: <hi>Lu<g ref="char:EOLhyphen"/>cian.</hi>
+            </p>
+            <p n="168">
+               <hi>168</hi> Pro eleganti medico malus Poeta: <hi>Plutar.</hi>
+            </p>
+            <p n="169">
+               <pb n="23" facs="tcp:25885:25"/>
+               <hi>169</hi> Praeuertit anchorae iactum Deus. <hi>Plutar.</hi>
+            </p>
+            <p n="170">
+               <hi>170</hi> Pulchre fallit vulpem. <hi>Sui<g ref="char:EOLhyphen"/>das.</hi>
+            </p>
+            <p n="171">
+               <hi>171</hi> Putre salsamentum amat ori<g ref="char:EOLhyphen"/>ganum: <hi>Athen.</hi>
+            </p>
+            <p n="172">
+               <hi>172</hi> Quanquam non dicis, tame<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> apparet è pelle.</p>
+            <p n="173">
+               <hi>173</hi> Ranarum more bibere. <hi>A<g ref="char:EOLhyphen"/>then.</hi>
+            </p>
+            <p n="174">
+               <hi>174</hi> Refricare cicatricem. <hi>Plaut.</hi>
+            </p>
+            <p n="175">
+               <hi>175</hi> Sacram anchoram soluere. <hi>Lucian.</hi>
+            </p>
+            <p n="176">
+               <hi>176</hi> Semper Africa aliquid noui apportat: <hi>Plutarch.</hi>
+            </p>
+            <p n="177">
+               <pb n="24" facs="tcp:25885:26"/>
+               <hi>177</hi> Si caseum haberem, non desi<g ref="char:EOLhyphen"/>derarem opsonium. <hi>Plut.</hi>
+            </p>
+            <p n="178">
+               <hi>178</hi> Sydera coelo addere. <hi>Ouid.</hi>
+            </p>
+            <p n="179">
+               <hi>179</hi> Smaragdus insignis in luce quidem obscurus. <hi>Suid.</hi>
+            </p>
+            <p n="180">
+               <hi>180</hi> Spes seruat afflictos. <hi>Ouid.</hi>
+            </p>
+            <p n="181">
+               <hi>181</hi> Stateram ne transgrediaris. <hi>Pytha.</hi>
+            </p>
+            <p n="182">
+               <hi>182</hi> Strumam dibapho tegere. <hi>Tul.</hi>
+            </p>
+            <p n="183">
+               <hi>183</hi> Sus in volutabro coeni. <hi>Ter<g ref="char:EOLhyphen"/>tull.</hi>
+            </p>
+            <p n="184">
+               <hi>184</hi> Sus tubam audiuit. <hi>Aesop.</hi>
+            </p>
+            <p n="185">
+               <pb n="25" facs="tcp:25885:27"/>
+               <hi>185</hi> Sybaritica mensa. <hi>Plaut.</hi>
+            </p>
+            <p n="186">
+               <hi>186</hi> Tacite stomachari. <hi>Homer.</hi>
+            </p>
+            <p n="187">
+               <hi>187</hi> Taciturnior Pythagoreis.</p>
+            <p n="188">
+               <hi>188</hi> Tantali hortum. <hi>Diogen.</hi>
+            </p>
+            <p n="189">
+               <hi>189</hi> Taurum tollit qui vitulum sustulerit. <hi>Tertull.</hi>
+            </p>
+            <p n="190">
+               <hi>190</hi> Teipsum non alens canes alis. <hi>Plaut.</hi>
+            </p>
+            <p n="191">
+               <hi>191</hi> Telluris onus &amp; inutile pondus. <hi>Homer.</hi>
+            </p>
+            <p n="192">
+               <pb n="26" facs="tcp:25885:28"/>
+               <hi>192</hi> Temulentus dormiens non est excitandus.</p>
+            <p n="193">
+               <hi>193</hi> Terebyntho stultior. <hi>Suidas.</hi>
+            </p>
+            <p n="194">
+               <hi>194</hi> Testudo intra tegimen tuta.</p>
+            <p n="195">
+               <hi>195</hi> Thassus bonorum. <hi>Plutar.</hi>
+            </p>
+            <p n="196">
+               <hi>196</hi> Terra amat imbrem.</p>
+            <p n="197">
+               <hi>197</hi> Timidus Plutus. <hi>Plin.</hi>
+            </p>
+            <p n="198">
+               <hi>198</hi> Thersitis facies.</p>
+            <p n="199">
+               <hi>199</hi> Timidior Pisandro. <hi>Plutar.</hi>
+            </p>
+            <p n="200">
+               <pb n="27" facs="tcp:25885:29"/>
+               <hi>200</hi> Titanicus aspectus. <hi>Mant.</hi>
+            </p>
+            <p n="201">
+               <hi>201</hi> Thraces foedera nesciunt. <hi>Plin.</hi>
+            </p>
+            <p n="202">
+               <hi>202</hi> Tolle tolle mazam quàm ocys<g ref="char:EOLhyphen"/>fimè scarabaeo. <hi>Zenod.</hi>
+            </p>
+            <p n="203">
+               <hi>203</hi> Tolle calcar defensaculum. <hi>Aristot.</hi>
+            </p>
+            <p n="204">
+               <hi>204</hi> Totus Echinus asper. <hi>Lucian.</hi>
+            </p>
+            <p n="205">
+               <hi>205</hi> Trabs in omnibus. <hi>Diogen.</hi>
+            </p>
+            <p n="206">
+               <hi>206</hi> Tragaedias in nugis agere. <hi>Plaut.</hi>
+            </p>
+            <p n="207">
+               <hi>207</hi> Trochi in morem. <hi>Hermip.</hi>
+            </p>
+            <p n="208">
+               <pb n="28" facs="tcp:25885:30"/>
+               <hi>208</hi> Trutina iustius.</p>
+            <p n="209">
+               <hi>209</hi> Tuam ipsius terram calca. <hi>Suidas.</hi>
+            </p>
+            <p n="210">
+               <hi>210</hi> Tussis pro crepitu: <hi>Aristoph.</hi>
+            </p>
+            <p n="211">
+               <hi>211</hi> Tyria maria.</p>
+            <p n="212">
+               <hi>212</hi> Vallus vitem decipit: <hi>Proper<g ref="char:EOLhyphen"/>tius.</hi>
+            </p>
+            <p n="213">
+               <hi>213</hi> Veneri suem immolauit: <hi>Hor.</hi>
+            </p>
+            <p n="214">
+               <hi>214</hi> Ver ex anno tollere.</p>
+            <p n="215">
+               <hi>215</hi> Velut vmbra sequi.</p>
+            <p n="216">
+               <hi>216</hi> Victi non audent hiscere: <hi>Ze<g ref="char:EOLhyphen"/>nodo.</hi>
+            </p>
+            <p n="217">
+               <pb n="29" facs="tcp:25885:31"/>
+               <hi>217</hi> Vinum animi speculum: <hi>Iu<g ref="char:EOLhyphen"/>uenal.</hi>
+            </p>
+            <p n="218">
+               <hi>218</hi> Viri senis astaphis Caluaria.</p>
+            <p n="219">
+               <hi>219</hi> Virgula diuina: <hi>Plato.</hi>
+            </p>
+            <p n="220">
+               <hi>220</hi> Vnica filia duos parere gene<g ref="char:EOLhyphen"/>ros.</p>
+            <p n="221">
+               <hi>221</hi> Vnguis in vlcere: <hi>Plautus.</hi>
+            </p>
+            <p n="222">
+               <hi>222</hi> Vno die consenescere: <hi>Theo<g ref="char:EOLhyphen"/>crit.</hi>
+            </p>
+            <p n="223">
+               <hi>223</hi> Vocatus aut non vocatus Deus aderit.</p>
+            <p n="224">
+               <hi>224</hi> Volam pedes ostendere: <hi>He<g ref="char:EOLhyphen"/>sych.</hi>
+            </p>
+            <p n="225">
+               <pb n="30" facs="tcp:25885:32"/>
+               <hi>225</hi> Volaticum Iusiurandum.</p>
+            <p n="226">
+               <hi>226</hi> Vrit abs<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> torre. <hi>Zenod.</hi>
+            </p>
+            <p n="227">
+               <hi>227</hi> Vs<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ad rauim.</p>
+            <p n="228">
+               <hi>228</hi> Vtrem vellis.</p>
+            <p n="229">
+               <hi>229</hi> Vulturis vmbra.</p>
+            <p n="230">
+               <hi>230</hi> Vt Argiuum clypeum abstu<g ref="char:EOLhyphen"/>lerat ita gloriatur.</p>
+         </div>
+         <div xml:lang="eng" type="version">
+            <pb n="1" facs="tcp:25885:3"/>
+            <head>A MANVALL OF ADAGIES.</head>
+            <p n="1">
+               <hi>1 <seg rend="decorInit">T</seg>He Muses Gates stand open.</hi>
+            </p>
+            <p>Applyed to those who are of an excellent wit and iudgement.</p>
+            <p n="2">
+               <hi>2 Apply the Stone to the Masons rule, and not the Masons rule to the Stone.</hi>
+            </p>
+            <p>Applyed to such as seeme to frame the Lawes according to their liuing, and not to change their manners to the Lawes.</p>
+            <p n="3">
+               <hi>3 Speake not against the Sunn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</hi>
+            </p>
+            <p>Applyed to those who are wilfully obsti<g ref="char:EOLhyphen"/>nate and head-strong, against a matter most probable.</p>
+            <p n="4">
+               <hi>4 An Asse seemes faire to an Asse, and one Sowe to another.</hi>
+            </p>
+            <p>Applyed to them who frequent their com<g ref="char:EOLhyphen"/>panies who are like to themselues; as the Prouerbe is: <hi>Like will to like.</hi>
+            </p>
+            <p n="5">
+               <pb n="2" facs="tcp:25885:4"/>
+               <hi>5 An Asse vpon straw.</hi>
+            </p>
+            <p>Applyed to them who beyond all hope haue obtained great dignitie.</p>
+            <p n="6">
+               <hi>6 An old Foxe will not bee caught in a trap.</hi>
+            </p>
+            <p>Applyed to those who by reason of their age and long experience will not be deceiued.</p>
+            <p n="7">
+               <hi>7 Thou quakest before the Trumpet sound.</hi>
+            </p>
+            <p>Applyed to them who are afraid before a<g ref="char:EOLhyphen"/>ny danger appeare.</p>
+            <p n="8">
+               <hi>8 His courage fals downe into his feet.</hi>
+            </p>
+            <p>Applied to all cowards and timorous men.</p>
+            <p n="9">
+               <hi>9 To triumph before the victorie.</hi>
+            </p>
+            <p>Applyed to vaine boasters, who vse to rec<g ref="char:EOLhyphen"/>kon their chickens before they be hatched.</p>
+            <p n="10">
+               <hi>10 You vse a Lanthorne at noone dayes.</hi>
+            </p>
+            <p>Applyed when a long discourse is made of an euident matter.</p>
+            <p n="11">
+               <hi>11 Ajax his laughter.</hi>
+            </p>
+            <p>Applyed to those who are merry for any thing which they afterwards repent.</p>
+            <p n="12">
+               <hi>12 Thou seekest for wooll of an Asse.</hi>
+            </p>
+            <p>Applied to such men who seeke for those things which they cannot obtaine.</p>
+            <p n="13">
+               <hi>13 From Horses to Asses.</hi>
+            </p>
+            <p>Applyed to them who are fallen from digni<g ref="char:EOLhyphen"/>ty to a meane estate, as from a Schollar to a Carter.</p>
+            <p n="14">
+               <pb n="3" facs="tcp:25885:5"/>
+               <hi>14 Well nigh to both eares.</hi>
+            </p>
+            <p>Applied to them who deuoure their meat greedily, such we call a greedy gut.</p>
+            <p n="15">
+               <hi>15 To touch the matter with the nee<g ref="char:EOLhyphen"/>dles point.</hi>
+            </p>
+            <p>A Pro. vsed when a matter is rightly de<g ref="char:EOLhyphen"/>fined.</p>
+            <p n="16">
+               <hi>16 A Physician of others, and yet him<g ref="char:EOLhyphen"/>selfe full of sores.</hi>
+            </p>
+            <p>Applied to such as can see a mote in another mans eyes, and yet not see the beame in their owne.</p>
+            <p n="17">
+               <hi>17 Thou fosterest Wolues whelpes.</hi>
+            </p>
+            <p>Applied to such as returne reproaches for a good turne receiued.</p>
+            <p n="18">
+               <hi>18 A second</hi> Hercules.</p>
+            <p>Applied to a painfull and industrious man.</p>
+            <p n="19">
+               <hi>19 A second</hi> Ianus, <hi>a wise King of</hi> Ita<g ref="char:EOLhyphen"/>lie.</p>
+            <p>Applied to men who are very wary in their affaires.</p>
+            <p n="20">
+               <hi>20 From the face and the backe.</hi>
+            </p>
+            <p>A Pro. implying diligent circumspection, comparing things past with things present.</p>
+            <p n="21">
+               <hi>21 He carries water in one hand, and fire in another.</hi>
+            </p>
+            <p>Applied to such as can giue glozing termes to a mans face, and reproaches behind his backe.</p>
+            <p n="22">
+               <pb n="4" facs="tcp:25885:6"/>
+               <hi>22 A friend to a friend.</hi>
+            </p>
+            <p>A Pro. vsed of such as refuse no danger to gratifie a friend.</p>
+            <p n="23">
+               <hi>23 Where gold speaketh, speech pre<g ref="char:EOLhyphen"/>uailes nothing.</hi>
+            </p>
+            <p>A Pro. that shewes that money and re<g ref="char:EOLhyphen"/>wards can effect any thing.</p>
+            <p n="24">
+               <hi>24 Two Heathenish Goddesses: the first is fained to depriue a man of memory and wit, the other executes reuenge.</hi>
+            </p>
+            <p>A Prouerbe vsed when proud men are beaten, and as we say, Pride will haue a fall.</p>
+            <p n="25">
+               <hi>25 Thou washest a Blackmoore.</hi>
+            </p>
+            <p>Applyed to those whose paines is to no pur<g ref="char:EOLhyphen"/>pose.</p>
+            <p n="26">
+               <hi>26 A hungry Asse cares not for a cud<g ref="char:EOLhyphen"/>gell.</hi>
+            </p>
+            <p>A Prouerbe against those that for profit sake care not for disgrace.</p>
+            <p n="27">
+               <hi>27 An Asse bearing Mysteries.</hi>
+            </p>
+            <p>Applied to such as professe that in which they haue no skill.</p>
+            <p n="28">
+               <hi>28 An Asse to a Flute.</hi>
+            </p>
+            <p>Applyed to those who neither vnderstand, nor praise those things which are excellent, and praise-worthy.</p>
+            <p n="29">
+               <hi>29 To mingle fire and water toge<g ref="char:EOLhyphen"/>ther.</hi>
+            </p>
+            <p>Applyed when wee attempt to make things
+
+
+<pb n="5" facs="tcp:25885:7"/>
+in their nature contrary to one another, to a<g ref="char:EOLhyphen"/>gree together.</p>
+            <p n="30">
+               <hi>30 Thou measurest the Sand.</hi>
+            </p>
+            <p>Applyed to them who attempt a thing im<g ref="char:EOLhyphen"/>possible to effect.</p>
+            <p n="31">
+               <hi>31 From the Oare to the Throne.</hi>
+            </p>
+            <p>Applied to those who from a meane estate are aduanced to dignity, and as we say, Iacke is become a gentleman.</p>
+            <p n="32">
+               <hi>32 An Eagle stoopes not to Flies.</hi>
+            </p>
+            <p>Applied to those who being puft vp with ambition, despise their inferiors.</p>
+            <p n="33">
+               <hi>33 Fountaines of Siluer.</hi>
+            </p>
+            <p>Applied to such who speake vnlearnedly, yet proudly, and arrogate that to themselues which they know not.</p>
+            <p n="34">
+               <hi>34 Continuall drops make hollow the stone.</hi>
+            </p>
+            <p>A Prouerbe shewing that labour and in<g ref="char:EOLhyphen"/>dustry ouercomes the most hard and difficult things.</p>
+            <p n="35">
+               <hi>35 The Beet is a good root both in Summer and Winter.</hi>
+            </p>
+            <p>Applied to those who carry two faces vn<g ref="char:EOLhyphen"/>der one hood, and can shift in all Estates.</p>
+            <p n="36">
+               <hi>36</hi> Bellerophons <hi>Letters.</hi>
+            </p>
+            <p>Applied to such as carry Letters that make against them, and as we say, he makes a rod for his owne tayle.</p>
+            <p n="37">
+               <pb n="6" facs="tcp:25885:8"/>
+               <hi>37</hi> Polypus <hi>beaten with 14 stripes.</hi>
+            </p>
+            <p>Applied to them who are made better with aduersity: and it is taken from one <hi>Po<g ref="char:EOLhyphen"/>lypus,</hi> who kept a Fish a long time, and did beat it often, that it might eat better.</p>
+            <p n="38">
+               <hi>38 A Spanish brag.</hi>
+            </p>
+            <p>Applied to such as spend some part of their life in ioy and tranquillity, and passe the end of their life in sorrow.</p>
+            <p n="39">
+               <hi>39 A good Leader makes a good com<g ref="char:EOLhyphen"/>panion.</hi>
+            </p>
+            <p>Applied to them who make other men bet<g ref="char:EOLhyphen"/>ter by their good example.</p>
+            <p n="40">
+               <hi>40 The Oxe at the manger.</hi>
+            </p>
+            <p>Applied to them who practice no lawfull calling, but liue idely, such wee call carpet Knights.</p>
+            <p n="41">
+               <hi>41 The Oxe at the heape.</hi>
+            </p>
+            <p>Applied to those who haue a great estate, &amp; know not how to vse it: like an Oxe muz<g ref="char:EOLhyphen"/>led is put into a barne full of bay.</p>
+            <p n="43">
+               <hi>43 The Oxen looke for Haruest time.</hi>
+            </p>
+            <p>Applied to such as take great paines for profit.</p>
+            <p n="44">
+               <hi>44</hi> Brasidas <hi>is a good man, but</hi> Lacede<g ref="char:EOLhyphen"/>mon <hi>hath many better.</hi>
+            </p>
+            <p>Applied to such as thinke better of them<g ref="char:EOLhyphen"/>selues than any other.</p>
+            <p n="45">
+               <hi>45 The Owle sings merrily.</hi>
+            </p>
+            <p>
+               <pb n="7" facs="tcp:25885:9"/>Applied to ignorant men, that reason of matters they haue no skill of.</p>
+            <p n="46">
+               <hi>46 The Raddish is a signe.</hi>
+            </p>
+            <p>Applied to such as dissemble loue, till they haue opportunity for reuenge.</p>
+            <p n="47">
+               <hi>47 The Crabfish catcheth a Hare.</hi>
+            </p>
+            <p>Applied to them that speake absurdly of a thing impossible, and as true as the Sea bur<g ref="char:EOLhyphen"/>neth.</p>
+            <p n="48">
+               <hi>48 The Camell danceth.</hi>
+            </p>
+            <p>Applied to those that would seeme to doe that which by nature they are vnapt vnto.</p>
+            <p n="49">
+               <hi>49 Thou giuest the Dog straw, and the Asse a bone.</hi>
+            </p>
+            <p>Applied to those who doe things contrary to nature and reason.</p>
+            <p n="50">
+               <hi>50 A hasty Bitch bringeth forth blind Whelps.</hi>
+            </p>
+            <p>Applyed to those who take no deliberation about their affaires, and as we say, not too fast for breaking your shinnes.</p>
+            <p n="51">
+               <hi>51 They beheld the celestiall Goat in the East.</hi>
+            </p>
+            <p>Applyed to such as bring all their enterpri<g ref="char:EOLhyphen"/>ses fortunately to passe.</p>
+            <p n="52">
+               <hi>52 A Goat of</hi> 
+               <note n="*" place="margin">
+                  <hi>The Isle where</hi> Vlys<g ref="char:EOLhyphen"/>ses <hi>suffered shipwrack.</hi>
+               </note> Corcyra.</p>
+            <p>Applyed to such as haue many ver<g ref="char:EOLhyphen"/>tues, but some vices doe staine and deface them.</p>
+            <p n="53">
+               <pb n="8" facs="tcp:25885:10"/>
+               <hi>53 Hee will sooner carpe at, then imitate.</hi>
+            </p>
+            <p>Applyed to such as are still censuring other mens actions, yet doe nothing worthy them<g ref="char:EOLhyphen"/>selues.</p>
+            <p n="54">
+               <hi>54 To sow the hollow part of</hi> Arabia.</p>
+            <p>Applyed to such as take great paines where no need is.</p>
+            <p n="55">
+               <hi>55 To fawne like a Dogge wagging his tayle.</hi>
+            </p>
+            <p>Applyed to Flatterers and Parasites.</p>
+            <p n="56">
+               <hi>56 The blind leading the blind.</hi>
+            </p>
+            <p>Applyed to such as wanting knowledge, seeme to giue counsell.</p>
+            <p n="57">
+               <hi>57 The blind and the lame shall not come to minister in the Temple.</hi>
+            </p>
+            <p>Applyed to such as are put out of any Of<g ref="char:EOLhyphen"/>fice, as vnworthy.</p>
+            <p n="58">
+               <hi>58 A Hart-like man.</hi>
+            </p>
+            <p>Applyed to such as trust more to their legs then their strength, such wee call fresh-water soldiers.</p>
+            <p n="59">
+               <hi>59</hi> Celinis <hi>all in iron.</hi>
+            </p>
+            <p>Applyed to all bragging and boasting fel<g ref="char:EOLhyphen"/>lowes who seeme to be braue men in their own eyes, and in no bodies else.</p>
+            <p n="60">
+               <hi>60 A blind mans writing.</hi>
+            </p>
+            <p>Applyed to such as describe a matter, and yet vnderstand it not themselues.</p>
+            <p n="61">
+               <pb n="9" facs="tcp:25885:11"/>
+               <hi>61 The Hart hunts the Hounds.</hi>
+            </p>
+            <p>A Prouerbe vsed when wee would signifie any preposterous thing.</p>
+            <p n="62">
+               <hi>62 An ill Bird hath an ill Egge.</hi>
+            </p>
+            <p>Applyed to such whose life and conuersati<g ref="char:EOLhyphen"/>on is agreeable to their depraued nature.</p>
+            <p n="63">
+               <hi>63 The Crocodiles teares.</hi>
+            </p>
+            <p>Applyed to such, who vnder the forme of lamentation and mourning seeke to deceiue others.</p>
+            <p n="64">
+               <hi>64 Deceiue not the measure.</hi>
+            </p>
+            <p>Applyed to such as take no care for things necessary for themselues.</p>
+            <p n="65">
+               <hi>65</hi> Chirons <hi>wound.</hi>
+            </p>
+            <p>A Prouerbe vsed of such as haue an incu<g ref="char:EOLhyphen"/>rable wound, taken from <hi>Chiron</hi> the Cen<g ref="char:EOLhyphen"/>taure, whom <hi>Hercules</hi> wounded in the foot.</p>
+            <p n="66">
+               <hi>66 Cast not thy meat into a Pispot.</hi>
+            </p>
+            <p>Applyed to such as vse good Discourse to a naughty and lewd fellow: as Christ saith, Cast not your Pearles before Swine.</p>
+            <p n="67">
+               <hi>67 Vsury runnes swifter then</hi> 
+               <note n="*" place="margin">
+                  <hi>The wee<g ref="char:EOLhyphen"/>ping Phi<g ref="char:EOLhyphen"/>losopher.</hi>
+               </note> Hera<g ref="char:EOLhyphen"/>clitus.</p>
+            <p>Applied as a Caueat to them which bor<g ref="char:EOLhyphen"/>row vpon Vsury: for it is swift, and bringeth Pouerty sodainly.</p>
+            <p n="68">
+               <hi>68 Lowder then the crackling Bayes.</hi>
+            </p>
+            <p>Applyed to such whose tongues will neuer lie still, but are wagging continually.</p>
+            <p n="69">
+               <pb n="10" facs="tcp:25885:12"/>
+               <hi>69 A Snailes life.</hi>
+            </p>
+            <p>Applyed to such as liue a lazy and luskish life, without profit to themselues or the com<g ref="char:EOLhyphen"/>monwealth.</p>
+            <p n="70">
+               <hi>70 To cherish a Snake in ones bo<g ref="char:EOLhyphen"/>some.</hi>
+            </p>
+            <p>Applied to all ingratefull and vnthankfull persons.</p>
+            <p n="71">
+               <hi>71 To cleaue wood with the key, and open the doore with an Axe.</hi>
+            </p>
+            <p>Applied to such, whose actions are very preposterous, as for a ma<g ref="char:cmbAbbrStroke">̄</g> to bring vp his chil<g ref="char:EOLhyphen"/>dren in seruile feare, and make his seruants equall with himselfe.</p>
+            <p n="72">
+               <hi>72 As eager as Scammony.</hi>
+            </p>
+            <p>Applied to all arrogant men, who despise their inferiours.</p>
+            <p n="73">
+               <hi>73 Dishonesty is very briefe, but ver<g ref="char:EOLhyphen"/>tue is very slow.</hi>
+            </p>
+            <p>A Prouerbe shewing that a man may soone be vicious, but not without great labour can become vertuous.</p>
+            <p n="74">
+               <hi>74 A Dogge hath many lodgings.</hi>
+            </p>
+            <p>Applied to such libidinous men as cannot be content with one woman.</p>
+            <p n="75">
+               <hi>75 A Quaile and</hi> Hercules.</p>
+            <p>Applied to such as haue escaped great dan<g ref="char:EOLhyphen"/>ger by their helpe of whom they expected least.</p>
+            <p n="76">
+               <pb n="11" facs="tcp:25885:13"/>
+               <hi>76 A Goblet full of contentions.</hi>
+            </p>
+            <p>Applied to such as are the Authors of strifes and discords, such we vse to call make-bates.</p>
+            <p n="77">
+               <hi>77 Loues Bagge is bound about with a Leekes blade.</hi>
+            </p>
+            <p>Applyed to those who care not what they bestow to compasse their Loue.</p>
+            <p n="78">
+               <hi>78 Why doest thou not hang thy selfe?</hi>
+            </p>
+            <p>Applyed to such as desiring the safe-guard of their countrey, doe cast themselues into in<g ref="char:EOLhyphen"/>euitable dangers.</p>
+            <p n="79">
+               <hi>79 To play the deceiuer with de<g ref="char:EOLhyphen"/>ceiuers.</hi>
+            </p>
+            <p>Applyed to two crafty companions, who would faine deceiue one another.</p>
+            <p n="80">
+               <hi>80 He that hath Pepper enough, may put the more in his sallads.</hi>
+            </p>
+            <p>Applyed to rich men, who may liue deli<g ref="char:EOLhyphen"/>cately vpon their plentie.</p>
+            <p n="81">
+               <hi>81 With speare and shield.</hi>
+            </p>
+            <p>Applyed to those who leaue nothing vn<g ref="char:EOLhyphen"/>attempted to effect their purposes.</p>
+            <p n="82">
+               <hi>82 Giue me a Bason.</hi>
+            </p>
+            <p>Applyed to those who being vexed with ill words, cannot refraine, but must vtter their minds.</p>
+            <p n="83">
+               <hi>83 Liberall of another mans.</hi>
+            </p>
+            <p>A Prouerbe when men are bountifull, and franke of another mans purse.</p>
+            <p n="84">
+               <pb n="12" facs="tcp:25885:14"/>
+               <hi>84 Out of the Lime-pit into the cole-pit.</hi>
+            </p>
+            <p>Applyed to such who escaping one euill, doe straightwayes fall into another.</p>
+            <p n="85">
+               <hi>85 From heauen to the Synagogue.</hi>
+            </p>
+            <p>Applyed to those men who from a quiet e<g ref="char:EOLhyphen"/>state are fallen into cares and troubles.</p>
+            <p n="86">
+               <hi>86 I know the tree by the fruit.</hi>
+            </p>
+            <p>A Prouerbe, or rather a similitude: For that euery tree is knowne by his fruit, so is e<g ref="char:EOLhyphen"/>uery man by his deeds.</p>
+            <p n="87">
+               <hi>87 It is sweet to suffer ship-wracke to<g ref="char:EOLhyphen"/>gether.</hi>
+            </p>
+            <p>Applyed to those who being in miserie, would haue all men in the same case.</p>
+            <p n="88">
+               <hi>88 He wants the cunning diuer</hi> Delius.</p>
+            <p>A Prouerbe vsed when a hard thing is spo<g ref="char:EOLhyphen"/>ken, and requireth a cunning Expositor.</p>
+            <p n="89">
+               <hi>89 If thou want winde, vse the Oares.</hi>
+            </p>
+            <p>Applyed to such as being crossed in their pur<g ref="char:EOLhyphen"/>poses, must vse some other meanes.</p>
+            <p n="90">
+               <hi>90 From a Gowne to a cloake.</hi>
+            </p>
+            <p>Applyed to such as are fallen into pouertie from a wealthy estate; as from a Gentleman to a begger: very common now adayes.</p>
+            <p n="91">
+               <hi>91 God appearing on a sudden.</hi>
+            </p>
+            <p>Applyed to those who being in great per<g ref="char:EOLhyphen"/>plexitie and danger, haue beyond hope beene deliuered, and atchiued their desired ends.</p>
+            <p n="92">
+               <pb n="13" facs="tcp:25885:15"/>
+               <hi>92 By speaking men learne to speake.</hi>
+            </p>
+            <p>Applyed to such who are fearefull to be<g ref="char:EOLhyphen"/>come excellent in any thing because the begin<g ref="char:EOLhyphen"/>ning is difficult.</p>
+            <p n="93">
+               <hi>93 A dogge worthy scraps.</hi>
+            </p>
+            <p>Applyed to such as striue by paines and vertue to liue: As we vsually say, the Labou<g ref="char:EOLhyphen"/>rer is worthy his hire.</p>
+            <p n="94">
+               <hi>94 A dogge worthy a stoole.</hi>
+            </p>
+            <p>Applied to such as are promoted to honour without desert.</p>
+            <p n="95">
+               <hi>95 Dionysius of Corinth.</hi>
+            </p>
+            <p>A Prouerbe shewing the mutabilitie of e<g ref="char:EOLhyphen"/>state, as in the example of <hi>Dionysius,</hi> who being expulsed his kingdome fled to Corinth where he taught little children.</p>
+            <p n="96">
+               <hi>96 They had rather see a quoyt then a Philosopher.</hi>
+            </p>
+            <p>Applyed to such as loue their pleasure bet<g ref="char:EOLhyphen"/>ter then their profit.</p>
+            <p n="97">
+               <hi>97 Now he is rich, he takes no delight in his graines.</hi>
+            </p>
+            <p>Applyed to them who hauing obtained dig<g ref="char:EOLhyphen"/>nitie, despise their first estate.</p>
+            <p n="98">
+               <hi>98 Rich in promises.</hi>
+            </p>
+            <p>Applyed to such as care not what they pro<g ref="char:EOLhyphen"/>mise, yet performe nothing.</p>
+            <p n="99">
+               <hi>99 Hee that is fairely blest may stay at home.</hi>
+            </p>
+            <p>
+               <pb n="14" facs="tcp:25885:16"/>A Prouerbe, declaring that they that haue all things at their hearts desire, should liue at home, if they would liue happily.</p>
+            <p n="100">
+               <hi>100 Held fast with two Anchors.</hi>
+            </p>
+            <p>Applyed to those who are so diligent and circumspect in their affaires, that they cannot be disappointed.</p>
+            <p n="101">
+               <hi>101 Hee that followes two Hares at once, takes neither of them.</hi>
+            </p>
+            <p>Applied to such, as through couetousnesse ayming at two Offices, lose both.</p>
+            <p n="102">
+               <hi>102 The fruit is sweet when the Kee<g ref="char:EOLhyphen"/>per is away.</hi>
+            </p>
+            <p>This Prouerb may be taken two wayes, ei<g ref="char:EOLhyphen"/>ther when wicked men goe from one wicked<g ref="char:EOLhyphen"/>nesse to another vnpunished, or when any thing is gotten from another by deceit.</p>
+            <p n="103">
+               <hi>103 To flye away on both feet.</hi>
+            </p>
+            <p>Applyed to them, who vse all meanes possi<g ref="char:EOLhyphen"/>ble to escape imminent danger.</p>
+            <p n="105">
+               <hi>105 To strike one string false often.</hi>
+            </p>
+            <p>Applied to such as offend many times in one grosse fault or other.</p>
+            <p n="106">
+               <hi>106 To strike vpon the same Anuile.</hi>
+            </p>
+            <p>Applied to such, who vse often to repeat one and the same matter, and are alwaies harping on one string.</p>
+            <p n="107">
+               <hi>107 Thou makest an Elephant of a Flye.</hi>
+            </p>
+            <p>
+               <pb n="15" facs="tcp:25885:17"/>Applied to such, as by their eloquence in speaking or writing, make a great protesta<g ref="char:EOLhyphen"/>tion of a small matter.</p>
+            <p n="108">
+               <hi>108 To blow hot and cold with one breath.</hi>
+            </p>
+            <p>Applied to such as can sooth a man to his face, and reproch him behind his backe.</p>
+            <p n="109">
+               <hi>109 I gathered but a little corne of a great deale of chaffe.</hi>
+            </p>
+            <p>Applyed to those who bestow a great deale of labour, but to little purpose.</p>
+            <p n="110">
+               <hi>110 Thou sleepest like</hi> Endymion.</p>
+            <p>Applied to all luskish and slothfull peo<g ref="char:EOLhyphen"/>ple, who liue like Drones.</p>
+            <p n="111">
+               <hi>111 To drinke in a Cuppe boared through.</hi>
+            </p>
+            <p>Applyed to such as poure out all that is in their minde, to their owne or others hurt.</p>
+            <p n="112">
+               <hi>112 A Rose springs not from an Onion.</hi>
+            </p>
+            <p>A Prouerbe vsed when an honest man be<g ref="char:EOLhyphen"/>getteth a childe, which resembleth his father in all goodnesse.</p>
+            <p n="113">
+               <hi>113 Pimpernell is amongst the Pot<g ref="char:EOLhyphen"/>herbs.</hi>
+            </p>
+            <p>Applied to those who being of no reputati<g ref="char:EOLhyphen"/>on, yet through their haughty stomacke med<g ref="char:EOLhyphen"/>dle in matters not concerning them.</p>
+            <p n="114">
+               <pb n="16" facs="tcp:25885:18"/>
+               <hi>114 Seeking to auoid one rocke, hee falles vpon another.</hi>
+            </p>
+            <p>Applied to those who auoiding one danger fall into a greater.</p>
+            <p n="115">
+               <hi>115 To rub the face or mouth.</hi>
+            </p>
+            <p>Applyed to them who haue cast off all shamefastnesse, which is the signe of a naugh<g ref="char:EOLhyphen"/>ty heart.</p>
+            <p n="116">
+               <hi>116 When wee are in health wee can giue good counsell to the sicke.</hi>
+            </p>
+            <p>Applyed to them who can aduise others when they offend, yet cannot perceiue their owne faults.</p>
+            <p n="117">
+               <hi>117 You asked for a sickle.</hi>
+            </p>
+            <p>Applied to such, as being demanded a matter, giue a cleane contrary answer.</p>
+            <p n="118">
+               <hi>118 It is a most miserable thing to die with hunger.</hi>
+            </p>
+            <p>This Prouerbe may be taken in a diuine sense, and meant of those whose soules doe pe<g ref="char:EOLhyphen"/>rish for want of the heauenly food, Gods word.</p>
+            <p n="119">
+               <hi>119 The Corne is more fruitfull in a<g ref="char:EOLhyphen"/>nother mans ground.</hi>
+            </p>
+            <p>Applied to them who are of a couetous mind, and thinke all too much that others haue.</p>
+            <p n="120">
+               <hi>120 Thou hast spunne the threed and wantest a needle.</hi>
+            </p>
+            <p>
+               <pb n="17" facs="tcp:25885:19"/>A Prouerbe signifying that it is not suffi<g ref="char:EOLhyphen"/>cient to begin well, but to hold on to the end, and perseuere.</p>
+            <p n="121">
+               <hi>121 Obserue the end of his life.</hi>
+            </p>
+            <p>A Prouerbe shewing the mutability of humane condition, as in the examples of <hi>Pri<g ref="char:EOLhyphen"/>amus, Craesus, Baiazet, &amp;c.</hi>
+            </p>
+            <p n="122">
+               <hi>122 The Riuer does not alwayes car<g ref="char:EOLhyphen"/>ry men safe.</hi>
+            </p>
+            <p>A Prouerbe shewing that if one speed wel, another should not presently thinke to doe the like.</p>
+            <p n="123">
+               <hi>123 The flame is neerest the smoake.</hi>
+            </p>
+            <p>Applied to such as runne into hurts and dangers which they are afraid of.</p>
+            <p n="124">
+               <hi>124 The Ant and the Camell.</hi>
+            </p>
+            <p>Applied to them who speake things very vnequall.</p>
+            <p n="125">
+               <hi>125 Fortune helpes the valiant.</hi>
+            </p>
+            <p>Applied to such as are no cowards, but will enterprize their affaires with reso<g ref="char:EOLhyphen"/>lution.</p>
+            <p n="126">
+               <hi>126 Fortune makes men proud.</hi>
+            </p>
+            <p>Applied to such as haue Fortune as it were in a string, and so become insolent &amp; disdain<g ref="char:EOLhyphen"/>full towards others.</p>
+            <p n="127">
+               <hi>127 The anger of Brethren is most deadly.</hi>
+            </p>
+            <p>A Prouerbe declaring that the hatred a<g ref="char:EOLhyphen"/>mongst
+
+
+<pb n="18" facs="tcp:25885:20"/>
+brothers, is more cruell then among the vulgar.</p>
+            <p n="128">
+               <hi>128 Rub him againe that rubs thee.</hi>
+            </p>
+            <p>A Prouerbe shewing that one good turne requires another.</p>
+            <p n="129">
+               <hi>129 The Cocke stands to it.</hi>
+            </p>
+            <p>Applied to such as being ouercome, yet hauing stout hearts, giue the on-set a<g ref="char:EOLhyphen"/>gaine.</p>
+            <p n="130">
+               <hi>130</hi> Applyed to them who are by any sub<g ref="char:EOLhyphen"/>tility deceiued.</p>
+            <p n="131">
+               <hi>131 Cranes swallowing stones.</hi>
+            </p>
+            <p>Applyed to such as are wise to preuent danger.</p>
+            <p n="132">
+               <hi>132 A Fly hath a spleene.</hi>
+            </p>
+            <p>Applyed to such who though they are weak<g ref="char:punc">▪</g> yet are as apt to reuenge as the strongest.</p>
+            <p n="133">
+               <hi>133 Thou liuest in the</hi> Halcyon <hi>dayes.</hi>
+            </p>
+            <p>Applyed to them who neuer meet with any crosse or sorrow through their whole life.</p>
+            <p n="134">
+               <hi>134</hi> Thou hast set this snare to catch thy selfe.</p>
+            <p>Applyed to them who plot a mischiefe for o<g ref="char:EOLhyphen"/>thers, and in the end it falles vpon their owne pate.</p>
+            <p n="135">
+               <hi>135 To giue an herbe.</hi>
+            </p>
+            <p>Applyed to such who are ouercome either in the field, or in the schoole.</p>
+            <p n="136">
+               <pb n="19" facs="tcp:25885:21"/>
+               <hi>136</hi> Herostratus <hi>glorie.</hi>
+            </p>
+            <p>Applyed to such who look for a reward for some notable villanie done.<note place="margin">Herostratus <hi>burned the famous Temple of</hi> Diana.</note>
+            </p>
+            <p n="137">
+               <hi>137 A Fawne and a Lion.</hi>
+            </p>
+            <p>A Prouerb vsed when stout and strong men are foolishly prouoked of weake wretches.</p>
+            <p n="138">
+               <hi>138 To day No bodie, to morrow a great One.</hi>
+            </p>
+            <p>Applyed to such as are suddainly come to riches or honour, from a poore and abiect condition.</p>
+            <p n="139">
+               <hi>139 To cut off the monster</hi> Hydra.</p>
+            <p>A Prouerbe when one mischiefe comes in the necke of another.</p>
+            <p n="139">
+               <hi>139 Adde not fire to fire.</hi>
+            </p>
+            <p>Applyed to such as being of an impudent nature runne from one vice into another.</p>
+            <p n="140">
+               <hi>140 A Troy of euils.</hi>
+            </p>
+            <p>A Prouerbe vsed when a number of euils befall any one man.</p>
+            <p n="141">
+               <hi>141 To pleade in strange Court.</hi>
+            </p>
+            <p>Applyed to such who deale in matters wherein they haue no skill.</p>
+            <p n="142">
+               <hi>142</hi> An old Prouerbe to bee applyed to them that are painefull, and industrious to get their liuing.</p>
+            <p n="143">
+               <hi>143 There is truth in wine.</hi>
+            </p>
+            <p>Applyed to such as being drunke, reueale all their secrets.</p>
+            <p n="144">
+               <pb n="20" facs="tcp:25885:22"/>
+               <hi>144 One trappe caught another.</hi>
+            </p>
+            <p>A Prouerbe vsed when one knaue dete<g ref="char:EOLhyphen"/>cteth another.</p>
+            <p n="145">
+               <hi>145 More greasie then an Oyle pot.</hi>
+            </p>
+            <p>Applyed to great eaters who for all their meat, are neuer the handsomer in their bodies.</p>
+            <p n="146">
+               <hi>146 A</hi> Lerna <hi>of wickednesse.</hi>
+            </p>
+            <p>Applyed to such men in whom are all kinde of vices and abhominations.</p>
+            <p n="147">
+               <hi>147 Thou tiest thread to thread.</hi>
+            </p>
+            <p>Applyed to such as speake one thing and doe another.</p>
+            <p n="148">
+               <hi>148 An Oxe of</hi> Locria.</p>
+            <p>A Prouerbe vsed when one speaketh of a vild and fond thing, which Prouerbe was bor<g ref="char:EOLhyphen"/>rowed of the <hi>Locrenses,</hi> who offering to <hi>Iupi<g ref="char:EOLhyphen"/>ter</hi> the similitude of an Oxe, thought they had done him great honour.</p>
+            <p n="149">
+               <hi>149 The Woolfe is in the tale.</hi>
+            </p>
+            <p>A Prouerbe when the party of whom there is communication had, comes in vnawares.</p>
+            <p n="150">
+               <hi>150 To wash away durt with durt.</hi>
+            </p>
+            <p>Applied to him who co<g ref="char:cmbAbbrStroke">̄</g>mitting an absurdity in his talke, and meaning to couer it, vttereth another absurdity as bad, or worse then the former.</p>
+            <p n="151">
+               <hi>151 To bring Engines after the warre is ended.</hi>
+            </p>
+            <p>
+               <pb n="21" facs="tcp:25885:23"/>Applied to them who are busie about a mat<g ref="char:EOLhyphen"/>ter that is finished.</p>
+            <p n="152">
+               <hi>152 More silent than a Fish.</hi>
+            </p>
+            <p>Applied to such as are more silent than be<g ref="char:EOLhyphen"/>comes them.</p>
+            <p n="153">
+               <hi>153 Goods ill gotten, are ill lost.</hi>
+            </p>
+            <p>Applied to such as get their wealth by de<g ref="char:EOLhyphen"/>ceit, which will not continue with them.</p>
+            <p n="154">
+               <hi>154 To beget better Birds.</hi>
+            </p>
+            <p>Applied to such as after great trouble doe suddenly enioy a happy issue thereof.</p>
+            <p n="155">
+               <hi>155 The Hares skip when the Lion is dead.</hi>
+            </p>
+            <p n="156">
+               <hi>156 A mutuall defence is safest.</hi>
+            </p>
+            <p>A Prouerbe shewing that Concord expel<g ref="char:EOLhyphen"/>leth the violence of ignominious men.</p>
+            <p n="157">
+               <hi>157 Men striue not about a wild Oliue.</hi>
+            </p>
+            <p>Applied to such as vse friuolous questions in a matter of importance.</p>
+            <p n="158">
+               <hi>158 A rusticke hatred.</hi>
+            </p>
+            <p>Applied to them whose hatred is implaca<g ref="char:EOLhyphen"/>ble; and as we say commonly, I could eat his heart with salt.</p>
+            <p n="159">
+               <hi>159 He smels of the Lanthorne.</hi>
+            </p>
+            <p>Applied to such who by great study attaine to the vnderstanding of things vnknowne to them.</p>
+            <p n="160">
+               <hi>160 There is no vse of Sheepe.</hi>
+            </p>
+            <p>Applied to all slothfull persons, who like a
+
+
+<pb n="22" facs="tcp:25885:24"/>
+dull Horse will goe no longer then hee is spur<g ref="char:EOLhyphen"/>red.</p>
+            <p n="161">
+               <hi>161 To make a recantation.</hi>
+            </p>
+            <p>Applied to those who are vnconstant and vnstable, turning euery winde.</p>
+            <p n="162">
+               <hi>162 The mountaines were in labour, and brought forth a silly Mouse.</hi>
+            </p>
+            <p>Applied to all braggers, who are free of words, and slow of actions.</p>
+            <p n="163">
+               <hi>163 To weaue</hi> Penelopes <hi>web.</hi>
+            </p>
+            <p>Applied to those who labour hard, yet can see no fruit of their labours.</p>
+            <p n="164">
+               <hi>164 The Mag-pie contends with the Nightingale.</hi>
+            </p>
+            <p>Applied to such as presuming vpon their skill, contend with them that surpasse them.</p>
+            <p n="165">
+               <hi>165 A fat belly hath not a thin sense.</hi>
+            </p>
+            <p>Applied to such as are much giuen to bel<g ref="char:EOLhyphen"/>ly cheere, and yet think to excell in wit, which cannot be, for riotousnesse duls the wit.</p>
+            <p n="166">
+               <hi>166 To cut ones throat with a leaden Sword.</hi>
+            </p>
+            <p>Applied to such as are ouercome with an easie argument.</p>
+            <p n="167">
+               <hi>167 A little Hog of</hi> Acarnania.</p>
+            <p>Applied to those who doe wallow in all kind of sensuality and pleasure.</p>
+            <p n="168">
+               <hi>168 An ill Poet for a fine Physician.</hi>
+            </p>
+            <p>Applied to those who are not content with
+
+
+<pb n="23" facs="tcp:25885:25"/>
+their estate and calling, but assay things be<g ref="char:EOLhyphen"/>yond their reach.</p>
+            <p n="169">
+               <hi>169 God goes before the casting of the Anchor.</hi>
+            </p>
+            <p>A Prouerbe when chances are preuented by Gods helpe.</p>
+            <p n="170">
+               <hi>170 He deceiued the Foxe finely.</hi>
+            </p>
+            <p>Applied to such as are ouertaken in their owne craftinesse.</p>
+            <p n="171">
+               <hi>171 Stinking salt Fish must haue wilde Marioram.</hi>
+            </p>
+            <p>A Prouerbe shewing that honesty needs no cloake.</p>
+            <p n="172">
+               <hi>172 Although thou saidst it not, yet it appeares by the skinne.</hi>
+            </p>
+            <p>Applied to such whose countenance be<g ref="char:EOLhyphen"/>wrayes them when they lie.</p>
+            <p n="173">
+               <hi>173 To drinke after the manner of Frogges.</hi>
+            </p>
+            <p>Applied to such as delight in drunkennesse.</p>
+            <p n="174">
+               <hi>174 To rub an old sore.</hi>
+            </p>
+            <p>Applied to them who reuolue old matters in their minde, which causeth greater griefe.</p>
+            <p n="175">
+               <hi>175 To weigh the holy Anchor.</hi>
+            </p>
+            <p>A Prouerbe vsed when a man flying from one place to another, is faine to vse that for his fafe-gard which neuer faileth him.</p>
+            <p n="176">
+               <hi>176</hi> Africa <hi>alwayes brings some newes.</hi>
+            </p>
+            <p>A Prouerbe vsed towards men of small
+
+
+<pb n="24" facs="tcp:25885:26"/>
+trust, that alwayes hunt after newes.</p>
+            <p n="177">
+               <hi>177 If I had Cheese, I would not care for cates.</hi>
+            </p>
+            <p>Applied to those who are content with such things as please their owne fantasie, though they be simple.</p>
+            <p n="178">
+               <hi>178 To adde starres to the Skie.</hi>
+            </p>
+            <p>A Prouerbe vsed when great rewards are bestowed vpon them that need them not.</p>
+            <p n="179">
+               <hi>179 An excellent Emrald seemes to be darke in the light.</hi>
+            </p>
+            <p>Applied to them that haue good skill in Arts, yet will not shew it when more excellent men are in place.</p>
+            <p n="180">
+               <hi>180 Hope preserues the distressed.</hi>
+            </p>
+            <p n="181">
+               <hi>181 Exceed not the ballance.</hi>
+            </p>
+            <p>A Prouerbe shewing that nothing ought to be done, but that which is honest and lawfull.</p>
+            <p n="182">
+               <hi>182 To hide a buncht backe with a pur<g ref="char:EOLhyphen"/>ple garment.</hi>
+            </p>
+            <p>Applied to such as endeuour to cloake their wickednesse with some colour of godli<g ref="char:EOLhyphen"/>nesse.</p>
+            <p n="183">
+               <hi>183 A Sow in a durty puddle.</hi>
+            </p>
+            <p>Applied to those who hauing left their lewd behauiour for a time, at length like Swine re<g ref="char:EOLhyphen"/>turne to their filthinesse.</p>
+            <p n="184">
+               <hi>184 The Sow heard the Trumpet.</hi>
+            </p>
+            <p>Applied to those who are neither sorry nor
+
+
+<pb n="25" facs="tcp:25885:27"/>
+merry at that which they heare.</p>
+            <p n="185">
+               <hi>185 A voluptuous and sumptuous table.</hi>
+            </p>
+            <p>A Prouerbe, when Temperance can haue no roome for surfetting and Drunkennesse.</p>
+            <p n="186">
+               <hi>186 To vexe secretly.</hi>
+            </p>
+            <p>A Prouerbe, when a man is angry with himselfe.</p>
+            <p n="187">
+               <hi>187 More silent then the</hi> Pythago<g ref="char:EOLhyphen"/>reans.</p>
+            <p>This Prouerbe sprang from Pythagoras Scholers, to whom fiue yeares silence was commanded.</p>
+            <p n="188">
+               <hi>188</hi> Tantalus <hi>Orchard.</hi>
+            </p>
+            <p>Applied to them who are wealthy, yet can<g ref="char:EOLhyphen"/>not haue the fruition of their goods.</p>
+            <p n="189">
+               <hi>189 Hee will take vp a Bull that hath lifted a Calfe.</hi>
+            </p>
+            <p>Applied to those who falling into small sinnes in their youth, commit great ones in their riper age.</p>
+            <p n="190">
+               <hi>190 If thou make not much of thy selfe, thou makest much of dogges.</hi>
+            </p>
+            <p>Applied to those who to fulfill their sensu<g ref="char:EOLhyphen"/>all appetites, neglect their owne profit and commodity.</p>
+            <p n="191">
+               <hi>191 The burthen of the earth.</hi>
+            </p>
+            <p>Applyed to those Drones and Caterpillers in a Common-wealth, who neither haue will nor desire to profit their Countrey.</p>
+            <p n="192">
+               <pb n="26" facs="tcp:25885:28"/>
+               <hi>192 A drunken man is not to bee waked.</hi>
+            </p>
+            <p>A Prouerbe shewing that although a man haue gone astray; yet if he repent him of his fault, it ought not to be iterated.</p>
+            <p n="193">
+               <hi>193 More foolish then the Turpentine Tree.</hi>
+            </p>
+            <p>Applied to such as are Asses and Dolts, yet thinke themselues iolly fellowes.</p>
+            <p n="194">
+               <hi>194 The Snaile is safe within her Shell.</hi>
+            </p>
+            <p>Applied to those who are content with that which they enioy at home, and commit not themselues to the hazard of fortune.</p>
+            <p n="195">
+               <hi>195</hi> A Thassus <hi>of good things.</hi>
+            </p>
+            <p>Applied to such as are very liberall in their promises, taken from the Isle Thassus very plentifull of Almonds.</p>
+            <p n="196">
+               <hi>196 The earth desireth raine.</hi>
+            </p>
+            <p>Applied to them who desire such things as will turne to their commodity.</p>
+            <p n="197">
+               <hi>197</hi> Plutus <hi>is fearfull.</hi>
+            </p>
+            <p>Applied to all rich men who are in conti<g ref="char:EOLhyphen"/>nuall feare to forgoe their wealth.</p>
+            <p n="198">
+               <hi>198</hi> A Thersites <hi>in shape.</hi>
+            </p>
+            <p>Applied to such as are monstrously misha<g ref="char:EOLhyphen"/>pen and disfigured in face and body.</p>
+            <p n="199">
+               <hi>199 More cowardly then</hi> Pisander.</p>
+            <p>Applied to men extraordinarily fearfull.</p>
+            <p n="200">
+               <pb n="27" facs="tcp:25885:29"/>
+               <hi>200</hi> Titans <hi>Countenance.</hi>
+            </p>
+            <p>Applied to such as haue a frowning surly countenance; of such wee say they looke as though they had eaten Bulbeefe.</p>
+            <p n="201">
+               <hi>201 The Thracians know not Coue<g ref="char:EOLhyphen"/>nants.</hi>
+            </p>
+            <p>Applied to all such as haue no honesty in their doings or sayings.</p>
+            <p n="202">
+               <hi>202 Take away the Custard from the Beetle.</hi>
+            </p>
+            <p>Applied to such as feed grosly and homely, and refuse nothing that is set before them.</p>
+            <p n="203">
+               <hi>203 Lift vp thy spurre for defence.</hi>
+            </p>
+            <p>A Prouerbe vsed when a man suffering in<g ref="char:EOLhyphen"/>iurie, prepares himselfe to take reuenge.</p>
+            <p n="204">
+               <hi>204 He is as full of prickles as a Hedge<g ref="char:EOLhyphen"/>hogge.</hi>
+            </p>
+            <p>Applied to such as are so dainty to be dealt withall, that doe a man what he can, he cannot tell how to please them.</p>
+            <p n="205">
+               <hi>205 A logge is in all things.</hi>
+            </p>
+            <p>A Prouerbe warning all men to be circum<g ref="char:EOLhyphen"/>spect in their affaires.</p>
+            <p n="206">
+               <hi>206 To make a Tragedy of trifling matters.</hi>
+            </p>
+            <p>Applied to them who make a great hurly burly about matters of no value.</p>
+            <p n="207">
+               <hi>207 In the manner of a Top.</hi>
+            </p>
+            <p>Applied to such men who are mutable and
+
+
+<pb n="28" facs="tcp:25885:30"/>
+variable in all their actions.</p>
+            <p n="208">
+               <hi>208 More iust then the Ballance.</hi>
+            </p>
+            <p>Applied to them who are of an vpright heart.</p>
+            <p n="209">
+               <hi>209 Tread vpon thine owne ground.</hi>
+            </p>
+            <p>Applied to them who are continually med<g ref="char:EOLhyphen"/>ling in other mens matters.</p>
+            <p n="210">
+               <hi>210 A cough for a fart.</hi>
+            </p>
+            <p>Applied to such as can cunningly cog out an ill matter, and daube one lie with another.</p>
+            <p n="211">
+               <hi>211 The Carthaginian Seas.</hi>
+            </p>
+            <p>A Prouerbe vsed when any busie or cum<g ref="char:EOLhyphen"/>bersome matter is in hand.</p>
+            <p n="212">
+               <hi>212 The stake deceiues the Vine.</hi>
+            </p>
+            <p>Applied to them that deceiue their friends in their greatest need, when they are put in trust.</p>
+            <p n="213">
+               <hi>213 He sacrificed a Sow to</hi> Venus.</p>
+            <p>A Prouerbe vsed when a man presenteth his better with some gift vnfit and vnworthy his person.</p>
+            <p n="214">
+               <hi>214 To take away the spring from the yeere.</hi>
+            </p>
+            <p>Applied to them who chuse the best of any thing, and leaue the worst for others.</p>
+            <p n="215">
+               <hi>215 To follow like the shadow.</hi>
+            </p>
+            <p>A Prouerbe noting two companions that are neuer asunder.</p>
+            <p n="216">
+               <hi>216 They that are ouercome, dare not mutter.</hi>
+            </p>
+            <p>
+               <pb n="29" facs="tcp:25885:31"/>Applied to such as being conuicted, haue no<g ref="char:EOLhyphen"/>thing to say for themselues.</p>
+            <p n="217">
+               <hi>217 Wine is the minds glasse.</hi>
+            </p>
+            <p>Applied to such as will disclose their dispo<g ref="char:EOLhyphen"/>sition in their drinke.</p>
+            <p n="218">
+               <hi>218 An old mans pate is a rayson.</hi>
+            </p>
+            <p>A Prouerbe shewing that the bodies of a<g ref="char:EOLhyphen"/>ged men are shrunke together like a rayson.</p>
+            <p n="219">
+               <hi>219 A Diuine rod.</hi>
+            </p>
+            <p>A Prouerbe vsed when we enioy whatsoe<g ref="char:EOLhyphen"/>uer we wish, without helpe of any man.</p>
+            <p n="220">
+               <hi>220 To get two sonnes in law by one daughter.</hi>
+            </p>
+            <p>Applied to them who will promise to two persons one and the same thing, which but one can attaine.</p>
+            <p n="221">
+               <hi>221 The nayle is in the sore.</hi>
+            </p>
+            <p>Applied to such as when a matter is bad enough, will make it worse.</p>
+            <p n="222">
+               <hi>222 To waxe old in one day.</hi>
+            </p>
+            <p>A Prouerbe shewing that nothing doth so soone cause old age, as great cares and griefe.</p>
+            <p n="223">
+               <hi>223 Called or not called, God will be at hand.</hi>
+            </p>
+            <p>A Prouerbe when a thing comes to passe, whether we haue regard to it or no.</p>
+            <p n="224">
+               <hi>224 I will shew you my Feet.</hi>
+            </p>
+            <p>Applied to fresh water Souldiers, that trust more to their feet then their hands.</p>
+            <p n="225">
+               <pb n="30" facs="tcp:25885:32"/>
+               <hi>225 A flying oath.</hi>
+            </p>
+            <p>Applied to such whose word is as sure as an obligation sealed with butter.</p>
+            <p n="226">
+               <hi>226 It burnes without a fire-brand.</hi>
+            </p>
+            <p>Applied to such as are angry without a cause.</p>
+            <p n="227">
+               <hi>227 Euen vnto hoarsenesse.</hi>
+            </p>
+            <p>Applied to such as will neuer giue ouer, though they haue said as much in a matter as can be said.</p>
+            <p n="228">
+               <hi>228 Thou gnawest a bladder.</hi>
+            </p>
+            <p>Applied to such as take a thing in hand, where there is no good to be done, but losse of time and labour.</p>
+            <p n="229">
+               <hi>229 The Cormorants shadow.</hi>
+            </p>
+            <p>Applied to such as doe nothing but gape after gaine and profit.</p>
+            <p n="230">
+               <hi>He brags as though he had carried away</hi> Achilles <hi>shield.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div xml:lang="lat" type="afterword">
+            <pb facs="tcp:25885:33" rendition="simple:additions"/>
+            <head>Martial. lib. 4. Epig. 91.</head>
+            <l>
+               <hi>I</hi> Am lector queritur<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> deficitque;</l>
+            <l>Iam librarius hoc &amp; ipse dicit,</l>
+            <l>Ohe jam satis est, Ohe libelle.</l>
+            <pb facs="tcp:25885:33"/>
+         </div>
+      </back>
+   </text>
+</TEI>
