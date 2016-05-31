@@ -1,0 +1,898 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short Christian catechisme for the instruction of children in the grounds and practice of Christian religion being (for the most part) an abridgment of a larger, formerly printed, where many questions and answers that were in the larger, are omitted, and others shortened, to fit the capacity of children, and some new questions, with their answers inserted, on several heads, which were not in the larger / by George Keith.</title>
+            <author>Keith, George, 1639?-1716.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2007-01">2007-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A47179</idno>
+            <idno type="STC">Wing K212</idno>
+            <idno type="STC">ESTC R14138</idno>
+            <idno type="EEBO-CITATION">12937358</idno>
+            <idno type="OCLC">ocm 12937358</idno>
+            <idno type="VID">95812</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A47179)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 95812)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 717:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short Christian catechisme for the instruction of children in the grounds and practice of Christian religion being (for the most part) an abridgment of a larger, formerly printed, where many questions and answers that were in the larger, are omitted, and others shortened, to fit the capacity of children, and some new questions, with their answers inserted, on several heads, which were not in the larger / by George Keith.</title>
+                  <author>Keith, George, 1639?-1716.</author>
+               </titleStmt>
+               <extent>[2], 30, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Brabazon Aylmer ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1698]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2006-06</date>
+            <label>Taryn Hakala</label>Sampled and proofread</change>
+         <change>
+            <date>2006-06</date>
+            <label>Taryn Hakala</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2006-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="unk">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:95812:1"/>
+            <pb facs="tcp:95812:1" rendition="simple:additions"/>
+            <p>A SHORT Chriſtian Catechiſme FOR THE INSTRUCTION OF CHILDREN, In the Grounds and Practice of Chriſtian Religion, being (for moſt part) an Abridg<g ref="char:EOLhyphen"/>ment of a larger, formerly Printed, where many Queſtions and Anſwers that were in the larger, are omitted, and others ſhortned, to fit the Capa<g ref="char:EOLhyphen"/>city of Children, and ſome new Que<g ref="char:EOLhyphen"/>ſtions, with their Anſwers inſerted, on ſeveral Heads, which were not in the larger.</p>
+            <p>
+               <hi>By</hi> George Keith.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Brabazon Aylmer,</hi> at the <hi>Three Pigeons,</hi> over againſt the <hi>Royal-Exchange,</hi> in Cornhill. Price 3<hi>d.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:95812:2"/>
+            <pb n="1" facs="tcp:95812:2"/>
+            <head>A SHORT Christian Catechiſme</head>
+            <argument>
+               <p>For the Inſtruction of <hi>CHILDREN,</hi> in the Grounds and Practiſe of Chriſtian Re<g ref="char:EOLhyphen"/>ligion, being (for moſt part) an Abridg<g ref="char:EOLhyphen"/>ment of a larger, formerly Printed, where maeny Queſtions and Anſwers that were in the larger, are omitted, and others ſhorten<g ref="char:EOLhyphen"/>ed, to fit the Capacity of Children, and ſome new Queſtions, with their Anſwers inſerted, on ſeveral Heads, which were not in the larger.</p>
+            </argument>
+            <byline>By <hi>G. Keith.</hi>
+            </byline>
+            <div n="1" type="section">
+               <head>SECT. I.</head>
+               <p>
+                  <hi>Q.</hi> WHat is the Chriſtian Religion?</p>
+               <p>
+                  <hi>A.</hi> It is a Knowledge, Be<g ref="char:EOLhyphen"/>lief, and Practiſe of certain things, by means of which we may attain to Eternal Life and Happineſs, <hi>Joh.</hi> 20.3. <hi>Rom.</hi> 6.22.</p>
+               <p>
+                  <hi>Q.</hi> Where are theſe things taught us?</p>
+               <p>
+                  <hi>A.</hi> In the Holy Scriptures of the Old and New Teſtament, <hi>John</hi> 5.39. <hi>Rom.</hi> 15.4. <hi>Rom.</hi> 16.26.</p>
+               <p>
+                  <hi>Q.</hi> What things are to be known and believed by us?</p>
+               <p>
+                  <hi>A.</hi> Firſt, concerning God, and his Works
+<pb n="2" facs="tcp:95812:3"/>
+of Creation and <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rovidence. Secondly, Concer<g ref="char:EOLhyphen"/>ning Chriſt, his only begotten Son, and our Re<g ref="char:EOLhyphen"/>demption by him. Thirdly, Concerning the ho<g ref="char:EOLhyphen"/>ly Spirit, and his ſaving Gifts and Graces, <hi>Heb.</hi> 11.3. 1 <hi>Tim.</hi> 3.16. 1 <hi>Cor.</hi> 2.11. 12.</p>
+               <p>
+                  <hi>Q.</hi> What things are to be practiſed by us?</p>
+               <p>
+                  <hi>A.</hi> The Commandments of God, briefly con<g ref="char:EOLhyphen"/>tained in the ten Precepts of the moral Law, and ſome other Commandments given us by Chriſt in the New Teſtament, <hi>Exod.</hi> 20.1. <hi>Matth.</hi> 28.20.</p>
+               <p>
+                  <hi>Q.</hi> Whence came the Holy Scriptures?</p>
+               <p>
+                  <hi>A.</hi> They came from God, who did inſpire and move holy Men to commit them to writing for our Inſtruction, 2 <hi>Tim.</hi> 3.16.</p>
+               <p>
+                  <hi>Q.</hi> Are they the words of God?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 17.8.</p>
+               <p>
+                  <hi>Q.</hi> Are they not alſo the word of God?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 17.20. <hi>Acts</hi> 13.26. 1 <hi>Cor.</hi> 4.20. <hi>Gal.</hi> 6.6. <hi>Phil.</hi> 1.14. 2 <hi>Tim.</hi> 4.2.</p>
+               <p>
+                  <hi>Q.</hi> Seeing Chriſt is called the Word in Scrip<g ref="char:EOLhyphen"/>ture, <hi>John</hi> 1.1. Is it not falſe to call the Scrip<g ref="char:EOLhyphen"/>tures the Word; for the Scriptures are not Chriſt, but teſtifie of him?</p>
+               <p>
+                  <hi>A.</hi> It is no more falſe, than to call the Sun light, becauſe God is called Light in Scripture, 1 <hi>John</hi> 1.5.</p>
+               <p>
+                  <hi>Q.</hi> How is then the Word diſtinguiſhed?</p>
+               <p>
+                  <hi>A.</hi> The eſſential Word is Chriſt, but the Doctrinal Word that was firſt ſpoken, and then committed to writing, is that contained in the holy Scriptures?</p>
+               <p>
+                  <hi>Q.</hi> Doth the holy Scripture contain all things belonging to Faith and Practice?</p>
+               <p>
+                  <hi>A.</hi> Yea, 2 <hi>Tim.</hi> 3.15.16.</p>
+               <p>
+                  <hi>Q.</hi> Are they then a full and compleat Rule of the whole Duty of Man?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> What doth chiefly move us to believe the
+<pb n="3" facs="tcp:95812:3"/>
+Truth of them, and that they are given by divine Inſpiration?</p>
+               <p>
+                  <hi>A.</hi> The Spirit of God by his ſecret Operation in our Hearts, 2 <hi>Cor.</hi> 4.13. <hi>Phil.</hi> 1.29.</p>
+               <p>
+                  <hi>Q.</hi> What doth give us the ſpiritual and ſaving Underſtanding of them?</p>
+               <p>
+                  <hi>A.</hi> The ſame holy Spirit, by his ſecret Inſpirati<g ref="char:EOLhyphen"/>on, and Illumination in us, 1 <hi>Cor.</hi> 2.11. 2 <hi>Cor.</hi> 4.4, 6.</p>
+            </div>
+            <div n="2" type="section">
+               <head>SECT. II.</head>
+               <p>
+                  <hi>Q.</hi> WHat doth the Scripture teach us con<g ref="char:EOLhyphen"/>cerning God?</p>
+               <p>
+                  <hi>A.</hi> That he is a Spirit of infinite Underſtanding, Power, Wiſdom, and Goodneſs, Eternal Unchange<g ref="char:EOLhyphen"/>able, Omniſcient, Omnipotent, Omnipreſent, Merciful and Gracious, long Suffering, Faithful, Juſt and Holy, that he is Light, and in him is no Darkneſs at all, the Fountain of living Waters, the only living and true God, <hi>Deut.</hi> 7.9. 1 <hi>John</hi> 1.5. <hi>Jer.</hi> 2.13. <hi>Jer.</hi> 10.10. <hi>John</hi> 4.24. <hi>Pſal.</hi> 147.5. <hi>Gen.</hi> 17.1. 1 <hi>Chron.</hi> 29.11. <hi>Rom.</hi> 1.20. <hi>Rom.</hi> 2.4. <hi>Pſal.</hi> 31.19, 33, 11.139. 1. to 12. <hi>Exod.</hi> 3.4. 6, 7. <hi>Deut.</hi> 32.4.</p>
+               <p>
+                  <hi>Q.</hi> Are there any more than one God?</p>
+               <p>
+                  <hi>A.</hi> There is but one God, over all, through all, and in all, <hi>Deut.</hi> 6.4. <hi>Eph.</hi> 4.6.</p>
+               <p>
+                  <hi>Q.</hi> Is God any Body, or hath he any Parts or Paſſions?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Numb.</hi> 33.19.</p>
+               <p>
+                  <hi>Q.</hi> What doth the Scripture further teach us concerning God?</p>
+               <p>
+                  <hi>A.</hi> That this one God is three Perſons, the Fa<g ref="char:EOLhyphen"/>ther, the Son, and the Holy Ghoſt; and theſe three are one in Eſſence and Subſtance, or Being,
+<pb n="4" facs="tcp:95812:4"/>
+from everlaſting to everlaſting, equal in Wiſdom, Goodneſs, Power and Glory, <hi>John</hi> 5.7. <hi>Matth.</hi> 28.19.</p>
+               <p>
+                  <hi>Q.</hi> Are the Father, and the Son, and the holy Ghoſt ſo diſtinguiſhed, that the Son is not the Fa<g ref="char:EOLhyphen"/>ther, but was begotten of the Father, before all A<g ref="char:EOLhyphen"/>ges, and the holy Ghoſt is neither the Father nor the Son, but did proceed from the Father, and from the Son before all Ages, and neither the Fa<g ref="char:EOLhyphen"/>ther, nor the holy Ghoſt was made Fleſh, was born of a Woman, ſuffered Death, roſe again in the true Nature of Man, but only the Son?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 1.14.</p>
+            </div>
+            <div n="3" type="section">
+               <head>SECT. III.</head>
+               <p>
+                  <hi>Q.</hi> WHich are God's Works of Creation?</p>
+               <p>
+                  <hi>A.</hi> All things viſible, as the viſible Hea<g ref="char:EOLhyphen"/>vens, and Earth, and Waters, and all things con<g ref="char:EOLhyphen"/>tained in them, and all things inviſible, as the in<g ref="char:EOLhyphen"/>viſible Heavens, Angels, and Souls of Men, <hi>Gen.</hi> 1.1. <hi>Coloſſ.</hi> 1.16.</p>
+               <p>
+                  <hi>Q.</hi> By whom did God Create and make all things?</p>
+               <p>
+                  <hi>A.</hi> By his Word, his eternally begotten Son, and Spirit, <hi>John</hi> 1.2. <hi>Epheſ.</hi> 3.9. <hi>Pſal.</hi> 33.6.</p>
+               <p>
+                  <hi>Q.</hi> Was it any difficulty to God, to Create and make all things?</p>
+               <p>
+                  <hi>A.</hi> Nay, For he ſpake, and it was done, he commanded, and they were Created, <hi>Pſal.</hi> 33.9.</p>
+               <p>
+                  <hi>Q.</hi> What is underſtood by his reſting on the ſeventh Day?</p>
+               <p>
+                  <hi>A.</hi> His ceaſing to Create, and finiſhing his Works which he had made in ſix days.</p>
+               <p>
+                  <hi>Q.</hi> Whence come all Men and Women of all Nations?</p>
+               <p>
+                  <hi>A.</hi> Of <hi>Adam</hi> our common Father, and <hi>Eve</hi>
+                  <pb n="5" facs="tcp:95812:4"/>
+our common Mother, by ordinary Generation, <hi>Acts</hi> 17.26. <hi>Rom.</hi> 5.12.</p>
+               <p>
+                  <hi>Q.</hi> On which day were they made?</p>
+               <p>
+                  <hi>A.</hi> On the ſixth day, Male and Female, <hi>Ge.</hi> 1.26, 27.</p>
+               <p>
+                  <hi>Q.</hi> In what Eſtate did he make them?</p>
+               <p>
+                  <hi>A.</hi> In his Image, and after his Likeneſs, Holy, Upright, Wiſe and Good, with Dominion over the Creatures, <hi>Col.</hi> 3.10. <hi>Eph.</hi> 4.24. <hi>Eccleſ.</hi> 7.29.</p>
+               <p>
+                  <hi>Q.</hi> Of what parts did they conſiſt?</p>
+               <p>
+                  <hi>A.</hi> Of Soul and Body, <hi>Matth.</hi> 10.28.</p>
+               <p>
+                  <hi>Q.</hi> Was the Soul of the Earth as the Body was?</p>
+               <p>
+                  <hi>A.</hi> Nay, For God breathed into him the Breath of Life, and he became a living Soul.</p>
+               <p>
+                  <hi>Q.</hi> Where did God place them?</p>
+               <p>
+                  <hi>A.</hi> In the Garden, to work in it, and to keep it. <hi>Gen.</hi> 2.15.</p>
+               <p>
+                  <hi>Q.</hi> Did he give them a Law of Obedience?</p>
+               <p>
+                  <hi>A.</hi> Yea, Which was that of the Tree of Know<g ref="char:EOLhyphen"/>ledge of Good and Evil, in the midſt of the Garden they ſhould not eat, but of every other Tree in the Garden they might freely eat, <hi>Gen.</hi> 2.16, 17.</p>
+               <p>
+                  <hi>Q.</hi> Why did God forbid them to eat of that Tree?</p>
+               <p>
+                  <hi>A.</hi> To try their Obedience, as well as for other Cauſes known to him, <hi>Deut.</hi> 13.3.</p>
+               <p>
+                  <hi>Q.</hi> Did they tranſgreſs that Command?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> What did that Tranſgreſſion bring upon them?</p>
+               <p>
+                  <hi>A.</hi> It brought Death, and other great Miſeries upon them and their Poſterity.</p>
+               <p>
+                  <hi>Q.</hi> What was that Death?</p>
+               <p>
+                  <hi>A.</hi> A Spiritual Death, unto Holineſs and Righ<g ref="char:EOLhyphen"/>teouſneſ whereby they loſt Communion with
+<pb n="6" facs="tcp:95812:5"/>
+God, and fell under his Judgment and Wrath, to<g ref="char:EOLhyphen"/>gether with their Poſterity, and alſo that the Bo<g ref="char:EOLhyphen"/>dy became ſubject to Sickneſs and Death, <hi>John</hi> 5.25. <hi>Eph.</hi> 2.1. <hi>Iſaiah</hi> 59.2. <hi>Rom.</hi> 2.8.</p>
+               <p>
+                  <hi>Q.</hi> Had Man died the bodily Death, if he had not ſinned?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Gen.</hi> 3.18.</p>
+               <p>
+                  <hi>Q.</hi> Did he need any Cloaths before he ſinned?</p>
+               <p>
+                  <hi>A.</hi> Nay.</p>
+               <p>
+                  <hi>Q.</hi> What other Effects brought their Sin into the World?</p>
+               <p>
+                  <hi>A.</hi> It brought a Curſe upon the Earth, and Guilt and Condemnation, and a ſinful Defilement upon them, and all their Poſterity, <hi>Gen.</hi> 3.17. <hi>Pſal.</hi> 51.5. <hi>Rom.</hi> 6.23.</p>
+               <p>
+                  <hi>Q.</hi> Do the Souls of Men die with the Body?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Matth.</hi> 10.28. 2 <hi>Pet.</hi> 1.14.</p>
+               <p>
+                  <hi>Q.</hi> Who was the Serpent that Tempted the Woman to eat of the forbidden Fruit?</p>
+               <p>
+                  <hi>A.</hi> That old Serpent the Devil, <hi>Rev.</hi> 20.2.</p>
+               <p>
+                  <hi>Q.</hi> Doth the Providence of God extend to all the Creatures, from the greateſt to the leaſt, and to all the Actions of Men and Angels?</p>
+               <p>
+                  <hi>A.</hi> Yea, So that a Sparrow falls not to the Ground without the ſame, <hi>Matth.</hi> 10.29, 30. <hi>Pſal.</hi> 103.19.</p>
+               <p>
+                  <hi>Q.</hi> How doth the Providence of God extend to the evil Actions of Men and Devils?</p>
+               <p>
+                  <hi>A.</hi> Not to be the Author or Approver of them, but by his Wiſe, and Powerful, and holy Bounding and Over ruling them, to the Praiſe of his Glory, and to the Good of the Faithful, <hi>Pſal.</hi> 76.10. <hi>Rom.</hi> 8.28.</p>
+            </div>
+            <div n="4" type="section">
+               <pb n="7" facs="tcp:95812:5"/>
+               <head>SECT. IV.</head>
+               <p>
+                  <hi>Q.</hi> WHO is the Redeemer of loſt Men?</p>
+               <p>
+                  <hi>A.</hi> The Lord Jeſus Chriſt, <hi>Job</hi> 19.25.</p>
+               <p>
+                  <hi>Q.</hi> How many Natures hath Chriſt Jeſus?</p>
+               <p>
+                  <hi>A.</hi> Two, his Godhead-nature, and his Man<g ref="char:EOLhyphen"/>hood-nature, <hi>John</hi> 1.14.</p>
+               <p>
+                  <hi>Q.</hi> Was his Manhood-nature Created, and doth it conſiſt of a created Soul and Body?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> How can two ſuch Natures be one Chriſt?</p>
+               <p>
+                  <hi>A.</hi> By the perſonal Union of both, as the Soul and Body of a Man is one Man, 1 <hi>Cor.</hi> 8.6.</p>
+               <p>
+                  <hi>Q.</hi> How was Chriſt the Son of <hi>David</hi> and <hi>Abra<g ref="char:EOLhyphen"/>ham</hi>?</p>
+               <p>
+                  <hi>A.</hi> Becauſe he was born of the Virgin <hi>Mary,</hi> who was deſcended of <hi>David</hi> and <hi>Abraham, Mat.</hi> 1.1, 20, 25.</p>
+               <p>
+                  <hi>Q.</hi> Did Chriſt's Body really partake of <hi>Mary</hi>'s Subſtance?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Why was he to be born of a Virgin?</p>
+               <p>
+                  <hi>A.</hi> That it might be manifeſt he was without all Guilt or Defilement of Sin, and might have no immediate Father but God, being conceived in the Womb of the Virgin by the Holy Ghoſt.</p>
+               <p>
+                  <hi>Q.</hi> What ſignifieth the Names Jeſus and Chriſt?</p>
+               <p>
+                  <hi>A.</hi> Jeſus ſignifieth Saviour and Chriſt Anointed.</p>
+            </div>
+            <div n="5" type="section">
+               <head>SECT. V.</head>
+               <p>
+                  <hi>Q.</hi> HOW many Offices hath Chriſt?</p>
+               <p>
+                  <hi>A.</hi> Three, the Office of a Prophet, of a Prieſt, and of a King.</p>
+               <p>
+                  <pb n="8" facs="tcp:95812:6"/>
+                  <hi>Q.</hi> Hath he not many other Offices; as Head; Husband, Mediator, Advocate, Biſhop, Shepherd, Captain, Phyſician?</p>
+               <p>
+                  <hi>A.</hi> They are all contain'd under theſe three.</p>
+               <p>
+                  <hi>Q.</hi> Was it needful that he ſhould be both God and Man, in one Perſon, to perform all theſe his three Offices?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Is not Chriſt the Foundation of all the Faithful in particular, and of the whole Church in general, as he is both God and Man, and as he is Prophet, Prieſt and King, and as ſuch is not he, the Vine, and they the Branches?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Iſaiah</hi> 28.16. 1 <hi>Cor.</hi> 3.11. <hi>Eph.</hi> 2.20. 1 <hi>Pet.</hi> 2.6. <hi>John</hi> 15.5.</p>
+               <p>
+                  <hi>Q.</hi> How doth Chriſt perform the Office of a Prophet?</p>
+               <p>
+                  <hi>A.</hi> By teaching us by his Word and Doctrin outwardly delivered to us in the Holy Scriptures, by Reading and Preaching, and by his Spirit in<g ref="char:EOLhyphen"/>wardly enlightning our Minds to underſtand what is outwardly delivered, <hi>Iſaiah</hi> 59.23. <hi>John</hi> 17.8, 14, 20. <hi>John</hi> 16.13.</p>
+               <p>
+                  <hi>Q.</hi> Have not Men ſome knowledg of God, with<g ref="char:EOLhyphen"/>out the Scriptures?</p>
+               <p>
+                  <hi>A.</hi> Yea, and all Men may know ſome things of God and of his Will, without the Scriptures, part<g ref="char:EOLhyphen"/>ly by what God doth manifeſt in them, and part<g ref="char:EOLhyphen"/>ly by the Works of Creation, and Providence with<g ref="char:EOLhyphen"/>out them, and towards them, <hi>Rom.</hi> 1.19, 20. <hi>John</hi> 1.9.</p>
+               <p>
+                  <hi>Q.</hi> But are the peculiar Doctrins of the Chri<g ref="char:EOLhyphen"/>ſtian Religion, concerning the way of Life and
+<pb n="9" facs="tcp:95812:6"/>
+Salvation revealed to Mankind, without the Scriptures, or ſome outward Means of Inſtruction, according to the Doctrin of the Holy Scriptures?</p>
+               <p>
+                  <hi>A.</hi> Nay.</p>
+               <p>
+                  <hi>Q.</hi> How was the Doctrin of Salvation made known to Men, before the Scriptures were writ?</p>
+               <p>
+                  <hi>A.</hi> The ſame Doctrin was taught by good and holy Men with word of Mouth, which was accom<g ref="char:EOLhyphen"/>panied with the inward teaching of the Spirit of God in all the Faithful.</p>
+               <p>
+                  <hi>Q.</hi> How had they that Doctrin outwardly con<g ref="char:EOLhyphen"/>veyed unto them?</p>
+               <p>
+                  <hi>A.</hi> By means of the Prophets, whom God raiſ<g ref="char:EOLhyphen"/>ed up in the ſeveral Ages from <hi>Adam</hi> to <hi>Moſes,</hi> and the following Prophets.</p>
+               <p>
+                  <hi>Q.</hi> What is the Goſpel of Salvation? Is it not the Doctrin of Salvation, as held forth in the Ho<g ref="char:EOLhyphen"/>ly Scriptures, by and through Jeſus Chriſt, with reſpect to his Birth, Life, Death, Reſurrection, <hi>&amp;c.</hi> And ſpiritual Bleſſings received by him?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Luke</hi> 2.10.</p>
+               <p>
+                  <hi>Q.</hi> Is it not a greater Error, to ſay, that the Light within every Man, that teacheth nothing of Chriſt Crucified, and raiſed again, is the Goſpel of Chriſt, yea, the whole Goſpel without any thing elſe?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> What place of Scripture in the Old Teſta<g ref="char:EOLhyphen"/>ment, did ſhow that Chriſt the promiſed Meſſiah ſhould be a Prophet, whom all were to hear?</p>
+               <p>
+                  <hi>A. Deut.</hi> 18.15, 16, 17, 18. The Lord thy God will raiſe up unto thee a Prophet, <hi>&amp;c.</hi>
+               </p>
+               <p>
+                  <pb n="10" facs="tcp:95812:7"/>
+                  <hi>Q.</hi> What place in the Old Teſtament did ſhow that he was to give Light to the <hi>Gentiles</hi>?</p>
+               <p>
+                  <hi>A. Iſaiah</hi> 49.6. I will alſo give thee for a Light to the <hi>Gentiles,</hi> that thou mayeſt be my Salva<g ref="char:EOLhyphen"/>tion to the end of the Earth.</p>
+               <p>
+                  <hi>Q.</hi> Was that Prophecie fulfilled by the common Illumination, given to all Mankind without the Preaching of the Goſpel, requiring Faith in Chriſt Crucified?</p>
+               <p>
+                  <hi>A.</hi> Nay, But by the Preaching of the Goſpel, and the ſpecial Illuminations of Chriſt, by the ho<g ref="char:EOLhyphen"/>ly Spirit inwardly accompanying it, 2 <hi>Cor.</hi> 4.4, 6. <hi>Epheſ.</hi> 1, 17, 18.</p>
+               <p>
+                  <hi>Q.</hi> How did it appear that the Man Jeſus, born of <hi>Mary</hi> was that Prophet?</p>
+               <p>
+                  <hi>A.</hi> By his Prophecies, his Miracles, his moſt ex<g ref="char:EOLhyphen"/>cellent Doctrin, and moſt holy Life, and the ma<g ref="char:EOLhyphen"/>ny other things that did agree to him only, and could agree to none other.</p>
+               <p>
+                  <hi>Q.</hi> What things did the Prophets chiefly bare witneſs unto, and deliver as their Meſſage?</p>
+               <p>
+                  <hi>A.</hi> The coming of Chriſt in the Fleſh, his Pro<g ref="char:EOLhyphen"/>phetical, Prieſtly, and Kingly Office, the Promi<g ref="char:EOLhyphen"/>ſes of Salvation, and Remiſſion of Sin through Faith in him, with the Gift of the Holy Spirit, and the ſaving Gifts and Graces thereof, <hi>Acts</hi> 26.22, 23.</p>
+            </div>
+            <div n="6" type="section">
+               <head>SECT. VI.</head>
+               <p>
+                  <hi>Q.</hi> HOW did Chriſt perform the Office of a Prieſt?</p>
+               <p>
+                  <hi>A.</hi> By dying for our Sins, and offering up himſelf a Sacrifice by his Death, to ſatisfie the Ju<g ref="char:EOLhyphen"/>ſtice
+<pb n="11" facs="tcp:95812:7"/>
+of God, and thereby to reconcile us unto God, and by his continual Mediation and Inter<g ref="char:EOLhyphen"/>ceſſion for us in Heaven, 1 <hi>Cor.</hi> 15.3. <hi>Eph.</hi> 5.2. <hi>Heb.</hi> 9.26. <hi>Heb.</hi> 7.25.</p>
+               <p>
+                  <hi>Q.</hi> Why was it neceſſary that he ſhould dye for our Sins?</p>
+               <p>
+                  <hi>A.</hi> Becauſe Death was the puniſhment due to us for our Sins, which he, being our Surety, did undergo for us; and the nature of an expiatory Sacrifice required, that he ſhould be ſlain, and his Blood ſhould be ſhed.</p>
+               <p>
+                  <hi>Q.</hi> What Blood is that which Chriſt hath re<g ref="char:EOLhyphen"/>deemed us with, and by which we are juſtified, cleanſed and ſanctified?</p>
+               <p>
+                  <hi>A.</hi> The real Blood of his Body that was out<g ref="char:EOLhyphen"/>wardly ſhed, at his paſſion, on the Tree of the Croſs.</p>
+               <p>
+                  <hi>Q.</hi> Was the Prieſthood of Chriſt foretold by any of the Prophets?</p>
+               <p>
+                  <hi>A.</hi> Yea, by <hi>David,</hi> in the Hundred and Tenth Pſalm and fourth verſe, <hi>The Lord hath ſworn and will not repent, thou art a Prieſt for ever after the order of</hi> Melchiſedeck.</p>
+               <p>
+                  <hi>Q.</hi> What places in the New Teſtament hold forth Chriſt to be a Prieſt and our High Prieſt?</p>
+               <p>
+                  <hi>A.</hi> Many places in the Epiſtle to the <hi>Hebrews,</hi> as <hi>Heb.</hi> 2.17. <hi>Heb.</hi> 3.1. 4.14. 15.5. 1.5. 10.7. 26.8. 1.3. 9.11. 25.10. 21.</p>
+               <p>
+                  <hi>Q.</hi> Were not the High Prieſts under the Law, Types of Chriſt our High Prieſt under the Goſpel?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Were not the Sacrifices under the Law, and the Paſſover Types of Chriſt, the only effectual Sacrifice for the Remiſſion of our Sins, and Ju<g ref="char:EOLhyphen"/>ſtification
+<pb n="12" facs="tcp:95812:8"/>
+and Sanctification by his Blood?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Did <hi>Moſes</hi> and the Prophets foretell of Chriſt's Death, and Sufferings, and that he ſhould be the firſt that ſhould riſe from the dead, and give Light to the Gentiles?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Acts</hi> 26.22, 23.</p>
+               <p>
+                  <hi>Q.</hi> What is the firſt promiſe that was given to Men, concerning Chriſt, and Salvation by him?</p>
+               <p>
+                  <hi>A.</hi> That in <hi>Gen.</hi> 3.15. that the Seed of the Wo<g ref="char:EOLhyphen"/>man ſhould bruiſe the Head of the Serpent, and he ſhould bruiſe his heel.</p>
+               <p>
+                  <hi>Q.</hi> Why is Chriſt called the Seed of the Woman?</p>
+               <p>
+                  <hi>A.</hi> Becauſe he was made of a Woman, and born of her, without the knowledge of a Man.</p>
+               <p>
+                  <hi>Q.</hi> What is meant by the Serpents bruiſing his heel?</p>
+               <p>
+                  <hi>A.</hi> The Death and Sufferings of Chriſt, who was put to death, by the Inſtigation of the Devil, that moved the Jews and <hi>Pontius Pilate</hi> againſt him.</p>
+               <p>
+                  <hi>Q.</hi> What is meant by the Woman's Seed brui<g ref="char:EOLhyphen"/>ſing the Serpent's Head?</p>
+               <p>
+                  <hi>A.</hi> His complete and perfect Victory over him, firſt in his own Perſon by his Reſurrection from the dead on the third day, and next by what ſhall in due time be accompliſhed in all the Faithful who are his Members, by his victorious Power, in deſtroying his Kingdom of Sin in them, and de<g ref="char:EOLhyphen"/>livering them, from all the effects of Sin, at the Reſurrection of the dead, <hi>Heb.</hi> 2.14. 1 <hi>John</hi> 3.8.</p>
+               <p>
+                  <hi>Q.</hi> Is Chriſt Jeſus, as he outwardly came in the Fleſh the Seed that was promiſed by God, to <hi>A<g ref="char:EOLhyphen"/>braham,</hi> that in him all Nations of the Earth ſhould be Bleſſed?</p>
+               <p>
+                  <pb n="13" facs="tcp:95812:8"/>
+                  <hi>A.</hi> Yea, <hi>Gen.</hi> 22.18. 26.4. 28.14. <hi>Acts</hi> 3.25. <hi>Gal.</hi> 3.16.</p>
+               <p>
+                  <hi>Q.</hi> How is that promiſe fulfilled?</p>
+               <p>
+                  <hi>A.</hi> That whoever of all Nations ſhould believe in him, ſhould be bleſſed with the Remiſſion of their Sins, and the gift of the Holy Spirit, and the ſaving gifts thereof, be juſtified and adopted to be God's Children, ſanctified, and in the end eternally glorified, <hi>Acts</hi> 10.43. <hi>Acts</hi> 13.38. 39.26. 18. <hi>Joh.</hi> 1.12. 13.7. 38.39.</p>
+               <p>
+                  <hi>Q.</hi> How is Chriſt a Prieſt for ever?</p>
+               <p>
+                  <hi>A.</hi> Becauſe the efficacy, merit and worth of his being a Sacrifice for our Sins, by that one of<g ref="char:EOLhyphen"/>fering, did extend to the Faithful, from the begin<g ref="char:EOLhyphen"/>ning of the world, and will extend to them, to the end of it, for Remiſſion of Sin and Eternal Salvation, and that he continually appears before God, ever living to make Interceſſion for us, <hi>Acts</hi> 15.11. <hi>Heb.</hi> 11.13. 7.25.</p>
+            </div>
+            <div n="7" type="section">
+               <head>SECT. VII.</head>
+               <p>
+                  <hi>Q.</hi> HOw doth Chriſt perform his Kingly Of<g ref="char:EOLhyphen"/>fice?</p>
+               <p>
+                  <hi>A.</hi> By his various Adminiſtrations of it in the ſeveral parts thereof.</p>
+               <p>
+                  <hi>Q.</hi> Hath Chriſt a Kingly Power and Govern<g ref="char:EOLhyphen"/>ment over the Angels both good and bad?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> How hath he a Kingly Power and Govern<g ref="char:EOLhyphen"/>ment over the evil Angels, and Devils, and evil Men?</p>
+               <p>
+                  <hi>A.</hi> By reſtraining and limiting their Power, over-ruling their evil deſigns and actions, and
+<pb n="14" facs="tcp:95812:9"/>
+cauſing them to turn to his Glory, and to the Good of the Faithful, and laſtly by Judging and Puniſh<g ref="char:EOLhyphen"/>ing them at the laſt day, <hi>Pſal.</hi> 103.19. <hi>Pſal.</hi> 76.10. <hi>Rom.</hi> 8.28. <hi>Matth.</hi> 25.41, 46.</p>
+               <p>
+                  <hi>Q.</hi> What Acts of Kingly Power did Chriſt ſhew forth on Earth before his Paſſion?</p>
+               <p>
+                  <hi>A.</hi> He commanded the Winds and the Seas, and they obeyed him, he caſt out Devils, and wrought Miracles by his own Power, and forgave Sins, <hi>Matth.</hi> 8.27. <hi>Mark</hi> 1.27. <hi>Matth.</hi> 9.6.</p>
+               <p>
+                  <hi>Q.</hi> What places in the Old Teſtament did fore<g ref="char:EOLhyphen"/>tell of his Kingly Office and Government?</p>
+               <p>
+                  <hi>A.</hi> Diverſe, ſuch as <hi>Pſal.</hi> 2.6. I have ſet my King upon my holy Hill of <hi>Sion, Iſaiah</hi> 9.6, 7. and 32.1, 2. <hi>Dan.</hi> 7.13, 14.</p>
+               <p>
+                  <hi>Q.</hi> Was his riſing from the Dead, and aſcen<g ref="char:EOLhyphen"/>ding into Heaven, and his being ſet down at the right Hand of God, Acts of his Kingly Office and Power?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 10.18. <hi>Epheſ.</hi> 4.8. 9. <hi>Pſal.</hi> 110.1. 2.</p>
+               <p>
+                  <hi>Q.</hi> How doth he perform his Kingly Office o<g ref="char:EOLhyphen"/>ver the Heirs of Salvation, and his Church?</p>
+               <p>
+                  <hi>A.</hi> By Converting them, and giving his holy Spirit to Renew and Sanctifie them, with the ſaving Gifts and Graces thereof, giving them Faith and Repentance, Juſtifying and Adopting them to be the Children of God, and his Members, giving them his Laws and Writing them in their Hearts, protecting and preſerving them in this world, receiving their Souls and Spirits after Death, to be with him, and raiſing their dead Bodies from Death to eternal Life, and Immortality at the Reſurrection of the Dead, and placing them in thoſe heavenly Manſions he has prepared for
+<pb n="15" facs="tcp:95812:9"/>
+them in the Heavens, <hi>Iſaiah</hi> 53.10, 11. <hi>Iſaiah</hi> 60.5. <hi>Acts</hi> 5.31. <hi>John</hi> 4.14, 7, 38, 39. <hi>Jer.</hi> 31.31. <hi>John</hi> 10.28, 29. <hi>Acts</hi> 7.59. <hi>John</hi> 6.40. <hi>John</hi> 14.2, 3.</p>
+               <p>
+                  <hi>Q.</hi> Is there to be a Reſurrection of the Bodies of the Unjuſt, as well as of the Juſt, and ſhall the Unjuſt be caſt into Hell, that burneth with un<g ref="char:EOLhyphen"/>quenchable Fire?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 5.28. <hi>Matth.</hi> 25.46.</p>
+               <p>
+                  <hi>Q.</hi> Is Chriſt to come from Heaven to Judge both the Quick and the Dead?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Acts</hi> 1.11. <hi>Acts</hi> 17.31.</p>
+               <p>
+                  <hi>Q.</hi> Will his coming and appearance be without us in his glorified Body and true Manhood-nature?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Acts</hi> 3.20, 21. <hi>Phil.</hi> 3.20.</p>
+               <p>
+                  <hi>Q.</hi> When will the time be that he will ſo come?</p>
+               <p>
+                  <hi>A.</hi> Of that Day and Hour knoweth no Man, nor the Angels in Heaven, <hi>Matth.</hi> 24.36, 42, 44.</p>
+               <p>
+                  <hi>Q.</hi> Why hath not God pleaſed to reveal the particular time of it?</p>
+               <p>
+                  <hi>A.</hi> That we may not be ſloathful, but continual<g ref="char:EOLhyphen"/>ly watching and preparing for our Lord's coming. <hi>Matth.</hi> 24.42.</p>
+            </div>
+            <div n="8" type="section">
+               <head>SECT. VIII.</head>
+               <p>
+                  <hi>Q.</hi> CAN any Men be ſaved, whether <hi>Jews</hi> or <hi>Gentiles,</hi> ſimply by the Works of the Law?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Gal.</hi> 2.16.</p>
+               <p>
+                  <hi>Q.</hi> Why can they not?</p>
+               <p>
+                  <hi>A.</hi> Becauſe the Law doth require perfect and perpetual Obedience from every Man in his own Perſon; but this no Man ever did (the Man Chriſt Jeſus excepted) nor ever can do, for all have ſin<g ref="char:EOLhyphen"/>ned, and, faln ſhort of the Glory of God, and by
+<pb n="16" facs="tcp:95812:10"/>
+the Law, both inwardly writ in the Heart, and outwardly written in the Book, every Mouth is ſtopped, and the whole World is guilty before God, <hi>Rom.</hi> 3.19. 20.</p>
+               <p>
+                  <hi>Q.</hi> Were none ever ſaved, nor can be ſaved by the Terms of the Covenant of Works, do and live?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Rom.</hi> 4.15.</p>
+               <p>
+                  <hi>Q.</hi> By what Covenant then are they ſaved who are the Heirs of Salvation?</p>
+               <p>
+                  <hi>A.</hi> By the Covenant of Grace, <hi>Rom.</hi> 11.6.</p>
+               <p>
+                  <hi>Q.</hi> With whom is the Covenant of Grace made?</p>
+               <p>
+                  <hi>A.</hi> It is made originally with Chriſt, the ſecond <hi>Adam</hi> (as the firſt Covenant of Works was made with the firſt <hi>Adam</hi>) and through him the Media<g ref="char:EOLhyphen"/>tor of it, with all his elect Members, whom God the Father had choſen in him, before the Founda<g ref="char:EOLhyphen"/>tion of the World, to be Holy, and without Blame before him in love, <hi>Pſal.</hi> 89.28. <hi>Iſaiah</hi> 59.21. <hi>Pſal.</hi> 40.6, 7. <hi>Heb.</hi> 12.24. <hi>Eph.</hi> 1.4.</p>
+               <p>
+                  <hi>Q.</hi> When was this Covenant made betwixt God the Father, and Jeſus Chriſt the Son?</p>
+               <p>
+                  <hi>A.</hi> It was deſigned in the Counſel and Purpoſe of God, before all Ages, but the Adminiſtration of it began in time after Man's Fall, 2 <hi>Tim.</hi> 1.9. 10.</p>
+               <p>
+                  <hi>Q.</hi> What was to be performed by Chriſt on his part, by Virtue of this Covenant?</p>
+               <p>
+                  <hi>A.</hi> To dye for us, and be a Sacrifice to God for our Sins, to Suffer in our ſtead, and make Sa<g ref="char:EOLhyphen"/>tisfaction to the Juſtice of God, to apply to us the Merits, Virtue, and Efficacy of his Death and Sufferings, for the Remiſſion of Sins, by his giving us the holy Spirit, to work in us Faith, and Repentance, and all other ſaving Graces and Vir<g ref="char:EOLhyphen"/>tues, to enable us by his Grace to perform ſin<g ref="char:EOLhyphen"/>cere
+<pb n="17" facs="tcp:95812:10"/>
+Obedience to God's Commands, <hi>Eph.</hi> 2.10. <hi>Dan.</hi> 9.27. <hi>Heb.</hi> 7.22. 1 <hi>Pet.</hi> 3.18. <hi>Eph.</hi> 4.12, 16.</p>
+               <p>
+                  <hi>Q.</hi> What is required in the Covenant of Grace on our part, that we may partake of the Bene<g ref="char:EOLhyphen"/>fits of Chriſt's Redemption and Mediation?</p>
+               <p>
+                  <hi>A.</hi> Repentance towards God, and Faith to<g ref="char:EOLhyphen"/>wards our Lord Jeſus Chriſt, <hi>Acts</hi> 20.21.</p>
+               <p>
+                  <hi>Q.</hi> What is Repentance?</p>
+               <p>
+                  <hi>A.</hi> It is not only a real Sorrow and Grief for Sin, but a true and real forſaking of it, the Ha<g ref="char:EOLhyphen"/>tred and Averſion of it, and a Sincere turning of the Heart to God and Chriſt, and a true Reſoluti<g ref="char:EOLhyphen"/>on to keep God's Commandments, 2 <hi>Cor.</hi> 7.9, 10, 11. <hi>Prov.</hi> 28.13. <hi>Acts</hi> 3.19. <hi>Psal.</hi> 119.104. <hi>Acts</hi> 11.23. <hi>Pſal.</hi> 119.106.</p>
+               <p>
+                  <hi>Q.</hi> What is the chief moving cauſe to true Goſpel Repentance?</p>
+               <p>
+                  <hi>A.</hi> The having ſinned againſt a moſt holy, and a moſt merciful and gracious God, and ſuch a merciful and gracious Redeemer and Saviour our Lord Jeſus Chriſt, who ſuffered ſo great Sor<g ref="char:EOLhyphen"/>row and Grief for our Sins, <hi>Zach.</hi> 12.10.</p>
+               <p>
+                  <hi>Q.</hi> What is Faith towards the Lord Jeſus Chriſt?</p>
+               <p>
+                  <hi>A.</hi> It is not only to aſſent to the Truth of his Doctrin, but a receiving, relying, and reſting up<g ref="char:EOLhyphen"/>on him for Life and Salvation, and upon the Mer<g ref="char:EOLhyphen"/>cy and Favour of God, through him, as held forth in the Doctrin, and eſpecially in the Promiſes of the Goſpel, <hi>John</hi> 20.31. <hi>John</hi> 1.12. <hi>Isaiah</hi> 11.10. <hi>Iſaiah</hi> 32.2. <hi>Jude</hi> 21. <hi>Matth.</hi> 11.28. 2 <hi>Cor.</hi> 1.20.</p>
+               <p>
+                  <hi>Q.</hi> Doth the Goſpel contain not only Promi<g ref="char:EOLhyphen"/>ſes, but alſo Commands of God and of Chriſt?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 14.21. <hi>John</hi> 15.10.</p>
+               <p>
+                  <hi>Q.</hi> Doth the Goſpel and Covenant of Grace require holineſs of Life, and good Works?</p>
+               <p>
+                  <pb n="18" facs="tcp:95812:11"/>
+                  <hi>A.</hi> Yea, <hi>Mathh.</hi> 5.16, 48. i <hi>Theſſ.</hi> 4.7. i <hi>Tim.</hi> 6.18.</p>
+               <p>
+                  <hi>Q.</hi> How doth it require them? as any part of ſatisfaction to Divine Juſtice, or by way of me<g ref="char:EOLhyphen"/>rit to our Juſtification before God, or to be the foundation and cauſe of it.</p>
+               <p>
+                  <hi>A. Nay.</hi>
+               </p>
+               <p>
+                  <hi>Q.</hi> How then doth it require them?</p>
+               <p>
+                  <hi>A.</hi> As our duty, and to anſwer the great love of God, and of Chriſt, and the great end of his coming into the world, and his dying for us, that we being dead unto ſin, might live unto righteouſ<g ref="char:EOLhyphen"/>neſs, and that by them, and in the performance of them we might pleaſe God, and find acceptance of him, through Chriſt, and for his ſake, and be thereby fitted for Communion with God, and (being made like him) for the Inheritance in the Kingdom of Heaven, 2 <hi>Cor.</hi> 5.14. <hi>Titus</hi> 2.14. 1 <hi>Pet.</hi> 2.24. 1 <hi>Joh.</hi> 3.22. 1 <hi>Joh.</hi> 1.7. <hi>Colloſſ.</hi> 1.12.</p>
+               <p>
+                  <hi>Q.</hi> Do then the good works and holy living of the Saints by ſincere obedience pleaſe God, and are they accepted of him and rewarded by him?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Heb.</hi> 11.5. 6. <hi>Colloſſ.</hi> 3.24. <hi>Rev.</hi> 22.12.</p>
+               <p>
+                  <hi>Q.</hi> How can that be, when they fall ſhort of that perfection which the Law requires?</p>
+               <p>
+                  <hi>A.</hi> Wherein they fall ſhort, God doth pardon them, for Chriſt's ſake, and accepts of them, in and through him, ſo far, as they are ſincerely per<g ref="char:EOLhyphen"/>formed in faith and love by the help of his holy Spirit, <hi>Micah</hi> 7.18. <hi>Eph.</hi> 4.32. <hi>Pſal.</hi> 103.12. 13.14.</p>
+               <p>
+                  <hi>Q.</hi> Are any juſtified before true faith and re<g ref="char:EOLhyphen"/>pentance is wrought in them?</p>
+               <p>
+                  <hi>A.</hi> Nay.</p>
+               <p>
+                  <hi>Q.</hi> How are Believers juſtified by the righteouſ<g ref="char:EOLhyphen"/>neſs and obedience of Chriſt wrought by him, without them, and imputed unto them? are they
+<pb n="19" facs="tcp:95812:11"/>
+equally righteous with him, or are they without all ſpot or ſault before God, while they have ſin<g ref="char:EOLhyphen"/>ful imperfections in them?</p>
+               <p>
+                  <hi>A.</hi> Nay, 1 <hi>John</hi> 1.8.</p>
+               <p>
+                  <hi>Q.</hi> What then is the true ſenſe of the imputa<g ref="char:EOLhyphen"/>tion of Chriſt's righteouſneſs unto Believers?</p>
+               <p>
+                  <hi>A.</hi> That God for the ſake of Chriſt's righteouſ<g ref="char:EOLhyphen"/>neſs, freely pardoneth their ſins, giveth them a right to eternal life, dealeth with, and accepteth them as righteous in his ſight, owneth and favo<g ref="char:EOLhyphen"/>reth them, in the relation of Children, <hi>Mal.</hi> 3.17. <hi>Eph.</hi> 1.6. <hi>Iſa.</hi> 63.8. 9.2 <hi>Cor.</hi> 6.18.</p>
+               <p>
+                  <hi>Q.</hi> How is Chriſt Jeſus the object of faith, for remiſſion of ſin, juſtification, regeneration and ſan<g ref="char:EOLhyphen"/>ctification? Is it not as he is both God and Man, and as being Man, as he dyed for us, and roſe again, and is in Heaven, our Advocate and Me<g ref="char:EOLhyphen"/>diator with the Father?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Rom.</hi> 8.34. <hi>Rom.</hi> 10.8. 9.10.</p>
+               <p>
+                  <hi>Q.</hi> Is it not therefore a great error in them, who teach that it is ſufficient to our Salvation, to believe in Chriſt, only as he is God, and as he is the word, and light, that lightens every Man that comes into the world, without all knowledge of Chriſt crucified, and raiſed from the dead, and without all faith in him as ſuch?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Philip.</hi> 3.8.</p>
+               <p>
+                  <hi>Q.</hi> What is the nature of true ſaving faith, and how is it evidenced?</p>
+               <p>
+                  <hi>A.</hi> It is a lively operative faith, that worketh by love, and is fruitful in good works, and is ne<g ref="char:EOLhyphen"/>ver alone, but is always accompanied with hope, charity, temperance, juſtice, humility, meekneſs, patience, holy fear, and other Evangelical Virtues, and fruits of the Spirit, <hi>Gal.</hi> 5.6. 22.</p>
+               <p>
+                  <pb n="20" facs="tcp:95812:12"/>
+                  <hi>Q.</hi> How is faith wrought in God's ordinary way in Men?</p>
+               <p>
+                  <hi>A.</hi> By hearing the word and doctrine of the Goſ<g ref="char:EOLhyphen"/>pel outwardly preached or read, the Spirit of God inwardly operating with and by the word. <hi>Rom.</hi> 20.14. 17. 1 <hi>Cor.</hi> 1.21. 24.</p>
+               <p>
+                  <hi>Q.</hi> Are ſuch excluded from the poſſibility of ha<g ref="char:EOLhyphen"/>ving ſaving faith in Chriſt Jeſus, and of Salvation by him, who hear not the word outwardly prea<g ref="char:EOLhyphen"/>ched, either for want of the ſenſe of hearing, or for want of all poſſible means to hear it?</p>
+               <p>
+                  <hi>A.</hi> Nay, for although in God's ordinary way, it hath pleaſed God to ſave Men by the fooliſhneſs of Preaching, and that faith comes by hearing, and hearing by the word of God, as outwardly taught by preaching or reading, yet God is abun<g ref="char:EOLhyphen"/>dantly ſufficient to work that faith in any, by his Spirit, who worketh when, where, and how he pleaſeth.</p>
+               <p>
+                  <hi>Q.</hi> But is not the neglect of hearing the word outwardly taught, and of uſing other outward means of grace, where they can be had, ſuch a hainous ſin, that if continued in, takes away all ground of hope of Salvation?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Heb.</hi> 2.1. 2.3. <hi>Heb.</hi> 6.12. <hi>Heb.</hi> 10.25.</p>
+            </div>
+            <div n="9" type="section">
+               <head>SECT. IX.</head>
+               <p>
+                  <hi>Q.</hi>
+WHat uſe hath that inward law of righ<g ref="char:EOLhyphen"/>teouſneſs or illumination in all Men, both good and bad, Believers and Unbelievers, Chri<g ref="char:EOLhyphen"/>ſtians and Heathens, if no promiſe be given of God, that any ſhall be eternally ſaved by that alone, and by their obedience to it, without ſome degree
+<pb n="21" facs="tcp:95812:12"/>
+of faith in Chriſt crucified explicite or implicite?</p>
+               <p>
+                  <hi>A.</hi> It is of great uſe, both to the Unbeliever and Believer, to the Heathen and Chriſtian, <hi>Iſaiah</hi> 40.3. <hi>Rom.</hi> 2.12. 14.15. 16.</p>
+               <p>
+                  <hi>Q.</hi> What uſe hath it to the Heathen and Unbe<g ref="char:EOLhyphen"/>liever?</p>
+               <p>
+                  <hi>A.</hi> As a preparatory miniſtration in a lower de<g ref="char:EOLhyphen"/>gree, and kind of operation, for convincing of moral duties, and the contrary Sins and Vices for reſtraining them, from great immorality, for rendring them without excuſe, and liable to the judgment of Chriſt, according to which, they are to be judged, and laſtly for the government of the World, and preſerving good order, equity, and juſtice among Men: It being that whereby mainly God's providential Kingdom is maintain<g ref="char:EOLhyphen"/>ed, and adminiſtred in the World, according to <hi>Pſalm</hi> 103.19. <hi>and his kingdom ruleth over all.</hi>
+               </p>
+               <p>
+                  <hi>Q.</hi> What uſe hath it to true Believers and Chri<g ref="char:EOLhyphen"/>ſtians?</p>
+               <p>
+                  <hi>A.</hi> It ſerves for a rule of life (together with the Scriptures) in things of moral honeſty, juſtice and temperance, and obedience to it, as a rule of moral life is ſo neceſſary, that no Man can be ſa<g ref="char:EOLhyphen"/>ved, without ſincere obedience to it, and all tranſ<g ref="char:EOLhyphen"/>greſſions againſt it, in any, are hainous ſins, <hi>Mat.</hi> 7.12.</p>
+               <p>
+                  <hi>Q.</hi> What is the ſumm of the moral Law?</p>
+               <p>
+                  <hi>A.</hi> To love the Lord our God, with all our heart, with all our Soul, and with all our mind, and to love our neighbour as our ſelf, on theſe two Commandments hang all the Law and the Pro<g ref="char:EOLhyphen"/>phets, <hi>Matth.</hi> 22.37. 38.39. 40. <hi>Deut.</hi> 6.5. <hi>Lev.</hi> 19.18.</p>
+            </div>
+            <div n="10" type="section">
+               <pb n="22" facs="tcp:95812:13"/>
+               <head>SECT. X.</head>
+               <p>
+                  <hi>Q.</hi> WHat are the Laws that God doth write in the hearts of the faithful, as he has promiſed in the new Covenant? Are they not the ſame contained in the holy Scriptures, excepting the Ceremonial part, and ſome other Laws pe<g ref="char:EOLhyphen"/>culiar to the Jews?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Jerem.</hi> 31.31.</p>
+               <p>
+                  <hi>Q.</hi> Are not many of theſe Laws belonging to the new Covenant, other, and diſtinct from the Law writ in the hearts of all Mankind, common<g ref="char:EOLhyphen"/>ly called the Law of Nature, particularly ſuch as reſpect the peculiar Doctrins and Precepts of the Chriſtian Religion, and the poſitive Inſtitu<g ref="char:EOLhyphen"/>tions of Chriſt concerning Baptiſme and the Sup<g ref="char:EOLhyphen"/>per, and Chriſtian Diſcipline in the Church of Chriſt?</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Doth God write thoſe Laws of the new Co<g ref="char:EOLhyphen"/>venant in the hearts of his People, without all uſe of outward means?</p>
+               <p>
+                  <hi>A.</hi> Nay, but in the uſe of them, 2 <hi>Cor.</hi> 3.3.</p>
+               <p>
+                  <hi>Q.</hi> What is the difference betwixt the writing of the Law, in the hearts of Unbelievers, and Heathens, and that writing in the hearts of the faithful?</p>
+               <p>
+                  <hi>A.</hi> The former hath it writ in hard and ſtony hearts, the other hath it writ in hearts of fleſh that are made by the Lord ſoft and tender, as he hath promiſed, <hi>Ezek.</hi> 36.26. 2 <hi>Cor.</hi> 3.3.</p>
+               <p>
+                  <hi>Q.</hi> Of what ſervice are the promiſes contained in the Scripture to the faithful?</p>
+               <p>
+                  <hi>A.</hi> Of exceeding great uſe and ſervice, for by
+<pb n="23" facs="tcp:95812:13"/>
+them through the operation of the Spirit, true Be<g ref="char:EOLhyphen"/>lievers are made partakers of the Divine nature, and have a lively hope begot in them, that what God hath promiſed, he will faithfully perform, both in this life, and in the life to come, 1 <hi>Tim.</hi> 4.8. <hi>Heb.</hi> 13.5. 2 <hi>Pet.</hi> 1.4. 1 <hi>Pet.</hi> 4.8. 19.</p>
+               <p>
+                  <hi>Q.</hi> Is God and Chriſt in all Men, both Believers and Unbelievers?</p>
+               <p>
+                  <hi>A.</hi> God and Chriſt (as the word) and alſo the Spirit, are in all Creatures, as to their eſſential preſence, <hi>Pſal.</hi> 139.7. it being one of God's Attri<g ref="char:EOLhyphen"/>butes, to be omnipreſent, as well as omniſcient, and omnipotent, and therefore they are in all Men both Believers and Unbelievers, but in reſpect of their Operations and Manifeſtations, the difference is great.</p>
+               <p>
+                  <hi>Q.</hi> What is the difference betwixt the manner of God and Chriſt, their Operations and Manife<g ref="char:EOLhyphen"/>ſtations, in Be<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>vers and Unbelievers?</p>
+               <p>
+                  <hi>A.</hi> Believers have ſpecial and peculiar Manife<g ref="char:EOLhyphen"/>ſtations and Operations of God, Chriſt, and the holy Spirit in them, which Unbelievers have not; and God, and Chriſt, and the holy Spirit are in the Faithful by union, and communion, and inhabita<g ref="char:EOLhyphen"/>tion, or indwelling by Faith and Love, but they are not ſo in Unbelievers; hence it is that Unbelie<g ref="char:EOLhyphen"/>vers are ſaid to be without God and Chriſt in the world, without hope, ſtrangers and aliens from the Commonwealth of <hi>Iſrael,</hi> 1 <hi>Cor.</hi> 2.12. 14. <hi>Eph.</hi> 1.17. 18. 1 <hi>John</hi> 1.3. <hi>Eph.</hi> 3.17. 1 <hi>Cor.</hi> 6.17. <hi>Phil.</hi> 2.1. <hi>Eph.</hi> 2.12.</p>
+               <p>
+                  <hi>Q.</hi> How is Chriſt the Saints hope of Glory, <hi>Col.</hi> 1.27. is it only as within them, conſidered only as God, and as the Word, or is it, both as with<g ref="char:EOLhyphen"/>out
+<pb n="24" facs="tcp:95812:14"/>
+out them, as he is God-Man, their Prophet, Prieſt and King, Mediator and Advocate, and Head, and alſo as within them, as he is the Word, Light and Life?</p>
+               <p>
+                  <hi>A.</hi> Chriſt is the Saints hope of Glory both ways conſidered, for <hi>Paul</hi> gave thanks to God, for the hope laid up for the believing <hi>Coloſſians</hi> in Heaven, <hi>Col.</hi> 1.3. 4.5. and ſurely that was without them, and not within them only; alſo the hope of the Faithful, is ſaid to be as an anker of the Soul, ſure and ſtedfaſt, and which entreth into that within the veil, whither the forerunner is for us entred even Jeſus, <hi>Heb.</hi> 6.18. 19. and that place whither Jeſus our High Prieſt is entred, is not any place within us (though he is ſpiritually preſent in us) but Heaven without us, there to appear in the preſence of God for us, and that in the true na<g ref="char:EOLhyphen"/>ture of Man, <hi>Heb.</hi> 9.24.</p>
+            </div>
+            <div n="11" type="section">
+               <head>SECT. XI.</head>
+               <p>
+                  <hi>Q</hi> IS Prayer and Thankſgiving with humble re<g ref="char:EOLhyphen"/>verence, both of Soul and Body unto God, a moſt neceſſary duty to be performed by us, both in private and publick, and that frequently?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Matth.</hi> 6.6. <hi>Jer.</hi> 10.25. <hi>Matth.</hi> 18.19. 20.</p>
+               <p>
+                  <hi>Q.</hi> Ought the Prayers of all true Chriſtians and their Thankſgivings be offered up to God, in the name of our bleſſed Mediator and Advocate, Jeſus Chriſt God-Man, and alſo to him, together with the holy Spirit?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>John</hi> 14.1. 3.14. <hi>John</hi> 16.24.</p>
+               <p>
+                  <pb n="25" facs="tcp:95812:14"/>
+                  <hi>Q.</hi> Are Angels and Saints to be prayed unto?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Rev.</hi> 19.10. <hi>Matth.</hi> 4.9. <hi>Exod.</hi> 20.3.</p>
+               <p>
+                  <hi>Q.</hi> Are Images to be made uſe of in the wor<g ref="char:EOLhyphen"/>ſhip of God?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Exod.</hi> 20.4. 5. <hi>Acts</hi> 17.25. 29.30.</p>
+               <p>
+                  <hi>Q.</hi> For whom are we to pray?</p>
+               <p>
+                  <hi>A.</hi> Not only for our ſelves, but for all Men, for the King and all in Authority, and for the whole Church of God, and alſo for our Enemies, 1 <hi>Tim.</hi> 2.1. 2. <hi>Pſal.</hi> 51.18. <hi>Pſal.</hi> 137.5. <hi>Matth.</hi> 5.44.</p>
+               <p>
+                  <hi>Q.</hi> How are we to pray, and give thanks ſo as to be accepted?</p>
+               <p>
+                  <hi>A.</hi> In Spirit and in Truth, in ſincerity of Heart, in Faith, in Humility, in Holy Fear, with the Un<g ref="char:EOLhyphen"/>derſtanding, with Love and Fervency of Heart, with frequency and conſtancy, to all which we need the continual help of God's Spirit and Grace to aid and aſſiſt us, <hi>John</hi> 4.23. <hi>Jam.</hi> 1.6. 5.16. 1 <hi>Theſſ.</hi> 5.17. 1. <hi>Cor.</hi> 14.15. <hi>Heb.</hi> 12.28.</p>
+               <p>
+                  <hi>Q.</hi> What are the things for which we are chiefly to pray?</p>
+               <p>
+                  <hi>A.</hi> They are briefly contained in that excellent form of Prayer, which Chriſt taught his Diſciples ſaying, <hi>Our Father,</hi> &amp;c.</p>
+               <p>
+                  <hi>Q.</hi> Doth the Spirit of God teach us to pray, without all outward means of inſtruction, or uſe of the holy Scriptures.</p>
+               <p>
+                  <hi>A.</hi> Nay.</p>
+               <p>
+                  <hi>Q.</hi> May we not therefore be taught in words what to pray, as well as what to believe?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Hoſ.</hi> 14.2. <hi>Luke</hi> 11.1. 2.</p>
+               <p>
+                  <hi>Q.</hi> Ought not great care be taken by all, to have their hearts in ſome prepared frame in order to Prayer?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Eccleſ.</hi> 5.1. 2.</p>
+               <p>
+                  <pb n="26" facs="tcp:95812:15"/>
+                  <hi>Q.</hi> How is that preparation obtained?</p>
+               <p>
+                  <hi>A.</hi> By getting the mind freed from worldly and vain thoughts, and alſo by meditation on ſpi<g ref="char:EOLhyphen"/>ritual things and matters, as the Spirit of God is pleaſed to aſſiſt us, who is never wanting to them who ſincerely deſire, and wait for his aſſi<g ref="char:EOLhyphen"/>ſtance, <hi>Jer.</hi> 4.14. <hi>Pſal.</hi> 119.113. <hi>Pſal.</hi> 39.3.2 <hi>Cor.</hi> 3.5.</p>
+               <p>
+                  <hi>Q.</hi> Is it neceſſary for the beſt of Men, to con<g ref="char:EOLhyphen"/>feſs their ſins and pray for the forgiveneſs of them.</p>
+               <p>
+                  <hi>A.</hi> Yea, 1 <hi>Joh.</hi> 1.9. <hi>Jam.</hi> 3.2.</p>
+               <p>
+                  <hi>Q.</hi> Ought not the firſt day of the week, (on which our Lord roſe from the dead) be ſolemnly ſet apart for the worſhip and ſervice of God both in publick and private, with abſtinence from worldly affairs, and ſervile labour?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Matth.</hi> 28.1. <hi>Acts</hi> 20.7. 1 <hi>Cor.</hi> 16.2. <hi>Rev.</hi> 1.10.</p>
+               <p>
+                  <hi>Q.</hi> Ought not alſo times of thankſgiving to be obſerved by the Faithful, to give ſolemn thanks to God for ſolemn and extraordinary mercies and deliverances:</p>
+               <p>
+                  <hi>A.</hi> Yea.</p>
+               <p>
+                  <hi>Q.</hi> Is faſting at times a Chriſtian Duty?</p>
+               <p>
+                  <hi>A.</hi> Yea, as it is a help to mortifie the fleſh, and to prepare and diſpoſe us, for more ſolemn humi<g ref="char:EOLhyphen"/>liation, and confeſſion of Sin, and Prayer either in private or publick, when ſome more than ordi<g ref="char:EOLhyphen"/>nary occaſion requires it, <hi>Matth.</hi> 6.17. 18. <hi>Acts</hi> 13.2. 3. <hi>Jonah</hi> 3.5. <hi>Exod.</hi> 15.1. <hi>Jer.</hi> 30.18. 19. <hi>John</hi> 10.22. <hi>Rev.</hi> 15.3. 4.</p>
+            </div>
+            <div n="12" type="section">
+               <head>SECT. XII.</head>
+               <p>
+                  <hi>Q.</hi> WHat is the Catholick-Church?</p>
+               <p>
+                  <hi>A.</hi> The whole multitude of the Faith<g ref="char:EOLhyphen"/>ful,
+<pb n="27" facs="tcp:95812:15"/>
+every where, in all Ages, having one Faith, one Lord, one Baptiſme, who are one Body, (tho many Members conſiſting of ſuperiors, as Teach<g ref="char:EOLhyphen"/>ers, Paſtors, Elders and Inferiors, to wit the ſe<g ref="char:EOLhyphen"/>veral Congregations of Believers) having one Spi<g ref="char:EOLhyphen"/>rit and one hope of their calling, and one God and Father, over all, through all, and in them all, <hi>Epheſ.</hi> 4.4. 5.6.</p>
+               <p>
+                  <hi>Q.</hi> What are the beſt marks of the true Church?</p>
+               <p>
+                  <hi>A.</hi> Purity of Doctrine, the due obſervation and practiſe of all the Inſtitutions and Ordinances of Chriſt under the Goſpel, and holineſs of life and converſation.</p>
+               <p>
+                  <hi>Q.</hi> Ought any Men to be received, or owned to be Members of the Church of Chriſt, who do not give ſome proof of their Chriſtian Faith by Confeſſion of the mouth, and good converſation before they be received?</p>
+               <p>
+                  <hi>A.</hi> Nay, <hi>Acts</hi> 8.36. 37.</p>
+               <p>
+                  <hi>Q.</hi> Wherein doth the Communion of the Faith<g ref="char:EOLhyphen"/>ful conſiſt?</p>
+               <p>
+                  <hi>A.</hi> Inwardly in the Gifts and Graces of God, and the Communion of the holy Spirit, and out<g ref="char:EOLhyphen"/>wardly in the profeſſion of the ſame Faith, and jointly worſhiping God together, and practiſing Chriſt's Inſtitutions; particularly theſe of Baptiſme and the Supper, alſo in mutual acts of Piety and Charity, <hi>Philem.</hi> 5.6 7. <hi>Eph.</hi> 4.16. <hi>Phil.</hi> 22. <hi>Matth.</hi> 25.35.</p>
+               <p>
+                  <hi>Q.</hi> Are the Infant Children of Believers, by vir<g ref="char:EOLhyphen"/>tue of God's promiſe, within the Covenant of grace, together with their Parents?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Acts</hi> 2.39. <hi>Gal.</hi> 4.28. <hi>Gen.</hi> 17.7. 1 <hi>Cor.</hi> 7.14.</p>
+               <p>
+                  <pb n="28" facs="tcp:95812:16"/>
+                  <hi>Q.</hi> How doth it appear, that Baptiſme with Water is an Inſtitution and Ordinance of Chriſt?</p>
+               <p>
+                  <hi>A.</hi> From his Command to the Apoſtles, <hi>Matth.</hi> 28.19. Go therefore and teach all Nations Bapti<g ref="char:EOLhyphen"/>ſing them, in the Name of the Father, of the Son, and of the Holy Ghoſt, and the general practiſe of it, in the Apoſtles days.</p>
+               <p>
+                  <hi>Q.</hi> But ſome ſay, it was not outward Bap<g ref="char:EOLhyphen"/>tiſme with Water that is there commanded, but the inward Baptiſme with the Spirit?</p>
+               <p>
+                  <hi>A.</hi> That is a great error, they might as well ſay, it was not outward teaching, with audible words, that was there commanded, but inward teaching by the Spirit; we find not any where in Scripture, a command or power given to Men, to Baptiſe with the Spirit, that power only belonging to God, and to Chriſt, but we find a promiſe given by God, that Chriſt ſhould Baptiſe with the Holy Ghoſt, as was accordingly ful<g ref="char:EOLhyphen"/>filled, <hi>John</hi> 1.33.</p>
+               <p>
+                  <hi>Q.</hi> What is the chief end and uſe of Baptiſme with Water?</p>
+               <p>
+                  <hi>A.</hi> It is a Seal of Gods receiving us into the Covenant of Grace, a badge or token of our Chriſtian Profeſſion, a means of Grace, a ſign of our waſhing from ſin, and the forgiveneſs of our ſins, and of our regeneration, and tranſla<g ref="char:EOLhyphen"/>tion from being Aliens and Strangers to be Mem<g ref="char:EOLhyphen"/>bers of Chriſt and of his Church; therefore it is, that Baptiſme, (by a figure of the ſign receiving the name of the thing ſignified) is called rege<g ref="char:EOLhyphen"/>neration, <hi>Titus</hi> 3.5.</p>
+               <p>
+                  <hi>Q.</hi> Seeing Baptiſme is a Seal of the Covenant of Grace, are not all baptiſed Perſons, ſolemnly
+<pb n="29" facs="tcp:95812:16"/>
+engaged by their Baptiſme, to deny themſelves and take up their Croſs daily, and follow Chriſt by obeying his moſt holy Commands, and walk<g ref="char:EOLhyphen"/>ing after his moſt holy example, renouncing the World, the Fleſh, and the Devil, giving up and reſigning themſelves wholly, to follow Chriſt the Captain of our ſalvation, and manfully to fight the good fight under his Banner?</p>
+               <p>
+                  <hi>A.</hi> Yea, <hi>Matth.</hi> 16.24. <hi>Heb.</hi> 5.9. 1 <hi>Pet.</hi> 2.21. 1 <hi>Tim.</hi> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 12.</p>
+               <p>
+                  <hi>Q.</hi> What proof is there in Scripture, for the practiſe of the Supper, by the outward Elements of Bread and Wine with Prayer and Thankſgiving?</p>
+               <p>
+                  <hi>A.</hi> The Command of Chriſt, <hi>Matth.</hi> 26.26, 27, 28. and practiſe of Believers in obedience to that Command.</p>
+               <p>
+                  <hi>Q.</hi> But ſome ſay, Chriſt did Command it, but until he ſhould come again, and now that they witneſs him come, the ſubſtance and thing ſigni<g ref="char:EOLhyphen"/>fied they need not the ſign or ſhadow?</p>
+               <p>
+                  <hi>A.</hi> That is alſo a great error in them, to ex<g ref="char:EOLhyphen"/>pound it only of his inward coming. The Bread and the Wine in the Supper were real ſigns of his Body outwardly broken, and his Blood outwardly ſhed, and did reſpect the Man Chriſt, who is not come again, ſince he aſcended.</p>
+               <p>
+                  <hi>Q.</hi> What is the chief end and uſe of the Supper?</p>
+               <p>
+                  <hi>A.</hi> It is another Seal of the Covenant of Grace, a ſign of our being ſpiritually nouriſhed by Chriſt as by Meat and Drink, that we eat his Fleſh, and drink his Blood, by Faith, that ſo we may receive of his Spirit ſtill more, to quicken, refreſh, and nouriſh us, a memorial of his Death and
+<pb n="30" facs="tcp:95812:17"/>
+Suffering, a Pledge of his Love, a means of Grace, and of preſerving the Doctrine and Faith of him in the World, alſo a teſtimony and ſgni<g ref="char:EOLhyphen"/>fication of our Communion with the Faithful, 1 <hi>Cor.</hi> 11.25, 26. 1 <hi>Cor.</hi> 10.16. 17.</p>
+               <p>
+                  <hi>Q.</hi> How ought Perſons to be prepared for the receiving the Lords Supper?</p>
+               <p>
+                  <hi>A.</hi> By ſerious examination, of the ſincerity of their Faith, and whither they are in true Charity, alſo with earnſet Prayer, and true ſpiritual hunger and thirſt, to enjoy and feed upon Chriſt in that Divine Inſtitution, 1 <hi>Cor.</hi> 11.28. 2 <hi>Cor.</hi> 13.5.</p>
+               <p>
+                  <hi>Q.</hi> By whom are Baptiſme and the Supper to be adminiſtred?</p>
+               <p>
+                  <hi>A.</hi> By ſuch as are duly called and authoriſed by Chriſt, who are true Paſtors and Stewards of the myſteries of God, <hi>Eph.</hi> 4.11. 1 <hi>Cor.</hi> 4.1.</p>
+               <p>
+                  <hi>Q.</hi> What is the Eternal Life, that all the Faith<g ref="char:EOLhyphen"/>ful hope to attain unto, according to God's promiſe?</p>
+               <p>
+                  <hi>A.</hi> It is their full enjoyment of God and Chriſt, together with the holy ſpirit, by viſion, love and delight, with the complete glorification of their Souls and Bodies, and the bleſſed Society of all the holy Angels, and glorified Saints in the Kingdom of Heaven eternally and without all end. <hi>Luke</hi> 20.36 <hi>Matth.</hi> 5.8. 1 <hi>Cor.</hi> 13.12. 1 <hi>John</hi> 3.2. <hi>Rev.</hi> 22.4. <hi>Phil.</hi> 3.21. <hi>Heb.</hi> 12.22.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="prayer">
+            <pb facs="tcp:95812:17"/>
+            <head>The CREED.</head>
+            <p>I Believe in God the Father Almighty, Maker of Heaven and Earth;</p>
+            <p>And in Jeſus Chriſt his only Son our Lord, Who was Conceived by the Holy Ghoſt, Born of the Virgin <hi>Mary,</hi> Suffered under <hi>Pontius Pilate,</hi> was crucified, dead, and buried. He deſcended into Hell; the third day he roſe again from the dead, he aſcen<g ref="char:EOLhyphen"/>ded into Heaven, and ſitteth at the Right Hand of God the Father Almighty: From thence he ſhall come to Judge the Quick and the Dead.</p>
+            <p>I believe in the Holy Ghoſt, The Holy Catholick Church, The Communion of Saints, The Forgiveneſs of Sins, The Reſurrection of the Body, And the Life Everlaſting. Amen.</p>
+         </div>
+         <div type="appendix">
+            <head>The Ten Commandments.</head>
+            <list>
+               <label>I.</label>
+               <item>THou ſhalt have none other Gods before me.</item>
+               <label>II.</label>
+               <item>Thou ſhalt not make thee any graven Image, or any likeneſs of any thing that is in Heaven above, or that is in the Earth beneath, or that is in the Water under the Earth. Thou ſhalt not Bow down thy ſelf to them, nor ſerve them. For I the Lord thy God am a jealous God, viſiting the iniquties of the Fathers upon the Children unto the third and fourth Generation of them that hate me, and ſhewing Mercy unto thouſands of them that love me, and keep my Com<g ref="char:EOLhyphen"/>mandments.</item>
+               <label>III.</label>
+               <item>Thou ſhalt not take the Name of the Lord thy God in vain: for the Lord will not hold him guiltleſs that taketh his Name in vain.</item>
+               <label>IV.</label>
+               <item>Remember the Sabbath day to keep it holy. Six days ſhalt thou labour, and do all thy work; but the ſeventh</item>
+            </list>
+            <gap reason="missing" extent="1 page">
+               <desc>〈1 page missing〉</desc>
+            </gap>
+         </div>
+      </back>
+   </text>
+</TEI>

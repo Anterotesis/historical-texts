@@ -1,0 +1,882 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Welch traveller, or, The unfortunate Welchman</title>
+            <author>Crouch, Humphrey, fl. 1635-1671.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1671</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-09">2003-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A35195</idno>
+            <idno type="STC">Wing C7289</idno>
+            <idno type="STC">ESTC R37704</idno>
+            <idno type="EEBO-CITATION">17003406</idno>
+            <idno type="OCLC">ocm 17003406</idno>
+            <idno type="VID">105720</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A35195)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105720)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1613:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Welch traveller, or, The unfortunate Welchman</title>
+                  <author>Crouch, Humphrey, fl. 1635-1671.</author>
+               </titleStmt>
+               <extent>22, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for William Whitwood ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1671.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>T.p. illus. with woodcut.</note>
+                  <note>Attributed to Crouch by Wing.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-06</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-07</date>
+            <label>Jennifer Kietzman</label>Sampled and proofread</change>
+         <change>
+            <date>2003-07</date>
+            <label>Jennifer Kietzman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-08</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105720:1"/>
+            <p>The Welch Traveller:
+OR,
+The Unfortunate <hi>WELCHMAN:</hi>
+            </p>
+            <l>If any Gentleman do want a Man,</l>
+            <l>As I doubt not but some do now and than.</l>
+            <l>I have a <hi>Welchman</hi> though but meanly clad,</l>
+            <l>Will make him marry, be he nere so sad:</l>
+            <l>If that you read, read it quite ore I pray,</l>
+            <l>And you'l not think your penny cast away.</l>
+            <p>By Humphry Crouch.</p>
+            <figure/>
+            <p>
+               <hi>London,</hi> Printed for <hi>William Whitwood</hi> at the sign of the
+Bell in <hi>Du <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>-Lane</hi> near <hi>Smithfield.</hi> 1671.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:105720:2"/>
+            <pb n="3" facs="tcp:105720:2"/>
+            <head>The Welch Traveller.</head>
+            <l>IN this Dull age to recreate</l>
+            <l>the minds of friends and strangers,</l>
+            <l>Her tell her of her evil Fate,</l>
+            <l>and her unlookt for dangers:</l>
+            <l>Was travel over mountains high</l>
+            <l>and in the vallies low,</l>
+            <l>Was see great wonders in the skie</l>
+            <l>that others little know:</l>
+            <l>Her was a welch Astrologer,</l>
+            <l>was tell of matters strange:</l>
+            <l>So déep was learn'd<g ref="char:punc">▪</g> was tell to her</l>
+            <l>how oft the Moon doth change,</l>
+            <l>Was tell her of a Shepherds star,</l>
+            <l>of wonders old and new,</l>
+            <l>If her have peace, her hade no war,</l>
+            <l>all this her prove is true.</l>
+            <l>Was tell her too in loving words</l>
+            <l>things shall be as before,</l>
+            <l>When English men lay down their swords</l>
+            <l>and mean to fight no more:</l>
+            <l>But all these things her will pass by</l>
+            <l>as matters light and small,</l>
+            <l>Her knows not her own destiny,</l>
+            <l>and that's the worst of all:</l>
+            <l>For as her gazed on the skie,</l>
+            <l>
+               <pb n="4" facs="tcp:105720:3"/>for want of better wit;</l>
+            <l>Poo<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Taffie</hi> fell immediately</l>
+            <l>into a great deep pit:</l>
+            <l>Had not a Shepherd stood his friend</l>
+            <l>and helpt her quickly out,</l>
+            <l>Her surely there had m<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>de an end,</l>
+            <l>her makes no other doubt:</l>
+            <l>Her gave her thanks, the Shepherd then</l>
+            <l>spake to her when 'twas meet,</l>
+            <l>Bid her and other such like men</l>
+            <l>look better to her feet.</l>
+            <l>No more Astrologer I pray,</l>
+            <l>was glad her life was sav'd,</l>
+            <l>Her soberly walkt on her way</l>
+            <l>and food was all her crav'd.</l>
+            <l>O her was hungry and cold,</l>
+            <l>her strength began to fail,</l>
+            <l>Her had no silver nor no gold,</l>
+            <l>he tells her what her ail:</l>
+            <l>Her sold her lowste sherkin then,</l>
+            <l>but one poor groat was given,</l>
+            <l>Oh her was then a shentleman,</l>
+            <l>her thought her was in heaven:</l>
+            <l>For her had mony for to buy</l>
+            <l>victual for one meal,</l>
+            <l>That her might not for hunger die</l>
+            <l>nor yet be forced to steal.</l>
+            <l>Into an Ale-house went he streight</l>
+            <l>here an old wife did live,</l>
+            <l>Who sold then at too dear a rate</l>
+            <l>and had nothing to give.</l>
+            <l>Her sate her down and call'd for meat,</l>
+            <l>
+               <pb n="5" facs="tcp:105720:3"/>her Hostis brought her eggs</l>
+            <l>Had shickens in th<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m, O base shade</l>
+            <l>these shickens they had leggs.</l>
+            <l>Her sh<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>kens and her eggs did stink,</l>
+            <l>her could no longer stay,</l>
+            <l>Had they been living sure her think</l>
+            <l>they would have run away.</l>
+            <l>Her best eggs that were in her dish</l>
+            <l>that had no shicks were rotten,</l>
+            <l>And then she brought her stinking fish</l>
+            <l>which her not forgotten.</l>
+            <l>Her cast her eggs her fish and all</l>
+            <l>into her hostis face,</l>
+            <l>And then to spewing her did fall,</l>
+            <l>was in a piteous case.</l>
+            <l>Her hostis cryed out piteously</l>
+            <l>and called her son in Law,</l>
+            <l>Who beat poor <hi>Taffie</hi> piteously</l>
+            <l>the like her never saw,</l>
+            <l>Those heavy blows her still doth feel</l>
+            <l>was laid on her alas,</l>
+            <l>As if her body had been steel</l>
+            <l>and bones were made of brass.</l>
+            <l>The cruel blows did her receive</l>
+            <l>from that hard-hearted elfe,</l>
+            <l>Was tell her if her give her leave,</l>
+            <l>made her bewray her self:</l>
+            <l>Was tell her how her self was freed,</l>
+            <l>was fain to use her wit,</l>
+            <l>With all dexterity and speed</l>
+            <l>was we<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>her was beshit.</l>
+            <l>Was put her lands into her breeks</l>
+            <l>
+               <pb n="6" facs="tcp:105720:4"/>and pul'd from off her thighs</l>
+            <l>A thing was made of cheese and leeks,</l>
+            <l>and cast it in her eyes:</l>
+            <l>Her son was blind, her mother blind,</l>
+            <l>no boot for her to stay,</l>
+            <l>Her left a filthy stink behind,</l>
+            <l>and so her run away,</l>
+            <l>Was glad was gone from them two tevils</l>
+            <l>from son and the old hag,</l>
+            <l>In midst of all those woful evils</l>
+            <l>there's none had cause to brag.</l>
+            <l>My bones did ake, their eyes did smart,</l>
+            <l>and such a stink was there,</l>
+            <l>Which men could not with all their art</l>
+            <l>make sweet in half a year:</l>
+            <l>But now her knows not what to do</l>
+            <l>her hunger to suffice.</l>
+            <l>At length with walking to and fro</l>
+            <l>an apple-tree esples,</l>
+            <l>The apples did so lovly look,</l>
+            <l>did move her unto laughter,</l>
+            <l>No delaies could her brook</l>
+            <l>Her shops so much did water:</l>
+            <l>Up in the tree her gets,</l>
+            <l>the owner came anon.</l>
+            <l>Made her almost besides her wits,</l>
+            <l>a cruel fight began:</l>
+            <l>The man at her did throw great stones.</l>
+            <l>and her did apples cast,</l>
+            <l>The stones did so be thumb her bones</l>
+            <l>that down her fell at last.</l>
+            <l>When her was down, mark what befell</l>
+            <l>
+               <pb n="7" facs="tcp:105720:4"/>her hostis and her son,</l>
+            <l>Came running when their eyes were well</l>
+            <l>beholding what was done:</l>
+            <l>He took her up was almost dead,</l>
+            <l>they laughed out amain,</l>
+            <l>They cuffed her, and thus they said,</l>
+            <l>was hope her had been slain.</l>
+            <l>They counsel took and did agree,</l>
+            <l>more mischief did befall,</l>
+            <l>They said they'd hang her on a tree</l>
+            <l>and I must pay for all:</l>
+            <l>To escape from this ungodly train</l>
+            <l>it was her chief desire,</l>
+            <l>Her cried out with might and main</l>
+            <l>your houses are on fire:</l>
+            <l>A gallant trick it was of mine</l>
+            <l>for to escape her foes.</l>
+            <l>A man a singeing of a Swine</l>
+            <l>from whence the smoak arose:</l>
+            <l>They run with speed to quench the fire</l>
+            <l>that never was begun,</l>
+            <l>And glad was her they did retire</l>
+            <l>that her away might run:</l>
+            <l>Over hill and over dale</l>
+            <l>till her was almost spent,</l>
+            <l>At last her legs began to fall</l>
+            <l>which wrought her discontent.</l>
+            <l>And then into a hedge her crept,</l>
+            <l>thinking to take a nap,</l>
+            <l>And then her sate her down and wept,</l>
+            <l>lamenting her mishap:</l>
+            <l>At last a handsome man came by,</l>
+            <l>
+               <pb n="8" facs="tcp:105720:5"/>with him a pretty Lass,</l>
+            <l>These Lovers did not her espy</l>
+            <l>But set them on the grass.</l>
+            <l>He to this Maid a Ring did give</l>
+            <l>which she did well except:</l>
+            <l>And with a kiss old her relieve,</l>
+            <l>and close unto her crept:</l>
+            <l>This ring it seems did prove too wide,</l>
+            <l>which gallantly did shine,</l>
+            <l>From off her singer it did slide,</l>
+            <l>and so at last was mine.</l>
+            <l>This Ring her much did think upon,</l>
+            <l>they minded more their play,</l>
+            <l>So when these Lovers they were gone</l>
+            <l>her found it where it lay:</l>
+            <l>Her put it up into her poke</l>
+            <l>away her went amain,</l>
+            <l>For why her was afraid those folks</l>
+            <l>would quick return again.</l>
+            <l>Now her had got a gay gold Ring</l>
+            <l>her know not where to bide,</l>
+            <l>It was fine brave and gallant thing</l>
+            <l>was puff her up with pride.</l>
+            <l>But fortune often playes the Iade,</l>
+            <l>she's seldome constant known,</l>
+            <l>For why at last her was betray<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d</l>
+            <l>her could not keep her own:</l>
+            <l>For going through a town got spot</l>
+            <l>amongst some ill-bred Curs,</l>
+            <l>Her shewd it to a cheating trot</l>
+            <l>who said the Ring was hers</l>
+            <l>Cuts plutteranails was tell a lie,</l>
+            <l>
+               <pb n="9" facs="tcp:105720:5"/>her found it as her went:</l>
+            <l>But she used such extremity,</l>
+            <l>which wrought her discontent.</l>
+            <l>Before a Iustice brought her then,</l>
+            <l>and there her kept such stirs,</l>
+            <l>The Iustice said before all men</l>
+            <l>that sure the Ring was hers:</l>
+            <l>Her called the Iustice great Boobee,</l>
+            <l>then her receiv'd some knocks</l>
+            <l>The Iustice made no more ado</l>
+            <l>but sent her to the stocks:</l>
+            <l>The boyes did jear her to her face,</l>
+            <l>and call'd her thief and knave,</l>
+            <l>O was it not a great disgrace</l>
+            <l>that boyes should her out-brave.</l>
+            <l>Now her hath mark'd what hath been past,</l>
+            <l>now mark but this one thing,</l>
+            <l>The man and maid came by at last,</l>
+            <l>that lost this gay gold ring:</l>
+            <l>How glad was her then in the end,</l>
+            <l>though her was but a thief.</l>
+            <l>Her hop'd that her would stand her friend.</l>
+            <l>to ease her of her grief:</l>
+            <l>Hoe shentleman, her pray her stay,</l>
+            <l>and likewise her fair maid,</l>
+            <l>Did not her lose her ring to day,</l>
+            <l>regard her what her said?</l>
+            <l>They wondred how he came to know</l>
+            <l>how she should lose the ring,</l>
+            <l>Nor did they know what they should do</l>
+            <l>for to regain this thing.</l>
+            <l>Have you any Ring kind man quoth they,</l>
+            <l>
+               <pb n="10" facs="tcp:105720:6"/>tell us if that you took it?</l>
+            <l>Her had the Ring as her may say,</l>
+            <l>but now her may go look it:</l>
+            <l>A woman cheated her of it,</l>
+            <l>her kept such grievous stirs,</l>
+            <l>For want of honesty or wit,</l>
+            <l>her justice said 'twas hers.</l>
+            <l>And can you tell where he doth dwell</l>
+            <l>that wrought us this despight,</l>
+            <l>For oft her knows her lives in hell</l>
+            <l>she<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s such a wicked wight.</l>
+            <l>A little boy now standing by</l>
+            <l>told them where he did live,</l>
+            <l>The author of their villany</l>
+            <l>a groat to him they give.</l>
+            <l>Unto this womans house they go</l>
+            <l>before a justice bring her,</l>
+            <l>Where she was cast with much ado,</l>
+            <l>and in the stocks they flung her:</l>
+            <l>Now <hi>Taffie</hi> had his hearts desire,</l>
+            <l>he had her company.</l>
+            <l>But when he did begin to je<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r</l>
+            <l>she in his face did flie,</l>
+            <l>
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> clawd him so with her nails</l>
+            <l>she made him almost mad,</l>
+            <l>He was not used so in Wales</l>
+            <l>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is luck was then so bad:</l>
+            <l>More<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ver as I understand</l>
+            <l>to add to his disgrace,</l>
+            <l>The Que<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n she p<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ssed in her hand</l>
+            <l>and cast it in her face,</l>
+            <l>Cuts plutteranails be shrew her heart.</l>
+            <l>
+               <pb n="11" facs="tcp:105720:6"/>was scurvey Quean and whore,</l>
+            <l>His scrat: hed face did now so smart</l>
+            <l>which made him cry and rear:</l>
+            <l>Too soon I wisht her here quoth he,</l>
+            <l>but now I wish her further,</l>
+            <l>Or that from her I might be free</l>
+            <l>for fear she should me murther.</l>
+            <l>The company that stood about</l>
+            <l>did laugh at him a good.</l>
+            <l>And very friendly helpe <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>im out</l>
+            <l>because he pleased the mood:</l>
+            <l>Now glad was he that out did get,</l>
+            <l>and left this foe behind.</l>
+            <l>After they two so long had fight,</l>
+            <l>and found the people kind:</l>
+            <l>His scratched face did vex him now,</l>
+            <l>he thought upon this thing,</l>
+            <l>But not so much I tell you true</l>
+            <l>as loss of this gold Ring;</l>
+            <l>He d<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d not know then what to do</l>
+            <l>or where to lye that night,</l>
+            <l>He wandreth now to and fro</l>
+            <l>and kept from peoples sight,</l>
+            <l>At last unto a house he came,</l>
+            <l>the people absent were,</l>
+            <l>No man, no master, maid nor dame,</l>
+            <l>and so he entred there:</l>
+            <l>Unto the smoakloft climb'd he then,</l>
+            <l>and to the Bacon crept,</l>
+            <l>Now <hi>Taffie</hi> is a jovial man,</l>
+            <l>his heart within him leapt,</l>
+            <l>He cut the Bacon which was rain,</l>
+            <l>
+               <pb n="12" facs="tcp:105720:7"/>no bread at all did eat</l>
+            <l>Resolv'd to fill his hungry maw,</l>
+            <l>he lust<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y did feed.</l>
+            <l>He fill'd his pockets too besides</l>
+            <l>might serve him for to morrow,</l>
+            <l>He knew he must not there abide</l>
+            <l>'twas as but the fruits of sorrow.</l>
+            <l>But at the length the maid came in</l>
+            <l>then he could not get out,</l>
+            <l>To study now he doth begin</l>
+            <l>to bring this thing about</l>
+            <l>At length he was resolv'd to stay</l>
+            <l>all night untill the morrow,</l>
+            <l>For fear they two should have a fray</l>
+            <l>which might increase his sorrow,</l>
+            <l>Well now the iusty Plowmen came</l>
+            <l>to feed and to carouse;</l>
+            <l>As for the Master and the Dame,</l>
+            <l>they supt at the next house.</l>
+            <l>When the Plowmen well had fed,</l>
+            <l>to bed they took their way,</l>
+            <l>For I have often heard it said</l>
+            <l>they rise by break of day,</l>
+            <l>But time brings all things to an end,</l>
+            <l>now home the woman came,</l>
+            <l>With her her husband, her best friend</l>
+            <l>who was a Cock o'th game.</l>
+            <l>They wisht the Maid to go to bed,</l>
+            <l>she need not be intreated,</l>
+            <l>Whilst <hi>Taffie</hi> on the Bacon fed</l>
+            <l>and b<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>avely he was seated:</l>
+            <l>For he upon the saddle sate,</l>
+            <l>
+               <pb n="13" facs="tcp:105720:7"/>unknown unséen of all,</l>
+            <l>All be<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>w'd with Bacon fat,</l>
+            <l>not dreaming he should fall.</l>
+            <l>They warm'd their leggs and eke their féet,</l>
+            <l>the man now wanton grows,</l>
+            <l>For why he thought it not unmeet</l>
+            <l>to play with his wives toes.</l>
+            <l>Thou hast a pretty foot quoth he</l>
+            <l>a handsome leg besides,</l>
+            <l>A soft plump thigh, a fair white knee</l>
+            <l>which I have nigh espi'd.</l>
+            <l>Now <hi>Taffie</hi> had a great desire</l>
+            <l>to play the sawcy Iack,</l>
+            <l>He peepeth down and fell i'th fire,</l>
+            <l>the saddle on his back,</l>
+            <l>I've brought your saddle home he cry'd</l>
+            <l>I borrow'd of your maid,</l>
+            <l>The man and woman stept aside,</l>
+            <l>for they were sore afraid:</l>
+            <l>They cried out most piteo<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sly</l>
+            <l>their case was then so evil,</l>
+            <l>Hoe <hi>Cob</hi> hoe <hi>Rob,</hi> rise speedily</l>
+            <l>and help to kill the Devil:</l>
+            <l>So when the Plowmen did awake</l>
+            <l>the best was but a Clown,</l>
+            <l>They each of them a Cudgel take</l>
+            <l>and knock poor <hi>Taffie</hi> down:</l>
+            <l>They threw him in the fire again,</l>
+            <l>who was but new crept out;</l>
+            <l>They said they had the Devil slain</l>
+            <l>even by their valour stout.</l>
+            <l>His Bacon fried in h<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s poke</l>
+            <l>
+               <pb n="14" facs="tcp:105720:8"/>which moved them to laughter</l>
+            <l>Whilst he lay broiling in the smoak</l>
+            <l>and curst them ever after:</l>
+            <l>He tumbled out and thus did say,</l>
+            <l>I take these things in snuff,</l>
+            <l>Pray give me leave to go my way</l>
+            <l>has punishment enough.</l>
+            <l>The good man quickly did agree</l>
+            <l>and <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eared him with his whimsey</l>
+            <l>Pray if you come again quoth he,</l>
+            <l>friend comenot down my Chimney,</l>
+            <l>The night was cold and dark got wot,</l>
+            <l>no star was in the skie,</l>
+            <l>But as for <hi>Taffie</hi> he was hot</l>
+            <l>you know the reason why.</l>
+            <l>He was afraid of every Dogg</l>
+            <l>when he was out of town,</l>
+            <l>Almost as naked as a frog</l>
+            <l>with grief he sate him down,</l>
+            <l>Upon a bed of Nettles there</l>
+            <l>which stung him grievously:</l>
+            <l>What with pain, with grief and care,</l>
+            <l>he wished he might die.</l>
+            <l>He all in darkness travelled,</l>
+            <l>his nettled flesh did smart,</l>
+            <l>His blistered feet were gravelled</l>
+            <l>which grieved him to the heart,</l>
+            <l>Yet he was musing in his mind</l>
+            <l>what house to go to next.</l>
+            <l>Where he might some provision find</l>
+            <l>for nothing more perplext.</l>
+            <l>Though he had Bacon in his poke</l>
+            <l>
+               <pb n="15" facs="tcp:105720:8"/>might yield him some relief,</l>
+            <l>Yet <hi>Taffie</hi> I have heard it spoke</l>
+            <l>was bred and born a thief:</l>
+            <l>When her saw people work and toyl</l>
+            <l>her Shentleman was born;</l>
+            <l>What was her think, her horse or mule,</l>
+            <l>her work no, think it scorn.</l>
+            <l>By this time it was break of day</l>
+            <l>and he a Barn espied,</l>
+            <l>He to this Barn did take his way</l>
+            <l>his nakedness to hide:</l>
+            <l>He had not been there half an hour</l>
+            <l>or hardly sate him down,</l>
+            <l>But Gypsies came in number four</l>
+            <l>who came from <hi>Guilford</hi> town:</l>
+            <l>They took poor <hi>Taffie</hi> for a spright</l>
+            <l>and stood upon their guard,</l>
+            <l>They were prepared with him to fight</l>
+            <l>which when they saw and heard,</l>
+            <l>He cried out her was a man</l>
+            <l>though by misfortune crost,</l>
+            <l>That her did swear by good Saint Nan</l>
+            <l>her wits was almost lost;</l>
+            <l>Her to<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d her all her travels great,</l>
+            <l>and her misfortunes many,</l>
+            <l>How oft her have been kickt and beat</l>
+            <l>no comfort had from any:</l>
+            <l>And all because her would not work</l>
+            <l>but lead an idle life,</l>
+            <l>And up and down the Country lurk</l>
+            <l>as cause of all her strife.</l>
+            <l>Kind friend, quoth they, you shall be one</l>
+            <l>
+               <pb n="16" facs="tcp:105720:9"/>of our fraternity,</l>
+            <l>Our secrets to you shall be known</l>
+            <l>and we'll live happily.</l>
+            <l>We live as you do easily,</l>
+            <l>but have our wits about us;</l>
+            <l>We never suffer'd injury</l>
+            <l>nor give them cause to flout us.</l>
+            <l>I am your servant and your friend,</l>
+            <l>poor <hi>Taffie</hi> then replied,</l>
+            <l>I hope my grief is at an end</l>
+            <l>if I with you abide:</l>
+            <l>The first design we'll set upon</l>
+            <l>if you'l our secrets keep,</l>
+            <l>Shall be for ought we know anon</l>
+            <l>when people are asleep:</l>
+            <l>And what is that quoth <hi>Taffie</hi> then?</l>
+            <l>I do desire to know,</l>
+            <l>You look like good plain dealing men,</l>
+            <l>what is it I must do?</l>
+            <l>Nothing but rob a house quoth they</l>
+            <l>of Bacon we tell you:</l>
+            <l>Quoth he I was in such a fray,</l>
+            <l>her's some, I pray fall too:</l>
+            <l>He pull'd a piece out of his poke,</l>
+            <l>The Bacon it was warm,</l>
+            <l>Quoth he this was in fire and smoke</l>
+            <l>but I had all the harm:</l>
+            <l>He shew<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d his burned back and side</l>
+            <l>his hands and eke his face,</l>
+            <l>They laughed at his burned side</l>
+            <l>which he took in disgrace.</l>
+            <l>They eat the Bacon greedily,</l>
+            <l>
+               <pb n="17" facs="tcp:105720:9"/>but they found bread and drink:</l>
+            <l>They praised it exceedingly,</l>
+            <l>although the same did stink:</l>
+            <l>Well now themselves to sleep they lay</l>
+            <l>no dangers them affright,</l>
+            <l>Most commonly they sleep all day</l>
+            <l>and do their work by night.</l>
+            <l>They all concluded at the last</l>
+            <l>a rope should him befriend,</l>
+            <l>That when their dangers it was past</l>
+            <l>it might be <hi>Taffies</hi> end.</l>
+            <l>This practice wise men will observe</l>
+            <l>a subtill villany,</l>
+            <l>Some are not though their country starve</l>
+            <l>so they may gain thereby:</l>
+            <l>
+               <hi>Taffie</hi> quoth they your office mind,</l>
+            <l>we'll let you down the chimney</l>
+            <l>With this same rope, and you shall find</l>
+            <l>'twill be a gallant whimsey</l>
+            <l>When thou art down the Bacon bind</l>
+            <l>with this same rope we give you,</l>
+            <l>And we to you will then be kind,</l>
+            <l>and with the same relieve you:</l>
+            <l>When this is done observe us then,</l>
+            <l>we straight then up will hale you,</l>
+            <l>And you do think us honest men</l>
+            <l>think not that we will fail you;</l>
+            <l>They let him down, to work he falls,</l>
+            <l>the Bacon straight doth vind,</l>
+            <l>The Gyystes up the Bacon hale,</l>
+            <l>and leave the fool behind.</l>
+            <l>
+               <hi>Taffie</hi> we thank thée for our swine,</l>
+            <l>
+               <pb n="18" facs="tcp:105720:10"/>we can no longer stay,</l>
+            <l>The Bacons ours the halters thine,</l>
+            <l>make haste and get away.</l>
+            <l>They cast their halters on his head</l>
+            <l>and calld him foolish elf,</l>
+            <l>And with the Bacon streight they fled,</l>
+            <l>and bid him hang himself:</l>
+            <l>Same take you all, was serve her so,</l>
+            <l>her best dries now are gone</l>
+            <l>Now out alas what shall her do,</l>
+            <l>her now was quite undone;</l>
+            <l>Was find her heart to hang her self,</l>
+            <l>was take her for a tief:</l>
+            <l>More misery her must endure</l>
+            <l>and so add grief to grief:</l>
+            <l>Or else was broil her on the coles,</l>
+            <l>as her once did before:</l>
+            <l>The world is full of knaves and fools,</l>
+            <l>O there was never more!</l>
+            <l>Her will stand here, let what will come,</l>
+            <l>out-face the worst of evil,</l>
+            <l>Her will not speak, her being dumb</l>
+            <l>was take her for the Tevill.</l>
+            <l>Was all bedawb'd her self with crock,</l>
+            <l>was warrant her will scare her,</l>
+            <l>And stand as still as any stock</l>
+            <l>no matter though her fear her:</l>
+            <l>
+               <hi>Taffie</hi> now doth domi néer</l>
+            <l>with face as black as hell;</l>
+            <l>Her means to put them all in fear,</l>
+            <l>who in the house do dwell,</l>
+            <l>Now down into the house her comes</l>
+            <l>
+               <pb n="19" facs="tcp:105720:10"/>unto the Cubbard goes,</l>
+            <l>The bread and butter so bethumbs</l>
+            <l>at last the maid arose,</l>
+            <l>Beholding there his ugly face</l>
+            <l>she cried out amain,</l>
+            <l>She runs up stairs in little space</l>
+            <l>for fear she should be stain,</l>
+            <l>Master quoth she, O save my life!</l>
+            <l>insuch a fear he put her,</l>
+            <l>The Devils below with his lon<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Knife</l>
+            <l>cutting of bread and butter:</l>
+            <l>What art thou mad quoth he, my wench,</l>
+            <l>or art thou in a <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ream?</l>
+            <l>He took a sword lay on a Bench,</l>
+            <l>and down at length he came:</l>
+            <l>The good wife cried out amain,</l>
+            <l>heaven keep us from all evil,</l>
+            <l>Good husband come to bed again</l>
+            <l>will you fight with the Devil?</l>
+            <l>I prethee wife let me alone,</l>
+            <l>the man did thus reply,</l>
+            <l>If that this Devil be not gone</l>
+            <l>my manhood I will try:</l>
+            <l>But when he came the Devil to eye</l>
+            <l>he looked wondrous pale,</l>
+            <l>His manhood then he durst not try,</l>
+            <l>his courage now doth fail,</l>
+            <l>The man afraid, the Devil afraid,</l>
+            <l>stood gazing on each other:</l>
+            <l>At last the good wife and the maid</l>
+            <l>call'd down the good mans brother:</l>
+            <l>Brother lend me your sword quoth he,</l>
+            <l>
+               <pb n="20" facs="tcp:105720:11"/>and i'le lend you my aid,</l>
+            <l>But when he came this Devil to see</l>
+            <l>he was as much afraid:</l>
+            <l>When <hi>Taffie</hi> see them all amaz'd</l>
+            <l>he stoutly marcht away,</l>
+            <l>Upon each other then they gaz'd</l>
+            <l>and knew not what to say:</l>
+            <l>They dined well mark what ensued,</l>
+            <l>when as they came to sup</l>
+            <l>They mist the Bacon and conclude</l>
+            <l>The Devil had eat it up.</l>
+            <l>Now <hi>Taffie</hi> is a lusty blade,</l>
+            <l>pessessed with strange fits</l>
+            <l>Made all the children sore afraid,</l>
+            <l>almost beside her wits:</l>
+            <l>The children hiding places sought</l>
+            <l>he put them in such fear,</l>
+            <l>Lest <hi>Taffie</hi> who the Devil was thought</l>
+            <l>would them in pieces tear.</l>
+            <l>They durst not go to school by day</l>
+            <l>nor rest in beds at nights,</l>
+            <l>For fear he should fetch them away,</l>
+            <l>he put them in such frights.</l>
+            <l>The women at this matter frown,</l>
+            <l>and they conclude with speed</l>
+            <l>To beat the Devil out of town</l>
+            <l>that did this mischief breed:</l>
+            <l>With shovels, spades, staves, and stones</l>
+            <l>they beat poor <hi>Taffie</hi> so,</l>
+            <l>That they had almost broke his bones</l>
+            <l>such cruelty they show,</l>
+            <l>Upon his hands and feet he creeps,</l>
+            <l>
+               <pb n="21" facs="tcp:105720:11"/>to shew that he was almost lam'd</l>
+            <l>And then he sets him down and weeps</l>
+            <l>his courage now is tam'd:</l>
+            <l>Unto a Church at last goes he,</l>
+            <l>to hide him out of sight,</l>
+            <l>So then he thought he should be free</l>
+            <l>from all their hate and spight.</l>
+            <l>Within a Pew he closly lay,</l>
+            <l>all night untill the morrow,</l>
+            <l>Untill the Sexton came, they say,</l>
+            <l>which did increase his sorrow,</l>
+            <l>
+               <hi>Taffie</hi> peept out with his black snont</l>
+            <l>which made him sore afraid.</l>
+            <l>He like a mad man run about</l>
+            <l>and call'd aloud for aid:</l>
+            <l>Two hundred armed men he brought</l>
+            <l>the Church encompast round,</l>
+            <l>And for this Devil there they sought,</l>
+            <l>and him at length they found:</l>
+            <l>Art thou the Devil quoth they that dost</l>
+            <l>scare all our children so?</l>
+            <l>Or art thou some disturbed Ghost</l>
+            <l>that wandreth to and fro?</l>
+            <l>No, her was <hi>Taffie,</hi> was a man,</l>
+            <l>of flesh and blood and bone,</l>
+            <l>Was not believe her, feel her then,</l>
+            <l>or else let her alone,</l>
+            <l>Thou art a counterfeit quoth they</l>
+            <l>a false dissembling knave,</l>
+            <l>Come Gentlemen bring him away</l>
+            <l>he his reward may have,</l>
+            <l>Two hundred men to guard him then</l>
+            <l>
+               <pb n="22" facs="tcp:105720:12"/>with Musquets, Pikes and Swords,</l>
+            <l>And they were not the meanest men</l>
+            <l>the country then affords.</l>
+            <l>
+               <hi>Taffie</hi> long time with them did trudge,</l>
+            <l>his heart was wondrous sad,</l>
+            <l>They brought him then before the judge</l>
+            <l>where he his judgement had:</l>
+            <l>He was to stand it'h Pillory</l>
+            <l>for four long hours or more,</l>
+            <l>That all the children might him spy</l>
+            <l>that he had scar'd before.</l>
+            <l>A many then against him came</l>
+            <l>running with all speed</l>
+            <l>And their Indictments thus they frame</l>
+            <l>if you please them to read.</l>
+            <l>Will you hear more, in time you may,</l>
+            <l>my pen's at your commanding,</l>
+            <l>I have no more as yet to say,</l>
+            <l>for there I left him standing.</l>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="indictment">
+            <pb facs="tcp:105720:12"/>
+            <head>Taffies Indictment.</head>
+            <p>
+               <hi>Inprimis,</hi> for troubling the Shepherd to help
+him out of the pit.</p>
+            <p>
+               <hi>Item,</hi> for selling the lowsie Jerken for a groat,
+which was borrowed of his Country man Pinken.</p>
+            <p>
+               <hi>Item,</hi> for casting stinking fish and rotten eggs
+into his Hostis face.</p>
+            <p>
+               <hi>Item,</hi> for casting dung in his Host is sons face.</p>
+            <p>
+               <hi>Item,</hi> for casting Apples at the Country man
+from the tree, when he had the worst himself.</p>
+            <p>
+               <hi>Item,</hi> for going away with the gold Ring.</p>
+            <p>
+               <hi>Item,</hi> for calling the justice Boobee.</p>
+            <p>
+               <hi>Item,</hi> for sitting in the stocks with an old wo<g ref="char:EOLhyphen"/>man.</p>
+            <p>
+               <hi>Item,</hi> for creeping up into the smoak-loft, and
+then falling down into the fire with a packsaddle
+at his back.</p>
+            <p>
+               <hi>Item,</hi> for acting the Devils part, when he put
+all the house into a bodily fear.</p>
+            <p>
+               <hi>Item,</hi> for scaring all the children in the town.</p>
+            <p>
+               <hi>Item,</hi> for scaring the Sexton in the Church, for
+which loose behaviour he was adjudged to stand
+in the Pillory, where I leave him till the next
+mad prank he shall play.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

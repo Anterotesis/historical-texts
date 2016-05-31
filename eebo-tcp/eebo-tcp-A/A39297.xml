@@ -1,0 +1,686 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An account of tythes in general</title>
+            <author>Ellwood, Thomas, 1639-1713.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-07">2003-07 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A39297</idno>
+            <idno type="STC">Wing E611A</idno>
+            <idno type="STC">ESTC R36220</idno>
+            <idno type="EEBO-CITATION">15619283</idno>
+            <idno type="OCLC">ocm 15619283</idno>
+            <idno type="VID">104191</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A39297)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 104191)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1591:65)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An account of tythes in general</title>
+                  <author>Ellwood, Thomas, 1639-1713.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Signed at end: T.E. [i.e. Thomas Ellwood] Cf. Wing and NUC pre-1956 imprints.</note>
+                  <note>Imprint suggested by Wing.</note>
+                  <note>Formerly E41A.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tithes --  History of doctrines --  17th century.</term>
+               <term>Theology, Doctrinal.</term>
+               <term>Society of Friends --  Apologetic works.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-03</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2003-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:104191:1"/>
+            <head>AN
+ACCOUNT
+OF
+TYTHES
+In GENERAL.</head>
+            <p>THE only Command from God, that we read
+of in Holy Scripture, for the Payment of
+Tythes, was given by <hi>Moses,</hi> to the People
+of <hi>Israel,</hi> in the time of the <hi>Levitical Law.</hi> Then God
+first reserved to himself the Tythe of the Land of Ca<g ref="char:EOLhyphen"/>naan,
+<hi>Lev.</hi> 27. 30. Which he did for this Reason, that,
+intending to take the Tribe of <hi>Levi</hi> more peculiarly
+into his Service (as he did, <hi>Numb.</hi> 3. 6. in stead of,
+or in exchange for all the First born of <hi>Israel,</hi> ver. 12,
+13, and 45. and Chap. 8. ver. 18. Having before reser<g ref="char:EOLhyphen"/>ved
+and appropriated the First born to himself, <hi>Exod.</hi>
+13. 2.) he might bestow those Tythes on the <hi>Levites,</hi>
+for and towards the Maintenance of that whole Tribe,
+as a Reward for their Service in the Tabernacle of the
+Congregation, <hi>Numb.</hi> 18. 21, 31. and in lieu of, and
+Compensation for, their Part or Share of and in the
+Land of <hi>Canaan,</hi> which thereupon they were expresly
+cut off from, ver. 20, 23, 24.</p>
+            <p>2. Now although it was grounded on a Principle
+of Moral Justice and Equity, that the <hi>Levites,</hi> thus
+engaged in a continual Attendance on a publick Ser<g ref="char:EOLhyphen"/>vice,
+and shut out from their Share in the Inheritance
+of the promised Land, should receive a sufficient
+<pb n="2" facs="tcp:104191:2"/>
+Maintenance from them for whom they performed
+that Service, and who enjoyed their Part of the Land:
+Yet the ascertaining of the <hi>Quota</hi> of that Maintenance
+to the exact Proportion of a <hi>Tenth Part</hi> of the Increase
+of the Land, was not grounded on moral Justice, but
+had it's Dependance on the Ceremonial Law, adapted
+and limited to the Polity of that Dispensation and
+People only. And that it might not be extended be<g ref="char:EOLhyphen"/>yond
+it's appointed Time and Bounds, it pleased the
+Divine Wisdom, to subject it to such Ceremonial Cir<g ref="char:EOLhyphen"/>cumstances,
+as plainly rank it amongst those carnal
+Ordinances (Rites or Ceremonies) which were impos<g ref="char:EOLhyphen"/>ed
+but <hi>till the Time of Reformation,</hi> spoken of <hi>Heb.</hi>
+9. 10. For as God appointed the <hi>Levites</hi> to be offered
+for a <hi>Wave-Offering,</hi> by <hi>Moses,</hi> in the Name and on
+the Behalf of the Children of <hi>Israel,</hi> when he said to
+<hi>Moses, Thou shalt bring the Levites to the Tabernacle of
+the Congregation, and thou shalt gather the whole Assembly
+of the Children of Israel together,; And thou shalt bring
+the Levites before the Lord, and the Children of Israel
+shall put their Hands upon the Levites: And Aaron shall
+offer</hi> (in the Margin <hi>Wave) the Levites before the
+Lord, for an Offering</hi> (in the Margin <hi>Wave-Offering)
+of the Children of Israel; that they may execute the
+Service of the Lord,</hi> Numb. 8. 9, 10, 11. So the Tythes,
+which were assigned for the Maintenance of the <hi>Le<g ref="char:EOLhyphen"/>vites,</hi>
+were to be first offered, by the People, as an
+<hi>Heave-Offering</hi> unto the Lord. (<hi>The Tythes of the Chil<g ref="char:EOLhyphen"/>dren
+of Israel, which they offer as an Heave-Offering
+unto the Lord, I have given to the Levites,</hi> &amp;c. <hi>Numb.</hi>
+18. 24.) And even the Tythe of those Tythes, which
+the <hi>Levites</hi> were to yield unto the <hi>Priests,</hi> were to be
+offered, by the <hi>Levites,</hi> as an <hi>Heave Offering</hi> to the
+Lord, before the <hi>Priests</hi> might have them. <hi>Thus speak
+unto the Levites</hi> (said God to <hi>Moses) and say unto them,
+When ye take of the Children of Israel the Tythe which I
+have given you from them for your Inheritance; Then ye
+shall offer up an Heave-Offering of it for the Lord, even
+<pb n="3" facs="tcp:104191:2"/>
+a Tenth Part of the Tythe. And this your Heave-Offer<g ref="char:EOLhyphen"/>ing
+shall be reckoned unto you, as though it were the Corn
+of the threshing Floor,</hi> &amp;c. <hi>Thus ye also shall offer an
+Heave Offering unto the Lord, of all your Tythes, which
+ye receive of the Children of Israel: And ye shall give
+there of the Lord's Heave-Offering to Aaron the Priest,</hi>
+ver. 26, 27, 28. This makes it evident, beyond doubt<g ref="char:EOLhyphen"/>ing,
+that the Tythes, which were given by the People
+to the <hi>Levites,</hi> and by the <hi>Levites</hi> to the <hi>Priests,</hi> un<g ref="char:EOLhyphen"/>der
+the Law, had their Dependance on the Ceremo<g ref="char:EOLhyphen"/>nial
+Law, as that Priesthood had; and were to stand
+no longer than that Law and that Priesthood stood:
+Which was but till <hi>Shiloh</hi> came, and by the Offering
+of himself once for all, had put an End to all the sha<g ref="char:EOLhyphen"/>dowy
+Offerings under that Law.</p>
+            <p>3. This the Author of the Epistle to the <hi>Hebrews</hi>
+did so well understand, that he positively declared
+that <hi>the Levitical Priesthood being changed, there was
+made of Necessity a Change also of the Law,</hi> (of that
+Law, by which that Priesthood and the Maintenance
+of it had stood) See <hi>Heb.</hi> 7. 12. And 'tis also evident
+from Scripture and Primitive Antiquity, that neither
+the Apostles themselves, nor (for some Ages after them)
+any of the Christians, did meddle with, or at all con<g ref="char:EOLhyphen"/>cern
+themselves about Tythes; but let them totally
+fall as they did the other abrogated Part, <hi>viz.</hi> Offer<g ref="char:EOLhyphen"/>ings,
+<hi>&amp;c.</hi> and of the Ceremonial Law of <hi>Moses.</hi>
+            </p>
+            <p>4. But after that the Mystery of Iniquity, which
+in the Apostles time began to work (2 <hi>Thes.</hi> 2. 7.)
+had wrought to that Degree amongst some Christians,
+and had drawn them so far from the Purity and Sim<g ref="char:EOLhyphen"/>plicity
+of the Gospel, as to form and model the Church
+in many things, by and according to the <hi>Iewish</hi> Pat<g ref="char:EOLhyphen"/>tern
+amongst other Ceremonial Parts of the <hi>Iewish</hi>
+Religion, which had been abolished by the Coming
+and Death of Christ, Tythes were preached up again
+(about the latter End of the fourth Century, and be<g ref="char:EOLhyphen"/>ginning
+of the fifth) by some, at first, under the No<g ref="char:EOLhyphen"/>tion
+<pb n="4" facs="tcp:104191:3"/>
+of Alms and Charity (because Part of the Tythee
+under the Levitical Law were appointed for th
+Maintenance of the Fatherless, the Widow and the
+Stranger, <hi>Deut.</hi> 14. 28, 29.) And by others, as then still
+due by the Mosaic Law, which had required them to be
+paid to the <hi>Livetical Priesthood.</hi> Which Plea afterwards
+(Corruptions increasing in the Church, and in those
+especially who were called the <hi>Church-Men,</hi> or <hi>Clergy</hi>)
+more and more prevailing, the Payment of Tythes
+was re introduced, as due by those Levitical Laws,
+which had been given to the <hi>Israelites</hi> of old. And
+upon that Bottom, Tythes have stood, been claimed,
+and the Claim defended unto this Day.</p>
+            <p>5. Now, not only he that thus claims and receives
+Tythes; but he that consents to, and complies with
+such Claim, by paying Tythes thus brought in, and
+thus claimed, doth thereby implicitly, and vertu<g ref="char:EOLhyphen"/>ally
+(at least) deny that Christ has put an End to the
+Ceremonial Law of <hi>Moses,</hi> and consequently that he
+is come, and hath suffered in his Flesh for Mankind.
+And that this may appear as plain as is possible, I shall
+draw the Matter into an Argument, thus:</p>
+            <p>To uphold any thing, as still in Force, which was
+to be taken away, and cease at and by the Death
+of Christ, is to deny that Christ is come and hath
+fuffered in his Flesh for Mankind.</p>
+            <p>But to receive, or pay Tythes now, is to uphold a
+Thing, as still in Force, which was to be taken
+away, and cease at and by the Death of Christ:</p>
+            <p>Therefore to receive, or pay Tythes now, is to
+deny that Christ is come, and hath suffered in
+his Flesh for Mankind.</p>
+            <p>The <hi>Major</hi> must be granted, and the <hi>Minor</hi> I thus
+prove.</p>
+            <p>Whatsoever was <hi>a Part</hi> of the Ceremonial Law of
+<hi>Moses,</hi> was to be taken away, and cease at and
+by the Death of Christ;</p>
+            <p>
+               <pb n="5" facs="tcp:104191:3"/>
+But Tythes were a Part of the Ceremonial Law
+of <hi>Moses;</hi>
+            </p>
+            <p>Therefore Tythes were to be taken away, and
+cease at and by the Death of Christ:</p>
+            <p>The <hi>Major</hi> here again is unexceptionable; and the
+<hi>Minor</hi> is thus proved:</p>
+            <p>Every <hi>Heave Offering</hi> among the <hi>Iews</hi> was <hi>a Part</hi>
+of the Ceremonial Law of <hi>Moses;</hi>
+            </p>
+            <p>But <hi>Tythes</hi> were an <hi>Heave-Offering</hi> among the
+<hi>Iews,</hi> Numb. 18. 24.</p>
+            <p>Therefore <hi>Tythes</hi> were <hi>a Part</hi> of the Ceremonial
+Law of <hi>Moses.</hi>
+            </p>
+            <p>6. By this it appears, that without Regard had of
+the Person to whom, or the Use for which Tythes
+are paid, the paying of Tythes (as well as the re<g ref="char:EOLhyphen"/>ceiving
+them) being <hi>a Part</hi> of the abrogated Ceremo<g ref="char:EOLhyphen"/>nial
+Law of <hi>Moses,</hi> imports a <hi>Denyal</hi> of the Coming
+and Death of <hi>Christ<g ref="char:punc">▪</g>
+               </hi> Hence it is, that Tythes have
+been, and are commonly called, <hi>Antichristian,</hi> or <hi>a<g ref="char:EOLhyphen"/>gainst
+Christ:</hi> And hence hath arisen that Saying (often
+used not only by our antient Friends, but by some of
+the Martyrs long before) <hi>viz. He that pays Tythes, doth
+thereby deny that Christ is come in the Flesh.</hi> That
+Conclusion could not have been drawn, from the pay<g ref="char:EOLhyphen"/>ing
+of Tythes to a wrong Ministry, or for a wrong
+Use only, though such Payment be evil: Nor could
+any thing justify that Inference, but the Considera<g ref="char:EOLhyphen"/>tion
+that Tythes, depending on the Ceremonial Law
+of <hi>Moses,</hi> which must of Necessity and in Course fall,
+and cease when Christ suffered; the paying of Tythes,
+carries in it a Supposal, that that Law is not yet ceas<g ref="char:EOLhyphen"/>ed,
+but is still in Force: And consequently that Christ,
+whose Death must needs have ended it, is not yet
+come, nor has yet suffered in his Flesh for Mankind.</p>
+            <p>7. That other Objection, not less weighty than
+common against paying Tythes to the <hi>Clergy,</hi> so cal<g ref="char:EOLhyphen"/>led,
+<hi>viz.</hi> The Unlawfulness of upholding a false Mi<g ref="char:EOLhyphen"/>nistry,
+to perform a false Worship (being it self so
+<pb n="6" facs="tcp:104191:4"/>
+clear and plain, that it needs no Illustration) I shall,
+in this Discourse, no further meddle with, than to
+observe in my way, how far it may affect those
+Tythes also, which the <hi>Impropriators</hi> claim. Where<g ref="char:EOLhyphen"/>fore
+having premised what is said before concerning
+Tythes in general, to what Hand, or for what Use so<g ref="char:EOLhyphen"/>ever
+paid, let us now inquire into those Tythes, which
+are called <hi>Impropriate.</hi>
+            </p>
+            <div type="part">
+               <head>Of Impropriate TYTHES.</head>
+               <p>1. THAT these Tythes, which are claimed by
+the <hi>Impropriators,</hi> are of the same Nature,
+and stand originally on the same Root and Ground, on
+which the other Tythes stand, which are claimed
+and exacted by the <hi>Priests,</hi> is evident from hence, that
+they were all heretofore, these as well as those, claim<g ref="char:EOLhyphen"/>ed
+by, and paid to some or other of the <hi>Romish Clergy,</hi>
+or their Appendices, the Religious Orders (so called)
+and upon the same Foot. That is, These <hi>Impropriate
+Tythes,</hi> were paid to those Religious Orders or Houses,
+as being due to God, by Vertue of the <hi>Levitic Law;</hi>
+as well as the other Tythes were paid to the <hi>Parish-Priests,</hi>
+on the same supposed Right, from the same
+Law. But how these Tythes came to those Religious
+Houses first, and how afterwards from them to the
+<hi>Impropriators,</hi> is next to be inquired.</p>
+               <p>2. Until the <hi>Lateran Council</hi> (so named, because it
+was holden in the <hi>Pope</hi>'s Palace at <hi>Rome,</hi> called the
+<hi>Lateran</hi>) in the Year 1215. It was in the Choice of eve<g ref="char:EOLhyphen"/>ry
+Man to give his Tythes to what Church he pleased,
+so he gave them to some Church. And even after that
+Council, the <hi>Popes,</hi> as Heads of that Church, by their
+dispencing Power, did give leave to such as would
+sue, and pay for it, to give their Tythes from the
+<hi>Parish-Priest,</hi> to such Order of Religious People (whe<g ref="char:EOLhyphen"/>ther
+<hi>Monks, Fryers,</hi> or <hi>Nuns</hi>) as they were best affected
+to. By which means, the <hi>Parish-Priests</hi> (called <hi>Seculars</hi>)
+<pb n="7" facs="tcp:104191:4"/>
+and those of the several Religious Orders (called by
+a general Title, <hi>Regulars</hi>) being left to scramble, as
+they could, for maintenance, the <hi>Regulars (mendicant
+Fryers,</hi> and others) swarming in all Places, and pre<g ref="char:EOLhyphen"/>tending,
+at least, to greater Sanctity, and Austerity
+of Life, than the <hi>Parish-Priests,</hi> prevailed with the
+People, either living or dying, to give not only very
+considerable Estates in Lands, but also the Tythes
+of other Lands, and of whole Parishes, from the <hi>Pa<g ref="char:EOLhyphen"/>rish
+Priests,</hi> to their Religious Houses or Convents.</p>
+               <p>3. The Tythes, or Parsonages, so given, were then
+called <hi>Appropriations,</hi> because they were appropriated
+to this, that, or the other Religious House or Con<g ref="char:EOLhyphen"/>vent.
+And I have read, that there were in <hi>England</hi>
+about 3845 Parsonages thus appropriated. And as
+Tythes were then held to be <hi>due to God and holy Church;</hi>
+and those Religious Orders were reputed a Part of that
+Church: So the Tythes as well as the Lands thus given
+them, were continued to them, and possessed by them,
+till that general Storm arose, in K. <hi>Henry</hi> 8. his time,
+which overturned those Religious Houses and Orders
+together. And here, by the way, it may be noted,
+That while those Religious Houses stood, a great Part
+of the Lands which had been given to them, were,
+by <hi>Papal</hi> Authority, exempted from paying Tythes:
+Whence it is, that many of those Estates, which had
+belonged to those Religious Houses, remain discharged
+from the Burthen of Tythes still.</p>
+               <p>4. As Tythes were set up here on the Authority of
+the <hi>Levitic Law,</hi> and in Imitation of the <hi>Iewish Pra<g ref="char:EOLhyphen"/>ctice,</hi>
+consonant to that Law: So while those Reli<g ref="char:EOLhyphen"/>gious
+Houses stood, and the <hi>Pope</hi>'s Power prevailed
+here, not only the <hi>Seculars</hi> or <hi>Parish-Priests,</hi> but all
+those <hi>Regulars</hi> who received Tythes, were bound to
+pay the <hi>Tenths</hi> out of the Tythes they received to the
+Head of their Church, the <hi>Pope,</hi> as the <hi>Levites,</hi> under
+the Ceremonial Law, were required to do to the Priests.</p>
+               <p>5. But after that K. <hi>Hen.</hi> 8. (upon a Quarrel be<g ref="char:EOLhyphen"/>tween
+<pb n="8" facs="tcp:104191:5"/>
+the <hi>Pope</hi> and him, about his Divorce from his
+first Queen <hi>Catharine,</hi> which he earnestly desired, and
+the <hi>Pope</hi> would not grant) fell off from the <hi>Pope</hi>
+(though not from <hi>Popery:</hi> For after that, he retained
+the most pernicious Doctrines of the <hi>Romish Church,</hi>
+contained in the six Articles, and burnt some for de<g ref="char:EOLhyphen"/>nying
+them) he threw off the <hi>Pope</hi>'s Supremacy here,
+and assumed it to himself; declaring himself, and
+being declared, first by the <hi>Clergy</hi> in their <hi>Convoca<g ref="char:EOLhyphen"/>tion,</hi>
+and soon after by <hi>Lords</hi> and <hi>Commons</hi> in <hi>Parlia<g ref="char:EOLhyphen"/>ment,
+The only Supream Head in Earth of the Church
+of England.</hi> This was done by the Statute of 26 <hi>Hen.</hi>
+8. c. 1. And therein it is enacted. <q>That the King,
+his Heirs and Successors, Kings of this Realm, shall
+be taken, accepted and reputed the only Supream
+Head in Earth of the Church of <hi>England.</hi> And shall
+have and enjoy, annexed and united to the Imperial
+Crown of this Realm, as well the Title and Stile
+thereof, as all Honours, Dignities, Praeemences, Ju<g ref="char:EOLhyphen"/>risdictions,
+Privileges, Authorities, Immunities, Pro<g ref="char:EOLhyphen"/>fits
+and Commodities to the said Dignity of Su<g ref="char:EOLhyphen"/>pream
+Head of the same Church belonging and ap<g ref="char:EOLhyphen"/>pertaining.
+And shall have full Power and Autho<g ref="char:EOLhyphen"/>rity,
+from time to time, to Visit, Repress, Redress,
+Reform, Order, Correct, Restrain and Amend all
+such Errors, Heresies, Abuses, Offences, Contempts
+and Enormities whatsoever they be, which by any
+manner of Spiritual Authority and Jurisdiction
+ought, or may lawfully be reformed, repressed, or<g ref="char:EOLhyphen"/>dered,
+redressed, corrected, restrained, or amended,
+<hi>&amp;c.</hi>
+                  </q> By which it is evident, the Intention of the
+<hi>Parliament</hi> then was to transfer, confer and settle un<g ref="char:EOLhyphen"/>to
+and upon King <hi>Henry</hi> all the Powers, Profits and
+Priviledges, which had been before supposed to be in,
+or belong to, or had been enjoyed or exercised by
+the <hi>Pope,</hi> while he was received as <hi>Supream Head of
+the Church.</hi>
+               </p>
+               <p>6. And therefore, as the <hi>Pope,</hi> while he retained the
+<pb n="9" facs="tcp:104191:5"/>
+                  <hi>Supremacy</hi> here, had the first Fruits (which are the
+Profits of every Spiritual or Ecclesiastical Living for
+one Year) upon the advancing of any Ecclesiastical
+Person, to such a Living; and also the <hi>Tenths,</hi> that is
+the <hi>Tenth Part</hi> of all the Tythes: So these two Reve<g ref="char:EOLhyphen"/>nues,
+as appendant to that <hi>Supremacy,</hi> followed it;
+being settled on the King, in the same Session of Par<g ref="char:EOLhyphen"/>liament,
+wherein the Supremacy was vested in him.
+The Words of the Statute, 26 <hi>H.</hi> 8. c. 3. relating to
+the <hi>first Fruits,</hi> are these. <q>That for the more sure<g ref="char:EOLhyphen"/>ty
+of Continuance and Augmentation of his High<g ref="char:EOLhyphen"/>ness
+Royal Estate, being not only now recognized
+(as he always indeed hath heretofore been) the only
+Supream Head in Earth, next and immediately un<g ref="char:EOLhyphen"/>der
+God, of the Church of <hi>England,</hi> but also their
+most assured and undoubted natural Soveraign Leige
+Lord and King, <hi>&amp;c.</hi> It may therefore be enacted
+and ordained by, <hi>&amp;c.</hi> That the King's Highness,
+his Heirs and Successors, Kings of this Realm, shall
+have and enjoy from time to time to endure for e<g ref="char:EOLhyphen"/>ver,
+of every such Person and Persons, which at any
+time after the first Day of <hi>Ianuary</hi> next shall be
+nominated, elected, perfected, presented, collated or
+by any other means appointed to have any Arch-Bi<g ref="char:EOLhyphen"/>shoprick,
+Abbacy, Monastery, Priory, Colledge,
+Hospital, Archdeaconry, Deanry, Provostship,
+Prebend, Parsonage, Vicarage, Chauntry, Free-Chap<g ref="char:EOLhyphen"/>pel,
+or other Dignity, Benefice, Office, or Pro<g ref="char:EOLhyphen"/>motion
+Spiritual, whithin this Realm, or elsewhere<g ref="char:EOLhyphen"/>within
+any of the King's Dominions, of what
+Name, Nature, or Quality soever they be, or to
+whose Foundation, Patronage, or Gift soever they
+belong, the first-Fruits, Revenues and Profits for
+one Year of every such Arch-Bishoprick, Bishop<g ref="char:EOLhyphen"/>rick,
+Abby, Monastery, Priory,—Parsonage, Vicar<g ref="char:EOLhyphen"/>age,
+<hi>&amp;c.</hi>
+                  </q> Then (after Provisions made for finding
+out the Value of those Spiritual Livings, and for
+paying, receiving and recovering those <hi>First-Fruits</hi>)
+<pb n="10" facs="tcp:104191:6"/>
+the Settlement of the <hi>Tenths</hi> (that other part of the
+<hi>Pope</hi>'s Revenue) upon the King, follows, in the same
+Statute, in these Words.</p>
+               <p>
+                  <q>And over this, be it enacted by Authority a<g ref="char:EOLhyphen"/>foresaid,
+that the King's Majesty, his Heirs and
+Successors, Kings of this Realm, for more Augmenta<g ref="char:EOLhyphen"/>tion
+and Maintenance of the Royal Estate of his
+Imperial Crown and Dignity of Supream Head
+of the Church of <hi>England,</hi> shall Yearly have, take,
+enjoy and receive, united and knit to his Impe<g ref="char:EOLhyphen"/>rial
+Crown for ever, one yearly Rent, or Pension,
+amounting to the Value of the Tenth Part of all
+the Revenues, Rents, Farms, Tythes, Offerings,
+Emoluments, and of all other Profits as well called
+Spiritual as Temporal, now appertaining or be<g ref="char:EOLhyphen"/>longing,
+or that hereafter shall belong to any
+Archbishoprick, Bishoprick, Abbacy, Monastery,
+Priory, Archdeaconry, Deanry, Hospital, Col<g ref="char:EOLhyphen"/>ledge,
+House-Collegiate, Prebend, Cathedral Church,
+Collegiate-Church, Conventual-Church, Parsonage,
+Vicarage, Chauntry, Free-Chappel, or other Be<g ref="char:EOLhyphen"/>nefice
+or Promotion Spiritual, of what Name,
+Nature, or Quality soever they be, within any
+Diocess of this Realm, or in Wales, <hi>&amp;c.</hi>
+                  </q> And so
+goes on to direct the Time, Place and Manner of
+Payment of these Tenths, with the Penalty for
+non-Payment.</p>
+               <p>7. Thus were these two great Pillars of <hi>Papal Su<g ref="char:EOLhyphen"/>premacy
+(First Fruits</hi> and <hi>Tenths</hi>) transferr'd from
+the <hi>Pope,</hi> (the old Head) to the King, (the new
+Head of the Church,) to support and maintain that
+Headship in him, as they had done before in the
+<hi>Pope.</hi> Which Ecclesiastical Headship the King was
+no sooner possessed of, than he began to exercise it a<g ref="char:EOLhyphen"/>mongst
+those Religious Orders, Suppressing (as <hi>Her<g ref="char:EOLhyphen"/>bert,</hi>
+in his Life, p. 379. rel<gap reason="illegible: under-inked" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tes) the <hi>Observant
+Fryers</hi> at <hi>Greenwich, Canterbury, Richmond</hi> and o<g ref="char:EOLhyphen"/>ther
+Places, and substituting the <hi>Augustines</hi> in their
+<pb n="11" facs="tcp:104191:6"/>
+Places. <q>Which he did (says <hi>Herbert</hi> there) for the
+finding out how his People would take his Design of
+putting down Religious Houses:</q> To which he pro<g ref="char:EOLhyphen"/>ceeded
+the next Year, beginning with the lesser Sort,
+and suppressing all those Monasteries, Priories and
+other Religious Houses of <hi>Monks, Canons</hi> and <hi>Nuns,</hi>
+which had not in Lands, Tenements, Rents, Tythes,
+Portions and other Hereditaments, above the clear
+yearly Value of two Hundred Pounds. By which
+means 376 of those Religious Houses being dissol<g ref="char:EOLhyphen"/>ved,
+a Revenue of above thrity thousand Pounds a
+Year, besides an hundred thousand Pounds in Money
+raised by Sale, at low Rates, of the Goods and Chat<g ref="char:EOLhyphen"/>tels,
+of those Houses (a Sum not small in that Age)
+came to the King, for Support of his Ecclesiastical
+Supremacy.</p>
+               <p>8. The Statute, which countenanced this Proceed<g ref="char:EOLhyphen"/>ing,
+is the 27 of <hi>Hen.</hi> 8. cap. 28. And a new Court,
+called <hi>the Court of Augmentations,</hi> was then erected
+and settled by Parliament, for receiving and order<g ref="char:EOLhyphen"/>ing
+these new accessional Revenues: The Act for
+which, in our printed Statute Books, is set before that
+for the Suppression of those lesser Monasteries. But
+though that, for Suppressing those Monasteries, be,
+by an <hi>Hysterosis,</hi> set after that for establishing the
+<hi>Court of Augmentations;</hi> yet it must have been made
+before it: For it is recited in it.</p>
+               <p>9. In that Statute, 27 <hi>Hen.</hi> 8. c. 28. for Suppressing
+those smaller Monasteries, mention is made o<gap reason="illegible: damage" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Mo<g ref="char:EOLhyphen"/>nasteries,
+Abbies and Priories, which, with in one
+Year before the making of that Statute, ha<gap reason="illegible: damage" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> been
+given and granted to the King by any Abbot, Prior,
+Abbess or Prioress, under their Convent-Seal, or that
+otherwise had been suppressed, or dissolved. All which
+were, by that Statute confirmed to the King, and to
+all those, unto whom the King either then <unclear>before</unclear> had
+conveyed, or then after should convey any Part or
+Parts thereof; To hold to them in like Manner,
+<pb n="14" facs="tcp:104191:7"/>
+stamped upon those <hi>Rectories, Parsonages,</hi> and other
+Revenues by <hi>Tythes,</hi> into what Hands soever they
+were passed. And therefore, by the Statute of 32 <hi>Hen.</hi>
+8. cap. 7. in case of with-holding, or denying to pay
+the Tythes, all Persons claiming them (<hi>Impropria<g ref="char:EOLhyphen"/>tors</hi>
+as well as <hi>Priests)</hi> are restrained from suing in
+the <hi>Temporal Courts,</hi> and limitted to the <hi>Ecclesiastical</hi>
+or <hi>Spiritual Courts</hi> only, for the Recovery of them.</p>
+               <p>13. And that they might still have Dependence upon
+the <hi>Supremacy,</hi> care was taken, from the first, by the
+Statute of 27 <hi>Hen.</hi> 8. cap. 27. That none of these
+Estates, which then had come, or should come, from
+any of those Religious Houses to the King, should
+pass from him by Grant to any Person whatsoever,
+without an express Reservation of a <hi>Tenth.</hi> And in
+a subsequent Statute (33 <hi>Hen.</hi> 8. cap. 39.) Complaint
+being made, that altho' out of those Grants, which
+the King had made to sundry Persons, of Honours,
+Castles, Mannors, Lands, Tenements, Rectories, <hi>&amp;c.</hi>
+(which were under the Survey of the <hi>Court of Aug<g ref="char:EOLhyphen"/>mentations</hi>)
+the <hi>Tenths</hi> had been reserved; yet the
+Persons unto whom such Grants had been made,
+though they had quietly enjoyed and taken the Issues
+and Profits of those Lands, Rectories, <hi>&amp;c.</hi> had not
+paid the reserved <hi>Tenths</hi> to the King: Provision was
+made in that Statute, by several <hi>Forfeitures</hi> and <hi>No<g ref="char:EOLhyphen"/>mine-Paenae</hi>'s
+to enforce the Payment thereof.</p>
+               <p>Nor was Care taken of the <hi>Ecclesiastical Head</hi> (the
+<hi>King</hi>) only, but of the <hi>Ecclesiastical Members</hi> (the
+<hi>Clergy</hi>) also: Many, if not most, of which had Pen<g ref="char:EOLhyphen"/>sions,
+or Portions issuing out of those Parsonages, Re<g ref="char:EOLhyphen"/>ctories,
+or other Spiritual Benefices (as they were
+counted) which the Religious Orders held: For, be<g ref="char:EOLhyphen"/>sides
+that upon the Increasing of those <hi>Appropriations,</hi>
+whereby the <hi>Parish-Priests</hi> were pinch'd, there had
+been Provision made early, in the time of K. <hi>Richard</hi>
+the <hi>Second,</hi> for the <hi>Vicars,</hi> as well as for the <hi>Poor;</hi> the
+Statute of 15 <hi>Ric.</hi> 2. c. 6. directing, <q>That, upon the
+<pb n="15" facs="tcp:104191:7"/>
+                     <hi>Appropriation</hi> of such Churches, the <hi>Diocaesian</hi> of
+the Place (or Bishop of the Diocess) shall ordain,
+according to the Value of such Churches, a conve<g ref="char:EOLhyphen"/>nient
+Sum of Money to be paid and distributed
+Yearly, of the Fruits and Profits of the same
+Churches, to the poor Parishoners: And also, that
+the Vicar be well and sufficiently endowed.</q> Which
+Statute (so far, at least, as concerned the Vicars) was
+afterwards confirmed by another Statute of 4 <hi>Hen.</hi> 4.
+cap. 12. which expresly ordains, <q>That the Statute
+of Appropriation of Churches, and of the Endow<g ref="char:EOLhyphen"/>ment
+of Vicars in the same, made the 15th Year of
+K. <hi>Ric.</hi> the 2d be firmly holden, and put in due Exe<g ref="char:EOLhyphen"/>cution:</q>
+I say, besides these, the Stat. of 34 and 35
+of <hi>Hen.</hi> 8. cap. 19. takes notice, <q>That the Arch-Bi<g ref="char:EOLhyphen"/>shops,
+Bishops, Arch Deacons and other Ecclesia<g ref="char:EOLhyphen"/>stical
+Persons, of both Provinces of <hi>Canterbury</hi> and
+<hi>York,</hi> having formerly, in right of their Churches
+received out of the late Monasteries, <hi>&amp;c.</hi> divers
+Pensions, and other Profits, had after the Dissoluti<g ref="char:EOLhyphen"/>on
+of those Houses, been disturbed, and denyed of the
+having, receiving and gathering of the said Pen<g ref="char:EOLhyphen"/>sions,
+<hi>&amp;c.</hi>
+                  </q> Whereupon it is, in the said Statute,
+enacted, <q>That if any Person or Persons, being Far<g ref="char:EOLhyphen"/>mer
+or Occupier of any Mannors, Lands, Tene<g ref="char:EOLhyphen"/>ments,
+Parsonages, Benefices or other Hereditaments
+of any of the said late Monasteries, <hi>&amp;c.</hi> by the King's
+Gift, Grant, Sale, Exchange, or otherwise, out
+of which any such Pensions, <hi>&amp;c.</hi> have been here<g ref="char:EOLhyphen"/>tofore
+lawfully going, answered or paid to any of
+the Arch-Bishops, Bishops, Arch Deacons, and o<g ref="char:EOLhyphen"/>ther
+Ecclesiastical Persons abovesaid, do, at any
+time after the first Day of <hi>April</hi> next coming, wil<g ref="char:EOLhyphen"/>fully
+deny the Payment thereof, Then it shall be
+lawful for the said Arch-Bishops, Bishops, Arch-Deacons,
+or other Ecclesiastical Persons aforesaid,
+being so denied; to be satisfied and paid thereof, <hi>&amp;c,</hi>
+to proceed in the Ecclesiastical Courts, for the Re<g ref="char:EOLhyphen"/>covery
+thereof.</q>
+               </p>
+               <p>
+                  <pb n="16" facs="tcp:104191:8"/>
+14. By which Statute, all Pensions payable to Arch-Bishops,
+Bishops, Arch-Deacons, or other Ecclesiasti<g ref="char:EOLhyphen"/>cal
+Person, that had been possessed thereof, at or
+within Ten Years next before the time of the Disso<g ref="char:EOLhyphen"/>lution
+of the Monasteries, out of the Parsonages, Re<g ref="char:EOLhyphen"/>ctories,
+or Tythes holden by the said Monasteries, <hi>&amp;c.</hi>
+are confirmed and assured to such Arch-Bishops, Bi<g ref="char:EOLhyphen"/>shops,
+Arch-Deacons, and other Ecclesiastical Per<g ref="char:EOLhyphen"/>sons
+still.</p>
+               <p>15. So that, upon the whole, besides what hath been said
+of Tythes in general, with respect to the <hi>Iudaizing,</hi>
+and <hi>Denying</hi> of Christ, by the Paying thereof (which
+extends alike to all <hi>Tythes,</hi> those claimed by the <hi>Impro<g ref="char:EOLhyphen"/>priator,</hi>
+as well as those claimed by the <hi>Priest</hi>) the <hi>Im<g ref="char:EOLhyphen"/>propriate
+Tythes</hi> being generally charged, either with
+some Payment to the <hi>Vicars,</hi> for enlarging of their
+<hi>Stipends,</hi> or with <hi>Pensions</hi> to the Arch Bishops, Bi<g ref="char:EOLhyphen"/>shops,
+Arch-Deacons, and other Ecclesiasticks: All
+such of them as are so charged, come under the
+same Objection, that is made against paying to the
+Priest, <hi>viz.</hi> The upholding of a false Ministry, to
+perform a false Worship. And if any <hi>Impropriation</hi>
+may be supposed to be free from all those Charges;
+yet all <hi>Impropriators,</hi> as well as <hi>Priests,</hi> being bound
+to pay the reserved <hi>Tenths</hi> to the King, as <hi>Supream
+Head of the Church</hi> (which were wont before to be
+paid to the <hi>Pope,</hi> while he was owned for <hi>Head of
+the Church</hi>) the paying of Tythes to an <hi>Impropria<g ref="char:EOLhyphen"/>tor,</hi>
+is a <hi>Recognizing,</hi> and <hi>acknowledging</hi> of a Man
+(Bad or Good, <hi>Popish</hi> or <hi>Protestant,</hi> as it happens)
+to be the only <hi>Supream Head on Earth of the Church.</hi>
+Which is to set an <hi>Human Head</hi> to a <hi>Spiritual Body:</hi>
+and to divest and deprive our Lord <hi>Iesus Christ</hi> of
+his undoubted Right, who the Apostle says expres<g ref="char:EOLhyphen"/>ly,
+is <hi>the Head of the Body, the Church,</hi> Col. 1. 18.
+<hi>And that not of Man's making or appointing; but God</hi>
+(saith the Apostle) <hi>hath given him to be the Head over all
+things to the Church, which is his Body,</hi> Eph. 1. 22, 23.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:104191:8"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
