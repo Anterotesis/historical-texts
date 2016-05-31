@@ -1,0 +1,893 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Observations upon Anthroposophia theomagica, and Anima magica abscondita by Alazonomastix Philalethes.</title>
+            <author>More, Henry, 1614-1687.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1650</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 118 KB of XML-encoded text transcribed from 52 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A51308</idno>
+            <idno type="STC">Wing M2667</idno>
+            <idno type="STC">ESTC R2776</idno>
+            <idno type="EEBO-CITATION">12185482</idno>
+            <idno type="OCLC">ocm 12185482</idno>
+            <idno type="VID">55764</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A51308)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 55764)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 610:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Observations upon Anthroposophia theomagica, and Anima magica abscondita by Alazonomastix Philalethes.</title>
+                  <author>More, Henry, 1614-1687.</author>
+               </titleStmt>
+               <extent>[6], 94, [3] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed at Parrhesia, but are to be sold, by O. Pullen ...,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1650.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>First edition.</note>
+                  <note>Attributed to Henry More, the platonist. Cf. Halkett &amp; Laing (2nd ed.)</note>
+                  <note>Anthroposophia theomagica and Anima magica abscondita were written by Thomas Vaughan under the pseudonym of Eugenius Philalethes.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Vaughan, Thomas, 1622-1666. --  Anthroposophia theomagica.</term>
+               <term>Vaughan, Thomas, 1622-1666. --  Anima magica abscondita.</term>
+               <term>Alchemy.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2000-00</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2001-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2002-06</date>
+            <label>Kirk Davis</label>Sampled and proofread</change>
+         <change>
+            <date>2002-06</date>
+            <label>Kirk Davis</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2002-07</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:55764:1"/>
+            <pb facs="tcp:55764:1" rendition="simple:additions"/>
+            <p>OBSERVATIONS UPON <hi>ANTHROPOSOPHIA THEOMAGICA,</hi> AND <hi>Anima Magica Abscondita.</hi>
+            </p>
+            <p>By ALAZONOMASTIX PHILALHTHES</p>
+            <p>Psalm.</p>
+            <p>They reel to and fro, and stagger like a drunken man, and are at their wits end.</p>
+            <p>Printed at <hi>Parrhesia,</hi> but are to be sold, by <hi>O. Pullen</hi> at the Rose in <hi>Pauls</hi> Churchyard, 1650.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:55764:2"/>
+            <pb facs="tcp:55764:2"/>
+            <head>To <hi>Eugenius Philalethes</hi> the Authour of <hi>Anthro<g ref="char:EOLhyphen"/>posophia Theomagica,</hi> and <hi>Anima Magica Abscondita.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>THE Great deserved fame that followed this noble work of yours (the due recompense of all eminent performances) engaged me to peruse the same, with much eagernesse of minde, and yet with no lesse attention; I being one of those, that professe themselves much more willing to learn, then able to teach. And that you may see some <hi>specimen</hi> of the fruits of your labour and my
+<pb facs="tcp:55764:3"/>
+proficiency, I thought fit to present you with these few <hi>Observations.</hi> Which, considering the barrennesse of the <hi>Matrix,</hi> (as you Chymists love to call it) in which they were con<g ref="char:EOLhyphen"/>ceived, may bee termed rather many then few: And that imputed to the alone vertue, or Magicall Multiplica<g ref="char:EOLhyphen"/>tion, or Theomagicall fecundity of your Divine Writings, not at all to the sterility of my disfurnished Braine. Which now notwithstanding, having gathered both warmth and moisture from the heat and luxuriancy of your youthfull phansie, findes it selfe af<g ref="char:EOLhyphen"/>ter a manner transformed into your owne complexion, and translated in<g ref="char:EOLhyphen"/>to the same temper with your selfe. In so much that although I cannot with the height of a protestation in the presence of my glorious God (as your self has gallantly done (<hi>in pag. 50. lin. 17. of Anthropos. Theomag.</hi>) af<g ref="char:EOLhyphen"/>firme that the affection and Zeal to the truth of my Creatour has forced
+<pb facs="tcp:55764:3"/>
+mee to write, yet I dare professe in the word of an honest man, that nothing but an implacable enmity to immorality and foolery, has moved mee at this time to set pen to Pa<g ref="char:EOLhyphen"/>per. And I confesse my indignation is kindled the more, having so long observed that this disease is grown even Epidemicall in our Nation. <hi>viz.</hi> to desire to bee filled with high-swoln words of vanity, rather then to feed on sober truth, and to heat and warm our selves rather by preposterous and fortuitous imaginations, then to move cautiously in the light of a purified minde and improved reason. Where<g ref="char:EOLhyphen"/>fore I being heightened with the same Zeale of discountenancing of vanity and conceitednesse, that your selfe is of promoting the truth, you will per<g ref="char:EOLhyphen"/>mit to mee the same freedome in the prosecution thereof. For as wee are growne near akin in temper and comple<g ref="char:EOLhyphen"/>xion, so we ought mutually to allow each other in our actings alike, according
+<pb facs="tcp:55764:4"/>
+to our common temper and nature, and the accustomed liberty of the <hi>Phil<g ref="char:EOLhyphen"/>alethean</hi> Family. In confidence where<g ref="char:EOLhyphen"/>of, till wee meet againe in the next page, I take leave and subscribe my selfe,</p>
+            <closer>
+               <signed>A Chip of the same Block Alazonomastix Philalethes.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="explications">
+            <pb n="1" facs="tcp:55764:4"/>
+            <head>Observations upon An<g ref="char:EOLhyphen"/>throposophia Theomagica, and Anima Magica Abscondita.</head>
+            <p>AND now, brother <hi>Philalethes;</hi> that we are so well met, let us begin to act according to the freenesse of our tempers, and play the Tom Tell<g ref="char:EOLhyphen"/>troths. And you indeed have done your part already. My course is next. Which must be spent, in the <hi>Observations</hi> I told you of, upon those profound Trea<g ref="char:EOLhyphen"/>tises of yours, <hi>Anthroposophia Theomagica,</hi> and <hi>Anima Magica Abscondita.</hi>
+            </p>
+            <p>And my first and generall Observation is this, That the genius of my brother <hi>Eugenies</hi> Magicall discourse is such, that <hi>Simon Magus</hi>-like, he seems to have a very
+<pb n="2" facs="tcp:55764:5"/>
+liquoursome desire to be thought to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, some great man in the World. And for the prosecution of this main end, he layes himself out chiefly in these three subordinate designes. First, to be thought to have found out some new concerning truths, hitherto undiscovered. Secondly, to be more learned and knowing then <hi>Ari<g ref="char:EOLhyphen"/>stotle,</hi> that great light of these European parts for these many hundred years toge<g ref="char:EOLhyphen"/>ther: and not only so, but to be so far a<g ref="char:EOLhyphen"/>bove him, that he may be his Master, that he may tew him, and lugge him, and lash him more cruelly, then any <hi>Orbilius</hi> or cho<g ref="char:EOLhyphen"/>lerick Pedagogue, his puny scholars. Third<g ref="char:EOLhyphen"/>ly and lastly, that he may strike home for the getting of a fame of profound learning indeed, he do's most affectedly and in<g ref="char:EOLhyphen"/>dustriously raise in the Reader a strong surmise and suspicion that he is very deep<g ref="char:EOLhyphen"/>ly seen in Art Magick, and is a very know<g ref="char:EOLhyphen"/>ing Disciple of <hi>Agrippa,</hi> and puts in as far for the name of a Magician, as honesty will permit, and safety from that trou<g ref="char:EOLhyphen"/>blesome fellow, <hi>Hopkins</hi> the Witch-finder.</p>
+            <p>And indeed the very clatter of the title of his Book, <hi>Anthroposophia Theomagica,</hi> sounds not much unlike some conjuration, or charm, that would either call up, or scare
+<pb n="3" facs="tcp:55764:5"/>
+away the Devill. And <hi>Zoroaster</hi> forsooth, at the bottome of the page, that old repu<g ref="char:EOLhyphen"/>ted Magician, must stand as an Assistent to this preludiall Exorcism; with this Ora<g ref="char:EOLhyphen"/>cle in his mouth, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Audi ignis vocem.</hi> That is in plaine English, Hear the voice or noise of fire. Methinks I smell out a Gunpowder-plot. What can this voice of fire be? Why! how now <hi>An<g ref="char:EOLhyphen"/>throposophus!</hi> you intend certainly to make the Rosy Brotherhood merry with squibs and crackers. For certainly your Myste<g ref="char:EOLhyphen"/>riousnesse does not mean those lesser or greater fire-squirts, Carbines or Cannons. So might the <hi>Fratres R. C.</hi> be received with like solemnity that those Apostles at <hi>Rome,</hi> the Cardinals. But the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, (which implyes a subsultation, or skipping this way and that way) which is in the context of this Oracle, seemes to allude to, and prognosticate of fire-crackers and squibs rather then Cannons or Carbines. But how ever if this dog-trick fail, <hi>Anthro<g ref="char:EOLhyphen"/>posophus</hi> has another as puerile and innocent a present, to entertain that Reverend Fra<g ref="char:EOLhyphen"/>ternity. And that's a very queint and trim Latine Epistle, which he, like a good School-boy, to shew them what a good Pro<g ref="char:EOLhyphen"/>ficient he is grown in his Latine Grammar,
+<pb n="4" facs="tcp:55764:6"/>
+presents to their assembled Gravities. 'Tis a good child, <hi>Anthroposophus!</hi> and 'tis well done. <hi>Qui necit obedire nescit imperare.</hi> He that knows not how to submit himself in the form of a breeching boy to the <hi>Fratres R. C.</hi> how can he know so unmercifully to whip and domineer over poor <hi>Ari<g ref="char:EOLhyphen"/>stotle?</hi>
+            </p>
+            <p>Surely, <hi>Anthroposophus!</hi> when the Rosy brethren, ride swooping through the Air in their Theomagicall chariots, they will hail down sugar plums, and Carua's on thy blessed pate, if thou haft but the good hap at that time, to walk abroad with thy hat off, to cool thy heated nodle.</p>
+            <p>But stay a while, I am afraid I am mista<g ref="char:EOLhyphen"/>ken. It may well be, that <hi>Anthroposophus</hi> rides along with them, as being the Proloquu<g ref="char:EOLhyphen"/>tour of their Assembly. For he writes him<g ref="char:EOLhyphen"/>selfe <hi>Oratoris vestri.</hi> How can that belong to a short Epistle, unlesse it were some title of office? But it may be my Gentle<g ref="char:EOLhyphen"/>man, being not so dextrous and quick in Latine as in English, measured the length o<gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it more by his labour then the lines, and thought that that which took him so much pains could not prove so little as an E<g ref="char:EOLhyphen"/>pistle; and therefore would insinuate that it was an Oration made to the <hi>Fratres R. C.</hi>
+               <pb n="5" facs="tcp:55764:6"/>
+               <hi>I</hi> suppose at their meeting at Fryer <hi>Bacons</hi> brasen head in <hi>Oxford.</hi>
+            </p>
+            <p>Well! be it what it will be, my observa<g ref="char:EOLhyphen"/>tion here, <hi>Anthroposophus,</hi> is, that you would also by your addresse to the <hi>Fratres R. C.</hi> make the world beleeve, that you are now mellowing apace, and are not much unripe for admission into that Society. And then <hi>Anthroposophus</hi> would be a rare Theomagici<g ref="char:EOLhyphen"/>an indeed. But enough of this vein of mirth and levity.</p>
+            <p>Now <hi>Philalethes!</hi> your brother Tel-troth, intends to fall more closely on your bones, and to discover whether you have not a greater minde to seem to be wise then to be so indeed, or to make others so. But yet you may assure your self, I will only find flaws not make any in you; but ra<g ref="char:EOLhyphen"/>ther candidly passe over what may receive any tolerably good interpretation, nor touch the soar any where, but where I may hope to heal it, either in your self or o<g ref="char:EOLhyphen"/>thers. And that this may be done with<g ref="char:EOLhyphen"/>out any tedious taking a peeces of what you have put together, I shall fairly passe from page to page without any Analytical Artifice.</p>
+            <p>And truly from the first page to middle of the fourth page of you
+<pb n="6" facs="tcp:55764:7"/>
+to the Reader, there be many pretty, smart, elegant, humorous contextures of phrases and things. But there, presently after Fryer <hi>Bacons</hi> Fool and his fellow, you fall upon our Peripateticks as such superfici<g ref="char:EOLhyphen"/>all Philosophasters, because they cannot lay open to you the very essence of the soul. Why! <hi>Anthroposophus!</hi> can you tell the very essence of any substantiall thing? Hereby you show your self very raw and unex<g ref="char:EOLhyphen"/>ercised in meditation, in that you have not yet taken notice what things are knowable, what not. And thus may you have as ill a trick put upon you, for want of this discerning, as the old dim and doting woman had, that with her rotten teeth endeavoured to crack a round pebble stone instead of a nut, which was a thing im<g ref="char:EOLhyphen"/>possible. Nor will any mans understand<g ref="char:EOLhyphen"/>ing, be it as sharp as it will, enter the bare essence of any thing. But the nearest wee can get, is, to know the powers, and ope<g ref="char:EOLhyphen"/>rations, the respects and fitnesses that things have in themselves or toward others. Which is so true, that any man in a little search, will presently satisfie himself in the evi<g ref="char:EOLhyphen"/>dence thereof.</p>
+            <p>From the middle of this fourth page to the middle of the six, is continued a dance
+<pb n="7" facs="tcp:55764:7"/>
+of Anticks, or various ridiculous shiftings and postures of phansie, to make <hi>Aristotle</hi> and his followers contemptible. But such generall railings, as they are mis-beseem<g ref="char:EOLhyphen"/>ing the Writer, so they teach the Reader nothing but that the Authour of them is a Mome, or a Mimick, and more like an Ape by far then him that he compares to one. If this man clap the wings so when hee has really got the foil (for hitherto hee has charged <hi>Aristotle</hi> with no particular piece of ignorance, but of what is im<g ref="char:EOLhyphen"/>possible to be known) what would he doe if he had the victory?</p>
+            <p>The second particular taxation (for ge<g ref="char:EOLhyphen"/>nerals I hold nothing, <hi>Dolosus ambulat in u<g ref="char:EOLhyphen"/>niversalibus</hi>) is that the Peripateticks fan<g ref="char:EOLhyphen"/>cy God to have made the World, as a Carpenter of stone and timber. But this is false: because they give an inward principle of motion to all naturall bodies, and there is one continuity of all, as much as of the parts of water among them<g ref="char:EOLhyphen"/>selves. But their grand fault is, that they doe not say the World is Animate. But is not yours far greater, <hi>Anthroposophus!</hi> that gives so ridiculous unproportionable ac<g ref="char:EOLhyphen"/>count of that Tenet? The whole World is an Animal, say you, whose flesh is the
+<pb n="8" facs="tcp:55764:8"/>
+earth, whose bloud is the water, the air the outward refreshing spirit in which it breaths, the interstellar skies his vitall wa<g ref="char:EOLhyphen"/>ters, the Stars his sensitive fire. But are not you a mere Animal your self to say so? For it is as irrationall and incredible, as if you should tell us a tale of a Beast whose bloud and flesh put together, bears not so great a proportion to the rest of the more fluid parts of the Animal, suppose his vitall and animal spirits, as a mite in a cheese to the whole globe of the earth. And beside this, how shall this water which you call bloud, be refreshed by the air that is warmer then it? And then those waters which you place in the outmost parts towards his dappeld or spotted skin the <hi>coelum stellatum,</hi> what over-proportionated plenty of them is there there? In so much that this creature you make a diseased Animall from its first birth, and ever labouring with an <hi>Ana<g ref="char:EOLhyphen"/>sarca.</hi> Lastly, how unproperly is the air said to be the outward refreshing spirit of this Animal, when it is ever in the very midst of it? And how rashly is the Flux and Reflux of the Sea assimilated to the pulse, when the pulse is from the heart not the brain, but the flux and reflux of the Sea from the Moon not the Sun, which
+<pb n="9" facs="tcp:55764:8"/>
+they that be more discreetly phantasticall then your self, doe call <hi>Cor Mundi.</hi> Where<g ref="char:EOLhyphen"/>fore, <hi>Anthroposophus!</hi> your phansies to sober men, will seem as vain and puerile, as those of idle children that imagine the for<g ref="char:EOLhyphen"/>tuitous postures of spaul and snivell on plaster-walls, to bear the form of mens or dogs faces, or of Lyons and what not.</p>
+            <p>And yet see the supine stupidity and senslesnesse of this mans judgment, that he triumphs so in this figment of his as so rare and excellent a truth, that <hi>Aristotles</hi> Phi<g ref="char:EOLhyphen"/>losophy must be groundlesse superstition and popery in respect of it, this the prime<g ref="char:EOLhyphen"/>vall truth of the creation; when as it is a thousand times more froth, then His is vomit. My friend <hi>Anthroposophus!</hi> is this to appear for the truth in a day of necessity? Certainly shee'll be well holpe at a dead lift, if shee find no better champions then your self.</p>
+            <p>Verily <hi>Philalethes</hi> if you be no better in your Book then in your Preface to the Reader, you have abused <hi>Moses</hi> his Text beyond measure. For your Principles will have neither heaven nor earth in them, head nor foot, reason nor sense. They will be things <hi>extra intellectum,</hi> and <hi>extra</hi>
+               <pb n="10" facs="tcp:55764:9"/>
+               <hi>sensum,</hi> mere vagrant imaginations seated in your own subsultorious and skip-jack phansy only. But what they are we shal now begin to examine, according to the number of pages.</p>
+            <div type="explication">
+               <head>Anthroposophia Theomagica.</head>
+               <head>Pag. 2.</head>
+               <p>Lio. 11. <hi>So have all souls before their en<g ref="char:EOLhyphen"/>trance,</hi> &amp;c. But hear you me Mr. <hi>Anthropo<g ref="char:EOLhyphen"/>sophus!</hi> are you in good earnest that all souls before their entrance into the body have an explicite methodicall knowledge? and would you venture to lose your wit so much by inprisoning your selfe in so darke a dungeon, as to be able to write no better sense in your Preface to the Reader? But I'le excuse him, it may be he was ri<g ref="char:EOLhyphen"/>ding before his entrance into the body on some Theomagicall jade or other, that stumbled and flung him into a mysticall quagmire against his will, where he was so soused and doused and bedaubed and dirtyed, face and eyes and all, that hee could never since the midwife raked him out all wet and dropping like a drown'd mouse, once see cleerly what was sense
+<pb n="11" facs="tcp:55764:9" rendition="simple:additions"/>
+and what nonsense to this very day. Wherefore we will set the saddle on the right Horse; and his Theomagick Nag shall bear the blame of the miscarriage.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 3.</head>
+               <p>Lin. 3. <hi>I tooke to task the fruits of one Spring,</hi> &amp;c. Here <hi>Anthroposophus</hi> is turned Herbalist for one whole Spring, damned to the grasse and fields like <hi>Nebuchadnezzar</hi> when he went on all four among the Beasts. But see how slow this Snail a<g ref="char:EOLhyphen"/>mongst the herbs is, in finding out the truth; when he confesses it was the work of one whole Spring to find out, that the Earth or seeds of flowers are nothing like the flowers. There's not any old Garden<g ref="char:EOLhyphen"/>weeder in all <hi>London,</hi> but without a pair of spectacles will discover that in four mi<g ref="char:EOLhyphen"/>nutes, which he has beene a full fourth part of a year about. But certainely, he intends a great deal of pomp and ceremony, that will not take up such a conclusion as this, (<hi>viz.</hi> That things that are produced in Na<g ref="char:EOLhyphen"/>ture are out of something in Nature which is not like the things produced) but upon the full experience and meditation of one entire Spring. And now after this whole Springs meditation and experience, hee is
+<pb n="12" facs="tcp:55764:10"/>
+forced to turn about to him whom hee so disdainfully flies, and confesse two of the three principles of the <hi>
+                     <unclear>Aristotelean</unclear>
+                  </hi> Physicks, <hi>viz.</hi> Matter and Privation, that <hi>homo</hi> is <hi>ex non homine, arbor ex non arbore,</hi> &amp;c. But this Matter, he says (and it is the wisest word he has spoken yet) he knowes not what it is. But presently blots his credit again with a new peece of folly, intima<g ref="char:EOLhyphen"/>ting hee will finde it it out by experience. Which is as good sense as if hee should say, hee would see it when his eyes are out. For it is alike easie to see visibles without eyes, as to see invisibles with eyes. But he flyes off hence, and is in quest after a sub<g ref="char:EOLhyphen"/>stance which he smels out like a nosegay in Natures bosome. Which substance hee hopes to see by Art. Why! <hi>Eugenius</hi> are you so sharp sighted that you can see sub<g ref="char:EOLhyphen"/>stances? A kind of Philosophick Hog, he can see the wind too I warrant you. But how can you hope to see that substance when Nature only exposes it to her own vitall celestiall breath? And tell what this Breath is, and doe not amaze us with strange words, or else keep your breath to your self to cool your poctage.</p>
+            </div>
+            <div type="explication">
+               <pb n="13" facs="tcp:55764:10" rendition="simple:additions"/>
+               <head>Pag. 4.</head>
+               <p>Here a fit of devotion has taken him, and I am neither so irreligious nor uncivill as to interrupt him. But now Sir you have done, I hope it will not be any offence to addresse my discourse to you again. And it will not be unseasonable to tell you, that truth is not to be had of God Almighty for an old song, no nor yet for a new one. And that no man is to measure his wisdom by his devotion, but by his humility &amp; pu<g ref="char:EOLhyphen"/>rity of mind and unprejudicate reason; nor that any man is wiser by making others seem more contemptibly foolish, as your juvenility has thought good to deal with poor <hi>Aristotle,</hi> and his Orthodox Disciples all this time. Nay, and that you may not take Sanctuary at <hi>Moses</hi> his Text, let mee also tell you, that before you prove any thing thence, you ought first to make good, that Scripture is intended for naturall Phi<g ref="char:EOLhyphen"/>losophy as well as a divine life. But we need not arm our selves so well yet; for from the fourth page to the eight page nothing is said, but that God from a knowing Principle made the World. Which <hi>Aristotle</hi> 
+                  <unclear>also seems</unclear> to assert, while he is so frequent in telling the ends of naturall things,
+<pb n="14" facs="tcp:55764:11"/>
+which could not be sense, unlesse he sup<g ref="char:EOLhyphen"/>posed that Nature was guided by a know<g ref="char:EOLhyphen"/>ing Principle, which is to acknowledge a God after the best manner. And that sub<g ref="char:EOLhyphen"/>til Philosopher <hi>Julius Scaliger</hi> uses no con<g ref="char:EOLhyphen"/>temptible arguments to prove, that <hi>Aristotles</hi> Philosophy furnisheth us also with the knowledge of a Trinity in God, so that <hi>Anthroposophus</hi> is very unkind and uncivill to so good a Master.</p>
+            </div>
+            <div type="explication">
+               <head>Pages 8. and 9.</head>
+               <p>What an <hi>Aristotelean</hi> would dispatch in a word or two, <hi>viz.</hi> that life is alwayes ac<g ref="char:EOLhyphen"/>companied with a naturall warmth, hee is mysteriously sumbling out and drayling on to the length of almost two whole pages.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 9.</head>
+               <p>Lin. 10. <hi>the divine light pierced the bosome of the matter,</hi> &amp;c. This compared with what is at the bottome of the fourth page, wee see that this rare philosopher tells us, that the matter is an <hi>horrible emptie darknesse.</hi> And me thinks his description is an hide<g ref="char:EOLhyphen"/>ous empty phansie, and conveys not so much to the understanding as <hi>Aristotles</hi> de<g ref="char:EOLhyphen"/>scription of the Matter, which hee would
+<pb n="15" facs="tcp:55764:11"/>
+describe to be, The first subject out of which every thing is. This latter is more cleane and sober, the other more slabby and phan<g ref="char:EOLhyphen"/>tasticall. And to call it <hi>Primitive waters</hi> 
+                  <gap reason="illegible: in gutter" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>s but yet metaphors and poetry. For you doe not mean waters such as we wash our hands in. But they must be waters and dark, that you may bring in the conceit of the light shining in them that like rivers and pooles the images of trees and birds, and clouds and stars, and what not, may bee seen in them. And this must help us coconceive, that upon the breaking through of the light, the divine idea's shone in the waters, and that the holy Spirit, not being able to see till then, by looking then upon those images, framed the matter into form. But I pray you tell mee, Mr. <hi>Anthro<g ref="char:EOLhyphen"/>posophus!</hi> that would be so wise as if you stood by while God made the world, doe not you think that God can now see in the dark or behold his own idea's in the depth of the Earth? You'll say you doe not mean this naturall light but a divine light. If so, was ever the matter so stiff and clammy dark, as to be able to keepe it out? So that the divine idea's shone in the water so soon as God was, and the <hi>Spiritus Opifex</hi> could see to begin his work
+<pb n="16" facs="tcp:55764:12" rendition="simple:additions"/>
+                  <hi>ab cmni retro aeternitate.</hi> And it could never be dark in your blind sense. Is it not so <hi>Anthroposophus?</hi>
+               </p>
+               <p>Lin. 25. <hi>Si plantam quasi momento nasci,</hi> &amp;c. If <hi>Anthroposophus</hi> had such a device a<gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> this in a glasse, what a fine gew-gaw would it be for the lad? What fine sport would he make with his companions? He would make them beleeve then that he was a Conjurer indeed. But what other use there would be of it, <hi>Anthroposophus!</hi> truly I doe not know. For it would not state one controversie in Philosophy more then what may be done without it. For whe<g ref="char:EOLhyphen"/>ther there be any such things as <hi>rationes seminales,</hi> or whether these forms visible arise from heat, which is motion, and the conspiracy of fitted particles, is as well and safely determined from your experiments of one spring, as from this strange whim<g ref="char:EOLhyphen"/>wham in a glasse. But weak stomachs and weak wits long most after rarities.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 10.</head>
+               <p>Lin. 4. <hi>Two-fold idea, divine, naturall, &amp;c. Anthroposophus!</hi> Your naturall idea, is but an idea of your own brain. For it is no more an idea then a sheath is a knife, or the spittle that wets the seal the seal, or the grease the
+<pb n="17" facs="tcp:55764:12" rendition="simple:additions"/>
+Saw, or the water the Grindle-stone. But you must strike betwixt this and the divine <hi>idea,</hi> or else you will misse of your naturall one. And so will be forced to do that of pe<g ref="char:EOLhyphen"/>nury, which he did of choice, and for brevity sake, divide your Text into one part. But your quotation of <hi>Moses</hi> here near the bot<g ref="char:EOLhyphen"/>tom of the page, is either nothing to your naturall <hi>idea,</hi> or if you mean it of the divine is no new notion, but nimmed out of <hi>Philo</hi> the <hi>Jew.</hi> And yet in the beginning of the following page you magnifie your self, as one that concerning this primitive super<g ref="char:EOLhyphen"/>naturall part of the Creation as you call it, though you have not said so much as you can say by far, (as being a Nip-crust and Niggard of your precious speculations) yet you have produced not a little new.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 11.</head>
+               <p>Lin. 5. <hi>Some Authors,</hi> &amp;c. And the reason why the world is beholden to this Gentle<g ref="char:EOLhyphen"/>man more then to any for new discoveries of mighty truths, is, that whereas some Authors have not searched so deeply into the Center of Nature, and others not wil<g ref="char:EOLhyphen"/>ling to publish such spirituall mysteries, this new Writer is the only man, that is both deeply seen into the Center of Nature,
+<pb n="18" facs="tcp:55764:13" rendition="simple:additions"/>
+and as willing also to publish these spiritu<g ref="char:EOLhyphen"/>all mysteries. So that he goes beyond them all. O brave <hi>Anthroposophus!</hi> What a fine man would you fain appear to the World?</p>
+               <p>In the residue of this page, <hi>Anthroposophus</hi> his phansie is pudled so and jumbled in the limbus or Huddle of the matter, that hee cannot distinguish betwixt God and the Creature. For he knows not whether the Chaos be created or uncreated. How much wiser are you now then <hi>Aristotle,</hi> Mr. <hi>Euge<g ref="char:EOLhyphen"/>nius!</hi> that made the World eternall. If you can admit this; by the rule of proportion, you might swallow the greatest Gudgeon in <hi>Aristotle</hi> without kecking or straining.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 12.</head>
+               <p>Lin. 11. <hi>Fuliginous spawn of Nature.</hi> A rare expression! This Magician has turned Na<g ref="char:EOLhyphen"/>ture into a Fish by his Art. Surely such dreams sloat in his swimmering brains, as in the Prophets, who tels us so Authentick stories of his delicious <hi>Albebut.</hi>
+               </p>
+               <p>Lin. 12. <hi>The created Matter.</hi> Before the Matter was in an hazard of not being crea<g ref="char:EOLhyphen"/>ted but of being of it self eternall. Certainly <hi>Eugenius!</hi> you abound with leasure that can thus create and uncreate, doe and undoe, be<g ref="char:EOLhyphen"/>cause the day is long enough.</p>
+               <pb n="19" facs="tcp:55764:13" rendition="simple:additions"/>
+               <p>Lin. 21. <hi>A horrible confused qualm,</hi> &amp;c. Here Nature like a child-bearing woman, has a qualm comes over her stomach, and <hi>Eugenius</hi> like a man-midwife stands by ve<g ref="char:EOLhyphen"/>ry officiously to see what will become of it. Let her alone, <hi>Eugenius!</hi> it is but a qualm, Some cold raw rheune. <hi>Margret</hi> will e<g ref="char:EOLhyphen"/>scape well enough. Especially if her two Handmaids Heat and Siccity doe but help, with their <hi>Aquavitae</hi> botles. What a rare mode or way of Creation has <hi>Eugenius</hi> set out? Certainly it cannot but satisfie any unreasonable man, if there be any men without reason. And I begin to suspect there is, for <hi>Eugenius</hi> his sake, such as feed as savourly on the pure milk of phansie, as the Philosophers Asse on Sow-thistles.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 13.</head>
+               <p>This page is spent in extracting from the Chaos, a thin spirituall celestiall substance to make the <hi>Coelum Empyreum</hi> of and the bo<g ref="char:EOLhyphen"/>dy of Angels, and by the by, to be in stead of a Sun for the first day. But then in the se<g ref="char:EOLhyphen"/>cond Extraction was extracted the agill air fitting all betwixt the Masse and the <hi>Coelum Empyreum.</hi> But here I have so <unclear>hedg<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </unclear>ed you in Mr. <hi>Anthroposophus</hi> that you will
+<pb n="20" facs="tcp:55764:14" rendition="simple:additions"/>
+hardly extricate your self in this questi<g ref="char:EOLhyphen"/>on. The Empyreall substance encompas<g ref="char:EOLhyphen"/>sing all, how could there be Morning and Evening till the fourth day? For the Masse was alike illumined round about at once. And for your interstellar water you do but phansie it implyed in <hi>Moses</hi> text, and can never prove that he drives at any thing higher in the letter thereof, than those hanging bottles of water, the clouds.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 14.</head>
+               <p>Lin. 12. <hi>A rumbling confused Labyrinth.</hi> 'Tis only <hi>Erratum Typographicum.</hi> I suppose you mean, a rumbling Wheel-Barrow, in allusion to your Wheel-work and Epicy<g ref="char:EOLhyphen"/>cles aforementioned. But why small di<g ref="char:EOLhyphen"/>minutive Epicycles? <hi>Eugenius!</hi> you are so profound a Magician, that you are no A<g ref="char:EOLhyphen"/>stronomer at all. The bignesse of them is as strong a presumption against them, as a<g ref="char:EOLhyphen"/>ny thing. They are too big to be true.</p>
+               <p>Lin. 26. <hi>This is cribrum Naturaes.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> I warrant you. The very sive that <hi>Iupiter</hi> himself pisses through, as <hi>Aristophanes</hi> sports it in his Comedies.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 15.</head>
+               <p>Lin. 20. <hi>Equally possest the whole Creature.</hi>
+                  <pb n="21" facs="tcp:55764:14" rendition="simple:additions"/>
+Therefore again I ask thee, O <hi>Eugenius!</hi> how could there be Evening and Morning, the light being all over equally dispersed?</p>
+               <p>Lin. 29. <hi>Like a baffled Gyant.</hi> Poeticall <hi>Eugenius!</hi> Is this to lay the sober and sound principles of Truth and Philosophy?</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 16.</head>
+               <p>Lin. 1. <hi>A Black Bag.</hi> I tell thee <hi>Eugenius!</hi> Thy phansie is snap't in this Femall Black-bag, as an unwary <hi>Retiarius</hi> in a Net. Do's Madam Nature wear her Black<g ref="char:EOLhyphen"/>bag in her middle parts? (for the Earth is the Center of the World) or on her head as other Matrons doe? That <hi>Phila<g ref="char:EOLhyphen"/>lethes</hi> may seem a great and profound Stu<g ref="char:EOLhyphen"/>dent indeed, hee will not take notice whether a black-bag be furniture for La<g ref="char:EOLhyphen"/>dies heads or their haunches: Well! let him enjoy the glory of his affected rusticity and ignorance.</p>
+               <p>Lin. 5. <hi>Good Lord deliver us.</hi> How the man is frighted into devotion by the smut and griminesse of his own imagination!</p>
+               <p>Lin. 15. <hi>Earth and water, &amp;c. Concurrunt e<g ref="char:EOLhyphen"/>lementa ut Materia, ergo duo sufficiunt,</hi> says <hi>Cardan.</hi> 'Tis no new-sprung truth, if true, Mr. <hi>Eugenius!</hi> But seeing that AEtheri<g ref="char:EOLhyphen"/>al vigour &amp; celestial heat with the substance thereof (for, <hi>Coelum pervadit omnia</hi>) is in all
+<pb n="22" facs="tcp:55764:15" rendition="simple:additions"/>
+things, and the air excluded from few or no living Creatures, if we would severely tug with you, Mr. <hi>Anthroposophus!</hi> you will en<g ref="char:EOLhyphen"/>danger the taking of the foil.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 18.</head>
+               <p>Lin. 22. <hi>Both in the same bed.</hi> Why did you ever sneak in, <hi>Eugenius,</hi> and take them, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> in the very act? <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as the Lawyers speak? This is but poeticall pomp in prose. And <hi>Ovid</hi> Philosophizes better in verse, where speaking of heat and moisture, he expresses himself apertly and significantly.
+<q>
+                     <lg>
+                        <l>Quippe ubi temperiem sumpsere humor<expan>
+                              <am>
+                                 <g ref="char:abque"/>
+                              </am>
+                              <ex>que</ex>
+                           </expan> calor<expan>
+                              <am>
+                                 <g ref="char:abque"/>
+                              </am>
+                              <ex>que</ex>
+                           </expan>
+                        </l>
+                        <l>Concipiunt, &amp; ab his generantur cuncta duobus.</l>
+                     </lg>
+                  </q>
+               </p>
+               <p>Lin. 27. <hi>Spiritus aquae invisibilis congelatus melior est quam terra Universa.</hi> Now as you are <hi>Philalethes,</hi> tell me truly if you under<g ref="char:EOLhyphen"/>stand any determinate and usefull sense of this saying. If you doe, why doe you not explain it? if you doe not, for ought you know, it may be onely a charm to fox fishes. And I pray you, <hi>Philalethes!</hi> make triall of the experimrnt.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 19.</head>
+               <p>Lin. 29. <hi>It is the Magicians Back-doore.</hi> Here I cannot but take notice at the great affe<g ref="char:EOLhyphen"/>ctation
+<pb n="23" facs="tcp:55764:15" rendition="simple:additions"/>
+of <hi>Philalethes</hi> to appear to be deeply seen in Magick. But I suppose if he were well searched, he would be found no Witch, nor all his Back-doore of air worth the winde of an ordinary mans back-doore.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 20.</head>
+               <p>Lin. 2. <hi>The air is our Animal oil, the <unclear>fuill</unclear> of the vitall.</hi> Now <hi>Eugenius!</hi> you are so good natured as to give <hi>Aristetle</hi> one of his two elements again, that you wrested from him. If this be our animall oil, and fuell of the vitall, it is plain our animall and vital spirits are from the air, and that the air is one element amongst the rest. And your moist silent fire that passes through al things must be a principle of all things, and may well be attempered heat to your forenamed oil. So that <hi>Aristotle</hi> and you that before seemed as disagreeing as fire and water, now in a love fit again embrace as close as your <hi>Apulejus</hi> his <hi>Psyche</hi> and <hi>Cupid.</hi> But why will you be thus humorous Mr. <hi>Eugenius!</hi> and be thus off and on to the trouble of others and your self?</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 21.</head>
+               <p>Lin. 9. <hi>Performed an exposition of the World.</hi> An excellent performance! Which if a
+<pb n="24" facs="tcp:55764:16"/>
+man take a narrow view of, he will finde to amount to no more then this, That God made a dark Masse of Matter, out of which hee extracted, (Chymist like) first an Em<g ref="char:EOLhyphen"/>pyreall body, then an Aereall, &amp;c. Which is a very lank satisfaction to the noble rea<g ref="char:EOLhyphen"/>son of man. Nay, <hi>Anthroposophus!</hi> I beleeve you have spoke such stuff that will amount to little better then a contradiction to free reason. For you make as if the Masse did contain in a far less compass above all mea<g ref="char:EOLhyphen"/>sure, all that was after extracted. Where fore there was, (for these are all bodies) ei<g ref="char:EOLhyphen"/>ther a penetration of dimensions then, or else a <hi>vacuum</hi> now: and the ascending par<g ref="char:EOLhyphen"/>ticles of the Masse, lye some distance one from another. Besides I observe that in you, that I doe in all others, that Phan<g ref="char:EOLhyphen"/>tastically and superstitiously force Philo<g ref="char:EOLhyphen"/>sophy out of the sacred Writ (which is in<g ref="char:EOLhyphen"/>tended curtainly for better purposes) For like <hi>Ovid</hi> in his <hi>Metamorphoses,</hi> (who after a long pursuit of a Fabulous story, at last descends to something in Nature and com<g ref="char:EOLhyphen"/>mon use, as that of <hi>Daphne</hi> turned into a Lawrell, which tree is in Nature and ac<g ref="char:EOLhyphen"/>cording to the accustomary conceit of the Heathens, was holy to <hi>Apollo</hi>) so these running a Wild-Goose chase of Melancho<g ref="char:EOLhyphen"/>ly
+<pb n="25" facs="tcp:55764:16" rendition="simple:additions"/>
+imaginations and phansies, think it e<g ref="char:EOLhyphen"/>vidence enough for what they have said, to have the thing but named in some Text of Scripture. Nay even those that are so con<g ref="char:EOLhyphen"/>fident they are inspired, and live of nothing but the free breathings of the Divine Spi<g ref="char:EOLhyphen"/>rit, if you observe them, it is with them as with the Lark, that is so high in the air, that we may better hear her then see her, as if shee were an inhabitant of that Regi<g ref="char:EOLhyphen"/>on only and had no allyance to the Earth, yet at last you shall see her come down and pick on the ground as other birds. So these pretended inspired men though they flye high, and seem to feed of nothing but free truth, as they draw it from Gods own breathing, yet they took their ground first from the Text, though they ran a deal of phansyfull division upon it, and if a man watch them, he shall finde them fall flat up<g ref="char:EOLhyphen"/>on the Text again, and be but as other Mortalls are for all their free pretensions, and extraordinary assistences. But lets leave these Theosophists (as they love to be called) to themselves, and trace on the steps of our <hi>Anthroposophus!</hi>
+               </p>
+            </div>
+            <div type="explication">
+               <head>Pag. 22.</head>
+               <p>He exhorts us in the foregoing page to
+<pb n="26" facs="tcp:55764:17" rendition="simple:additions"/>
+be curious and diligent in this subsequent part of his discourse, as being now about to deliver the Fundamentalls of Science. But <hi>Anthroposophus!</hi> you are so deeply Ma<g ref="char:EOLhyphen"/>gicall that you have conjured your self down, below the wit of an ordinary man. The Fundamentalls of Science should bee certain, plain, reall and perspicuous to rea<g ref="char:EOLhyphen"/>son; not muddy and imaginary as all your discourse is from this to your 28 page. For in this present page and the former, setting aside your superstitious affectation of Tri<g ref="char:EOLhyphen"/>nities and Triplicities, which teach a man nothing but that you are a very phantasti<g ref="char:EOLhyphen"/>call and bold man, and lift at that which is too heavy for you, you doe nothing but scold very cholerickly at the Colliers and Kitchen-maides, and like a dog return a<g ref="char:EOLhyphen"/>gain to the Vomit, I mean that vomit you cast awhile agoe on <hi>Aristotle.</hi> Is that so e<g ref="char:EOLhyphen"/>legant an expression that you must use it twice in so little a space? where is your manners <hi>Anthroposophus!</hi>
+               </p>
+            </div>
+            <div type="explication">
+               <head>Pag. 23.</head>
+               <p>Lin. 14. &amp; 24. <hi>The Magnet, the Mystery of Union. Not one of ten thousand knowes the sub<g ref="char:EOLhyphen"/>stance or the use of this Nature.</hi> Yet you tell it us in this page, that it will attract all
+<pb n="27" facs="tcp:55764:17" rendition="simple:additions"/>
+things Physicall or Metaphysicall, at what distance soever. But you are a man of ten thousand, <hi>Anthroposophus!</hi> and have the My<g ref="char:EOLhyphen"/>stery, questionlesse, of this Magnet. Whence I conclude you King or Prince of the Gyp<g ref="char:EOLhyphen"/>sies, as being able at the farthest distance to attract mettall out of mens purses. But take heed that you be not discovered, lest this <hi>Jacobs</hi> Ladder raise you up with your fellow Pick-pockets to Heaven in a string.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 24.</head>
+               <p>This page is filled with like Gypsie gib<g ref="char:EOLhyphen"/>berish, as also the 25th. yet he pretends to lend us a little light from the Sun and Moon. Which he calls the great Luminaries and Conservatours of the great World in generall. How great, <hi>Anthroposohus!</hi> doe you think would the Moon appear if your Ma<g ref="char:EOLhyphen"/>gick could remove you but as far as Saturn from her? will shee not appear as little as nothing? Besides, if <hi>Fugenius</hi> ever tooted through a <hi>Galileo's</hi> Tube, he might discover four Moons about <hi>Jupiter,</hi> which will all prove competitours with our Moon for the Conservatour-ship of the Universe. But though <hi>Eugenins</hi> admits of but one great broad-faced Sun and Moon, yet he acknow<g ref="char:EOLhyphen"/>ledgeth many Mimules or Monky-faced
+<pb n="28" facs="tcp:55764:18" rendition="simple:additions"/>
+Suns and Moons, which must be the Con<g ref="char:EOLhyphen"/>servatricules of the many Microcosms in the great World. Certainly <hi>Anchroposophus!</hi> the <hi>speculum</hi> of your understanding is cracked, and every fragment gives a severall reflecti<g ref="char:EOLhyphen"/>on, and hence is this innumerable multitude of these little diminutive Suns and Moons. But having passed through much canting language, at the bottome of the page we at last stumble on the Philosophers Stone, which he intends I suppose to fling at <hi>Ari<g ref="char:EOLhyphen"/>stotle</hi> and brain the Stagirite at one throw.</p>
+               <p>Lin. ult. <hi>A true Receipt of the Medicine, R. Limi coelestis partes,</hi> &amp;c. Come out Tom<g ref="char:EOLhyphen"/>Fool from behinde the hangings, that peaks out with your Divels head and hornes, and put off your vizard and be apert and intel<g ref="char:EOLhyphen"/>ligible, or else why doe you pretend to lay the Fundamentalls of Science, and crave our diligence and attention to a non-signifi<g ref="char:EOLhyphen"/>cant noise and buzze? Unlesse you will be understood, it may as well, for ought any bodie knowes, be a plaister for a gauld horses back, or a Medicine for a Mad-dog, as a receipt of the Philosophers Stone.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 27.</head>
+               <p>In this page <hi>Magicus</hi> prophesies of a vi<g ref="char:EOLhyphen"/>trification of the Earth, and turning of it
+<pb n="29" facs="tcp:55764:18" rendition="simple:additions"/>
+into a pure diaphanous substance. To what end? <hi>Magicus!</hi> That the Saints and Angels at each pole of the Earth may play at Boe<g ref="char:EOLhyphen"/>peep with one another through this cry<g ref="char:EOLhyphen"/>stallized Globe? <hi>Magicus</hi> has rare imagina<g ref="char:EOLhyphen"/>tions in his noddle.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 28.</head>
+               <p>At the end of this page <hi>Magicus</hi> begins to take to task the explication of mans na<g ref="char:EOLhyphen"/>ture. But <hi>Magicus</hi> you must first learn bet<g ref="char:EOLhyphen"/>ter to know your self, before you attempt to explain the knowledge of man to o<g ref="char:EOLhyphen"/>thers.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 29.</head>
+               <p>Lin. 10. <hi>The Philosophicall Medicine.</hi> This is the Philosophers stone. <hi>And they that are ignorant in this point are but Quacks and Pispot Doctors.</hi> Ho! Dr. <hi>H.</hi> Dr. <hi>P.</hi> Dr. <hi>R.</hi> Dr. <hi>T.</hi> and as many Doctors more as will stand be<g ref="char:EOLhyphen"/>twixt <hi>London</hi> and <hi>Oxenford,</hi> if you have not a slight of Art to Metamorphize your selves into Triorchises, and have one stone more then Nature has bestowed upon you (which is forsooth the Philosophers Stone) have amongst you blind Harpers, <hi>Magicus</hi> will not stick to teem Urinals on your heads, and crown you all one after another, with
+<pb n="30" facs="tcp:55764:19" rendition="simple:additions"/>
+the Pispot, and honour you with the Title of Quack-salvers. What? <hi>Magicus!</hi> Is it not sufficient that you haue no sense nor wit, but you will have no good manners nei<g ref="char:EOLhyphen"/>ther?</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 30.</head>
+               <p>This thirtieth page teaches that the soul of man consists of two parts, <hi>Ruach</hi> and <hi>Nephesh,</hi> one Masculine and the other Femi<g ref="char:EOLhyphen"/>nine. And <hi>Anthroposophus</hi> is so tickled with the Application of the conceit unto Mar<g ref="char:EOLhyphen"/>riage, which he very feelingly and sa<g ref="char:EOLhyphen"/>vourly pursues, that he has not the patience to stay to tell us how these two differ, hee being taken up so with that powerfull charm and thence accrewing Faculty, of <hi>Crescite &amp; Multiplicamini.</hi>
+               </p>
+            </div>
+            <div type="explication">
+               <head>Pag. 31.</head>
+               <p>This page has the same Legend that the Alcoran has concerning the envy of the An<g ref="char:EOLhyphen"/>gels. But all goes down alike with him, as if every thing printed were Gospel. In so much that I am perswaded, that he doubts not but that every syllable of his own Book it true, now it has passed the Presse.</p>
+            </div>
+            <div type="explication">
+               <pb n="31" facs="tcp:55764:19" rendition="simple:additions"/>
+               <head>Pag. 32.</head>
+               <p>This page ridiculously places <hi>Peter Ra<g ref="char:EOLhyphen"/>mus</hi> amongst the Schoolmen against all Lo<g ref="char:EOLhyphen"/>gick and Method. And at the last line there<g ref="char:EOLhyphen"/>of bids us <hi>arrigere aures,</hi> and tels us he will convey some truth never heretofore disco<g ref="char:EOLhyphen"/>vered, <hi>viz.</hi> That the sensitive gust in a man is the forbidden fruit: with the rest of the circumstances thereof. Which Theory is so far from being new, that it is above a thou<g ref="char:EOLhyphen"/>sand years old. It is in <hi>Origen</hi> and every where in the Christian <hi>Platonists.</hi>
+               </p>
+            </div>
+            <div type="explication">
+               <head>Pag. 38.</head>
+               <p>Lin. 27. <hi>It is part of Anima Mundi.</hi> Why! is <hi>Anima Mundi</hi> (which you say, in men and beasts can see, feel, tast and smell) a thiug divisible into parts and parcells? Take heed of that <hi>Anthroposophus!</hi> lest you crumble your own soul into Atoms, iudeed make no soul, but all body.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 39.</head>
+               <p>Lin. 22. <hi>Blind Peripateticall formes.</hi> What impudcnce is this O <hi>Magicus!</hi> to call them so, unlesse you make your <hi>Anima Mundi</hi> more intelligible. This is but to rail at pleasure, not to teach or confute.</p>
+            </div>
+            <div type="explication">
+               <pb n="32" facs="tcp:55764:20" rendition="simple:additions"/>
+               <head>Pag. 40.</head>
+               <p>Lin. 2. <hi>As it is plain in dreams.</hi> Blind men see in their sleep it seems, which is more then they can doe when they are awake. Are you in jest <hi>Eugenius!</hi> or in good earnest? If you be, I shall suspect you having a facul<g ref="char:EOLhyphen"/>ty to see when you are a sleep, that you have another trick too, that is, to dream when you are awake. Which you practised I con<g ref="char:EOLhyphen"/>ceive very much in the compilement of this book, there being more dreams then truth by far in it.</p>
+               <p>Lin. 11. <hi>Represent the eyes.</hi> How phansiful and poeticall are you Mr. <hi>Magicus!</hi> I sup<g ref="char:EOLhyphen"/>pose you allude to the herb <hi>Euphrasia</hi> or <hi>Eye<g ref="char:EOLhyphen"/>bright.</hi> Which yet sees or feels as little light or heat of the Sun, as your soul do's of reason or humanity.</p>
+               <p>Lin. 27. <hi>Angelicall or rationall spirit.</hi> Do's not this see and hear too in man? If it do not, how can it judge of what is said or done? If it do's; then there is two hearing and seeing souls in a man. Which I will leave to <hi>Anthroposophus</hi> his own thoughts, to find out how likely that is to be true.</p>
+            </div>
+            <div type="explication">
+               <head>46, 47, 48, 49. Pages.</head>
+               <p>Truly, <hi>Anthroposophus!</hi> these pages are of
+<pb n="33" facs="tcp:55764:20" rendition="simple:additions"/>
+that nature, that though you are so unkind to <hi>Aristotle,</hi> as to acknowledge nothing good in him, yet I am not so inveterate a revengefull assertor of him, but I will allow you your <hi>lucida intervalla.</hi> What you have delivered in these pages, bating a few Hyper<g ref="char:EOLhyphen"/>boles, might become a man of a more setled brain then <hi>Anthroposophus.</hi> But while you oppose so impetuously what may with rea<g ref="char:EOLhyphen"/>son be admitted, and propound so magiste<g ref="char:EOLhyphen"/>rially what is not sense, I must tell you <hi>Anthroposophus!</hi> that you betray to scorn and derision even those things that are sober in the way that you affect, and hazard the soiling of the highest and most delicate truths, by your rude and unskilfull hand<g ref="char:EOLhyphen"/>ling of them: And now the good breath that guided you, forthese four pages toge<g ref="char:EOLhyphen"/>ther, is spent, you begin to rave again after the old manner, and call <hi>Galen</hi> Antichrist in</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 50.</head>
+               <p>And quarrel again with the <hi>Peripateticks,</hi> and provoke the School-divines. And then you fancie that you have so swinged them, that in revenge they'l all fall upon you at once, and so twerilug you: when as they good men feel not your strokes, and find
+<pb n="34" facs="tcp:55764:21" rendition="simple:additions"/>
+themselves something else to doe, then to refute such crazy discourses as this. It is only, it is I, your brother <hi>Philalethes,</hi> that am moved with pity towards you, and would if I could by carefully correcting you in your distempers, bring you to a so<g ref="char:EOLhyphen"/>ber mind, and set you in your right sense again. And I beseech you brother <hi>Philale<g ref="char:EOLhyphen"/>thes!</hi> forbear this swearing, An honest mans word is as good as his Oath. No body will beleeve you more for swearing, then he would doe without it, but think you more melancholick and distracted.</p>
+               <p>Lin. 21. <hi>Whiles they contemn mysteries,</hi> &amp;c. In this heat all that <hi>Philalethes</hi> writes must be termed holy mysteries. His project certainly is, now neither Episcopacy nor Presbyteri can be setled, to get his booke established <hi>jure divino.</hi> A crafty colt! Ha, ha, he. <hi>Phi<g ref="char:EOLhyphen"/>lalethes,</hi> Are you there with your bears?</p>
+               <p>Lin. 29. <hi>Next to God I owe all I have to</hi> A<g ref="char:EOLhyphen"/>grippa. What? more then to the Prophe<gap reason="illegible: in gutter" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> and Apostles, <hi>Anthrosophus?</hi> The businesse <unclear>is</unclear> for your fame-sake, you have more desire to be thought a Conjurer then a Christi<g ref="char:EOLhyphen"/>an.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 53, 54.</head>
+               <p>
+                  <hi>Great glorious penman!</hi> A piping hot p<gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="35" facs="tcp:55764:21" rendition="simple:additions"/>
+per of verses indeed <hi>Anthroposophus!</hi> But say truly! What can you doe in or out of this heat more then other men. Can you cure the sick? Rule and counsell States and Kingdomes more prudently for the com<g ref="char:EOLhyphen"/>mon good? Can you find bread for the Poore? Give a rationall account of the <hi>Phaenomena</hi> of Nature, more now then at another time? or more then other men can do? Can you tel me the Nature of light? the causes of the Rainbow? what makes the flux and reflux of the Sea? the operations of the Loadstone, and such like? Can you tell us in a rationall, dependent, and cohe<g ref="char:EOLhyphen"/>rent way the nature of such things as these, or foretell to us what will be hereafter, as certainly and evidently as the Prophets of old? But if there bee neither the evidence of Reason, nor the testimony of notable effect, you can give us, you must give mee leave <hi>Anthroposophus!</hi> to conjecture; That all this is but a friske and dance of your agita<g ref="char:EOLhyphen"/>ted spirits, and firinesse of your fancie, of which you will find no fruit, but a palsied, unsteddy apprehension, and unsound judg<g ref="char:EOLhyphen"/>ment.</p>
+            </div>
+            <div type="explication">
+               <head>Pag. 55.</head>
+               <p>From this page to the 62. your Theo<g ref="char:EOLhyphen"/>magicall
+<pb n="36" facs="tcp:55764:22"/>
+Nag has been pretty sure-footed, <hi>Philalethes!</hi> And it is a good long <hi>lucidum intervallum</hi> you have ambled out. Nay and you have done very well and soberly in not plainly pretending any new thing there. For they are both old and well seasoned, if the Church be so pleased to esteem of them. But what you have toward the latter end of the 62 page, that is, a word of your self, and another of the common Philosophy, has in it a spice of the old malady, pride and conceitednesse: as if you had now finished so famous a peece of worke, as that all the world would stand amazed, and be inquisi<g ref="char:EOLhyphen"/>tive after you, asking who is this <hi>Philale<g ref="char:EOLhyphen"/>thes,</hi> and what is he? Presbyterian or Inde<g ref="char:EOLhyphen"/>pendent? Sir, may it please you, He is neither Papist, though hee bad faire enough for purgatory in his Exposition of St. <hi>Peter</hi> in the foregoing page; nor Sectary, though he had rather stile himself a Protestant then a Christian: but be he what he wil be, he is so great in his own conceit, that though you have not the opportunity to ask his judg<g ref="char:EOLhyphen"/>ment, yet he thinks it fit unasked to set him<g ref="char:EOLhyphen"/>self on the seat of Judicature, and disgorge his sentence on our ordinary Philosophy He means you may be sure the <hi>Aristotelean</hi> in use for so many hundred years in all the U<g ref="char:EOLhyphen"/>niversities
+<pb n="37" facs="tcp:55764:22"/>
+of <hi>Europe.</hi> And he pronounces of it, that it is <hi>An inconsistent Hotch-potch of rash conclusions, built on meer imagination with<g ref="char:EOLhyphen"/>out the light of Experience.</hi> You must suppose he means Chymicall experiments, for you see no small pretensions to that in all his Treatise. And his very Title page, the first of the book, has the priviledge to bee first adorned with this magnificent term of Art, <hi>Protochymistry.</hi> But tell me, Mr. <hi>Alchymist!</hi> in all your skill and observation in your Experiments, if you have hit on any thing that will settle any considerable point con<g ref="char:EOLhyphen"/>troverted amongst Philosophers, which may not be done as effectually at lesse char<g ref="char:EOLhyphen"/>ges. Nay, whether you may not lose Na<g ref="char:EOLhyphen"/>ture sooner then find her by your industri<g ref="char:EOLhyphen"/>ous vexing of her, and make her appeare something else then what she really is: Like men on the rack or overwatched witches, that are forced many times to confesse that which they were never guilty of. But it be<g ref="char:EOLhyphen"/>ing so unsatisfactory to talk in generall, and of so tedious purpose to descend to particulars, I will break off this discourse. Only let me tell you thus much Mr. <hi>Phi<g ref="char:EOLhyphen"/>lalethes!</hi> that you are a very unnaturall son to our mother <hi>Oxenford,</hi> and to her sister U<g ref="char:EOLhyphen"/>niversity; for if they were no wiser then
+<pb n="38" facs="tcp:55764:23" rendition="simple:additions"/>
+you would make them, you would hazard them and all their children to be begg'd for fools. And there would bee a sad conse<g ref="char:EOLhyphen"/>quent of that. But your zeale and heated melancholy considers no such things, <hi>An<g ref="char:EOLhyphen"/>throposophus!</hi>
+               </p>
+            </div>
+            <div type="explication">
+               <head>Pag. 65.</head>
+               <p>Lin. 3. <hi>I have now done, Reader! but how much to my own prejudice I cannot tell.</hi> Verily nothing at all <hi>Philalethes!</hi> For you have met with a friend that hath impartially set out to you your own follies and faults. And has dis<g ref="char:EOLhyphen"/>torted himself often into the deformities of your postures, that you may the better see your self in another, and so for shame amend.</p>
+               <p>Lin. 8. <hi>Paint and trim of Rhetorick.</hi> How modest are you grown <hi>Philalethes!</hi> Why? this affectation of humor and Rhetorick is the most conspicuous thing in your book. And shines as oriently, as false gold and sil<g ref="char:EOLhyphen"/>ver lace on a linsy-woolsy coat.</p>
+               <p>Lin. 22. <hi>Of a brothers death.</hi> Some young man certainly that killed himselfe by un<g ref="char:EOLhyphen"/>mercifull studying of <hi>Aristotle.</hi> And <hi>Phi<g ref="char:EOLhyphen"/>lalethes</hi> writ this booke to revenge his Death.</p>
+               <pb n="39" facs="tcp:55764:23" rendition="simple:additions"/>
+               <p>Lin. 18. <hi>I expose it not to the mercy of man, but to God.</hi> See, the man affects an absolute Tyranny in Philosophy. He'll be accoun<g ref="char:EOLhyphen"/>table to none but God. You no Papist <hi>Philalethes?</hi> Why! you would be a very Pope in Philosophy, if you would not have your Dictates subject to the canvase of mans rea<g ref="char:EOLhyphen"/>son.</p>
+            </div>
+         </div>
+         <div type="explication">
+            <pb n="40" facs="tcp:55764:24"/>
+            <head>Observations upon his Advertisement to the Reader.</head>
+            <p>THe first thing you require is, that hee that attempts your booke, should make a plain and positive Exposition of all the passages. Why man? that is more assuredly then your selfe can doe. For you are so weak and su<g ref="char:EOLhyphen"/>pine in many things that are intelligible that I am confident you are worse in tha: which you have made lesse intelligible. For as <hi>Socrates</hi> reading an obscure Authour, when he found all things he understood ve<g ref="char:EOLhyphen"/>ry good, did charitably conclude, what be understood not was much better: so I fin<g ref="char:EOLhyphen"/>ding in this obscure Treatise of yours, ma<g ref="char:EOLhyphen"/>ny things very ill, I also in charity will think you had the wit, to conceal those things which are the worst; or which will serve the turn, that you understand them not your self. But have an itching
+<pb n="41" facs="tcp:55764:24"/>
+desire that some Reader skilfuller then your self, should tel you whether you have wrote seuse or nonsense. Like the Country clown, that desired his young Master to teach him to write, and being asked how he would be able to read his own writing, being as yet never acquainted somuch as with the christ<g ref="char:EOLhyphen"/>crosse-row, made answer, he would get some body else to read it for him. And so you <hi>Phi<g ref="char:EOLhyphen"/>lalethes!</hi> though you can read your own wri<g ref="char:EOLhyphen"/>ting, yet you desire to get some body else to understand it for you, or to interpret to you what you have writ.</p>
+            <p>Your second Request is not much unlike the former, and too big a businesse for your selfe to doe, and therefore you beg it of a<g ref="char:EOLhyphen"/>nother.</p>
+            <p>Your third Request is, to have your book handled after your owne manner and me<g ref="char:EOLhyphen"/>thod. Which is as ridiculous, as if you should request your enemy to smite softly, or to strike after such a fashion, and at such a part as you will appoint him. Can it bee reasonable for you to expect from an <hi>Aristo<g ref="char:EOLhyphen"/>telean</hi> (for you must think it would be they of all men that would fly about your ears first) when you have used their Master <hi>A<g ref="char:EOLhyphen"/>ristotle,</hi> as they would not, to be used of them as you would? But notwithstanding <hi>Phila<g ref="char:EOLhyphen"/>lethes!</hi>
+               <pb n="42" facs="tcp:55764:25"/>
+you see I have been very fair with you, and though provoked I shall continue the same candour in my observations on your following peece. But before I passe, I must take notice of your two admonitions to the ingenuous Reader, for I suppose you mean mee, <hi>Philalethes!</hi> The first is, that I would not despise your endeavours, because of your years, for they are but few. Why man! who knew that but your selfe, if you could have kept your own counsell? Your name is not at your book, much lesse your age. But indeed many things are so well managed of you, that if you had not told us so, we might have shrewdly suspe<g ref="char:EOLhyphen"/>cted, you have scarce reached the years of discretion. But you are so mightily taken with your own performance, that to in<g ref="char:EOLhyphen"/>crease admiration, and for the bringing in a phrase or sentence out of <hi>Proclus,</hi> you could not with-hold from telling us that you are but a young man, and so we easi<g ref="char:EOLhyphen"/>ly beleeve it. But the more saucy boy you to be so bold with Reverend Mr. <hi>Ari<g ref="char:EOLhyphen"/>stotle,</hi> that grandevall Patriarch in points of Philosophy. For the second admoni<g ref="char:EOLhyphen"/>tion, it is little more then a noise or clat<g ref="char:EOLhyphen"/>ter of words, or if you will, a meere rattle for a boy to play with. And so I leave it
+<pb n="43" facs="tcp:55764:25"/>
+in your hand to passe away the time, till I meet you againe in your <hi>Anima Magica Abscondita.</hi>
+            </p>
+         </div>
+         <div type="part">
+            <head type="explications">Vpon the Preface to the Reader.</head>
+            <p>
+               <hi>NOw God defend! what will become of me!</hi> In good faith, <hi>Philalethes!</hi> I doe not know what may become of you in time. But for the pre<g ref="char:EOLhyphen"/>sent, me thinks, you are become a fool in a play, or a Jack-pudding at the dancing on the Ropes, a thing wholly set in a po<g ref="char:EOLhyphen"/>sture to make the people laugir. Phy! Phy! <hi>Philalethes!</hi> Doe these humorous and Mimicall schemes of speech, become so profound a <hi>Thecmagician,</hi> as your self would seem to be? Do's this ridiculous levity become a man of your profession? You doe not a little disparage your self by these boyish humours, my good <hi>Phi<g ref="char:EOLhyphen"/>laletbes!</hi>
+            </p>
+            <p>For mine own part I am neither so light<g ref="char:EOLhyphen"/>headed
+<pb n="44" facs="tcp:55764:26"/>
+nor light-footed, as to dance the Morisco with you measure to measure, through this whole toy of yours to the Reader. I shall dispatch what I have to say at once. Your main drift here is to prove <hi>Agrippa's</hi> Dogs no Divels, and their Master no Papist, and consequently your self no unlawfull Magician or Conjurer.</p>
+            <p>And truly if the Assembly of Divines be no more suspicious of you then my self, I am aboundantly satisfied, that you are ra<g ref="char:EOLhyphen"/>ther a giddy Phantastick then an able Con<g ref="char:EOLhyphen"/>jurer. So that without any offence to me you may take <hi>Wierus</hi> his office if you will, and for want of better imployment, lead about <hi>Agrippa's</hi> beagles in a string. In the mean time I shall busie my self almost to as little purpose in the perusall of your <hi>Anima Magica Abscondita.</hi>
+            </p>
+            <div type="explication">
+               <head>
+                  <hi>Upon</hi> Anima Magica Abscondita.</head>
+               <p>And here <hi>Philalethes!</hi> in the very threshold you begin to worrey the poor <hi>Pe<g ref="char:EOLhyphen"/>ripateticks</hi> more fiercely then any <hi>English</hi> Ma<g ref="char:EOLhyphen"/>stive, and bark and scold into the air (that is in general) more cursedly and bitterly then any butter-quean, but at last in the 25.
+<pb n="45" facs="tcp:55764:26"/>
+line of the second page, you begin to take to task some particular Documents of <hi>A<g ref="char:EOLhyphen"/>ristotles. viz.</hi> The Description of Nature, of Form, and of the Soul. Whereby wee shall understand of what great judgement and perspicacity you are in other points of Philosophy. And first of the Definition of Nature, which you say is defined, <hi>Prin<g ref="char:EOLhyphen"/>cipium motus &amp; quietis.</hi> A little thing serves your turn, <hi>Anthroposophus!</hi> Is this the intire Definition of Nature, in <hi>Aristotle?</hi> But what you unskilfully take no notice of, I willing ly wink at, and will deal with you only a<g ref="char:EOLhyphen"/>bout those things that you produce and oppose.</p>
+               <div type="explication">
+                  <head>Pag. 3.</head>
+                  <p>Lin. 19. <hi>Nature is a Principle.</hi> Here you cavill that Nature is said to be a Principle, because you cannot find out the thing de<g ref="char:EOLhyphen"/>fined by this generall intimation. But here, <hi>Philalethes!</hi> you are a pitifull Logician, and know not so much in Logick as eve<g ref="char:EOLhyphen"/>ry Freshman in our University doth, <hi>viz.</hi> that that part of the Definition which is generall do's not lead us directly home unto the thing defined, and lay our hand upon it, but it is the difference added, that do's that. As if so be we should say only
+<pb n="46" facs="tcp:55764:27"/>
+that, <hi>Homo est animal,</hi> that assertion is so floting and hovering, that our minde can settle on nothing, which it may safely take for a man, for that generall notion be<g ref="char:EOLhyphen"/>longs to a flea or a mite in a cheese as well as to a man; but adding <hi>rationale,</hi> then it is determined and restrained to the nature of man. And your allegation against the difference here annexed in the Definition of Nature, is as childish. For you only al<g ref="char:EOLhyphen"/>leadge that it tels us what nature do's, not what it is. My dear <hi>Philalethes!</hi> Certain<g ref="char:EOLhyphen"/>ly thou hast got the knack of seeing fur<g ref="char:EOLhyphen"/>ther into a Milstone, then any living mortall else. Thou hast discovered, as thou thinkest, Dame Nature stark naked, as <hi>Actaeon</hi> did <hi>Diana;</hi> but for thy rash fancy deservest a pair of Asses ears, as well as he did his Bucks-horns for his rash sight. Can any substantiall form be known, o<g ref="char:EOLhyphen"/>therwise then by what it can doe or ope<g ref="char:EOLhyphen"/>rate. Tell me any one substantiall form that thou knowest any better way then this, &amp; <hi>Phyllida solus habeto,</hi> take <hi>Phyllis</hi> to thy self, and her black-bag to boot. Thou art, good <hi>Anthroposophus!</hi> I perceive a very unexperienced novice in the more narrow and serious search and contemplation of things.</p>
+               </div>
+               <div type="explication">
+                  <pb n="47" facs="tcp:55764:27"/>
+                  <head>Pag. 4.</head>
+                  <p>Lin. 23. <hi>This is an expresse of the office and effect of formes but not of their substance or es<g ref="char:EOLhyphen"/>sence.</hi> Why! <hi>Philalethes!</hi> as I said before, have you ever discovered the naked substance or essence of any thing? Is colour, light, hardnesse, softnesse, &amp;c. is any of these or of such like, essence and substance it self? If you be so great a Wizard, show some one substantiall form in your Theomagicall glasse. Poor Kitling! how dost thou dance and play with thine own shadow, and understandest nothing of the mystery of substance and truth!</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 5.</head>
+                  <p>Here in the third place you cavil at <hi>A<g ref="char:EOLhyphen"/>ristotles</hi> Definition of the Soul, and by your slubbering and barbarous translating of the term <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> smother the fitnesse of the sense. What more significant of the nature of a soul, then what this tearm <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> is compounded of? <hi>viz.</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> and <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                     <q>
+                        <p>— Totosque insusa per artus Mens agitat Molem.</p>
+                     </q>
+                  </p>
+                  <p>Or if wee read the word as <hi>Cicero,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> it will be more significant, as
+<pb n="48" facs="tcp:55764:28"/>
+being made up of <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> And that which do's inwardly pervade and pe<g ref="char:EOLhyphen"/>netrate, that which do's hold together and yet move this way and that way, and lastly still moving possesse and command an organicall body, &amp;c. what is this but a Soul, or what better Definition can bee given of it it then this? But here this pe<g ref="char:EOLhyphen"/>remptory opposer, do's still inculcate the same cavill, that the naked substance or essence of the soul, is not set out by this, but its operations. But still out of the same ignorance, supposing that a substan<g ref="char:EOLhyphen"/>tiall form can bee better known then by its proper operations. And this ignorance of his makes him so proud, that he do's Fellow at every word, if not, Sirra, Prince <hi>Aristotle,</hi> because hee has not done that which is impossible to doe, unbare to us the very substance of a Form. What an imperious boy is this! a rangling child in Philosophy, that screams and cries after what is impossible, as much as peevish babes, after what is hurtfull. And in this hu<g ref="char:EOLhyphen"/>morous straining and wrigling, bemarres both his Mother and his Aunt, both the Universities at once, casting dirt and filth upon their education of youth, as if they taught nothing, because they cannot
+<pb n="49" facs="tcp:55764:28"/>
+teach what is impossible to be learned.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 8.</head>
+                  <p>Here <hi>Anthroposophus</hi> begins to bee some<g ref="char:EOLhyphen"/>thing earnest and rude with Nature, not content any longer to use his adulterous phansie, but to break open with his im<g ref="char:EOLhyphen"/>modest hands her private closet, search her cabinet, and pierce into her very Center. What rare extractions hee will make thence I leave to himself to enjoy. Sure I am, that if any skilfull Cook, or Chy<g ref="char:EOLhyphen"/>mists should take out <hi>Philalethes</hi> brains, and shred them as small as mincemeat, and tumble them never so much up and down with a trencher-fork, he would not dis<g ref="char:EOLhyphen"/>cover by this diligent discussion any sub<g ref="char:EOLhyphen"/>stantiall form of his brains whereby they may be distinguished from what lies in a Calfs head. Nay, if they were stew'd be<g ref="char:EOLhyphen"/>twixt two dishes, or distilled in an A<g ref="char:EOLhyphen"/>lembeck, neither would that extraction bee any crystalline mirrour to see the sub<g ref="char:EOLhyphen"/>stantiall form stark naked in, and disco<g ref="char:EOLhyphen"/>ver the very substance of that spirit, that has hit upon so many unhappy halluci<g ref="char:EOLhyphen"/>nations. But you are a youth of rare hopes, <hi>Anthroposophus!</hi>
+                  </p>
+               </div>
+               <div type="explication">
+                  <pb n="50" facs="tcp:55764:29"/>
+                  <head>Pag. 9.</head>
+                  <p>Lin. 20. <hi>Where by the way I must tell you, &amp;c. viz.</hi> That the heavens are not moved by Intelligences. Who can not tell us that? But indeed you are forward to tell us any thing, that do's but seem to sound high, or make any show. There's no bo<g ref="char:EOLhyphen"/>dy now but would laugh to hear, that a particular Angell turns about every Orb as so many dogs in wheels turn the spit at the fire. So that it seems far below such a grand Theomagician as you are, to tell us such incredible fopperies as these to be false.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 10.</head>
+                  <p>Lin. 10. <hi>For the Authors credit and bene<g ref="char:EOLhyphen"/>fit of the Reader.</hi> Good <hi>Philalethes!</hi> What credit doe you expect from your scribling, though it be the only thing you aim at in all your Book? when yet nothing of truth but this aim of yours is understood in all this writing: saving that you are also a confident Phantastick and vanting Mountebank. This is your greatest credit, and the greatest profit of the Reader, to observe you to be so.</p>
+                  <p>Lin. 15. <hi>This Anima retain'd in the mat<g ref="char:EOLhyphen"/>ter</hi>
+                     <pb n="51" facs="tcp:55764:29"/>
+                     <hi>and missing a vent,</hi> &amp;c. A similitude, I suppose, taken from the bung-hole of a barrell; or more compendiously from bottled bear; or it may be from the corking up close the urine of a bewitched party, and setting it to the fire. For <hi>Anthroposo<g ref="char:EOLhyphen"/>phus</hi> will not be lesse then a Magician in all things, nor seem lesse wise then or witch or divell. But me thinks, <hi>Anthropo<g ref="char:EOLhyphen"/>sophus!</hi> your expression of the nature of this Anima, that must doe such fine feats in the world, by the efformation of things and organizing the matter into such use<g ref="char:EOLhyphen"/>full figuration and proportion in living creatures, had been as fitly and as much to your purpose expressed; if you had phan<g ref="char:EOLhyphen"/>sied her tied up like a pig in a poke, that grunting and nudling to get out drove the yeelding bag out at this corner and that corner, and so gave it due order and disposition of parts. But, Oh thou man of mysteries! tell mee I pray thee, how so subtill a thing as this <hi>Anima</hi> is, can be ei<g ref="char:EOLhyphen"/>ther barrel'd up or bottled up, or tide up in a bag, as a pig in a poke! when as the first materiall rudiments of life be so laxe and so fluid, how can they possibly hopple or incarcerate so thin and agil a substance as a Soul? so that the union betwixt them
+<pb n="52" facs="tcp:55764:30"/>
+is of some other nature, then what such grosse expressions can represent, and more Theomagicall then our Theomagician himself is aware of.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 11.</head>
+                  <p>Here <hi>Anthroposophus</hi> tells us rare mysteries concerning the soul, that it is a thing slitch<g ref="char:EOLhyphen"/>ed and cobled up of two parts. <hi>viz.</hi> of <hi>aura tenuissima,</hi> and <hi>lux simplicisfima.</hi> And for the gaining of credence to this patch<g ref="char:EOLhyphen"/>ed conceit, hee abuses the authority of that excellent <hi>Platonist</hi> and Poet <hi>Virgilius Maro,</hi> taking the fag end of three verses which all tend to one drift, but nothing at all to his purpose. <hi>AEneid.</hi> 6.
+<q>
+                        <lg>
+                           <l>Donec long a dies perfecto temporis orbe</l>
+                           <l>Concretam exemit labem, purumque reliquit</l>
+                           <l>AEthereum sensum, atque aurai simplicis ignem.</l>
+                        </lg>
+                     </q>
+                  </p>
+                  <p>This is not spoken of the soul it self but of the AEthereall Vehicle of the soul, and so is nothing to your purpose Mr. <hi>Philalethes!</hi> You tell us also in this page in what shirts or sheets the souls wrap them<g ref="char:EOLhyphen"/>selves when they apply to generation, (as your phrase is) as if you were groom of their bed-chamber if not their pander. You tell us also of a radicall vitall liquor, that
+<pb n="53" facs="tcp:55764:30"/>
+is of like proportion and complexion with the superiour interstellar waters, which is as learnedly spoken, as if you should com<g ref="char:EOLhyphen"/>pare the sack at the Globe-Tavern, with certain supernall Wine-bottles hung round <hi>Orions</hi> girdell. Which no man were able to smell out, unlesse his nose were as Atlan<g ref="char:EOLhyphen"/>tick as your rauming and reaching phancy. And yet no man that has not lost his reason, but will think this as grave a truth in Philosophy as your interstellar waters. But Interstellar, indeed, is a pretty word and sounds wel, and it is pity but there were some fine Philosophick notion or other did belong to it. But now, <hi>Philalethes!</hi> if I would tyrannize over you as you doe o<g ref="char:EOLhyphen"/>ver <hi>Aristotle,</hi> for the manner of your de<g ref="char:EOLhyphen"/>claring the nature of the Soul, where you pretend to shew us the very naked essence of it and first principles whereof it doth consist, you have laid your self more bare to my lash, then you endeavoured to lay bare the soul to our view. For you doe plainly insinuate to us, That either the soul is Light, or else a thin Air, or that it is like to them. If only like these bodies of light and air, how pitifully doe you set out the nature of the Soul, when you tell us the principles of it only in a dry meta<g ref="char:EOLhyphen"/>phor
+<pb n="54" facs="tcp:55764:31"/>
+Is not the nature of the Soul far better known from the proper operations thereof (as <hi>Aristotle</hi> has defined it) then from this phantasticall metaphoricall way? But if you will say that the soul is pro<g ref="char:EOLhyphen"/>perly Light or Air, then be they never so thin, or never so simple (unlesse you will again use a metaphor) the Soul must bee a Body. And how any corporeall sustance thick or thin, fluid or dry, can be able to think, to reason, to phancy, &amp;c. nay to form matter into such cunning and wise frames and contrivancies as are seen in the bodies of living Creatures, no man of lesse ignorance and confidence then your selfe will dare to endeavour to explain, or hold any way probable.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 12.</head>
+                  <p>In this page you are curiously imployed in making of a chain of Light and Mat<g ref="char:EOLhyphen"/>ter, surely more subtill and more uselesse then that that held the Flea prisoner in the Mechanicks hand. But this is to hold the <hi>Anima,</hi> the passive Spirit and celestiall water together. Our Theomagician here grows as imperious, as wrathfull <hi>Xerxes.</hi> Will you also fetter the Hellespont <hi>Phila<g ref="char:EOLhyphen"/>lethes?</hi> and binde the winde and waters in
+<pb n="55" facs="tcp:55764:31"/>
+chains? But let's consider now the links of this miraculous chain of his,
+<table>
+                        <row>
+                           <cell>Light.</cell>
+                           <cell> </cell>
+                           <cell cols="3">Matter.</cell>
+                           <cell> </cell>
+                        </row>
+                        <row>
+                           <cell>Anima</cell>
+                           <cell rows="3">of</cell>
+                           <cell>3</cell>
+                           <cell rows="3">of</cell>
+                           <cell>1</cell>
+                           <cell rows="3">portions</cell>
+                        </row>
+                        <row>
+                           <cell>Passive spirit</cell>
+                           <cell>2</cell>
+                           <cell>2</cell>
+                        </row>
+                        <row>
+                           <cell>Celestial waters</cell>
+                           <cell>1</cell>
+                           <cell>3</cell>
+                        </row>
+                     </table>
+                  </p>
+                  <p>This is your chain, <hi>Philalethes!</hi> Now let's see what Apish tricks you'll play with this your chain. The three portions of light must be brought down by the two, the two, (if not indeed five, the two and three being now joynd) brought down by one, and so the whole chain drops into the water. But would any Ape in a chain if he could speak, utter so much incredible and improbable stuff, with so much munky and mysterious ceremony? His very chain would check his both thoughts and tongue. For is it not farre more reason<g ref="char:EOLhyphen"/>able that three links of a chain should sway down two, and two or five one, then that one should sway two or five, or two, three? Or doe we find when we fling up a clod of earth, that the whole ball of the Earth leaps up after that clod, or the clod rather returnes back to the Earth, the greater ever attracting the lesse,
+<pb n="56" facs="tcp:55764:32"/>
+if you will stand to magneticall Attracti<g ref="char:EOLhyphen"/>on. But truly <hi>Philalethes!</hi> I think you doe not know what to stand to, or how to stand at all; you are so giddy and intoxicated with the steam and heat of your disturbed phancy and vaine minde.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 13.</head>
+                  <p>Lin. 8. <hi>But meethinks Nature complains of a prostitution,</hi> &amp;c. Did not I tell you so before, that <hi>Philalethes</hi> was a pander? and now hee is convinced in his own conscience and confesses the crime, and his ears ring with the clamours and com<g ref="char:EOLhyphen"/>plaints of Madam Nature, whom he has so lewdly prostituted. Sad Melancholist! thou art affrighted into the confession of crimes that thou art not only not guilty of, but canst not be guilty of if thou wouldst. Is there never a one of our City Divines at leasure to comfort him and compose him? I tell thee, Madam Nature is a far more chast and discreet Lady, then to lye obnoxious to thy pro<g ref="char:EOLhyphen"/>stitutions. These are nothing but some unchast dreams of thy prurient and pol<g ref="char:EOLhyphen"/>luted phansie. I dare quit thee of this fact, <hi>Philalethes!</hi> I warrant thee, Thou
+<pb n="57" facs="tcp:55764:32"/>
+hast not Iaid Madam Nature so naked as thou supposest, only thou hast, I am afraid, dream'c uncleanly, and so hast polluted so many sheets of paper with thy Nocturnall Canundrums, which have neither life, sense, nor shape, head nor foot that I can find in them.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 14.</head>
+                  <p>Here <hi>Philalethes</hi> is taken like a Fly in a Spi<g ref="char:EOLhyphen"/>ders Web. He is altogether for subtilties. But spins but a thick thred from them, such as any Rusticks hand would draw out as well as his one. <hi>viz.</hi> That Spiders have some light of knowledge in them. Who knows not that <hi>Philaletbes?</hi> But in the</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 15.</head>
+                  <p>Hee is so lavish, of what hee has so little of himself, that hee bestows it on every plastick materiall From; and not a Rose can grow in Nature but some see<g ref="char:EOLhyphen"/>ing and knowing <hi>Hyliad</hi> with his in<g ref="char:EOLhyphen"/>visible pencill must draw it, and thus by his meer rash dictate do's hee think hee has dash'd out that long and rationall <hi>dogma</hi> in Philosophy of the particular <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> or <hi>rationes seminales.</hi> Whose
+<pb n="58" facs="tcp:55764:33"/>
+fondnesse in this groundlesse assertion it were easie to confute, but he that will not bring any reasons for what he sayes, is not worthy to have any reasons brought a<g ref="char:EOLhyphen"/>gainst him. For as for that only slight rea<g ref="char:EOLhyphen"/>son which hee intimates, that the matter being contrived into such a rationall or ar<g ref="char:EOLhyphen"/>tificiall disposure of parts, the immediate Artificer thereof must have animad<g ref="char:EOLhyphen"/>version and reason in it, is only said, not proved, and will reach no further, but that the <hi>ratio seminalis,</hi> must at least proceed from something that is knowing, and be in some sense rationall, but not have Reason and Animadversion in it self. The like confidence and ignorance is re<g ref="char:EOLhyphen"/>peated and insisted upon in the 16 and 17 pages: but I let them passe.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 18, 19.</head>
+                  <p>These pages contain a certain preach<g ref="char:EOLhyphen"/>ment, which would have done well if it had been from some one that had more wit in knowing when to preach and when to hold his peace, and more charity to abstain from such undeserved chidings of <hi>Aristotle.</hi> But your unmea<g ref="char:EOLhyphen"/>sureable and unmercifull chastisings of him, and so highly advancing and sooth<g ref="char:EOLhyphen"/>ing up your self in your own windy
+<pb n="59" facs="tcp:55764:33"/>
+conceits and fluttering follies make all your serious applications ridiculous and neffectuall.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 20.</head>
+                  <p>
+                     <hi>Petition of St. Augustine, A logica libera nos Domine, lin.</hi> 7. Assuredly, <hi>Philalethes</hi> ever since the Church Litanie was put down has used this of St. <hi>Augustine,</hi> and that with such earnestnesse and devotion that hee has even extorted from Heaven the full grant of his Petition, and has become as free and clean from all sense and reason, as hee is luxuriant and en<g ref="char:EOLhyphen"/>cumbred with disturbed and unsetled fan<g ref="char:EOLhyphen"/>cies and undigested imaginations.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 21.</head>
+                  <p>Lin. 3. <hi>These three Principles are the Clavis of all Magick,</hi> &amp;c. Here <hi>Philale<g ref="char:EOLhyphen"/>thes</hi> like the Angell of the bottomlesse Pit, comes jingling with the Keyes of Magick in his hands. But hee opens as Hokus Pokus do's his fists, where we see that here is nothing and there is nothing. But something he will seem to say, <hi>viz.</hi> That the first Principle is <hi>one in one, and one from one.</hi> Hee that has so many years so devoutly pray'd against Logick,
+<pb n="60" facs="tcp:55764:34"/>
+doe you expect when he speaks to hear reason? This is as much as to say no<g ref="char:EOLhyphen"/>thing. One in one and one from one? Suppose a ripe Apple should drop into the rotten hollow of the tree that bore it. Is this Apple your mysterious Magical prin<g ref="char:EOLhyphen"/>ciple? It may be that as well as any thing else by this description. For it is one Apple in one hollow, from one tree. O but hee addes. <hi>It is a pure white Virgin.</hi> Some religious Nun I warrant you. No shee may not be a Nun neither. For shee is <hi>uxor Dei &amp; stellarum.</hi> It seems then, there is a kinde of <hi>Plato's</hi> Common-wealth, betwixt God and the Stars, and they have community of wives amongst them. But if shee be so pure a Virgin wife as you make her, how come some of her Husbands to wear horns as they doe, <hi>viz. Aries, Capricorn</hi> and others? But is this to Philosophize or to play the Theoma<g ref="char:EOLhyphen"/>gician, <hi>Philalethes!</hi> thus to tell us of vir<g ref="char:EOLhyphen"/>gins, or wives with white peticoats, or to tell us that from this one there is a descent into four, &amp;c. This is but idle treading of the air, and only a symptome of a light swimmering phansie that can have patience to write such hovering undeterminate stuffe, as this, that belongs either almost
+<pb n="61" facs="tcp:55764:34"/>
+to any thing, or nothing. You even weary your Reader out, <hi>Philalethes!</hi> with such Metaphysicall dancings and airy fables.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 22.</head>
+                  <p>Lin. 5. <hi>This is a Labyrinth and wild of Magick where a world of Students have lost themselves,</hi> And you, <hi>Philalethes!</hi> have not scaped scot-free. For you have lost your reason before as I told you, and your so much and so confidently conversing with meere Unities and Numbers, which in themselves design nothing, will teach you in time, to speak words without any in<g ref="char:EOLhyphen"/>ward phantasm of what you say. So that you shall bid fair for the loosing of your phansie too, and then you will bee as you are near it already, <hi>Vox, praeterea nihil</hi> a mere noise and clatter of words.</p>
+                  <p>Lin. 13. <hi>It moves here below in shades and tiffanies,</hi> &amp;c. What a description is this of the Magicians fire? I suppose you mean the Magicians <hi>Thais.</hi> It <hi>moves in shades,</hi> that is, (for the text is very dark and wants a Commentary) in the Evening or Twi<g ref="char:EOLhyphen"/>light. <hi>Tiffanies,</hi> is plain English, but <hi>white etheriall vestures,</hi> must be white Peti<g ref="char:EOLhyphen"/>coats and white Aprons, or else white Aprons upon Blew Peticoats, and that
+<pb n="62" facs="tcp:55764:35"/>
+shee is exposed to such a publick prosti<g ref="char:EOLhyphen"/>tution passing through all hands every one having the use of her body; this Theomagicians fire seems to me to be no other, then some very common strumpet. But if you mean any thing but a Strumpet, you have a wondrous infected phan<g ref="char:EOLhyphen"/>sie, that dresses up your Theomagicall notions in such whorish attire. But of a so<g ref="char:EOLhyphen"/>dain my Theomagician has lest those more grosse and palpable expressions, and now dances very high in the air quite out of the Ken of our eye, like some Chymi<g ref="char:EOLhyphen"/>call Spirit that has broke its Hermeticall prison, and flown away out of the Ar<g ref="char:EOLhyphen"/>tist's sight and reach: being far more in<g ref="char:EOLhyphen"/>visible and thin now, then the finest Tif<g ref="char:EOLhyphen"/>fany that ever took his sight, and more arid and slight, then the faintest shade. I tell you once more; <hi>Anthroposophus!</hi> that <hi>Ternaries,</hi> and <hi>Quaternaries,</hi> and <hi>Decads,</hi> and <hi>Monads,</hi> and such like words of num<g ref="char:EOLhyphen"/>ber have no usefull sense nor significati<g ref="char:EOLhyphen"/>on, nor vertue, if unapplyed to some de<g ref="char:EOLhyphen"/>terminate substance or thing. But our great Theomagician having no project in this writing that I see, but to amaze the world, contents himself onely to rattle his chain, and to astonish the rude and
+<pb n="63" facs="tcp:55764:35"/>
+simple as if some Spirit or Conjurer was at hand, and so those words that are most sonorous and consist of the greatest number of syllables, please him better, then what have more solid significati<g ref="char:EOLhyphen"/>on, and a more setled and sober sense.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 24.</head>
+                  <p>Lin. 17. <hi>Hee with the black Spaniell.</hi> As for your <hi>ador'd Magus</hi> with the black Spani<g ref="char:EOLhyphen"/>ell, and that dark Disciple of <hi>Libanius Gallus,</hi> what I have said to you already will serve here too. But my controversie is with you onely, <hi>Philalethes!</hi> a sworn enemy of Reason and <hi>Aristotle,</hi> and mee thinks you are very like your self still in the</p>
+               </div>
+               <div type="explication">
+                  <head>27 Pag.</head>
+                  <p>Lin. 22. <hi>I am certain the world will wonder I should make use of Scripture to esta<g ref="char:EOLhyphen"/>blish Philosophy,</hi> &amp;c. Here, <hi>Philalethes,</hi> you seem self-condemned even from your own speech, being conscious to your self, that all the world will bee against you in this superstitious abuse of the Scripture. For are you wiser then all the world be<g ref="char:EOLhyphen"/>side in this matter, because you have pray'd away all your Logick in St. <hi>Augustines</hi>
+                     <pb n="64" facs="tcp:55764:36"/>
+Letanie? What profane boldnesse is this to distort that high Majesty of the holy Scripture to such poor and pitifull services, as to decide the controversies of the World and of Nature? As well be<g ref="char:EOLhyphen"/>coming it is, as to set pies and pasties into the oven with the sacred leaves of the bible? This is but a fetch of impe<g ref="char:EOLhyphen"/>rious Melancholy and Hypocriticall su<g ref="char:EOLhyphen"/>perstition, that under pretense of being more holy would prove more Tyranni<g ref="char:EOLhyphen"/>call, and leave the understanding of man free in nothing at all, but bring in a philosophy too, <hi>Jure Divino!</hi> And I can further demonstrate to you (beside what I have intimated from the transcendency of the Scripture and high scope and aim thereof) that the Scripture teacheth no secret or principle of Philosophy, of which there is any doubt amongst men in their wits. For either (as where it seems to speak <hi>ex prefesso</hi> of any such things) it do's it so obscurely that men rather fa<g ref="char:EOLhyphen"/>ther their own notions fetch'd from else<g ref="char:EOLhyphen"/>where, upon the Scripture; or else if it speak more plainly and literally, yet it being allow'd by all sober men as well Jews as Christians, (as it is indeed un<g ref="char:EOLhyphen"/>deniably evident from the passages them<g ref="char:EOLhyphen"/>selves
+<pb n="65" facs="tcp:55764:36"/>
+in Scripture) that it speakes so ordinarily according to the rude and vul<g ref="char:EOLhyphen"/>gar use and apprehension of men, there can bee no deciding collections in mat<g ref="char:EOLhyphen"/>ters of Philosophy safely gathered out of it. Though I will not deny but that some Philosophick truths may have an happy and usefull illustration and coun<g ref="char:EOLhyphen"/>tenance from passages in Scripture. And their industry is not to be vilified that take any pains therein. But I doe not beleeve that any man that has drove the proper use of the Scripture home to the most full and most genuine effect of it in himself, but will be so wise and so discreet, that hee will bee ashamed in good earnest to allow any such Philoso<g ref="char:EOLhyphen"/>phick abuse of. But questionlesse the Scripture is the beginner, nourisher and emprover of that life and light which is better then all the Philosophy in the world. And he that stands in this light the firmer and fuller hee is possessed of it, he is the more able to judge both of Nature, Reason, and Scripture it self. But hee that will speak out of his own rash heat, must needs run the hazard of talking at randum, And this I make the bolder in charity to pronounce, be<g ref="char:EOLhyphen"/>cause
+<pb n="66" facs="tcp:55764:37"/>
+I observe that the reverentiall ab<g ref="char:EOLhyphen"/>use, and religious mis-application of the holy Writ to matters of Philosophy, for which it was not intended, do's in many well-meaning men eat out the use of their reason, for the exercise whereof Philosophy was intended. And hence so much spurious and phantastick knowledge multiplies now adayes, to the prejudice of mans understanding, and to the intang<g ref="char:EOLhyphen"/>ling him in vain and groundlesse imagi<g ref="char:EOLhyphen"/>nations, fortuitously sprung up from un<g ref="char:EOLhyphen"/>circumspect Melancholy, dazled and stoun<g ref="char:EOLhyphen"/>ded with the streamings and flashes of its own pertinacious phansie. Which some<g ref="char:EOLhyphen"/>time is so powerfull as to over-master the Melancholist into a credulity, that these flarings of false light in his dark Spi<g ref="char:EOLhyphen"/>rit are not from himself, but from a Divine Principle, <hi>the Holy Ghost.</hi> And then bidding a dieu to Reason, as ha<g ref="char:EOLhyphen"/>ving got some Principle above it, mea<g ref="char:EOLhyphen"/>snres all truth meerly by the greatnesse and powerfulnesse of the Stroke of the Phantasme. What ever fills the imagi<g ref="char:EOLhyphen"/>nation fullest, must bee the truest. And thus a rabble of tumultuary and crasse representations must goe for so many Re<g ref="char:EOLhyphen"/>velations, and every heaving up by an
+<pb n="67" facs="tcp:55764:37"/>
+                     <hi>Hypochondricall</hi> flatulency must bee con<g ref="char:EOLhyphen"/>ceited a rapture of the Spirit; they professing themselves to receive things immediately from God, when they are but the casuall figurations of their anxious phansie, busily fluttering about the Text; which they alwayes eye (though they dis<g ref="char:EOLhyphen"/>semble it) as Hauks and Buzzards, flye they never so high, have their sight bent upon on the Earth. And indeed if they should not forge their phansies into some tole<g ref="char:EOLhyphen"/>rable suteablenesse with the letter of the Scripture, they would never be able to beleeve themselves, or at least to beget beleef in others, that they are inspired. And so that high conceit insinuated into them by that wonderfull yet ordinary imposterous power of Melancholy would fall to nothing, and they appear not so much as to themselves either Prophets or inspired. But this I have touched upon elsewhere. I will let it goe. One<g ref="char:EOLhyphen"/>ly let me cast in thus much: that he that mis-beleeves and layes aside clear and cau<g ref="char:EOLhyphen"/>tious reason in things that fall under the discussion of Reason, upon the pretence of hankering after some higher principle, (which a thousand to one proves but the infatuation of Me<g ref="char:EOLhyphen"/>lancholy
+<pb n="68" facs="tcp:55764:38"/>
+and a superstitious hallueina<g ref="char:EOLhyphen"/>tion) is as ridiculous as if hee would not use his naturall eyes about their proper object till the presence of some supernaturall light, or till hee had got a pair of Spectacles made of the Cry<g ref="char:EOLhyphen"/>stalline Heaven, or of the <hi>Coelum Empyre<g ref="char:EOLhyphen"/>um,</hi> to hang upon his Nose for him to look through. The truth is, hee that layes aside Reason, casts away one of the most Soveraign Remedies against all me<g ref="char:EOLhyphen"/>lancholick impostures. For I conceive it would bee very hard for men either to bee deluded themselves, or to delude o<g ref="char:EOLhyphen"/>thers by their conceited inspirations, if they would expect that every Revelation should bee made good either by sound Reason, or a palpable and conspicuous Miracle. Which things if they were de<g ref="char:EOLhyphen"/>manded of the inspired people when they come to seduce, surely they would sneak away like the common Fidlers, being asked to play a Lesson on the Or<g ref="char:EOLhyphen"/>gans, or on the Theorbo.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 28, 29.</head>
+                  <p>In the former page you could not part till you had made God and Nature my<g ref="char:EOLhyphen"/>steriously kisse. In this, you metamor<g ref="char:EOLhyphen"/>phize
+<pb n="69" facs="tcp:55764:38"/>
+                     <hi>Mercury</hi> and <hi>Sulphur</hi> into two Virgins, and make the Sun to have more Wives then ever <hi>Solomon</hi> had Concubines. Every Star must have in it, <hi>Vxor Solis.</hi> But what will become of this rare conceit of yours if the Stars themselves prove Suns? And men far more learned then your self are very inclinable to think so. But now hee has phansied so many Wives he falls presently upon copulation helter skelter, and things done in private betwixt Males and Females, &amp;c.</p>
+                  <p>Verily, <hi>Anthroposophus!</hi> if you had but the patience to consider your own Book seriously, and examine what Philosophick truth you have all this while delivered since your contemning of <hi>Aristotle's</hi> defini<g ref="char:EOLhyphen"/>tion of Nature, Form, and Soul, you shall find in stead of his sober description from the proper operations and effects of things, nothing but a dance of foolish and lascivious words: almost every page being hung with Lawns and Tiffanies, and such like Tapestry: with black Sha<g ref="char:EOLhyphen"/>dowing hoods, white Aprons and Peti<g ref="char:EOLhyphen"/>coats, and I know not what. And this must bee a sober and severe Tractate of <hi>Anima Abscondita.</hi> As if the Soul were dressed in womans apparell, the better
+<pb n="70" facs="tcp:55764:39"/>
+to bee concealed, and to make an escape. And to as much purpose is your heaps of liquorsome Metaphors, of Kissing, of Coition, of ejection of Seed, of Virgins, of Wives, of Love-whispers, and of silent Embraces, and your Magicians Sun and Moon, those two Universall Peers, Male and Female, King and Queen Regen ts, alwayes young and never old; what is all this but a mere Morris-dance and May<g ref="char:EOLhyphen"/>game of words, that signifie nothing, but that you are young, <hi>Anthroposophus!</hi> and very sportfull, and yet not so young but that you are marriageable, and want a good wife that your sense may bee as busie as your phansie about such things those, and so peradventure in due time, the extravagancy of your heat being spent, you may become more sober.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 30.</head>
+                  <p>Lin. 8. <hi>It is light only that can be truly multiplied.</hi> But if you tell us not what this light is, wee are still but in the dark. I doe not mean whether Light bee a Virgin or a Wife, or whose Wife, or what clothes shee wears, Tiffanies or Cobweblawns, but in proper words what the vertue and nature of it is. Whether
+<pb n="71" facs="tcp:55764:39"/>
+                     <hi>Corpin</hi> or <hi>Spiritus,</hi> Substance or Accident, &amp;c. But, <hi>Anthroposophus!</hi> you doe noe desire at all to bee understood, but pleas your self only to rant it in words' which can procure you nothing but the admiration of fools. If you can indeed doe any thing more then another man, or can by sound reason make good any more truth to the World then another man can, then it is something; if not, it is a mere noise and buzze for children to li<g ref="char:EOLhyphen"/>sten after.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 31.</head>
+                  <p>From this 31 page to the 41, you have indeed set down the most courageous and triumphant testimonies, and of the highest and most concerning truth that belongs to the soul of man, the attainment where<g ref="char:EOLhyphen"/>of is as much beyond the Philosophers Stone, as a Diamond is beyond a pebble stone. But the way to this mystery lies in a very few words, which is, a per<g ref="char:EOLhyphen"/>emptory and persistent unravelling and releasing of the soul by the power of God, from all touch and sense of sin and cor<g ref="char:EOLhyphen"/>ruption. Which every man by how much the more hee makes it his sincere aim, by so much the more wise and discret he will
+<pb n="72" facs="tcp:55764:40"/>
+appear, and will be most able to jndge what is sound and what is flatuous. But to deal plainly with you, my <hi>Philale<g ref="char:EOLhyphen"/>thes!</hi> I have just cause to suspect that there is more winde then truth as yet in your writings. And that it is neither from reason nor from experience, that you seem to turn your face this way; but high things, and fiery and sonorous ex<g ref="char:EOLhyphen"/>pressions of them in Authors, being su<g ref="char:EOLhyphen"/>table to your Youthfulnesse and poeti<g ref="char:EOLhyphen"/>call phansie, you swagger and take on presently, as if, because you have the same measure of heat, you were of the same Fraternity with the highest Theo magicians in the World. Like as in the story, where the Apples and Horsdung were carryed downe together in the same stream, the Fragments of Horsdung cryed out, <hi>Nos poma natamus.</hi> Pardon the home<g ref="char:EOLhyphen"/>linesse of the comparison. But you that have slung so much dirt upon <hi>Aristotle,</hi> and the two famous Universities, it is not so unjust if you bee a little pelted with dung your self.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 42.</head>
+                  <p>Lin. 12. <hi>I know some illiterate School<g ref="char:EOLhyphen"/>Divines,</hi> &amp;c. He cannot be content to say
+<pb n="73" facs="tcp:55764:40"/>
+any thing that he thinkes is magnificent<g ref="char:EOLhyphen"/>ly spoken, but hee must needs trample upon some or other by way of triumph and ostentation, one while clubbing of <hi>Aristotle,</hi> another while so pricking the Schoolmen and provoking the Orthodoxe Divines, that he conceits they will all run upon him at once, as the <hi>Jewes</hi> upon the young Martyr St. <hi>Steven,</hi> and stone him for his strange mysteries of his Theomagick stone. Truly, <hi>Anthro<g ref="char:EOLhyphen"/>sophus</hi> there are some good things fall from you in your own style, and many cited out of considerable Authors, but you doe so soil and bemar all with your juvenile immoralities and phantastries, that you lose as much in the one as you get in the other.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 44.</head>
+                  <p>Lin. 4. <hi>The Scripture is obscure and my<g ref="char:EOLhyphen"/>sticall,</hi> &amp;c. And therefore say I, <hi>Philalethes!</hi> a very uncertain foundation to build a Philosophy on; but indeed such a mysticall Philosophy as you would build, may be e<g ref="char:EOLhyphen"/>rected upon any ground, or no ground, may hang as a castle in the air.</p>
+               </div>
+               <div type="explication">
+                  <pb n="74" facs="tcp:55764:41"/>
+                  <head>Pag. 45.</head>
+                  <p>Lin. 3. <hi>I never met in all my reading but with six Authors,</hi> &amp;c. But how doe you know that these six did perfectly un<g ref="char:EOLhyphen"/>derstand the Medicine, and this stupendi<g ref="char:EOLhyphen"/>ous mystery, unlesse you understood it perfectly your self? So that you would intimate to the world that you do perfect<g ref="char:EOLhyphen"/>ly understand it.</p>
+                  <p>Lin. 25. <hi>After this the materiall parts are never more to bee seen.</hi> This is the Nature of the Medicine, not to re<g ref="char:EOLhyphen"/>ctifie a visible body but to destroy it. Like the cure of the head ake, by cutting off the neck. Death indeed will cure all diseases. But you will say this is not death but a change or translation. Nor the other a medicine, but <hi>Spiritus medicus.</hi> So that in multitude of words you doe but obscure knowledge.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 46.</head>
+                  <p>Lin. 5. <hi>Boy mee out of countenance,</hi> &amp;c. Here <hi>Philalethes</hi> is mightily well pleased to think that one of his greennesse of yeares should arive to this miraculous ripenesse and maturity of knowledge in the most hidden mysteries of Theosophy. And com<g ref="char:EOLhyphen"/>paring
+<pb n="75" facs="tcp:55764:41"/>
+himselfe with the Reverend Do<g ref="char:EOLhyphen"/>ctours, findes the greatest difference to be this, that they indeed have more beard, but hee more wit. And I suppose he would intimate unto us, that they have so little wit that they know not the use of their own limbs. For if he make their beards their crutches, they cannot scape going on their heads, as if they were not invert<g ref="char:EOLhyphen"/>ed but rightly postured Plants, or walk<g ref="char:EOLhyphen"/>ing <hi>Stipites.</hi> In good truth you are a no<g ref="char:EOLhyphen"/>table Wagg, <hi>Philalethes!</hi>
+                  </p>
+                  <p>Lin. 10. <hi>Let mee advise thee I say not to attempt any thing rashly.</hi> And I commend your wit, <hi>Anthroposophus!</hi> in this point. For you are so wary of putting your fin<g ref="char:EOLhyphen"/>ger into the fire, that like the Monkey you will rather use the Cats foot then your own, as you will evidently show anon.</p>
+                  <p>Lin. 22. <hi>Orandum est ut sit mens sana in corpore sano.</hi> Keep your self there <hi>Phi<g ref="char:EOLhyphen"/>lalethes!</hi> 'Tis a great deal better peece of devotion then that of <hi>Augustine, A logica li<g ref="char:EOLhyphen"/>bera nos Domine.</hi>
+                  </p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 48. 49.</head>
+                  <p>Lin. 22. <hi>This is the Christian Philoso<g ref="char:EOLhyphen"/>phers Stone,</hi> And, <hi>this is the white Stone.</hi>
+                     <pb n="76" facs="tcp:55764:42"/>
+Which you, <hi>Philalethes!</hi> have covered o<g ref="char:EOLhyphen"/>ver with so much green mosse, that you have made it more hidden then ever be<g ref="char:EOLhyphen"/>fore. Having little will and lesse power to show it, but in all likelyhood a great purpose of ostentating your self.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 49.</head>
+                  <p>Lin. 10. <hi>But Reader! bee not deceived in mee, I am not a man of any such faculties,</hi> &amp;c. I warrant you, <hi>Anthroposophus!</hi> I am not so easily deceived in you. You have walked before me in very thin transparent Tiffanies all this while; or, if you will, danced in a net. I suspected you from the very first that you would prove so good and so wise as you now plainly professe your self. But that you are no better then you are, you say is because God is no debter of yours. Why! do's God Almighty runne so much in some mens Arrears that hee is constrain'd to pawn to them that precious Jewell, or to give them the <hi>White Stone</hi> to quit scores with them? How far is this from Popery <hi>Philalethes!</hi> that you seem elsewhere so much to disclaim?</p>
+                  <p>Lin. 13. <hi>I can affirm no more of my self,</hi> &amp;c. Right! <hi>Philalethes!</hi> Right! Your
+<pb n="77" facs="tcp:55764:42"/>
+phansie was never so happy as in transsigu<g ref="char:EOLhyphen"/>ring your selfe into a Wooden Mercury, that points others the way, which it self knows not, nor can ever goe, but stands stock still.</p>
+                  <p>Lin. 18. <hi>Shew mee but one good Christian,</hi> &amp;c. Why then! it seemes <hi>Philalethes!</hi> that you are no good Christian your self, and uncapable of the secret you are so <unclear>free</unclear> to impart to others. Or it is your discre<g ref="char:EOLhyphen"/>tion to attempt nothing your self rashly, but as I said before, to doe as the Ape or Monkey, take the <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> foot to <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> the Chesnut out of the <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. <unclear>But</unclear> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> solicitous of seeming a profound <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>ra<g ref="char:EOLhyphen"/>list then a good Christian, hee tells us in the</p>
+               </div>
+               <div type="explication">
+                  <head>50 Pag.</head>
+                  <p>An obscure AEnigmaticall story of at<g ref="char:EOLhyphen"/>taining the Naturall celestiall Medicine, and that without any retractation, as if hee himself had been a potent and suc<g ref="char:EOLhyphen"/>cessefull Operatour in the mystery. But let mee once more take notice of the found<g ref="char:EOLhyphen"/>nesse of this affected obscurity in words, that no man be any whit taken with that sleight of Imposture, and become guilty of that passion of fooles, causelesse admira<g ref="char:EOLhyphen"/>tion.
+<pb n="78" facs="tcp:55764:43"/>
+For the most contemptible notion in the World, may bee so uncertainly and obscurely set out by universall and hovering tearms taken from Arithmetick and Geometry, which of themselves sig<g ref="char:EOLhyphen"/>nifie no reall thing, or else from the ca<g ref="char:EOLhyphen"/>tachresticall use of the termes of some more particular and substantiall Science, that the dark dresse thereof may bring it into the creditable suspicion of proving some venerable mystery, when as, (if it were but with faithfulnesse and perspicuity discovered and exposed to the judgment and free censure of sober men) it would bee found but either some sorry incon<g ref="char:EOLhyphen"/>siderable vulgar truth, or light conjectu<g ref="char:EOLhyphen"/>rall imagination, or else a ghastly pro<g ref="char:EOLhyphen"/>digious lye. But say in good sadnesse, <hi>Philalethes!</hi> is not all this that you tattle in this page, a mere vapour and tempe<g ref="char:EOLhyphen"/>stuous buzze of yours? made out of words you meet in Books you under<g ref="char:EOLhyphen"/>stand not? and casuall phansies sprung from an heedlesse Brain? Is it any thing but the activity of your desire to seeme some strange mysterious Sophist to the World? And so to draw the eyes of men af<g ref="char:EOLhyphen"/>ter you? Which is all the Attraction of the Star-fire of Nature you aim at, or can
+<pb n="79" facs="tcp:55764:43"/>
+hope to bee able to effect. Did your Sculler, or shittle Skull ever arrive at that Rock of Crystall you boast of? Or did you ever saving in you phansie, soil that bright Virgin Earth? did your eyes, hands or Experience ever reach her? Tell mee what Gyant could ever so lustily show you <hi>Lincoln-Galves,</hi> or hold you up so high by the eares, as to discover that <hi>Terra Maga in AEthere Clarificata?</hi> Till you show your self wise and knowing in effect, give mee leave to suspect you a meere ignorant boaster from your Airy unsetled words. And that you have no<g ref="char:EOLhyphen"/>thing but fire and winde in your Brains, what ever your Magicall Earth has in its belly.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 51.</head>
+                  <p>Lin. 6. <hi>Hee can repeal in particular.</hi> Now, <hi>Anthroposophus!</hi> you make good what I suspected, that is, that you doe not tell us any thing of this celestiall naturall Medicine, of your own Experience. For you being conscious to your selfe of be<g ref="char:EOLhyphen"/>ing no good Christian, as you confessed before, and God having not given so full a charter to the Creature but he may interpose and stop proceedings, surely at
+<pb n="80" facs="tcp:55764:44"/>
+least you had so much wit, as not to try where there was so just cause of fear of frustration and miscarriage. So that you goe about to teach the World what you have not to any purpose learned your self.</p>
+                  <p>Lin. 27. <hi>And who is hee that will not gladly beleeve,</hi> &amp;c. A most rare and highly rays'd notion. You resolve then that holy expectancy of the Saints of God con<g ref="char:EOLhyphen"/>cerning the life to come, into that fond kind of credulity and pleasant self-flattery, <hi>Facile credimus quod fieri volumus,</hi> and yet you seem to unsay it again toward the end of this Period. And we will permit you, <hi>Anthroposophus!</hi> to say and unsay, to doe and undoe; for the day is long enough to you, who by your Magick and <unclear>colestial</unclear> Medicine are able to live till all your friends be weary of you.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 52.</head>
+                  <p>In this whole page <hi>Anthroposophus</hi> is very Gnomicall, and speaks Aphorisms very gracefully. But as morall as he would seem to bee, this is but a prelude to a peece of Poetick ostentation, and hee windes him<g ref="char:EOLhyphen"/>self into an occasion of shewing you a Pa<g ref="char:EOLhyphen"/>per of verses of his. If you doe but trace
+<pb n="81" facs="tcp:55764:44"/>
+his steps, you shall see him waddle on like some Otter or Water-Rat &amp; at last flounce into the River <hi>Vsk.</hi> Where notwith<g ref="char:EOLhyphen"/>standing afterward he would seem to dresse himself like a Water-Nymph at those cry<g ref="char:EOLhyphen"/>stall streams, and will sing as sweet as any <hi>Siren</hi> or <hi>Mermayde.</hi> And truly, Master <hi>Anthroposophus!</hi> if that heat that enforces you to bee a Poet, would but permit you in any measure to bee prudent, cautiously rationall, and wise, you would in due time prove a very considerable Gentleman. But if you will measure the truth of things by the violence and overbearing of phan<g ref="char:EOLhyphen"/>sie and windy Representations, this <hi>A<g ref="char:EOLhyphen"/>mabilis insania,</hi> will so intoxicate you, that to sober men you will seem little better then a refined Bedlam. But now to the Poe<g ref="char:EOLhyphen"/>try it self.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 53.</head>
+                  <p>
+                     <hi>'Tis day my Crystall Vsk,</hi> &amp;c. Here the Poet begins to sing, which being a signe of joy is intimation enough to us also to be a little merry. The four first verses are nothing else but one long-winded good<g ref="char:EOLhyphen"/>morrow to his dear <hi>Yska.</hi> Where you may observe the discretion and charity of the Poet, who being not resaluted again
+<pb n="82" facs="tcp:55764:45"/>
+by this Master of so many vertues, the River <hi>Usk,</hi> yet learns not this ill Lesson of clownishnesse, nor upbrayds his Tutor for his Rusticity. Was there never an Eccho hard by, to make the River seem affable and civill, as well as pure, patient, humble and thankfull?</p>
+                  <p>Lin. 17. <hi>And weary all the Planets with mine eyes.</hi> A description of the most im<g ref="char:EOLhyphen"/>pudent Star-gazer that ever I heard of, that can outface all the Planets in one Night. I perceive then, <hi>Anthroposophus!</hi> that you have a minde to be thought an Astrolo<g ref="char:EOLhyphen"/>gian as well as a Magician. But methinks, an Hill had been better for this purpose then a River. I rather think that your head is so hot, and your minde so ill at ease, that you cannot lye quiet in your bed as other Mortals doe, but you sleep<g ref="char:EOLhyphen"/>ing waking are carryed out, like the <hi>Noct<g ref="char:EOLhyphen"/>ambuli</hi> in their dreams, and make up a third with <hi>Will with the Wisp,</hi> and <hi>Meg with the Lanthorn,</hi> whose naturall wan<g ref="char:EOLhyphen"/>drings are in marish places, and neer Ri<g ref="char:EOLhyphen"/>vers sides.</p>
+                  <p>Lin. ultima. <hi>Sure I will strive to gain <unclear>as</unclear> clear a mind.</hi> Which I dare swear you may doe at one stroke! would you but wipe at once all your fluttering and fortuitous
+<pb n="83" facs="tcp:55764:45"/>
+phansies out of it. For you would bee then as clearly devoid of all shew of know<g ref="char:EOLhyphen"/>ledge, as <hi>Aristotle's Abrasa Tabula,</hi> or the wind, or the flowing water of written cha<g ref="char:EOLhyphen"/>racters.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 54.</head>
+                  <p>Lin. 3. <hi>How I admire thy humble bankes!</hi> Why! be they lower then the River it self? that had been admirable indeed. O<g ref="char:EOLhyphen"/>therwise I see nothing worthy admirati<g ref="char:EOLhyphen"/>on in it.</p>
+                  <p>Lin. 4. <hi>But the same simple vesture all the year.</hi> This River <hi>Yska</hi> then I conceive, ac<g ref="char:EOLhyphen"/>cording to your Geography, is to bee thought to crawl under the AEquatour or somewhere betwixt the Tropicks. For were it in Great <hi>Britaine</hi> or <hi>Ireland,</hi> cer<g ref="char:EOLhyphen"/>tainly the palpable difference of seasons there, would not permit his banks to bee alike clad all the year long. The fringe of reed and flagges, besides those gayer Or<g ref="char:EOLhyphen"/>naments of herbs and flowers, cannot grow alike on your <hi>Yskaes</hi> banks all Summer and Winter. So that you phansie him more beggerly then hee is, that you may after<g ref="char:EOLhyphen"/>ward conceit him more humble then hee ought to be.</p>
+                  <pb n="84" facs="tcp:55764:46"/>
+                  <p>Lin. 5. <hi>I'le learn simplicity of thee,</hi> &amp;c. That's your modesty, <hi>Anthroposophus!</hi> to say so: For you are so learned that you may be a Doctour of Simplicity your self, and teach others.</p>
+                  <p>
+                     <hi>Lin.</hi> 9. <hi>Let mee not live,</hi> &amp;c. How migh<g ref="char:EOLhyphen"/>tily the man is ravished with the contem<g ref="char:EOLhyphen"/>plation of an ordinary Water-course. A little thing will please you I perceive, as it do's children, nay amaze you. But if you bee so much inamoured on your <hi>Yska,</hi> doe that out of love that <hi>Aristotle</hi> did out of indignation, embrace his streames, nay drown your self, and then you will not live. You are very hot <hi>Anthroposophus!</hi> that all the cool air from the River <hi>Yska</hi> will not keep you from cursing your self, with such mortall imprecations.</p>
+                  <p>Lin. 11. <hi>Why should thy flouds enrich those shores,</hi> &amp;c. Why! how now! what's the matter, <hi>Philalethes!</hi> that you and the banks no better agree? If you could so soon fall into the River as you fall out with the shore, you would to your great honour, like <hi>Aristotle,</hi> be drown'd indeed. In good truth you a very fickle-headed Gentleman, <hi>Philalethes!</hi> thus in a moment to reproach what you did so highly ad<g ref="char:EOLhyphen"/>mire even now, <hi>viz.</hi> the banks of <hi>Yska,</hi>
+                     <pb n="85" facs="tcp:55764:46"/>
+which you then made so simple, so humble, and so innocent, that you phan<g ref="char:EOLhyphen"/>sied them an eximious pattern of those vertues for your self to imitate. But now all of a sodain, your Poeticall rapture I suppose spoiling your memory, you fling dirt on those banks that before you looked on as holy ground; and accuse them of injury, tyranny, and cruelty against the streams of your beloved <hi>Yska.</hi> But a<g ref="char:EOLhyphen"/>ny ordinary Advocate may easily make good the Banks part against the River. For I say unto thee, O thou man of light imaginations! that the banks of <hi>Yska</hi> are just, in keeping but the ground that ever was alloted them; but where ever they have lost ground, it is the violence and the usurpation of the injurious River, that has worn them away and overrunne them in an hostile manner. Besides I say, that the Bankes aforesaid are very charitable and pious as well as just, and doe not return revenge for injury. For where<g ref="char:EOLhyphen"/>as the aforesaid River, both by open force and secret undermining, doth dayly en<g ref="char:EOLhyphen"/>deavour to wear away and destroy the Banks and encroach upon the neighbour<g ref="char:EOLhyphen"/>ing ground, (which attempt is as sottish and foolish as unjust, for so the River
+<pb n="86" facs="tcp:55764:47"/>
+would be lost and drunk up by the Earth, Nor can there be any River without banks, more then an Hill without a val<g ref="char:EOLhyphen"/>ley;) yet notwithstanding all this pro<g ref="char:EOLhyphen"/>vocation of the River aforesaid, the banks are so patient, charitable, and of so Chri<g ref="char:EOLhyphen"/>stian-like nature, that they preserve in be<g ref="char:EOLhyphen"/>ing and good plight their inveterate ene<g ref="char:EOLhyphen"/>my, and keep up that carefully and stoutly in its right form and perfection that dayly practises and plots their expected destructi<g ref="char:EOLhyphen"/>on. What doe you answer to this <hi>Phila<g ref="char:EOLhyphen"/>lethes!</hi> All that vertue and piety which you phansie in the River, you see now plainly growing upon the banks. So that you may gather it, if you have a minde to it, without wetting your finger.</p>
+                  <p>Lin. ultima. <hi>Help mee to runne to Heaven, as thou dost there.</hi> Ha, ha, he! Why! I pray thee, do's <hi>Yska</hi> run to Heaven there? No it runs down into the Sea, as the Divels and the Heard of Swine did; whither I hope you doe not desire to goe for com<g ref="char:EOLhyphen"/>pany, <hi>Philalethes!</hi> But I wonder you being a whole day and a night on the banks of <hi>Yska,</hi> that no fish not so much as a small Stittlebag has leapt up into your phansie all this time. You might have learned many rare Lectures of morality from them too.
+<pb n="87" facs="tcp:55764:47"/>
+As for example; instead of due vigilancy you might learn from the fishes eyes never closing, to sleep and dream waking; or in<g ref="char:EOLhyphen"/>stead of being as mute as a fish when you have nothing to say, to say nothing to the purpose, or to expresse your self as un<g ref="char:EOLhyphen"/>intelligibly as if you had said nothing. But these and the like accomplishments naturally growing in you, you wanted no outward emblemes to reminde you of them, so that I hold you here excusable. But before I leave this rare Poem of yours, let me only take notice thus far: that your Levity and Phantastry do's much e<g ref="char:EOLhyphen"/>clipse the glorious suspicion of your Theomagicall Faculty. For it will seem very incredible that so light and phansi<g ref="char:EOLhyphen"/>full a Poet, should ever prove a grave and wonder-working Magician.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 55.</head>
+                  <p>Lin. 1. <hi>This is the way I would have thee walk in &amp;c. viz.</hi> In Majestick Groves, and Woods, and by River sides. You are not then I perceive, an <hi>Anti-Peripatetick, Philalethes!</hi> though you bee so violent an <hi>Anti-Aristotelean.</hi> But with such pompous gravity to give such slight Precepts as of walking by Rivers sides and in Groves,
+<pb n="88" facs="tcp:55764:48"/>
+&amp;c. argues more then enough of moping distempered Melancholy in you, and that it may, if you take not heed, make you in<g ref="char:EOLhyphen"/>dulge so much to delusive phansie, that you will be never able to set your eye <unclear>again</unclear> upon solid Reason, but range and ramble like one lost in a Wood.</p>
+                  <p>Lin. 9. <hi>To trust no Moderns but</hi> Mich Sendivow, <hi>and</hi> Physica Restituta. How mightily are these two beholden to you, <hi>Philalethes!</hi> if you had but so many grains of judgement and discretion as to make you able to passe sentence upon any considera ble Authour. But what doe you mean by trusting? To give faith and credence to them as to Holy Writ? If so, I perceive you have also a Triplicity of Bibles, <hi>viz.</hi> the usuall one, <hi>Mich. Sendivow,</hi> and <hi>Physica Restituta.</hi> But we ordinary Mortalls hope to be as wise and as happy with our single one, as you with your advantage of three.</p>
+                  <p>Lin. 13. <hi>With the Whymzies of Des-Cartes.</hi> This young man, has as little manners as wit, to speak thus reproachfully of the most admirable Philosophy, that ever yet appeared in these <hi>European</hi> parts since <hi>Noahs</hi> floud. Certainly, <hi>Anthroposophus!</hi> you are set upon it to demonstrate your self a pure pitifull Novice in Knowledge, whom on<g ref="char:EOLhyphen"/>ly
+<pb n="89" facs="tcp:55764:48"/>
+Ignorance makes so magisterially confi<g ref="char:EOLhyphen"/>dent. But for thy want of due sagacity, I will take thee by the Nose, O <hi>Philale<g ref="char:EOLhyphen"/>thes!</hi> with this one Dilemma, which shall pinch thee as hard, as St. <hi>Dunstan</hi> did the roaring Fiend with a red-hot pair of tongs. Thus; Either thou hast read <hi>Des Cartes</hi> his naturall Philosophy, or thou hast not. If thou hast read it, thus to contemn it and term it a Whymzie, (whereas there was never any thing proposed to the World, in which there is more wary, sub<g ref="char:EOLhyphen"/>till, and close contexture of reason, more coherent uniformity of all parts with themselves, or more happy conformity of the whole with the <hi>Phaenomena</hi> of Nature) is to proclaim to all that understand <hi>Des<g ref="char:EOLhyphen"/>Carte's</hi> Philosophy, that thou hast a very broken, impatient, and unsteddy Appre<g ref="char:EOLhyphen"/>hension, or a very dull and slow wit, and such as cannot discern when it lighteth upon what is most exactly rationall, and when not. But what is most exactly rati<g ref="char:EOLhyphen"/>onall, as his Philosophy indeed is to any competent Judge of Reason, is least of all whymzicall; but whymzies more natu<g ref="char:EOLhyphen"/>rally lodge in their brains that are loosly phansifull, not in theirs that are Mathema<g ref="char:EOLhyphen"/>tically and severely wise. So that this re<g ref="char:EOLhyphen"/>proach
+<pb n="90" facs="tcp:55764:49"/>
+returnes upon thine own addle pate, O inconsiderate <hi>Philalethes!</hi> But if thou didst never read his Philosophy, and yet pronouncest thus boldly of it; that is not only impudently uncivill, but extream<g ref="char:EOLhyphen"/>ly and insufferably unjust.</p>
+               </div>
+               <div type="explication">
+                  <head>Pag. 56.</head>
+                  <p>
+                     <hi>Lin. 6.</hi> I will now withdraw and leave the Stage to the next Actour. Exit <hi>Tom Fool in the play.</hi>
+                  </p>
+                  <p>Lin. 8. <hi>Some Peripatetick perhaps whose</hi> Sic probo <hi>shall serve mee for a Comedie.</hi> So it seems if a man had seriously argued with you all this time, you would only have returned him laughter instead of a solid answer, and so from Tom Fool in the Play, you would have become a na<g ref="char:EOLhyphen"/>turall Fool. But we have had the good hap to prevent you, and instead of <hi>Sic probo's</hi> to play the Fool for company, that is, to answer a fool according to his foolishnesse, that is, to rail and call names, and make ridiculous. Into which foolish postures as often as I have distorted my self, so often have I made my self a fool that you may become wise, and amend that in your self, that you cannot but dislike in me. Nor would I ever meddle
+<pb n="91" facs="tcp:55764:49"/>
+with you, as merry as I seem, but upon this and the like serious intentions. And must needs reckon it amongst the rest of your follies, that you expected that some severe <hi>Peripatetick</hi> would have laid bat<g ref="char:EOLhyphen"/>tery against you, with syllogisme upon syllogisme, and so all confuted your Book, that there had not been left one line en<g ref="char:EOLhyphen"/>tire. But assure your self <hi>Philalethes!</hi> the <hi>Peripateticks</hi> are not altogether given so much to scolding, that they will contest with a shadow, or fight with the winde. Nor so good marks-men as to levell at a Wilde goose flying. You are so fluttering and unsetled in your notions, and obscure in your terms, that unlesse you will bee more fixt, and sit fair, &amp; draw your Wood<g ref="char:EOLhyphen"/>cocks head out of the bush or thicket, they will not be able to hit your meaning. Which I suspect you will never be per<g ref="char:EOLhyphen"/>swaded to doe, that you may keep your self more secure from Gunshot.</p>
+                  <p>Lin. 13. <hi>And the best way to convince fooles,</hi> &amp;c. How wise <hi>Anthroposophus</hi> is to what is evill! Here he makes sure of cal<g ref="char:EOLhyphen"/>ling him fool first who ever shall attempt to write any thing against his Book. But it is no such mischief, <hi>Anthroposophus!</hi> to bee called fool. The worst jest is when a
+<pb n="92" facs="tcp:55764:50"/>
+man is so indeed. And if you had but the skill to winnow away all the chaffe of humorous words, and uncouth freaks and fetches of phansie, and affected phrases, which are neither the signes nor causes of any wisdom in a man, all that will be left of this learned discourse of yours; will prove such a small moity of that know<g ref="char:EOLhyphen"/>ledge your presumptuous minde conceit<g ref="char:EOLhyphen"/>ed to be in her self, that you would then very sadly of your owne accord (which would bee your first step to become wise indeed) confesse your self a Fool. And this I understand of your knowledge in Nature. Now for that in Morality; It is true you often take upon you the gravity to give precepts of life, as espe<g ref="char:EOLhyphen"/>cially in the 52 and 55 pages of this Tra<g ref="char:EOLhyphen"/>ctate. But you doe it so conceitedly, with such chiming and clinching of words, Antithetall Librations, and Symphonicall rappings, that to sober men you cannot but seem rather like some idle boy play<g ref="char:EOLhyphen"/>ing on a pair of Knick-knacks, to please his own ear and phansie, then a grave Mo<g ref="char:EOLhyphen"/>ralist speaking wholesome words and gi<g ref="char:EOLhyphen"/>ving weighty counsell of life and manners. So that the best that you do, is but to make the most solemn things ridiculous, by your
+<pb n="93" facs="tcp:55764:50"/>
+Apish handling of them. I suppose because a Religious Humour has been held on in some Treatises, with that skill and judgement, or at least good successe, that it has won the approbation and applause of most men, an eager desire after fame has hurried you out upon the like attempt. And though you would not call your Book <hi>Religio Magici,</hi> as that other was <hi>Religio Medici:</hi> yet the favourable conceit you had of your own Worth, made you bold to vie with him, and in imitation of that, you have stuffed your Book here and there with a tuft of Poetry, as a Gam<g ref="char:EOLhyphen"/>mon of Bacon with green hearbs, to make it tast more savourly. But all will not doe, poor <hi>Magicus!</hi> For now your designe is discovered, you are as contemptible as a<g ref="char:EOLhyphen"/>ny Juggler is before him, that knows all his tricks aforehand. And you run the same fortune that <hi>AEsops</hi> Asse, who inept<g ref="char:EOLhyphen"/>ly endeavouring to imitate the Courtship and winning carriage of his Masters fawn<g ref="char:EOLhyphen"/>ing and leaping Spaniell, in stead of fa<g ref="char:EOLhyphen"/>vour found a club for his rude perfor<g ref="char:EOLhyphen"/>mance. But you, <hi>Magicus!</hi> do not only paw ill-favouredly with your fore-feet, but kick like mad with your hinder-seet, as if you would dash out all the <hi>Aristoteleans</hi> brains.
+<pb n="94" facs="tcp:55764:51"/>
+And doe you think that they are all either so faint-hearted, that they dare not, or so singularly moralized, that <hi>Socrates</hi> like, if an Asse kick, they will not kick again? Yes certainly next to your self they are as like as any to play the Asses, and to answer you kick for kick, if you will but stand fair for them. But you have got such a Magicall sleight of hiding of your head, and nipping in your buttocks, like the Hob-gobling that in the shape of an Horse dropt the chil<g ref="char:EOLhyphen"/>dren off one by one of his tail into the wa<g ref="char:EOLhyphen"/>ter, that they cannot finde you out nor feel where about you would be, else cer<g ref="char:EOLhyphen"/>tainly they would set a mark upon your hinder parts. For if I, my dear <hi>Eugenius!</hi> who am your brother <hi>Philalethes,</hi> am forced out of care and judgement to handle you so seeming harshly and rigidly as I doe, what doe you think would become of you, <hi>st incideres in ipsas Belluas,</hi> if you should fall amongst the irefull <hi>Aristoteleans</hi> themselves? would you be able to escape alive out of their hands? Wherefore good brother <hi>Philaletbes!</hi> hereafter be more discreet, and endeavour rather to be wise then to seem so, and to quit your self from being a fool, then to phansie the <hi>Aristoteleans</hi> to be such.</p>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </div>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:55764:51"/>
+            <head>Vpon the Authors gene<g ref="char:EOLhyphen"/>rous designe, in his Obser<g ref="char:EOLhyphen"/>vations, of discovering and discountenancing all mysteriously masked non-sense, and imposto<g ref="char:EOLhyphen"/>rous phansie; the sworn Enemies of <hi>Sound-Reason,</hi> and Truth.</head>
+            <lg>
+               <l>NObly design'd! let not a Sunday sute</l>
+               <l>Make us my <hi>Gasser</hi> and my <hi>Lord</hi> salute:</l>
+               <l>Nor his Saints cloathes deceive, O comely dresse!</l>
+               <l>Like to a <hi>Long-Lane</hi> Doublets wide excesse.</l>
+               <l>How like a Sack it sits? Less far would fit,</l>
+               <l>Did he proportion but his garb and Wit.</l>
+               <l>The Wight mistakes his size, each Wiseman sees</l>
+               <l>His mens <hi>Fourteens</hi> shrink to a childrens <hi>Threes.</hi>
+               </l>
+               <l>Fill out thy title, man! think'st thou canst daunt</l>
+               <l>By pointing to the sword of <hi>Iohn</hi> of <hi>Gaunt?</hi>
+               </l>
+               <l>Thou canst not wield it yet; an empty name</l>
+               <l>Do's no more feats then a meer painted flame.</l>
+               <l>Rare Soul! whose words refin'd from flesh and blood</l>
+               <l>Are neither to be felt nor understood:</l>
+               <l>But if they sacred be, because not sense,</l>
+               <l>To <hi>Bedlam,</hi> Sirs! the best Divines come thence.</l>
+               <pb facs="tcp:55764:52"/>
+               <l>Your new-found Lights may like a falling Starre</l>
+               <l>Seem heav'nly Lamps, when they but Gellies are.</l>
+               <l>And high swoln Wombs bid fair, but time grown nigh</l>
+               <l>The promis'd birth proves but a Tympanic.</l>
+               <l>Should Superstition, what it most doth fly,</l>
+               <l>Seek to take shelter in Philosophy?</l>
+               <l>And Sacred Writ, sole image of sure truth,</l>
+               <l>Be pull'd by th' nose, by every idle youth?</l>
+               <l>And made to bend as seeming to incline</l>
+               <l>To all the fooleries hee'l call Divine?</l>
+               <l>Find out the Word in Scripture; all is found:</l>
+               <l>Swarms of Conceits buzze up from this one ground,</l>
+               <l>As if the Cobler all his crade would show</l>
+               <l>From mention made of <hi>Gibeon's</hi> clouted shooe:</l>
+               <l>Or Bakers their whole Art at large would read</l>
+               <l>From the <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> record of the mouldy Bread,</l>
+               <l>Is this the Spirit? thus confus'dly mad?</l>
+               <l>
+                  <hi>Antipodall</hi> to him the <hi>
+                     <unclear>Chaos</unclear>
+                  </hi> had?</l>
+               <l>Fell boyst ous blast! that with one <hi>Magick</hi> puss</l>
+               <l>Turns the Schools Glory to a Farthing snuff:</l>
+               <l>And 'gainst that ancient Sage the World adores,</l>
+               <l>Like to a <hi>Lapland</hi> Whirlewind loudly roares.</l>
+               <l>Yet from thy Travels in the search of things,</l>
+               <l>Ridiculous Swain! what shallow stuff thou bring'st!</l>
+               <l>What cloathes they wear, Vaiss, Tiff'nies, dost relate,</l>
+               <l>Thou art Philosophies <hi>Tom <unclear>Cortat</unclear>.</hi>
+               </l>
+               <l>Else brave <hi>Des Cartes,</hi> whom fools cannot admire,</l>
+               <l>Had nere been sing'd by thy wild Whimzy fire.</l>
+               <l>Poore <hi>Galen's</hi> Antichrist, though one Purge of his</l>
+               <l>Might so unmagick thee as make thee wise.</l>
+               <l>Physick cures phrenzy, knows inspired wit</l>
+               <l>Oft proves a meer <hi>Hypochondriack</hi> fit.</l>
+               <l>
+                  <hi>Agrippa's</hi> Dog sure kennels in thy weambe,</l>
+               <l>Thou yelpest so and barkest in a dreame;</l>
+               <l>Or if awake, thou dost on him so fawn,</l>
+               <l>And bite all else, that hence his Dog th' art known.</l>
+               <pb facs="tcp:55764:52"/>
+               <l>But I will spare the lash! 'twas my friends task</l>
+               <l>Who rescuing Truth engag'd, put on this mask.</l>
+               <l>Thus do's some carefull Prince disguised goe,</l>
+               <l>To keep his Subjects from th' intended blow;</l>
+               <l>Nor could his lofty soul so low descend</l>
+               <l>But to uncheat the World; a noble end!</l>
+               <l>And now the night is gone, we plainly find</l>
+               <l>'T was not a Light but rotten Wood that thin'd.</l>
+               <l>We owe this day (my dearest friend) to thee,</l>
+               <l>All Eyes but Night-birds now th' Imposaure see.</l>
+            </lg>
+            <closer>
+               <signed>J. T.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
