@@ -1,0 +1,862 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The foure cardinall-vertues of a Carmelite-fryar observed by Sir Edvvard Dering, knight and baronet ; and by him sent backe againe to their author Simon Stocke, alias Father Simons, alias Iohn Hunt, alias Anonymus Eremita.</title>
+            <author>Dering, Edward, Sir, 1598-1644.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 83 KB of XML-encoded text transcribed from 33 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-05">2004-05 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A35730</idno>
+            <idno type="STC">Wing D1109</idno>
+            <idno type="STC">ESTC R31322</idno>
+            <idno type="EEBO-CITATION">11903173</idno>
+            <idno type="OCLC">ocm 11903173</idno>
+            <idno type="VID">50626</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A35730)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50626)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1002:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The foure cardinall-vertues of a Carmelite-fryar observed by Sir Edvvard Dering, knight and baronet ; and by him sent backe againe to their author Simon Stocke, alias Father Simons, alias Iohn Hunt, alias Anonymus Eremita.</title>
+                  <author>Dering, Edward, Sir, 1598-1644.</author>
+               </titleStmt>
+               <extent>[20], 13-56 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Iohn Raworth for Richard Whitaker ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: print show-through.</note>
+                  <note>Reproduction of original in the Union Theological Seminary Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-01</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-02</date>
+            <label>Jonathan Blaney</label>Sampled and proofread</change>
+         <change>
+            <date>2004-02</date>
+            <label>Jonathan Blaney</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2004-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:50626:1" rendition="simple:additions"/>
+            <p>
+               <pb facs="tcp:50626:1" rendition="simple:additions"/>
+The Foure Cardinall-Vertues of A Carmelite-Fryar: <hi>Observed by</hi> Sir EDVVARD DERING, Knight and Baronet: And by him sent backe againe to their Author <hi>Simon Stocke,</hi> alias <hi>Father Simons,</hi> alias <hi>Iohn Hunt,</hi> alias <hi>Anonymus Eremita.</hi>
+            </p>
+            <bibl>2. TIM. 3. 13.</bibl>
+            <q>
+               <hi>Evill men and Seducers shall waxe worse and worse; deceiving and being deceived.</hi>
+            </q>
+            <p>LONDON, Printed by <hi>Iohn Raworth,</hi> for <hi>Richard Whitaker,</hi> and are to be sold at his shop in <hi>Pauls-Churchyard.</hi> 1641.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:50626:2"/>
+            <pb facs="tcp:50626:2"/>
+            <head>To the Right Honourable N. N. Sir EDVVARD DERING Knight and Baronet, wisheth happinesse here, and hereafter.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Ay it please your Honour. In that which is so serious as Religion I dare not be a trifler: nor can I love a man that is so. <hi>Divinity</hi> is ever Grave, neither toying nor yet sullen. <hi>Piety</hi> and <hi>Gravity</hi> are twin sisters, both descended from above, owning their high birth from the supreme Sanctity and soveraigne Maje<g ref="char:EOLhyphen"/>sty of <hi>Heaven.</hi> As they come from high, so they descend lowe, even to the center of a Man; and take possession of his heart: there they dwell, and from thence they send forth, (like Rivers from their Spring-head) many notable assurances of their residence there. While that some vent <hi>Le<g ref="char:EOLhyphen"/>vity</hi> and <hi>Wickednesses</hi> because they have recei<g ref="char:EOLhyphen"/>ved Religion no deeper then into their braine. Many men are Christians according to a certaine
+<pb facs="tcp:50626:3"/>
+common since they have of Religion. Now in the Braine of man, <hi>The common Sence</hi> and the <hi>Phantasie</hi> are neere neighbors, hard is the conditi<g ref="char:EOLhyphen"/>on (and yet the condition) of some, with whom <hi>Phansy</hi> leades the way.</p>
+            <p>These <hi>Brain-Christians,</hi> are so much in skill, that they forget Practice. With the head a man may know, even unto others wonder, and his owne pride: But <hi>with the heart a man beleeveth</hi> 
+               <note place="margin">Rom. 10. 10.</note> 
+               <hi>unto righteousnesse:</hi> If this store-house be well filled, The <hi>mouth will shew the aboundance</hi> 
+               <note place="margin">Matth 12. 34.</note> 
+               <hi>of the heart</hi> within, and then <hi>with the mouth confession is made unto salvation.</hi> If coldnes or emptinesse be there, you may finde it in the dull <note place="margin">Rom. 10. 10.</note> and barren language of the Speaker. The most cer<g ref="char:EOLhyphen"/>tain and most absolute symptome of a good heart, well filled, is <hi>Truth</hi> of what the Tongue delivers. <hi>A good man out of the good treasure of the</hi> 
+               <note place="margin">Matth. 12 35.</note> 
+               <hi>heart bringe<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h good things.</hi> Now nothing is good but <hi>Truth.</hi>
+            </p>
+            <p>
+               <hi>Truth,</hi> it is one of the glorious titles and attri<g ref="char:EOLhyphen"/>butes, which our Savi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur <hi>(in whom was found</hi> 
+               <note place="margin">1 Pet. 2. 22</note> 
+               <hi>no guile)</hi> hath taken to himselfe <hi>I am the Way</hi> (saith he) <hi>and the Truth, &amp;c.</hi> All Fraud, False<g ref="char:EOLhyphen"/>hood and Lying are from Hell. When the Devill speaketh a lie, <hi>he speaketh of his owne: for he</hi> 
+               <note place="margin">Ioh. 14. 6.</note>
+               <pb facs="tcp:50626:3"/>
+               <hi>is a<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lyar and the father of it.</hi> He began with a <note place="margin">Ioh. 8 44. Gen. 3. 4.</note> lye at first, and it hath been his owne ever since. <hi>Verum Evangelium veritatem amat, verita<g ref="char:EOLhyphen"/>tem colit, veritate alitur &amp; Augel<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> (saith your <hi>Andradius) The true Gospel loveth the</hi> 
+               <note place="margin">Defens<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Trid. l. 2.</note> Truth, <hi>honoreth the</hi> Truth, <hi>hath nourishment and growth by</hi> Truth. <hi>Maxentius Johannes</hi> affirmeth very well, <hi>Nullum vitium est, quod non sumat à mendacio initium, neque vir<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us cujus non sit origo veritas. There is no vice, which hath not beginning from a Lye: nor any Vertue, whose originall is not</hi> Truth.</p>
+            <p>If after this, you finde me wittingly false in a<g ref="char:EOLhyphen"/>ny assertion, or in any authority which I shall pro<g ref="char:EOLhyphen"/>duce, your Lordship hath here (I have sent it) wherewith to stop shame into my mouth. But if by these following papers your Honour finde your old <hi>Anonymus</hi> false and fowly false, on whose side must he be, and they that follow him? <hi>Christ</hi> and <hi>Truth</hi> go together; wo to the adverse party: they are <hi>enemies</hi> and must be one day <hi>under foot.</hi>
+            </p>
+            <p>When this old Souldier had often pretended much valor to encounter any man that I should bring; and had almost perswaded me into an opi<g ref="char:EOLhyphen"/>nion of his Ability: At last, in neere two yeeres time being pressed by me, he concluded, plainely, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o
+<pb facs="tcp:50626:4"/>
+discourse with none. Some <hi>were married.</hi> I un<g ref="char:EOLhyphen"/>dertook for ene unmarried! Others were skilled in the <hi>Easterne languages!</hi> I undertooke that no word should be instanced, but English and Latine. Then <hi>it was dangerous!</hi> I undertooke that also upon my owne head. Lastly, it was <hi>to no pur<g ref="char:EOLhyphen"/>pose!</hi> And indeed I found it to no purpose to presse him farther. <hi>Quo fronte! quâ fide! with what forehead</hi> he made these darings, <hi>with what faith</hi> he hath performed them, I well remember, and can justifie: Herein he is guilty of much un<g ref="char:EOLhyphen"/>truth.</p>
+            <p>Yet lest he might seeme to have a guilty cause, as well as a pretensed valour, his pen was ready a<g ref="char:EOLhyphen"/>gainst all men, and he offered me the choice to de<g ref="char:EOLhyphen"/>signe unto him, upon what particular subject hee should write. I answered him, that I was so con<g ref="char:EOLhyphen"/>fident and so assured of the Truth and goodnesse of our Religion, that I gave him liberty in all the latitude of Controversies betwixt us, to make his owne choice; even there where he thought himself ablest, and the best provided: onely desiring that he would be curious to pick out his best arguments, and that he would be briefe. He promised a speedy discharge, and made his present election to prove Saint <hi>Peters</hi> supremacy: I said I was glad he had
+<pb facs="tcp:50626:4"/>
+pitched on a point so materiall, but (said I) you have taken one as difficult for you to prove as I could wish. It is now a twelve-moneth since, yet hath this man herein been as mute as death. Is he not guilty of another untruth?</p>
+            <p>I am little at leisure, and the least of any in skill for these <hi>Eristicke</hi> discourses: but I serve <hi>Truth,</hi> and that will prevaile. I do therefore againe and againe exact and challenge him to performe his undertaking in that subject, and with that brevity as was promised.</p>
+            <p>In the meane time having perused foure severall Treatises of his writing, two in print, and two un<g ref="char:EOLhyphen"/>der the pen, I have good cause to aske, How well he can justifie what I finde in them; not in the whole Treatises (they are not of such weight and worth) but in foure passages taken severally, one out of each Treatise. Nor will I pick out that which is sleight and easie: Nor will I take lesse then what I finde concerning one entire passage and the par<g ref="char:EOLhyphen"/>ticular subject there handled.</p>
+            <p>The Reasons why I am bold to present the trouble hereof unto your Lordships hand are few, yet enough to exact this of mee. Foure they are, and very powerfull with me. <hi>Duty, Gratitude, Good manners,</hi> and <hi>Piety.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:50626:5"/>
+First in way of <hi>Duty</hi> I do owe the First fruits of my pen, in matters of Religion, unto the person (if hee were living) but now unto the happy me<g ref="char:EOLhyphen"/>mory of * * * * * * * * * * * * * * * * * <note place="margin">Here were som<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> lines that would by circum<g ref="char:EOLhyphen"/>stances have ex<g ref="char:EOLhyphen"/>pressed the name of that Ho<g ref="char:EOLhyphen"/>norable person, whom I chuse ra<g ref="char:EOLhyphen"/>ther to o<g ref="char:EOLhyphen"/>mit.</note>
+            </p>
+            <p>This first motive leades me fairely on unto my second, which is <hi>Gratitude</hi> to your Lordship in whose Noble Person, and deare love, his Lordship now lives, more then in all the world beside. Your Favours, great and many, all free and noble, like your selfe, have obliged me to this <hi>Gratitude.</hi> And among many other, the many earnest and af<g ref="char:EOLhyphen"/>fectionate wishes, zealously and prayer-like ex<g ref="char:EOLhyphen"/>pressed, for my embracing that Religion, which your Lordship hath with strong beliefe for true, lodged in your owne soule, though in truth, to the great hazard of that excellent soule. An high ob<g ref="char:EOLhyphen"/>ligement as it is: and able from a duller spirit then mine, to extort this <hi>Gratitude.</hi>
+            </p>
+            <p>In the next place <hi>Good-manners</hi> have impel<g ref="char:EOLhyphen"/>led me hereunto. Some conferences this old Gen<g ref="char:EOLhyphen"/>tleman hath held with me in your honors presence to whom he is well knowne. Wherefore (and for other reasons also). I hold it a degree of <hi>Good<g ref="char:EOLhyphen"/>manners,</hi> not to run this into his hand, without sa<g ref="char:EOLhyphen"/>luting your Lordship and as it were first asking leave.</p>
+            <p>
+               <pb facs="tcp:50626:5" rendition="simple:additions"/>
+Lastly <hi>Piety</hi> to God, and to the <hi>Church</hi> my mother, and piety due unto your Lordships soule, whose great abilities and rich endowments of minde, may herein examine these, and hereby, take occasion to examine other <hi>Truths,</hi> and then cleare away the misty clouds of Popery: which are farre more dangerous and deadly to your soule, then unto millions beyond Sea, who either have not the like abilities within, or so faire day-light abroad, by the free Gospel revealed, as is unto your Lordship in this blessed Iland.</p>
+            <p>God eternall grant that you may see, and know his <hi>Truth:</hi> and not like those whom the Apostle expresseth to be <hi>Ever learning, and never able to come to the knowledge of Truth.</hi> And this for one onely Advocate and Redeemer <hi>Jesus Christ</hi> his sake, shall be prayed in your Honours behalfe, by</p>
+            <closer>Your Lordsh. ever obliged and most humble servant to his power,
+
+<dateline>Surenden-Dering, <date>28. Jan. 16.39./40.</date>
+               </dateline>
+               <signed>Edward Dering.</signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:50626:6"/>
+            <head>TO Anonymus-Eremita.</head>
+            <opener>
+               <salute>Sir,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">B</seg>Ecause you have pleased to magnifie your owne un<g ref="char:EOLhyphen"/>dertakings (concerning me) unto others, as you have extolled some performances of your owne, con<g ref="char:EOLhyphen"/>cerning others unto me. I may justly think you have bragged concerning them, far beyond Truth, because I well know that you never had a shadow, much lesse any substantiall ground whereupon to say or thinke mee a <hi>Romanized</hi> Catholick, or ever in any degree inclining thereunto. Yet P<gap reason="illegible" resp="#OXF" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>st charge you, in the way of your owne glory, to have repor<g ref="char:EOLhyphen"/>ted me <hi>Proselyted:</hi> I have the warrant of a great and a Right Honourable person for what I inferre.</p>
+            <p>Leave painting a bad cause, and leave that common trick of your Tribe, to slander such as are free of Conversation with you, as if they were ready to warpe, before your reasons can wa<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>me them. Al<g ref="char:EOLhyphen"/>though our Religion be gentle, yet is it firme: though it be meeke, yet it is constant. A behaviour strange to mis-report those for your owne, whom you have tryed and found impossible for you to move. Impossible for you! I alas: it is not be strength of an <hi>Anonymus,</hi> can draw unto the faire but false Tents of <hi>Rome,</hi> a weaker man
+<pb facs="tcp:50626:6"/>
+then my selfe (though weake us any) who hath a vigilant Consci<g ref="char:EOLhyphen"/>ence to keepe him wary of your assaults. I am not so credulous to thinke every <hi>Stocks</hi> a <hi>Stoicke.</hi>
+            </p>
+            <p>But I forbeare this jarring expostulation: Yet am I heare ap<g ref="char:EOLhyphen"/>pellant to cite you to a tryall, wherein I engage my selfe to manifest the indiscretion of any man, who shall report or beleeve me <hi>Romani<g ref="char:EOLhyphen"/>zed</hi> in my Religion. This tryall shall be fairely made, by calling you forth to justifie some passages of yours which I shall make choice to question.</p>
+            <p>Foure Treatises of yours, I have hastily coursed over, Two in Manuscript, Two in print. You may be sorry if I finde <hi>Fraude</hi> in the first, <hi>Folly</hi> in the second, <hi>Rayling</hi> in the third, and <hi>Blasphemy</hi> in the fourth. If there be lesse, I am much mistaken. These passages which I meane, are first concerning <hi>Altars</hi> in the tenth Chapter of your <hi>Caveat for a friend,</hi> a Manuscript you sent me, wherein you corrupt one Text and mis-inferre two other. The second in another Manuscript, by you sent, entituled, <hi>A Tract of Prayer to Saints:</hi> where your eighteenth and last Chapter, is so farre from wisedome, learning and Reason, that no one of all your Proofes alledged, are wise enough to finde the way to the Marke you aime at. The third is said to be printed at <hi>Roan 1623,</hi> and by you inscribed <hi>Jesus, Maria Joseph.</hi> This you gave me, where<g ref="char:EOLhyphen"/>in I finde most foule, base, and absurd language, and that both causelesse and untrue. Lastly, in your <hi>Appeale unto King JAMES,</hi> printed (under the name of <hi>John Hunt) 1620</hi> I finde <hi>Blasphemy,</hi> or else I know not <hi>Blasphemy</hi> when I heare it. If I make these things appeare, what are you? and what is your Religion? If I faile, you may show mee the shame of my silly undertaking.</p>
+            <p>The Treatises being yours, my speech will be particularly directed to your selfe: yet not so much to your person as unto the language which I finde.</p>
+            <p>In the last place you have by way of <hi>Epiphonema,</hi> that which you did lately brave me unto, but afterward as poorely did fly from: I meane three propositions which being made good with solide
+<pb facs="tcp:50626:7"/>
+Truth, and full proofe, I have promised to become a Papist: but you refused them the other day being (I suppose) conscious to your selfe, either of your owne weakenesse, or of theirs.</p>
+            <p>If these propositions cannot be maintained by you nor for you: then reforme your selfe: Reduce them whom you have mis-led. Give God the glory, and doe not scorn the Truth of his advice, who it in him that is <hi>Truth</hi> it selfe,</p>
+            <closer>
+               <signed>your faithfull and assured friend, Edward Dering.</signed>
+               <dateline>Surenden-Dering,
+<date>28. Jan: 1639./40.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:50626:7"/>
+            <head>SIR EDWARD DERING TO THE READER.</head>
+            <p>
+               <seg rend="decorInit">B</seg>Efore the perusall of this short Treatise, I intreat my friendly Reader, to take notice of this preamble.</p>
+            <p>The Motives inducing me to write these following sheets, being (as by themselves it will appear) sudden, and after the purpose once entertained, the work (not worth the name of work) as suddenly peformed, I sent them) accord<g ref="char:EOLhyphen"/>ing to the date) in an Epistolary way to a noble personage to be surveyed by a Priest styling to himself <hi>Anonymus Eremita.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:50626:8"/>
+The Reasons hereof are in my two fol<g ref="char:EOLhyphen"/>lowing Letters expressed, whereunto (without further circumstance) I referre.</p>
+            <p>At the latter end of <hi>Iuly</hi> last, I had from the Priest, that which he called <hi>an answer:</hi> upon perusall whereof, I found the old man <hi>Verbosum &amp; delirum.</hi> I found his labour to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and himself <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. I presently did snatch a pen, and began to presse a short reply to his tedious answer: But two warrantable reasons have delayed my reply, and a third for the present, hath quite diverted it.</p>
+            <p>First, I had then upon my hand an answer to be discharged to another of his infectious tribe: But a man (indeed) whose abilities, and whose modesty of Language do yet seem to be of a much better temper, then this <hi>namelesse Hermite</hi> hath discovered. The due dispatch of this, did justly foreslow my reply to this dull <hi>Carmelite.</hi>
+            </p>
+            <p>Immediately upon, or before that <hi>An<g ref="char:EOLhyphen"/>swer</hi> issued from me, it pleased the Coun<g ref="char:EOLhyphen"/>trey to honour me with their trust unto this Parliament. So that being now
+<pb facs="tcp:50626:8"/>
+divided from my Library, and not daring (in point of honesty) to withdraw my self from these services (for it is duty better shewn, with weaknesse to undergo my part, rather then deceitfully to desert them) I have held it fit to lay by that reply which I can not now intend, and which must of necessity be fruitlesse in being made unto his, so rude and so barren answer. These two reasons do (as I conceive) just<g ref="char:EOLhyphen"/>ly warrant my delay.</p>
+            <p>Whilst thus I am necessitated, a judici<g ref="char:EOLhyphen"/>ous and true friend, upon sight of the wretched, and despicable babling, in the rescript of <hi>Anonymus,</hi> gave me this advice. That the Priests answer being worthy of nothing but contempt, and being too tedious for a present reply, (especially in the middest of better avocations) I should publish this <hi>Quadrilogus</hi> which I formerly sent unto him, and thereby provoke him to thrust forth his elegant answer: where<g ref="char:EOLhyphen"/>upon the world (without more lines) may judge on which side <hi>Truth</hi> and <hi>Mode<g ref="char:EOLhyphen"/>sty</hi> do dwell.</p>
+            <p>I have followed this Counsell: Here is
+<pb facs="tcp:50626:9"/>
+my adventure in way of challenge, I ex<g ref="char:EOLhyphen"/>pect that he should be at charge to publish his own answer, and then (presuming on better leisure) I hope in a reply upon his babling, to shew that the Poets contempt will be a just Encomion for this old Fryer,</p>
+            <p>
+               <hi>O solâ fortem garrulitate senem.</hi>
+            </p>
+            <closer>
+               <dateline>
+                  <date>20. March. 1640.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:50626:9"/>
+            <head>SIR EDWARD DERING TO Anonymus-Eremita.</head>
+            <p>
+               <hi>YOU challenged me to set down in writing three pro<g ref="char:EOLhyphen"/>positions, which being by me performed, you then fled from your own undertaking: here they are again.</hi>
+            </p>
+            <p n="1">1. The Pope hath by divine right a supremacy of power in matters Spirituall, which ought to be universally belee<g ref="char:EOLhyphen"/>ved and obeyed, as of Faith.</p>
+            <p n="2">
+               <pb facs="tcp:50626:10"/>
+2. The Romish Masse is a Sa<g ref="char:EOLhyphen"/>crifice both proper and pro<g ref="char:EOLhyphen"/>pitiatory: for the present, and the absent: for the living, and the dead.</p>
+            <p n="3">3. Our blessed Saviour, and his Apostles did teach the same points of doctrine which the Church of Rome doth af<g ref="char:EOLhyphen"/>firm, and which are denyed by the Reformed Church.</p>
+            <p>
+               <hi>Prove and maintain these positi<g ref="char:EOLhyphen"/>ons with clear and full authority: and hear I give you my hand, that you shall then have my heart, unto the Roman Church.</hi>
+            </p>
+            <closer>
+               <signed>EDVVARD DERING.</signed>
+            </closer>
+         </div>
+         <div type="license">
+            <pb facs="tcp:50626:10"/>
+            <p>
+               <hi>REcensui Tractatum hunc doctum admo<g ref="char:EOLhyphen"/>dum, acutum &amp; Orthodoxum, eúmque dignissimum judico qui, (in honorem Authoris, Antagonistae verò infamiam, &amp; in utilitatem publicam) typis mandetur.</hi>
+            </p>
+            <closer>
+               <dateline>
+                  <date>April 13. 1641.</date>
+               </dateline>
+               <signed>Johannes Hansley: R. P. Epis. Lond. Capel. Domest.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="chapter">
+            <pb facs="tcp:50626:11"/>
+            <pb n="13" facs="tcp:50626:11"/>
+            <head>CHAP. I. <hi>Of Fraud.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>HAT which last came shall be first <note place="margin">§ <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> served: The Treatise last sent unto me by you, shall be first accounted unto. Nor will I pick out a word or a sentence to cavill on, but fairly and entirely take all your discourse therein, con<g ref="char:EOLhyphen"/>cerning one single and severall subject. That which I shall heer first insist upon, is your parti<g ref="char:EOLhyphen"/>cular <hi>Caveat</hi> concerning <hi>Altars.</hi> Being indeed a severall Chapter, and the whole discourse you have, upon that particular subject.</p>
+            <p>Give me leave to divide your Chapter into parts: that so I may with lesse confusion give account to each severall Section. In your Treaties inscribed <hi>A Caveat for a friend.</hi>
+            </p>
+            <p>This following, is your tenth Chapter.</p>
+            <div type="extract">
+               <head>Anonymus.</head>
+               <q>
+                  <p>
+                     <hi>(A)</hi> THeir Judge saith. <hi>(B)</hi> We Christians have an Altar, whereof they have not
+<pb n="14" facs="tcp:50626:12"/>
+power to eat, who serve the Tabernacle, <hi>Heb.</hi> 13. 10. <hi>(C)</hi> Again, If thou offer thy hoast at the Altar<g ref="char:punc">▪</g> and there thou remember that thy bro<g ref="char:EOLhyphen"/>ther hath some thing against thee, leave there thy offering before the Altar, <hi>Matth.</hi> 5. 24. And so say Romane Catholikes. <hi>(D)</hi> Protestants, either have none, or make it a thing indifferent, either to have or not to have, as appeareth by their practice. And these who have, make not use of them according to the institution of Al<g ref="char:EOLhyphen"/>tars. For the use of an Altar is to make sacrifice upon: the Altar being the proper place of the sacrifice: as witnesseth King <hi>Edward:</hi> and the Protestant Lords of His Councell in their Let<g ref="char:EOLhyphen"/>ters, for the taking down of Altars, and setting up of the Table in stead thereof, in <hi>Iohn Fox. Pag.</hi> 1520.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>
+                  <hi>(A) THeir Iudge saith, &amp;c.</hi> meaning the holy Scripture: thus you begin six Chapters <note place="margin">§. 2.</note> together: proceed, scoff on. We thank you for such scornes: And with due reverence do acknow<g ref="char:EOLhyphen"/>ledge this our divine infallible <hi>Iudge:</hi> wondering that any Christian should decline or sleight the written law of Christ our Saviour. Go on to dis<g ref="char:EOLhyphen"/>claime for your <hi>Iudge</hi> what the holy Ghost hath written: Renounce your part, and deny the <hi>Iudge</hi> to be competent or sufficient. Did you not forget Saint <hi>Paul,</hi> who telleth <hi>Timothy,</hi> that <hi>The holy Scrip<g ref="char:EOLhyphen"/>tures,</hi> 
+                  <note place="margin">2 Tim. 3. 15, 16.</note>
+                  <pb n="15" facs="tcp:50626:12"/>
+                  <hi>are able to make him wise unto salvation,—and that they are profitable for doctrine, for reproof, for corre<g ref="char:EOLhyphen"/>ction, for instruction in righteousnesse, that the man of God may be perfect.</hi> But belike you finde that this <hi>Iudge</hi> is ours in a double right, one is the due of his place; The other is because he may justly be called our <hi>Iudge,</hi> for that he voteth for us, and against you.</p>
+               <p>But notwithstanding that you would pull down holy Scriptures from the Bench, yet learned men on your side, do hold them there, whether you like thereof or not. Learned <hi>Andradius</hi> writing against <hi>Remnitius</hi> in defence of your <hi>Tridentine</hi> Councel <hi>(lib.</hi> 2.) plainly acknowledgeth the holy Scripture for <hi>Iudge. Scripturam Sacram Controversi<g ref="char:EOLhyphen"/>arum Iudicem constituimus. We do constitute the holy Scripture Iudge of Controversies.</hi> He could not say lesse, yet for fear he had said too much, he denieth this <hi>Iudge</hi> to contain all things necessary; so would have us to take it for a <hi>Iudge</hi> and no <hi>Iudge:</hi> or in brief for an imperfect or insufficient <hi>Iudge.</hi> A <hi>Iudge,</hi> but such a one, as faileth in things necessa<g ref="char:EOLhyphen"/>ry. O the wisedome of God: how that must suffer by the impious folly of men! God himself hath given us a <hi>Iudge:</hi> But <hi>Andradius</hi> with others, as <hi>Dominicus Ba<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nes: Melchior Canus: Cardinall Hosius:</hi> Doctor <hi>Stapleton, &amp;c.</hi> say that this <hi>Iudge</hi> is deficient in things necessary to salvation. Is not this plainly to accuse the wisedome of God, as if he could not, or his goodnesse as if he would not make our <hi>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>dge</hi> sufficient? Do not the holy
+<pb n="16" facs="tcp:50626:13"/>
+Scriptures abound with some things not necessary for salvation? and hath the wisedome of God left out necessaries?</p>
+               <p>
+                  <hi>Andradius</hi> subjoyneth again: <hi>Libri Sacri, praeci<g ref="char:EOLhyphen"/>pui sunt Controversiarum judices. The holy Books are the principall Iudges of Controversie.</hi> Mark how unsteady he is: the Scripture is <hi>Iudge</hi> of controversies: yet defective in things necessary: and yet the principall <hi>Iudge</hi> of controversies. Thus <hi>A double</hi> 
+                  <note place="margin">Iam. 1. 8.</note> 
+                  <hi>minded man is unstable in all his wayes.</hi> But your more learned <hi>Bellarmine (de verbo Dei)</hi> saith <hi>Sacra Scriptura regula credendi certissima, tutissimaque est. The holy Scripture is the most safe and most certain rule of Belife;</hi> and again, <hi>Sacris Scripturis—nihil est notius, nihil certius. Nothing is more known, nothing more certain, then the holy Scriptures.</hi> If then the holy Scriptures be the most known, and most infallible Rule of Faith (so much do <hi>Bellarmines</hi> two places inferre) If they be the <hi>judge,</hi> the chief <hi>Iudge</hi> of Contro<g ref="char:EOLhyphen"/>versies (so much <hi>Andradius</hi> two places do deter<g ref="char:EOLhyphen"/>mine) leave then your hollow and unsavory scornes, and submit your self and your cause, un<g ref="char:EOLhyphen"/>to this holy and heavenly <hi>Iudge.</hi>
+               </p>
+               <p>But I fear you had rather hold company, with <hi>Piggius, Ecchius, Cusanus, Pereonius, Norris:</hi> and others of your bent who (in <hi>Tertullians</hi> phrase) are <hi>Lucifugae Scripturarum</hi> owle-eyed in Sunshine, <hi>Run-awayes from the brightnesse of the Scriptures. Men</hi> that <hi>loved darknesse, rather then light, because their</hi> 
+                  <note place="margin">Ioh. 3. 19.</note> 
+                  <hi>deeds</hi> (their doctrines) <hi>were evill.</hi> These men to bring a disregard upon Gods Sacred Word, give it
+<pb n="17" facs="tcp:50626:13"/>
+prophane Nick-names. <hi>Lesbiam Regulam. Evange<g ref="char:EOLhyphen"/>lium Nigrum. Theologiam Atramentariam. Nasum Ce<g ref="char:EOLhyphen"/>reum.</hi> A <hi>Lesbian Rule;</hi> The <hi>black Gospel; Inky Divinity;</hi> and <hi>a Nose of Wax.</hi> You, in as hatefull a way of irrision have invented (or do pretend to have in<g ref="char:EOLhyphen"/>vented) another by-word for the sacred Word of God, and have with smiling scorne (for which you may chance one day to howle) derided it by name of <hi>Sheeps-Cloathing,</hi> intimating it to be the wearing of Wolves, what shall sheep now cloath themselves withall? I pray (without scorne) shew me what other cloathing you have for the sheep?</p>
+               <p>But I must not stay thus at the threshold, the doore is open, and I now am entring within the wals of your discourse: yet again saluting you at my entrance, with thanks, for yeilding us the honour, and our true Right, in having the holy Scriptures for our <hi>Iudge.</hi> But take heed of this and consider it, next time you shall read Saint <hi>Paul</hi> (to the <hi>Romans)</hi> who will there put you in minde of that <hi>great and terrible day, when</hi> (as he <note place="margin">Rom. 2 16.</note> saith) <hi>God shall judge the secrets of men, by Iesus Christ, according to his Gospel.</hi> Which Gospel you dare not deny to be a written Gospel. Take heed then how you mock our <hi>Iudge</hi> hereafter, since that you hear your own doome shall be by <hi>Iesus Christ</hi> the eternall <hi>Iudge,</hi> according to our present <hi>Iudge,</hi> The written Gospel.</p>
+            </div>
+            <div type="extract">
+               <pb n="18" facs="tcp:50626:14"/>
+               <head>Anonymus.</head>
+               <p>
+                  <hi>(B)</hi> WE (Christians) have an Altar, where<g ref="char:EOLhyphen"/>of they have not power to eate who serve the Tabernacle, <hi>Heb.</hi> 13. 10.</p>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>THe title of your Chapter, and your preten<g ref="char:EOLhyphen"/>sion is to prove the use of Altars even by <hi>our Iudge</hi> the holy Scriptures. This Text you bring against us, and for your self <hi>Habemus Altare, we have an Altar,</hi> saith Saint <hi>Paul.</hi> If there be no more but this, The Text hath as much for us as for you: we also have, and ever had this <hi>Altar.</hi> But that which you assume to prove, and would pre<g ref="char:EOLhyphen"/>tend to be hereby proved (or else you say nothing to the cause in difference between us) is, that we have not such Altars as you have. How is this? we have Altars figuratively and improperly so called: But you have Altars, materiall Altars, and properly so called. Here then lyes all the difference: and upon this hinge the whole cause doth turn: whether Saint <hi>Paul</hi> do here mean a materiall, visible and a proper Altar!</p>
+               <p>You have daily sacrifice, properly called sa<g ref="char:EOLhyphen"/>crifice (as you say) and therefore by the necessary consequence of Relatives, you must have (or say you have) Altars properly so called. This is the
+<pb n="19" facs="tcp:50626:14"/>
+true state of the Difference between us: you may beleeve Cardinall <hi>Bellarmin</hi> who takes it for gran<g ref="char:EOLhyphen"/>ted on both sides <hi>Altaria non consuevisse erigi, nisi ad</hi> 
+                  <note place="margin">De miss. lib. 1. cap. 16.</note> 
+                  <hi>sacrificia propriè dicta. The Altars use not to be erected, unlesse for sacrifices properly so called.</hi> And again, <hi>Sine</hi> 
+                  <note place="margin">De cultu Sanct. lib. 3. cap. 4.</note> 
+                  <hi>Altari non potest sacrificari, without an Altar, sacrifice can not be.</hi> And a third time in his first Book of the masse. <hi>Nunquam Altare propriè dictum erigitur, nisi ad</hi> 
+                  <note place="margin">Lib. 1. c. 14.</note> 
+                  <hi>Sacrificia propriè dicta. An Altar properly so called, is never erected, but for sacrifices properly so called.</hi> Now you pretending that your Sacrifices are proper Sacrifices must contend for Altars properly so called. The nature of Relatives is such that as Sa<g ref="char:EOLhyphen"/>crifice &amp; Altar, do in generall relate each to other: so of necessity, if one be proper the other must be proper: if one improper the other improper also. If then you prove not the propriety of your Sacrifice, you are gone for your Altar: and if you prove not your erroneous transubstantiation, you are gone from your proper Sacrifice. But you have not gone this way, and therefore I will not strive to refute you this way. But briefly meet and close with you upon this Text alledged: which Text if it prove an Altar properly so cal<g ref="char:EOLhyphen"/>led, the cause is yours: and I will yeild my self to Rome. If this Text do not prove it for you, nor any other: Do you give glory to God, and submit unto <hi>our Iudge.</hi>
+               </p>
+               <p>But by what means shall we now try the true sence of these words, and the meaning of the Apostle (or rather of the Holy Ghost) herein.
+<pb n="20" facs="tcp:50626:15"/>
+That this may appear: I offer you afair tryall, and Iudges undeclinable.</p>
+               <list>
+                  <item>1. The plain series, &amp; scope of the context it self.</item>
+                  <item>2. The opinion and interpretation of the ancient Fathers.</item>
+                  <item>3. The opinion and confession of your own e<g ref="char:EOLhyphen"/>minent Doctors: and others within these last 600. yeers.</item>
+               </list>
+               <p>
+                  <hi>First.</hi> The Text is not for you: for we differ not about having and not having an Altar; but <note place="margin">§. 4.</note> (as is said) about an Altar proper for Sacrifice proper: wherein the words of this Text come farre short: and the sence of this Text is farre more distant. Our <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> our holy Table is a holy Altar: yet neither your Al<g ref="char:EOLhyphen"/>tar, nor our Holy Table here intended by this Text. What then is the meaning of <hi>Habemus Al<g ref="char:EOLhyphen"/>tare?</hi> mark the context. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>&amp;c. We have an Altar, whereof to eat, &amp;c.</hi> You will not say, Saint <hi>Paul</hi> here meant the eating of a materiall Altar. Be it, of stone or wood, your teeth had need be iron: if you say there is a figure in the word <hi>Eat,</hi> I say, that must necessarily infer the same figure in the word <hi>Altar.</hi> If then this Text can not be interpreted of a materiall Altar, what have you to do, to produce it against us for your materiall Altars? Let the Apostle expound himself, and he will plainly shew you what Sacri<g ref="char:EOLhyphen"/>fice he would have, and then tell me what Altar must be for such Sacrifice! Presently he begins to apply his speech unto our blessed Saviour, and so
+<pb n="21" facs="tcp:50626:15"/>
+annexing his conclusion to his premisses <hi>(Ergo, &amp;c.</hi> saith he) <hi>By him therefore let us offer the Sacrifice of</hi> 
+                  <note place="margin">Vers 15.</note> 
+                  <hi>praise to God continually, that is, the fruit of our lips, gi<g ref="char:EOLhyphen"/>ving thanks to his name.</hi> Do you mark what manner of sacrifices are here commended unto us? can you finde any use of a proper materiall Altar for them? would you have a visible Altar, for invisi<g ref="char:EOLhyphen"/>ble Sacrifice?</p>
+               <p>Beside, it will not be enough for you, to finde <hi>Habemus Altane, we have an Altar,</hi> but you must get a Text <hi>Habemus Altaria, we have</hi> a plurality of <hi>Altars,</hi> else your practice will prove unjustifiable, when God with his <hi>Quo warranto</hi> shall demand of you, as the Prophet enquireth. <hi>To what purpose is the multi<g ref="char:EOLhyphen"/>tude</hi> 
+                  <note place="margin">Isai. 1. 11, 12.</note> 
+                  <hi>of your sacrifices unto me, saith the Lord?—Who hath required this at your hand?</hi>
+               </p>
+               <p>
+                  <hi>Secondly.</hi> To come to my second sort of proofes <note place="margin">§ 5.</note> and withall to shew you what Altar is here meant: I do affirm, that no one, or not above one of the holy Fathers in the pure primitive Church hath interpreted this, or any other place, to a materi<g ref="char:EOLhyphen"/>all proper Altar: But do constantly and generally teach and expresse themselves that our Altar and our Sacrifices now are Rationall, Spirituall, Eu<g ref="char:EOLhyphen"/>charisticall, Invisible, &amp;c. All which shall appear in their own words and language. Saint <hi>Hierome</hi> (on the 50. <hi>Psal.) Sacrificium, id est, confessio ex ore peccatoris: oblatio, hoc est laudatio.—Altare, Fides.—Vitulum laudes.—Victimas; scilicet ut me ipsum offe<g ref="char:EOLhyphen"/>ram. Sacrifice, that is to say, Confession from the mouth of a sinner: Oblation, that is Lauding.—An Altar,
+<pb n="22" facs="tcp:50626:16"/>
+Faith—the Galvas Praise.—Victimes, as much as to say, that I offer up my self.</hi> And again (upon the 25. <hi>Psal.) Vnusquisque Sanctus, Altare Domini in se habet, quod est Fides. Every Holy man hath an Altar of the Lord in himself, which is Faith.</hi> And a third time (on the 9. of Saint <hi>Mark) Altare Dei, est cor bonorum; hostiae &amp; Sacrificia, bona opera fidelium. The Altar of God, is the Heart of good men: Hoasts and Sacrifices, are the good works of the Faithfull.</hi>
+               </p>
+               <p>Saint <hi>Augustine (de civit. Dei. lib. 10. cap. 4.) Dei Templum simul omnes, &amp; singuli templa sumus.—Ejus est Altare, cor nostrum.—Ei Sacrificamus hostiam humilitatis, &amp; laudis, in ara cordis igne fervidae charita<g ref="char:EOLhyphen"/>tis. We are all together the Temple of God, and all of us severall are Temples.—His Altar is our Heart.—We sacrifice unto him the sacrifice of humility, and of praise, upon the Altar of our Heart with the fire of fer<g ref="char:EOLhyphen"/>vent charity.</hi>
+               </p>
+               <p>
+                  <hi>Lactantius. (de vero cultu. lib. 6. cap. 25.) Duo sunt quae offerri debent, Donum &amp; Sacrificium.—Vtrunque incorporale.—Donum est integritas animi, Sacrificium laus &amp; Hymni. Two things there are which ought to be offered, a gift, and a Sacrifice.—Both incorporeall.—The gift is Integrity of minde, the Sacrifice is Praise and Psalmes.</hi> For this incorporeall Sacrifice you can not plead any use of a corporeall Altar.</p>
+               <p>Saint <hi>Ambrose</hi> (upon this very Epistle to the <hi>Hebrewes)</hi> telleth you that your Altar must be in<g ref="char:EOLhyphen"/>visible, <hi>Quia nihil est visibile horum, neque Sacerdos, neque Sacrificium, neque Altare: For nothing is visible of these, neither the Priest, nor the Sacrifice, nor the Altar.</hi>
+               </p>
+               <p>
+                  <pb n="23" facs="tcp:50626:16"/>
+                  <hi>Bernard (in festo omnium Scrip. Serm.</hi> 4.) up on that Text <hi>(Revel.</hi> 6. 9.) concerning the soules under the Al<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ar, saith, <hi>Altare ipsum—nihil aliud arbitrer esse quam corpus ipsum Domini Salvatoris. The Altar it self—I suppose to be nothing else but the very body of our Lord and Saviour.</hi>
+               </p>
+               <p>So much for the Latine Fathers, and to let you see that the Greek Fathers agree both with them and us, look first in <hi>Hesychius</hi> Bishop of <hi>Ierusalem, (lib 1. cap. 4. &amp; lib. 6. cap.</hi> 21.) who will tell you the same that <hi>Bernard</hi> doth, expounding <hi>this Altar to be the blessed body of Christ.</hi>
+               </p>
+               <p>
+                  <hi>Clemens Alexandrinus (lib. 7. Stromat<g ref="char:punc">▪</g>)</hi> complai<g ref="char:EOLhyphen"/>neth as we may justly do in these words. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>They will not beleeve us when we say that an Altar truely holy, is a righteous Soule, and holy prayer the incense from thence.</hi> So this ancient Father against the Idolatrous heathen, and thus we a<g ref="char:EOLhyphen"/>gainst the superstitious Papists.</p>
+               <p>
+                  <hi>Nazianzen</hi> the Divine (in his 42. Oration) saith, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Let us Sacrifice, not young Calves, nor Lambes—but let us Sacrifice to God, the Sacrifice of praise, upon the Altar which is above, together with the Quire that is above.—Let us Sacrifice our selves to God.</hi> The Latine renders it with the cele<g ref="char:EOLhyphen"/>stiall Quire, that you may know what <hi>Above</hi> is here meant.</p>
+               <p>Saint <hi>Chrysostome</hi> will tell you (in his 17. <hi>Homil.</hi>
+                  <pb n="24" facs="tcp:50626:17"/>
+on this Epistle to the <hi>Hebrewes)</hi> that <hi>our Saviour is both Priest and Sacrifice. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </hi> But if our Saviour be Priest and Sacrifice, where is our Altar? <hi>Epiphanius</hi> will resolve you that <hi>(Lib.</hi> 2. <hi>tom.</hi> 1. <hi>Haeres.) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> He</hi> (our Saviour <hi>Iesus Christ) is our Sacrifice: He is our Priest: He is our Altar.</hi> There is the word in your Text alleadged and there is the sence according to the ancient Fathers, and the Church reformed; which is as they were.</p>
+               <p>In the <hi>Third</hi> place, that you may see, that a <note place="margin">§ 6.</note> Prelate in our Land hath said true, concerning the worth and strength of this your argument out of this Text, when he said that <hi>Your selves</hi> (the Papist) <hi>have thrown away this argument as a leaden dag<g ref="char:EOLhyphen"/>ger, of no use in your day of battell:</hi> Let <hi>Bellarmine</hi> be judge, who desirous to pleade for your Altars, doth yet dismisse this place thus. <hi>Habemus Altare, &amp;c. (Quia</hi> (saith he, <hi>de miss. lib.</hi> 1. <hi>c.</hi> 14.) <hi>non desunt ex Catholicis qui eo loco per Altare intelligunt crucem, aut ipsum Christum, non urgeo ipsum locum: Because there want not some Catholikes, who in this place by the Altar understand the Crosse, or Christ himself, I do not urge this place?</hi> And again, <hi>(cap.</hi> 17.) speaking of your Altars, he confesseth and yeildeth that the Apo<g ref="char:EOLhyphen"/>stles did not use the words <hi>Priest, Sacrifice, Temple, Altar, &amp;c.</hi> So that when you shew any such thing in their writings, you shall withall shew <hi>Bellarmine</hi> ignorant in his.</p>
+               <p>The Divines of <hi>Collen</hi> (in their <hi>Antididagma de
+<pb n="25" facs="tcp:50626:17"/>
+miss. Sacrif. §. Posthac.)</hi> speaking of this Text and the Altar here intended, do say <hi>(Habemus Altare, &amp;c.) in quo &amp; per quod omnes Christiani, universa Sa<g ref="char:EOLhyphen"/>crificia spiritualia Fidei, Devotionis, Gratiarum actionis, Spei &amp; charitatis Deo patri debent offerre. We have an Altar, &amp;c. On which and by which, all Christians ought to offer God the Father the universall spirituall Sacrifices, of Faith, Devotion, Thanksgiving, Hope and Charity.</hi>
+               </p>
+               <p>Your Angelicall Saint <hi>(Thomas</hi> of <hi>Aquine,)</hi> in his commentary upon these very words) saith, <hi>Istud Altare vel est Crux Christi, in qua Christus immo<g ref="char:EOLhyphen"/>latus est, vel ipse Christus in quo &amp; per quem preces nostras offerimus. This Altar either it is the Crosse of Christ, on which Christ was sacrificed, or Christ himself in whom, and by whom we offer up our prayers.</hi>
+               </p>
+               <p>
+                  <hi>Anselme</hi> Archbishop of <hi>Canterbury</hi> upon this very Text, expoundeth the word Altar to be the very body of Christ: His words are, <hi>Tangit consuetudi<g ref="char:EOLhyphen"/>nem legis, &amp; ad spiritalem intelligentiam revocat—licentiam edere de nostro Altari, id est, accipere corpus do<g ref="char:EOLhyphen"/>mini. He toucheth the custome of the Law, and calleth them back to a spirituall understanding—liberty to cate of our Altar, that is, to receive the Body of our Lord.</hi>
+               </p>
+               <p>I must put among your Authors the Masse of Saint <hi>Iames,</hi> which since I know you valew high<g ref="char:EOLhyphen"/>ly, I pray answer seriously. There I finde both Altar and Sacrifice, thus. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, &amp;c. <hi>Grant us O Lord with all fear and pure conscience, to render unto thee,
+<pb n="26" facs="tcp:50626:18"/>
+this spirituall and unbloudy sacrifice: Which thou receiving into thy holy, and super-celestiall and intellectuall Altar as the odor of a spirituall sweetnesse, &amp;c.</hi>
+               </p>
+               <p>Paralell to this, is that in the liturgy of Saint <hi>Chrysostome: <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. We offer to thee, O Christ, O God, incense, in the Odor of spirituall sweetnesse. Which receive (O Lord) into thy holy and super-celestiall, and intellectuall Altar.</hi> The vulgar Bible Printed at <hi>Paris</hi> 1573. with an angle Table at the latter end, hath this expresse declaration of the sence of this Text, <hi>Altare nostrum Christus. Our Altar is Christ:</hi> refer<g ref="char:EOLhyphen"/>ring to this very Text for proof thereof.</p>
+               <p>You may look more in <hi>Catharinus,</hi> and <hi>Estius. Occumenius, Lombard, Gorran, Lyra,</hi> and others, for these already vouched do satisfie me.</p>
+               <p>You proceed and I follow you: you arme your self with another Text, <hi>(Matth.</hi> 5. 23. <hi>&amp;</hi> 24.) <hi>If</hi> 
+                  <note place="margin">§ 7.</note> 
+                  <hi>thou offer thy hoast at the Altar, and there thou remember that thy brother hath something against thee, leave there thy offering before the Altar.</hi> If this prove your ma<g ref="char:EOLhyphen"/>teriall Altar, or Altar proper, for Sacrifices pro<g ref="char:EOLhyphen"/>perly so called: then</p>
+               <p>
+                  <hi>—Tu Phyltida solus habeto.</hi> The Altar is yours. If it do not. If it come impertinent, and nothing neer the point in difference for which you do pretend it, indeed you then have lost your <hi>Phyl<g ref="char:EOLhyphen"/>lis.</hi> If our Saviour do here speak tropically in this word <hi>Altar,</hi> then your inference from hence is
+<pb n="27" facs="tcp:50626:18"/>
+gone. If he speak literally, yet consider when, and to whom he spake. The Jewish <hi>Altar</hi> was then standing, and this then might be literall to their eares, which unto future Christians (after his <hi>consummatum est)</hi> might, and ought to be figura<g ref="char:EOLhyphen"/>tively taken. The place it self doth cleerly shew our Saviour here to use the word <hi>Altar,</hi> as a Meta<g ref="char:EOLhyphen"/>phor Elegant, plain, and piercing: look the next Verse (being a part of the same Paragraphe, or rather an exposition of this) and you will finde there <hi>the Way, the Officer, the Prison, the Farthing.</hi> Yet you will not inferre a materiall, visible, ordinary, and with us, properly so called, <hi>Way, Officer, Pri<g ref="char:EOLhyphen"/>son, Farthing:</hi> and why then a materiall, visible, proper, <hi>Altar?</hi>
+               </p>
+               <p>But not to let passe a forgery, without bran<g ref="char:EOLhyphen"/>ding it, I perceive you are so superstitiously ad<g ref="char:EOLhyphen"/>dicted to your <hi>Altars,</hi> that you force the holy Word of God to speak more for you in English, then ere it did in any other Language. You may do well in time, when you are Inquisitor generall, for the making a purgatory table to the Word of God, as hath been done for too many grave and good Writers else. Are you sure you have allea<g ref="char:EOLhyphen"/>ged a true Text? Here I finde all couch'd toge<g ref="char:EOLhyphen"/>ther in a breath: in one text, <hi>Altar, hoast</hi> and <hi>offering.</hi> Thus you alleage, <hi>If thou offer thy hoast at the Altar.</hi> Is it your own translation, or have you taken it upon implicite Faith? Whosoever it is, it is <hi>Graeca fide:</hi> but with no true Faith to the Greek originall.</p>
+               <p>
+                  <pb n="28" facs="tcp:50626:19"/>
+I will not contend with you upon the word <hi>Offer,</hi> because you have had bad leaders in that construction. The Rhemist have done so before you, although the primary sence of <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> be <hi>ad-ferre,</hi> and more secondarily <hi>ob-ferre.</hi> By which reason, and by the cleer context of the place, our English translators might well be induced, to render it <hi>Bring</hi> rather then <hi>Offer;</hi> The reason may plainly appear, in that our Saviour here speaketh unto the multitude (as in the last verse of the fore<g ref="char:EOLhyphen"/>going Chapter, and in the first of this is to be seen) which multitude of the Jewes might <hi>bring gifts,</hi> but surely not <hi>offer Sacrifice</hi> as you have con<g ref="char:EOLhyphen"/>strued it.</p>
+               <p>But letting these words <hi>Bring</hi> and <hi>Offer</hi> passe: <note place="margin">§ 8.</note> how come you here by the word <hi>Hoast</hi> between <hi>Offer</hi> and <hi>Altar? If thou wilt offer thy Hoast at the Al<g ref="char:EOLhyphen"/>tar, &amp;c.</hi> Is this your Faith, <hi>Anonymus?</hi> where, and by what means comes this <hi>Hoast,</hi> so fit in your way, to cousen your English Readers with? will you make the Scriptures speak Sacrifice for you whe<g ref="char:EOLhyphen"/>ther they will or no? Beware of <hi>Nadab,</hi> and <hi>Abi<g ref="char:EOLhyphen"/>hu, They offered strange fire,</hi> and you here offer strange <note place="margin">Levi. 10. 1.</note> Sacrifice. Be not so ready to offer the Sacrifice, but hear the Word of God in it's Truth, as our English translation hath it. <hi>If thou bring thy gift to the Altar, &amp;c.</hi> Great oddes between bringing a gift, and offering a Sacrifice. Subornation of wit<g ref="char:EOLhyphen"/>nesses (which is a notorious practice on your side,
+<pb n="29" facs="tcp:50626:19"/>
+by maintenance of false Fathers, and of false peeces of True Fathers, and by additions, and by substractions made to their works) yet is not half so bad as to corrupt <hi>the Iudge.</hi> You in particu<g ref="char:EOLhyphen"/>lar, (your cause being bad) do endeavour to cor<g ref="char:EOLhyphen"/>rupt <hi>our Iudge.</hi>
+               </p>
+               <p>The Authentique Greek and all Translation that I have seen out of it, are all against you. First the Greek it self, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>: next your vul<g ref="char:EOLhyphen"/>gar Latine, and the two contending Translations of your two succeeding Popes, <hi>Sixtus</hi> V. and <hi>Cle<g ref="char:EOLhyphen"/>ment</hi> VIII. all agree and render this in Latine: <hi>Munus Tuum.</hi> The French hath, <hi>Tondon.</hi> The old Saxon <hi>þine lac,</hi> the same word for gift as (<bibl>
+                     <hi>Luk.</hi> 21. 1.</bibl>)
+<q>he geseh ƿelegan hyra lac sendan on þone sceoppan.
+He saw the Rich men casting <hi>hyra lac</hi> their gifts into the Treasury.</q>
+By what authority do you leave your publike English Translation of <hi>Rhemes?</hi> They rightly have rendred it, <hi>Thy Gift.</hi> But you <hi>Thy Hoast.</hi> Who taught you to construe the Greek <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, by the Latine <hi>Hostia?</hi> what Grammar, Dictionary, example, or good authority have you for your translation? Is not this sowing of Tares amongst good Corne. This <hi>Hostia</hi> comes <hi>ab Hostibus.</hi>
+               </p>
+               <p>
+                  <hi>Hostibus a domitis hostia nomen habet. An enemy</hi> 
+                  <note place="margin">
+                     <hi>Ovid.</hi> Matth. 13.</note> 
+                  <hi>hath done this,</hi> saith our Saviour, in the Parable, speaking of him that sowed Tares. So this <hi>Hostia</hi> comes in <hi>ab Hoste,</hi> from an enemy to Truth, if you loved Truth, you would not, you durst not falsi<g ref="char:EOLhyphen"/>fie. Consider you are old, and leave this <hi>dawbing</hi> 
+                  <note place="margin">Ezech 13. 10.</note> 
+                  <hi>with untempered morter:</hi> In the mean time God send
+<pb n="30" facs="tcp:50626:20"/>
+them who trust you care and conscience to beware of you.</p>
+               <p>If I speak freely, I cannot tell how to excuse you, or to make this lesse then a most wilfull <hi>fraud:</hi> the distance being so wide in every Lan<g ref="char:EOLhyphen"/>guage. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Donum</hi> and <hi>Sacrificium, Gift</hi> and <hi>Hoast.</hi> You have had no false guides (that I see) to mislead you, here is no probability for a fair mistake. Will you plead ignorance of Greek? Why then are you so bold to be a translator? Yet I cannot deny your ignorance in that Lan<g ref="char:EOLhyphen"/>guage, untill you do write your long counterfeited Greek name aright. I remember well that you told me there was but one Greek letter in diffe<g ref="char:EOLhyphen"/>rence between the <hi>Arrian</hi> and the <hi>Orthodox,</hi> one <note place="margin">August. 1637.</note> 
+                  <hi>Epsilon</hi> you said, but finding my wonder in look<g ref="char:EOLhyphen"/>ing up into your face, you did indeed correct that errour, and said it was <hi>Omega.</hi> Lastly, because since I saw you last, I received from you but three words in Greek, whereof one was unpointed, and another of the three, was so farre from Ortho<g ref="char:EOLhyphen"/>graphy, that it was no Greek.</p>
+               <p>Furthermore, not to teach you (I have more <note place="margin">
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> § 9.</note> modesty) but to shew you that I have otherwise learned, then as you expound. I do finde that <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (the word in this text) is derived from <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, just as the Latine <hi>Donum</hi> from <hi>Dono,</hi> and because gifts are given and presented with the hand, <hi>Pliny</hi> 
+                  <note place="margin">Lib 35 cap. 14.</note> doth tell you <hi>Graeci Antiqui</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Palmum vocabant, &amp; ideo</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>munera, quia manu darentur. The ancient
+<pb n="31" facs="tcp:50626:20"/>
+Greeks called the Palme of the hand</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>and therefore called gifts</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>because with the hand they were given.</hi>
+               </p>
+               <p>By this time it appears seasonable for me to use the words of your own Doctor <hi>Triple-cord.</hi> (§. 5.) <hi>All sides agree, that it is most impious to corrupt the words, or true sence of Scripture, by adding, or substracting, mis<g ref="char:EOLhyphen"/>translating, or false interpreting.</hi> But you appear guilty of mistranslating, and of corrupting the sence of Scripture, <hi>Ergo,</hi> All sides, &amp;c. It further appeareth that (setting aside the fraud of your word <hi>Hoast)</hi> this Text doth not speak of Sacrifice but of gifts: of Gifts brought by the people, not offered, for the offering is stayed: the words of our Saviour are plain: who stops the offering thus—<hi>If thou bring thy gift, &amp;c.—and there, &amp;c.—go—and then come and offer:</hi> Not as your Rhemist (and you worse then they). <hi>If thou offer—go—and then come and offer, &amp;c.</hi> Which can hardly be made a sensible period.</p>
+               <p>I have an old Manuscript that concurreth very well herein: it is of this Gospel by Saint <hi>Matthew</hi> (written before the Bible was divided into Chap<g ref="char:EOLhyphen"/>ters: together with a brief commentary thereon, where the word <hi>relinque ibi munus,</hi> leave there thy gift, is expounded, <hi>Differ offerre: Deferre to offer:</hi> The meaning is that though thou <hi>bring thy gift,</hi> yet thou may est not <hi>offer thy gift,</hi> because our Saviour commandeth the offering of it, (not the bringing it) to be stayed untill reconcilement first tendred. <hi>And then come and offer thy gift,</hi> as our Saviour saith. So that your text here alleaged, <hi>viz. If thou offer
+<pb n="32" facs="tcp:50626:21"/>
+thy Hoast,</hi> must be new Englished thus, <hi>If thou bring thy gift.</hi>
+               </p>
+               <p>You saw that from this <hi>Altar</hi> in this Text, you could by no Analogy prove your Romish <hi>Altars,</hi> therefore to draw it nearer to you: you thought good to mend the Text: hoping thereby to gull some English Readers, who finding <hi>Offer Hoast</hi> and <hi>Altar,</hi> all in a breath, a period, might then swal<g ref="char:EOLhyphen"/>low you <hi>Roman</hi> sence in all. Are these your <hi>Piae fraudes?</hi> light and darknesse: Truth and a lye shall meet together with the same greeting as <hi>Fraud</hi> and <hi>Pietie.</hi> I can not disgest this corrupted Text of yours, untill I have made this expostu<g ref="char:EOLhyphen"/>latory question to you which I finde in <hi>Athanasius.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>What folly of immodesty is this in you, to speak things that are not written, and to conceit things different from Pietie.</hi>
+               </p>
+               <p>Now the Text is freed, make your best use of <note place="margin">§ 10.</note> it. If you would prove the point in controversie, why do you not make your inference upon the Text, and so conclude, and tye it to your cause? here is no such work. You do not look (I hope) that I should make your argument for you! If you do, I can make no more but this. Our Saviour preaching of forgivenesse and brotherly attone<g ref="char:EOLhyphen"/>ment upon injuries received, biddeth us <hi>Leave our gift before the Altar—and be reconciled.</hi> So doth our Church when in our approach to the holy Com<g ref="char:EOLhyphen"/>munion we are charged. <hi>If any of us—be in
+<pb n="33" facs="tcp:50626:21"/>
+maliee, &amp;c.—not to come to the holy Table:</hi> Which Holy Table is both <hi>Table</hi> and <hi>Altar,</hi> properly a <hi>Table,</hi> improperly an <hi>Altar:</hi> primarily a <hi>Table,</hi> where in a holy and most admirable Communion we receive the body and bloud of <hi>Iesus Christ:</hi> Secondarily an <hi>Altar,</hi> (but improperly so called) where immediately after, <hi>We do offer our selves, our soules, and bodies, to be a reasonable holy and lively Sacri<g ref="char:EOLhyphen"/>fice.</hi>
+               </p>
+               <p>If you mark it well, you shall finde the name of <hi>Table</hi> in the first age of Christianity to have the forehand of the word <hi>Altar.</hi> I need not prove this to you, further then by your learned Cardi<g ref="char:EOLhyphen"/>nall. <hi>Apostoli non utebantur nominibus Sacerdotii, Sa<g ref="char:EOLhyphen"/>crificii,</hi> 
+                  <note place="margin">Bell de miss. lib. 1, c. 17.</note> 
+                  <hi>Templi, Altaris, &amp;c. The Apostles did not use the name of Priesthood, Sacrifice, Temple, Altar.</hi> If then the first age did un-learn the use of <hi>Altars,</hi> and gave us the use of a <hi>Table,</hi> what would you prove, unlesse in your proof you confesse the name of <hi>Altar</hi> to be reducible to the use of <hi>Table.</hi>
+               </p>
+               <p>The holy Scriptures tell me that the blessed Sacrament was celebrated, at or upon a Table. So Saint <hi>Luke</hi> (22. 21.) <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>on the Table.</hi> (And that I might not doubt what manner of Ta<g ref="char:EOLhyphen"/>ble, this <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> was, Saint <hi>Luke</hi> again doth tell me, (16.2.) that <hi>Lazarus</hi> desired <hi>to be fed with the crums which fell</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>from the Table).</hi> The same word in both places.</p>
+               <p>I finde again that the twelve Apostles did or<g ref="char:EOLhyphen"/>dain seven Deacons, because they would not themselves intermit their praying and preaching
+<pb n="34" facs="tcp:50626:22"/>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>to serve Tables.</hi> Which <hi>Tables</hi> you will not doubt were Sacramentall <hi>Tables:</hi> could you finde two such Texts for your <hi>Altars,</hi> how quick you would be upon me! But now I suppose you will be quiet.</p>
+               <p>And that you may guesse how un-altar-like these <hi>Tables</hi> were, you may take the Grammarians Ety<g ref="char:EOLhyphen"/>mology of the word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> from <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> a foure<g ref="char:EOLhyphen"/>footed Table. The same word used by <hi>Nonnus</hi> of <hi>Panopolis,</hi> who describeth our Saviour and his A<g ref="char:EOLhyphen"/>postles sitting round about the Table (which po<g ref="char:EOLhyphen"/>sture an Altar cannot admit.) <note place="margin">On the 13. of S. Iohn.</note>
+                  <q>
+                     <l>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</l>
+                  </q>
+               </p>
+               <p>It is time to close and make an end of this piece. <note place="margin">§ 11.</note> I desire to avoide all tedious prolixity, yet am guilty before I am aware. But have patience, and read the Holy Fathers <hi>Athanasius, Ambrose,</hi> and <hi>Augustine</hi> upon this very Text by you alleaged. <hi>Athanasius (quaest. ad Antiochum, qu.</hi> 73.) calleth this <hi>gift</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Prayer.</hi> For which the pro<g ref="char:EOLhyphen"/>priety of your <hi>Altar</hi> is no use.</p>
+               <p>S. <hi>Ambrose</hi> will teach you what <hi>gift,</hi> and what <hi>Altar</hi> also: (in his Book <hi>de vitiorum, virtutumque conflictu. c. 9. Munus nostrum est oratio nostra: Altare vero nostrum est cor. Our gift is our prayer, our Altar is our heart.</hi> You will confesse that to be an invisible <hi>Altar.</hi>
+               </p>
+               <p>Saint <hi>Augustine</hi> also <hi>(de verbis Domini Serm.</hi> 16.) expoundeth what gift is here expected, saying, <hi>Te quarit Deus, God seeketh thee.</hi> And I hope we may
+<pb n="35" facs="tcp:50626:22"/>
+offer up our selves, without the help of a materiall proper <hi>Altar!</hi>
+               </p>
+               <p>I do think you cannot bring any man ancient or modern, of modesty and learning, that voucheth this Text for your Altars, but onely your auda<g ref="char:EOLhyphen"/>cious <hi>Coccius,</hi> (who will venture any thing): yet even he, hath the word <hi>gift</hi> not <hi>hoast.</hi> Take then your corrupted Text again, and confesse, that even by that, muchlesse by our <hi>Iudge</hi> the pure and holy Scriptures, you neither have, nor can ap<g ref="char:EOLhyphen"/>prove your <hi>Altars,</hi> or convince us, as you pretend.</p>
+            </div>
+            <div type="extract">
+               <head>Anonymus.</head>
+               <p>
+                  <hi>(D)</hi> PRotestants either have none, or make it a thing indifferent, either to have or not <note place="margin">§. 12.</note> to have, as appeareth by their practice. And these who have, make not use of them, according to the institution of Altars. For the use of an Altar is to make Sacrifice upon, the Altar being the proper place of the Sacrifice: as witnesseth King <hi>Edward:</hi> and the Letters for the taking down of Altars, and setting up of the Table in stead thereof: in <hi>Iohn Fox. pag.</hi> 1520.</p>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>THe plain stating of the point in controversie, before set down, is answer enough unto this Paragraph. I may confesse all this true, but that
+<pb n="36" facs="tcp:50626:23"/>
+you intend it for an accusation. If then you think it a blame in us, in that you finde indifferently the name of <hi>Table</hi> and <hi>Altar,</hi> (that is <hi>Table</hi> proper, and <hi>Altar</hi> improper) you do in this blame the An<g ref="char:EOLhyphen"/>cient for being Protestants, and us for being Or<g ref="char:EOLhyphen"/>thodox and Catholike with them.</p>
+               <p>Doth not <hi>Gregory Nyssen</hi> (in <hi>Bapt. Christ.)</hi> indiffe<g ref="char:EOLhyphen"/>rently, and in one breath, give us this double name? <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>The Holy Table is an immaculate Altar.</hi>
+               </p>
+               <p>
+                  <hi>Athanasius. (disput. cont. Arium)</hi> hath <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>The Table, that is the holy Altar.</hi>
+               </p>
+               <p>Your own Masses ascribed to Saint <hi>Iames, Basil,</hi> and <hi>Chrysostome,</hi> have indifferently the tearms <hi>Ta<g ref="char:EOLhyphen"/>ble,</hi> and <hi>Altar.</hi>
+               </p>
+               <p>You tell us that an <hi>Altar</hi> is a proper place of Sacrifice. True, and therein after a sort you con<g ref="char:EOLhyphen"/>fesse the state of the question. An <hi>Altar</hi> proper, is the proper place, for proper Sacrifice: and therefore we have no such <hi>Altar</hi> because we have no such Sacrifice. For proof of this (which we grant you) you vouch the Letters aforesaid, but the place you ayme at is, in the reasons after the Letters: and is the fourth reason there in these words.</p>
+               <p>
+                  <hi>Fourthly, the form of an Altar was ordained for the Sacrifices of the Law: and therefore the Altar in Greek is called</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>quasi Sacrificii locus. But now both the Law and the Sacrifices thereof do cease: wherefore the forme of the Altar, used in the Altar, ought to cease withall.</hi>
+               </p>
+               <p>
+                  <pb n="37" facs="tcp:50626:23"/>
+I conclude that you will stay longer then you expect, in purgatory, in spight of all priviledges to your order granted: or else you will never come into that place: because you are so super<g ref="char:EOLhyphen"/>stitious in your <hi>Altars,</hi> and have abused Gods holy Word, to colour your superstition. But Repen<g ref="char:EOLhyphen"/>tance and amending may help you to Heaven, which graces, God in his mercy bestow upon you. In the mean time the way to obtain those graces, is to acknowledge your <hi>Fraud</hi> in depraving one of these Texts, and in misapplying both.</p>
+            </div>
+         </div>
+         <div n="2" type="chapter">
+            <pb n="38" facs="tcp:50626:24"/>
+            <head>CHAP. II. <hi>Of Folly.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">I</seg> Received from you (the 21. of <hi>April</hi> last) a manuscript of your own, cal<g ref="char:EOLhyphen"/>led: <note place="margin">§ 1.</note> 
+               <hi>A Tract of prayer to Saints,</hi> with an Epistle prefixed, directed to my self. Omitting a multitude of most impertinent allegations, and imperfect inferen<g ref="char:EOLhyphen"/>ces I desire you to look into your last Chapter of that Treatice. The Title whereof followes.</p>
+            <div type="extract">
+               <head>Anonymus.</head>
+               <p>
+                  <q>HErein is proved, by the testimonies of the Ancient Fathers, that the Saints in Heaven know the present secrets of the heart of man.</q>
+               </p>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>THese are the contents. And now we are to treate of the Saints of God, that at this pre<g ref="char:EOLhyphen"/>sent are in Heaven. In them we are to consider
+<pb n="39" facs="tcp:50626:24"/>
+their knowledge: and in it the extent of this knowledge, by <hi>Anonymus</hi> here delivered to be, even by <hi>knowledge of the present secrets of the heart of man.</hi> What is <hi>Omni-sciency</hi> if this be not? <hi>The heart of man is deceitfull, above all things, and desperately wicked: Who can know it? I the Lord search it.</hi> You <note place="margin">Iere. 17. 9.</note> will make the Saints to be <hi>Gnosticks</hi> indeed, <hi>Car<g ref="char:EOLhyphen"/>diognosticks!</hi> But better authority reserveth the attribute <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as peculiar to God alone. So 2 <hi>Chro.</hi> 6. 30. <hi>Iere.</hi> 20. 12. 1 <hi>Sam.</hi> 16. 7. 1 <hi>Chro.</hi> 28. 9. <hi>Eccles.</hi> 9. 5. and <hi>Revel.</hi> 2. 23.</p>
+            </div>
+            <div type="extract">
+               <head>
+                  <hi>Anonymus.</hi> CHAP. 18.</head>
+               <q>
+                  <p>THe ancient Fathers affirm that the Saints in <note place="margin">§ 2.</note> Heaven see, and know the present secrets of the hearts of men, as Saint <hi>Ambrose,</hi> (in his Book of Widowes) saying, <hi>The Martyrs or Saints are our Prelates and beholders of our lives and actions.</hi>
+                  </p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>THe word <hi>Saints</hi> is not in Saint <hi>Ambrose,</hi> but your own interposition. I will not stand upon the word <hi>Martyrs,</hi> which in English is <hi>Witnesses.</hi> S. <hi>Ambrose</hi> saith <hi>Dei Martyres nostri praesules, &amp;c.</hi> But to the point: what do they behold? you say well, <hi>our lives and actions.</hi> And what I pray is that to <hi>the secrets of our hearts?</hi> Is this a leading proof to your
+<pb n="40" facs="tcp:50626:25"/>
+purpose? I would whip my boy at Schoole if he should bring me an exercise so impertinent to his theam.</p>
+               <p>Yet you shall have <hi>Ambrose</hi> for <hi>Ambrose.</hi> (look his Comment. 1 <hi>Cor. c. 2.) Manifestum est</hi> (saith he) <hi>cogitationes nostras à nullo sciri, nisi ab animo nostro. It is clear that our thoughts are known by none, but by our own Soul.</hi> And again (on the first Chapter to the <hi>Ro<g ref="char:EOLhyphen"/>mans)</hi> first sleighting that <hi>wretched excuse</hi> (so he cals it) of going to God, as to a King by his Courti<g ref="char:EOLhyphen"/>ers, he there concludeth plainly, <hi>Ad Deum—promerendum, Suffragatore non opus est, sed mente de<g ref="char:EOLhyphen"/>vota. Vnto the promeriting of God we have no need of one that helpeth with his good words, but of a devoute minde.</hi>
+               </p>
+            </div>
+            <div type="extract">
+               <head>Anonymus.</head>
+               <q>
+                  <p>SAint <hi>Gregory</hi> (in his 40. <hi>Homily)</hi> saith, Because the Saints see the clarity of their Creator, <note place="margin">§ 3.</note> therefore there is nothing done in any Creature which they cannot see.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>OUt again. This is concerning things done, and what is that unto the secret of mans heart? you are out, begin again.</p>
+            </div>
+            <div type="extract">
+               <pb n="41" facs="tcp:50626:25"/>
+               <head>Anonymus.</head>
+               <q>
+                  <p>AGain Saint <hi>Gregory</hi> (in his 12. Book of <hi>Me<g ref="char:EOLhyphen"/>ralls, c.</hi> 13.) saith, we must beleeve, that they who see the clarity of the omnipotent God within themselves, are not ignorant of any thing that is done without.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>YOur promise is of thoughts within, and your proof still of things done without. Well shot. Go to your Book again and study the point better: are you lazy, or are you weak, or is your cause ill? He that whistles daily to his Cart, hath Logick enough to distinguish between matter of fact done, and the secret thought of heart.</p>
+               <p>You shall have <hi>Gregory</hi> for <hi>Gregory,</hi> and that in this very Chapter, an objection by him made, and do you finde his answer there if you can. <hi>Sicut Corporea atque incorporea diversa sunt genere, ita sunt distincta cognitione. As corporeall and incorporeall are of a severall genus, so are they also distinct in knowledge.</hi> How shall these thus distinct know one another, even concerning things done, much more con<g ref="char:EOLhyphen"/>cerning thoughts; S. <hi>Gregory</hi> hath not answered for himself: do you undertake it.</p>
+            </div>
+            <div type="extract">
+               <pb n="42" facs="tcp:50626:26"/>
+               <head>Anonymus.</head>
+               <q>
+                  <p>SAint <hi>Basil</hi> (in his Book of Virginity) faith, there is not any Saint, which doth not see all <note place="margin">§ 4.</note> things that are done any where in the world.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>YOu know I am an easie workman, and you take care to set me easie work. Whether <hi>Basil</hi> have these words in that long Book, or no, I can not readily finde. But if you will open your eyes, you may confesse, that they who see <hi>all things done,</hi> may yet be ignorant of <hi>all secrets</hi> thought and imagined.</p>
+            </div>
+            <div type="extract">
+               <head>Anonymus.</head>
+               <q>
+                  <p>SAint <hi>Prosper</hi> in his Book of contemplative life is of the same opinion, saying. Nothing <note place="margin">§ 5.</note> is so secret as the knowledge thereof may be denyed unto the perfectly blessed: their seeing God with pure understanding being without comparison a thing more excellent.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>BIshop <hi>Prosper</hi> saith, (as you alleage) <hi>Nothing is so secret, &amp;c.</hi> Now the generall acceptation, and meaning of the word <hi>Nothing</hi> is <hi>No thing,</hi> and
+<pb n="43" facs="tcp:50626:26"/>
+that is <hi>Nothing</hi> to your purpose. But I have found these words in <hi>Prosper:</hi> and you shall have them and more. The title of his Chapter is <hi>De resurre<g ref="char:EOLhyphen"/>ctione, &amp;c.</hi> Of <hi>the Resurrection</hi> to come; not of the present Saints now in Heaven: he speaketh their of our future Beatitude <hi>receptis cum immortalitate corporibus. When our bodies shall be immortall.</hi> And then saith that in that blessed contemplative life, <hi>Ibi ita patebunt singulorum singulis mentes sicut corpora<g ref="char:EOLhyphen"/>libus oculis subjacent facies corporales. Every ones minde to every one, shall there so lye open, as corporall faces are exposed to corporall eyes.</hi>
+               </p>
+               <p>Thus it shall be then, and there at the Resur<g ref="char:EOLhyphen"/>rection, and in Heaven.—Now goeth he on to your words. <hi>Nec latebit jam perfecte beatos aliquid Secretorum, qui—ipsum visuri sunt mundis cordibus Deum. None of these things that are secret shall now lye hid to the perfectly blessed, who shall see God himself with pure hearts.</hi>
+               </p>
+               <p>Thus your Saints in <hi>Prosper</hi> know the secrets of one anothers mindes in Heaven, after the Resurre<g ref="char:EOLhyphen"/>ction, &amp; what (I pray) is that to the present Saints in Heaven? and to there knowing the <hi>present secrets of mens hearts on earth?</hi> I am ashamed to be put to answer such weak, so poore, so worthlesse, and impertinent arguments: but you are another <hi>Xe<g ref="char:EOLhyphen"/>nocrates;</hi> and though I be not worthy to hold the candle to <hi>Aristotle.</hi> Yet I will borrow his words of indignation reported by <hi>Plutarch:</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>it is a shame for me to hold peace, when Xenocrates takes upon him to teach. But I proceed unto your last authority.</hi>
+               </p>
+            </div>
+            <div type="extract">
+               <pb n="44" facs="tcp:50626:27"/>
+               <head>Anonymus.</head>
+               <q>
+                  <p>SAint <hi>Augustine</hi> (in his 22. Book of the Citie of God, Chap. 29.) saith; The Saints of <note place="margin">§ 6.</note> God, even with the eyes of their body closed up, shall see all things, not onely present, but also from which they are corporally absent: for then shall be that perfection, whereof the Apostle saith, we now prophecy but in part, then the imperfect shall be taken away.</p>
+               </q>
+            </div>
+            <div type="response">
+               <head>
+                  <hi>Sir</hi> Edward Dering.</head>
+               <p>I Cannot in that place finde the words you cite, nor need I care: it is enough that the words themselves, as you produce them, do prove no<g ref="char:EOLhyphen"/>thing of that you intend them for. The Saints (you say) <hi>with the eyes of their body closed up, &amp;c.</hi> But you believe their bodies, and their bodily eyes, shall not be in Heaven, untill the generall Resur<g ref="char:EOLhyphen"/>rection: So then Saint <hi>Augustine</hi> and <hi>Prosper</hi> speak not of the Saints now in Heaven: and therefore nothing to your question.</p>
+               <p>That Saint <hi>Augustine</hi> could not so mean, you may read what I am sent unto, by your <hi>Francis à S<hi rend="sup">t</hi> Clare,</hi> in his 37. and last Probleme. Who telleth me, that Saint <hi>Augustine</hi> did doubt whether the Saints departed do yet, before the generall Re<g ref="char:EOLhyphen"/>surrection enjoy the Beatificall Vision: or that rather they be in certain occult and hidden recep<g ref="char:EOLhyphen"/>tacles
+<pb n="45" facs="tcp:50626:27"/>
+untill then. The places are pregnant. <hi>Qui morte obierunt, secret is animarum, receptaculis, sedibus<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> requiescunt. The dead, do rest in secret receptacles, and</hi> 
+                  <note place="margin">De civitate Dei. lib. 12. cap. 9.</note> 
+                  <hi>seats of soules.</hi> And again, in his Retractations <hi>(lib. 1. cap. 14.) De sanctis hominibus jam defunctis, utrum ipsi saltem d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>cendi sint in illa possessione consistere, meritò quaeritur. Of holy men already departed, whether they at least may be said to be in that possession</hi> (that is of Bea<g ref="char:EOLhyphen"/>titude) <hi>may deservedly be questioned.</hi> If there present state of Beatitude may (in Saint <hi>Augustines</hi> opini<g ref="char:EOLhyphen"/>on) be deservedly questioned, how can you think that he should say that the present <hi>Saints in Heaven, see all that is done on earth,</hi> much more, what is thought in the heart of man? Thus Saint <hi>Augu<g ref="char:EOLhyphen"/>stine</hi> is no more for you then the other Fathers were, even in that chosen peece you have vouch<g ref="char:EOLhyphen"/>ed your self: But to let you see that you have no shadow to shelter your self withall under that eminent Father, read in his Book <hi>(de cura pro mor<g ref="char:EOLhyphen"/>tuis)</hi> 
+                  <note place="margin">Cap. 13.</note> and you shall finde his opinion clear in this point. <hi>Ibi sunt spiritus defunctorum, ubi non vident quae<g ref="char:EOLhyphen"/>cunque aguntur aut eveniunt ista vita hominibus. The spirits of men departed are there, where they do not see, whatsoever is done, or doth chance to men in this life:</hi> If not what is done, then much lesse what is thought.</p>
+               <p>The same Father beginneth his 15. Chapter, of <hi>Care for the dead,</hi> with these words; <hi>Proinde fatendum est, nescire quidem mortuos quid hic agatur.—Further<g ref="char:EOLhyphen"/>more, it is to be confessed, that the dead know not what is done here,</hi>—And so goeth on to declare that the
+<pb n="46" facs="tcp:50626:28"/>
+dead if they know, do know by relation of such as passe by death, from hence unto them. Thus by Saint <hi>Augustines</hi> opinion, the dead see neither thoughts nor actions here below. So have you (as in some before) Saint <hi>Augustine</hi> for S. <hi>Augustine;</hi> make your <hi>Reply</hi> when you<g ref="char:cmbAbbrStroke">̄</g> can.</p>
+               <p>In the mean time you are not the man; whose right hand should support old <hi>Troy,</hi> or your <hi>Troy-</hi>discended <hi>Romanes.</hi> As my Uncle <hi>Dering</hi> in his re<g ref="char:EOLhyphen"/>straint of M<hi rend="sup">r</hi> 
+                  <hi>Hardings</hi> untruthes (Printed 1568.) said unto Master <hi>Harding,</hi> so say I unto you, in consideration of these pitifull helps to so poore a cause. <hi>They that favour your doings, may bewail with Andromach, lifting up your weak hands of Astyanax, and say,</hi>
+                  <q>
+                     <l>Spes nullas habet Troja si istas habet.</l>
+                  </q>
+               </p>
+               <p>Your <hi>Troy hath no hope at all, if it have no hope but this.</hi>
+               </p>
+               <p>A word or two, for the opinion of your own Doctors, and a Text of holy Scripture, and so <note place="margin">§. 7.</note> adiew for this point. I might trouble you, with abundant vouchers out of the Fathers, as of Saint <hi>Hierome</hi> who proveth our Saviour to be God, by <note place="margin">On Matt. 9.</note> that very argument, (because he knew the <hi>secrets of mans heart.</hi> But you shall be paid in your own currant coyne. Your Doctor <hi>Thomas</hi> of <hi>Aquine.</hi> 
+                  <note place="margin">1. p. q. 57. a<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 4.</note> 
+                  <hi>Cognoscere cogitationes cordis est proprium Dei</hi> (and on <hi>Iere. 17.) Ergo Angeli non cognoscunt secreta cordis. To know the cogitations of the heart, is the property of God:—Therefore the Angels know not the secrets of the heart.</hi>
+                  <pb n="47" facs="tcp:50626:28"/>
+And againe, <hi>Cognoscere singularia, &amp; cogitata &amp; facta</hi> 
+                  <note place="margin">1. p. q. 12. ar. 8.</note> 
+                  <hi>corum, non est de perfectione intellectus creati. To know particulars, and the thoughts and acts of them, is not of the perfection of a created understanding. Dominicus <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>annes</hi> saith, <hi>Nullus beatus videt in divina essentia omnia individua, omnes cogitationes eorum, &amp;c. No blessed Saint doth see in the divine Essence all individualls, or all their thoughts, &amp;c. Durandus. Si quaeratur an</hi> 
+                  <note place="margin">4. d. 45. q. 4. p. 4<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>3.</note> 
+                  <hi>beati, cognitione beata, cognoscunt orationes nostras, dicen<g ref="char:EOLhyphen"/>dum quod non. If the question be, whether the blessed Saints, in their blessed knowledge do know our prayers, it is to be answered they do not.</hi> If not our prayers, then not the secret of our hearts.</p>
+               <p>Take one word more, more worth then All. It is a peece of that excellent prayer of King <hi>Solo<g ref="char:EOLhyphen"/>mon,</hi> at the dedication of the Temple, where he beseeching God to hear the prayers of every man, and of all the people there, to be made, acknowledgeth the omniscient glory of God in these words, <hi>For thou, even thou onely knowest the</hi> 
+                  <note place="margin">1 King 8. 39.</note> 
+                  <hi>hearts of all the children of men.</hi> Now I shall never hear more of you in this point: But what a delin<g ref="char:EOLhyphen"/>quency of Reason and common sence is this, to pretend proof for <hi>Thought of heart,</hi> and to bring none but for <hi>Things done?</hi> Is not this <hi>Folly.</hi>
+               </p>
+            </div>
+         </div>
+         <div n="3" type="chapter">
+            <pb n="48" facs="tcp:50626:29"/>
+            <head>CHAP. III. <hi>Foul-Language.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">F</seg>Rom <hi>Foily</hi> to <hi>Foul-Language.</hi> That is the progresse of many: who when they are pressed with a bad cause, <note place="margin">§ 1.</note> or do labour in their own Igno<g ref="char:EOLhyphen"/>rance, they (rather then submit) will flye to <hi>Rayling Language,</hi> a sure signe, and absolute Symptome that the brain is empty of good, or the heart full of ill.</p>
+            <p>I need not part and divide this peece, your self have figured it into four and twenty. I will pre<g ref="char:EOLhyphen"/>sume so much upon your new age, and a sober re<g ref="char:EOLhyphen"/>veiw of them, that you will not expect from me, a confutation, of those things whereof you will be now ashamed to hear the repetition. I have shewn this peece to divers of your own religion who all turn from it, as from grosse and unsavory <hi>railing.</hi> But to the particulars.</p>
+            <p>In your Treatise <hi>Iesus, Maria, Ioseph, Chap.</hi> 70. <note place="margin">§ 2.</note> 
+               <hi>Pag.</hi> 370. Your charity bestowing on us the odi<g ref="char:EOLhyphen"/>ous name of hereticks, thus you begin.</p>
+            <q>
+               <p n="1">
+                  <pb n="49" facs="tcp:50626:29"/>
+1. They say they are justified by Faith onely, without keeping the Commandements; and Saint <hi>Iames</hi> saith, The divels beleeve and trem<g ref="char:EOLhyphen"/>ble.</p>
+               <p n="2">2. They say they can do no good works; but that all their best works are of their own nature, worthy of eternall pains: and the works of the divels can be no worse.</p>
+               <p n="3">3. They say they cannot merit: no more can divels.</p>
+               <p n="4">4. They say they have no inherent grace, no more have divels.</p>
+               <p n="5">5. They say, that notwithstanding all the re<g ref="char:EOLhyphen"/>pentance which they can make, yet their sinnes still remain in them: and so is it with divels.</p>
+               <p n="6">6. They have no Masse, or memory of our Sa<g ref="char:EOLhyphen"/>viour, voluntarily offering up himself, for our redemption, no more have divels.</p>
+               <p n="7">7. They do not pray to Angels, or Saints, to pray unto God for them, no more do divels.</p>
+               <p n="8">8. They have no respect, or reverence to pictures or images of God, or his Saints, no more have divels.</p>
+               <p n="9">9. They do not esteem of the Sacrament of penance, or confession, no more do divels.</p>
+               <p n="10">10. They do not reverence the bodies, and reliques of Saints, no more do divels.</p>
+               <p n="11">11. They beat down crosses and crucifixes; and in all hell there is not found one.</p>
+               <p n="12">12. They say they cannot blesse, or give a blessing to any creature, no more can divels.</p>
+               <p n="13">
+                  <pb n="50" facs="tcp:50626:30"/>
+13. They say, that they cannot love God with all their hearts, nor keep his Commande<g ref="char:EOLhyphen"/>ments, no more can divels.</p>
+               <p n="14">14. They have no Sacraments which con<g ref="char:EOLhyphen"/>ferre grace, no more have divels.</p>
+               <p n="15">15. They hate ceremonies, and divels use none.</p>
+               <p n="16">16. They say they have no free will to do good, no more have divels.</p>
+               <p n="17">17. They use no indulgences, no more do divels.</p>
+               <p n="18">18. All may teach, and preach amongst them: and so it is amongst the divels.</p>
+               <p n="19">19. They have no holy or consecrated places, no more have divels.</p>
+               <p n="20">20. They use no holy water, or holy oyles, no more do divels.</p>
+               <p n="21">21. They have no purgatory, no more have divels.</p>
+               <p n="22">22. They have no Altars or Sacrifices, no more have divels.</p>
+               <p n="23">23. They alleage Scriptures, according to their own private judgement, and so did the di<g ref="char:EOLhyphen"/>vels, <hi>Luk.</hi> 4.</p>
+               <p n="24">24. Their whole congregation may erre: and so may all the divels.</p>
+            </q>
+            <p>Are not these all together a masse of <hi>Fraud, Folly,</hi> and <hi>Foul-Language?</hi> Finde one if you can and <note place="margin">§ 3.</note> chuse it out, of the 24. which is true, serious, and relisheth of a Christian Spirit! I am none of them
+<pb n="51" facs="tcp:50626:30"/>
+that will <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: and <hi>if any man seem to be</hi> 
+               <note place="margin">1 Cor. 11. 16.</note> 
+               <hi>contentious, we have no such custome, neither the Churches of God.</hi> It were a silly endeavour to stampe the same mettall, into the like coine, and so pay you, as you deserve. Yet take a taste, and call for more as you like it.</p>
+            <p>They (the Papists) do require the worship of Images, so do divels.</p>
+            <p>They say they have power among them to work miracles, so hath Satan, 2 <hi>Thes.</hi> 2. 9.</p>
+            <p>The Pope assumeth power to dispose of King<g ref="char:EOLhyphen"/>domes, so did the divell, <hi>Matth.</hi> 4. 9.</p>
+            <p>They practice and allow of equicocation, so did the divel in his oracles.</p>
+            <p>Is not this good stuff? make your own choice, and expound your self, upon any one of your 24. and conclude: and here I take upon me to shew you, that your own inference is <hi>foul,</hi> and either <hi>foolish</hi> or <hi>false.</hi> Leave and change you self unto Truth, and a better temper, least it be said unto you, (as <hi>Revel.</hi> 22. 11.) <hi>He which is filthy let him be filthy still.</hi>
+            </p>
+         </div>
+         <div n="4" type="chapter">
+            <pb n="52" facs="tcp:50626:31"/>
+            <head>CHAP. IIII. <hi>Of Blasphemy.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>He last is worst. You may be ashamed of the former, but I am afraid to <note place="margin">§ 1.</note> read and repeat, what is to come. I received a treatise from you by <hi>Dan. Sted.</hi> but was not willing to be<g ref="char:EOLhyphen"/>lieve it yours untill since you did own it to me more then once. It is <hi>an appeal</hi> unto King <hi>Iames,</hi> under the name of <hi>Io. Hunt,</hi> Printed <hi>Anne Dom.</hi> 1620.</p>
+            <p>How basely, and with how foul a mouth you speak there, of that excellent and admirable Queen <hi>Elizabeth,</hi> is unfit for any man to foul his pen with: more unfit for you, who were her subject born, so to vomit against your dead Prince: and most unfit for any good Christian so much as to think. But it is a happinesse to her, and us, that ranke malice hath made and invented lyes so grosse and palpable, that it hath destroyed it own intended mischief. So sometime a rabid anger, may make a curre bite out his own Teeth.</p>
+            <p>
+               <pb n="53" facs="tcp:50626:31"/>
+You have herein exceeded all that ever I have met withall, but the reason is (as in <hi>Ovid)</hi>
+            </p>
+            <p>
+               <hi>Non tibi plus cordis, sed minus oris inest:</hi> which is well rendred in prose by <hi>Erasmus. Non plus audes, aut sapis, sed minus pudet.</hi>
+            </p>
+            <p>But I passe the basenesse of that barbarisme, be<g ref="char:EOLhyphen"/>cause <note place="margin">§ 2.</note> a far more odious cause cryeth out. Looke in your sixth chapter, and excuse your selfe from <hi>Blasphemy</hi> if you can.</p>
+            <p>Among Advocates and Disputants it is held odious and absurd, to leave the cause, and inveigh and raile against the persons: But you leaving the cause and our persons also, boldly fly in <hi>Os Coeli</hi> into the face of God. Marke your own words, I will begin where you have set your marke in the margent <hi>(Note</hi> say you) as if you thought it an ex<g ref="char:EOLhyphen"/>cellent piece of your owne performance. The words are these, <hi>pag.</hi> 27.</p>
+            <p>
+               <q>Where they speak to their earthly Lords and Kings, either they stand or kneele handsomely, <note place="margin">§ 3.</note> with their hats in their hands: but when they speak to <hi>their God,</hi> commonly they either speake sitting, with their caps on, as haile fellow well met with <hi>their God,</hi> or else with their noses thrust into their hats, for feare, as it seemeth, that the <hi>evill smells which come from their God</hi> should infect their braines. Their Temples and Synagogues are not so neat as their bed-chambers, galleryes or chambers of presence, or audience: and when
+<pb n="54" facs="tcp:50626:32"/>
+they come into their Temples to treat with <hi>their God,</hi> or hear his Word or Law, unlesse, it be for respect of some man there, every one with<g ref="char:EOLhyphen"/>out respect to <hi>his God,</hi> sitteth him down, and putteth on his cap: In so much as <hi>the God of the Protestants, is the most uncivill, evill-mannered God of all those, who have borne the name of Gods upon earth: yea worse then Pan, the God of Clownes,</hi> that can endure no ceremonies or good manners.</q>
+            </p>
+            <p>To this I adde what (of the same strain) I finde in your fourth Chapter; <hi>Pag.</hi> 19.</p>
+            <p>
+               <q>I appeal (say you) to your Majesty (meaning King <hi>Iames</hi> of precious memory) well pleased to consider how great injustice it is, to have your ancient Subjects spoiled of their lands, goods, liberty and life, and be condemned as Felons and Traytors, <hi>For that they will not beleeve in such a perjured God.</hi>
+               </q>
+            </p>
+            <p>Is not this Language worthy a Faggot, without a recantation? can you devise, more high, more <note place="margin">§ 4.</note> impious, more daring <hi>Blasphemy?</hi> Did you ever hear any the worst of Protestants ever <hi>Blaspheme</hi> God <hi>for ever to be blessed?</hi> Did ever any of us deny, or disclaime <hi>your god</hi> to be <hi>our God?</hi> Did you ever hear any of your own Papists so <hi>Blasphemous</hi> as your self? Is the <hi>God of Protestants, your God?</hi> How dare you then revile him? If he be not <hi>your God,</hi> you then do serve the divell. <hi>Lord bow down thine</hi> 
+               <note place="margin">2 King. 19. 16.</note> 
+               <hi>ear and hear: open Lord thine eyes and see: and hear the words of Sennacherib which hath sent him to reproach the living God.</hi>
+            </p>
+            <p>
+               <pb n="55" facs="tcp:50626:32"/>
+I will not deseant upon so foul, so bold impie<g ref="char:EOLhyphen"/>tie: I forbear and leave you to the consistory of your own conscience. The repetition of this is so odious, that (I dare say) you are condemned even at home in your own bosome already: at least I would hope so well of you, that you have and do condemn your self: which you must do for this even to hell, or else you can have no true hope for Heaven, and you had need to do it as publikely, as this is which you have heer set forth. If your temper will be hot, yet (as it is <hi>Revel.</hi> 3. 19.) <hi>Be zealous, and repent.</hi>
+            </p>
+            <div type="conclusion">
+               <head>Conclusion.</head>
+               <p>IN the first of my foure Chapters, I have ob<g ref="char:EOLhyphen"/>served, <note place="margin">§. 5.</note> how you have disclaimed the holy Scriptures for your judge, honouring us with that indubious character of being the sheep of Christs fould, because we <hi>hear his voice,</hi> whilst you dis<g ref="char:EOLhyphen"/>valew, deny, and disclaim the authority of his Word.</p>
+               <p>Here again, in this last Chapter I finde <hi>our God</hi> (as before <hi>his Word)</hi> disclaimed by you. <hi>(The God of the Protestants</hi> say you, <hi>&amp;c.</hi> And then not content divers times to have denyed him for <hi>your God,</hi> you <hi>Blaspheme</hi> him also in horrid and most fearefull Language: Language of that transcendency, and so divelish, that it cannot be beleeved with the Analogy of Gods honour, and due reverenee to his Name, that the divell, and the howling
+<pb n="56" facs="tcp:50626:33"/>
+damned in hell, shall be suffered to belch against the Majesty of Heaven, the names of <hi>uncivill, evill-mannered, perjured God, worse then the god of Clownes, &amp;c.</hi>
+               </p>
+               <p>Thus have you denyed God in this world, pray you, (and I pray God) that you may by repen<g ref="char:EOLhyphen"/>tance and amendment, prevent the time when God shall else deny you in the world to come: least that you there finde, that unto <hi>Maledicentibus</hi> there is an <hi>ite, Maledicti.</hi> Go you cursed, will be said to them that curse. For <hi>Blasphemia est maledicentia, &amp;c. Blasphemy is cursing, &amp;c.</hi>
+               </p>
+               <p>Repent, recall your self and others, least you prove <hi>Anonymus</hi> in the Book of Life.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:50626:33" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>

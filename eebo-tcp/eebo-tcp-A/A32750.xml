@@ -1,0 +1,874 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canterbury tales composed for the entertainment of all ingenious young men at their merry meetings upon Christmas, Easter, Whitsontide, or any other time, especially in long winter evenings to keep good wits imply'd : intermixt with pleasant stories, witty jests and delightful songs very proper for either city, town, or country with an epistle dedicated to the bakers, smiths and millers by Chaucer junior.</title>
+            <author>Chaucer, Junior.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1687</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 34 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A32750</idno>
+            <idno type="STC">Wing C3737</idno>
+            <idno type="STC">ESTC R29212</idno>
+            <idno type="EEBO-CITATION">10861418</idno>
+            <idno type="OCLC">ocm 10861418</idno>
+            <idno type="VID">46134</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A32750)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46134)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1419:32)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Canterbury tales composed for the entertainment of all ingenious young men at their merry meetings upon Christmas, Easter, Whitsontide, or any other time, especially in long winter evenings to keep good wits imply'd : intermixt with pleasant stories, witty jests and delightful songs very proper for either city, town, or country with an epistle dedicated to the bakers, smiths and millers by Chaucer junior.</title>
+                  <author>Chaucer, Junior.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for J. Back,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1687.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Magdalene College (University of Cambridge) Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Songs, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2002-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2002-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2002-04</date>
+            <label>TCP Staff (Oxford)</label>Sampled and proofread</change>
+         <change>
+            <date>2002-04</date>
+            <label>Emma (Leeson) Huber</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2002-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="unk">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:46134:1"/>
+            <pb facs="tcp:46134:1" rendition="simple:additions"/>
+            <p>CANTERBURY TALES: COMPOSED For the Entertainment of All Ingenuous young Men and Maids at their merry Meetings, upon <hi>Christmas, Easter, Whitson<g ref="char:EOLhyphen"/>tide,</hi> or any other time; especi<g ref="char:EOLhyphen"/>ally in long Winter Evenings, to keep good Wits imply'd.</p>
+            <p>Intermixt with pleasant Stories, witty Jests, and delightful Songs, very proper for either City, Town or Country, with an Epistle Dedicated to the <hi>Bakers, Smiths</hi> and <hi>Millers.</hi> By <hi>Chaucer</hi> Junior.</p>
+            <p>This may be printed, <hi>R. P.</hi>
+            </p>
+            <p>Printed for <hi>I, Back</hi> at the <hi>Black Boy</hi> near the Draw-Bridge on <hi>London-Bridge,</hi> 1687.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:46134:2"/>
+            <head>The Dedication to the Bakers, Smith<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Millers, and other Readers</head>
+            <p>YOV are presented here with a Choi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Banquet of delightful Tales, pleas<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> Stories, witty Iests, and merry Songs to <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>vert the young Men and Maids when <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> come to the Bake-house, Forge or Mill; <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> by these you may encrease your Trade and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Customers to you: for be sure the merry L<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ses will go where they can be furnished with Tales, Stories and Iests; therefore these <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>re as necessary for you as a fair Wife for a fine Tavern, a young Hostess for an old Inn, or a Gazet for a Coffee-House. It is fitted for all manner of Persons, therefore I hope you will all furnish your selves with it; for it will be a rare Companion for Old and Young upo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> many Oc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>asions; especially at <hi>Christmas, Easter, VVhitsontide,</hi> or long Winter E<g ref="char:EOLhyphen"/>venings over a Cup of Nut-brown-Ale and Lambs-wool. In a word, you will find it a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> comfortable as Matrimony, or as sweet as <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Maiden-head at midnight, or a Sack-Posse<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> at the latter end of a Fire, what would yo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> have more the young Men and Maids ma<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> laugh till their Lungs ake, and the old an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> melancholly, will find Dr. <hi>Merryman</hi> the be<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Physitian.</p>
+         </div>
+      </front>
+      <body>
+         <div type="tales">
+            <pb facs="tcp:46134:2"/>
+            <head>CANTERBVRY Tales.</head>
+            <div n="1" type="tale">
+               <head>(1.)</head>
+               <p>A <hi>Canterbury</hi> Carrier, driving his Waggon a-long the Road, called at a House to drink, knowing the Man's Wife to be very kind to her Guest; and that he <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ght have the more opportunity for his design, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cquainted her Husband that his Horses was ve<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y warm with hard Travelling; desired him to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rive a little way while he refreshed himself, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd he would soon overtake him, and quit him <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f his Charge: to the which, the Inn-keeper <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eadily consented. During which time, the Car<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ier addressed himself <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o his loving Landlady, in <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> more than ordinary manner, insomuch, that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>here was nothing he required, but she willingly consented to. In the Interim, came by a Gen<g ref="char:EOLhyphen"/>tleman who designed to drink at the Inn: but perceiving at a Window, the Amorous passages between these lusty Lovers, resolved as he could make no sport, so to spoil none; rid on, and soon overtook the Inn-keeper, driving the Carriers Waggon, accosted him thus: Friend, said he, at such an Inn, naming the House where the Inn-keeper lived: I saw a Woman, describing her to
+<pb facs="tcp:46134:3" rendition="simple:additions"/>
+him, and one I suppose to be a VVaggoner, so fast linked in one anothers Arms, as if they in<g ref="char:EOLhyphen"/>tended never to be separated. By my Faith, replyed the Landlord, 'tis my own Wife, bu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> I'le be revenged of the Rogue; so driving the VVaggon to a deep slowy place, over-turns it; leaving the Horses stuck fast in the mire: re<g ref="char:EOLhyphen"/>turns homeward, meets the Carrier, who asked him where his Horses and VVaggon was: O said the Landlord, they are safe enough from running away, for in yonder Slow the VVaggon is over-turned, and your Horses sticking fast in the mud: and what was your reason for that, says the Carrier? and what was your reason of your too much familiarity with my Wife, re<g ref="char:EOLhyphen"/>plyed the Inn-keeper? because, says the other, sweet opportunities are not to be let slip. Then answered the Landlord, sweet Meat requires sowre sawce: so home he went, telling his Wife how cunning<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y he had been revenged of her Gallant.</p>
+            </div>
+            <div n="2" type="tale">
+               <head>(2.)</head>
+               <p>An unlucky Boy in <hi>Canterbury,</hi> got a great many a Rams-horns together in a Basket, went up and down the streets in VVinter-time; cry<g ref="char:EOLhyphen"/>ing, here's choice of new Fruit. At length, an ancient Gentleman, that was Husband to a Beautiful young VVife, ask'd to see them, which as soon as he had, he replyed, you fool, do you think I want Horns? no says the Boy, tho' you are provided yet I may meet with some body
+<pb facs="tcp:46134:3"/>
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>at is not: at which several Spectators laught <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>artily.</p>
+            </div>
+            <div n="3" type="tale">
+               <head>(3.)</head>
+               <p>A certain Shoemaker of <hi>Canterbury,</hi> by his <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>travagancy had wasted his whole stock; his <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>reditors coming fast upon him, was obliged to <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ck up his St. <hi>Hughs Bones,</hi> and march off. Tra<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>elling towards <hi>London,</hi> near <hi>Rochester</hi> by the side <gap reason="illegible: in gutter" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a VVood stood a Gentlemans House, and hard<g ref="char:EOLunhyphen"/>
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y a couple of Turkies, who upon his approach, <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ryed out; Cobble, Cobble, Cobble, to which he <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ade answer, 'twas a lye for it was well known <gap reason="illegible: in gutter" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> was a Shoemaker and no Cobler. Being terri<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ly vext, observing the coast to be clear, he whips <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p one of the Turkies, clapping him under his Coat, and was a marching off; but considered <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e had as good take the other for Company, which he did: but the Gentleman, looking out <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f an obscure VVindow, observed all the Passa<g ref="char:EOLhyphen"/>ges, who coming down, followed the Shoema<g ref="char:EOLhyphen"/>ker, and soon overtook him: Friend, said he what business have you with that Turky? Sir, said the other, he hath defamed me; calling of me Cobler, when 'tis well known I am a Shoemaker: but says the Gentleman what do you design with the other? why truly, Sir said he, I take him a<g ref="char:EOLhyphen"/>long with me, to bear witness of my abuse.</p>
+            </div>
+            <div n="4" type="tale">
+               <head>(4.)</head>
+               <p>A Young Man and Maid living in <hi>Kent,</hi> being in Love together, but Marriage deferr'd by their Friends, by reason of the inequality in the Mai<g ref="char:EOLhyphen"/>dens
+<pb facs="tcp:46134:4"/>
+Portion: they resolved to steal some pri<g ref="char:EOLhyphen"/>vate embraces, contrary to their Parents know<g ref="char:EOLhyphen"/>ledge. And it fell out, they met together at <hi>Can<g ref="char:EOLhyphen"/>terbury,</hi> that being a place pretty far from home, and not much acquainted. There they took Lodgings at a certain Inn: but the Man having some small business in the City, fell into Compa<g ref="char:EOLhyphen"/>ny, and night approaching, the young Maid wai<g ref="char:EOLhyphen"/>ting with patience, and no Lover came, ten a clock strikes, up stairs she goes, admiring to the House, that her pretended Husband did not come; desiring to have a little Sack Posset, thinking he might <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>at some after his Journey. That was made, brought up, and set on the Cupboards head with a Candle lighted, she being tyred, goes to Bed and there waits the happy hour, of her Lovers coming: Now you must understand, there comes a Bearh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ard, that had been newly landed in the <hi>Down's,</hi> with three lusty Bears; which being la<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e was plac'd in a Stable-Room, just under the floor where the Lovers was to enjoy themselves: but one of the Bears winding the Sack Posset; begins to roar, when scratching the wall and finding it yield, made a large hole just in the stair-case, gets through and up stairs he comes into the Chamber, where the Maid was then fallen asle<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p; the Bear mounting his twofore-feet on the C<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bbord, to get to the Sac<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Posset his claws hung so in the Cubboard-cloath that he pulls down the Sack Posset, Candle and all, upon him: which noise awakened the young Maid,
+<pb facs="tcp:46134:4"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ho thinking her Lover was come, started up <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a sudden, but seeing a hairy thing all on fire <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the Bear was, by the Candles falling upon <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>m: she hid her <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>elf under the Bed-cloaths, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Bear by rouling about, at length put out the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>e on his back, and falls to licking up the Posset; which at length, so intoxicated his Brain, that being disposed to sle<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p, he leaps on the bed, and their lyes; the fright whereof, caused our young VVoman to let fly behind. In the interim comes in her Lover, who ascending the stairs, half slu<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er'd, falls on the Bed, hugging the Bear instead of his sweetheart; and begging her Pardon for his long stay: but he scented such a smell of bak'd, boyl'd, stew'd and Roasted, that he knew not what to think of it; calling out, my Dear, my Dear, why doest not speak? when in the midst of al<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> this Freak, the Bearheard miss'd his Bear, and looking for him, found the hole, where he had made his escape<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> comes up stairs with a lighted Torch, and three or four belonging to the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nn, discovered the whole in<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rigue, to the no small shame of the two Amoretta's.</p>
+            </div>
+            <div n="5" type="tale">
+               <head>(5.)</head>
+               <p>At a Coffee-house in <hi>Cant<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rbury,</hi> several Gen<g ref="char:EOLhyphen"/>tlemen were together: one was asking what news they heard from <hi>London,</hi> why reply'd, ano<g ref="char:EOLhyphen"/>ther<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> there was forty thousand Men rose yesterday morning; which made them all to wonder, and ask if he knew for what, yes says he, only to goe to Bed when night came: which occasion'd a great laughter.</p>
+            </div>
+            <div n="6" type="tale">
+               <pb facs="tcp:46134:5"/>
+               <head>(6.)</head>
+               <p>In <hi>Canterbury,</hi> there was a Carpenter that ha<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> married a handsome young wife; and he had <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Gentleman that had boarded with him, that pre<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tended to study Astrology; but no otherwis<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> than to gu<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l the Husband and lye with his VVife, who had promised him that favour, if he could beguile the Carpenter. Now this Gentleman had a Rival, that had a months mind to have a lick at her Honey-pot, but she hated him and loved her Boarder. It happened that the Carpenter miss'd his Boarder upon a time, and searching about, found him in a Cock-loft, looking up toward the Skie: what's the matter, quoth he? Oh says the Gentleman, I find by Astrology that on <hi>Monday</hi> next at quarter-night, there will fall such a Pro<g ref="char:EOLhyphen"/>digious Rain that <hi>Noah</hi>'s Flood was not half so great; therefore get quickly thr<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Bucking-Tubs that we may get into them, and tye them to the top of the Garret, that we may save our Lives: the Carpenter quak'd for fear, got three Tubs, and at night, he and his wife and the boarder, climb a Ladder and severally get in. After much sighing, the Carpenter falls asleep, and the Gen<g ref="char:EOLhyphen"/>tleman and the Landlady, merrily marches to to their intended business: but while they were at it, the Rival knocks at the door and entreats her to grant him a Kiss; now, said she to the Boarder, you shall laugh your fill: my Dearest, quoth she, come close to the window, and I will be with you immediately: the Rival wipes his
+<pb facs="tcp:46134:5"/>
+mouth to receive the kiss. At length, she opens <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e VVindow, and desires what he does to do <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ickly: now the night was very dark, and she <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>lt about till she found him, and to tell the Tale either better nor worse; he very savourly kiss'd <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>r bare Arse. The Rival cruelly vext; got a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed hot iron, and comes again, tell her he had <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rought her a Ring, provided she would give <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>im another kiss; and the Boarder thinking to <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ncrease the sport, places his Arse out at the same window; which his Rival did singe and burn, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat he cried out, water, water, water; at which, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he poor Carpenter thinking that <hi>Noah</hi>'s Flood <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>as come, starts on a sudden, out of the Bucking-<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ub, fell upon the floor, broke his noddle, be<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ss'd his Breeches; and at l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ngth discovers all <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he intreague.</p>
+            </div>
+            <div n="7" type="tale">
+               <head>(7.)</head>
+               <p>A VVoman sitting with Fish in <hi>Canterbury</hi> Market, would always have a saying to Men when they came to buy any thing: As a Man was cheapning her Fish, says she to him, as you intend to have some of my Fish in your Belly, so I would fain have some of your Flesh in my Belly; no says he, I can't spare my Flesh to such an ugly Puss as you: No, no, reply'd she, I did not mean as you mean, I mean your nose in my Arse.</p>
+            </div>
+            <div n="8" type="tale">
+               <head>(8.)</head>
+               <p>A Gentleman living at <hi>Canterbury,</hi> having a So<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, who was none of the Off-spring of <hi>Solomon,</hi>
+                  <pb facs="tcp:46134:6"/>
+his name being <hi>William</hi>; used to frequent a Farmers House, n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ar the City; was very freely received in respect of his Parents, or ra<g ref="char:EOLhyphen"/>ther, nonsensicall Figaries. One day above th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> rest; it happened that honest <hi>Will.</hi> coming to the Farmers, and he being all alone at home, though<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to have some Pastime with the Fool proposes to have <hi>Will.</hi> play at Blind-mans-buff: Lots being drawn who should be first blinded, it happened to the Farmer, whereupon <hi>Will.</hi> tyes a Napkin fast over his eyes, so that he might not see. In the mean time, the Fool capers about the Room, and the Farmer as fast after him to catcht him: but whilst they were traversing the Kitchin; the Fool espies several Hogs-puddings hanging in the Chimney, and having a mind <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o them; he cryes out, You see, you s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e: no faith <hi>Will</hi> I don't, replyed the Farmer, drawing the Napkin more over his Eyes; in which time the Fool Whips down ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f a scor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Links of Puddings out of the Chimney, and the Door standing open, away he trips with them; and the Farmer, in the mean time, calling out <hi>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ill.</hi> where art thou; speak? but having no answer pulls of the Napkin, and finding what had happened, and the Fool gone; horridly vext, unties his House-dog, which in the day-time, was always chamed up; sends hi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> eag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rly after hon<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>st <hi>Will</hi>: but when he cam<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> near the Fool, he cryed out. Oh poor Dog don'<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> meddle with poor <hi>Will.</hi> throwing down a Pud<g ref="char:EOLhyphen"/>ding, which wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le the Dog devouring, he go<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:46134:6"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bout twenty yards in ground; and so held him <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> play till he got to his Father's House: where relating the whole story to all the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>amily, caused <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> great deal of Mirth, which the Farmer hear<g ref="char:EOLhyphen"/>ing of; was so ashamed, in being out-witted by <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Fool: that for a twelvemonth after, he would <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> come to the Gentleman's House. But at <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ngth by much solliciting, and that the Gentle<g ref="char:EOLhyphen"/>m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n would promise that his Son should say no<g ref="char:EOLhyphen"/>thing, he came to Dinner: but in the midst, before a great Company that was there, the Fool cryed ou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to the Farmer, calling him by his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ame. Remember the Pudding, Remember the Pudding; which so aba<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h'd the Farmer, that he immediately rises up from Dinner, and went a<g ref="char:EOLhyphen"/>way, and never would come to the House again.</p>
+            </div>
+            <div n="9" type="tale">
+               <head>(9.)</head>
+               <p>A c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rtain Gentleman formerly of <hi>Canterbury,</hi> a little before his death, made his Will, and be<g ref="char:EOLhyphen"/>queath'd a considerable Portion to a Neece; leaving his own Brother as her Guardian, and the young Gentlewoman being near at Age: this Covetous old Man fearing she would marry and the Estate go from him. By the instigation of the Devil, resolves upon her Destruction; the night was come, where this Guardian pur<g ref="char:EOLhyphen"/>posed to put his horrid Design in Execution: Himself with two or three more in the dead time of the night, beset her House; when behold Providence had allotted a far better success to this Vertuous and Religious Gentlewoman; for
+<pb facs="tcp:46134:7"/>
+the same Evening, a Gentleman be-lated on the Road, implores h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r favour for a nights Lodging; which she granted him, in consideration it was some distance from <hi>Canterbury,</hi> and no Village nearer and the night proving very dark and rai<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ny, and he a stranger. All being a bed this wick<g ref="char:EOLhyphen"/>ed Guardian with his damn'd Accomplices, of<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>fers to break into the House; which the young Lady hearing, runs to this strange Gentleman<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Chamber begging her life of him, thinking he belonged to those without: but he protested by all that is Sacred, he knew nothing of them but would spend the last drop of blood he had<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in her Defence. In order, to which he descended the stairs into the yard, where those Villains were breaking in, and discharged his Pistol<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> which happily shot one in the head; who falling so discouraged the rest, that they betook them selves to flight, leaving the dead Body in the place, who in the morning was found to be the Ladies Uncle and Guardian. Which Villany being thus discovered caused the Lady to respect the Gentleman, who was a younger Brother of a good Family, and of a small Estate: but for his Generous vent<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing his Life, in her defence, so valiantly. She in a short time, made him her Husband and Master of a plentiful Estate; li<g ref="char:EOLhyphen"/>ving together in great Love and prosperity en<g ref="char:EOLhyphen"/>joying that which was so wickedly aimed at, by that Monster of a Man, her cursed Uncle.</p>
+            </div>
+            <div n="10" type="tale">
+               <pb facs="tcp:46134:7"/>
+               <head>(10.)</head>
+               <p>Some Company being at a Tavern in <hi>Canter<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible: in gutter" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>y</hi> a drinking, one requested another to pledge <gap reason="illegible: in gutter" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, but he refused; saying, he resolved to leave <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> drinking, because it made him have a short <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>emory; which occasioned the other to l<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ugh <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d reply that he would drink on still, for it made <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m have a long Memory: for since said he, I <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ve us'd to drink hard, I am a twelve month <gap reason="illegible: in gutter" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> remembring that I could a called to mind in a <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oment before, so I think I have a long Memory.</p>
+            </div>
+            <div n="11" type="tale">
+               <head>(11.)</head>
+               <p>A Beautiful young Gentlewoman of <hi>Canterbury,</hi> 
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eing wedded to an old Man in respect of his <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iches, he being as full of Ice, as she of Fire, <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d a mind to try the difference between young <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd old Flesh, shewed some Kindness more than <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rdinary to her Serving-man; which he perceiving, <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ays hold of all Opportunities to address himself <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o her by way of Love; but she would not yield <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o his Desire, unless he would contrive some way to cornute her Husband in his presence and he not to believe it, this caused the Serving-man to stretch his Invention upon the Rack, who at last acquainted his Mistress that he had found an Experiment to do it, provided she would wh<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n her Husband and she was a walking in the Gar<g ref="char:EOLhyphen"/>den, pretend to Long for some Fruit on some of he highest Trees, and to leave to him the ma<g ref="char:EOLhyphen"/>nagement of the rest, which accordingly she did: The old Man calling his Man to ascend the
+<pb facs="tcp:46134:8"/>
+Tree to gather the Fruit; which, as soon as h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> had got up, cryed out with a loud Voice, Master Master, leave off for shame, I never in all m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> life see so unseemly a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Action, for shame dise<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gage your self from my Mistress, or else some of the Neighbours will see you: the old Man amazed at this Language, asked if the Fellow was mad, and what he meant? O Sir, said the Man, the Tree is either bewitched, or else I can<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>not believe mine own Eyes; for I fancy I see you upon my Mistress. Come down, come down, and let me get up the Tree to know if, it seems so to me; the Fellow comes down and the old Man gets up: in the Interim, the young Fellow fell to work with his Mistress, the old Man looks down and sees it, cries out, in good Faith says he, it seems to me just as it did to you, for methinks I see you upon your Mi<g ref="char:EOLhyphen"/>stress as perfectly as if it was really so: the old Man gets down and thinks the Tree bewitched<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> orders presently to be cut down, for fear it should infect the rest. Thus was the old Man made a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uckold to his own Face and would not believe it.</p>
+            </div>
+            <div n="12" type="tale">
+               <head>(12)</head>
+               <p>A Tinker going through <hi>Canterbury,</hi> sounds briskly on his Kettle, crying have you any worl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> for a Tinker; upon which, a certain Shop-keep<g ref="char:EOLunhyphen"/>er living over-against the Pillory, standing at his Door, was minded to put a Je<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t upon the Tin<g ref="char:EOLhyphen"/>ker; bid him stop those two holes, pointing to
+<pb facs="tcp:46134:8"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Pillory, to whom the Tinker said, Sir, i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ou please to lend me your Head and Ears, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> will find a Hammer and Nails and give you <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y Labour into the Bargain.</p>
+            </div>
+            <div n="13" type="tale">
+               <head>(13)</head>
+               <p>A young Man of <hi>Canterbury,</hi> by his Extrava<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ancy had spent all his Estate, and keeping ill Company accustomed himself to get Mony by <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nlawful ways: one Morning going to the Ca<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hedral to Prayers, more to see if he could meet <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ith a Booty than any Intention of Goodness: <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> happens to meet with a Country Farmer who <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ad a heavy purse of Mony in his Pocket, which <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e perceived, watched an Opportunity, soon <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ade it his own, and marching off with it; met <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t the Cathedral door two or three of his boon Companions, whom he made acquainted of his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eing fuller of Mony than ordinary, and invited <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hem to a Tavern not far off, promising to treat <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hem: Prayers ending, and and the Mony miss'd, caused the Looser to make inquiry after it, which one hearing, remembred the Passages of our Sparks at the door, and acquainted him of it; advising him to take an Officer and search them at the Tavern, and he need not question finding his Mony: which Advice he took, when coming where the Company were, and charging them stoutly with it. Our Sharper inquired the Marks of the Purse and what Sum was in it, pre<g ref="char:EOLhyphen"/>tending he found it; to which the Farmer an<g ref="char:EOLhyphen"/>swered, just 5<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>l.</hi> at which he said it was so, but
+<pb facs="tcp:46134:9"/>
+he had spent 5 s. and the rest he was willing to r<gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>turn, but the Looser would have his whole Sum or else he would have him before a Magistrate<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> which our youngster perceiving, and the Mon<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> lay upon the Table, he whips it into his Pocke<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> again, so makes his Escape being followed by the Officer, he had not run far, but an Ass stood in his way, our Offender taking hold of his Ta<gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> pulled it off, when running on, he hap'ned to run over a woman big with Child, upon which mis<g ref="char:EOLhyphen"/>carried; still running on he run against a Ladder that a Plaisterer was at work on, and flung the Plaisterer on the Officer who had his Arm broke<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> seeing these Mischiefs hap'ning, and fearing to commit more, he suffer'd himself to be taken and carri'd before a Justice: The Farmer made a Complaint for the loss of his 5. l. the Man forthe loss of his Asses Tail, the womans Husband for the loss of his Child, and the Officer for his bro<g ref="char:EOLhyphen"/>ken Arm; all which Complaints deliver'd against the Delinquent, and seriously weighed by the Ma<g ref="char:EOLhyphen"/>gistrate, he consider'd the Retaliation was the best method he could use; therefore he order'd that since the Looser would not abate the 5 s<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> spent, the Offender should keep it till he could make up the whole Sum, and then deliver it: A<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> for the Man whose Asses tail he had pulled off; th<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Offender should take and keep the Ass and mak<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> use of him, till such time as his Tail was grown <gap reason="illegible: in gutter" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gain, and then deliver it to the owner: and fo<gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Woman who miscarry'd, the Offender should
+<pb facs="tcp:46134:9"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ake and keep and lye with, till such time she was as forward with Child, as when she miscar<g ref="char:EOLhyphen"/>ri'd, and then to deliver her to her Husband; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd lastly, for the Officer whose Arm was broke, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e was order'd to ascend the Ladder, and the Delinquent to stand under it, that the Plaisterer might run against it, and fling it down, that the Officer might fall upon the Offender and break <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is Arm as the others was before; thus was the order of the Magistrate, which was put in Ex<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cution, but I leave the Readers to imagine.</p>
+            </div>
+            <div n="14" type="tale">
+               <head>(14.)</head>
+               <p>A handsome young Maid that waited upon a Physitian's Wife in <hi>Canterbury,</hi> had a young Man addressed himself to her, in hopes of gaining her Love; and as she was but a Servant, his Visits was chiefly a nights after the rest of the Family was in Bed: now it hap'ned one night, the young Man was not very well, and the Maid out of her tender Love, would go into her Mistresses Room where his Physick was, and fetcht him some thing that was good, but he going a-long with her, would be tasting several things, till at last he took a Dose of <hi>Opium</hi>: now they being both returned into the former Room, s<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tting very lo<g ref="char:EOLhyphen"/>vingly kissing and expressing their Affections after a little time of silence, the Maid finds her Lover fallen a sleep, jogs him, but could not wake him, mistrusts what he had taken, did not know what to do; bnt to prevent a discovery, puts him into a Chest that was in the Room, thinking he might
+<pb facs="tcp:46134:10"/>
+come to himself by morning, she goes to bed, and falls a sleep being pretty late, soon after a parcel of Thieves beset the House, all being fast a sleep breaks in, binds all the Family, taking a great deal of Mony, Plate and Linen, ties it up in a Blanket and carrying it off, the Blanket rent in the outer Room, and all their Booty fell about: they seeing the Chest, opens it, and being deep, sees nothing at the bottom. In they put the Linen, Plate and Mony, and away they carry it to one of their homes, which was not far off; morning comes, the robbing was noised all about the Ci<g ref="char:EOLhyphen"/>ty, and search was made, but no discovery; the Rogues havi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g not time to divide the Spoil, set it in one of their bed-chambers, now next mor<g ref="char:EOLhyphen"/>ning our young Lover awakes, struggles and gets out of the Chest, the woman being only in bed was frighted; out she gets, down stairs she runs in her smock crying out murder, murder, murder, which the Neighbors hearing, runs to see what was the matter, discourses the whole business, and upon further Examination, our young Lo<g ref="char:EOLhyphen"/>vers pe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vate Enjoyments was publickly known, the Robbery made very plain, and the Actors of it seized, sent to Prison, and afterwards Try'd, Cast and Executed for the same.</p>
+            </div>
+            <div n="15" type="tale">
+               <head>15.</head>
+               <p>A married Gentleman coming through <hi>Can<g ref="char:EOLhyphen"/>te<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>bury,</hi> his Horse threw him, which a young Gentlewoman seeing, fell a laughing; the Man being terribly vext that she should laugh at hi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:46134:10"/>
+fall, angerly said, Madam, pray admire not at this, for my Horse always stumbles when he meets a Whore; she sharply reply'd, have a care then Sir, you do not meet your Wife, for then you will certainly break your neck.</p>
+            </div>
+            <div n="16" type="tale">
+               <head>(16.)</head>
+               <p>A Gentleman living at <hi>Canterbury,</hi> being to go to <hi>London,</hi> and having no opportunity of re<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urn<g ref="char:EOLhyphen"/>ing a great sum of Mony which he should have occasion for, takes it in Gold, and sows it up in the wast-band of his Man's Breeches, who was a good lusty Fellow, but a great <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oward; fearing he might meet with some opposition upon the Road, and that he should be soundly beat if the Gold was not discover'd, and no Mony sound a<g ref="char:EOLhyphen"/>bout them: he puts 5 s. in his own Pocket, and gave his Man 20 s. in his, as it was always his Custom to order his Man to pay upon the Road, and give him an Account. Now it hap'ned, when they were in a lone place, of a sudden started out of a Wood three Men well mounted, two lay<g ref="char:EOLhyphen"/>ing hold of the Gentleman's hors<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s Bridle, and one of the Mans, with their Pistols cockt, com<g ref="char:EOLhyphen"/>manding them to stand; the Gentleman desired them to be civil, but however they was earn<g ref="char:EOLhyphen"/>est for Mony; the Gentleman told them he had no more than to bear their Charges to <hi>London,</hi> putting his hand into his Pocket, gave them what he had, and they going to the Man to see what he had; the Gentleman calls to him by his Name, bidding him give the Gentle<g ref="char:EOLhyphen"/>men
+<pb facs="tcp:46134:11"/>
+his Money, which the Fellow putting his hand in his Pocket gave it them, and they go<g ref="char:EOLhyphen"/>ing away; but the Fellow crying out aloud to his Master, who was a liittle distance from him, must I give them the Gold Master? which they immediately hearing, return'd, searched him, and took it away: The Gentleman horridly vext, sed little, but before they went away, de<g ref="char:EOLhyphen"/>sired that they would pleasure him in one thing, and he should acknowledge it a Favor, that was to take his Man and thrash him stoutly; they being all alighted, belabour'd him to the pur<g ref="char:EOLhyphen"/>pose: in the mean time, their Horses graising about, was not very near; the Fellow feeling the dry Blows, in a Rage draws his Hanger which he had by his side, furiously lays about him; kills two upon the spot, disables the other, taking the Mony back again, with some from the Rogues, which his Master let him have for his pains, though blaming him for his great simplicity in speaking of the Gold.</p>
+            </div>
+         </div>
+         <div type="songs">
+            <div type="song">
+               <pb facs="tcp:46134:11"/>
+               <head>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> merry Song fit to be sung at <hi>Christmas.</hi> The Tune, <hi>Oh Mother</hi> Roger.</head>
+               <lg n="1">
+                  <head>(1.)</head>
+                  <l>NOw, now this happy <hi>Christmas</hi> Season,</l>
+                  <l>I present you with Delight;</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>nce it is no more than Reason,</l>
+                  <l>For to pass away each Night:</l>
+                  <l>Here is many a pleasant Tale,</l>
+                  <l>Whilst you drink your nappy Ale,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd in Merriment abound,</l>
+                  <l>Here is Pastime to be found;</l>
+                  <l>Then take my word, for it is True,</l>
+                  <l>Tis full of Mirth and Laughter to<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <head>(2.)</head>
+                  <l>For when we are all met together<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>It will very well appear,</l>
+                  <l>To forget the Winter weather,</l>
+                  <l>Let us tast your dainty Cheer<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Minced Pye, with Rosted Beef,</l>
+                  <l>This will soon afford Relief:</l>
+                  <l>
+                     <hi>Christmas</hi> comes but once a Year,</l>
+                  <l>Therefore let it now appear,</l>
+                  <l>That <hi>Christmas</hi> shall receive its due,</l>
+                  <l>In Feasting, Mirth and Laughter too.</l>
+               </lg>
+               <lg n="3">
+                  <head>(3.)</head>
+                  <l>I pray let me come to the Table</l>
+                  <l>Mistress Goose shall not go fre<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>,</l>
+                  <l>I am Sturdy, Stout and and Able,</l>
+                  <l>I will make her yield to me;</l>
+                  <l>
+                     <pb facs="tcp:46134:12"/>Though she be both Stout and Brave,</l>
+                  <l>Either Leg or Wing I'll have,</l>
+                  <l>Fearing not her Spice nor Salt,</l>
+                  <l>Since we have the Juice of Malt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>I never fear, but to subdue</l>
+                  <l>The force of Pig and Capen too.</l>
+               </lg>
+               <lg n="4">
+                  <head>(4.)</head>
+                  <l>Then further for our Recreation,</l>
+                  <l>Men and Maids at Cards may play,</l>
+                  <l>Sure there needs no Disputation,</l>
+                  <l>For this same we freely may;</l>
+                  <l>Reason will not this refuse,</l>
+                  <l>So we do not this Abuse:</l>
+                  <l>Then we may Enjoy Content,</l>
+                  <l>All the days of Merriment,</l>
+                  <l>In telling many a pleasant Jest,</l>
+                  <l>Which is for Merriment Exprest.</l>
+               </lg>
+            </div>
+            <div type="song">
+               <head>A pleasant Song to be sung at <hi>Easter</hi> The Tune, <hi>King</hi> James<hi>'s Jigg.</hi>
+               </head>
+               <lg n="1">
+                  <head>(1.)</head>
+                  <l>NOw, now the b'<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ak Gales of Winteir is past<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>The Spring is returning with <hi>Flora</hi> at last.</l>
+                  <l>Each green Hill with Primrose &amp; Violets is sprad,</l>
+                  <l>The tender young Branches now hold up their Heads,</l>
+                  <l>Whereon the sweet Birds their Anthems will sing</l>
+                  <l>which makes all the Groves &amp; the Valleys to ring</l>
+                  <l>Oh this is the Triumph they make in the Spring</l>
+                  <l>Now this to each Maiden much Pleasure dot<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> bring.</l>
+               </lg>
+               <lg n="2">
+                  <pb facs="tcp:46134:12"/>
+                  <head>(2)</head>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow <hi>Easter</hi> with holy Days here are come on,</l>
+                  <l>And <hi>Robin</hi> takes <hi>Susan,</hi> and <hi>William</hi> takes <hi>Nan</hi>;</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> their Recreation a Walk they do take,</l>
+                  <l>And give them stew'd Pruons with Custord and Cake:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d while they do thus in the Blessings appear<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>at <hi>Robin</hi> is Kissing and Courting his Dear,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d giving her Cheesecakes and choice of good Cheer,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>eet <hi>Susan</hi> could wish it would last all the Year.</l>
+               </lg>
+               <lg n="3">
+                  <head>(3.)</head>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>oth <hi>William</hi> to <hi>Nancy</hi> pray let me prevail,</l>
+                  <l>To have your admittance to tell you a Tale,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>s to make us merry, and pass away time</l>
+                  <l>Quoth <hi>Nancy</hi> begin then, I count it on Crime:</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>en merrily passing the Hours away,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ith <hi>Susan</hi> and <hi>Nancy</hi> both Bonny and Gay,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t Night soon approaching no longer they stay,</l>
+                  <l>
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t promise to meet them again on <hi>May</hi> Day.</l>
+               </lg>
+            </div>
+            <div type="song">
+               <head>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> delightful Song in honor of <hi>VVhitsontide</hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> The Tune, <hi>Caper and Jirk it.</hi>
+               </head>
+               <lg n="1">
+                  <head>(1.)</head>
+                  <l>NOw <hi>W<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>itson-Holy-days</hi> they are come,</l>
+                  <l>Each Lass enjoys her Mate,</l>
+                  <l>The youthful Gallants both all and some,</l>
+                  <l>Their Love they do Relate</l>
+                  <l>To be Intire, both Chast and Pure,</l>
+                  <l>With many sweet words beside,</l>
+                  <l>Then strait they advance, and call for a Dance,</l>
+                  <l>For the Honour of <hi>Whitsontide.</hi>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <pb facs="tcp:46134:13"/>
+                  <head>(2.)</head>
+                  <l>Sweet <hi>William</hi> he taking jumping <hi>Ione,</hi>
+                  </l>
+                  <l>They dance a Turn or two,</l>
+                  <l>Whilst <hi>Sarah</hi> she sighing makes sad Moan,</l>
+                  <l>She knew not what to do:</l>
+                  <l>But after this to Stool-Ball play.</l>
+                  <l>And many fine Games beside,</l>
+                  <l>From morning till night they take their Delight<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>For the Honour of <hi>Whitsontide.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>(3.)</head>
+                  <l>It is a most gallant sight to see,</l>
+                  <l>The Damsels how they Trip</l>
+                  <l>A long the Green with a merry Glee,</l>
+                  <l>Sometimes her Foot doth slip,</l>
+                  <l>But yet they valley it not a Rush,</l>
+                  <l>In sport they will abide;</l>
+                  <l>The Bells they will ring, and the Maidens will sing</l>
+                  <l>For the Honour of <hi>Whitsontide.</hi>
+                  </l>
+               </lg>
+               <lg n="4">
+                  <head>(4.)</head>
+                  <l>Now when this Pleasure is at an end,</l>
+                  <l>And night approaching near,</l>
+                  <l>Then every young Man takes his Friend,</l>
+                  <l>Whom he esteemed dear:</l>
+                  <l>And down they sit beneath a Tree,</l>
+                  <l>Tell many a Tale beside,</l>
+                  <l>With many a Kiss, no hurt is in this,</l>
+                  <l>For the Honour of <hi>Whitsontide.</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,943 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fons sanitatis, or, The healing spring at Willowbridge in Stafford-shire found out by the Right Honourable the Lady Jane Gerard, Baroness of Bromley / published for the common good by Samuel Gilbert ...</title>
+            <author>Gilbert, Samuel, d. 1692?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 64 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A42731</idno>
+            <idno type="STC">Wing G715</idno>
+            <idno type="STC">ESTC R18732</idno>
+            <idno type="EEBO-CITATION">12875590</idno>
+            <idno type="OCLC">ocm 12875590</idno>
+            <idno type="VID">94825</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A42731)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94825)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 380:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Fons sanitatis, or, The healing spring at Willowbridge in Stafford-shire found out by the Right Honourable the Lady Jane Gerard, Baroness of Bromley / published for the common good by Samuel Gilbert ...</title>
+                  <author>Gilbert, Samuel, d. 1692?</author>
+               </titleStmt>
+               <extent>[8], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for the author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Hydrotherapy --  Early works to 1800.</term>
+               <term>Mineral waters --  England --  Staffordshire --  Early works to 1800.</term>
+               <term>Mineral waters --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-07</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2007-09</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2007-09</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94825:1"/>
+            <pb facs="tcp:94825:1" rendition="simple:additions"/>
+            <p>FONS SANITATIS: Or the HEALING SPRING AT WILLOWBRIDGE IN Stafford-ſhire. Found out by the Right Honourable the Lady <hi>JANE GERARD</hi> Baroneſs of BROMLEY.</p>
+            <p>Publiſhed for the Common Good, By <hi>SAM<g ref="char:V">Ʋ</g>EL GILBERT,</hi> Chaplain to Her Honour, and Rector of <hi>Quatt.</hi>
+            </p>
+            <p>The WELL having been of Happy Conſe<g ref="char:EOLhyphen"/>quence to all its Neighbouring Diſeaſed Perſons, and many Strangers, to whom Its Infant Fame hath (but yet) liſped its Virtues.</p>
+            <p>With Allowance.</p>
+            <p>LONDON, Printed for the Author, <hi>Anno Dom.</hi> 1676.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:94825:2"/>
+            <pb facs="tcp:94825:2"/>
+            <head>The Epiſtle to the READER.</head>
+            <opener>
+               <salute>Reader.</salute>
+            </opener>
+            <p>IF the Noiſe of theſe Waters have not ſounded in your Ears, the fol<g ref="char:EOLhyphen"/>lowing Catalogue of ſome few of the many Cures done by it, are withall truth and integrity made publick, many amazing effects of it being loſt through the neglect of enquiring the Perſons, Names and Places, where they Live: And though this Excellent Wa<g ref="char:EOLhyphen"/>ter be but in its infancy, being but lately diſcovered; yet 'tis found a Phyſitian, not inferiour to many that have taken their degree: And as good
+<pb facs="tcp:94825:3"/> a Chirurgion and Occuliſt, as thoſe tha<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> have ſerved an Apprentiſhip: As alſo a Farrier, which my love to that Spe<g ref="char:EOLunhyphen"/>cies of Creatures makes me inſert, fo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Curing ſeveral Maladies in Horſes.</p>
+            <p>To ſhew how univerſally Reſtora<g ref="char:EOLunhyphen"/>tive theſe Waters are to Debilitated Limbs, it hath been often experimen<g ref="char:EOLunhyphen"/>ted, that they not only extend the con<g ref="char:EOLhyphen"/>traction, but contract and comfort the relaxation of feeble Nerves and Si<g ref="char:EOLunhyphen"/>news, even to admiration. And in an In<g ref="char:EOLunhyphen"/>credible ſhort time; which is perform'd by Drinking and Bathing, although it be a Cold-Water, againſt which ſome may object; yet methinks 'tis no<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> unreaſonable to anſwer; That tha<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> temper improves this virtue in it, b<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lcent'ring the natural heat, which makes it return to the extream part<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> with greater vigour, and ſo to pro<g ref="char:EOLunhyphen"/>cure an equal circulation of th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Bood, And 'tis believed they wil<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> hardly fail, where repletion is no<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> wanting.</p>
+            <p>
+               <pb facs="tcp:94825:3"/> It Heals all Foul Scabs, and Ulcers, Scald-heads, the Kings-evil, Scales Bones; and heals by Extracting, and Cleanſing the humours that cauſe the Malady. And is an incomparable Re<g ref="char:EOLhyphen"/>medy for Swellings in any part; and gives immediate Eaſe to Aches and Pains, and Palſies. And by Drink<g ref="char:EOLhyphen"/>ing and Bathing, Cures Scorbutick and Dropecal Diſtempers, the Stone, the Collick and the Rickets; yet of flow<g ref="char:EOLhyphen"/>ing not mercenary adminiſtrations.</p>
+            <p>I have heard 'tis a Maxime: That no Mineral lyes ſingle, but certain<g ref="char:EOLhyphen"/>ly this may pretend to come from a ſingular compoſition of them, by its Sanative opperations: So excelling all I have heard of. And it is hoped, and believed, there is no cauſe to fear it ſhould looſe its Vertue, it being not a lean barren Spring, as moſt other Me<g ref="char:EOLhyphen"/>dicinal Waters, but a Stream ſo plen<g ref="char:EOLhyphen"/>tiful as it is enough to turn a Mill.</p>
+            <p>But although I ſhall not pretend to Determine whether it be armed to en<g ref="char:EOLhyphen"/>counter and ſubdue Diſeaſes, by run<g ref="char:EOLhyphen"/>ning
+<pb facs="tcp:94825:4"/> thorough Iron and Steel, or what other Mineralls: For I aſſure you 'tis no Philoſopher Writes to you; yet able to give you this trueſt and beſt reaſon for their virtues, <hi>viz.</hi> Becauſe the great Preſerver hath given to the gift of Healing, to whom be Eternal Praiſe.</p>
+         </div>
+         <div type="notice">
+            <head>'Tis farther added for the Infor<g ref="char:EOLhyphen"/>formation of the Reader.</head>
+            <opener>
+               <salute>Reader.</salute>
+            </opener>
+            <p>THe Fame that is ſpread abroad of this Well, by thoſe that have had the fortune to uſe it, is not unknown to many, nor the Malice neither of ſome Perſons to all Mankind but themſelves; no marvail then if exerciſed againſt the re<g ref="char:EOLhyphen"/>putation of this Water that is ſo much for their benefit: I wiſh ſuch have not occa<g ref="char:EOLhyphen"/>ſion to make uſe of it, as ſome of the like ſtamp have done, that have cryed it down in publick, and for the Curing of their own Diſtempers make uſe of it in pri<g ref="char:EOLhyphen"/>vate;
+<pb facs="tcp:94825:4"/> with ſuch ſucceſs as to perform what all their Choiceſt-Medicaments have fail'd in. Like many Phyſitians, for<g ref="char:EOLhyphen"/>bidding that to others, which they uſe themſelves.</p>
+            <p>It being indeed the Intereſt of the leſs Generous minded, both Phyſitians and Surgeons, to beat down the fame of Cures done by this Water, to inhanſe their own Advantage, though to the utter ruine of many Diſeaſed Perſons.</p>
+            <p>But we need not ſpend the Readers, nor our own time in vindicating this Well from the aſpertion of ſuch, or indeed of any: It is ſufficiently able by the daily effects of its Virtues produce, to waſh off all ſpat<g ref="char:EOLhyphen"/>lings, and raiſe its own fame above all the noted Springs we have yet heard of: Of which you'l be farther ſatisfied by per<g ref="char:EOLhyphen"/>uſing the annexed and true account that we could take of ſome Cures performed by it, that indeed would be beyond belief, were there not good authority for them.</p>
+            <p>Nor would thus much as hath been ſaid; did not the glory of God lie buryed in our ſilence, which of all things we ought
+<pb facs="tcp:94825:5"/> to be moſt concern'd for: Shall ſo great a mercy as this Healing Well be ſlighted? and his goodneſs not extolled? Shall we be Cured by it, and he not Praiſed; the way purely not by concealing his mercies in the wonderous effects of it, much leſs by celipſing them. As his mercies ſhine openly and run freely, ſo let our acknow<g ref="char:EOLhyphen"/>ledgement too, and not be clouded by de<g ref="char:EOLhyphen"/>rogating either from the Author, or means, by which he conveyes ſo great a health to us.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:94825:5"/>
+            <head>Something Concerning Water in General. Of the Original, and the Reaſons of the ſeveral Virtues of Springs: With an account of the Healing Spring, in Willowbridge-Park in Stafford-Shire.</head>
+            <p>AN exact Philoſophical and Phyſical Treatiſe of Water in General, or in particulars; Sea, River, Rain, or Spring-Water, was never the Intention of the Writer: which though not wholly out of his road, yet out of his compaſs of time to perform, wanting all ſorts of ſuitable Conveniences. But ſuch light touches that from his own reaſon fell in his way to this Spring, ftands in yours to the account of ſome Cures it hath performed, giving in<g ref="char:EOLhyphen"/>couragement to ſome Pen more ingenuouſly Induſtrious to give better ſatisfaction, of the admirable Virtues of this Well.</p>
+            <p>
+               <hi>Hypocrates</hi> (that great Maſter of reaſon, and Prince of Phyſitians, (as ſome term him, not unworthily) affirms that Water and Fire are the two Principles of life; giving (as well he may) water the preheminence, under<g ref="char:EOLhyphen"/>ſtanding
+<pb n="2" facs="tcp:94825:6"/> thereby our Radical Moiſture, which is of ſuch abſolute neceſſity, that nei<g ref="char:EOLhyphen"/>ther ſenſative or vegitive creatures ſubſiſtance can be propt without it: For by its depri<g ref="char:EOLhyphen"/>vation, the one preſently grows Hectical, the other Withers and decayes.</p>
+            <p>And is fitly placed before Fire, Aire, or Earth, for it extinguiſhes the firſt, changes the ſecond into its ſelf, and devoureth the laſt. The moſt mundane beings running the race of nature without Fire, but none without Water. As we are abundantly be<g ref="char:EOLhyphen"/>holding to that Element in our compoſition and ſubſiſtance (having chiefeſt regard to the grandeſt power, God Almighty in the formation and upholding of all things.) So for the rectifying of the motions of the in<g ref="char:EOLhyphen"/>ternal Machins of our Microcoſmus's, and the repairing thoſe breaches in the walls thereof that our irregularities have made. Witneſs the advantage we have by Water in general, but more by many particular Springs, whoſe uſe is excellent for particular Diſ<g ref="char:EOLhyphen"/>tempers: but moſtly for this Spring, the oc<g ref="char:EOLhyphen"/>caſion of what is hear made publick, ſince God hath been pleaſed ſo to bleſs it, and us with having the advantage of it, as to inforce it with ſuch virtues, as to be a Catholicon
+(if rightly uſed) for moſt (if not all) Diſeaſes in Man, or Beaſt.</p>
+            <p>This Spring was firſt taken notice of, and ſe<g ref="char:EOLhyphen"/>veral
+<pb n="3" facs="tcp:94825:6"/> experiments tryed with it, by the moſt <hi>Ingenious</hi> and true <hi>vertuoſa,</hi> that Right Ho<g ref="char:EOLhyphen"/>nourable Lady <hi>Jane Gerard,</hi> Baroneſs of <hi>Bromley,</hi> of <hi>Sandon</hi> in <hi>Stafford-ſhire,</hi> whoſe Charitable care and charge, in damming it out from the common Water, into which it delivered it ſelf, (a large Pool through which the River <hi>Terne</hi> runs, taking its beginning about half a mile above it,) cauſing it to be divided into two large Baths; the one for Men, the other for Horſes. In both which the Spring riſes with great force in ſeveral places. And building a fair four-ſquare Stone Conduit at the head of the Springs to preſerve water pure and clear for Drink<g ref="char:EOLhyphen"/>ing: Intending alſo to build a Row of Rooms for the conveniency of poor people to lodge in; and an Undreſſing Room for perſons of Higher Ranks that ſhall have occaſion for Bathing there, declaring the Nobleneſs of her Spirit, in ſuch her concern for the Pub<g ref="char:EOLhyphen"/>lick benifit of all Diſeaſed perſons, without the leaſt glance on ſelf-intereſt: But the ſatisfaction of being uſeful to others.</p>
+            <p>This well is diſtant a quarter of a mile from <hi>Willowbridge</hi> Lodge (the fineſt ſeated, and beſt compacted houſe of that nature) in the pariſh of <hi>Aſhely,</hi> two miles and a half off that famous houſe of <hi>Bromley</hi> in <hi>Stafford-Shire</hi>
+(both poſſeſſed by that Honourable Lady before mentioned, the Inheritance of
+<pb n="4" facs="tcp:94825:7"/> her incomparable Son: The Right Honoura<g ref="char:EOLhyphen"/>ble <hi>Digby</hi> Lord <hi>Gerard,</hi> Baron of <hi>Gerards Brom<g ref="char:EOLhyphen"/>ley,</hi> Lord of <hi>Dutton</hi> of moſt noble parts as well as large fortunes.) Three miles from <hi>Drayton</hi> in <hi>Shrop-Shire,</hi> five miles from <hi>Newcaſtle</hi> underline, ſix miles from <hi>Eccleſhall,</hi> ſeaven miles from <hi>Namtwich,</hi> nine miles from <hi>Newport,</hi> nine miles from <hi>Stone,</hi> eleven miles from <hi>Stafford,</hi> all Market Towns of Note; and is Eaſtwardly from the Lodge, in a valley ſurrounded by ſeveral riſes of ground. The River <hi>Terne</hi> on the North, and <hi>Willowbridge</hi> Parke on the South, on the ſame ſide lyes <hi>Aſhley</hi>-Heath about a mile di<g ref="char:EOLhyphen"/>ſtant, which hath been reputed by the ableſt Artiſt's in King <hi>Jame's</hi> time (the Learned <hi>Cambden</hi>) to be the higheſt ground in <hi>Eng<g ref="char:EOLhyphen"/>land,</hi> and from whence 'tis ſuppoſed this Spring comes flowing through at its break<g ref="char:EOLhyphen"/>ings out, or off the face of a large Bed of good and hard Building Stone.</p>
+            <p>Before we come to the wondrous effects of this Spring, 'twill be ſatisfactory to ſome leſs knowing, to be informed of the origi<g ref="char:EOLhyphen"/>nal of all Springs; for whoſe ſatisfaction I declare in ſhort, (without mentioning the many oppinions about it; and their Authors Diſcourſes <hi>Pro,</hi> and <hi>Con,</hi> meerly to ſhew their maſtery of miſterious words.)</p>
+            <p>That all Springs undoubtedly come from the Sea, through Meandring veins and po<g ref="char:EOLhyphen"/>roſitous
+<pb n="5" facs="tcp:94825:7"/> paſſages of the Earth, forced through them even to or over the tops of Mountains, and to their breakings out in ſo many places by that great weight of water that lyes behind them, preſſing them for<g ref="char:EOLhyphen"/>ward; and are clarified from the Sea Salt<g ref="char:EOLhyphen"/>neſs in their paſſage: Good<note n="*" place="margin">
+                  <hi>Lord</hi> Bacon.</note> autho<g ref="char:EOLunhyphen"/>rity affirming, that pits dug near the Sea, the water that ſoaks into them, by that means becomes freſh.</p>
+            <p>Now the nature of the Spring, is ſuitable to the Qualities of that Earth, or Minerals through which by its many turnings and windings in its paſſage through the bowels of the Earth it runs; carrying with it either faculty, or ſubſtance, or both.</p>
+            <p>Some Springs (as this we treat of) out of the ſubteraneal ſubſtances attract faculties to each other, as thoſe ſubſtances they paſs through. Which ſolves the Queſtion of the Curious enquirer, why the ſame Spring ſhould Cure divers Diſeaſes, and they con<g ref="char:EOLhyphen"/>trary, or having but ſmall kin to each other; as <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any ſimples compounded together of natures repugnant to each other, having had their due fermentation, working ſo upon one another, as to become incorporated, with a concatenation of their virtues; may oc<g ref="char:EOLhyphen"/>caſion the ſame Queſtion, yet produce in its effects a rare Medicine for moſt Diſeaſes. and as it is moſt powerful againſt thoſe for
+<pb n="6" facs="tcp:94825:8"/> which there was a greater quantity of ſuitable Simples in the compoſition. So is each Spring of the greater force and quicker diſ<g ref="char:EOLhyphen"/>patch in the Curing thoſe Diſtempers, for which thoſe Minerals it laſt and moſt run through his, proper.</p>
+            <p>The virtues this Spring laſt participated, is conceived to be Sulphur and Nitre by its Coldneſs, and driving out an internal Mala<g ref="char:EOLhyphen"/>dy to the extream parts of the body, and its Balſamick virtue in healing it, and all ſorts of Soa<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s whatever, that it with its vertues can reach either Internal, or External.</p>
+            <p>The Taſte of this Water is extreamly plea<g ref="char:EOLhyphen"/>ſant to moſt, near to that of new milk mixed with common Spring water. But can give no pleuſible reaſon of the contrary and bitter reliſh it hath left on the Pallets of ſome few, that have given mean account thereof.</p>
+            <p>This Water is free from any manner of Tin<g ref="char:EOLhyphen"/>cture, but of a Chriſtal clearneſs, ſome where<g ref="char:EOLhyphen"/>of ſtanding but a little time in a clear Glaſs, which I often for ſatisfaction tryed, left a thick Oyly foeces all over the Glaſs. A quan<g ref="char:EOLhyphen"/>tity of it being exhaled over the fire, there hath remained a ſubſtance of the thickneſs and colour of Honey; but we were debili<g ref="char:EOLhyphen"/>rated for making Chimical experiments of it for want of ſuitable Utenſils: would but an Artiſt beſtow ſome pains upon it, 'twould certainly require his pains, and he thereby
+<pb n="7" facs="tcp:94825:8"/> find out the reaſons of, and confirm thoſe that (are not eye witneſſes) may doubt its vertues.</p>
+            <p>What this Water performs, you are infor<g ref="char:EOLhyphen"/>med in the Epiſtle to Reader, by a Right Ho<g ref="char:EOLhyphen"/>nourable, and though Female, yet a Pen of more than a Maſculine ſtrain and vivacity, proceeding from ſo ready a Phaucis at all times, that the richneſs thereof flows as much faſter than ſhe can write (though an incredible ſwift hand) as this Spring outdoes the belief of many. Therefore the dull ac<g ref="char:EOLhyphen"/>count I might have given, would have ſeem<g ref="char:EOLhyphen"/>ed like flateſt Water after the briskeſt VVine.</p>
+            <p>However before we come to the Alphabe<g ref="char:EOLhyphen"/>tical account of the few of thoſe many Cures it hath done ſince Spring was a twelvemonth: Thoſe perſons that deſire to make tryal of this VVater, that are not able to ſee a Phy<g ref="char:EOLhyphen"/>ſitian for better advice, are deſired to fol<g ref="char:EOLhyphen"/>low theſe brief and eaſie rules</p>
+            <p>Firſt, Rightly to conſider the nature of their Diſtemper, and which way the water muſt work to Cure them, and to take ſome<g ref="char:EOLhyphen"/>thing that may prepare their Bodies for it, to facilitate its operation; though few that methodically uſe the water, and have time ſo to do, will ſtand in need thereof.</p>
+            <p>Secondly, that they Drink two or three days before they Bath, and that in the morn<g ref="char:EOLhyphen"/>ing, not overcharging their Stomachs at the
+<pb n="8" facs="tcp:94825:9"/> firſt, but increaſing<g ref="char:punc">▪</g> their draughts every morning, and uſing if they can, ſome mo<g ref="char:EOLhyphen"/>derate exerciſe (as walking) betwixt every three or four Glaſſes, and when they once find the water to paſs freely, by urine, or Stool, they may Drink the more freely. Then whether they have any outward Di<g ref="char:EOLhyphen"/>ſtemper, or not, to Bath the whole body; the time moſt proper, in the Morning? and after their drinking the water, not to Dine till they find it clearly paſſed, which you may know by their Urines, if it be any thing coulored when you make it, for till then it will be clear, and if chiefly to work that way, to take heed of provoking ſweating, which is a great hindrance of the waters paſſage by Urine. An <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of ability, to drink their two or three firſt Glaſſes mixed with White-Wine.</p>
+            <p>Thirdly, for their Dyer, to be mode<g ref="char:EOLhyphen"/>rate, and avoid all ſort of Salt Meats, and if they drink this water in the Evening, which may be done, (but not ſo proper as in the Morning) to eat little or no Supper, if any, that which is of light Digeſtion.</p>
+            <p>Fourthly, that they be not too haſty in leaving this water, but rather for a ſettled Cure to ſtay two or three dayes longer than needs, that go on too ſoon; and for encou<g ref="char:EOLhyphen"/>ragement read this enſuing and Juſt account as could be taken, of ſome of the cures done
+<pb n="9" facs="tcp:94825:9"/> by this Spring. Many having made uſe of it, that kept their Diſtempers as cloſe as they did the benefit they received by it; ſome ſtealing the advantage of Bathing in it, when night had ſpread its ſable mantle o're the ſurface of our hemiſphaere (thinking the Stars were no Intelligencers) thereby to hinder their Diſtempers well as Cures com<g ref="char:EOLhyphen"/>ing to appear in open day. Like the un<g ref="char:EOLhyphen"/>grateful Lepers, ten Cured, but one found returning Praiſe.</p>
+            <lg>
+               <l>Mercies ſo ill return'd may ſurely make,</l>
+               <l>The Author of them a leſs Compaſs take,</l>
+               <l>About their Centre; or it ſhould him pleaſe,</l>
+               <l>His overflowing Springs of Mercies ceaſe.</l>
+               <l>That you no more his favours ſhould abuſe,</l>
+               <l>Since Thanks that eaſie Tribute you refuſe.</l>
+            </lg>
+            <div n="aches" type="symptom">
+               <head>Aches.</head>
+               <div type="case">
+                  <p>1. A Taylor in <hi>Kemberton,</hi> neer <hi>Shifnall</hi> in <hi>Shrop-ſhire,</hi> was ſo diſeaſed in his Shoulders and Armes with extream pain, that he could not work at his Trade, nor put on, or off his Cloaths without help: coming to this Well, with one with him to help him to Dreſs and Undreſs; the firſt night with Ba<g ref="char:EOLhyphen"/>thing in the water was able to do it himſelf:
+<pb n="10" facs="tcp:94825:10"/> And ſtayed no longer, receiving in that ſmall time a perfect Cure; being now as able to work as ever:</p>
+                  <byline> Atteſted by <hi>Mrs.</hi> Frances Wildie   <hi>in Church-Eaton,</hi> Stafford-ſhire. </byline>
+               </div>
+               <div type="case">
+                  <p>2. <hi>Elizabeth Oakely</hi> of <hi>Shrewsbury,</hi> pain<g ref="char:EOLhyphen"/>ed in her Shoulders, Armes, Legs, indeed all over; ſo that ſhe had ſmall uſe of her Limbs Coming to the Well on Tueſday laſt, the <hi>4th.</hi> of <hi>July</hi> 1676. and there by Drinking and Bathing the remainder of the week: On the Munday following went away perfectly Cured of all her pains.</p>
+               </div>
+               <div type="case">
+                  <p>3. <hi>Mary Wood</hi> of <hi>Ridgley,</hi> in the County of <hi>Stafford,</hi> about nineteen years of Age; ha<g ref="char:EOLhyphen"/>ving pains as the former, but with a large ad<g ref="char:EOLhyphen"/>dition of a Scaby Scurfe all over her body, was in a weeks time Cured of all her pains; her face and body free from her Scurſe, the skin remaining ſmooth and ſoft.</p>
+               </div>
+               <div type="case">
+                  <p>4. <hi>John Hancher</hi> of <hi>Knighton</hi> in <hi>Shrop-ſhire,</hi> middle Aged, for many years tormented with pain in his Head, with Drinking this water, and Bathing his Head therewith ſometimes, was perfectly Cured.</p>
+               </div>
+               <div type="case">
+                  <p>5. <hi>Richard Scot</hi> of <hi>Pype-Yate</hi> in <hi>Shrop-ſhire,</hi> Aged about 50. years, Diſeaſed with ex<g ref="char:EOLhyphen"/>tream
+<pb n="11" facs="tcp:94825:10"/> pain in his Stomach for three years ſpace, having made uſe of ſeveral Phyſitians, but found no help, till coming to this Well; where by Drinking and Bathing he was per<g ref="char:EOLhyphen"/>fectly Cured:</p>
+                  <byline>Atteſted by  <hi>Mr.</hi> Thomas Cleyton   <hi>OF</hi> Onely <hi>in</hi> Stafford-ſhire. </byline>
+               </div>
+               <div type="case">
+                  <p>6. Mrs. <hi>Jane Reynolds</hi> of <hi>Muckleſtone,</hi> of
+60. years of Age in <hi>Stafford-ſhire,</hi> having an extream pain in her Shoulder, running down her Arme to her Fingers; with only Bathing it night and morning for three dayes in this water quite took away the pain.</p>
+                  <byline>Taken from her own mouth by  Samuel Gilbert. </byline>
+               </div>
+               <div type="case">
+                  <p>7. <hi>Abraham Launder</hi> of the Pariſh of <hi>Muckleſton,</hi> was troubled for twenty years with a pain and weakneſs in one of his Wriſts that he could not bare the weight of a pound therewith; waſhing in this water three or four times, ſtrengthned his Wriſt and took away the pain, ſo that he was never troubled ſince.</p>
+               </div>
+               <div type="case">
+                  <p>8. <hi>Margery Ruſſel</hi> of <hi>Offeley</hi> in <hi>Stafford-ſhire,</hi> Cured of Aches of her Bones and Con<g ref="char:EOLhyphen"/>tractions of Sinnews.</p>
+               </div>
+               <div type="poem">
+                  <pb n="12" facs="tcp:94825:11"/>
+                  <lg>
+                     <l>If Aches you have from Cold or Country Cauſ<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </l>
+                     <l>Nere ſeek for diſtant waters <hi>York-ſhire</hi> Spaw<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </l>
+                     <l>Nor throw away your Money on each Quak,</l>
+                     <l>That loudly of his Skill, on Stage doth Crack.</l>
+                     <l>Nor on ſome Pettycoat Doctreſſes,</l>
+                     <l>One Medicine makes for all Diſeaſes.</l>
+                     <l>That ſpeak moſt honey healing words to pleaſe yo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </l>
+                     <l>Who of your Money not you pain will eaſe you.</l>
+                     <l>
+                        <g ref="char:V">Ʋ</g>ſe then this Water, keep your Coin;</l>
+                     <l>Your told for no ones prophet but your own.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="bites" type="symptom">
+               <head>Bitings.</head>
+               <div type="case">
+                  <p>9. <hi>Arthur Dickson</hi> of <hi>Kendal</hi> in <hi>Weſtmo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:EOLunhyphen"/>land,</hi> Aged 69. years, having been bit<gap reason="illegible" resp="#TECH" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> with a Dog in the Calf of his Leg, ſo that ſi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> holes reach't the Bone, and in a ſmall ti<gap reason="illegible" resp="#TECH" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> wid'ned to that breadth, ſo that there mig<gap reason="illegible" resp="#TECH" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> be two fingers buried in each of them: H<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ving before that Accident had (but more en<g ref="char:EOLunhyphen"/>creaſed ſince) a great pain in that Leg an<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Knee. In three weeks time at this well was r<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>leaſed, of his pain, and his Sores Cured:</p>
+                  <byline>Taken from his own mouth, by Samuel Gilbert <date>July 13. 1676.</date>
+                  </byline>
+               </div>
+            </div>
+            <div n="bloody flux" type="symptom">
+               <head>Bloody Flux.</head>
+               <div type="case">
+                  <p>10. The VVife of <hi>Edward Hope</hi> of <hi>Mare i<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> Stafford-ſhire,</hi> Diſeaſed with the Bloody <hi>Flu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi>
+                     <pb n="13" facs="tcp:94825:11"/> four years: By this Water perfectly Cured;</p>
+                  <byline>Witneſſed by,  Francis Daniel. </byline>
+               </div>
+            </div>
+            <div n="bruising" type="symptom">
+               <head>Bruiſes.</head>
+               <div type="case">
+                  <p>11. <hi>Richard Scot</hi> of <hi>Pype-Yate</hi> in <hi>Shrop-ſhire,</hi> about 50. years of Age, being croping a Tree, received a blow on the Calf of his Leg, that ſo bruiſed it, that it became a Sore, that no Chirurgion was able to Cure, though he made uſe of the beſt he could get; and lying long under their hands. But a ſhort time Drinking and Bathing in this water, his Leg was perfectly reſtored to the ſoundneſs of the other, and as well able to make uſe of it as ever.</p>
+                  <byline>VVitneſſed by  <hi>Mr.</hi> Thomas Cleyton,   <hi>of</hi> Onely. </byline>
+               </div>
+               <div type="case">
+                  <p>12. A Servant man of <hi>Abraham Launders</hi> of <hi>Pool-hall,</hi> near <hi>Oare</hi> in <hi>Shrop-ſhire,</hi> that followed his VVaggon, the VVheel thereof bearing above twenty hundred weight go<g ref="char:EOLhyphen"/>ing over his Foot, ſo cruſhed it, that he lay under the Chirurgions hands ſeven weeks with no other hopes of ſaving his Leg, but by cutting off his Foot: Till Bathing in this water three weeks; was perfectly Cured, and again able to follow the VVaggon as former<g ref="char:EOLhyphen"/>ly.</p>
+                  <byline>Atteſted by his Maſter and  Thomas Tildeſly   <hi>of</hi> Bromley </byline>
+               </div>
+               <div type="poem">
+                  <pb n="14" facs="tcp:94825:12"/>
+                  <lg>
+                     <l>What greater cruſh can there be given,</l>
+                     <l>To man, than looſe his hopes of Heaven?</l>
+                     <l>And preſſed down to deeps below;</l>
+                     <l>Where Torments are in hoteſt glow.</l>
+                     <l>What greater comfort after this,</l>
+                     <l>Than be aſſur'd of laſting bliſs.</l>
+                     <l>Though the old Serpent bruiſed each heel,</l>
+                     <l>On his own head the pain will feel.</l>
+                     <l>Lets trample there, with mind and body too,</l>
+                     <l>No ſurer way our health for to renew.</l>
+                     <l>The Serpents bruiſes take from off the ſoul,</l>
+                     <l>This Water makes the bodies bruiſes whole<g ref="char:punc">▪</g>
+                     </l>
+                     <l>Though we here than be cruſh't to greateſt pain;</l>
+                     <l>This Water Comforts, Heals, gives eaſe again.</l>
+                     <l>With praiſe to God, Curtail the Serpents tread,</l>
+                     <l>Leaſt we trip but on's heel, he on our head.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="burns" type="symptom">
+               <head>Burns.</head>
+               <div type="case">
+                  <p>13. <hi>Samuel Jackson</hi> of <hi>Middle-wich</hi> in <hi>Che<g ref="char:EOLhyphen"/>ſhire,</hi> having very ſorely burnt the bottom of his foot, accidentally treading with his bare foot on a red hot Heater of a Smoothing Iron, which burnt near the thickneſs of it into his Foot: but no Salve being able to heal it for three months time, but rather mak<g ref="char:EOLhyphen"/>ing it worſe. But coming to this VVell, and Bathing in the water about ten dayes; 'tis ſo healed by it, that ſome perſons it hath been ſhown to, are ſcarce able to diſcover, where
+<pb n="15" facs="tcp:94825:12"/> it was burnt.</p>
+                  <byline>Taken from his own mouth and by the ſight of  Samuel Gilbert. </byline>
+               </div>
+               <div type="case">
+                  <p>14. A Daughter of <hi>John Clarks</hi> of <hi>Aſton</hi> in <hi>Stafford-ſhire<g ref="char:punc">▪</g>
+                     </hi> five years of Age; the fire catch<g ref="char:EOLhyphen"/>gin in her Aporn and Cloathes, moſt lamen<g ref="char:EOLhyphen"/>tably burnt her Belly and one of her Thighs, which could not by any means be healed for a year and halfs time, till Bathed about a dozen times with water fetched from this VVell.</p>
+                  <byline>This Atteſted by her Father to  Samuel Gilbert. </byline>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>If outward burning here do painful feel,</l>
+                     <l>And proving Soares as difficult to heal,</l>
+                     <l>What are the dangerous flames pent up within,</l>
+                     <l>Still fed with the vaſt fewel of our ſin?</l>
+                     <l>Which if not quenched here, will ever burn,</l>
+                     <l>And we as they, and ne'r to aſhes turn:</l>
+                     <l>Seek Cure for both, for their are Springs will do't,</l>
+                     <l>
+                        <g ref="char:V">Ʋ</g>nto the firſt, apply this water to't.</l>
+                     <l>For th' next, I hope already underſtood,</l>
+                     <l>Bath in the never failing Spring Chriſt's Blood.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="colic" type="symptom">
+               <head>Collick.</head>
+               <div type="case">
+                  <p>51. <hi>Edward Bate</hi> of <hi>Bloor</hi> in <hi>Drayton</hi> Pariſh under <hi>Hales, John North</hi> of <hi>Aſhley, William Gardiner</hi> of <hi>Mare, John Twyford</hi> of <hi>Aſton</hi> by
+<pb n="16" facs="tcp:94825:13"/> 
+                     <hi>Stone</hi>; all in the County of <hi>Stafford,</hi> by this water Cured of the VVinde Collick.</p>
+               </div>
+               <div type="case">
+                  <p>16. <hi>Edward Snep</hi> of <hi>Muckleſtone, Robert Croſs</hi> of <hi>Winnington;</hi> both in the County of <hi>Staf<g ref="char:EOLhyphen"/>ford,</hi> Cured by this water of the Stone Col<g ref="char:EOLhyphen"/>lick,</p>
+                  <byline>witneſſed by  <hi>Mr.</hi> Thomas Tildeſly. </byline>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Thus hath this water theſe Diſeaſes Cur'd,</l>
+                     <l>Let thoſe that make not uſe of't be inur'd.</l>
+                     <l>Wilfully to ſuch their diſtempring pain,</l>
+                     <l>Whoſe virtues they'l not try, but will diſdain.</l>
+                     <l>That power that turned water into wine,</l>
+                     <l>Makes this more worth than richeſt juice from Vine.</l>
+                     <l>For to this waters turn'd each Medicine.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="consumption" type="symptom">
+               <head>Conſumptions.</head>
+               <div type="case">
+                  <p>17. <hi>Sarah Plimly</hi> of the Pariſh of <hi>Drayton</hi> in <hi>Shrop-ſhire;</hi> having been (as judged) in a Conſumption for twenty years and more, by Drinking this water, and Bathing, was per<g ref="char:EOLhyphen"/>fectly Cured: Atteſted by <hi>Rohet Plimly</hi> her Father, living in the Pariſh and County a<g ref="char:EOLhyphen"/>foreſaid.</p>
+               </div>
+               <div type="case">
+                  <p>18. Mr. <hi>William Plimly</hi> of <hi>Norton</hi> in <hi>Shrop-ſhire</hi> about fourty years of Age; being ſo far entred into a Conſumption, that his Sto<g ref="char:EOLhyphen"/>mack digeſted nothing that it received, ac<g ref="char:EOLhyphen"/>companied with a tormenting Stich on his
+<pb n="17" facs="tcp:94825:13"/> left ſide, occaſioned at Sea; the Veſſel in which he was being run on the Sands, he continued long wet by being forced to wade to ſave his life. For his Diſtemper he could receive no benefit from many Doctors of Phyſick that he applyed himſelf to; who all gave him over as irrecoverable. But com<g ref="char:EOLhyphen"/>ing to this VVell laſt Spring, Drinking there<g ref="char:EOLhyphen"/>of, and Bathing only the pained ſide, it re<g ref="char:EOLhyphen"/>moved the Stich to the other ſide; which he Bathing and continuing the Drinking of it, it occaſioned much Vomiting, ſomtime gent<g ref="char:EOLhyphen"/>ly purging by Stool, but moſt by Urine, each night taking a Bottle home with him, which he uſed as before mentioned, ſo many dayes as but to fill up three weeks: It cleared him of his Stich, regained his Stomach, and re<g ref="char:EOLhyphen"/>ſtored him to as good a ſtate for health as ever. Atteſted by himſelf and <hi>Robert Plimly</hi> in <hi>Drayton</hi> Pariſh in <hi>Stafford-ſhire.</hi>
+                  </p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Great wheedler of poor men to death;</l>
+                     <l>Miſtaking quite thy whiſpering breath.</l>
+                     <l>That ſuch deluding thoughts do'ſt give,</l>
+                     <l>'Twixt hope and fear thinks ſtill to live.</l>
+                     <l>Till of a ſuddain, hopeleſs they,</l>
+                     <l>Remove into their beds of clay.</l>
+                     <l>If you from this conſumption cheat,</l>
+                     <l>Would live, and be in health repleat.</l>
+                     <l>Conſume thoſe vices that controul,</l>
+                     <l>The health of Body and of Soul<g ref="char:punc">▪</g>
+                     </l>
+                     <pb n="18" facs="tcp:94825:14"/>
+                     <l>Let th' Graces hand you to this Spring;</l>
+                     <l>For health, praiſe to the Author bring.</l>
+                     <l>Fail not of that unleſs moſt baſely rude,</l>
+                     <l>There's no Diſeaſe like to Ingratitude.</l>
+                  </lg>
+               </div>
+               <div type="case">
+                  <p>19. Mrs. <hi>Joan Maudley</hi> of <hi>Aſhburn</hi> in the County of <hi>Darby:</hi> Being Lame of one of her Legs, that ſhe could not without help get in or out of her Bed, by reaſon of her great pain and contraction of Sinews: being brought to this VVell the. <hi>4th.</hi> of <hi>July</hi> 1676. and but by Bathing till the <hi>11th.</hi> of the ſame month, could go ſo well as to have ſcarce a diſ<g ref="char:EOLhyphen"/>cernable halting. <hi>vide.</hi> the Contractions Cured in the Leproſies, in the third of Lameneſs.</p>
+               </div>
+            </div>
+            <div n="loose ligaments" type="symptom">
+               <head>Relaxation of Sinews.</head>
+               <div type="case">
+                  <p>20. A Boy whoſe name we cannot learn; his Legs hanging as if held together by threds, by reaſon of the weakneſs and laxed Ligaments and Sinews not being able to uſe them: In a ſhort time were ſtrengthned ſuf<g ref="char:EOLhyphen"/>ficiently to ſupport his body, by Drinking and Bathing at this VVell.</p>
+                  <byline>Atteſted by  Mr. and Mrs. <hi>Wildie.</hi> 
+                  </byline>
+               </div>
+            </div>
+            <div n="dropsy" type="symptom">
+               <head>Dropſies.</head>
+               <div type="case">
+                  <p>21. <hi>Margaret Tingle</hi> of <hi>Bloor</hi> in <hi>Stafford-ſhire,</hi> having her Legs much ſwell'd with the
+<pb n="19" facs="tcp:94825:14"/> Dropſie, by Drinking of the water but once, and three or four times Bathing, quite Cured.</p>
+                  <byline>Atteſted by  Francis Daniel   <hi>of</hi> Bromley. </byline>
+               </div>
+               <div type="case">
+                  <p>22. <hi>Lawrence Key</hi> of the Pariſh of <hi>Stoak</hi> upon <hi>Trent</hi> a ground Collier, being extreamly Hy<g ref="char:EOLhyphen"/>dropical, the humour ſo fell down into his Legs as to ſwell them to a great bulk: But putting them into this water the firſt time, he took them out; there came from all parts of them little Worms, about the bigneſs of Pins heads, very numerous; after them iſſued little drops of water: But by often Bathing brought down the ſwelling, ſtopped thoſe little iſſues, and perfectly Cured him. Taken from his own mouth.</p>
+                  <p>23. <hi>Mary Vicars</hi> of <hi>Knightly,</hi> Cured of a Dropſie.</p>
+                  <byline>Atteſted by  Samuel Rhodes. </byline>
+               </div>
+               <div type="case">
+                  <p>24. <hi>John Plimly</hi> of <hi>Madely</hi> in <hi>Stafford-ſhire,</hi> of middle Age, cruelly Diſeaſed with the Dropſie, his Belly ſwell'd bigger than a wo<g ref="char:EOLhyphen"/>man with child at her full time, and his Legs to the bigneſs of a reaſonable mans middle and of a ſtrange colour; brought to this VVell in <hi>March</hi> laſt on a Tueſday, and by the Fryday following, with Drinking and Bath<g ref="char:EOLhyphen"/>ing tok down the ſwelling, both of his Belly and Legs; and in nine dayes time Cured him
+<pb n="20" facs="tcp:94825:15"/> that he was able to follow his work after his uſual manner. Atteſted by Mrs. <hi>Jean Rey<g ref="char:EOLhyphen"/>nald's</hi> of <hi>Muckleſton</hi> in <hi>Stafford-ſhire,</hi> whoſe Workman he was, and ſtill is.</p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Was ever man delivered ſo from fear,</l>
+                     <l>Of Children many, as there's dayes ith' year!</l>
+                     <l>His Belly ſhould contain, being grown ſo big;</l>
+                     <l>'Twas paſt his power to ſee, or feel a Leg.</l>
+                     <l>His Belly like unto the great world ſeeming,</l>
+                     <l>Of ſtrange productions ready to be teeming.</l>
+                     <l>His upper parts with arme on Kembo ſet,</l>
+                     <l>Look't like the top of great Dutch jugge; but yet</l>
+                     <l>His moving Legs and Feet Antipodes,</l>
+                     <l>Alter'd my thoughts, that it was none of theſe.</l>
+                     <l>But that it was <hi>Copernicus's</hi> world,</l>
+                     <l>In which <hi>Perepaticks</hi> late were hurl'd.</l>
+                     <l>Who ſuitable unto their lives, might have,</l>
+                     <l>When paſt the ſtreights of death, a walking grave.</l>
+                     <l>Yet by this Water to the view of men,</l>
+                     <l>Was chang'd into a little world again.</l>
+                     <l>'Twas little leſs then miracle each thought,</l>
+                     <l>A man to Bed of a great Belly brought.</l>
+                     <l>The quick diſpatch of Cure, ſure done to ſhow,</l>
+                     <l>What likeleſs means can with Gods bleſſing do.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="scrofula" type="symptom">
+               <head>Kings-Evil.</head>
+               <div type="case">
+                  <p>29. <hi>Mary Ratcliffe</hi> of <hi>
+                        <g ref="char:V">Ʋ</g>ttoxiter</hi> in <hi>Stafford-ſhire,</hi> of middle Age; having had the Kings-Evil for twenty years, in her Face, Shoulders,
+<pb n="21" facs="tcp:94825:15"/> Armes and Legs; Drank of the water, and Ba<g ref="char:EOLhyphen"/>thed in it but for nine dayes time, in <hi>April</hi> laſt, was Cured of that Diſeaſe in all the parts before mentioned: But the Iſſues made in hopes to help her long before, (and nature having ſome recourſe that way) the water too haſtily healed up for want of her regular Drinking of it; occaſioned ſome Breakings out, which the water afterwards rectified by three or four dayes Drinking, and once or twice Bathing.</p>
+                  <byline>Atteſted by  <hi>Mr.</hi> Charles Cotton. </byline>
+               </div>
+               <div type="case">
+                  <p>26. Mr. <hi>Richard Nevill,</hi> of <hi>Richards-Court</hi> near <hi>Stafford</hi> a Lawyer, having a conſiderable ſwelling under his Chin, and by the date of it thought it the Kings-Evil, coming by the VVell as he was to journey about twenty Miles farther, dipped his Pocket Hancherchief in it, and applyed it as he rode to the grieved place, which occaſioned him ſo much eaſe, that he repeated it when he came back, tak<g ref="char:EOLhyphen"/>ing one Quart of it home with him, the uſe of it perfectly Cured him:</p>
+                  <byline>Affirmed by him<g ref="char:EOLhyphen"/>ſelf to  <hi>Mr.</hi> Thomas Tilſdeſley. </byline>
+               </div>
+               <div type="case">
+                  <p>27. A Daughter of Goodman <hi>Brookes</hi> in <hi>Oore<g ref="char:EOLhyphen"/>lane</hi> in <hi>Shrop-ſhire,</hi> Aged about ſixteen, Diſ<g ref="char:EOLhyphen"/>iaſed with the Kings-Evil, having a ſwelling on her Breaſt of long continuance: Bathing
+<pb n="22" facs="tcp:94825:16"/> in it but three times diſperſed the Humour, and ſo perfectly Cured her, that ſhe hath had no ſymptomes thereof ſince. The firſt Cure that was publickly noticed. Atteſted by <hi>Wil<g ref="char:EOLhyphen"/>liam Shaw</hi> a neighbour to the VVell.</p>
+               </div>
+               <div type="case">
+                  <p>28. Two Daughters of Mr. <hi>Braſſingtons</hi> of <hi>Karſey</hi> in <hi>Stafford-ſhire;</hi> one had the Kings-Evil in her Foot, ſo that ſhe could not wear any Shooe, but go with it lapt about with Cloathes, and ſcarceable to go then: with Drinking and Bathing nine dayes was Cured. The other being ſuſpected to have the ſame Diſtemper in her Knees, having ſome ſwel<g ref="char:EOLhyphen"/>lings there, ſtayed the ſame time, and both made dance by their Father at their going away, with as much agility as if never diſtemper'd.</p>
+                  <byline> Atteſted by  Charles Cotton. <date>April 1676.</date>
+                  </byline>
+               </div>
+               <div type="case">
+                  <p>29. <hi>Anne</hi> the Daughter of <hi>William Brucks,</hi> of <hi>Oore</hi> in the Pariſh of <hi>Muckleſton</hi> in the County of <hi>Salop,</hi> Aged about fifteen; Diſeaſed with the Kings-Evil, eſpecially in her Breaſt which was ſwelled as big as two Breaſts, yet Cured at three times Bathing. Taken from her own mouth by Mr. <hi>Andrew Dorrington</hi> of <hi>Stillinghurſt</hi> in <hi>Shrop-ſhire.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>30. <hi>Jone Grimes</hi> of <hi>Aſton</hi> by <hi>Stone,</hi> being to the apprehenſion of others as well as her ſelf,
+<pb n="23" facs="tcp:94825:16"/> blinded by the Kings Evil: This water hath recovered her ſight and Cured her of the Kings-Evil.</p>
+                  <byline>Atteſted by  <hi>Mr.</hi> Thomas Tildeſly   <hi>of</hi> Bromly. </byline>
+               </div>
+               <div type="case">
+                  <p>31. <hi>Elizabeth Cliffe</hi> of <hi>Maxfield</hi> in <hi>Cheſhire,</hi> having been blind with the Kings-Evil near two years. In ſix weeks time Cured of the Evil; and is now able to ſee to follow her Trade of Button making as formerly.</p>
+                  <byline>At<g ref="char:EOLhyphen"/>teſted by  Walter Wilſon. </byline>
+               </div>
+               <div type="case">
+                  <p>32. <hi>William Rowland</hi> of <hi>Bakewell</hi> in <hi>Darby-ſhire,</hi> Cured of the like Diſtemper.</p>
+               </div>
+               <div type="case">
+                  <p>33. <hi>John Knowles</hi> of <hi>Bridgworth</hi> in <hi>Shrop-ſhire,</hi> Cured of the like Diſtemper.</p>
+                  <byline>Atteſted by  William Shaw. </byline>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>'Mongſt our Phyſitians there are none,</l>
+                     <l>The Curing this Diſeaſe will own.</l>
+                     <l>They as often tryed, as often fail'd,</l>
+                     <l>But never any yet aſſail'd.</l>
+                     <l>To Conquer it with water here,</l>
+                     <l>But with few wounds got th' victory clear.</l>
+                     <l>Though lamely they the on ſet made,</l>
+                     <l>Look't pale and wan as if afraid.</l>
+                     <l>Yet march't away with nimble paces,</l>
+                     <l>And flying colours in their faces.</l>
+                     <l>Thus <hi>Engliſh</hi> Maſtiffe's fighting hold,</l>
+                     <l>No force, can their clos'd teeth unfold.</l>
+                     <pb n="24" facs="tcp:94825:17"/>
+                     <l>Till in their mouths one water threw,</l>
+                     <l>The Combatents they ſtraight with drew.</l>
+                     <l>So man with this Diſeaſe being joyn'd.</l>
+                     <l>Their fleſh away in battle pin'd.</l>
+                     <l>This water thrown, within, without;</l>
+                     <l>Looſes their hold, drives th' evel out.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="syphilis" type="symptom">
+               <head>French-Pox.</head>
+               <div type="case">
+                  <p>43. A Gentle Woman on the edge of <hi>Che<g ref="char:EOLhyphen"/>ſhire,</hi> whoſe name I forbear to mention, had the French-pox given her by her Husband; which ſo ſeaſ'd her ſecret parts that ſhe could ſcarce go, and on her Throat and Pallat of her mouth that ſhe could not well be under<g ref="char:EOLhyphen"/>ſtood what ſhe ſpoke, bringing her body to a very low ebb of health, very pale and lean: but having been at this well Bathing and Drink<g ref="char:EOLhyphen"/>ing for three weeks, hath ſo recovered her health as to have a rudy Complexion, plump<g ref="char:EOLhyphen"/>neſs and ſtrength of body, with great amend<g ref="char:EOLhyphen"/>ment of Speech. This if occaſion offer'd, will be verified by Mr. <hi>Andrew Dorrington</hi> of <hi>Sillinghurſt</hi> in <hi>Shropſhire.</hi>
+                  </p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Farewel <hi>Cornelius Tub</hi> be gone,</l>
+                     <l>Here's cleanlier Cure for every one,</l>
+                     <l>Thou makes men look like parboil'd fleſh,</l>
+                     <l>But this doth make you clear and freſh.</l>
+                     <l>No Pills of Turpentine you need,</l>
+                     <l>All medicines this doth far exceed.</l>
+                     <pb n="25" facs="tcp:94825:17"/>
+                     <l>Yet you will find repentant tears,</l>
+                     <l>The ſoul of all diſeaſes clears,</l>
+                     <l>Then waſh with both, ſince beſt for each,</l>
+                     <l>Experience may diſcretion teach.</l>
+                     <l>For he that knows the fire will burn,</l>
+                     <l>Doth reaſon Topſie turvie turn.</l>
+                     <l>That hath been ſcorched by its flame,</l>
+                     <l>Will venture't play an after game</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="ringworm" type="symptom">
+               <head>Head Scald.</head>
+               <div type="case">
+                  <p>35. Two Children of <hi>Morgan Shanbrooks</hi> in <hi>Shelton</hi> and over St. <hi>Chads, Salop,</hi> Cured of very grievous Scald-heads, by Drinking and Waſhing their Heads therewith.</p>
+                  <byline>Atteſted by  <hi>Mr.</hi> Tho. Tildeſly. </byline>
+               </div>
+               <div type="case">
+                  <p>36. <hi>Thomas Ward</hi> of <hi>Ehelmarton</hi> in <hi>Blacke<g ref="char:EOLhyphen"/>well</hi> Pariſh in <hi>Darby-ſhire,</hi> and his Brother <hi>Edward Ward.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>37. <hi>Henry Eliſſon</hi> and <hi>Elen</hi> his Siſter of <hi>Stockholms</hi> in <hi>Cheſhire,</hi> in <hi>Kunckorne</hi> Pariſh, all in near abouts three weeks time, by Drinking and Bathing perfectly Cured of very Sore Scald-heads. Atteſted by <hi>Samuel Gilbert,</hi> &amp;c.</p>
+               </div>
+               <div type="case">
+                  <p>38. Many more of this nature, which can<g ref="char:EOLhyphen"/>not here be ſet down, through neglect in taking their names at their going away from the Well.</p>
+               </div>
+            </div>
+            <div n="lameness" type="symptom">
+               <head>Lameneſs.</head>
+               <div type="case">
+                  <p>39. <hi>Grace Hollenſhead</hi> of <hi>Worſworth</hi> in the County of <hi>Darby,</hi> Cured in few days of a Lameneſs of her Limbs, and Weakneſs of
+<pb n="26" facs="tcp:94825:18"/> Body Atteſted by Mr. <hi>Andrew Dorrington</hi> of <hi>Stillinghurſt</hi> in <hi>Shropſhire.<g ref="char:punc">▪</g>
+                     </hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>40. A Stranger, whoſe name could not be known, brought to the Well in a Cart, ſo Lame that he had no uſe of his lower parts, the water ſo recovered him, that he left his Cart behind him, and went away from the VVell on foot perfectly Cured to the eye of all perſons then there Atteſted by. Mr. and Mrs. <hi>Widlie</hi> than of <hi>Willowbridge.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>
+                     <hi>Mary Phillips</hi> of <hi>Prees</hi> Pariſh in <hi>Shropſhire</hi> Lamed of both her Legs, her Armes and Hands, and ſuch a contraction of her Sinews in her hands, that they were kept clutched by it, having the uſe of neither Armes, Hands, nor Legs, not able to help her ſelf: In a weeks time Drinking and Bathing, ſhe could not only go, but run; and in a fortnights time Cured both Legs, Armes and Hands, of which ſhe hath now the perfect uſe.</p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Come make a halt then at this Spring,</l>
+                     <l>Your Lameneſs you may thither bring.</l>
+                     <l>But if you uſe the water right,</l>
+                     <l>You'l find, eaſe profit and delight.</l>
+                     <l>Better than ſtrong drink will this water,</l>
+                     <l>Make you to daunce and cut a caper.</l>
+                     <l>Enabled then to ſhow your honour,</l>
+                     <l>Make a whole leg unto the Donor.</l>
+                     <l>What miracles doth from it flow,</l>
+                     <l>Makes Blind to ſee, the Lame to go.</l>
+                     <l>A medicine ſure this Age will pleaſe,</l>
+                     <l>When drinking Cureth the diſeaſe.</l>
+                     <l>Off with your Glaſs, nay twenty more,</l>
+                     <l>'Tis for your health, ne're give it o're<g ref="char:punc">▪</g>
+                     </l>
+                     <pb n="27" facs="tcp:94825:18"/>
+                     <l>The greateſt Tiplers here make known,</l>
+                     <l>Though to others health they drink their own.</l>
+                     <l>Drink freely than, there's none that grutges,</l>
+                     <l>'Twil make you fling away your Crutches.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="leprosy" type="symptom">
+               <head>Leproſie.</head>
+               <div type="case">
+                  <p>42. <hi>Joſeph Gennings</hi> of <hi>Crannage</hi> in <hi>Che<g ref="char:EOLhyphen"/>ſhire,</hi> Aged twenty years, Diſeaſed ſeven of them with a Leprous breaking out all over his Body, from top to toe, not able to go, or ſcarce ſtir, the Sinews of his Fingers Tucked up that he had ſmall uſe of any of them. Drinking and Bathing at this VVell a weeks time was able to go half a mile, or more to his lodging, too and fro from the Well; and all his Scabs ſheld off, except ſome few upon his Feet. Eye witneſſed by <hi>Samuel Gilbert,</hi> &amp;c. About nine dayes after the ſame perſon went thence perfectly clear of his Leproſie, his Fingers extended, and his Body in health.</p>
+               </div>
+               <div type="case">
+                  <p>43. <hi>Edmund Hulme</hi> of <hi>Licksrith</hi> in <hi>Staf<g ref="char:EOLhyphen"/>ford-ſhire,</hi> Diſeaſed after the ſame manner as the former, but that he had the uſe of his Limbs; in three dayes time, Drinking and Bathing, ſo freed him from Scabs, and kil'd the Diſtemper, that he would not be perſwad<g ref="char:EOLhyphen"/>ed to ſtay three or four dayes longer, but went away the fourth day after his coming thither, taken from his own mouth, and eye witneſs by <hi>Samuel Gilbert.</hi>
+                  </p>
+                  <pb n="28" facs="tcp:94825:19"/>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Lepers Arm'd Cap a-pee in Scales<g ref="char:punc">▪</g>
+                     </l>
+                     <l>Whoſe dreadful fight with horror quales.</l>
+                     <l>This water penetrats, and in</l>
+                     <l>Piece meles brings off to the naked skin.</l>
+                     <l>Make them as ſound as th' ever were.</l>
+                     <l>With child-like-ſoftneſs, ſmooth and clear.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="strangulation of the womb" type="symptom">
+               <head>Fits of the Mother.</head>
+               <div type="case">
+                  <p>44. <hi>Mrs. Dorothy Cotton</hi> of <hi>Apen</hi> in <hi>Stafford-ſhire,</hi> being much troubled with the above named Diſtemper, was Cured by Drinking four Glaſſes of this water at the Well, and taking one or two quart Bottles home with her for that uſe, and was never troubled ſince in that kind.</p>
+                  <byline>Atteſted by her neighbour  Mrs. Wildie. </byline>
+               </div>
+            </div>
+            <div n="palsy" type="symptom">
+               <head>Palſie.</head>
+               <div type="case">
+                  <p>45. <hi>Richard Edwards</hi> a Black-ſmith in <hi>Mere-lane-end</hi> in <hi>Stafford-ſhire,</hi> brought to <hi>Willowbridge</hi> in <hi>March</hi> laſt, ſo Diſeaſed by the Palſie all over his Body, that he was not able to go thence to the VVell without being Lead and ſupported by two men, under three hours time; having been there about three weeks, Drinking and Bathing, his Palſie was ſo abated, as to walk it in as ſhort a time as moſt in health, without ſup<g ref="char:EOLhyphen"/>port, or reſting. Atteſted by Mr. <hi>Charles Cotton,</hi> and Mr. and Mrs. <hi>Wildie,</hi> then living at <hi>Willowbridge.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="rickets" type="symptom">
+               <pb n="29" facs="tcp:94825:19"/>
+               <head>Rickets.</head>
+               <div type="case">
+                  <p>46. A Child of <hi>William Lingard's</hi> three years old, troubled with the Rickets that it could never go a ſtep, having been Bathed in, and Drank of this Water but three dayes, the fourth day could uſe its Legs, and go three or four yards without holding; in the ſight of <hi>Samuel Gilbert</hi> and many others at the VVell.</p>
+               </div>
+               <div type="case">
+                  <p>47. A Son of <hi>Gorings,</hi> or <hi>Golling</hi> of <hi>Cal<g ref="char:EOLhyphen"/>low-hill</hi> in <hi>Stafford-ſhire,</hi> 
+                     <abbr>Eſq</abbr> that would by no means hear talk of any more than ordi<g ref="char:EOLhyphen"/>nary virtue this VVell had, eſpecially of doing his Son any good, that was much weakned with the Rickets, and a great faultring of Speech: was extraordinarily amended in both by ſome bottles privately ſent for of this wa<g ref="char:EOLhyphen"/>ter, by his mother, with which he was Ba<g ref="char:EOLhyphen"/>thed and of which he Drank: Which his Fa<g ref="char:EOLhyphen"/>ther marvailing at, alter'd his opinion of this Well, and fears not to be perfect now pub<g ref="char:EOLhyphen"/>lickly by this Water, what was ſo happily, tho againſt his conſent, and privately begun.</p>
+                  <p>We have had many informations of this Diſeaſe be<g ref="char:EOLhyphen"/>ing Cured in many Children, but till we are aſſured of the truth, we forbear to mention them.</p>
+               </div>
+            </div>
+            <div n="scurvy" type="symptom">
+               <head>Scurvy.</head>
+               <div type="case">
+                  <p>48. Mrs. <hi>Prudence Crompton</hi> of <hi>Miſwich</hi> in the County of <hi>Stafford,</hi> a Gentlewoman of
+<pb n="30" facs="tcp:94825:20"/> good Quality (being as willing to declare, as others, to conceal the mercies of God in this Wells Curing their Diſtempers) affirms, that ſhe had the Scurvy in that height that it occaſion'd her a ſore Leg with four great holes in it, of dangerous conſequence. That her Stomach had almoſt wholly loſt its, dige<g ref="char:EOLhyphen"/>ſtive faculty, and that for thirty five years ſhe Drank nothing but warm Drink, yet the Drinking of this very Cold water no way of<g ref="char:EOLhyphen"/>fended, but rather proved as a Cordial to her weak Stomack, recalling its loſt digeſtion, and by Drinking and Bathing about a weeks time with this water, cleared her of her Scurvy, and Cured her Leg.</p>
+               </div>
+               <div type="case">
+                  <p>49. <hi>Edward Whitfoot</hi> of <hi>Cundever</hi> in <hi>Shrop<g ref="char:EOLhyphen"/>ſhire,</hi> near <hi>Shrewsbury,</hi> being ſorely handled with the Scurvy, which occaſioned Scabs and Ulcers for 7 years all over his body; Drinking of, and Bathing in the water of this Spring ſomewhat about a fortnights time, the latter end of <hi>June,</hi> and beginning of <hi>July,</hi> perfectly Cured him.</p>
+               </div>
+               <div type="case">
+                  <p>50. <hi>Thomas Howel,</hi> Husbandman Aged 70. living in <hi>Drayton</hi> near <hi>Shifnal</hi> in <hi>Shropſhire,</hi> having had a ſtoppage in his Stomach, pain in his belly for half a years time, his blood being putrified, which appeared by the Scurvy he was Deſeaſed with, and breakings out. Coming to this VVell, and Drinking and Bathing, ſtir'd him not till the third day,
+<pb n="31" facs="tcp:94825:20"/> and then it purged him; the <hi>4th.</hi> day alſo, the <hi>6th.</hi> again, after which it bound him for
+3. dayes, and in that time drove out all his Diſtemper to the extream parts of his body in a violent manner, working by Urine all the while, but continually Drinking and Bathing five weeks in the whole, till this preſent day <hi>July</hi> the <hi>7th.</hi> 76. he is thought to be perfect<g ref="char:EOLhyphen"/>ly Cured of all Deſeaſes but Old Age.</p>
+                  <byline>Taken from his own mouth at the VVell by  Samuel Gilbert, <hi>&amp;c.</hi> 
+                  </byline>
+               </div>
+               <div type="case">
+                  <p>51. The VVife of <hi>William Gratewood</hi> of <hi>Croxon</hi> of <hi>Staffordſhire,</hi> having her face bli<g ref="char:EOLhyphen"/>ſtered all over (as ſhe thought) by the Scur<g ref="char:EOLhyphen"/>vy: ſome few times waſhing with this water, Cured her. Atteſted by <hi>William Shaw.</hi>
+                  </p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Never ſo much did this Diſtemper reign,</l>
+                     <l>In all ſorts and Sexes from every vein:</l>
+                     <l>To ſad Diſeaſes 'tis the fatal riſe,</l>
+                     <l>Begun, continued, by our acts in vice.</l>
+                     <l>So never Medicine of ſuch force did prove,</l>
+                     <l>As this our Epidemick ill, t'remove.</l>
+                     <l>Cleanſe thou from ſinnes this thy body frees,</l>
+                     <l>From filth 'tis great Phyſitians only fees.</l>
+                     <l>Till which thou giveſt, and ſo thy part fulfill,</l>
+                     <l>Scorbutick humours lurk within thee ſtill.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="sores" type="symptom">
+               <head>Soares.</head>
+               <div type="case">
+                  <p>52. A Girl of about 17. years of Age, named <hi>Harding</hi> of <hi>Stondon</hi> in <hi>Stafford-ſhire,</hi> Infirmed with very ſore Legs from her Infancy occa<g ref="char:EOLhyphen"/>ſioned by the Rickets, or the ſmall Pox, not being by purge carried off, fell down into her
+<pb n="32" facs="tcp:94825:21"/> Legs which occaſioned her running Soars that could not be Cured, though they uſed the beſt means they could, till at the Age above named: ſhe was brought to this VVell, where Drink<g ref="char:EOLhyphen"/>ing of, and Bathing in it for a ſhort time, was perfectly Cured. Atteſted by Mr. <hi>Greenwood</hi> Rector of <hi>High-Ofly.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>53. VVidow <hi>Jackson</hi> of <hi>Norton <g ref="char:V">Ʋ</g>nderhales</hi> in <hi>Shropſhire,</hi> Aged about 70. Infirmed with a dangerous ſore, ſo that for 40. years never skinned over, nor could ſhe wear whole ſhooe or Stocken for all that time: this in a ſhort time the water perfectly Cured. Atteſted by Mr. <hi>John Bradly</hi> Rector of <hi>Norton,</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>54. <hi>Elizabeth</hi> the Wife of <hi>Peter Gilworth</hi> of <hi>Pencle,</hi> near <hi>New-Caſtle</hi> under Line, had a ſore Leg that iſſued Blood for a long time: At the firſt Bathing took away the pain, and ſtopped the bleeding, and in one dayes time healed it beyond belief; from her own mouth <hi>Tho. Tildeſly</hi> Teſtis.</p>
+               </div>
+               <div type="case">
+                  <p>55 <hi>Elizabeth Alman</hi> of <hi>Laur Delph</hi> in <hi>Stoak</hi> by <hi>Newcaſtle under Line,</hi> having had a ſore Leg with eight holes in it, for three years; by this water was perfectly Cured.</p>
+               </div>
+               <div type="case">
+                  <p>56 <hi>Edward Hanks</hi> a Tanner in <hi>Nampwitch:</hi> His man had a ſore Leg ſwelled as big as two for two years time; none of the Chirurgions there being able to Cure him, this water performed it in a Months time.</p>
+               </div>
+               <div type="case">
+                  <p>57. <hi>Robert Daniel</hi> of <hi>Gayburſt,</hi> had a ſore
+<pb n="33" facs="tcp:94825:21"/> Leg with two iſſues in it for ſeven years, which no Chirurgion could ſtop, or Cure: one quart of this water ſcaled the Bone, ſtop<g ref="char:EOLhyphen"/>ped the Iſſues, and healed the Soares.</p>
+               </div>
+               <div type="case">
+                  <p>58 <hi>Mary Nevil</hi> of <hi>Charms</hi> in the Pariſh of <hi>Ecleſhall</hi> in the County of <hi>Stafford,</hi> her Legs being Scratched with a Bryer, feſter'd near to a Gangreen, for which ſhe lay under the Chirurgions hands for two years, rather made worſe then better by them. This water Cured her in ten dayes time: Theſe three laſt affirmed by <hi>Tho. Tildeſly.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>59. <hi>Henry Cotton,</hi> of <hi>Woodſeas</hi> in the Pariſh of <hi>High-Ofly,</hi> had a ſore Leg, with the ad<g ref="char:EOLhyphen"/>dition of a pain in his right Arme; both which were Cured by this water,</p>
+                  <byline> Samuel Roder  Teſtis.</byline>
+               </div>
+               <div type="case">
+                  <p>60. <hi>Dorothy</hi> the Wife of <hi>Francis Moreton</hi> of <hi>Stafford,</hi> grieved with ſore Legs 16. years, Cured in one months time, Teſtis <hi>Wal. Wilſon.</hi>
+                  </p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>All ſores this ſoveraign water heals,</l>
+                     <l>Hundreds more then this book reveals.</l>
+                     <l>Then throw away your daubs and Salves,</l>
+                     <l>Which ſeldom Cures you but by th' halves.</l>
+                     <l>With faith your unbelief controle,</l>
+                     <l>Then 'tis but Bathing and be whole.</l>
+                     <l>This Spring hath ſuch rare virtues in't,</l>
+                     <l>'Tis Surgeon, plaiſter, probe, and lint.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="swelling" type="symptom">
+               <head>Swelling.</head>
+               <div type="case">
+                  <p>61. A young woman of <hi>Darleſton</hi> near <hi>Wem</hi> in <hi>Shropſhire,</hi> having for many years ſuch a Swelling in her Hands and Feet, that
+<pb n="34" facs="tcp:94825:22"/> neither her Fingers nor Toes could be par<g ref="char:EOLhyphen"/>ted, without Cletts of Wood to force them open: By this water in a ſhort time was perfectly Cured: atteſted by <hi>James Higgins</hi> of <hi>Newport</hi> Confectioner.</p>
+               </div>
+               <div type="case">
+                  <p>62. Goodman <hi>Shropſhire</hi> in <hi>Ecleſhall</hi> Pariſh, living on <hi>Gratewood-heath,</hi> having a gathe<g ref="char:EOLhyphen"/>ring on his Hand that diſinabled him for do<g ref="char:EOLhyphen"/>ing a dayes work in twenty weeks, all reme<g ref="char:EOLhyphen"/>dies he applyed, not breaking it, untill he came to the VVell, and holding his hand in the water not a quarter of an hour, but off comes a white skine like a Glove, leaving one blood-red behind it; putting his hand again into the water, it preſently broak it, and without any more than once Bathing, taking ſome of the water home with him, dipping Linin Cloathes in it, and applying them to his Hand, made it as perfect as ever; from his own mouth.</p>
+               </div>
+               <div type="case">
+                  <p>63. <hi>Mary Lovet</hi> 19. years of Age, Diſ<g ref="char:EOLhyphen"/>eaſed five years with a ſwelling in her Thighs Legs, Cured by this water,</p>
+                  <byline> Thomas Tildeſly  Teſtis.</byline>
+               </div>
+               <div type="case">
+                  <p>64. <hi>Mary Charles</hi> of <hi>Bloor-heath</hi> in <hi>Stafford-ſhire,</hi> having her Leg and Thigh ſwelled ex<g ref="char:EOLhyphen"/>treamly, that ſhe was forced to be Carried for a twelvemonth upon all occaſions. Re<g ref="char:EOLhyphen"/>fuſed both by Phyſitians and Chirurgeons as paft Cure; making uſe of this water by Drinking and Bathing hath thrown away <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>he Crutches: and is perfectly Cured.</p>
+               </div>
+               <div type="case">
+                  <p>
+                     <pb n="35" facs="tcp:94825:22"/>
+65 Mrs. <hi>Jean Reynolds</hi> of <hi>Muckleſtone</hi> in <hi>Stafford-ſhire,</hi> having a great pain and ſwelling in her Hip, which being Bathed in this water, drove it down into her Leg with extream pain and ſwelling there, and fiery redneſs: but then Drinking and Bathing in it for three dayes, it took away the pain, brought down the ſwelling, and reduced it to its natural colour again, perfectly Curing her.</p>
+                  <byline>Taken from her own mouth,  Samuel Gilbert. </byline>
+               </div>
+               <div type="case">
+                  <p>66 <hi>Andrew</hi> Son to <hi>Thomas Powel</hi> of <hi>Drayton Shifnal</hi> in <hi>Shropſhire,</hi> having his Legs ſwel'd as big as his Middle, occaſioned by its being formerly wounded under the Calf thereof with the ſtub of a tree, healed up by a Chi<g ref="char:EOLhyphen"/>rurgion, but not to the bottom; being brought to the VVell in much pain of his Leg and thigh: Few times waſhing, or Ba<g ref="char:EOLhyphen"/>thing, broak the ſwelling, which iſſued out at one great hole three inches deep, and two in breadth. In a months time afterwards by Bathing and Drinking, brought his Leg to its juſt proportion, and heal'd the ſoar. Curing him alſo of a breaking out all over his body.</p>
+                  <byline>Taken from his own mouth by  Samuel Gilbert. </byline>
+               </div>
+               <div type="case">
+                  <p>67 <hi>Edward Bates</hi> of <hi>Bloor</hi> in <hi>Stafford-ſhire,</hi> ſwel'd in his Body that he was not able to ſtoop: Four times Drinking this water, per<g ref="char:EOLhyphen"/>fectly Cured him, its operation was by ex<g ref="char:EOLhyphen"/>ceſſive
+<pb n="36" facs="tcp:94825:23"/> purging as the nature of his Diſeaſe required. Atteſted by <hi>Francis Daniel</hi> of <hi>Gerards Bromley.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>67. <hi>Margaret Tingle</hi> of <hi>Bloor,</hi> in <hi>Staf<g ref="char:EOLhyphen"/>ford-ſhire,</hi> having her Legs exceſſively ſwel'd. By Drinking the water but once, and Bathing three or four times; quite Cured her, At<g ref="char:EOLhyphen"/>teſted by the foregoing <hi>Francis Daniel.</hi>
+                  </p>
+               </div>
+               <div type="case">
+                  <p>68. A man whoſe name we have forgot came to this VVell this Spring with a Leg ſwel'd a yard about, Drinking and Bathing thereat, reduced it to the ſmallneſs of his other Leg in a ſmall time, witneſſed by Captain <hi>John Broughton</hi> of <hi>Whittington,</hi> and Mr. <hi>Lutchwood</hi> of <hi>Blake,</hi> both in the County of <hi>Stafford.</hi>
+                  </p>
+               </div>
+               <div type="poem">
+                  <lg>
+                     <l>Some inward cauſe, this outward ill produces,</l>
+                     <l>Nature is apt to find out many ſluces</l>
+                     <l>To disburthen her, from all ill humours,</l>
+                     <l>And throws them off into thoſe ſwelling Tumours;</l>
+                     <l>Which little Bathing here hath tane away.</l>
+                     <l>Gods power in this water's largely ſhown,</l>
+                     <l>His Goodneſs, and its virtues let us own.</l>
+                     <l>Whoſe force like Eſops Ox to the Swelling Toad,</l>
+                     <l>Cruſhes the poyſonous humour from abode.</l>
+                  </lg>
+               </div>
+            </div>
+            <div n="worms" type="symptom">
+               <head>Worms.</head>
+               <div type="case">
+                  <p>69. A young Gentleman of Noble Qua<g ref="char:EOLhyphen"/>lity, by two or three dayes Drinking of the water, and once Bathing, hilled the VVorms, and carryed them off by ſiedge; which he had in a great quantity.</p>
+                  <byline>Affirmed by  Samuel Gilbert, <hi>&amp;c.</hi> 
+                  </byline>
+               </div>
+            </div>
+            <div type="conclusion">
+               <p>
+                  <pb n="37" facs="tcp:94825:23"/> Many perſons not mention'd, were left at the well with the ſtrangeſt ſoar legs that were ever ſeen; eſpe<g ref="char:EOLhyphen"/>cially one woman that lay ſeveral years under Chi<g ref="char:EOLhyphen"/>rurgions hands at <hi>Cheſter</hi> without help; ſeveral of the Kings-evil, of Conſumptions, Dropſies, Scurvy, <hi>&amp;c.</hi> That are in a fair way of being by it ſpeedily Cured.</p>
+               <list>
+                  <head>A Table of the Contents of the Cures.</head>
+                  <item>Aches. page 9.</item>
+                  <item>Bitings 12.</item>
+                  <item>Bloody-ſlux. 12.</item>
+                  <item>Bruiſes. 13.</item>
+                  <item>Burnes. 14.</item>
+                  <item>Collicks. 15.</item>
+                  <item>Conſumptions. 16.</item>
+                  <item>Contractions. 18</item>
+                  <item>Dropſies. 18</item>
+                  <item>Kings-evil. 20.</item>
+                  <item>French-Pox. 24.</item>
+                  <item>Head-ſcal'd. 25.</item>
+                  <item>Lameneſs. 25.</item>
+                  <item>Leproſie. 27.</item>
+                  <item>Mother. 28.</item>
+                  <item>Palſies. 28.</item>
+                  <item>Relaxations.</item>
+                  <item>Rickets. 29.</item>
+                  <item>Scurvy. 29.</item>
+                  <item>Soares. 31.</item>
+                  <item>Swellings. 33.</item>
+                  <item>Ulcers, (<hi>vizd</hi>) Soares</item>
+                  <item>Worms. 36.</item>
+               </list>
+               <p>All perſons that receive that receive benefit by the water of this Well, either for Internal, or external Diſtempers, are deſired under their own hands, or by another from their own mouths, to leave at <hi>Wil<g ref="char:EOLhyphen"/>lowbridge-Lodge</hi> an account thereof; the nature of their Diſtemper, how they uſed the Water, what time, and in what quaintity, how it operated, and what effects enſued; that there may be the better ad<g ref="char:EOLhyphen"/>vantage made of it, from experience for the health of others, which is the only deſign of what is done, or Writ concerning this Well.</p>
+               <pb n="38" facs="tcp:94825:24"/>
+               <lg>
+                  <l>Of <hi>Abana,</hi> and <hi>Pharphar</hi> wee,</l>
+                  <l>No praiſes have, nor <hi>Jordan</hi> ſee.</l>
+                  <l>Famous for being our Saviours Font,</l>
+                  <l>What ſacred Writ expreſſes on't.</l>
+                  <l>The Bath and Spaw ſeem out of date,</l>
+                  <l>And petties Springs of ebber Rate.</l>
+                  <l>Nay even Holy-Well is croſt,</l>
+                  <l>Saint <hi>Magnus</hi> hath its virtues loſt.</l>
+                  <l>As if their fate were to inforce;</l>
+                  <l>The power of this new found ſource.</l>
+                  <l>For here's a Well doth quickly do,</l>
+                  <l>What thoſe did but pretend unto.</l>
+                  <l>You need not to Phyſitians give,</l>
+                  <l>Prepare your Bodyes to receive.</l>
+                  <l>This healing ſpring that runneth free,</l>
+                  <l>The God of Mercies needs no Fee.</l>
+                  <l>But in this wonderous water doth,</l>
+                  <l>Give Medicine and Phyſitian both.</l>
+                  <l>Outward and inward griefs to eaſe,</l>
+                  <l>Cures old as well as young-Diſeaſe.</l>
+                  <l>In any Sex, or Age more fit,</l>
+                  <l>For th' Authors praiſe then Poets Wit.</l>
+                  <l>You then can Hallelujahs ſing,</l>
+                  <l>Your voices raiſe for this Bleſt-Spring.</l>
+                  <l>And let the Echoing Woods reſound,</l>
+                  <l>Bleſſed be her that firſt it found.</l>
+               </lg>
+               <p>Let me further add, that it is impoſſible any perſon ſhould receive the like advantage of this water, uſing it at a great diſtance from the Spring, as thoſe tha<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> there make uſe of it, Becauſe it being full of Volatile ſpirit which ſearches out, and into Diſtempers will <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Carriage evaporate, though never ſo carefully made up And its Sanative Oylineſs, that heals them, left on th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſides of the Veſſels in which it is Carried. So that a ſtanding in need thereof (that can wi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h any conve<g ref="char:EOLunhyphen"/>niency) are adviſed to Bath in it, as well as Drink o<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> it freſh from the Spring, e're it looſe its Spirits, or by <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb n="39" facs="tcp:94825:24"/> ſtranding deprived of the Oyile matter that is in it.</p>
+               <p>Before I take off my Pen, ſome who prizes thoſe noble kind of Creatures called Horſes, may have occa<g ref="char:EOLhyphen"/>ſion to thank me for theſe few Lines, more ſcribling in giving a ſhort account of what Diſeaſes this excellent water, both Cured in Horſes (<hi>viz</hi>) ſeveral of the Pocky Faſhions in few dayes.</p>
+               <p>Some that have had the Stone, and could not Stale. Many of the Riffe.</p>
+               <p>All ſorts of Soares, Swellings, Sprains, Aches in any part.</p>
+               <p>Soar Eyes near to Blindneſs; ſome in a nights ſpace.</p>
+               <p>The Names of the Owners of the Horſes, or of thoſe that affirmed it, being eye-witneſſes, might (or may) be given if thought neceſſary.</p>
+               <lg>
+                  <l>My muſe of late, putting her foot in ſtrrop,</l>
+                  <l>And <hi>Pegaſus</hi> by this Well Cured, doth Galop.</l>
+                  <l>With uſual ſpeed, ne'r tyring at her rate,</l>
+                  <l>As others do, whoſe verſes trot in ſtate;</l>
+                  <l>Or Trammel all their words for ambling Gate.</l>
+                  <l>Whoſe muſe is dated a month at leaſt,</l>
+                  <l>The ſloweſt motion's from the greateſt beaſt.</l>
+                  <l>Who ſtrikes at all things, that is not his own;</l>
+                  <l>Back Vulpans voice, but a face Spanial tone.</l>
+                  <l>But let ſuch winching Cattle private ſtick,</l>
+                  <l>Leaſt publique they appear, have kick for kick,</l>
+                  <l>Though wine a little harmleſs Galloway,</l>
+                  <l>Whoſe work aſſords no Oates, but lives on Hay.</l>
+                  <l>Is ready ſadled; 'tis but up and ride,</l>
+                  <l>Yet hath ſome fancy too in every ſtride.</l>
+                  <l>But if unruly grown without a Strap,</l>
+                  <l>You may ſoon quiet him, with gentle clap.</l>
+                  <l>For his ſmall heats were for to let you know,</l>
+                  <l>From this rare healing Spring what good doth flow.</l>
+                  <l>To man, or beaſt, both ready to befriend,</l>
+                  <l>And runneth free, whoſe Virtues know no End.</l>
+               </lg>
+               <pb n="40" facs="tcp:94825:25"/>
+               <p>'Tis thought convenient to avoid Adul<g ref="char:EOLhyphen"/>teration, or abuſe of the Water of this Well, by any means that may be uſed by many that fetch it thence to ſell it, (and as we here at very dear Rates.) Leaſt their covetouſneſs ſhould intice them to put a cheat upon any, by ſelling them either mixed, or common water for that of this Spring. We give notice that there is no price taken for any quantities at the Well: and that the Right Honourable the Lady thereof, is ſo carefull for perſons that cannot come to the VVell, to have it without being Sophiſticated; that ſhe will for the future, cauſe that no water ſhall be fetched thence, but upon the Bottle, or Veſſels: ſhall be in Wax when Corked up, this Seal impreſſed. A Saltier ☓ two Crowned Lyons for Supporters, the Creſt a Maremeſet. The proper Coat of Armes of her moſt Hopeful and Lovely Son: The Right Ho<g ref="char:EOLhyphen"/>nourable <hi>Digby</hi> Lord <hi>Gerard,</hi> Baron of <hi>Ge<g ref="char:EOLhyphen"/>h ards Bromley,</hi>
+               </p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:94825:25"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,901 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tractatus de salis cathartici amari in aquis Ebeshamensibus et hujusmodi aliis contenti natura &amp; usu / authore Nehemia  Grew.</title>
+            <author>Grew, Nehemiah, 1641-1712.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 78 KB of XML-encoded text transcribed from 55 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2008-09">2008-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A42116</idno>
+            <idno type="STC">Wing G1959</idno>
+            <idno type="STC">ESTC R26049</idno>
+            <idno type="EEBO-CITATION">09335636</idno>
+            <idno type="OCLC">ocm 09335636</idno>
+            <idno type="VID">42763</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A42116)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 42763)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1309:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Tractatus de salis cathartici amari in aquis Ebeshamensibus et hujusmodi aliis contenti natura &amp; usu / authore Nehemia  Grew.</title>
+                  <author>Grew, Nehemiah, 1641-1712.</author>
+               </titleStmt>
+               <extent>[8], 96 p.   </extent>
+               <publicationStmt>
+                  <publisher>Impensis S. Smith &amp; B. Walford,</publisher>
+                  <pubPlace>Londini :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Saline waters --  Great Britain.</term>
+               <term>Mineral waters --  Therapeutic use.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2007-09</date>
+            <label>Kris Kobold</label>Sampled and proofread</change>
+         <change>
+            <date>2007-09</date>
+            <label>Kris Kobold</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2008-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="unk">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:42763:1"/>
+            <pb facs="tcp:42763:1" rendition="simple:additions"/>
+            <p>TRACTATUS DE SALIS CATHARTICI AMARI IN Aquis <hi>Ebeshamensibus,</hi> ET HUJUSMODI ALIIS CONTENTI NATURA &amp; USU.</p>
+            <p>AUTHORE <hi>NEHEMIA GREW</hi> M.D. Utriusque Regiae Societatis Socio.</p>
+            <p>LONDINI: Impensis <hi>S. Smith</hi> &amp; <hi>B. Walford</hi> ad Insignia Principis in Coemeterio D. Pauli. 1695.</p>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:42763:2" rendition="simple:additions"/>
+            <floatingText type="letter">
+               <body>
+                  <head>
+                     <hi>Mart.</hi> 27. 1695.</head>
+                  <p>In Concilio Regiae Societatis <hi>Londini</hi> ad Scientiam Naturalem promovendam institutae.</p>
+                  <p>Liber cui Titulus, <hi>Tractatus de Salis Ca<g ref="char:EOLhyphen"/>thartici Amari, in Aquis</hi> Ebeshamensibus, <hi>&amp; hujusmodi aliis contenti, Naturâ &amp; Vsu</hi>; Au<g ref="char:EOLhyphen"/>thore <hi>Nehemia Grew</hi> Medicinae Doctore; Re<g ref="char:EOLhyphen"/>giae Societatis, &amp; Regalis Collegii Medicorum <hi>Londinensium</hi> Socio: Imprimatur à <hi>S. Smith</hi> &amp; <hi>B. Walford</hi> dictae Societatis Typographis.</p>
+                  <closer>
+                     <signed>
+                        <hi>Robertus Southwel</hi> P.R.S.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <floatingText type="letter">
+               <body>
+                  <p>Tractatum hunc, cui Titulus <hi>De Salis Ca<g ref="char:EOLhyphen"/>thartici Amari, in Aquis</hi> Ebeshamensibus, <hi>&amp; hujusmodi aliis contenti Naturâ &amp; Vsu</hi>; Au<g ref="char:EOLhyphen"/>thore <hi>Nehemia Grew</hi> M. D. Regalis Collegii Medicorum <hi>Londinensium,</hi> &amp; Regiae Societatis Socio; Dignum Judicamus, qui Imprimatur,</p>
+                  <closer>
+                     <dateline>Datum ex Aedi<g ref="char:EOLhyphen"/>bus Collegii nostri in Co<g ref="char:EOLhyphen"/>mitiis Censo<g ref="char:EOLhyphen"/>riis,
+<date>
+                           <hi>Maij</hi> 3. 1695.</date>
+                     </dateline>
+                     <signed>
+                        <hi>Johannes Lawson,</hi> Praeses.</signed>
+                     <signed>
+                        <hi>Samuel Collins,</hi> Censores.</signed>
+                     <signed>
+                        <hi>Richard. Torless,</hi> Censores.</signed>
+                     <signed>
+                        <hi>Edv. Tyson,</hi> Censores.</signed>
+                     <signed>
+                        <hi>Martin. Lister,</hi> Censores.</signed>
+                  </closer>
+               </body>
+            </floatingText>
+            <pb facs="tcp:42763:2" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:42763:3" rendition="simple:additions"/>
+            <pb facs="tcp:42763:3"/>
+            <head>Inclytae Celeberrimaeque Utriue REGIAE SOCIETATI, Tam ILLI Ad Scientiam Naturalem, Quàm ALTERI, Speciatim ad Medicinam Promovendam Institutae, NEHEMIAS GREW S. P.</head>
+            <p>TRactatum sequentem, <hi>Viri Praestantissimi,</hi> bipar<g ref="char:EOLhyphen"/>titum offero. Cujus Partem pri<g ref="char:EOLhyphen"/>orem, de Aquarum <hi>Amarescenti<g ref="char:EOLhyphen"/>um,</hi> Salís<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> earum Naturâ; jam<g ref="char:EOLhyphen"/>dudum paratam habui tan<g ref="char:EOLhyphen"/>quam Historiolam, si Vobis non displicuerit, Materiae Me<g ref="char:EOLhyphen"/>dicae Pandectis inserendam.</p>
+            <p>
+               <pb facs="tcp:42763:4"/>Salem praedictum, olim ante Annos Quindecim, in Solenni <hi>Philosophorum</hi> Conventu, ubi <hi>N. D.</hi> Vicecomes <hi>Brounekerus</hi> tum praesidebat, palam exhi<g ref="char:EOLhyphen"/>bui.</p>
+            <p>Deinde, &amp; è Vobis, <hi>Doctis<g ref="char:EOLhyphen"/>simi Medici,</hi> nonnulli etiam propriâ Minervâ edocti, eun<g ref="char:EOLhyphen"/>dem pararunt, usuíque Me<g ref="char:EOLhyphen"/>dicinali adhibuerunt.</p>
+            <p>Pars altera, de Aquarum, Salisque earum Usu, multorum Annorum Probationem, Me<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mque Vestrae addendam, ex<g ref="char:EOLhyphen"/>igebat. Quantus Is igitur U<g ref="char:EOLhyphen"/>sus, in Morbis non paucis, eti<g ref="char:EOLhyphen"/>am Gravioribus &amp; Periculi plenis, existimandus sit; &amp;
+<pb facs="tcp:42763:4"/>
+Vos, <hi>Dignissimi Collegae,</hi> at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Ego tandem, Testes sumus. An verò majorem promise<g ref="char:EOLhyphen"/>rim, quàm par videtur, penes Vos, hâc in Re Experientissi<g ref="char:EOLhyphen"/>mos, Judicium esto<g ref="char:punc">▪</g> Certè adeò Universalis est, ut dum Sal Communis Ciborum, Hic Medicinae Condimentum, me<g ref="char:EOLhyphen"/>ritò nuncupari debeat.</p>
+            <p>In Recensu Morborum, ad quos delendos praecellit; cu<g ref="char:EOLhyphen"/>aptare visum est pauca Medi<g ref="char:EOLhyphen"/>camenta Auxiliaria. Hoc nimi<g ref="char:EOLhyphen"/>rum Consilio, ne Medicastro<g ref="char:EOLhyphen"/>rum more, Panaceam quandam ostentare videar. Vix tamen a<g ref="char:EOLhyphen"/>licubi Integram descripsi <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Quandoquidem haec non
+<pb facs="tcp:42763:5"/>
+Tironum, sed jam Peritorum, nempe procul à <hi>Londino</hi> Me<g ref="char:EOLhyphen"/>dentium, in Usum tractaverim. Quibus si indicavero Medica<g ref="char:EOLhyphen"/>menti Virtutes, hactenus apud Ipsos peregrini; haud Ingra<g ref="char:EOLhyphen"/>tum Iis Me fecisse arbitrabor, nec infeliciter Reipublicae con<g ref="char:EOLhyphen"/>suluisse. Et proinde Id, ex aliquâ parte, quod etiam Ipsi optatis, praestitisse. Quippe, Qui Vestram Experientiam aliis non invidetis; &amp; Vosmet Scientiarum, Humanaeque Sa<g ref="char:EOLhyphen"/>lutis, non Monopolas, sed Cu<g ref="char:EOLhyphen"/>stodes profiteamini.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:42763:5"/>
+            <head>ELENCHUS CAPITUM.</head>
+            <div n="1" type="part">
+               <list>
+                  <head>PARS PRIOR. De Salis Cathartici Amari NATURA.</head>
+                  <label>CAPUT I.</label>
+                  <item>DE Modis, quibus Aquae Catharticae Amarae primò innotuere.</item>
+                  <label>CAPUT II.</label>
+                  <item>De Aquarum Catharticarum Amarescenti<g ref="char:EOLhyphen"/>um Naturâ.</item>
+                  <label>CAPUT III.</label>
+                  <item>De Salis Aquarum Catharticarum Proprii, hoc est, Amari Naturâ.</item>
+                  <label>
+                     <pb facs="tcp:42763:6"/>
+                     <hi>CAPUT IV.</hi>
+                  </label>
+                  <item>De Salis Cathartici Amari, ab Alumine, &amp; Sale Muriatico seu Communi, Diffe<g ref="char:EOLhyphen"/>rentiâ.</item>
+                  <label>CAPUT V.</label>
+                  <item>De Salis Cathartici Amari, à Salibus Ni<g ref="char:EOLhyphen"/>tro, &amp; Calcario Differentiâ.</item>
+                  <label>CAPUT VI.</label>
+                  <item>De Naturâ Salis Cathartici Amari, Obser<g ref="char:EOLhyphen"/>vationes addendae.</item>
+               </list>
+            </div>
+            <div type="part">
+               <list>
+                  <head>PARS ALTERA. De Salis Cathartici Amari USU.</head>
+                  <label>CAPUT I.</label>
+                  <item>DE Salis Cathartici Amari Usu, ge<g ref="char:EOLhyphen"/>neraliùs.</item>
+                  <label>
+                     <pb facs="tcp:42763:6"/>
+                     <hi>CAPUT II.</hi>
+                  </label>
+                  <item>De Modo Salem Catharticum Amarum praescribendi.</item>
+                  <label>CAPUT III.</label>
+                  <item>De Salis Cathartici Amari Usu, speciali<g ref="char:EOLhyphen"/>ter: &amp; imprimis in Ventriculi Morbis, <hi>viz.</hi>
+                     <list>
+                        <item>In Dejecto Appetitu.</item>
+                        <item>In Compescendis Vomitionibus.</item>
+                        <item>In Dolore Stomachi Colicae Af<g ref="char:EOLhyphen"/>fectionis aemulo.</item>
+                        <item>In Calidâ Affectione Melancho<g ref="char:EOLhyphen"/>licâ.</item>
+                        <item>In Cardialgiâ cum Calore.</item>
+                     </list>
+                  </item>
+                  <label>CAPUT IV.</label>
+                  <item>De Salis Cathartici Amari Usu, in Inte<g ref="char:EOLhyphen"/>stinorum, Partiúmque adjacentium Mor<g ref="char:EOLhyphen"/>bis, <hi>viz.</hi>
+                     <list>
+                        <item>In Colico Dolore.</item>
+                        <item>Vermibus.</item>
+                        <item>Dolore Nephritico.</item>
+                        <item>Urinae Ardore.</item>
+                        <item>Urinae Suppressione.</item>
+                        <item>Diabete.</item>
+                        <item>Ictero.</item>
+                     </list>
+                  </item>
+                  <label>
+                     <pb facs="tcp:42763:7"/>
+                     <hi>CAPUT V.</hi>
+                  </label>
+                  <item>De Salis Cathartici Amari Usu, in Morbis Cephalicis, <hi>viz.</hi>
+                     <list>
+                        <item>In Maniâ.</item>
+                        <item>Cephalalgiâ.</item>
+                        <item>Vertigine.</item>
+                     </list>
+                  </item>
+                  <label>CAPUT VI.</label>
+                  <item>De Salis Cathartici Amari Usu, in Mor<g ref="char:EOLhyphen"/>bis quibusdam aliis, <hi>viz.</hi>
+                     <list>
+                        <item>In Passione Hystericâ.</item>
+                        <item>Arthritide Vagâ.</item>
+                        <item>Pruriginosis Affectibus è Scorbuto oriundis.</item>
+                        <item>Item, Post exiccatas Variolas.</item>
+                        <item>Et, Itinerantibus.</item>
+                     </list>
+                  </item>
+                  <label>CAPUT VII.</label>
+                  <item>De Aquarum Amarescentium, Salísque earum Abusu.</item>
+               </list>
+            </div>
+         </div>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>
+               <hi>P.</hi> 91. <hi>l.</hi> 2. <hi>lege,</hi> Cerevisiis &amp; Cerevisiatis: <hi>p.</hi> 94. <hi>l.</hi> 3. <hi>lege,</hi> decumbentibus.</p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="part">
+            <pb n="1" facs="tcp:42763:7"/>
+            <head>PARS PRIOR DE SALIS CATHARTICI AMARI NATURA.</head>
+            <div n="1" type="chapter">
+               <head>CAPUT I. De Modis, quibus Aquae Ca<g ref="char:EOLhyphen"/>tharticae Amarae primò inno<g ref="char:EOLhyphen"/>tuere.</head>
+               <p>AQuae Minerales propè <hi>Ebe<g ref="char:EOLhyphen"/>shamum</hi> in <hi>Surriensi</hi> Comita<g ref="char:EOLhyphen"/>u profluentes, primae omnium
+<pb n="2" facs="tcp:42763:8"/>
+Catharticarum Amarescentium, cir<g ref="char:EOLhyphen"/>ca Annum Millesimum Sexcen<g ref="char:EOLhyphen"/>tesimum Vicesimúmque, indicante quodam Rustico, innotu<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re.</p>
+               <p>Primo ferè Decennio, Usum so<g ref="char:EOLhyphen"/>lummodo vicinis Rusticis, in la<g ref="char:EOLhyphen"/>vandis Ulceribus, externum prae<g ref="char:EOLhyphen"/>buerunt.</p>
+               <p>Deinde, N. D. <hi>Dudleius North</hi> Baro <hi>Anglicus, Francisco</hi> non ita pridem Magni <hi>Angliae</hi> Sigilli Cu<g ref="char:EOLhyphen"/>stodi Pater; cum Melancholico Temperamento laboraret, &amp; A<g ref="char:EOLhyphen"/>quas Spadanas antea in <hi>Germani<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> bibisset; inde monitus, harum eti<g ref="char:EOLhyphen"/>am <hi>Ebeshamensium</hi> Virtutem expe<g ref="char:EOLhyphen"/>riri voluit. Scilicet, sperabat, ut o<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pinor, Ferratas Aquas se etiam do<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mi invenisse.</p>
+               <p>Quamvis autem, hâc in parte Voto &amp; Expectationi minimè re<g ref="char:EOLhyphen"/>sponderent, Ipsum tamen sui Ex<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>perimenti non poenituit: postquam Aquas hasce Purgatorias (velut
+<pb n="3" facs="tcp:42763:8"/>
+Medicamentum à Deo datum) mul<g ref="char:EOLhyphen"/>to cum levamine potâsset.</p>
+               <p>Hujus exemplo, &amp; alii deinceps animati, Aquarum operationem tentârunt. Et cum primis, S. P. <hi>Maria de Medices, Caroli</hi> 1. Mag<g ref="char:EOLhyphen"/>nae <hi>Britanniae</hi> Regis Uxori Mater: Nobiliss. D. <hi>Georgius Goring, Nor<g ref="char:EOLhyphen"/>wici</hi> Comes: aliique, Nominis haud Vulgaris, quamplurimi.</p>
+               <p>Hi omnes, &amp; alii quotquot A<g ref="char:EOLhyphen"/>quas biberunt, praedictos Fontes, nondum Voluptatis, sed Sanitatis gratiâ frequentârunt. Ideóque, vel à suis, vel aliis Medicis propinquio<g ref="char:EOLhyphen"/>ribus advocatis, bibendi Regulam acceperunt.</p>
+               <p>Exinde Medici hos Fontes, eti<g ref="char:EOLhyphen"/>am suâ sponte adibant. Quorum Authoritate, in tantam Celebrita<g ref="char:EOLhyphen"/>tem evecti sunt; ut Duo Hominum Millia, ibidem uno Die, bibendum visendúmve convenerunt.</p>
+               <p>
+                  <pb n="4" facs="tcp:42763:9"/>Postea verò, nempe Anno ab<g ref="char:EOLhyphen"/>hinc quasi Trigesimo, è <hi>Londinen<g ref="char:EOLhyphen"/>sibus</hi> plurimi, quorum ad Fontes accessum, Res vel angusta domi, vel importuna, prohibebat; Aquam ad se mittendam curârunt.</p>
+               <p>Eâ freti occasione, nonnulli mag<g ref="char:EOLhyphen"/>nâ copiâ advectam, tam aegrè va<g ref="char:EOLhyphen"/>lentibus ipsis, quàm Pharmacopo<g ref="char:EOLhyphen"/>lis, venditârunt: quod etiam ho<g ref="char:EOLhyphen"/>die factum est. Nimirum, Vale<g ref="char:EOLhyphen"/>tudinariis, adeundi Fontes mos ob<g ref="char:EOLhyphen"/>solevit, non quòd ab hodiernis Me<g ref="char:EOLhyphen"/>dicis minus aestimentur; sed vel domi, vel etiam è Fontibus aliis, bibentium numerus, magis indies creverit.</p>
+               <p>Paucis enim post Annis, à Pri<g ref="char:EOLhyphen"/>mâ Fontium <hi>Ebeshamensium</hi> divul<g ref="char:EOLhyphen"/>gatâ notitiâ; ejusdem generis &amp; alii, sive ab exquirentibus, sive fortuitò inventi, in mediocrem Famam atque Usum venere. Quorum Nomina, saltem praeci<g ref="char:EOLhyphen"/>puorum,
+<pb n="5" facs="tcp:42763:9"/>
+hîc proximè subjunxi.</p>
+               <list>
+                  <head>Fontes</head>
+                  <item>
+                     <hi>Barnetenses,</hi>
+                  </item>
+                  <item>
+                     <hi>Northavenses,</hi>
+                  </item>
+                  <item>
+                     <hi>Actonenses,</hi>
+                  </item>
+                  <item>
+                     <hi>Cobhamenses,</hi>
+                  </item>
+                  <item>
+                     <hi>Dulvicenses,</hi>
+                  </item>
+                  <item>
+                     <hi>Strethamenses,</hi>
+                  </item>
+               </list>
+               <list>
+                  <head>In Comitatu</head>
+                  <item>
+                     <hi>Hertfordiae.</hi>
+                  </item>
+                  <item>
+                     <hi>Hertfordiae.</hi>
+                  </item>
+                  <item>
+                     <hi>Mediosaxonum.</hi>
+                  </item>
+                  <item>
+                     <hi>Surriensi.</hi>
+                  </item>
+                  <item>
+                     <hi>Surriensi.</hi>
+                  </item>
+                  <item>
+                     <hi>Surriensi.</hi>
+                  </item>
+               </list>
+               <p>Praeter hos, &amp; posthac alios, ad<g ref="char:EOLhyphen"/>huc ignotos, excitata multorum Curiositas, forsan duplo plures in<g ref="char:EOLhyphen"/>veniet. Praecipuè suffulta isthoc Indicio, Quòd Aquae Dulces, ferè è Montium Jugis; Hae, plerunque, ex imis Radicibus scaturiant.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="6" facs="tcp:42763:10"/>
+               <head>CAPUT II. De Aquarum Catharticarum A<g ref="char:EOLhyphen"/>marescentium Naturâ.</head>
+               <p>HUjusmodi Aquae, Saporem quidem mediocriter, sed ta<g ref="char:EOLhyphen"/>men sensibiliter Amarum, prae se ferunt: vix quenquam alium.</p>
+               <p>Sunt qui in suis Itinerariis, de Fontibus Amaris prope <hi>Syriam</hi> &amp; <hi>Egyptum,</hi> mentionem fecerunt. Et S. <hi>Jacobus,</hi> in Catholicâ suâ Episto<g ref="char:EOLhyphen"/>lâ, Fontes innuit, Dulces Amarós<g ref="char:EOLhyphen"/>que, aequè bene notos fuisse Ori<g ref="char:EOLhyphen"/>entalibus. Qui omnes Amari, &amp; huc forsan sunt referendi.</p>
+               <p>Hujusmodi Fontes, neque Ama<g ref="char:EOLhyphen"/>ritudine, neque Virtute, inter se aequales sunt: sed alii aliis paulò sunt fortiores. E fortiorum numero,
+<pb n="7" facs="tcp:42763:10"/>
+                  <hi>Dulvicenses</hi> rectè aestimantur; è lenioribus, <hi>Ebeshamenses.</hi>
+               </p>
+               <p>Istae Aquae, in suis Fontibus, sunt omnino inodorae. Attamen in Vasis coopertis, dies aliquot vel septimanas, praecipuè aestivo tem<g ref="char:EOLhyphen"/>pore, conservatae, cum foetore pu<g ref="char:EOLhyphen"/>trent. Quod &amp; Aquis ferè qui<g ref="char:EOLhyphen"/>buscunque contingit; nonnunquam etiam Fontanis, in Navibus appro<g ref="char:EOLhyphen"/>pinquantibus Aequatori.</p>
+               <p>Eadem Aqua, Syrupi Violacei tantillo affuso, Colorem ejus caeru<g ref="char:EOLhyphen"/>leum conservat; non aliter, quàm ex quavis ferè Fontanâ, immuta<g ref="char:EOLhyphen"/>tum.</p>
+               <p>Ex Aquâ autem Calcis adjectâ, colore quodam Glauco &amp; Semi<g ref="char:EOLhyphen"/>perspicuo, veluti ex guttis aliquot Lactis instillatis, haec Aqua subal<g ref="char:EOLhyphen"/>bescit. Partésque albicantes, post horam circiter, coaguli quasi nebu<g ref="char:EOLhyphen"/>losi formâ subsidunt. Nimirum, ex Salis Calcarii Lixivialis, &amp; Salis
+<pb n="8" facs="tcp:42763:11"/>
+Aquae Catharticae potentiâ Acidi, unione, geniti.</p>
+               <p>Eaedem Aquae universae, dum ebulliunt fervéntve, Lac affusum coagulant. Minimè autem, si fri<g ref="char:EOLhyphen"/>gidè misceantur.</p>
+               <p>Aqua cujuscunque Fontis Cathar<g ref="char:EOLhyphen"/>tica Amara, in Vase Vitreo, Vi<g ref="char:EOLhyphen"/>treato, vel aliò quovis convenienti evaporata; quendam Cremorem ejus superficiei innatantem, atque etiam Sedimentum praebebit: <hi>viz.</hi> utrius<g ref="char:EOLhyphen"/>que simul sumpti Drachmas Sex, Octo, vel Decem circiter, ex singu<g ref="char:EOLhyphen"/>lis Aquae Congiis.</p>
+               <p>Iste Cremor, totâ suâ substantiâ, colore cineritio, Lapideus est; &amp; quodammodo Gypseus videtur. Calcarius, certè non omnino. Quip<g ref="char:EOLhyphen"/>pe, notissimum est, Lapidem Cal<g ref="char:EOLhyphen"/>carium ustum, ex Aquâ communi affusâ, etiamsi frigidâ, incalescere, halitúmque multum emittere &amp; o<g ref="char:EOLhyphen"/>pacum, &amp; cuicunque Humani Cor<g ref="char:EOLhyphen"/>poris
+<pb n="9" facs="tcp:42763:11"/>
+Parti impositum, adurendi vim obtinere; ideóque à Chirur<g ref="char:EOLhyphen"/>gis, Caustici Potentialis loco usur<g ref="char:EOLhyphen"/>pari. At praedictus Cremor, in Crucibilo pariter ustus, ex Aquâ Affusâ, neque gignit halitum, ne<g ref="char:EOLhyphen"/>que Calorem concipit; imò verò, neque Linguam ipsam, tenerrimam Partem, quidquam afficit.</p>
+               <p>Nonnunquam, ut ex Aquis <hi>A<g ref="char:EOLhyphen"/>ctonensibus,</hi> Laminis, quibus con<g ref="char:EOLhyphen"/>stat, minutissimis resplendet. Iis<g ref="char:EOLhyphen"/>dem equidem friabilibus, at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> pror<g ref="char:EOLhyphen"/>sus insipidis, etiamsi ustis, ut supra dictum est: Liquore tamen quo<g ref="char:EOLhyphen"/>vis Acido, &amp; maximè Spiritu Nitri affuso, cum fervore quodam ebulli<g ref="char:EOLhyphen"/>tionem excitantibus.</p>
+               <p>Sedimenti pars minor, substan<g ref="char:EOLhyphen"/>tiâ similis est jam supra descripto Cremori. Reliqua, purè Salina est; sed è duabus Salis speciebus composita: altero Muriatico, al<g ref="char:EOLhyphen"/>tero harum Aquarum Proprio seu
+<pb n="10" facs="tcp:42763:12"/>
+Speciali; cujus hîc imprimis Natu<g ref="char:EOLhyphen"/>ram &amp; Virtutes monstrare propo<g ref="char:EOLhyphen"/>fui.</p>
+               <p>In Aquâ <hi>Ebeshamensi,</hi> Sal Muri<g ref="char:EOLhyphen"/>aticus, est quasi Vicesima pars totius Salini compositi. In <hi>Dul<g ref="char:EOLhyphen"/>vicensi,</hi> majorem proportionem ob<g ref="char:EOLhyphen"/>tinet: quemadmodum &amp; in pleris<g ref="char:EOLhyphen"/>que supra memoratis.</p>
+               <p>Tam sapore Acri, quàm Crystal<g ref="char:EOLhyphen"/>lorum Figurâ, Sali communi non ab<g ref="char:EOLhyphen"/>similis est. Unde fit, ut Aquae, hoc Sale parciùs imbutae, pacaciùs al<g ref="char:EOLhyphen"/>vum subducant.</p>
+               <p>Alter Sal, Aquarum Catharti<g ref="char:EOLhyphen"/>carum, ut diximus, specialis est sive Proprius. Eodem modo fit, quo Sal quivis Lixivialis: nimi<g ref="char:EOLhyphen"/>rum, evaporando, filtrando, &amp; cry<g ref="char:EOLhyphen"/>stallizando; solâ Calcinatione o<g ref="char:EOLhyphen"/>missâ. In hâc Praeparatione, pri<g ref="char:EOLhyphen"/>mò,
+<pb n="11" facs="tcp:42763:12"/>
+pars Terrestris sive Gypsea, ab ipsâ Salinâ; deinde, Sal Muria<g ref="char:EOLhyphen"/>ticus, Liquórque fulvus &amp; opacus, à Sale Aquarum proprio, sunt secer<g ref="char:EOLhyphen"/>nendi.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="12" facs="tcp:42763:13"/>
+               <head>CAPUT III. De Salis Aquarum Purgan<g ref="char:EOLhyphen"/>tium Proprii, hoc est, Amari, Naturâ.</head>
+               <p>HIC Sal, si modò perfectè paratus fuerit, è Coelo re<g ref="char:EOLhyphen"/>cèns delapsae Nivis instar, pulcher<g ref="char:EOLhyphen"/>rimo Candore praelucet.</p>
+               <p>Delibatus dum in suâ formâ sic<g ref="char:EOLhyphen"/>câ, eodem Amaro Sapore, atque Aqua ipsa, &amp; multò evident ùs, im<g ref="char:EOLhyphen"/>praegnatur. Quâdam etiam Pun<g ref="char:EOLhyphen"/>gentiâ, valde quidem penetrabili, sed sine Acrimoniâ, acuitur.</p>
+               <p>Sin autem Drachmae pondere, vel plus minus, in Aquae commu<g ref="char:EOLhyphen"/>nis librâ, hoc est, eâdem propor<g ref="char:EOLhyphen"/>tione ac in suâ subterrnaneâ, sol<g ref="char:EOLhyphen"/>vatur: ista communis Aqua, ut e<g ref="char:EOLhyphen"/>andem
+<pb n="13" facs="tcp:42763:13"/>
+Lac coagulandi proprieta<g ref="char:EOLhyphen"/>tem obtinet; ita &amp; eodem prorsus, Sapore, penè simpliciter Amaro, eâdemque Catharticâ virtute, ac Aqua hujus Salis propria seu Mine<g ref="char:EOLhyphen"/>ralis, nobilitatur. Ideóque, ab isto Sale, quem Mirabilem vocant, nem<g ref="char:EOLhyphen"/>pe ex Oleo Vitrioli &amp; Sale com<g ref="char:EOLhyphen"/>muni factitio; &amp; ab omnibus aliis Salibus, <hi>SALIS CATHAR<g ref="char:EOLhyphen"/>TICI AMARI</hi> Titulo, non in<g ref="char:EOLhyphen"/>eptè distinguitur.</p>
+               <p>Hic Sal Catharticus Amarus, pro variatâ suae Aquae coctae ab<g ref="char:EOLhyphen"/>sumptione, &amp; frigoris cui postea exponitur aucto gradu, atque aliis Circumstantiis; sub formâ Cry<g ref="char:EOLhyphen"/>stallorum, nunc majorum concres<g ref="char:EOLhyphen"/>cit, nunc minorum. Figurâ tamen, cuicunque dimensioni conjunctâ, ferè similium. Pleraeque enim Cry<g ref="char:EOLhyphen"/>stalli, si rare concrescant, Prismata sunt minuscula, Planis quatuor Paral<g ref="char:EOLhyphen"/>lelogrammis Rectangularia: binis
+<pb n="14" facs="tcp:42763:14"/>
+oppositis minoribus paulò compres<g ref="char:EOLhyphen"/>sa. Interdum duobus aliis Planis Pa<g ref="char:EOLhyphen"/>rallelis Sexangularia: adeò autem pusillis, ut Oculorum aciem ferè effugiant. Longitudine, plus mi<g ref="char:EOLhyphen"/>nus semiunciali, Crassitiem quin<g ref="char:EOLhyphen"/>quies, sexies, vel etiam septies excedente. Basi, Salis ejusdem ge<g ref="char:EOLhyphen"/>neris Moleculâ, Suffultâ. Summi<g ref="char:EOLhyphen"/>tate, Planis Inclinatis plurimum variatâ; interdum Trinis, ple<g ref="char:EOLhyphen"/>runque Quaternis, cum praedictis Parallelogrammis obtusos Angulos facientibus, vel mucronatâ, vel ut saepius, Scalpelli more, acuatâ. Quorum in summitate Planorum unum, tribus reliquis simul sum<g ref="char:EOLhyphen"/>ptis ferè majus &amp; Pentangulare, vel Sexangulare: oppositum, qua<g ref="char:EOLhyphen"/>drangulare, vel pentangulare; duo reliqua triangularia, atque minuti<g ref="char:EOLhyphen"/>ora; interdum, sine Vitro Lenti<g ref="char:EOLhyphen"/>culari vix perspicienda.</p>
+               <p>
+                  <pb n="15" facs="tcp:42763:14"/>Hae Crystalli, suâ Elongatâ Fi<g ref="char:EOLhyphen"/>gurâ, Sali Nitro; Rectangulari, Muriatico; propriùs quàm cuiquam alii, accedunt.</p>
+               <p>Sal idem Catharticus Amarus, Aquâ communi solutus, &amp; in Va<g ref="char:EOLhyphen"/>se Vitreo diebus aliquot manere permissus; super Vasis ambitu, quâ<g ref="char:EOLhyphen"/>dam quasi ramificatione, Arbustu<g ref="char:EOLhyphen"/>lorum formâ circumcirca concre<g ref="char:EOLhyphen"/>scit. Quali Figurae generandae, hu<g ref="char:EOLhyphen"/>jus Salis jam supra descriptae Cry<g ref="char:EOLhyphen"/>stalli, ut &amp; Salis Nitri (quarum nempe Summitates nunc Angulis Rectis, nunc Acutis, terminantur) aptae natae sunt: unius scilicet Cry<g ref="char:EOLhyphen"/>stalli Plano Inclinato, ad alterius Parallelum apposito. Id quod eti<g ref="char:EOLhyphen"/>am in Generatione Foliorum, ex suorum Salium Figurâ effectum monstravimus. Ubi id obiter notandum, Me in illa <note n="†" place="margin">Plant. Anat. Lib. 4. p. 1. cap. ult.</note> Exercitatione, Sa<g ref="char:EOLhyphen"/>lis Nitri, &amp; reliquo<g ref="char:EOLhyphen"/>rum
+<pb n="16" facs="tcp:42763:15"/>
+Figuras, non usquequaque ut à Nobis conspectae, sed quales sor<g ref="char:EOLhyphen"/>san existunt in ipsis Plantis, exhi<g ref="char:EOLhyphen"/>buisse.</p>
+               <p>Salis Cathartici Amari quinque Drachmis Phialae inditis, affunde A<g ref="char:EOLhyphen"/>quae communis semiunciam; &amp; agitentur fortiter. Hâc solâ agita<g ref="char:EOLhyphen"/>tione, &amp; leni manûs tractantis hyberno calore, Salem brevi om<g ref="char:EOLhyphen"/>nem, exceptis aliquot granis, A<g ref="char:EOLhyphen"/>qua imbibit. Utpote, Salibus ple<g ref="char:EOLhyphen"/>risque aliis, longè magis solubi<g ref="char:EOLhyphen"/>lem.</p>
+               <p>Quin &amp; propriâ seu speciali suâ Gravitate, hoc est, suae Moli com<g ref="char:EOLhyphen"/>paratâ, ab omnibus aliis Salibus diversa est. Alumine gravior; Sale communi multò levior; At<g ref="char:EOLhyphen"/>que etiam Nitro, ut inferius Capite quinto videbitur.</p>
+               <p>Hujus Salis, &amp; Salis Tartari, vel cujuscun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Lixivialis aut Urinosi Liquamina confusa, coagulum album
+<pb n="17" facs="tcp:42763:15"/>
+generant; sive Salem quendam Neu<g ref="char:EOLhyphen"/>tralem, neque hujus neque alterius saporem, sed quodammodo Astri<g ref="char:EOLhyphen"/>ctorium, obtinentem.</p>
+               <p>Oleum Vitrioli fortissimum &amp; recenter paratum, huic Sali Ca<g ref="char:EOLhyphen"/>thartico affusum, mediocrem ebul<g ref="char:EOLhyphen"/>litionem excitat. Unde &amp; Prin<g ref="char:EOLhyphen"/>cipii Alkalini, ejusdémque po<g ref="char:EOLhyphen"/>tentiâ suo modo Lixivialis, parti<g ref="char:EOLhyphen"/>ceps est.</p>
+               <p>Quemcunque autem alium Li<g ref="char:EOLhyphen"/>quorem, quantum sciverim, sive Alkalinum, sive Acidum, Sali prae<g ref="char:EOLhyphen"/>dicto instillaveris; exinde nullate<g ref="char:EOLhyphen"/>nus movetur, vel incalescit.</p>
+               <p>Idem Sal in Ignem satis luculen<g ref="char:EOLhyphen"/>tum cum Crucibulo immissus, ali<g ref="char:EOLhyphen"/>quo modo, scilicet Aluminis in<g ref="char:EOLhyphen"/>star, liquescit; &amp; in albae, porosae<g ref="char:EOLhyphen"/>que seu bullatae Calcis speciem ex<g ref="char:EOLhyphen"/>tumescit.</p>
+               <p>
+                  <pb n="18" facs="tcp:42763:16"/>Attamen ista Calx, ex omni fe<g ref="char:EOLhyphen"/>rè parte, excepta forsan totius quadragesimâ, in Aquae communis sufficienti quantitate est resolubilis Lapis autem Calcarius, haudqua<g ref="char:EOLhyphen"/>quam similiter.</p>
+               <p>Eadem Calx, calore satis vehe<g ref="char:EOLhyphen"/>menti per horam in Crucibulo ig<g ref="char:EOLhyphen"/>nita; Alabastritis ferè duritiem ac<g ref="char:EOLhyphen"/>quirit. Neque deinceps Aeri ex<g ref="char:EOLhyphen"/>posita, quidquam mollescit. Mul<g ref="char:EOLhyphen"/>tò minùs, Calcarii Lapidis usti mo<g ref="char:EOLhyphen"/>do, in Pulverem resolvitur.</p>
+               <p>Ex hâc Ignitione, etiamsi ali<g ref="char:EOLhyphen"/>quantum sui ponderis, Amaritudi<g ref="char:EOLhyphen"/>nis tamen nihil amittit; sed &amp; an<g ref="char:EOLhyphen"/>ctam retinet.</p>
+               <p>Haec Salis Cathartici Amari Calx, ex Spiritu Salis, aut alio quovis affuso Acido, Ebullitionem conci<g ref="char:EOLhyphen"/>pit; pro affusi Spiritûs potentiâ, magis minúsve conspicuam. Un<g ref="char:EOLhyphen"/>de &amp; existimandus est, quodammo<g ref="char:EOLhyphen"/>do Lixivialis.</p>
+               <p>
+                  <pb n="19" facs="tcp:42763:16"/>Ex hujus Salis Librâ, Vesicae Vitreae Retortae, Lutóque obductae, inditâ, atque Igne Reverberatorio distillatâ; cujusdam Spiritûs Acidi, Odore Saporéque, ex aliquâ parte, Spiritûs Salis communis aemuli, paulò supra semilibram in Recepta<g ref="char:EOLhyphen"/>culo invenies.</p>
+               <p>Oleum Vitrioli, Spiritui Salis communis affusum; Vaporem quendam opacum &amp; fumosum ge<g ref="char:EOLhyphen"/>nerat. Quod etiam contingit ex eodem Oleo, si sit fortissimum, hujus Salis Cathartici Spiritui in<g ref="char:EOLhyphen"/>stillato.</p>
+               <p>Notissimum est, Aquas Ferratas Acidulas quascunque, ex Gallarum Infuso purpurascere. Quod etiam Vini albi Aceto contingit; sed ob<g ref="char:EOLhyphen"/>scuriús. Idem tamen Infusum, ex Spiritu Salis Cathartici, quamvis acido, haud immutatur: Quin ne<g ref="char:EOLhyphen"/>que Spiritu Sulphuris, aut Oleo Vitrioli. Unde horum, aliorúm<g ref="char:EOLhyphen"/>que
+<pb n="20" facs="tcp:42763:17"/>
+Acidorum Natura dissimilis, ut &amp; multis aliis modis, indica<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Aquam fluvialem Poculis Octo Vitreis infusam, ex guttis aliquot Syrupi Violacei instillatis, caeruleo colore imbui. Quorum Poculo<g ref="char:EOLhyphen"/>rum unum, absque aliâ re quâvis superinjectâ, manere permisi<g ref="char:punc">▪</g> A<g ref="char:EOLhyphen"/>lii, Salis Nitri aliquantum addidi. Tertio, tantundem Salis Cathartici Amari. Quarto, Calcis vivae In<g ref="char:EOLhyphen"/>fusum, Aquâ communi paratum, vulgò, Calcis Aquam, immiscui. Quinto, Salis Cathartici Calcis Liquamen. Sexto, Infusum Tar<g ref="char:EOLhyphen"/>tari albi. Septimo, Salis Cathar<g ref="char:EOLhyphen"/>tici Spiritum Stillatitium. Ulti<g ref="char:EOLhyphen"/>mo, tam Salis Cathartici, quàm A<g ref="char:EOLhyphen"/>quae Calcis, parum.</p>
+               <p>In Tribus prioribus, Caeruleus Color, sui similis perduravit; sub<g ref="char:EOLhyphen"/>sequente ejusdem Coloris solâ re<g ref="char:EOLhyphen"/>missione.</p>
+               <p>
+                  <pb n="21" facs="tcp:42763:17"/>In Quarto &amp; Quinto, Color Caeruleus in Viridem confestim im<g ref="char:EOLhyphen"/>mutatus fuit: Sed in priore, quo<g ref="char:EOLhyphen"/>dammodo turbidum &amp; pallidio<g ref="char:EOLhyphen"/>rem; in altero, Smaragdini in<g ref="char:EOLhyphen"/>star, pleniorem &amp; valde perspi<g ref="char:EOLhyphen"/>cuum.</p>
+               <p>In Sexto &amp; Septimo, transiit in Purpureum: in priore, quidem ob<g ref="char:EOLhyphen"/>scurum; in altero, verè Amethysti<g ref="char:EOLhyphen"/>num.</p>
+               <p>Color autem Viridis, qui in Quarto &amp; Quinto, post transactum quasi Trihorium, evanuit; in Ul<g ref="char:EOLhyphen"/>timo, &amp; multò Intensior est, &amp; du<g ref="char:EOLhyphen"/>rabilior.</p>
+               <p>E praedicto multiplici Experi<g ref="char:EOLhyphen"/>mento, observare est, quòd Nitrum, etiamsi deflagratione, Salem Fixum, eundémque Lixivialem praebeat, &amp; distillatione, Spiritum Acidum: quandoquidem tamen, neque Lixi<g ref="char:EOLhyphen"/>viali neque Acido Sapore praedi<g ref="char:EOLhyphen"/>tus sit; ideò Colorem neque Viri<g ref="char:EOLhyphen"/>dem,
+<pb n="22" facs="tcp:42763:18"/>
+neque Purpureum Syrupo superinducit. Et ex pari ratione, idem de Sale Cathartico Amaro sentiendum est: eumque ex Prin<g ref="char:EOLhyphen"/>cipiis, solummodo potentiâ Aci<g ref="char:EOLhyphen"/>dis, atque etiam Alkalinis seu potentiâ aliquo modo Lixivialibus, constare.</p>
+               <p>Quòd autem ex utroque istius<g ref="char:EOLhyphen"/>modi Principio re verâ constet; ex ejus Spiritu, Acidum Saporem obtinente; &amp; ex ejus Calce, Viri<g ref="char:EOLhyphen"/>dem Colorem (Aquae Calcis a<g ref="char:EOLhyphen"/>liorúmque Liquorum Lixivialium more) Syrupo tribuente, monstra<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Et in Ultimo Poculo, Color id<g ref="char:EOLhyphen"/>eò Intensior est, &amp; Durabilior; quòd ex duplicis Salis Lixivialis, tam Cathartici quàm Calcarii (ut Atramentum ex duorum Astrin<g ref="char:EOLhyphen"/>gentium) combinatione, proveni<g ref="char:EOLhyphen"/>ret.</p>
+               <p>
+                  <pb n="23" facs="tcp:42763:18"/>Patétque horum Sallum ex<g ref="char:EOLhyphen"/>istentia, &amp; in transmutandis Co<g ref="char:EOLhyphen"/>loribus efficacia, non penitus &amp; ex omni parte ab Igne pendere; quòd Tartari albi Infusum, pa<g ref="char:EOLhyphen"/>riter ut Cathartici Salis Spiritus, eodem Purpureo Colore Syrupum imbuat.</p>
+               <p>Postremo loco, id notandum, Me Salis Cathartici Principium Alkalinum, potentiâ, &amp; aliquo modo, Lixiviale vocâsse. Neque enim, ut in hoc Capite antea mo<g ref="char:EOLhyphen"/>nuimus, in ipsâ hujus Salis Calce, sapor Lixivialis sentitur. Id ta<g ref="char:EOLhyphen"/>men non obstat, quin ex aliis supe<g ref="char:EOLhyphen"/>riùs <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>llatis Experimentis, Sal Ca<g ref="char:EOLhyphen"/>tharticus, adhuc Igne intactus, ex aliquâ parte Alkalinus; calcinatus verò, suo modo Lixivialis, probe<g ref="char:EOLhyphen"/>tur: Etiamsi, Lixivialis, Nomine non prorsus adaequato, dicatur; nec forsan quoquam alio, usu com<g ref="char:EOLhyphen"/>probato. In nullâ enim re aliâ,
+<pb n="24" facs="tcp:42763:19"/>
+magis curta habetur Vocabulorum Supellex, quàm in Philosophiâ: eâ scilicet, quae velut Pedissequa Na<g ref="char:EOLhyphen"/>turae, mirandae ejus ubique varie<g ref="char:EOLhyphen"/>tati, scrupulosissimè advertit.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="25" facs="tcp:42763:19"/>
+               <head>CAPUT IV. De Salis Cathartici Amari, ab Alumine, &amp; Sale Muriatico Differentiâ.</head>
+               <p>EX allegatis Experimentis, &amp; jam proximè allegandis, pro<g ref="char:EOLhyphen"/>bè intellectis &amp; comparatis, pate<g ref="char:EOLhyphen"/>bit; Salem Catharticum Amarum, etiamsi nonnullas aliorum Salium qualitates communes habeat: ab omnibus tamen aliis Salibus, re verâ sive specie differre.</p>
+               <p>Quamplurimi, ex Minerâ qua<g ref="char:EOLhyphen"/>dam Aluminosa, generatum autu<g ref="char:EOLhyphen"/>mant: sed hoc insulsé. Unde enim id probari potest? Quod Lac coa<g ref="char:EOLhyphen"/>gulet? Minimé. Nam &amp; eodem Argumento, scilicet maximè irri<g ref="char:EOLhyphen"/>dendo, Acetum, Vinum, Cerevisia,
+<pb n="26" facs="tcp:42763:20"/>
+&amp; quaecunque Lac coagulant, essent Aluminosa.</p>
+               <p>Neque inde, quòd, Aluminis in<g ref="char:EOLhyphen"/>star, bullatim elevetur, dum lique<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>it. Nam in Borace etiam lique<g ref="char:EOLhyphen"/>facta, simillima elevatio contingit. Borax tamen Lac non coagulat: ideóque non est Aluminosa. Ne<g ref="char:EOLhyphen"/>que est proinde Sal Catharticus Amarus.</p>
+               <p>Porrò, ex Aluminis ℥j. per se<g ref="char:EOLhyphen"/>mihoram in Crucibulo ustâ, Calx semiunciali pondere manet residua. Huic Calci, Aqua Communis quan<g ref="char:EOLhyphen"/>titate sufficienti affusa, donec partes Aqua resolubiles absorberet; Ter<g ref="char:EOLhyphen"/>renae substantiae simplicis &amp; insipi<g ref="char:EOLhyphen"/>dae, plus quàm Duo &amp; Quinqua<g ref="char:EOLhyphen"/>ginta Gra<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>a in Vase subsidunt: quae Salis Cathartici Calcis pariter solutae Sedimentum, sex vicibus su<g ref="char:EOLhyphen"/>perant.</p>
+               <p>
+                  <pb n="27" facs="tcp:42763:20"/>Neque Aluminis Spiritus Igne forti distillatus, Spiritui Salis Ca<g ref="char:EOLhyphen"/>thartici Amari quoquam modo as<g ref="char:EOLhyphen"/>similatur. Cùm &amp; aeriori Sapore praeditus sit, &amp; multò minùs gra<g ref="char:EOLhyphen"/>to. Odore autem, quod praecipuè observandum est, planè foetido: nimirum, Sulphuris Spiritui vero, Germanicè <hi>Gass</hi> dicto, seu Sulphuri liquefacto &amp; flammanti, similli<g ref="char:EOLhyphen"/>mo.</p>
+               <p>Adde, &amp; ipsius Aluminis Sapor, à Salis Cathartici Sapore, adeò distat, ut nihil supra. Iste enim, cum nullatenus sit Amarus, sed planè Acerbus; hic, nullius Acer<g ref="char:EOLhyphen"/>bitatis particeps, prorsus est Ama<g ref="char:EOLhyphen"/>rus.</p>
+               <p>Quin &amp; suis sibi propriis Figuris omnino distinguuntur. Nam Alu<g ref="char:EOLhyphen"/>minis, factitii scilicet, Crystallus, secundum suam Altitudinem medi<g ref="char:EOLhyphen"/>ocriter compressa, octo Planis com<g ref="char:EOLhyphen"/>prehenditur. Duobus, Imo &amp;
+<pb n="28" facs="tcp:42763:21"/>
+Summo, Sexangularibus &amp; Paral<g ref="char:EOLhyphen"/>lelis. Quorum singulorum Pla<g ref="char:EOLhyphen"/>norum Latera majora &amp; minora, ita alternatim sunt composita, ut Tria majora, Tribus minoribus op<g ref="char:EOLhyphen"/>ponantur. Sex circumpositis Qua<g ref="char:EOLhyphen"/>drangularibus, Lateribus Angulís<g ref="char:EOLhyphen"/>que inaequalibus, majoribus ver<g ref="char:EOLhyphen"/>sus Crystalli centrum, minoribús<g ref="char:EOLhyphen"/>que, vicissim inclinatis. Quàm longè autem supra descriptae Salis Cathartici Crystallorum Figurae haec sit absimilis, ex factâ compa<g ref="char:EOLhyphen"/>ratione videre est.</p>
+               <p>Neque magis Sali Muriatico seu communi, Sal idem Catharti<g ref="char:EOLhyphen"/>cus adnumerandus est. Utpote, si purè paratus, ab hoc, aequè ac ab Alumine, Sapore remotissi<g ref="char:EOLhyphen"/>mus.</p>
+               <p>Atque etiam Figurâ: quòd Mu<g ref="char:EOLhyphen"/>riatici Salis Crystalli, non elongatae sint, sed in formam Cubicâ paulò submissiorem, depressae.</p>
+               <p>
+                  <pb n="29" facs="tcp:42763:21"/>Porrò, Sal Catharticus, forti Ig<g ref="char:EOLhyphen"/>ni in Crucibulo admotus, Vapo<g ref="char:EOLhyphen"/>rem invisibilem, &amp; vix ultra dimi<g ref="char:EOLhyphen"/>diatam sui Partem, emittit. Sal autem communis similiter ignitus, ut longè majori fluiditate liquescit; ita &amp; Vaporibus, fumi instar, opa<g ref="char:EOLhyphen"/>cis, ascendit: parte totius, vix deci<g ref="char:EOLhyphen"/>mâ &amp; octavâ in Crucibulo rema<g ref="char:EOLhyphen"/>nente.</p>
+               <p>Neque verò (quod forsan mirum est) Spiritus Salis communis, pari<g ref="char:EOLhyphen"/>ter ut Spiritus Salis Cathartici A<g ref="char:EOLhyphen"/>mari, Lac coagulat. Id equidem non est negandum, Spiritum Salis Communis, Lac merum dum ebul<g ref="char:EOLhyphen"/>lit, coagulare, etiam mediocri pro<g ref="char:EOLhyphen"/>portione affusum. Ne itaque fal<g ref="char:EOLhyphen"/>laciis innitar, sequentem experiundi Methodum elegi.</p>
+               <p>Aquae fluvialis Librae, Salis Ca<g ref="char:EOLhyphen"/>thartici Amari Drachmâ impreg<g ref="char:EOLhyphen"/>natae, &amp; bullienti, tria quatuórve Lactis Cochlearia adjeci; &amp; per<g ref="char:EOLhyphen"/>misi
+<pb n="30" facs="tcp:42763:22"/>
+Aquam iterum bullire: unde statim, Lac in Aquae summitate co<g ref="char:EOLhyphen"/>agulatum natabat.</p>
+               <p>Et omnino similiter, ex Spiritu Salis Cathartici Amari, eâdem pro<g ref="char:EOLhyphen"/>portione admisto.</p>
+               <p>Postremò, Spiritûs Salis Cathar<g ref="char:EOLhyphen"/>tici loco, Spiritum Salis communis, eúmque praedicto Spiritu fortio<g ref="char:EOLhyphen"/>rem, deindéque Lac, eâdem quâ supra proportione immiscui; &amp; A<g ref="char:EOLhyphen"/>quam iterum bullire permisi. Quo facto, Lac nihilominus in suo na<g ref="char:EOLhyphen"/>turali statu, sine ullâ coagulatione, fluidum manebat.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="31" facs="tcp:42763:22"/>
+               <head>CAPUT V. De Salis Cathartici Amari, â Salibus Nitro, &amp; Calcario, Differentiâ.</head>
+               <p>NEque magis idem Sal Cathar<g ref="char:EOLhyphen"/>ticus, è Salis Nitri genere existimandus est: à quo, solo Sa<g ref="char:EOLhyphen"/>pore suo Amaro, satis distingui<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Nec minùs Figurâ: quòd Nitri Crystalli, non Quaternis Planis Pa<g ref="char:EOLhyphen"/>rallelogrammis, sed semper Senis; non Rectis Angulis, sed Obtusis, sint contentae. Et quòd harum sum<g ref="char:EOLhyphen"/>mitates, Planis Inclinatis, vix un<g ref="char:EOLhyphen"/>quam Quaternis, plerunque Binis, non infrequenter Senis, iísque magis quàm in Sale Cathartico, inter se aequalibus, terminentur.</p>
+               <p>
+                  <pb n="32" facs="tcp:42763:23"/>Deinde, &amp; quòd Igni injectus, nullo modo sit flammabilis: mul<g ref="char:EOLhyphen"/>tò minùs, Nitri instar, in Flam<g ref="char:EOLhyphen"/>mas rutilantes &amp; sonoras, longè ma<g ref="char:EOLhyphen"/>jori ex parte abit.</p>
+               <p>Dixi, majori ex parte; neque enim diffiteor, sed Capite tertio in<g ref="char:EOLhyphen"/>nuimus, portiunculam, seu quasi vicessimam partem, post deflagra<g ref="char:EOLhyphen"/>tionem, fixam manere. Quae ta<g ref="char:EOLhyphen"/>men haud Nitrosa est, sed Sapore, aliísque Qualitatibus, prorsus Lixi<g ref="char:EOLhyphen"/>vialis; è Cinere Ligneo, à Nitro<g ref="char:EOLhyphen"/>paeis admista.</p>
+               <p>Sed &amp; praeterea; Sal Catharti<g ref="char:EOLhyphen"/>cus, supra Candelae flammam in Cochleari collocatus, intra horae semimomentum diffluit, &amp; eodem modo, ac si Igni injectus, bullis in<g ref="char:EOLhyphen"/>tumescit. Nitrum autem hujus<g ref="char:EOLhyphen"/>modi Calore, vix se patitur lique<g ref="char:EOLhyphen"/>fieri: spatium Saltem octuplo ma<g ref="char:EOLhyphen"/>jus exigit, flammámque splendidis<g ref="char:EOLhyphen"/>simam.</p>
+               <p>
+                  <pb n="33" facs="tcp:42763:23"/>E contrà, licet difficiliùs, multò tamen majori fluiditate liquescit. Igni enim forti in Crucibulo im<g ref="char:EOLhyphen"/>mersum, non Aluminis, vel Salis Cathartici modo, ebullit: sed Re<g ref="char:EOLhyphen"/>sinae, vel Metalli instar, fluit.</p>
+               <p>Quin &amp; Exhalationes Opacae, è Nitro in Crucibulo liquefacto ascen<g ref="char:EOLhyphen"/>dunt. Quales è Cathartico Sale, etiamsi ve<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ementissimè ignito, nul<g ref="char:EOLhyphen"/>las vidimus.</p>
+               <p>Adde, &amp; Lac coagulandi pro<g ref="char:EOLhyphen"/>prietate, ab invicem distant. Nam Salis Cathartici semidrachma, Lactis bullientis semilibrae injecta, Coa<g ref="char:EOLhyphen"/>gulum generat satis conspicuum, diffluente Sero tenuissimo. Nitro autem simili modo, atque etiam longè majori proportione admisto, Lac nullo modo concrescit.</p>
+               <p>Nitri etiam solubilitas, illâ, quam in Sale Cathartico superiùs proba<g ref="char:EOLhyphen"/>vimus, triplo minor est. Aquae enim communis Semiuncia, agita<g ref="char:EOLhyphen"/>tione,
+<pb n="34" facs="tcp:42763:24"/>
+&amp; manus hyberno calore ad<g ref="char:EOLhyphen"/>juta, Salis Nitri, non supra sesqui<g ref="char:EOLhyphen"/>drachmam imbibit.</p>
+               <p>Deinde, &amp; Gravitate discrepant; quod sequenti modo expertus sum. Phialae Cylindricae infudi Oleum Te<g ref="char:EOLhyphen"/>rebinthinae, donec ad trium Digito<g ref="char:EOLhyphen"/>rum altitudinem ascenderet. Injectis deinde Salis Cathartici Amari Un<g ref="char:EOLhyphen"/>ciis duabus, Oleum ad quartum Digitum surrexit. At ex aequali quantitate Nitri depurati super<g ref="char:EOLhyphen"/>injectâ, Oleum haud supra Tres praeterea Digiti Quadrantes fuit elevatum. Ergo, Sal Catharticus Amarus, Sale Nitro, quartâ parte minùs gravitat.</p>
+               <p>Aqua tamen Sale Cathartico im<g ref="char:EOLhyphen"/>praegnata, spatium, ratione ad mo<g ref="char:EOLhyphen"/>lem Salis habitâ, minus occupat, quàm Sale Nitro imbuta. Hoc est, Aqua, loco Olei, cum Salibus Phia<g ref="char:EOLhyphen"/>lae, ut supra, injecta; post factam solutionem prioris, magis quàm po<g ref="char:EOLhyphen"/>sterioris, subsidet.</p>
+               <p>
+                  <pb n="35" facs="tcp:42763:24"/>Denique, eadem proportione, Vitriolum Dantiscanum, Sal Ar<g ref="char:EOLhyphen"/>moniacus, &amp; Nitri loco, Sal Ca<g ref="char:EOLhyphen"/>tharticus Amarus misceantur, eo<g ref="char:EOLhyphen"/>démque modo distillentur, ut fieri solet in Aquâ Regiâ conficiendâ. Jam verò, si Sal Catharticus esset è Nitri genere; Aqua haec stillati<g ref="char:EOLhyphen"/>tia, pariter ut Aqua Regia, Aurum solveret. Hujusmodi tamen Aurum solvendi vim, in hâc Aquâ nullam vidimus.</p>
+               <p>Multò minus est Nitrum Anti<g ref="char:EOLhyphen"/>quorum. Neque enim Egyptium illud ab Hippocrate saepe memora<g ref="char:EOLhyphen"/>tum: neque ei non absimile, pur<g ref="char:EOLhyphen"/>pureum &amp; acre, tam à Dioscoride, quàm <hi>Plinio</hi> descriptum: neque demum istud, ab Aetio, Glebae instar, ustum Vinóque extinctum.</p>
+               <p>NEQUE denique, Salis Calcarii Titulo est designandus. Lac e<g ref="char:EOLhyphen"/>nim Sale Cathartico, vel Aquâ ip<g ref="char:EOLhyphen"/>sâ Catharticâ, multò astrictiûs, ube<g ref="char:EOLhyphen"/>riúsque,
+<pb n="36" facs="tcp:42763:25"/>
+quàm Aquâ Calcis, coagu<g ref="char:EOLhyphen"/>latur. Et quid si ab alterutrâ ae<g ref="char:EOLhyphen"/>qualiter? Quot Liquores, antea nominati, Lac coagulant, qui non magis Calcarii, quàm Aluminosi sunt?</p>
+               <p>Spiritus Nitri, Cremori Aquae Calcis innatanti, vel etiam Lapidi Calcario nondum usto, instillatus; conspicuam ebullitionem generat. Eodem tamen Spiritu, Sal Cathar<g ref="char:EOLhyphen"/>ticus nullo modo afficitur.</p>
+               <p>Nusquam major Saporis diffe<g ref="char:EOLhyphen"/>rentia, quàm quae inter Salis Ca<g ref="char:EOLhyphen"/>thartici, &amp; Aquae Calcis Saporem, reperitur: quippe huic, Lixivialis atque Dulcis; at illi, quodammodo Frigidus &amp; Amarus.</p>
+               <p>Lapis Calcarius ustus, &amp; non<g ref="char:EOLhyphen"/>dum extinctus, Aquâ paucâ affusâ, in pulverem statim ac sponte resol<g ref="char:EOLhyphen"/>vitur. E contrariò, Salis Cathar<g ref="char:EOLhyphen"/>tici pulverizata Calx, massa fit citissimè duriuscula, &amp; in ali<g ref="char:EOLhyphen"/>quot
+<pb n="37" facs="tcp:42763:25"/>
+momenta quasi lapidescit.</p>
+               <p>Aqua propè <hi>Londinum</hi> fontana illa, quae insignitur Imagine Agni Sacri, <hi>Lambs-Conduit Water</hi> vul<g ref="char:EOLhyphen"/>gò dicta; ex Aquâ Calcis affusâ, Coagulo quodam caesio seu glauco, pariter ut Aqua Cathartica, brevi subalbescit. Ex Aquâ autem Salis Cathartici Calce impraegnatâ, nullâ opacitate, coloréve inficitur; sed manet, aequè ac dum impermixta fuit, limpidissima.</p>
+               <p>Aqua communis, Sale Cathar<g ref="char:EOLhyphen"/>tico Amaro impraegnata, &amp; deinde evaporatione absumpta; eundem Salem, sine ejus dispendio, vel Labe, exhibet integerrimum. Aquae Cal<g ref="char:EOLhyphen"/>cis, è contra, pariter absumptae Sal, ex omni parte in substantiam insulsam ac lapideam immutatur. Cujus rei ratio est, quòd Aquae Calcis partes Salinae, Sali alicui Aereo adeò congruant intiméque aduniantur, ut aliud genere ter<g ref="char:EOLhyphen"/>tium
+<pb n="38" facs="tcp:42763:26"/>
+constituant. Quemadmodum ex Oleis optimis Vitrioli &amp; Anisi con<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>usis, Resina propriè sic dicta, eáque si lota fuerit, insipida gene<g ref="char:EOLhyphen"/>ratur.</p>
+               <p>Id quod etiam Experimento se<g ref="char:EOLhyphen"/>quenti probatur. Aqua Calcis, tam in Phialâ subere clausâ, quàm in Vase aperto, per septimanam vel diutius conservetur. In Phialâ, suam summitatem, nudam retinet: at in aperto Vase, scilicet ubi Aer liberè Aquae accedit, insipido ac verè lapideo Cremore obduci<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Aqua autem in quâ Sal Cathar<g ref="char:EOLhyphen"/>ticus solutus est, &amp; pluribus die<g ref="char:EOLhyphen"/>bus Aeri in aperto Vase submissus, Cremoris lapidei ne particulam o<g ref="char:EOLhyphen"/>stendit. Et Cremor, qui ex coctis Catharticis Aquis generatur, ipse etiam minimè Calcarius est; ut antea probavimus.</p>
+               <p>
+                  <pb n="39" facs="tcp:42763:26"/>Adde, &amp; egregiam in his Sali<g ref="char:EOLhyphen"/>bus solubilitatis differentiam. Salis enim Cathartici Amari Semiuncia, in Aquae communis Sextanti, sine Calore, vel multâ agitatione, facilè citóque solvitur. At in Calce vi<g ref="char:EOLhyphen"/>vâ, Salis semiuncia, Aquae com<g ref="char:EOLhyphen"/>munis Congios duos cum semisse, hoc est Centum &amp; Sexaginta sex<g ref="char:EOLhyphen"/>tantes (320 Uncias) imbibenda exigit. Tantundem enim Aquae communis, ad Calcis vivae singu<g ref="char:EOLhyphen"/>larem Unciam edulcorandam re<g ref="char:EOLhyphen"/>quiritur. Quo <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>acto, Calcis insi<g ref="char:EOLhyphen"/>pidae &amp; levissimae semiuncia, vel circiter, vasis in fundo remanet.</p>
+               <p>Caeterùm, Sal Catharticus A<g ref="char:EOLhyphen"/>marus, si nullo alio modo, à reli<g ref="char:EOLhyphen"/>quis supra memoratis Salibus, suâ tamen Virtute Medicinali, emi<g ref="char:EOLhyphen"/>nentissimè distingueretur: ut in al<g ref="char:EOLhyphen"/>terâ hujus Tractatûs Parte, de ejus usu, luculenter patebit.</p>
+               <p>
+                  <pb n="40" facs="tcp:42763:27"/>Interim, concedatur, tam Salis Nitri, quàm Communis, atque eti<g ref="char:EOLhyphen"/>am Gypsi Lapidis portiunculam, non modo Aquis Catharticis, sed forsan interdum &amp; ipsi Sali Ca<g ref="char:EOLhyphen"/>thartico irrepsisse. Quid ergò? Et probabile est, Corpus nullum absolutè simplex in Rerum Naturâ inveniri. Plumbo vel Cupro, Argen<g ref="char:EOLhyphen"/>tum, Argento Aurum, in eâdem Fo<g ref="char:EOLhyphen"/>dinâ, Venâ, etiam Massâ Metallicâ, immisceri, nemo non novit. Neque tamen Argentum &amp; Cuprum, vel Argentum &amp; Aurum, constituunt Tertium Metallum: sed duo vel plura Metalla coexistunt separabi<g ref="char:EOLhyphen"/>lia.</p>
+               <p>Neque porrò, satis est ad defi<g ref="char:EOLhyphen"/>niendam Corporum Identitatem, quòd in aliquibus Qualitatibus con<g ref="char:EOLhyphen"/>veniant. Nam &amp; sic conveniunt Plumbum &amp; Aurum: ambo sunt Corpora dura, opaca, ductilia, fu<g ref="char:EOLhyphen"/>silia, graviora, <hi>&amp;c.</hi> &amp; proinde am<g ref="char:EOLhyphen"/>bo
+<pb n="41" facs="tcp:42763:27"/>
+sunt Metalla. At nil Aurum est, quod omnes Auri Qualitates non obtinet, Aurum tamen non plu<g ref="char:EOLhyphen"/>ribus, non eminentioribus modis, à Plumbo, quàm Sal Catharticus Amarus, ab omnibus praedictis Sa<g ref="char:EOLhyphen"/>libus discriminatur. Ideóque est sui generis Sal Nobilissimus.</p>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="42" facs="tcp:42763:28"/>
+               <head>CAPUT VI. De Naturâ Salis Cathartici Amari, Observationes ad<g ref="char:EOLhyphen"/>dendae.</head>
+               <p>QUalitatum hujus Salis modò descriptarum specificantium praecipua, est Sapor ejus leniter &amp; penè simpliciter Amarus. Reli<g ref="char:EOLhyphen"/>quorum Salium, quos novi, proxi<g ref="char:EOLhyphen"/>mè omnium, Argenti Crystalli, Saporis similitudiue huic accedunt. Nam hae quidem Amarae sunt; sed &amp; intensè: nec sine summâ Auste<g ref="char:EOLhyphen"/>ritate conjunctâ.</p>
+               <p>A me alibi <note n="†" place="margin">In posteriori Exercitatione de Mixtione.</note> obser<g ref="char:EOLhyphen"/>vatum est, Lapidem Ca<g ref="char:EOLhyphen"/>laminarem, nonnullas ha<g ref="char:EOLhyphen"/>bere Qualitates cum Argento com<g ref="char:EOLhyphen"/>munes. Instillavi itaque huic La<g ref="char:EOLhyphen"/>pidi pulverizato, Spiritûs Nitri
+<pb n="43" facs="tcp:42763:28"/>
+guttas aliquot. Et post inde fa<g ref="char:EOLhyphen"/>ctam effervescentiam, Aquâ com<g ref="char:EOLhyphen"/>muni affusâ Misturam dilui. Ista Aqua, non solùm, instar Crystal<g ref="char:EOLhyphen"/>lorum Argenti, acerbissima est, sed &amp; valdè Amara. Unicum, quod sciam, Minerale, exceptis Ar<g ref="char:EOLhyphen"/>genti Sale, &amp; Cathartico, Sapore Amaro praeditum.</p>
+               <p>Utrum autem Sal Catharticus, ex aliqua Minera Argentea, per<g ref="char:EOLhyphen"/>fectâ, vel imperfectâ; vel Lapidi Calaminari cognatâ; an potiùs ex aliâ generetur; cùm ejus Matrem Mineram, nondum adipisci potue<g ref="char:EOLhyphen"/>rim, dubium relinquo.</p>
+               <p>Id interim è praedictis Experi<g ref="char:EOLhyphen"/>mentis patet; Salem Catharticum Amarum, è quibusdam Partibus potentiâ Acidis, atque Alkalinis, iisdémque suo modo potentiâ Lixi<g ref="char:EOLhyphen"/>vialibus, esse compositum.</p>
+               <p>
+                  <pb n="44" facs="tcp:42763:29"/>In Salibus autem, è variis Prin<g ref="char:EOLhyphen"/>cipiis compositis, Proportio, Na<g ref="char:EOLhyphen"/>tura, atque Unio Principiorum, sunt considerandae. Videntur par<g ref="char:EOLhyphen"/>ticulae quaedam Acidae, Salibus etiam Lixivis admisceri; sed mi<g ref="char:EOLhyphen"/>nori proportione. E contra, in Tartaro, hoc est Vini Sale, parti<g ref="char:EOLhyphen"/>um potentiâ Salsarum, minor est proportio; Acidarum, longè ma<g ref="char:EOLhyphen"/>jor. Et ferè similiter in Sale Ca<g ref="char:EOLhyphen"/>thartico Amaro. Cum hâc diffe<g ref="char:EOLhyphen"/>rentiâ, quòd in priore, partibus Alkalinis, admisceantur Actu A<g ref="char:EOLhyphen"/>cidae: in altero, tantum in Poten<g ref="char:EOLhyphen"/>tiâ.</p>
+               <p>Porrò, omnes è Lixivio facti Sales, sunt Acriores. At Testacei, vulgò dicti, non sine ratione Le<g ref="char:EOLhyphen"/>niores judicantur. Quemadmo<g ref="char:EOLhyphen"/>dum, &amp; prae caeteris, nonnulli Liquores Acidi, ut Succus Luju<g ref="char:EOLhyphen"/>lae, Cremoris Tartari Liquamen &amp; hujusmodi. His verò omnibus,
+<pb n="45" facs="tcp:42763:29"/>
+Sal Catharticus suâ Lenitate prae<g ref="char:EOLhyphen"/>cellit. Spiritum quidem Acidum distillatione exhibet. Sapor au<g ref="char:EOLhyphen"/>tem Acidus, non nisi in Princi<g ref="char:EOLhyphen"/>piis ab Igne vehementissimo so<g ref="char:EOLhyphen"/>lutis &amp; inquinatis sentitur. Quippe Sal ipse, nullam Acrimoniam, nul<g ref="char:EOLhyphen"/>lam Aciditatem sapit.</p>
+               <p>Neque tamen Sapore fatuo, sed acuto praeditus est, &amp; summè sub<g ref="char:EOLhyphen"/>tili: proindéque efficacius est Re<g ref="char:EOLhyphen"/>medium. Hujus autem admiran<g ref="char:EOLhyphen"/>da subtilitas, ex eo probatur, quòd quaecunque Vasa fictilia, si non optimè vitreata, penetrando, super eorum ambitu extimo, in formâ quasi Villosâ, Amianthi Lapidis in<g ref="char:EOLhyphen"/>star, concrescat.</p>
+               <p>Hujus item Salis Principia, Mi<g ref="char:EOLhyphen"/>sturâ longè minus solubili, quàm in Tartaro, multísque aliis Medi<g ref="char:EOLhyphen"/>camentis fruuntur. Quorum nem<g ref="char:EOLhyphen"/>pe
+<pb n="46" facs="tcp:42763:30"/>
+Unio adeo stricta est ac intima, ut horum alterum, potentiâ Aci<g ref="char:EOLhyphen"/>dum, non valde ultra sui dimi<g ref="char:EOLhyphen"/>diam partem, etiam vi Ignis Re<g ref="char:EOLhyphen"/>verberatorii, ab altero recedere videatur. Unde factum est, ut cùm alia Purgantia quaecunque mitiora, Medicum non rarò elu<g ref="char:EOLhyphen"/>dant: hic Sal, nunquam suâ vi Catharticâ destituitur. Ea enim Medicamenta in Humani Corporis Humores certiùs agunt, quae mi<g ref="char:EOLhyphen"/>nus Humorum vi sunt alterabilia. In quorum numero, praedictus Sal, aliáque Mineralia sunt repo<g ref="char:EOLhyphen"/>nenda.</p>
+               <p>Postremò, Sal idem, quamvis è diversis Principiis compositus, purissimus tamen, si modò diligen<g ref="char:EOLhyphen"/>ter paratus, censendus est. Ut ne quidem millesimam partem cu<g ref="char:EOLhyphen"/>juscunque rei extraneae in se re<g ref="char:EOLhyphen"/>cipiat. Nam si stillatitiam Aquam
+<pb n="47" facs="tcp:42763:30"/>
+hujus Salis Unciâ impraegnatam evapores; ne granum Salis hete<g ref="char:EOLhyphen"/>rogenei, aut Sedimenti Lapidei, aut Cremoris particulam; sed denuo, Salis Cathartici purissimi, eandem Unciam praebebit.</p>
+            </div>
+         </div>
+         <div type="part">
+            <pb facs="tcp:42763:31"/>
+            <pb n="49" facs="tcp:42763:31"/>
+            <head>PARS ALTERA DE SALIS CATHARTICI AMARI USU.</head>
+            <div n="1" type="chapter">
+               <head>CAPUT I. De Salis Cathartici Amari Vsu generaliùs considerato.</head>
+               <p>AQuarum Purgantium, nempe <hi>Ebeshamensium,</hi> &amp; ex eodem Genere aliarum Usus, tam prae<g ref="char:EOLhyphen"/>cellens
+<pb n="50" facs="tcp:42763:32" rendition="simple:additions"/>
+est, tam multiplex, Medi<g ref="char:EOLhyphen"/>císque nostris <hi>Londinensibus</hi> in Pra<g ref="char:EOLhyphen"/>xi versatioribus, tam scitè perspe<g ref="char:EOLhyphen"/>ctus; ut de eo dubia, vix qui<g ref="char:EOLhyphen"/>dem audienda sunt. In Morbis enim haud paucis gravioribus, efficacissimum Remedium com<g ref="char:EOLhyphen"/>probantur, nullâ insalubri Quali<g ref="char:EOLhyphen"/>tate praeditum, &amp; cui appositè praescripto, nihil unquam mali inopinatò supervenit.</p>
+               <p>Id unicum, nec sine quâdam Argumenti specie, forsan objicitur: quòd praedictae Aquae, inter co<g ref="char:EOLhyphen"/>quendum, Lapideum Cremorem praebeant. Unde dubitare licet, an<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Lapidi etiam in Humano Corpore<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> generando, materiem suppedi<g ref="char:EOLhyphen"/>tent.</p>
+               <p>Ista autem Objectio, duplici Ex<g ref="char:EOLhyphen"/>perientiâ refellitur; tam Illâ prae<g ref="char:EOLhyphen"/>cedenti, quàm Praxi Medicâ. Pa<g ref="char:EOLhyphen"/>tet enim ex antea dictis, hujusmod<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Lapideum Cremorem, neque Aqui<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb n="51" facs="tcp:42763:32"/>
+Catharticis, neque verò Aquae Cal<g ref="char:EOLhyphen"/>cis, nisi Aeri in Vase patulo com<g ref="char:EOLhyphen"/>missae, innataturum. Ideóque, nec quid Lapideum, è sumptis Aquis Catharticis, in Humano Corpore generari.</p>
+               <p>At Humani Corporis Humori<g ref="char:EOLhyphen"/>bus, immiscetur Aer. Esto: &amp; omni Aquae pariter immisceri, Pneumaticis Experimentis proba<g ref="char:EOLhyphen"/>tur. Sed qui nullo modo esset Lapidificus, nisi Aere coadjutus liberè influente. Adde, &amp; Aerem Humanum Corpus, non sine Colatu<g ref="char:EOLhyphen"/>râ subingredi.</p>
+               <p>Quod autem ad Praxin attinet, non Mihi Soli, sed &amp; aliis Medicis, Noti sunt, qui postquam Aquas has Catharticas Viginti, aut etiam Tri<g ref="char:EOLhyphen"/>ginta Annos, affatim &amp; per mul<g ref="char:EOLhyphen"/>tos dies continuos potârunt; nihil<g ref="char:EOLhyphen"/>ominus Arthritide, &amp; Vesicae Re<g ref="char:EOLhyphen"/>númque Calculo, semper immunes fuere, &amp; perfectissimâ sanitate eti<g ref="char:EOLhyphen"/>amnum
+<pb n="52" facs="tcp:42763:33"/>
+fruuntur. Et jam antea memoratus N. D. <hi>North,</hi> qui A<g ref="char:EOLhyphen"/>quas tam <hi>Ebeshamenses,</hi> quàm <hi>Bar<g ref="char:EOLhyphen"/>netenses</hi> potârat; praedictorum Mor<g ref="char:EOLhyphen"/>borum, quinque &amp; octaginta Annos vixit immunis.</p>
+               <p>Quin &amp; ipsa Aqua Calcis, quae Lapideum Cremorem, Aeris admi<g ref="char:EOLhyphen"/>stione citissimè producit; à Me<g ref="char:EOLhyphen"/>dicis saepe, tutissiméque propina<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Et nostri <hi>Londinenses,</hi> repurgan<g ref="char:EOLhyphen"/>do Saccharo, Calcis Aquam nun<g ref="char:EOLhyphen"/>quam non adhibent. Cujus ope, pars altera Mellaginea, meliùs se<g ref="char:EOLhyphen"/>cernitur ab altera Concrescibili; quae summam inde albedinem &amp; praestantiam acquirit.</p>
+               <p>Verùm, si Aqua ipsa Catharti<g ref="char:EOLhyphen"/>ca, quanto magis ex eadem para<g ref="char:EOLhyphen"/>tus Sal, praestantissimi Remedii lo<g ref="char:EOLhyphen"/>co habendus est? Quod enim ob<g ref="char:EOLhyphen"/>jicitur, contra Aquae usum, si Ar<g ref="char:EOLhyphen"/>gumenti gratiâ concedamus; idem
+<pb n="53" facs="tcp:42763:33"/>
+tamen contra usum Salis, ab omni Lapidificâ Substantiâ depurati, nihil faceret.</p>
+               <p>Porrò, ex sumptà Aquâ, si faece Muriaticâ, uberiori inquinata fue<g ref="char:EOLhyphen"/>rit, graviusculè moveri Alvum, interdum contingit. At praelau<g ref="char:EOLhyphen"/>datus Sal, qui ab istâ liberatur, Me<g ref="char:EOLhyphen"/>dicamentum, Purgantium prope omnium, lenissimum existit.</p>
+               <p>A maligno insuper plerorunque Catharticorum genio maximè va<g ref="char:EOLhyphen"/>cuus purusque est. Humores nun<g ref="char:EOLhyphen"/>quam exagitat; Aegritudines, aut Deliquia nunquam excitat; aut In<g ref="char:EOLhyphen"/>testinorum Tormina: nunquam vel irritis Motibus, fallit Medicum, vel ex Hypercatharsi Aegroto ter<g ref="char:EOLhyphen"/>rorem incutit.</p>
+               <p>Deinde, Aqua movendi vim, semper aequalem non obtinet: sed à siccâ humidâve Tempestate, tam Aestate quàm Hyeme, auctam vel imminutam. Et ex Hydropolis
+<pb n="54" facs="tcp:42763:34"/>
+sunt, qui Aquam Catharticam do<g ref="char:EOLhyphen"/>mi asservatam, cùm defecturam viderint, temerare audent commu<g ref="char:EOLhyphen"/>ni adjectâ. Unde nonnunquam fit, ut Medici usitatam Dosin praescri<g ref="char:EOLhyphen"/>bendo, successu tamen usitato frau<g ref="char:EOLhyphen"/>dantur. Ex Aquâ autem purè &amp; perfectè paratus Sal, ubique sui si<g ref="char:EOLhyphen"/>milis est, similémque habet vim purgatoriam.</p>
+               <p>His adde, <hi>Londinenses</hi> Medicos, non crudas Aquas, sed plerúnque coquendas praescribere. Nempe hoc modo sumptae, tam diminutâ Dosi, quàm auctâ Vi, è Ventricu<g ref="char:EOLhyphen"/>lo &amp; Intestinis faelicius descendunt. Aestivo tempore, ad duas tertias partes, Hyemali verò, ad dimidi<g ref="char:EOLhyphen"/>am, coquendae sunt; quod bihori<g ref="char:EOLhyphen"/>um vel trihorium exigit. Verùm Aquae Sal purgatorius, Liquore quovis conveniente, &amp; forsan se<g ref="char:EOLhyphen"/>mel bulliente solutus, semper in promptu est Remedium, valde
+<pb n="55" facs="tcp:42763:34"/>
+accommodatum Pharmacopoeis; Aegrotis, maximè: qui in urgen<g ref="char:EOLhyphen"/>tibus Morbis, ex diuturnâ Coctio<g ref="char:EOLhyphen"/>ne, multum Doloris atque Taedii sustinent, &amp; interdum periclitan<g ref="char:EOLhyphen"/>tur.</p>
+               <p>Postremo loco, neque tamen in<g ref="char:EOLhyphen"/>fimo, considerandum est, quòd A<g ref="char:EOLhyphen"/>quae, paulò diutius asservatae, im<g ref="char:EOLhyphen"/>primis Regione vel Tempestate fervidâ, foetore polluantur. At ea<g ref="char:EOLhyphen"/>rundem extractus Sal, nullo aut Loco, aut Tempore est corrupti<g ref="char:EOLhyphen"/>bilis.</p>
+               <p>VERUM nonnullos, etiam de hujus Salis Salubritate dubitantes praevideo: scilicet, quòd Spiritum Acidum distillatione praebeat.</p>
+               <p>Ista autem Objectio, contra u<g ref="char:EOLhyphen"/>sum Aquarum, utpote Salem conti<g ref="char:EOLhyphen"/>nentium, etiam militat.</p>
+               <p>Quin &amp; simili ratione, Sacchari, aut Mellis, aut etiam purissimi Pa<g ref="char:EOLhyphen"/>nis usum suspicaremur: è quibus
+<pb n="56" facs="tcp:42763:35"/>
+singulis, Spiritus stillatitius, non solùm pari gradu acidus, sed &amp; valde acris, vi Ignis propellitur. Et Vinum, Cibíque Saluberrimi, quorum Principia, solâ Fermenta<g ref="char:EOLhyphen"/>tione, vel alio quoquam modo, de<g ref="char:EOLhyphen"/>pravantur; Qualitates semper noxias, interdum venenatas indu<g ref="char:EOLhyphen"/>unt. Vel Infantium Alimentum, Lac Maternum, si leni calore di<g ref="char:EOLhyphen"/>geratur, brevi acescit. Sal au<g ref="char:EOLhyphen"/>tem Catharticus, in aliquo proprio vehiculo solutus, minimè fuis so<g ref="char:EOLhyphen"/>lutis Principiis, sed Essentiae Inte<g ref="char:EOLhyphen"/>gritate, propinatur: eâdem, nimi<g ref="char:EOLhyphen"/>rum, quâ Eduliis supra nominatis vescimur. Nam ut Sal ipse, ita &amp; Aqua in quâ Salem solutum bibi<g ref="char:EOLhyphen"/>mus, saporem prae se fert medio<g ref="char:EOLhyphen"/>criter Amarum, sine quâvis Acidi<g ref="char:EOLhyphen"/>tate conjunctâ.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="57" facs="tcp:42763:35"/>
+               <head>CAPUT II. De modo Salem Catharticum Amarum praescribendi.</head>
+               <p>IN quovis Vehiculo Patientis Temperamento conveniente, aut Gustui grato, solutus bibitur: cujus generis, sunt Aqua Fontana, Stillatitia, aliáve purissima; Deco<g ref="char:EOLhyphen"/>ctum Hordei Orbicularis, vulgò Perlati, vel Avenarum tenue, vel ex Pane albo; Lactis Serum cere<g ref="char:EOLhyphen"/>visiatum, vel decaseatum. <hi>Whey</hi> vulgò dictum, &amp; his similia. Mi<g ref="char:EOLhyphen"/>hi in frequenti Usu est Aqua pa<g ref="char:EOLhyphen"/>rum cocta &amp; Mace aromatizata. Cujus Libras duas, tres, vel quatu<g ref="char:EOLhyphen"/>or, Salis Cathartici Semiunciâ vel Unciâ impraegnatas, praescribere soleo: vel etiam majori dosi; <hi>ex. gr.</hi>
+                  <pb n="58" facs="tcp:42763:36"/>
+℞ <hi>Aquae fontanae</hi> 
+                  <abbr>lb</abbr>
+                  <hi>iiij. Macis <g ref="char:dram">ʒ</g>j. Co<g ref="char:EOLhyphen"/>quantur parum, &amp; in Colaturâ dissolve Salis Cathartici Amari ℥j. vel <g ref="char:dram">ʒ</g>x.</hi> pro Apozemate seu Decocto Cathar<g ref="char:EOLhyphen"/>tico, manè, jejuno Ventriculo, calidè, vel tepidè, interdum frigidè, bibendo, bihorii spatio, cum levi Exercitio.</p>
+               <p>Sumatur hoc Apozema vel per se, vel durante aliorum Catharticorum operatione.</p>
+               <p>Convenit etiam, pro re natâ, vel Senâ, vel Mannâ, vel utrâque Maci adjectâ, Salis Efficaciam pro<g ref="char:EOLhyphen"/>moveri: ut in sequenti, vel simili formâ.</p>
+               <p>℞ <hi>Aquae fontanae</hi> 
+                  <abbr>lb</abbr>
+                  <hi>iiij. Macis <g ref="char:dram">ʒ</g>j. Senae Alexand. <g ref="char:dram">ʒ</g>ij. vel iij. Coquantur parum.</hi> Deinde adde <hi>Salis Cathartici Amari ℥j. Mannae albi ss.℥iss. vel ℥ij. &amp; f. Colatura.</hi>
+               </p>
+               <p>N. D. <hi>Dudleus North,</hi> primus omnium Aquas Purgatorias cum
+<pb n="59" facs="tcp:42763:36"/>
+Lacte bibebat. Sed ei Ventricu<g ref="char:EOLhyphen"/>lum gravabant, quòd permiscuit frigidé. Postea, Medici, Aquas bullientes affuso Lacte alterabant. Quo modo, si cuiquam placeat, Sal &amp; ipse tutissime sumatur: <hi>ex gr.</hi>
+               </p>
+               <p>℞ <hi>Aquae fontanae</hi> 
+                  <abbr>lb</abbr>
+                  <hi>iijss. Salis Ca<g ref="char:EOLhyphen"/>thartici Amari ℥j. vel <g ref="char:dram">ʒ</g>x. MS. Bulli<g ref="char:EOLhyphen"/>enti Aquae affunde Lactis recentis</hi> 
+                  <abbr>lb</abbr>
+                  <hi>ss. &amp; auferatur coagulum colatorio.</hi>
+               </p>
+               <p>Aestivo tempore, cùm Fontes u<g ref="char:EOLhyphen"/>bique Medicinales frequentari sole<g ref="char:EOLhyphen"/>ant, Aqua vel Ferrata, vel etiam Purgatoria, ab ipsis Fontibus sum<g ref="char:EOLhyphen"/>pta, Vehiculum esset optimum.</p>
+               <p>Hujus Salis Drachma, vel sesqui<g ref="char:EOLhyphen"/>drachma, in Aquae <hi>Tunbrigensis</hi> vel alterius Ferratae tribus quatuórve primis haustibus sumpta, totidém<g ref="char:EOLhyphen"/>que Auroris repetita, Humores pri<g ref="char:EOLhyphen"/>má<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>que Vias, potationi propositae, reddit paratiores.</p>
+               <p>
+                  <pb n="60" facs="tcp:42763:37"/>Aquae Ferratae, interdum Alvum astringunt. Cui Incommodo, hu<g ref="char:EOLhyphen"/>jus Salis portiuncula, in primo hau<g ref="char:EOLhyphen"/>stu, vel ultimo, dissoluta, subve<g ref="char:EOLhyphen"/>nit.</p>
+               <p>Quin &amp; utilissimè sumatur idem Sal, ex Aquis ipsis Purgatoriis. Quarum haustus singuli, Salis Ca<g ref="char:EOLhyphen"/>thartici <g ref="char:dram">ʒ</g>j. impraegnati, tum multò certiùs, tum dimidio Numero, Ven<g ref="char:EOLhyphen"/>triculum minus premente, per Al<g ref="char:EOLhyphen"/>vum exeunt.</p>
+               <p>Interdum etiam, valdéque appo<g ref="char:EOLhyphen"/>sitè, Clysteribus acuendis, loco Sa<g ref="char:EOLhyphen"/>lis Gemmei, Salis Cathartici <g ref="char:dram">ʒ</g>iij. vel iiij. immiscentur.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="61" facs="tcp:42763:37"/>
+               <head>CAPUT III. De Salis Cathartici Amari Vsu speciali: &amp; imprimis in Ventriculi Morbis.</head>
+               <p>QUAE de Aquis Catharticis, earúmque Sale, jam proxi<g ref="char:EOLhyphen"/>mè dicturus sum; non incertis Conjecturis, sed diuturnae Experi<g ref="char:EOLhyphen"/>entiae, tam aliorum Doctissimorum Virorum, quàm Nostrae, innitun<g ref="char:EOLhyphen"/>tur. Qui omnes, utrumque Re<g ref="char:EOLhyphen"/>medium, in Morbis postea memo<g ref="char:EOLhyphen"/>randis, optimo successu usurpavi<g ref="char:EOLhyphen"/>mus.</p>
+               <p>Imprimis itaque Aqua Catharti<g ref="char:EOLhyphen"/>ca, vel ejus extractus Sal, Reme<g ref="char:EOLhyphen"/>dium Ventriculo, Appetitum scili<g ref="char:EOLhyphen"/>cet &amp; Digestionem promovendo, est amicissimum. Partim, ex suo
+<pb n="62" facs="tcp:42763:38"/>
+Principio potentiâ Acido; partim, ex totiûs Amaritudine, seu admisto Alkalino. Et è Priori, eò potiùs, quòd Spiritui Salis, omnium Cibo<g ref="char:EOLhyphen"/>rum Condimenti, Spiritum prae<g ref="char:EOLhyphen"/>beat aliquo modo congenerum. Sed &amp; ex Altero; quandoquidem &amp; a<g ref="char:EOLhyphen"/>liis plerísque Amaris corroboratum Ventriculum experimur. Et no<g ref="char:EOLhyphen"/>tissimum est, Appetitum, Salibus imprimis compositis adjuvari. Nam Condimenta ferè omnia, Muriâ non simplici, sed acidulatâ, prae<g ref="char:EOLhyphen"/>parantur. Verùm etiam Vinum rubicundum Gallicum, ut cum Ci<g ref="char:EOLhyphen"/>bis est gratissimum, ita Tartareo repletur Sale, hoc est, composito, omnium aliorum maximé. Sal item Chalybis, putà compositus<g ref="char:punc">▪</g> inter Medicamenta Stomachica, est non incelebre. Et Digestoria bi<g ref="char:EOLhyphen"/>na ista universalia, Panis &amp; Saliva, quorum alterum, Salem Acidum continet, alterum Alkalinum, com<g ref="char:EOLhyphen"/>positi
+<pb n="63" facs="tcp:42763:38"/>
+Salis permista locum sup<g ref="char:EOLhyphen"/>plent. Caeterùm<g ref="char:punc">▪</g> Fermentum ip<g ref="char:EOLhyphen"/>sum Stomachicum, ex Alkalinis particulis Acidísque, illis ab Arte<g ref="char:EOLhyphen"/>riis seu Sanguine, his ex parte à Nervis seu Spiritûs Animalis faece, tralatitiis componitur: id quod ex Argumentis probare possim non paucis, quibus nolo hîc immorari. Quamdiu itaque in Ventriculo debi<g ref="char:EOLhyphen"/>tâ proportione asservatur uterque Sal, Coctionis opus rectè perfici<g ref="char:EOLhyphen"/>tur. Sin alteruter praevaleat, Sales nunc Acidi ex usu sunt, nunc Al<g ref="char:EOLhyphen"/>kalini, ad aequilibrium restituen<g ref="char:EOLhyphen"/>dum.</p>
+               <p>Quoties ex Cibo Potúve Nimio, sive Improbo, vitiosa fit Concoctio, Vomitiones non ra<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ò sequuntur. Quibus cohibendis, Aqua Cathar<g ref="char:EOLhyphen"/>tica Amara, vel ejusdem Sal, Re<g ref="char:EOLhyphen"/>medium est praestantissimum. Eâ<g ref="char:EOLhyphen"/>dem scilicet ratione, quâ Mistura ex Salis Absinthii &amp; Limonum suc<g ref="char:EOLhyphen"/>co
+<pb n="64" facs="tcp:42763:39"/>
+celeberrima. Ei tamen ob id praeferendum, quòd Sales quoquo modo peccantes, uno quasi Ictu, &amp; destruat &amp; è Ventriculo detur<g ref="char:EOLhyphen"/>bet.</p>
+               <p>Proindè &amp; in Cardialgiam, aliós<g ref="char:EOLhyphen"/>que hujusmodi Dolores, nihil prae<g ref="char:EOLhyphen"/>dicto Medicamento tutiùs est, aut efficacius.</p>
+               <p>Quemadmodum &amp; in Calidam Affectionem Hypochondricam.</p>
+               <p>In supradictos Affectus, Aquam hanc Purgatoriam, vel proprium ejus Salem, interdum solitariè su<g ref="char:EOLhyphen"/>mendum praescripsi: Plerunque verò, non sine aliorum Remedio<g ref="char:EOLhyphen"/>rum, ut Venaesectionis, Vomitorii, &amp; similium, conjunctâ ope. Quip<g ref="char:EOLhyphen"/>pe, Medici prudentis est, praecipuè in Morbis gravioribus, nulli unico Remedio, quantumvis celebri, Ae<g ref="char:EOLhyphen"/>groti Salutem, suaeque Famae aesti<g ref="char:EOLhyphen"/>mationem concredere.</p>
+               <p>
+                  <pb n="65" facs="tcp:42763:39"/>Hujusmodi autem Remedia, jux<g ref="char:EOLhyphen"/>ta Indicantia, infinitè sunt varianda. Quorum tamen aliquot Formulas, Doctissime Lector, subjunctas ac<g ref="char:EOLhyphen"/>cipe.</p>
+               <div type="section">
+                  <head>In Dejecto Appetitu acuendo.</head>
+                  <p>℞ <hi>Aquae Spadanae, vel alterius Ferratae, vel</hi> (si haberi non pote<g ref="char:EOLhyphen"/>rit) <hi>Fontanae Maciatae</hi> 
+                     <abbr>lb</abbr>
+                     <hi>ij. vel iij. Salis Cathartici Amari ℥ss. <g ref="char:dram">ʒ</g>vj. vel ℥j. MS.</hi> Bibantur jejuno Ventricu<g ref="char:EOLhyphen"/>lo, tepidéque.</p>
+                  <p>Aquae autem quaecunque Ferra<g ref="char:EOLhyphen"/>tae, quo meliùs, hoc est, sine sui subtilissimi Spiritûs dispendio, etiam tepidè, si visum fuerit, sumantur; Ampulla in quâ servantur, Aquae calefactae immersa, dilapsis aliquot horae momentis, aperienda est, &amp; deinde post singulos effusos haustulos obturanda.</p>
+                  <p>Dum haec sumuntur, horâ ante
+<pb n="66" facs="tcp:42763:40"/>
+prandium, sumantur etiam ex Vini Xerensis vel Absinthitis Rhenani Cochleari uno, Elixyr. Propriet. gutt. xx, xxx, vel xl. Persistátque in ho<g ref="char:EOLhyphen"/>rum usu, quotidiano, vel alternis diebus, ad quartam, quintam, vel sextam vicem repetito. Vel,</p>
+                  <p>℞ <hi>Conservae Absinth. Rom. ℥ij. Cochl. Hort. ℥j. Zinzib. cond. ℥ss. Specier. Arom. Garyoph. <g ref="char:dram">ʒ</g>jss. Cort. Wint. Salis Absinth. veri <abbr>aa</abbr> 
+                        <g ref="char:dram">ʒ</g>j. Syr. Caryoph. q. s. MS. f. Elect.</hi> Capiat q. Nucis Moschatae majoris horâ som<g ref="char:EOLhyphen"/>ni, &amp; Juglandis minusculae horâ ante prandium, cum Vini supradicti tantillo, vel sine eo, si Caput gra<g ref="char:EOLhyphen"/>varet. Vel,</p>
+                  <p>℞ <hi>Limaturae Chalybis recentis &amp; splendidissimae ℥iij. Summit. Absin<g ref="char:EOLhyphen"/>thii Rom. Mss. Rad. Cyperi Rom. Ca<g ref="char:EOLhyphen"/>lami Aromat. <abbr>aa</abbr> 
+                        <g ref="char:dram">ʒ</g>j. Galangae mi<g ref="char:EOLhyphen"/>nor. Cinamomi acerrimi, Croci <abbr>aa</abbr>
+                        <pb n="67" facs="tcp:42763:40"/>
+                        <g ref="char:dram">ʒ</g>ss. Vini albi Gallici, vel Xerensis</hi> 
+                     <abbr>lb</abbr>
+                     <hi>ij.</hi> Digerantur in Ampullâ obtu<g ref="char:EOLhyphen"/>ratâ calore lenissimo, vel etiam in loco temperatè calido, per triduum, &amp; agitentur quotidie. Capiat Co<g ref="char:EOLhyphen"/>laturae Cochl. ij, iij, vel iiij. bihorio ante prandium quotidie.</p>
+               </div>
+               <div type="section">
+                  <head>In compescendis Vomitionibus.</head>
+                  <p>℞ <hi>Aquae cujuscunque Ferratae, vel ejus loco Aquae fontanae Maciatae</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iij, vel iiij. Salis Cathart. Amari <g ref="char:dram">ʒ</g>vj, vel ℥j. vel <g ref="char:dram">ʒ</g>x. MS.</hi> Bibantur ma<g ref="char:EOLhyphen"/>nè, calidè frigidéve, prout maxi<g ref="char:EOLhyphen"/>mè placent, &amp; repetantur tribus vicibus, vel pluribus, si opus fue<g ref="char:EOLhyphen"/>rit, continuis diebus, vel alternis. Et horum usui conjunge Pilulas se<g ref="char:EOLhyphen"/>quentes.</p>
+                  <p>℞ <hi>Rosarum rubrar. Cinamom. a<g ref="char:EOLhyphen"/>cerrimi <abbr>aa</abbr> 
+                        <g ref="char:dram">ʒ</g>j. Garyophyll. Salis Chalybis <abbr>aa</abbr> ℈j. Croci ℈s. Ol. Men<g ref="char:EOLhyphen"/>thae
+<pb n="68" facs="tcp:42763:41"/>
+Stillatitiae gutt. viij. Syr. Cha<g ref="char:EOLhyphen"/>lyb. q. s. MS. f. Pilulae n<hi rend="sup">o</hi>. xxiiij.</hi> Sumantur tres bihorio ante sorbile prandium, &amp; hora somni quoti<g ref="char:EOLhyphen"/>die.</p>
+                  <p>Aliquando Fomentatio ex <hi>Vino rubro cum Theriac. Andr. ℥j. &amp; flo<g ref="char:EOLhyphen"/>ribus Rosar. rubr. foliísque Menthae</hi> calidè infusis, esset utilissimum.</p>
+               </div>
+               <div type="section">
+                  <head>In Dolore Stomachi Colicae Affe<g ref="char:EOLhyphen"/>ctionis aemulo.</head>
+                  <p>℞ <hi>Senae Mund. <g ref="char:dram">ʒ</g>ij. Macis <g ref="char:dram">ʒ</g>j. Co<g ref="char:EOLhyphen"/>quantur in Aquae fontanae q. s. ad</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iij, vel iiij Colaturae adde Salis Cathart. Amar. <g ref="char:dram">ʒ</g>vj. vel ℥j. vel <g ref="char:dram">ʒ</g>x. Syr. Chalybis ℥iss. Misce, f.</hi> Apozema Catharti<g ref="char:EOLhyphen"/>cum, manè, &amp; pro more bibendum. Vel etiam sine Senâ. Et sumatur vel per se, vel cum Pilulis sequenti<g ref="char:EOLhyphen"/>bus.</p>
+                  <p>
+                     <pb n="69" facs="tcp:42763:41"/>℞ <hi>Pilulae Stomach. cum Gum. gr. xxv. Limaturae Chalyb. Subtiliss. gr. x. Syr. Chalybis q. s. MS. f. Pil. iiij.</hi> horâ somni sumendae. Die proximo sumatur Apozema ut su<g ref="char:EOLhyphen"/>pra, &amp; sic per Triduum, vel diu<g ref="char:EOLhyphen"/>tius.</p>
+                  <p>Interdum ex usu erit, Extractum Gentianae, vel alterius amari, Pilu<g ref="char:EOLhyphen"/>lis admisceri.</p>
+                  <p>Atque etiam <hi>Laud. Lond. gr. ss. vel gr. j.</hi> si Dolor intensior fuerit.</p>
+               </div>
+               <div type="section">
+                  <head>In Calidâ Affectione Hypochon<g ref="char:EOLhyphen"/>driacâ.</head>
+                  <p>℞ <hi>Aquae cujuscunque Ferratae</hi> 
+                     <abbr>lb</abbr> 
+                     <hi>iij, vel iiij.</hi> In singulis haustu<g ref="char:EOLhyphen"/>lis dissolve <hi>Salis Cathart. Amari <g ref="char:dram">ʒ</g>ss. vel <g ref="char:dram">ʒ</g>j.</hi> ad octavam<g ref="char:punc">▪</g> vicem circiter, &amp; bibantur frigidé.</p>
+                  <p>Vel loco Aquae Ferratae, suma<g ref="char:EOLhyphen"/>tur in Aquâ Lactis simplici, vel
+<pb n="70" facs="tcp:42763:42"/>
+fol. Boraginis &amp; Pimpinellae distil<g ref="char:EOLhyphen"/>la<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>â.</p>
+               </div>
+               <div type="section">
+                  <head>In Cardialgia cum Calore.</head>
+                  <p>In hoc Morbo, simili modo, ac in praecedenti, sumptus Sal, faelici<g ref="char:EOLhyphen"/>ter succedit.</p>
+               </div>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="71" facs="tcp:42763:42"/>
+               <head>CAPUT IV. De Salis Cathartici, Amari V<g ref="char:EOLhyphen"/>su, in Intestinorum Parti<g ref="char:EOLhyphen"/>úmque adjacentium Morbis. Et primò, in Colico Dolo<g ref="char:EOLhyphen"/>re.</head>
+               <p>IN hoc Morbo, non opus est Do<g ref="char:EOLhyphen"/>ctum &amp; Exercitatum Medicum admoneri, Venaesectionem rarò aut nunquam omittendam<g ref="char:punc">▪</g> atque in pri<g ref="char:EOLhyphen"/>mo loco celebrandam.</p>
+               <p>Deinde, consultissimum esset, Cly<g ref="char:EOLhyphen"/>sterem injicere hunc in modum pa<g ref="char:EOLhyphen"/>ratum.</p>
+               <p>℞ <hi>Decocti communis pro Clystere</hi> 
+                  <abbr>lb</abbr>
+                  <hi>j. addendo reliquis coquendis Senae optimae <g ref="char:dram">ʒ</g>iij, vel ℥ss. In colaturâ dis<g ref="char:EOLhyphen"/>solve Salis Cathart. Amari ℥ss. vel <g ref="char:dram">ʒ</g>v.
+<pb n="72" facs="tcp:42763:43"/>
+Spec. Hierae picrae <g ref="char:dram">ʒ</g>iss. vel <g ref="char:dram">ʒ</g>ij. Sacch. rubri. ℥ij. MS.</hi> Ex hujus, vel hujus<g ref="char:EOLhyphen"/>modi Clysteris usu, Dolores Colici saepe dissipantur; vel Saltem inte<g ref="char:EOLhyphen"/>riùs sumendis, &amp; per Intestina transeundis, via panditur.</p>
+               <p>Non rarò Pilulae Rudii ℈<hi>j. vel <g ref="char:dram">ʒ</g>ss. cum Laud. Lond. gr. j. vel gr. jss.</hi> exhibetur utiliter.</p>
+               <p>Et nonnunquam <hi>Hydrargyrum</hi>; si Aegrotus sufficienti quantitate, nempe quatuor vel sex unciarum, deglutiverit. Et praecipuè, si unà cum <hi>Tincturae Sacrae,</hi> hoc est, <hi>Tinct. Spec. Hierae Picrae Vino albo para<g ref="char:EOLhyphen"/>tae,</hi> quasi duabus Unciis, vel alio Liquore Cathartico convenienti, su<g ref="char:EOLhyphen"/>meretur.</p>
+               <p>Omnium autem Remediorum Nobilissimum, Aqua est Cathartica Amara, vel ex eâdem paratus Sal, sequenti, vel simili modo sum<g ref="char:EOLhyphen"/>ptus.</p>
+               <p>
+                  <pb n="73" facs="tcp:42763:43"/>℞ <hi>Aquae fontanae vel fluvialis Maciatae</hi> 
+                  <abbr>lb</abbr>
+                  <hi>iijss. Aquae fl. Chamaem. vel fol. Menthae ℥vj. Salis Cathart. Am. ℥j. vel <g ref="char:dram">ʒ</g>x. Mannae albiss. ℥iss. vel ℥ij. MS. fiat Apozema.</hi> Bibat Aegrotus unâ vice circa ℥vj. calidè, &amp; su<g ref="char:EOLhyphen"/>matur horae vel sesquihorae spatio, etiamsi ejusdem aliquam partem evomuerit.</p>
+               <p>Hujus Medicamenti vis, nonnun<g ref="char:EOLhyphen"/>quam fortior evadit, ex sequentis conjunctâ ope.</p>
+               <p>℞ <hi>Tinct. Sacrae ℥ij, iij, vel iiij. Capiat Cochl. j. vel ij.</hi> ante singu<g ref="char:EOLhyphen"/>los Haustus Apozematis supra prae<g ref="char:EOLhyphen"/>scripti.</p>
+               <div type="section">
+                  <head>In Vermibus.</head>
+                  <p>Idem Sal, si Nutrix, è Drachmâ, vel Sesquidrachmâ, Puerorum vel Infantium Sorbilia paraverit sine Lacte, Vermes exterminat.</p>
+                  <p>
+                     <pb n="74" facs="tcp:42763:44"/>Praecipuè, si Mercurii dulcis, aut Crystallorum (<hi>i. e.</hi> Salis) Lunae vel gr. j. pro Patientis aetate, vel ij. vel iij. in quovis Vehiculo conveni<g ref="char:EOLhyphen"/>enti, Medicus praemiserit.</p>
+                  <p>Vel si Clysteribus amaris Sal Ca<g ref="char:EOLhyphen"/>tharticus immisceatur.</p>
+               </div>
+               <div type="section">
+                  <head>In Dolore Nephritico.</head>
+                  <p>In hoc Morbo, quemadmodum in Dolore Colico, plerunque cum Venaesectione auspicandum est, eâ<g ref="char:EOLhyphen"/>que non rarò repetendâ.</p>
+                  <p>Cui etiam Vomitorium, ex Vino Benedicto, vel Sale Vitrioli, praeci<g ref="char:EOLhyphen"/>puè si Aegrotus fuerit nauseabundus, aptissimè subjungitur. Cujus nem<g ref="char:EOLhyphen"/>pe Vi, non solùm exoneratur Ven<g ref="char:EOLhyphen"/>triculus, pars nonnunquàm primo loco delinquens; sed &amp; totum Ge<g ref="char:EOLhyphen"/>nus Nervosum, Renibus contermi<g ref="char:EOLhyphen"/>num, &amp; hâc in Affectione maximè laborans, relevatur.</p>
+                  <p>
+                     <pb n="75" facs="tcp:42763:44"/>Postea, praecipuè si ex Emetico alvus non laxa fuerit, injiciatur se<g ref="char:EOLhyphen"/>quens Enema.</p>
+                  <p>℞ <hi>Flor. Chamaem. Mj. Sem. Cu<g ref="char:EOLhyphen"/>mini, Faeniculi dulc. Petrosel. con<g ref="char:EOLhyphen"/>tusor. <abbr>aa</abbr> ℥j. Radic. Althaeae incisae &amp; contusae ℥ij. Coquantur in Aquae communis q. s. ad</hi> 
+                     <abbr>lb</abbr>
+                     <hi>j. Colaturae adde Terebinth. Venet. Vitello Ovi So<g ref="char:EOLhyphen"/>lutae ℥ss. Salis Cathart. Amari eti<g ref="char:EOLhyphen"/>am ℥ss. Syr. Althaeae ℥iij. MS. f. Enema.</hi>
+                  </p>
+                  <p>Si Dolores vehementiores fue<g ref="char:EOLhyphen"/>rint, addantur <hi>Enemati Laud. Li<g ref="char:EOLhyphen"/>quidi Cydon. gutt. XL. vel L.</hi> Ex hujus, vel hujusmodi Enematis u<g ref="char:EOLhyphen"/>su, non rarò, cum vel sine Cal<g ref="char:EOLhyphen"/>culo, aut Calculosâ materiâ, U<g ref="char:EOLhyphen"/>rina profluit, Dolorésque evanes<g ref="char:EOLhyphen"/>cunt<g ref="char:punc">▪</g>
+                  </p>
+                  <p>
+                     <pb n="76" facs="tcp:42763:45"/>Verùm, si pertinaciùs adhuc hae<g ref="char:EOLhyphen"/>rerent, ad sequens Apozema, tan<g ref="char:EOLhyphen"/>quam Remedium maximè Salutise<g ref="char:EOLhyphen"/>rum, confugiendum est.</p>
+                  <p>℞ <hi>Decocti Hordei Maciati</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iij. vel iiij. Salis Cathart. Amari <g ref="char:dram">ʒ</g>vj. vel ℥j. Syr. Althaeae ℥iij. vel ℥iiij. MS. f. Apozema.</hi> Sumatur calidè, horae, sesquihorae, vel Bihorii spatio, vel circiter, etiam si Aegrotus aliquam partem evomuerit.</p>
+               </div>
+               <div type="section">
+                  <head>In Vrinae Ardore.</head>
+                  <p>Idem valet Apozema, in Ardore Urinae; sive è Sanguinis Acrimo<g ref="char:EOLhyphen"/>niâ, sive Gonorrhaeâ Venereâ ori<g ref="char:EOLhyphen"/>undo.</p>
+               </div>
+               <div type="section">
+                  <head>In Suppressione Vrinae.</head>
+                  <p>Atque etiam in Suppressione U<g ref="char:EOLhyphen"/>rinae, quae vel sine Lapide contingit, vel sine majori, quàm ut Vias Uri<g ref="char:EOLhyphen"/>narias transire possit.</p>
+                  <p>
+                     <pb n="77" facs="tcp:42763:45"/>Attamen si dies aliquot Morbus duraverit, Sanguis primo loco, &amp; liberiùs mittendus est. Deinde, &amp; Enema paulo acrius, cum Syrupo è Spinâ cervinâ, <hi>Sale Cathart. Am. &amp;c.</hi> immittendum. Cujus durante Operatione, praedictum Apozema, vel ejus aliquot Haustus, utilissimè bibantur. Praecipuè, si ante singulos haustus, Misturae sequentis sumatur Cochleare unum.</p>
+                  <p>℞ <hi>Aq. Faenic. Saxifrag. <abbr>aa</abbr> ℥iss. Salis Succini <g ref="char:dram">ʒ</g>j. Tart. Vitr. ℈j. Millep. pp. <g ref="char:dram">ʒ</g>ij. Syr. Althaeae ℥j. MS.</hi>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>In Diabete.</head>
+                  <p>In quo periculosissimo Morbige<g ref="char:EOLhyphen"/>nere, si leni Evacuatione opus fue<g ref="char:EOLhyphen"/>rit, cùm placidissimè moveat hoc Remedium, multúmque refrigeret, omnium Catharticorum est Tutis<g ref="char:EOLhyphen"/>simum
+<pb n="78" facs="tcp:42763:46"/>
+&amp; ferè unicum. Cujus ope, conjuncto Aquarum Ferratarum quarumcunque assiduo usu, &amp; Hyp<g ref="char:EOLhyphen"/>noticorum, nonnullos jam peritu<g ref="char:EOLhyphen"/>ros, <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed tamen Juniores, in Sanita<g ref="char:EOLhyphen"/>tem restitui.</p>
+               </div>
+               <div type="section">
+                  <head>In Ictero.</head>
+                  <p>Etiam in hoc Morbo, Venaese<g ref="char:EOLhyphen"/>ctio rarò omittenda est. Imò verò, repetenda, si Aegrotus paulò magis febricitet.</p>
+                  <p>Neque minori usui sunt Vomi<g ref="char:EOLhyphen"/>toria: quatenus tum morbosam Colluviem Ventriculo exterminant; tum Bilem in suâ Vesicâ stagnan<g ref="char:EOLhyphen"/>tem proliciunt. Ideóque si opus fuerit, per Intervalla iteranda sunt. Imprimis, si horum aliorúmve Re<g ref="char:EOLhyphen"/>mediorum usus minus efficax, Cal<g ref="char:EOLhyphen"/>culorum, Mole suâ vel numero Po<g ref="char:EOLhyphen"/>rum Biliarem occludentium, suspi<g ref="char:EOLhyphen"/>cionem ingerat: ubi prudenter &amp;
+<pb n="79" facs="tcp:42763:46"/>
+forti animo persistendum est.</p>
+                  <p>In quocunque autem Ictero, Cal<g ref="char:EOLhyphen"/>culoso, vel Simplici, Aqua Cathar<g ref="char:EOLhyphen"/>tica, vel ejus Sal, optimè propina<g ref="char:EOLhyphen"/>tur, sequenti vel simili modo.</p>
+                  <p>℞ <hi>Pilulae Ruffi <g ref="char:dram">ʒ</g>ss. Rhabarb. Sa<g ref="char:EOLhyphen"/>lis volatil. Vrinae <abbr>aa</abbr> ℈ss. Syr. ab<g ref="char:EOLhyphen"/>sinth. q. s. MS.</hi> fiant Pilulae n<hi rend="sup">o</hi> vj. horâ somni sumendae. Aurorâ proximâ, sumatur sequens Apo<g ref="char:EOLhyphen"/>zema.</p>
+                  <p>℞ <hi>Rasurae C. C. ℥ij. Coquantur in Aquae fontanae</hi> 
+                     <abbr>lb</abbr>
+                     <hi>vj. ad</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iv. Dein<g ref="char:EOLhyphen"/>de adde Macis, Curcumae <abbr>aa</abbr> 
+                        <g ref="char:dram">ʒ</g>j. &amp; coquantur parum. Colaturae adde Salis Cathart. Amar. ℥j. Syr. Chaly<g ref="char:EOLhyphen"/>bis ℥j. MS. f. Apoz.</hi> pro more su<g ref="char:EOLhyphen"/>mendum.</p>
+                  <p>Si Medico visum fuerit, loco Pi<g ref="char:EOLhyphen"/>lularum supra praescriptarum, prae<g ref="char:EOLhyphen"/>mittat Haustum sequentem.</p>
+                  <p>
+                     <pb n="80" facs="tcp:42763:47"/>℞ <hi>Tinct. Sacrae ℥iss. vel ij. Syr. è Cichor. cum Rhabarb. ℥j. Tart. Vi<g ref="char:EOLhyphen"/>triol. ℈ss. MS. f.</hi> Haustulus horâ sex<g ref="char:EOLhyphen"/>tâ vel septimâ matutinâ sumendus. Post bihorium, bibat Apozema su<g ref="char:EOLhyphen"/>pra praescriptum. Et repetantur singulis vel alternis diebus.</p>
+                  <p>Si Aloetica fuerint nimis calida, propinetur Infusum de Rhabarb. <hi>&amp;c.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="81" facs="tcp:42763:47"/>
+               <head>CAPUT V. De Salis Cathartici Amari V<g ref="char:EOLhyphen"/>su in Morbis Cephalicis. Et primò, in Mania.</head>
+               <p>IN Maniâ, praeter Venaesectio<g ref="char:EOLhyphen"/>nem, &amp; repetita Vomitoria, Unguenta etiam Cephalica, Seta<g ref="char:EOLhyphen"/>ceum in Nuchâ, Vesicatoria, prae<g ref="char:EOLhyphen"/>cipuè Tibiis apposita, Cathartica, aliáque Remedia, plerunque adhi<g ref="char:EOLhyphen"/>benda sunt.</p>
+               <p>In omnium autem Cathartico<g ref="char:EOLhyphen"/>rum, Helleboratorum, aliorúmve operationem promovendam, nihil magis convenit, quàm Aqua Ca<g ref="char:EOLhyphen"/>thartica, vel Ejus Sal, hunc vel si<g ref="char:EOLhyphen"/>milem in modum praescriptus.</p>
+               <p>
+                  <pb n="82" facs="tcp:42763:48"/>℞ <hi>Fol. Melissae, Boragin. <abbr>aa</abbr> Mj. Infundantur in Aquae fontanae coctae &amp; ferventis</hi> 
+                  <abbr>lb</abbr>
+                  <hi>iiij. vel v. in Vase clauso per Semihoram. Colaturae adde Salis Cathart. Am. ℥j. vel <g ref="char:dram">ʒ</g>x. Syr. Viol. ℥iij. MS. f. Apozema,</hi> per se, vel alio Cathartico convenienti, posseti loco, bibendum. Vel,</p>
+               <p>℞ <hi>Salis Cathart. Amari ℥j. Dis<g ref="char:EOLhyphen"/>solve <g ref="char:dram">ʒ</g>j. in haustu Aquae Spadanae, vel cujuscunque Ferratae,</hi> &amp; biban<g ref="char:EOLhyphen"/>tur hujusmodi haustus octo.</p>
+               <p>In aliorum Purgantium etiam In<g ref="char:EOLhyphen"/>tervallis, praecipuè aestivo tempore, per se utilissimè, modo supra prae<g ref="char:EOLhyphen"/>scripto, sumeretur. Nam Humo<g ref="char:EOLhyphen"/>rum Spirituúmque Maniacam Con<g ref="char:EOLhyphen"/>turbationem optimè compescit.</p>
+               <div type="section">
+                  <head>In Cephalalgia.</head>
+                  <p>In quo Affectu, praecipuè
+<pb n="83" facs="tcp:42763:48"/>
+ex Causâ Calidâ, vel Calido Tem<g ref="char:EOLhyphen"/>peramento conjuncto, nihil effi<g ref="char:EOLhyphen"/>cacius, quàm sequens, aut istiusmo<g ref="char:EOLhyphen"/>di Methodus, in Re Medicâ inveni.</p>
+                  <p>Imprimis sufficienti quantitate, locísque ex circumstantiis indicatis, mittatur Sanguis.</p>
+                  <p>Deindè, prout Vires, al áque mo<g ref="char:EOLhyphen"/>nuerint, excitetur Vomitio, vel o<g ref="char:EOLhyphen"/>mittatur. Postea sumat Aegrotus sequentia.</p>
+                  <p>℞ <hi>Scammonii pp<hi rend="sup">•i</hi>, Rhabarb. pul<g ref="char:EOLhyphen"/>verizati, Mercurii dulc. <abbr>aa</abbr> ℈s. vel gr xij. vel xiiij. Syr. è Spina Cerv<g ref="char:punc">▪</g> q. s. MS. f. Pilulae v.</hi> horâ quartâ vel quintâ matutinâ sumendae, superdormien<g ref="char:EOLhyphen"/>do. Post horas tres, bibatur se<g ref="char:EOLhyphen"/>quens Apozema<g ref="char:punc">▪</g>
+                  </p>
+                  <p>℞ <hi>Aquae fontanae Maciatae</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iij. vel iiij. Salis Cathart. Amari <g ref="char:dram">ʒ</g>vj. vel ℥j. Syr. Viol. ℥ij. MS. sumantur cum regimine.</hi>
+                  </p>
+                  <p>
+                     <pb n="84" facs="tcp:42763:49"/>Repetatur idem Apozema cum Pilulis supra praescriptis, tertio vel quarto quoque die: Et per se, die<g ref="char:EOLhyphen"/>bus interpositis. Continuantur au<g ref="char:EOLhyphen"/>tem duabus Septimanis, vel tribus, si opus fuerit.</p>
+               </div>
+               <div type="section">
+                  <head>In Vertigine.</head>
+                  <p>Cum Sanguinis missione simili<g ref="char:EOLhyphen"/>ter incipiendum est; praecipuè, si Affectus ex nimio Vino proveniret: &amp; imprimis è Venâ Brachii.</p>
+                  <p>Deinde Cucurbitulis cum Scari<g ref="char:EOLhyphen"/>ficatione appositis, non solùm Sca<g ref="char:EOLhyphen"/>pulis, sed &amp; ipsi raso Occipiti. Cui Parti, tam in hoc Affectu, quàm in Cephalalgiâ, &amp; Oculorum In<g ref="char:EOLhyphen"/>flammationibus, faeliciùs quàm cui<g ref="char:EOLhyphen"/>cunque alteri, admovendas, jubere soleo. Post Sanguinis missionem, sumat sequentia.</p>
+                  <p>
+                     <pb n="85" facs="tcp:42763:49"/>℞ <hi>Pilulae Mastichinae ℈ij. Ol. Majoranae stillat. gutt. v. MS. f. Pilulae hora somni sumendae.</hi> Aurorâ pro<g ref="char:EOLhyphen"/>ximâ, bibatur sequens Apozema.</p>
+                  <p>℞ <hi>Aquae fontanae Maciatae</hi> 
+                     <abbr>lb</abbr>
+                     <hi>ij. vel iij. Aquae Salviae Odoratae ℥iiij. Majoranae Hortens. ℥ij. Salis Ca<g ref="char:EOLhyphen"/>thartici Am. <g ref="char:dram">ʒ</g>vj. vel ℥j. MS. sumantur praescripto more.</hi>
+                  </p>
+                  <p>Interdum ante singulos Haustus, utiliter sumeretur sequentis Misturae Cochl. j.</p>
+                  <p>℞ <hi>Fol. Majoranae Hort. Salviae Odoratae <abbr>aa</abbr> 
+                        <g ref="char:dram">ʒ</g>ij. Rad. Gentianae, Specier. Hier. picr. <abbr>aa</abbr> ℈ij. Vini albi optimi ℥iiij.</hi> Digerantur ho<g ref="char:EOLhyphen"/>ris duodecim in Vitro clauso, &amp; deinde fortiter exprimatur Tinctu<g ref="char:EOLhyphen"/>ra, per subsidentiam depuranda.</p>
+               </div>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="86" facs="tcp:42763:50"/>
+               <head>CAPUT VI. De Salis Cathartici Amari Vsu in Morbis quibusdam aliis: &amp; primò, in Passio<g ref="char:EOLhyphen"/>ne Hystericâ.</head>
+               <p>IN quo Morbo, postquam Sym<g ref="char:EOLhyphen"/>ptomata graviora Opiatorum usu sedata fuerint: Tincturae Sa<g ref="char:EOLhyphen"/>crae (Vini albi partibus duabus, &amp; Aquae Hystericae parte unâ para<g ref="char:EOLhyphen"/>tae) <g ref="char:dram">ʒ</g>x. vel xij. vel ℥ij. optimo suc<g ref="char:EOLhyphen"/>cessu plerunque exhibentur.</p>
+               <p>Sin autem Medicus alio tempe<g ref="char:EOLhyphen"/>ratiori Medicamento Alvum mo<g ref="char:EOLhyphen"/>vendam viderit: praelaudatum, cum lenissimè id perficiat, tutò bi<g ref="char:EOLhyphen"/>bitur. Et majori cum fructu, si loco Aquae Maciatae, eligatur
+<pb n="87" facs="tcp:42763:50"/>
+Aqua Spadana, vel Melissae, pro Salis Vehiculo.</p>
+               <div type="section">
+                  <head>In Arthritide Vagâ.</head>
+                  <p>Quae vulgò Rheumatismus, sed non sine Errore, nuncupatur. Cùm hic, Partibus Musculosis, illa Ar<g ref="char:EOLhyphen"/>ticulis solis obsidat. Morbus per<g ref="char:EOLhyphen"/>tinax est, &amp; non rarò plurium Re<g ref="char:EOLhyphen"/>mediorum Apparatum exigit.</p>
+                  <p>Venaesectio reliquis praemitten<g ref="char:EOLhyphen"/>da est; &amp; singulis, vel alternis die<g ref="char:EOLhyphen"/>bus, iteranda, ad quartam, &amp; si opus fuerit, quintam, vel etiam sextam vicem.</p>
+                  <p>Post primam vel secundam vi<g ref="char:EOLhyphen"/>cem, maximo saepe ex usu erit Vo<g ref="char:EOLhyphen"/>mitorium. Quamdiu enim Ven<g ref="char:EOLhyphen"/>triculus se malè habet, Morbosam Materiem Sanguini, Articulísque de novo indies immittit.</p>
+                  <p>
+                     <pb n="88" facs="tcp:42763:51"/>Verùm Cathartica, eáque for<g ref="char:EOLhyphen"/>tiora, etiamsi interdum dies ali<g ref="char:EOLhyphen"/>quot deferenda sunt; vix tamen unquam omittenda. Ut quae po<g ref="char:EOLhyphen"/>tentiùs, non rarò unâ vice, quàm Phlebotomiae, ter quatérve repetitae, Morbum enervent.</p>
+                  <p>Horum autem Operatio, cùm Patientes ferè semper febricitent, Aquarum Purgantium, Earúmve Salis ope, multò leniùs, &amp; sine Hu<g ref="char:EOLhyphen"/>morum Effervescentiâ, absolvitur. Sumantur itaque sequenti modo.</p>
+                  <p>℞ <hi>Pulveris Jalapii resinosi <g ref="char:dram">ʒ</g>ss. Scammonii pp<hi rend="sup">ti</hi> gr. vj. Calomel. ℈s. Syr. è Spina Cerv. q. s. MS. f.</hi> Bo<g ref="char:EOLhyphen"/>lus horâ quintâ matutinâ sumendus superdormiendo. Post horas tres bibendum est sequens Apozema.</p>
+                  <p>
+                     <pb n="89" facs="tcp:42763:51"/>℞ <hi>Hordei perlati ℥iss. Vvar. Passarum minor. ℥iij. Bulliant in A<g ref="char:EOLhyphen"/>quae fontanae q. s. ad</hi> 
+                     <abbr>lb</abbr>
+                     <hi>iiss. vel iiiss. addendo in fine, Macis <g ref="char:dram">ʒ</g>ss. Colaturae adde Salis Cathartici Amari ℥j. Mannae albiss. ℥ss. vel ℥j. vel ℥iss. pro Apozemate.</hi>
+                  </p>
+                  <p>Si Aegrotus difficilius moveatur, &amp; alia coindicantia monuerint, addantur primo haustui <hi>Syr. è Spi<g ref="char:EOLhyphen"/>nâ Cerv. <g ref="char:dram">ʒ</g>vj. vel ℥j.</hi> Et repetatur Bolus cum hujusmodi Apozemate, vel alternis diebus, vel tertio, quar<g ref="char:EOLhyphen"/>tóve quoque die, prout Medico visum fuerit, vel etiam majoribus Intervallis, donec Aegrotus perfe<g ref="char:EOLhyphen"/>ctam Sanitatem recuperaverit.</p>
+                  <p>In Morbi principio, &amp; augmen<g ref="char:EOLhyphen"/>to, singulis, vel Saltem alternis Noctibus, semper autem post sin<g ref="char:EOLhyphen"/>gulas Purgationes, Humorum E<g ref="char:EOLhyphen"/>bullitiones, &amp; in Articulos novi
+<pb n="90" facs="tcp:42763:52"/>
+Influxus, Opiati convenientis usu, cohibendi sunt.</p>
+                  <p>Quoties, vel propter Febrem paulo intensiorem, vel Patientis Imbecillitatem, Purgatio proro<g ref="char:EOLhyphen"/>ganda est; Vesicatoria, supra vel infra Articulos affectos, quasi unam vel alteram transversam manum, applicantur summo cum levamine. Et interdum adeò est effraenatus ac praefervidus Sanguinis Latex se<g ref="char:EOLhyphen"/>rosus; ut ne quidem conjunctis di<g ref="char:EOLhyphen"/>ctorum Remediorum viribus cedat, donec Vesicantium ope, ex aliquâ parte, à rubicundo &amp; leni Cruore secernatur.</p>
+                  <p>In hoc Morbo, Sudores evocan<g ref="char:EOLhyphen"/>tia, etiamsi uberiores, vix quid<g ref="char:EOLhyphen"/>quam proficiunt. At Diuretica, utiliter adhibentur: &amp; ob eandem causam, Apozemata ex Sale Cathar<g ref="char:EOLhyphen"/>tico ut supra parata, magis conve<g ref="char:EOLhyphen"/>niunt; cùm &amp; Alvi faeces, &amp; Urinas, motu simultaneo propellant.</p>
+                  <p>
+                     <pb n="91" facs="tcp:42763:52"/>Curationis tempore, à Vino, om<g ref="char:EOLhyphen"/>nibúsque Vinosis, &amp; Cerevisiatis, non coctis, abstinendum est. Se<g ref="char:EOLhyphen"/>rum Lactis recens &amp; coctione de<g ref="char:EOLhyphen"/>caseatum, Potulentorum omnium est praestantissimum.</p>
+               </div>
+               <div type="section">
+                  <head>In Pruriginoso Affectu.</head>
+                  <p>Pruritum, non quidem Contagio<g ref="char:EOLhyphen"/>sum, sed è Scorbuto genitum, nunc Corpus universum, nunc aliquas Par<g ref="char:EOLhyphen"/>tes, ut Pudenda, aliásve occupan<g ref="char:EOLhyphen"/>tem, ultimò praescripto Apozema<g ref="char:EOLhyphen"/>te, cum vel sine aliis Purgatoriis repetito, saepe medicavi; &amp; crucia<g ref="char:EOLhyphen"/>tos nonnullos perpetuâque scalptu<g ref="char:EOLhyphen"/>râ fatigatos, beavi requie placidissi<g ref="char:EOLhyphen"/>mâ. Imprimis, si Aquae Ferratae, Cerevisiae loco, unà quotidie, &amp; affa<g ref="char:EOLhyphen"/>tim potarentur.</p>
+                  <p>Idem Apozema, post exiccatas Variolas esset utilissimum.</p>
+                  <p>
+                     <pb n="92" facs="tcp:42763:53"/>Et cum plerisque Catharticis com<g ref="char:EOLhyphen"/>modè, posseti loco, bibitur.</p>
+                  <p>Caeterùm, Eos, qui ex longo Itine<g ref="char:EOLhyphen"/>re, praecipuè aestate, alvum astrictam habent; <hi>Salis Cathart. Am. <g ref="char:dram">ʒ</g>ij. vel iij. ex Aquae font.</hi> haustu uno vel &amp; altero sumptae, &amp; laxos reddunt multúmque refrigerant.</p>
+               </div>
+            </div>
+            <div n="7" type="chapter">
+               <pb n="93" facs="tcp:42763:53"/>
+               <head>CAPUT VII. De Aquarum Amarescentium, Earúmque Salis Abusu.</head>
+               <p>OPortet Medicum, non solùm Remediorum Usum indicare; sed etiam Lectorem praemonere de Abusu. Qui tergeminam affert Injuriam, Patienti, Medico, &amp; Me<g ref="char:EOLhyphen"/>dicamento.</p>
+               <p>Praedictum itaque, in quibusdam Morbis neutiquam praescribendum est. In aliis autem, Causarum &amp; Symptomatum ratio habenda.</p>
+               <p>Hydropicis quibuscunque nocet. Ubi scilicet languescit Calor Nati<g ref="char:EOLhyphen"/>vus, Sanguísque Spirituum, in ru<g ref="char:EOLhyphen"/>bicundâ ejus parte nidulantium, est pauperrimus. In his porrò, usus Hu<g ref="char:EOLhyphen"/>midorum, etiam in Cibis, Seri
+<pb n="94" facs="tcp:42763:54"/>
+Sanguinei Influxum in Partes Mor<g ref="char:EOLhyphen"/>bo obrutas, accelerat.</p>
+               <p>Deinde, &amp; Febre decubentibus Synochâ vulgò dictâ. Ubi, licet Causa Morbi, interdum Alvum mo<g ref="char:EOLhyphen"/>ventibus per <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> minuenda est; mediocriter tamen Calida, ut De<g ref="char:EOLhyphen"/>coctum Amarum, Pilula Ruffi, &amp; Similia, potius exhibenda, iísque Humorum Concoctio unà promo<g ref="char:EOLhyphen"/>venda. Et proinde, quaecunque nimia frigefactione huic adversantur, metuenda.</p>
+               <p>Neque verò Intermittente Cor<g ref="char:EOLhyphen"/>reptis quidquam proficit.</p>
+               <p>Neque Chlorosi seu Febre albâ Laborantibus. In quibus calorifi<g ref="char:EOLhyphen"/>cae Fermentationes propterea ex<g ref="char:EOLhyphen"/>citantur, quòd Humores nimis a<g ref="char:EOLhyphen"/>cescant, &amp; Medicamentis magis Al<g ref="char:EOLhyphen"/>kalinis edulcorandi sunt.</p>
+               <p>Hoemoptoicis etiam denegandum est. Ne eximiâ suâ subtilitate &amp; penetrantiâ, Arteriarum reseraret oscula.</p>
+               <p>
+                  <pb n="95" facs="tcp:42763:54"/>Et in Cholera Morbo. Ubi sub<g ref="char:EOLhyphen"/>itaneis Evacuationibus, maximae Spirituum evolutiones superveniunt. Quales titubantis nimiúmve prope<g ref="char:EOLhyphen"/>rantis Naturae Motus, Cardiacis po<g ref="char:EOLhyphen"/>tius &amp; Opiatis, per Intervalla sum<g ref="char:EOLhyphen"/>ptis, cohibendi. Postea verò, jam infracto Morbo, si Evacuatione opus fuerit, Patiénsque Biliosâ Tem<g ref="char:EOLhyphen"/>perie, sive Connatâ praeditus, sive Adventitiâ, supradictum Salem non incommodè potaret.</p>
+               <p>Quin &amp; Paralyticis. Ne Mus<g ref="char:EOLhyphen"/>culos, Nativo suo Calore Vigoréve jam destitutos, magis enervet. At<g ref="char:EOLhyphen"/>tamen, si ex Causâ calidâ, ut ex Vino, aut Liquore quovis Vinoso, Morbus nasceretur; Idem non so<g ref="char:EOLhyphen"/>lùm tutò praescripsi, verùm etiam utiliter.</p>
+               <p>Non sine Cautelâ in Utero Ge<g ref="char:EOLhyphen"/>rentibus permittendum est.</p>
+               <p>
+                  <pb n="96" facs="tcp:42763:55"/>Nec quibus supprimitur Urina, antequam perspectum habeas, id non ex Ulcere Vesicae Urinariae, Calcu<g ref="char:EOLhyphen"/>lóve inexterminabili provenire. Nam si Aegrotus eorum alterutrum pateretur, ab omnibus Diureticis abstinendum est. Aliàs, hoc Me<g ref="char:EOLhyphen"/>dicamentum, cum optimo saepe successu, hoc est, Urinarum, Lapi<g ref="char:EOLhyphen"/>dúmque, etiam majusculorum ex<g ref="char:EOLhyphen"/>cretione, propinavimus.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:42763:55"/>
+         </div>
+      </body>
+   </text>
+</TEI>

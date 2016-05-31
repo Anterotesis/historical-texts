@@ -1,0 +1,4199 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The golden book of St. John Chrysostom, concerning the education of children translated out of the Greek by J.E., Esq.</title>
+            <title>De educandis liberis. English</title>
+            <author>John Chrysostom, Saint, d. 407.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1659</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 92 KB of XML-encoded text transcribed from 72 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-03">2003-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A32905</idno>
+            <idno type="STC">Wing C3978</idno>
+            <idno type="STC">ESTC R10323</idno>
+            <idno type="EEBO-CITATION">12148879</idno>
+            <idno type="OCLC">ocm 12148879</idno>
+            <idno type="VID">55027</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A32905)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 55027)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 87:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The golden book of St. John Chrysostom, concerning the education of children translated out of the Greek by J.E., Esq.</title>
+                  <title>De educandis liberis. English</title>
+                  <author>John Chrysostom, Saint, d. 407.</author>
+                  <author>Evelyn, John, 1620-1706.</author>
+               </titleStmt>
+               <extent>[42], 90, [6] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by D.M. for G. Bedel and T. Collins ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1659.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Translation of: De educandis liberis.</note>
+                  <note>First ed., second issue? translated by John Evelyn, with his monogram on t.p.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Religious education --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2002-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2002-12</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-01</date>
+            <label>Jennifer Kietzman</label>Sampled and proofread</change>
+         <change>
+            <date>2003-01</date>
+            <label>Jennifer Kietzman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:55027:1"/>
+            <pb facs="tcp:55027:1"/>
+            <p>THE
+GOLDEN BOOK
+OF
+S<hi rend="sup">t</hi>. Iohn Chrysostom,
+Concerning the
+EDUCATION
+OF
+CHILDREN.</p>
+            <p>Translated out of the Greek
+BY
+<hi>I. E.</hi> 
+               <abbr>Esq</abbr>
+            </p>
+            <p>LONDON, Printed by <hi>D. M.</hi> for <hi>G. B<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>del</hi> and
+<hi>T. Collins,</hi> at the Middle Temple Gate
+in Fleetstreet, 1659.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:55027:2"/>
+            <pb facs="tcp:55027:2"/>
+            <head>To my Most
+Incomparable Brothers GEORGE EVELYN Of <hi>Wotton</hi> in <hi>Surrey</hi>
+and RICHARD EVELYN Of <hi>Woodcot</hi> in <hi>Surrey,</hi> 
+               <abbr>Esq</abbr>
+               <hi rend="sup">rs</hi>.</head>
+            <opener>
+               <salute>My Dear Brothers,</salute>
+            </opener>
+            <p>AMongst the very
+many diversions
+which I have ex<g ref="char:EOLhyphen"/>perimented
+to mitigate
+and attemper the sor<g ref="char:EOLhyphen"/>rowes
+which do still
+oppresse me, for the loss
+<pb facs="tcp:55027:3"/>
+of my Children, and
+especially of that <hi>One,</hi>
+so precious to me. I
+have found nothing
+that has afforded me a
+greater consolation then
+<hi>this:</hi> That it pleased
+God to give me oppor<g ref="char:EOLhyphen"/>tunities
+and such a sub<g ref="char:EOLhyphen"/>ject
+to work upon, as I
+cannot but hope he has
+in mercy accepted. And
+truly when I seriously
+contemplate the felicity
+of all those which are
+<hi>Well</hi> out of this misera<g ref="char:EOLhyphen"/>ble
+world, I find the
+griefe which wee con<g ref="char:EOLhyphen"/>ceive
+for their absence
+<pb facs="tcp:55027:3"/>
+to be a meer <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and
+does nothing at all con<g ref="char:EOLhyphen"/>cerne
+them whom we
+mourne for, that have
+served God, their Ge<g ref="char:EOLhyphen"/>neration
+with honour,
+and left a memorial
+without reproach. You
+have, Brothers, both of
+you lost Children, but
+none of them for
+whom you had reason
+to be so sensible as my
+selfe; because they di<g ref="char:EOLhyphen"/>ed
+Infants, and could
+not so intirely engage
+your affections, as if
+they had arrived to yeers
+of more maturity, and
+<pb facs="tcp:55027:4"/>
+the Spring had flattered
+you with the expecta<g ref="char:EOLhyphen"/>tion
+of a fruitful harvest
+as me it did.</p>
+            <p>But because we are
+all obnoxious, and that
+<hi>Cuivis potest accidere, quod
+cuiquam potest,</hi> be assured,
+That of al the afflictions
+w<hi rend="sup">ch</hi> can touch the heart
+in this life, one of the
+most superlative is the
+loss of a hopeful child;
+and till I had the expe<g ref="char:EOLhyphen"/>rience
+of this my self, I
+have often wondered
+That <hi>David</hi> should suf<g ref="char:EOLhyphen"/>fer
+himselfe to be so far
+transported for the death
+<pb facs="tcp:55027:4"/>
+of a Rebel, that had vi<g ref="char:EOLhyphen"/>olated
+all the Relations
+which ought to be be<g ref="char:EOLhyphen"/>twixt
+a Son and a most
+indulgent Father. I
+know well that another
+cause might contribute
+to the effect, but all who
+shall read that sad story,
+cannot but impute as
+much to his paternal af<g ref="char:EOLhyphen"/>fections
+as by man could
+be expressed. These
+are, <hi>Brothers,</hi> the con<g ref="char:EOLhyphen"/>tingencies
+(which since
+we can never be exemp<g ref="char:EOLhyphen"/>ted
+perfectly of) have
+caused me to seek the re<g ref="char:EOLhyphen"/>medies
+which I presume
+<pb facs="tcp:55027:5"/>
+here to have at last en<g ref="char:EOLhyphen"/>countred,
+and which I
+here likewise affection<g ref="char:EOLhyphen"/>ately
+present unto you.
+Let us make our Chil<g ref="char:EOLhyphen"/>dren
+fit for God, and
+then let us not be dis<g ref="char:EOLhyphen"/>pleased
+whensoever he
+takes them from us.
+<hi>Deus nobis illos educandos
+non mancipio dederat.</hi> There
+are a multitude of other
+precepts, that I might
+recollect out of the con<g ref="char:EOLhyphen"/>solatory
+Writings which
+are at hand, <hi>Plutarch</hi> and
+<hi>Cicero, Seneca</hi> and others.
+But all their <hi>Topicks</hi> (S.
+<hi>Hierom</hi> and some few
+<pb facs="tcp:55027:5"/>
+Christians only except<g ref="char:EOLhyphen"/>ed)
+are most of them de<g ref="char:EOLhyphen"/>rived
+from <hi>Philosophy,</hi> the
+pride and courage of
+another <hi>Institution,</hi> and
+afford us but uncertain
+consolations in the wi<g ref="char:EOLhyphen"/>ser
+estimate of things.
+So that hereby we may
+be less troubled in wan<g ref="char:EOLhyphen"/>ting
+the writings of <hi>Dio<g ref="char:EOLhyphen"/>genes,
+Clitomachus, Carnea<g ref="char:EOLhyphen"/>des,
+Possidonius</hi> upon the
+same Subject; there be<g ref="char:EOLhyphen"/>ing
+nothing capable
+truly to compose the
+mind of a good man for
+the absence of his friend
+or of his Child, like the
+<pb facs="tcp:55027:6"/>
+contemplation of his
+undoubted felicity.</p>
+            <p>It is that which I there<g ref="char:EOLhyphen"/>fore
+endeavor here to se<g ref="char:EOLhyphen"/>cure,
+in offering to you
+this <hi>Golden Book of S.
+Chrysostom,</hi> which ha<g ref="char:EOLhyphen"/>ving
+afforded me soe
+great a consolation, I
+cannot but <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hope may
+be likewise acceptable
+to you, and useful to as
+many as have either bin
+touched with the like
+resentiments, or that
+do establish for an in<g ref="char:EOLhyphen"/>fallible
+<hi>Maxime</hi> that say<g ref="char:EOLhyphen"/>ing
+of <hi>Plato,</hi>
+               <note place="margin">De Legib.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <pb facs="tcp:55027:6"/>
+That those who are
+well and rightly instru<g ref="char:EOLhyphen"/>cted,
+do easily become
+good men. And the
+thing is verily of so
+great importance, That
+some have taken <hi>Educa<g ref="char:EOLhyphen"/>tion</hi>
+for <hi>Religion</hi> it selfe;
+<hi>All</hi> for another <hi>Nature;</hi>
+which he that shal read
+of the <hi>Laconick</hi> Disci<g ref="char:EOLhyphen"/>pline,
+will not easily
+dispute. This is cer<g ref="char:EOLhyphen"/>tain,
+That were this one
+thing well secured, <hi>Prin<g ref="char:EOLhyphen"/>ces</hi>
+would have good
+<hi>Subjects, Fathers</hi> good
+<hi>Children, Wives</hi> good
+<hi>Husbands, Masters</hi> good
+<pb facs="tcp:55027:7"/>
+               <hi>Servants, God</hi> would be
+sincerely served, and all
+things would be well
+with us. And here I
+would now end, did
+not my Affections a lit<g ref="char:EOLhyphen"/>tle
+transport me, and the
+hopes that you will yet
+indulge it, if whilst I
+erect to my dear <hi>Child</hi> no
+other <hi>Monument,</hi> I shew
+to the world how neer<g ref="char:EOLhyphen"/>ly
+I concurr'd with the
+Instructions of this <hi>Gol<g ref="char:EOLhyphen"/>den
+Book</hi> (before I had
+seene it) and what may
+be expected from a
+timely Education, if
+(now that we may both
+<pb facs="tcp:55027:7"/>
+read and have it) we
+with diligence pursue
+it.</p>
+            <p>I cannot with S. <hi>Au<g ref="char:EOLhyphen"/>gustine,</hi>
+               <note place="margin">Conf. lib. 9. cap. <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note>
+say of my son,
+as he of his, <hi>Annorum e<g ref="char:EOLhyphen"/>rat
+ferè quindecim, &amp; in<g ref="char:EOLhyphen"/>genio
+praeveniebat multos
+graves, &amp; doctos viros.</hi>
+But this I can truly af<g ref="char:EOLhyphen"/>firm,
+He was little a<g ref="char:EOLhyphen"/>bove
+<hi>five</hi> years old, and
+he did excel many that I
+have known of <hi>fifteene.
+Tam brevi spatio tempor a
+multa compleverat.</hi> He was
+taught to <hi>pray</hi> as soon as
+he could speak, and he
+was taught to <hi>read</hi> as
+<pb facs="tcp:55027:8"/>
+soon as he could pray.
+At three years old he
+read any <hi>Character</hi> or let<g ref="char:EOLhyphen"/>ter
+whatsoever used in
+our printed Books, and
+within a little time af<g ref="char:EOLhyphen"/>ter
+any tolerable Wri<g ref="char:EOLhyphen"/>ting
+hand, and had got<g ref="char:EOLhyphen"/>ten
+(by heart) before he
+was five years of age se<g ref="char:EOLhyphen"/>ven
+or eight hundred
+<hi>Latine</hi> and <hi>Greek</hi> words,
+as I have since calculated
+out of his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to<g ref="char:EOLhyphen"/>gether
+with their <hi>Gen<g ref="char:EOLhyphen"/>ders</hi>
+and <hi>Declensions.</hi> I
+entred him then upon
+the <hi>Verbs,</hi> which in four
+months time he did
+<pb facs="tcp:55027:8"/>
+fectly <hi>conjugate,</hi> together
+with most of the irregu<g ref="char:EOLhyphen"/>lars
+excepted in our
+<hi>Grammar;</hi> These he con<g ref="char:EOLhyphen"/>quered
+with incredible
+delight, and intelligence
+of their use: But it is
+more strange to consi<g ref="char:EOLhyphen"/>der,
+that when from
+them I thought to set
+him to the <hi>Nouns,</hi> he had
+in that interim (by him<g ref="char:EOLhyphen"/>self)
+learned both the
+<hi>Declensions</hi> and their <hi>Ex<g ref="char:EOLhyphen"/>amples,</hi>
+their exceptions,
+<hi>Adjectives, Comparisons,
+Pronouns,</hi> without any
+knowledg or precept of
+mine, insomuch as I
+<pb facs="tcp:55027:9"/>
+stood amazed at his se<g ref="char:EOLhyphen"/>dulity
+and memory.
+This engaged me to
+bring him a <hi>Sententiae Pu<g ref="char:EOLhyphen"/>eriles</hi>
+and a <hi>Cato,</hi> and of
+late <hi>Comeniu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </hi> the short
+Sentences of which two
+first, and the more so<g ref="char:EOLhyphen"/>lid
+ones of the last, he
+learned to <hi>Construe</hi> and
+<hi>Perse,</hi> as fast as one could
+well teach and attend
+him: for he became
+not onely dextrous in
+the ordinary rules by
+frequent recourse to
+them (for indeed I ne<g ref="char:EOLhyphen"/>ver
+obliged him to get
+any of them by heart as
+<pb facs="tcp:55027:9"/>
+a task, by that same <hi>car<g ref="char:EOLhyphen"/>nificina
+puerorum)</hi> upon
+occasions, but did at
+this age also easily com<g ref="char:EOLhyphen"/>prehend
+both the mean<g ref="char:EOLhyphen"/>ing
+and the use of the
+<hi>Relative</hi> the <hi>Ellipsis</hi> and
+Defects of Verbs and
+Nouns unexpressed<note n="*" place="margin">Quid in illo virtu<g ref="char:EOLhyphen"/>tum, quid ingenii, quid pietatis invenerim<g ref="char:punc">▪</g> vereor di<g ref="char:EOLhyphen"/>cere ne fi<g ref="char:EOLhyphen"/>dem credu<g ref="char:EOLhyphen"/>litatis <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>x<g ref="char:EOLhyphen"/>cedam. <hi>Hi<g ref="char:EOLhyphen"/>er. ad Mar<g ref="char:EOLhyphen"/>cell. Epi<g ref="char:EOLhyphen"/>taph.</hi>
+               </note> But
+to repeat here all that I
+could justly affirm con<g ref="char:EOLhyphen"/>cerning
+his prompti<g ref="char:EOLhyphen"/>tude
+in this nature, were
+altogether prodigious,
+so that truly I have been
+sometimes even con<g ref="char:EOLhyphen"/>strained
+to cry out with
+the Father, as of another
+<hi>Adeodatus, Horrori mihi est
+<pb facs="tcp:55027:10"/>
+hoc ingenium.</hi> For so in<g ref="char:EOLhyphen"/>satiable
+were his desires
+of knowledg, that I well
+remember upon a time
+hearing one discourse of
+<hi>Terence</hi> and <hi>Plautus,</hi> and
+being told (upon his
+enquiring concerning
+those Authors) that the
+Books were too difficult
+for him, he wept for
+very grief, and would
+hardly be pacified: But
+thus it is reported of
+<hi>Thucydides,</hi> when those
+noble <hi>Muses</hi> were recited
+in his hearing, at one of
+the most illustrious As<g ref="char:EOLhyphen"/>semblies
+of <hi>Greece,</hi> from
+<pb facs="tcp:55027:10"/>
+whence was predicted
+the greatness of his <hi>Ge<g ref="char:EOLhyphen"/>nius.</hi>
+To tell you how
+exactly he read <hi>French,</hi>
+how much of it he
+spake and understood,
+were to let you onely
+know, that his Mother
+did instruct him with<g ref="char:EOLhyphen"/>out
+any confusion to
+the rest. Thus he learn<g ref="char:EOLhyphen"/>ed
+a Catechism and ma<g ref="char:EOLhyphen"/>ny
+prayers, and read di<g ref="char:EOLhyphen"/>vers
+things in that Lan<g ref="char:EOLhyphen"/>guage.
+More to bee
+admired was the liveli<g ref="char:EOLhyphen"/>ness
+of his judgement,
+that being much affect<g ref="char:EOLhyphen"/>ed
+with the <hi>Diagramms</hi>
+               <pb facs="tcp:55027:11"/>
+in <hi>Euclid,</hi> he did with
+so great facility interpret
+to me many of the com<g ref="char:EOLhyphen"/>mon
+<hi>Postulata,</hi> and <hi>De<g ref="char:EOLhyphen"/>finitions,</hi>
+which he would
+readily repeat in <hi>Latine</hi>
+and apply it. And he
+was in one hour onely
+taught to play, the first
+half of a <hi>Thorough Basse,</hi>
+to one of our Church
+Psalmes upon the <hi>Organ</hi>
+Let no man think that
+we did hereby crowd
+his spirit too full of no<g ref="char:EOLhyphen"/>tions.
+Those things
+which we force upon o<g ref="char:EOLhyphen"/>ther
+children, were
+strangely natural to him
+<pb facs="tcp:55027:11"/>
+for as he very seldome
+affected their toyes; to
+such things were his u<g ref="char:EOLhyphen"/>sual
+Recreations, as the
+gravest man might not
+be ashamed to divert
+himself withal. These
+were especially the <hi>Apo<g ref="char:EOLhyphen"/>logus</hi>
+of <hi>Aesop;</hi> most of
+which he could so rea<g ref="char:EOLhyphen"/>dily
+recount, with di<g ref="char:EOLhyphen"/>vers
+other Stories, as you
+would admire from
+whence he produced
+them: But he was ne<g ref="char:EOLhyphen"/>ver
+without some Book
+or other in his hand.
+Pictures did afford him
+infinite pleasure, above
+<pb facs="tcp:55027:12"/>
+all a <hi>Pen</hi> and <hi>Ink</hi> with
+which he now began to
+forme his Letters<g ref="char:punc">▪</g> Thus
+he often delighted him<g ref="char:EOLhyphen"/>self
+in reciting of <hi>Poems</hi>
+and <hi>Sentences,</hi> some
+whereof he had in
+Greek, Fragments of
+<hi>Comedies,</hi> diuers Verses
+out of <hi>Herbert,</hi> and a<g ref="char:EOLhyphen"/>mongst
+the <hi>Psalmes,</hi> his
+Beloved, and often re<g ref="char:EOLhyphen"/>peated,
+<hi>Ecce quam Bonum:</hi>
+and indeed he had an
+ear so curiously framed
+to sounds, that he would
+never misse infallibly
+to have told you what
+<hi>Language</hi> it was you did
+<pb facs="tcp:55027:12"/>
+read by the <hi>Accent</hi> only,
+were it <hi>Latine, Greek,
+French, Italian</hi> or <hi>Dutch.</hi>
+To all I might add, the
+incomparable sweetness
+of his countenance and
+eyes, the clean fabrick
+of his body and pretty
+Adresses: how easily he
+forgot injuries, when
+at any time I would
+break and crosse his pas<g ref="char:EOLhyphen"/>sions,
+by sometimes in<g ref="char:EOLhyphen"/>terrupting
+his enjoy<g ref="char:EOLhyphen"/>ments,
+in the midst
+of some sweet or other
+delicious things which
+allured him; that I
+might there<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap> render
+<pb facs="tcp:55027:13"/>
+him the more indiffer<g ref="char:EOLhyphen"/>ent
+to all things<g ref="char:punc">▪</g>
+though these he seldom
+quitted without re<g ref="char:EOLhyphen"/>wards
+and advantage.
+But above all, extreme<g ref="char:EOLhyphen"/>ly
+conspicuous was his
+affection to his younger
+Brother, with whose im<g ref="char:EOLhyphen"/>pertinencies
+he would
+continually bear, saying
+he was but a child, and
+understood no better.
+For he was ever so smi<g ref="char:EOLhyphen"/>ling,
+cheerful and in<g ref="char:EOLhyphen"/>perfect
+good humour,
+that it might be truly
+verified of him, as it
+was once of <hi>Heliodorus,</hi>
+               <note place="margin">Hi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rom</note>
+               <pb facs="tcp:55027:13"/>
+               <hi>Gravitatem morum, hilari<g ref="char:EOLhyphen"/>tate,
+frontis temperabat.</hi>
+But these things were
+obvious, and I dwel no
+longer on them: There
+are yet better behind;
+and those are his early
+Piety, and how ripe he
+was for God. Never
+did this Child lye in bed
+(by his good will) lon<g ref="char:EOLhyphen"/>ger
+then six or seven
+Winter or Summer;
+and the first thing he
+did (being up) was to
+say his French Prayers,
+and our <hi>Church-Catechism;</hi>
+after <hi>Breakfast</hi> that short
+Latine Prayer, which
+<pb facs="tcp:55027:14"/>
+having encountred at
+the beginning of our
+<hi>Lillies Grammar,</hi> he had
+learned by heart, with<g ref="char:EOLhyphen"/>out
+any knowledge or
+injunction of mine, and
+whatsoever he so com<g ref="char:EOLhyphen"/>mitted
+to memory, he
+would never desist till
+heperfectly understood;
+yet withall this, did he
+no day employ above
+two houres at his Book
+by my order; what he
+else learned was most
+by himselfe, without
+constraint or the least
+severity, unseene, and
+totally imported by his
+<pb facs="tcp:55027:14"/>
+own inclination. But
+to return, Wonderful
+was it to observe the
+Chapters which him<g ref="char:EOLhyphen"/>selfe
+would choose, and
+the Psalmes and Verses
+that he would apply up<g ref="char:EOLhyphen"/>on
+occasions, and as in
+particular he did to some
+that were sick in my
+family a little before
+him; bidding them to
+consider the Sufferings
+of Christ, how bitter
+they were, and how
+willingly he endured
+them. How frequent<g ref="char:EOLhyphen"/>ly
+would he pray by
+himself in the day time,
+<pb facs="tcp:55027:15"/>
+and procure others to
+joyn with him in some
+private corner of the
+house apart? The last
+time he was at Church
+(which was, as I re<g ref="char:EOLhyphen"/>member
+at <hi>Greenwich</hi>)
+at his return I asked him
+what he brought away
+from the Sermon; He
+replyed, That he had
+remembred two good
+things, <hi>Bonum Gratiae,</hi>
+and <hi>Bonum Gloriae,</hi> which
+expressions were indeed
+used, though I did not
+believe he had minded
+them.</p>
+            <p>I should even tire
+<pb facs="tcp:55027:15"/>
+you with repeating all
+that I might call to
+mind of his pertinent
+answers upon several
+occasions: One of the
+last whereof I will only
+instance, when about
+<hi>Christmas</hi> a Kinsman of
+his related to us by the
+fire side some passages
+of the presumptuous fa<g ref="char:EOLhyphen"/>sting
+of certain <hi>Enthusi<g ref="char:EOLhyphen"/>asts</hi>
+about <hi>Colchester,</hi>
+whilst we were expres<g ref="char:EOLhyphen"/>sing
+some admiration at
+the passage, That, sayes
+the Child (being upon
+the Gentlemans knee,
+and as we thought not
+<pb facs="tcp:55027:16"/>
+minding the discourse)
+is no such wonder, for
+it is written, <hi>Man shall
+not live by bread alone,
+&amp;c.</hi> But more to be
+admired was his perfect
+comprehension of the
+sacred <hi>Histories</hi> in the
+Method of our <hi>Golden
+Auth<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r</hi> so as it may be
+truly affirmed of this
+Child, as it was once
+said of <hi>Timothy,</hi>
+               <note place="margin">2 Tim. 3. 15.</note> 
+               <hi>Quod à
+puero Sacras liter as noverat</hi>
+Nor was all this by rote
+onely (as they term it)
+for that he was capable
+of the greater mystery of
+our salvation by Christ,
+<pb facs="tcp:55027:16"/>
+I have had many infalli<g ref="char:EOLhyphen"/>ble
+indications. And
+when the Lords day
+fortnight before he died
+he repeated to me our
+<hi>Church-Catechism,</hi> he told
+me that he now per<g ref="char:EOLhyphen"/>ceived
+his <hi>God-fathers</hi>
+were dis engaged; for
+that since he himself did
+now understand what
+his Duty was, it would
+be required of him, and
+not of them for the fu<g ref="char:EOLhyphen"/>ture.
+And let no man
+think, that when I use
+the term <hi>Dis-ingaged,</hi> it
+is to expresse the Child
+meaning with a fine
+<pb facs="tcp:55027:17"/>
+word; for he did not
+only make use of such
+phrases himself; but
+would frequently in his
+ordinary discourse come
+out with such expresions
+as one would have ad<g ref="char:EOLhyphen"/>mired
+how he came by
+them; but upon en<g ref="char:EOLhyphen"/>quiry,
+he would cer<g ref="char:EOLhyphen"/>tainly
+have produced
+his authority, and ei<g ref="char:EOLhyphen"/>ther
+in the Bible, or
+some other Booke
+shewed you the words
+so used. How divine<g ref="char:EOLhyphen"/>ly
+did this pious Infant
+speake of his being
+weary of this trouble<g ref="char:EOLhyphen"/>some
+<pb facs="tcp:55027:17"/>
+world (into
+which he was scarcely
+entred) and whilest he
+lay sick, of his desires to
+goe to <hi>Heaven;</hi> that the
+Angels might convey
+him into <hi>Abrahams</hi> bo<g ref="char:EOLhyphen"/>some,
+passionately per<g ref="char:EOLhyphen"/>swading
+those that
+tended him to dye with
+him; for he told them
+that he knew he should
+not live: And, really,
+though it were an <hi>Ague</hi>
+which carried him from
+us (a disease which I
+least apprehended find<g ref="char:EOLhyphen"/>ing
+him so lively in his
+<hi>Intervals;</hi>) yet the day
+<pb facs="tcp:55027:18"/>
+before he tooke his
+leave of us, he call'd to
+me, and pronounced
+it very soberly; Father
+(sayes he) you have
+often told me that you
+would give me your
+house, and your Land,
+your Bookes and all
+your fine things; but I
+tell you, I shall have
+none of them, you wil
+leave them all to my
+Brother. This he spake
+without any provoca<g ref="char:EOLhyphen"/>tion
+or passion, and it
+did somewhat trouble
+me, that I could not
+make him alter this
+<pb facs="tcp:55027:18"/>
+conceit which in <hi>Ano<g ref="char:EOLhyphen"/>ther</hi>
+would be esteemed
+prophetick. But that I
+may conclude and shew
+how truely jealous this
+child was. Least he
+should offend God in
+the least scruple, that
+very morning, not
+many howers before he
+fell into that sleepe
+which was his last, be<g ref="char:EOLhyphen"/>ing
+in the midst of his
+<hi>Paroxcisme,</hi> he called
+to me, and asked of
+me whether he should
+not offend, if in the
+extremity of his pain,
+he mentioned so often
+<pb facs="tcp:55027:19"/>
+the name of <hi>God,</hi> cal<g ref="char:EOLhyphen"/>ing
+for ease; and whe<g ref="char:EOLhyphen"/>ther
+God would accept
+his prayers if he did not
+hold his hands out of
+bed in the posture of
+praying? Which when
+I had pacified him a<g ref="char:EOLhyphen"/>bout,
+he prayed, till
+his prayers were turned
+into eternal praises.
+Thus ended your Ne<g ref="char:EOLhyphen"/>phew,
+being but five
+years, five monethes
+and three dayes old, and
+more I could stil say. <hi>Nam
+quem Corpore non valemus
+recordatione teneamus, et
+cum quo loqui non <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb facs="tcp:55027:19"/>
+de eo loqui nunquam desi<g ref="char:EOLhyphen"/>namus.</hi>
+But my tears
+mingle so fast with my
+Inke that I am forced to
+breake off here, and
+be silent—I end there<g ref="char:EOLhyphen"/>fore
+with that blessed
+<hi>Saint, Munera tua tibi
+confiteor Domine Deus
+meus, Creator omnium,
+multum potens reformare
+nostra deformia: Nam ego
+in illo puero, praeter de<g ref="char:EOLhyphen"/>lictum
+nihil habebam. Quod
+enim enutriebatur à nobis
+in disciplinâ tuâ. Tu in<g ref="char:EOLhyphen"/>spiraveras
+nobis, nullus a<g ref="char:EOLhyphen"/>lius.
+Munera tua tibi con<g ref="char:EOLhyphen"/>fiteor
+—Cito de terra ab<g ref="char:EOLhyphen"/>stulisti
+<pb facs="tcp:55027:20"/>
+vitam ejus, et se<g ref="char:EOLhyphen"/>curior
+eum recordor.</hi> Deare
+<hi>Brothers,</hi> indulge me
+these excesses: It is not
+a new thing which I
+doe, St. <hi>Hierom</hi> wrote
+divers <hi>Epistles</hi> which he
+inscribed his <hi>Epitaphs;</hi>
+and never was a <hi>Paula</hi>
+or <hi>Estochium</hi> dearer to
+<hi>him,</hi> then this your <hi>Ne<g ref="char:EOLhyphen"/>phew</hi>
+was to</p>
+            <closer>
+               <salute>Dear B. B.</salute>
+               <signed>
+                  <hi>Your Most Affectionate Bro<g ref="char:EOLhyphen"/>ther,
+and most humble Servant
+I. E.</hi>
+               </signed>
+            </closer>
+            <epigraph>
+               <q>Grot. ad Patrem.
+<hi>Carere Liberi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> durum non est, nisi
+<gap reason="illegible" resp="#TECH" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> qui habuerunt.</hi>
+               </q>
+            </epigraph>
+         </div>
+         <div type="epitaph">
+            <pb facs="tcp:55027:20"/>
+            <head>EPITAPHIUM.
+R. Evelyn, I. F.</head>
+            <l>Q efcit hoc sub marmore,</l>
+            <l>Ur à <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uiescit quicquid est amabile,</l>
+            <l>Patres quod optent, aut quod orbi lugeant</l>
+            <l>Genas decentes non, ut ante, risus</l>
+            <l>Lepore condit ampliùs.</l>
+            <l>Morum venustas, quanta paucis contigit</l>
+            <l>Desideratur omnibus.</l>
+            <l>Linguae Latina, Gallica.</l>
+            <l>Quas imbibit cum lacte materno, tacent</l>
+            <l>Tentârat Artes, Artiumque principiis,</l>
+            <l>Pietatis elementa hauserat.</l>
+            <l>Libris inhaesit improbo labore</l>
+            <l>Ut sola mors divelleret.</l>
+            <l>Quid indoles, quid disciplina, quid labor</l>
+            <l>Possint, ab Uno disceres.</l>
+            <l>Puer stupendus qualis <hi>hic</hi> effect senex</l>
+            <l>Si fata v<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tae submin<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>âssent iter!</l>
+            <l>Sed al<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ter est<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>visum Deo.</l>
+            <l>Correptus ille febriculâ levi jacet:</l>
+            <l>Jacent tot unà spes parentum.</l>
+            <l>Vixit ANN. V. M. V III super D.</l>
+            <l>Eheu! delicias breves.</l>
+            <l>Quicquid placet mortale non placet diu,</l>
+            <l>Quicquid placet mortale ne placet nimis</l>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:55027:21"/>
+            <pb facs="tcp:55027:21"/>
+            <head>To the
+READER.</head>
+            <p>I Advertise the
+Reader, that this
+Golden-Book of St.
+<hi>Chrysostom</hi> is not to
+be encountred amongst
+any of his Works for<g ref="char:EOLhyphen"/>merly
+published; but
+hath (amongst other
+<pb facs="tcp:55027:22"/>
+Fragments of that in<g ref="char:EOLhyphen"/>comparable
+Author)
+bin lately produced
+out of a M. SS. in
+the <hi>Cardinals Li<g ref="char:EOLhyphen"/>brary</hi>
+at <hi>Paris,</hi> by
+the industry of Father
+<hi>Francis Combefis</hi>
+of the Order of the
+<hi>Friers Preacher,</hi> and
+there printed the last
+year. 1656.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:55027:22"/>
+            <pb facs="tcp:55027:23"/>
+            <pb n="1" facs="tcp:55027:23"/>
+            <head>THE
+Golden BOOK
+OF
+S<hi rend="sup">t</hi>. Iohn Chrysostom,
+Concerning the
+EDUCATION
+OF
+CHILDREN.</head>
+            <p>
+               <seg rend="decorInit">S</seg>O soon as ever a
+Child is borne,
+the Father be<g ref="char:EOLhyphen"/>stirs
+himself, not
+that he may
+rightly take order about his
+Education, but that he may
+magnificently set him forth,
+and adorn him with Jewels
+<pb n="2" facs="tcp:55027:24"/>
+and Rich Apparel. <hi>O vain
+Man,</hi> Wherefore dost thou
+this? Be it that thou thy self
+art cloathed with all these
+things, why dost thou instruct
+thy Child, as yet free from
+this madnesse, in these trifles?
+For what purpose dost thou
+put that Ornament about his
+neck? He needs the care of
+a diligent Tutor, who may
+compose and regulate his
+manners, he hath no need of
+Gold. And thou dost nou<g ref="char:EOLhyphen"/>rish
+him a lock of hair behind
+like a Girle, effeminating thy
+Son even from the very cra<g ref="char:EOLhyphen"/>dle.
+Softning thus the vigor
+of his Sex, engraftest into
+that tender age a superfluous
+love of riches, and dost per<g ref="char:EOLhyphen"/>swade
+him to the pursuit of
+those things which are totaly
+unuseful. Why dost thou
+<pb n="3" facs="tcp:55027:24"/>
+spred for him so large a snare?
+Wherefore dost thou so
+charm him with the love of
+corporal things? <hi>If a man</hi>
+(saith he) <hi>wear long hair it is
+a shame unto him.</hi>
+               <note place="margin">1 Cor. 11. 14</note> Nature
+will not endure it; God hath
+not indulg'd it; <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tis a thing
+altogether forbidden; it is
+the Practice of Gentil super<g ref="char:EOLhyphen"/>stition.
+But many there be
+who hang gold in their ears,
+I would that were wholy for<g ref="char:EOLhyphen"/>born
+even by the female Sex,
+you infect boies with this pest
+also; nay and there are very
+many who deride these dis<g ref="char:EOLhyphen"/>courses
+as if they were smal
+matters; <hi>I tell you,</hi> they are
+not small matters but exceed<g ref="char:EOLhyphen"/>ing
+great, and very consider<g ref="char:EOLhyphen"/>able.
+A maid when in her
+mothers chamber she hath
+learned to long after these va<g ref="char:EOLhyphen"/>rious
+<pb n="4" facs="tcp:55027:25"/>
+tires and ornaments of
+women, being gone out of
+her Fathers house, becomes
+impertinent to her husband,
+and very troublesome, put<g ref="char:EOLhyphen"/>ting
+him to more charges
+then the very <hi>Publicans.</hi> I
+have already told you, that
+it is therefore a difficult thing
+to reform a vice, because there
+is no body which takes the
+care of Children, no body
+discourses to them about
+Virginity, no body concer<g ref="char:EOLhyphen"/>ning
+Modesty, no body of
+the contempt of Riches and
+Glory, and no body speaks
+to them of those <hi>blessed</hi> Pro<g ref="char:EOLhyphen"/>mises
+which are made in the
+Scriptures.</p>
+            <p>If therefore Children be
+from their Infancy deprived
+of Governors, what will be<g ref="char:EOLhyphen"/>come
+of them? If some
+<pb n="5" facs="tcp:55027:25"/>
+from the Womb even to their
+old and decrepit age, having
+been instituted, are not yet
+arrived to perfection, what
+will not they perpetrate, who
+from the beginning of their
+life have accustomed them<g ref="char:EOLhyphen"/>selves
+to hear such discour<g ref="char:EOLhyphen"/>ses!
+Now indeed that their
+children may be instructed
+in the Arts, Letters and Elo<g ref="char:EOLhyphen"/>quence
+every one doth studi<g ref="char:EOLhyphen"/>ously
+contend; but that they
+may cultivate their minds few,
+or none are at all solicitous.</p>
+            <p>I will never desist to be<g ref="char:EOLhyphen"/>seech,
+to entreat, and to beg of
+you, That before all things
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lse whatsoever, you would
+now compose the manners of
+your children. For if thou
+wilt be truly indulgent to thy
+child, declare it in this, thou
+<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>alt not lose thy reward.
+<pb n="6" facs="tcp:55027:26"/>
+Hear what S. <hi>Paul</hi> saith,<note place="margin">
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Tim. 5. 15</note> 
+               <hi>If
+they continue in faith, and cha<g ref="char:EOLhyphen"/>rity,
+and holinesse with sobrie<g ref="char:EOLhyphen"/>ty.</hi>
+And though thou art
+conscious to thy self of never
+so many evils, the rather seek
+out some consolation for
+them. Make a Champion
+for <hi>Christ.</hi> I do not speak it
+that thou shouldst <hi>Caelibat</hi>
+him, send him into the De<g ref="char:EOLhyphen"/>sarts
+and make him a Monk;
+I say not so; I wish it indeed
+and would with all my heart,
+that every man could receive
+it; but since that may seem
+a burthen <hi>too great for him to
+support,</hi> I do not compel.
+Bring up a Champion (I say)
+for <hi>Christ,</hi> and whilst he re<g ref="char:EOLhyphen"/>mains
+in this world, instruct
+him from his very cradle. If
+whilst he is yet young thou
+imprint good principles in
+<pb n="7" facs="tcp:55027:26"/>
+him, no body shall be ever
+able to efface them when he
+becomes more firme, being
+then as the wax which hath
+received the impression. As
+yet thou hast him trembling,
+fearful and revering thy very
+looks, thy words and every
+little beck. Treat him as
+thou shouldst at the begin<g ref="char:EOLhyphen"/>ning.
+If thou have a good
+child, thou wilt have the first
+benefit of him, and then God.
+Thou labourest but for thy
+self. 'Tis reported, that when
+Pearles are first taken up,
+they are only little drops of
+water, so that he which re<g ref="char:EOLhyphen"/>ceives
+them being sk<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lful, pl<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>cing
+the drops in <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is hand,
+and exquisitely turning them
+in his palm, renders them
+perfectly round and polished.
+But when once they have at<g ref="char:EOLhyphen"/>tained
+<pb n="8" facs="tcp:55027:27"/>
+their perfect shape and
+are become hard, they are no
+more to be moulded to every
+mans fancy; for that which
+is soft is every way flexible,
+being not as yet compacted,
+and therefore is easily drawn
+which way one pleaseth; but
+that which is hard, as having
+once attained a disposition to
+st<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ff<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>esse, is with difficulty to
+be moved, or susceptible of a<g ref="char:EOLhyphen"/>ny
+other form.</p>
+            <p>Let then every one of us
+(who are Parents) as we be<g ref="char:EOLhyphen"/>hold
+<hi>Painters</hi> adorning their
+Pictures and Statues with so
+much exactnesse, be diligent<g ref="char:EOLhyphen"/>ly
+studious about these won<g ref="char:EOLhyphen"/>derful
+Statues. For when
+Painters have once designed
+a Picture, they work every
+day about it to bring it to per<g ref="char:EOLhyphen"/>fection;
+the same do <hi>Statua<g ref="char:EOLhyphen"/>ries,</hi>
+               <pb n="9" facs="tcp:55027:27"/>
+abating what is superflu<g ref="char:EOLhyphen"/>ous,
+and adding whatsoever
+is deficient. So you also like
+so many <hi>Statuaries,</hi> b<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd all
+your endeavors, as pr<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>paring
+those admirable Statues for
+God; take away that which is
+superfluous, add that which
+you find wanting: consider
+every day how they abound
+in Natural Endowments, that
+you may timely augment
+them; what Natural Defects
+you espy, that you may ac<g ref="char:EOLhyphen"/>cordingly
+abate them: But
+with all sedulity and above
+all things, be careful to ex<g ref="char:EOLhyphen"/>terminate
+unseemly speeches,
+for this custom begins extrem<g ref="char:EOLhyphen"/>ly
+to inf<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ct the minds of
+youth; yea and before he
+have ess<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yed it, teach him
+to be sober, to be vigilant
+and assiduous in his devo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>io<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s
+<pb n="10" facs="tcp:55027:28"/>
+and upon whatsoever he saith
+or doth to put the <hi>Seal</hi> upon
+it. Imagine thy self a <hi>King</hi>
+who hast a <hi>City</hi> to govern,
+the <hi>Mind</hi> of thy Child; for
+really the mind is a City;
+and as in a City some are
+Thieves, some live honestly,
+some labour, and others trans<g ref="char:EOLhyphen"/>act
+all they do foolishly;
+just so it is with the discourses
+and cogitations of the <hi>mind,</hi>
+some of them strive and mi<g ref="char:EOLhyphen"/>litate
+against injuries, like as
+in a City there are souldiers;
+some of these <hi>thoughts</hi> pro<g ref="char:EOLhyphen"/>vide
+for the Body and<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>Hous<g ref="char:EOLhyphen"/>hold,
+like the Senators of a
+City; others command <hi>in
+Chief,</hi> such as are Governors;
+some speak lascivious things,
+s<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch as shamelesse men, o<g ref="char:EOLhyphen"/>thers
+more modest, such as
+are modest persons: Some
+<pb n="11" facs="tcp:55027:28"/>
+again are effeminate, as Wo<g ref="char:EOLhyphen"/>men
+be amongst us; others
+discourse more indiscreetly,
+like children; some domineer
+as if over Vass<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ls, because
+they are domesticks; others <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s
+over the free-borne because
+they are noble and ingenuous
+We must therefore of neces<g ref="char:EOLhyphen"/>sitie
+have Laws, that we may
+e<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>terminate t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e evil cogita<g ref="char:EOLhyphen"/>tions
+and cherish those which
+are good; but never let us
+permit the evil <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o rebel a<g ref="char:EOLhyphen"/>gainst
+the good. For as in a
+City, if one should constitute
+Laws giving liberty and <hi>im<g ref="char:EOLhyphen"/>punity</hi>
+to Thieves, it would
+soon subvert all: And if the
+Souldiers pursue their fury
+without respect to what is fit,
+all things fall to confusion;
+and if every one quitting his
+due order, take upon him to
+<pb n="12" facs="tcp:55027:29"/>
+prosecute that which belongs
+to another, by this usurpa<g ref="char:EOLhyphen"/>tion
+and avarice he violates
+and utterly spoiles the whole
+Government. It is truly no
+otherwise in that which we
+have spoken.</p>
+            <p>The Mind of a Child is
+therefore a City, a City new<g ref="char:EOLhyphen"/>ly
+built and <hi>furnished,</hi> a City
+full of new inhabitants, and
+as yet wholly unexperienced.
+'Tis an easie matter to in<g ref="char:EOLhyphen"/>struct
+and model such: for
+those which have been at first
+possest and grown up with e<g ref="char:EOLhyphen"/>vil
+principles, such as are ma<g ref="char:EOLhyphen"/>ny
+old persons, are truly
+with great difficulty reformed
+though neither is that impos<g ref="char:EOLhyphen"/>sible
+(for even they them<g ref="char:EOLhyphen"/>selves
+may be converted if
+they will) but such as are to<g ref="char:EOLhyphen"/>tally
+<pb n="13" facs="tcp:55027:29"/>
+ignorant, will with ease
+embrace the Laws which you
+enjoyn them.</p>
+            <p>Establish Laws therefore in
+this City, and for those who
+are <hi>Denisons</hi> of it formida<g ref="char:EOLhyphen"/>ble,
+and severe Lawes, which
+if any shall dare to violate,
+approve thy self a Governor
+and revenge it; for it is to no
+purpose to enact Laws, un<g ref="char:EOLhyphen"/>lesse
+Punishment be also in<g ref="char:EOLhyphen"/>flicted:
+Make Laws then,
+and look diligently to your
+Work; for <hi>know,</hi> that wee
+impose Lawes upon no lesse
+then the <hi>Universe it selfe:</hi>
+To day we build a City, let
+the four <hi>Senses</hi> be the Bull<g ref="char:EOLhyphen"/>warks
+and the Ga<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, and
+let all the rest of the Bodie
+be as the Walls. Now these
+Gates, are the Eyes, the
+<pb n="14" facs="tcp:55027:30"/>
+Tongue, the Eares and the
+Nose, and (if you please)
+also the Touch. Through
+these overtures it is that the
+Citizens go out and in at;
+that is to say, by these Ports
+it is that our cogitations
+are corrupted or amend<g ref="char:EOLhyphen"/>ed.</p>
+            <p>Go to then, And first let
+us go to the Gate of the
+<hi>Tongue,</hi> since this is of all
+the rest the chief and the
+greatest Port; let us now
+prepare for it the doors and
+its barres, not of wood nor
+of iron, but of Gold, for
+the very City it self which is
+thus built, is of Gold, and
+not any man, but he that is
+the King of the Universe shall
+keep his Court in this City,
+if thus you prepare it: and
+<pb n="15" facs="tcp:55027:30"/>
+you shall perceive by the pro<g ref="char:EOLhyphen"/>cesse
+his speech, in what
+parts of this City to consig<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+him a Palace. Let us there<g ref="char:EOLhyphen"/>fore
+make the Doores and the
+Barrs for it of Gold I say;
+namely the Oracles of God, as
+the Prophet speaketh.<note place="margin">Psal. 119. 103.</note> 
+               <hi>The
+words of God are more de<g ref="char:EOLhyphen"/>licious
+then honey or the ho<g ref="char:EOLhyphen"/>ney
+comb,</hi>
+               <note place="margin">Psal. 18. 11</note> 
+               <hi>above Gold and
+much precious stone.</hi> Let
+us teach them to have these
+things continually in their
+mouths and wheresoever they
+stir, and that not slightly, nor
+perfunctorily or seldom, but
+without ceasing. Nor is it
+yet sufficient that the doors
+be overlayed with Gold, but
+they must be framed altoge<g ref="char:EOLhyphen"/>ther
+of solid gold, and ha<g ref="char:EOLhyphen"/>ving
+the precious stones fixed
+one against another without.
+<pb n="16" facs="tcp:55027:31"/>
+Let the <hi>Crosse</hi> of our Lord
+be the barre of these Gates,
+which is indeed every where
+inchased with stones of price:
+let this then bee put athwart
+the middle of the Gates; and
+when we shall thus have
+made the doores fast, solid,
+and of Gold, and shut to the
+bolt, let us then make them
+worthy Citizens; namely by
+instructing the Child to speak
+gravely and piously, banish<g ref="char:EOLhyphen"/>ing
+all strangers out of Town,
+lest otherwise a certain impure
+and infected rabble enter, and
+commix themselves with our
+Citizens, such as are reproch<g ref="char:EOLhyphen"/>ful
+words, injurious and fool<g ref="char:EOLhyphen"/>ish,
+filthy speeches, secular
+and worldly, all these let us
+eject; nor, besides the King
+only, permit any to passe
+these Gates; but to him, and
+<pb n="17" facs="tcp:55027:31"/>
+to all his Retinue let them be
+still opened, according as it
+is said of it,<note place="margin">Psal. 117. 20</note> 
+               <hi>This is the Gate
+of the Lord, the Rightious shall
+enter into it.</hi> And with the
+blessed <hi>Paul,</hi>
+               <note place="margin">Ephes. 4. 29<g ref="char:punc">▪</g>
+               </note> 
+               <hi>If there be any
+word which is good to the use
+of edifying, that it may mini<g ref="char:EOLhyphen"/>ster
+grace to the hearers.</hi> Let
+their talk be giving of thanks,
+modest songs, and let them
+alwayes be discoursing of
+God<g ref="char:punc">▪</g> and of that <hi>Philo<g ref="char:EOLhyphen"/>sophy</hi>
+which is from a<g ref="char:EOLhyphen"/>bove.</p>
+            <p>But which way shal we now
+effect all this? and from
+what <hi>Topicks</hi> shall we in<g ref="char:EOLhyphen"/>struct
+them? If we become
+severe Judges of the actions
+which they do; for in a child
+there is an extraordinary fa<g ref="char:EOLhyphen"/>cility.
+How? He contends
+not for wealth nor for glory:
+<pb n="18" facs="tcp:55027:32"/>
+He is yet a child: not for a
+Wife, not for Children, not
+for an House; therefore what
+occasion hath he to injure or
+traduce any one? He only
+contends with his equals. Ap<g ref="char:EOLhyphen"/>point
+him a Law immediate<g ref="char:EOLhyphen"/>ly,
+That he wrong none,
+that he defame none, that he
+do not swear, that he be peace<g ref="char:EOLhyphen"/>able;
+and if you shall per<g ref="char:EOLhyphen"/>ceive
+him to transgresse this
+Law, Chastize him some<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>imes
+with a sterne counte<g ref="char:EOLhyphen"/>nance,
+sometimes with sharp
+reproofs, such as may go to
+the quick, and upbraid him,
+and now and then sooth and
+flatter him with promises.
+Treat him not alwayes with
+blows, nor accustome thy
+self so to chastize him; for
+if thou art used to correct
+him every day, he will soon
+<pb n="19" facs="tcp:55027:32"/>
+learn to despise it, and ha<g ref="char:EOLhyphen"/>ving
+once learned to do so it
+utterly marres all: rather
+cause him alwayes to fear the
+rod, not alwayes to feel it:
+shake indeed the scourage,
+but touch him not with it,
+neither from threats proceed
+to the work: But let him not
+know that your words are
+only menaces; for then
+threatnings are only proper,
+when children believe they
+will proceed to deeds: For
+if the Offender once under<g ref="char:EOLhyphen"/>stand
+this oeconomy, he will
+soon contemne it: Let him
+therefore expect to be chasti<g ref="char:EOLhyphen"/>zed,
+but yet let him not be
+chastized, lest it extinguish his
+reverence; rather let it re<g ref="char:EOLhyphen"/>maine
+like a glowing fire,
+and every where burn up the
+thornes, or like a keen pick<g ref="char:EOLhyphen"/>axe,
+<pb n="20" facs="tcp:55027:33"/>
+let it dig to the very bot<g ref="char:EOLhyphen"/>tom.
+And when once you
+perceive that you have gain<g ref="char:EOLhyphen"/>ed
+any fruit by fear, remit a
+little, for there is due even to
+our very natures some relax<g ref="char:EOLhyphen"/>ation.
+Teach him to be mo<g ref="char:EOLhyphen"/>dest
+and courteous; but if
+you perceive him to do any
+injury to his servant, connive
+not at it, but check even your
+child though free; for hee
+that shall see he is not permit<g ref="char:EOLhyphen"/>ted
+to reproach his very <hi>Lac<g ref="char:EOLhyphen"/>quey,</hi>
+will much lesse dare to
+injure or miscal one that is
+free-borne and his equal.
+Lock up his mouth from ill
+language; if you find him
+accusing of any, stop the
+mouth, and convert your
+tongue against her own er<g ref="char:EOLhyphen"/>rors.</p>
+            <p>
+               <pb n="21" facs="tcp:55027:33"/>Admonish his mother,
+his Paedagogue and his
+servant, that they still
+speak and inculcate the same
+things to the child, that
+they may all of them be his
+keepers together, and dili<g ref="char:EOLhyphen"/>gently
+observe that none of
+those evil cogitations pro<g ref="char:EOLhyphen"/>ceed
+from his mouth, and
+those golden portals.</p>
+            <p>Do not imagine that the
+thing requires so much time,
+provided that from the be<g ref="char:EOLhyphen"/>ginning
+thou presse it earnest<g ref="char:EOLhyphen"/>ly
+upon him, threaten, and
+dost constitute so many
+Guards over him. Two
+months will be sufficient, all
+things will be redressed, the
+business established, and pass
+into very nature it selfe.</p>
+            <p>
+               <pb n="22" facs="tcp:55027:34"/>By this means will this gate
+be made worthy for the
+Lord, when there shall be
+neither filthy speech, scurri<g ref="char:EOLhyphen"/>lity
+nor folly, or any such
+thing, but all as becomes such
+a Master. For as those who
+traine up their children to
+serve the State in the Wars
+immediately instruct their
+Warlike Youth in the Art of
+shooting, to put on the <hi>Cor<g ref="char:EOLhyphen"/>slet,</hi>
+and manege the great
+Horse, their age and stature
+being no impediment. How
+much rather then those which
+are entred into the heavenly
+<hi>Militia,</hi> ought they to pro<g ref="char:EOLhyphen"/>vide
+themselves with these
+Accoutrements for the ser<g ref="char:EOLhyphen"/>service
+of their King?
+Learn him therefore to sing
+<hi>Praises</hi> to God, that he
+have no leisure for im<g ref="char:EOLhyphen"/>purer
+<pb n="23" facs="tcp:55027:34"/>
+Songs and foolish dis<g ref="char:EOLhyphen"/>courses.</p>
+            <p>And be this Gate thus
+guarded, and such Citizens
+el<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cted; the rest let us de<g ref="char:EOLhyphen"/>stroy
+within, as the Bees do
+the drones, not suffering
+them to go forth, or once to
+buz at home.</p>
+            <p>But now let us proceed to
+the next Gate; What is
+that? even that which is the
+next, and of neer affinity
+with it, I mean the <hi>Hearing;</hi>
+for that Gate indeed hath Ci<g ref="char:EOLhyphen"/>tizens
+which passe out from
+within, but none that have
+admission through it; but in
+this they enter in from with<g ref="char:EOLhyphen"/>out,
+and there are none
+which by it do sally
+forth.</p>
+            <p>
+               <pb n="24" facs="tcp:55027:35"/>This therefore hath great
+affinity with the other; For
+if no filthy nor polluted thing
+be suffered to climb up by
+this Portal, there will be no
+great difficulty to preserve
+the other; since he which
+doth not heare filthy and
+wicked things, does not
+likely speak wicked things:
+but if these lie open and com<g ref="char:EOLhyphen"/>mon
+to all, the danger will
+be great, and give distur<g ref="char:EOLhyphen"/>bance
+to all that are within.
+This then peradventure were
+first to have been spoken of,
+and the Entrance to have bin
+secured.</p>
+            <p>Let Children therefore
+heare nothing impertinent,
+neither of their Domesticks,
+nor their Governors, nor
+their Nurse: For as Plants
+<pb n="25" facs="tcp:55027:35"/>
+have then most need of care,
+when they are yong and
+tender, so have Children.
+Provide them careful and
+virtuous <hi>Nurses,</hi> that a good
+Foundation be laid at first,
+and that from their very in<g ref="char:EOLhyphen"/>fancy
+they receive nothing
+of <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>vil. Let them then ne<g ref="char:EOLhyphen"/>ver
+hear any foolish and <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ld<g ref="char:EOLhyphen"/>wives
+fables: Such a person
+(sayes he) gave such a one a
+kisse; the <hi>Emperors</hi> Son, and
+his little Daughter did this,
+and this; permit them to
+hear none of these matters;
+but other things they may
+hear, so they be related with<g ref="char:EOLhyphen"/>out
+any Circumlocution,
+and with all fidelity. They
+may indeed hear the discour<g ref="char:EOLhyphen"/>ses
+of their servants, and
+those which wait upon them;
+but 'tis not fitting to mix
+<pb n="26" facs="tcp:55027:36"/>
+with all promiscuously, and
+with the Domesticks in ge<g ref="char:EOLhyphen"/>neral:
+but let them be
+known what they are, as it
+becomes them whom we
+take as assistants for the
+framing of these artificial
+Statues.</p>
+            <p>For if it be necessary that
+being skilful <hi>Architects,</hi> and
+building a Palace for the
+Prince, we admit not all the
+servants in Common, to be
+our associates in the Edifice;
+shall we now when we are
+erecting a <hi>City,</hi> and making
+<hi>Citizens</hi> for the King
+of heaven admit of all rash<g ref="char:EOLhyphen"/>ly
+to the work? let those
+servants which are indeed fit<g ref="char:EOLhyphen"/>ted
+for it be taken to our as<g ref="char:EOLhyphen"/>sistance:
+and in case we
+can find none, enquire after
+<pb n="27" facs="tcp:55027:36"/>
+ingenuous person for a Sti<g ref="char:EOLhyphen"/>pend,
+such a one as is virtu<g ref="char:EOLhyphen"/>ous;
+and commit rather all
+things to him, that he be ta<g ref="char:EOLhyphen"/>ken
+in as a <hi>Co<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>djutor</hi> of the
+work.</p>
+            <p>Let them by no means
+therefore hear such idle <hi>Fa<g ref="char:EOLhyphen"/>bles;</hi>
+but when the child is
+to have relaxation from his
+<hi>Taske</hi> (for the mind is much
+delighted to stay a little upon
+old Stories) discourse f<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eely to
+him, and withdrawing him as
+m<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch as possible from Child<g ref="char:EOLhyphen"/>ish
+sports, remember thou
+bringst up a <hi>Philosopher,</hi> and
+a <hi>Champion,</hi> and a <hi>Citizen</hi> of
+Heaven. Discourse therefore
+with him, and tell him, Once
+upon a time at the begin<g ref="char:EOLhyphen"/>ning,
+a Father had two Sons,
+both of them Brothers.
+<pb n="28" facs="tcp:55027:37"/>
+Here pause a little: then go
+on, They came both out of
+the same Belly, one of them
+was the E<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>der; and the o<g ref="char:EOLhyphen"/>ther
+the Yong<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r. The first
+was a <hi>Husband-man,</hi> and his
+brother was a <hi>Shephard</hi> that
+us'd to lead out his Flock
+upon the Downes and a<g ref="char:EOLhyphen"/>mongst
+the thickets (sweeten
+then your discourse with
+some pretty diversion, that
+the child may take delight
+in what you say, and least
+it become tedious) The other
+sowed seed in the ground
+and planted trees. But upon
+a time they went to serve <hi>God,</hi>
+and the <hi>Shephard</hi> taking
+the very best Lamb of
+all his Flock, offered it
+up to God. Is it not a thou<g ref="char:EOLhyphen"/>sand
+times better to discourse
+these things to them, then <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o
+<pb n="29" facs="tcp:55027:37"/>
+amuse them with I know
+not what wonders of the
+<hi>Golden Fleece<g ref="char:punc">▪</g>
+               </hi> and the like?
+Then encourage his attention
+again; for the narration it
+self is a very serious matter,
+there is nothing in it false, all
+is out of Scipture. Now
+because he offered to
+God the firstling and prime
+of his flock, there came pre<g ref="char:EOLhyphen"/>sently
+fire down from he<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ven
+and snatched up all that lay
+upon the Altar.</p>
+            <p>But the <hi>Elder Brother</hi> did
+not behave himself in this
+manner, but out he goes,
+and reserves for himself the
+best and first-fruits of his
+labours, offering the second
+and the worst to God: and
+God accordi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gly had no re<g ref="char:EOLhyphen"/>spect
+unto it<g ref="char:punc">▪</g> but slighted
+<pb n="30" facs="tcp:55027:38"/>
+and turned from it; letting
+it lye still upon the Ground;
+when as the <hi>others</hi> he received
+up to himself. Just as it
+happens with those who are
+the Stewards and Bailiffs o<g ref="char:EOLhyphen"/>ver
+our farmes, when they
+come to present their fruits:
+One of them his Master ho<g ref="char:EOLhyphen"/>nours,
+and brings him in to
+the house, the <hi>other</hi> he lets
+stand regardlesse without.
+Just so it fell out here. But
+what followed this now?
+Why, the <hi>Elder Brother</hi> be<g ref="char:EOLhyphen"/>came
+dejected, and as one
+that saw himself despised
+and not approved of, walks
+melancholy out. And God
+sayes to him, Wherefore art
+thou so sad, knowest thou
+not that thou didst offer to
+God, why then didst thou
+me that Injury? What hadst
+<pb n="31" facs="tcp:55027:38"/>
+thou to complain of? How
+comes it to pass that thou of<g ref="char:EOLhyphen"/>fredst
+the <hi>refus<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> to me? Here
+if you think fit to descend
+more to his capacity, you
+may a<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, That he having no<g ref="char:EOLhyphen"/>thing
+at all to reply, held his
+peace and answered not a
+word.</p>
+            <p>A little after this, spying
+his <hi>Yonger Brother,</hi> he sayes
+to him, Come, prithy, let us
+walk a little out in the fields;
+and when they were there,
+surprizing him treacherously,
+and being stronger, he kills
+his poor <hi>Brother,</hi> and thought
+that he should conceal it all
+from God. But God comes
+to him, and askes him, <hi>Where
+is thy Broeher?</hi> What can I
+tell, replies he, <hi>Am I my
+Brothers keeper?</hi> Then sayes
+God to him, <hi>Behold thy Bro<g ref="char:EOLhyphen"/>thers
+<pb n="32" facs="tcp:55027:39"/>
+blood cryes to me from the
+Earth.</hi>
+            </p>
+            <p>Let the <hi>Mother</hi> sit by
+whilst the mind of the child
+is moulding with these dis<g ref="char:EOLhyphen"/>courses,
+that she now and
+then interpose, and praise that
+which is recounted. But
+what follow'd all this? God
+took him up into heaven,
+and he being dead, lives a<g ref="char:EOLhyphen"/>bove
+for ever. By this
+means the child will begin
+to learn the Doctrine of the
+<hi>Resurrection;</hi> for they use to
+relate such stories in <hi>Fables:</hi>
+They made her (sayes one) a
+<hi>Demi-Goddess,</hi> and the child
+believes it, and though he
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>now not what a <hi>Demi-God</hi>
+is, yet he imagins it some<g ref="char:EOLhyphen"/>thing
+which is more then a
+man, and he wonders present<g ref="char:EOLhyphen"/>ly
+<pb n="33" facs="tcp:55027:39"/>
+at the hearing of it: How
+much more then when he
+shal hear of the <hi>Resurrection,</hi>
+that his Soul ascended into
+heaven, and that God im<g ref="char:EOLhyphen"/>mediately
+took him up?
+But as for the <hi>Murtherer,</hi>
+having lived many years af<g ref="char:EOLhyphen"/>ter,
+miserably unfortunate,
+and continually in fear and
+trembling, he suffered innu<g ref="char:EOLhyphen"/>merable
+evils, and was pu<g ref="char:EOLhyphen"/>nished
+every day. Speak to
+him conce<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ning the punition
+with terror, not gently. That
+he heard God say, Thou
+shalt be groaning and tremb<g ref="char:EOLhyphen"/>ling
+upon the face of the
+Earth. The child indeed
+knows not what this signi<g ref="char:EOLhyphen"/>fies
+at first: But say it
+however. As you,
+when you st<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd perplexed be<g ref="char:EOLhyphen"/>fore
+your Master, shortly to
+<pb n="34" facs="tcp:55027:40"/>
+be whipped, tremble and
+fear; so he lived all his life<g ref="char:EOLhyphen"/>time,
+after he had thus offen<g ref="char:EOLhyphen"/>ded
+God. And hitherto
+shall suffice for the first.</p>
+            <p>Afterwards, one evening
+as you are at Supper, talke
+of this again to him, and let
+his <hi>Mother</hi> repeat the same
+things; and then when he
+hath heard it several times
+over, require it of him. My
+Son, recite me th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Story,</hi> and,
+the more to encourage him,
+when you find he hath re<g ref="char:EOLhyphen"/>tain'd<g ref="char:punc">▪</g>
+it, you shall propose
+him some reward. The mind
+will indeed upon the first
+narration of this History,
+gather some fruit by you, as
+you make the deduction.
+After this, say thus, Do you
+see, child, what a horrible
+<pb n="35" facs="tcp:55027:40"/>
+thing it is to envy ones. Bro<g ref="char:EOLhyphen"/>ther?
+Do you perceive what
+a crime it is to think one can
+hide any thing from God?
+for he sees all things; yea,
+even those things which are
+committed in secret.</p>
+            <p>So that sowing this Do<g ref="char:EOLhyphen"/>ctrine
+onely in the child,
+thou wilt have no need of a
+Paedagogue, since the feare
+which the Deity doth hereby
+work in him, will affect the
+child beyond any other ap<g ref="char:EOLhyphen"/>prehension
+whatsoever, and
+extreamly move his mind.</p>
+            <p>But this is not all, you
+shall lead him also to Church,
+and then especially when
+this Less<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n is read: How
+you shall perceive him to ex<g ref="char:EOLhyphen"/>sult,
+dance and rejoyce, that
+<pb n="36" facs="tcp:55027:41"/>
+what every body does not
+know he does, out-running in
+h<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s understanding the words
+of the Minister, and arguing
+that he knowes that already,
+and receiving wonderfull
+fruit by it. And by this the
+thing will become sufficient<g ref="char:EOLhyphen"/>ly
+fixed in his memory;
+There are many other ad<g ref="char:EOLhyphen"/>vantages
+to be reaped from
+this Narration.</p>
+            <p>Let him be taught there<g ref="char:EOLhyphen"/>fore
+by you, that from the
+very beginning, from the
+death of this child, we are in<g ref="char:EOLhyphen"/>struct<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d
+not to grieve when we
+are <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fflicted, seeing he who was
+thus accepted, was by death
+received up into Heaven;
+When this Narration shall
+be well rooted in the mind
+of the child, introduce ano<g ref="char:EOLhyphen"/>ther,
+<pb n="37" facs="tcp:55027:41"/>
+as that of other two
+Brothers, and say, There
+were also other two Bro<g ref="char:EOLhyphen"/>thers,
+an Elder also and a
+younger; The Elder of them
+was a Hunter, the younger
+was a keeper and a lover of
+home; and this hath some<g ref="char:EOLhyphen"/>what
+of more delight in it
+then the former (as being
+full of more variety of e<g ref="char:EOLhyphen"/>mergencies;
+and the Persons
+which manage it being more
+in yeares then the former.)
+Now these were also two
+Brothers, and both of them
+twins: But when they were
+born the Mother loved the
+younger, but the Father was
+more fond of the Elder who
+was wont to passe his time
+abroad in the fields: but the
+younger kept altogether at
+home; Upon a day, his Fa<g ref="char:EOLhyphen"/>ther
+<pb n="38" facs="tcp:55027:42"/>
+being now very aged, said
+to him whom he loved, Son,
+Seeing I am now an old man,
+goe thy way I pray and pre<g ref="char:EOLhyphen"/>pare
+for me some Veni<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>on:
+That is, take me a Ro<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>buck,
+or an Hare, and bring it to
+me, that when I have eaten
+of it I may blesse thee: But
+to the younger he said no<g ref="char:EOLhyphen"/>thing
+at all.</p>
+            <p>Now the Mother o<g ref="char:EOLhyphen"/>over-hearing
+all that the Fa<g ref="char:EOLhyphen"/>ther
+said<g ref="char:punc">▪</g> calls her young<g ref="char:EOLhyphen"/>est
+son, and says to him, Son,
+Since thy Father has com<g ref="char:EOLhyphen"/>manded
+thine elder-Brother
+to bring him some Venison,
+that eating of it he may give
+him his blessing: Hearken
+what I say to thee, H<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sten
+immediately to the flock,
+and fetching thence some
+<pb n="39" facs="tcp:55027:42"/>
+young fat kids, bring them
+hither to me, and I will
+make such as thy Father
+loves, and thou shalt carry
+it to him, that when he has
+tasted of it, he may blesse
+thee; For the Father was
+dark through extremity of
+Age.</p>
+            <p>Now when the younger
+had brought her the Kids,
+his Mother stewed them,
+and putting the viands into a
+dis<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, delivers it to her Son
+who carried it in: And she
+also clad him with the skins
+of the Goats, least he should
+be discovered, seeing he was
+smooth, but his brother was
+all hairy and rough; that by
+this meanes it might be con<g ref="char:EOLhyphen"/>cealed,
+and his Father not
+discern the imposture, and
+<pb n="40" facs="tcp:55027:43"/>
+thus accoutr'd in she sent
+him; now the good old man
+supposing him to have been
+the Elder, having eaten the
+meat, Blessed him: And
+when he had made an end of
+blessing him, in comes the
+Elder brother bringing the
+Venison: but perceiving
+what had h<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pned, roaring
+out aloud he wept lamenta<g ref="char:EOLhyphen"/>bly.</p>
+            <p>Observe now what a world
+of benefit t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is will produce,
+&amp; do not recount all the story
+at once: but see what pro<g ref="char:EOLhyphen"/>fit
+will spring from this. For
+in the first place, children
+will learn to reverence their
+Parents, perceiving how
+they contended for the bles<g ref="char:EOLhyphen"/>sing,
+and will rather indure
+a thousand stripes, then once
+<pb n="41" facs="tcp:55027:43"/>
+to hear their Father curse
+them.</p>
+            <p>If you fill their thoughts
+with such like stories, so as
+they may imagine them
+worthy of beliefe (as in<g ref="char:EOLhyphen"/>deed
+they are very truths)
+how will it not affect and fill
+them ful of reverence? By this
+also they will learn to con<g ref="char:EOLhyphen"/>temne
+gluttony (for that is
+likewise to be told them) and
+that he gained nothing by
+heing the first borne and the
+Eldest, since by the intempe<g ref="char:EOLhyphen"/>rance
+of his belly, he betray<g ref="char:EOLhyphen"/>ed
+the excellency of his
+birth-right.</p>
+            <p>Now when the child shall
+have throughly remembred
+this, upon some other e<g ref="char:EOLhyphen"/>vening,
+thou shall require
+<pb n="42" facs="tcp:55027:44"/>
+him to repeate this story of
+the two brothers. And if
+he begin to speak of <hi>Cain</hi>
+and <hi>Abell,</hi> recall him, and
+say, I do not mean this, but
+that of the two other, whom
+the Father gav<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his blessing
+to; thus giving him some
+hints, but without mention<g ref="char:EOLhyphen"/>ing
+the names, and when he
+has recited it all, add as fol<g ref="char:EOLhyphen"/>lowes,
+and say,</p>
+            <p>Mark now what hapned
+after this, This also sought
+to have slain his brother, and
+for that end expected onely
+his fathers decease, which the
+Mother coming to hear of,
+and fearing it, caused her son
+to flee away. Much Phi<g ref="char:EOLhyphen"/>losophy,
+far exceeding the
+apprehension of the child,
+may be hence (with a little
+<pb n="43" facs="tcp:55027:44"/>
+condescention) implanted
+into the Spirit of the child,
+so that the Narration be
+skilfully and dxteronsly hand<g ref="char:EOLhyphen"/>led:
+Thus therefore let us
+tell him.</p>
+            <p>This same Brother went
+his way, and came to a cer<g ref="char:EOLhyphen"/>tain
+place having no body
+with him, not so much as a
+servant, no Fosterer no At<g ref="char:EOLhyphen"/>tendant,
+nor any person be<g ref="char:EOLhyphen"/>sides.
+Being arrived to the
+place, he prayed, and said,
+O Lord, give me, <hi>I beseech thee</hi>
+bread and cloathing, and
+save me; and having said thus,
+overcome with sorrow he fel
+asleep; and there he saw in a
+dream a Ladder reaching up
+from the earth to the Hea<g ref="char:EOLhyphen"/>vens,
+and the Angels of
+God as<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ending and descend<g ref="char:EOLhyphen"/>ing,
+and God himselfe stand<g ref="char:EOLhyphen"/>ing
+<pb n="44" facs="tcp:55027:45"/>
+at the top of all. Then
+he said, Bless me, and he
+blessed him, and called him
+Israel.</p>
+            <p>It comes happily into my
+mind, and now I remember,
+that from the very Names
+another <hi>Instruction may be</hi>
+inserted, and what is that?
+(<hi>viz.</hi>) That from the appel<g ref="char:EOLhyphen"/>lations
+we presently intro<g ref="char:EOLhyphen"/>duce
+a certain emulation of
+Vertue in children. Let none
+therefore be forward to name
+their children for the memo<g ref="char:EOLhyphen"/>ry
+of their Fathers, or Mo<g ref="char:EOLhyphen"/>thers,
+or Grandfathers: but
+of the Righteous, of the
+Martyrs, Bishops and Apo<g ref="char:EOLhyphen"/>stles.
+Be this also their emu<g ref="char:EOLhyphen"/>lation,
+let this child be cal<g ref="char:EOLhyphen"/>led
+<hi>Peter,</hi> that <hi>Iohn,</hi> and a<g ref="char:EOLhyphen"/>nother
+by the Apellation of
+<pb n="45" facs="tcp:55027:45"/>
+some Holy man, and talke
+not to me of the Gentil<g ref="char:EOLhyphen"/>names;
+for (<hi>believe it)</hi> it is
+no small reproach, and wor<g ref="char:EOLhyphen"/>thy
+of derision, when in a
+Christian Family some hea<g ref="char:EOLhyphen"/>then
+Ceremonies are per<g ref="char:EOLhyphen"/>formed,
+and they light up the
+lamps, and watch which of
+them shall first go out and be
+spent, with other the like fop<g ref="char:EOLhyphen"/>peries,
+which bring no little
+detriment to those which
+practi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem; For do not
+imagine that these are small
+matters or trifles which are
+done.</p>
+            <p>This therefore I require of
+you, that you impose the
+names of the R<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ghteous up<g ref="char:EOLhyphen"/>on
+your children, for it was
+the custom in the beginning
+(<hi>not without reason)</hi> that
+<pb n="46" facs="tcp:55027:46"/>
+they called their children by
+the names of thetr Ancestors,
+it being a kind of Consola<g ref="char:EOLhyphen"/>tion
+against Mortality, that
+he which was gone seemed
+still to live, by reason of
+his name: but now this
+custome is quite out of re<g ref="char:EOLhyphen"/>quest.</p>
+            <p>Truly we see that the
+R<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ghteous did not so call
+their children, for <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>b<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aham</hi>
+beg<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t <hi>Isaac; Iacob,</hi> and
+<hi>Moses</hi> were not called after
+their Anc<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>stors names, nor
+do we find any of the Just
+so c<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lled. O what an exam<g ref="char:EOLhyphen"/>ple
+will he<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e be of Virtue,
+of Consolation, and of Ex<g ref="char:EOLhyphen"/>hortation.
+And moreover
+neither do we find any other
+cause of changing names
+besides this only, That it
+<pb n="47" facs="tcp:55027:46"/>
+may be a Monument of Vir<g ref="char:EOLhyphen"/>tues.
+Thou, saith he, shalt
+be called <hi>Cephas,</hi> which is
+being expounded, <hi>Peter,</hi>
+Why so?<note place="margin">Mat. 16. 18.</note> Because thou
+didst Confesse.<note place="margin">Gen. 17. 5</note> And thou
+shalt be called <hi>Abraham,</hi>
+               <note place="margin">Gen. 32. 28.</note>
+Why so? Because thou art
+a Father of Nations. And
+<hi>Israel,</hi> because he did see
+God. Hence therefore let
+us begin our care over our
+Children, and institute their
+lives.</p>
+            <p>But as I said, He saw a
+ladder reaching to the hea<g ref="char:EOLhyphen"/>vens
+and touching it: let the
+names therefore of the Saints
+enter into your houses, by the
+Appellations of your chil<g ref="char:EOLhyphen"/>dren,
+that by this means it
+may not alone compose the
+manners of the Children, but
+<pb n="48" facs="tcp:55027:47"/>
+of the Fathers also;
+when he shall remember him<g ref="char:EOLhyphen"/>self
+to be the Son of <hi>Iohn,</hi>
+of <hi>Elias,</hi> of <hi>Iacob;</hi> see<g ref="char:EOLhyphen"/>ing
+those names were cir<g ref="char:EOLhyphen"/>cumspectly
+and piously im<g ref="char:EOLhyphen"/>pos'd,
+and for the honour
+of those that are depart<g ref="char:EOLhyphen"/>ed.</p>
+            <p>Thus therefore let us
+Court the affinity of the
+R<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ghteous rather then of
+our Progenitors. This like<g ref="char:EOLhyphen"/>wise
+will be very beneficial
+both to us and to our chil<g ref="char:EOLhyphen"/>dren:
+Nor be<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ause the In<g ref="char:EOLhyphen"/>stance
+is small, think it to be
+small; for the supposition
+is exceeding profitable. But
+as I said, Let us pr<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ceed to
+that which follows. He
+spied a Ladder fixed, he
+sought for a ble<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ing, and
+<pb n="49" facs="tcp:55027:47"/>
+God did bless him: He tra<g ref="char:EOLhyphen"/>vell'd
+to his Kindred, and
+became a Shepherd to his
+Kinsman, then treated with
+him concerning a Wife, and
+of his return: And here
+also there will result a world
+of advantage, observe but
+what a deal he will learn.
+That being Nobly born, he
+despise no man, not to be
+ashamed of Poverty, that he
+bear Adversi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y couragiously,
+and then all the rest. A<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er
+this, when he is a little old<g ref="char:EOLhyphen"/>er,
+relate t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ings that are
+more terrible; but being as
+yet tender, impose not such
+a burthen on him, lest thou
+too much terrifie and abash
+him: But when he has at<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ain<g ref="char:EOLhyphen"/>ed
+to fifteen years old, or shall
+be grown bigger, let him
+hear of the pains of Hell, and
+<pb n="50" facs="tcp:55027:48"/>
+when he is about ten, or
+eight, or less, tell him what
+happened at the Deluge, of
+<hi>Sodome,</hi> of <hi>Aegypt,</hi> which
+examples are full of <hi>sever<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ty,</hi>
+and acquaint him with all
+these particulars at large. Be<g ref="char:EOLhyphen"/>ing
+then grown bigger, in<g ref="char:EOLhyphen"/>struct
+him in matters of the
+New-Testament; of Grace,
+of Hell. By these and sun<g ref="char:EOLhyphen"/>dry
+other Narrations and fa<g ref="char:EOLhyphen"/>miliar
+Ex<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ples guard and
+secure his Ears.</p>
+            <p>But if any man come in
+with a false Tale, by no
+means (as I said) let him be
+admitted. If you find a ser<g ref="char:EOLhyphen"/>vant
+speaking filthily before
+him, chastise him for it im<g ref="char:EOLhyphen"/>mediately,
+and be thy self a
+severe and bitter Censor of
+whatsoever evil they do. But
+<pb n="51" facs="tcp:55027:48"/>
+if by chance thou espy a
+young maid (yea rather let
+there no such approach him)
+let her not so much as light
+the fire; unless it be some
+old woman, which has no<g ref="char:EOLhyphen"/>thing
+to attract a young
+Man: From a young maid,
+I say, <gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ie rather then from
+the fire, and by this means it
+will come to pass, that he
+which hears nothing imper<g ref="char:EOLhyphen"/>tinent,
+will speak nothing
+impertinent. Thus therefore
+let them be brought up.</p>
+            <p>But we proceed now to
+another <hi>Port.</hi> The <hi>Smelling,</hi>
+For this also brings a very
+great inconvenience with it,
+unless timely barr'd; such
+are Odours and Incense;
+there being nothing which
+more dissolves the <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rame and
+<pb n="52" facs="tcp:55027:49"/>
+tenor of the mind, nothing
+that more softens it, then if
+thou be affected with sweet
+smells: What then says he?
+Ought one to take pleasure in
+dirt? I do not say so, but
+neither with this, nor that.</p>
+            <p>Let none therefore bring
+him sweet Ointments, for as
+soon as that once affects the
+Brain, it effeminates and sof<g ref="char:EOLhyphen"/>tens
+all the rest: Hence also
+Lusts are incited, and in that
+do lurk innumerable snares.
+Therefore lock up that Gate
+securely. For the faculty of
+Smelling is to breath the Air,
+not to receive Perfumes.
+Some there are which perad<g ref="char:EOLhyphen"/>venture
+will deride all this,
+as though whilest we dis<g ref="char:EOLhyphen"/>course
+of this nurture, we
+trouble our selves about tri<g ref="char:EOLhyphen"/>fles:
+<pb n="53" facs="tcp:55027:49"/>
+But in truth the matter
+is not small; but the very
+Basis, Instruction and Insti<g ref="char:EOLhyphen"/>tution
+of the whole world,
+that these things be duly per<g ref="char:EOLhyphen"/>formed.</p>
+            <p>There is likewise another
+Gate, more specious then the
+former, but of exceed<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ng <gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>f<g ref="char:EOLhyphen"/>ficulty
+to guard, namely, that
+of the <hi>Eyes,</hi> as being rais'd
+on high, set in the front, and
+beautified. This has many
+smaller Leaves, by which it
+not onely sees but is seen, if
+it be gallantly framed. Here
+then there is great necessity
+of Laws, one of the principal
+whereof let be, never to send
+the Child to the <hi>Theater,</hi> lest
+thereby he receive an entire o<g ref="char:EOLhyphen"/>verthrow
+at once, both by the
+Ears, &amp; by the Eys: and le<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his
+<pb n="54" facs="tcp:55027:50"/>
+Attendant observe this espe<g ref="char:EOLhyphen"/>cially
+in the Markets, and
+whilest he passes through the
+by-Lanes and Streets, care<g ref="char:EOLhyphen"/>full
+that he never fall into
+that debauchery.</p>
+            <p>Now to the end he may
+receive no harm by being
+seen, there are divers things
+to be considered. Deprive
+him of all over-costly Appa<g ref="char:EOLhyphen"/>rel
+and superfluous Orna<g ref="char:EOLhyphen"/>ments,
+let him wear his Hair
+modestly short, and if the
+Boy take it hainously, as if
+he were disfigured by it,
+teach him this first, That it
+is the greatest Ornament.</p>
+            <p>Now that he may not
+gaze, sufficient to preserve
+him will be those stories of
+the Sons of God, which
+<pb n="55" facs="tcp:55027:50"/>
+happened on the Daughters
+of Men, and of the Sodo<g ref="char:EOLhyphen"/>mites,
+Hell, and such like
+instances. Here then must
+the Governour and he that
+waits on him, be wonderfull
+carefull and sollicitous, shew
+him therefore other beautifull
+obj<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ts, drawing away his
+eyes from these things: Such
+as are the Heavens, the Stars,
+the Flowers of the Earth, the
+Meadows, fair Books, <hi>&amp;c.</hi>
+These therefore let him de<g ref="char:EOLhyphen"/>light
+his eyes withal; and
+there are many other objects
+besides, which are very in<g ref="char:EOLhyphen"/>offensive:
+For it is a Port ex<g ref="char:EOLhyphen"/>treamly
+difficult to guard;
+for as much as it has a fire
+burning within, and a kind
+of natural necessity as I may
+say. Teach him some Di<g ref="char:EOLhyphen"/>vine
+Verses. And thus, unless
+<pb n="56" facs="tcp:55027:51"/>
+he be inwardly incited, he
+will not care to be seen a<g ref="char:EOLhyphen"/>broad.
+Be sure that he ne<g ref="char:EOLhyphen"/>ver
+bath with women, it is
+a very wicked custome: nei<g ref="char:EOLhyphen"/>ther
+permit him to haunt their
+company.</p>
+            <p>Let him often hear the
+whole History of <hi>Ioseph,</hi>
+and now learn the things
+which concern the Kingdom
+of Heaven: What a Gar<g ref="char:EOLhyphen"/>land
+there's laid up for those
+which are Chast. Promise
+him a beautifull Wife, and
+that you will make him your
+Heir<g ref="char:punc">▪</g> but menace all the
+contrary, if you find him
+disobedient: And talk thus
+to him. We shall never
+procure you, Son, a virtuous
+Wife, unless you shew a
+great deal of circumspection
+<pb n="57" facs="tcp:55027:51"/>
+and an access of Virtue. If
+you persevere, I will quick<g ref="char:EOLhyphen"/>ly
+marry you: But especial<g ref="char:EOLhyphen"/>ly
+if he be taught to abhor
+filthy speeches, he has gain'd
+from above a very excellent
+Foundation of Modesty:
+Discourse to him of the pul<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hritude
+of the Mind, make
+him resolute against Wo<g ref="char:EOLhyphen"/>men.
+Tell him 'tis a dis<g ref="char:EOLhyphen"/>ingenuous
+thing to be de<g ref="char:EOLhyphen"/>spis'd
+of a lavish maid, and
+that much more circumspe<g ref="char:EOLhyphen"/>ction
+is requir'd in a youth.
+When any man speaks, he is
+known; but he that sees onely
+is not known: For this is a ve<g ref="char:EOLhyphen"/>ry
+quick Sense, and one si<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ting
+amongst many persons is a<g ref="char:EOLhyphen"/>ble
+to take which of them he
+pleases with one onely dart
+of his eye. Let him there<g ref="char:EOLhyphen"/>fore
+have no converse with
+<pb n="56" facs="tcp:55027:52"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="57" facs="tcp:55027:52"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="58" facs="tcp:55027:53"/>
+woman-kinde, his Mother
+onely excepted: Suffer him
+to be hold no Woman. Give
+him no Gold, let nothing
+that is sordid once enter into
+him: but teach him to con<g ref="char:EOLhyphen"/>temn
+pleasure, and all such
+like things.</p>
+            <p>There is yet another Gate
+behind, which hath no re<g ref="char:EOLhyphen"/>semblance
+to the former;
+but which goes through the
+whole body. We call it the
+Touch. Indeed one would
+imagine it shut, yet as if it
+were of all the rest the most
+open, it admits entrance to
+all. Let us neither suffer this
+to be acquainted either with
+soft clothing or bodies; ren<g ref="char:EOLhyphen"/>der
+him more hardy, we are
+bringing up a Champion,
+and let us seriously mind it:
+<pb n="59" facs="tcp:55027:53"/>
+permit him neither to use soft
+coverings, nor soft garments,
+and thus let matters be or<g ref="char:EOLhyphen"/>dered.</p>
+            <p>Go to then, and entering
+into this City, let us pre<g ref="char:EOLhyphen"/>scribe
+Laws, and make Or<g ref="char:EOLhyphen"/>dinances:
+For now the Gates
+are in posture: And in the first
+place take we diligent notice
+of the Houses, &amp; of the Lodg<g ref="char:EOLhyphen"/>ings
+where the Citizens re<g ref="char:EOLhyphen"/>main,
+those which are cir<g ref="char:EOLhyphen"/>cumspect,
+and those which are dissolute.</p>
+            <p>They report, that the place
+and habitation of Anger is
+the Breast, and the Heart,
+which is in the Breast, Con<g ref="char:EOLhyphen"/>cupiscence
+in the Liver, and
+the Understanding in the
+Brain. The first is both a
+<pb n="60" facs="tcp:55027:54"/>
+Virtue and a Vice. Sobri<g ref="char:EOLhyphen"/>ety
+and Modesty is a Vertue;
+Rashness and Morosity a
+Vice. Likewise the V<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rtue
+of Concupiscence, is Chasti<g ref="char:EOLhyphen"/>ty,
+Luxury a Vice. The
+Virtue of the Intellect is Pru<g ref="char:EOLhyphen"/>dence,
+the Vice, Folly. Let
+us there<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore have a care that
+Virtues be produced in those
+places, and that they bring
+forth such as are good, not
+evil Citizens. For these af<g ref="char:EOLhyphen"/>fecti<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns
+are as it were the ve<g ref="char:EOLhyphen"/>ry
+parents of all our cogita<g ref="char:EOLhyphen"/>tions.</p>
+            <p>But let us now proceed to
+the Tyrant, Anger<g ref="char:punc">▪</g> For nei<g ref="char:EOLhyphen"/>ther
+is that to be altogether
+cut off in a Youth, nor upon
+all occasions to be used: But
+thus let us instruct him from
+the Cradle, That being in<g ref="char:EOLhyphen"/>jur'd
+<pb n="61" facs="tcp:55027:54"/>
+he bear it patiently, and
+that when they perceive ano<g ref="char:EOLhyphen"/>ther
+man wronged, they
+stoutly revenge it, and ac<g ref="char:EOLhyphen"/>cording
+as the person is de<g ref="char:EOLhyphen"/>pressed,
+in a due and conve<g ref="char:EOLhyphen"/>ent
+manner take his part. But
+how should this be? when
+they are train'd up to it in
+their own servants. Being
+under-valu'd, are not impa<g ref="char:EOLhyphen"/>tient,
+being disobey'd, are
+not outragious; but rather
+vindicate that which is com<g ref="char:EOLhyphen"/>mitted
+against others: But
+in these Cases let the Father
+be always A<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>biter, and when
+they transgress the Orders
+it behoves him to be sharp
+and severe, as when they per<g ref="char:EOLhyphen"/>form
+and observe them right<g ref="char:EOLhyphen"/>ly,
+to be kind and gentle,
+enticing and alluring the
+Child with many rewards:
+<pb n="62" facs="tcp:55027:55"/>
+For with this method God
+governs the world, by the
+fear of Hell, and the promi<g ref="char:EOLhyphen"/>ses
+of the Kingdom; and so
+should we our Children,
+permitting them to be vexed
+now and then, for the exer<g ref="char:EOLhyphen"/>cise
+and tryal of their Pati<g ref="char:EOLhyphen"/>ence,
+that th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y may learn
+how to govern their Passions
+amongst the Domesticks.</p>
+            <p>And as in a wrestling place,
+before they play the Prize,
+they daily exercise with their
+companions, that making
+their party good with them,
+they may the more easily
+vanquish their Antagonists:
+So should a Child be educa<g ref="char:EOLhyphen"/>ted
+at home. And let his
+Father or his Brother fre<g ref="char:EOLhyphen"/>quently
+cross his humours a<g ref="char:EOLhyphen"/>bove
+all the rest, and exceed<g ref="char:EOLhyphen"/>ingly
+<pb n="63" facs="tcp:55027:55"/>
+contend for the victo<g ref="char:EOLhyphen"/>ry,
+or else some other de<g ref="char:EOLhyphen"/>fend
+him that he may be ex<g ref="char:EOLhyphen"/>ercised
+in that other person;
+thus the servants may occa<g ref="char:EOLhyphen"/>sionally
+provoke him, right
+or wrong, that so he may be
+taught every where to mo<g ref="char:EOLhyphen"/>derate
+and qualifie his Passi<g ref="char:EOLhyphen"/>on;
+seeing if the Father one<g ref="char:EOLhyphen"/>ly
+incite him, it will be no such
+great matter: For the very
+name of Father praepossessing
+the mind, does not suffer
+him to turn again and make
+head; but let his compani<g ref="char:EOLhyphen"/>ons
+and servants, and such
+as are ingenuously born do
+it, that by them he may be
+taught moderation.</p>
+            <p>There is yet another. What
+is that? When ever he is
+angry, put him in mind of
+<pb n="64" facs="tcp:55027:56"/>
+his proper Passions: When
+he is offended against a Ser<g ref="char:EOLhyphen"/>vant,
+whether he himself ne<g ref="char:EOLhyphen"/>ver
+committed a fault, and
+what he would be, if he were
+in his place: But in case he
+fi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d him striking the Servant,
+meet him with revenge; and
+if he extreamly wrong him,
+chastise him again for it; ne<g ref="char:EOLhyphen"/>ver
+suffer him to be too soft
+and remiss, nor over churlish
+and morose; in as much as
+he is a Man, and should be
+affable and courteous. Some<g ref="char:EOLhyphen"/>times
+indeed he may have a
+worthy occasion for his An<g ref="char:EOLhyphen"/>ger,
+as if hereafter he should
+have Children of his own,
+or himself be a Master of
+Servants, in such a conditi<g ref="char:EOLhyphen"/>on
+Anger were very usefull.
+Then onely it is unprofit<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ble,
+when we revenge our selves.
+<pb n="65" facs="tcp:55027:56"/>
+And therefore <hi>Paul</hi> never
+made use of it himself, but
+for their sakes only who suf<g ref="char:EOLhyphen"/>fered
+the wrong. Thus <hi>Mo<g ref="char:EOLhyphen"/>ses</hi>
+seeing his brother injured,<note place="margin">Exod. <gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g> 12.</note>
+had recourse to his anger, and
+that stoutly;<note place="margin">Num. 1<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 3.</note> being yet of all
+men the most meek: but
+when afterward he was him<g ref="char:EOLhyphen"/>self
+injured, he did not re<g ref="char:EOLhyphen"/>venge
+it, but fled away. These
+Discourses inculcate into
+him. For whilst we are thus
+trimming the Gates, they
+have great need of such plain
+narrations. But when en<g ref="char:EOLhyphen"/>tring
+into the City, we begin
+to Discipline the Citizens,
+'twill then be fit to discourse
+to them of sublimer matters.
+But let this Law be fixed in
+him, that he never revenge
+himselfe being injured or
+wronged, nor ever permit
+<pb n="66" facs="tcp:55027:57"/>
+him to despise another who
+suffereth the like.</p>
+            <p>His very father shall be<g ref="char:EOLhyphen"/>come
+better, who by teach<g ref="char:EOLhyphen"/>ing
+him in these matters,
+may himself be instructed;
+or in case he do it for no o<g ref="char:EOLhyphen"/>ther
+end, he shall become
+better then himself, least he
+set a bad example before his
+child. And therefore let him
+learn to be despised, and to
+suffer contempt, exacting
+nothing of the servants, be<g ref="char:EOLhyphen"/>cause
+himself is Free-born:
+but upon many occasi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns
+serve rather himself. Let
+his servants take care only of
+such things, as he cannot so
+handsomly perform in per<g ref="char:EOLhyphen"/>son:
+For instance, a Gentle<g ref="char:EOLhyphen"/>man
+should not be his own
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ook; for it is not decent
+<pb n="67" facs="tcp:55027:57"/>
+that quitting those Studies
+which become a Gentleman,
+he should give his mind to
+this inferior employment.
+But if there be occasion to
+wash his feet, never let him
+make use of a servant, let
+himself do it. And by this
+means, thou shalt render
+him ingenuous, mild, and a<g ref="char:EOLhyphen"/>miable
+to the servants. Nor
+permit any body to bring
+him his cloths, nor in the
+Bath to use any Ceremony
+to him; but let him perform
+there all necessaries himself.
+This will make the youth
+robust, not disdainful, but
+affable and meek. Teach
+him also those things which
+concern Nature, What a
+Servant is, What a Free<g ref="char:EOLhyphen"/>man.
+Say to him, Child,
+There was heretofore no Ser<g ref="char:EOLhyphen"/>vants
+<pb n="68" facs="tcp:55027:58"/>
+in the dayes of our
+Fore-fathers, 'twas Sin that
+introduced Servitude: But
+because one was irreverent
+towards his father,<note place="margin">Gen. 9. 25.</note> there
+was this punishment infl<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cted
+upon him, That he should be
+his Brothers servant; beware,
+therefore, lest thou become
+the servant of servants: For if
+you be implacable and furi<g ref="char:EOLhyphen"/>ous
+as they were, and in all
+things follow their example,
+and h<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>st nothing of virtue
+more then them, n<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ither
+sha<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thou have any thing of
+excellency or preheminence
+above them.</p>
+            <p>Strive therefore that thou
+mayest become their Master,
+not upon this account, but
+by thy manners and educa<g ref="char:EOLhyphen"/>tion,
+least being Free-born
+<pb n="69" facs="tcp:55027:58"/>
+thy self, thou become their
+servant. Perceive you not
+how many Fathers have dis<g ref="char:EOLhyphen"/>inherited
+their children and
+adopted their vassals in their
+stead? take heed least any
+such thing should happen
+to you. Truly, I neither
+desire nor wish it. They are
+as yet either of them in your
+power. And in this sort
+qualifie his passion; per<g ref="char:EOLhyphen"/>swading
+him so to deport
+himself to his servants as to
+his Brothers. And thus in<g ref="char:EOLhyphen"/>struct
+him concerning the
+Laws of Nature, repeating
+to him the words of <hi>Iob,</hi>
+               <note place="margin">Job 31. 13<g ref="char:punc">▪</g>
+               </note> 
+               <hi>If
+ever</hi> (sayes he) <hi>I dispised the
+cause of my man<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>servant, or
+of my maid<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>servant when they
+contended with me: What the<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+shall I do when God makes en<g ref="char:EOLhyphen"/>quiry,
+and when he visi<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>th,
+<pb n="70" facs="tcp:55027:59"/>
+what shall I answer him?<note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Job 31. 31.</note> Are
+they not fashion'd in the Womb
+as I am?</hi> For we are made
+in the same womb. And a<g ref="char:EOLhyphen"/>gain,
+If my Maidens often
+said, <hi>Who shall give us to be fil<g ref="char:EOLhyphen"/>led
+with his flesh, I being ve<g ref="char:EOLhyphen"/>ry
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ild.</hi> Think you that of
+<hi>Paul</hi> was for nothing?<note place="margin">1 Tim. 3. 5.</note> 
+               <hi>He
+who knows not how to govern
+his own house, is not fit t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> rule
+in the Church.</hi>
+            </p>
+            <p>S<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y therefore,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> if at any
+time his <hi>Style</hi> be lost, or his
+Pen be broken by the Ser<g ref="char:EOLhyphen"/>vant:
+Be not presently in
+Choler, nor mis-call him,
+but be rather gentle and ea<g ref="char:EOLhyphen"/>sie
+to be intreated. Thus
+from smaller things thou
+shalt with ease support great<g ref="char:EOLhyphen"/>er
+l<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>sses. Or if a Book<g ref="char:EOLhyphen"/>string
+be spoyl'd, or a brazen
+<pb n="71" facs="tcp:55027:59"/>
+Clasp, Boys take the losses
+of these things impatiently,
+and had rather lose their ve<g ref="char:EOLhyphen"/>ry
+lives, than suffer so great
+an injury to go unreveng'd,
+Here therefore l<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t their aspe<g ref="char:EOLhyphen"/>rity
+be mitigated: For well
+you know, that he who on
+these accidents is patient and
+contented, will easily, being
+a Man, undergo all other
+disasters.</p>
+            <p>When he has then gotten <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <hi>Table-book</hi> made of some cu<g ref="char:EOLhyphen"/>rious
+wood, pure and white,
+adorn'd with <hi>Brazen-Chains,</hi>
+and finely polished <hi>brazen
+Pins,</hi> shining like any Silver,
+or the like toys; and that the
+Boy which attends him hap<g ref="char:EOLhyphen"/>pening
+to lose any of them,
+you perceive him not mov'd
+at it, 'tis an evident and cer<g ref="char:EOLhyphen"/>tain
+<pb n="72" facs="tcp:55027:60"/>
+indication of Philoso<g ref="char:EOLhyphen"/>phy
+and great wisdome. Nor
+do thou upon this buy him
+new immediately, lest thou
+extinguish his Passion; but
+when you shall perceive he
+bears the want of it handsom<g ref="char:EOLhyphen"/>ly,
+and is not much con<g ref="char:EOLhyphen"/>cern'd
+with it, then repair
+his losses.</p>
+            <p>Believe it, we do in this
+no trifling matter. The dis<g ref="char:EOLhyphen"/>course
+concerns no less then
+the polity of the world it self.
+If he have a younger Bro<g ref="char:EOLhyphen"/>ther,
+instruct him to suffer
+him to be preferred in ho<g ref="char:EOLhyphen"/>nour
+before him. <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut if he
+have none, then some Ser<g ref="char:EOLhyphen"/>vant:
+For even this likewise
+is a point of the greatest
+Philosophy. So therefore
+mitigat<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and asswage his An<g ref="char:EOLhyphen"/>ger,
+<pb n="73" facs="tcp:55027:60"/>
+that it may suggest to
+us m<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>k cogitations: For
+when he shall let his affecti<g ref="char:EOLhyphen"/>ons
+run out upon any thing,
+when he shall need no mans
+service, when he shall envy no
+mans being preferr'd in ho<g ref="char:EOLhyphen"/>nour
+before him, what room
+will there be left for Anger?</p>
+            <p>It is now time that we
+speak of <hi>Concupiscence.</hi> Here
+also <hi>Chastity</hi> is two-fold,
+and the violation of it a
+double loss. I conceive that
+young Men should neither
+be dishonestly loved, nor dis<g ref="char:EOLhyphen"/>honestly
+love young Maids.
+Physitians say, That pre<g ref="char:EOLhyphen"/>sently
+after the fifteenth
+year, youths are vehement<g ref="char:EOLhyphen"/>ly
+inflamed with the Lust
+of Concupiscence. How
+shall we now fetter this
+<pb n="74" facs="tcp:55027:61"/>
+beast? what is there to be
+done? what Bridle shall we
+put on it? I know of no
+other, then the fear of He<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+it self. First therefore, let
+us be carefull that he neither
+see nor hear any thing which
+is filthy; nor by any means
+suffer an ingenuous Youth to
+frequent the <hi>Theater.</hi> But if he
+seek for these pleasures, if you
+know of any his contempo<g ref="char:EOLhyphen"/>raries
+which deny themselves
+that vanity, shew them to
+him, that by their example
+he may be reduced: For
+there is nothing in the world
+which does sooner redress it,
+then Emu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ation, no, not
+any. And in every thing
+else let us observe this rule<g ref="char:punc">▪</g>
+especially if you perceive
+him to be of an emulous
+disposition. It is a great
+<pb n="75" facs="tcp:55027:61"/>
+deal more effectual, then ei<g ref="char:EOLhyphen"/>ther
+fear, or promises, or
+whatsoever else.</p>
+            <p>To these let us devise some
+other innocent divertise<g ref="char:EOLhyphen"/>ments,
+bring him to Holy
+Men, grant him relaxation,
+and give him rewards, that
+thereby his mind may be the
+<gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> troubled at it; And in
+stead of these Spectacles,
+propose to him some plea<g ref="char:EOLhyphen"/>sant
+Story; Talk to him of
+Meadows, of sumptuous
+Buildings, and afterwards
+wheel off your Discourse
+with an Application. Tell
+him, These Spectacles, Son,
+are for base and servile per<g ref="char:EOLhyphen"/>sons,
+to behold naked Wo<g ref="char:EOLhyphen"/>men
+speaking immodestly.
+Promise me that thou wilt
+not hear nor say any thing
+<pb n="76" facs="tcp:55027:62"/>
+that is dishonest, and I per<g ref="char:EOLhyphen"/>mit
+thee to go: But it cannot
+be, it is impossible, that
+thou shouldest there hear no<g ref="char:EOLhyphen"/>thing
+which is vile. The
+things that are there acted,
+are unworthy thy Eyes (my
+Son.) And in saying this<g ref="char:punc">▪</g>
+let us kiss and embrace him,
+that he may perceive how
+dearly we love him.</p>
+            <p>With all these stratagems
+let us entice him. What
+then? As I said already, let
+a young Maid never ap<g ref="char:EOLhyphen"/>proach
+him, nor do any ser<g ref="char:EOLhyphen"/>vice
+about him, but some
+ancient Maid or Woman
+that is well stricken in years.
+Discourse to him concerning
+the Kingdome, and of such
+as have been illustrious for
+their Chastity; as well those
+<pb n="77" facs="tcp:55027:62"/>
+without <hi>the Pale,</hi> as amongst
+our selves; and with these
+let us perpetually fill his
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ars: Nay, if we have Ser<g ref="char:EOLhyphen"/>vants
+that excel in Chastity
+and Sobriety, propose them
+likewise for Examples, see<g ref="char:EOLhyphen"/>ing
+it would be a great re<g ref="char:EOLhyphen"/>proach,
+that a Servant should
+be modest, and that a free
+person, a Gentleman, should
+be sordid.</p>
+            <p>There is yet another Ex<g ref="char:EOLhyphen"/>pedi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>,
+and what is it? Let
+him learn to Fast, if not al<g ref="char:EOLhyphen"/>ways,
+yet twice a Week<g ref="char:punc">▪</g>
+               <hi>Wednesdays</hi> and <hi>Fridays</hi> at
+least: Cause him to fre<g ref="char:EOLhyphen"/>quent
+the Church. And
+when the Father walks with
+him abroad, towards the E<g ref="char:EOLhyphen"/>vening,
+at the time that the
+Shows are done, and the
+<pb n="78" facs="tcp:55027:63"/>
+               <hi>Theaters</hi> dissolved, let him
+shew him those that are com<g ref="char:EOLhyphen"/>ming
+away, and laugh at the
+old Fools, who as yet have
+not the discretion of Strip<g ref="char:EOLhyphen"/>lings,
+and at the young Men
+who are fired with filthy
+lusts. Then let him ask the
+Boy, What he thinks all
+they have gain'd? Truly
+nothing at all but shame, in<g ref="char:EOLhyphen"/>famy,
+and damnation. This
+will prove of no small im<g ref="char:EOLhyphen"/>portance
+to Chastity, that
+he abstain both from the
+Spectacles, and from the
+Discourse.</p>
+            <p>But besides all this, let him
+be taught another thing, and
+that is, That he pray to God
+with all diligence and com<g ref="char:EOLhyphen"/>punction.
+And say not to
+me, That these things are
+<pb n="79" facs="tcp:55027:63"/>
+not imployments for a Child,
+a Child is not capable of
+this: Yes, a Child, especi<g ref="char:EOLhyphen"/>ally,
+if of a quick understand<g ref="char:EOLhyphen"/>ing,
+and encouraged, is ve<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y
+capable of it. Amongst
+the Anci<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t, we find many
+such Examples; as <hi>Daniel,</hi>
+and <hi>Iaseph;</hi> and tell not
+me that <hi>Ioseph</hi> was seven<g ref="char:EOLhyphen"/>teen
+years old, but consider
+<gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that age for what he
+<gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, and
+that he was more <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of
+him then of all his <gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+was not <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> himself
+the Younger<g ref="char:punc">▪</g> 
+               <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, Da<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iel</hi>
+               <note place="margin">Dan. 13. 45.</note>
+but twelve years old, was
+not <hi>Solomon</hi> also of the same
+age when he made that won<g ref="char:EOLhyphen"/>derfull
+Prayer?<note place="margin">3 Reg. 3. 4.</note> Did not <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Reg 3. 1.</note>
+being but a very <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oy<g ref="char:punc">▪</g>
+teach his Master? Let us <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+then be disco<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>raged. If any
+<pb n="80" facs="tcp:55027:64"/>
+one indeed be <hi>a Child in Un<g ref="char:EOLhyphen"/>derstanding,</hi>
+he is not capable
+of this, not if he be a Child
+in Years.</p>
+            <p>Instruct him therefore to
+pray with much comp<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ti<g ref="char:EOLhyphen"/>on<g ref="char:punc">▪</g>
+and to watch likewise,
+as much as will stand to
+health, and by all means let
+there be imprinted on him,
+being a Child, the Character
+of an Holy Man<g ref="char:punc">▪</g> For he
+that is not addicted to swear<g ref="char:EOLhyphen"/>ing,
+nor being provoked to
+return injuries, to reproach
+no body, to <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ate none; but
+g<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ves his mind to Fasting,
+and is assiduous in his Pray<g ref="char:EOLhyphen"/>er,
+shall from these be <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uffi<g ref="char:EOLhyphen"/>ciently
+furnished to Chastity.
+And in case thou destine
+him to a secular life, provide
+a Wife betimes, nor defer it
+<pb n="81" facs="tcp:55027:64"/>
+till he be inrolled amongst
+the Souldiers, or that he hath
+attained to some office in
+the Commonwealth, before
+thou consider of it; but set<g ref="char:EOLhyphen"/>tle
+his thoughts first, and
+then proceed to secure his
+glory, which is but a world<g ref="char:EOLhyphen"/>ly
+business. Dost thou ima<g ref="char:EOLhyphen"/>gine
+it of so small a concern<g ref="char:EOLhyphen"/>ment
+to Marriage, That a
+Virgin be joyn'd to a Vir<g ref="char:EOLhyphen"/>gin?
+Truly, it doth not a
+little concern also the very
+Wi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es Chastity, not to speak
+of the Young-Mans also:
+Shall not this render <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>heir
+affection the more pure? and
+which is above all this, will
+not God himself be then
+more propitious, and fill that
+Marriage with a thousand
+Benedictions? when they
+thus meet together as he h<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s
+<pb n="82" facs="tcp:55027:65"/>
+commanded, and will make
+them cordially to love one
+a<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>other?</p>
+            <p>Whilest he is detained by
+this affection, he will laugh
+at all other Women; if when
+you commend the Virgin for
+her beauty and vertue, and
+all other endowments, you
+shall then adde, That she
+will never endure him, if
+once she but understand him
+to be an idle person: Here<g ref="char:EOLhyphen"/>upon
+as touch'd in his
+highest concernments, he
+wi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l put forth his utmost di<g ref="char:EOLhyphen"/>ligence.<note place="margin">
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en. 29. 28.</note>
+For if that Holy
+Man, being deceived of his
+Wife, so loved her, as ye<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+to serve seven years more for
+her, nay fourteene years;
+how much more should we?
+Tell him, That all that be<g ref="char:EOLhyphen"/>long
+<pb n="83" facs="tcp:55027:65"/>
+to the Virgin, the Fa<g ref="char:EOLhyphen"/>ther,
+the Mother, Servants,
+all the Neighbours and
+Friends, are strict obs<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rvers
+of his behaviour and actions,
+and all will relate it to his
+Virgin. With this obligati<g ref="char:EOLhyphen"/>on
+bind him, 'twill prove an
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffectual preservative to the
+Child. So that in case it
+should not be so convenient
+to give him a Wife very
+you<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>g, let him yet be espou<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d
+to one at least from th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+the first; this will make him
+strive to e<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cel in Goodness,
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his alone is sufficient to ba<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ish
+all Vice.</p>
+            <p>There is likewise another
+excellent guard to Chastity,
+That he perpet<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ally fre<g ref="char:EOLhyphen"/>quent
+the Bishop of the
+Church, an<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> from him re<g ref="char:EOLhyphen"/>ceive
+<pb n="84" facs="tcp:55027:66"/>
+many encouragements;
+and of this let his Father glo<g ref="char:EOLhyphen"/>ry
+to all that hear it: Let
+the Virgins seeing him, look
+on him with a reverend e<g ref="char:EOLhyphen"/>steem:
+Besides, the discour<g ref="char:EOLhyphen"/>ses,
+and the awe of his Fa<g ref="char:EOLhyphen"/>ther,
+the promises which are
+made, and with these the re<g ref="char:EOLhyphen"/>wards
+reposited for him of
+God, with all those benefits
+which the Chast shall be
+made partakers of, will ex<g ref="char:EOLhyphen"/>treamly
+hinder and repre<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s
+all lubricity in this kind.</p>
+            <p>To this you may add the
+the gallant atchievements in
+War, and in Pe<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ce, and to
+these things studiously di<g ref="char:EOLhyphen"/>rect
+your discourse, continual<g ref="char:EOLhyphen"/>ly
+declaiming against Vice,
+and Luxury, and bringing it
+into contempt. It will much
+<pb n="85" facs="tcp:55027:66"/>
+conduce to the repute of
+Chastity and all these parti<g ref="char:EOLhyphen"/>culars,
+wonderfully restrain
+the mind of the young Man,
+and produce in us most chast
+cogitations.</p>
+            <p>There is one more yet re<g ref="char:EOLhyphen"/>maining,
+let us therefore now
+proceed to that which is the
+chief of all, and which keeps
+all entire; and what is that?
+Namely, <hi>Prudence.</hi> Here
+must be infinite care used,
+that he be discreet, and that
+he abandon and banish all
+folly; and this is a special
+and grand point of Philoso<g ref="char:EOLhyphen"/>phy;
+that he comprehend
+those things which are Di<g ref="char:EOLhyphen"/>vine,
+and what there is laid
+up for the future: Of Hell,
+and the things which concern
+the Kingdome of Heaven,
+<pb n="86" facs="tcp:55027:67"/>
+               <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ince the beginning of Wisdome
+is the <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ear of the Lord.</hi>
+               <note place="margin">Eccl. 1. 16.</note>
+            </p>
+            <p>Let us therefore establish point of Prudence in him,
+That he be also intelligent in
+humane affairs: what Rich<g ref="char:EOLhyphen"/>es
+are, what Glory, what
+Power, to the end he m<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y
+learn how to contemn them,
+and set his affections upo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+things which are of highest
+concernment. Let us ofte<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+remember him of the good
+Instructions which have been
+given him; and say, Son, Fear
+God alone, &amp; besides him fea<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+none other. And thus he will
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>merge a prudent and a gra<g ref="char:EOLhyphen"/>cious
+person. There i<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> nothing
+in the world that renders a
+Man more a Fool, then t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ese
+Vices; the Fear of God is
+alone sufficient <gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="87" facs="tcp:55027:67"/>
+Wise, and to have such a
+Judgement in secular and
+humane affairs as is necessa<g ref="char:EOLhyphen"/>ry.
+This, this is the very
+sum and top of all Wis<g ref="char:EOLhyphen"/>dome,
+That he be not taken
+up with impertinent and
+childish vanities. Teach him
+therefore that Riches avai<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+nothing, worldly Glory no<g ref="char:EOLhyphen"/>thing,
+Power nothing; no<g ref="char:EOLhyphen"/>thing,
+Death; nothing, this
+present Life: Thus he shall
+indeed become a Wise Man.
+And if educated in this man<g ref="char:EOLhyphen"/>ner
+we conduct him to his
+Nuptials, consider how no<g ref="char:EOLhyphen"/>ble
+a portion thou bringest
+to his Bride.</p>
+            <p>But let us now celebrate
+the Marriage, not with Pipes,
+and Harps, and Dancing;
+with these kind of things to
+<pb n="88" facs="tcp:55027:68"/>
+disgrace the Bridegroom thus
+educated, it is highly incon<g ref="char:EOLhyphen"/>gruous:
+Let us rather invite
+Christ thither, such a Bride<g ref="char:EOLhyphen"/>groom
+is worthy of him; let
+us bid his Disciples: These
+things well become him. And
+now let him henceforth thus
+learn to instruct his own chil<g ref="char:EOLhyphen"/>dren,
+and so educate them;
+and they theirs; and thus it
+will become a Golden Chain
+indeed.</p>
+            <p>Let us also promote him
+to Offices in the Common<g ref="char:EOLhyphen"/>wealth,
+such as he hath abi<g ref="char:EOLhyphen"/>lities
+to undergo<g ref="char:punc">▪</g> and such as
+do not minister <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o Vice. Or
+whether it be any charge in
+the Army, let him learn to
+gain nothing sordidly: Or
+whether he patronize the
+Cause of those which are
+<pb n="89" facs="tcp:55027:68"/>
+wronged, or what ever else he
+undertakes. That his Mo<g ref="char:EOLhyphen"/>ther
+learn likewise to instruct
+and di<gap reason="illegible" resp="#TECH" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>pline her Daughter
+after the same manner, and to
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>vert their thoughts from su<g ref="char:EOLhyphen"/>perfluous
+Attires and Fashi<g ref="char:EOLhyphen"/>ons,
+from the World, and
+from whatsoever else are the
+proper marks of lewd Wo<g ref="char:EOLhyphen"/>men
+and Strumpets.</p>
+            <p>Let him manage all things
+by this Rule, and wean <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+well the Youth as the Maid
+from pleasure and <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>briety:
+For even this also will be of
+great effect towards Chastity;
+there being nothing which
+doth more molest and trou<g ref="char:EOLhyphen"/>ble
+young Men, then Concu<g ref="char:EOLhyphen"/>pis<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ence,
+nothing more young
+Women, then haughtiness
+and lux of Apparel.</p>
+            <p>
+               <pb n="90" facs="tcp:55027:69"/>Thus <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>herefore let us order
+and compo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e all these thi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gs<g ref="char:punc">▪</g>
+that so we may please Al<g ref="char:EOLhyphen"/>mighty
+God, w<gap reason="illegible" resp="#TECH" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>est we
+bring him up such Champi<g ref="char:EOLhyphen"/>ons,
+and that we <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd our
+Children may <gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+promises, which he hath
+made to them that lo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e him<g ref="char:punc">▪</g>
+and all this through <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+Grace and Benig<gap reason="illegible" resp="#TECH" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> of our
+Lord Jesus Christ, to whom
+with the Father and <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Ho<g ref="char:EOLhyphen"/>ly-Spirit
+be Gl<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y and Ho<g ref="char:EOLhyphen"/>nour
+now and ever, and <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+Eternal Ages. <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <pb facs="tcp:55027:69"/>
+            <head>NOT<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>S upon some Passages.</head>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>And thou dost nourish him a lock<g ref="char:punc">▪</g> of
+<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>air behind like a Girle, &amp;c. Go<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r in Rituali<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ive Euc<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>olo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>io Graecor<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m,</hi> recites an <hi>Office</hi> in <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,
+or the <hi>deton<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ion</hi> of a Child: but it was
+neither <hi>Mona<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hal</hi> nor <hi>Cl<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rical,</hi> but the common
+<hi>Cut;</hi> and it seems the custom was introduced to a<g ref="char:EOLhyphen"/>vert
+the Gentile superstition. <hi>Athan<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s<gap reason="illegible" resp="#TECH" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> qu<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>st.
+28. di<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tor. &amp; interpretat. Para<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>olarum Ev<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<g ref="char:punc">▪</g>
+               </hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. The Heathen
+<hi>(Greeks)</hi> were wont to shave the crowns of <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>heir
+Children, and to have their locks to hang down,
+which after a space of time they did consecrate <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <hi>(Divels) Idols.</hi> This heathenish superstition<g ref="char:punc">▪</g>
+which the <hi>Latine</hi> and <hi>Greek</hi> humane Authors at<g ref="char:EOLhyphen"/>test,
+<hi>S. Chrysostom</hi> here intends, and the later
+<hi>Greeks</hi> did transfer into <hi>Christianism,</hi> either by
+consecrating them, as <hi>First-fruits</hi> unto the true
+God, or as signifying their surrendring themselvs
+to the service of God: or rather, uncovering
+their head, as the <hi>Apostle</hi> enjoynes that sex: and
+there was to that end not only <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>;
+but also for the other sex,
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. This
+primary <hi>To<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re</hi> was with the <hi>God<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ather.</hi> And of
+old they consecrated their first shorn locks to <hi>A<g ref="char:EOLhyphen"/>pollo,</hi>
+(going often in person to <hi>D<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lphos</hi>) to <hi>Ae<g ref="char:EOLhyphen"/>scu'apiu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi>
+               <pb facs="tcp:55027:70"/>
+or their Country Rivers, as <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> te<g ref="char:EOLhyphen"/>stifies.
+<hi>Plut. in vit. Thes.</hi> And <hi>Martial, lib 1. ep.</hi> 32.
+<q>
+                  <l>H<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s tibi P<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oebe vovet t<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tos <gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> vertice crines</l>
+                  <l>Encolpus, domini centurionis amor,</l>
+                  <l>Grata<g ref="char:punc">▪</g> pudens meri ti <gap reason="illegible" resp="#TECH" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> praemia p<gap reason="illegible" resp="#TECH" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>i<g ref="char:punc">▪</g>
+                  </l>
+                  <l>Quam primum <hi>longas</hi> Phoebe recide <hi>comas,</hi>
+                  </l>
+                  <l>Dum <gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ull<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> teneri sordent lanugine vultus</l>
+                  <l>Dum<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> decent <hi>fusae</hi> lactea colla jubae,</l>
+                  <l>Ut<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tuis longum dominús<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> puér<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> fruatur</l>
+                  <l>Muneribus, tonsum fac citò, serò virum:</l>
+               </q>
+            </p>
+            <p>But their beastly <hi>Ca<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ami<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s</hi> with their monstrous
+heads of hair were in great esteem amongst the
+luxurious <hi>Romans;</hi> whence that of the Poet,
+<q>
+                  <l>—Si nemo tribun<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l</l>
+                  <l>Vendit Acersecomes—</l>
+                  <bibl>Juven. lib. 3. Sat. 8.</bibl>
+               </q>
+Which when they grew old they used to colour, as
+appears by that witty Epigram, <hi>In Lentinum<g ref="char:punc">▪</g>
+               </hi>
+               <q>
+                  <lg>
+                     <l>Men<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>iris <gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nvenem tinctis, <gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>entine, capi<gap reason="illegible" resp="#TECH" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>is:</l>
+                     <l>Tum subitò corvus, qui modò <gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>yg<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>us <gap reason="illegible" resp="#TECH" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>?</l>
+                  </lg>
+                  <lg>
+                     <l>Non omnes fallis, scit te Pros<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rpin<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> canum,</l>
+                     <l>Personam capiti detra<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>et illa tuo.</l>
+                  </lg>
+                  <bibl>Mart. l. 3. ep. 3<gap reason="illegible" resp="#TECH" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </bibl>
+               </q>
+Which I add in reproof of some old men in our
+days, who to the reproach of gravity, and that
+reverend blessing, being now descending to the
+Sepulcher, do yet <hi>mentir<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> juvenem,</hi> and would be
+thought boyes. But of these customes, let the
+<hi>Readers</hi> consult <hi>Papini<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, Festu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pompeiu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, I<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nius;</hi>
+and the most learned <hi>Salma<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</hi> I pass them over.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>A
+maid when in her moth<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rs Chamber she hath learne<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+to long after these various tires and ornaments of wo<g ref="char:EOLhyphen"/>men,
+being go<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e out of her fathers house, becomes im<g ref="char:EOLhyphen"/>pertinent
+to her husband, and very tr<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ublesom, &amp;c.</hi>
+This reproof is parallel to that of the Satyrist, but
+with lesse acerbity, more modesty and gravity.</p>
+            <q>
+               <pb facs="tcp:55027:70"/>
+               <l>—Expectas ut no<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> adultera Larg<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Filia; quae nun qu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m maternos dicere moech<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+               <l>Tam cito, nec tanto poterit contexere cursu,</l>
+               <l>Ut non ter decies respiret? Consci<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> matri</l>
+               <l>Virgo fuit<g ref="char:punc">▪</g> ceras <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> hac di<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tan<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e pu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>illa<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Implet, &amp; ad <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oechum d<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>isdem <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erre ci<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aedis.</l>
+               <l>Si<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> natura jubet; <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> &amp; citius <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>os</l>
+               <l>Corrumpunt vitior<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m exempla dom<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>stica magni<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Cùm subeant animos au<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>toribu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>—</l>
+               <bibl>Juv. Sat. 14.</bibl>
+            </q>
+            <p>So true is that of the Orator, <hi>Plus homines ex<g ref="char:EOLhyphen"/>emplo
+quam peccato noc<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nt.</hi> And especially Parents
+whose lewd examples children are many times too<g ref="char:punc">▪</g>
+prone to imitate.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>Tis reported th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t when pearls are
+first taken up, they are only little drops of water &amp;c.</hi>
+And it was only a report, taken up by S. <hi>Chryso<g ref="char:EOLhyphen"/>stom</hi>
+to metaphorize his discourse: But it is ap<g ref="char:EOLhyphen"/>parently
+true of Glasses, which from a fluid met<g ref="char:EOLhyphen"/>tal
+receive their figure from the will of the <hi>blo<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er</hi>
+of them, which is afterwards firm, and not to be
+new moulded. The <hi>French</hi> have an expr<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ssion,
+<hi>I<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a prin<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> son pli,</hi> A tender twig soon yeelds. Hence
+that of <hi>Persi<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi>
+               <q>
+                  <l>Udum, et molle lutum es<g ref="char:punc">▪</g> nunc, nunc proper andus et acri</l>
+                  <l>Fingendus sine fin<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> rotâ—</l>
+                  <bibl>Sat. 3.</bibl>
+               </q>
+            </p>
+            <p>Children are <hi>r<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sae Tabulae,</hi> or rather <hi>cer<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ae,</hi> apt
+for every inscription and impression</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,
+<hi>And upon whatsoever he saith or does
+to put a Seal. Crucis co<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ignatio,</hi> as <hi>Combefis;</hi> and
+the acception of this word in the <hi>Mixobarbarou<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+Greek,</hi> is in that sense, as in the <hi>Latine</hi> Ecclesia<g ref="char:EOLhyphen"/>stical
+Writers <hi>Signaculum,</hi> and <hi>signare.</hi> But to
+skrue it so high as 2. <hi>Cor.</hi> 1. 22. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,
+&amp;c. <hi>And hath sealed us, &amp;c.</hi> is far<g ref="char:EOLhyphen"/>ther
+<pb facs="tcp:55027:71"/>
+then will be evinced upon any probable
+grounds of reason. That in this place it may <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ig<g ref="char:EOLhyphen"/>nifie
+no <gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore then what was before expre<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ed, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, I am at an indifference,
+if not prop<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nsion to believe; comparing it with a
+sentence of very neer affinity in <hi>Nil<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</hi> a grea<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+admirer of S. <hi>Chrysostom,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.
+Thus men
+should consecrate all their undertakings.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>For 'tis to no purp<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>se <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+Laws, unl<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sse punishment be also infli<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ed,</hi> &amp;c. Con<g ref="char:EOLhyphen"/>formable
+to that of the Lyric<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <q>
+                  <lg>
+                     <l>Nullis pollui<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ur <gap reason="illegible" resp="#TECH" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>st<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#TECH" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> stupris;</l>
+                     <l>Mos, &amp; <gap reason="illegible" resp="#TECH" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> maculosum <gap reason="illegible" resp="#TECH" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap>
+                        <g ref="char:punc">▪</g>
+                     </l>
+                     <l>Laudantur <gap reason="illegible" resp="#TECH" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>mili prole Pue<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>perae.</l>
+                     <l>Culp<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>m <gap reason="illegible" resp="#TECH" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> premit com<gap reason="illegible" resp="#TECH" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s.</l>
+                  </lg>
+                  <bibl>Hor. lib. 4. Od. 5.</bibl>
+               </q>
+            </p>
+            <p>Such was the <hi>Lex Iulia de Adulteriis</hi> severely
+inflicted upon the offenders; for
+<q>
+                  <l>Si non supplici<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> culp<gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> reciditur?</l>
+                  <l>Quid leges <gap reason="illegible" resp="#TECH" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ine moribus</l>
+                  <l>Vanae proficinnt?—</l>
+                  <bibl>Hor. l. 3, od. 24.</bibl>
+               </q>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Such are called <hi>Mestiso's.</hi> The Is<g ref="char:EOLhyphen"/>raelites
+were to be a pure and separate people.
+<hi>Exod.</hi> 12. 38. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>And a mixed mu<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>titude <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ent up,</hi> &amp;c.
+Numb. 11. 4. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>And a mixt multi<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<gap reason="illegible" resp="#TECH" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+that <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>as among them lusted a lust.</hi> Such a one was
+the Blas<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hemer, <hi>Levit.</hi> 24. 10. He was <hi>Hybrida,</hi>
+of an <hi>Egyptian</hi> Father and <hi>Israelitish<g ref="char:punc">▪</g>
+               </hi> mother <hi>Ne<g ref="char:EOLhyphen"/>hem.</hi>
+13. 3. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. It was upon hearing the Law that <hi>they were
+separated from Israel all the mix<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d multitude<g ref="char:punc">▪</g>
+               </hi>
+            </p>
+            <p>
+               <pb facs="tcp:55027:71"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>thers. It seems to be an employment about you<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <hi>Nobility;</hi> S. <hi>Chrysoost<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m</hi> th<gap reason="illegible" resp="#TECH" extent="2 letters">
+                  <desc>••</desc>
+               </gap> chief <hi>Bish<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p</hi> of <hi>
+                  <gap reason="illegible" resp="#TECH" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi>
+seem<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to direct the Education of the
+children of <gap reason="illegible" resp="#TECH" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and <hi>Gentry</hi> of great quality,
+he mentions a garb of attendants: Their <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.
+This office he sets down as the first Impression <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. I suppose a <hi>Nurse</hi> and
+<hi>F<gap reason="illegible" resp="#TECH" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>erfather</hi> taken into the house.</p>
+            <p>
+               <gap reason="illegible" resp="#TECH" extent="1 paragraph">
+                  <desc>〈1 paragraph〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Ou<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>run<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing
+in his understanding the words of the Mini<g ref="char:EOLhyphen"/>ster,
+&amp;c.</hi> Not <hi>occupantem, Legent<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m,</hi> as <hi>Comb<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is.</hi>
+The Author speaks of a child (if I understand
+aright) that hath been instructed by <hi>Narra<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ions</hi>
+from his <hi>father</hi> and <hi>mother,</hi> not yet arrived to those
+years that he hath learned to read; for it is a
+question, whether the <hi>Greeks,</hi> were so very for<g ref="char:EOLhyphen"/>ward
+in putting their children to read and write as
+we now are. Besides, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> does not sig<g ref="char:EOLhyphen"/>nifie
+to read, though <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> do: but <hi>ag<g ref="char:EOLhyphen"/>nosco,</hi>
+To own or declare that I knew such a person
+formerly. <hi>Record<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r,</hi> to call to mind: Here it is
+either by gesture in the <hi>Church,</hi> importing that he
+knew the History be<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore, or afterwards to recount
+to his Parents when he comes from Church.</p>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) Called also <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,
+called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Th<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> I
+suppose bound up the <hi>Tabella,</hi> and fast<gap reason="illegible" resp="#TECH" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ned the
+<hi>Style</hi> too; for which use was sometimes (as ap<g ref="char:EOLhyphen"/>pears
+<pb facs="tcp:55027:72"/>
+               <gap reason="illegible" resp="#TECH" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <hi>celebrate the m<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rriage, not with Pipes, and Harps,
+and dancing,</hi> &amp;c. Pertinent to which passage is that
+incomparable Homily of this <hi>Father, Tom. 5. li<gap reason="illegible" resp="#TECH" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.
+25. p. 331. Edit. Savil.</hi> too long to recite, but
+most worthy the reading; and such a Wedding
+was that of <hi>Cana</hi> in <hi>Galilee,</hi> at which our B. Sa<g ref="char:EOLhyphen"/>vior
+was present, <hi>Ioh.</hi> 2.</p>
+            <p>To conclude, there is
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Chrys. Savil. Tom. 7. pag.</hi> 823. but it
+does not contain any part of this work; yet points
+it to other places of this <hi>Father,</hi> where upon the
+same subject are used <hi>Phrases</hi> harmonious to some
+of these.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:55027:72"/>
+         </div>
+      </back>
+   </text>
+</TEI>

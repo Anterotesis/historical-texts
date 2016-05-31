@@ -1,0 +1,626 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached to the honourable Society of Lincolns-Inne by R. Cudsworth ...</title>
+            <author>Cudworth, Ralph, 1617-1688.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1664</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 89 KB of XML-encoded text transcribed from 35 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-10">2005-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A35344</idno>
+            <idno type="STC">Wing C7470</idno>
+            <idno type="STC">ESTC R38833</idno>
+            <idno type="EEBO-CITATION">18176808</idno>
+            <idno type="OCLC">ocm 18176808</idno>
+            <idno type="VID">106892</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A35344)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 106892)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1123:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached to the honourable Society of Lincolns-Inne by R. Cudsworth ...</title>
+                  <author>Cudworth, Ralph, 1617-1688.</author>
+               </titleStmt>
+               <extent>[3], 67 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J. Flesher for R. Royston ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCLXIV [1664]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprimatur: Tho. Cooke ... Octob. 3. 1664.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Corinthians, 1st, XV, 57 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-03</date>
+            <label>Rachel Losh</label>Sampled and proofread</change>
+         <change>
+            <date>2005-03</date>
+            <label>Rachel Losh</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:106892:1"/>
+            <p>Imprimatur.</p>
+            <closer>
+               <dateline>Ex aedibus <hi>Lambeth.</hi> 
+                  <date>Octob. 3. 1664.</date>
+               </dateline>
+               <signed>
+                  <hi>Tho. Cooke,</hi> R<hi rend="sup">ssimi</hi> in Christo Patris ac D<hi rend="sup">ni</hi>, D. <hi>Gilb. Cant.</hi> Archiep. Sacel. Dom.</signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <p>
+               <pb facs="tcp:106892:1"/>
+A SERMON Preached to the HONOURABLE SOCIETY OF <hi>LINCOLNES-</hi>INNE,</p>
+            <p>BY R. CuDWORTH, D. D. Master of CHRIST'S College in CAMBRIDGE.</p>
+            <p>S. <hi>Gregory Nyssen.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. Flesher</hi> for <hi>R. Royston,</hi> Bookseller to His most Sacred MAJESTY. M DC LXIV.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:106892:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:106892:2"/>
+            <epigraph>
+               <bibl>1 Corinth. 15. 57.</bibl>
+               <q>
+                  <hi>But thanks be to God which giveth us the Victory through our Lord Jesus Christ.</hi>
+               </q>
+            </epigraph>
+            <p>
+               <hi>
+                  <seg rend="decorInit">C</seg>HRIST's Resurrection,</hi> which the Apostle treateth of in the former part of this Chapter, is one of the main and prin<g ref="char:EOLhyphen"/>cipal Articles of our Christi<g ref="char:EOLhyphen"/>an Faith: for though Christ by his <hi>Death</hi> upon the Cross made a Propiti<g ref="char:EOLhyphen"/>atory Sacrifice for the World, yet it was his <hi>Resurrection</hi> onely which did manifest his <hi>Death</hi> to be effectual and available for that end, and did evidence its acceptation with God. For if the <hi>Grave</hi> had detain'd Christ, and held him Prisoner, this would have been an argument that the Debt, for which he was committed to that dark Dun<g ref="char:EOLhyphen"/>geon, was not yet pay'd, nor Satisfaction
+
+
+<pb n="2" facs="tcp:106892:3"/>
+made; for <hi>if Christ be not raised,</hi> (saith the A<g ref="char:EOLhyphen"/>postle) <note place="margin">Verse 17.</note> 
+               <hi>your Faith is vain, you are yet in your sins.</hi> But now <hi>Death</hi> and the <hi>Grave</hi> having delive<g ref="char:EOLhyphen"/>red up Christ out of their custody, his <hi>Resur<g ref="char:EOLhyphen"/>rection</hi> is an undoubted argument that they had no more to lay to his charge, as he was a Surety and Undertaker for mankinde, but that the Debt which was owing to the Law and Divine Justice was in the Court of Heaven ful<g ref="char:EOLhyphen"/>ly acquitted and discharged. For <hi>Christ was de<g ref="char:EOLhyphen"/>livered</hi> 
+               <note place="margin">Rom. 4.</note> 
+               <hi>for our Sins, and rose again for our Justifi<g ref="char:EOLhyphen"/>cation.</hi>
+            </p>
+            <p>And though Christ's other <hi>Miracles</hi> ought to have conciliated Belief to his <hi>Doctrine</hi> from the Jews; yet his <hi>Resurrection from the dead</hi> (foretold by himself and really accomplished) added to all the rest, <hi>was a most undoubted and unquestionable Confirmation of his Prophetical Ministery.</hi> For if it were supposed, (as the Jews of old and the <hi>Talmudists</hi> of latter times mali<g ref="char:EOLhyphen"/>ciously calumniated our Saviour Christ) that a mere <hi>Wizzard</hi> or <hi>Magician</hi> should have ap<g ref="char:EOLhyphen"/>peared, and not onely have done many Mira<g ref="char:EOLhyphen"/>cles by <hi>Beelzebub</hi> and the Powers of Darkness, but also have foretold that after he had been put to death he should <hi>rise again,</hi> and have gi<g ref="char:EOLhyphen"/>ven this as a farther sign to confirm his Pro<g ref="char:EOLhyphen"/>phecy, as our Saviour did, <hi>Matth.</hi> 12. 39. it
+
+
+<pb n="3" facs="tcp:106892:3"/>
+could never be conceiv'd that Divine Provi<g ref="char:EOLhyphen"/>dence should suffer such an Impostour mira<g ref="char:EOLhyphen"/>culously to rise again, in so remarkable a man<g ref="char:EOLhyphen"/>ner, and so often to appear before the eyes of so many Spectators, and at last visibly to ascend up to Heaven. Because this would have been <hi>Tentatio invincibilis</hi> to mankind, it being not imaginable what greater assurance Heaven itself could give to <hi>confirm</hi> and <hi>seal</hi> a <hi>Prophet,</hi> and to persuade the World that what he did was by the Finger of God, and not by <hi>Magical imposture,</hi> then this is. And therefore it is observable, that though a good while after our Saviour's time, when the Jews had now forfeited that peculiar Providence that watched over them, a certain counterfeit <hi>Messias,</hi> one <hi>David El-Roy,</hi> was permitted to doe several strange and miraculous things by <hi>Magick</hi> and <hi>Witchcraft,</hi> if the Jewish Relations be true; yet when he gave this for a Sign to the <hi>Persian</hi> King to prove himself the <hi>Messias,</hi> that after he was beheaded by him he should <hi>rise again;</hi> he plainly discovered his Imposture, to the great disappointment of the deluded Jews, who (as <hi>Maimonides</hi> writes) in vain ex<g ref="char:EOLhyphen"/>pected <note place="margin">In <hi>Iggereth Teman.</hi>
+               </note> his <hi>Resurrection</hi> a good while after.</p>
+            <p>Moreover, <hi>If Christ had not risen again after death, the world would not have had sufficient ground</hi>
+
+
+               <pb n="4" facs="tcp:106892:4"/>
+               <hi>to trust and believe in him as a Saviour.</hi> S. <hi>Austin</hi> reckon'd it as great a <hi>Miracle</hi> as any that Christ ever did upon earth, that the World should be brought off to believe in a crucified Saviour. For to worship <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> as the Jews by way of Disgrace call our Saviour, or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in <hi>Lucian</hi>'s language, <hi>one that was hanged,</hi> for a God, and to believe in him, could not but seem a monstrous and prodigious thing both to Jews and Gentiles; and cer<g ref="char:EOLhyphen"/>tainly it would never have been brought to pass, had there not been unquestionable as<g ref="char:EOLhyphen"/>surance given of Christ's <hi>Resurrection from the dead.</hi> For who would be so sottish as to be<g ref="char:EOLhyphen"/>lieve in a <hi>dead Saviour,</hi> and to expect help and assistance from him that had not been able to help himself, and therefore had given no proof that he was able to help others; nay from him that to all humane appearance had now no being at all? Upon which account the Psalmist upbraids the sottish Heathen, That <hi>they ate the Sacrifices of the dead.</hi> Wherefore it is <note place="margin">Psal. 106.</note> observable in the Gospel, that when Christ was now dead &amp; buried in his Sepulchre, the Hope and Expectation of his Disciples, who had formerly believed in him, lay as it were in<g ref="char:EOLhyphen"/>tombed in the same Sepulchre with him. And then the two Disciples that went to <hi>Emmaus</hi>
+
+
+               <pb n="5" facs="tcp:106892:4"/>
+could onely say, <hi>We trusted this had been he</hi> 
+               <note place="margin">Luke 24.</note> 
+               <hi>which should have redeemed Israel.</hi> But after<g ref="char:EOLhyphen"/>wards, when they were able upon good grounds to affirm that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>The Lord was risen indeed,</hi> then their Faith revived a-new, and mounted up higher then ever, and grew triumphant in them.</p>
+            <p>Again, there was another excellent Design in <hi>Christ's Resurrection from the dead,</hi> which the Apostle pursues largely also in this Chapter; viz. <hi>To give the world assurance of a Life after death, and a blessed Immortality to be enjoyed by all true Believers and Followers of Christ.</hi> Christ by his Resurrection hath <hi>abolished death, and brought life and immortality to light,</hi> as the Apostle speaks 2 <hi>Tim.</hi> 1. 10. or, as the Church sings in that di<g ref="char:EOLhyphen"/>vine Anthem, <hi>After he had overcome the sharpness of Death, he opened the kingdome of Heaven to all Believers.</hi> The reasons of Philosophy that prove the <hi>Soul's Immortality,</hi> though firm and Demonstrative in themselves, yet they are so thin and subtile to vulgar apprehensions, that they glide away through them, and leave no such palpable impressions on them, as can be able sufficiently to bear up against that heavy weight of gross infidelity that continually sinks down the minds of men to a distrust of such high things as be above the reach of
+
+
+<pb n="6" facs="tcp:106892:5"/>
+Sense. Neither are these considerations any longer of force then men can actually attend to the strength and coherence of the Demon<g ref="char:EOLhyphen"/>stration; and when that actual attention (which is operose and difficult) is taken off, then the Truth itself like a Spectre or Appa<g ref="char:EOLhyphen"/>rition suddenly vanishes away, and men que<g ref="char:EOLhyphen"/>stion with themselves afterwards whether there were any such thing or no. Such thin and evanid things are Philosophical Specula<g ref="char:EOLhyphen"/>tions about the high Mysteries of Faith and Religion. But Christ his raising of the self<g ref="char:EOLhyphen"/>same Body which was laid in the Sepulchre, and afterwards appearing in it often to his Disciples, gave such evident assurance of the <hi>Soul's Immortality</hi> and <hi>Life after death,</hi> as must needs strike more strongly upon Vulgar minds, and make more palpable impressions on them, and be alwaies of more present and ready use then any Philosophical Reasons and Demonstrations.</p>
+            <p>And the Scripture is herein very harmoni<g ref="char:EOLhyphen"/>ous and agreeable to itself both in the Old and New Testament: for as in the one it makes the original of Death's entrance into the world to be the Sin and Disobedience of the <hi>First Adam,</hi> who was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>of the earth, earthy;</hi> so in the other it attributes
+
+
+<pb n="7" facs="tcp:106892:5"/>
+the recovery of Life and Immortality to the meritorious Obedience of the <hi>Second Adam,</hi> that was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the Lord from heaven, heavenly,</hi> who by his Death vanquished &amp; destroyed Death. For as <hi>Sampson,</hi> (who was a Type of our Saviour) when he was besieged by the <hi>Philistines</hi> in the City <hi>Gaza, (Judges</hi> 16.) rose up at midnight, and pulled up the Gates of the City and the Posts, and laying them upon his shoulders carried them up to the top of the Hill; in like manner Christ our Lord, when he was environ'd and encompass'd by Death, after he had been awhile detain'd un<g ref="char:EOLhyphen"/>der the custody thereof, he ascended victori<g ref="char:EOLhyphen"/>ously out of the Power of the Grave, and car<g ref="char:EOLhyphen"/>ried the Gates of Hell and Death upon his Shoulders along with him triumphantly into Heaven; he slighted and dismantled that mighty Garrison whose Walls were stronger then Brass and Gates harder then Adamant, that it should no longer be a Prison with doors and barrs to shut up those that believe in him, but an open and free passage and a broad High-way to Life and Immortality. He <hi>is the Resurrection and the Life,</hi> (John 11. 25.) and <hi>he that believeth in him, though he were dead, yet shall he live.</hi> For <hi>he that liveth and was dead and is alive for evermore, even he hath the Keys</hi>
+
+
+               <pb n="8" facs="tcp:106892:6"/>
+               <hi>of Hell and of Death.</hi> Revelat. 1. 18.</p>
+            <p>But that which I chiefly aim at at this time, concerning <hi>Jesus</hi> his <hi>Resurrection</hi> and <hi>Ascension into Heaven,</hi> is this, <hi>That by and after it he was made Lord and Christ, King and Saviour, and Sovereign of his Church.</hi> Not but that Christ's <hi>Humanity</hi> was alwaies hypostatically united to the Divinity, but because the <hi>Oecono<g ref="char:EOLhyphen"/>mical</hi> Kingdome of Christ as Mediatour, ac<g ref="char:EOLhyphen"/>cording to the Scripture-calculation, seems not to commence till after his state of Humiliation was over, and so begins its <hi>Epocha</hi> from Christ's <hi>Resurrection,</hi> or his <hi>Exaltation to sit at God's right hand in heaven.</hi> Acts 2. 36. <hi>Let all the house of Israel know assuredly, that God hath made that same. Jesus whom ye have crucified, both Lord and Christ.</hi> Acts 5. 31. <hi>Jesus whom ye slew and hanged on a Tree, him hath God exalted on his right hand to be a Prince and a Saviour,</hi> &amp;c. Philip. 2. 9. <hi>Who hum<g ref="char:EOLhyphen"/>bled himself and became obedient to the death of the Cross; Wherefore hath God highly exalted him, and given him a Name above every name, that at the name of Jesus every knee should bow,</hi> &amp;c. <hi>and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.</hi> And that Article of our Creed concerning <hi>Christ's sitting at God's right hand in Heaven</hi> signifies thus much unto us, That Christ after his Resurrection and
+
+
+<pb n="9" facs="tcp:106892:6"/>
+Ascension into Heaven hath all Power given him both in Heaven and in Earth, all things being made subject to him, <hi>excepting him onely</hi> 
+               <note place="margin">1 Cor. 15. 27.</note> 
+               <hi>that hath put all things under him.</hi> He being, for the Comfort of his Church and Members here upon Earth, according to his Humanity made God's Vicegerent, and seated in his Fa<g ref="char:EOLhyphen"/>ther's Throne, and having a <hi>Mediatorious</hi> King<g ref="char:EOLhyphen"/>dome bestowed upon him that shall continue <hi>till he hath put down all Authority and Power, and</hi> 
+               <note place="margin">Verse 24.</note> 
+               <hi>hath subdued all his Enemies under his feet,</hi> and then hath delivered up this <hi>Oeconomical</hi> King<g ref="char:EOLhyphen"/>dome to God the Father, <hi>that God may be all</hi> 
+               <note place="margin">Verse 28.</note> 
+               <hi>in all.</hi>
+            </p>
+            <p>And this is an unspeakable Consolation that Christian Religion affords to us, and a most gracious Condescension of the All-wise God; That forasmuch as we that dwell in these houses of Clay are so far removed from the pure and abstracted Deity, and so infinitely disproportioned unto it, that there should be such a contrivance as this set on foot, That we should have one of our own Flesh and Bloud, that was in all things tempted like un<g ref="char:EOLhyphen"/>to us, and had experience of all our difficul<g ref="char:EOLhyphen"/>ties and calamities, who demonstrated his in<g ref="char:EOLhyphen"/>finite love to us in laying down his Life for us, and therefore we cannot doubt but hath a
+
+
+<pb n="10" facs="tcp:106892:7"/>
+most tender Sympathy and fellow-feeling with us in all our infirmities; I say, that we should have such a one exalted to God's right hand, and invested with all Authority and Power both in Heaven and in Earth, that he might administer all things for the good of his Church and Members, and supply them in all their wants and necessities. Which consi<g ref="char:EOLhyphen"/>deration must needs be farre more comfor<g ref="char:EOLhyphen"/>table, chearing and reviving to every true Christian, then it was to the Sons of <hi>Jacob,</hi> when they went down to <hi>Egypt</hi> to buy Corn and provision for their necessities, to think that <hi>Joseph</hi> their Brother was made Ruler over all the Land.</p>
+            <p>And yet notwithstanding this is wholly eluded and evacuated by those high-flown <hi>Spi<g ref="char:EOLhyphen"/>ritualists</hi> of these latter times, that slight and reject the Letter of the New Testament as a mean and carnal thing, and will acknowledge no other <hi>Death</hi> and <hi>Resurrection</hi> of Christ, no other <hi>Ascension</hi> and <hi>Sitting at God's right hand,</hi> nay no other <hi>Day of Judgement</hi> nor <hi>Resurrection of the Body,</hi> but what is <hi>Mystical</hi> and <hi>Allegorical:</hi> Whereby they do not onely impudently slurre the Gospel according to the History and the Letter, in making it no better then a <hi>Roman<g ref="char:EOLhyphen"/>tical</hi> Legend or a mere <hi>Aesopick</hi> Fable that con<g ref="char:EOLhyphen"/>tains
+
+
+<pb n="11" facs="tcp:106892:7"/>
+a good <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> or <hi>Moral</hi> under it; but also plainly defeat the Counsel of God against themselves and mankinde, by antiquating <hi>Christianity,</hi> and bringing in instead thereof <hi>old Paganism</hi> again disguised under a few canting Phrases of Scripture-language. For though <hi>Moses</hi> had a Veil over his face, though there were many obscure Umbrages and <hi>Allegories</hi> in the <hi>Law,</hi> (the Children of <hi>Israel</hi> being then not able to bear the brightness of that <hi>Evangelical Truth</hi> that shined under them) yet now under the Gospel <hi>we do all with open face behold as in a Glass the glory of the Lord</hi> nakedly represented to <note place="margin">2 Cor. 3.</note> us, being <hi>changed into the same image from glory to glory.</hi>
+            </p>
+            <p>But to let pass these, and still to improve our former Meditation further; Let us in the next place consider, that Christ, who received all this Power after his Resurrection and Ascension, did not receive it in vain and to no purpose, either taking no notice of our hu<g ref="char:EOLhyphen"/>mane transactions here below, as having re<g ref="char:EOLhyphen"/>moved his Pavilion too farre into those Regi<g ref="char:EOLhyphen"/>ons of Light and Glory from us; or else re<g ref="char:EOLhyphen"/>maining notwithstanding an idle Spectator, and no way concerning or interesting himself in the Issues of our humane affairs. Which will be so much the more improbable, if we
+
+
+<pb n="12" facs="tcp:106892:8"/>
+consider what the Scripture and experience tell us, that the Devil and Apostate spirits are per<g ref="char:EOLhyphen"/>petually active and busie in promoting the Concernments of the Kingdome of Darkness. And therefore doubtless He whom God hath made the Shepherd and Bishop of our Souls can never be so regardless of his Office, nor so careless of his Flock and tender Lambs com<g ref="char:EOLhyphen"/>mitted to his charge, as to suffer those cruel Wolves to prey upon them at pleasure; and to have no pity at all for them, nor to extend his watchful Providence over them whom once he vouchsafed to redeem with his own precious bloud. No certainly, he that waded through so many difficulties and agonies for us, in the daies of his Flesh, he that <hi>bore our griefs and carried our sorrows,</hi> he that was <hi>woun<g ref="char:EOLhyphen"/>ded for our transgressions and bruised for our iniqui<g ref="char:EOLhyphen"/>ties,</hi> that sweat drops of bloud in the Garden and was nailed to the Cross for us in <hi>Golgotha,</hi> He cannot so easily forget those whom he hath so dearly bought, nor suffer all that power which God hath invested him with for the good of his Church to lie by him idle and unimployed.</p>
+            <p>But to the end that there might not be the least ground of Suspicion or Distrust left in the minds of men concerning this particular,
+
+
+<pb n="13" facs="tcp:106892:8"/>
+Christ after his Ascension into Heaven thought good to give us a sensible demonstration both of his Kingly Power and of his watchful Care and Providence over his Church, that he would not leave them orphans and destitute of all assistence, by <hi>sending down his Holy Spirit on the Day of Pentecost in a visible and miraculous manner upon his Disciples.</hi> Acts 2. 32. <hi>This Jesus hath God raised up, of which we are all Witnesses: Therefore being by the right hand of God exalted, and having received of the Father the Promise of the Holy Ghost, he hath shed forth this which ye now see and hear.</hi> And verily if there had been no news heard of our Lord and Saviour Christ, after he ascended above the Clouds out of his Di<g ref="char:EOLhyphen"/>sciples sight, no real and visible Demonstra<g ref="char:EOLhyphen"/>tion of his Existence, Power, and Providence over his Church; the distrustful hearts of men would have been too prone to suspect that the pretence of an invisible Kingdome at God's right hand above had been no better then a mere Dream, an aiery and phantastick Notion; and they would have been too ready to have called in question the truth of all his other Mi<g ref="char:EOLhyphen"/>racles, his Resurrection and Ascension, witnes<g ref="char:EOLhyphen"/>sed onely by his own Disciples, and to have surmised those several Apparitions of his that we reade of after his Death had been nothing
+
+
+<pb n="14" facs="tcp:106892:9"/>
+else but Spectres or Phantasms, like the vul<g ref="char:EOLhyphen"/>garly-believed Apparitions of the Ghosts of men in Aiery bodies. But the sensible and miraculous <hi>Pouring out of the Holy Ghost</hi> upon his Disciples, after his Ascension into Heaven, was a palpable Confirmation of all Christ's other <hi>Miracles,</hi> of the Validity of his <hi>Meritorious Death</hi> and <hi>Passion,</hi> of the Truth of his <hi>Resurre<g ref="char:EOLhyphen"/>ction</hi> and <hi>Ascension;</hi> and gives most comfortable assurance to all Believers to the World's end, that though his Bodily presence be withdrawn from them, yet he hath not left his Church ut<g ref="char:EOLhyphen"/>terly forlorn and destitute of all assistence, but that <hi>his Spirit,</hi> the Holy Comforter, conti<g ref="char:EOLhyphen"/>nueth to be present amongst them as his Vice<g ref="char:EOLhyphen"/>gerent, and to assist them for all the holy pur<g ref="char:EOLhyphen"/>poses of the Gospel, to the World's end.</p>
+            <p>Now the principal Effects of Christ's holy Spirit, which are to be hoped for and expe<g ref="char:EOLhyphen"/>cted by every true Believer and private Chri<g ref="char:EOLhyphen"/>stian, are comprised by the Apostle under <hi>Three Heads</hi> here in the Text, as consisting in a <hi>Three<g ref="char:EOLhyphen"/>fold Victory</hi> over a <hi>Threefold Enemy. The sting of Death is Sin, and the strength of Sin is the Law: But thanks be to God which giveth us the Victory through our Lord Jesus Christ.</hi>
+            </p>
+            <p n="1">1. <hi>A Victory over Sin,</hi> as that which is the Cause of <hi>Death.</hi>
+            </p>
+            <p n="2">
+               <pb n="15" facs="tcp:106892:9"/>
+2. <hi>A Victory over the Law,</hi> as that which ag<g ref="char:EOLhyphen"/>gravates the Guilt, and exasperates the Power of <hi>Sin.</hi>
+            </p>
+            <p n="3">3. Lastly, <hi>A Victory over Death,</hi> the Fruit and Consequent of <hi>Sin.</hi>
+            </p>
+            <div type="effect">
+               <p>FIRST therefore, <hi>There is a Victory over Sin to be obtained in and through Christ.</hi>
+               </p>
+               <p>Some there are that will acknowledge no other <hi>Victory over Sin,</hi> but an <hi>External</hi> one, that whereby it was conquered for us by Christ upon the Cross sixteen hundred years since; where he <hi>spoiled Principalities and Powers, and made a shew of them openly, triumphing over them in it,</hi> Col. 2. 15. and where he <hi>redeemed us from the Curse of the Law, being made a Curse for us,</hi> Gal. 3. 13. And doubtless this was one great end of Christ's coming into the world, to make a Propitiatory Sacrifice for the Sins of mankind: Not onely that he might thereby put a period to those continually-repeated and ineffectual Sacrifices of brute Beasts, and the Offering of the bloud of Bulls and Goats, that could not take away Sin, nor propitiate the Divine Majesty; but also that he might at once give a sensible Demonstration both
+
+
+<pb n="16" facs="tcp:106892:10"/>
+of God's high Displeasure against Sin, and of his Placableness and Reconcilableness to Sin<g ref="char:EOLhyphen"/>ners returning to Obedience; and therefore, to that end that the Despair of Pardon might not hinder any from Repentance and Amendment of Life, promulgate free Pardon and Remis<g ref="char:EOLhyphen"/>sion of Sins through his Bloud to all that should repent and believe the Gospel.</p>
+               <p>But it is a very unsound and unwholsome Interpretation of this Salutary Undertaking of Christ's in the Gospel, as if the ultimate End and Design of it were to procure <hi>Remission of Sin</hi> and <hi>Exemption from Punishment</hi> onely, to some particular persons still continuing under the Power of Sin, and to save them at last in their Sins also, that is, with a mere outward and carnal Salvation; it being a thing utterly impossible, that those <hi>Undefiled Rewards</hi> of the Heavenly Kingdome should be received and enjoyed by men in their Unregenerate and un<g ref="char:EOLhyphen"/>renewed Nature.</p>
+               <p>For what is this else but to make Christ the grand Patron of the Kingdome of Dark<g ref="char:EOLhyphen"/>ness, and to suppose God to be such a Being as may be bribed and corrupted by Sacrifice and Intercession, to a partial Connivence and fond Indulgence of men in their Sins to all
+
+
+<pb n="17" facs="tcp:106892:10"/>
+Eternity? Or else to insinuate that there is no other <hi>Evil</hi> at all in Sin, but onely in respect of that <hi>outward Punishment</hi> consequent upon it? which is to destroy the Nature and Reality of Sin, and to make it nothing but a mere Name or Phancy; as if <hi>Good</hi> and <hi>Evil, Just</hi> and <hi>Unjust</hi> (as some Philosophers dreamed) were not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, but <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> onely, had no Reality in Nature, but depended onely upon Arbitrary Laws enforced by Outward Punish<g ref="char:EOLhyphen"/>ments, or mere Opinion, and so were onely <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (as <hi>Democritus</hi> expressed it) mere Facti<g ref="char:EOLhyphen"/>tious things, or else <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Fictitious and Imaginary. Either of which opinions if they were true, then indeed <hi>Remission of Sin</hi> and <hi>Exemption from Punishment</hi> would quite take away all the Evil of Sin.</p>
+               <p>But if Sin be not a mere Name or Phancy, but that which hath a Real and Intrinsecal Evil in it, greater then that of <hi>Outward Pu<g ref="char:EOLhyphen"/>nishment;</hi> then certainly it cannot be so tran<g ref="char:EOLhyphen"/>scendent a Happiness, as some men carnally conceit, to have an Impunity in Sinning to all Eternity, that th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Accomplishment there<g ref="char:EOLhyphen"/>of should be thought the onely fit Undertaking for the Son of God to engage in, and that which would deservedly entitle him the Sa<g ref="char:EOLhyphen"/>viour
+
+
+<pb n="18" facs="tcp:106892:11"/>
+of Mankinde. For that of <hi>Socrates</hi> in <hi>Plato</hi> must then needs be true, Tò <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>That</hi> (in those which are not incorri<g ref="char:EOLhyphen"/>gible and incurable) <hi>it is the greatest Evil that can possibly befall them, to continue in Wickedness un<g ref="char:EOLhyphen"/>punished; and the greatest Kindness that they can receive, by the lesser Evil of Punishment and Casti<g ref="char:EOLhyphen"/>gation to be cured of the greater Evil of Sin:</hi> For (as the same Philosopher speaks) <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>Chastisement and Correction is the na<g ref="char:EOLhyphen"/>tural Remedy and Cure of Wickedness;</hi> which our Saviour confirms when he saith, <hi>As many as I love I rebuke and chasten:</hi> and sure the Remedy <note place="margin">Revel. 3. 19.</note> is not worse then the Disease.</p>
+               <p>Wherefore it was so farre from being the Ultimate End of Christ's undertaking to die for Sin, that men might securely live in it, that on the contrary the Death of Christ was parti<g ref="char:EOLhyphen"/>cularly intended as an Engine to batter down the Kingdom of Sin &amp; Satan, and to bring men effectually unto God and Righteousness, as the Scripture plainly witnesseth, 1 <hi>Pet.</hi> 2. 24. <hi>His own self bare our Sins in his Body on the Tree, that we being dead to Sin, might live to Righteousness.</hi> The Death of Christ conducing to this great End not onely as it was Exemplary, and Hierogly<g ref="char:EOLhyphen"/>phically
+
+
+<pb n="19" facs="tcp:106892:11"/>
+instructed us, that we ought to <hi>take up our Cross</hi> likewise, and <hi>follow our cruci<g ref="char:EOLhyphen"/>fied Lord and Saviour, suffering in the Flesh and cea<g ref="char:EOLhyphen"/>sing</hi> 
+                  <note place="margin">1 Pet. 4. 1.</note> 
+                  <hi>from Sin:</hi> but also as it doth most lively demonstrate to us God's high Displeasure against Sin, and the malignant Nature of it, that could not otherwise be expiated then by the Bloud of that innocent and immaculate Lamb, the onely-begotten Son of God: and lastly, as the Hope of Pardon and free Re<g ref="char:EOLhyphen"/>mission of Sin in the Bloud of Christ for the truly Penitent might invite and animate men to chearful &amp; vigorous endeavours against Sin.</p>
+               <p>Others there are that tell us there is indeed something farther aimed at in the Gospel be<g ref="char:EOLhyphen"/>sides the bare <hi>Remission of Sins,</hi> but that it is nothing else but the <hi>Imputation of an External Righteousness</hi> or <hi>another's Inherent Holiness,</hi> which is so completely made ours thereby to all in<g ref="char:EOLhyphen"/>tents and purposes, as if we our selves had been really and perfectly righteous; and this upon no other Condition or Qualification at all required in us, but onely of mere Faith scrupulously prescinded from all Holiness and Sanctification, or the laying hold and appre<g ref="char:EOLhyphen"/>hending onely (as they use to phrase it) of this External and Imputed Righteousness,
+
+
+<pb n="20" facs="tcp:106892:12"/>
+that is, the merely believing and imagining it to be ours: Which kind of Faith therefore is but the Imagination of an Imagination, or of that which really is not, and, as <hi>Pindar</hi> calls Man, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>the very Dream of a Shadow.</hi>
+               </p>
+               <p>For though this be pretended by some to be spoken onely of <hi>Justification</hi> as contradistinct from <hi>Sanctification,</hi> the latter of which they con<g ref="char:EOLhyphen"/>ceive must by no means have any Conditional Influence upon the former; yet it is plain, that it will unavoidably extend to the taking away of the Necessity of <hi>Inherent</hi> Righteousness and Holiness, and all Obligation to it: upon which very account it is so highly acceptable, because under a specious shew of Modesty and Humility it doth exceedingly gratify mens Hypocrisie and Carnality. For he that is thus completely Justified by the Imputation of a mere External Righteousness, must needs have <hi>ipso facto</hi> a Right and Title thereby to Heaven and Happiness without Holiness; for <hi>Rom.</hi> 8. 30. <hi>Whom he justifieth, them he also glori<g ref="char:EOLhyphen"/>fieth.</hi> Neither can any thing be required inhe<g ref="char:EOLhyphen"/>rently in them, where all <hi>Inherency</hi> is perfectly supplied by <hi>Imputation.</hi> And though it be pre<g ref="char:EOLhyphen"/>tended that <hi>Sanctification</hi> will spontaneously follow after by way of <hi>Gratitude;</hi> yet this is
+
+
+<pb n="21" facs="tcp:106892:12"/>
+like to prove but a very slippery hold, where it is believed that <hi>Gratitude</hi> it self, as well as all other Graces, is already in them by Impu<g ref="char:EOLhyphen"/>tation. Neither can it be reasonably thought that true Holiness should spring by way of <hi>Gratitude</hi> or <hi>Ingenuity</hi> from such a Principle of Carnality as makes men so well contented with a mere Imaginary Righteousness.</p>
+               <p>But this Opinion as it makes God in Justi<g ref="char:EOLhyphen"/>fying to pronounce a false Sentence, and to conceive of things otherwise then they are, and to doe that which himself hath declared to be abominable, <hi>to Justifie the wicked</hi> (in a <note place="margin">Prov. 17. 15.</note> forensick sense,) and as it is irreconcileable to those many Scriptures that assure us <hi>God will render to every man according to his Works;</hi> so it also takes away the Necessity of Christ's Me<g ref="char:EOLhyphen"/>ritorious and Propitiatory Sacrifice for the Re<g ref="char:EOLhyphen"/>mission of Sins: for where a complete Righ<g ref="char:EOLhyphen"/>teousness is imputed, there is no Sin at all to be pardoned. And lastly, it vainly supposes <hi>Righteousness</hi> and <hi>Holiness</hi> to be mere Phanta<g ref="char:EOLhyphen"/>stical and Imaginary things; for otherwise it were no more possible that a Wicked man should be made Righteous by another's Righ<g ref="char:EOLhyphen"/>teousness imputed, then that a Sick man should be made Whole by another's imputed
+
+
+<pb n="22" facs="tcp:106892:13"/>
+Health. <hi>If a Brother or Sister be naked and desti<g ref="char:EOLhyphen"/>tute of daily food, and one of you say unto them, De<g ref="char:EOLhyphen"/>part in peace, be you warmed, and be you filled; not<g ref="char:EOLhyphen"/>withstanding you give them not those things which are needful for the body; what doth it profit?</hi> James 2. 15, 16. <hi>Even so, what doth it profit, my Brethren, if a man say he hath Faith</hi> (or Imputed Righte<g ref="char:EOLhyphen"/>ousness) <hi>and have not Works?</hi> (that is, Real and Inherent Righteousness, or Inward Regenera<g ref="char:EOLhyphen"/>tion) <hi>can such a Faith</hi> (that is, Imagination, or Imputation) <hi>save him?</hi> Certainly no more then mere words can clothe a naked mans Back, or feed a hungry mans Belly, or warm and thaw him whose Bloud is frozen and congea<g ref="char:EOLhyphen"/>led in his veins. Nay it is no more possible for a man to be made <hi>Holy,</hi> then to be made <hi>Happy,</hi> by mere Imputation, which latter few men would be contented withall; and, were it not for their Hypocrisie, they would be as little contented with the former; and it would as little please them to be <hi>Opinione tantùm Justi,</hi> as <hi>Opinione tantùm Beati,</hi> to use <hi>Tully</hi>'s expressi<g ref="char:EOLhyphen"/>ons against the <hi>Epicureans.</hi> Nay, since it is most certain that the greatest part of our <hi>Happiness</hi> consisteth in <hi>Righteousness and Holiness,</hi> it will unavoidably follow, that if we have no other then an <hi>Imputative Righteousness,</hi> we can have
+
+
+<pb n="23" facs="tcp:106892:13"/>
+no other then an <hi>Imputative Happiness,</hi> and a mere Imaginary Heaven, which will little please us when we feel our selves to be in a true and real Hell.</p>
+               <p>But it is not our Intention here to quarrel about Words and Phrases, as if Christ's me<g ref="char:EOLhyphen"/>ritorious Satisfaction might not be said to be <hi>Imputed</hi> to those that Repent and Be<g ref="char:EOLhyphen"/>lieve the Gospel, for Remission of Sins; much less to deny what the Holy Scripture plainly asserts, True and Living <hi>Faith,</hi> that <hi>worketh by Love,</hi> which is the very Essence of the New Creature, or Regenerate Nature, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>to be imputed</hi> or <hi>accounted for Righteousness,</hi> under the Gospel-dispensation, where God will not proceed according to Le<g ref="char:EOLhyphen"/>gal Rigour and Severity with his fallen Crea<g ref="char:EOLhyphen"/>tures, but according to that <hi>Equity</hi> and '<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which the Philosopher tells us is the <hi>Truest Justice.</hi> But our onely design is to caution against that <hi>Antinomian Error</hi> which is too often insinuated under the Notion of <hi>Imputed Righ<g ref="char:EOLhyphen"/>teousness,</hi> as if there were no necessity of <hi>Inhe<g ref="char:EOLhyphen"/>rent Righteousness</hi> and a <hi>Real Victory over Sin</hi> in order to Salvation, but that an Imputed or Imaginary one might serve the turn: Which
+
+
+<pb n="24" facs="tcp:106892:14"/>
+Error, springing up very early amongst the <hi>Gnostick-</hi>Christians, S. <hi>John</hi> gives a seasonable Antidote against it, 1 <hi>John 3. 7. Little Children, let no man deceive you; he that doth Righteousness is righteous, even as he is righteous:</hi> and in Chap. 2. v. 4. <hi>He that saith I know him, and keepeth not his Commandments, is a Liar, and the Truth is not in him.</hi> To which purpose is that also in his first Chap. v. 5. <hi>This is the Message which we have heard of him and declare to you, That God is Light, and in him is no Darkness at all. If we say that we have Fellowship with him, and walk in darkness, we lye, and doe not the Truth: But if we walk in the light, as he is in the light, we have Fellowship one with another, and the Bloud of Jesus Christ his Son cleanseth us from all Sin.</hi> Wherefore the same Apostle in that Epistle tells us of <hi>overcoming the Wicked one,</hi> Chap. 2. 14. and of <hi>overcoming the World,</hi> by our Faith in Christ, Chap. 5. 4. And in the Apocalyps he propoundeth from Christ himself divers remarkable Promises <hi>to him that overcometh:</hi> That <hi>he shall eat of the Tree of life that is in the midst of the Paradise of God,</hi> c. 2. v. 7. That <hi>he shall not be hurt of the Second Death,</hi> v. II. That <hi>he shall have the hidden Man<g ref="char:EOLhyphen"/>na, and a white Stone with a new Name written in it, which no man knoweth saving he that receiveth</hi>
+
+
+                  <pb n="25" facs="tcp:106892:14"/>
+                  <hi>it,</hi> v. 17. That <hi>he will give him the morning Star,</hi> v. 28. That <hi>he shall be clothed in white Raiment, and his name shall not be blotted out of the Book of Life,</hi> c. 3. v. 5. That <hi>he shall be a Pillar in the Temple of God,</hi> v. 12. and That <hi>he shall sit with Christ in his Throne, as he overcame and sate down with his Father in his Throne,</hi> v. 21. The Condi<g ref="char:EOLhyphen"/>tion of all which Promises being <hi>Overcoming,</hi> we may well conclude from thence, that there is a Real and not an Imaginary Victory onely to be obtained over the <hi>Power</hi> of Sin as well as the <hi>Guilt</hi> of it.</p>
+               <p>Nay it is true and very observable that those Places which are usually quoted as the Foundation of an Imputed Righteousness in some other sense then what we have before mentioned, are indeed no otherwise to be un<g ref="char:EOLhyphen"/>derstood then of a Real Inward Righteousness that is wrought or infused by the Spirit of Christ. As that principal one, <hi>Philip.</hi> 3. v. 8. <hi>Yea doubtless, and I count all things loss for the excel<g ref="char:EOLhyphen"/>lency of the Knowledge of Christ Jesus my Lord,—that I may win him, and be found in him, not having mine own Righteousness which is of the Law, but that which is through the Faith of Christ, the Righteousness which is of God by Faith.</hi> Where <hi>Christ,</hi> whom the Apostle desires <hi>to win</hi> and <hi>to</hi>
+
+
+                  <pb n="26" facs="tcp:106892:15"/>
+                  <hi>be found in,</hi> and the <hi>Righteousness which is through the Faith of Christ,</hi> and <hi>the Righteousness which is of God through Faith,</hi> are no External Imputed Righteousness, but the Real Inward Righte<g ref="char:EOLhyphen"/>ousness of the New Creature wrought by the Spirit of Christ, through Faith, which is op<g ref="char:EOLhyphen"/>posed here to <hi>our own Righteousness,</hi> and <hi>the Righteousness which is of the Law,</hi> that is, the Righteousness of outward Works done by our own Natural power, according to the Letter of the Law, in our Unregenerate state: for so the following words explain the meaning, <hi>That I may know him, and the power of his Resur<g ref="char:EOLhyphen"/>rection, and the fellowship of his Sufferings, being made conformable unto his Death; If by any means I might attain to the Resurrection of the dead.</hi> And this same Inward and Real Righteousness is often elsewhere called <hi>Christ,</hi> and the <hi>New man,</hi> that is said to be <hi>In us,</hi> and which we are ex<g ref="char:EOLhyphen"/>horted to <hi>Put on,</hi> not by Conceit or Imagina<g ref="char:EOLhyphen"/>tion onely, but by real Conformity to his Na<g ref="char:EOLhyphen"/>ture and Participation of his Spirit.</p>
+               <p>And whereas the Magnifiers of <hi>Free Grace</hi> in an <hi>Antinomian</hi> sense, and the Decriers of <hi>In<g ref="char:EOLhyphen"/>herent Righteousness,</hi> commonly conceive that the <hi>Free Grace</hi> of God consists in nothing but either in the <hi>Pardon of Sin and Exemption from</hi>
+
+
+                  <pb n="27" facs="tcp:106892:15"/>
+                  <hi>Punishment,</hi> or the <hi>Imputation of an External Ho<g ref="char:EOLhyphen"/>liness,</hi> and accounting men Just freely, without any Condition but onely the mere Believing of this that they are so accounted; and that <hi>Faith</hi> is no otherwise considered in the Gospel then in order to the Believing of this Imputa<g ref="char:EOLhyphen"/>tion; and that our own <hi>Works,</hi> when they are comparatively undervalued to <hi>Grace</hi> and <hi>Faith,</hi> are to be taken for all Inherent Righteousness and Holiness, even the <hi>New Creature</hi> it self: That all these are Errors, as it might be abun<g ref="char:EOLhyphen"/>dantly proved from sundry other places of Scripture, so it may sufficiently appear from that one, <hi>Ephes.</hi> 2. v. 4, &amp;c. <hi>God who is rich in mercy, for his great love wherewith he loved us, even when we were dead in sins, hath quickned us together with Christ, (by Grace ye are saved) and hath raised us up together—That in the Ages to come he might shew the exceeding riches of his Grace, and his kindness towards us through Christ Jesus. For by Grace are ye saved through Faith; and that not of your selves; it is the gift of God: Not of Works, left any man should boast. For we are his Workman<g ref="char:EOLhyphen"/>ship, created in Christ Jesus unto good Works.</hi> For when we are here said <hi>to be saved by Grace,</hi> it is plain that the Apostle means by <hi>Saved,</hi> in<g ref="char:EOLhyphen"/>wardly Quickned and Sanctified: <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+
+
+                  <pb n="28" facs="tcp:106892:16"/>
+(saith <hi>Grotius</hi> well here) is <hi>Purgari à Vittis:</hi> which inward Sanctification is here attribu<g ref="char:EOLhyphen"/>ted to God's <hi>Free Grace,</hi> and denied to our selves and to <hi>Works;</hi> the meaning whereof is, that it is not effected by our own Works (whether of outward Morality or Legal Ce<g ref="char:EOLhyphen"/>remonies) done by our Natural power in the Unregenerate state, but by the quickning and enlivening Spirit of Christ inwardly creating us a-new. And lastly, <hi>Faith</hi> is plainly made the Instrument of this inward Sanctification, that is not wrought by our own Works but the Grace and Spirit of Christ. Whence we may well conclude, That the true Object of the Christian <hi>Faith</hi> is not onely the <hi>Bloud of Christ</hi> shed upon the Cross for the Remission of Sin, but also the <hi>renewing Spirit of Christ</hi> for the inward conquering and mortifying of it, and the Quickning or Raising of us to an Heavenly Life.</p>
+               <p>And I dare be bold to say, That the in<g ref="char:EOLhyphen"/>ward sense of every true and sincere-hearted Christian in this Point speaks the same lan<g ref="char:EOLhyphen"/>guage with the Scripture. For a true Christian, that hath any thing of the Life of God in him, cannot but earnestly desire an <hi>inward Healing</hi> of his sinful Maladies and Distempers,
+
+
+<pb n="29" facs="tcp:106892:16"/>
+and not an <hi>outward Hiding</hi> or <hi>Palliation</hi> of them onely. He must needs passionately long more and more after a new Life and Nature, and the Divine Image to be more fully formed in him; insomuch that if he might be secu<g ref="char:EOLhyphen"/>red from the pains of Hell without it, he could not be fully quieted and satisfied there<g ref="char:EOLhyphen"/>with. 'Tis not the <hi>Effects and Consequents of Sin</hi> onely, the <hi>External Punishment</hi> due unto it, that he desires to be freed from, but the <hi>In<g ref="char:EOLhyphen"/>trinsecal Evil of Sin</hi> it self, the Plague of his own Heart. As he often meditates with comfort upon that <hi>Outward Cross</hi> to which his Saviour's hands and feet were nailed for his Sins; so he impatiently desires also to feel the virtue of that <hi>Inward Cross</hi> of Christ, <hi>by which the World may be crucified to him, and he unto the World;</hi> and the Power of Christ's <hi>Resurrection</hi> in him, still to raise him farther unto newness of Life. Neither will he be more easily persuaded to believe that his sinful Lusts, the malignity and violence whereof he feels within himself, can be conquered <hi>without</hi> him, then that an Army here in <hi>England</hi> can be conquered in <hi>France</hi> or <hi>Spain.</hi> He is so deeply sensible of the <hi>Real Evil</hi> that is in Sin it self, that he cannot be conten<g ref="char:EOLhyphen"/>ted to have it onely histrionically triumphed
+
+
+<pb n="30" facs="tcp:106892:17"/>
+over. And to phansy himself covered all over with a thin veil of mere external Imputation, will afford little satisfactory Comfort unto him that hungers and thirsts after Righteous<g ref="char:EOLhyphen"/>ness, and is weary and heavy laden with the Burthen of his Sins, and doth not desire to have his inward Maladies hid and covered onely, but healed and cured. Neither can he be willing to be put off till the hour of Death for a Di<g ref="char:EOLhyphen"/>vorce betwixt his Soul and Sin; nor easily per<g ref="char:EOLhyphen"/>suaded that though Sin should rule and reign in him all his Life-long, yet the last parting grone, that shall divide his Soul and Body asunder, might have so great an Efficacy as in a moment also to separate all Sin from his Soul.</p>
+               <div type="explication">
+                  <p>BuT that we may not seem here either to beat the Air in Generals and Uncer<g ref="char:EOLhyphen"/>tainties, or by an indiscreet zeal to counte<g ref="char:EOLhyphen"/>nance those conceited and high-flown Enthu<g ref="char:EOLhyphen"/>siasts of latter times, that, forgetting that ex<g ref="char:EOLhyphen"/>ample of Modesty given us by the blessed A<g ref="char:EOLhyphen"/>postle, <hi>[Not as though I had already attained, or</hi> 
+                     <note place="margin">Phll. 3. 12.</note> 
+                     <hi>were already perfect—But this one thing I doe; forgetting those things which are behind, and reach<g ref="char:EOLhyphen"/>ing</hi>
+
+
+                     <pb n="31" facs="tcp:106892:17"/>
+                     <hi>forth unto those things which are before, I press toward the Mark]</hi> boldly arrogate to themselves such an <hi>Absolute Perfection,</hi> as would make them not to stand in need of any Saviour, nor to be cleansed by the Bloud of the Lamb, which therefore they allegorize into a mysti<g ref="char:EOLhyphen"/>cal sense; we must declare that we speak not here of Inherent Righteousness and a <hi>Victory over Sin</hi> in a <hi>Legal</hi> or <hi>Pharisaical</hi> sense, but in such an <hi>Evangelical</hi> sense as yet notwithstanding is true and real.</p>
+                  <p>The First Degree whereof is a <hi>Principle of New life,</hi> infused into the Soul by the Spirit of Christ through Faith, (which the Apostle calls <hi>Semen Dei, the Seed of God)</hi> inclining it to <note place="margin">1 Joh. 3. 9.</note> love God and Righteousness as a thing corre<g ref="char:EOLhyphen"/>spondent to its nature, and inabling it to act freely and ingenuously in the waies of God, out of a living Law written upon the Heart, and to eschew Sin as contrary to a vital Prin<g ref="char:EOLhyphen"/>ciple. For the true Gospel-Righteousness, which Christ came to set up in the world, doth not consist merely in outward Works, whether Ceremonial or Moral, done by our own Natural power in our Unregenerate state, but in an inward Life and Spirit wrought by God. Which those very Philosophers seemed
+
+
+<pb n="32" facs="tcp:106892:18"/>
+in a manner to acknowledge, that denied <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> to be <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>that Vertue could be taught</hi> by outward Rules and Precepts like an Art or Trade; and <hi>Aristotle</hi> himself also, when he in<g ref="char:EOLhyphen"/>clines to think that men are <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, and that their being Good depends upon some extraordinary Divine Influence and As<g ref="char:EOLhyphen"/>sistence. Which I the rather take notice of, because some late Pretenders to Philosophy have prophanely derided this Doctrine after this manner, as if it made <hi>Good Thoughts</hi> and <hi>Vertuous Dispositions</hi> to be <hi>POURED</hi> and <hi>BLOWN into men</hi> by God.</p>
+                  <p>But there is a Second Degree of Victory over Sin, which every true Christian ought not onely to look upon as possible, but also to endeavour after, and restlesly to pursue; which is <hi>such a measure of Strength in the Inward man,</hi> and such a degree of Mortification or Crucifixion of our sinful Lusts, as that a man will not <hi>knowingly</hi> and <hi>deliberately</hi> doe any thing that his Conscience plainly tells him is a Sin, though there be never so great Temptations to it.</p>
+                  <p>Whether or no this be that <hi>Evangelical Per<g ref="char:EOLhyphen"/>fection</hi> which was the Mark that S. <hi>Paul</hi> pressed towards, and which he seems mystically to
+
+
+<pb n="33" facs="tcp:106892:18"/>
+call the <hi>Resurrection from the Dead,</hi> or any thing further, I leave it to others to make a Judge<g ref="char:EOLhyphen"/>ment of. But doubtless, they that have attai<g ref="char:EOLhyphen"/>ned to <hi>such a Principle of New Life</hi> and <hi>such a measure of inward Strength,</hi> as is already menti<g ref="char:EOLhyphen"/>oned, that is, to the Perfection of <hi>unfeigned Sin<g ref="char:EOLhyphen"/>cerity,</hi> may, notwithstanding the Irregularities of the first Motions, violent Assaults and Im<g ref="char:EOLhyphen"/>portunities of Tentations, sudden Incursions and Obreptions, Sins of mere Ignorance and Inadvertency, (which are all wash'd away in the Bloud of Christ) in a true <hi>Evangelical</hi> sense be said to have attained to a <hi>Victory over Sin.</hi>
+                  </p>
+                  <p>Wherefore I demand in the next place, <hi>Why it should be thought impossible by the Grace of the Gospel and the Faith of Christ to attain to such a Vi<g ref="char:EOLhyphen"/>ctory as this is over Sin.</hi> For <hi>Sin</hi> owes its ori<g ref="char:EOLhyphen"/>ginal to nothing else but <hi>Ignorance</hi> and <hi>Dark<g ref="char:EOLhyphen"/>ness.</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>Every wicked man is ignorant.</hi> And therefore in that sense that other Maxime of the <hi>Stoicks</hi> may have some Truth also, that <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>Men sin against their will;</hi> because if they knew that those things were indeed so hurtful to them, they would never doe them. Now we all know how easi<g ref="char:EOLhyphen"/>ly <hi>Light</hi> conquers <hi>Darkness,</hi> and upon its first approch makes it flie before it, and like a
+
+
+<pb n="34" facs="tcp:106892:19"/>
+guilty shade seek to hide it self from it, by running round about the Earth. And certain<g ref="char:EOLhyphen"/>ly the Light of God arising in the Soul can with as much ease scatter away the Night of sinful Ignorance before it. For Truth hath a cognation with the Soul; and Falshood, Lies and Impostures are no more able to make re<g ref="char:EOLhyphen"/>sistence against the Power of Truth breaking forth, then Darkness is able to dispute with Light. Wherefore the Entrance in of Light upon the Soul is half a Conquest over our Sinful Lusts.</p>
+                  <p>Again, though Sin have had a long and cu<g ref="char:EOLhyphen"/>stomary Possession in the Soul, yet it has no just Title, much less a Right of Inheritance in it. For Sin is but a Stranger and Foreiner in the Soul, an Usurper and Intruder into the Lord's Inheritance. Sin it is no Nature, as S. <hi>Austin</hi> and others of the Fathers often incul<g ref="char:EOLhyphen"/>cate, but an adventitious and extraneous thing; and the true and ancient Nature of the Soul of Man suffers violence under it, and is op<g ref="char:EOLhyphen"/>pressed by it. It is nothing else but the Pre<g ref="char:EOLhyphen"/>ternatural state of Rational Beings, and there<g ref="char:EOLhyphen"/>fore we have no reason to think it must needs be perpetual and unalterable. It is a strange thing that a jarring Instrument by the hand
+
+
+<pb n="35" facs="tcp:106892:19"/>
+of a skilful Musician should ever be set in tune again? Doubtless, if an Instrument of Musick were a Living thing, it would be sen<g ref="char:EOLhyphen"/>sible of Harmony as its proper state, and ab<g ref="char:EOLhyphen"/>horre Discord and Dissonancy as a thing pre<g ref="char:EOLhyphen"/>ternatural to it. The Soul of Man was Har<g ref="char:EOLhyphen"/>monical as God at first made it, till Sin, dis<g ref="char:EOLhyphen"/>ordering the Strings and Faculties, put it out of tune and marr'd the Musick of it: but doubtless that Great <hi>Harmostes</hi> that tunes the whole World, and makes all things keep their Times and Measures, is able to set this lesser Instrument in Tune again. Sin is but a Dis<g ref="char:EOLhyphen"/>ease and Dyscrasie in the Soul, Righteousness is the Health and natural Complexion of it; and there is a Propension in the nature of every thing to return to its proper state, and to cast off whatever is heterogeneous to it. And some Physicians tell us that Medicaments are but subservient to Nature, by removing ob<g ref="char:EOLhyphen"/>structions and impediments; but Nature it self and the inward <hi>Archoeus</hi> released and set at liberty works the Cure. Bodies when they are bent out of their Place, and violently for<g ref="char:EOLhyphen"/>ced out of the natural Position of their Parts, have a <hi>Spring</hi> of their own and an inward strong Propension to return to their own natural Po<g ref="char:EOLhyphen"/>sture,
+
+
+<pb n="36" facs="tcp:106892:20"/>
+which produceth that <hi>Motion of Resti<g ref="char:EOLhyphen"/>tution</hi> that Philosophers endeavour to give a reason of. As for example, <hi>Air</hi> may be forced into much a lesser room then it would natural<g ref="char:EOLhyphen"/>ly expand itself into; but whilst it is under this Violence, it hath a <hi>Spring</hi> or strong <hi>Conatus</hi> to return to its proper state, (of which seve<g ref="char:EOLhyphen"/>ral ingenious Observations have been lately published by a Learned hand.) Now Sin be<g ref="char:EOLhyphen"/>ing a Violent and preternatural state, and a Sinner's returning to God and Righteousness being <hi>Motus Restitutionis &amp; Liberationis,</hi> where<g ref="char:EOLhyphen"/>by the Soul is restored to its true Freedome and ancient Nature; why should there not be such an <hi>Elater</hi> or <hi>Spring</hi> in the Soul, (quickened and enlivened by Divine Grace) such a natu<g ref="char:EOLhyphen"/>ral <hi>Conatus</hi> of returning to its proper state again? Doubtless there is, and the Scripture seems sometimes to acknowledge it and call it by the name of <hi>Spirit,</hi> when it speaketh of our free acting in God's waies from an inward Principle. For the <hi>Spirit</hi> is not alwaies to be taken for a Breath or Impulse from without; but also for an inward Propension of the Soul awakened and revived in it, to return to its proper state, as it is Intellectual, and then to act freely in it according to its ancient Nature.
+
+
+<pb n="37" facs="tcp:106892:20"/>
+For if the <hi>Spirit</hi> were a mere <hi>External Force</hi> acting upon the Soul without the concurrence of an <hi>Innate Principle,</hi> then <hi>to be acted by the Spirit</hi> would be a state of Violence to the Soul, which it could not delight alwaies to continue under; whereas the <hi>state of the Spirit</hi> is a state of Freedome, and not of Violence, as the A<g ref="char:EOLhyphen"/>postle witnesseth, when he calls it <hi>the Freedome of the Spirit:</hi> It is the Soul's acting from an inward Spring and Principle of its own Intel<g ref="char:EOLhyphen"/>lectual nature, not by a mere outward Im<g ref="char:EOLhyphen"/>pulse, like a Boat that is tugged on by Oars or driven by a strong blast of Wind. Wherefore the Soul's returning from Sin to Righteousness, which is its Primitive Nature, must needs have great advantages, it going on <hi>Secundo flu<g ref="char:EOLhyphen"/>mine,</hi> according to the genuine Current of its true Intellectual nature, and having besides the assistence of a gentle Gale of the Divine Spirit from without to help it forwards.</p>
+                  <p>Why should it be thought so great an im<g ref="char:EOLhyphen"/>possibility for men willingly to doe that which is agreeable to the Laws of Goodness, since this is the genuine Nature of the Soul when once it is freed from mistakes and encum<g ref="char:EOLhyphen"/>brances from that which is heterogeneous and adventitious to it, that cloggs it and oppresses
+
+
+<pb n="38" facs="tcp:106892:21"/>
+it; and every Life and Nature acts freely ac<g ref="char:EOLhyphen"/>cording to its own Propensions? Why should it seem strange that the <hi>Superiour Faculties</hi> of the Soul should become predominant, since they are <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> of a Lordly nature and made to rule, and the <hi>Inferiour Faculties</hi> of a servile Temper and made to be subject? Why should it seem impossible for <hi>Equity, Light</hi> and <hi>Reason</hi> to be inthroned in the Soul of Man again, and there to command and govern those exorbitant Affections that do so lawlesly rebel against them? For if some grave Com<g ref="char:EOLhyphen"/>manders and Generals have been able by the Majesty of their very looks to hush and silence a disorderly and mutinous Rout of Souldiers; certainly <hi>Reason</hi> re-enthroned in her Majestick Seat, and re-invested with her ancient Power and Authority, which is natural and not usur<g ref="char:EOLhyphen"/>ped, would much more easily be able to check and controll the tumultuous Rabble of Lusts and Passions in us.</p>
+                  <p>Doubtless God hath no other Design upon us in Religion and the Gospel of his Son then what is for our good, and to restore us to the Rectitude and Perfection of our own Beings: Wherefore he seeks to redeem and call off our Affections from the perishing Vanities of this
+
+
+<pb n="39" facs="tcp:106892:21"/>
+World, which being so infinitely below us do debase and pollute our Spirits; wherefore he would not have us to addict ourselves whol<g ref="char:EOLhyphen"/>ly to the Gratifications of our <hi>lower Faculties,</hi> which are but the <hi>Brute</hi> in us, but he would have the Best in us to be uppermost, <hi>the Man</hi> to rule the <hi>Brute,</hi> and the <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, that that is of God in us, to rule our Manly and Rational Faculties. He would not have us, <hi>Narcissus<g ref="char:EOLhyphen"/>like,</hi> to be alwaies courting our own Shadow in the Stream; for, according to the ancient <hi>Democritical</hi> Philosophy, this whole visible World is nothing else but mere extended Bulk, and hath nothing Real in it but <hi>Atomes</hi> or <hi>Particles</hi> of a different Magnitude, diversely pla<g ref="char:EOLhyphen"/>ced and agitated in a continual Whirlpool. But all the Colour, Beauty and Varnish, all that which charms and bewitches us in these Ob<g ref="char:EOLhyphen"/>jects without us, is nothing but the Vital Sen<g ref="char:EOLhyphen"/>sations and Relishes of our own Souls. This gives all the Paint and Lustre to those Beau<g ref="char:EOLhyphen"/>ties which we court and fall in love withall without us, which are otherwise as devoid of Reality and as Phantastical as the Colours of the Rainbow. So that this <hi>Outward World</hi> is not unfitly compared to <hi>an inchanted Palace,</hi> which seems indeed mighty pleasing and ra<g ref="char:EOLhyphen"/>vishing
+
+
+<pb n="40" facs="tcp:106892:22"/>
+to our deluded Sense, whereas all is but imaginary and a mere prestigious Shew. Those things which we are enamoured with, thinking them to be without us, being no<g ref="char:EOLhyphen"/>thing but the Vital Energies of our own Spirits. In a word, God would have Man to be a Living Temple for himself to dwell in, and his Faculties Instruments to be used and employed by him; which need not be thought impossible, if that be true that Philosophy tells us, that there is <hi>Cognatio quaedam</hi> a certain near <hi>Kindred</hi> and <hi>Alliance</hi> between the Soul and God.</p>
+                  <p>Lastly, we must observe, though this in<g ref="char:EOLhyphen"/>ward Victory over Sin be no otherwise to be effected then by the Spirit of Christ through Faith, and by a Divine Operation in us, so that in a certain sense we may be said to be <hi>Passive</hi> thereunto; yet notwithstanding we must not dream any such thing, as if our <hi>Active</hi> Cooperation and Concurrence were not also necessarily required thereunto. For as there is a Spirit of God in Nature which pro<g ref="char:EOLhyphen"/>duceth Vegetables and Minerals, which hu<g ref="char:EOLhyphen"/>mane Art and Industry could never be able to effect, namely that <hi>Spiritus intus alens</hi> which the Poet speaks of, which yet notwithstand<g ref="char:EOLhyphen"/>ing
+
+
+<pb n="41" facs="tcp:106892:22"/>
+doth not work <hi>Absolutely, Unconditionately</hi> and <hi>Omnipotently,</hi> but requireth certain Prepa<g ref="char:EOLhyphen"/>rations, Conditions and Dispositions in the Matter which it works upon; (For unless the Husbandman plow the Ground and sow the Seed, the Spirit of God in Nature will not give any increase:) In like manner the Scri<g ref="char:EOLhyphen"/>pture tells us that the Divine Spirit of Grace doth not work <hi>Absolutely, Unconditionately</hi> and <hi>Irresistibly</hi> in the Souls of men, but requireth certain Preparations, Conditions and Coope<g ref="char:EOLhyphen"/>rations in us; forasmuch as it may both be <hi>quenched,</hi> and <hi>stirred up</hi> or <hi>excited</hi> in us. And in<g ref="char:EOLhyphen"/>deed unless we <hi>plow up the Fallow-ground of our hearts and sow to our selves in Righteousness</hi> (as the Prophet speaks) by our earnest endeavours; we cannot expect that the Divine Spirit of Grace will showr down that Heavenly in<g ref="char:EOLhyphen"/>crease upon us. Wherefore if we would attain to a <hi>Victory over Sin</hi> by the Spirit of Christ, we must endeavour to <hi>fight a good Fight and run a good Race,</hi> and to <hi>enter in at the streight gate,</hi> that so overcoming we may receive the Crown of Life.</p>
+                  <p>And thus much shall suffice to have spoken at this time concerning the First Particular, <hi>The Victory over Sin.</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="effect">
+               <p>
+                  <pb n="42" facs="tcp:106892:23"/>
+I Shall now proceed to speak something brief<g ref="char:EOLhyphen"/>ly to the <hi>Two</hi> other <hi>Victories</hi> that remain, which are attainable also by Christ, <hi>over the Law</hi> and <hi>Death.</hi>
+               </p>
+               <p>And the <hi>Law</hi> may be considered two man<g ref="char:EOLhyphen"/>ner of waies. First, <hi>as an outward Covenant of Works</hi> that pronounceth Death and Condem<g ref="char:EOLhyphen"/>nation to all that do not yield absolute and entire Obedience to whatever is therein com<g ref="char:EOLhyphen"/>manded; and which imposed also with the same Severity a multitude of outward <hi>Ceremo<g ref="char:EOLhyphen"/>nial Observations</hi> which had no intrinsecal Goodness at all in them, but kept men in a state of Bondage and Servility. Now the <hi>Law</hi> in this sense, as it is an <hi>outward Letter</hi> and <hi>Co<g ref="char:EOLhyphen"/>venant of Works,</hi> is already conquered external<g ref="char:EOLhyphen"/>ly for us by Christ's Death upon the Cross, <hi>Galat. 3. 13. Christ hath redeemed us from the Curse of the Law, being made a Curse for us; for it is written, Cursed is every one that hangeth on a Tree; That the Blessing of Abraham might come on the Gentiles through Jesus Christ, that we might receive the Promise of the Spirit through Faith.</hi> And he hath thereby freed us also from our Obliga<g ref="char:EOLhyphen"/>tion to those Commandments that were <hi>not</hi> 
+                  <note place="margin">Ezck. 20. 25.</note> 
+                  <hi>Good,</hi> having broken down the <hi>Middle-wall of</hi>
+
+
+                  <pb n="43" facs="tcp:106892:23"/>
+                  <hi>Partition</hi> that was betwixt Jew and Gentile, <hi>abolishing in his Flesh the Enmity, even the Law of Commandments,</hi> Ephes. 2. 14, 15. <hi>And blotting out the hand-writing of Ordinances that was against us, which was contrary to us, and taking it out of the way, nailing it to his Cross,</hi> Coloss. 2. 14.</p>
+               <p>Secondly, The <hi>Law</hi> is sometimes also con<g ref="char:EOLhyphen"/>sidered in Scripture <hi>as an inward state of Minde,</hi> wrought by the Law and Truth of God, whe<g ref="char:EOLhyphen"/>ther written outwardly in the Letter of the Scripture, or inwardly in the Conscience, pre<g ref="char:EOLhyphen"/>vailing onely so farre as to beget a Conviction of mens Duty and of the Wrath of God against Sin, but not inabling them with in<g ref="char:EOLhyphen"/>ward strength and power to doe what is com<g ref="char:EOLhyphen"/>manded, willingly, out of a Love of it. It is such a State, when men are onely Passive to God's Law, and unwillingly subject to it (as an Enemy) for fear of Wrath and Vengeance. And this must needs be a state of miserable Bondage and Servility, Distraction and Per<g ref="char:EOLhyphen"/>plexity of minde; when men are at once strongly convinced of the Wrath of God a<g ref="char:EOLhyphen"/>gainst Sin, and yet under the power of their Lusts haling and dragging of them to the commission of it. It is that state (as I con<g ref="char:EOLhyphen"/>ceive) which S. <hi>Paul</hi> describes <hi>Rom.</hi> 7. after this manner; <hi>The Law is Spiritual, but I am Carnal,</hi>
+
+
+                  <pb n="44" facs="tcp:106892:24"/>
+                  <hi>sold under Sin: for that which I doe, I allow not; for what I would, that doe I not, but what I hate, that doe I.</hi> And again, <hi>I see another Law in my Members warring against my Minde, and bringing me into Captivity under the Law of Sin. O wretched man that I am! who shall deliver me from this body of death?</hi> Now from the <hi>Law</hi> in this sense, that is, from the Bondage and Servility of the Legal state, we are not delivered, nor made Conquerors by what Christ did outwardly upon the Cross, as some imagine; as if he had there purchas'd for us an Indulgence to sin without controll: but by the inward work<g ref="char:EOLhyphen"/>ing of his Holy Spirit, freeing us from the Power and Bondage of Sin, and unbewitch<g ref="char:EOLhyphen"/>ing us from the Love of it.</p>
+               <p>Wherefore there is a double Freedome from this <hi>Legal</hi> state to be taken notice of; a <hi>True</hi> &amp; a <hi>False Freedome;</hi> which I cannot better explain then by using the Apostle's own Similitude in the beginning of the 7. Chap. <hi>Know ye not, Bre<g ref="char:EOLhyphen"/>thren, that the Law hath dominion over a man as long as he liveth?</hi> (or rather <hi>as long as</hi> It, that is, <hi>the Law, liveth?) For the Woman which hath an Husband, is bound by the Law to her Husband so long as he liveth; but if her Husband be dead, she is loosed from the Law of the Husband. So then, if while her Husband liveth, she be married to another man, she</hi>
+
+
+                  <pb n="45" facs="tcp:106892:24"/>
+                  <hi>shall be called an adulteress: but if her Husband be dead, she is free from that Law; so that she is no adulteress though she be married to another man.</hi> Where the <hi>Law</hi> is compared to an <hi>Husband;</hi> and <hi>one that is under the Law,</hi> or <hi>in a Legal state,</hi> to a <hi>Woman that hath an Husband.</hi> And as there are two waies by which a Woman may be freed from her Husband; The one, if she break loose from him whilst he yet liveth, contrary to the Laws of Wedlock, and marry to another man; which is an undue and unlawful Freedome, for then she is justly styled an <hi>Adulteress;</hi> Ano<g ref="char:EOLhyphen"/>ther, if she stay till her Husband be dead, and then, being free from the Law of her Hus<g ref="char:EOLhyphen"/>band, does lawfully marry to another man: In like manner there are two waies by which men may be freed from the <hi>Law,</hi> as it is <hi>an inward state of Bondage and Servility.</hi> The first is, when men do illegally and unlawfully break loose from the <hi>Law</hi> which is their <hi>Hus<g ref="char:EOLhyphen"/>band</hi> whilst he is yet alive and ought to have Dominion over them, and marry themselves to another Husband; which Husband's name is <hi>Carnal Liberty</hi> or <hi>Licentiousness,</hi> too often mis<g ref="char:EOLhyphen"/>called in these latter Times by the name of <hi>Christian Liberty:</hi> and such as these may well be styled in the Scripture-language <hi>Adulterers</hi>
+
+
+                  <pb n="46" facs="tcp:106892:25"/>
+and <hi>Adulteresses.</hi> But there is another Free<g ref="char:EOLhyphen"/>dome from the Law, which is a due and just Freedome, when we do not make our selves free before the time, violently breaking loose from it; but when we stay till the Law, which is our Husband, is dead, and the Com<g ref="char:EOLhyphen"/>pulsory power of it taken away by the Mor<g ref="char:EOLhyphen"/>tification of our Lusts and Affections, and so marry another Husband, which is <hi>Christ</hi> or <hi>the Spirit of Righteousness,</hi> Rom. 8. 2. <hi>The Law of the Spirit of Life in Christ Jesus hath made me free from the Law of Sin and Death.</hi>
+               </p>
+               <p>Wherefore there are <hi>Three general states of Men,</hi> in order to God and Religion, that may be here taken notice of. The <hi>First</hi> is of those that are <hi>alive to Sin and dead to the Law.</hi> This the Apostle speaks of <hi>Rom. 7. 9. I was alive with<g ref="char:EOLhyphen"/>out the Law once.</hi> These are those whose Con<g ref="char:EOLhyphen"/>sciences are not yet considerably awakened to any Sense of their Duty, nor to the Discrimi<g ref="char:EOLhyphen"/>nation of Good and Evil; but sin freely with<g ref="char:EOLhyphen"/>out any check or controll, without any dis<g ref="char:EOLhyphen"/>quieting Remorse of Conscience.</p>
+               <p>The <hi>Second</hi> is, when men are at once alive both to the Law and Sin, to the Conviction of the one, and the Power and Love of the other; both these strugling together within
+
+
+<pb n="47" facs="tcp:106892:25"/>
+the Bowels of the Soul, checking and control<g ref="char:EOLhyphen"/>ling one another. This is a <hi>broken, confounded</hi> and <hi>shatter'd</hi> state; and these in the Apostles language are said to be <hi>Slain by the Law. I was alive without the Law once; but when the Com<g ref="char:EOLhyphen"/>mandment came, Sin revived, and I died: And the Commandment which was ordained to life, I found to be unto death. For Sin taking occasion by the Commandment, deceived me, and by it Slew me.</hi> Here is no Peace, Rest nor Comfort to be had in this state, mens Souls being distracted and di<g ref="char:EOLhyphen"/>vided by an intestine and civil Warr, between the <hi>Law of the Minde</hi> and the <hi>Law of the Members</hi> conflicting with one another.</p>
+               <p>Wherefore the <hi>Third</hi> state is, when men are <hi>dead both to the Law and Sin,</hi> and <hi>alive unto God and Righteousness; the Law of the Spirit of Life freeing them from the Law of Sin and Death.</hi> In the <hi>First</hi> of these <hi>Three</hi> states, which is the most wretched and deplorable of all, we are <hi>Sin's Free-men,</hi> that is, free to commit Sin with<g ref="char:EOLhyphen"/>out check or controll. In the <hi>Second</hi> we are <hi>Bondmen to God and Righteousness,</hi> and serve God out of a Principle of Fear and according to an outward Rule onely; Children of <hi>Ha<g ref="char:EOLhyphen"/>gar</hi> the Bond-maid and of the Letter. In the <hi>Third</hi> we are <hi>God's Free-men</hi> and Sons, and serve
+
+
+<pb n="48" facs="tcp:106892:26"/>
+him in the Newness of the Spirit, out of a Love to God and Righteousness, Children of the New Testament and of <hi>Sarah</hi> the Free<g ref="char:EOLhyphen"/>woman.</p>
+               <p>Wherefore here are <hi>Two Mistakes</hi> or <hi>Errors</hi> to be taken notice of, that defeat and disappoint the Design of Christ in giving us <hi>Victory over the Law.</hi> The <hi>first</hi> is of those that we have al<g ref="char:EOLhyphen"/>ready mentioned, that seek to themselves a Freedome from the Bondage of the Law otherwise then by <hi>Christ</hi> and the <hi>Spirit of Righ<g ref="char:EOLhyphen"/>teousness,</hi> namely, in a way of Carnal Liberty and Licentiousness, whereby, instead of be<g ref="char:EOLhyphen"/>ing <hi>Bond-men to God and Righteousness,</hi> they be<g ref="char:EOLhyphen"/>come perfect <hi>Free-men to Sin and Wickedness,</hi> which is the most deplorable Thraldome in the World. Wherefore these men instead of going forward from the <hi>Second</hi> state unto higher Perfection, wheel back again unto the <hi>First;</hi> just as if the Children of <hi>Israel,</hi> after they had been brought out of <hi>Egypt</hi> and travel<g ref="char:EOLhyphen"/>led awhile in the Desert of <hi>Arabia,</hi> where the <hi>Law</hi> was given, instead of entring into <hi>Canaan</hi> should have wheeled back into <hi>Egypt,</hi> and then enjoying the Garlick and Onions and Flesh-pots thereof, should persuade them<g ref="char:EOLhyphen"/>selves that this was indeed the true <hi>Land of</hi>
+
+
+                  <pb n="49" facs="tcp:106892:26"/>
+                  <hi>Promise that floweth with Milk and Honey.</hi> And there is very great danger, lest when men have been tired out by wandring a long time in the dry and barren Wilderness of the <hi>Law,</hi> where they cannot enjoy the Pleasure of Sin as for<g ref="char:EOLhyphen"/>merly, and yet have not arrived to the relish and love of Righteousness, by reason of their Impatience they should at last make more haste then good speed, being seduced by some false shews of <hi>Freedome</hi> that are very tempting to such weary Travellers, and promise much comfort and refreshment to them, inviting them to sit down under their shadow: Such as are a <hi>Self-chosen Holiness, Ceremonial Righte<g ref="char:EOLhyphen"/>ousness, Opinionative Zeal,</hi> The <hi>Tree of Knowledge</hi> mistaken for the <hi>Tree of Life,</hi> High-flown <hi>En<g ref="char:EOLhyphen"/>thusiasm</hi> and <hi>Seraphicism, Epicurizing Philosophy, Antinomian Liberty,</hi> under the pretence of <hi>Free Grace</hi> and a <hi>Gospel-Spirit.</hi>
+               </p>
+               <p>The <hi>Second</hi> Mistake that is here to be hee<g ref="char:EOLhyphen"/>ded is of those that would by all means per<g ref="char:EOLhyphen"/>suade themselves that there is no higher State of Christian Perfection to be aimed at or ho<g ref="char:EOLhyphen"/>ped for in this Life then this <hi>Legal State; That the Good they would doe, they doe not; the Evil they would not doe, that they doe;</hi> That the <hi>Law of Sin in their Members</hi> still leads them <hi>Captive from</hi>
+
+
+                  <pb n="50" facs="tcp:106892:27"/>
+                  <hi>the Law of their Minds:</hi> having no other Ground at all for this but a novel Interpretation of one Paragraph in the Epistle to the <hi>Romans,</hi> con<g ref="char:EOLhyphen"/>trary to other express Places of Scripture and the Sense of all ancient Interpreters: and yet with so much zeal, as if it were a principal part of the Gospel-Faith to believe this, (which is indeed arrant Infidelity) and as if it were no less then Presumption or Impiety to expect a <hi>Living Law written upon our Hearts.</hi> But this is nothing else but, instead of seeking Liberty out of the Bondage of the Law, to fall in love with our Bonds and Fetters, and plainly to deny the <hi>Victory over the Law</hi> by Christ, and to affirm that the Gospel is but the <hi>Ministration of a dead and killing Letter,</hi> not of <hi>the Spirit</hi> that <hi>quickneth</hi> and maketh alive.</p>
+            </div>
+            <div type="effect">
+               <p>I Come now in the Third and last place to the <hi>Victory over Death,</hi> expressed by the <hi>Re<g ref="char:EOLhyphen"/>surrection of the Body to Life and Immortality;</hi> which as it was meritoriously procured for us by Christ's dying upon the Cross, (his Resur<g ref="char:EOLhyphen"/>rection afterward being an assured pledge of the same to us) so it will be really effected
+
+
+<pb n="51" facs="tcp:106892:27"/>
+at last by the same Spirit of Christ that gives us <hi>Victory over Sin</hi> here. Rom. 8. 11. <hi>If the Spi<g ref="char:EOLhyphen"/>rit of him that raised up Jesus dwell in you, he that raised up Christ from the dead shall also quicken your mortal Bodies by his Spirit that dwelleth in you.</hi> As if he should have said, If the Spirit of Christ dwell in you, regenerating and re<g ref="char:EOLhyphen"/>newing your Souls, the very same Spirit here<g ref="char:EOLhyphen"/>after shall also immortalize your very Bodies. <hi>Avicen</hi> the <hi>Mahumetan</hi> Philosopher, in his <hi>Alma<g ref="char:EOLhyphen"/>had,</hi> hath a conceit, That the meaning of the <hi>Resurrection of the Body</hi> is nothing else but this, to persuade Vulgar people, that though they seem to perish when they die and their Bodies rot in the Grave, yet notwithstanding they shall have a real Subsistence after Death, by which they shall be made capable either of future Happiness or Misery: But because the apprehensions of the Vulgar are so gross, that the Permanency or Immortality of the Soul is too subtile a Notion for them who common<g ref="char:EOLhyphen"/>ly count their <hi>Bodies</hi> for <hi>Themselves,</hi> and can<g ref="char:EOLhyphen"/>not conceive how they should have any Be<g ref="char:EOLhyphen"/>ing after Death, unless their very <hi>Bodies</hi> should be raised up again; therefore by way of Con<g ref="char:EOLhyphen"/>descension to vulgar Understandings the fu<g ref="char:EOLhyphen"/>ture Permanency and Subsistence of the Soul
+
+
+<pb n="52" facs="tcp:106892:28"/>
+in Prophetical Writings is expressed under this Scheme of the <hi>Resurrection of the Body,</hi> which yet is meant <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> onely and not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Which conceit how well soever it may befit a <hi>Mahumetan</hi> Philosopher, I am sure it no way agrees with the Principles of <hi>Christianity.</hi> The Scripture here and elsewhere assuring us that the <hi>Resurrection of the Body</hi> is to be under<g ref="char:EOLhyphen"/>stood plainly and without a Figure; and that the Saints departed this life in the Faith and Fear of Christ, shall not be mere Souls with<g ref="char:EOLhyphen"/>out Bodies to all Eternity, as <hi>Avicen, Maimoni<g ref="char:EOLhyphen"/>des</hi> and other Philosophers dreamed, but con<g ref="char:EOLhyphen"/>sist of Soul and Body united together. Which Bodies though (as the Doctrine of the Church instructeth us) they shall be both Specifically and Numerically the same with what they were here, yet notwithstanding the Scripture tells us they shall be so changed and altered in respect of their Qualities and Conditions, that in that sense they shall not be the same. V. 36, 37. <hi>Thou fool, that which thou sowest is not quickned except it die: Thou sowest not that Body that shall be, but bare grain, it may chance of Wheat or of some other grain; but God giveth it a Body as it pleaseth him, and to every seed his own Body.</hi> The Apostle here imitating the manner of the
+
+
+<pb n="53" facs="tcp:106892:28"/>
+Jews, who (as appeareth from the <note n="*" place="margin">See <hi>Gemara</hi> in <hi>Chetuboth,</hi> cap. 13. <hi>Ein Is-rael,</hi> num. 50.</note> 
+                  <hi>Talmud)</hi> were wont familiarly to illustrate the business of the <hi>Resurrection of the Body</hi> by the Similitude of <hi>Seed sown into the Ground and springing up again.</hi> Accordingly he goes on, <hi>It is sown in Corruption, it is raised in Incorruption; sown in dishonour, it is raised in glory; sown in weakness, raised in power; sown a Natural Body, raised a Spiritual Body.</hi> Which Epithet was used also in this case both by the Philosophers and the Jews: for <hi>Hiero<g ref="char:EOLhyphen"/>cles</hi> upon the Golden Verses calls them <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Vehicula Spiritualia,</hi> Spiritual Bodies; and R. <hi>Menachem</hi> from the ancient <hi>Cabbalists</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>The Spiritual Clothing.</hi> Lastly, the Apostle concludes thus; <hi>Now this I say, Brethren, that Flesh and Bloud cannot inherit the Kingdome of God, neither doth Corruption inherit Incorruption.</hi> For which cause he tells us else<g ref="char:EOLhyphen"/>where, that they which do not die must of ne<g ref="char:EOLhyphen"/>cessity <hi>be changed.</hi> And indeed if men should be restored after death to such gross, foul and cadaverous Bodies as these are here upon Earth, which is the very Region of Death and Mortality, without any <hi>change</hi> at all; what would this be else but, as <hi>Plotinus</hi> the Philoso<g ref="char:EOLhyphen"/>pher against the <hi>Gnosticks</hi> writes, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>to be raised up to a Second Sleep,</hi> or to be
+
+
+<pb n="54" facs="tcp:106892:29"/>
+entombed again in living Sepulchres? <hi>For the corruptible Body presseth down the Soul, and the earthly Tabernacle weigheth down the Mind that <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>seth upon many things,</hi> Wisedome 9. 15. Where<g ref="char:EOLhyphen"/>fore we must needs explode that old Jewish conceit commonly entertained amongst the <hi>Rabbinical</hi> Writers to this day, That the fu<g ref="char:EOLhyphen"/>ture Resurrection is to be understood of such <hi>Gross and Corruptible Bodies</hi> as these are here up<g ref="char:EOLhyphen"/>on Earth, to eat, drink, marry, and be given in marriage, and (which must needs follow) afterward to die again. <hi>Nachmanides,</hi> in his <hi>Shaar Haggemul,</hi> is the onely Jewish Author that ventures to depart from the common rode here, and to abandon this Popular Error of the Jews, endeavouring to prove that the Bodies of the Just after the Resurrection shall not eat and drink, but be Glorified Bodies: but <note n="*" place="margin">In <hi>Nacha<g ref="char:EOLhyphen"/>lath Avoth,</hi> cap. 4. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>This is the very same with the opinion of the Christians, that hold that after the Resurrection men shall not eat, drink, marry or be given in marriage, or die again, but continue eternally in those Bodies resembling the Heavenly Bodies; and these they vulgarly call Glorified Bodies.</hi>
+                  </note> 
+                  <hi>Abravanel</hi> confutes him with no other Argument then this, <hi>That this was the Doctrine and Opinion of the Christians.</hi>
+               </p>
+               <p>Let us therefore now consider how abun<g ref="char:EOLhyphen"/>dantly God hath provided for us by Jesus
+
+
+<pb n="55" facs="tcp:106892:29"/>
+Christ, both in respect of our <hi>Souls</hi> and of our <hi>Bodies:</hi> Our <hi>Souls,</hi> in freeing us by the Spirit of Christ (if we be not wanting to our selves) from the Slavery of Sin and the Bondage of the Law, as it is a Letter onely: Our <hi>Bodies,</hi> in that <hi>this Corruptible shall put on Incorruption,</hi> and <hi>this Mortal Immortality,</hi> and that these <hi>Vile Bodies</hi> shall be made like to <hi>Christ's glorious Body.</hi> In both which the compleat Salvation of Man consisteth, the Perfection and Happi<g ref="char:EOLhyphen"/>ness both of Soul and Body. For though our Salvation consist chiefly in the former, in the <hi>Victory over Sin,</hi> and in the Renovation of the Mind; yet without the latter, which is the <hi>Vi<g ref="char:EOLhyphen"/>ctory over Death,</hi> and the immortalizing of our Bodies, it would be a very lame and imper<g ref="char:EOLhyphen"/>fect thing. For Righteousness alone if it should <hi>malè habitare,</hi> dwell alwaies in such in<g ref="char:EOLhyphen"/>convenient houses as these earthly Tabernacles are, however the high-flown <hi>Stoick</hi> may bragg, it could not render our condition otherwise then troublesome, sollicitous and calamitous. Wherefore the Holy men in Scripture not with<g ref="char:EOLhyphen"/>out cause longed for this future Change. <hi>Rom.</hi> 8. 23. <hi>We grone within our selves, waiting for the Adoption, to wit, the Redemption of our Bodies.</hi> 2 Cor. 5. 2. <hi>In this we grone earnestly, desiring to be</hi>
+
+
+                  <pb n="56" facs="tcp:106892:30"/>
+                  <hi>clothed upon with our house which is from Heaven.</hi> But there is no obtaining of this future <hi>Vi<g ref="char:EOLhyphen"/>ctory over Death</hi> and Mortality, except we first get a <hi>Victory over Sin</hi> here. For this is that <hi>Crown of Life</hi> that Christ, the First-begotten from the dead, will set upon the Heads of none but those that have here fought a good Fight and overcome. For as Death proceeds onely from Sin and Disobedience, so the way to conquer Death and to arrive at Life and Immortality is by seeking after an inward Conquest over Sin. For <hi>Righteousness is immortal, Wisd.</hi> 1. 15. and will immortalize the entertainers of it, and, as the <hi>Chaldee</hi> Oracle speaks,</p>
+               <p>—'<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</p>
+               <p>
+                  <q>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</q>
+               </p>
+            </div>
+            <div type="conclusion">
+               <p>HAving hitherto shewed what are the great things we hope for by Christ and are to endeavour after, namely, to procure an <hi>Inward and Real Victory over Sin</hi> by the Spirit of Christ, that so we may hereafter attain a <hi>Victo<g ref="char:EOLhyphen"/>ry over Death and Mortality;</hi> We cannot but take notice, briefly, of some Errors of those, that either pretending the Impossibility of this Inward Victory over Sin, or else hypocritically
+
+
+<pb n="57" facs="tcp:106892:30"/>
+declining the Combate, make up a certain Re<g ref="char:EOLhyphen"/>ligion to themselves out of other things, which are either Impertinent and nothing to the purpose, or else Evil and noxious.</p>
+               <p>For first, Some (as was intimated before) make to themselves a mere phantastical and imaginary Religion, conceiting that there is nothing at all for them to doe, but confidently to believe that all is already done for them, all imputed and accounted to them; that they are dearly beloved of God without any Con<g ref="char:EOLhyphen"/>ditions or Qualifications to make them love<g ref="char:EOLhyphen"/>ly. But such a Faith as this is nothing else but mere Phancy and carnal Imagination, pro<g ref="char:EOLhyphen"/>ceeding from that <hi>natural Self-love</hi> whereby men fondly dote upon themselves, and are apt to think that God loves them as fondly and as partially as they love themselves, tying his affection to their particular outward Per<g ref="char:EOLhyphen"/>sons, their very Flesh and Bloud; hereby ma<g ref="char:EOLhyphen"/>king God a Being like to themselves, that is wholly acted by arbitrary Self-will, Fondness and Partiality; and perverting the whole Na<g ref="char:EOLhyphen"/>ture and Design of Religion, which is not mere Phantastry and an histrionical Shew, but a real Victory over the real Evil of Sin, without which God can neither take pleasure
+
+
+<pb n="58" facs="tcp:106892:31"/>
+in any mans Person, nor can there be a pos<g ref="char:EOLhyphen"/>sibility of being happy, a real turning of the Soul from Darkness unto Light, from the Power of Satan unto God.</p>
+               <p>Again, Some there are that instead of <hi>Walk<g ref="char:EOLhyphen"/>ing in the Narrow way</hi> that Christ commendeth to us, of subduing and mortifying our sinful Lusts, make to themselves certain other <hi>Nar<g ref="char:EOLhyphen"/>row waies</hi> of affected Singularity in things that belong not to Life and Godliness, outward Strictnesses and Severities of their own chu<g ref="char:EOLhyphen"/>sing and devising; and then persuade them<g ref="char:EOLhyphen"/>selves that this is the <hi>Streight gate</hi> and <hi>Narrow way</hi> of Christ that leadeth unto Life. Whereas these are indeed nothing else but some parti<g ref="char:EOLhyphen"/>cular Paths and narrow Slices cut out of the <hi>Broad way.</hi> For though they have an outward and seeming narrowness, yet they are so broad within that Camels with their Burthens may easily pass through them. These, instead of taking up <hi>Christ's Cross</hi> upon them, make to themselves certain Crosses of their own, and then laying them upon their Shoulders and carrying them, please themselves with a con<g ref="char:EOLhyphen"/>ceit that they bear the <hi>Cross of Christ;</hi> whereas in truth and reality they are many times too much strangers to that Cross of his by which
+
+
+<pb n="59" facs="tcp:106892:31"/>
+the World should be crucified to them and they unto the World.</p>
+               <p>Some place all their Religion in endless Scrupulosities about <hi>Indifferent</hi> things, negle<g ref="char:EOLhyphen"/>cting in the mean time the <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>the more weighty things</hi> both <hi>of Law</hi> and Gospel, and (as our Saviour farther expres<g ref="char:EOLhyphen"/>seth it) <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>straining at a Gnat, and swallowing a Ca<g ref="char:EOLhyphen"/>mel,</hi> that is, being not so scrupulous as they ought to be about the <hi>Substantials</hi> of Religion and a Good life. For as we ought not to place the chief of our Religion in the mere Observation of <hi>outward Rites</hi> and <hi>Ceremonies,</hi> whilest in the mean time we hypocritically neglect the <hi>Morals</hi> and <hi>Substantials;</hi> which may deservedly be branded with the name of <hi>Su<g ref="char:EOLhyphen"/>perstition:</hi> So we ought to know that it is <hi>equal Superstition</hi> to have such an abhorrence of <hi>Indifferent</hi> things, as to make it the main of our Religion to abstain from them: Both of these arguing <hi>equal Ignorance</hi> of the Nature of God, as if he were some morose, humorous and captious Being; and of that Righteous<g ref="char:EOLhyphen"/>ness which the Kingdome of God consisteth in, as if these Outward and Indifferent things could either hallow or defile our Souls, or as
+
+
+<pb n="60" facs="tcp:106892:32"/>
+if Salvation and Damnation did depend upon the mere using or not using of them. The Apostle himself instructeth us that the <hi>King<g ref="char:EOLhyphen"/>dome of God</hi> consisteth no more in <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> then in <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, no more in <hi>Uncircumcision</hi> then in <hi>Circumcision,</hi> that is, no more in <hi>not using</hi> outward Ceremonies and Indifferent things then in <hi>using</hi> of them. Wherefore the <hi>Negative Superstition</hi> is equal to the <hi>Positive,</hi> and both of them alike call off mens attention from the main things of Religion, by enga<g ref="char:EOLhyphen"/>ging them overmuch in <hi>Small</hi> and <hi>Little things.</hi> But the sober Christian, that neither places all his Religion in external observances, nor yet is superstitiously Anti-ceremonial, as he will think himself obliged to have a due regard to the Commands of lawful Autho<g ref="char:EOLhyphen"/>rity in Adiaphorous things, and to preferre the Peace and Unity of the Christian Church, and the observation of the Royal Law of Charity, before the Satisfaction of any Pri<g ref="char:EOLhyphen"/>vate Humour or Interest; so he will be aware of that <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which many run in<g ref="char:EOLhyphen"/>to, of banishing away all the Solemnity of external Worship, the Observation of the Lord's Day and of the Christian Sacraments, under the Notion of Ceremonies, quite out of
+
+
+<pb n="61" facs="tcp:106892:32"/>
+the World. To conclude, Unless there be a due and timely regard had to the Commands of lawful Authority in Indifferent things, and to Order, Peace and Unity in the Church, it may easily be foreseen that the Reformed part of Christendome will at length be brought first to <hi>Confusion,</hi> by crumbling into infinite Sects and Divisions, and then to utter Ruine.</p>
+               <p>Again, Many mistake the Vices of their Natural complexion for Supernatural and Di<g ref="char:EOLhyphen"/>vine Graces. Some think dull and stupid <hi>Me<g ref="char:EOLhyphen"/>lancholy</hi> to be Christian Mortification. Others, that turbulent and fiery <hi>Zeal</hi> is the vigour of the Spirit. Whereas <hi>Zeal</hi> is one of those things that <hi>Aristotle</hi> calls <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>of a middle Nature,</hi> neither Good nor Bad in it self, but which, as it is circumstantiated, may indifferently be<g ref="char:EOLhyphen"/>come either <hi>Vertue</hi> or <hi>Vice.</hi> For there is a <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as the Apostle calls it, <hi>a bitter Zeal,</hi> which is contrary to all Christian Love and Charity, and is nothing else but the Vices of Acerbity, Envy, Malice, Cruelty, tinctur'd and gilded over with a Religious shew. And there may be also a Turbulent and Factious Zeal, when men under a pretence of acting for the Glory of God, violate just and lawful Authority, in order to the advancement of their own pri<g ref="char:EOLhyphen"/>vate
+
+
+<pb n="62" facs="tcp:106892:33"/>
+Self-interest. Indeed there was amongst the <hi>Jews</hi> a certain Right called <hi>Jus Zelotarum,</hi> or the <hi>Right of Zelots,</hi> whereby private persons acted by a Zeal for God might doe imme<g ref="char:EOLhyphen"/>diate execution upon some Malefactors, with<g ref="char:EOLhyphen"/>out expecting the Sentence of any Court of Ju<g ref="char:EOLhyphen"/>dicature. And some conceive that our Saviour by this <hi>Right of Zelots</hi> did whip the Buyers and Sellers out of the Temple, and overturn the Tables of Money-changers; because he was never questioned by the <hi>Jews</hi> for it. But this was then a Legal and Regular thing, per<g ref="char:EOLhyphen"/>mitted by the publick Laws of that Nation in some certain Cases, yet so as that those <hi>Ze<g ref="char:EOLhyphen"/>lots</hi> were afterward accountable to the <hi>Sanhedrin</hi> for what they did. However, a little before the destruction of the Temple, as <hi>Josephus</hi> tells us, there were a Crew of desperate Miscreants that abusing this Right, and calling themselves by the name of <hi>Kannain,</hi> i. e. <hi>Zelots,</hi> made a pretence from hence to commit most villai<g ref="char:EOLhyphen"/>nous actions. And I wish some had not too much entertain'd this opinion, that Private persons might reform Publick Abuses, whe<g ref="char:EOLhyphen"/>ther belonging to the Ecclesiastical or the Ci<g ref="char:EOLhyphen"/>vil Polity, without and against the consent of the Supreme Magistrate, in a Turbulent man<g ref="char:EOLhyphen"/>ner,
+
+
+<pb n="63" facs="tcp:106892:33"/>
+                  <hi>Jure Zelotarum, by the Right of Zelots;</hi> nay and that Actions that are otherwise altogether unwarrantable in themselves, may notwith<g ref="char:EOLhyphen"/>standing be justified <hi>by Zeal for God and good Ends.</hi> But God needs no mans Zeal to pro<g ref="char:EOLhyphen"/>mote an <hi>Imaginary Interest</hi> of his in the World by doing unjust things for him. <hi>Will you speak wickedly for God, or talk deceitfully for him? will you accept his Person?</hi> 'Twas the generous Ex<g ref="char:EOLhyphen"/>postulation of <hi>Job</hi> with his Friends; and he tells them in the following words, that this was nothing else but <hi>to mock God as one man mocketh another.</hi>
+               </p>
+               <p>True Divine Zeal is no <hi>Corybantick</hi> Fury, but a calm and regular Heat, guided and managed by Light and Prudence, and carried out prin<g ref="char:EOLhyphen"/>cipally neither for nor against Indifferent Rites and unnecessary Opinions, but those things that are immutably Good and Fundamental to Christianity; alwaies acknowledging a due Subordination to that Authority Civil and Ec<g ref="char:EOLhyphen"/>clesiastical that is over us.</p>
+               <p>Lastly, Some there are whose pretence to Religion and the Spirit is founded in nothing else but a Faculty of Rhetoricating and ex<g ref="char:EOLhyphen"/>temporizing with Zeal and Fervency, which they take to be nothing less then <hi>Divine Inspi<g ref="char:EOLhyphen"/>ration,</hi>
+
+
+                  <pb n="64" facs="tcp:106892:34"/>
+and that which the Scripture calls <hi>Pray<g ref="char:EOLhyphen"/>ing in the Holy Ghost,</hi> an undoubted Character of a person truly Regenerated. Which being a great delusion whereby many are hindred from seeking after the real effects of the Di<g ref="char:EOLhyphen"/>vine Spirit, by idolizing instead thereof that which is merely <hi>Natural,</hi> (if not <hi>Artificial;)</hi> I think it not impertinent, here to speak a little of it. And certainly that which is frequent<g ref="char:EOLhyphen"/>ly attained to in the very height by persons grosly hypocritical and debauched, can never be concluded to be <hi>Divine Inspiration,</hi> or to proceed from any higher Principle then mere <hi>Natural Enthusiasm.</hi> For there is not onely a <hi>Poetical Enthusiasm,</hi> of which <hi>Plato</hi> discourseth in his <hi>Ion,</hi> but, though <hi>Oratory</hi> be a more sober thing, a <hi>Rhetorical Enthusiasm</hi> also, that makes men very eloquent, affectionate and bewitch<g ref="char:EOLhyphen"/>ing in their language, beyond what the power of any bare Art and Precepts could inable them unto: insomuch that both these, <hi>Po<g ref="char:EOLhyphen"/>ets</hi> and <hi>Orators,</hi> have oftentimes conceited them<g ref="char:EOLhyphen"/>selves to be indeed <hi>divinely inspired;</hi> as those known Verses testify,
+<q>
+                     <l>
+                        <hi>Est Deus in nobis, agitante calescimus illo;</hi>
+                     </l>
+                     <l>and,</l>
+                     <l>
+                        <hi>Sedibus aethereis Spiritus ille venit.</hi>
+                     </l>
+                  </q>
+
+
+                  <pb n="65" facs="tcp:106892:34" rendition="simple:additions"/>
+And concerning <hi>Orators</hi> the like might be pro<g ref="char:EOLhyphen"/>ved, if the time would here permit, by sundry Testimonies: But I shall here instance onely in <hi>Aristides,</hi> a famous Orator, who not onely speaks positively of himself as <hi>inspired</hi> in his <hi>Oratiòns,</hi> but affirms the same also concerning <hi>Rhetorick</hi> in general, when it is extraordinary, that it comes by <hi>immediate Inspiration</hi> as <hi>Oracles</hi> and <hi>Prophecies</hi> doe, and not from <hi>Art</hi> or <hi>Na<g ref="char:EOLhyphen"/>ture.</hi> Wherefore it is not at all to be wondred at, if when men are employed in Religious and Devotional Exercises, the same <hi>Natural Enthusiasm,</hi> especially having the advantage of <hi>Religious Melancholy,</hi> which makes men still more <hi>Enthusiastical,</hi> should so wing and inspire the Phancies of these Religious Orators, as to make them wonderfully fluent, eloquent and rapturous, so that they beget strange Passions in their Auditors, and conclude themselves to be <hi>Divinely inspired.</hi> Whereas notwithstanding they may have no more of Divine Inspiration in all this, then those <hi>Poets</hi> and <hi>Orators</hi> before mentioned had, that is to say, be no otherwise inspired then by a <hi>Rhetorical Hypochondriacal En<g ref="char:EOLhyphen"/>thusiasm,</hi> that is <hi>merely Natural.</hi> But it is farre from my Intention here to disparage the sin<g ref="char:EOLhyphen"/>cere and ardent Affections of devout Souls,
+
+
+<pb n="66" facs="tcp:106892:35"/>
+naturally and freely breathing out their earnest Desires unto God in private, although per<g ref="char:EOLhyphen"/>haps this be not without some kind of <hi>En<g ref="char:EOLhyphen"/>thusiasm</hi> also. For <hi>Enthusiasm,</hi> as well as <hi>Zeal,</hi> and other Natural things, may be well used, and, being rightly circumstantiated and sub<g ref="char:EOLhyphen"/>servient to a better principle, become irrepre<g ref="char:EOLhyphen"/>hensible. Some have observed, that no great work of the Brain, that begot much admira<g ref="char:EOLhyphen"/>tion in the World, was ever atchieved without some kind of <hi>Enthusiasm;</hi> and the same may be affirmed of the most transcendently Vertu<g ref="char:EOLhyphen"/>ous and Heroical Actions. But then the Good<g ref="char:EOLhyphen"/>ness of these Actions is never to be estimated merely by the Degree of <hi>Enthusiastick</hi> Heat and Ardor that is in them, but by such other Laws and Circumstances as Moralize humane Actions. Wherefore my meaning, as I said before, is onely this, To caution against that Vulgar and Popular Error of mistaking the Natural and Enthusiastick Fervour of mens spirits, and the Ebulliency of their Phancy, when it is tinctur'd with Religion, and ido<g ref="char:EOLhyphen"/>lizing of it instead of the supernatural Grace of God's Holy Spirit; and of looking for the Effect of Religion and Demonstration of God's Spirit principally in <hi>Words</hi> and <hi>Talk,</hi> or
+
+
+<pb n="67" facs="tcp:106892:35"/>
+thinking that God is chiefly glorified with a <hi>loud Noise</hi> and <hi>long Speeches.</hi> For the true De<g ref="char:EOLhyphen"/>monstration of God's Holy Spirit is no-where to be look'd for but in <hi>Life</hi> and <hi>Action,</hi> or such earnest and affectionate breathings after a far<g ref="char:EOLhyphen"/>ther participation of the Divine Image, as are accompanied with real and unfeigned endea<g ref="char:EOLhyphen"/>vours after the same; which is the true <hi>Pray<g ref="char:EOLhyphen"/>ing in the Holy Ghost,</hi> though there be no ex<g ref="char:EOLhyphen"/>temporaneous effusion of words. And there<g ref="char:EOLhyphen"/>fore when some <hi>Corinthians</hi> were puffed up by reason of a Faculty which they had of Rhe<g ref="char:EOLhyphen"/>toricating Religiously, S. <hi>Paul</hi> like an Apostle <note place="margin">1 Cor. 4. 19.</note> tells them, that he would come amongst them, and <hi>know, not the Speech of them that were puffed up, but the Power. For the Kingdome of God</hi> (saith he) <hi>consisteth not in Word, but in Power and Life.</hi> Wherefore laying aside these and such like childish mistakes and things that are little to the purpose, let us seriously apply our selves to the main Work of our Religion, that is, to mortify and vanquish our Sinful Lusts by the Assistence of God's Holy Spirit, through Faith in Christ; that so being Dead to Sin here we may live with God eternally hereafter.</p>
+               <trailer>The End.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,535 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An heroick poem upon the King humbly presented to the Queen / by William Culpeper.</title>
+            <author>Colepeper, William, d. 1726.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1694</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2007-10">2007-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A35412</idno>
+            <idno type="STC">Wing C7564</idno>
+            <idno type="STC">ESTC R29690</idno>
+            <idno type="EEBO-CITATION">11192445</idno>
+            <idno type="OCLC">ocm 11192445</idno>
+            <idno type="VID">46655</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A35412)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 46655)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1439:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An heroick poem upon the King humbly presented to the Queen / by William Culpeper.</title>
+                  <author>Colepeper, William, d. 1726.</author>
+               </titleStmt>
+               <extent>[4], 11 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Daniel Brown ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCXCIV [1694].</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>William --  III, --  King of England, 1650-1702 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2006-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2006-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2006-09</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2006-09</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2007-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:46655:1"/>
+            <pb facs="tcp:46655:1"/>
+            <p>AN Heroick Poem UPON THE KING: Humbly Preſented to the QUEEN.</p>
+            <p>By WILLIAM CULPEPER, Eſq.</p>
+            <q>
+               <hi>The Hero makes the Poet.</hi>—</q>
+            <p>
+               <hi>LONDON;</hi> Printed for <hi>Daniel Brown,</hi> at the <hi>Bible</hi> without <hi>Temple-Bar.</hi> MDCXCIV.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:46655:2" rendition="simple:additions"/>
+            <pb facs="tcp:46655:2"/>
+            <head>TO THE QUEEN.</head>
+            <opener>May it pleaſe Your Majeſty,</opener>
+            <p>
+               <seg rend="decorInit">S</seg>O ſoon as I had finiſh'd this Poem (and indeed while I was compoſing it) I hop'd it might not be unwelcome to <hi>YOUR MAJESTY,</hi> ſince it preſents (tho not ſo perfectly as I could wiſh) the Character of the <hi>Greateſt Man</hi> that lives, whoſe Perſon muſt ever be ſo dear to <hi>YOUR MAJESTY</hi> and the <hi>Kingdom.</hi>
+            </p>
+            <p>What I have now Writ, I beg <hi>YOUR MAJESTY</hi> to Accept, not as the Work of a Low, Servile Pen, but as the Zeal of a Man that deſires to raiſe his Thoughts as high as Truth and Juſtice.</p>
+            <p>With this Mind I have repreſented <hi>King William</hi> and <hi>King Lewis</hi> as <g ref="char:V">Ʋ</g>nlike as they really are, as Con<g ref="char:EOLhyphen"/>trary as Light and Darkneſs; which I have done with reſpect to <hi>King Lewis</hi> (as a Crown'd Head) greater than he Perſonally deſerves.</p>
+            <p>Several Pens are now employ'd by that <hi>King</hi> to write his Life; but whatever they can ſay, Truth is Truth, and will be too mighty for <hi>King Lewis;</hi> no doubt the
+<pb facs="tcp:46655:3"/>
+Praiſes of <hi>Nero, Domitian, Commodus,</hi> and other Monſters of Human Nature were writ by as Ingenious Men as any <hi>France</hi> can boaſt of, tho none of their Works have Surviv'd, as indeed they neither ought nor could, being againſt all Truth and Modeſty; but after their Deaths the Hiſtories of theſe Wicked Tyrants were Impartially writ, and their Names recorded Odi<g ref="char:EOLhyphen"/>ous to Poſterity; while the Excellent Characters of <hi>Au<g ref="char:EOLhyphen"/>guſtus, Nerva, Trajan,</hi> and other Good Princes and Patriots (which were writ in their own Times, and which Themſelves had the Satisfaction to read) have deſcended Ages, and will probably laſt as long as the World.</p>
+            <p>This Great Reward of Vertue will be paid to the <hi>KING</hi>'s and <hi>YOUR OWN MOST EXCELLENT MAJESTY,</hi> whoſe Memories muſt be, as Your Lives, Glorious.</p>
+            <p>That Your Lives may long continue ſo, that the greateſt of Earthly Bleſſings may be preſerved to theſe Nations, and indeed to the World, is the moſt Earneſt Prayer of,</p>
+            <closer>
+               <signed>May it pleaſe Your Majeſty,
+YOUR MAJESTIES,
+Moſt Obedient Dutiful Subject, and moſt Devoted Humble Servant,
+W. CULPEPER.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:46655:3"/>
+            <head>AN Heroick POEM UPON THE KING.</head>
+            <lg>
+               <l>IF the Diſturbers of the World can raiſe</l>
+               <l>Themſelves a Name, and loud Admirers find;</l>
+               <l>What is, or ought to be thoſe Princes praiſe,</l>
+               <l>That awe th' Oppreſſors, and relieve Mankind?</l>
+            </lg>
+            <lg>
+               <l>The <hi>French</hi> Dominion ſtill increas'd by wrong,</l>
+               <l>To a prodigious height at laſt is grown;</l>
+               <l>As if Heav'n ſuffer'd it t' obtain ſo long,</l>
+               <l>To be by <hi>NASSAW'S</hi> Conduct overthrown.</l>
+            </lg>
+            <lg>
+               <l>In whoſe firſt years th' expecting World could ſee</l>
+               <l>Rare Wiſdom with undaunted Courage meet;</l>
+               <l>Like young <hi>Auguſtus,</hi> promiſing to be</l>
+               <l>What ſince we've found him, ev'ry thing that's Great.</l>
+            </lg>
+            <lg>
+               <pb n="2" facs="tcp:46655:4"/>
+               <l>Deſcended from a truly Glorious Race;</l>
+               <l>His Anceſtors the Pow'r of <hi>Auſtria</hi> broke:</l>
+               <l>Now <hi>France</hi> uſurps, and takes the Tyrant's place,</l>
+               <l>His Arm delivers <hi>Europe</hi> from the Yoke.</l>
+            </lg>
+            <lg>
+               <l>The Far-deſigning <hi>Lewis</hi> ſoon betray'd</l>
+               <l>His fear of this, and with deſerv'd Succeſs,</l>
+               <l>That moſt Injurious War with <hi>Holland</hi> made,</l>
+               <l>In hopes <hi>the riſing Hero</hi> to oppreſs.</l>
+            </lg>
+            <lg>
+               <l>Whoſe ſolid Virtue fenc'd againſt the Blow,</l>
+               <l>And Courage to the <hi>Holland State</hi> reſtor'd:</l>
+               <l>The <hi>French</hi> ('tis now reſolv'd) the weight ſhall know,</l>
+               <l>Of the <hi>Young General</hi>'s revenging Sword.</l>
+            </lg>
+            <lg>
+               <l>Towns that were forc'd the Invaders to obey,</l>
+               <l>(Before <hi>Illuſtrious William</hi> undertook</l>
+               <l>The near expiring Commonwealth to ſway)</l>
+               <l>Now with the laſt Confuſion They forſook.</l>
+            </lg>
+            <lg>
+               <l>As once by <hi>Hercules</hi> a Serpent's head</l>
+               <l>Was bruis'd when touch'd by his yet tender hand;</l>
+               <l>So the <hi>French</hi> Hope of conquering lay dead,</l>
+               <l>When the <hi>Young Prince</hi> exerted his Command.</l>
+            </lg>
+            <lg>
+               <l>But fierce Ambition will not be at reſt,</l>
+               <l>Tho here 'tis ſtopt from its intended Courſe,</l>
+               <l>'Twill, as it can, ſome other place infeſt,</l>
+               <l>And rage till 'tis agen repell'd by force.</l>
+            </lg>
+            <lg>
+               <pb n="3" facs="tcp:46655:4"/>
+               <l>
+                  <hi>Flanders</hi> by violent Incurſions laid</l>
+               <l>In heaps of Ruin, yet was unſubdu'd:</l>
+               <l>
+                  <hi>His Highneſs</hi> ever came with pow'rful Aid,</l>
+               <l>And hither the deſtroying <hi>French</hi> purſu'd.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Seneff,</hi> I muſt with Admiration name,</l>
+               <l>Where <hi>Conde</hi>'s Glory an Affront receiv'd;</l>
+               <l>And <hi>Mons</hi> of equal everlaſting Fame,</l>
+               <l>With Slaughter of the routed <hi>French</hi> reliev'd.</l>
+            </lg>
+            <lg>
+               <l>At length all Nations for a Peace declare,</l>
+               <l>And now 'twas hop'd that <hi>Europe</hi>'s broils might ceaſe;</l>
+               <l>But <hi>France</hi> is not ſo dangerous in War,</l>
+               <l>As by her black Contrivances in Peace.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Strasburgh</hi> and <hi>Luxemburgh</hi>'s ſurpriz'd, or bought;</l>
+               <l>The <hi>Swiſs</hi> by Forts to <hi>Lewis</hi> Slaves are made;</l>
+               <l>His Allies to beſiege <hi>Vienna</hi> brought,</l>
+               <l>And <hi>Chriſtendom</hi> to Infidels betray'd.</l>
+            </lg>
+            <lg>
+               <l>In <hi>England</hi> by Intrigues, as <hi>King,</hi> he reign'd;</l>
+               <l>Our wretched Government it ſelf deſtroy'd:</l>
+               <l>We find a Foreign Intereſt maintain'd</l>
+               <l>By Men in all Affairs of State employ'd.</l>
+            </lg>
+            <lg>
+               <l>The <hi>Prince</hi> contending in his Pious Breaſt,</l>
+               <l>Long our Deliv'rance by entreaty ſought,</l>
+               <l>(If his high Virtue may be ſo expreſt)</l>
+               <l>He bore, till Patience was almoſt a fault.</l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:46655:5"/>
+               <l>Till Horror and Deſtruction were at hand;</l>
+               <l>Our Forts to <hi>Iriſh</hi> Gariſons betray'd;</l>
+               <l>Till <hi>Prieſts</hi> like Locuſts overſpread the Land;</l>
+               <l>Till <hi>Jeſuits</hi> Privy-Counſellors were made.</l>
+            </lg>
+            <lg>
+               <l>Who longing the Occaſion to improve,</l>
+               <l>Meant <hi>England</hi> ſhou'd by Civil Rage be torn;</l>
+               <l>But the Almighty Ruling Power above</l>
+               <l>Laughs on the Wiſe <hi>Achitophels</hi> with ſcorn.</l>
+            </lg>
+            <lg>
+               <l>Whilſt with a moſt Auſpicious Wind and Tide,</l>
+               <l>The Great <hi>Redeemer</hi> to our <hi>Iſland</hi> ſails,</l>
+               <l>The Partiſans of <hi>France</hi> prepare to hide,</l>
+               <l>And <hi>England</hi>'s Cauſe to <hi>England</hi>'s Wiſh prevails.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Caeſar</hi> firſt came, and then ſubdu'd his Foes;</l>
+               <l>
+                  <hi>His Highneſs</hi> Conquer'd faſter than he came;</l>
+               <l>A Mighty Royal Army to oppoſe,</l>
+               <l>He ſent before <hi>THE TERROR OF HIS NAME.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Too pow'rful for reſiſtance or delay;</l>
+               <l>No ſigns of War are horrid to our ſight;</l>
+               <l>But as the Glorious Planet of the Day,</l>
+               <l>Without Diſturbance gives the Globe its light,</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Our HERO</hi> ſo aſcends the <hi>Engliſh</hi> Throne,</l>
+               <l>Approv'd by Gracious Heav'ns peculiar Choice;</l>
+               <l>Choice by the whole Conſent of Nations known,</l>
+               <l>The Lords, the Commons, and the Peoples Voice.</l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:46655:5"/>
+               <l>Who now regain their Ancient Freedoms loſt,</l>
+               <l>And all their ſenſe of Gratitude expreſs;</l>
+               <l>Men that againſt Crown'd Heads pretended moſt</l>
+               <l>On this occaſion their miſtake confeſs.</l>
+            </lg>
+            <lg>
+               <l>Were <hi>Vane</hi> to live again, no more he wou'd</l>
+               <l>His Notion of a Commonwealth maintain;</l>
+               <l>
+                  <hi>Cromwell</hi> himſelf wou'd yield to Publick Good,</l>
+               <l>And own <hi>Great WILLIAM</hi> only fit to Reign.</l>
+            </lg>
+            <lg>
+               <l>At <hi>England</hi>'s Union <hi>Lewis</hi> is aggriev'd;</l>
+               <l>With hate and fierce intent of War he burns;</l>
+               <l>At <hi>Scotland</hi> ſtrikes, and having there receiv'd</l>
+               <l>A ſharp Repulſe, his Force to <hi>Ireland</hi> turns.</l>
+            </lg>
+            <lg>
+               <l>For all Deſigns can <hi>Lewis</hi> want pretence?</l>
+               <l>He puts Religion to that only uſe;</l>
+               <l>He's <hi>Ireland</hi>'s Friend, her Safety, her Defence;</l>
+               <l>Her State to perfect Quiet he'll reduce.</l>
+            </lg>
+            <lg>
+               <l>'Tis ſure, where nothing is alive to take</l>
+               <l>This, or that Party, Faction needs muſt ceaſe;</l>
+               <l>Wherever Tyrants Deſolation make,</l>
+               <l>Their Miſchief they applaud, and call it Peace.</l>
+            </lg>
+            <lg>
+               <l>This <hi>Lewis</hi> meant, to this his pow'r employ'd;</l>
+               <l>
+                  <hi>Ireland</hi> throughout with dying Cries is fill'd:</l>
+               <l>Men with a Cruel Pleaſure are deſtroy'd,</l>
+               <l>And Raviſh'd Women with their Infants kill'd.</l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:46655:6"/>
+               <l>The <hi>KING</hi> was mov'd, and with diſdainful haſt</l>
+               <l>This Inſolent Barbarity reſtrain'd;</l>
+               <l>Of <hi>Engliſh</hi> Rage he made its Actors taſt,</l>
+               <l>And Ever Glorious Victory obtain'd.</l>
+            </lg>
+            <lg>
+               <l>As to this day, we mention with delight,</l>
+               <l>What <hi>England</hi>'s Foes in former Wars have loſt;</l>
+               <l>What Numbers of the <hi>French</hi> were put to Flight;</l>
+               <l>What Fleets of <hi>Spaniards</hi> wreckt upon our Coaſt.</l>
+            </lg>
+            <lg>
+               <l>Our Children ſpeaking of the preſent State,</l>
+               <l>Shall ſay, What Conduct by the <hi>KING</hi> was ſhown;</l>
+               <l>How <hi>Ireland</hi> by his Hand was ſnatcht from Fate;</l>
+               <l>And Armies ſtrongly poſted, overthrown.</l>
+            </lg>
+            <lg>
+               <l>Nor are his Glories here or there confin'd,</l>
+               <l>But in all Parts alike their Luſtre keep;</l>
+               <l>His Arm's extended on the Seas and Wind;</l>
+               <l>His Laurels root and flouriſh in the deep.</l>
+            </lg>
+            <lg>
+               <l>Let the <hi>French King</hi> his Enterpriſe repent;</l>
+               <l>The proud Inſcription on his <hi>Royal Sun</hi>
+               </l>
+               <l>Is to the Bottom with Deriſion ſent,</l>
+               <l>And a Deciding Day by <hi>England</hi> won.</l>
+            </lg>
+            <lg>
+               <l>No Artifice cou'd hide what <hi>Lewis</hi> loſt;</l>
+               <l>'Twas ſeen by Flames, by ſound of Cannon known;</l>
+               <l>A dreadful Sound that Eccho'd from his Coaſt,</l>
+               <l>And ſhook the <hi>Fearful Monarch</hi> on his Throne.</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:46655:6"/>
+               <l>What Eloquence can juſt deſcription make</l>
+               <l>Of <hi>Engliſh</hi> Valour us'd to burn and board!</l>
+               <l>'Twas rouz'd to ſee that <hi>France</hi> ſhould undertake</l>
+               <l>To Cope with <hi>England's KING, the Ocean's LORD.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Lepanto</hi>'s fight the <hi>Chriſtians</hi> ſafety brought,</l>
+               <l>And well reſtrain'd the growing <hi>Turkiſh</hi> Pride;</l>
+               <l>Let <hi>Lewis</hi> learn from this, his giddy Thought</l>
+               <l>Of Empire in the <hi>Weſt</hi> to lay aſide.</l>
+            </lg>
+            <lg>
+               <l>The World indeed ſhall feel <hi>Great WILLIAM</hi>'s Sway,</l>
+               <l>And diſtant Climates know his pow'rful Hand;</l>
+               <l>Both <hi>Indies</hi> with their Riches ſhall obey;</l>
+               <l>He that Commands the Sea Commands the Land.</l>
+            </lg>
+            <lg>
+               <l>Whilſt <hi>France</hi> diſtruſtful of her ſhatter'd Fleet,</l>
+               <l>Can only the <hi>Algiers</hi> of <hi>Europe</hi> be;</l>
+               <l>Careful our Royal Navy not to meet,</l>
+               <l>But with her Pyracies t'infeſt the Sea.</l>
+            </lg>
+            <lg>
+               <l>In vain by <hi>Lewis</hi> ſome Revenge is ſought,</l>
+               <l>Vaſt Armies like an over-whelming Flood</l>
+               <l>Are now to Miſerable <hi>Flanders</hi> brought,</l>
+               <l>And <hi>Flanders</hi> is agen the Scene of Blood.</l>
+            </lg>
+            <lg>
+               <l>What Blood has <hi>Landen</hi>'s Fierce Engagement coſt?</l>
+               <l>Where all the moſt amazing things were done!</l>
+               <l>
+                  <hi>Lewis</hi> of ſuch a Victory may boaſt</l>
+               <l>As Ruin'd <hi>Pyrrhus,</hi> from the <hi>Romans</hi> won.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:46655:7"/>
+               <l>
+                  <hi>The French,</hi> a Force not equal came to find;</l>
+               <l>But this was only by the <hi>KING</hi> ſuppli'd,</l>
+               <l>Who ſtill heheld with an unſhaken Mind,</l>
+               <l>Contending Troops, and Death on every ſide.</l>
+            </lg>
+            <lg>
+               <l>The Almighty here our higheſt Praiſe ſhall claim,</l>
+               <l>To Guard <hi>the KING,</hi> whoſe Fate had <hi>Europe</hi>'s been;</l>
+               <l>Heav'ns Pow'r is always in it ſelf the ſame;</l>
+               <l>But thus more clearly to the World is ſeen.</l>
+            </lg>
+            <lg>
+               <l>Sure the Great <hi>Lewis</hi> may be now content</l>
+               <l>His eager Thirſt of Glory to reſtain;</l>
+               <l>His Fame to after Ages ſhall be ſent,</l>
+               <l>It ſhall to Immortality attain,</l>
+            </lg>
+            <lg>
+               <l>For Perſecutions his Renown ſhall laſt;</l>
+               <l>For ſecret Practices that fear the light,</l>
+               <l>For breaking Leagues, for laying Countries waſt;</l>
+               <l>Yet never once appearing in a Fight.</l>
+            </lg>
+            <lg>
+               <l>Whilſt <hi>WILLIAM</hi>'s Godlike Character ſhall be</l>
+               <l>Oppos'd to all that men in <hi>Lewis</hi> find;</l>
+               <l>To ſet the Nations from his Rapine free;</l>
+               <l>To quell <hi>the Beaſt</hi> that preys upon Mankind.</l>
+            </lg>
+            <lg>
+               <l>Cou'd <hi>Lewis</hi> ſee with what auſpicious Joy</l>
+               <l>And Minds of Conſtancy <hi>Our Commons</hi> meet,</l>
+               <l>When voting againſt <hi>France</hi> Our Arms t' employ</l>
+               <l>They pour out Millions at our <hi>Monarch</hi>'s feet.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:46655:7"/>
+               <l>Deſpairing <hi>Lewis</hi> wou'd in ſpight confeſs,</l>
+               <l>Theſe Men that hold their Liberty ſo faſt,</l>
+               <l>Deſerve their Dear-lov'd Bleſſing to poſſeſs,</l>
+               <l>And will (no doubt) be <hi>Engliſh</hi> to their laſt.</l>
+            </lg>
+            <lg>
+               <l>Shou'd Heav'n (which Heav'n forbid) our choice require,</l>
+               <l>A conquer'd <hi>Nation,</hi> or No more to be;</l>
+               <l>This Favour then, from Heav'n We ſhou'd deſire,</l>
+               <l>To ſink our <hi>Ancient Iſland</hi> in the Sea.</l>
+            </lg>
+            <lg>
+               <l>Let Slaves, like Slaves, for fear Allegiance pay,</l>
+               <l>Let <hi>Lewis</hi> by Dragoons his Subjects awe;</l>
+               <l>The Free-born <hi>Engliſh</hi> willingly obey</l>
+               <l>A <hi>KING</hi> that Governs, and is Great by Law.</l>
+            </lg>
+            <lg>
+               <l>Here our Deſires are fixt, our Wiſhes reſt,</l>
+               <l>Sure now the Effect of <hi>England</hi>'s Pray'rs is ſeen;</l>
+               <l>The people in their <hi>KING</hi> entirely Bleſt;</l>
+               <l>The <hi>KING</hi> in Them; both in the <hi>Charming QUEEN.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>THE Charming QUEEN,</hi> the Luſtre of her Court,</l>
+               <l>
+                  <hi>THE Charming QUEEN,</hi> whoſe Goodneſs unconfin'd,</l>
+               <l>And Noble Zeal the Injur'd to ſupport,</l>
+               <l>Shows a true Picture of Her <hi>HERO</hi>'s mind.</l>
+            </lg>
+            <lg>
+               <l>Who with this <hi>Fair Companion</hi> of his Throne</l>
+               <l>The honour of his Kingdome ſhall maintain;</l>
+               <l>And over Vice ſuccesfully go on,</l>
+               <l>To uſe the Pow'r of this Illuſtrious Reign.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:46655:8"/>
+               <l>When Kings like Kings, and God's Vicegerents, act;</l>
+               <l>When they by their Examples Virtue grace,</l>
+               <l>Virtue with all their Subjects finds Reſpect;</l>
+               <l>And Vice, with Shame confounded, gives her place.</l>
+            </lg>
+            <lg>
+               <l>Moſt of thoſe Men that are for Heroes fam'd,</l>
+               <l>To trace their Lives with an impartial care,</l>
+               <l>For ſome ill Actions may perhaps be blam'd;</l>
+               <l>Some Stain preſents their Memories leſs fair.</l>
+            </lg>
+            <lg>
+               <l>Either their Youth in Luxury was drown'd,</l>
+               <l>Or nothing cou'd their Rage to Reaſon bring;</l>
+               <l>Or nothing cou'd their wild Ambition bound;</l>
+               <l>But ev'ry Vertue's equal in <hi>THE KING.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Let me the <hi>Macedonian</hi>'s mighty mind,</l>
+               <l>And <hi>Caeſar</hi>'s Clemency together take,</l>
+               <l>They may perhaps, to <hi>Cato</hi>'s Juſtice join'd,</l>
+               <l>And <hi>Scipio</hi>'s Temperance, <hi>One WILLIAM</hi> make.</l>
+            </lg>
+            <lg>
+               <l>My Gen'rous Muſe that long has ſilent been,</l>
+               <l>That never wou'd to Flattery deſcend,</l>
+               <l>Never to praiſe ſucceſsful Vice begin;</l>
+               <l>Engag'd in Virtue's Cauſe would never end.</l>
+            </lg>
+            <lg>
+               <l>But all the Wars, and deep Affairs of State,</l>
+               <l>In which <hi>Great WILLIAM</hi> had a Glorious Part;</l>
+               <l>Exactly and with Judgment to relate</l>
+               <l>Requires the World's both Induſtry and Art.</l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:46655:8"/>
+               <l>The willing Nations many ſhall afford,</l>
+               <l>A Work ſo vaſt, ſo noble to purſue,</l>
+               <l>Whoſe Pens the greateſt Wonders muſt record,</l>
+               <l>To give <hi>THIS HERO</hi> of the Age his due.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

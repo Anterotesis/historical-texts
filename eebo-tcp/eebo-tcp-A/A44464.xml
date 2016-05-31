@@ -1,0 +1,940 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Horace's Art of poetry made English by the Right Honourable the Earl of Roscommon.</title>
+            <title>Ars poetica. English</title>
+            <author>Horace.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-07">2003-07 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A44464</idno>
+            <idno type="STC">Wing H2768</idno>
+            <idno type="STC">ESTC R13604</idno>
+            <idno type="EEBO-CITATION">11835887</idno>
+            <idno type="OCLC">ocm 11835887</idno>
+            <idno type="VID">49758</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A44464)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 49758)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 497:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Horace's Art of poetry made English by the Right Honourable the Earl of Roscommon.</title>
+                  <title>Ars poetica. English</title>
+                  <author>Horace.</author>
+                  <author>Roscommon, Wentworth Dillon, Earl of, 1633?-1685.</author>
+                  <author>Waller, Edmund, 1606-1687.</author>
+               </titleStmt>
+               <extent>[8], 32 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Henry Herringman ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1680.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Translation of Ars poetica.</note>
+                  <note>"Of this translation, and of the use of poetry, by Edm. Waller Esq.", preliminary p. [5-8].</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-03</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2003-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:49758:1"/>
+            <pb facs="tcp:49758:1"/>
+            <p>HORACE'S
+Art of Poetry.</p>
+            <p>
+               <hi>Made English</hi>
+By the Right Honorable
+THE
+EARL of <hi>ROSCOMMON.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi>
+Printed for <hi>Henry Herringman</hi> at the <hi>Blew An<g ref="char:EOLhyphen"/>chor</hi>
+in the Lower Walk of the <hi>New Exchange.</hi>
+1680.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:49758:2"/>
+            <pb facs="tcp:49758:2"/>
+            <head>PREFACE.</head>
+            <p>I Have seldome known a Trick succeed,
+and will put none upon the Reader, But
+tell him plainly that I think it could
+never be more seasonable than now to lay
+down such Rules, as if they be observ'd,
+will make Men write more Correctly, and
+judge more discreetly; But <hi>Horace</hi> must be
+read seriously or not at all, for else the Rea<g ref="char:EOLhyphen"/>der
+wont be the better for him, and I shall
+have lost my labour, I have kept as close as I
+could, both to the Meaning, and the Words
+of the Author, and done nothing but what I
+believe he would forgive if he were alive;
+And I have often ask'd my self that Question.
+I know this is a Field</p>
+            <p>Per quem Magnus Equos <hi>Arunci</hi> flexit
+Alumnus.</p>
+            <p>But with all the respect due to the name of <hi>Ben.
+<pb facs="tcp:49758:3"/>
+Johnson,</hi> to which no Man pays more Venera<g ref="char:EOLhyphen"/>tion
+than I, it cannot be deny'd that the con<g ref="char:EOLhyphen"/>straint
+of Rhyme, and a literal Translation
+(to which <hi>Horace</hi> in this Book declares him<g ref="char:EOLhyphen"/>self
+an Enemy) has made him want a Com<g ref="char:EOLhyphen"/>ment
+in many places.</p>
+            <p>My chief care has been to Write intelli<g ref="char:EOLhyphen"/>gibly,
+and where the Latin was Obscure, I
+have added a Line or two to explain it.</p>
+            <p>I am below the Envy of the Criticks, but if
+I durst, I would begg them to remember, that
+<hi>Horace</hi> ow'd his favour and his fortune to
+the Character given of him by <hi>Virgil</hi> and
+<hi>Varius,</hi> that <hi>Fundanius &amp; Pollio</hi> are still
+valued by what <hi>Horace</hi> says of them, and
+that in their Golden Age, there was a good
+Vnderstanding among the Injenious, and
+those who were the most Esteem'd were the
+best Natur'd.</p>
+            <closer>
+               <signed>ROSCOMMON.</signed>
+            </closer>
+         </div>
+         <div type="introductory_poem">
+            <pb facs="tcp:49758:3"/>
+            <head>OF THIS
+TRANSLATION,
+And of the
+Use of Poetry,
+BY
+Edm. Waller Esq.</head>
+            <l>
+               <hi>ROme</hi> was not better by her <hi>Horace</hi> taught,</l>
+            <l>Than we are here, to comprehend his thought<g ref="char:punc">▪</g>
+            </l>
+            <l>The Poet writ to Noble <hi>Piso,</hi> there,</l>
+            <l>A Noble <hi>Piso</hi> do's instruct us here,</l>
+            <l>Gives us a pattern in his flowing Stile,</l>
+            <l>And with rich Precepts do's oblige our Isle,</l>
+            <l>
+               <hi>Brittain,</hi> whose Genious is in Verse exprest</l>
+            <l>Bold and sublime, but negligently drest;</l>
+            <l>
+               <pb facs="tcp:49758:4"/>
+               <hi>Horace</hi> will our superfluous Branches prune,</l>
+            <l>Give us new rules, and set our Harp in tune,</l>
+            <l>Direct us how, to back the winged Horse,</l>
+            <l>Favour his flight, and moderate his force;</l>
+            <l>Tho' Poets may of Inspiration boast.</l>
+            <l>Their Rage ill govern'd, in the Clouds is lost;</l>
+            <l>He that proportion'd wonders can disclose,</l>
+            <l>At once his Fancy and his Judgment shows;</l>
+            <l>Chast moral Writing we may learn from hence</l>
+            <l>Neglect of which no wit can recompence;</l>
+            <l>The Fountain which from <hi>Helicon</hi> proceeds,</l>
+            <l>That sacred Stream should never water weeds,</l>
+            <l>Nor make the Crop of thorns and thistles grow</l>
+            <l>Which Envy or perverted Nature sow;</l>
+            <l>Well-sounding Verses are the Charm we use,</l>
+            <l>Heroick thoughts, and vertue to infuse;</l>
+            <l>Things of deep sence we may in Prose unfold,</l>
+            <l>But they move more, in lofty numbers told;</l>
+            <l>
+               <pb facs="tcp:49758:4"/>
+By the loud Trumpet, which our Courage aids,</l>
+            <l>We learn that sound, as well as sence, persuades,</l>
+            <l>The Muse's friend, unto himself severe,</l>
+            <l>With silent pitty looks on all that Err,</l>
+            <l>But where a brave, a publick Action shines</l>
+            <l>That he rewards with his Immortal Lines;</l>
+            <l>Whether it be in Counsel or in Fight,</l>
+            <l>His Countrey's Honour is his chief delight;</l>
+            <l>Praise of great Acts, he scatters as a seed,</l>
+            <l>Which may the like, in coming Ages breed:</l>
+            <l>Here taught the sate of Verses, always priz'd</l>
+            <l>With admiration, or as much despis'd,</l>
+            <l>Men will be less indulgent to their fauts</l>
+            <l>And patience have to cultivate their thoughts;</l>
+            <l>Poets lose half the praise they should have got,</l>
+            <l>Could it be known, what they discreetly blot</l>
+            <l>Finding new words, that to the ravish't Ear</l>
+            <l>May like the Language of the Gods appear,</l>
+            <l>
+               <pb facs="tcp:49758:5"/>
+Such as of old, wise Bards employ'd, to make</l>
+            <l>Unpollish't men their wild retreats forsake,</l>
+            <l>Law-giving-Heroes, fam'd for taming Bru'ts,</l>
+            <l>And raising Cities with their Charming Lutes,</l>
+            <l>For rudest minds, with Harmony were caught,</l>
+            <l>And civil Life was by the Muses taught,</l>
+            <l>So wandring Bees would perish in the Air,</l>
+            <l>Did not a sound, proportion'd to their Ear,</l>
+            <l>Appease their rage, invite them to the Hive,</l>
+            <l>Unite their force, and teach them how to thrive</l>
+            <l>To rob the flowers, and to forbear the spoil,</l>
+            <l>Preserv'd in Winter by their Summers toyl,</l>
+            <l>They give us food, which may with Nectar Vie,</l>
+            <l>And Wax that do's, the absent Sun, supply.</l>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:49758:5"/>
+            <head>HORACE
+OF THE
+Art of Poetry<g ref="char:punc">▪</g>
+            </head>
+            <lg>
+               <l>IF in a Picture (<hi>Piso</hi>) you should see,</l>
+               <l>A handsome Woman with a Fishes Tail,</l>
+               <l>Or a Man's Head upon a Horses Neck,</l>
+               <l>Or Limbs of Beasts of the most different kinds,</l>
+               <l>Cover'd with Feathers of all sorts of Birds,</l>
+               <l>Wou'd you not laugh, and think the Painter mad?</l>
+               <l>Trust me that Book is as ridiculous,</l>
+               <l>
+                  <pb n="2" facs="tcp:49758:6"/>
+Whose incoherent Stile (like sick mens Dreams)</l>
+               <l>Varies all Shapes, and mixes all Extreams,</l>
+               <l>Painters and Poets have been still allow'd,</l>
+               <l>Their Pencils, and their Fancies unconfin'd,</l>
+               <l>This priviledge we freely give and take;</l>
+               <l>But Nature, and the Common-Laws of Sence,</l>
+               <l>Forbid to reconcile <hi>Antipathys,</hi>
+               </l>
+               <l>Or make a Snake ingender with a Dove,</l>
+               <l>And hungry Tygers court the tender Lambs;</l>
+               <l>Some that at first have promis'd mighty things,</l>
+               <l>Applaud themselves, when a few florid Lines</l>
+               <l>Shine through th' insipid dulness of the rest;</l>
+               <l>Here they describe a Temple, or a Wood,</l>
+               <l>Or Streams that through delightful Medows run,</l>
+               <l>And there the Rainbow, or the rapid <hi>Rhyne,</hi>
+               </l>
+               <l>But they misplace them all, and crowd them in,</l>
+               <l>And are as much to seek in other things,</l>
+               <l>
+                  <pb n="3" facs="tcp:49758:6"/>
+As he that only can design a Tree,</l>
+               <l>Would be to draw a Shipwrack or a Storm;</l>
+               <l>When you begin with so much Pomp and Show,</l>
+               <l>Why is the end so little and so low?</l>
+               <l>Be what you will, so you be still the same.</l>
+               <l>Most Poets fall into the grossest faults,</l>
+               <l>Deluded by a seeming Excellence:</l>
+               <l>By striving to be short, they grow Obscure,</l>
+               <l>And when they would write smoothly they want strength,</l>
+               <l>Their Spirits sink; while others that affect,</l>
+               <l>A lofty Stile, swell to a Tympany;</l>
+               <l>Some timerous wretches start at every blast,</l>
+               <l>And fearing Tempests, dare not leave the Shore;</l>
+               <l>Others in love with wild variety,</l>
+               <l>Draw Boars in Waves, and Dolphins in a Wood;</l>
+               <l>Thus fear of Erring, joyn'd with want of Skill,</l>
+               <l>Is a most certain way of Erring still.</l>
+               <l>
+                  <pb n="4" facs="tcp:49758:7"/>
+The meanest Workman in the AEmilian Square,</l>
+               <l>May grave the Nails, or imitate the Hair,</l>
+               <l>But cannot finish what he hath begun;</l>
+               <l>What is there more ridiculous than he?</l>
+               <l>For one or two good fcatures in a Face</l>
+               <l>Where all the rest are scandalously ill,</l>
+               <l>Make it but more remarkably deform'd.</l>
+               <l>Let Poets march their Subject to their strength,</l>
+               <l>And often try what weight they can support,</l>
+               <l>And what their Shoulders are too weak to bear,</l>
+               <l>After a serious and judicious choice,</l>
+               <l>Method and Eloquence will never fail;</l>
+               <l>As well the Force as Ornament of Verse,</l>
+               <l>Consists in choosing a fit time for things,</l>
+               <l>And knowing when a Muse should be indulg'd</l>
+               <l>In her full flight, and when she should be curb'd:</l>
+               <l>Words must be chosen, and be plac'd with skill,</l>
+               <l>
+                  <pb n="5" facs="tcp:49758:7"/>
+You gain your point, if your industrious Art</l>
+               <l>Can make unusual words easy and plain,</l>
+               <l>But (if you write of things Abstruse or New)</l>
+               <l>Some of your own Inventing may be us'd,</l>
+               <l>(So it be seldom and discreetly done)</l>
+               <l>But he that hopes to have new Words allow'd,</l>
+               <l>Must so derive them from the Graecian Spring,</l>
+               <l>As they may seem to flow without constraint;</l>
+               <l>Can an Impartial Reader discommend</l>
+               <l>In <hi>Varus,</hi> or in <hi>Virgil</hi> what he likes?</l>
+               <l>In <hi>Plautus</hi> or <hi>Caecilius?</hi> Why should I</l>
+               <l>Be envy'd for the little I Invent,</l>
+               <l>When <hi>Ennius</hi> and <hi>Cato</hi>'s copious Stile</l>
+               <l>Have so enrich'd, and so adorn'd our Tongue?</l>
+               <l>Men ever had, and ever will have leave,</l>
+               <l>To coin new words well suited to the age:</l>
+               <l>Words are like Leaves, some wither every year,</l>
+               <l>
+                  <pb n="6" facs="tcp:49758:8"/>
+And every year a younger Race succeeds;</l>
+               <l>Death is a Tribute all things owe to Fate;</l>
+               <l>The <hi>Lucrine</hi> Mole (<hi>Caesars</hi> stupendous Work)</l>
+               <l>Protects our Navys from the raging North;</l>
+               <l>And (since <hi>Cethegus</hi> drain'd the <hi>Pontin Lake</hi>)</l>
+               <l>We Plow and Reap where former ages row'd.</l>
+               <l>See how the <hi>Tyber</hi> (whose licentious Waves</l>
+               <l>So often overflow'd the neighbouring Fields,</l>
+               <l>Now runs a smooth and inoffensive Course,</l>
+               <l>Confin'd by our great Emperors Command;</l>
+               <l>Yet this and they, and all will be forgot;</l>
+               <l>Why then should Words challenge Eternity,</l>
+               <l>When greatest Men, and greatest Actions dye?</l>
+               <l>Use may revive the obsoletest Words,</l>
+               <l>And banish those that now are most in Vogue;</l>
+               <l>Use is the Judge, the Law, and rule of Spe<gap reason="illegible: under-inked" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ch.</l>
+               <l>
+                  <hi>Homer</hi> first taught the World in Epick Verse</l>
+               <l>
+                  <pb n="7" facs="tcp:49758:8"/>
+(To write of great Commanders, and of Kings,</l>
+               <l>Elegies were at first design'd for Grief,</l>
+               <l>Though now we use them to express our Joy)<g ref="char:punc">▪</g>
+               </l>
+               <l>But to whose Muse we owe that sort of Verse,</l>
+               <l>Is Undecided by the Men of Skill.</l>
+               <l>Rage with Jambick's, arm'd <hi>Archilochus<g ref="char:punc">▪</g>
+                  </hi>
+               </l>
+               <l>Numbers for Dialogue and action fit</l>
+               <l>And favourites of the Dramatick Muse.</l>
+               <l>Fierce, lofty, Rapid, whose commanding sound</l>
+               <l>Awes the tumultuous noises of the Pit,</l>
+               <l>And whose peculiar Province is the Stage.</l>
+               <l>Gods, Heroes, Conquerers, Olympick Crowns<g ref="char:punc">▪</g>
+               </l>
+               <l>Loves pleasing Cares, and the free joys of Wine,</l>
+               <l>Are proper subjects for the Lyrick Song.</l>
+               <l>Why is he honour'd with a Poets Name,</l>
+               <l>Who neither knows, nor would observe a Rule?</l>
+               <l>And chuses to be Ignorant and Proud,</l>
+               <l>
+                  <pb n="8" facs="tcp:49758:9"/>
+Rather than own his Ignorance, and Learn,</l>
+               <l>Let every thing have its due Place and Time.</l>
+               <l>A Comick Subject loves an Humble Verse,</l>
+               <l>
+                  <hi>Thyestes</hi> scorns a low and Comick Stile.</l>
+               <l>Yet Comedy sometimes may raise her voice,</l>
+               <l>And <hi>Chremes</hi> be allow'd to foam and rail:</l>
+               <l>Tragedians too, lay by their State to grieve;</l>
+               <l>
+                  <hi>Peleus</hi> and <hi>Telephus</hi> exil'd and poor,</l>
+               <l>Forget their swelling, and Gygantick Words.</l>
+               <l>He that would have Spectators share his Grief,</l>
+               <l>Must write not only well, but movingly,</l>
+               <l>And raise Mens Passions to what height he will,</l>
+               <l>We Weep and Laugh as we see others doe,</l>
+               <l>He only makes me sad who shews the way,</l>
+               <l>And first is sad himself, then <hi>(Telephus)</hi>
+               </l>
+               <l>I feel the weight of your Calamities,</l>
+               <l>And fancy all your miseries my Own,</l>
+               <l>
+                  <pb n="9" facs="tcp:49758:9"/>
+But if you Act them ill, I sleep or laugh:</l>
+               <l>Your looks must needs alter, as your Subject does</l>
+               <l>From kind to fierce, from wanton to severe,</l>
+               <l>For Nature forms, and softens us within,</l>
+               <l>And writes our fortunes changes in our face.</l>
+               <l>Pleasure enchants, impetuous Rage transports,</l>
+               <l>And grief <unclear>deiects</unclear>, and wrings the tortur'd Soul,</l>
+               <l>And these are all interpreted by Speech;</l>
+               <l>But he whose words and fortunes disagree,</l>
+               <l>Absurd, unpitied growes a publick <unclear>Jest</unclear>.</l>
+               <l>Observe the Characters of those that speak,</l>
+               <l>Whether an honest Servant, or a Cheat<g ref="char:punc">▪</g>
+               </l>
+               <l>Or one whose blood boils in his youthful, veins<g ref="char:punc">▪</g>
+               </l>
+               <l>Or a grave Matron<g ref="char:punc">▪</g> or a busie Nurse,</l>
+               <l>Extorting Merchants, carefull Husbandmen,</l>
+               <l>
+                  <hi>Argives,</hi> or <hi>Thebans, Asians</hi> or <hi>Greeks.</hi>
+               </l>
+               <l>Follow Report, or feign coherent things,</l>
+               <l>
+                  <pb n="10" facs="tcp:49758:10"/>
+Describe <hi>Achilles,</hi> as <hi>Achilles</hi> was,</l>
+               <l>Impatient, rash, inexorable, proud,</l>
+               <l>Scorning all Judges, and all Law but Arms;</l>
+               <l>
+                  <hi>Medaea</hi> must be all Revenge and Blood,</l>
+               <l>
+                  <hi>Ino</hi> all Tears, <hi>Ixion</hi> all deceit,</l>
+               <l>
+                  <hi>Io</hi> must wander, and <hi>Orestes</hi> mourn:</l>
+               <l>If your bold Muse dare tread unbeaten Paths,</l>
+               <l>And bring new Characters upon the stage,</l>
+               <l>Be sure you keep them up to their first height.</l>
+               <l>New Subjects are not easily explain'd,</l>
+               <l>And you had better chuse a well known Theam,</l>
+               <l>Than trust to an Invention of your own;</l>
+               <l>For what originally others writ,</l>
+               <l>May be so well disguis'd, and so improv'd,</l>
+               <l>That with some Justice it may pass for yours<g ref="char:punc">▪</g>
+               </l>
+               <l>But then you must not Copy trivial things,</l>
+               <l>Nor word for word too faithfully Translate,</l>
+               <l>
+                  <pb n="11" facs="tcp:49758:10"/>
+Nor (as some servile Imitators do)</l>
+               <l>Prescribe at first such strict uneasie rules<g ref="char:punc">▪</g>
+               </l>
+               <l>As they must ever slavishly observe,</l>
+               <l>Or all the laws of decency renounce:</l>
+               <l>Begin not as th' old Poetaster did,</l>
+               <l>(Troys <hi>famous War, and</hi> Priams <hi>Fate, I sing</hi>)</l>
+               <l>In what will all this Ostentation end?</l>
+               <l>The laboring mountain scarce brings forth a mouse<g ref="char:punc">▪</g>
+               </l>
+               <l>How far is this from the <hi>Meonian</hi> Stile?</l>
+               <l>Muse, speak the Man, who since the siege of Troy,</l>
+               <l>So many Towns, such change of Manners saw.</l>
+               <l>One with a flash begins, and ends in smoak,</l>
+               <l>The other out of smoak brings glorious light,</l>
+               <l>And (without raising Expectation high)</l>
+               <l>Surprizes us with darling miracles,</l>
+               <l>The bloody <hi>Lestrygons</hi> inhumane Feasts,</l>
+               <l>With all the Monsters, of the Land and Sea<g ref="char:punc">▪</g>
+               </l>
+               <l>
+                  <pb n="12" facs="tcp:49758:11"/>
+How <hi>Scylla</hi> bark'd, and <hi>Polyphemus</hi> roard:</l>
+               <l>He doth not trouble Us with <hi>Leda</hi>'s Eggs,</l>
+               <l>When he begins to write the <hi>Trojan</hi> War;</l>
+               <l>Nor writing the return of <hi>Diomed,</hi>
+               </l>
+               <l>Go back as far as <hi>Meleagers</hi> Death:</l>
+               <l>Nothing is idle, each judicious Line</l>
+               <l>Insensibly acquaints Us with the Plot;</l>
+               <l>He chooses only what he can improve,</l>
+               <l>And Truth and Fiction are so aptly mix'd</l>
+               <l>That all seems Uniform, and of a piece.</l>
+               <l>Now hear what every Auditor expects;</l>
+               <l>If you intend that he should stay to hear</l>
+               <l>The Epilogue, and see the Curtain fall;</l>
+               <l>Mind how our tempers alter with our years,</l>
+               <l>And by those Rules form all your Characters:</l>
+               <l>One that hath newly learn'd to speak and go,</l>
+               <l>Loves childish Plays, is soon provok'd and pleas'd,</l>
+               <l>
+                  <pb n="13" facs="tcp:49758:11"/>
+And changes every hour his wavering mind.</l>
+               <l>A Youth that first casts off his Tutors yoke,</l>
+               <l>Loves Horses, Hounds, and Sports, and Exercise,</l>
+               <l>Prone to all Vice, impatient of Reproof,</l>
+               <l>Proud, careless, fond, inconstant, and profuse<g ref="char:punc">▪</g>
+               </l>
+               <l>Gain and Ambition rule our riper years,</l>
+               <l>And make us Slaves to interest and power<g ref="char:punc">▪</g>
+               </l>
+               <l>Old Men are only walking Hospitals,</l>
+               <l>Where all defects, and all diseases croud</l>
+               <l>With restless pain, and more tormenting fear,</l>
+               <l>Lazy, morose, full of delays and hopes<g ref="char:punc">▪</g>
+               </l>
+               <l>Opprest with Riches which they dare not use;</l>
+               <l>Ill-natur'd censors of the present Age,</l>
+               <l>And fond of all the follies of the past<g ref="char:punc">▪</g>
+               </l>
+               <l>Thus all the treasure of our flowing Years,</l>
+               <l>Our ebb of life for ever takes away.</l>
+               <l>Boys must not have the ambitious <unclear>cares</unclear> of Men<g ref="char:punc">▪</g>
+               </l>
+               <l>
+                  <pb n="14" facs="tcp:49758:12"/>
+Nor Men the weak anxieties of Age<g ref="char:punc">▪</g>
+               </l>
+               <l>Some things are acted, others only told;</l>
+               <l>But what we hear moves less than what we see<g ref="char:punc">▪</g>
+               </l>
+               <l>Spectators only have their Eyes to trust,</l>
+               <l>But Auditors must trust their Ears and you;</l>
+               <l>Yet there are things improper for a Scene,</l>
+               <l>Which men of Judgment only will relate;</l>
+               <l>
+                  <hi>Maedoea</hi> must not draw her murthering knife,</l>
+               <l>And spill her childrens blood upon the Stage,</l>
+               <l>Nor <hi>
+                     <unclear>Atreus</unclear>
+                  </hi> there his horrid Feast prepare,</l>
+               <l>
+                  <hi>Cadmus</hi>'s, and <hi>Pr<gap reason="illegible: indecipherable" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>g<gap reason="illegible: blotted" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es Metamorphosis</hi>
+               </l>
+               <l>(She to a Swallow turn'd, he to a Snake)</l>
+               <l>And whatsoever contradicts my Sense,</l>
+               <l>I hate to see, <unclear>and</unclear> never can believe,</l>
+               <l>Five Acts are the just measure of a Play<g ref="char:punc">▪</g>
+               </l>
+               <l>Never presume to make a God appear<g ref="char:punc">▪</g>
+               </l>
+               <l>But for a business worthy of a God,</l>
+               <l>
+                  <pb n="15" facs="tcp:49758:12"/>
+And in one Scene no more than three should speak.</l>
+               <l>A <hi>Chorus</hi> should supply what Action wants,</l>
+               <l>And hath a generous and manly part;</l>
+               <l>Bridles wild rage, loves Rigid honesty,</l>
+               <l>And strict Observance of impartial Laws,</l>
+               <l>Sobriety, security and peace,</l>
+               <l>And begs the Gods to turn blind fortunes Wheel,</l>
+               <l>To raise the Wretched, and pull down the Proud.</l>
+               <l>(But nothing must be Sung between the Acts<g ref="char:punc">▪</g>
+               </l>
+               <l>But what some way conduces to the Plot.)</l>
+               <l>First the shrill sound of a small rural Pipe,</l>
+               <l>(Not loud like Trumpets, nor adorn'd as now)</l>
+               <l>Was entertainment for the Infant Stage.</l>
+               <l>And pleas'd the thin and bashfull Audience,</l>
+               <l>Of our well meaning frugal Ancestors<g ref="char:punc">▪</g>
+               </l>
+               <l>But when our Walls and limits were enlarg'd,</l>
+               <l>And Men (grown wanton by prosperity)</l>
+               <l>
+                  <pb n="16" facs="tcp:49758:13"/>
+Studied new Arts of Luxury and Ease,</l>
+               <l>The Verse, the Musick, and the Scene's improv'd;</l>
+               <l>For how should ignorance be judge of Wit,</l>
+               <l>Or men<g ref="char:punc">▪</g> of Sence applaud the Jests of Fools?</l>
+               <l>Then came rich Cloths and gracefull Action in,</l>
+               <l>Then instruments were taught more moving notes,</l>
+               <l>And Eloquence with all her pomp and charms</l>
+               <l>Foretold as useful and sententious Truths<g ref="char:punc">▪</g>
+               </l>
+               <l>As those deliver'd by the <hi>Delphick</hi> God:</l>
+               <l>The first Tragedians, found that serious Stile</l>
+               <l>Too grave for their Uncultivated age,</l>
+               <l>And so brought wild and naked Satyrs in,</l>
+               <l>(Whose motion, words, and shape were all a Farce)</l>
+               <l>(As oft as decency would give them leave)</l>
+               <l>Because the mad ungovernable Rout,</l>
+               <l>Full of confusion, and the fumes of Wine,</l>
+               <l>Lov'd such Variety and antick Tricks.</l>
+               <l>
+                  <pb n="17" facs="tcp:49758:13"/>
+But then they did not wrong themselves so much,</l>
+               <l>To make a God, a Hero, or a King,</l>
+               <l>(Stripp'd of his golden Crown and purple Robe)</l>
+               <l>Descend to a Mechanick Dialect,</l>
+               <l>Nor (to avoid such meanness) soaring high</l>
+               <l>With empty sound, and aiery notions fly;</l>
+               <l>For, Tragedy should blush as much to stoop</l>
+               <l>To the low Mimmick follies of a Farce,</l>
+               <l>As a grave Matron, would to dance with Girles:</l>
+               <l>You must not think that a Satyrick Stile</l>
+               <l>Allows of scandalous and brutish Words,</l>
+               <l>Or the confounding of your Characters.</l>
+               <l>Begin with Truth, then give Invention scope,</l>
+               <l>And if your Stile be natural and smooth,</l>
+               <l>All men will trie, and hope to write as well;</l>
+               <l>And (not without much pains) be undeceiv'd.</l>
+               <l>So much good Method and<g ref="char:punc">▪</g> Connexion may</l>
+               <l>
+                  <pb n="18" facs="tcp:49758:14"/>
+Improve the common and the plainest things.</l>
+               <l>A Satyr that comes staring from the Woods,</l>
+               <l>Must not at first speak like an Orator;</l>
+               <l>But, though his language should not be refin'd,</l>
+               <l>
+                  <gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t must not be Obscene, and Impudent,</l>
+               <l>The better Sort abhors scurrility,</l>
+               <l>And often censures, what the Rabble likes.</l>
+               <l>Unpolish'd Verses pass with many Men,</l>
+               <l>And <hi>Rome</hi> is too Indulgent in that Point;</l>
+               <l>But then, to write at a loose rambling rate,</l>
+               <l>In hope the World will wink at all our faults<g ref="char:punc">▪</g>
+               </l>
+               <l>Is such a rash, ill-grounded confidence,</l>
+               <l>As men may pardon, but will never praise<g ref="char:punc">▪</g>
+               </l>
+               <l>Consider well the Greek Originals,</l>
+               <l>Read them by day, and think of them by night;</l>
+               <l>But <hi>Plautus</hi> was admir'd in former time.</l>
+               <l>With too much patience (not to call it worse)</l>
+               <l>
+                  <pb n="19" facs="tcp:49758:14"/>
+Hi<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> harsh, unequal Verse, was Musick then,</l>
+               <l>And Rudeness had the Priviledge of Wit:</l>
+               <l>When <hi>Thespis</hi> first expos'd the Tragick Muse,</l>
+               <l>Rude were the Actors, and a Cart the Scene,</l>
+               <l>Where ghastly faces stain'd with lees of Wine,</l>
+               <l>Frighted the Children, and amus'd the Croud;</l>
+               <l>This <hi>AEschilus</hi> (with indignation) saw,</l>
+               <l>And built a Stage, found out a decent dress,</l>
+               <l>Brought Vizards in (a Civiler disguise)</l>
+               <l>And taught men how to speak, and how to Act;</l>
+               <l>Next Comedy appear'd with great applause,</l>
+               <l>Till her licentious, and abusive Tongue,</l>
+               <l>Wakened the Magistrates Coercive power,</l>
+               <l>And forc'd it to suppress her Insolence;</l>
+               <l>Our Writers have attempted every way,</l>
+               <l>And they deserve our praise, whose daring Muse,</l>
+               <l>Disdain'd to be beholden to the <hi>Greeks,</hi>
+               </l>
+               <l>
+                  <pb n="20" facs="tcp:49758:15"/>
+And found fit Subjects for her Verse at home.</l>
+               <l>Nor should we be less famous for our Wit,</l>
+               <l>Then for the force of our Victorious Arms;</l>
+               <l>But that the time and care, that are requir'd</l>
+               <l>To overlook, and file, and polish well,</l>
+               <l>Fright Poets from that necessary Toyl.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Democritus</hi> was so in love with wit,</l>
+               <l>And some Mens Natural impulse to write,</l>
+               <l>That he despis'd the help of Art and Rules,</l>
+               <l>And thought none Poets till their Brains were crack'd;</l>
+               <l>And this hath so Intoxicated some</l>
+               <l>That (to appear incorrigibly mad)</l>
+               <l>They cleanliness and Company renounce;</l>
+               <l>For Lunacy beyond the Cure of art,</l>
+               <l>With a long Beard, and Ten long dirty Nails,</l>
+               <l>Pass currant for <hi>Apollo</hi>'s Livery.</l>
+               <l>
+                  <pb n="21" facs="tcp:49758:15"/>
+O my unhappy Stars! If in the Spring,</l>
+               <l>Some Physick had not cur'd me of the spleen,</l>
+               <l>None would have writ with more success than I;</l>
+               <l>But I am satisfied to keep my sense,</l>
+               <l>And only serve to whet that Wit in you,</l>
+               <l>To which I willingly resign my claim.</l>
+               <l>Yet without writing I may teach to write,</l>
+               <l>Tell what the duty of a Poet is;</l>
+               <l>Wherein his Wealth and Ornament consist,</l>
+               <l>And how he may be form'd, and how improv'd,</l>
+               <l>Whats fit, what not, what excellent or ill,</l>
+               <l>Sound judgment is the ground of Writing well:</l>
+               <l>And when Philosophy directs your choice</l>
+               <l>To proper Subjects rightly understood,</l>
+               <l>Words from your Pen will naturally flow;</l>
+               <l>He only gives the proper Characters,</l>
+               <l>Who knows the duty of all Ranks of Men,</l>
+               <l>
+                  <pb n="22" facs="tcp:49758:16"/>
+And what we owe to Countrey, Parents, Friends,</l>
+               <l>How Judges, and how Senators should act,</l>
+               <l>And what becomes a General to do;</l>
+               <l>Those are the likest Copies which are drawn,</l>
+               <l>By the Original of human life.</l>
+               <l>Sometimes in rough and undigested Plays</l>
+               <l>We meet with such a lucky Character,</l>
+               <l>As being humor'd right and well persu'd,</l>
+               <l>Succeeds much better, than the shallow Verse,</l>
+               <l>And chiming Trifles, of more studious Pens;</l>
+               <l>
+                  <hi>Greece</hi> had a Genious, <hi>Greece</hi> had Eloquence,</l>
+               <l>For her ambition and her end was Fame;</l>
+               <l>Our <hi>Roman</hi> Youth is bred another way,</l>
+               <l>And taught no arts but those of Usury;</l>
+               <l>And the glad Father glories in his Child,</l>
+               <l>When he can subdivide a Fraction:</l>
+               <l>Can Souls, who by their Parents from their birth</l>
+               <l>
+                  <pb n="23" facs="tcp:49758:16"/>
+Have been devoted thus to rust and gain,</l>
+               <l>Be capable of high and generous thoughts?</l>
+               <l>Can Verses writ by such an Author live?</l>
+               <l>But you (brave Youth) wise <hi>Numa</hi>'s worthy Heir,</l>
+               <l>Remember of what weight your Judgment is,</l>
+               <l>And never venture to commend a Book,</l>
+               <l>That has not pass'd all Judges and all Tests.</l>
+               <l>A Poet should instruct, or please, or both;</l>
+               <l>Let all your precepts be succinct and clear,</l>
+               <l>That ready wits may comprehend them soon,</l>
+               <l>And faithfull memories retain them long;</l>
+               <l>For superfluities are soon forgot.</l>
+               <l>Never be so conceited of your Parts,</l>
+               <l>To think you may persuade us what you please,</l>
+               <l>Or venture to bring in a Child alive,</l>
+               <l>That Canibals have murther'd and devour'd;</l>
+               <l>Old age explodes all but Morality;</l>
+               <l>Austerity offends aspiring Youths,</l>
+               <l>
+                  <pb n="24" facs="tcp:49758:17"/>
+But he that joyns instructions with delight,</l>
+               <l>Profit with pleasure, carries all the Votes;</l>
+               <l>These are the Volumes that enrich the Shops,</l>
+               <l>These pass with admiration through the World,</l>
+               <l>And bring their Author an Eternal fame.</l>
+               <l>Be not too rigidly Censorious,</l>
+               <l>A string may jarr in the best Masters hand,</l>
+               <l>And the most skilfull Archer miss his aim;</l>
+               <l>But in a Poem elegantly writ,</l>
+               <l>I will not quarrel with a slight mistake,</l>
+               <l>Such as our Natures frailty may excuse;</l>
+               <l>But he that hath been often told his fault,</l>
+               <l>And still persists, is as impertinent,</l>
+               <l>As a Musician that will always play,</l>
+               <l>And yet is always out at the same Note;</l>
+               <l>When such a positive abandon'd Fopp,</l>
+               <l>(Among his numerous Absurdities)</l>
+               <l>Stumbles upon some tolerable Lines,</l>
+               <l>
+                  <pb n="25" facs="tcp:49758:17"/>
+I fret to see them in such company,</l>
+               <l>And wonder by what Magick they came there.</l>
+               <l>But in long Works, Sleep will sometimes surprize,</l>
+               <l>
+                  <hi>Homer</hi> himself hath been observ'd to nodd.</l>
+               <l>
+                  <hi>Poems</hi> (like Pictures) are of different Sorts,</l>
+               <l>Some better at a distance, others near,</l>
+               <l>Some love the dark, some chuse the clearest light,</l>
+               <l>And boldly challenge the most piercing Eye,</l>
+               <l>Some please for once, some will for ever please;</l>
+               <l>But <hi>Piso</hi> (tho your own Experience,</l>
+               <l>Join'd with your Fathers precepts make you wise)</l>
+               <l>Remember this as an important truth;</l>
+               <l>Some things admit of Mediocrity,</l>
+               <l>A Counsellor or Pleader at the Bar,</l>
+               <l>May want <hi>Messalas</hi> powerfull Eloquence,</l>
+               <l>Or be less read than deep <hi>Cassellius;</hi>
+               </l>
+               <l>Yet this indifferent Lawyer is esteem'd;</l>
+               <l>But no authority of Gods nor Men,</l>
+               <l>
+                  <pb n="26" facs="tcp:49758:18"/>
+Allow of any mean in Poesie.</l>
+               <l>As an ill consort, and a course perfume,</l>
+               <l>Disgrace the Delicacy of a Feast,</l>
+               <l>And might with more discretion have been spar'd,</l>
+               <l>So Poesie, whose end is to delight,</l>
+               <l>Admits of no Degrees, but must be still,</l>
+               <l>Sublimely good, or despicably ill.</l>
+               <l>In other things men have some reason left;</l>
+               <l>And one that cannot Dance, or Fence, or Run;</l>
+               <l>Despairing of success, forbears to Try;</l>
+               <l>But all (without consideration) write;</l>
+               <l>Some thinking that th' omnipotence of Wealth</l>
+               <l>Can turn them into Poets when they please.</l>
+               <l>But <hi>Piso,</hi> you are of too quick a sight</l>
+               <l>Not to discern which way your Talent lies,</l>
+               <l>Or vainly struggle with your Genius;</l>
+               <l>Yet if it ever be your fate to Write,</l>
+               <l>Let your Productions pass the strictest Hands,</l>
+               <l>
+                  <pb n="27" facs="tcp:49758:18"/>
+Mine and your Fathers, and not see the light,</l>
+               <l>Till time and care have ripned every Line.</l>
+               <l>What you keep by you, you may change, &amp; mend,</l>
+               <l>But words once spoke can never be recall'd.</l>
+               <l>
+                  <hi>Orpheus</hi> inspir'd by more than humane power,</l>
+               <l>Did not (as Poets feign) tame savage Beasts,</l>
+               <l>But Men as lawless, and as wild as they,</l>
+               <l>And first disuaded them from rage and bloud;</l>
+               <l>Thus when <hi>Amphion</hi> built the <hi>Theban</hi> Wall,</l>
+               <l>They feign'd the Stones obey'd his Magick Lute;</l>
+               <l>Poets the first Instructers of Mankind,</l>
+               <l>Brought all things to their proper, native Use;</l>
+               <l>Some they appropriated to the Gods,</l>
+               <l>And some to publick, some to private ends:</l>
+               <l>Promiscuous love by marriage was restrain'd</l>
+               <l>Cities were built, and usefull Laws were made;</l>
+               <l>So ancient is the pedigree of Verse,</l>
+               <l>And so divine a Poets function.</l>
+               <l>
+                  <pb n="28" facs="tcp:49758:19"/>
+Then <hi>Homer</hi>'s and <hi>Tyrtaeus</hi> martial Muse,</l>
+               <l>Waken'd the World, and sounded loud Alarms<g ref="char:punc">▪</g>
+               </l>
+               <l>To Verse we owe the Sacred Oracles,</l>
+               <l>And our best Precepts of Morality;</l>
+               <l>Some have by Verse obtain'd the love of Kings,</l>
+               <l>(Who, with the Muses, ease their wearied minds)</l>
+               <l>Then blush not Noble <hi>Piso</hi> to protect,</l>
+               <l>What Gods inspire, and Kings delight to hear.</l>
+               <l>Some think that Poets may be form'd by Art,</l>
+               <l>Others maintain, that Nature makes them so;</l>
+               <l>I neither see what Art without a vein,</l>
+               <l>Nor wit without the help of art can do,</l>
+               <l>But mutually they need each others aid.</l>
+               <l>He that intends to gain th' <hi>Olympick</hi> Prize,</l>
+               <l>Must use himself to hunger heat, and cold,</l>
+               <l>Take leave of Wine, and the soft joys of Love;</l>
+               <l>And no Musician dares pretend to skill,</l>
+               <l>Without a great Expence of time and pains;</l>
+               <l>
+                  <pb n="29" facs="tcp:49758:19"/>
+But every little busie Scribler now</l>
+               <l>Swells with the praises which he gives himself;</l>
+               <l>And taking Sanctuary in the Croud,</l>
+               <l>Brags of his impudence, and scorns to mend<g ref="char:punc">▪</g>
+               </l>
+               <l>A wealthy Poet, takes more pains to hire,</l>
+               <l>A flatring Audience, than poor Tradesmen do</l>
+               <l>To persuade Customers to buy their goods.</l>
+               <l>Tis hard to find a Man of great Estate,</l>
+               <l>That can distinguish flatterers from Friends.</l>
+               <l>Never delude your self, nor read your Book</l>
+               <l>Before a brib'd and fawning Auditor;</l>
+               <l>For hee'l commend and feign an Extasie,</l>
+               <l>Grow pale or weep, do any thing to please;</l>
+               <l>True friends appear less mov'd than Counterfeit;</l>
+               <l>As men that truly grieve at Funerals,</l>
+               <l>Are not so loud, as those that cry for hire;</l>
+               <l>Wise were the Kings, who never chose a Friend</l>
+               <l>Till with full Cups they had unmask'd his Soul,</l>
+               <l>
+                  <pb n="30" facs="tcp:49758:20"/>
+And seen the bottom of his deepest thoughts;</l>
+               <l>You cannot arm your self with too much care</l>
+               <l>Against the smiles of a designing Knave.</l>
+               <l>
+                  <hi>Quintilius</hi> (if his advice were ask'd)</l>
+               <l>Would freely tell you what you should correct,</l>
+               <l>Or (if you could not) bid you blot it out,</l>
+               <l>And with more care supply the vacancy;</l>
+               <l>But if he found you fond, and obstinate</l>
+               <l>(And apter to defend than mend your faults)</l>
+               <l>With silenc leave you to admire your self,</l>
+               <l>And without Rival hugg your darling Book.</l>
+               <l>The prudent care of an Impartial friend,</l>
+               <l>Will give you notice of each idle Line,</l>
+               <l>Shew what sounds harsh, &amp; what wants ornament,</l>
+               <l>Or where it is too lavishly bestowed;</l>
+               <l>Make you explain all that he finds Obscure,</l>
+               <l>And with a strict Enquiry mark your faults;</l>
+               <l>Nor for these trifles fear to loose your love;</l>
+               <l>
+                  <pb n="31" facs="tcp:49758:20"/>
+Those things, which now seem frivolous, &amp; slight,</l>
+               <l>Will be of serious consequence to you,</l>
+               <l>When they have made you once Ridiculous.</l>
+               <l>A Mad Dogs foam, the infection of the Plague,</l>
+               <l>And all the Judgments of the angry Gods,</l>
+               <l>We are not all more heedfully to shun,</l>
+               <l>Then Poetasters in their raging fits,</l>
+               <l>Follow'd and pointed at by Fools and Boys;</l>
+               <l>But dreaded and proscrib'd by Men of sense:</l>
+               <l>If (in the Raving of a frantick Muse)</l>
+               <l>And minding more his Verses than his Way,</l>
+               <l>Any of these should drop into a Well,</l>
+               <l>Tho he might burst his lungs to call for help,</l>
+               <l>No Creature would assist or<g ref="char:punc">▪</g> pitty him,</l>
+               <l>But seem to think he fell on purpose in.</l>
+               <l>Hear how an old <hi>Sicilian</hi> Poet died;</l>
+               <l>
+                  <hi>Empedocles,</hi> mad to be thought a God,</l>
+               <l>In a cold fit leap'd into <hi>AEtna's</hi> flames.</l>
+               <l>
+                  <pb n="32" facs="tcp:49758:21"/>
+Give Poets leave to make themselves away,</l>
+               <l>Why should it be a greater sin to kill,</l>
+               <l>Then to keep Men alive against their will?</l>
+               <l>Nor was this chance; But a deliberate choice;</l>
+               <l>For if <hi>Empedocles</hi> were now reviv'd,</l>
+               <l>He would be at his Frolick once again,</l>
+               <l>And his pretensions to Divinity:</l>
+               <l>Tis hard to say whether for Sacrilege</l>
+               <l>Or Incest, or some more unhear'd of Crime</l>
+               <l>The Rhyming Fiend is sent into these Men,</l>
+               <l>But they are all most visibly possest,</l>
+               <l>And like a baited Bear, when he breaks loose,</l>
+               <l>Without distinction seize on all they meet;</l>
+               <l>None ever scap'd that came within their reach,</l>
+               <l>Sticking like Leaches till they burst with blood,</l>
+               <l>Without remorse insatiably they read,</l>
+               <l>And never leave till they have read Men dead.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
