@@ -1,0 +1,854 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A nevv booke of new conceits with a number of nouelties annexed threreunto. Whereof some be profitable, some necessary, some strange, none hurtful, and all delectable. By Thomas Iohnson.</title>
+            <author>Johnson, Thomas, d. 1644.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1630</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2007-10">2007-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A04588</idno>
+            <idno type="STC">STC 14708.5</idno>
+            <idno type="STC">ESTC S107400</idno>
+            <idno type="EEBO-CITATION">99843101</idno>
+            <idno type="PROQUEST">99843101</idno>
+            <idno type="VID">7811</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A04588)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7811)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 441:07)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A nevv booke of new conceits with a number of nouelties annexed threreunto. Whereof some be profitable, some necessary, some strange, none hurtful, and all delectable. By Thomas Iohnson.</title>
+                  <author>Johnson, Thomas, d. 1644.</author>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E[liz] A[llde] for Edward Wright and Cuthbert Wright,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1630.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A-B⁴.</note>
+                  <note>Formerly STC 14705.</note>
+                  <note>Identified as STC 14705 on UMI microfilm.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Riddles --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-12</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2006-10</date>
+            <label>Taryn Hakala</label>Sampled and proofread</change>
+         <change>
+            <date>2006-10</date>
+            <label>Taryn Hakala</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2007-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7811:1"/>
+            <pb facs="tcp:7811:1"/>
+            <p>A nevv Booke
+of new Conceits, with a
+number of Nouelties annexed
+thereunto.</p>
+            <p>Whereof ſome be profitable, ſome
+neceſſary, ſome ſtrange, none hurtful,
+and all delectable.</p>
+            <p>Laboris condimentum otium.</p>
+            <p>By THOMAS IOHNSON.</p>
+            <p>LONDON,
+<hi>Printed by</hi> E. A. <hi>for</hi> Edward Wright <hi>and</hi>
+Cuthbert Wright. 1630.</p>
+         </div>
+      </front>
+      <body>
+         <div type="TEXT">
+            <pb facs="tcp:7811:2"/>
+            <pb facs="tcp:7811:2"/>
+            <div type="part">
+               <head>A MOST PRETTY
+Conceit, to know if two
+goe to warfare, and the one bee
+taken priſoner, to tell the other of all
+his beeing, if hee may ſee him that is at
+liberty, and thus it is.</head>
+               <p>
+                  <seg rend="decorInit">I</seg>Magine that two Brothers
+went to warre, and before they
+entred battell, they concluded,
+that if any thing happened to
+the one, more then to the other,
+ſo that they were taken, or in
+priſon, that then the other that was impriſo<g ref="char:EOLhyphen"/>ned,
+ſhall declare his ſtate and abode by ſignes
+in this manner, out of the Chamber where he
+is, he ſhould take thrée firebrands, thrée bur<g ref="char:EOLhyphen"/>ning
+candes, or whatſoeuer was eaſieſt to bée
+gotten, and theſe thrée ſhall be in ſtead of all
+the letters.</p>
+               <p>One candle when it is ſhewed out alone,
+ſhould ſtand for the ſeuen letters, <hi>A. B. C. D. E.
+<pb facs="tcp:7811:3"/>
+F. G.</hi> two candles for <hi>H. I. K. L. M. N. O. P.
+Q. R. S. T. V. X. Y. Z.</hi> Now the variety is
+in the ſhewing of them: for if you ſhew one
+candle one time, it ſtandeth for <hi>A.</hi> if you ſhew
+it twice, it ſtandeth for <hi>B.</hi> if thrice, for <hi>C.</hi> if
+foure times, for <hi>D.</hi> if fiue times, for <hi>E.</hi> if ſixe
+times, for <hi>F.</hi> if ſeuen times, for <hi>G.</hi> In like
+manner if you ſhew out two candles once, it
+ſtandeth for <hi>H.</hi> if twice, for <hi>I.</hi> if thrice, for
+<hi>K,</hi> &amp;c.</p>
+               <p>And ſo likewiſe if that the thrée lights bée
+ſhewed once it noteth <hi>P.</hi> if twice, <hi>Q.</hi> if thrice<g ref="char:punc">▪</g>
+                  <hi>R.</hi> and ſo forth: As for example, if you would
+certifie that your Brother is taken, you muſt
+ſhew one light twiſe, then for <hi>R.</hi> thrée lights
+thrice, for <hi>O.</hi> two lights ſeuen times, for <hi>T.</hi>
+you muſt ſhew thrée lights fiue times, for <hi>H.</hi>
+two lights once, for <hi>E.</hi> one light fiue times, and then
+againe from <hi>R.</hi> thrée lights thrice, and
+then haue you the whole word Brother certi<g ref="char:EOLhyphen"/>fied,
+and ſo for the reſt, for it is ſet downe
+plaine and eaſie inough.</p>
+            </div>
+            <div type="part">
+               <head>To make White Roſes Red.</head>
+               <p>TAke your White Roſes and hold them o<g ref="char:EOLhyphen"/>uer
+the perfume or ſmoke of red Wine,
+and they will ſoone became red.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:3"/>
+               <head>Of the nature of Beaſts.</head>
+               <p>THe Oxe is conſtant, the Aſſe flow, the
+Horſe luſty, the Wolfe not to be made
+gentle, the Foxe crafty, the Piſmeare pain<g ref="char:EOLhyphen"/>full,
+the Bee ſparing, the Dogge prompt to
+friendſhip, the Lyon ſolitary, the Beare moſt
+ſluggiſh, the Panther moſt vehement.</p>
+            </div>
+            <div type="part">
+               <head>To know whether ground be fat, or not.</head>
+               <p>BEſprinkle a turfe, or clod of that earth
+with freſh water, and if it be clammy or
+glewing together, and ſticking to the fingers,
+aſſure your ſelfe there is fatneſſe enough in it.</p>
+            </div>
+            <div type="part">
+               <head>To make Wormes come out of any
+garden ground.</head>
+               <p>TAke walnut huſks while they are gréene,
+and infuſe them in water taken out of
+ſome pit, or ſéeth them, and with this water
+beſprinkle or moiſten your garden, &amp; you ſhall
+perceiue an infinite number of wormes to
+come out of the ground.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:4"/>
+               <head>Signes of long life.</head>
+               <p>TO vs crooked ſhouldred, large noſtrils, to
+haue aboue two and thirty teeth, ſhort
+fingred, thicke and cleare coloured.</p>
+            </div>
+            <div type="part">
+               <head>Signes of ſhort life.</head>
+               <p>TO be thinne toothed, to haue long fingers,
+and a leady colour.</p>
+               <p>Mans life is likened to an apple, which
+when it is full ripe, falleth off the trée of his
+owne accord, or elſe by tempeſt of winde or
+other caſualty is beat downe, before it com<g ref="char:EOLhyphen"/>meth
+to his due and perfect, ripeneſſe.</p>
+            </div>
+            <div type="part">
+               <head>A rule of the Chaldees to know
+whether a man or his wife
+ſhall dye firſt.</head>
+               <p>TAke both their names as they were bapti<g ref="char:EOLhyphen"/>zed,
+as neere as you can, and count the
+letters of both their names, whether they be
+euen or odde, for if they be euen, then the par<g ref="char:EOLhyphen"/>ty
+that is elder ſhall dye firſt, if the letters be
+odde, then the younger ſhall dye firſt.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:4"/>
+               <head>Whether a man ſhall liue or dye the yeere
+following.</head>
+               <p>LEt the party let one drop onely of his
+blood, either of his noſe or of his finger, or
+elſe-where, fall into a diſh full of faire water,
+and if it deſcend whole in one drop, without
+parting to the bottome of the diſh, it is a like<g ref="char:EOLhyphen"/>lihood
+that he may liue that yeere, elſe not.</p>
+               <p>Sed hoc nemini, niſi ſolùm Deo cognitum eſt.</p>
+               <p>The common people in <hi>Flanders,</hi> of long
+time held opinion, that if twelue men or
+twelue women went together to a banket,
+that one of thoſe twelue ſhould dye within one
+yéere after.</p>
+            </div>
+            <div type="part">
+               <head>To know what diſeaſe any ſicke body
+hath, by the day and houre of
+his falling ſicke.</head>
+               <p>IF any fall ſicke vpon a Sunday, ſay, and
+affirme, that his diſeaſe is of heate, and
+that of yellow choller, and that he is ſicke at
+the heart, and that all his members are grie<g ref="char:EOLhyphen"/>ued.
+And if it ſo happen that he fall ſicke in
+the houre of the Sunne, his body then is of an
+excéeding heate, and is pained at the heart and
+reines.</p>
+               <p>If he fall ſicke vpon a Munday, and in the
+<pb facs="tcp:7811:5"/>
+houre of the Moone, his diſeaſe is of cold and
+moiſture, and the paine lyeth on the right
+ſide, and without ſpeedy helpe he is in dan<g ref="char:EOLhyphen"/>ger.</p>
+               <p>On Tueſday he that falleth ſicke, labou<g ref="char:EOLhyphen"/>reth
+of ſuch diſeaſes as are hot and dry, as fe<g ref="char:EOLhyphen"/>uers,
+thoughts, burning in the reines. If in
+the houre of <hi>Mars,</hi> feuers feare, yellow chol<g ref="char:EOLhyphen"/>ler,
+ſignifieth the things euill to be at
+hand, &amp;c.</p>
+               <p>On Wedneſday the lungs are grieued, he
+draweth his breath with great paine, and all
+His whole body and ſenſes alſo are troubled ve<g ref="char:EOLhyphen"/>ry
+ſore. In the houre of <hi>Mercury</hi> he hath ſome
+ſwelling in his body, and paine in his loynes,
+being ſprung of a ſodaine great heate and ta<g ref="char:EOLhyphen"/>king
+cold after it.</p>
+               <p>On Thurſday, the diſeaſe is of aboundance
+of blood, of great heat of liuer, and vnder the
+Light about the right ſide, and that he hath a
+feuer. In the houre of <hi>Iupiter</hi> the liuer is not
+well, and the body is greatly troubled with a
+cold quiuering or ſhaking, yet the diſeaſe is
+not long to endure.</p>
+               <p>On Fryday, ſay the diſeaſe commeth of
+faintneſſe, or contraction about the loynes,
+reines, ſtones, backe-bone, and vnder the
+belly. If it be in the houre of <hi>Venus,</hi> ſaiy it
+is cold.</p>
+               <p>
+                  <pb facs="tcp:7811:5"/>
+On Saturday, ſay the diſeaſe is of cold and
+drineſſe, and that the diſeaſe is like to conti<g ref="char:EOLhyphen"/>nue
+long, ſprung in the milt, and that all their
+members are grieued, eſpecially the ſtomacke.
+In the houre of <hi>Saturne,</hi> the diſeaſe commeth
+by wind and cold, and the loynes and ſpléene
+are infected.</p>
+               <p>The houres of the Planets ſhall be ſet out
+in a Table for that purpoſe, God willing here<g ref="char:EOLhyphen"/>after.</p>
+            </div>
+            <div type="part">
+               <head>Why A. and E. be the formoſt vowels
+rather then the reſt.</head>
+               <p>A Is ſet formoſt, becauſe euery man-child
+when he commeth into this world, cryeth
+<hi>A, A, A,</hi> as who would ſay <hi>Adam, Adam.</hi>
+               </p>
+               <p>
+                  <hi>E</hi> Likewiſe, next vowell to it, for that eue<g ref="char:EOLhyphen"/>ry
+female child firſt cryeth <hi>E, E,</hi> as who would
+ſay, <hi>Eue, Eue.</hi>
+               </p>
+               <p>
+                  <hi>A</hi> Is thought to bee the firſt letter of the
+row, becauſe by it we may vnderſtand Trini<g ref="char:EOLhyphen"/>ty,
+and Unity: the Trinity in that there bee
+thrée lines, and the Unity, in that it is but one
+letter.</p>
+               <p>And for that cauſe, in old time they vſed
+thrée prickes at the latter end of the Croſſe
+row, and at the end of their bookes which the<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+cauſed children to call tittle, tittle, tittle: ſig<g ref="char:EOLunhyphen"/>nifying,
+<pb facs="tcp:7811:6"/>
+that as there were thrée pricks, <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+and thoſe thrée made but one ſtop, euen ſo there
+were thrée Perſons, and yet but one God.</p>
+            </div>
+            <div type="part">
+               <head>To cut a glaſſe aſunder.</head>
+               <p>TAke a wyre and buckle or bend the one
+end iuſt the compaſſe of the glaſſe, where
+you meane to haue it cut, then put the wyre
+into the fire, and make it red hot, and then put
+it ouer the glaſſe iuſt where it ſhould be cut,
+and it will cut it moſt finely.</p>
+            </div>
+            <div type="part">
+               <head>Whether a iourney ſhall be proſpe<g ref="char:EOLhyphen"/>rous
+or not.</head>
+               <p>ANd if thou wouldſt goe out of the towne,
+and wouldeſt know whether it be to
+thy profit or not, of the firſt man that thou
+meeteſt, after thou goeſt out of dores, aſke
+his name, and if his name begin with any of
+theſe letters, <hi>a, e, i, o, u,</hi> it betokeneth good
+profit, <hi>p, y, x,</hi> ioy, <hi>g, h, k,</hi> betokeneth heri<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>age,
+<hi>l, m, n, s,</hi> thou ſhalt not ſpéed, <hi>c, r, t,</hi>
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>ote harme, <hi>b, f,</hi> worſt of all. An old rule.</p>
+            </div>
+            <div type="part">
+               <head>Whether a woman with child be with
+a ſonne or a daughter.</head>
+               <p>MIlke a drop of a womans milke vpon
+your thombe, or into a diſh of water,
+<pb facs="tcp:7811:6"/>
+and if it ſpread abro<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d and continue not in
+the forme that it fell, it is a girle, if it con<g ref="char:EOLhyphen"/>tinue
+perfect without ſpreading, it is a boy.</p>
+            </div>
+            <div type="part">
+               <head>Pretty queſtions.</head>
+               <p>THrée Minſtrels there were, who traue<g ref="char:EOLhyphen"/>ling
+in the Country with their thrée,
+wiues, made a conuenant amongſt them<g ref="char:EOLhyphen"/>ſelues,
+that if any of their wiues were out of
+the preſence of her owne huſband, with either
+of the other twaine, it ſhould be lawfull for
+that party with whom ſhe was, to make her
+huſband a cuckold. This bargaine concluded
+on, within a day or two after, it chanced that
+they came to a riuer, ouer which they muſt
+néeds paſſe, but there was neither bridge nor
+boate that could carry them all ouer. At length
+they chanced vpon a little boate which would
+carry ouer but two at once, and there was no
+body to row but themſelues, ſo that one muſt
+néeds bring backe againe the boate for the o<g ref="char:EOLhyphen"/>ther.
+Now the queſtion is, how theſe might
+be brought ouer, and none of theſe be a Cuc<g ref="char:EOLhyphen"/>kold.</p>
+               <p>Anſwer.</p>
+               <p>LEt two of the wiues row themſelues o<g ref="char:EOLhyphen"/>uer,
+and then let one of thoſe come ouer
+<pb facs="tcp:7811:7"/>
+againe and feth the third wife, then muſt one
+of them come backe, and let two of the men
+come ouer to their wiues, and ſhe tarry on
+the hither ſide with her owne huſband, then
+ſhall a man and his wife come ouer againe,
+and leaue his wife with the other mans wife,
+and he and that other man ſhall goe ouer:
+then ſhall the wife that is there with them
+fetch one of thoſe women ouer, and then ſhall
+a man goe ouer and fetch his wife, and then
+are they all ouer and no man cuckold.</p>
+            </div>
+            <div type="part">
+               <head>The ſecond queſtion of a man that had
+three daughters to marry.</head>
+               <p>THere was a poore man that had thrée
+daughters, and theſe were all to be mar<g ref="char:EOLhyphen"/>ryed,
+and their father being but poore, had
+nothing to giue them but nine pipes of oyle,
+and in the firſt pipe there was but one gallon
+of oyle, in the ſecond two gallons, in the third
+thrée gallons, in the fourth foure gal<g ref="char:EOLhyphen"/>lons,
+and ſo euery pipe hauing a gallon more
+than the other, ſo that the laſt had nine gal<g ref="char:EOLhyphen"/>lons
+of oyle. Now this poore man is deſirous
+to beſtow theſe nine pipes vpon his thrée
+daughters, but ſo, that euery one might haue
+as much as the other, I demand how this
+may be?</p>
+               <p>
+                  <pb facs="tcp:7811:7"/>
+Anſwer.</p>
+               <p>FIrſt you muſt know that there bée fort<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fiue gallons in the whole, then to the firſt
+daughter ſhall be giuen thrée veſſels, to wit,
+the veſſell wherin is one gallon, the veſſell <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+fiue gallons, and the veſſell of nine gallons, ſ<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+hath ſhe thrée pipes and fiftéene gallons of
+oyle. To the ſecond giue the pipes wherein
+are the two gallons, the ſixe and the ſeuen
+gallons, ſo ſhe hath alſo thrée pipes and fif<g ref="char:EOLhyphen"/>téene
+gallons. Then let the third daughter
+haue the reſt, that is, the veſſels of thrée<g ref="char:punc">▪</g>
+foure and eight gallons, and then are the<gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+equally deuided.</p>
+            </div>
+            <div type="part">
+               <head>The third queſtion of two men
+trauelling.</head>
+               <p>TWo men of acquaintance trauelling from
+<hi>London</hi> together, till they came to Sain<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <hi>Albones,</hi> the buſineſſe of the one was ſuch
+that he muſt néeds goe beſide the commo<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+may, and ſo goe by <hi>Newport-pannell,</hi> th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+other of force muſt goe by <hi>Stony-Stratford</hi>
+&amp; yet both muſt come thorow <hi>Northampton<g ref="char:punc">▪</g>
+                  </hi> The first mans buſineſſe is ſuch, that the fir<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+day he can goe but one mile, the ſecond b<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+two miles, the third day thrée miles, t<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <pb facs="tcp:7811:8"/>
+fourth day foure, the fift day fiue, the ſixth
+day ſixe miles, and ſo euery day one mile fur<g ref="char:EOLhyphen"/>ther
+then he did the day before. The other
+mans buſineſſe is ſuch, that he can take eaſte
+iourneys, and therefore he would know how
+many miles he ſhould goe euery day to méete
+his fellow at <hi>Northampton,</hi> and how many
+dayes he ſhould be.</p>
+               <p>Anſwer.</p>
+               <p>FRom Saint <hi>Albons</hi> to <hi>Northampton</hi> are
+thirty and ſixe miles, and he that increa<g ref="char:EOLhyphen"/>ſeth
+his iourney euery day a mile, will be
+eight dayes ere he gets thither, then the other
+muſt goe euery day foure miles and a halfe to
+méet him at <hi>Northampton.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>The fourth queſtion of three women
+that ſold Apples.</head>
+               <p>THrée women there were, which came to
+<hi>London</hi> with Apples, being all neigh<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ours,
+and their huſbands commanded that
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hey ſhould all ſit together, and euery one full
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s many for money as another, and euery one
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>otwithſtanding to bring home as much mo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ey as the other, although the number was
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nequall, for the firſt brought but thirtéene
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pples to the market, the ſecond forty two,
+<pb facs="tcp:7811:8"/>
+and the third thrée ſcore and one. Now I de<g ref="char:EOLhyphen"/>mand
+how this might be?</p>
+               <p>Anſwer.</p>
+               <p>THe firſt ſold ten Apples for a penny, ſo had
+ſhée thrée remaining.</p>
+               <p>The ſecond ſold forty for foure pence, and
+hath two left.</p>
+               <p>The third ſold thréeſcore for ſeuen pence,
+and had but one left.</p>
+               <p>Now the women ſéeing cuſtomers to preſſe
+about them for the Apples that were vnſold,
+made a bargaine betwéene themſelues to ſell
+euery Apple for thrée pence, of them that were
+vnſold: ſo the firſt who had thrée apples left,
+had nine pence for thrée, and a penny for her
+other, which made ten pence. The ſecond
+who had two left, ſold them for ſixe pence,
+which with the foure pence ſhée had receiued
+before, made her ten pence alſo. The third
+for thréeſcore had receiued ſeuen pence, and
+for the odde one thrée pence, which alſo made
+ten pence. So theſe women ſold ten for a
+penny, and then one for a penny, and ſo euery
+one of them ſold as good penny-worths as the
+other, and brought their huſbands iuſt as
+much money home one as the other.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:9" rendition="simple:additions"/>
+               <head>The fifth queſtion of kinred.</head>
+               <p>TWo men marry each others mother that
+is to ſay, <hi>Iohn</hi> marrieth <hi>Williams</hi> mo<g ref="char:EOLhyphen"/>ther,
+and <hi>William</hi> marrieth <hi>Iohns</hi> mother,
+and euery of theſe hath a child by his wife, I
+would know what kinne theſe children are?</p>
+               <p>Anſwer.</p>
+               <p>Either is others Vncle.</p>
+            </div>
+            <div type="part">
+               <head>The ſixth queſtion is of three Mar<g ref="char:EOLhyphen"/>chants
+trauelling.</head>
+               <p>THrée Marchants there are in a ſtrange
+Country trauelling on foote, and theſe
+haue two packes to be carryed to the next
+Towne, which is three miles from them, and
+they cannot hire theſe packs to be carryed, ſo
+that of neceſſity they muſt carry their packes
+themſelues, and euery one of them grieueth
+to carry more then his fellowes, as alſo to car<g ref="char:EOLhyphen"/>ry
+them further, and thereupon they conclude
+together, that euery man ſhall beare one pack
+iuſt two miles. Now I demand how this may
+be?</p>
+               <p>Anſwer.</p>
+               <p>LEt two of them take vp the two packes
+and beare them one mile, and at the
+<pb facs="tcp:7811:9"/>
+miles end, let one of them deliuer his packe
+to him that went empty, and let the firſt car<g ref="char:EOLhyphen"/>ry
+it his full two mile, ſo likewiſe he that
+tooke the burthen at the firſt miles end, let
+him carry it to the Towne, then let him that
+carryed the packe but one mile, take the firſt
+mans packe, and carry it to the iourneys end:
+ſo either of them hath carryed one packe two
+miles, and thus the queſtion is abſolued.</p>
+            </div>
+            <div type="part">
+               <head>The ſeuenth queſtion is of Birds.</head>
+               <p>A Gentleman on a time being merrily
+diſpoſed, called his Steward, and deli<g ref="char:EOLhyphen"/>uered
+vnto him thirty pence, commanding
+him to goe to the market and beſtow that mo<g ref="char:EOLhyphen"/>ney
+in Fowled, but in ſuch ſort, that he ſhould
+buy but thrée ſorts: to wit, Larkes, Wood<g ref="char:EOLhyphen"/>cocks,
+and Ducks<g ref="char:punc">▪</g> Larks, at two a penny,
+Woodcocks a penny a péece, and Duckes at
+two pence apéece, and of all theſe thrée ſorts,
+he muſt bring thirty in number. The queſtion
+is to know how many of each ſort he muſt
+haue, to bring his money equall with the tale
+of Birds.</p>
+               <p>Anſwer.</p>
+               <p>FOuretéene Larks according to the rate
+before ſpecified, come to ſeuen pence<g ref="char:punc">▪</g>
+                  <pb facs="tcp:7811:10"/>
+nine Woodcocks, nine pence: ſeuen Ducks
+come to fouretéene pence. So will there be
+thirty F<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wles at the Maſters price, and the
+thirty pence iuſtly beſtowed.</p>
+            </div>
+            <div type="part">
+               <head>The eighth queſtion of two men dri<g ref="char:EOLhyphen"/>uing
+ſheepe.</head>
+               <p>TWo men driuing ſhéepe in two ſeuerall
+parts, met together in Smith-field,
+whereputting them into ſeuerall pennes, it
+chanced that two of the ſhéepe belonging to
+the one man, ran omong the other mans
+ſhéepe. The man that lacked his ſhéepe, de<g ref="char:EOLhyphen"/>manded
+his ſhéepe of the other: nay, quoth
+the other <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> pray thee let them be with mine,
+and then <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> number equall, the one of <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> hath no more then the other: Nay, rather,
+ſaid the other man, then it ſhould be ſo, giue me
+two of your ſhéepe and mine owne, and
+then ſhall I haue twice ſo many as you. I de<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ire
+to know how many ſhéepe either of theſe
+<gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </p>
+               <p>Anſwer.</p>
+               <p>ONe of them had tenne, and the other
+had fouretéene.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:10"/>
+               <head>The ninth queſtion of fiſh.</head>
+               <p>A Woman went into fiſh-ſtréet to buy fiſh,
+and there ſhe bought thrée Plaice, which
+thrée together coſt her eight pence, at her re<g ref="char:EOLhyphen"/>turne
+home, her huſband demanded the price
+of them: They coſt me eight pence, quoth the
+good wife, tell me, gentle wife, ſaid the huſ<g ref="char:EOLhyphen"/>band,
+what is that apéece, for it ſéemeth to
+me that they are all of an equall goodnes. The
+woman making ſmall account of ſo ſmall a
+reckoning, began to ſay that it was two pence
+halfe penny, and a halfe penny ouer: that is
+true, ſaid the huſband, but I would know
+the very true price of each of them. The ſilly
+woman could not doe it, and therefore reque<g ref="char:EOLhyphen"/>ſteth
+all good women to helpe her.</p>
+               <p>Anſwer.</p>
+               <p>A Mite is the foure and twentieth part of
+a penny, wherefore twelue mites make
+an halfe-penny, and the third part of an halfe-penny
+is foure mites, therefore to conclude,
+each Plaice coſt two pence halfe-penny and
+foure mites, and the queſtion is abſolued.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:11"/>
+               <head>Another.</head>
+               <p>A Poore man in the North Country be<g ref="char:EOLhyphen"/>ing
+farre, from neighbours, but onely
+one poore woman within a quarter of a
+mile, came to this poore woman lacking
+drinke, to borrow two gallons of Ale.
+The poore woman was contented to lend her
+two gallons out of her ſtore, which was eight
+gallons, but they lacked a meaſure, for ſhée
+had two meaſures, the one of thrée gallons,
+and the other was of fiue gallons: I would
+know how with theſe two meaſures, I might
+meaſure out two gallons iuſtly?</p>
+               <p>Anſwer.</p>
+               <p>I Anſwer thus: fill the fiue gallons veſſell,
+and then out of that fiue gallons veſſell,
+powre out the thrée gallons veſſell full, and ſo
+will there be left two gallons in the fiue gal<g ref="char:EOLhyphen"/>lons
+veſſell.</p>
+            </div>
+            <div type="part">
+               <head>Another queſtion.</head>
+               <p>A Shippe being vpon the ſea, and in ieo<g ref="char:EOLhyphen"/>pardy,
+wherein are men to the number
+of thirty, whereof fiftéene are Chriſtians,
+and fiftéene Turkes: Now a tempeſt ariſing,
+neceſſity conſtraines that ſome muſt be caſt
+ouer-bodrd for the ſafety of the reſt, and the
+<pb facs="tcp:7811:11"/>
+Chriſtians refuſe to be caſt ouer,<g ref="char:punc">▪</g> ſo doe the
+Turks, and in the end there was no remedy,
+but néeds they muſt be throwne ouer. To be
+briefe, the Maſter of the ſhip (as well to end
+the contention, as alſo to ſaue the Chriſtians)
+appointed that they ſhould be ſet in order, and
+that euery ninth man ſhould be caſt ouer. I
+demand how they ſhould be placed, that all
+the Chriſtians might be ſaued?</p>
+               <p>Anſwer.</p>
+               <p>FIrſt place foure Chriſtians, then fiue Sa<g ref="char:EOLhyphen"/>razens,
+then two Chriſtians &amp; one Turke,
+next thrée Chriſtians and one Sarazen, after
+them one Chriſtian and two Sarazens, then
+two Chriſtians and thrée Sarazens, next one
+Chriſtian and two Turks, then two Chri<g ref="char:EOLhyphen"/>ſtians
+and one Sarazen. You may doe this
+ſame at the Cards, by taking red Cards for
+the Chriſtians, and blacke for the Turks, or
+contrariwiſe.</p>
+            </div>
+            <div type="part">
+               <head>The nature of the Rauen.</head>
+               <p>
+                  <hi>A Riſtotle</hi> affirmeth, that when the Rauen
+waxoth old and féeble, that then th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+young ones helpe them, and beare them o<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+their ſhoulders. And the ſame Authour faith
+that the Rauens lay many egges, in ſomuc<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:7811:12"/>
+that the Male breaketh ſome of them, and
+throweth them out of the neſt, the Female
+onely ſitteth on the brood, and the Male brings
+them meate all that time. And which is
+ſtrange (he ſaith) that the Rauen ſitteth her
+broode in the very heate of Summer, againſt
+the kind of other Birds or Fowles. Of which
+or the like opinion is <hi>Petronius,</hi> who ſaith,
+that the Rauen layeth when that fruits be
+ripe.</p>
+            </div>
+            <div type="part">
+               <head>The nature of the Owle and of
+the Chough.</head>
+               <p>IN like caſe <hi>Ariſtotle</hi> ſaith, that the egges
+of Owles be ſmall, ſpeckled and brickle<g ref="char:punc">▪</g>
+ſhelled, containing little yolke and much
+white. The greateſt enemy that the Owle
+hath is the Cough, for all the day time he ſée<g ref="char:EOLhyphen"/>keth
+to breake her egges, euen as the Owle
+by night ſeeketh to ſpoile the egges of the
+Rhough, and therefore whenſoeuer they
+meete, they fight together.</p>
+            </div>
+            <div type="part">
+               <head>A ſpeciall rule in Gardening.</head>
+               <p>LEt any Gardener, orplanter, or ſetter of
+hearbs, haue an eſpeciall care what
+<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>earbs or Plants they plant, ſet, or ſow toge<g ref="char:EOLhyphen"/>ther,
+for if they ſet ſuch as are enmity toge<g ref="char:EOLhyphen"/>ther,
+<pb facs="tcp:7811:12"/>
+the one hindereth the proſperous increaſe
+of the other. Alſo if hearbs which be hote and
+dry of nature, be ſet or ſowne together, or the
+one néere the other, the one withdraweth the
+ſappe, moiſture, and nourriſhment of the o<g ref="char:EOLhyphen"/>ther.
+A thing moſt true, yet ſeldome conſi<g ref="char:EOLhyphen"/>dered.</p>
+               <p>Seldome ſhall you ſée any vine planted by
+a day tree to proſper, or bring forth either ſtore
+of grapes, or any pleaſant grape, for that the
+vine deteſteth the bay, inſomuch as you ſhall
+neuer ſée a vine claſpe her ſelfe about the bay,
+but refuſing it, will rather grow on the ground
+without hold.</p>
+               <p>The Colwort is likewiſe an enemy to the
+vine, wherefore let Gardeners take héede how
+they plant any of theſe together.</p>
+            </div>
+            <div type="part">
+               <head>When to dung land, that no herbage, or at
+the leaſt very little ſhall grow
+among the Corne.</head>
+               <p>BE ſure that you carry out your compoſt
+euer when the Moone is decreaſing in
+light, that is, in the wane of the Moone, and
+you ſhall find it true by your owne experience,
+that your Corne will not be full of wéeds.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:7811:13"/>
+               <head>Flaxe is very vnprofitable to land.</head>
+               <p>THough Flaxe be profitable to a Com<g ref="char:EOLhyphen"/>mon-wealth,
+yet Flaxe is an enemy to
+euery good ground, and profiteth not, except it
+be ſowne in the fatteſt ground, and that is
+ſomewhat moiſt. The chiefeſt time to ſow
+the ſame (ſaith <hi>Collumella</hi>) is from the Ka<g ref="char:EOLhyphen"/>lends
+of October, to the ſeuen Ides of Sep<g ref="char:EOLhyphen"/>tember,
+yet it is ſowed in February and
+March.</p>
+               <p>
+                  <hi>Tremellius</hi> ſaith, that Flaxe and the Ci<g ref="char:EOLhyphen"/>cers
+are hurtfull to good ground, becauſe the
+one is of burning nature, and the other ſalt.</p>
+               <p>Note that leane ground that is not dunged
+is of nature cold, and ground dunged ouer<g ref="char:EOLhyphen"/>much,
+is of a very hot burning nature.</p>
+            </div>
+            <div type="part">
+               <head>How to make a verniſh to gild
+letters with.</head>
+               <p>TAke foure ounces of Linſéed oyle, two
+ounces of Rozen in the Pine, &amp; one ounce
+of <hi>Aloes Cabalme</hi> and boyle all theſe together
+on the fire till all the ſuperfluities be conſu<g ref="char:EOLhyphen"/>med,
+and it will be cleare and burne without
+cracking and then it is perfect.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:7811:13" rendition="simple:additions"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

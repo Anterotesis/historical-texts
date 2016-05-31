@@ -1,0 +1,2345 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The Ploughman's tale]</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1535</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 64 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A18566</idno>
+            <idno type="STC">STC 5099.5</idno>
+            <idno type="STC">ESTC S286</idno>
+            <idno type="EEBO-CITATION">22217012</idno>
+            <idno type="OCLC">ocm 22217012</idno>
+            <idno type="VID">25236</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A18566)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 25236)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1748:27)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The Ploughman's tale]</title>
+                  <author>Chaucer, Geoffrey, d. 1400.</author>
+               </titleStmt>
+               <extent>[38]+ p.   </extent>
+               <publicationStmt>
+                  <publisher>By Thomas Godfray,</publisher>
+                  <pubPlace>Printed at London :</pubPlace>
+                  <date>[ca. 1535]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Title suggested by STC (2nd ed.).</note>
+                  <note>Sometimes attributed to Geoffrey Chaucer.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Date of imprint suggested by STC (2nd ed.).</note>
+                  <note>"Cum priuilegio"--Colophon.</note>
+                  <note>Signatures: A⁶ B⁴ C⁶ D⁴.</note>
+                  <note>Marginal notes.</note>
+                  <note>Imperfect: t.p. lacking.</note>
+                  <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2002-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2002-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2002-04</date>
+            <label>TCP Staff (Michigan)</label>Sampled and proofread</change>
+         <change>
+            <date>2002-04</date>
+            <label>Sara Gothard</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2002-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="unk">
+      <front>
+         <div type="prologue">
+            <pb facs="tcp:25236:1" rendition="simple:additions"/>
+            <pb facs="tcp:25236:1" rendition="simple:additions"/>
+            <pb facs="tcp:25236:2"/>
+            <pb facs="tcp:25236:2" rendition="simple:additions"/>
+            <pb facs="tcp:25236:3" rendition="simple:additions"/>
+            <pb facs="tcp:25236:3" rendition="simple:additions"/>
+            <pb facs="tcp:25236:4"/>
+            <pb facs="tcp:25236:4" rendition="simple:additions"/>
+            <head>The prologue</head>
+            <lg>
+               <l>They mowe by lawe / as they sayne</l>
+               <l>Us curse and dampne to helle brinke</l>
+               <l>Thus they putten vs to payne</l>
+               <l>With candels queynte and belles clynke</l>
+            </lg>
+            <lg>
+               <l>¶ They make vs thralles at her lust</l>
+               <l>And sayne we mowe nat els be saued</l>
+               <l>They haue the corne / and we the dust</l>
+               <l>Who speketh ther agayn they say he raued</l>
+               <l>¶ What man / ꝙ our host / canst thou preche</l>
+               <l>Come nere and tell vs some holy thyng</l>
+               <l>¶ Syr / quod he / I herde ones teche</l>
+               <l>A preest in pulpyt a good prechyng</l>
+            </lg>
+            <lg>
+               <l>¶ Say / on quod our host / I the beseche</l>
+               <l>Syr I am redy at your byddyng</l>
+               <l>I pray you that no man me reproche</l>
+               <l>Whyle that I am my tale tellyng.</l>
+               <trailer>Thus endeth the prologue / and here foloweth the fyrst parte of this present worke.</trailer>
+            </lg>
+            <lg>
+               <l>
+                  <seg rend="decorInit">A</seg>Sterne stryfe is stered newe<note place="margin">Narratio.</note>
+               </l>
+               <l>In many stedes in a stounde,</l>
+               <l>Of sondrie sydes that be sewe</l>
+               <l>It semeth that some ben vnsounde:</l>
+               <l>For some be great growen vngrounde</l>
+               <l>Some ben souble / symple and small,</l>
+               <l>Whether of hem is falser founde</l>
+               <l>The falser foule mote hym befall.</l>
+            </lg>
+            <lg>
+               <l>¶That one syde is / that I of tell.</l>
+               <l>Popes / cardynals / and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>relates</l>
+               <l>Parsons / monkes / and Freres fell</l>
+               <l>Priours / abbottes of great estates</l>
+               <l>Of heuyn and helle they kepe the yates</l>
+               <l>And Peters successours they ben all</l>
+               <l>This is demed by olde dates</l>
+               <l>But falshed foule mote it be fall</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="part">
+            <pb facs="tcp:25236:5"/>
+            <head>The fyrst parte</head>
+            <lg>
+               <l>¶The other syde ben poore and pale</l>
+               <l>And people put out of prease</l>
+               <l>And seme caytyffes sore a cale</l>
+               <l>And euer in one without encrease</l>
+               <l>I clepeth lollers and londlese</l>
+               <l>Who toteth on hem they ben vntall</l>
+               <l>They ben arayde all for the peace</l>
+               <l>But falshed foule mote it befall</l>
+            </lg>
+            <lg>
+               <l>¶ Many a countrey haue a sought</l>
+               <l>To knowe the falser of these two</l>
+               <l>But euer my traueyle was for nought</l>
+               <l>All so ferre as I haue go</l>
+               <l>But as I wandred in a wro</l>
+               <l>In a wodde besyde a wall</l>
+               <l>Two foules sawe I sytte tho</l>
+               <l>The falser foule mote hym befall</l>
+            </lg>
+            <lg>
+               <l>¶ That one dyde plede on the Popes syde</l>
+               <l>
+                  <note place="margin">Gryffon.</note>A Gry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on of a grymme stature</l>
+               <l>A Pellycane withouten pride</l>
+               <l>To these lollers layde his lure</l>
+               <l>He mused his mater in measure</l>
+               <l>To counsayle Christ euer gan he call</l>
+               <l>The Gry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on shewed as sharpe as fyre</l>
+               <l>But falshed foule mote it be fall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Pellycan</note>¶ The Pellycan began to preche</l>
+               <l>Bothe of mercy and of mekenesse</l>
+               <l>And sayd / that Christ so gan vs teche</l>
+               <l>And meke and mercyable gan blesse</l>
+               <l>The Euangely bereth wytnesse</l>
+               <l>
+                  <note place="margin">Ecce agnus d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i.</note>A lambe he lykeneth Christ ouer all</l>
+               <l>In tokenyng that he mekest was</l>
+               <l>Sith pride was out of heuyn fall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Ex<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mplum dedi vobis.</note>¶ And so shulde euery Christned be</l>
+               <l>Preestes / Peters successours</l>
+               <l>Beth lowlyche and of lowe degre</l>
+               <l>
+                  <note place="margin">Qui maior est vestrum.</note>And vsen none erthly honours</l>
+               <l>
+                  <pb facs="tcp:25236:5" rendition="simple:additions"/>Neyther crowne / ne curious couertours</l>
+               <l>Ne pylloure / ne other proude pall<note place="margin">Nolite the saurizare.</note>
+               </l>
+               <l>Ne nought to cofren vp great treasours</l>
+               <l>For falshed foule mote it befall</l>
+            </lg>
+            <lg>
+               <l>¶ Preestes shulde for no catell plede<note place="margin">
+                     <p>Qui volue<g ref="char:EOLhyphen"/>rit tecum co<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>tendere i<g ref="char:cmbAbbrStroke">̄</g> iu<g ref="char:EOLhyphen"/>dicio. &amp;c.</p>
+                     <p>Cum voca<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> fueris ad nupcias recu<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>be in noui. <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                        <g ref="char:EOLhyphen"/>mo loco. &amp;c.</p>
+                     <p>Qui se ex<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>l<g ref="char:EOLhyphen"/>ta<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> humilia<g ref="char:EOLhyphen"/>bitur.</p>
+                  </note>
+               </l>
+               <l>But chasten hem in charite</l>
+               <l>Ne to no bateyle shulde men lede</l>
+               <l>For inhaunsyng or her owne degree</l>
+               <l>Nat wylne syttynges in hye see</l>
+               <l>Ne souerayntie in house ne hall</l>
+               <l>All worldly worshyppe defye and flee</l>
+               <l>For who so wylleth highnes foule shal fall</l>
+            </lg>
+            <lg>
+               <l>¶ Alas who may suche sayntes call<note place="margin">
+                     <p>R<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ges genti<g ref="char:EOLhyphen"/>um <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> tu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ne<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> domina<g ref="char:cmbAbbrStroke">̄</g>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s in cle<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</p>
+                     <p>Nisi ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ui<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uerit <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> tia vestra plus<expan>
+                           <am>
+                              <g ref="char:abquam"/>
+                           </am>
+                           <ex>quam</ex>
+                        </expan> scriba<g ref="char:EOLunhyphen"/>rum et phari scorum.</p>
+                  </note>
+               </l>
+               <l>That wylneth welde erthly honour</l>
+               <l>As lowe as Lucifere suche shall fall</l>
+               <l>In balefull blackenesse buylden her boure</l>
+               <l>That eggeth the people to errour</l>
+               <l>And maketh them to hem thrall</l>
+               <l>To Christ I holde suche one traytour</l>
+               <l>As lowe as Lucifere suche one shall <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>all</l>
+            </lg>
+            <lg>
+               <l>¶ That wylleth to be kynges peeres<note place="margin">Non in e<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s bellicosis.</note>
+               </l>
+               <l>And higher than the Emperour</l>
+               <l>Some that were but poore Freres</l>
+               <l>Nowe wollen waxe a warryour</l>
+               <l>God is nat her gouernour</l>
+               <l>That holdeth no man his permagall</l>
+               <l>Whyle couetyse is her counsaylour</l>
+               <l>All su<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he falshed mote nede fall</l>
+            </lg>
+            <lg>
+               <l>¶ That hye on horse wylleth ryde</l>
+               <l>In glytterande golde of great aray</l>
+               <l>I paynted and portred all in pride</l>
+               <l>No co<g ref="char:cmbAbbrStroke">̄</g>men knyght may go so gaye</l>
+               <l>Change of clothyng euery day</l>
+               <l>With golden gyrdels great and small</l>
+               <l>As boystous as is bere at baye</l>
+               <l>All suche falshed mote nede fall</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:6"/>
+               <l>¶ With pride ponysshed the poore</l>
+               <l>
+                  <note place="margin">
+                     <p>Ue pastori<g ref="char:EOLhyphen"/>bus Israel / <abbr>q</abbr> pascebant se metipsos.</p>
+                     <p>Ezech. xxxiiii</p>
+                  </note>And some they sustayne with sale</l>
+               <l>Of holy churche maketh an hore</l>
+               <l>And fylleth her wombe with wyne and ale</l>
+               <l>With money fyll<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th many a male</l>
+               <l>And chaffren churches whan they fall</l>
+               <l>And telleth the people a leude tale</l>
+               <l>Suche false faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">
+                     <p>In cithara &amp; lyra et tipa<g ref="char:EOLhyphen"/>num <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>t tibia / et vinum in co<g ref="char:cmbAbbrStroke">̄</g>uiuiis ves<g ref="char:EOLhyphen"/>tris: et opus domini non respici<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> / nec opera manu<g ref="char:EOLhyphen"/>um eius con<g ref="char:EOLhyphen"/>sideratis.</p>
+                     <p>Isaie. v.</p>
+                  </note>¶ With chaunge of many maner metes</l>
+               <l>With songe and solace syttyng longe</l>
+               <l>And fylleth her wombe / and fast fretes</l>
+               <l>And from the mete to the gonge</l>
+               <l>And after mete with harpe and songe</l>
+               <l>And eche man mote hem lordes call</l>
+               <l>And hote spyces euer amonge</l>
+               <l>Suche false fayto<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rs foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ And myters mo than one or two</l>
+               <l>I perled as the quenes hedde</l>
+               <l>A staffe of golde / and pyrrey lo</l>
+               <l>As heny as it were made of ledde</l>
+               <l>With clothe of golde both newe and redde</l>
+               <l>With glytterande golde as grene as gall</l>
+               <l>By dome woll dampne men to dedde</l>
+               <l>All suche faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ And Christes people proudly curse</l>
+               <l>With brode bokes / and brayeng bell</l>
+               <l>To putte pennys in her purse</l>
+               <l>They woll sell bothe heuyn and hell</l>
+               <l>And in her sentence and thou wylt dwell</l>
+               <l>They wyllen gesse in her gay hall</l>
+               <l>And though the sothe thou of hem tell</l>
+               <l>In great cursyng shalte thou fall</l>
+            </lg>
+            <lg>
+               <l>¶ That is blessed / that they blesse</l>
+               <l>And cursed that they curse woll</l>
+               <l>And thus the people they oppr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>sse</l>
+               <l>And haue their lordshyppes at full</l>
+               <l>
+                  <pb facs="tcp:25236:6" rendition="simple:additions"/>And many be marchantes of wolle</l>
+               <l>And to purse pennyes woll come thrall</l>
+               <l>The poore people they all to pull</l>
+               <l>Suche false faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ Lordes mote to hem loute</l>
+               <l>Obeysaunt to her brode blessyng</l>
+               <l>They ryden with her royall route</l>
+               <l>On a courser / as it were a kyng</l>
+               <l>With saddyll of golde glytteryng</l>
+               <l>With curyous harneys quayntly crallyt</l>
+               <l>Styroppes gaye of golde mastlyng</l>
+               <l>All suche falshed foule befall it</l>
+            </lg>
+            <lg>
+               <l>¶ Christes mynysters clepen they bene</l>
+               <l>And rulen all in robbery</l>
+               <l>But An<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ichrist they seruen clene</l>
+               <l>Attyred all in tyranny</l>
+               <l>Wytnesse of Iohe<g ref="char:cmbAbbrStroke">̄</g>s prophesy</l>
+               <l>That Antichrist is her admyrall</l>
+               <l>Tyffelers attyred in trechery</l>
+               <l>All suche faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ Who sayth that some of hem may synne</l>
+               <l>He shalbe done to be deed<note place="margin">In vestimen tis ouium in tri<g ref="char:cmbAbbrStroke">̄</g> s<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>us au<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m sunt lu<g ref="char:EOLhyphen"/>pi rapaces.</note>
+               </l>
+               <l>Some of hem woll gladly wynne</l>
+               <l>A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l ayenst that / whiche god forbede</l>
+               <l>All holyest they clepen her heed</l>
+               <l>That of her rule is regall</l>
+               <l>Alas that euer they eten breed</l>
+               <l>For all suche falshed woll foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ Her heed loueth all honour</l>
+               <l>And to be worshypped in worde and dede</l>
+               <l>Kynges mote to hem knele and coure</l>
+               <l>To the Apostels / that Christ forbede</l>
+               <l>To Popes hestes suche taketh more hede<note place="margin">Extollens se super omne / quod dicitur deus.</note>
+               </l>
+               <l>Than to kepe Christes co<g ref="char:cmbAbbrStroke">̄</g>maundement</l>
+               <l>Of golde and syluer mote ben her wede</l>
+               <l>They holdeth hym hole omnypotent</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:7"/>
+               <l>¶ He ordayneth by his ordynaunce</l>
+               <l>To parysshe preestes a powere</l>
+               <l>To another a greatter auaunce</l>
+               <l>A greatter poynt to his mystere</l>
+               <l>But for he is hyghest in erthe here</l>
+               <l>To hym reserueth he many a poynt</l>
+               <l>But to Christ that hath no pere</l>
+               <l>Reserueth he neyther opyn ne ioynt</l>
+            </lg>
+            <lg>
+               <l>¶ So semeth he abouen all</l>
+               <l>And Christ abouen hym nothyng</l>
+               <l>Whan he sytteth in his stall</l>
+               <l>Dampneth and saueth as hym thynke</l>
+               <l>Suche pride tofore god dothe stynke</l>
+               <l>An Angell badde Iohn<g ref="char:cmbAbbrStroke">̄</g> to hym nat knele</l>
+               <l>But onely to god do his bowyng</l>
+               <l>Such wyllers of worship must nede yuel fele</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Sctu<g ref="char:cmbAbbrStroke">̄</g>s deus sctu<g ref="char:cmbAbbrStroke">̄</g>s fortis.</note>¶ They ne clepen Christ / but Sctu<g ref="char:cmbAbbrStroke">̄</g>s deꝰ</l>
+               <l>And clepen her heed / Sanctissimus</l>
+               <l>They that suche a secte sewys</l>
+               <l>I trowe they taken hem amysse</l>
+               <l>In erthe here they haue her blysse</l>
+               <l>Her hye mayster is Bellyall</l>
+               <l>Christes people from hem wysse</l>
+               <l>For all such false wyll foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ They mowe bothe bynde and lose</l>
+               <l>And all is for her holy lyfe</l>
+               <l>
+                  <note place="margin">Omne regnu<g ref="char:cmbAbbrStroke">̄</g> in se d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uisum desolabitu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>To saue or dampne they mowe chose</l>
+               <l>Betwene hem nowe is great stryfe</l>
+               <l>Many a man is kylled with a knyfe</l>
+               <l>To wete which of hem haue lordship shall</l>
+               <l>For suche Christ suffred wou<g ref="char:cmbAbbrStroke">̄</g>des fyue</l>
+               <l>For all suche falshed woll foule fall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Nolite time <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e eos / qui oc<g ref="char:EOLunhyphen"/>cidu<g ref="char:cmbAbbrStroke">̄</g>t corpus estote pruden<g ref="char:EOLunhyphen"/>tes.</note>¶ Christ sayd / Qui gladio percutit</l>
+               <l>With swerde he shall dye</l>
+               <l>He bade his preestes peace and gryth</l>
+               <l>And bade hem nat drede for to dye</l>
+               <l>
+                  <pb facs="tcp:25236:7"/>And bade hem be bothe symple and slye</l>
+               <l>And carke nat for no catall<note place="margin">Sicut serpen<g ref="char:EOLunhyphen"/>tes et simpli<g ref="char:EOLunhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es sicut co<g ref="char:EOLhyphen"/>lumbe.</note>
+               </l>
+               <l>But trusteth on god that sytteh on hye</l>
+               <l>For all <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alse shull <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule fall</l>
+            </lg>
+            <lg>
+               <l>¶ These wollen make men to swere</l>
+               <l>Ayenst Christes co<g ref="char:cmbAbbrStroke">̄</g>maundement</l>
+               <l>And Christes membres all to tere<note place="margin">U<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> qui co<g ref="char:cmbAbbrStroke">̄</g>du<g ref="char:EOLhyphen"/>cunt leges in iquas vt opri<g ref="char:EOLunhyphen"/>mant paupe<g ref="char:EOLhyphen"/>res i<g ref="char:cmbAbbrStroke">̄</g> iudicio.</note>
+               </l>
+               <l>On Roode / as he were newe yrent</l>
+               <l>Suche lawes they maken by co<g ref="char:cmbAbbrStroke">̄</g>men assent</l>
+               <l>Echone it choweth as a ball</l>
+               <l>Thus the poore be fully shent</l>
+               <l>But euer <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alshed foule it fall</l>
+            </lg>
+            <lg>
+               <l>¶ They vsyn no Simony</l>
+               <l>But sellen churches and priories</l>
+               <l>Ne they vsen no Enuy</l>
+               <l>But cursen all hem contraries</l>
+               <l>And hyereth men by dayes and yeres</l>
+               <l>With <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>trength to holde hem in her stall</l>
+               <l>And culleth all her aduersaries</l>
+               <l>Therfore falshed <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule thou fall</l>
+            </lg>
+            <lg>
+               <l>¶ With purse they purchase personage</l>
+               <l>With purse they paynen hem to plede</l>
+               <l>And men of warre they woll wage</l>
+               <l>To brynge her enemyes to the dede</l>
+               <l>And lordes lyues they woll lede</l>
+               <l>And moche take and gyue but small</l>
+               <l>But he it so gete / <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rom it shall shede</l>
+               <l>And make suche false right foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ They halowe nothyng but for hyr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Churche / <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ont / ne vestement</l>
+               <l>And make orders in euery shyre</l>
+               <l>But preestes paye <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or the parchement</l>
+               <l>O<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ria<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ours they taken rent</l>
+               <l>T<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erwith they smere the shepes skall</l>
+               <l>For many churches ben ofte suspent</l>
+               <l>All suche falshed yet foule it fall</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:8"/>
+               <l>¶ Some lyueth nat in lechery</l>
+               <l>But haunten wenches / wydowes / &amp; wyues</l>
+               <l>And punyssheth the poore for putry</l>
+               <l>Them selfe it vseth all her lyues</l>
+               <l>And but a man to them shriues</l>
+               <l>To heuyn come neuer he shall</l>
+               <l>He shalbe cursed as be caytyues</l>
+               <l>To hell they sayne that he shall fall</l>
+            </lg>
+            <lg>
+               <l>There was more mercy in Maximyen</l>
+               <l>And in Nero / that neuer was good</l>
+               <l>Than is nowe in some of them</l>
+               <l>Whan he hath on his furred hoode</l>
+               <l>They <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>olowe Christ that shedde his blode</l>
+               <l>To heuen / as buckette in to the wall</l>
+               <l>Suche wreches ben worse than wode</l>
+               <l>And all suche <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ They gyue her almesse to the ryche</l>
+               <l>To mayn<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ynours / and to men of lawe</l>
+               <l>For to lordes they woll be lyche</l>
+               <l>An harlottes sonne nat worthe an hawe</l>
+               <l>
+                  <note place="margin">
+                     <p>Corruit in platea veri<g ref="char:EOLhyphen"/>tas.</p>
+                     <p>I<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>aie. lix.</p>
+                  </note>Sothfastnesse suche han slawe</l>
+               <l>They kembe her crokettes with christall</l>
+               <l>And drede of god they haue downe drawe</l>
+               <l>All suche faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ They maken parsons for the penny</l>
+               <l>And canons of her cardynals</l>
+               <l>Unnethes amongest hem all any</l>
+               <l>That he ne hath glosed the gospell fals</l>
+               <l>For Christ made neuer no cathedrals</l>
+               <l>Ne with hym was no cardynall</l>
+               <l>With a Redde hatte as vsyn mynstrals</l>
+               <l>But falshed foule mote it befall</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Charitas no<g ref="char:cmbAbbrStroke">̄</g> querit <abbr>q</abbr> sua sunt.</note>¶ Their tythyng / and her offryng both</l>
+               <l>They clemeth it by possessyon</l>
+               <l>Thero<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> nyll they non forgo</l>
+               <l>But robben men as raunsome</l>
+               <l>
+                  <pb facs="tcp:25236:8"/>The tithyng of Turpe lucrum</l>
+               <l>With these maisters is meynall</l>
+               <l>Tithyng of bribry / and larson</l>
+               <l>Wyll make falshed full foule to fall</l>
+            </lg>
+            <lg>
+               <l>¶ They taken to ferme her sompnours</l>
+               <l>To harme the people what they may</l>
+               <l>To pardoners / and false faytours</l>
+               <l>Sell her seales I dare well say</l>
+               <l>And all to holden great array</l>
+               <l>To multiply hem more metall</l>
+               <l>They drede full lytell domes day</l>
+               <l>Whan all suche shall foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ Suche harlottes shull men dysclaunder</l>
+               <l>For they shullen make her gree</l>
+               <l>And ben as proude as Alexaunder<note place="margin">Ue homini il<g ref="char:EOLunhyphen"/>li per quem sca<g ref="char:cmbAbbrStroke">̄</g>dalum ve<g ref="char:EOLhyphen"/>nit.</note>
+               </l>
+               <l>And sayne to the poore / wo be ye</l>
+               <l>By yere eche preeste shall paye his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ee</l>
+               <l>To encrease his lemmans call</l>
+               <l>Suche heerdes shull well yuell the</l>
+               <l>And all suche false shull foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ And if a man be falsely famed</l>
+               <l>And wolde make purgacioun</l>
+               <l>Than woll the offycers be agramed</l>
+               <l>And assigne hym fro towne to towne</l>
+               <l>So nede he must paye raunsome</l>
+               <l>Though he be clene / as is christall</l>
+               <l>And than haue an absolutioun</l>
+               <l>But all suche false shull foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ Though he be gyltie of the dede</l>
+               <l>And that he maye money pay</l>
+               <l>All the whyle his purse woll blede</l>
+               <l>He maye vse it fro day to day</l>
+               <l>These bysshoppes offycers gone full gay</l>
+               <l>And this game they vsen ouer all</l>
+               <l>The poore to pyll is all their pray</l>
+               <l>All suche false shull foule fall</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:9"/>
+               <l>¶ Alas / god ordayned neuer suche lawe</l>
+               <l>Ne no suche crafte of couetyse</l>
+               <l>He forbade it by his sawe</l>
+               <l>Suche gouernours mowen of god agryse</l>
+               <l>For all his rules is rightwyse</l>
+               <l>These newe poyntes ben pure papall</l>
+               <l>And goddes lawe they dispyce</l>
+               <l>And all suche fayt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urs shull foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ They sayne that Peter had the key</l>
+               <l>Of heuyn and hell / to haue and hol<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>I trowe Peter toke no money</l>
+               <l>For no synnes that he solde</l>
+               <l>Suche successours ben to bolde</l>
+               <l>In wynnyng all their witte they wrall</l>
+               <l>Her conscience is waxen colde</l>
+               <l>And all suche faytours <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ Peter was neuer so great a fole</l>
+               <l>To leaue his key with suche a lorell</l>
+               <l>Or to take suche cursed suche a tole</l>
+               <l>He was aduysed nothyng well</l>
+               <l>I trowe they haue the key of hell</l>
+               <l>Their maister is of that place marshall</l>
+               <l>For there they dressen hem to dwell</l>
+               <l>And with false Lucifere there to fall</l>
+            </lg>
+            <lg>
+               <l>¶ They ben as proude as Lucifarre</l>
+               <l>As angry / and as enuyous</l>
+               <l>From good faithe they ben full farre</l>
+               <l>In couetyse they ben curyous</l>
+               <l>To catche cattell as couytous</l>
+               <l>As hounde / that for hungre woll yall</l>
+               <l>Ungoodly / and vngratious</l>
+               <l>And nedely suche falshed shall fonle fall</l>
+            </lg>
+            <lg>
+               <l>¶ The pope and he were Peters hey<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>Me thynke he erreth in this case</l>
+               <l>Whan choyse of bysshoppes is in dispeyre</l>
+               <l>To chosen hem in dyuers place</l>
+               <l>
+                  <pb facs="tcp:25236:9"/>A lorde shall write to hym for grace</l>
+               <l>For his clerke anone pray he shall</l>
+               <l>So shall he spede his purchase</l>
+               <l>And all suche false foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ Though he can no more good</l>
+               <l>A lordes prayer shalbe spedde</l>
+               <l>Though <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e wylde o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> wyll or wood</l>
+               <l>Nat vnderstandyng what men han redde</l>
+               <l>A leude boster / and that god <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>orbede</l>
+               <l>As good a bysshoppe is my horse ball</l>
+               <l>Suche a Pope is <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule be stedde</l>
+               <l>And a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> la<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t woll <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>all</l>
+            </lg>
+            <lg>
+               <l>¶ He maketh bysshoppes for erthly thanke</l>
+               <l>And nothyng <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or Christes sake</l>
+               <l>Suche that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en full fatte and ranke</l>
+               <l>To soule heale none hede they take</l>
+               <l>All is well done what euer they make</l>
+               <l>For they shall answere at ones for all</l>
+               <l>For wo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ldes thanke / suche worch and wake</l>
+               <l>And all suche <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alse shall <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oule fall</l>
+            </lg>
+            <lg>
+               <l>¶ Suche that canne nat her Crede</l>
+               <l>With prayer shull be made prelates</l>
+               <l>Nou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>her canne the gospell rede</l>
+               <l>Suche sh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll nowe welde hye estates</l>
+               <l>The hye goodes frendshyp hem makes</l>
+               <l>They toteth on her so<g ref="char:cmbAbbrStroke">̄</g>me totall</l>
+               <l>Suche bere the keyes of hell yates</l>
+               <l>And all suche false shall foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ They forsake for Christes loue</l>
+               <l>Traueyle / hungre / thurst / and colde</l>
+               <l>For they ben ordred euer all aboue</l>
+               <l>Out of youthe tyll they ben olde</l>
+               <l>By the dore they go / nat in to the folde</l>
+               <l>To helpe their shepe they nought trauall</l>
+               <l>Hyred men all suche I holde</l>
+               <l>And all suche false foule hem fall</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:10"/>
+               <l>For Christ her kyng they woll forsake</l>
+               <l>And knowe hym nought for his pouerte</l>
+               <l>For Christes loue they woll wake</l>
+               <l>And drynke pyement ale aparte</l>
+               <l>Of god they seme nothyng a ferde</l>
+               <l>As lusty lyueth / as dyde Lamuall</l>
+               <l>And dryuen her shepe in to deserte</l>
+               <l>All suche faytours shull foule fall</l>
+            </lg>
+            <lg>
+               <l>Christ had .xii. apostels here</l>
+               <l>Nowe saye they / there may be but one</l>
+               <l>That may nat erre in no manere</l>
+               <l>Who leueth nat this ben lost echone</l>
+               <l>Peter erred / so dyde nat Iohn<g ref="char:cmbAbbrStroke">̄</g>
+               </l>
+               <l>Why is he cleped the principall?</l>
+               <l>Christ cleped hym Peter / but hym selfe y<hi rend="sup">•</hi> stone</l>
+               <l>All false faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ Why cursen they the croysery</l>
+               <l>Christes christen creatures</l>
+               <l>For bytwene hem is nowe enuy</l>
+               <l>To be enhaunsed in honours</l>
+               <l>And christen lyuers with her labours</l>
+               <l>For they leuyn on no man mortall</l>
+               <l>But do to dethe with dishonours</l>
+               <l>And all suche false foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ What knoweth a tyllour at the plowe</l>
+               <l>The popes name / and what he hate</l>
+               <l>His crede suffyseth to hym ynowe</l>
+               <l>And knoweth a cardynall by his hatte</l>
+               <l>Rough is the poore vnrightly latte</l>
+               <l>That knoweth Christ his god royall</l>
+               <l>Suche maters be nat worth a gnatte</l>
+               <l>But suche false faytours foule hem fall</l>
+            </lg>
+            <lg>
+               <l>¶ A kyng shall knele and kysse his showe</l>
+               <l>Christ suffred a synfull to kysse his fete</l>
+               <l>Me thynketh he holdeth hym hye ynowe</l>
+               <l>So Lucifer dyd / that hye sette</l>
+               <l>
+                  <pb facs="tcp:25236:10"/>Such one me thynketh hym selfe foryete</l>
+               <l>Eyther to the trouth he was nat call</l>
+               <l>Christ that suffred woundes wete</l>
+               <l>Shall make suche falshed foule fall</l>
+            </lg>
+            <lg>
+               <l>¶ They layeth out her large nettes</l>
+               <l>For to take syluer and golde</l>
+               <l>Fyllen coffers / and sackes fettes</l>
+               <l>There as they soules catche sholde</l>
+               <l>Her seruauntes be to them vnholde</l>
+               <l>But they can doublyn their rentall</l>
+               <l>To bygge hem castels / and bygge hem holde</l>
+               <l>And all suche false foule hem fall</l>
+            </lg>
+            <trailer>¶ Here <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ndeth the fyrst part of this boke<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and herafter foloweth the seconde parte</trailer>
+         </div>
+         <div n="2" type="part">
+            <lg>
+               <l>TO accorde with this worde fall</l>
+               <l>No more Englysshe can I fynde<note place="margin">Qui non est mecum / <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>on<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ra me est.</note>
+               </l>
+               <l>Shewe another nowe I shall</l>
+               <l>For I haue moche to saye behynde</l>
+               <l>Howe preestes han the people pynde</l>
+               <l>As curteys Christ hath me kende</l>
+               <l>And putte this matter in my mynde</l>
+               <l>To make this maner men amende</l>
+            </lg>
+            <lg>
+               <l>¶ Shortly to shende hem / and shewe nowe</l>
+               <l>Nowe wrongfully they worche and walke<note place="margin">Qui non est &amp;c.</note>
+               </l>
+               <l>O hye god / nothyng they tell / ne howe</l>
+               <l>But in goddes worde / telleth many a balke</l>
+               <l>In hernes holde hem and in halke</l>
+               <l>And prechyn of tythes and offrende</l>
+               <l>And vntruely of the gospell talke</l>
+               <l>For his mercy god it amende</l>
+            </lg>
+            <lg>
+               <l>¶ What is Antichrist to saye</l>
+               <l>But euyn Christes aduersary</l>
+               <l>Suche hath nowe ben many a day</l>
+               <l>To Christes byddyng full contrary</l>
+               <l>
+                  <pb facs="tcp:25236:11"/>That from the trouthe clene varry</l>
+               <l>Out of the waye they ben wende</l>
+               <l>And Christes people vntruely cary</l>
+               <l>God for his pytie it amende<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+            </lg>
+            <lg>
+               <l>¶ That lyuen contrary to Christes lyfe</l>
+               <l>In hye pride agaynst mekenesse</l>
+               <l>Agaynst sufferaunce they vsen stryfe</l>
+               <l>And angre ayenst sobrenesse</l>
+               <l>Agaynst wysedome wylfulnesse</l>
+               <l>To Christes tales lytell tende</l>
+               <l>Agaynst measure outragyousnesse</l>
+               <l>But whan god woll it maye amende</l>
+            </lg>
+            <lg>
+               <l>¶ Lordly lyfe ayenst lowlynesse</l>
+               <l>And demyn all without mercy</l>
+               <l>And couetyse ayenst largesse</l>
+               <l>Agaynst trewth trechery</l>
+               <l>And agaynst almesse enuy</l>
+               <l>Agaynst Christ they comprehende</l>
+               <l>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>or chastyte they maynteyne lechery</l>
+               <l>God for his grace this amende</l>
+            </lg>
+            <lg>
+               <l>¶ Ayenst penaunce they vse delightes</l>
+               <l>Ayenst sustraunce stronge defence</l>
+               <l>Ayenst god they vsen yuell rightes</l>
+               <l>Agaynste pytie punysshementes</l>
+               <l>Open yuell ayenst contynence</l>
+               <l>Her wicked wynnyng worse dispende</l>
+               <l>Sobrenesse they sette in to dispence</l>
+               <l>But god for his goodnesse it amende</l>
+            </lg>
+            <lg>
+               <l>¶ Why cleymen they holy his powere</l>
+               <l>And wranglen ayenst all his hestes</l>
+               <l>His lyuyng folowen they nothyng here</l>
+               <l>But lyuen worse than wytlesse beestes</l>
+               <l>Of fysshe and flesshe they louen feestes</l>
+               <l>As lordes they ben brode ykende</l>
+               <l>Of goddes poore they haten gestes</l>
+               <l>God for his mercy this amende</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:11"/>
+               <l>¶ With Dyuers suche shall haue her dome</l>
+               <l>That sayne that they be Christes frendes</l>
+               <l>And do nothyng as they shulde done</l>
+               <l>All suche ben falser than ben fendes</l>
+               <l>On the people they ley suche bendes</l>
+               <l>As god is in erth they han offende</l>
+               <l>Sucour for suche Christ nowe sende vs</l>
+               <l>And for his mercy this amende</l>
+            </lg>
+            <lg>
+               <l>¶ A token of Antichrist they be</l>
+               <l>His careckes ben nowe wyde yknowe</l>
+               <l>Receyued to preche shall no man be</l>
+               <l>Without token of hym I trowe</l>
+               <l>Eche christen preest / to prechyn owe</l>
+               <l>From god aboue they ben sende.</l>
+               <l>Goddes worde / to all folke for to showe</l>
+               <l>Synfull man for to amende</l>
+            </lg>
+            <lg>
+               <l>¶ Christ sente the poore for to preche</l>
+               <l>The royall riche he dyd nat so</l>
+               <l>Nowe dare no poore the people teche</l>
+               <l>For Antichrist is ouer all her foe</l>
+               <l>Amonge the people he mote go</l>
+               <l>He hath bydden / all suche suspende</l>
+               <l>Some hath he hente / &amp; thynketh yet mo</l>
+               <l>But all this god may well amende</l>
+            </lg>
+            <lg>
+               <l>¶ All tho that han the worlde forsake</l>
+               <l>And lyuen loly / as god badde</l>
+               <l>In to her prison shullen be take</l>
+               <l>Betyn and bounden / and forthe ladde</l>
+               <l>Herof I rede no man be dradde</l>
+               <l>Christ sayd / his shulde be shende</l>
+               <l>Eche man ought herof be gladde</l>
+               <l>For god full well it woll amende</l>
+            </lg>
+            <lg>
+               <l>¶ They take on hem royall powere</l>
+               <l>And saye they haue swerdes two<note place="margin">Ecce gladi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> duo hic</note>
+               </l>
+               <l>One curse to hell / one slee men here</l>
+               <l>For at his takyng Christ had no mo</l>
+               <l>
+                  <pb facs="tcp:25236:12"/>Yet Peter had one of tho</l>
+               <l>But christ / to Peter smyte gan defende</l>
+               <l>And in to the sheth badde putte it tho</l>
+               <l>And all suche myscheues god amende</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Uos qui spi<g ref="char:EOLhyphen"/>rituales estis insti<g ref="char:cmbAbbrStroke">̄</g>cte alios in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pu<g ref="char:cmbAbbrStroke">̄</g> lenita<g ref="char:EOLhyphen"/>tis <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uscitabo pastor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> stui<g ref="char:EOLhyphen"/>tum / <abbr>q</abbr> disꝑ<g ref="char:EOLunhyphen"/>sa no<g ref="char:cmbAbbrStroke">̄</g> coliget. Sed oues pi<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLunhyphen"/>gues co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap> &amp; habe<g ref="char:EOLhyphen"/>bit gladi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in brac<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>io dex<g ref="char:EOLhyphen"/>tro / &amp; glad<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>u<g ref="char:cmbAbbrStroke">̄</g> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>.</note>¶ Christ badde Peter kepe his shepe</l>
+               <l>And with his swerde forbade hym smyte</l>
+               <l>Swerde is no tole with shepe to kepe</l>
+               <l>But to sheperdes that shepe woll byte</l>
+               <l>Me thynketh suche sheperdes ben to wyte</l>
+               <l>Ayen her shepe with swerde that contende</l>
+               <l>They driue her shepe with great dispyte</l>
+               <l>But all this god may well amende</l>
+            </lg>
+            <lg>
+               <l>¶ So successours to Peter be they nought</l>
+               <l>Whom Christ made chefe pastoure</l>
+               <l>A swerde no sheperde vsen ought</l>
+               <l>But he wolde <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lee / as a bochoure</l>
+               <l>For who so were Peters succes<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>our</l>
+               <l>Shulde bere his shepe tyll his backe bende</l>
+               <l>And shadowe hem from euery shoure</l>
+               <l>And all this god maye well amende</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">La<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> comede<g ref="char:EOLhyphen"/>batis &amp; lanis cooper <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>a<g ref="char:EOLhyphen"/>mini / &amp; quod pingu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rat occioistis.</note>¶ Successours to Peter ben these</l>
+               <l>In that that Peter Christ forsoke</l>
+               <l>That had leuer the loue of god lese</l>
+               <l>Than a sheperde had to lese his hoke</l>
+               <l>He culleth the shepe as dothe the coke</l>
+               <l>Of hem taken the woll vntrende</l>
+               <l>And falsely glose the gospell boke</l>
+               <l>God for his mercy them amende</l>
+            </lg>
+            <lg>
+               <l>¶ After Christ had take Peter the kay</l>
+               <l>Christ sayd / he muste dye for man</l>
+               <l>That Peter to Christ gan withsay</l>
+               <l>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>un<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> dixit Iesus disci<g ref="char:EOLhyphen"/>pulis sui<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r oportet <gap reason="illegible" resp="#PDCC" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note>Christ badde hym go behynde Sathan</l>
+               <l>Suche cou<g ref="char:cmbAbbrStroke">̄</g>saylours many of these men han</l>
+               <l>For worldes wele / god to offende</l>
+               <l>Peters successours they ben for than</l>
+               <l>But all suche god may well amende</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:12"/>
+               <l>¶ For Sathan is to say no more<note place="margin">ierosolimam &amp; multa pati. R<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>dit petrꝰ. Nequaquam erit tibi hoc Iesus dixit petro: Uade post me sa<g ref="char:EOLhyphen"/>thanas.</note>
+               </l>
+               <l>But he that contrary to Christ is</l>
+               <l>In this they lerne Peters lore</l>
+               <l>They sewen hym whan he dyd mysse</l>
+               <l>They folowe Peter forsothe in this</l>
+               <l>In all that Christ wolde Peter reprehende</l>
+               <l>But nat in that that longeth to heuyn blysse</l>
+               <l>God for his mercy hem amende</l>
+            </lg>
+            <lg>
+               <l>¶ Some of the Apostels they sewen in case</l>
+               <l>Of ought that I can vnderstonde<note place="margin">Fur <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rat / &amp; loculos habe<g ref="char:EOLunhyphen"/>bat et ea que mitteqantur portabat.</note>
+               </l>
+               <l>Hym that betrayed Christ / Iudas</l>
+               <l>That bare the purse in euery londe</l>
+               <l>And all that he myght sette on honde</l>
+               <l>He hydde and stale / and myspende</l>
+               <l>His rule these traytours han in honde</l>
+               <l>Almighty god hem amende</l>
+            </lg>
+            <lg>
+               <l>¶ And at last his lorde gan tray</l>
+               <l>Cursedly through his false couetyse<note place="margin">Ut dolo cape rent et occide rent</note>
+               </l>
+               <l>So wolde these / trayen hym for money</l>
+               <l>And they wysten in what wyse</l>
+               <l>They be seker of the selfe ensyse</l>
+               <l>From all sothnesse they ben frende</l>
+               <l>And couetyse chaungen with queyntyse</l>
+               <l>Almighty god all suche amende</l>
+            </lg>
+            <lg>
+               <l>¶ Were Christ on erthe here efte sone</l>
+               <l>These wolde dampne hym to dye</l>
+               <l>All his hestes they han fordone</l>
+               <l>And sayne his sawes ben heresy</l>
+               <l>And ayenst his commaundementes they crye</l>
+               <l>And damp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e all his to be brende</l>
+               <l>For it lyketh nat hem suche losengery</l>
+               <l>God almighty hem amende</l>
+            </lg>
+            <lg>
+               <l>¶ These han more myght in Englande hete</l>
+               <l>Than hath the kynge and all his lawe</l>
+               <l>They han purchased hem suche powere</l>
+               <l>To taken hem whom lyste nat knawe</l>
+               <l>
+                  <pb facs="tcp:25236:13"/>And say that heresy is her sawe</l>
+               <l>And so to prysone woll hem sende</l>
+               <l>It was nat so by elder dawe</l>
+               <l>God for his mercy it amende</l>
+            </lg>
+            <lg>
+               <l>¶The kynges lawe woll no man deme</l>
+               <l>Angerlyche withouten answere</l>
+               <l>
+                  <note place="margin">Lex nominem <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>udicat / Ni<g ref="char:EOLhyphen"/>si prius audi <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rit a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> eo qui dixit.</note>But if any man these mysqueme</l>
+               <l>He shalbe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eted as a bere</l>
+               <l>And yet wel worse they woll hym tere</l>
+               <l>And in prysone woll hem pende</l>
+               <l>In gyues / and in other gere</l>
+               <l>Whan god woll / it maye mende</l>
+            </lg>
+            <lg>
+               <l>¶ The kyng taxeth nat his men</l>
+               <l>But by a<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>en<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e of the co<g ref="char:cmbAbbrStroke">̄</g>mynalte</l>
+               <l>But these eche yere woll raunsom hem</l>
+               <l>Maisterfully / more than doth he</l>
+               <l>Her seales by yere better be</l>
+               <l>Than is the kynges in extende</l>
+               <l>Her offycers han gretter fee</l>
+               <l>But this myschefe god amende</l>
+            </lg>
+            <lg>
+               <l>¶ For who so woll proue a testament</l>
+               <l>That is nat all worthe tenne pounde</l>
+               <l>He shall paye for the parchement</l>
+               <l>They thirde parte of the money all rounde</l>
+               <l>Thus the people is raunsounde</l>
+               <l>They say suche parte to hem shulde apende</l>
+               <l>There as they grypen it gothe to grounde</l>
+               <l>God for his mercy it amende</l>
+            </lg>
+            <lg>
+               <l>¶ A symple fornycacioun</l>
+               <l>Twenty shyllynges he shall paye</l>
+               <l>And than haue an absolution</l>
+               <l>And all the yere vsen it forthe he may</l>
+               <l>Thus they letten hem go a stray</l>
+               <l>They recke nat though the soule be brende</l>
+               <l>These kepyn yuell Peters key</l>
+               <l>And all suche sheperdes god amende</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:13"/>
+               <l>¶ Wonder is / that the parlyament<note place="margin">Cum filii <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<g ref="char:EOLhyphen"/>ly poluerunt domini sacri<g ref="char:EOLhyphen"/>ficium. &amp;c.</note>
+               </l>
+               <l>And all the lordes of this londe</l>
+               <l>Herto taken so lytell entent</l>
+               <l>To helpe the people out of her honde</l>
+               <l>For they ben harder in their bonde</l>
+               <l>Worse beate / and bytter brende</l>
+               <l>Than to the kyng is vnderstande</l>
+               <l>God hym helpe this to amende</l>
+            </lg>
+            <lg>
+               <l>¶ What bysshoppes / what relygions<note place="margin">Paulꝰ inimi cos <abbr>crucisxpi</abbr> quorum finis interitus qui terrena sapi<g ref="char:EOLhyphen"/>unt. &amp;c.</note>
+               </l>
+               <l>Han in this lande as moche laye fee</l>
+               <l>Lordshippes / and possessyons</l>
+               <l>More than the lordes / it semeth me</l>
+               <l>That maketh hem lese charyte</l>
+               <l>They mowe nat to god attende</l>
+               <l>In erthe they haue so hyghe degree</l>
+               <l>God for his mercy it amende</l>
+            </lg>
+            <lg>
+               <l>¶ The Emperour yaf the pope somtyme</l>
+               <l>So highe lordshyppe hym aboute</l>
+               <l>That at laste the sely kyme</l>
+               <l>The proude Pope putte hym out</l>
+               <l>So of this realme is in doute</l>
+               <l>But lordes be ware and them defende<note place="margin">Reges genti<g ref="char:EOLhyphen"/>um du<g ref="char:cmbAbbrStroke">̄</g>antu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> corum.</note>
+               </l>
+               <l>For nowe these folk<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> be wonder stoute</l>
+               <l>The kynge and lordes nowe this amende.</l>
+            </lg>
+            <trailer>Thus endeth the seconde parte of this boke / and herafter folo<g ref="char:EOLhyphen"/>weth the thirde</trailer>
+         </div>
+         <div n="3" type="part">
+            <lg>
+               <l>MOyses lawe forbode it tho<note place="margin">No<g ref="char:cmbAbbrStroke">̄</g> hab<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>a<g ref="char:cmbAbbrStroke">̄</g>t hereditate<g ref="char:cmbAbbrStroke">̄</g> sa<g ref="char:EOLunhyphen"/>cerdotes et le<g ref="char:EOLunhyphen"/>uite inter fra<g ref="char:EOLunhyphen"/>tres coru<g ref="char:cmbAbbrStroke">̄</g> ego aut<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m pars &amp; hereditas <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>um. &amp;c.</note>
+               </l>
+               <l>That preestes shuld no lordshippes welde</l>
+               <l>Christes gospell byddeth also</l>
+               <l>That they shulde no lordshippe helde</l>
+               <l>Ne Christes Apostels were neuer so bolde</l>
+               <l>No suche lordshippes to them enbrace</l>
+               <l>But smeren her shepe and kepe her folde</l>
+               <l>God amende hem for his grace</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:14"/>
+               <l>
+                  <note place="margin">
+                     <p>Ne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> qu<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>qu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> cor<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>n <gap reason="illegible" resp="#PDCC" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> pos<g ref="char:EOLhyphen"/>sideba<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ali<g ref="char:EOLhyphen"/>quid su<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>i esse dicebat.</p>
+                     <p>Ex fructibus <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> cognose<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>os. &amp;c.</p>
+                     <p>Homo cum i<g ref="char:cmbAbbrStroke">̄</g> honore esset non intelle<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>it. &amp;c.</p>
+                  </note>For they ne ben but countrefete</l>
+               <l>Men may knowe hem by her fruite</l>
+               <l>Her gretnesse maketh hem god foryete</l>
+               <l>And take his mekenesse in dispyte</l>
+               <l>And they were poore and had but lyte</l>
+               <l>They nolde nat demen after the face</l>
+               <l>But norisshe her shepe / and hem nat byte</l>
+               <l>God amende hem for his grace</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Gryffon.</note>¶ What canst thou preche ayenst chanons</l>
+               <l>That men clepen seculere?</l>
+               <l>
+                  <note place="margin">Pelycan</note>They ben curates of many towns</l>
+               <l>On erthe they haue great powere</l>
+               <l>They han great prebendes and dere</l>
+               <l>Some two or thre / and some mo</l>
+               <l>A personage to ben a playeng fere</l>
+               <l>And yet they serue the kynge also</l>
+            </lg>
+            <lg>
+               <l>¶ And lette to ferme all that fare</l>
+               <l>To whom that woll most gyue therfore</l>
+               <l>Some woll sp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nde / and some woll spare</l>
+               <l>And some woll laye <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t vp in store</l>
+               <l>A cure or soule they care nat fore</l>
+               <l>So they mowe money take</l>
+               <l>Whether her soules be <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>onne or lore</l>
+               <l>Her profytes they woll nat forsake</l>
+            </lg>
+            <lg>
+               <l>¶ They haue a gederyng procuratour</l>
+               <l>That can the poore people enplede</l>
+               <l>And robben hem as a rauynour</l>
+               <l>And to his lorde the money lede</l>
+               <l>And catche of quicke and eke of dede</l>
+               <l>And richen hym and his lorde eke</l>
+               <l>And to robbe the poore can gyue good rede</l>
+               <l>Of olde and yonge / of hole and syke</l>
+            </lg>
+            <lg>
+               <l>¶ Therwith they purchase hem lay <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ee</l>
+               <l>In londe / there hem lyketh best</l>
+               <l>And buylde also brode as a cyte</l>
+               <l>Bothe in the Est / and eke in the west</l>
+               <l>
+                  <pb facs="tcp:25236:14"/>To purchase thus they ben full prest</l>
+               <l>But on the poore they woll nought spende</l>
+               <l>Ne no good gyue to goddes gest</l>
+               <l>Ne sende hym some that all hath sende</l>
+            </lg>
+            <lg>
+               <l>¶ By her seruyce suche woll lyue</l>
+               <l>And trusse that other in to treasour</l>
+               <l>Though all her parysshe dye vnshriue</l>
+               <l>They woll nat gyue a rose floure</l>
+               <l>Her lyfe shulde be as a myrrour</l>
+               <l>Bothe to lered and to leude also</l>
+               <l>And teche the people her lele labour</l>
+               <l>Suche myster men ben all mysgo</l>
+            </lg>
+            <lg>
+               <l>¶ Some of hem ben harde nygges</l>
+               <l>And some of hem ben proude and gay</l>
+               <l>Some spende her good vpon gygges</l>
+               <l>And fynden hem of great aray</l>
+               <l>Alas / what thynke these men to say</l>
+               <l>That thus dispenden goddis good</l>
+               <l>At the dredefull domes daye</l>
+               <l>Suche wretches shulbe worse than wood</l>
+            </lg>
+            <lg>
+               <l>¶ Some her churches neuer ne sye</l>
+               <l>Ne neuer o peny thyder ne sende</l>
+               <l>Though the poore parysshens for hungre dye</l>
+               <l>O peny on hem wyll they nat spende</l>
+               <l>Haue they receyuynge of the rente</l>
+               <l>They recke neuer of the remena<g ref="char:cmbAbbrStroke">̄</g>t</l>
+               <l>Alas the deuyll hath clene hem blen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Suehe one is Sathanas soiournant</l>
+            </lg>
+            <lg>
+               <l>¶ And vsen horedome and harlotry</l>
+               <l>Couetyse / pompe / and pride</l>
+               <l>Slouthe / wrathe / and eke enuy</l>
+               <l>And sewen synne by euery syde</l>
+               <l>Alas / where thynke suche tabyde</l>
+               <l>Howe woll they accomptes yelde</l>
+               <l>From hye god they mowe hem nat hyde</l>
+               <l>Suche wyllers witte is nat worth a nelde</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:15"/>
+               <l>¶ They ben so roted in richesse</l>
+               <l>That Christes pouert is foryet</l>
+               <l>Serued with so many messe</l>
+               <l>Hem thinketh that Manna is no mete</l>
+               <l>All is good that they mowe gete</l>
+               <l>They wene to lyue euermore</l>
+               <l>But whan god at dome is sette</l>
+               <l>Suche treasour is a feble store</l>
+            </lg>
+            <lg>
+               <l>¶ Unneth mote they matyns saye</l>
+               <l>For countyng and for court holdyng</l>
+               <l>And yet he <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>angleth as a iaye</l>
+               <l>And vnderstont hym selfe nothyng</l>
+               <l>He woll serue bothe erle and kyng</l>
+               <l>For his fyndyng and his fee</l>
+               <l>And hyde his ty<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hynge and his offryng</l>
+               <l>This is a feble charite</l>
+            </lg>
+            <lg>
+               <l>¶Outher they ben proude / or coueytous</l>
+               <l>Or they ben harde / or hungry</l>
+               <l>Or they ben lyberall or lecherous</l>
+               <l>Or els medlers with marchandry</l>
+               <l>Or maynteyners of men with maistry</l>
+               <l>Or stewardes / coun<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ours / or pledours</l>
+               <l>And serue god in hypocrisy</l>
+               <l>Suche preestes ben Christes false traytours</l>
+            </lg>
+            <lg>
+               <l>¶ They ben false / they ben vengeable</l>
+               <l>And be gylen men in Christes name</l>
+               <l>They ben vnstedfast and vnstable</l>
+               <l>To tray her lorde / hem thynketh no shame</l>
+               <l>To serue god they ben full lame</l>
+               <l>Goddes theues / and falsly stele</l>
+               <l>And falsely goddes worde defame</l>
+               <l>In wynnyng is her worldes wele</l>
+            </lg>
+            <lg>
+               <l>¶ Antichrist these seruen all</l>
+               <l>I pray the who may say nay?</l>
+               <l>With Antichrist suche shull fall</l>
+               <l>They folowen hym in dede and fay</l>
+               <l>
+                  <pb facs="tcp:25236:15"/>They seruyn hym in riche array</l>
+               <l>To serue Christ suche falsely fayne</l>
+               <l>Why / at the dredefull domes day</l>
+               <l>Shull they nat folowe hym to payne?</l>
+            </lg>
+            <lg>
+               <l>¶ That knowen hem selfe that they done yll</l>
+               <l>Ayenst Christes co<g ref="char:cmbAbbrStroke">̄</g>maundement</l>
+               <l>And amende hem neuer ne wyll</l>
+               <l>But serue Sathan by one assent</l>
+               <l>Who sayth sothe he shalbe shent</l>
+               <l>Or speketh ayenst her false lyuyng</l>
+               <l>Who so well lyueth shalbe brent</l>
+               <l>For suche ben gretter than the kyng</l>
+            </lg>
+            <lg>
+               <l>¶ Pope / bysshoppes / and cardyuals</l>
+               <l>Chanons / persons / and vycayre</l>
+               <l>In goddes seruyce I trowe ben false</l>
+               <l>That sacramentes sellen here</l>
+               <l>And ben as proude as Lucifere</l>
+               <l>Eche man loke whether that I lye</l>
+               <l>Who so speketh ayenst her powere</l>
+               <l>It shall be holden heresy</l>
+            </lg>
+            <lg>
+               <l>Loke howe many orders take</l>
+               <l>Onely of Christ / for his seruyce</l>
+               <l>That the worldes goodes forsake</l>
+               <l>Who so taketh orders / or other wyse</l>
+               <l>I trowe that they shall sore agryse</l>
+               <l>For all the glose that they conne</l>
+               <l>All sewen nat this assyse</l>
+               <l>In yuell tyme they thus begonne</l>
+            </lg>
+            <lg>
+               <l>Loke howe many amonge hem all</l>
+               <l>Holden nat this hye way</l>
+               <l>With Antichrist they shullen fall</l>
+               <l>For they wolden god betray</l>
+               <l>God amende hem that best may</l>
+               <l>For many men they maken shende</l>
+               <l>They weten well the sothe I say</l>
+               <l>But the dyuell hath foule hem blende</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:16"/>
+               <l>¶ Some on her churches dwell</l>
+               <l>Appayrelled poorely / proude of porte</l>
+               <l>The seuyn sacramentes they done sell</l>
+               <l>In cattell catchyng is her comforte</l>
+               <l>Of eche matter they wollen mell</l>
+               <l>And done hem wronge is her dispor<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>To affray the people they ben fel</l>
+               <l>And holde hem lower than dothe the lorde</l>
+            </lg>
+            <lg>
+               <l>¶ For the tithynge of a duke</l>
+               <l>Or of an apple / or an aye</l>
+               <l>They make men swere vpon a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oke</l>
+               <l>Thus they foulyn Christes fay</l>
+               <l>Suche beren yuell heuyn kay</l>
+               <l>They mowen assoyle / they mowe shriue</l>
+               <l>With mennes wyues strongly play</l>
+               <l>With tr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>we tyllers sturte and stryue</l>
+            </lg>
+            <lg>
+               <l>¶ At the wrestlyng / and at the wake</l>
+               <l>And chefe chauntours at the nale</l>
+               <l>Markette beters / and medlyng make</l>
+               <l>Hoppen and houten with heue and hale</l>
+               <l>At fayre fresshe / and at wyne stale</l>
+               <l>Dyn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and drinke / and make debate</l>
+               <l>The seuyn sacramentes sette at sayle</l>
+               <l>Howe kepe suche they keyes of heuyn gate?</l>
+            </lg>
+            <lg>
+               <l>¶ Mennes wyues they wollen holde</l>
+               <l>And though that they ben ryght sory</l>
+               <l>To speke they shull nat be so bolde</l>
+               <l>For sompnyng to the consistory</l>
+               <l>And make hem saye mouthe I lye</l>
+               <l>Though they it sawe with her eye</l>
+               <l>His lemman holden openly</l>
+               <l>No man so hardy to axe why</l>
+            </lg>
+            <lg>
+               <l>¶ He woll haue tythyng &amp; offrynge</l>
+               <l>Mauger who so euer it gruche</l>
+               <l>And twyse on the day he woll synge</l>
+               <l>Goddes prestes nere none suche</l>
+               <l>
+                  <pb facs="tcp:25236:16"/>He mote on huntyng with dogge and bytche</l>
+               <l>And blowen his horne / and cryen hey</l>
+               <l>And sorcery vsen as a wytche</l>
+               <l>Suche kepyn yuell Peters key</l>
+            </lg>
+            <lg>
+               <l>¶ Y<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t they mote haue some stocke or stone</l>
+               <l>Gayly paynted / and proudly dight</l>
+               <l>To maken men leuyn vpon</l>
+               <l>And say that it is full of might</l>
+               <l>About suche / men sette vp great lyght</l>
+               <l>Other suche stockes shull stonde therby</l>
+               <l>As darke as it were midnight</l>
+               <l>For it may make no maistry</l>
+            </lg>
+            <lg>
+               <l>¶ That it leude people se mowe</l>
+               <l>Thou Mary / thou worchest wonder thinges</l>
+               <l>About that / that men offryn to nowe</l>
+               <l>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ongen broches / ouches / and rynges</l>
+               <l>The pre<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>st purchaseth the offrynges</l>
+               <l>But he nyll offre to none ymage</l>
+               <l>Wo is the soule that he for synges</l>
+               <l>That precheth for suche a pylgrimage</l>
+            </lg>
+            <lg>
+               <l>¶ To men and women that ben poore</l>
+               <l>That ben Christes owne lykenesse</l>
+               <l>Men shulden offre at her dore</l>
+               <l>That su<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ryn hungre and dystresse</l>
+               <l>And to suche ymages offre lesse</l>
+               <l>That mowe nat fele thurst ne colde</l>
+               <l>The poore in spyrite gan Christ blesse</l>
+               <l>Therfore offreth to feble and olde</l>
+            </lg>
+            <lg>
+               <l>¶ Buckelers brode / and swerdes long</l>
+               <l>Baudrike / with ba<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>clardes kene</l>
+               <l>Suche toles about her necke they hange</l>
+               <l>With Antichrist suche preestes bene</l>
+               <l>Upon her dedes it is well sene</l>
+               <l>Whom they seruen / whom they honoren</l>
+               <l>Antichristes they ben clene</l>
+               <l>And goddis goodes falsely deuouren</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:17"/>
+               <l>¶ Of scarlet and grene gay gownes</l>
+               <l>That mote be shape for the newe</l>
+               <l>To clyppen and kyssen cou<g ref="char:cmbAbbrStroke">̄</g>ten in townes</l>
+               <l>The damosels that to the dauuce sewe</l>
+               <l>Cutted clothes to sewe her hewe</l>
+               <l>With longe pykes on her shone</l>
+               <l>Our goddes gospell is nat trewe</l>
+               <l>Eyther they seruen the dyuell or none</l>
+            </lg>
+            <lg>
+               <l>¶ Nowe ben preestes pokes so wyde</l>
+               <l>That men must enlarge the vestement</l>
+               <l>The holy gospell they done hyde</l>
+               <l>For they contraryen in rayment</l>
+               <l>Suche preestes of Lucifere ben sent</l>
+               <l>Lyke conquerours they ben arayde</l>
+               <l>The proude pendauntes at her ars ypent</l>
+               <l>Falsely the truthe they han betrayde</l>
+            </lg>
+            <lg>
+               <l>¶ Shrifte syluer suche wollen aske is</l>
+               <l>And woll men crepe to the crouche</l>
+               <l>None of the sacramentes saue askes</l>
+               <l>Without mede shall no man touche</l>
+               <l>On her bysshoppe their warant vouch</l>
+               <l>That is lawe of the decre</l>
+               <l>With mede and money thus they mouche</l>
+               <l>And thus they sayne is charyte</l>
+            </lg>
+            <lg>
+               <l>¶ In the myddes of her masse</l>
+               <l>They nyll haue no man but for hyre</l>
+               <l>And full shortely lette forth passe</l>
+               <l>Suche shull men fynde in eche shyre</l>
+               <l>That personages for profyte desyre</l>
+               <l>To lyue in lykyng and in lustes</l>
+               <l>I dare nat sayne / Sans ose ieo dire</l>
+               <l>That suche ben Antichristes preestes</l>
+            </lg>
+            <lg>
+               <l>¶ Or they yef the bysshoppes why</l>
+               <l>Or they mote ben in his seruyce</l>
+               <l>And holden forthe her harlotry</l>
+               <l>Suche prelates ben of feble emprise</l>
+               <l>
+                  <pb facs="tcp:25236:17"/>Of goddis grame suche men agryse</l>
+               <l>For suche matters that taken mede</l>
+               <l>Howe they excuse hem / and in what wyse</l>
+               <l>Me thynketh they ought greatly drede</l>
+            </lg>
+            <lg>
+               <l>¶ They sayne / that it to no man longeth</l>
+               <l>To reproue them though they erre</l>
+               <l>But falsely goddis goodesse they fongeth</l>
+               <l>And therwith maynteyne wo and werre</l>
+               <l>Her dedes shulde be as bright as sterre</l>
+               <l>Her lyuyng / leude mannes lyght</l>
+               <l>They say the pope maye nat erre</l>
+               <l>Nede must that passe mannes might</l>
+            </lg>
+            <lg>
+               <l>¶ Though a prest lye w<hi rend="sup">t</hi> his le<g ref="char:cmbAbbrStroke">̄</g>man all night</l>
+               <l>And tellen his felowe / and he hym</l>
+               <l>He goth to masse anone right</l>
+               <l>And sayth he syngeth out of synne</l>
+               <l>His byrde abideth hym at his inne</l>
+               <l>And dighteth his dyner the meane whyle</l>
+               <l>He syngeth his masse for he wolde wynne</l>
+               <l>And so he weneth god begyle</l>
+            </lg>
+            <lg>
+               <l>¶Hem thynketh long tyll they be mette</l>
+               <l>And that they vsen forthe all the yere</l>
+               <l>Amonge the folke whan he is sette</l>
+               <l>He holdeth no man halfe his pere</l>
+               <l>Of the bysshoppe he hath powere</l>
+               <l>To soyle men / or els they ben lore</l>
+               <l>His absolutyon may make them skere</l>
+               <l>And wo is the soule that he syngeth fore</l>
+            </lg>
+            <lg>
+               <l>¶ The Gryffon began for to threte<note place="margin">Gryffon.</note>
+               </l>
+               <l>And sayd / of monkes canst thou ought</l>
+               <l>The Pellycane sayd / they ben full grete<note place="margin">Pelycan.</note>
+               </l>
+               <l>And in this worlde moche wo hath wrought</l>
+               <l>Saynt Benet / that her order brought</l>
+               <l>Ne made hem neuer on suche manere</l>
+               <l>I trowe it came neuer in this thought</l>
+               <l>That they shulde vse so great powere</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:18"/>
+               <l>¶ That a man shuld a monke lorde call</l>
+               <l>Ne serue on knees / as a kyng</l>
+               <l>He is as proude as prince in pall</l>
+               <l>In mete / and drynke / and all thyng</l>
+               <l>Some wearyn myter and rynge</l>
+               <l>With double worsted well ydight</l>
+               <l>With royall mete and riche drinke</l>
+               <l>And rideth on a courser as a knyght</l>
+            </lg>
+            <lg>
+               <l>¶ With hauke and With houndes eke</l>
+               <l>With broches or ouches on his hode</l>
+               <l>Some saye no masse in all a weke</l>
+               <l>Of deynties is her most fode</l>
+               <l>With lordshippes and with bondmen</l>
+               <l>This is a royall relygyoun</l>
+               <l>Saynt Benet made ueuer none of hem</l>
+               <l>To haue lordshippe of man ne towne</l>
+            </lg>
+            <lg>
+               <l>¶ Nowe they ben qneynte and curious</l>
+               <l>With fyne clothe cladde and serued clene</l>
+               <l>Proude angry / and enuyous</l>
+               <l>Malyce is mouche that they meane</l>
+               <l>In catchyng crafty and couetous</l>
+               <l>Lordly lyuen in great lykyng</l>
+               <l>This lynyng is nat relygyous</l>
+               <l>Accordyng to Benette in his lyuyng</l>
+            </lg>
+            <lg>
+               <l>¶They ben clerkes / her courtes they ouer se</l>
+               <l>Her poore tenaunce fully they flyte</l>
+               <l>The hyre that a man amerced be</l>
+               <l>The gladlyer they woll it write</l>
+               <l>This is ferre from Christes pouerte</l>
+               <l>For all with couetyse they endyte</l>
+               <l>On the poore they haue no pyte</l>
+               <l>Ne neuer hem cherysshe but euer hem byte</l>
+            </lg>
+            <lg>
+               <l>¶And co<g ref="char:cmbAbbrStroke">̄</g>menly suche ben comen</l>
+               <l>Of poore people / and of hem begete</l>
+               <l>That this perfection han ynomen</l>
+               <l>Her fathers ryden nat but on her fete</l>
+               <l>
+                  <pb facs="tcp:25236:18"/>And trauaylen sore for that they ete</l>
+               <l>In pouert lyueth yonge and olde</l>
+               <l>Her fathers suffreth drought and wete</l>
+               <l>Many hungry meles / thurst / and colde</l>
+            </lg>
+            <lg>
+               <l>¶And all this the monkes han forsake</l>
+               <l>For Christes loue and saynt Benette</l>
+               <l>To pride and ease haue hem take</l>
+               <l>This relygion is yuell be sette</l>
+               <l>Had they ben out of relygioun</l>
+               <l>They must haue honged at the plowe</l>
+               <l>Thresshyng &amp; dykyng fro towne to towne</l>
+               <l>With sory mete / and nat halfe ynowe</l>
+            </lg>
+            <lg>
+               <l>¶ Therfore they han this all forsake</l>
+               <l>And taken to riches / pride / and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ase</l>
+               <l>Full fewe for god woll monkes hem mak<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Lytell is suche order for to prayse</l>
+               <l>Saynt Benet ordayned it nat so</l>
+               <l>But badde hem be cherelyche</l>
+               <l>In churlyche maner lyue and go</l>
+               <l>Boystous in erthe / and nat lordlych</l>
+            </lg>
+            <lg>
+               <l>¶ They disclanuder saynt Benette</l>
+               <l>Therfore they haue his holy curse</l>
+               <l>Saynt Benet with hem neuer mette</l>
+               <l>But if they thought to robbe his purs<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>I canne no more herof tell</l>
+               <l>But they ben lyke tho before</l>
+               <l>And clene serue the dyuell of hell</l>
+               <l>And ben his treasour and his store</l>
+            </lg>
+            <lg>
+               <l>¶ And all suche other counterfeytours</l>
+               <l>Chanons / canons / and suche disgysed</l>
+               <l>Ben goddes enemyes and traytours</l>
+               <l>His trewe relygion han foule dispysed</l>
+               <l>Of Freres I haue tolde before</l>
+               <l>In a makynge of a Crede</l>
+               <l>And yet I coude tell worse and more</l>
+               <l>But men wolde weryen it to rede</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:19"/>
+               <l>¶ As goddes goodnesse no man tell might</l>
+               <l>Write ne speke / ne thynke in thought</l>
+               <l>So her falshed / and her vnright</l>
+               <l>May no man tell that euer god wrought</l>
+               <l>
+                  <note place="margin">Gryffon.</note>The Gryffon sayd / thou canst no good</l>
+               <l>Thou came neuer of no gentyll kynde</l>
+               <l>Outher I trowe thou wexest wood</l>
+               <l>Or els thou hast loste thy mynde</l>
+            </lg>
+            <lg>
+               <l>¶ Sulde holy churches haue no heed?</l>
+               <l>Who shulde be her gouernayle</l>
+               <l>Who shulde her rule / who shulde her reed</l>
+               <l>Who shulde her forthren / who shulde auayle</l>
+               <l>Eche man shall lyue by his trauayle</l>
+               <l>Who best doth / shall haue most mede</l>
+               <l>With strength if men the churche assayle</l>
+               <l>With strength men must defende her nede</l>
+            </lg>
+            <lg>
+               <l>¶ And the pope were purely poore</l>
+               <l>Nedy / and nothyng ne had<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>He shulde be driuen from dore to dore</l>
+               <l>The wicked of hym nolde nat be dradde</l>
+               <l>Of suche an heed men wolde be sadde</l>
+               <l>And synfully lyuen as hem lust</l>
+               <l>With strength / ame<g ref="char:cmbAbbrStroke">̄</g>des suche be made</l>
+               <l>With wepen wolues from shepe be wust</l>
+            </lg>
+            <lg>
+               <l>¶ If the pope and prelates wolde</l>
+               <l>So begge / &amp; bydde / bowe and borowe</l>
+               <l>Holy churche shulde stande full colde</l>
+               <l>Her seruauntes sytte and soupe sorowe</l>
+               <l>And they were noughty foule and horowe</l>
+               <l>To worshyppe god men wolde wlate</l>
+               <l>Bothe on euyn and on morowe</l>
+               <l>Suche harlotry men wolde hate</l>
+            </lg>
+            <lg>
+               <l>¶ Therfore men of holy churche</l>
+               <l>Shulde ben honest in all thyng</l>
+               <l>Worshypfully goddes workes werche</l>
+               <l>So semeth it to serue Christ her kyng</l>
+               <l>
+                  <pb facs="tcp:25236:19"/>In honest and in clene clothyng</l>
+               <l>With vessels of golde and clothes ryche</l>
+               <l>To god honestly to make offryng</l>
+               <l>To his lordshyppe none is lyche</l>
+            </lg>
+            <lg>
+               <l>¶ The Pellycan caste on houge crye<note place="margin">Pellycan</note>
+               </l>
+               <l>And sayd alas / why sayest thou so</l>
+               <l>Christ is our heed that sytteth on hye</l>
+               <l>Heddes ne ought we haue no mo</l>
+               <l>We ben his membres bothe also</l>
+               <l>And father he taught vs to call hym als</l>
+               <l>Maisters to be called defended he tho</l>
+               <l>All other maisters ben wicked and fals</l>
+            </lg>
+            <lg>
+               <l>¶ That taketh maistry in his name</l>
+               <l>Goostly / and for erthly good</l>
+               <l>Kynges and lordes shulde lordshyp hane</l>
+               <l>And rule the people with mylde mode</l>
+               <l>Christ for vs that shedde his blode</l>
+               <l>Badde his preestes no maystershyp haue</l>
+               <l>Ne carke nat for clothe ne <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ode</l>
+               <l>From euery myschefe he wyll hem saue</l>
+            </lg>
+            <lg>
+               <l>¶ Her riche clothyng shalbe ryghtwy<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>enesse</l>
+               <l>Her treasour / trewe lyfe shalbe</l>
+               <l>Charite shalbe her rychesse</l>
+               <l>Her lordshippe shalbe vnyte</l>
+               <l>Hope in god / her honeste</l>
+               <l>Her vessell clene conscience</l>
+               <l>Poore in spyrite / and humylyte</l>
+               <l>Shalbe holy churches defence</l>
+            </lg>
+            <lg>
+               <l>¶ What sayd the Gryffon may the greue<note place="margin">Gryffon<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note>
+               </l>
+               <l>That other folkes faren wele</l>
+               <l>What haste thou to done with her lyue</l>
+               <l>Thy falshed eche man may fele</l>
+               <l>For thou canst no catell gete</l>
+               <l>But lyuest in londe as a lorell</l>
+               <l>With glosyng gettest thon thy mete</l>
+               <l>So fareth the deuyll that wonneth in hell</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:20"/>
+               <l>He wolde that eche man there shulde dwell</l>
+               <l>For he lyueth in clene enuye</l>
+               <l>So with the tales that thou dost tell</l>
+               <l>Thou woldest other people distry</l>
+               <l>With your glose / and your heresy</l>
+               <l>For ye can lyue no better lyfe</l>
+               <l>But clene in hypocrisy</l>
+               <l>And bringest the in wo and stryfe</l>
+            </lg>
+            <lg>
+               <l>¶ And therwith haue nat to done</l>
+               <l>For ye ne haue here no cure</l>
+               <l>Ye serue the dyuell / neither god ne man</l>
+               <l>And he shall paye you your hyre</l>
+               <l>For ye woll fare well at feestes</l>
+               <l>And warme clothed for the colde</l>
+               <l>Therfore ye glose goddis hestes</l>
+               <l>And begyle the people yonge and olde</l>
+            </lg>
+            <lg>
+               <l>¶ And all the seuyn sacramentes</l>
+               <l>ye speke ayenst / as ye were slye</l>
+               <l>Ayenst tithi<g ref="char:cmbAbbrStroke">̄</g>ges / offrynges / with your ente<g ref="char:cmbAbbrStroke">̄</g>tes</l>
+               <l>And on our lordes body falsely lye</l>
+               <l>And all this ye done to lyue in case</l>
+               <l>As who sayth / there ben none suche</l>
+               <l>And sayne the pope is nat worth a pease</l>
+               <l>To make the people ayen hym gruche</l>
+            </lg>
+            <lg>
+               <l>¶ And this co<g ref="char:cmbAbbrStroke">̄</g>meth in by fendes</l>
+               <l>To bryng the christen in distaunce</l>
+               <l>For they wolde that no man were frendes</l>
+               <l>Leaue thy chattryng with myschaunce</l>
+               <l>If thou lyue well / what wylte thou more</l>
+               <l>Lette other men lyue as hem lyst</l>
+               <l>Spende in good / or kepe in store</l>
+               <l>Other mennes conscience neuer thou nyst</l>
+            </lg>
+            <lg>
+               <l>¶ ye han no cure to answere fore</l>
+               <l>What meddell ye / that han nat to done</l>
+               <l>Lette men lyue as they han done yore</l>
+               <l>For thou shalte answere for no man</l>
+               <l>
+                  <pb facs="tcp:25236:20"/>¶ The Pellycan sayd / Syr / nay<note place="margin">Pellycan</note>
+               </l>
+               <l>I dispysed nat the pope</l>
+               <l>Ne no sacramente / sothe to say</l>
+               <l>But speke in charite and good hope</l>
+            </lg>
+            <lg>
+               <l>¶ But I dispyse her hye pride</l>
+               <l>Her richesse / that shulde be poore in <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pirite</l>
+               <l>Her wickednesse is knowe so wyde</l>
+               <l>They serue god in false habyte</l>
+               <l>And turnyn mekenesse in to pride</l>
+               <l>And lowelynesse in to hye degre</l>
+               <l>And goddis wordes turne and hyde</l>
+               <l>And that am I moued by charite</l>
+            </lg>
+            <lg>
+               <l>¶ To lette men to lyue so</l>
+               <l>With all my connyng and all my myght</l>
+               <l>And to warne men of her wo</l>
+               <l>And to tell hem trouthe and ryght</l>
+               <l>The sacramentes be soule hele</l>
+               <l>If they ben vsed in good vse</l>
+               <l>Ayenst that speke I neuer a dele</l>
+               <l>For than were I nothyng wyse</l>
+            </lg>
+            <lg>
+               <l>¶ But they that vsen hem in mysse manere</l>
+               <l>Or sette hem vp to any sale</l>
+               <l>I trowe they shall abye hem dere</l>
+               <l>This is my reason / this is my tale</l>
+               <l>Who so taketh hem vnrightfulllyche</l>
+               <l>Ayenst the tenne co<g ref="char:cmbAbbrStroke">̄</g>maundymentes</l>
+               <l>Or by glose wreched lyche</l>
+               <l>Selleth any of the sacramentes</l>
+            </lg>
+            <lg>
+               <l>¶ I trowe they do the deuyll homage</l>
+               <l>In that they wetyn they do wronge</l>
+               <l>And therto I dare well wage</l>
+               <l>They seruyn Sathan for all her songe</l>
+               <l>To tithen and offren is holsome lyfe</l>
+               <l>So it be done in dewe manere</l>
+               <l>A man to houselyn and to shryue</l>
+               <l>Weddyng / and all the other in fere</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:21"/>
+               <l>¶ So it be notherfolde ne bought</l>
+               <l>Ne take ne gyue for couetyse</l>
+               <l>And it be so taken it is nought</l>
+               <l>Who selleth hem so / maye sore agryse</l>
+               <l>On our lordes body I do nat lye</l>
+               <l>I say sothe thorowe trewe rede</l>
+               <l>His flesshe and blode through his mastry</l>
+               <l>Is there / in the forme of brede</l>
+            </lg>
+            <lg>
+               <l>¶ Howe it is there / it nedeth nat stryue</l>
+               <l>Whether it be subgette or accydent</l>
+               <l>But as Christ was / whan he was on lyue</l>
+               <l>So is he there v<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rament</l>
+               <l>If pope or cardynall lyue good lyue</l>
+               <l>As Christ commaunded in his gospell</l>
+               <l>Ayenst that woll I nat stryue</l>
+               <l>But me thynketh they lyue nat well</l>
+            </lg>
+            <lg>
+               <l>¶ For if the pope lyued as god bede</l>
+               <l>Pride and hyghnesse he shulde dispyse</l>
+               <l>Rychesse / couetyse / and crowne on hede</l>
+               <l>Mekenesse and pouerte he shulde vse</l>
+               <l>
+                  <note place="margin">Gryffon.</note>The Gryffon sayd he shulde abye</l>
+               <l>Thou shalbe brent in balefull fyre</l>
+               <l>All they secte I shall distrye</l>
+               <l>Ye shalbe hanged by the swyre</l>
+            </lg>
+            <lg>
+               <l>¶ Ye shullen be honged and to drawe</l>
+               <l>Who gyueth you leaue for to preche</l>
+               <l>Or speke ayenst goddes lawe</l>
+               <l>And the people thus falsely teche</l>
+               <l>Thou shalt be cursed with boke and bell</l>
+               <l>And disseuered from holy churche</l>
+               <l>And clene ydampned in to hell</l>
+               <l>Otherwyse but ye woll worche</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Pellycan</note>¶ The Pellycan sayd that I ne drede</l>
+               <l>Your cursyng is of lytell value</l>
+               <l>Of god I hope to haue my mede</l>
+               <l>For it is fashede that ye shewe</l>
+               <l>
+                  <pb facs="tcp:25236:21"/>For ye ben out of charite</l>
+               <l>And wylneth vengeaunce / as dyd Nero</l>
+               <l>To suffryn I woll redy be</l>
+               <l>I drede nat that thou canst do</l>
+            </lg>
+            <lg>
+               <l>¶ Christ badde ones suffre for his loue</l>
+               <l>And so he taught all his seruauntes</l>
+               <l>And but thou amende for his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ake aboue</l>
+               <l>I drede nat all thy mayntenaunce</l>
+               <l>For if I drede the worldes hate</l>
+               <l>Me thynketh I were lytell to prayse</l>
+               <l>I drede nothyng your hye estate</l>
+               <l>Ne I drede nat your diseace</l>
+            </lg>
+            <lg>
+               <l>¶ Wolde ye turne and leaue your pride</l>
+               <l>your hye porte / and your richesse</l>
+               <l>your cursyng shulde nat go so wyd<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>God bryng you in to rightwysenesse</l>
+               <l>For I drede nat your tyran<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y</l>
+               <l>For nothyng that ye canne done</l>
+               <l>To suffre I am all redy</l>
+               <l>Syker I recke neuer howe soone</l>
+            </lg>
+            <lg>
+               <l>¶ The Gryffon grynned as he were wode<note place="margin">Gryffon.</note>
+               </l>
+               <l>And loked louely as an owle</l>
+               <l>And swore by cockes herte blode</l>
+               <l>He wolde hym tere euery doule</l>
+               <l>Holy churche thou di<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>claundrest foule</l>
+               <l>For thy reasons I woll the all to race</l>
+               <l>And make thy flesshe to rote and moule</l>
+               <l>Losell / thou shalte haue harde grace</l>
+            </lg>
+            <lg>
+               <l>¶ The Gryffon flewe forthe on his waye</l>
+               <l>The Pellycane dyd sytte and wepe</l>
+               <l>And to hym selfe he gan saye</l>
+               <l>God wolde that any of Christes shepe</l>
+               <l>Hadde herde / and ytake kepe</l>
+               <l>Eche a worde that here sayd was</l>
+               <l>And wolde it write and well it kepe</l>
+               <l>God wolde it were all for his grace</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:22"/>
+               <l>
+                  <note place="margin">Plowma<g ref="char:cmbAbbrStroke">̄</g>
+                  </note>¶ I answerde / and sayd I wolde</l>
+               <l>If for my trauayle any man wolde pay</l>
+               <l>
+                  <note place="margin">Pelycan.</note>He sayd yes / these that god han solde</l>
+               <l>For they han store of money</l>
+               <l>
+                  <note place="margin">Plowma<g ref="char:cmbAbbrStroke">̄</g>
+                  </note>I sayd / tell me and thou may</l>
+               <l>Why tellest thou mennes trespace?</l>
+               <l>
+                  <note place="margin">Pelyca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>He sayd / to amende hem in good fay</l>
+               <l>If god woll gyue me any grace</l>
+            </lg>
+            <lg>
+               <l>¶ For Christ hym selfe is lykened to me</l>
+               <l>That for his people dyed on rode</l>
+               <l>As fare I / right so fareth he</l>
+               <l>He fedeth his byrdes with his blode</l>
+               <l>But these done yuell ayenst gode</l>
+               <l>And ben his fone vnder frendes face</l>
+               <l>I tolde hem howe her lyuyng stode</l>
+               <l>God amende hem for his grace</l>
+            </lg>
+            <lg>
+               <l>
+                  <note place="margin">Plowma<g ref="char:cmbAbbrStroke">̄</g>
+                  </note>What ayleth the Gryffon / tell why</l>
+               <l>That he holdeth on that other syde</l>
+               <l>For they two ben lykely</l>
+               <l>And with kyndes robben wyde</l>
+               <l>
+                  <note place="margin">Pelycan.</note>The foule betokeneth pride</l>
+               <l>As Lucifere / that high flewe was</l>
+               <l>And sithe he dyd hym in yuell hyde</l>
+               <l>For he agylted goddis grace</l>
+            </lg>
+            <lg>
+               <l>¶ As byrde flyeth vp in the ayre</l>
+               <l>And lyueth by byrdes that ben meke</l>
+               <l>So these be flowe vp in to dispayre</l>
+               <l>And shenden sely soules eke</l>
+               <l>The soules that ben in synnes seke</l>
+               <l>He culleth hem / knele therfore alas</l>
+               <l>For bribry goddis forbode breke</l>
+               <l>God amende it for his grace</l>
+            </lg>
+            <lg>
+               <l>¶ The hynder parte is alyoun</l>
+               <l>A robber and a rauynere</l>
+               <l>That robbeth they people in erthe a downe</l>
+               <l>And in erthe holdeth none his pere</l>
+               <l>
+                  <pb facs="tcp:25236:22"/>So fareth this foule bothe ferre and nere</l>
+               <l>And with temporell strength they people chas<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>As a lyon proude in erthe here</l>
+               <l>God amende hem for his grace</l>
+            </lg>
+            <lg>
+               <l>¶ He flewe forthe with his wynges twayne<note place="margin">Pellycan</note>
+               </l>
+               <l>All droupyng / dased / and dull</l>
+               <l>But soone the Gry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on came agayne<note place="margin">Gryffon.</note>
+               </l>
+               <l>Of his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oules the erthe was full</l>
+               <l>The Pellycan he had cast to pull</l>
+               <l>So great a nombre neuer sene there was</l>
+               <l>What maner of foules tellen I woll</l>
+               <l>If god woll gyue me o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his grace</l>
+            </lg>
+            <lg>
+               <l>¶ With the Gryffon comen foules fele</l>
+               <l>Rauyns / rokes / crowes / and pye</l>
+               <l>Grayfoules / agadred wele</l>
+               <l>I g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rde aboue they wolde hye</l>
+               <l>Gledes and bosardes weren hem by</l>
+               <l>White molles and puttockes token her plac<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>And lapwynges / that well co<g ref="char:cmbAbbrStroke">̄</g>neth lye</l>
+               <l>This felowshyp han for gerde her grace</l>
+            </lg>
+            <lg>
+               <l>¶ Long the Pellycane was out</l>
+               <l>But at last he cometh agayne</l>
+               <l>And brought with hym the Phenixe stoute</l>
+               <l>The Gry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on wolde haue <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>owe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ull <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ayne</l>
+               <l>His foules that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lewen as thycke as rayne</l>
+               <l>The Phenixe tho began hem chace</l>
+               <l>To <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lye from hym it was in vayne</l>
+               <l>For he dyd vengeaunce and no grace</l>
+            </lg>
+            <lg>
+               <l>¶ He slewe hem downe without mercy</l>
+               <l>There astarte neyther free ne thrall</l>
+               <l>On hym they cast a xufull crye</l>
+               <l>Whan the Gry<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on downe was fall</l>
+               <l>He bete hem nat / but slewe hem all</l>
+               <l>Whither he hem droue no man may trace</l>
+               <l>Under the erthe me thought they yall</l>
+               <l>Alas they had a feble grace</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25236:23"/>
+               <l>
+                  <note place="margin">Pellycan</note>¶ The Pelycan than axed tyght</l>
+               <l>For my wrytyng if I haue blame</l>
+               <l>Who woll for me fyght of flyght?</l>
+               <l>Who shall shelde me from shame</l>
+               <l>He that had a mayde to dame</l>
+               <l>And the lambe that slayne was</l>
+               <l>Shall shelde me from gostly blame</l>
+               <l>For erthely harme is goodis grace</l>
+            </lg>
+            <lg>
+               <l>¶ Therfore I pray euery man</l>
+               <l>Of my writyng haue me excused</l>
+               <l>This writynge writeth the Pellycan</l>
+               <l>That thus these people hath dispysed</l>
+               <l>For I am fresshe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ully aduysed</l>
+               <l>I nyll nat maynteyne his manace</l>
+               <l>For the deuyll is o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ten disguysed</l>
+               <l>To brynge a man to yuell grace</l>
+            </lg>
+            <lg>
+               <l>¶ Wyteth the Pellycane and nat me</l>
+               <l>For herof I nyll nat auowe</l>
+               <l>In hye ne in lowe / ne in no degre</l>
+               <l>But as a fable take i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ye mowe</l>
+               <l>To holy churche I wyll me bowe</l>
+               <l>Eche man to amende him Christ sende space</l>
+               <l>And for my writynge me alowe</l>
+               <l>He that is almyghty for his grace</l>
+            </lg>
+            <trailer>¶ Finis</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ Printed at Lon<g ref="char:EOLhyphen"/>don by Thomas Godfray,</p>
+            <p>Cum priuilegio,</p>
+         </div>
+      </back>
+   </text>
+</TEI>

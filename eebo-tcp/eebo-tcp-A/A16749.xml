@@ -1,0 +1,920 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grimellos fortunes, vvith his entertainment in his trauaile A discourse full of pleasure.</title>
+            <author>Breton, Nicholas, 1545?-1626?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1604</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 61 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-03">2005-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A16749</idno>
+            <idno type="STC">STC 3657</idno>
+            <idno type="STC">ESTC S104795</idno>
+            <idno type="EEBO-CITATION">99840526</idno>
+            <idno type="PROQUEST">99840526</idno>
+            <idno type="VID">5038</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A16749)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 5038)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 702:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Grimellos fortunes, vvith his entertainment in his trauaile A discourse full of pleasure.</title>
+                  <author>Breton, Nicholas, 1545?-1626?</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by E. Allde] for E. VVhite, and are to bee solde at his shoppe neere the little norrh [sic] doore of S. Paules-Church at the signe of the Gun,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1604.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the reader" signed: B.N., i.e. Nicholas Breton.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: [A]²  B-D⁴ E² .</note>
+                  <note>Vertical chain lines.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-11</date>
+            <label>Paul Schaffner</label>Sampled and proofread</change>
+         <change>
+            <date>2004-11</date>
+            <label>Paul Schaffner</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-01</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:5038:1"/>
+            <pb facs="tcp:5038:1"/>
+            <p>GRIMELLOS Fortunes, VVith his Entertainment in his trauaile.</p>
+            <p>A discourse full of pleasure.</p>
+            <figure/>
+            <p>LONDON, Printed for <hi>E. VVhite,</hi> and are to bee solde at his Shoppe neere the little North doore of S. Paules<g ref="char:punc">▪</g> Church at the Signe of the Gun. 1604</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:5038:2"/>
+            <pb facs="tcp:5038:2"/>
+            <head>To the Reader.</head>
+            <p>
+               <hi>GRimellos</hi> Fortunes were more then were spoken of, and such as are, you may easily consider of: Who runnes many courses, is some-time out of the way, and so was hee, and euery man cannot thriue, no more did he: yet his will was good, so may be yours: But his Fortune was so so, so may be yours. But what became of him in the end, is not spoken: and what you meane to doe, I cannot Iudge. Him I had litle acquaintance with, and you lesse: on<g ref="char:EOLhyphen"/>ly his name I haue reade, but yours I know not, that I haue heard of: Of him I heare no euill, nor wish to heare any of you: Him I finde wittie, and you I hope to finde wise; if not, I shall be sorrie for your witte, as mine owne Fortune, to let my labours fall into your hands. But I will thinke the best, and so in the best thought I rest in hope of your patience.</p>
+            <closer>
+               <signed>Your friend, <hi>B. N.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="masque">
+            <pb facs="tcp:5038:3"/>
+            <pb facs="tcp:5038:3"/>
+            <opener>Faxit Deus</opener>
+            <head>THE ENTERTAINMENT OF Grimello, <hi>by Signior</hi> Ganuzido, <hi>as he</hi> ouer-tooke him on the way.</head>
+            <stage>Grimello. Ganuzido.</stage>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>YOu are well ouer taken Sir.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>What? are you so sure of it?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Sure, of what sir?</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why, my Purse.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Your Purse? no sir, it was the least part of my thought.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why, what haue you taken then? or haue you authoritie to take fooles as you finde them in your waie? If you haue, you may happen yet to be deceiued.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why sir, I set no springs for Wood<g ref="char:EOLhyphen"/>cocks, and though I be no great wise man, yet I can doe something else, then shooe the Boose for my liuing: and there<g ref="char:EOLhyphen"/>fore, I pray you neither feare your Purse, nor play too much with my folly. But if you can finde in your hart to do good for him that cannot deserue it, and will trust a stranger, with as much as you dare loose, it may be I should tell you a lon<g ref="char:EOLhyphen"/>ger tale then you would beleeue, or else finde you kinder then I can looke for.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why? saie I were as I may be (for ought you know) an honest man, and of ability to doe for you more then I meane to prate of, if I like of your talke, and your behaui<g ref="char:EOLhyphen"/>our, what would you saie to mee?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I could say some<g ref="char:EOLhyphen"/>what vnto you, but that my hart is full.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Of what?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Sorrowes.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>For what?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh sir, it were a
+
+
+<pb facs="tcp:5038:4"/>
+worlde to tell you the discourse of the causes of them.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well then, by the waie, let me aske you a question or two.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>As many as please you.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Then first, tell me whence came you?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>From <hi>Terra Florida,</hi> and am going to <hi>Isola Brata.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Oh, I vnderstand a litle Latin, and if I be not much mistaken, you came from the florishing Lande, and are trauailing towardes the blessed Iland.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Uery true sir.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Then figuratiuely, you came from the Ale-house, and are going to the Tauerne.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh sir, you make too hard a construction of my disposition: for, though a cup of good Ale be comfortable in the morning, and a draught of old Sacke, warme the hart to bed-ward: yet for my selfe, I hold a moderate dyet the holsomest Phisick, and for those kinde of houses, they are but for necessitie: and therefore I pray you sir, be better conceiued of my condition.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well then, let me aske you, how you made your walke hither?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>In briefe-sir, not knowing your busi<g ref="char:EOLhyphen"/>nes, in admitting your leasure, or requiring more haste, and so fearing by teadiousnes, to be some trouble to your pati<g ref="char:EOLhyphen"/>ence, with your good fauour sir, thus it is. After that I had past the great Mountaine of mishaps, I fell into a long vaile of miserie, in which I haue wandred to the foote of this hill of hope, on which I haue not bene a little comforted, since I came into your presence.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Come, you are so fine, but will you not be angrie, if I tell you my minde, touching your figures?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Not for my life sir.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Then it may be, you were going vp <hi>Hol<g ref="char:EOLhyphen"/>bourne-Hill,</hi> and so afterwarde to <hi>Tiburne</hi>: From whence, hauing escaped more by good fortune, then desert, you haue gone a begging euer since: and hauing learned your termes of arte, either at Schoole, (which you haue not forgotten, to put to an ill vse) or among such as your selfe, that with Elo<g ref="char:EOLhyphen"/>quence, thinke to cosen simplicitie of a litle coine, you would draw a hand of me: but you are deceiued in me, or it may be, that I am deceiued in you, and therefore I pray you tell
+
+
+<pb facs="tcp:5038:4"/>
+me what you are, your profession and purpose? it may be for your good: for your hurt beléeue me it shall not be.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Sir, to tel you what I am, you know what al men are, and so am I: Dust and Ashes and wormes meate, my pro<g ref="char:EOLhyphen"/>fession honesty: which, if the heauens will fauour, I care for no fortune.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well said, but how do you professe hone<g ref="char:EOLhyphen"/>sty?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I protest.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>What, do you onely protest ho<g ref="char:EOLhyphen"/>nesty? Why then, your profession is but a protestation, as thus: You protest it a thing necessarie in a common wealth, but more commendable then commodious for many men to deale withall.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh no sir, no such matter: I know there is no true commoditie without it, and for my selfe, in all the courses that I haue yet runne, I haue had so great a care of it, &amp; so great a loue to it, that I haue had rather haue lost all that I had in the world, and my selfe last of all, then haue li<g ref="char:EOLhyphen"/>ued without it: and without boast be it spoken, I now haue it about me, and carrie it easily without any weight or trou<g ref="char:EOLhyphen"/>ble.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And where, I pray you?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Truely sir, in my hart, Where I hope it is too fast, for euer getting out, while I liue.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well then, if I must needs (as I haue yet no reason to the contrary) beleeue what you saie. Let me heare a litle of your courses, and of your honesty in them.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will tell you Sir first: After I had past out <hi>Crosse-rowe,</hi> speld, and put together, read without a Festraw, had my Grammer Rules without booke, and was gone from Schoole to the U<g ref="char:EOLhyphen"/>niuersities, there beginning in Philosophie, by Gods grace to iudge betwixt good and euill: and what honour was in honestie, and what shame in the contrarie: I rather noted then loued the fallacies in arguments: and gouerning na<g ref="char:EOLhyphen"/>ture with reason, I was called the honest Scholler: For I neuer vsed Rhetorick to perswade wickednes, nor Poetrye in wantonnesse, nor Diuinitie in pride, nor law in Coue<g ref="char:EOLhyphen"/>tousnesse, nor Phisicke in malice, nor Musicque in beggery: but held learning so honorable in all studies, that I auoy<g ref="char:EOLhyphen"/>ded
+
+
+<pb facs="tcp:5038:5"/>
+all that I might any waie disgrace her.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And there-with-all you wakte.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why Sir?</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why, I cannot see how being awake, you could doe so: Temptations, Illusions, and suggestions (and I know not what such other trickes) would haue put you so out of your By-ace, that you would some time haue lost the cast, had you bowled neuer so well. But let me heare you a little speake of your honesty in all your poynts of learning.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why, I tell you, I made no loue to wenches, I did cosen no simple trust with vntruth: I fed my flocke, vndid no Clyent poysoned no patient, nor followed a Fayrie with a blinde Fiddle: but wonne the wilfull with good words, to a good waie: made verses in the onely honor of vertue: was true to my friends, followed my Clyents case to his content, Preached euery weeke in my Parish Church: Cured sound<g ref="char:EOLhyphen"/>ly my Patients, and made content my best Musique.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And yet could not thriue with all this?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh no.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>The reason?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will tell you, wordes had no weight without money, and I was poore, and the rich were couetous: therefore my good wordes onely did good, to good mindes, that benefited not a litle by my labours; but my gaine was only a good name: so that most my enemy which wold saie, I was a foole, wold saie, that I was an ho<g ref="char:EOLhyphen"/>nest man. My Poetry belyed no mans villanie, nor laide o<g ref="char:EOLhyphen"/>pen his shame, but reprehended vice priuately, and touched no mans name in infamy. My Clyents would pray for my life, for my true pleading: and my Parish all loued me, be<g ref="char:EOLhyphen"/>cause I was contented with what they gaue me: my pati<g ref="char:EOLhyphen"/>ents commended my medicines, and my Musicque was pleasing, because it was not common.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Wel, then sir, your Rhetoricke was gratious, your Potrye diuine, your diuinitie, pure, your Law Iustice, your Physicke learned, and your Musique Harmonious: and yet with all these you could not thriue.</p>
+            </sp>
+            <sp>
+               <speaker>Gr.</speaker>
+               <p>No, For I could not flatter nor faine, nor be idle, nor
+
+
+<pb facs="tcp:5038:5"/>
+sell breath, nor beare malice, nor abide beggery.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well said, I like you well for this: but let me go a little farther on with you out of booke-matters. What other courses haue you past with this same honestie?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Truely Sir, after that I had left my hard studie, I became a Courtier.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Yea marrie Sir, now you come to me: let me heare a little of that poynt with you.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will tell you Sir, my place being not great there, I can tell you of no great matters, but thus far without offence. I lo<g ref="char:EOLhyphen"/>ued no Painting on my face, no superfluitie in my dyet nor excesse in my apparrell, nor to créepe to a Thorne nor to flat<g ref="char:EOLhyphen"/>ter a foole, nor conuerse with a <hi>Muchauilion,</hi> nor to make idle loue, nor to scoffe at vertue, nor to quarrel for trifles, nor to tell lies, nor to importune friends, nor to delay sutors: but in all poynts of courtesie, so linked honestie with mode<g ref="char:EOLhyphen"/>stie, that, being faithful to my God, loyall to my Soueraign, carefull of my selfe and kinde vnto my friend: my hart was all daie in a good harbour, and at night, my Conscience made me sléepe quietly.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>All this I like well, and the rather, for that your e<g ref="char:EOLhyphen"/>state answeres (at this time) to the condition of simplicity: but on a litle further for I greatly care not to talke too much of Court-courses: and yet I pray you tell me the cause why you had such a care of your honesty in all your Court-time? But first, let me aske you, why you would not paint your face as many doe?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because I would not offend God with setting an other collour on my face, then Nature by his grace had gi<g ref="char:EOLhyphen"/>uen me.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well said, but why did you forbeare superfluitie in your diet?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For that, with gluttonie and drunkennesse, I would not please the deuill.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Uery good now why doe you mislike excesse in apparrell?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because the wise that saw my fashions should not laugh at me for my folly.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:5038:6"/>
+               <speaker>Gan.</speaker>
+               <p>A good care: but why would you not créepe to a Thi<g ref="char:EOLhyphen"/>stle?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare of pricking my knées, and making an idoll of idlenes.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>And why doe you hate to flatter a foole?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because I fret at my miserie, to tye my patience to ignorance, and I would shunne the infection of a thirsting spirit.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well said, but why would you not conuerse with a <hi>Machauilion?</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare of a villaine.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why would you not make loue?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because of the fashion.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>How so?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why, it is vnfit to the body, or the minde, or state, or common, or foolish, or an idle thing or an other about it, so that I was loth to loose time, about the tri<g ref="char:EOLhyphen"/>all of it.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Good, but why durst you not scoffe at vertue?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare to be hatefull both to God and man.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>A gratious conceit: Now why did you mislike of quar<g ref="char:EOLhyphen"/>rels?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because they are enemies to peace, dangers of death, and disquietnes of the sences.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Uery good: now why did you hate lying?</p>
+            </sp>
+            <sp>
+               <speaker>Grin.</speaker>
+               <p>Because of the deuil is the author of it, no honest man but abhorres it: no Christian but may be ashamed of it: Few or none but the wicked loue it: Furthermore, when I tell true, I shall not be beléeued.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>You saie well: Now, why would you not impor<g ref="char:EOLhyphen"/>tune friends?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare to weary them, and so to loose them.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why would you not delaie Sutors?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because I would not abuse their trust, nor bee pittilesse of their misery.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>All this I like well: but for that I like not too much to talke of Court-courses, I pray you tell mee of your next course, and honestie in it.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Uery willingly. The next was Armes: I left the Court and followed the field, sought by danger to winne Honor: and when by deserts of seruice, I had gotten to the charge of Gouernment: I did not abuse my credit, with either foolish hardines, or base Cowardice.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>What was your reason?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare, by the
+
+
+<pb facs="tcp:5038:6"/>
+First, to loose either mine honor, or my people: By the other, to loose my credite vnrecouerable.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well said. Now to your next poynt.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I would not deceiue my souldier of his pay, nor make a melch-Cow of a man.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>And why? profite goeth be<g ref="char:EOLhyphen"/>yond Conscience in many considerations.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Yea, with such as thinke of no other world but this: but I haue no part in their play, for honor admitts no Auarice, and it is an vn<g ref="char:EOLhyphen"/>christian humor, to make money of men.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well said, and what was your next care?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Not to forget mercie in Iustice, not to fauour the vitious, nor to pardon the obstinate.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>And why?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because as Iustice is the grace of Iudgement, so is mercy the glory of Iustice.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Why would you not fauour the vitious?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Be<g ref="char:EOLhyphen"/>cause they are the enemies of God, and the spoyle of men.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>You saie true, but last of all, wherefore would you not pardon the obstinate?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For feare of infecting of other, and growing into a greater mischiefe, if hee scape vnpuni<g ref="char:EOLhyphen"/>shed.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>A good consideration, for in time of warre, one muti<g ref="char:EOLhyphen"/>nous villaine may marre a whole Campe: these indéed were honest cares in you: but it séemes, fortune was not alwaies your friend, or else she would haue furnished you better for your preferment: But I sée, you haue learned patience, which is a great vertue in all men, and in all courses. It séemes you had no pleasure in fyring of Cities, in bloudy massacres, nor in robbing of Churches.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh no, for God neuer prospereth the blood-thirstie, the mercilesse, nor the vngratious: and indéed, I must saie what I know, that a true Souldier, is neither Thiefe, Mur<g ref="char:EOLhyphen"/>therer, nor vnmercifull.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>I am of your minde in this: But not to trouble you too much with enquiring after your courses in the warres: let mee a litle aske you of the next course, and as you said, of your honestie in it.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:5038:7"/>
+               <speaker>Gri.</speaker>
+               <p>Uery willingly. The next course I tooke was this: finding my bodie, not answerable to my minde, and the gaines of my aduentures no greater then would defraie the charges of my necessarie expences: I left the field, and tooke me to my chamber, where resolued to betake my selfe wholy to my booke: I fell soundly to the study of the law: in which, when I had so profited, that I was able to pleade a case, and iudge betwixt right and wrong. I had that care of my con<g ref="char:EOLhyphen"/>science, that, of poore men I would take no money, and of the rich, I would not be bribed: And finding by some small ordi<g ref="char:EOLhyphen"/>nary fées, I could hardly paie for my bookes, my chamber, and my apparell, and my out-side being farre vnfit for the comelines of that profession: I was enforced to leaue that course, to a conscience of an other kinde: and séeing the misery of Clients, the quiddities in Cases, and the long delayings in Courts: I left the Law, sold my bookes, and my chamber, and kéeping only a Night-gowne to kéepe mee warme in a cold winter. I got me into the Country, there intending to plaie the good husband: where, hauing taken the lease of a prettie farme, I hoped to make much of a litle.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Well said, but let me aske you, why you would not take money of poore men for counsell?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because their miserie should not curse my Couetous<g ref="char:EOLhyphen"/>nesse: for though therich would wrong them, I would not wring them.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And well saide, a signe of a good minde: But why would you receiue no bribes of the rich?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because I would not sell breath for money; and I had more care of my Conscience, then their Coine.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well spoken, a signe of a gratious spirit. And since a good Conscience, is better then a golden Castell, you did bet<g ref="char:EOLhyphen"/>ter to séeke a quiet life with a meane gaine, then to charge your Conscience with a heape of treasure. But since the studie of the Law is both tedious &amp; costly, I hold a good Pleader worthie his Foe, and a reuerent Iudge worthy his
+
+
+<pb facs="tcp:5038:7"/>
+Honor, without whose great care and trauaile, the Common wealth would hardly be kept in good order: And therefore I will leaue further to talke of your Law-courses, and in<g ref="char:EOLhyphen"/>treat you to tell me how you fared with the farme?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh very well: as long as my Purse was my friend, I had Horses, Bullocks, Cowes, Shéepe and Corne, and companie enough to helpe me to spend more then I got: yet would I not mingle the fusty, ouer-growne corne, with the swéet and good. I would not sell an old shéepe for a Lambe, nor an old Cowe for a yong Heiffor I would not forestall any markets, take any house ouer a Tennants head: sell rot<g ref="char:EOLhyphen"/>ten Trées for good timber, raise the price of graine nor of Cattell, nor defraud the labourer of his hyre: But when my Cattle dyed, my fruit was blasted, and my Purse grew so bare, that great rents would not be paide with faire words: two or thrée yeares brought me so downe the winde, that I could neuer looke vp more to the welkin: and so in briefe, sel<g ref="char:EOLhyphen"/>ling all that I had, hauing no charge of wife, nor children, I tooke that litle that remained after the discharge of my debts, &amp; going into some strange place where I was not knowen, I meant to séeke my fortune, in the seruice of some such No<g ref="char:EOLhyphen"/>ble or honest Gentleman, as would in his discretion, regard the care of my duty.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Why, haue you euer serued?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Yes a while, but I haue obserued the carriage of diuerse, and not the worst wits in their places that haue serued: which, if it were my happe to come into, I would vtterly auoide.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>I pray you tell mee some of your notes, for by your iudgement in that you haue rehearsed, I can beléeue nothing in you to be idle.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I thanke you Sir, for your good opinion of me, but howsoeuer I prooue, I will satisfie your request. When I came into a house where I saw diuersity of seruants, and e<g ref="char:EOLhyphen"/>uery one make a gaine in his place: I began to cast mine eies about me, when I might sée one carrie a ring in his mouth,
+
+
+<pb facs="tcp:5038:8"/>
+&amp; it made not his téeth bléed. I heard an other claw a back, as though he would leaue no flesh on the bones: an other playe so on both hands, as if he had put downe a cunning Iugler: an other playing at <hi>Bo-peepe,</hi> with the eies of his mistresse: an other following <hi>Iudas,</hi> in betraying his maister, and yet not one of these but made a gaine of his villanie.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>As how I pray you? if at least you can tell mee, and first for the King-carrier?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why, when no man would challenge the Stone, he should haue the gold for his labour.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well couched; Now, for the next: to the Claw-backe, what got hee by his trade?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Some-what more then a Lowse, when he met with a suit of Satten.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well saide, now to the third: the Ambodxeter, he that plaies an both hands?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Sir, Iacke of both sides, got a cloke of his master, and a shirt of his mistres, when he did fit her humor, &amp; serue his turne.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Well hit, but, to the fourth now: Wagge-wanton with his mistresse.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh, hee gate his masters loue through her commendation, and her comfort through his owne diligence.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>A necessarie seruant, it is a signe he was not idle, when he was so well occupyed.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Exercised, you would haue said, Sir I thinke at least.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Oh you saie well: but no<g ref="char:EOLhyphen"/>thing is ill-spoken that is not ill-taken. But, now to the last, the <hi>Iudas,</hi> what gained he?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>That, which of all I praie God kéep me from.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Why man, what was it?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why Sir, the Gallowes, if not hell. But it is a shrewde presumption: for Treason is surely the very high-waie to hell.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well said: then if thou wert well entertained, with a good maister, thou wouldest neither carrie a ring, clawe a backe, plaie on both hands, be no wagge-wanton, with thy mistresse, nor <hi>Iudas</hi> with thy maister?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:5038:8"/>
+               <speaker>Gri.</speaker>
+               <p>No indéede Sir, I would be none of these.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>What would you then doe, or can you do, if vpon my good liking, of your behauiour, I should procure your preferment?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Sir, I can do many things, more the<g ref="char:cmbAbbrStroke">̄</g> I meane to boast of, and when I know of what title, either for honor or honesty, my maister or mistres may be, I will then tell you, how I can fit my seruice to their contentment.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well then, saie he were a yong Lord, and I would preferre you to attend him in his chamber.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I would neuer be without a brush for his apparrell: I would sée his chamber neatly kept, his bed soft and finely made, his linnen cleane washed, and his chestes fast locked: I would be hum<g ref="char:EOLhyphen"/>ble in my behauiour, and ciuill in my demeanour, go discréet<g ref="char:EOLhyphen"/>ly on a message, bring him word of his mistresse health, and his Cosins good rest: and what time of the daie it is, &amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well put off, but saie it were a fine Gentlewoman, that I would put you to?</p>
+            </sp>
+            <sp>
+               <speaker>Gri,</speaker>
+               <p>Oh, I would be full of curtesse, hold her Glasse ste<g ref="char:EOLhyphen"/>die, bring her painting vnséene, and her Perriwig vncru<g ref="char:EOLhyphen"/>shed: Haue her taylour at a becke, runne quickly for her er<g ref="char:EOLhyphen"/>rand, now and then tel her a merrie tale: and once in fauour, neuer loose it againe I warrant you.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>But will you not commend her fauorite.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>No, I hate that vile basenes, or rather, base villanie, to make my tongue an enemie to my hart: I would rather leaue her to séeke a seruant, then I would be found in such a seruice.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well said: but saie that it were to a meaner person, I should put thée, I cannot saie, prefer thée to: as for example: Let me saie it be some honest man of trade or traffique, or so forth; how could you behaue your selfe, that I might hope of your credite?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why Sir, I would kéepe his booke of account, cast vp by his reckoning<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> once in foure and twe<g ref="char:cmbAbbrStroke">̄</g>ty houres, looke wel vnto his shoppe, learne the price of his wares, aske what lacke you of passers bye, vse his Chap-men kindely, and
+
+
+<pb facs="tcp:5038:9"/>
+euery one with courtesie: so that I would get more with good words, then some other should do with good ware. In briefe, I would be an honest man, and that is worth all.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>Good all that I yet heare: &amp; if there be no worse matter in you, then I haue yet heard from you, nor hope to finde in you, I do not greatly care, if your case be desperate, that for lacke of entertainment, to saue the charge of an empty purse, you would venture vpon a bad maister rather then none, ile trie a litle what you can doe about my house: Base actions, as filling the Dung-cart, going to plough, kéeping of hogs, or washing of buckes, swéeping the houses, or making cleane shooes: these offices, I haue in my house; Boyes and Girles enough, fit for the purpose. But to ouer-sée my family, to in<g ref="char:EOLhyphen"/>struct my children, to be Steward of my courts, kéeper of my Parke, ranger of my Forrest, and now and then to wait on my wife: one of these offices, if any be void, I care not if I place thée in, so that in thy good carriage, thou doest not de<g ref="char:EOLhyphen"/>ceiue my expectation?</p>
+            </sp>
+            <sp>
+               <speaker>Gri..</speaker>
+               <p>Sir, not to trouble you with idle ceremonies, trye me, and trust me: either you or your Ladie.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>You saie well: but by the waie, because it is aboue thrée miles to my house, and good talke passeth the time well away, Let me en<g ref="char:EOLhyphen"/>treat you to tell mee some-what of your Fortunes in your crosse courses; if, at least, they be not such, as you will in mo<g ref="char:EOLhyphen"/>destie conceale, or are not willing to call in memorie.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>No Sir, I feare not to satisfie your desire, either in respect of my follie or my fortune. For the first is excusable in youth, and the other is her selfe in all ages: and therefore let me tell you, thus it was: In my young and litle better then childish yeares, my father hauing put me to schoole, to a more furious then wise Schoole-master, who by the helpe of his Usher (a better scholler then himself,) brought vp a fewe good wits, to better vnderstanding then his owne: I hauing learn'd to spell and put together, to Construe, and Parce, to write my letters and to ioyne, and to make my mistresse
+
+
+<pb facs="tcp:5038:9"/>
+Pistles, when my maister was from home: It fell out I know not how, that he, being a man very vigilant in all his courses; and séeing my mistresse beautie able to make a good Scholler forget his lesson, imagining by his studie in Astro<g ref="char:EOLhyphen"/>nomie, that the signe of his Fortune, stood too straight vpon <hi>Capricorne,</hi> meaning to crosse the fates in their powers, founde a meanes to remooue all his Boorders from his house, in regarde of a <hi>Meigrum</hi> in his head, which was much trou<g ref="char:EOLhyphen"/>bled by the noise of our <hi>Pu-rulines.</hi> Now I, as litle guiltie, as any of the cause of his follie, was yet among my fellowes banished his house, and shortly after, sent home to our friendes. Where hauing idled it so long, that bookes were enemies to our delights, I like a good wagge among other, séeing one daie a gallant knight come home to my fathers house, finding my spirite not so dull as to dwell alwaies in one place: made all the meanes I could to preferre my selfe into his seruice. Which, with my mothers entreatie, my father brought to passe: Preferred I was to this Gal<g ref="char:EOLhyphen"/>lant, and from a Scholler must turne Page; when, if I should tell you the tenth part of the waggeries, that I passed thorough, I should breake mine oathe on the Pantable, call olde trickes in question, and perhaps, wrong some that were my fellowes then, who would bee loath to heare of it nowe: Yet will I not be so sparing of my spéech, but that I dare tell you one merrie parte, that I and my good fellowes plaide, that perhaps is worth the laughing at.</p>
+            </sp>
+            <sp>
+               <speaker>Gan.</speaker>
+               <p>I pray you do.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will tell you: thus it was. I being in my youth rea<g ref="char:EOLhyphen"/>sonably well-fauoured, of a pure complexion, and of a reaso<g ref="char:EOLhyphen"/>nable good stature, and hauing wit enough, vpon a litle war<g ref="char:EOLhyphen"/>ning to plaie the wagge in the right vaine: It was my happe among other my fellow-Pages, to take knowledge, of a certaine Gallant in our Court, a man of no great worth any waie, and yet, a sufficient Blocke for Frogges to leape vppon: His yeeres about some twentie two,
+
+
+<pb facs="tcp:5038:10"/>
+or there abouts, his complexion, Sea, cole-sanguine, a most wicked face, and a wit correspondent: to be short, for that ill faces make no pleasant descriptions, let it suffice, that hee was euery waie a verie filthie fellow: and yet, hauing bet<g ref="char:EOLhyphen"/>ter clothes then he was worthy to weare, and more money then he could wisely vse: This Lob-lollie, with slauering lips, would be making loue, and that not onely to one, but e<g ref="char:EOLhyphen"/>uerie daie one: &amp; though he were scarse welcome to any, yet would be blush at no disgrace. This yonker had we founde out, and hearing of his disposition, we fitted his humor, one of vs would borrow a Ladies co<g ref="char:cmbAbbrStroke">̄</g>mendations, to get an An<g ref="char:EOLhyphen"/>gell withall, for a message: An other get a Nose-gaie or a Baie leafe, and bring from his mistresse, which came vp with fiue, with a French Crowne: An other or two of vs, haunt him at dinner, and with a song or a Galliard, nibble on his Purse for a piece of gold: An other of vs, somewhat towards the man, and in a manner past a Page, would fall in hand with him for a rest or two, till which, some secrete tricks of our owne setting, we could diue into a few Crowns worth the taking vp. Now when we had fedde vpon him so long, that we feared it would come out: we deuised to laie a plot to be-foole him to the full. We had among vs one fine boie, (I will not saie, my selfe, whose feature and beauty made him an amiable creature.) This youth, we had agréed among our selues, to make a meanes, by which, to catch this Wood-cocke in a fine spring: Which, in few daies after, wee enacted, as I will tell you: we got apparrell of a Gentle-wo<g ref="char:EOLhyphen"/>man, (a waiting woman of a Ladie) of whom, hauing ac<g ref="char:EOLhyphen"/>quainted her with our intended sport, wee borrowed manie things fit for our purpose. This Boye (being now a supposed Wenche) we caused to take a lodging right ouer against this Wizards hospitall: Where, out of his window, beholding this beautifull obiect, his eies were no sooner Lymed with blindnesse, but, his heart was so set on fire with folly, that there was no wais to quench it, but the fauour of this ima<g ref="char:EOLhyphen"/>gined
+
+
+<pb facs="tcp:5038:10"/>
+faire Ladie, Gentle-woman, or mistresse, what you will. Now, we that dailie vsed, (more for our comfort, then his commoditie) to visite him, no sooner in his chamber ha<g ref="char:EOLhyphen"/>uing gotten a view of her, but wee fell with admiration to commende her beyond the Moone for an excellent creature: Oh, what an Eie? What a Lippe? what a fore-head? what a chéeke? what a harie? what a hand? what a bodie? For further, at the window we could not sée: Thus by litle and litle, we brought him halfe madde before, with conceite, ready to hang himselfe for loue. And now must those litle wits he had, go to worke, to shew his folly. Now wee must get him a Poet, to make him verses in her commendation, a Scholler to write his Loue-letters, Musique to play vnder her window, and Gloues, Scarfes, and Fannes to bee sent for presents, which might be as it were fore-speakers for his entertainment: And thus, when we had fitted him for all turnes, wee got him such fauorable accesse, vpon promise of no dishonorable attempt, that where before he was but ouer<g ref="char:EOLhyphen"/>shooes, he was nowe ouer-head-and-eares for an Asse. For now began he to thinke well of him selfe, and that he should carrie the Bellawaie for Beautie; when hee should indéede carrie awaie the Bable for follie. Well thus, hauing a fewe daies played with his Nose, &amp; hauing agréed with the<g ref="char:cmbAbbrStroke">̄</g> of the house to séeme ignorant of her name and cuntrie: but that she was a suitor at the Court: They knew not wherefore, when, in pittie, to pull the poore foole too lowe on his knées: with holding him off too long from his off or on: We deuised one night that he should be at great cost with a supper in her lodging, and there should be certaine Gentle-women, to ac<g ref="char:EOLhyphen"/>companie her &amp; that should offer her what kindnesse might lie in their powers in the Court. These we brought, as wee made him beléeue, to let them sée his fauour, and good regarde with this rare creature, but came indéed onely with a forced modestie, to conceale a laughing at this Cockes-combe: not to dwell too long vpon circumstances, the Supper was pro<g ref="char:EOLhyphen"/>uided,
+
+
+<pb facs="tcp:5038:11"/>
+the guestes bidden, the Musique in tune, the Gentle<g ref="char:EOLhyphen"/>man welcome, and the Boye plaide his part in the Q. Hee had the kisse of the hand, vowes and protestations, gifts and presents, and what not, that might be witnesse of his folly? Now a little before supper vnderstanding (by the imagined wench,) that she was the next morning to go out of towne, after solemne promise to bring her on her waie (kindly ac<g ref="char:EOLhyphen"/>cepted on her part) to supper they went: where there were so many healths drunk to his mistrisse, that with as much a doe as might be drunken to saue his credite, hee tooke his leaue till morning, and so got him home to his lodging: where, hauing scarce, power to stand on his féet, he fell downe on his bedde, where with the helpe of a litle tricke that was put in a Cuppe of wine, he slept till next daie noone, when like a great Beare, grunting and blowing, hee goeth to the window, where missing his former object (who was now turned Page againe) ashamed of his breach of promise, got him to bed againe: Where, keeping his chamber for a daie or two, and then comming into the Court, séeing some of his fauours worne by one of the Pages, The Boye that plaide the Wagge with him, ashamed to demand them, and fearing his folly to be knowen in the Court: suddenly tur<g ref="char:EOLhyphen"/>ned Clown, &amp; with a sighing song, To the tune of, <hi>Wela-day, wel-adaie,</hi> got him in y<hi rend="sup">e</hi> cuntrie, where wee neuer heard more of him. Now Sir, was not this a prettie iest, &amp; wel handled?</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Yea for wagges: I know since my selfe was a Page, a number of such waggeries. But yet, I thanke you for this merrie tale, it hath lasted a good while. But now tell mee when you had past the Page, in your next course, what mer<g ref="char:EOLhyphen"/>rie conceit can you remember, that maie last an other mile? that I may thanke you for it.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will Sir, since you take this so well: The next course I fell into was Armes: and there I remember in a Towne of Garrison, where I was in paie, the Gouernour a man whome some ill fortune without desart, had throwen
+
+
+<pb facs="tcp:5038:11"/>
+vpon an unworthy honour, bring of himselfe so tymerous of nature, as that a base note of a Sagbutte would haue made him start, as if he had heard the report of a piece of Ordinance. This wicked Creature, by the meanes of his Sister (a Minion of our Generals) gotten into this place: where, though it were farre enough from the enemie, yet, for that (if the skie fall, wee mase haue larkes; and so, if the Souldiers were wearie of their liues, they might come thither for a hanging: for, except wee would fall out among our selues, there was no feare of any thing but Sparrow-blasting; and yet here I know not what cause more then to skarre flyes,) wee held a strong Garrison: For the Gouernour being better moo<g ref="char:EOLhyphen"/>ued, then otherwise minded, fearing some two-legged Rats, should breake into the mouthes of his bags, did not onely enuyron his feare (for he was compounded all of li<g ref="char:EOLhyphen"/>tle better matter) within some seauen walles without his Castle, beside Ditches of no litle breadth and déepnesse: and within, some seauentéene double and treble walles within the house: where, (as close as a Flea in a flocke<g ref="char:EOLhyphen"/>bed) he kept himselfe warme from the cold winde. Now, in this close Cabin, (as he vsed much to conteine himself, in casting vp of his accounts) one night, after the receipt of money for the paye of the Souldiers, locking up his bags in cheffes of Iron and then laying vp the keyes vn<g ref="char:EOLhyphen"/>der his beds head, trusting none to lye in his chamber, but a sonne of his owne, who was too young to be a thiefe, and yet by outward appearance séemed to be weary of the fa<g ref="char:EOLhyphen"/>ther: with this sonne, a Page as it was said, (a bastard of his by a Beggar) to whom he gaue but sire pence for a daies worke: With these two (in a Touch by his beds side) to bedde gueth his base worship, and there, hauing made a reasonable supper tooke indifferent rest. But, after his first sléepe (which was but a kinde of starting slumber)
+
+
+<pb facs="tcp:5038:12"/>
+he fell into a dreame: all of warres, discharging of Ordi<g ref="char:EOLhyphen"/>nance, fyring of houses, and crye of people: in which, not a litle amazed or frighted, he started out of his bed, with cry<g ref="char:EOLhyphen"/>ing out <hi>Arme, Arme.</hi> The watch (or rather the Guarde) hearing this suddaine noyse, fearing some great Rat had bitten their Capitaine by the Nose, (where there was a rich breakfast for a dozen of leane Mise:) upon the sud<g ref="char:EOLhyphen"/>daine brake in with, Now now my Lord? Well quoth he, with a <hi>Hah,</hi> as though his foote being in the Chamber pot, he had bene afraid of drowning: But as a man in such a maze might some-what come to himselfe, brake into this spéech. My maisters and friends, there is no inexpec<g ref="char:EOLhyphen"/>ted great matter of importance, but, vnto carefull spirits are reuealed in their sléepes, that by the prouidence of Gods discretion, they may be preuented. This Towne is a place of great regard with our Generall, the carefull gouernment thereof is committed vnto my honestie: I would be loath to sée the perishing of so many soules, and the secke of so manie houses, as by lacke of care may fall out, if it be not the better looked vnto: Now, what strata<g ref="char:EOLhyphen"/>gems are in band we know not: The enemie is subtill and strong, wee cannot be too warie of a mischiefe, you know: Had-I-wist is a foole in all courses, and I would bee loath to loose my credite, in slacking my care in the charge committed vnto me: to be short, I was this night much troubled in my sléepe with sharpe warres, fyring of houses, the report of the Canon, and great crie of the peo<g ref="char:EOLhyphen"/>ple: and the vision, as it was very dreadfull, so it continu<g ref="char:EOLhyphen"/>ed long, and therefore being perswaded, that it giueth me warning of some mischiefe intended against this towne, so would I bee glad in what I may to preuent it; And therfore call hither the Capitaine of the watch vnto mee. This, when hee had stammeringly in a pitifull feare brought out, with a Palsey-shaking-hand, hauing but<g ref="char:EOLhyphen"/>toned
+
+
+<pb facs="tcp:5038:12"/>
+vp his Doublet, called for his Armour (which all of Musket proofe he put on, with al the hast y<hi rend="sup">t</hi> might be) and being furnished to méete with a whole swarme of flies, (with his double guard) out he goes and méetes the Capi<g ref="char:EOLhyphen"/>taine in his Hall: where, the winde blowing high, and making a noyse in the house, he staied &amp; asked him, harke quoth he, doe you not heare the noyse of some shot? Oh no, Sir quoth he, it is the winde in the Chimney. Oh, is it so said he, then good enough. But let me tel you, I haue had a shrewde dreame to night: and therefore am willing to walke the Round, to sée how the Souldiers kéepe watch. My Lord, quoth the Capitaine, you shall néed to doubt nothing vpon my life I warrant you. It is now towards daie, and the watch is vpon discharge; I praie you kéepe your Chamber, and take your rest. Well, quoth he, if it be so, I know you carefull and honest, and I will leaue all to your charge, till I come abroad: And so leauing the Capi<g ref="char:EOLhyphen"/>taine, retires himselfe into his chamber: where, kéeping on his Armour, here sets him downe in a chaire, and there not trusting his bed any longer for that time, hauing ta<g ref="char:EOLhyphen"/>ken a nappe or two; the watch vpon their discharge, gaue the Capitaine a volley of shot; the noyse whereof awa<g ref="char:EOLhyphen"/>king this gallant man of two Armes: Doe, quoth he, to the Guard, one of ye know, what shot is this? who bring<g ref="char:EOLhyphen"/>ing him word of the discharge of the watch, he was a litle at quiet. But the daie being a Saints daie, when vsually the Countrie people used to make such pastime, as fitted the condition of their humors: some-what early from a Wood vnder a hill, which fronted the Towne, and there with Drummes and Fifes (and a few loose shot) came toward the towne, to make the Gouernour merrie, with a Maie-game and a Morris. Now such a Wagge as my selfe minding to make my selfe and some of my friends merrie with a Iest, hauing intelligence of the same the
+
+
+<pb facs="tcp:5038:13"/>
+night before, yet seeming ignorant thereof, came into the Towne, with <hi>Arme, Arme,</hi> for the enemie is at hande. This crie being brought to the gouernour, (he in a colde sweat, what with feare, and the weight of his Armour) called presently for his Captaines, gaue euery one their charge what to doe: which done, prouiding as well as hee might for one: Barricadod all his gates without, and all his doores within: And in the midst of a Loue-roome, within a wall of twentie yeardes thicke of stone, Barri<g ref="char:EOLhyphen"/>cadod himselfe within a great wall of earth, which was made for a Fornace to caste mettell in for Ordinance: There, ouer-head and eares in feare sits he with his two Pages. The doore fast locked to him, till anone, the people being come in with their merrie shew: went a messenger from the Capitaine of the watch, to entreat his Lordship to bee partaker of the Pastime, and to entreat the people with some kindnesse. The messenger being come to the doore and let in, before he could deliuer his message: Well quoth hee, (imagining the enemies before the walles) What is the Parlée that he offereth thée? Parley my Lord, quoth the Messenger, it is a Pastime: There is no enemie, all friends: Your poore neighbours are come to make you merrie with a Morris-daunce, and a Maie-game. Yea, quoth he, is it none other? and with looking in his Purse, and giuing him iust nothing: It is well; staie awhile, Boie, giue me my sword and my Target, that my neighbours shall sée how readie I was to méete the ene<g ref="char:EOLhyphen"/>mie vpon the least Alarum. And with these wordes, cau<g ref="char:EOLhyphen"/>sing the Trumpet to sound a merrie Dote for ioye of the deliuerance of his feare: Out he comes among them, and like an Asse (as euer man was) shewes himselfe. After, a litle gratulation (leauing them in their sports) got him againe into his lodging, and there calling for his break<g ref="char:EOLhyphen"/>fast, put off his Armour, and went to bed againe: where,
+
+
+<pb facs="tcp:5038:13"/>
+let him lye till I raise him.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Is it possible that there is such a <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> in the world?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Yes, and they wonder al that know him how hee should come to haue charge of men, that would be afraide of a shaddow, and be Gouernour of a Towne that would runne into a bench hole. But the Iest was in the Maie-game: (if you had séene it) For they had made a Lord and a Ladie: and the Foole was like him as one could be like an other. But it was but a Tale, and therefore I will not trouble you any further with it.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Gramercy hartely, thou art as good as thy word, it is a merrie tale and well tolde. But if I may not trou<g ref="char:EOLhyphen"/>ble thée too much let me heare one more, that you light on in your next course.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>With a good will Sir. The next was, (as I saide before) after I left the warres, I fell againe to my booke, and studied the Law, where I heard a pretty Iest betwixt a Lawyer and two Clyents, but it was but short.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>No matter: Short or long, I will thanke thée for it, and therefore I praie thée out with it.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Why Sir, then thus it was: There were two Countrie men rich Farmers, fat in Purses: (how leane soeuer in the face) These two, hauing in some twenty yeares or moe (with kéeping of bare houses, and wearing of bad cloathes, selling of wheate, and spending of Rie,) scraped together more money then manie better men: It fell out, that (about or a litle after mowing-time) these two dwelling néere together, and (as it seemed) each one of them nigh enough vnto himselfe: Fell at contro<g ref="char:EOLhyphen"/>uersie about a Hey-cock, the value whereof (by the iudge<g ref="char:EOLhyphen"/>ment of the Parson, and the Constable, and other of the Auncients of the Parish) could not amount to aboue two and twentie-pence: yet such being the stubbornesse of both
+
+
+<pb facs="tcp:5038:14"/>
+their stomackes, that no meanes would be made to bring them to agréement: To Lawe they would for the tryall of their right. And now the Angels that had bene long lyen in their Chestes, must vse their winges for the ac<g ref="char:EOLhyphen"/>complishing of their willes. Counsellours were retay<g ref="char:EOLhyphen"/>ned, Attorneyes were féede, and Soliciters were not forgotten: Daies of hearing delayed, demurres, and in<g ref="char:EOLhyphen"/>iunctions, (and I know not what diuises were vsed) from one Court to another to kéepe them in their cour<g ref="char:EOLhyphen"/>ses so long, till in the ende the Iudge (of more conscience then the pleader) noting the long-time of their sute, the nature of their controuersie, and the substance of the matter, when he had heard all that could be said on ei<g ref="char:EOLhyphen"/>ther side, made this open speech in the whole Court. Yee two (maisters) that haue made a long haruest of a little Torne, and haue spent a great deale of money about a litle matter: the cause being such, as is more to be laugh<g ref="char:EOLhyphen"/>ed at, then lamented, Let me tell you a litle short tale, and so I will haue done with you.</p>
+               <p>There were on a time, two men went a fishing for Oysters vpon the Sands at a low Ebbe: the one was blinde, and the other lame: The blinde-man carried the lame-man: so when they had gone a litle waie, they found an Oyster, which the lame-man espied, and shewed the blind-man, with guiding of his hand to take it vp. When he had taken it vp, the lame-man challenged it to be his, because he first saw it: The blinde-man would haue it, because he had taken it out of the Sandes: Thus argu<g ref="char:EOLhyphen"/>ing the case, in conscience who should haue it, There méetes them a Lawyer, who, hearing the controuersie betwixt them, made this short ende betwixt them. Giue me, quoth he the Oyster, which, when he had gotten into his hands, he picked out the fish and gaue each of them a shell, and went his waie. So you two, hauing made the
+
+
+<pb facs="tcp:5038:14"/>
+Lawyers rich with your wilfulues, may repent ye of your follies, &amp; go home &amp; agrée together like neighbours, &amp; keep your money in your purses: for I am wearie to heare more of it. The men ashamed of their follies, fulfilled his com<g ref="char:EOLhyphen"/>mandement: went home, cashéerd their counsaile, let fall their actions, went home &amp; liued like honest good fellowes. Now how like you of this for a Lawyers iest?</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>I will serue to warne a wise man how hee plays the foole with his purse. But one more of your next course and then I will trouble you no more.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Well Sir, I will satisfie your request: The next course was the Farmer, in which time, I remember a prettie Iest, which, if you haue not heard before, will sure<g ref="char:EOLhyphen"/>ly make you laugh: But howsoeuer it be, I will tell it you, and thus it was. A neighbour of mine, in good case to liue, though not verie wealthie, and yet such a one as with his formality on a Hollidaie at Church, would haue bene taken for the Hedborough of the Parish.</p>
+               <p>This honest substantiall man, drawing one daie a Mill-poole, among other fish, lighted on a verie great Eele: which, hauing got on lande, hee brought into his house, and put it with small Eeles into a Cesterne, where, féeding of it euery Morning and Euening, hee made (as it were) an Idoll of it. For, there passed not a daie wherein hee had not that care of his Eele, that it séemed, that hee had not of greater and better matters. This Eele, being taken about Candelmas (hee meant to kéepe and féede till Lent following) when hee meant to present him to his Land-lord, for a great gratulati<g ref="char:EOLhyphen"/>on: In the meane-time, hee neuer went out of doores without giuing warning to his wife and his seruants, to looke wel to his Eele. When he came in, how doth mine Eele? when were you with mine Eele? who looked to mine Eele? I charge you looke well to mine Eele.
+
+
+<pb facs="tcp:5038:15"/>
+Now his wife, a iollie stout Dame, who made more reckoning of honestie, then either beautie or wisdome (for she was troubled with neither) had in her house a young <hi>Pie</hi>: (which we call a <hi>Magot-a-Pie</hi>) This Bird, hauing bin hatched in a Neste hard vnder her chamber window, she chaunced to take into her education: and being one that loued to heare a tongue wagge; either her owne, her Gossips, her Maides, or her Pyes: For if one were still, the other must be walking: And when they were all vpon the going, there was no still-piece of Musique: It fell out that this Good-wife, (not a little displeased at her Goose-mans folly) in such so much rare ouer the fish, that the flesh was but a litle set by: one daie; (when her Asse<g ref="char:EOLhyphen"/>band was gone forth) sitting with her maid at the wheele: (so full at her heart, that yet her tongue would haue swel<g ref="char:EOLhyphen"/>led, if it had not broke out at her mouth, began thus to fall in hande with her Maid-seruant.) I dare not depose for her Uirginitie, but, as I said, her maid: she fell thus to breake her minde vnto. Wench quoth the, doest thou not sée what a sturre thy maister keepes with a scuruy Eele? In good earnest a litle thing would make me take her out of the Cesterne, and put her in a Pye, or eate her some waie or other: For better haue one chiding for all, then haue such a doo as we haue about her. In truth mistresse, quoth she, (as one whose mouth hung verie fitting for such a piece of meate) If it please you, I will quickly ridde you of this trouble. My maister is ridde to your Land<g ref="char:EOLhyphen"/>lords, and there I know he will tarie to night: if it please you, I will fetch her out of the Cesterne, and kill her, and flea her, and put her in a Pye, and you may dispatch her ere he come home; or saue a piece for him when he is qui<g ref="char:EOLhyphen"/>et after his chiding. Content wench quoth she, I pray thee dispatch her quickly: I warrant you, quoth shee, for sooth with a <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. Thus was the Eeles death approching, and
+
+
+<pb facs="tcp:5038:15"/>
+the matter thoroughly enacted. Now the Pye being made and baked, and set on the Table, and betwixt the maide and her Dame (or mistresse) brought to such a passe, that there was very little left for her master. The <hi>Magot-a-Pye</hi> like a vyle Bird (that would kéepe no counsaile, but duely would use her tongue, to talke of all that she saw or heard) no sooner saw the good-man come into the house, (but as shee was taught to speake) began with welcome home maister: (and then more then she was taught, she fell to pratle) Noh maister, my Dame hath eaten the Eele: my Dame hath eaten the Eele: my Dame hath eaten the great Eele. The goodman remembring his fish, began now to aske his wife, Now doth mine Eele? What meanes the Bird, to talke thus of eating the great Eele Tush Husband, quoth she, warme you I pray you, and goe to bed. It is cold and late, talke of your Eele to mor<g ref="char:EOLhyphen"/>row: No quoth he, I will not goe to bed, till I haue séene mine Eele: and there within a bodily feare of that which was fallen out, goes to the Cesterne, and there finding his Eele gonne, comes in againe, as dead at hart as a Stocke-fish, (and yet resolued to brawle out of reason) Comes out: Why hoh (the good-wife ready to burst with laughing, and yet kéeping it in with a fayned sigh) sits downe in a chaire, and hangs the head, as though she had had the mother: The maid hauing wit enough, (to make a foole of a tame-goose,) méetes her maister, and catching him in her armes: cries out, but softly maister, be a man, and mooue not all. My dame you know loues you well, and it may be she breedes, and bring you a boye worth twenty bushels of Eeles: saie she had a minde to it, and hath eaten it: if you should séeme to chide for it, it may be a meane to cast her awaie, and that she goes with: And therfore saie nothing of it, let it goe. For indéed it is gone: saist thou so my Girle, quoth hee, I thanke thee: hold thée,
+
+
+<pb facs="tcp:5038:16"/>
+there is a Letter for thée, for thy good counsaile, I warrant thée all shall be well. Then in a goes to his wife, &amp; findes her in her chaire sitting as if were heauily: comes to her and takes her by the hand, with how now wife? be of good chéere, and take no thought, much good doe thy hart with her, take the rest that are left, if thou haue a minde to them I pray thée. With this, she (as it were awaked out of a trance) said, I thanke you good husband, and so after a few home-complaints, to bed they went, where they agréed so well, that the next morning hee had his part (though it were the least) of that was left, and glad of it to, and so without more adoe, goes about his busines. But no sooner was he out of doores, but the mistresse and the maid, went to the bird the <hi>Pye,</hi> and taking her out of the Cage, pluck<g ref="char:EOLhyphen"/>ed all the feathers off from her head, and left her as bare as a balde Coote, which in the cold winter was very vn<g ref="char:EOLhyphen"/>comfortable: Which done, she was put into the Cage a<g ref="char:EOLhyphen"/>gaine, with these wordes, Tell tales againe of the Eele, doe:</p>
+               <p>Now about dinner-time, comes in againe the good<g ref="char:EOLhyphen"/>man, and brings in with him a neighbour of his, with a good face, but a balde head, that he had almost no haire on it. Now the Pye being let out of the Cage, no sooner sées this man put off his hat, but she skips on his shoulder and sayes: Oh, your head hath bene puld aswell as mine, for telling of tales. You haue told my maister, how my dame eate the great Eele: (and so she would do to any that shee saw bald, that came into the house.) And was not this a merrie iest of the Pye and an Eele?</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>I thinke I haue heard it long agoe, but not as thou hast told it: and therefore as it is, I thanke thée for it. And now since it is not farre to the Towne, I pray thée let me trie a litle of thy wit, in the aunswers of a few que<g ref="char:EOLhyphen"/>stions that I will put vnto thée?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:5038:16"/>
+               <speaker>Gri.</speaker>
+               <p>With all my heart Sir, I am for you at this time.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>I pray thée, who was the happiest man that euer thou knewest?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>My Lord Gouernours Foole.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And why?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Because his maister fauours him, and none dare hurt him: hee fares well, and sléepes well, weares good cloathes, and takes no paines.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Countest thou this a happines?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>For a lazie spirit, but not for my selfe.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Why, how wouldest thou be happie?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>In a feeling of Gods grace, in sufficiency of abi<g ref="char:EOLhyphen"/>litie, to liue without borrowing: in wit, to discerne iustly: in Conscience, to deale truly: in an honest kinde wife, gra<g ref="char:EOLhyphen"/>tious children, honest seruants, faithfull friendes, and quiet neighbours: Neither disire of life, nor feare of death, but a scorne of the one, and contented minde in the other.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>Well said: But all this while, I heare thee speake of no maister.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>Oh no Sir, for to a frée spirit, there is no greater miserie then bondage: And yet, a kinde maister, is a kinde of father: where loue breeding obedience, maketh a ser<g ref="char:EOLhyphen"/>uant like a Sonne.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And what sayest thou of a kinde mistresse?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>With a kinde maister, they are the harts comfor<g ref="char:EOLhyphen"/>ter, and they are like vnto a paire of Gloues, that fitte both hands.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>But couldest thou please both?</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>If I know both.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:5038:17"/>
+               <speaker>Gan</speaker>
+               <p>Then let me put thee in comfort, of me thou shalt haue rather a father then a friend to nourish thy good spi<g ref="char:EOLhyphen"/>rite &amp; of my wife, rather a sister then a mistresse to make much of thee for my sake.</p>
+            </sp>
+            <sp>
+               <speaker>Gr.</speaker>
+               <p>I thanke you Sir, and for the good I see in you, and the good I hope of you, I will trie my Fortune with you.</p>
+            </sp>
+            <sp>
+               <speaker>Ga.</speaker>
+               <p>And do not thinke it shall be the worst. Come on, you shall goe to the towne, and there dine with mee, and so home.</p>
+            </sp>
+            <sp>
+               <speaker>Gri.</speaker>
+               <p>I will attend you.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:5038:17"/>
+         </div>
+      </body>
+   </text>
+</TEI>

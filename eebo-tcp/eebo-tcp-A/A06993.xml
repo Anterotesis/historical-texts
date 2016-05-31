@@ -1,0 +1,2983 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hero and Leander: begun by Christopher Marloe; and finished by George Chapman</title>
+            <author>Marlowe, Christopher, 1564-1593.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1598</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 136 KB of XML-encoded text transcribed from 53 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-01">2003-01 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A06993</idno>
+            <idno type="STC">STC 17414</idno>
+            <idno type="STC">ESTC S104949</idno>
+            <idno type="EEBO-CITATION">99840679</idno>
+            <idno type="PROQUEST">99840679</idno>
+            <idno type="VID">5206</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A06993)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 5206)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 815:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Hero and Leander: begun by Christopher Marloe; and finished by George Chapman</title>
+                  <author>Marlowe, Christopher, 1564-1593.</author>
+                  <author>Chapman, George, 1559?-1634. aut</author>
+               </titleStmt>
+               <extent>[104] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Felix Kingston, for Paule Linley, and are to be solde in Paules Church-yard, at the signe of the Blacke-beare,</publisher>
+                  <pubPlace>At London :</pubPlace>
+                  <date>1598.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Marlowe wrote sestiads 1-2, Chapman 3-6.</note>
+                  <note>In verse.</note>
+                  <note>Signatures: A-N⁴.</note>
+                  <note>The last leaf is blank.</note>
+                  <note>Variant: title misprints "Leandr".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2002-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2002-06</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2002-07</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2002-07</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2002-08</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:5206:1"/>
+            <pb facs="tcp:5206:1"/>
+            <p>HERO AND
+LEANDER:</p>
+            <p>Begun by <hi>Christopher Marloe;</hi> and
+<hi>finished by</hi> George Chapman.</p>
+            <p>
+               <hi>Vt Nectar, Ingenium.</hi>
+            </p>
+            <p>
+               <hi>At London</hi>
+Printed by <hi>Felix Kingston,</hi> for <hi>Paule Linley,</hi>
+and are to be solde in Paules Church-yard, at the
+signe of the Blacke-beare.
+1598.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:5206:2"/>
+            <pb facs="tcp:5206:2"/>
+            <head>To the Right Worshipfull, Sir Tho<g ref="char:EOLhyphen"/>mas
+Walsingham, Knight.</head>
+            <p>
+               <seg rend="decorInit">S</seg>Ir, we thinke not our selues dischar<g ref="char:EOLhyphen"/>ged
+of the duty we owe to our friend,
+when we haue brought the breathles
+bodie to the earth: for albeit the eye
+there taketh his euer farewell of that
+beloued obiect, yet the impression of
+the man, that hath been deare vnto vs, liuing an after
+life in our memorie, there putteth vs in minde of farther
+obsequies due vnto the deceased. And namely of the
+performance of whatsoeuer we may iudge shall make to
+his liuing credit, and to the effecting of his determinati<g ref="char:EOLhyphen"/>ons
+preuented by the stroke of death. By these meditati<g ref="char:EOLhyphen"/>ons
+(as by an intellectuall will) I suppose my selfe exe<g ref="char:EOLhyphen"/>cutor
+to the vnhappily deceased author of this Poem,
+vpon whom knowing that in his life time you bestowed
+many kinde fauours, entertaining the parts of reckoning
+and worth which you found in him, with good counte<g ref="char:EOLhyphen"/>nance
+and liberall affection: I cannot but see so far into
+the will of him dead, that what soeuer issue of his braine
+<pb facs="tcp:5206:3"/>
+should chance to come abroad, that the first breath it
+should take might be the gentle aire of your liking: for
+since his selfe had been accustomed therunto, it would
+proue more agreeable and thriuing to his right children,
+than any other foster countenance whatsoeuer. At this
+time seeing that this vnfinished Tragedy happens vnder
+my hands to be imprinted; of a double duty, the one to
+your selfe, the other to the diseased, I present the
+same to your most fauourable allowance, offe<g ref="char:EOLhyphen"/>ring
+my vtmost selfe now and euer to
+be readie, at your VVorships
+disposing:</p>
+            <closer>
+               <signed>E. B.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="2" type="part">
+            <pb facs="tcp:5206:3"/>
+            <head>Hero and Leander.</head>
+            <argument>
+               <head>THE ARGVMENT OF THE
+FIRST SESTYAD.</head>
+               <lg>
+                  <l>
+                     <hi>Heros</hi> description and her Loues,</l>
+                  <l>The Phane of <hi>Venus;</hi> where he moues</l>
+                  <l>His worthie Loue-suite, and attaines;</l>
+                  <l>VVhose blisse the wrath of Fates restraines,</l>
+                  <l>For <hi>Cupids</hi> grace to <hi>Mercurie,</hi>
+                  </l>
+                  <l>VVhich tale the Author doth implie.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>
+                  <seg rend="decorInit">O</seg>N <hi>Hellespont</hi> guiltie of True loues blood,</l>
+               <l>In view and opposit two citties stood,</l>
+               <l>Seaborders, disioin'd by <hi>Neptunes</hi> might:</l>
+               <l>The one <hi>Abydos,</hi> the other <hi>Sestos</hi> hight.</l>
+               <l>At <hi>Sestos, Hero</hi> dwelt; <hi>Hero</hi> the faire,</l>
+               <l>Whom young <hi>Apollo</hi> courted for her haire,</l>
+               <l>And offred as a dower his burning throne,</l>
+               <l>Where she should sit for men to gaze vpon.</l>
+               <l>The outside of her garments were of lawne,</l>
+               <l>The lining, purple silke, with guilte starres drawne,</l>
+               <l>Her wide sleeues greene, and bordered with a groue,</l>
+               <l>Where <hi>Venus</hi> in her naked glory stroue,</l>
+               <l>To please the carelesse and disdainfull eies,</l>
+               <l>Of proude <hi>Adonis</hi> that before her lies.</l>
+               <l>
+                  <pb facs="tcp:5206:4"/>Her kirtle blew, whereon was many a staine,</l>
+               <l>Made with the blood of wretched Louers slaine.</l>
+               <l>Vpon her head she ware a myrtle wreath,</l>
+               <l>From whence her vaile reacht to the ground beneath.</l>
+               <l>Her vaile was artificiall flowers and leaues,</l>
+               <l>Whose workmanship both man and beast deceaues.</l>
+               <l>Many would praise the sweete smell as she past,</l>
+               <l>When t'was the odour which her breath forth cast.</l>
+               <l>And there for honie, Bees haue sought in vaine,</l>
+               <l>And beat from thence, haue lighted there againe.</l>
+               <l>About her necke hung chaines of peble stone,</l>
+               <l>Which lightned by her necke, like Diamonds shone.</l>
+               <l>She ware no gloues, for neither sunne nor winde</l>
+               <l>Would burne or parch her hands, but to her minde,</l>
+               <l>Or warme or coole them, for they tooke delite</l>
+               <l>To play vpon those hands, they were so white.</l>
+               <l>Buskins of shels all siluered, vsed she,</l>
+               <l>And brancht with blushing corall to the knee;</l>
+               <l>Where sparrowes pearcht, of hollow pearle and gold,</l>
+               <l>Such as the world would woonder to behold:</l>
+               <l>Those with sweete water oft her handmaid fils,</l>
+               <l>Which as she went would cherupe through the bils.</l>
+               <l>Some say, for her the fairest <hi>Cupid</hi> pyn'd,</l>
+               <l>And looking in her face, was strooken blind.</l>
+               <l>But this is true, so like was one the other,</l>
+               <l>As he imagyn'd <hi>Hero</hi> was his mother.</l>
+               <l>
+                  <pb facs="tcp:5206:4"/>And oftentimes into her bosome flew,</l>
+               <l>About her naked necke his bare armes threw.</l>
+               <l>And laid his childish head vpon her brest,</l>
+               <l>And with still panting rocke, there tooke his rest.</l>
+               <l>So louely faire was <hi>Hero, Venus</hi> Nun,</l>
+               <l>As nature wept, thinking she was vndone;</l>
+               <l>Because she tooke more from her than she left,</l>
+               <l>And of such wondrous beautie her bereft:</l>
+               <l>Therefore in figne her treasure suffred wracke,</l>
+               <l>Since <hi>Heroes</hi> time, hath halfe the world been blacke.</l>
+               <l>Amorous <hi>Leander,</hi> beautifull and yoong,</l>
+               <l>(Whose tragedie diuine <hi>Musaeus</hi> soong)</l>
+               <l>Dwelt at <hi>Abydus,</hi> since him, dwelt there none,</l>
+               <l>For whom succeeding times make greater mone.</l>
+               <l>His dangling tresses that were neuer shorne,</l>
+               <l>Had they beene cut, and vnto <hi>Colchos</hi> borne,</l>
+               <l>Would haue allu'rd the vent'rous youth of <hi>Greece,</hi>
+               </l>
+               <l>To hazard more, than for the golden Fleece.</l>
+               <l>Faire <hi>Cynthia</hi> wisht, his armes might be her spheare,</l>
+               <l>Greefe makes her pale, because she mooues not there.</l>
+               <l>His bodie was as straight as <hi>Circes</hi> wand,</l>
+               <l>
+                  <hi>Ioue</hi> might haue sipt out <hi>Nectar</hi> from his hand.</l>
+               <l>Euen as delicious meate is to the tast,</l>
+               <l>So was his necke in touching, and surpast</l>
+               <l>The white of <hi>Pelops</hi> shoulder, I could tell ye,</l>
+               <l>How smooth his brest was, and how white his bellie,</l>
+               <l>
+                  <pb facs="tcp:5206:5"/>And whose immortall fingers did imprint,</l>
+               <l>That heauenly path, with many a curious dint,</l>
+               <l>That runs along his backe, but my rude pen,</l>
+               <l>Can hardly blazon forth the loues of men.</l>
+               <l>Much lesse of powerfull gods, let it suffise,</l>
+               <l>That my slacke muse, sings of <hi>Leanders</hi> eies.</l>
+               <l>Those orient cheekes and lippes, exceeding his</l>
+               <l>That leapt into the water for a kis</l>
+               <l>Of his owne shadow, and despising many,</l>
+               <l>Died ere he could enioy the loue of any.</l>
+               <l>Had wilde <hi>Hippolitus Leander</hi> seene,</l>
+               <l>Enamoured of his beautie had he beene,</l>
+               <l>His presence made the rudest paisant melt,</l>
+               <l>That in the vast vplandish countrie dwelt,</l>
+               <l>The barbarous <hi>Thracian</hi> souldier moou'd with nought,</l>
+               <l>Was moou'd with him, and for his fauour sought.</l>
+               <l>Some swore he was a maide in mans attire,</l>
+               <l>For in his lookes were all that men desire,</l>
+               <l>A pleasant smiling cheeke, a speaking eie,</l>
+               <l>A brow for loue to banquet royallie,</l>
+               <l>And such as knew he was a man would say,</l>
+               <l>
+                  <hi>Leander,</hi> thou art made for amorous play:</l>
+               <l>Why art thou not in loue, and lou'd of all?</l>
+               <l>Though thou be faire, yet be not thine owne thrall.</l>
+               <l>The men of wealthie <hi>Sestos,</hi> euery yeare,</l>
+               <l>(For his sake whom their goddesse held so deare,</l>
+               <l>
+                  <pb facs="tcp:5206:5"/>Rose-cheekt <hi>Adonis</hi>) kept a solemne feast,</l>
+               <l>Thither resorted many a wandring guest,</l>
+               <l>To meet their loues; such as had none at all,</l>
+               <l>Came louers home, from this great festiuall.</l>
+               <l>For euerie street like to a Firmament</l>
+               <l>Glistered with breathing stars, who where they went,</l>
+               <l>Frighted the mealancholie earth, which deem'd,</l>
+               <l>Eternall heauen to burne, for so it seem'd,</l>
+               <l>As if another <hi>Phaeton</hi> had got</l>
+               <l>The guidance of the sunnes rich chariot.</l>
+               <l>But far aboue the loueliest <hi>Hero</hi> shin'd,</l>
+               <l>And stole away th'inchaunted gazers mind,</l>
+               <l>For like Sea-nimphs inueigling harmony,</l>
+               <l>So was her beautie to the standers by.</l>
+               <l>Nor that night wandring pale and watrie starre,</l>
+               <l>(When yawning dragons draw her thirling carre,</l>
+               <l>From <hi>Latmus</hi> mount vp to the glomie skie,</l>
+               <l>Where crown'd with blazing light and maiestie,</l>
+               <l>She proudly sits) more ouer-rules the flood,</l>
+               <l>Than she the hearts of those that neere her stood.</l>
+               <l>Euen as, when gawdie Nimphs pursue the chace,</l>
+               <l>Wretched <hi>Ixions</hi> shaggie footed race,</l>
+               <l>Incenst with sauage heat, gallop amaine,</l>
+               <l>From steepe Pine-bearing mountains to the plaine:</l>
+               <l>So ran the people foorth to gaze vpon her,</l>
+               <l>And all that view'd her, were enamour'd on her.</l>
+               <l>
+                  <pb facs="tcp:5206:6"/>And as in furle of a dreadfull fight,</l>
+               <l>Their fellowes being slaine or put to flight,</l>
+               <l>Poore soldiers stand with feare of death dead strooke<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>So at her presence all surprisde and tooken,</l>
+               <l>Await the sentence of her scornefull eies:</l>
+               <l>He whom she fauours liues, the other dies.</l>
+               <l>There might you see one sigh, another rage,</l>
+               <l>And some (their violent passions to asswage)</l>
+               <l>Compile sharpe satyrs, but alas too late,</l>
+               <l>For faithfull loue will neuer turne to hate.</l>
+               <l>And many seeing great princes were denied,</l>
+               <l>Pin'd as they went, and thinking on her died.</l>
+               <l>On this feast day, O cursed day and hower,</l>
+               <l>Went <hi>Hero</hi> thorow <hi>Sestos,</hi> from her tower</l>
+               <l>To <hi>Venus</hi> temple, where vnhappilie,</l>
+               <l>As after chanc'd, they did each other spie,</l>
+               <l>So faire a Church as this, had <hi>Venus</hi> none,</l>
+               <l>The wals were of discoloured <hi>Iasper</hi> stone,</l>
+               <l>Wherein was <hi>Proteus</hi> caru'd, and ouer head</l>
+               <l>A liuely vine of greene sea agget spread;</l>
+               <l>Where by one hand light headed <hi>Bacchus</hi> hung,</l>
+               <l>And with the other, wine from grapes out wrung,</l>
+               <l>Of Christall shining faire, the pauement was,</l>
+               <l>The towne of <hi>Sestos,</hi> calde it <hi>Venus</hi> glasse,</l>
+               <l>There might you see the gods in sundrie shapes,</l>
+               <l>Committing headdie ryots, incest, rapes:</l>
+               <l>
+                  <pb facs="tcp:5206:6"/>For know, that vnderneath this radiant flowre,</l>
+               <l>Was <hi>Danaes</hi> statue in a brazen towre,</l>
+               <l>
+                  <hi>Ioue,</hi> slylie stealing from his sisters bed,</l>
+               <l>To dallie with <hi>Idalian Ganimed:</hi>
+               </l>
+               <l>And for his loue <hi>Europa,</hi> bellowing lowd,</l>
+               <l>And tumbling with the Rainbow in a clowd,</l>
+               <l>Blood-quaffing <hi>Mars,</hi> heauing the yron net,</l>
+               <l>Which limping <hi>Vulcan</hi> and his <hi>Cyclops</hi> set:</l>
+               <l>Loue kindling fire, to burne such townes as <hi>Troy,</hi>
+               </l>
+               <l>
+                  <hi>Syluanus</hi> weeping for the louely boy,</l>
+               <l>That now is turnde into a Cypres tree,</l>
+               <l>Ander whose shade the Wood-gods loue to bee,</l>
+               <l>And in the midst a siluer altar stood,</l>
+               <l>There <hi>Hero</hi> sacrificing turtles blood,</l>
+               <l>Taild to the ground, vailing her eie-lids close,</l>
+               <l>And modestly they opened as she rose:</l>
+               <l>Thence flew Loues arrow with the golden head,</l>
+               <l>And thus <hi>Leander</hi> was enamoured.</l>
+               <l>Stone still he stood, and euermore he gazed,</l>
+               <l>Till with the fire that from his countnance blazed,</l>
+               <l>Relenting <hi>Hero's</hi> gentle heart was strooke,</l>
+               <l>Such force and vertue hath an amorous looke.</l>
+               <l>It lies not in our power to loue, or hate,</l>
+               <l>For will in vs is ouer-rulde by fate.</l>
+               <l>When two are stript long ere the course begin,</l>
+               <l>We wish that one should lose, the other win.</l>
+               <l>
+                  <pb facs="tcp:5206:7"/>And one especiallie doo we affect,</l>
+               <l>Of two gold Ingots like in each respect,</l>
+               <l>The reason no man knowes, let it suffise,</l>
+               <l>What we behold is censur'd by our eies.</l>
+               <l>Where both deliberat, the loue is slight,</l>
+               <l>Who euer lou'd, that lou'd not at first sight?</l>
+               <l>He kneel'd, but vnto her deuoutly praid;</l>
+               <l>Chast <hi>Hero</hi> to her selfe thus softly said:</l>
+               <l>Were I the saint hee worships, I would heare him,</l>
+               <l>And as she spake those words, came somewhat neere him.</l>
+               <l>He started vp, she blusht as one asham'd;</l>
+               <l>Wherewith <hi>Leander</hi> much more was inftam'd.</l>
+               <l>He toucht her hand, in touching it she trembled,</l>
+               <l>Loue deepely grounded, hardly is dissembled,</l>
+               <l>These louers parled by the touch of hands,</l>
+               <l>True loue is mute, and oft amazed stands,</l>
+               <l>Thus while dumb signs their yeelding harts entangled,</l>
+               <l>The aire with sparkes of liuing fire was spangled,<note place="margin">A peri<g ref="char:EOLhyphen"/>phrasis of night.</note>
+               </l>
+               <l>And night deepe drencht in mystie <hi>Acheron,</hi>
+               </l>
+               <l>Heau'd vp her head, and halfe the world vpon,</l>
+               <l>Breath'd darkenesse forth (darke night is <hi>Cupids</hi> day)</l>
+               <l>And now begins <hi>Leander</hi> to display</l>
+               <l>Loues holy fire, with words, with sighs and teares,</l>
+               <l>Which like sweet musicke entred <hi>Heroes</hi> eares,</l>
+               <l>And yet at euerie word shee turn'd aside,</l>
+               <l>And alwaies cut him off as he replide,</l>
+               <l>
+                  <pb facs="tcp:5206:7"/>At last, like to a bold sharpe Sophister,</l>
+               <l>With chearfull hope thus he accosted her.</l>
+               <l>Faire creature, let me speake without offence,</l>
+               <l>I would my rude words had the influence,</l>
+               <l>To leade thy thoughts, as thy faire lookes do mine,</l>
+               <l>Then shouldst thou bee his prisoner who is thine.</l>
+               <l>Be not vnkind and faire, mishapen stuffe</l>
+               <l>Are of behauiour boisterous and ruffe.</l>
+               <l>O shun me not, but heare me ere you goe,</l>
+               <l>God knowes I cannot force loue, as you doe.</l>
+               <l>My words shall be as spotlesse as my youth,</l>
+               <l>Full of simplicitie and naked truth.</l>
+               <l>This sacrifice (whose sweet perfume descending,</l>
+               <l>From <hi>Venus</hi> altar to your footsteps bending)</l>
+               <l>Doth testifie that you exceed her farre,</l>
+               <l>To whom you offer, and whose Nunne you are,</l>
+               <l>Why should you worship her, her you surpasse,</l>
+               <l>As much as sparkling Diamonds flaring glasse.</l>
+               <l>A Diamond set in lead his worth retaines,</l>
+               <l>A heauenly Nimph, belou'd of humane swaines,</l>
+               <l>Receiues no blemish, but oft-times more grace,</l>
+               <l>Which makes me hope, although I am but base,</l>
+               <l>Base in respect of thee, diuine and pure,</l>
+               <l>Dutifull seruice may thy loue procure,</l>
+               <l>And I in dutie will excell all other,</l>
+               <l>As thou in beautie doest exceed loues mother.</l>
+               <l>
+                  <pb facs="tcp:5206:8"/>Nor heauen, nor thou, were made to gaze vpon,</l>
+               <l>As heauen preserues all things, so saue thou one.</l>
+               <l>A stately builded ship, well rig'd and tall,</l>
+               <l>The Ocean maketh more maiestic all:</l>
+               <l>Why vowest thou then to liue in <hi>Sestos</hi> heere,</l>
+               <l>Who on Loues seas more glorious wouldst appeere?</l>
+               <l>Like vntun'd golden strings all women are,</l>
+               <l>Which long time lie vntoucht, will harshly iarre.</l>
+               <l>Vessels of brasse oft handled, brightly shine,</l>
+               <l>What difference betwixt the richest mine</l>
+               <l>And basest mold, but vse? for both not vsde,</l>
+               <l>Are of like worth. Then treasure is abusde,</l>
+               <l>When misers keep it; being put to lone,</l>
+               <l>In time it will returne vs two for one.</l>
+               <l>Rich robes, themselues and others doe adorne,</l>
+               <l>Neither themselues nor others, if not worne.</l>
+               <l>Who builds a pallace and rams vp the gate,</l>
+               <l>Shall see it ruinous and desolate.</l>
+               <l>An simple <hi>Hero,</hi> learne thy selfe to cherish,</l>
+               <l>Loue women like to emptie houses perish.</l>
+               <l>Lesse since the poore rich man that starues himselfe,</l>
+               <l>In heaping vp a masse of drossie pelfe,</l>
+               <l>Than such as you: his golden earth remains,</l>
+               <l>Which after his disceasse some other gains.</l>
+               <l>But this faire iem, sweet, in the losse alone,</l>
+               <l>When you fleet hence, can be bequeath'd to none.</l>
+               <l>
+                  <pb facs="tcp:5206:8"/>Or if it could, downe from th'enameld skie,</l>
+               <l>All heauen would come to claime this legacie,</l>
+               <l>And with intestine broyles the world destroy,</l>
+               <l>And quite confound natures sweet harmony.</l>
+               <l>Well therefore by the gods decreed it is,</l>
+               <l>We humane creatures should enioy that blis.</l>
+               <l>One is no number, mayds are nothing then,</l>
+               <l>Without the sweet societie of men.</l>
+               <l>Wilt thou liue single still? one shalt thou bee,</l>
+               <l>Though neuer-singling <hi>Hymen</hi> couple thee.</l>
+               <l>Wilde sauages, that drinke of running springs,</l>
+               <l>Thinke water farre excels all earthly things:</l>
+               <l>But they that daily taste neat wine, despise it.</l>
+               <l>Virginitie, albeit some highly prise it,</l>
+               <l>Compar'd with mariage, had you tride them both,</l>
+               <l>Differs as much, as wine and water doth.</l>
+               <l>Base boullion for the stamps sake we allow,</l>
+               <l>Euen so for mens impression doe we you.</l>
+               <l>By which alone, our reuerend fathers say;</l>
+               <l>Women receiue perfection euery way.</l>
+               <l>This idoll which you terme Virginitie,</l>
+               <l>Is neither essence subiect to the eie,</l>
+               <l>No, nor to any one exterior sence,</l>
+               <l>Nor hath it any place of residence,</l>
+               <l>Nor is't of earth or mold celestiall,</l>
+               <l>Or capable of any forme at all.</l>
+               <l>
+                  <pb facs="tcp:5206:9"/>Of that which hath no being, doe not boast,</l>
+               <l>Things that are not at all, are neuer lost.</l>
+               <l>Men foolishly doe call it vertuous,</l>
+               <l>What vertue is it, that is borne with vs?</l>
+               <l>Much lesse can honour be ascrib'd thereto,</l>
+               <l>Honour is purchas'd by the deedes wee do.</l>
+               <l>Beleeue me <hi>Hero,</hi> honour is not wone,</l>
+               <l>Vntill some honourable deed be done.</l>
+               <l>Seeke you for chastitie, immortall fame,</l>
+               <l>And know that some haue wrong'd <hi>Dianas</hi> name?</l>
+               <l>Whose name is it, if she be false or not,</l>
+               <l>So she be faire, but some vile toongs will blot?</l>
+               <l>But you are faire (aye me) so wondrous faire,</l>
+               <l>So yong, so gentle, and so debonaire,</l>
+               <l>As <hi>Greece</hi> will thinke, if thus you liue alone,</l>
+               <l>Some one or other keepes you as his owne.</l>
+               <l>Then <hi>Hero</hi> hate me not, nor from me flie,</l>
+               <l>To follow swiftly blasting infamie.</l>
+               <l>Perhaps, thy sacred Priesthood makes thee loath,</l>
+               <l>Tell me, to whom mad'st thou that heedlesse oath?</l>
+               <l>To <hi>Venus,</hi> answered shee, and as shee spake,</l>
+               <l>Foorth from those two tralucent cesternes brake,</l>
+               <l>A streame of liquid pearle, which downe her face</l>
+               <l>Made milk-white paths, wheron the gods might trace</l>
+               <l>To <hi>Ioues</hi> high court. Hee thus replide: The rites</l>
+               <l>In which Loues beauteous Empresse most delites,</l>
+               <l>
+                  <pb facs="tcp:5206:9"/>Are banquets, Dorick musicke, midnight-reuell,</l>
+               <l>Plaies, masks, and all that sterne age counteth euill.</l>
+               <l>Thee as a holy Idiot doth she scorne,</l>
+               <l>For thou in vowing chastitie, hast sworne</l>
+               <l>To rob her name and honour, and thereby</l>
+               <l>Commit'st a sinne far worse than periurie.</l>
+               <l>Euen sacrilege against her Deitie,</l>
+               <l>Through regular and formall puritie.</l>
+               <l>To expiat which sinne, kisse and shake hands,</l>
+               <l>Such sacrifice as this, <hi>Venus</hi> demands.</l>
+               <l>There at she smilde, and did denie him so,</l>
+               <l>As put thereby, yet might he hope for mo.</l>
+               <l>Which makes him quickly re-enforce his speech,</l>
+               <l>And her in humble maner thus beseech.</l>
+               <l>Though neither gods nor men may thee deserue,</l>
+               <l>Yet for her sake whom you haue vow'd to serue,</l>
+               <l>Abandon fruitlesse cold Virginitie,</l>
+               <l>The gentle queene of Loues sole enemie.</l>
+               <l>Then shall you most resemble <hi>Venus</hi> Nun,</l>
+               <l>When <hi>Venus</hi> sweet rites are perform'd and dun,</l>
+               <l>Flint-brested <hi>Pallas</hi> ioyes in single life,</l>
+               <l>But <hi>Pallas</hi> and your mistresse are at strife.</l>
+               <l>Loue <hi>Hero</hi> then, and be not tyrannous,</l>
+               <l>But heale the heart that thou hast wounded thus,</l>
+               <l>Nor staine thy youthfull yeares with auarice,</l>
+               <l>Faire fooles delight to be accounted nice.</l>
+               <l>
+                  <pb facs="tcp:5206:10"/>The richest corne dies, if it be not reapt,</l>
+               <l>Beautie alone is lost, too warily kept.</l>
+               <l>These arguments he vs'd, and many more,</l>
+               <l>Wherewith she yeelded, that was woone before,</l>
+               <l>
+                  <hi>Heroes</hi> lookes yeelded, but her words made warre,</l>
+               <l>Women are woon when they begin to iarre.</l>
+               <l>Thus hauing swallow'd <hi>Cupids</hi> golden hooke,</l>
+               <l>The more she striu'd the deeper was she strooke.</l>
+               <l>Yet euilly faining anger, stroue she still,</l>
+               <l>And would be thought to graunt against her will.</l>
+               <l>So hauing paus'd a while, at last shee said:</l>
+               <l>Who taught thee Rhetoricke to deceiue a maid?</l>
+               <l>Aye me, such words as these should I abhor,</l>
+               <l>And yet I like them for the Orator.</l>
+               <l>With that <hi>Leander</hi> stoopt, to haue imbrac'd her,</l>
+               <l>But from his spreading armes away she cast her,</l>
+               <l>And thus bespake him. Gentle youth forbeare</l>
+               <l>To touch the sacred garments which I weare.</l>
+               <l>Vpon a rocke, and vnderneath a hill,</l>
+               <l>Far from the towne (where all is whist and still,</l>
+               <l>Saue that the sea playing on yellow sand,</l>
+               <l>Sends foorth a ratling murmure to the land,</l>
+               <l>Whose sound allures the golden <hi>Morpheus,</hi>
+               </l>
+               <l>In silence of the night to visite vs.)</l>
+               <l>My turret stands, and there God knowes I play</l>
+               <l>With <hi>Venus</hi> swannes and sparrowes all the day.</l>
+               <l>
+                  <pb facs="tcp:5206:10"/>A dwarfish beldame beares me companie,</l>
+               <l>That hops about the chamber where I lie,</l>
+               <l>And spends the night (that might be better spent)</l>
+               <l>In vaine discourse, and apish merriment.</l>
+               <l>Come thither; As she spake this, her toong tript,</l>
+               <l>For vnawares (<hi>Come thither</hi>) from her slipt,</l>
+               <l>And sodainly her former colour chang'd,</l>
+               <l>And here and there her eies through anger rang'd.</l>
+               <l>And like a planet, moouing seuerall waies,</l>
+               <l>At one selfe instant, she poore soule assaies,</l>
+               <l>Louing, not to loue at all, and euerie part,</l>
+               <l>Stroue to resist the motions of her hart.</l>
+               <l>And hands so pure, so innocent, nay such,</l>
+               <l>As might haue made heauen stoope to haue a touch,</l>
+               <l>Did she vphold to <hi>Venus,</hi> and againe,</l>
+               <l>Vow'd spotlesse chastitie, but all in vaine,</l>
+               <l>
+                  <hi>Cupid</hi> beats downe her praiers with his wings,</l>
+               <l>Her vowes aboue the emptie aire he flings:</l>
+               <l>All deepe enrag'd, his sinowie bow he bent,</l>
+               <l>And shot a shaft that burning from him went,</l>
+               <l>Wherewith she strooken, look't so dolefully,</l>
+               <l>As made Loue sigh, to see his tirannie.</l>
+               <l>And as she wept, her teares to pearle he turn'd,</l>
+               <l>And wound them on his arme, and for her mourn'd.</l>
+               <l>Then towards the pallace of the destinies,</l>
+               <l>Laden with languishment and griefe he flies.</l>
+               <l>
+                  <pb facs="tcp:5206:11"/>And to those sterne nymphs humblie made request,</l>
+               <l>Both might enioy each other, and be blest.</l>
+               <l>But with a ghastly dreadfull countenance,</l>
+               <l>Threatning a thousand deaths at euery glance,</l>
+               <l>They answered Loue, nor would vouchsafe so much</l>
+               <l>As one poore word, their hate to him was such.</l>
+               <l>Harken a while, and I will tell you why:</l>
+               <l>Heauens winged herrald, <hi>Ioue-borne Mercury,</hi>
+               </l>
+               <l>The selfe-same day that he asleep had layd</l>
+               <l>Inchanted <hi>Argus,</hi> spied a countrie mayd,</l>
+               <l>Whose carelesse haire, in stead of pearle t'adorne it,</l>
+               <l>Glistred with deaw, as one that seem'd to skorne it:</l>
+               <l>Her breath as fragrant as the morning rose,</l>
+               <l>Her mind pure, and her tongue vntaught to glose.</l>
+               <l>Yet prowd she was, (for loftie pride that dwels</l>
+               <l>In tow'red courts, is oft in sheapheards cels.)</l>
+               <l>And too too well the faire vermillion knew,</l>
+               <l>And siluer tincture of her cheekes, that drew</l>
+               <l>The loue of euery swaine: On her this god</l>
+               <l>Enamoured was, and with his snakie rod,</l>
+               <l>Did charme her nimble feet, and made her stay,</l>
+               <l>The while vpon a hillock downe he lay,</l>
+               <l>And sweetly on his pipe began to play,</l>
+               <l>And with smooth speech her fancie to assay,</l>
+               <l>Till in his twining armes he lockt her fast,</l>
+               <l>And then he woo'd with kisses, and at last,</l>
+               <l>
+                  <pb facs="tcp:5206:11"/>As sheapheards do, her on the ground he layd,</l>
+               <l>And tumbling in the grasse, he often strayd</l>
+               <l>Beyond the bounds of shame, in being bold</l>
+               <l>To eie those parts, which no eie should behold.</l>
+               <l>And like an insolent commanding louer,</l>
+               <l>Boasting his parentage, would needs discouer</l>
+               <l>The way to new <hi>Elisium:</hi> but she,</l>
+               <l>Whose only dower was her chastitie,</l>
+               <l>Hauing striu'ne in vaine, was now about to crie,</l>
+               <l>And craue the helpe of sheapheards that were nie.</l>
+               <l>Herewith he staid his furie, and began</l>
+               <l>To giue her leaue to rise, away she ran,</l>
+               <l>After went <hi>Mercurie,</hi> who vsde such cunning,</l>
+               <l>As she to heare his tale, left off her running.</l>
+               <l>Maids are not woon by brutish force and might,</l>
+               <l>But speeches full of pleasures and delight.</l>
+               <l>And knowing <hi>Hermes</hi> courted her, was glad</l>
+               <l>That she such louelinesse and beautie had,</l>
+               <l>As could prouoke his liking, yet was mute,</l>
+               <l>And neither would denie, nor grant his sute.</l>
+               <l>Still vowd he loue, she wanting no excuse</l>
+               <l>To feed him with delaies, as women vse:</l>
+               <l>Or thirsting after immortalitie,</l>
+               <l>All women are ambitious naturallie,</l>
+               <l>Imposde vpon her louer such a taske,</l>
+               <l>As he ought not performe, nor yet she aske.</l>
+               <l>
+                  <pb facs="tcp:5206:12"/>A draught of flowing <hi>Nectar</hi> she requested,</l>
+               <l>Where with the king of Gods and men is feasted.</l>
+               <l>He readie to accomplish what she wild,</l>
+               <l>Stole some from <hi>Hebe (Hebe, Ioues</hi> cup fild,)</l>
+               <l>And gaue it to his simple rustike loue,</l>
+               <l>Which being knowne (as what is hid from <hi>loue</hi>)</l>
+               <l>He inly storm'd, and waxt more furious,</l>
+               <l>Than for the fire filcht by <hi>Prometheus;</hi>
+               </l>
+               <l>And thrusts him down fro<g ref="char:cmbAbbrStroke">̄</g> heauen, he wandring heere,</l>
+               <l>In mournfull tearmes, with sad and heauie cheere</l>
+               <l>Complaind to <hi>Cupid, Cupid</hi> for his sake,</l>
+               <l>To be reueng'd on <hi>Ioue,</hi> did vndertake,</l>
+               <l>And those on whom heauen, earth, and hell relies,</l>
+               <l>I meane the Adamantine Destinies,</l>
+               <l>He wounds with loue, and forst them equallie,</l>
+               <l>To dote vpon deceitfull <hi>Mercurie.</hi>
+               </l>
+               <l>They offred him the deadly fatall knife,</l>
+               <l>That sheares the slender threads of humane life,</l>
+               <l>At his faire feathered feet, the engins layd,</l>
+               <l>Which th'earth from ougly <hi>Chaos</hi> den vp-wayd:</l>
+               <l>These he regarded not, but did intreat,</l>
+               <l>That <hi>Ioue,</hi> vsurper of his fathers seat,</l>
+               <l>Might presently be banisht into hell,</l>
+               <l>And aged <hi>Saturne</hi> in <hi>Olympus</hi> dwell.</l>
+               <l>They granted what he crau'd, and once againe,</l>
+               <l>
+                  <hi>Saturne</hi> and <hi>Ops,</hi> began their golden raigne.</l>
+               <l>
+                  <pb facs="tcp:5206:12"/>Murder, rape, warre, lust and trecherie,</l>
+               <l>Were with <hi>Ioue</hi> clos'd in <hi>Stigian</hi> Emperie.</l>
+               <l>But long this blessed time continued not,</l>
+               <l>As soone as he his wished purpose got;</l>
+               <l>He recklesse of his promise, did despise</l>
+               <l>The loue of th'euerlasting Destinies.</l>
+               <l>They seeing it, both Loue and him abhor'd,</l>
+               <l>And <hi>Iupiter</hi> vnto his place restor'd.</l>
+               <l>And but that Learning, in despight of Fate,</l>
+               <l>Will mount aloft, and enter heauen gate,</l>
+               <l>And to the seat of <hi>Ioue</hi> it selfe aduance,</l>
+               <l>
+                  <hi>Hermes</hi> had slept in hell with ignorance.</l>
+               <l>Yet as a punishment they added this,</l>
+               <l>That he and <hi>Pouertie</hi> should alwaies kis.</l>
+               <l>And to this day is euerie scholler poore,</l>
+               <l>Grosse gold from them runs headlong to the boore.</l>
+               <l>Likewise the angrie sisters thus deluded,</l>
+               <l>To venge themselues on <hi>Hermes,</hi> haue concluded</l>
+               <l>That <hi>Midas</hi> brood shall sit in Honors chaire,</l>
+               <l>To which the <hi>Muses</hi> sonnes are only heire:</l>
+               <l>And fruitfull wits that in aspiring are,</l>
+               <l>Shall discontent run into regions farre;</l>
+               <l>And few great Lords in vertuous deeds shal ioy,</l>
+               <l>But be surpris'd with euery garish toy.</l>
+               <l>And still inrich the loftie seruile clowne,</l>
+               <l>Who with incroching guile, keepes learning downe.</l>
+               <l>
+                  <pb facs="tcp:5206:13"/>Then muse not <hi>Cupids</hi> sute no better sped,</l>
+               <l>Seeing in their loues the Fates were iniured.</l>
+            </lg>
+            <trailer>The end of the first Sestyad.</trailer>
+         </div>
+         <div type="part">
+            <argument>
+               <head>THE ARGVMENT OF THE
+SECOND SESTYAD.</head>
+               <lg>
+                  <l>
+                     <hi>Hero</hi> of loue takes deeper sence,</l>
+                  <l>And doth her loue more recompence.</l>
+                  <l>Their first nights meeting, where sweet kisses</l>
+                  <l>Are th'only crownes of both their blisses.</l>
+                  <l>He swimst' <hi>Abydus,</hi> and returnes;</l>
+                  <l>Cold <hi>Neptune</hi> with his beautie burnes,</l>
+                  <l>VVhose suite he shuns, and doth aspire</l>
+                  <l>
+                     <hi>Heros</hi> faire towre, and his desire.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>
+                  <seg rend="decorInit">B</seg>Y this, sad <hi>Hero,</hi> with loue vnacquainted,</l>
+               <l>Viewing <hi>Leanders</hi> face, fell downe and fainted.</l>
+               <l>He kist her, and breath'd life into her lips,</l>
+               <l>Wherewith as one displeasde, away-she trips.</l>
+               <l>Yet as she went, full often lookt behinde,</l>
+               <l>And many poore excuses did she finde,</l>
+               <l>To linger by the way, and once she staid,</l>
+               <l>And would haue turnde againe, but was afraid,</l>
+               <l>
+                  <pb facs="tcp:5206:13"/>In offring parlie, to be counted light.</l>
+               <l>So on she goes, and in her idle flight.</l>
+               <l>Her painted fanne of curled plumes let fall,</l>
+               <l>Thinking to traine <hi>Leander</hi> there with all.</l>
+               <l>He being a nouice, knew not what she meant,</l>
+               <l>But stayd, and after her a letter sent.</l>
+               <l>Which ioyfull <hi>Heor</hi> answerd in such sort,</l>
+               <l>As he had hope to scale the beauteous fort,</l>
+               <l>Wherein the liberall graces lock'd their wealth,</l>
+               <l>And therefore to her tower he got by stealth.</l>
+               <l>Wide open stood the doore, he need not clime;</l>
+               <l>And she her selfe before the pointed time,</l>
+               <l>Had spread the boord, with roses strowed the roome,</l>
+               <l>And oft look'd out, and mus'd he did not come.</l>
+               <l>At last he came, O who can tell the greeting,</l>
+               <l>These greedie louers had, at their first meeting.</l>
+               <l>He askt, she gaue, and nothing was denied,</l>
+               <l>Both to each other quickly were affied.</l>
+               <l>Looke how their hands, so were their hearts vnited,</l>
+               <l>And what he did, she willingly requited.</l>
+               <l>(Sweet are the kisses, the imbracements sweet,</l>
+               <l>When like desires and affections meet,</l>
+               <l>For from the earth to heauen, is <hi>Cupid</hi> rais'd,</l>
+               <l>Where fancie is in equall ballance pais'd)</l>
+               <l>Yet she this rashnesse sodainly repented,</l>
+               <l>And tur'd aside, and to her selfe lamented.</l>
+               <l>
+                  <pb facs="tcp:5206:14"/>As if her name and honor had been wrong'd,</l>
+               <l>By being possest of him for whom she long'd:</l>
+               <l>I, and shee wisht, albe it not from her hart,</l>
+               <l>That he would leaue her turret and depart.</l>
+               <l>The mirthfull God of amorous pleasure smil'd,</l>
+               <l>To see how he this captiue Nymph beguil'd.</l>
+               <l>For hitherto hee did but fan the fier,</l>
+               <l>And kept it downe that it might mount the hier.</l>
+               <l>Now waxt she iealous, least his loue abated,</l>
+               <l>Fearing, her owne thoughts made her to be hated.</l>
+               <l>Therefore vnto him hastily she goes,</l>
+               <l>And like light <hi>Salmacis,</hi> her body throes</l>
+               <l>Vpon his bosome, where with yeelding eyes,</l>
+               <l>She offers vp her selfe a sacrifice.</l>
+               <l>To slake his anger, if he were displeas'd,</l>
+               <l>O what god would not therewith be appeas'd?</l>
+               <l>Like <hi>Aesops</hi> cocke, this iewell he enioyed,</l>
+               <l>And as a brother with his sister toyed,</l>
+               <l>Supposing nothing else was to be done,</l>
+               <l>Now he her fauour and good will had wone.</l>
+               <l>But know you not that creatures wanting sence,</l>
+               <l>By nature haue a mutuall appetence,</l>
+               <l>And wanting organs to aduaunce a step,</l>
+               <l>Mou'd by Loues force, vnto ech other lep?</l>
+               <l>Much more in subiects hauing intellect,</l>
+               <l>Some hidden influence breeds like effect.</l>
+               <l>
+                  <pb facs="tcp:5206:14"/>Albeit <hi>Leander</hi> rude in loue, and raw,</l>
+               <l>Long dallying with <hi>Hero,</hi> nothing saw</l>
+               <l>That might delight him more, yet he suspected</l>
+               <l>Some amorous rites or other were neglected:</l>
+               <l>Therefore vnto his bodie, hirs he clung,</l>
+               <l>She, fearing on the rushes to be flung,</l>
+               <l>Striu'd with redoubled strength, the more she striued,</l>
+               <l>The more a gentle pleasing heat reuiued,</l>
+               <l>Which taught him all that elder louers know,</l>
+               <l>And now the same gan so to scorch and glow,</l>
+               <l>As in plaine termes (yet cunningly) he crau'd it.</l>
+               <l>Loue alwaies makes those eloquent that haue it.</l>
+               <l>Shee, with a kind of graunting, put him by it,</l>
+               <l>And euer as he thought himselfe most nigh it,</l>
+               <l>Like to the tree of <hi>Tantalus</hi> she fled,</l>
+               <l>And seeming lauish, sau'de her maydenhead.</l>
+               <l>Ne're king more sought to keepe his diademe,</l>
+               <l>Than <hi>Hero</hi> this inestimable gemme.</l>
+               <l>Aboue our life we loue a stedfast frend,</l>
+               <l>Yet when a token of great worth we send,</l>
+               <l>We often kisse it, often looke thereon,</l>
+               <l>And stay the messenger that would be gon:</l>
+               <l>No maruell then, though <hi>Hero</hi> would not yeeld</l>
+               <l>So soone to part from that she deerely held.</l>
+               <l>Iewels being lost are found againe, this neuer,</l>
+               <l>Tis lost but once, and once lost, lost for euer.</l>
+               <l>
+                  <pb facs="tcp:5206:15"/>Now had the morne espy'de her louers steeds,</l>
+               <l>Whereat she starts, puts on her purple weeds,</l>
+               <l>And red for anger that he stayd so long,</l>
+               <l>All headlong throwes her selfe the clouds among,</l>
+               <l>And now <hi>Leander</hi> fearing to be mist,</l>
+               <l>Imbrast her sodainly, tooke leaue, and kist,</l>
+               <l>Long was he taking leaue, and loath to go,</l>
+               <l>And kist againe, as louers vse to do,</l>
+               <l>Sad <hi>Hero</hi> wroong him by the hand, and wept,</l>
+               <l>Saying, let your vowes and promises be kept.</l>
+               <l>Then standing at the doore, she turnd about</l>
+               <l>As loath to see <hi>Leander</hi> going out.</l>
+               <l>And now the sunne that through th'orizon peepes,</l>
+               <l>As pittying these louers, downeward creepes.</l>
+               <l>So that in silence of the cloudie night,</l>
+               <l>Though it was morning, did he take his flight.</l>
+               <l>But what the secret trustie night conceal'd,</l>
+               <l>
+                  <hi>Leanders</hi> amorous habit soone reueal'd,</l>
+               <l>With <hi>Cupids</hi> myrtle was his bonet crownd,</l>
+               <l>About his armes the purple riband wound,</l>
+               <l>Wherewith she wreth'd her largely spreading heare,</l>
+               <l>Nor could the youth abstaine, but he must weare</l>
+               <l>The sacred ring wherewith she was endow'd,</l>
+               <l>When first religious chastitie she vow'd:</l>
+               <l>Which made his loue through <hi>Sestos</hi> to be knowne,</l>
+               <l>And thence vnto <hi>Abydus</hi> sooner blowne,</l>
+               <l>
+                  <pb facs="tcp:5206:15"/>Than he could saile, for incorporall Fame,</l>
+               <l>Whose waight consists in nothing but her name,</l>
+               <l>Is swifter than the wind, whose tardie plumes,</l>
+               <l>Are reeking water, and dull earthlie fumes.</l>
+               <l>Home when he came, he seem'd not to be there,</l>
+               <l>But like exiled aire thrust from his sphere,</l>
+               <l>Set in a forren place, and straight from thence,</l>
+               <l>
+                  <hi>Alcides</hi> like, by mightie violence,</l>
+               <l>He would haue chac'd away the swelling maine,</l>
+               <l>That him from her vniustly did deataine.</l>
+               <l>Like as the sunne in a Dyameter,</l>
+               <l>Fires and inflames obiects remooued farre,</l>
+               <l>And heateth kindly, shining lat'rally;</l>
+               <l>So beautie, sweetly quickens when t'is ny,</l>
+               <l>But being separated and remooued,</l>
+               <l>Burnes where it cherisht, murdrs where it loued.</l>
+               <l>Therefore euen as an Index to a booke,</l>
+               <l>So to his mind was yoong <hi>Leanders</hi> looke,</l>
+               <l>O none but gods haue power their loue to hide,</l>
+               <l>Affection by the count'nance is descride.</l>
+               <l>The light of hidden fire it selfe discouers,</l>
+               <l>And loue that is conceal'd betraies poore louers.</l>
+               <l>His secret name apparantly was seene,</l>
+               <l>
+                  <hi>Leanders</hi> Father knew where he had beene,</l>
+               <l>And for the same mildly rebuk't his sonne,</l>
+               <l>Thinking to quench the sparckles new begonne.</l>
+               <l>
+                  <pb facs="tcp:5206:16"/>But loue resisted once, growes passionate,</l>
+               <l>And nothing more than counseile louers hate.</l>
+               <l>For as a hote prowd horse highly disdaines,</l>
+               <l>To haue his head control'd, but breakes the raines,</l>
+               <l>Spits foorth the ringled bit, and with his houes,</l>
+               <l>Checkes the submissiue ground: so hee that loues,</l>
+               <l>The more he is restrain'd, the woorse he fares,</l>
+               <l>What is it now, but mad <hi>Leander</hi> dares?</l>
+               <l>O <hi>Hero, Hero,</hi> thus he cry'de full oft,</l>
+               <l>And then he got him to a rocke aloft.</l>
+               <l>Where hauing spy'de her tower, long star'd he on't,</l>
+               <l>And pray'd the narrow toyling <hi>Hellespont,</hi>
+               </l>
+               <l>To part in twaine, that hee might come and go,</l>
+               <l>But still the rising billowes answered no.</l>
+               <l>With that hee stript him to the yu'rie skin,</l>
+               <l>And crying, Loue I come, leapt liuely in.</l>
+               <l>Whereat the saphir visag'd god grew prowd,</l>
+               <l>And made his capring <hi>Triton</hi> sound alowd,</l>
+               <l>Imagining, that <hi>Ganimed</hi> displeas'd,</l>
+               <l>Had left the heauens, therefore on him he seaz'd.</l>
+               <l>
+                  <hi>Leander</hi> striu'd, the waues about him wound,</l>
+               <l>And puld him to the bottome, where the ground</l>
+               <l>Was strewd with pearle, and in low corrall groues</l>
+               <l>Sweet singing Meremaids, sported with their loues</l>
+               <l>On heapes of heauie gold, and tooke great pleasure,</l>
+               <l>To spurne in carelesse sort, the shipwracke treasure.</l>
+               <l>
+                  <pb facs="tcp:5206:16"/>For here the stately azure pallace stood,</l>
+               <l>Where kingly <hi>Neptune</hi> and his traine abode,</l>
+               <l>The lustie god imbra'st him, cald him loue,</l>
+               <l>And swore he neuer should returne to Ioue.</l>
+               <l>But when he knew it was not <hi>Ganimed,</hi>
+               </l>
+               <l>For vnder water he was almost dead,</l>
+               <l>He heau'd him vp, and looking on his face,</l>
+               <l>Beat downe the bold waues with his triple mace,</l>
+               <l>Which mounted vp, intending to haue kist him,</l>
+               <l>And fell in drops like teares, because they mist him.</l>
+               <l>
+                  <hi>Leander</hi> being vp began to swim,</l>
+               <l>And looking backe, saw <hi>Neptune</hi> follow him.</l>
+               <l>Whereat agast, the poore soule ganto crie,</l>
+               <l>O let mee visit <hi>Hero</hi> ere I die.</l>
+               <l>The god put <hi>Helles</hi> bracelet on his arme,</l>
+               <l>And swore the sea should neuer doe him harme.</l>
+               <l>He clapt his plumpe cheekes, with his tresses playd,</l>
+               <l>And smiling wantonly, his loue bewrayd.</l>
+               <l>He watcht his armes, and as they opend wide,</l>
+               <l>At euery stroke, betwixt them would he slide,</l>
+               <l>And steale a kisse, and then run out and daunce,</l>
+               <l>And as he turnde, cast many a lustfull glance,</l>
+               <l>And threw him gawdie toies to please his eie,</l>
+               <l>And diue into the water, and there prie</l>
+               <l>Vpon his brest, his thighes, and euerie lim,</l>
+               <l>And vp againe, and close beside him swim.</l>
+               <l>
+                  <pb facs="tcp:5206:17"/>And talke of loue: <hi>Leander</hi> made replie,</l>
+               <l>You are decau'd, I am no woman I,</l>
+               <l>There at smilde <hi>Neptune,</hi> and then told a tale,</l>
+               <l>How that a sheapheard sitting in a vale,</l>
+               <l>Playd with a boy, so faire and kind,</l>
+               <l>As for his loue, both earth and heauen pyn'd;</l>
+               <l>That of the cooling riuer durst not drinke,</l>
+               <l>Least water-nymphs should pull him from the brinke.</l>
+               <l>And when hee sported in the fragrant lawnes,</l>
+               <l>Gote-footed Satyrs, and vp-staring Fawnes,</l>
+               <l>Would steale him thence. Ere halfe this tale was done,</l>
+               <l>Aye me, <hi>Leander</hi> oryde, th'enamoured sunne,</l>
+               <l>That now should shine on <hi>Thetis</hi> glassie bower,</l>
+               <l>Descends vpon my raiant <hi>Heroes</hi> tower.</l>
+               <l>O that these tardie armes of mine were wings,</l>
+               <l>And as he spake, vpon the waues he springs.</l>
+               <l>
+                  <hi>Neptune</hi> was angrie that hee gaue no eare,</l>
+               <l>And in his heart reuenging malice bare:</l>
+               <l>He flung at him his mace, but as it went,</l>
+               <l>He cald it in, for loue made him repent.</l>
+               <l>The mace returning backe, his owne hand hit,</l>
+               <l>As meaning to be veng'd for darting it.</l>
+               <l>When this fresh bleeding wound <hi>Leander</hi> viewd,</l>
+               <l>His colour went and came, as if he rewd.</l>
+               <l>The greefe which <hi>Neptune</hi> felt. In gentle brests,</l>
+               <l>Relenting thoughts, remorse and pittie rests.</l>
+               <l>
+                  <pb facs="tcp:5206:17"/>Trouping together, made her wonder why</l>
+               <l>She should not leaue her bed, and to the Temple?</l>
+               <l>Her health sayd she must liue; her sex dissemble.</l>
+               <l>She viewd <hi>Leanders</hi> place, and wisht he were</l>
+               <l>Turnd to his place; so his place were <hi>Leander.</hi>
+               </l>
+               <l>Aye me (sayd she) that loues sweet life and sence</l>
+               <l>Should doe it harme! my loue had not gone hence,</l>
+               <l>Had he been like his place. O blessed place,</l>
+               <l>Image of Constancie. Thus my loues grace</l>
+               <l>Parts no where but it leaues some thing behinde</l>
+               <l>Worth obseruation: he renowmes his kinde.</l>
+               <l>His motion is like heauens Orbiculer:</l>
+               <l>For where he once is, he is euer there.</l>
+               <l>This place was mine: <hi>Leander</hi> now t'is thine;</l>
+               <l>Thou being my selfe, then it is double mine:</l>
+               <l>Mine, and <hi>Leanders</hi> mine, <hi>Leanders</hi> mine.</l>
+               <l>O see what wealth it yeelds me, nay yeelds him:</l>
+               <l>For I am in it, he for me doth swim.</l>
+               <l>Rich, fruitfull loue, that doubling selfe estates</l>
+               <l>
+                  <hi>Elixer</hi>-like contracts, though separates.</l>
+               <l>Deare place I kisse thee, and doe welcome thee,</l>
+               <l>As from <hi>Leander</hi> euer sent to mee.</l>
+            </lg>
+            <trailer>The end of the third Sestyad.</trailer>
+         </div>
+         <div type="part">
+            <pb facs="tcp:5206:18"/>
+            <argument>
+               <head>THE ARGVMENT OF THE
+FOVRTH SESTYAD.</head>
+               <lg>
+                  <l>
+                     <hi>Hero,</hi> in sacred habit deckt,</l>
+                  <l>Doth priuate sacrifice effect.</l>
+                  <l>Her Skarfs description wrought by fate,</l>
+                  <l>
+                     <hi>Ostents,</hi> that threaten her estate.</l>
+                  <l>The strange, yet Phisicall euents,</l>
+                  <l>
+                     <hi>Leanders</hi> counter feit presents.</l>
+                  <l>In thunder, <hi>Ciprides</hi> descends,</l>
+                  <l>Presaging both the louers ends.</l>
+                  <l>
+                     <hi>Ecte</hi> the Goddesse of remorce,</l>
+                  <l>VVith vocall and articulate force</l>
+                  <l>Inspires <hi>Leucote, Venus</hi> swan,</l>
+                  <l>T'excuse the beautious <hi>Sestian.</hi>
+                  </l>
+                  <l>
+                     <hi>Venus,</hi> to wreake her rites abuses,</l>
+                  <l>Creates the monster <hi>Eronusis;</hi>
+                     <note place="margin">
+                        <gap reason="illegible" extent="1 paragraph">
+                           <desc>〈1 paragraph〉</desc>
+                        </gap>
+                     </note>
+                  </l>
+                  <l>Enflaming <hi>Heros</hi> Sacrifice,</l>
+                  <l>VVith lightning darted from her eyes:</l>
+                  <l>And thereof springs the painted beast,</l>
+                  <l>That euer since taints euery breast.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>
+                  <seg rend="decorInit">N</seg>Ow from <hi>Leanders</hi> place she rose, and found</l>
+               <l>Her haire and rent robe scattred on the ground:</l>
+               <l>
+                  <pb facs="tcp:5206:18"/>Which taking vp, she euery peece did lay</l>
+               <l>Vpon an Altar; where in youth of day</l>
+               <l>She vsde t'exhibite priuate Sacrifice:</l>
+               <l>Those would she offer to the Deities</l>
+               <l>Of her faire Goddesse, and her powerfull son,</l>
+               <l>As relicks of her late-felt passion:</l>
+               <l>And in that holy sort she vowd to end them,</l>
+               <l>In hope her violent fancies that did rend them,</l>
+               <l>Would as quite fade in her loues holy fire,</l>
+               <l>As they should in the flames she ment t'inspire.</l>
+               <l>Then put she on all her religious weedes,</l>
+               <l>That deckt her in her secret sacred deedes:</l>
+               <l>A crowne of Isickles, that sunne nor fire</l>
+               <l>Could euer melt, and figur'd chast desire.</l>
+               <l>A golden star shinde in her naked breast,</l>
+               <l>In honour of the Queene-light of the East.</l>
+               <l>In her right hand she held a siluer wand,</l>
+               <l>On whose bright top <hi>Peristera</hi> did stand,</l>
+               <l>Who was a Nymph, but now transformd a Doue,</l>
+               <l>And in her life was deare in <hi>Venus</hi> loue:</l>
+               <l>And for her sake she euer since that time,</l>
+               <l>Chusde Doues to draw her Coach through heauens blew clime.</l>
+               <l>Her plentious haire in curled billowes swims</l>
+               <l>On her bright shoulder: her harmonious lims</l>
+               <l>Sustainde no more but a most subtile vaile</l>
+               <l>That hung on them, as it durst not affaire</l>
+               <l>
+                  <pb facs="tcp:5206:19"/>Their different concord: for the weakest ayre</l>
+               <l>Could raise it swelling from her bewties fayre:</l>
+               <l>Nor did it couer, but adumbrate onelie</l>
+               <l>Her most heart-piercing parts, that a blest eie</l>
+               <l>Might see (as it did shadow) fearfullie,</l>
+               <l>All that all-loue-deseruing Paradise:</l>
+               <l>It was as blew as the most freezing skies</l>
+               <l>Neere the Sea shew, for thence her Goddesse came:</l>
+               <l>On it a skarfe she wore of wondrous frame;</l>
+               <l>In midst whereof she wrought a virgins face,</l>
+               <l>From whose each cheeke a firie blush did chace</l>
+               <l>Two crimson flames, that did two waies extend,</l>
+               <l>Spreading the ample skarfe to either end,</l>
+               <l>Which figur'd the diuision of her minde,</l>
+               <l>Whiles yet she rested bashfully inclinde,</l>
+               <l>And stood not resolute to wed <hi>Leander.</hi>
+               </l>
+               <l>This seru'd her white neck for a purple sphere,</l>
+               <l>And cast it selfe at full breadth downe her back.</l>
+               <l>There (since the first breath that begun the wrack</l>
+               <l>Of her free quiet from <hi>Leanders</hi> lips)</l>
+               <l>She wrought a Sea in one flame full of ships:</l>
+               <l>But that one ship where all her wealth did passe</l>
+               <l>(Like simple marchants goods) <hi>Leander</hi> was:</l>
+               <l>For in that Sea she naked figured him;</l>
+               <l>Her diuing needle taught him how to swim,</l>
+               <l>And to each thred did such resemblance giue,</l>
+               <l>
+                  <pb facs="tcp:5206:19"/>For ioy to be so like him, it did liue.</l>
+               <l>Things senceles liue by art, and rationall die,</l>
+               <l>By rude contempt of art and industrie.</l>
+               <l>Scarce could she work but in her strength of thought,</l>
+               <l>She feard she prickt <hi>Leander</hi> as she wrought:</l>
+               <l>And oft would shrieke so, that her Guardian frighted,</l>
+               <l>Would staring haste, as with some mischiefe cited.</l>
+               <l>They double life that dead things griefs sustdyne:</l>
+               <l>They kill that feele not their friends liuing payne.</l>
+               <l>Sometimes she feard he sought her infamie,</l>
+               <l>And then as she was working of his eie,</l>
+               <l>She thought to pricke it out to quench her ill:</l>
+               <l>But as she prickt, it grew more perfect still.</l>
+               <l>Trifling attempts no serious acts aduance;</l>
+               <l>The fire of loue is blowne by dalliance.</l>
+               <l>In working his fayre neck she did so grace it,</l>
+               <l>She still was working her owne armes t'imbrace it:</l>
+               <l>That, and his shoulders, and his hands wereseene</l>
+               <l>Aboue the streame, and with a pure Sea greene</l>
+               <l>She did so queintly shadow euery lim,</l>
+               <l>All might be seene beneath the waues to swim.</l>
+               <l>In this conceited skarfe she wrought beside</l>
+               <l>A Moone in change, and shooting stars did glide</l>
+               <l>In number after her with bloodie beames,</l>
+               <l>Which figur'd her affects in their extreames,</l>
+               <l>Pursuing Nature in her Cynthian bodie,</l>
+               <l>
+                  <pb facs="tcp:5206:20"/>And did her thoughts running on change implie:</l>
+               <l>For maids take more delights when they prepare</l>
+               <l>And thinke of wiues states, than when wiues they are.</l>
+               <l>Beneath all these she wrought a Fisherman,</l>
+               <l>Drawing his nets from forth that Ocean;</l>
+               <l>Who drew so hard ye might discouer well,</l>
+               <l>The toughned sinewes in his neck did swell:</l>
+               <l>His inward straines draue out his blood-shot eyes,</l>
+               <l>And springs of sweat did in his forehead rise:</l>
+               <l>Yet was of nought but of a Serpent sped,</l>
+               <l>That in his bosome flew and stung him dead.</l>
+               <l>And this by fate into her minde was sent,</l>
+               <l>Not wrought by meere instinct of her intent.</l>
+               <l>At the skarfs other end her hand did frame,</l>
+               <l>Neere the forkt point of the deuided flame,</l>
+               <l>A countrie virgin keeping of a Vine,</l>
+               <l>Who did of hollow bulrushes combine</l>
+               <l>Snares for the stubble-louing Grashopper,</l>
+               <l>And by her lay her skrip that nourisht her.</l>
+               <l>Within a myrtle shade she sate and sung,</l>
+               <l>And turts of wauing reedes about her sprung:</l>
+               <l>Where lurkt two Foxes, that while she applide</l>
+               <l>Her trifling snares, their the eueries did deuide:</l>
+               <l>One to the vine, another to her skrip,</l>
+               <l>That she did negligently ouerslip:</l>
+               <l>By which her fruitfull vine and holesome fare,</l>
+               <l>
+                  <pb facs="tcp:5206:20"/>She suffred spoyld to make a childish share.</l>
+               <l>These omenous fancies did her soule expresse,</l>
+               <l>And euery finger made a Prophetesse,</l>
+               <l>To shew what death was hid in loues: disguise,</l>
+               <l>And make her iudgement conquer destinies.</l>
+               <l>O what sweet formes fayre Ladies soules doe shrowd,</l>
+               <l>Were they made seene &amp; forced through their blood,</l>
+               <l>If through their beauties like rich work through lawn,</l>
+               <l>They would set forth their minds with vertues drawn,</l>
+               <l>In letting graces from their fingers flie,</l>
+               <l>To still their yas thoughts with industrie:</l>
+               <l>That their plied wits in numbred silks might sing</l>
+               <l>Passions huge conquest, and their needels leading</l>
+               <l>Affection prisoner through their own-built citties,</l>
+               <l>Pinniond with stories and Arachnean ditties.</l>
+               <l>Proceed we now with <hi>Heros</hi> sacrifice;</l>
+               <l>She odours burnd, and from their smoke did rise</l>
+               <l>Vnsauorie fumes, that ayre with plagues inspired,</l>
+               <l>And then the consecrated sticks she fired.</l>
+               <l>On whose pale flame an angrie spirit flew,</l>
+               <l>And beate it downe still as it vpward grew.</l>
+               <l>The virgin Tapers that on th'altar stood,</l>
+               <l>When she inflam'd them burnd as red as blood:</l>
+               <l>All sad ostents of that too neere successe;</l>
+               <l>That made such mouing beauties motionlesse.</l>
+               <l>Then <hi>Hero</hi> wept; but her affrighted eyes</l>
+               <l>
+                  <pb facs="tcp:5206:21"/>She quickly wrested from the sacrifice:</l>
+               <l>Shut them, and inwards for <hi>Leander</hi> lookt,</l>
+               <l>Searcht her soft bosome, and from thence she pluckt</l>
+               <l>His louely picture: which when she had viewd,</l>
+               <l>Her beauties were with all loues ioyes renewd.</l>
+               <l>The odors sweetned, and the fires burnd cleere,</l>
+               <l>
+                  <hi>Leanders</hi> forme left no ill obiect there.</l>
+               <l>Such was his beautie that the force of light,</l>
+               <l>Whose knowledge teacheth wonders infinite.</l>
+               <l>The strength of number and proportion,</l>
+               <l>Nature had plaste in it to make it knowne.</l>
+               <l>Art was her daughter, and what humane wits</l>
+               <l>For studie lost, intombd in drossie spirits.</l>
+               <l>After this accident (which for her glorie</l>
+               <l>
+                  <hi>Hero</hi> could not but make a historie)</l>
+               <l>Th'inhabitants of <hi>Sestus,</hi> and <hi>Abydus,</hi>
+               </l>
+               <l>Did euery yeare with feasts propitious,</l>
+               <l>To fayre <hi>Leanders</hi> picture sacrifice,</l>
+               <l>And they were persons of especiall prize</l>
+               <l>That were allowd it, as an ornament</l>
+               <l>T'inrich their houses; for the continent</l>
+               <l>Of the strange vertues all approu'd it held:</l>
+               <l>For euen the very looke of it repeld</l>
+               <l>All blastings, witchcrafts, and the strifes of nature</l>
+               <l>In those diseases that no hearbs could cure.</l>
+               <l>The woolfie sting of Auarice it would pull,</l>
+               <l>
+                  <pb facs="tcp:5206:21"/>And who haue hard hearts, and obdurat minds,</l>
+               <l>But vicious, harebraind, and illit' rat hinds?</l>
+               <l>The god seeing him with pittie to be moued,</l>
+               <l>Thereon concluded that he was beloued.</l>
+               <l>(Loue is too full of faith, too credulous,</l>
+               <l>With follie and false hope deluding vs.)</l>
+               <l>Wherefore <hi>Leanders</hi> fancie to surprize,</l>
+               <l>To the rich <hi>Ocean</hi> for gifts he flies.</l>
+               <l>Tis wisedome to giue much, a gift preuailes,</l>
+               <l>When deepe perswading Oratorie failes,</l>
+               <l>By this <hi>Leander</hi> being neere the land,</l>
+               <l>Cast downe his wearie feet, and felt the sand</l>
+               <l>Breathlesse albeit he were, he rested not,</l>
+               <l>Till to the solitarie tower he got.</l>
+               <l>And knockt and cald, at which celestiall noise,</l>
+               <l>The longing heart of <hi>Hero</hi> much more ioies</l>
+               <l>Then nymphs &amp; sheapheards, when the timbrell rings,</l>
+               <l>Or crooked Dolphin when the sailer sings;</l>
+               <l>She stayd not for her robes, but straight arose,</l>
+               <l>And drunke with gladnesse, to the dore she goes.</l>
+               <l>Where seeing a naked man, she scriecht for feare,</l>
+               <l>Such sights as this, to tender maids are rare.</l>
+               <l>And ran in to the darke her selfe to hide,</l>
+               <l>Rich iewels in the darke are soonest spide.</l>
+               <l>Vnto her was he led, or rather drawne,</l>
+               <l>By those white limmes, which sparckled through the lawne.</l>
+               <l>
+                  <pb facs="tcp:5206:22"/>The neerer that he came, the more she fled,</l>
+               <l>And seeking refuge, slipt into her bed.</l>
+               <l>Whereon <hi>Leander</hi> sitting, thus began,</l>
+               <l>Though numming cold, all feeble, faint and wan:</l>
+               <l>If not for loue, yet loue for pittie sake,</l>
+               <l>Me in thy bed and maiden bosome take,</l>
+               <l>At least vouchsafe these armes some little roome,</l>
+               <l>Who hoping to imbrace thee, cherely swoome.</l>
+               <l>This head was beat with manie a churlish billow,</l>
+               <l>And therefore let it rest vpon thy pillow.</l>
+               <l>Herewith affrighted <hi>Hero</hi> shrunke away,</l>
+               <l>And in her luke-warme place <hi>Leander</hi> lay.</l>
+               <l>Whose liuely heat like fire from heauen fet,</l>
+               <l>Would animate grosse clay, and higher set</l>
+               <l>The drooping thoughts of base declining soules,</l>
+               <l>Then drerie <hi>Mars,</hi> carowsing <hi>Nectar</hi> boules.</l>
+               <l>His hands he cast vpon her like a snare,</l>
+               <l>She ouercome with shame and sallow feare,</l>
+               <l>Like chast <hi>Diana,</hi> when <hi>Acteon</hi> spyde her,</l>
+               <l>Being sodainly betraide, dyu'd downe to hide her.</l>
+               <l>And as her siluer body downeward went,</l>
+               <l>With both her hands she made the bed a tent,</l>
+               <l>And in her owne mind thought her selfe secure,</l>
+               <l>O'recast with dim and darksome couerture.</l>
+               <l>And now she lets him whisper in her eare,</l>
+               <l>Flatter, intreat, promise, protest and sweare,</l>
+               <l>
+                  <pb facs="tcp:5206:22"/>Yet euer as he greedily assayd,</l>
+               <l>To touch those dainties, she the <hi>Harpey</hi> playd,</l>
+               <l>And euery lim did as a soldier stout,</l>
+               <l>Defend the fort, and keep the foe-man out.</l>
+               <l>For though the rising yu'rie mount he scal'd,</l>
+               <l>Which is with azure circling liues empal'd,</l>
+               <l>Much like a globe, (a globe may I tearme this,</l>
+               <l>By which loue sailes to regions ful of blis,)</l>
+               <l>Yet there with <hi>Sysiphus</hi> he toyld in vaine,</l>
+               <l>Till gentle parlie did the truce obtaine.</l>
+               <l>She trembling stroue, this strife of hers (like that</l>
+               <l>Which made the world) another world begat,</l>
+               <l>Of vnknowne ioy. Treason was in her thought,</l>
+               <l>And cunningly to yeeld her selfe she sought.</l>
+               <l>Seeming not woon, yet woon she was at length,</l>
+               <l>In such warres women vse but halfe their strength.</l>
+               <l>
+                  <hi>Leander</hi> now like Theban <hi>Hercules,</hi>
+               </l>
+               <l>Entred the orchard of <hi>Th<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>esperides.</hi>
+               </l>
+               <l>Whose fruit none rightly can describe, but hee</l>
+               <l>That puls or shakes it from the golden tree:</l>
+               <l>Wherein <hi>Leander</hi> on her quiuering brest,</l>
+               <l>Breathlesse spoke some things, and sigh'd out the rest;</l>
+               <l>Which so preuail'd, as he with small ado,</l>
+               <l>Inclos'd her in his armes and kist her to.</l>
+               <l>And euerie kisse to her was as a charme,</l>
+               <l>And to <hi>Leander</hi> as a fresh alarme.</l>
+               <l>
+                  <pb facs="tcp:5206:23"/>So that the truce was broke, and she alas,</l>
+               <l>(Poore sillie maiden) at his mercie was.</l>
+               <l>Loue is not full of pittie (as men say)</l>
+               <l>But deaffe and cruell, where he meanes to pray.</l>
+               <l>Euen as a bird, which in our hands we wring,</l>
+               <l>Fourth plungeth, and oft flutters with her wing.</l>
+               <l>And now she wisht this night were neuer done.</l>
+               <l>And sigh'd to thinke vpon th' approching sunne,</l>
+               <l>For much it greeu'd her that the bright day-light,</l>
+               <l>Should know the pleasure of this blessed night.</l>
+               <l>And then like <hi>Mars</hi> and <hi>Ericine</hi> displayd,</l>
+               <l>Both in each others armes chaind as they layd.</l>
+               <l>Againe she knew not how to frame her looke,</l>
+               <l>Or speake to him who in a moment tooke,</l>
+               <l>That which so long so charily she kept,</l>
+               <l>And faine by stealth away she would haue crept,</l>
+               <l>And to some corner secretly haue gone,</l>
+               <l>Leauing <hi>Leander</hi> in the bed alone.</l>
+               <l>But as her naked feet were whipping out,</l>
+               <l>He on the suddaine clingd her so about,</l>
+               <l>That Meremaid-like vnto the floore she slid,</l>
+               <l>And halfe appear'd the other halfe was hid.</l>
+               <l>Thus neere the bed she blushing stood vpright,</l>
+               <l>And from her countenance behold ye might,</l>
+               <l>A kind of twilight breake, which through the heare,</l>
+               <l>As from an orient cloud, glymse here and there.</l>
+               <l>
+                  <pb facs="tcp:5206:23"/>And round about the chamber this false morne,</l>
+               <l>Brought foorth the day before the day was borne.</l>
+               <l>So <hi>Heroes</hi> ruddie cheeke <hi>Hero</hi> betrayd.</l>
+               <l>And her all naked to his sight displayd</l>
+               <l>Whence his admiring eyes more pleasure tooke,</l>
+               <l>Than <hi>Dis,</hi> on heapes of gold fixing his looke.</l>
+               <l>By this <hi>Apollos</hi> golden harpe began,</l>
+               <l>To sound foorth musicke to the <hi>Ocean,</hi>
+               </l>
+               <l>Which watchfull <hi>Hesperus</hi> no sooner heard,</l>
+               <l>But he the day bright-bearing Car prepar'd.</l>
+               <l>And ran before, as Harbenger of light,</l>
+               <l>And with his flaring beames mockt ougly night,</l>
+               <l>Till she o'recome with anguish, shame, and rage,</l>
+               <l>Hurld downe to hell her loathsome carriage.</l>
+            </lg>
+            <trailer>The end of the second Sestyad.</trailer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:5206:24"/>
+            <head>TO MY BEST ESTEEMED
+AND WORTHELY HONORED
+LADY, THE LADY WALSINGHAM,
+one of the Ladies of her Maiesties
+Bed-chamber.</head>
+            <p>
+               <seg rend="decorInit">I</seg> Present your Ladiship with the last affe<g ref="char:EOLhyphen"/>ctions
+of the first two Louers that euer
+<hi>Muse</hi> shrinde in the Temple of <hi>Memo<g ref="char:EOLhyphen"/>rie;</hi>
+being drawne by strange instigation
+to employ some of my serious time in so
+trifeling a subiect, which yet made the
+first Author, diuine <hi>Musaeus,</hi> eternall. And were it not that
+wee must subiect our accounts of these common receiued con<g ref="char:EOLhyphen"/>ceits
+to seruile custome; it goes much against my hand to
+signe that for a trifling subiect, on which more worthines of
+soule hath been shewed, and weight of diuine wit, than can
+vouchsafe residence in the leaden grauitie of any <hi>Mony<g ref="char:EOLhyphen"/>Monger;</hi>
+in whose profession all serious subiects are conclu<g ref="char:EOLhyphen"/>ded.
+But he that shuns trifles must shun the world; out of
+whose reuerend heapes of substance and austeritie, I can, and
+will, ere long, single, or tumble out as brainles and passionate
+fooleries, as euer panted in the bosome of the most ridiculous
+<pb facs="tcp:5206:24"/>
+Louer. Accept it therfore (good Madam) though as a trifle,
+yet as a serious argument of my affection: for to bee thought
+thankefull for all free and honourable fauours, is a great summe
+of that riches my whole thrift intendeth.</p>
+            <p>Such vncourtly and sillie dispositions as mine, whose con<g ref="char:EOLhyphen"/>tentment
+hath other obiects than profit or glorie; are as glad,
+simply for the naked merit of vertue, to honour such as ad<g ref="char:EOLhyphen"/>uance
+her, as others that are hired to commend with deepeli<g ref="char:EOLhyphen"/>est
+politique bountie.</p>
+            <p>It hath therefore adioynde much contentment to my
+desire of your true honour to heare men of desert in Court,
+adde to mine owne knowledge of your noble disposition, how
+gladly you doe your best to preferre their desires; and haue as
+absolute respect to their meere good parts, as if they came per<g ref="char:EOLhyphen"/>fumed
+and charmed with golden incitements. And this most
+sweet inclination, that flowes from the truth and eternitie of
+Nobles; assure your Ladiship doth more suite your other Or<g ref="char:EOLhyphen"/>naments,
+and makes more to the aduancement of your Name,
+and happines of your proceedings, then if (like others)
+you displaied Ensignes of state and sowrenes in your fore<g ref="char:EOLhyphen"/>head;
+made smooth with nothing but sensualitie and pre<g ref="char:EOLhyphen"/>sents.</p>
+            <p>This poore Dedication (in figure of the other vnitie be<g ref="char:EOLhyphen"/>twixt
+Sir <hi>Thomas</hi> and your selfe) hath reioynd you with
+him, my honoured best friend; whose continuance of ancient
+<pb facs="tcp:5206:25"/>
+kindnes to my still-obscured estate, though it cannot encrease
+my loue to him, which hath euer been entirely circulare; yet
+shall it encourage my deserts to their vtmost requitall,
+and make my hartie gratitude speake; to which
+the vnhappines of my life hath hetherto
+been vncomfortable and pain<g ref="char:EOLhyphen"/>full
+dumbnes.</p>
+            <closer>
+               <signed>By your Ladiships vowd in
+most wished seruice:
+<hi>George Chapman.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="part">
+            <pb facs="tcp:5206:25"/>
+            <argument>
+               <head>THE ARGVMENT OF THE
+THIRD SESTYAD.</head>
+               <lg>
+                  <l>
+                     <hi>Leander</hi> to the enuious light</l>
+                  <l>Resignes his night-sports with the night,</l>
+                  <l>And swims the <hi>Hellespont</hi> againe;</l>
+                  <l>
+                     <hi>Thesme</hi> the Deitie soueraigne</l>
+                  <l>Of Customes and religious rites</l>
+                  <l>Appeares, improuing his delites</l>
+                  <l>Since Nuptiall honors he neglected;</l>
+                  <l>VVhich straight he vowes shall be effected.</l>
+                  <l>Faire <hi>Hero</hi> left Deuirginate</l>
+                  <l>VVaies, and with furie wailes her state:</l>
+                  <l>But with her loue and womans wit</l>
+                  <l>She argues, and approueth it.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>NEw light giues new directions, Fortunes new</l>
+               <l>To fashion our indeuours that ensue,</l>
+               <l>More harsh (at lest more hard) more graue and hie</l>
+               <l>Our subiect runs, and our sterne <hi>Muse</hi> must flie,</l>
+               <l>Loues edge is taken off, and that light flame,</l>
+               <l>Those thoughts, ioyes, longings, that before became,</l>
+               <l>High vnexperienst blood, and maids sharpe plights,</l>
+               <l>
+                  <pb facs="tcp:5206:26"/>Must now grow staid, and censure the delights,</l>
+               <l>That being enioyd aske iudgement; now we praise,</l>
+               <l>As hauing parted: Euenings crowne the daies.</l>
+               <l>And now ye wanton loues, and yong desires,</l>
+               <l>Pied vanitie, the mint of strange Attires;</l>
+               <l>Ye lisping Flatteries, and obsequious Glances,</l>
+               <l>Relentfull Musicks, and attractiue Dances,</l>
+               <l>And you detested Charmes constraining loue,</l>
+               <l>Shun loues stolne sports by that these Louers proue.</l>
+               <l>By this the Soueraigne of Heauens golden fires,</l>
+               <l>And yong <hi>Leander,</hi> Lord of his desires,</l>
+               <l>Together from their louers armes arose:</l>
+               <l>
+                  <hi>Leander</hi> into <hi>Hellespontus</hi> throwes</l>
+               <l>His <hi>Hero-</hi>handled bodie, whose delight</l>
+               <l>Made him disdaine each other Epethite.</l>
+               <l>And as amidst the enamourd waues he swims,<note place="margin">He cals Phoebus the God of Gold, since the vertue of his beams creates it.</note>
+               </l>
+               <l>The God of gold of purpose guilt his lims,</l>
+               <l>That this word guilt, including double sence,</l>
+               <l>The double guilt of his <hi>Incontinence,</hi>
+               </l>
+               <l>Might be exprest, that had no stay t'employ</l>
+               <l>The treasure which the Loue god let him ioy</l>
+               <l>In his deare <hi>Hero,</hi> with such sacred thrift,</l>
+               <l>As had beseemed so sanctified a gift:</l>
+               <l>But like a greedie vulgar Prodigall</l>
+               <l>Would on the stock dispend, and rudely fall</l>
+               <l>Before his time, to that vnblessed blessing,</l>
+               <l>
+                  <pb facs="tcp:5206:26"/>Which for lusts plague doth perish with possessing.</l>
+               <l>Ioy grauen in sence, like snow in water wasts;</l>
+               <l>VVithout preserue of vertue, nothing lasts.</l>
+               <l>What man is he that with a welthie eie,</l>
+               <l>Enioyes a beautie richer than the skie,</l>
+               <l>Through whose white skin, softer then soundest sleep,</l>
+               <l>With dam aske eyes, the rubie blood doth peep,</l>
+               <l>And runs in branches through her azure vaines,</l>
+               <l>Whose mixture and first fire, his loue attaines;</l>
+               <l>Whose both hands limit, both Loues deities,</l>
+               <l>And sweeten humane thoughts like Paradise;</l>
+               <l>Whose disposition silken is and kinde,</l>
+               <l>Directed with an earth-exempted minde;</l>
+               <l>Who thinks not heauen with such a loue is giuen?</l>
+               <l>And who like earth would spend that dower of heaue<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>With ranke desire to ioy it all at first?</l>
+               <l>What simply kils our hunger, quencheth thirst,</l>
+               <l>Clothes but our nakednes, and makes vs liue?</l>
+               <l>
+                  <hi>Praise</hi> doth not any of her fauours giue:</l>
+               <l>But what doth plentifully minister</l>
+               <l>Beautious apparell and delicious cheere,</l>
+               <l>So orderd that it still excites desire,</l>
+               <l>And still giues pleasure freenes to aspire</l>
+               <l>The palme of <hi>Bountie,</hi> euer moyst preseruing:</l>
+               <l>To loues sweet life this is the courtly caruing.</l>
+               <l>Thus <hi>Time,</hi> and all-states-ordering <hi>Ceremonie</hi>
+               </l>
+               <l>
+                  <pb facs="tcp:5206:27"/>Had banisht all offence: <hi>Times</hi> golden <hi>Thie</hi>
+               </l>
+               <l>Vpholds the flowrie bodie of the earth,</l>
+               <l>In sacred harmonie, and euery birth</l>
+               <l>Of men, and actions makes legitimate,</l>
+               <l>Being vsde aright; <hi>The vse of time is Fate.</hi>
+               </l>
+               <l>Yet did the gentle stood transfer once more,</l>
+               <l>This prize of Loue home to his fathers shore;</l>
+               <l>Where he vnlades himselfe of that false welth</l>
+               <l>That makes few rich; treasures composde by stelth</l>
+               <l>And to his sister kinde <hi>Hermione,</hi>
+               </l>
+               <l>(Who on the shore kneeld, praying to the sea</l>
+               <l>For his returne) he all Loues goods did show</l>
+               <l>In <hi>Hero</hi> seasde for him, in him for <hi>Hero.</hi>
+               </l>
+               <l>His most kinde sister all his secrets knew,</l>
+               <l>And to her singing like a shower he flew,</l>
+               <l>Sprinkling the earth, that to their tombs tooke in</l>
+               <l>Streames dead for loue, to leaue his iuorie skin,</l>
+               <l>Which yet a snowie fome did leaue aboue,</l>
+               <l>As soule to the dead water that did loue;</l>
+               <l>And from thence did the first white Roses spring,</l>
+               <l>(For loue is sweet and faire in euery thing)</l>
+               <l>And all the sweetned shore as he did goe,</l>
+               <l>Was crownd with odrous roses white as snow.</l>
+               <l>Loue-blest <hi>Leander</hi> was with loue so filled,</l>
+               <l>That loue to all that toucht him he instilled.</l>
+               <l>And as the colours of all things we see,</l>
+               <l>
+                  <pb facs="tcp:5206:27"/>To our sights powers communicated bee:</l>
+               <l>So to all obiects that in compasse came</l>
+               <l>Of any sence he had; his sences flame</l>
+               <l>Flowd from his parts, with force so virtuall,</l>
+               <l>It fir'd with sence things meere insensuall.</l>
+               <l>Now (with warme baths and odours comforted)</l>
+               <l>When he lay downe he kindly kist his bed,</l>
+               <l>As consecrating it to <hi>Heros</hi> right,</l>
+               <l>And vowd thereafter that what euer sight</l>
+               <l>Put him in minde of <hi>Hero,</hi> or her blisse,</l>
+               <l>Should be her Altar to prefer a kisse.</l>
+               <l>Then laid he forth his late inriched armes,</l>
+               <l>In whose white circle Loue writ all his charmes,</l>
+               <l>And made his characters sweet <hi>Heros</hi> lims,</l>
+               <l>When on his breasts warme sea she sideling swims.</l>
+               <l>And as those armes (held vp in circle) met,</l>
+               <l>He said; see sister <hi>Heros</hi> Carquenet,</l>
+               <l>Which she had rather weare about her neck,</l>
+               <l>Then all the iewels that doth <hi>Iuno</hi> deck.</l>
+               <l>But as he shooke with passionate desire,</l>
+               <l>To put in flame his other secret fire,</l>
+               <l>A musick so diuine did pierce his eare,</l>
+               <l>As neuer yet his rauisht sence did heare:</l>
+               <l>When suddenly a light of twentie hews</l>
+               <l>Brake through the roofe, and like the Rainbow views</l>
+               <l>Amazd <hi>Leander;</hi> in whose beames came downe</l>
+               <l>
+                  <pb facs="tcp:5206:28"/>The Goddesse <hi>Ceremonie,</hi> with a Crowne</l>
+               <l>Of all the stars, and heauen with her descended,</l>
+               <l>Her flaming haire to her bright feete extended,</l>
+               <l>By which hung all the bench of Deities;</l>
+               <l>And in a chaine, compact of eares and eies,</l>
+               <l>She led Religion; all her bodie was</l>
+               <l>Cleere and transparent as the purest glasse:</l>
+               <l>For she was all presented to the sence<g ref="char:punc">▪</g>
+               </l>
+               <l>Deuotion, Order, State, and Reuerence,</l>
+               <l>Her shadowes were<g ref="char:punc">▪</g> Societie, Memorie;</l>
+               <l>All which her sight made liue; her absence die.</l>
+               <l>A rich disparent Pentackle she weares,</l>
+               <l>Drawne full of circles and strange characters:</l>
+               <l>Her face was changeable to euerie eie;</l>
+               <l>One way lookt ill, another graciouslie;</l>
+               <l>VVhich while men viewd, they cheerfull were &amp; holy:</l>
+               <l>But looking off, vicious, and melancholy:</l>
+               <l>The snakie paths to each obserued law,</l>
+               <l>Did <hi>Policie</hi> in her broad bosome draw:</l>
+               <l>One hand a Mathematique Christall swayes,</l>
+               <l>VVhich gathering in one line a thousand rayes</l>
+               <l>From her bright eyes <hi>Confusion</hi> burnes to death,</l>
+               <l>And all estates of men distinguisheth.</l>
+               <l>By it <hi>Morallitie</hi> and <hi>Comelinesse,</hi>
+               </l>
+               <l>Themselues in all their sightly figures dresse.</l>
+               <l>Her other hand a lawrell rod applies,</l>
+               <l>
+                  <pb facs="tcp:5206:28"/>To beate back <hi>Barbarisme,</hi> and <hi>Auarice,</hi>
+               </l>
+               <l>That followd eating earth, and excrement</l>
+               <l>And humane lims; and would make proud ascent</l>
+               <l>To seates of Gods<g ref="char:punc">▪</g> were <hi>Ceremonie</hi> slaine;</l>
+               <l>The <hi>Howrs</hi> and <hi>Graces</hi> bore her glorious traine,</l>
+               <l>And all the sweetes of our societie</l>
+               <l>VVere Spherde, and treasurde in her bountious eie.</l>
+               <l>Thus she appeard, and sharply did reproue</l>
+               <l>
+                  <hi>Leanders</hi> bluntnes in his violent loue;</l>
+               <l>Tolde him how poore was substance without rites,</l>
+               <l>Like bils vnsignd, desires without delites;</l>
+               <l>Like meates vnseasond; like ranke corne that growes</l>
+               <l>On Cottages, that none or reapes or sowes:</l>
+               <l>Not being with ciuill forms confirm'd and bounded,</l>
+               <l>For humane dignities and comforts founded:</l>
+               <l>But loose and secret all their glories hide,</l>
+               <l>Feare fils the chamber, darknes decks the Bride.</l>
+               <l>She vanisht, leauing pierst <hi>Leanders</hi> hart</l>
+               <l>VVith sence of his vnceremonious part,</l>
+               <l>In which with plaine neglect of Nuptiall rites,</l>
+               <l>He close and flatly fell to his delites:</l>
+               <l>And instantly he vowd to celebrate</l>
+               <l>All rites pertaining to his maried state.</l>
+               <l>So vp he gets and to his father goes,</l>
+               <l>To whose glad eares he doth his vowes disclose:</l>
+               <l>The Nuptials are resolu'd with vtmost powre,</l>
+               <l>
+                  <pb facs="tcp:5206:29"/>And he at night would swim to <hi>Heros</hi> towre.</l>
+               <l>From whence he ment to <hi>Sestus</hi> forked Bay</l>
+               <l>To bring her couertly, where ships must stay,</l>
+               <l>Sent by her father throughly rigd and mand,</l>
+               <l>To waft her safely to <hi>Abydus</hi> Strand.</l>
+               <l>There leaue we him, and with fresh wing pursue</l>
+               <l>Astonisht <hi>Hero,</hi> whose most wished view</l>
+               <l>I thus long haue forborne, because I left her</l>
+               <l>So out of countnance, and her spirits bereft her.</l>
+               <l>To looke of one abasht is impudence,</l>
+               <l>VVhen of sleight faults he hath too deepe a sence.</l>
+               <l>Her blushing hether chamber: she lookt out,</l>
+               <l>And all the ayre she purpled round about,</l>
+               <l>And after it a foule black day befell,</l>
+               <l>Which euer since a red morne doth foretell:</l>
+               <l>And still renewes our woes for <hi>Heros</hi> wo,</l>
+               <l>And foule it prou'd, be cause it figur'd so</l>
+               <l>The next nights horror, which prepare to heare;</l>
+               <l>I faile if it prophane your daintiest eare.</l>
+               <l>Then how most strangely-intellectuall fire,</l>
+               <l>That proper to my soule hast power t'inspire</l>
+               <l>Her burning faculties, and with the wings</l>
+               <l>Of thy vnspheared flame visitst the springs</l>
+               <l>Of spirits immortall, Now (as swift as Time</l>
+               <l>Doth follow Motion) finde th'eternall Clime</l>
+               <l>Of his free soule, whose liuing subiect stood</l>
+               <l>
+                  <pb facs="tcp:5206:29"/>Vp to the chin in the Pyer can flood,</l>
+               <l>And drunke to me halfe this Musean storie,</l>
+               <l>Inscribing it to deathles Memorie:</l>
+               <l>Confer with it, and make my pledge as deepe,</l>
+               <l>That neithers draught be consecrate to sleepe.</l>
+               <l>Tell it how much his late desires I tender,</l>
+               <l>(If yet it know not) and to light surrender</l>
+               <l>My soules darke offspring, willing it should die</l>
+               <l>To loues, to passions, and societie.</l>
+               <l>Sweet <hi>Hero</hi> left vpon her bed alone,</l>
+               <l>Her maidenhead, her vowes, <hi>Leander</hi> gone,</l>
+               <l>And nothing with her but a violent crew</l>
+               <l>Of new come thoughts that yet she neuer knew,</l>
+               <l>Euen to her selfe a stranger; was much like</l>
+               <l>Th'<hi>Iberian</hi> citie that wars hand did strike</l>
+               <l>By English force in princely <hi>Essex</hi> guide,</l>
+               <l>VVhen peace assur'd her towres had fortifide;</l>
+               <l>And golden-fingred <hi>India</hi> had bestowd</l>
+               <l>Such wealth on her, that strength and Empire flowd</l>
+               <l>Into her Turrets; and her virgin waste</l>
+               <l>The wealthie girdle of the Sea embraste:</l>
+               <l>Till our <hi>Leander</hi> that made <hi>Mars</hi> his <hi>Cupid,</hi>
+               </l>
+               <l>For soft loue-sutes, with iron thunders chid:</l>
+               <l>Swum to her Towers, dissolu'd her virgin zone;</l>
+               <l>Lead in his power, and made Confusion</l>
+               <l>Run through her streets amazd, that she supposde</l>
+               <l>
+                  <pb facs="tcp:5206:30"/>She had not been in her owne walls inclosde:</l>
+               <l>But rapt by wonder to some forraine state,</l>
+               <l>Seeing all her issue so disconsolate:</l>
+               <l>And all her peacefull mansions possest</l>
+               <l>With wars iust spoyle, and many a forraine guest</l>
+               <l>From euery corner driuing an enioyer,</l>
+               <l>Supplying it with power of a destroyer.</l>
+               <l>So far'd fayre <hi>Hero</hi> in th'expugned fort</l>
+               <l>Of her chast bosome, and of euery sort</l>
+               <l>Strange thoughts possest her, ransacking her brest</l>
+               <l>For that that was not there, her wonted rest.</l>
+               <l>She was a mother straight and bore with paine,</l>
+               <l>Thoughts that spake straight and wisht their mother slaine;</l>
+               <l>She hates their liues, &amp; they their own &amp; hers:</l>
+               <l>Such strife still growes where sin the race prefers.</l>
+               <l>Loue is a golden bubble full of dreames,</l>
+               <l>That waking breakes, and fils vs with extreames.</l>
+               <l>She mus'd how she could looke vpon her Sire,</l>
+               <l>And not shew that without, that was intire.</l>
+               <l>For as a glasse is an inanimate eie,</l>
+               <l>And outward formes imbraceth inwardlie:</l>
+               <l>So is the eye an animate glasse that showes</l>
+               <l>In-formes without vs. And as <hi>Phoebus</hi> throwes</l>
+               <l>His beames abroad, though he in clowdes be closde,</l>
+               <l>Still glancing by them till he finde opposde,</l>
+               <l>A loose and rorid vapour that is fit</l>
+               <l>
+                  <pb facs="tcp:5206:30"/>T'euent his searching beames, and vseth it</l>
+               <l>To forme a tender twentie-coloured eie,</l>
+               <l>Cast in a circle round about the skie.</l>
+               <l>So when our firie soule, our bodies starre,</l>
+               <l>(That euer is in motion circulare)</l>
+               <l>Conceiues a forme; in seeking to display it</l>
+               <l>Through all our clowdie parts, it doth conuey it</l>
+               <l>Forth at the eye, as the most pregnant place,</l>
+               <l>And that reflects it round about the face.</l>
+               <l>And this euent vncourtly <hi>Hero</hi> thought,</l>
+               <l>Her inward guilt would in her lookes haue wrought:</l>
+               <l>For yet the worlds stale cunning she resisted</l>
+               <l>To beare foule thoughts, yet forge what lookes she li<g ref="char:EOLhyphen"/>sted,</l>
+               <l>And held it for a very sillie sleight,</l>
+               <l>To make a perfect mettall counterfeit:</l>
+               <l>Glad to disclaime her selfe; proud of an Art,</l>
+               <l>That makes the face a Pandar to the hart.</l>
+               <l>Those be the painted Moones, whose lights prophane</l>
+               <l>Beauties true Heauen, at full still in their wane.</l>
+               <l>Those be the Lapwing faces that still crie,</l>
+               <l>Here tis, when that they vow is nothing nie.</l>
+               <l>Base fooles, when euery moorish fowle can teach</l>
+               <l>That which men thinke the height of humane reach.</l>
+               <l>But custome that the Apoplexie is</l>
+               <l>Of beddred nature, and liues led amis,</l>
+               <l>And takes away all feeling of offence:</l>
+               <l>
+                  <pb facs="tcp:5206:31"/>Yet brazde not <hi>Heros</hi> brow with impudence;</l>
+               <l>And this she thought most hard to bring to pas,</l>
+               <l>To seeme in countnance other then she was.</l>
+               <l>As if she had two soules; one for the face,</l>
+               <l>One for the hart; and that they shifted place</l>
+               <l>As either list to vtter, or conceale</l>
+               <l>What they conceiu'd: or as one soule did deale</l>
+               <l>With both affayres at once, keeps and eiects</l>
+               <l>Both at an instant contrarie effects:</l>
+               <l>Retention and eiection in her powrs</l>
+               <l>Being acts alike: for this one vice of ours,</l>
+               <l>That forms the thought, and swaies the countenance,</l>
+               <l>Rules both our motion and our vtterance.</l>
+               <l>These and more graue conceits toyld <hi>Heros</hi> spirits:</l>
+               <l>For though the light of her discoursiue wits,</l>
+               <l>Perhaps might finde some little hole to pas</l>
+               <l>Through all these worldly cinctures; yet (alas)</l>
+               <l>There was a heauenly flame incompast her;</l>
+               <l>Her Goddesse, in whose Phane she did prefer</l>
+               <l>Her virgin vowes; from whose impulsiue sight</l>
+               <l>She knew the black shield of the darkest night</l>
+               <l>Could not defend her, nor wits subtilst art:</l>
+               <l>This was the point pierst <hi>Hero</hi> to the hart.</l>
+               <l>Who heauie to the death, with a deep sigh</l>
+               <l>And hand that languisht, tooke a robe was nigh,</l>
+               <l>Exceeding large, and of black Cypres made,</l>
+               <l>
+                  <pb facs="tcp:5206:31"/>In which she sate, hid from the day in shade,</l>
+               <l>Euen ouer head and face downe to her feete;</l>
+               <l>Her left hand made it at her bosome meete;</l>
+               <l>Her right hand leand on her hart-bowing knee,</l>
+               <l>Wrapt in vnshapefull foulds: twas death to see</l>
+               <l>Her knee stayd that, and that her falling face</l>
+               <l>Each limme helpt other to put on disgrace.</l>
+               <l>No forme was seene, where forme held all her sight:</l>
+               <l>But like an Embrion that saw neuer light:</l>
+               <l>Or like a scorched statue made a cole</l>
+               <l>With three-wingd lightning: or a wretched soule</l>
+               <l>Muffled with endles darknes, she did sit:</l>
+               <l>The night had neuer such a heauie spirit.</l>
+               <l>Yet might an imitating eye well see,</l>
+               <l>How fast her cleere teares melted on her knee</l>
+               <l>Through her black vaile, and turnd as black as it,</l>
+               <l>Mourning to be her teares: then wrought her wit</l>
+               <l>With her broke vow, her Goddesse wrath, her fame,</l>
+               <l>All tooles that enginous despayre could frame:</l>
+               <l>Which made her strow the floore with her torne haire,</l>
+               <l>And spread her mantle peece-meale in the aire.</l>
+               <l>Like <hi>Ioues</hi> sons club, strong passion strook her downe,</l>
+               <l>And with a piteous shrieke inforst her swoune:</l>
+               <l>Her shrieke, made with another shrieke ascend</l>
+               <l>The frighted Matron that on her did tend:</l>
+               <l>And as with her owne crie her sence was slaine,</l>
+               <l>
+                  <pb facs="tcp:5206:32"/>So with the other it was calde againe.</l>
+               <l>She rose and to her bed made forced way,</l>
+               <l>And layd her downe euen where <hi>Leander</hi> lay:</l>
+               <l>And all this while the red sea of her blood</l>
+               <l>Ebd with <hi>Leander:</hi> but now turnd the flood,</l>
+               <l>And all her fleete of sprites came swelling in</l>
+               <l>With childe of saile, and did hot fight begin</l>
+               <l>With those seuere conceits, she too much markt,</l>
+               <l>And here <hi>Leanders</hi> beauties were imbarkt.</l>
+               <l>He came in swimming painted all with ioyes,</l>
+               <l>Such as might sweeten hell: his thought destroyes</l>
+               <l>All her destroying thoughts: she thought she felt</l>
+               <l>His heart in hers: with her contentions melt,</l>
+               <l>And chid her soule that it could so much erre,</l>
+               <l>To check the true ioyes he deseru'd in her.</l>
+               <l>Her fresh heat blood cast figures in her eyes,</l>
+               <l>And she supposde she saw in <hi>Neptunes</hi> skyes</l>
+               <l>How her star wandred, washt in smarting brine</l>
+               <l>For her loues sake, that with immortall wine</l>
+               <l>Should be embath'd, and swim in more hearts ease,</l>
+               <l>Than there was water in the Sestian seas.</l>
+               <l>Then said her <hi>Cupid</hi> prompted spirit; shall I</l>
+               <l>Sing mones to such delightsome harmony?</l>
+               <l>Shall slick-tongde fame patcht vp with voyces rude,</l>
+               <l>The drunken bastard of the multitude,</l>
+               <l>(Begot when father Iudgement is away,</l>
+               <l>
+                  <pb facs="tcp:5206:32"/>And gossip-like, sayes because others say,</l>
+               <l>Takes newes as if it were too hot to eate,</l>
+               <l>And spits it slauering forth for dog-fees meate)</l>
+               <l>Make me for forging a phantastique vow,</l>
+               <l>Presume to beare what makes graue matrons bow?</l>
+               <l>Good vowes are neuer broken with good deedes,</l>
+               <l>For then good deedes were bad: vowes are but seedes,</l>
+               <l>And good deeds fruits; euen those good deedes that grow</l>
+               <l>From other stocks, than from th' obserued vow.</l>
+               <l>That is a good deede that preuents a bad:</l>
+               <l>Had I not yeelded, slaine my selfe I had.</l>
+               <l>Hero Leander is, Leander Hero:</l>
+               <l>Such vertue loue hath to make one of two.</l>
+               <l>If then <hi>Leander</hi> did my mayden head git,</l>
+               <l>
+                  <hi>Leander</hi> being my selfe I still retaine it.</l>
+               <l>We breake chast vowes when we liue loosely euer:</l>
+               <l>But bound as we are, we liue loosely neuer.</l>
+               <l>Two constant louers being ioynd in one,</l>
+               <l>Yeelding to one another, yeeld to none.</l>
+               <l>We know not how to vow, till loue vnblinde vs,</l>
+               <l>And vowes made ignorantly neuer binde vs.</l>
+               <l>Too true it is that when t'is gone men hate</l>
+               <l>The ioyes as vaine they tooke in loues estate:</l>
+               <l>But that's, since they haue lost, the heauenly light</l>
+               <l>Should shew them way to iudge of all things right<g ref="char:punc">▪</g>
+               </l>
+               <l>When life is gone death must implant his terror,</l>
+               <l>
+                  <pb facs="tcp:5206:33"/>As death is foe to life, so loue to error.</l>
+               <l>Before we loue how range we through this sphere,</l>
+               <l>Searching the sundrie fancies hunted here:</l>
+               <l>Now with desire of wealth transported quite</l>
+               <l>Beyond our free humanities delight:</l>
+               <l>Now with ambition climing falling towrs,</l>
+               <l>Whose hope to scale, our feare to fall deuours:</l>
+               <l>Now rapt with pastimes, pomp, all ioyes impure;</l>
+               <l>In things without vs no delight is sure.</l>
+               <l>But loue with all ioyes crownd, within doth sit;</l>
+               <l>O Goddesse pitie loue and pardon it.</l>
+               <l>This spake he weeping: but her Goddesse eare</l>
+               <l>Burnd with too sterne a heat, and would not heare.</l>
+               <l>Aie me, hath heauens straight singers no more graces,</l>
+               <l>For such as <hi>Hero,</hi> then for homeliest faces?</l>
+               <l>Yet she hopte well, and in her sweet conceit</l>
+               <l>Waying her arguments, she thought them weight:</l>
+               <l>And that the logick of <hi>Leanders</hi> beautie,</l>
+               <l>And them together would bring proofes of dutie.</l>
+               <l>And if her soule, that was a skilfull glance</l>
+               <l>Of Heauens great essence, found such imperance</l>
+               <l>In her loues beauties; she had confidence</l>
+               <l>
+                  <hi>Ioue</hi> lou'd him too, and pardond her offence.</l>
+               <l>
+                  <hi>Bedutie in heauen and earth this grace doth win,</hi>
+               </l>
+               <l>
+                  <hi>It supples rigor, and it lessens sin.</hi>
+               </l>
+               <l>Thus, her sharpe wit, her loue, her secrecie,</l>
+               <l>
+                  <pb facs="tcp:5206:33"/>And make the rankest miser bountifull.</l>
+               <l>It kild the feare of thunder and of death;</l>
+               <l>The discords that conceits ingendereth</l>
+               <l>Twixt man and wife, it for the time would cease:</l>
+               <l>The flames of loue it quencht, and would increase:</l>
+               <l>Held in a princes hand it would put out</l>
+               <l>The dreadfulst Comet: it would ease all doubt</l>
+               <l>Of threatned mischiefes: it would bring asleepe</l>
+               <l>Such as were mad: it would enforce to weepe</l>
+               <l>Most barbarous eyes: and many more effects</l>
+               <l>This picture wrought, and sprung <hi>Leandrian</hi> sects,</l>
+               <l>Of which was <hi>Hero</hi> first: For he whose forme</l>
+               <l>(Held in her hand) cleerd such a fatall storme,</l>
+               <l>From hell she thought his person would defend her,</l>
+               <l>Which night and <hi>Helle spont</hi> would quickly send her.</l>
+               <l>With this confirmd, she vowd to banish quite</l>
+               <l>All thought of any check to her delite</l>
+               <l>And in contempt of sillie bashfulnes,</l>
+               <l>She would the faith of her desires professe.</l>
+               <l>Where her Religion should be Policie,</l>
+               <l>To follow loue with zeale her pietie:</l>
+               <l>Her chamber her Cathedrall Church should be,</l>
+               <l>And her <hi>Leander</hi> her chiefe Deitie.</l>
+               <l>For in her loue these did the gods forego;</l>
+               <l>And though her knowledge did not teach her so,</l>
+               <l>Yet did it teach her this, that what her hart</l>
+               <l>
+                  <pb facs="tcp:5206:34"/>Did greatest hold in her selfe greatest part,</l>
+               <l>That she did make her god<g ref="char:punc">▪</g> and t'was lesse nought</l>
+               <l>To leaue gods in profession and in thought,</l>
+               <l>Than in her loue and life: for therein lies</l>
+               <l>Most of her duties, and their dignities,</l>
+               <l>And raile the brain-bald world at what it will;</l>
+               <l>Thats the grand Atheisme that raignes in it still.</l>
+               <l>Yet singularitie she would vse no more,</l>
+               <l>For she was singular too much before:</l>
+               <l>But she would please the world with fayre pretext;</l>
+               <l>Loue would not leaue her conscience perplext.</l>
+               <l>Great men that will haue lesse doe for them still,</l>
+               <l>Must beare them out though th'acts be nere so ill.</l>
+               <l>Meannes must Pandar be to Excellencie,</l>
+               <l>Pleasure attones Falshood and Conscience:</l>
+               <l>Dissembling was the worst (thought <hi>Hero</hi> then)</l>
+               <l>And that was best how she must liue with men<g ref="char:punc">▪</g>
+               </l>
+               <l>O vertuous loue that taught her to doe best,</l>
+               <l>When she did worst, and when she thought it lest.</l>
+               <l>Thus would she still proceed in works diuine,</l>
+               <l>And in her sacred state of priesthood shine,</l>
+               <l>Handling the holy rites with hands as bold,</l>
+               <l>As if therein she did <hi>Ioues</hi> thunder hold;</l>
+               <l>And need not feare those menaces of error,</l>
+               <l>Which she at others threw with greatest terror.</l>
+               <l>O louely <hi>Hero,</hi> nothing is thy sin,</l>
+               <l>
+                  <pb facs="tcp:5206:34"/>Wayd with those foule faults other Priests are in;</l>
+               <l>That hauing neither faiths, nor works, nor bewties,</l>
+               <l>T'engender any scuse for slubberd duties;</l>
+               <l>With as much countnance fill their holie chayres,</l>
+               <l>And sweat denouncements gainst prophane affayres,</l>
+               <l>As if their liues were cut out by their places,</l>
+               <l>And they the only fathers of the Graces.</l>
+               <l>Now as with setled minde she did repaire,</l>
+               <l>Her thoughts to sacrifice, her rauisht haire</l>
+               <l>And her torne robe which on the altar lay,</l>
+               <l>And only for Religions fire did stay;</l>
+               <l>She heard a thunder by the Cyclops beaten,</l>
+               <l>In such a volley as the world did threaten,</l>
+               <l>Giuen <hi>Venus</hi> as she parted th'ayrie Sphere,</l>
+               <l>Discending now to chide with <hi>Hero</hi> here:</l>
+               <l>When suddenly the Goddesse waggoners,</l>
+               <l>The Swans and Turtles that in coupled pheres,</l>
+               <l>Through all worlds bosoms draw her influence,</l>
+               <l>Lighted in <hi>Heros</hi> window, and from thence</l>
+               <l>To her fayre shoulders flew the gentle Doues.</l>
+               <l>Gracefull <hi>Aedone</hi> that sweet pleasure loues,</l>
+               <l>And ruffoot <hi>Chreste</hi> with the tufted crowne,</l>
+               <l>Both which did kisse her, though their Goddes frownd.</l>
+               <l>The Swans did in the solid flood her glasse,</l>
+               <l>Proyne their fayre plumes; of which the fairest was,</l>
+               <l>
+                  <hi>Ioue</hi>-lou'd <hi>Leucote,</hi> that pure brightnes is;</l>
+               <l>
+                  <pb facs="tcp:5206:35"/>The other bountie-louing <hi>Dapsilis.</hi>
+               </l>
+               <l>All were in heauen, now they with <hi>Hero</hi> were:</l>
+               <l>But <hi>Venus</hi> lookes brought wrath, and vrged feare.</l>
+               <l>Her robe was skarlet, black her heads attire,</l>
+               <l>And through her naked breast shinde streames of fire,</l>
+               <l>As when the rarefied ayre is driuen</l>
+               <l>In flashing streames, and opes the darkned heauen.</l>
+               <l>In her white hand a wreath of yew she bore,</l>
+               <l>And breaking th'icie wreath sweet <hi>Hero</hi> wore,</l>
+               <l>She forst about her browes her wreath of yew,</l>
+               <l>And sayd, now minion to thy fate be trew,</l>
+               <l>Though not to me, indure what this portends;</l>
+               <l>Begin where lightnes will, in shame it ends.</l>
+               <l>Loue makes thee cunning; thou art currant now,</l>
+               <l>By being counterfeit: thy broken vow,</l>
+               <l>Deceit with her pide garters must reioyne,</l>
+               <l>And with her stampe thou countnances must coyne:</l>
+               <l>Coynes, and pure deceits for purities,</l>
+               <l>And still a mayd wilt seeme in cosoned eies,</l>
+               <l>And haue an antike face to laugh within,</l>
+               <l>While thy smooth lookes make men digest thy sin.</l>
+               <l>But since thy lips (lest thought forsworne) forswore,</l>
+               <l>Be neuer virgins vow worth trusting more.</l>
+               <l>When Beauties dearest did her Goddesse heare,</l>
+               <l>Breathe such rebukes gainst that she could not cleare;</l>
+               <l>Dumbe sorrow spake alowd in teares, and blood</l>
+               <l>
+                  <pb facs="tcp:5206:35"/>That from her griefe-burst vaines in piteous flood,</l>
+               <l>From the sweet conduits of her sauor fell:</l>
+               <l>The gentle Turtles did with moanes make swell.</l>
+               <l>Their shining gorges: the white black-eyde Swans</l>
+               <l>Did sing as wofull Epicedians,</l>
+               <l>As they would straight waies dye: when pities Queene</l>
+               <l>The Goddesse <hi>Ecte,</hi> that had euer beene</l>
+               <l>Hid in a watrie clowde neere <hi>Heros</hi> cries,</l>
+               <l>Since the first instant of her broken eies,</l>
+               <l>Gaue bright <hi>Leucote</hi> voyce, and made her speake,</l>
+               <l>To ease her anguish, whose swolne breast did breake</l>
+               <l>With anger at her Goddesse, that did touch</l>
+               <l>
+                  <hi>Hero</hi> so neere for that she vsde so much.</l>
+               <l>And thrusting her white neck at <hi>Venus,</hi> sayd;</l>
+               <l>Why may not amorous <hi>Hero</hi> seeme a mayd,</l>
+               <l>Though she be none, as well as you suppresse</l>
+               <l>In modest cheekes your inward wantonnesse?</l>
+               <l>How often haue wee drawne you from aboue,</l>
+               <l>T'exchange with mortals, rites for rites in loue?</l>
+               <l>Why in your preist then call you that offence</l>
+               <l>That shines in you, and is your influence?</l>
+               <l>With this the furies stopt <hi>Leucotes</hi> lips,</l>
+               <l>Enioynd by <hi>Venus;</hi> who with Rosie whips</l>
+               <l>Beate the kind Bird. Fierce lightning from her eyes</l>
+               <l>Did set on fire faire <hi>Heros</hi> sacrifice,</l>
+               <l>Which was her torne robe, and inforced hayre;</l>
+               <l>
+                  <pb facs="tcp:5206:36"/>And the bright flame became a mayd most faire</l>
+               <l>For her aspect:<note place="margin">Descrip<g ref="char:EOLhyphen"/>tion and creation of Dissi<g ref="char:EOLhyphen"/>mulation.</note> her tresses were of wire,</l>
+               <l>Knit like a net, where harts all set on fire,</l>
+               <l>Strugled in pants and could not get releast:</l>
+               <l>Her armes were all with golden pincers drest,</l>
+               <l>And twentie fashiond knots, pullies, and brakes,</l>
+               <l>And all her bodie girdled with painted Snakes.</l>
+               <l>Her doune parts in a Scorpions taile combinde,</l>
+               <l>Freckled with twentie colours; pyed wings shinde</l>
+               <l>Out of her shoulders; Cloth had neuer die,</l>
+               <l>Nor sweeter colours neuer viewed eie,</l>
+               <l>In scorching <hi>Turkie, Cares Tartarie,</hi>
+               </l>
+               <l>Than shinde about this spirit notorious;</l>
+               <l>Nor was <hi>Arachnes</hi> web so glorious.</l>
+               <l>Of lightning and of shreds she was begot;</l>
+               <l>More hold in base dissemblers is there not.</l>
+               <l>Her name was <hi>Eronusis. Venus</hi> flew</l>
+               <l>From <hi>Heros</hi> sight, and at her Chariot drew</l>
+               <l>This wondrous creature to so steepe a height,</l>
+               <l>That all the world she might command with sleight</l>
+               <l>Of her gay wings: and then she bad her hast,</l>
+               <l>Since <hi>Hero</hi> had dissembled, and disgrast</l>
+               <l>Her rites so much, and euery breast infect</l>
+               <l>With her deceits, she made her Architect</l>
+               <l>Of all dissimulation, and since then</l>
+               <l>Neuer was any trust in maides nor men.</l>
+               <l>
+                  <pb facs="tcp:5206:36"/>O it spighted,</l>
+               <l>Fayre <hi>Venus</hi> hart to see her most delighted.</l>
+               <l>And one she chusde for temper of her minde,</l>
+               <l>To be the only ruler of her kinde,</l>
+               <l>So soone to let her virgin race be ended;</l>
+               <l>Not simply for the fault a whit offended:</l>
+               <l>But that in strife for chastnes with the Moone,</l>
+               <l>Spitefull <hi>Diana</hi> bad her shew but one,</l>
+               <l>That was her seruant vowd, and liu'd a mayd,</l>
+               <l>And now she thought to answer that vpbrayd,</l>
+               <l>
+                  <hi>Hero</hi> had lost her answer; who knowes not</l>
+               <l>
+                  <hi>Venus</hi> would seeme as farre from any spot</l>
+               <l>Of light demeanour, as the very skin</l>
+               <l>Twixt <hi>Cynthias</hi> browes; Sin is asham'd of Sin.</l>
+               <l>Vp <hi>Venus</hi> flew, and scarce durst vp for feare</l>
+               <l>Of <hi>Phoebes</hi> laughter, when she past her Sphere:</l>
+               <l>And so most vgly clowded was the light,</l>
+               <l>That day was hid in day; night came ere night,</l>
+               <l>And <hi>Venus</hi> could not through the thick ayre pierce,</l>
+               <l>Till the daies king, god of vndanted verse,</l>
+               <l>Because she was so plentifull a theame,</l>
+               <l>To such as wore his Lawrell <hi>Anademe:</hi>
+               </l>
+               <l>Like to a firie bullet made descent,</l>
+               <l>And from her passage those fat vapours rent,</l>
+               <l>That being not throughly rarefide to raine,</l>
+               <l>Melted like pitch as blew as any vaine,</l>
+               <l>
+                  <pb facs="tcp:5206:37"/>And scalding tempest made the earth to shrinke</l>
+               <l>Vnder their feruor, and the world did thinke</l>
+               <l>In euery drop a torturing Spirit flew,</l>
+               <l>It pierst so deeply, and it burnd so blew.</l>
+               <l>Betwixt all this and <hi>Hero, Hero</hi> held</l>
+               <l>
+                  <hi>Leanders</hi> picture as a Persian shield:</l>
+               <l>And she was free from feare of worst successe;</l>
+               <l>The more ill threats vs, we suspect the lesse:</l>
+               <l>As we grow haples, violence subtle growes,</l>
+               <l>Dumb, deafe, &amp; blind, &amp; comes when no man knowes.</l>
+            </lg>
+            <trailer>The end of the fourth Sestyad.</trailer>
+         </div>
+         <div type="part">
+            <pb facs="tcp:5206:37"/>
+            <argument>
+               <head>THE ARGVMENT OF THE
+FIFT SESTYAD.</head>
+               <lg>
+                  <l>Day doubles her accustomd date,</l>
+                  <l>As loth the night, incenst by fate,</l>
+                  <l>Should wrack our louers; <hi>Heros</hi> plight,</l>
+                  <l>Longs for <hi>Leander,</hi> and the night<g ref="char:punc">▪</g>
+                  </l>
+                  <l>VVhich, ere her thirstie wish recouers,</l>
+                  <l>She sends for two betrothed louers,</l>
+                  <l>And marries them, that (with their crew</l>
+                  <l>Their sports and ceremonies due)</l>
+                  <l>She couertly might celebrate,</l>
+                  <l>VVith secret ioy her owne estate.</l>
+                  <l>She makes a feast, at which appeares</l>
+                  <l>The wilde Nymph <hi>Teras,</hi> that still beares</l>
+                  <l>An Iuory Lute, tels Omenous tales,</l>
+                  <l>And sings at solemne festiuales.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>NOw was bright <hi>Hero</hi> weary of the day,</l>
+               <l>Thought an Olympiad in <hi>Leanders</hi> stay.</l>
+               <l>
+                  <hi>Sol,</hi> and the soft-foote <hi>Howrs</hi> hung on his armes,</l>
+               <l>And would not let him swim, foreseeing his harmes:</l>
+               <l>That day <hi>Aurora</hi> double grace obtainde</l>
+               <l>Of her loue <hi>Phoebus;</hi> she his Horses rainde,</l>
+               <l>
+                  <pb facs="tcp:5206:38"/>Set on his golden knee, and as she list</l>
+               <l>She puld him back; and as she puld, she kist</l>
+               <l>To haue him turne to bed; he lou'd her more,</l>
+               <l>To see the loue <hi>Leander Hero</hi> bore.</l>
+               <l>Examples profit much ten times in one,</l>
+               <l>In persons full of note, good deedes are done.</l>
+               <l>Day was so long, men walking fell asleepe,</l>
+               <l>The heauie humors that their eyes did steepe,</l>
+               <l>Made them feare mischiefs. The hard streets were beds</l>
+               <l>For couetous churles, and for ambitious heads,</l>
+               <l>That spight of Nature would their busines plie.</l>
+               <l>All thought they had the falling <hi>Epilepsie,</hi>
+               </l>
+               <l>Men groueld so vpon the smotherd ground,</l>
+               <l>And pittie did the hart of heauen confound.</l>
+               <l>The Gods, the Graces, and the Muses came</l>
+               <l>Downe to the Destinies, to stay the frame</l>
+               <l>Of the true louers deaths, and all worlds teares:</l>
+               <l>But death before had stopt their cruell eares</l>
+               <l>All the Celestials parted mourning then,</l>
+               <l>Pierst with our humane miseries more then men<g ref="char:punc">▪</g>
+               </l>
+               <l>Ah, nothing doth the world with mischiefe fill,</l>
+               <l>But want of feeling one anothers ill.</l>
+               <l>With their descent the day grew something fayre,</l>
+               <l>And cast a brighter robe vpon the ayre.</l>
+               <l>
+                  <hi>Hero</hi> to shorten time with merriment,</l>
+               <l>For yong <hi>Alcmane,</hi> and bright <hi>Mya</hi> sent,</l>
+               <l>
+                  <pb facs="tcp:5206:38"/>Two louers that had long crau'd mariage dues</l>
+               <l>At <hi>Heros</hi> hands: but she did still refuse,</l>
+               <l>For louely <hi>Mya</hi> was her consort vowd</l>
+               <l>In her maids state, and therefore not allowd</l>
+               <l>To amorous Nuptials: yet faire <hi>Hero</hi> now</l>
+               <l>Intended to dispence with her cold vow,</l>
+               <l>Since hers was broken, and to marrie her:</l>
+               <l>The rites would pleasing matter minister</l>
+               <l>To her conceits, and shorten tedious day.</l>
+               <l>They came; sweet Musick vsherd th'odorous way,</l>
+               <l>And wanton Ayre in twentie sweet forms danst</l>
+               <l>After her fingers; Beautie and Loue aduanst</l>
+               <l>Their ensignes in the downles rosie faces</l>
+               <l>Of youths and maids, led after by the Graces.</l>
+               <l>For all these, <hi>Hero</hi> made a friendly feast,</l>
+               <l>Welcomd them kindly, did much loue protest,</l>
+               <l>Winning their harts with all the meanes she might,</l>
+               <l>That when her fault should chance t'abide the light,</l>
+               <l>Their loues might couer or extenuate it,</l>
+               <l>And high in her worst fate make pittie sit.</l>
+               <l>She married them, and in the banquet came</l>
+               <l>Borne by the virgins: <hi>Hero</hi> striu'd to frame</l>
+               <l>Her thoughts to mirth. Aye me, but hard it is</l>
+               <l>To imitate a false and forced blis.</l>
+               <l>Ill may a sad minde forge a merrie face,</l>
+               <l>Nor hath constrained laughter any grace.</l>
+               <l>
+                  <pb facs="tcp:5206:39"/>Then layd she wine on cares to make them sinke;</l>
+               <l>VVho feares the threats of fortune, let him drinke.</l>
+               <l>To these quick Nuptials entred suddenly,</l>
+               <l>Admired <hi>Teras</hi> with the Ebon Thye,</l>
+               <l>A Nymph that haunted the greene <hi>Sestyan</hi> groues,</l>
+               <l>And would consort soft virgins in their loues,</l>
+               <l>At gay some Triumphs, and on solemne dayes,</l>
+               <l>Singing prophetike Elegies and Layes:</l>
+               <l>And fingring of a siluer Lute she tide,</l>
+               <l>With black and purple skarfs by her left side.</l>
+               <l>
+                  <hi>Apollo</hi> gaue it, and her skill withall,</l>
+               <l>And she was term'd his Dwarfe she was so small.</l>
+               <l>Yet great in vertue, for his beames enclosde</l>
+               <l>His vertues in her: neuer was proposde</l>
+               <l>Riddle to her, or Augurie, strange or new,</l>
+               <l>But she resolu'd it: neuer sleight tale flew</l>
+               <l>From her charmd lips, without important sence,</l>
+               <l>Shewne in some graue succeeding consequence.</l>
+               <l>This little Siluane with her songs and tales,</l>
+               <l>Gaue such estate to feasts and Nuptiales,</l>
+               <l>That though oft times she forewent Tragedies,</l>
+               <l>Yet for her strangenes still she pleasde their eyes,</l>
+               <l>And for her smalnes they admir'd her so,</l>
+               <l>They thought her perfect borne and could not grow</l>
+               <l>All eyes were on her: <hi>Hero</hi> did command</l>
+               <l>An Altar deckt with sacred state should stand,</l>
+               <l>
+                  <pb facs="tcp:5206:39"/>At the Feasts vpper end close by the Bride,</l>
+               <l>On which the pretie Nymph might sit espide.</l>
+               <l>Then all were silent; euery one so heares,</l>
+               <l>As all their sences climbd into their eares:</l>
+               <l>And first this amorous tale that fitted well,</l>
+               <l>Fayre <hi>Hero</hi> and the Nuptials she did tell:</l>
+            </lg>
+            <div type="tale">
+               <head>The tale of Teras.</head>
+               <l>
+                  <hi>Hymen</hi> that now is god of Nuptiall rites,</l>
+               <l>And crownes with honor loue and his delights,</l>
+               <l>Of <hi>Athens</hi> was a youth so sweet of face,</l>
+               <l>That many thought him of the semall race:</l>
+               <l>Such quickning brightnes did his cleere eyes dart,</l>
+               <l>Warme went their beames to his beholders hart.</l>
+               <l>In such pure leagues his beauties were combinde,</l>
+               <l>That there your Nuptiall contracts first were signde.</l>
+               <l>For as proportion, white, and crimsine, meet</l>
+               <l>In Beauties mixture, all right cleere, and sweet;</l>
+               <l>The eye responsible, the golden haire,</l>
+               <l>And none is held without the other, faire:</l>
+               <l>All spring together, all together fade;</l>
+               <l>Such intermixt affections should inuade</l>
+               <l>Two perfect louers: which being yet vnseene,</l>
+               <l>Their vertues and their comforts copied beene,</l>
+               <l>In Beauties concord, subiect to the eie;</l>
+               <l>And that, in <hi>Hymen,</hi> pleasde so matchleslie,</l>
+               <l>
+                  <pb facs="tcp:5206:40"/>That louers were esteemde in their full grace,</l>
+               <l>Like forme and colour mixt in <hi>Hymens</hi> face;</l>
+               <l>And such sweete concord was thought worthie then</l>
+               <l>Of torches, musick, feasts, and greatest men:</l>
+               <l>So <hi>Hymen</hi> lookt, that euen the chastest minde</l>
+               <l>He mou'd to ioyne in ioyes of sacred kinde:</l>
+               <l>For onely now his chins first doune consorted</l>
+               <l>His heads rich fleece, in golden curles contorted;</l>
+               <l>And as he was so lou'd, he lou'd so too,</l>
+               <l>So should best bewties, bound by Nuptialls doo.</l>
+               <l>Bright <hi>Eucharis,</hi> who was by all men saide</l>
+               <l>The noblest fayrest, and the richest maide,</l>
+               <l>Of all the <hi>Athenian</hi> damzels, <hi>Hymen</hi> lou'd;</l>
+               <l>With such transmission, that his heart remou'd</l>
+               <l>From his white brest to hers, but her estate</l>
+               <l>In passing his, was so interminate</l>
+               <l>For wealth and honor, that his loue durst feede</l>
+               <l>On nought but sight and hearing, nor could breede</l>
+               <l>Hope of requitall; the grand prise of loue;</l>
+               <l>Nor could he heare or see but he must proue</l>
+               <l>How his rare bewties musick would agree</l>
+               <l>With maids in consort: therefore robbed he</l>
+               <l>His chin of those same few first fruits it bore,</l>
+               <l>And clad in such attire, as Virgins wore,</l>
+               <l>He kept them companie, and might right well,</l>
+               <l>For he did all but <hi>Eucharis</hi> excell</l>
+               <l>
+                  <pb facs="tcp:5206:40"/>In all the fayre of Beautie: yet he wanted</l>
+               <l>Vertue to make his owne desires implanted</l>
+               <l>In his deare <hi>Eucharis;</hi> for women neuer</l>
+               <l>Loue beautie in their sex, but enuie euer.</l>
+               <l>His iudgement yet (that durst not suite addresse,</l>
+               <l>Nor past due meanes presume of due successe)</l>
+               <l>Reason gat fortune in the end to speede</l>
+               <l>To his best prayes: but strange it seemd indeede,</l>
+               <l>That fortune should a chast affection blesse,</l>
+               <l>
+                  <hi>Preferment seldome graceth bashfulnesse.</hi>
+               </l>
+               <l>Nor grast it <hi>Hymen</hi> yet; but many a dart</l>
+               <l>And many an amorous thought enthrald his hart,</l>
+               <l>Ere he obtaind her, and he sick became,</l>
+               <l>Forst to abstaine her sight, and then the flame</l>
+               <l>Rag'd in his bosome O what griefe did fill him:</l>
+               <l>Sight made him sick, and want of sight did kill him.</l>
+               <l>The virgins wondred where <hi>Dietia</hi> stayd,</l>
+               <l>For so did <hi>Hymen,</hi> terme himselfe a mayd.</l>
+               <l>At length with sickly lookes he greeted them:</l>
+               <l>Tis strange to see gainst, what an extreame streame</l>
+               <l>A louer striues; poore <hi>Hymen</hi> lookt so ill,</l>
+               <l>That as in merit he increased still,</l>
+               <l>By suffring much, so he in grace decreast.</l>
+               <l>Women are most wonne when men merit least:</l>
+               <l>If merit looke not well, loue bids stand by,</l>
+               <l>Loues speciall lesson is to please the eye.</l>
+               <l>
+                  <pb facs="tcp:5206:41"/>And <hi>Hymen</hi> soone recouering all he lost,</l>
+               <l>Deceiuing still these maids, but himselfe most.</l>
+               <l>His loue and he with many virgin dames,</l>
+               <l>Noble by birth, noble by beauties flames,</l>
+               <l>Leauing the towne with songs and hallowed lights,</l>
+               <l>To doe great <hi>Ceres Eleusina</hi> rites</l>
+               <l>Of zealous Sacrifice; were made a pray</l>
+               <l>To barbarous Rouers that in ambush lay,</l>
+               <l>And with rude hands enforst their shining spoyle,</l>
+               <l>Farre from the darkned Citie, tir'd with toyle.</l>
+               <l>And when the yellow issue of the skie</l>
+               <l>Came trouping forth, ielous of crueltie,</l>
+               <l>To their bright fellowes of this vnder heauen,</l>
+               <l>Into a double night they saw them driuen,</l>
+               <l>A horride Caue, the theeues black mansion,</l>
+               <l>Where wearie of the iourney they had gon,</l>
+               <l>Their last nights watch, and drunke with their sweete gains,</l>
+               <l>Dull <hi>Morpheus</hi> entred, laden with silken chains,</l>
+               <l>Stronger then iron, and bound the swelling vaines</l>
+               <l>And tyred sences of these lawles Swaines.</l>
+               <l>But when the virgin lights thus dimly burnd;</l>
+               <l>O what a hell was heauen in how they mournd</l>
+               <l>And wrung their hands, and wound their gentle forms</l>
+               <l>Into the shapes of sorrow! Golden storms</l>
+               <l>Fell from their eyes: As when the Sunne appeares,</l>
+               <l>And yet it raines, so shewd their eyes their teares.</l>
+               <l>
+                  <pb facs="tcp:5206:41"/>And as when funerall dames watch a dead corse,</l>
+               <l>Weeping about it, telling with remorse</l>
+               <l>What paines he felt, how long in paine he lay,</l>
+               <l>How little food he eate, what he would say;</l>
+               <l>And then mixe mournfull tales of others deaths,</l>
+               <l>Smothering the<g ref="char:cmbAbbrStroke">̄</g>selues in clowds of their owne breaths.</l>
+               <l>At length, one cheering other, call for wine,</l>
+               <l>The golden boale drinks teares out of their eine,</l>
+               <l>As they drinke wine from it; and round it goes,</l>
+               <l>Each helping other to relieue their woes:</l>
+               <l>So cast these virgins beauties mutuall raies,</l>
+               <l>One lights another, face the face displaies;</l>
+               <l>Lips by reflexion kist, and hands hands shooke,</l>
+               <l>Euen by the whitenes each of other tooke.</l>
+               <l>But <hi>Hymen</hi> now vsde friendly <hi>Morpheus</hi> aide,</l>
+               <l>Slew euery theefe, and rescude euery maide.</l>
+               <l>And now did his enamourd passion take</l>
+               <l>Hart from his hartie deede, whose worth did make</l>
+               <l>His hope of bounteous <hi>Eucharis</hi> more strong;</l>
+               <l>And now came <hi>Loue</hi> with <hi>Proteus,</hi> who had long</l>
+               <l>Inggl'd the little god with prayers and gifts,</l>
+               <l>Ran through all shapes, and varied all his shifts,</l>
+               <l>To win <hi>Loues</hi> stay with him, and make him loue him:</l>
+               <l>And when he saw no strength of sleight could moue him</l>
+               <l>To make him loue, or stay he nimbly turnd</l>
+               <l>Into <hi>Loues</hi> selfe, he so extreamely burnd.</l>
+               <l>
+                  <pb facs="tcp:5206:42"/>And thus came <hi>Loue</hi> with <hi>Proteus</hi> and his powre,</l>
+               <l>T'encounter <hi>Eucharis:</hi> first like the flowre</l>
+               <l>That <hi>Iunos</hi> milke did spring the siluer Lillie,</l>
+               <l>He fell on <hi>Hymens</hi> hand, who straight did spie</l>
+               <l>The bounteous Godhead, and with wondrous ioy</l>
+               <l>Offred it <hi>Eucharis.</hi> She wondrous coy</l>
+               <l>Drew back her hand: the subtle flowre did woo it,</l>
+               <l>And drawing it neere, mixt so you could not know it.</l>
+               <l>As two cleere Tapers mixe in one their light,</l>
+               <l>So did the Lillie and the hand their white:</l>
+               <l>She viewd it, and her view the forme bestowes</l>
+               <l>Amongst her spirits: for as colour flowes</l>
+               <l>From superficies of each thing we see,</l>
+               <l>Euen so with colours formes emitted bee:</l>
+               <l>And where Loues forme is, loue is, loue is forme;</l>
+               <l>He entred at the eye, his sacred storme</l>
+               <l>Rose from the hand, loues sweetest instrument:</l>
+               <l>It stir'd her bloods sea so, that high it went,</l>
+               <l>And beate in bashfull waues gainst the white shore</l>
+               <l>Of her diuided cheekes; it rag'd the more,</l>
+               <l>Because the tide went gainst the haughtie winde</l>
+               <l>Of her estate and birth: And as we finde</l>
+               <l>In fainting ebs, the flowrie Zephire hurles</l>
+               <l>The greene-hayrd <hi>Hellespont,</hi> broke in siluer curles</l>
+               <l>Gainst <hi>Heros</hi> towre: but in his blasts retreate,</l>
+               <l>The waues obeying him, they after beate,</l>
+               <l>
+                  <pb facs="tcp:5206:42"/>Leauing the chalkie shore a great way pale,</l>
+               <l>Then moyst it freshly with another gale:</l>
+               <l>So ebd and flowde the blood in <hi>Eucharis</hi> face,</l>
+               <l>Coynesse and Loue striu'd which had greatest grace,</l>
+               <l>Virginitie did fight on Coynesse side;</l>
+               <l>Feare of her parents frownes, and femall pride,</l>
+               <l>Lothing the lower place, more then it loues</l>
+               <l>The high contents, desert and vertue moues.</l>
+               <l>With loue fought <hi>Hymens</hi> beautie and his valure,</l>
+               <l>Which scarce could so much fauour yet allure</l>
+               <l>To come to strike, but fameles idle stood,</l>
+               <l>Action is firie valours soueraigne good.</l>
+               <l>But Loue once entred, wisht no greater ayde</l>
+               <l>Then he could find within; thought, thought betrayd,</l>
+               <l>The bribde, but incorrupted Garrison,</l>
+               <l>Sung <hi>Io Hymen;</hi> there those songs begun,</l>
+               <l>And Loue was growne so rich with such a gaine,</l>
+               <l>And wanton with the ease of his free raigne,</l>
+               <l>That he would turne into her roughest frownes</l>
+               <l>To turne them out; and thus he <hi>Hymen</hi> crownes</l>
+               <l>King of his thoughts, mans greatest Emperie:</l>
+               <l>This was his first braue step to deitie.</l>
+               <l>Home to the mourning cittie they repayre,</l>
+               <l>With newes as holesome as the morning ayre,</l>
+               <l>To the sad parents of each saued maid:</l>
+               <l>But <hi>Hymen</hi> and his <hi>Eucharis</hi> had laid</l>
+               <l>
+                  <pb facs="tcp:5206:43"/>This plat, to make the flame of their delight</l>
+               <l>Round as the Moone at full, and full as bright.</l>
+               <l>Because the parents of chast <hi>Eucharis</hi>
+               </l>
+               <l>Exceeding <hi>Hymens</hi> so, might crosse their blis;</l>
+               <l>And as the world rewards deserts, that law</l>
+               <l>Cannot assist with force: so when they saw</l>
+               <l>Their daughter safe, take vantage of their owne,</l>
+               <l>Praise <hi>Hymens</hi> valour much, nothing bestowne.</l>
+               <l>
+                  <hi>Hymen</hi> must leaue the virgins in a Groue</l>
+               <l>Farre off from <hi>Athens,</hi> and go first to proue</l>
+               <l>If to restore them all with fame and life,</l>
+               <l>He should enioy his dearest as his wife.</l>
+               <l>This told to all the maids; the most agree:</l>
+               <l>The riper sort knowing what t'is to bee</l>
+               <l>The first mouth of a newes so farre deriu'd,</l>
+               <l>And that to heare and beare newes braue folks liu'd,</l>
+               <l>As being a carriage speciall hard to beare,</l>
+               <l>Occurrents, these occurrents being so deare,</l>
+               <l>They did with grace protest, they were content</l>
+               <l>T'accost their friends with all their complement,</l>
+               <l>For <hi>Hymens</hi> good: but to incurre their harme,</l>
+               <l>There he must pardon them. This wit went warme</l>
+               <l>To <hi>Adoleshes</hi> braine, a Nymph borne hie,</l>
+               <l>Made all of voyce and fire, that vpwards flie:</l>
+               <l>Her hart and all her forces neither traine,</l>
+               <l>Climbd to her tongue, and thither fell her braine,</l>
+               <l>
+                  <pb facs="tcp:5206:43"/>Since it could goe no higher: and it must go,</l>
+               <l>All powers she had, euen her tongue did so.</l>
+               <l>In spirit and quicknes she much ioy did take,</l>
+               <l>And lou'd her tongue, only for quicknes sake,</l>
+               <l>And she would hast and tell. The rest all stay,</l>
+               <l>
+                  <hi>Hymen</hi> goes on, the Nymph another way:</l>
+               <l>And what became of her Ile tell at last:</l>
+               <l>Yet take her visage now: moyst lipt, long fa'st,</l>
+               <l>Thin like an iron wedge, so sharpe and tart,</l>
+               <l>As twere of purpose made to cleaue <hi>Loues</hi> hart.</l>
+               <l>Well were this louely Beautie rid of her,</l>
+               <l>And <hi>Hymen</hi> did at <hi>Athens</hi> now prefer</l>
+               <l>His welcome suite, which he with ioy aspirde:</l>
+               <l>A hundred princely youths with him retirde</l>
+               <l>To fetch the Nymphs: Chariots and Musick went,</l>
+               <l>And home they came: heauen with applauses rent.</l>
+               <l>The Nuptials straight proceed, whiles all the towne,</l>
+               <l>Fresh in their ioyes might doe them most renowne.</l>
+               <l>First gold-lockt <hi>Hymen</hi> did to Church repaire,</l>
+               <l>Like a quick offring burnd in flames of haire.</l>
+               <l>And after, with a virgin firmament,</l>
+               <l>The Godhead-prouing Bride, attended went</l>
+               <l>Before them all, she lookt in her command,</l>
+               <l>As if forme-giuing <hi>Cyprias</hi> siluer hand</l>
+               <l>Gripte all their beauties, and crusht out one flame,</l>
+               <l>She blusht to see how beautie ouercame</l>
+               <l>
+                  <pb facs="tcp:5206:44"/>The thoughts of all men. Next before her went</l>
+               <l>Fiue louely children deckt with ornament</l>
+               <l>Of her sweet colours, bearing Torches by,</l>
+               <l>For light was held a happie Augurie</l>
+               <l>Of generation, whose efficient right</l>
+               <l>Is nothing else but to produce to light.</l>
+               <l>The od disparent number they did chuse,</l>
+               <l>To shew the vnion married loues should vse,</l>
+               <l>Since in two equall parts it will not seuer,</l>
+               <l>But the midst holds one to reioyne it euer,</l>
+               <l>As common to both parts: men therfore deeme,</l>
+               <l>That equall number Gods doe not esteeme,</l>
+               <l>Being authors of sweet peace and vnitie,</l>
+               <l>But pleasing to th'infernall Emperie,</l>
+               <l>Vnder whose ensignes Wars and Discords fight,</l>
+               <l>Since an euen number you may disunite</l>
+               <l>In two parts equall, nought in middle left,</l>
+               <l>To reunite each part from other reft:</l>
+               <l>And fiue they hold in most especiall prise,</l>
+               <l>Since t'is the first od number that doth rise</l>
+               <l>From the two formost numbers vnitie</l>
+               <l>That od and euen are; which are two, and three,</l>
+               <l>For one no number is: but thence doth flow</l>
+               <l>The powerfull race of number. Next did go</l>
+               <l>A noble Matron that did spinning beare</l>
+               <l>A huswifes rock and spindle, and did weare</l>
+               <l>
+                  <pb facs="tcp:5206:44"/>A Weathers skin, with all the snowy fleece,</l>
+               <l>To intimate that euen the daintiest peece,</l>
+               <l>And noblest borne dame should industrious bee,</l>
+               <l>That which does good, disgraceth no degree.</l>
+               <l>And now to <hi>Iunos</hi> Temple they are come,</l>
+               <l>Where her graue Priest stood in the mariage rome.</l>
+               <l>On his right arme did hang a skarlet vaile,</l>
+               <l>And from his shoulders to the ground did traile,</l>
+               <l>On either side, Ribands of white and blew;</l>
+               <l>With the red vaile he hid the bashfull hew</l>
+               <l>Of the chast Bride, to shew the modest shame,</l>
+               <l>In coupling with a man should grace a dame.</l>
+               <l>Then tooke he the disparent Silks, and tide</l>
+               <l>The Louers by the wasts, and side to side,</l>
+               <l>In token that thereafter they must binde</l>
+               <l>In one selfe sacred knot each others minde.</l>
+               <l>Before them on an Altar he presented</l>
+               <l>Both fire and water: which was first inuented,</l>
+               <l>Since to ingenerate euery humane creature,</l>
+               <l>And euery other birth produ'st by Nature,</l>
+               <l>Moysture and heate must mixe: so man and wife</l>
+               <l>For humane race must ioyne in Nuptiall life.</l>
+               <l>Then one of <hi>Iunos</hi> Birds, the painted Iay,</l>
+               <l>He sacrifisde, and tooke the gall away.</l>
+               <l>All which he did behinde the Altar throw,</l>
+               <l>In signe no bitternes of hate should grow</l>
+               <l>
+                  <pb facs="tcp:5206:45"/>Twixt maried loues, nor any least disdaine.</l>
+               <l>Nothing they spake, for twas esteemd too plaine</l>
+               <l>For the most silken mildnes of a maid,</l>
+               <l>To let a publique audience heare it said</l>
+               <l>She boldly tooke the man: and so respected</l>
+               <l>Was bashfulnes in <hi>Athens:</hi> it erected</l>
+               <l>To chast <hi>Agneia,</hi> which is Shamefastnesse,</l>
+               <l>A sacred Temple, holding her a Goddesse.</l>
+               <l>And now to Feasts, Masks, and triumphant showes,</l>
+               <l>The shining troupes returnd, euen till earths throwes</l>
+               <l>Brought forth with ioy the thickest part of night,</l>
+               <l>When the sweet Nuptiall song that vsde to cite</l>
+               <l>All to their rest, was by <hi>Phemonor</hi> sung:</l>
+               <l>First <hi>Delphian</hi> Prophetesse, whose graces sprung</l>
+               <l>Out of the <hi>Muses</hi> well, she sung before</l>
+               <l>The Bride into her chamber: at which dore</l>
+               <l>A Matron and a Torch-bearer did stand;</l>
+               <l>A painted box of Confits in her hand</l>
+               <l>The Matron held, and so did other some</l>
+               <l>That compast round the honourd Nuptiall rome.</l>
+               <l>The custome was that euery maid did weare,</l>
+               <l>During her maidenhead, a silken Sphere</l>
+               <l>About her waste, aboue her inmost weede,</l>
+               <l>Knit with <hi>Mineruas</hi> knot, and that was freede</l>
+               <l>By the faire Bridegrome on the mariage night,</l>
+               <l>With many ceremonies of delight:</l>
+               <l>
+                  <pb facs="tcp:5206:45"/>And yet eternisde <hi>Hymens</hi> tender Bride,</l>
+               <l>To suffer it dissolu'd so sweetly cride.</l>
+               <l>The maids that heard, so lou'd, and did adore her,</l>
+               <l>They wisht with all their hearts to suffer for her.</l>
+               <l>So had the Matrons, that with Confits stood</l>
+               <l>About the chamber, such affectionate blood,</l>
+               <l>And so true feeling of her harmeles paines,</l>
+               <l>That euery one a showre of Confits raines.</l>
+               <l>For which the Bride youths scrambling on the ground,</l>
+               <l>In noyse of that sweet haile their cryes were drownd.</l>
+               <l>And thus blest <hi>Hymen</hi> ioyde his gracious Bride,</l>
+               <l>And for his ioy was after deifide.</l>
+               <l>The Saffron mirror by which <hi>Phoebus</hi> loue,</l>
+               <l>Greene <hi>Tellus</hi> decks her, now he held aboue</l>
+               <l>The clowdy mountaines: and the noble maide,</l>
+               <l>Sharp-visag'd <hi>Adolesche,</hi> that was straide</l>
+               <l>Out of her way, in hasting with her newes,</l>
+               <l>Not till this houre th'<hi>Athenian</hi> turrets viewes,</l>
+               <l>And now brought home by guides: she heard by all</l>
+               <l>That her long kept occurrents would be stale,</l>
+               <l>And how faire <hi>Hymens</hi> honors did excell</l>
+               <l>For those rare newes, which she came short to tell.</l>
+               <l>To heare her deare tongue robd of such a ioy,</l>
+               <l>Made the well-spoken Nymph take such a toy,</l>
+               <l>That downe she sunke: when lightning from aboue,</l>
+               <l>Shrunk her leane body, and for meere free loue,</l>
+               <l>
+                  <pb facs="tcp:5206:46"/>Turnd her into the pied-plum'd <hi>Psittacus,</hi>
+               </l>
+               <l>That now the Parrat is surnam'd by vs,</l>
+               <l>Who still with counterfeit confusion prates,</l>
+               <l>Nought but newes common to the commonst mates.</l>
+               <l>This tolde, strange <hi>Teras</hi> toucht her Lute and sung</l>
+               <l>This dittie, that the Torchie euening sprung.</l>
+            </div>
+            <div type="epithalamium">
+               <head>Epithalamion Teratos.</head>
+               <lg>
+                  <l>COme come deare night, Loues Mart of kisses,</l>
+                  <l>Sweet close of his ambitious line,</l>
+                  <l>The fruitfull summer of his blisses,</l>
+                  <l>Loues glorie doth in darknes shine.</l>
+                  <l>O come soft rest of Cares, come night,</l>
+                  <l>Come naked vertues only tire,</l>
+                  <l>The reaped haruest of the light,</l>
+                  <l>Bound vp in sheaues of sacred fire.</l>
+                  <l>Loue cals to warre,</l>
+                  <l>Sighs his Alarmes,</l>
+                  <l>Lips his swords are,</l>
+                  <l>The field his Armes.</l>
+                  <l>Come Night and lay thy veluet hand</l>
+                  <l>On glorious Dayes outfacing face;</l>
+                  <l>And all thy crouned flames command,</l>
+                  <l>For Torches to our Nuptiall grace.</l>
+                  <l>Loue cals to warre,</l>
+                  <l>Sighs his Alarmes,</l>
+                  <l>
+                     <pb facs="tcp:5206:46"/>Lips his swords are,</l>
+                  <l>The field his Armes.</l>
+                  <l>No neede haue we of factious Day,</l>
+                  <l>To cast in enuie of thy peace,</l>
+                  <l>Her bals of Discord in thy way:</l>
+                  <l>Here beauties day doth neuer cease,</l>
+                  <l>Day is abstracted here,</l>
+                  <l>And varied in a triple sphere.</l>
+                  <l>
+                     <hi>Hero, Alcmane, Mya,</hi> so outshine thee,</l>
+                  <l>Ere thou come here let <hi>Thetis</hi> thrice refine thee.</l>
+                  <l>Loue cals to warre,</l>
+                  <l>Sighs his Alarmes,</l>
+                  <l>Lips his swords are,</l>
+                  <l>The field his Armes,</l>
+                  <l>The Euening starre I see,</l>
+                  <l>Rise youths the Euening starre,</l>
+                  <l>Helps Loue to summon warre,</l>
+                  <l>Both now imbracing bee.</l>
+                  <l>Rise youths, loues right claims more the banquets, rise.</l>
+                  <l>Now the bright Marygolds that deck the skies,</l>
+                  <l>
+                     <hi>Phoebus</hi> celestiall flowrs, that (contrarie</l>
+                  <l>To his flowers here) ope when he shuts his eie,</l>
+                  <l>And shuts when he doth open, crowne your sports:</l>
+                  <l>Now loue in night, and night in loue exhorts</l>
+                  <l>Courtship and Dances: All your parts employ,</l>
+                  <l>And suite nights rich expansure with your ioy,</l>
+                  <l>
+                     <pb facs="tcp:5206:47"/>Loue paints his longings in sweet virgins eyes:</l>
+                  <l>Rise youths, loues right claims more the<g ref="char:cmbAbbrStroke">̄</g> banquets, rise.</l>
+                  <l>Rise virgins, let fayre Nuptiall loues enfolde</l>
+                  <l>Your fruitles breasts: the maidenheads ye holde</l>
+                  <l>Are not your owne alone, but parted are;</l>
+                  <l>Part in disposing them your Parents share,</l>
+                  <l>And that a third part is: so must ye saue</l>
+                  <l>Your loues a third, and you your thirds must haue.</l>
+                  <l>Loue paints his longings in sweet virgins eyes:</l>
+                  <l>Rise youths, loues right claims more the<g ref="char:cmbAbbrStroke">̄</g> banquets, rise.</l>
+               </lg>
+               <lg>
+                  <l>Herewith the amorous spirit that was so kinde</l>
+                  <l>To <hi>Teras</hi> haire, and combd it downe with winde,</l>
+                  <l>Still as it Comet-like brake from her braine,</l>
+                  <l>Would needes haue <hi>Teras</hi> gone, and did refraine</l>
+                  <l>To blow it downe: which staring vp, dismaid</l>
+                  <l>The timorous feast, and she no longer staid:</l>
+                  <l>But bowing to the Bridegrome and the Bride,</l>
+                  <l>Did like a shooting exhalation glide</l>
+                  <l>Out of their sights: the turning of her back</l>
+                  <l>Made them all shrieke, it lookt so ghastly black.</l>
+                  <l>O haples <hi>Hero,</hi> that most haples clowde,</l>
+                  <l>Thy soone-succeeding Tragedie foreshowde.</l>
+                  <l>Thus all the Nuptiall crew to ioyes depart,</l>
+                  <l>But much-wrongd <hi>Hero,</hi> stood Hels blackest dart:</l>
+                  <l>
+                     <pb facs="tcp:5206:47"/>Whose wound because I grieue so to display,</l>
+                  <l>I vse digressions thus t'encrease the day.</l>
+               </lg>
+               <trailer>The end of the fift Sestyad.</trailer>
+            </div>
+         </div>
+         <div type="part">
+            <argument>
+               <head>THE ARGVMENT OF THE
+SIXT SESTYAD.</head>
+               <lg>
+                  <l>
+                     <hi>Leucote</hi> flyes to all the windes,</l>
+                  <l>And from the fates their outrage bindes,</l>
+                  <l>That <hi>Hero</hi> and her loue may meete.</l>
+                  <l>
+                     <hi>Leander</hi> (with <hi>Loues</hi> compleate Fleete</l>
+                  <l>Mand in himselfe) puts forth to Seas,</l>
+                  <l>VVhen straight the ruthles Destinies,</l>
+                  <l>VVith <hi>Ate</hi> stirre the windes to warre</l>
+                  <l>Vpon the <hi>Hellespont:</hi> Their iarre</l>
+                  <l>Drownes poore <hi>Leander. Heros</hi> eyes</l>
+                  <l>VVet witnesses of his surprise</l>
+                  <l>Her Torch blowne out: Griefe casts her downe</l>
+                  <l>Vpon her loue, and both doth drowne.</l>
+                  <l>In whose iust ruth the God of Seas,</l>
+                  <l>Transformes them to th'Acanthides.</l>
+               </lg>
+            </argument>
+            <lg>
+               <l>NO longer could the day nor Destinies</l>
+               <l>Delay the night, who now did frowning rise</l>
+               <l>
+                  <pb facs="tcp:5206:48"/>Into her Throne; and at her humorous brests,</l>
+               <l>Visions and Dreames lay sucking: all mens rests</l>
+               <l>Fell like the mists of death vpon their eyes,</l>
+               <l>Dayes too long darts so kild their faculties.</l>
+               <l>The windes yet, like the flowrs to cease began:</l>
+               <l>For bright <hi>Leucote, Venus</hi> whitest Swan,</l>
+               <l>That held sweet <hi>Hero</hi> deare, spread her fayre wings,</l>
+               <l>Like to a field of snow, and message brings</l>
+               <l>From <hi>Venus</hi> to the Fates, t'entreate them lay</l>
+               <l>Their charge vpon the windes their rage to stay,</l>
+               <l>That the sterne battaile of the Seas might cease,</l>
+               <l>And guard <hi>Leander</hi> to his loue in peace.</l>
+               <l>The Fates consent, (aye me dissembling Fates)</l>
+               <l>They shewd their fauours to conceale their hates,</l>
+               <l>And draw <hi>Leander</hi> on, least Seas too hie</l>
+               <l>Should stay his too obsequious destinie:</l>
+               <l>Who like a fleering slauish Parasite,</l>
+               <l>In warping profit or a traiterous sleight,</l>
+               <l>Hoopes round his rotten bodie with deuotes,</l>
+               <l>And pricks his descant face full of false notes,</l>
+               <l>Praysing with open throte (and othes as fowle</l>
+               <l>As his false heart) the beautie of an Owle,</l>
+               <l>Kissing his skipping hand with charmed skips,</l>
+               <l>That cannot leaue, but leapes vpon his lips</l>
+               <l>Like a cock-sparrow, or a shameles queane</l>
+               <l>Sharpe at a red-lipt youth, and nought doth meane</l>
+               <l>
+                  <pb facs="tcp:5206:48"/>Of all his antick shewes, but doth repayre</l>
+               <l>More tender fawnes, and takes a scattred hayre</l>
+               <l>From his tame subiects shoulder; whips, and cals</l>
+               <l>For euery thing he lacks; creepes gainst the wals</l>
+               <l>With backward humblesse, to giue needles way:</l>
+               <l>Thus his false fate did with <hi>Leander</hi> play.</l>
+               <l>First to black <hi>Eurus</hi> flies the white <hi>Leucote,</hi>
+               </l>
+               <l>Borne mongst the <hi>Negros</hi> in the <hi>Leuant</hi> Sea,</l>
+               <l>On whose curld head the glowing Sun doth rise,</l>
+               <l>And shewes the soueraigne will of Destinies,</l>
+               <l>To haue him cease his blasts, and downe he lies.</l>
+               <l>Next, to the fennie <hi>Notus,</hi> course she holds,</l>
+               <l>And found him leaning with his armes in folds</l>
+               <l>Vpon a rock, his white hayre full of showres,</l>
+               <l>And him she chargeth by the fatall powres,</l>
+               <l>To hold in his wet cheekes his clowdie voyce,</l>
+               <l>To <hi>Zephire</hi> then that doth in flowres reioyce.</l>
+               <l>To snake-foote <hi>Boreas</hi> next she did remoue,</l>
+               <l>And found him tossing of his rauisht loue,</l>
+               <l>To heate his frostie bosome hid in snow,</l>
+               <l>Who with <hi>Leucotes</hi> sight did cease to blow.</l>
+               <l>Thus all were still to <hi>Heros</hi> harts desire,</l>
+               <l>Who with all speede did consecrate a fire</l>
+               <l>Of flaming Gummes, and comfortable Spice,</l>
+               <l>To light her Torch, which in such curious price</l>
+               <l>She held, being obiect to <hi>Leanders</hi> sight,</l>
+               <l>
+                  <pb facs="tcp:5206:49"/>That nought but fires perfum'd must giue it light.</l>
+               <l>She loud it so, she grieu'd to see it burne,</l>
+               <l>Since it would waste and soone to ashes turne:</l>
+               <l>Yet if it burnd not, twere not worth her eyes,</l>
+               <l>What made it nothing, gaue it all the prize.</l>
+               <l>Sweet Torch, true Glasse of our societie;</l>
+               <l>What man does good, but he consumes thereby?</l>
+               <l>But thou wert lou'd for good, held high, giuen show:</l>
+               <l>Poore vertue loth'd for good, obscur'd, held low.</l>
+               <l>Doe good be pinde, be deedles good, disgrast:</l>
+               <l>Vnles we feede on men, we let them fast.</l>
+               <l>Yet <hi>Hero</hi> with these thoughts her Torch did spend.</l>
+               <l>When Bees makes waxe, Nature doth not intend</l>
+               <l>It shall be made a Torch: but we that know</l>
+               <l>The proper vertue of it make it so,</l>
+               <l>And when t'is made we light it: nor did Nature</l>
+               <l>Propose one life to maids, but each such creature</l>
+               <l>Makes by her soule the best of her free state,</l>
+               <l>Which without loue is rude, disconsolate,</l>
+               <l>And wants loues fire to make it milde and bright,</l>
+               <l>Till when, maids are but Torches wanting light.</l>
+               <l>Thus gainst our griefe, not cause of griefe we fight,</l>
+               <l>The right of nought is gleande, but the delight.</l>
+               <l>Vp went she, but to tell how she descended,</l>
+               <l>Would God she were not dead, or my verse ended.</l>
+               <l>She was the rule of wishes, summe and end</l>
+               <l>
+                  <pb facs="tcp:5206:49"/>For all the parts that did on loue depend:</l>
+               <l>Yet cast the Torch his brightnes further forth;</l>
+               <l>But what shines neerest best, holds truest worth.</l>
+               <l>
+                  <hi>Leander</hi> did not through such tempests swim</l>
+               <l>To kisse the Torch, although it lighted him:</l>
+               <l>But all his powres in her desires awaked,</l>
+               <l>Her loue and vertues cloth'd him richly naked.</l>
+               <l>Men kisse but fire that only shewes pursue,</l>
+               <l>Her Torch and <hi>Hero,</hi> figure, shew, and vertue.</l>
+               <l>Now at opposde <hi>Abydus</hi> nought was heard,</l>
+               <l>But bleating flocks, and many a bellowing herd,</l>
+               <l>Slaine for the Nuptials, cracks of falling woods,</l>
+               <l>Blowes of broad axes, powrings out of floods.</l>
+               <l>The guiltie <hi>Hellespont</hi> was mixt and stainde</l>
+               <l>With bloodie Torrents, that the shambles raind;</l>
+               <l>Not arguments of feast, but shewes that bled,</l>
+               <l>Foretelling that red night that followed.</l>
+               <l>More blood was spilt, more honors were addrest,</l>
+               <l>Then could haue graced any happie feast.</l>
+               <l>Rich banquets, triumphs, euery pomp employes</l>
+               <l>His sumptuous hand: no misers nuptiall ioyes.</l>
+               <l>Ayre felt continuall thunder with the noyse,</l>
+               <l>Made in the generall mariage violence:</l>
+               <l>And no man knew the cause of this expence,</l>
+               <l>But the two haples Lords, <hi>Leanders</hi> Sire,</l>
+               <l>And poore <hi>Leander,</hi> poorest where the fire</l>
+               <l>Of credulous loue made him most rich surmisde,</l>
+               <l>
+                  <pb facs="tcp:5206:50"/>As short was he of that himselfe he prisde,</l>
+               <l>As is an emptie Gallant full of forme,</l>
+               <l>That thinks each looke an act, each drop a storme,</l>
+               <l>That fals from his braue breathings; most brought vp</l>
+               <l>In our <hi>Metropolis,</hi> and hath his cup</l>
+               <l>Brought after him to feasts; and much Palme beares,</l>
+               <l>For his rare iudgement in th'attire he weares,</l>
+               <l>Hath seene the hot Low Countries, not their heat,</l>
+               <l>Obserues their rampires and their buildings yet.</l>
+               <l>And for your sweet discourse with mouthes is heard,</l>
+               <l>Giuing instructions with his very beard.</l>
+               <l>Hath gone with an Ambassadour, and been</l>
+               <l>A great mans mate in trauailing, euen to <hi>Rhene,</hi>
+               </l>
+               <l>And then puts all his worth in such a face,</l>
+               <l>As he saw braue men make, and striues for grace</l>
+               <l>To get his newes forth; as when you descrie</l>
+               <l>A ship with all her sayle contends to flie</l>
+               <l>Out of the narrow Thames with windes vnapt,</l>
+               <l>Now crosseth here, then there, then this way rapt,</l>
+               <l>And then hath one point reacht; then alters all,</l>
+               <l>And to another crooked reach doth fall</l>
+               <l>Of halfe a burdbolts shoote; keeping more coyle,</l>
+               <l>Then if she danst vpon the Oceans toyle:</l>
+               <l>So serious is his trifling companie,</l>
+               <l>In all his swelling ship of vacantrie.</l>
+               <l>And so short of himselfe in his high thought,</l>
+               <l>Was our <hi>Leander</hi> in his fortunes brought.</l>
+               <l>
+                  <pb facs="tcp:5206:50"/>And in his fort of loue that he thought won,</l>
+               <l>But otherwise, he skornes comparison.</l>
+               <l>O sweet <hi>Leander,</hi> thy large worth I hide</l>
+               <l>In a short graue; ill fauourd stormes must chide</l>
+               <l>Thy sacred fauour; I, in floods of inck</l>
+               <l>Must drowne thy graces, which white papers drink,</l>
+               <l>Euen as thy beauties did the foule black Seas:</l>
+               <l>I must describe the hell of thy disease,</l>
+               <l>That heauen did merit: yet I needes must see</l>
+               <l>Our painted fooles and cockhorse Pessantrie</l>
+               <l>Still still vsurp, with long liues, loues, and lust,</l>
+               <l>The seates of vertue, cutting short as dust</l>
+               <l>Her deare bought issue; ill, to worse conuerts,</l>
+               <l>And tramples in the blood of all deserts.</l>
+               <l>Night close and silent now goes fast before</l>
+               <l>The Captaines and their souldiers to the shore,</l>
+               <l>On whom attended the appointed Fleete</l>
+               <l>At <hi>Sestus</hi> Bay, that should <hi>Leander</hi> meete.</l>
+               <l>Who fainde he in another ship would passe:</l>
+               <l>Which must not be, for no one meane there was</l>
+               <l>To get his loue home, but the course he tooke.</l>
+               <l>Forth did his beautie for his beautie looke,</l>
+               <l>And saw her through her Torch, as you beholde</l>
+               <l>Sometimes within the Sunne a face of golde,</l>
+               <l>Form'd in strong thoughts, by that traditions force,</l>
+               <l>That saies a God sits there and guides his course.</l>
+               <l>His sister was with him, to whom he shewd</l>
+               <l>
+                  <pb facs="tcp:5206:51"/>His guide by Sea: and sayd, oft haue you viewd</l>
+               <l>In one heauen many starres, but neuer yet</l>
+               <l>In one starre many heauens till now were met.</l>
+               <l>See louely sister, see, now <hi>Hero</hi> shines</l>
+               <l>No heauen but her appeares: each star repines,</l>
+               <l>And all are clad in clowdes, as if they mournd,</l>
+               <l>To be by influence of Earth out-burnd.</l>
+               <l>Yet doth she shine, and teacheth vertues traine,</l>
+               <l>Still to be constant in Hels blackest raigne:</l>
+               <l>Though euen the gods themselues do so entreat them</l>
+               <l>As they did hate, and Earth as she would eate them.</l>
+               <l>Off went his silken robe, and in he leapt;</l>
+               <l>Whom the kinde waues so licorously cleapt,</l>
+               <l>Thickning for haste one in another so,</l>
+               <l>To kisse his skin, that he might almost go</l>
+               <l>To <hi>Heros</hi> Towre, had that kind minuit lasted.</l>
+               <l>But now the cruell fates with <hi>Ate</hi> hasted</l>
+               <l>To all the windes, and made them battaile fight</l>
+               <l>Vpon the <hi>Hellespont,</hi> for eithers right</l>
+               <l>Pretended to the windie monarchie.</l>
+               <l>And forth they brake, the Seas mixt with the skie,</l>
+               <l>And tost distrest <hi>Leander,</hi> being in hell,</l>
+               <l>As high as heauen; Blisse not in height doth dwell.</l>
+               <l>The Destinies sate dancing on the waues,</l>
+               <l>To see the glorious windes with mutuall braues</l>
+               <l>Consume each other: O true glasse to see,</l>
+               <l>How ruinous ambitious Statists bee</l>
+               <l>
+                  <pb facs="tcp:5206:51"/>To their owne glories! Poore <hi>Leander</hi> cried</l>
+               <l>For help to Sea-borne <hi>Venus;</hi> she denied</l>
+               <l>To <hi>Boreas,</hi> that for his <hi>Atthaeas</hi> sake,</l>
+               <l>He would some pittie on his <hi>Hero</hi> take,</l>
+               <l>And for his owne loues sake, on his desires:</l>
+               <l>But Glorie neuer blowes cold Pitties fires.</l>
+               <l>Then calde he <hi>Neptune,</hi> who through all the noise,</l>
+               <l>Knew with affright his wracket <hi>Leanders</hi> voice:</l>
+               <l>And vp he rose, for haste his forehead hit</l>
+               <l>Gainst heaue<g ref="char:cmbAbbrStroke">̄</g>s hard Christall; his proud waues he smit</l>
+               <l>With his forkt scepter, that could not obay,</l>
+               <l>Much greater powers then <hi>Neptunes</hi> gaue them sway,</l>
+               <l>They lou'd <hi>Leander</hi> so, in groanes they brake</l>
+               <l>When they came neere him; and such space did take</l>
+               <l>Twixt one another, loth to issue on,</l>
+               <l>That in their shallow furrowes earth was shone,</l>
+               <l>And the poore louer tooke a little breath:</l>
+               <l>But the curst Fates sate spinning of his death</l>
+               <l>On euery waue, and with the seruile windes</l>
+               <l>Tumbled them on him: And now <hi>Hero</hi> findes</l>
+               <l>By that she felt her deare <hi>Leanders</hi> state,</l>
+               <l>She wept and prayed for him to euery fate,</l>
+               <l>And euery winde that whipt her with her haire</l>
+               <l>About the face, she kist and spake it faire,</l>
+               <l>Kneeld to it, gaue it drinke out of her eyes</l>
+               <l>To quench his thirst: but still their cruelties</l>
+               <l>Euen her poore Torch enuied, and rudely beate</l>
+               <l>
+                  <pb facs="tcp:5206:52"/>The bating flame from that deare foode it eate:</l>
+               <l>Deare, for it nourisht her <hi>Leanders</hi> life,</l>
+               <l>Which with her robe she rescude from their strife:</l>
+               <l>But silke too soft was, such hard hearts to breake,</l>
+               <l>And she deare soule, euen as her silke, faint, weake,</l>
+               <l>Could not preserue it: out, O out it went.</l>
+               <l>
+                  <hi>Leander</hi> still cald <hi>Neptune,</hi> that now rent</l>
+               <l>His brackish curles, and tore his wrinckled face</l>
+               <l>Where teares in billowes did each other chace,</l>
+               <l>And (burst with ruth) he hurld his marble Mace</l>
+               <l>At the sterne Fates, it wounded <hi>Lachesis</hi>
+               </l>
+               <l>That drew <hi>Leanders</hi> thread, and could not misse</l>
+               <l>The thread it selfe, as it her hand did hit,</l>
+               <l>But smote it full and quite did sunder it.</l>
+               <l>The more kinde <hi>Neptune</hi> rag'd, the more he raste</l>
+               <l>His loues liues fort, and kild as he embraste.</l>
+               <l>Anger doth still his owne mishap encrease;</l>
+               <l>If any comfort liue, it is in peace.</l>
+               <l>O theeuish Fates, to let Blood, Flesh, and Sence,</l>
+               <l>Build two fayre Temples for their Excellence,</l>
+               <l>To rob it with a poysoned influence.</l>
+               <l>Though soules gifts starue, the bodies are held deare</l>
+               <l>In vgliest things; Sence-sport preserues a Beare.</l>
+               <l>But here nought serues our turnes; O heauen &amp; earth,</l>
+               <l>How most most wretched is our humane birth?</l>
+               <l>And now did all the tyrannous crew depart,</l>
+               <l>Knowing there was a storme in <hi>Heros</hi> hart,</l>
+               <l>
+                  <pb facs="tcp:5206:52"/>Greater then they could make, &amp; skornd their smart.</l>
+               <l>She bowd her selfe so low out of her Towre,</l>
+               <l>That wonder twas she fell not ere her howre,</l>
+               <l>With searching the lamenting waues for him;</l>
+               <l>Like a poore Snayle, her gentle supple lim</l>
+               <l>Hung on her Turrets top so most downe right,</l>
+               <l>As she would diue beneath the darknes quite,</l>
+               <l>To finde her Iewell; Iewell, her <hi>Leander,</hi>
+               </l>
+               <l>A name of all earths Iewels pleasde not her,</l>
+               <l>Like his deare name; <hi>Leander,</hi> still my choice,</l>
+               <l>Come nought but my <hi>Leander;</hi> O my voice</l>
+               <l>Turne to <hi>Leander:</hi> hence-forth be all sounds,</l>
+               <l>Accents, and phrases that shew all griefes wounds,</l>
+               <l>Analisde in <hi>Leander.</hi> O black change!</l>
+               <l>Trumpets doe you with thunder of your clange,</l>
+               <l>Driue out this changes horror, my voyce faints:</l>
+               <l>Where all ioy was, now shrieke out all complaints.</l>
+               <l>Thus cryed she, for her mixed soule could tell</l>
+               <l>Her loue was dead: And when the morning fell</l>
+               <l>Prostrate vpon the weeping earth for woe,</l>
+               <l>Blushes that bled out of her cheekes did show,</l>
+               <l>
+                  <hi>Leander</hi> brought by <hi>Neptune,</hi> brusde and torne,</l>
+               <l>With Citties ruines he to Rocks had worne,</l>
+               <l>To filthie vsering Rocks that would haue blood,</l>
+               <l>Though they could get of him no other good.</l>
+               <l>She saw him, and the sight was much much more,</l>
+               <l>Then might haue seru'd to kill her; should her store</l>
+               <l>
+                  <pb facs="tcp:5206:53"/>Of giant sorrowes speake? Burst, dye, bleede,</l>
+               <l>And leaue poore plaints to vs that shall succeede.</l>
+               <l>She fell on her loues bosome, hugg'd it fast,</l>
+               <l>And with <hi>Leanders</hi> name she breath'd her last.</l>
+               <l>
+                  <hi>Neptune</hi> for pittie in his armes did take them,</l>
+               <l>Flung them into the ayre, and did awake them.</l>
+               <l>Like two sweet birds surnam'd th'<hi>Acanthides,</hi>
+               </l>
+               <l>Which we call Thistle-warps, that neere no Seas</l>
+               <l>Dare euer come, but still in couples flie,</l>
+               <l>And feede on Thistle tops, to testifie</l>
+               <l>The hardnes of their first life in their last:</l>
+               <l>The first in thornes of loue, and sorrowes past,</l>
+               <l>And so most beautifull their colours show,</l>
+               <l>As none (so little) like them: her sad brow</l>
+               <l>A sable veluet feather couers quite,</l>
+               <l>Euen like the forehead cloths that in the night,</l>
+               <l>Or when they sorrow, Ladies vse to weare:</l>
+               <l>Their wings, blew, red and yellow mixt appeare,</l>
+               <l>Colours, that as we construe colours paint</l>
+               <l>Their states to life; the yellow shewes their saint,</l>
+               <l>The deuill <hi>Venus</hi> left them; blew their truth,</l>
+               <l>The red and black, ensignes of death and ruth.</l>
+               <l>And this true honor from their loue-deaths sprung,</l>
+               <l>They were the first that euer Poet sung.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:5206:53"/>
+         </div>
+      </body>
+   </text>
+</TEI>

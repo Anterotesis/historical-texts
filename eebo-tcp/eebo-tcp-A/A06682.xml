@@ -1,0 +1,843 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The general practise of medecine By Philiatreus.]</title>
+            <author>Philiatreus, fl. 1630.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1634</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 88 KB of XML-encoded text transcribed from 42 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-10">2005-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A06682</idno>
+            <idno type="STC">STC 17139</idno>
+            <idno type="STC">ESTC S102714</idno>
+            <idno type="EEBO-CITATION">99838484</idno>
+            <idno type="PROQUEST">99838484</idno>
+            <idno type="VID">2865</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A06682)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2865)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 811:02)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The general practise of medecine By Philiatreus.]</title>
+                  <author>Philiatreus, fl. 1630.</author>
+                  <author>Makluire, John, attributed author.</author>
+               </titleStmt>
+               <extent>[78] p.   </extent>
+               <publicationStmt>
+                  <publisher>J. Wreittoun,</publisher>
+                  <pubPlace>[Edinburgh :</pubPlace>
+                  <date>1634]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: [par.]⁴ A-D E⁴.</note>
+                  <note>"Philiatreus" is in Greek characters.</note>
+                  <note>"Possibly by J. Makluire".--STC.</note>
+                  <note>Running titles read: The practise of physick.</note>
+                  <note>Title page illegible; title and imprint from STC.</note>
+                  <note>Print faded and show-through, and pages marked and stained, with some loss of print.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Medicine --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-01</date>
+            <label>Jonathan Blaney</label>Sampled and proofread</change>
+         <change>
+            <date>2005-01</date>
+            <label>Jonathan Blaney</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2865:1"/>
+            <pb facs="tcp:2865:1" rendition="simple:additions"/>
+            <p>THE GENERALL PRACTISE OF MEDECINE.</p>
+            <p>Comprehending the most remarkable max<g ref="char:EOLhyphen"/>ims appertaining to the <hi>Diagnosis,</hi> where, by everie disease is knowne, the <hi>Prognosis,</hi> whereby the issue is foreshowne, and <hi>Therapia,</hi> which poynteth out the me<g ref="char:EOLhyphen"/>thodick, proceeding in the cure.</p>
+            <p>Collected out of the most famous, both Ancient and Moderne wryters, for the use of such as be ignorant of the Greeke and Latine tongues.</p>
+            <p>By <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</p>
+            <p>EDINBVRGH, Printed by <hi>Iohn Wreittoun.</hi> 1634.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:2865:2"/>
+            <pb facs="tcp:2865:2" rendition="simple:additions"/>
+            <head>TO THE RIGHT HONORABLE Sir THOMAS HOPE of Craig<g ref="char:EOLhyphen"/>hall Knight Baronet, Advocat ge<g ref="char:EOLhyphen"/>nerall to his Majestie of great Bri<g ref="char:EOLhyphen"/>taine, in his Kingdome of <hi>Scotland,</hi> Wisheth all health and happinesse, &amp;c.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T is reported of <hi>Caesar (Right Honourable</hi>) that oft times he praised his Souldiours good<g ref="char:EOLhyphen"/>will, although they wanted skill: And <hi>Cicero</hi> aswell commended stamme<g ref="char:EOLhyphen"/>ring <hi>Lentulus</hi> for his painful industry, as learned <hi>Laelius</hi> for his passing elo<g ref="char:EOLhyphen"/>quence: Which considered (although wisedome did will mee not to straine further than my sleive would stretch) I thought good to present this small Treatise to your H. protection, hoping
+<pb facs="tcp:2865:3"/>
+your H. will out of your accustomed clemencie, accept it, and take my well meaning for an excuse of my boldnesse, in that my poore will is not in the wane, whatsoever this imperfect worke doth want. The Emperour <hi>Trajan</hi> was ne<g ref="char:EOLhyphen"/>ver without suters, because so courteous<g ref="char:EOLhyphen"/>ly hee would heare everie complaint. The Lapidaries continually frequen<g ref="char:EOLhyphen"/>ted the Court of <hi>Adobrandinus,</hi> be<g ref="char:EOLhyphen"/>cause it was his chiefe study to search out the nature of stones. All that courted <hi>Atlanta</hi> were hunters, and none sued to <hi>Sapho</hi> but Poëts: Where<g ref="char:EOLhyphen"/>soever <hi>Mecaenas</hi> lodgeth, thither no doubt will Schollers flocke. And your H. beeing a worthie favourer and fosterer of learning, hath forced many through your exquisit vertue, to offer the first fruits of their study at the shrine of your Courtesie. But though they have waded farre and found mynes, and I gadded abroad to get nothing but mytes: yet this I assure my selfe,
+<pb facs="tcp:2865:3"/>
+that they never presented you their treasure with a more willing mind, <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hen I doe this simple trash, which I hope your H. will so accept. Resting <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>herefore upon your wonted clemen<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ie, I commit you to the Almigh<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ie.</p>
+            <closer>
+               <signed>I. M.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:2865:4"/>
+            <head>To the Gentlemen Readers, Health.</head>
+            <p>
+               <hi>PAN</hi> blowing upon an oaten Pipe a litle homely musick, and hea<g ref="char:EOLhyphen"/>ring no man dispraise his simple cunning, began both to play so lowd and so long, that they were more wearie in hearing his Musick, then hee in shewing his skill, till at last to claw him and excuse themselves, they said, his Pype was out of tune. So Gentlemen, because I have be<g ref="char:EOLhyphen"/>fore tyme rashly reacht above my pitch, and yet your courtesie was such as none accused mee, I have once a<g ref="char:EOLhyphen"/>gaine adventured upon your patience, but (I doubt) so farre as to be read of my folly, you will at the last say, as <hi>Augustus</hi> said to the Graecian that gave him oft times many rude
+<pb facs="tcp:2865:4"/>
+verses: Thou hast need (quoth hee) reward mee well, for I take more paines to read thy workes, then thou to write them. But yet willing to a<g ref="char:EOLhyphen"/>bide this quip, because I may coun<g ref="char:EOLhyphen"/>tervaile it with your former courte<g ref="char:EOLhyphen"/>sie, I put my selfe to your patience, and commits you to the Almighty. Farewell.</p>
+            <closer>
+               <signed>I. M.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb facs="tcp:2865:5"/>
+            <pb facs="tcp:2865:5"/>
+            <head>THE PRACTISE OF PHYSICKE.</head>
+            <div n="1" type="canon">
+               <head>CANON I.</head>
+               <p>
+                  <seg rend="decorInit">T</seg>HE methodick practising in Physick hath first a knowledge of the disease, next fortelleth the event of it, and last goeth about to cure the same. For that part of Physick which is called Therapeutick, followeth still the diagnostick &amp; prognos<g ref="char:EOLhyphen"/>tick: for whosoever wil vse profitable reme<g ref="char:EOLunhyphen"/>dies, shuld first remark the things present, next forwarn the future, because it is neces<g ref="char:EOLhyphen"/>sare
+<pb facs="tcp:2865:6"/>
+to vnderstand the present estate of the disease, to that end that the remedies pro<g ref="char:EOLhyphen"/>per may be vsed, then to foresee that which is to come, for the more boldly attempting of the cure, if there bee hope of health: or else to foretell the danger, if one doe feare death, otherwise to abstaine wholly from the interprise: if one doth feare inevitable death: for wee should never interprise the cure of desperat diseases: much lesse pro<g ref="char:EOLhyphen"/>mise health, or at the least take the busines in hand after a due premonition of the dan<g ref="char:EOLhyphen"/>ger of it.</p>
+            </div>
+            <div n="2" type="canon">
+               <head>Canon II.</head>
+               <p>Now to come to the perfect knowledg of the disease, ye must first search the place, next the kind, and then the cause, if the place bee manifest of the selfe, it resteth to find out the espece of disease, and then the cause.</p>
+            </div>
+            <div n="3" type="canon">
+               <head>Canon III.</head>
+               <p>The place is knowne by the action hurt or hindered, by the sort and seat of the paine, by the excrements, and accidents, or proper symptomes: although that all these signes doe not at all tymes appeare all together, yet still some of them doth kyth.</p>
+            </div>
+            <div n="4" type="canon">
+               <pb facs="tcp:2865:6"/>
+               <head>Canon. IV.</head>
+               <p>The action offended showes the part from whence it proccedes to be indispo<g ref="char:EOLhyphen"/>sed for a functioun animall, vitall, or naturall beeing troubled declares some of those parts to be affected, so the hurt of the reason, imagination, and memorie showes the braine to be sicke, the losse of sense and motion manifests the nerves or else there origine to be grieved: diffi<g ref="char:EOLhyphen"/>cultie of breathing, wills the lights or some of the instruments of respiration to bee interessed, the pulse commoved shows the heart to be troubled.</p>
+               <p>The stop of the discent of the meat, shewes the vizorne to bee hurt, the dige<g ref="char:EOLhyphen"/>stion hindred, the stomack, when the body is not nourished, the lever is mistempe<g ref="char:EOLhyphen"/>red.</p>
+               <p>The espece or sort of sicknesse points foorth also the place, so a paine with a pul<g ref="char:EOLhyphen"/>sation is from the nerve hurt or offended, with punction from the membrane disten<g ref="char:EOLhyphen"/>ded, with convulsion, from the drawing of the nerves or tendons with violence, dolour with tension shewes the veines re<g ref="char:EOLhyphen"/>pletion out of measure: when it is profound it declares the membran covering the bone
+<pb facs="tcp:2865:7"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:2865:7"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:2865:8" rendition="simple:additions"/>
+called Periostium to bee diseased, when soft and gentle without great paine it is in the flesh: when heavie and blunt, it points foorth some of the intrels to bee grieved.</p>
+               <p>The situation of the paine makes known the seat of the disease also, so if it bee in the right hypochondre or vnder the short ribs on the right side, it declares the lever to be hurt, if vnder the left side, the melt: for wheresoever is the paine there is the sick<g ref="char:EOLhyphen"/>nesse: wherefore wee must not omit to in<g ref="char:EOLhyphen"/>quyre of the sick person on which side hee lyes with greatest ease: for if it be without he lyes best on the whole side, but if with<g ref="char:EOLhyphen"/>in, best on the sore.</p>
+               <p>That which issueth foorth of the body indicats also the part affected, so if by cough there is thrown foorth any part of a girstle, there is no doubt the light pypes are torne: if in the water there is found any peece of flesh, it betokens the neers to bee hurt: if in the draught, there is found any peece of skin, it signifies the puddings to be vlce<g ref="char:EOLhyphen"/>rat. The stomack is known to bee hurt when the meat or chile doth issue foorth at the wound, and if the fecall mater come foorth it shews the puddings to be woun<g ref="char:EOLhyphen"/>ded, so the water issuing wills the bladder
+<pb facs="tcp:2865:8" rendition="simple:additions"/>
+to bee wounded, and when the Pleura that covers the ribs within is pierced, then the wind doth blow forth at the hole.</p>
+               <p>Moreover the forme of issuing foorth is remarked, for the better vnderstanding of the part that is troubled: so the blood that proceedes of the arteries, because of the a<g ref="char:EOLhyphen"/>bundance of the spirits doth issue with force in a leaping manner: but if flowing and deadly from the veine: also if any peece of the part troubled doe come forth alone, it signifieth the place or seat to be neere by, but if it bee mixed with the excrements, it declares to bee higher and further remo<g ref="char:EOLhyphen"/>ved.</p>
+               <p>The accidents points also at the place, so the pearle declares the eye to bee molested, the swelling of the right lisk, the lever, and that of the left, the melt.</p>
+               <p>The symptomes manifests the place, for ravery designes the braine to bee distem<g ref="char:EOLhyphen"/>pered, the cheeks verie red, the lights to be inflammed, the losse of appetit, the indispo<g ref="char:EOLhyphen"/>sition of the stomack, the excrements like to the washing of raw flesh, the debility of the lever.</p>
+            </div>
+            <div n="5" type="canon">
+               <head>Canon. V.</head>
+               <p>Thus having found out the part that is
+<pb facs="tcp:2865:9"/>
+troubled, next yee must search whether it is by Idiopathie or by Sympathie: because it is requisit first to help the part that is troubled by the owne proper desert, (so I<g ref="char:EOLhyphen"/>diopathie is a proper indisposition of the part as is the pearle of the eye.) Sympathie is an indisposition which befalls any part by the fault of another. And that either be<g ref="char:EOLhyphen"/>cause of the defluxion of an humour falling from one part to another, or by reason of the defect of the naturall facultie requyred for the action of the part: sometimes it fals out that a part of a long trouble by a sym<g ref="char:EOLhyphen"/>pathie, in end turnes to bee troubled by an Idiopathie. Idiopathie is either privatiue or consecutiue, so it is expedient to remark whether the disease bee privatiue, that is, bee first, or consecutive, that is, doth flow from another.</p>
+               <p>An Idiopathie is by this discerned from a Sympathie, when the sore is alone, con<g ref="char:EOLhyphen"/>tinuall, and without intermission, and re<g ref="char:EOLhyphen"/>ceaves neither increase nor diminution, by the augmentation or declination of any dis<g ref="char:EOLhyphen"/>ease that is in any other part, but remaines still in one state and condition, the remeds applyed, serving for the good of the same, it is a signe that the indisposition is Idio<g ref="char:EOLhyphen"/>pathetick:
+<pb facs="tcp:2865:9"/>
+But when it followeth another disease, &amp; growes according to the growth of the same, and also is mitigat by the same remeades, and when the remeades applyed to it selfe doth not help, it is then by Sym<g ref="char:EOLhyphen"/>pathie, so the paine of the head arising from the stomack<g ref="char:punc">▪</g> is distinguished from the do<g ref="char:EOLhyphen"/>lour that comes of the proper fault of the braine, in that it succeeds to a desire to vo<g ref="char:EOLhyphen"/>mite, a heavie rifting, evill smell or taste in the mouth, with a falling away or <hi>lypotho<g ref="char:EOLhyphen"/>mie,</hi> and when it growes with the indis<g ref="char:EOLhyphen"/>position of the stomack, not receiving help from the topicks applyed to the head.</p>
+            </div>
+            <div n="6" type="canon">
+               <head>Canon VI.</head>
+               <p>Having found out the part of the body offended, next yee must make inquisition of the indisposition.</p>
+               <p>The indisposition that hindreth action is called <hi>morbus</hi> or sicknesse, that which fol<g ref="char:EOLhyphen"/>loweth it is termed Symptome, and that which ingenders is named cause: so that all indisposition against natur is either <hi>morbus, symptoma,</hi> or <hi>causa.</hi>
+               </p>
+               <p>The Symptome is knowne of the selfe without other signes, because it is objec<g ref="char:EOLhyphen"/>ted still to some of our senses: but the dis<g ref="char:EOLhyphen"/>ease and the cause for the most part are re<g ref="char:EOLhyphen"/>moved
+<pb facs="tcp:2865:10"/>
+from our senses, but they are known by the Symptomes which are the signes, to wit, by the actions hurt, by the excre<g ref="char:EOLhyphen"/>ments, and by the accidents of the bodie.</p>
+            </div>
+            <div n="7" type="canon">
+               <head>Canon VII.</head>
+               <p>Maladie or sicknesse is an indisposition against nature, that hurts immediatly the action of the part affected, whensoever then thou perceives the action to be hindred or hurt, then is it a disease.</p>
+               <p>Sicknesse or maladie is triple, similare, instrumentall, and common: the first hurts the action of the part similare, the second troubles the vse of the organick, the third hinders both: wherefore if the action of the part, in so farre as it is similare be hurt, the disease shall bee similare, if in so farre as an instrument, it shall bee instrumentall, and if they both befall together it shall bee common. The action of the part similary is hindred by a simple intemperature, as heat, cold, moistnesse, and drouth, or by one composed, as hot and dry, hot and humid, cold and dry, cold and humid, &amp; that either with or without mater. The vse of the or<g ref="char:EOLhyphen"/>gane is preverted by the fault of the great<g ref="char:EOLhyphen"/>nesse, nombre, situation, oftest by conforma<g ref="char:EOLhyphen"/>tion, and obstruction: both the one and the
+<pb facs="tcp:2865:10"/>
+other, is troubled by the breach or solution of continuitie in the parts, as by phleg<g ref="char:EOLhyphen"/>mon, scirrh, or any other tumour contrare nature, as also by vlcere, wound, fracture, or luxation, so in temperature is a sicknesse, similare: obstruction, a disease organick, and solution of the continuitie sicknesse, common.</p>
+               <p>The diversitie of especes are known by the varietie of the actions hindered, so the continuall desyre of sleepe signifieth an in<g ref="char:EOLhyphen"/>disposition, cold and moist of the braine, a continuall waking shewes a hote and dry pulse frequent, quick, and vnaequall, a fe<g ref="char:EOLhyphen"/>ver: suchlike the kind of the paine points foorth the disease, as a dolour inflammative a hot distemper, a stupefactive, a cold.</p>
+               <p>The excrements serveth also to find out the espece of the sicknesse, as sand in the water shews a gravell, the meat sent foorth below without change, declares a lienterie: suchlike the accidents of the bodie, so the colour greene shewes an oppilation in the liver, browne colour an obstruction in the melt, a blak tougne, a burning or fever, the nailes crooked a consumption ptisie: the cheekes red, a peripneumonie. Among those accidents they that are proper and
+<pb facs="tcp:2865:11"/>
+inseparable, are holden for most certaine, because they haue a great demonstrative facultie.</p>
+            </div>
+            <div n="8" type="canon">
+               <head>Canon VIII.</head>
+               <p>The nature and situation of the place serves much to the knowledge of the kind of the sickenesse for everie part hath the owne prope sicknesse, so the eyes onely are subject to a pearle, the neires and blad<g ref="char:EOLhyphen"/>der to the stone, the puddings to wormes and not the stomacke, the heart can never suffer a vlcer profound nor the lights any dolour.</p>
+            </div>
+            <div n="9" type="canon">
+               <head>Canon IX.</head>
+               <p>The better taking of the disease, you must diligently consider the things ante<g ref="char:EOLhyphen"/>cedent such are the nature, the habitude, the age, the countrie, the season, the dis<g ref="char:EOLhyphen"/>position of the aire, the forme of lyfe of him who is diseased and the sickenesse wherewith hee vses to be molested: for one is soonest overtaken with the disease with the which there nature hath greatest familiaritie. So hote diseases are most fre<g ref="char:EOLhyphen"/>quentlie incident to hot bilious persons as cold sickenes to cold lumpish nature and that alswell to those who are such by na<g ref="char:EOLhyphen"/>ture, habitude and age as to those who
+<pb facs="tcp:2865:11"/>
+are so by reason of the region, the sea<g ref="char:EOLhyphen"/>son and the constitution of the aire. And albeit that all sort of sickenesse may befall to all sort of persons, all ages in all place &amp; time, yet they fal on most freque<g ref="char:cmbAbbrStroke">̄</g>tly the tem<g ref="char:EOLhyphen"/>perament age, place &amp; time with the which they have some affinitie. An Epidemik sick<g ref="char:EOLhyphen"/>nesse is knowne incontinent by the runn<g ref="char:EOLhyphen"/>ing of it among the people, seazing on many at one tyme: al hereditar disease as the epilepsie, the gravell, the gowt is suspect to be incident to those who are procreat of parents, sicke of such infirmities. More<g ref="char:EOLhyphen"/>over often men finds the kind of the disease by the usage of the things which hurts or helps, for the hote intemperature doth in<g ref="char:EOLhyphen"/>crease by the vse of hote things but is mi<g ref="char:EOLhyphen"/>tigate by the vse of cooling things, the cold intemperature of the contraire.</p>
+            </div>
+            <div n="10" type="canon">
+               <head>Canon X.</head>
+               <p>After the acquyred knowledg of the dis<g ref="char:EOLhyphen"/>ease make search thereafter for the cause of it, the which is either extern or in<g ref="char:EOLhyphen"/>tern, the intern is two fold, antecedent or conjoyned. First then seeke out the cause conjoyned, because it produceth immedi<g ref="char:EOLhyphen"/>atly the disease. It is therefore needefull to search whither it be winde or any other
+<pb facs="tcp:2865:12"/>
+superabundant humor as blood, bile, melan<g ref="char:EOLhyphen"/>cholie or phlegme, or any other thing con<g ref="char:EOLhyphen"/>trare natur, as stone, lump of blood, worms or any other sort of excrement. The colour &amp; natur of the place, the kind of the dolour and the sort of the excrement with the prae<g ref="char:EOLhyphen"/>dominant humor in the bodie will serve for markes.</p>
+            </div>
+            <div n="11" type="canon">
+               <head>Canon XI.</head>
+               <p>For when the part in fla<g ref="char:cmbAbbrStroke">̄</g>med is red, it is full of blood: when yellow, full of byle: but that which is cold and whyt is replenished with phlegme, when blackish, with me<g ref="char:EOLhyphen"/>lancholy, for the colour of the skin doth commonly point forth the humor is with<g ref="char:EOLhyphen"/>in. Divers parts are appointed for the in<g ref="char:EOLhyphen"/>gendring of diverse humors excrementiti<g ref="char:EOLhyphen"/>ous, as the lever for breeding of yellow byle: the melt, of black byle, the stomack, the tryps, and the braine of phlegme, the neers and the bladder, of the gravell and stone, the tryps of wormes.</p>
+               <p>The paine pricks sore when it is caused of choler, it is moderat when it proceeds of blood, blunt when of melancholy, phleg<g ref="char:EOLhyphen"/>me, or wind, except it bee when they mak great distention through their aboundance.</p>
+               <p>If that which issueth forth by the excre<g ref="char:EOLhyphen"/>ments
+<pb facs="tcp:2865:12"/>
+of the part affected, bee a portion of that which is continued, within it, it shews either by the colour or substance what it is: wee shall speak heereafter of the predominant humour.</p>
+            </div>
+            <div n="12" type="canon">
+               <head>Canon XII.</head>
+               <p>After the knowledg of the cause conjoynt it follows, know whether it bee alone or if it bee fostered or furnished by any other cause antecedent. That which gathered, is by way of congestion through the fault of the part offended, is reput to bee alone: but when all the bodie, or any part of it, doth exoner the selfe on the member affected of any superabundant humor, the which o<g ref="char:EOLhyphen"/>verburthened, there is then a cause antece<g ref="char:EOLhyphen"/>dent, which doth accompany the conjoynt, so there be two sort of causes interne, to the which remead must be vsed.</p>
+            </div>
+            <div n="13" type="canon">
+               <head>Canon XIII.</head>
+               <p>The cause antecedent of the sicknesse, is double, the one is named Plethor or pleni<g ref="char:EOLhyphen"/>tud, the other is called Cacochymi, Plethor is a repletion of all the humours aequallie augmented, or of blood only.</p>
+               <p>Cacochymie is a repletion of Choler, melancholy or phlegme: the signes both of the one and the other, are taken both from
+<pb facs="tcp:2865:13"/>
+the causes antecedent, which doth gather the humor as from the temperature of the whole body, and of the principall parts, from the age, season, constitution of the aire, region, maner of living, and of the e<g ref="char:EOLhyphen"/>vacuation ordinar suppressed, as also from the accidents that befall all the qualities of the body: such as bee the colour, the habi<g ref="char:EOLhyphen"/>tud, the fashions, the functions animall, vi<g ref="char:EOLhyphen"/>tall, and naturall, as from the sleep, dreams, pulse, concoction, excrements, of the dis<g ref="char:EOLhyphen"/>eases ensuing, and of the things that hurts and profites.</p>
+            </div>
+            <div n="14" type="canon">
+               <head>Canon XIV.</head>
+               <p>There bee two sorts of plenitud, the one called <hi>plenitudo ad vires,</hi> in the which the blood, although it be not excessive, neither in quantity nor qualitie, overcharges never the lesse the weake forces of nature: the o<g ref="char:EOLhyphen"/>ther is, <hi>plenitudo ad vasa,</hi> the which in quantity surpasses the naturall limits or bounds: and this either light or gentle, when it fills only the cavity of the veines not farre exceeding mediocritie: or it is excessive when it extends, so that it al<g ref="char:EOLhyphen"/>most rives the veines through the fulnesse of it by too great aboundance: and althogh it bee verie excessive, it may bee so that na<g ref="char:EOLhyphen"/>ture
+<pb facs="tcp:2865:13"/>
+bee not chooked by it, for commonlie the force growes with the blood, but if it fall out that the forces bee abaited, then it is <hi>plenitudo supra vires.</hi>
+               </p>
+               <p>When then in a plethor, the bodie is on no wayes by a too great weight, lasie or heavie, and the force remaines stil in a state, it is onely a plentitud <hi>ad vasa.</hi> But when the bodie becomes heavie, lasie, doyled<g ref="char:punc">▪</g> the fleepe troubled and profond, seeming to carie as it were some thing, while hee sleepes, it is then plenitudo, supra vires.</p>
+            </div>
+            <div n="15" type="canon">
+               <head>Canan XV.</head>
+               <p>The causes that ingenders blood in a<g ref="char:EOLhyphen"/>boundance, are signes antecedents, of a plenitud as the complection temperat of all the whole bodie, but chiefly of the lever, and the heart, or else moderatly hot and humid.</p>
+               <p>The age growing for the bairnes and young men hath much blood, because they are not farre from there principes of na<g ref="char:EOLhyphen"/>turall generation.</p>
+               <p>The spring also for in it the blood abounds for then the cold ceaseth and there falls out waters.</p>
+               <p>Also good fare: a plesant past lyfe, with<g ref="char:EOLhyphen"/>out care, moderat excersise, and sleepe.</p>
+               <p>
+                  <pb facs="tcp:2865:14"/>The naturall evacuation, of blood sup<g ref="char:EOLhyphen"/>pressed: or the artificiall of long intermit<g ref="char:EOLhyphen"/>ted.</p>
+               <p>The accidents which showes the domi<g ref="char:EOLhyphen"/>nation of blood in the bodie, are the signes consequent of blood, such bee,</p>
+               <p>The colour of the face and all the bodie red, by the ordinare custome or mixed of red and whyt.</p>
+               <p>The swelling of the veines aequalie ap<g ref="char:EOLhyphen"/>pearing through all.</p>
+               <p>A manifest bending of the vessels, being full of blood by measure.</p>
+               <p>A lazines or wearying comming of it self without any labour, vnder the which the joynters by reason of their weight with great difficultie doe move the selfe, for it is when the great veines over full of blood doe exoner themselves in the litle, and they againe in the muscels, so that they are filled and bended.</p>
+               <p>The habitude of the bodie fleshie, because it doeth proceed of an aboundance of blood, yea the mediocer fleshy acompanied of a heat benigne, and vaporous, for that is a signe of nature temperat which ingen<g ref="char:EOLhyphen"/>ders aboundance of blood.</p>
+               <p>The fashions and cariag merrie, joviall,
+<pb facs="tcp:2865:14"/>
+peaceable, gentle, because they are marks of a body well disposed.</p>
+               <p>The heavinesse of the head proceeding from the aboundance of vapours ascending vpwards.</p>
+               <p>The sleepe profound and pleasant, with dreames of things pleasant.</p>
+               <p>The pulse strong, great, and full, for in it the veines are so full, that they doe infuse a part in the neighbors arters by an anastomo<g ref="char:EOLunhyphen"/>sie, the which being filled, causes such a pulse and that not onelie in the shakle bones, but also in the temples, the fingers, and over all the body.</p>
+               <p>The respiration more difficill and fre<g ref="char:EOLhyphen"/>que<g ref="char:cmbAbbrStroke">̄</g>t, chiefly after exercise, because the mus<g ref="char:EOLhyphen"/>cells of the breast are made lazie throgh the aboundance of blood, hence it is that the re<g ref="char:EOLhyphen"/>spiration is made more frequent by reason of the vse, but shortned because the capaci<g ref="char:EOLhyphen"/>ty interior of the breast is made more strait.</p>
+               <p>The promptitud of rendring blood by the seages, aemerodes, monethly courses, water, nose, and spitle.</p>
+               <p>Moreover a continuall sweating during the time of the disease, is a token of pleni<g ref="char:EOLhyphen"/>tud.</p>
+            </div>
+            <div n="16" type="canon">
+               <pb facs="tcp:2865:15"/>
+               <head>Canon XVI.</head>
+               <p>
+                  <hi>Cacothymie</hi> is three fold, cholerick, me<g ref="char:EOLhyphen"/>lancholick, and phlegmatick: the causes that gathers aboundance of choler, are signes preceeding the same, such are,</p>
+               <p>The complexion hot and dry, for com<g ref="char:EOLhyphen"/>monly there ingenders much choler in men of a hot and dry complexion, by reason of the conformity of this humour with that temperament.</p>
+               <p>The manlie age which is betwixt 25 and 35. for in that, choler doth abound, because the naturall heat is much more dry and ac<g ref="char:EOLhyphen"/>tive then, than before a great part of the in<g ref="char:EOLhyphen"/>bred moist or sap being consumed by it.</p>
+               <p>The Summer, for the byle is more abun<g ref="char:EOLhyphen"/>dant than by reason of the circumsisting air, which makes the blood more hote and dry.</p>
+               <p>The climat hot and dry, the precedent dyet of these same qualities.</p>
+               <p>Such like great exercise, travell, anger, care, watching, fasting; and abstinence doth all gather byle.</p>
+               <p>Moreover the ordinar evacuation of bile by vomit, by the stoole, the water, the sweat, suppressed.</p>
+               <p>The consequent markes of abounding Choler, are,</p>
+               <p>
+                  <pb facs="tcp:2865:15"/>The whole colour of the body, pale, yel<g ref="char:EOLhyphen"/>low or blackish, drawing neere to that of Iandise or browne: for when the tempera<g ref="char:EOLhyphen"/>ment is excessive in heat, the colour is black</p>
+               <p>The state of the body, dry, leane, small, for such proportions are commonly bylous, as also hairie with the haire red, for it is the excrement of byle.</p>
+               <p>But more the black, for black haire is when the exhalation burnt by the force of the heat is changed in black, but the red is when it is not so burnt.</p>
+               <p>The greatnesse of the veines extended by the heat, for they who hath great veines are of complexion hote, but who hath strait and narrow veines, are of cold, for it is heat that doth inlarge.</p>
+               <p>The heat, sharp, and byting to the toucth.</p>
+               <p>Promptitud of courage, and a disposition to anger and revenge.</p>
+               <p>The sense lively, light and suddaine.</p>
+               <p>The spirit subtile, and of good invention, for the subtilitie and industrie of the judg<g ref="char:EOLhyphen"/>ment comes of the humor bylous.</p>
+               <p>The sleepe little and light, accompanied with inquyetud, great watching, testifying the great drynes of the braine fro<g ref="char:cmbAbbrStroke">̄</g> the which they flow, or else from aboundance of a hu<g ref="char:EOLhyphen"/>mor,
+<pb facs="tcp:2865:16"/>
+bilious with them.</p>
+               <p>The dreames of fire, warre, and things furious.</p>
+               <p>The pulse vehement, hastie and hardie.</p>
+               <p>Bitternesse of the mouth, losse of appetit, great thirst, venting of choler vpward and downward, with the bellie often constipat.</p>
+               <p>The water yellow, byting, inflammed, with little grounds.</p>
+               <p>The diseases bilious frequent, as fevers fierce and ardent, raverie, jandies, herpes, or ring-worme, erysiple, pustuls, cholericks dispersed through the whole body.</p>
+            </div>
+            <div n="17" type="canon">
+               <head>Canon XVII.</head>
+               <p>The melancholick distemper is knowne first by the causes productives of melancho<g ref="char:EOLhyphen"/>lie, as are: The temperature cold and dry, with a debility of the melt, or hote from the beginning, but become cold by change, for if any hote and dry before, by an adusti<g ref="char:EOLhyphen"/>on of the blood ingenders much black bile, hee becomes cold and dry, and in end me<g ref="char:EOLhyphen"/>lancholick.</p>
+               <p>The declining age which is betwixt 35: and 45. for melancholie doth abound in that age, for succeeding to the youth, which is the most bilious of all, it receives the bile burnt.</p>
+               <p>
+                  <pb facs="tcp:2865:16"/>The harvest, in it also melancholie a<g ref="char:EOLhyphen"/>bounds, for succeeding to the Summer, it receaves the brunt bile from it.</p>
+               <p>Grosse food and viscuous, as browne bread, porcks flesh, beif, haires flesh, Harts flesh, chiefly salted, thick black wine, beir, and old cheife.</p>
+               <p>The life sad occupied in great affaires in contemplation, studying without recreation or exercise of the body, for by it the natural heat diminisheth, and the humors becomes grosse and thick.</p>
+               <p>The suppression of melancholy that vsed to bee by the aemrodes, monethly courses, seages, with scabs or by medecine.</p>
+               <p>As also by the signes of melancholy, pre<g ref="char:EOLhyphen"/>dominant in the body, as are: the colour browne or blackish, of the face and all the body, the skinne full of scabs, hardnesse, swelling and paine of the melt: The habitud of the body dry and lean, the visage sad and heavie: feare, silence, solitarinesse, vrine, i<g ref="char:EOLhyphen"/>magination, conceits: for the constancie of the spirit comes of an humour melancho<g ref="char:EOLhyphen"/>lick.</p>
+               <p>The mind slow to wrath, but being in<g ref="char:EOLhyphen"/>censed, hard to bee appeased.</p>
+               <p>The sleep troubled with horrible dreams
+<pb facs="tcp:2865:17"/>
+as with sightes of evill spirits, tortoures of death, sepulchres, and other things feareful.</p>
+               <p>The pulse litle, slow, hard.</p>
+               <p>The appetit depravat sometime disordi<g ref="char:EOLhyphen"/>nat by reason of a sowre mater adhearing to the orifice of the stomacke.</p>
+               <p>The water clear and whyt, where there is no melancholy mixed, but thick and black where there is some mixed.</p>
+               <p>The diseases melancholicks frequently ar<g ref="char:EOLhyphen"/>riving.</p>
+            </div>
+            <div n="18" type="canon">
+               <head>Canon XVIII.</head>
+               <p>The knowledg of a pituitous distemper is taken from the causes antecede<g ref="char:cmbAbbrStroke">̄</g>t, procrea<g ref="char:EOLhyphen"/>ting it, and the signes assequent following it, the antecedent are, the complexion of the body, cold and humid: the old age which is from 49. to the tearme of life: for in that age, by reason of the weaknes of the natural heat, much flegme is ingendred.</p>
+               <p>The Winter, because that season as re<g ref="char:EOLhyphen"/>porteth <hi>Hip</hi>: replenishes the body with flegme, both because of the length of the nights, and also by reason of the abundance of raine. The rainie reason, for the watrie aire which doth inviron the body: gathers quantity of pituitous humors, and of watrie superfluities. The great vses of humid and
+<pb facs="tcp:2865:17"/>
+moist meat, the frequent drinking of water and any kynd of excesse, either in meat or drinke: idlenesse and want of exercise, with a sedentarie or sitting life: long sleep, but e<g ref="char:EOLhyphen"/>specially after meat. The following markes of flegme are, the colour of the face and all the body somewhat whitish, grayish, or livid, beeing withall swelled: the whole body growne, and fat, for fat folke are com<g ref="char:EOLhyphen"/>monly cold and phlegmatick, grease being ingendred by the coldnesse of the habitude of the body: the veines and arteries little and strait, as comming of little blood and few spirits, the skin whit and soft without hair, because the complexion cold and hu<g ref="char:EOLhyphen"/>mid is no wayes hairie. The haire is whit, because procreat of flegme: all the senses of the body heavie and lazie: the spirit stupid, the sleep profound, the pulse little, small, &amp; soft.</p>
+               <p>Slow digestion, oft belshing with a sowr taste, a desire to vomit, the water whitish, crud, and troubled sometimes with a thick ground.</p>
+               <p>Pituitous and flegmatick diseases frequent<g ref="char:EOLhyphen"/>ly occurring, or cold catarrhes, and the like.</p>
+            </div>
+            <div n="19" type="canon">
+               <head>Canon XIX.</head>
+               <p>The antecedent causes pointing a windy
+<pb facs="tcp:2865:18"/>
+                  <hi>Cacochymie,</hi> are, the stomack cold and hu<g ref="char:EOLhyphen"/>mid, with the debility of naturall heat, pro<g ref="char:EOLhyphen"/>ceeding of a simple intemperature or with humors indigested.</p>
+               <p>The melt swelled and bouden vp with melancholy, hindering by a sympathie, the digestion of the stomack.</p>
+               <p>Meats windy, as raw fruits, beanes, pease, chesnuts, and the like.</p>
+               <p>Overmuch drinke, too much vse of boy<g ref="char:EOLhyphen"/>led meat, drunkennesse, and gluttonie.</p>
+               <p>Lacke of exercise, great sleepe, the age, the countrie, the season of the yeare cold, doth cause aboundance of ventosites.</p>
+               <p>And when winde is gathered in the body by reason of the former causes, there is found a distention of the ventricle, of the colick gowt, chiefly on the left side, with a noyse.</p>
+               <p>The wandring distenting paines running heere and there through the whole body.</p>
+               <p>There is heard wind issuing at all occasi<g ref="char:EOLhyphen"/>ons both vp and down, from whence com<g ref="char:EOLhyphen"/>meth some ease: there is remarked often a singing in the eares.</p>
+               <p>The colik with other diseases arysing of wind, troubleth often.</p>
+            </div>
+            <div n="20" type="canon">
+               <pb facs="tcp:2865:18"/>
+               <head>Canon XX.</head>
+               <p>The externall causes of sicknesse, called of the Greekes <hi>procatartik</hi> commonly na<g ref="char:EOLhyphen"/>med primitives, should be diligently search<g ref="char:EOLunhyphen"/>ed, for they lead vs as well to the knowledg of the cause intern, as of the disease, for, aire, meat, and drink to warme, watching, great and violent motion, anger, and the suppression of the excrements, ingenders hote humours, and hote diseases. In the contrare, cold food with a cooling aire, sleepe, Idleset, feare, and all evacuation im<g ref="char:EOLhyphen"/>moderat causes cold humors, and cold dis<g ref="char:EOLhyphen"/>eases. Dry diseases ordinarly accompanies the hote causes, and the humide, the cold. For hote doth ordinarly bring with it drouth, and cold, humiditie, because it is the mother of crudities. For to find out then exactlie the cause and effect of the maladie which is hid, it is needefull by a diligent inquisition, and interrogation of all things, which commonlie are called, not naturall causes, to learne of the sick if he hath exposed himselfe to an intemperat or impure aire, if he hath committed any excesse in meat and drinke, or in watching and labouring, or if he hath bene too fierce in Venus service, or if the spirit hath not
+<pb facs="tcp:2865:19"/>
+beene troubled by passions, or if any ordi<g ref="char:EOLhyphen"/>nare evacuation bee not suppressed, as the monethly courses to women, and the flux of the aemrodes to men, and so much the ra<g ref="char:EOLhyphen"/>ther wee ought to inquyre carefully of the things past, because the ignorance of the causes is not without great danger: for if a fever should fall into long watching, fasting, or over great dallying with Venus, then without consideration of the cause of the disease, presently they would draw blood and purge, should they not thinke you ha<g ref="char:EOLhyphen"/>zard his life, seeing the disease to haue come from evacuation: For in the contrare wee ought rather to repare the forces by analep<g ref="char:EOLhyphen"/>tiks or restoring things, and not augment it by Phlebotomie and cathartiks.</p>
+            </div>
+         </div>
+         <div type="part">
+            <head>For to foresee the issue of the Disease.</head>
+            <div n="1" type="canon">
+               <head>Canon I.</head>
+               <p>
+                  <seg rend="decorInit">T</seg>He fundamentall laws of the Prog<g ref="char:EOLhyphen"/>nosticks, are taken from things naturall, not naturall, and conter
+<pb facs="tcp:2865:19"/>
+nature, as of the springs: for we foresee and foretell the sicknesse to be salutare or mor<g ref="char:EOLhyphen"/>tall, short or long, by the force, the consti<g ref="char:EOLhyphen"/>tution of the body and age of the Patient, the season, &amp; the forme of life, by the cause, the espece and seige of the evill, with the symptomes, which wee remarke in the change or diminution of the actions, the excrements and the qualities of the body.</p>
+            </div>
+            <div n="2" type="canon">
+               <head>Canon II.</head>
+               <p>If the forces bee strong to obtaine the victorie over the disease, without doubt the sick shall escape, if not shall die. For none dies so long as their force remaines: but so soone as the forces beginnes to yeeld to the burden of the sicknesse, then follow<g ref="char:EOLhyphen"/>eth death. Now to foretell the day of death yee must remarke how farre the sicknesse surpasseth the forces, and remarke the most violent accesse, for if one doth perceive the sicknesse so to outrepasse the forces, that they cannot bee able any longer to resist, death shall follow presently: but if it appear otherwise it shall be longer: so that the ori<g ref="char:EOLhyphen"/>gine of Prognosticks consists in the confer<g ref="char:EOLhyphen"/>ring of the forces with the sicknesse. For if nature bee strong enough to overcome the sicknesse, then the person shall escape: but
+<pb facs="tcp:2865:20"/>
+if it bee so weake that it cannot obtaine the victorie, death of necessity will follow, and yee must wait on the one or the other sooner or later, according as the forces are stronger or weaker: hence it appeares that all the other signes salubres or mortals are no otherwise, foresignes of death or life, but because they point foorth the forces or weaknesse of nature in the combat with the sicknesse.</p>
+            </div>
+            <div n="3" type="canon">
+               <head>Canon. III.</head>
+               <p>It is a great helpe to health to bee of a mediocre constitution of body, that is, nei<g ref="char:EOLhyphen"/>ther too fat nor too leane; for such a bodie hath great forces to resist vnto any disease that doth present the selfe: but where this mediocrisie is not, a grosse bodie is in a worse case then a small: for who are of that taillie, dies sooner then they that are of the other: because the veines and arteres of growne fat people are narrow and strait &amp; therefore hath both litle blood and spirits, so that the age concurring, vpon a light oc<g ref="char:EOLhyphen"/>casion, the naturall heat is choaked or ex<g ref="char:EOLhyphen"/>tinguished: But they that are of a leane and thin constitution, because they haue the veines &amp; arters larger, and also more blood &amp; spirits, which in them doth not so short<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:2865:20"/>
+incurre the danger of death: yet so it is that they are sooner troubled by externall causes, and that for lacke of flesh and greise, so the grosse are more obnoxius to interne injuries, the leane to extern.</p>
+            </div>
+            <div n="4" type="canon">
+               <head>Canon IV.</head>
+               <p>Youth hath great force to withstand the disease, because it hath store of naturall heat requisit to the concoction and excretion of the evill humors. Contrare, old age is not able to resist, because of the defect of force, not having much naturall heat. Hence it is that sicknesse are longer in old people then young, because they abound in cold hu<g ref="char:EOLhyphen"/>mors, the digestion whereof cannot be but in a long space, by reason of the weaknesse of their naturall heat: yea the greatest part of sicknesse that arrives to old people doth convoy them to their grave.</p>
+            </div>
+            <div n="5" type="canon">
+               <head>Canon V.</head>
+               <p>The Spring is verie wholesome and no wayes mortall, when it keeps the tempe<g ref="char:EOLhyphen"/>rature: but in Harvest the diseases are very strong and deadly for the most part. First because being cold and dry is diametrically opposed to our life, which consists in heat and moisture, and so hinders the generation of blood whereof our bodie is made and
+<pb facs="tcp:2865:21"/>
+nourished. Secondly, because it receives from the Summer preceeding the body languishing and wearie. Thirdly, because it beat back within the body the superfluous humors melted by the heat of Summer, and come foorth to the skin, to the end they may goe foorth. The fourth because about the twelfth hour it opens the pores of the body by the heat, and incontinent thereaf<g ref="char:EOLhyphen"/>ter becomes cold: it ryses within the bodie as an enemy to extinguish by its qualitie maligne the naturall heat already feeble and languishing. Moreover it gathers store of crudities within the body, the which doth choak the naturall heat, and that by the vse of fruits which it furninisheth.</p>
+               <p>The Summer hastenes sicknes, but the Winter doth retarde them, because in the Summer the pores being open, the evill humors of the body being melted, by the heat of the aire are suddainly dissipat, but in Winter they being closed by the cold they are retained within.</p>
+            </div>
+            <div n="6" type="canon">
+               <head>Canon VI.</head>
+               <p>Among the constititions of the seasons the dry is more wholesome and not so deadly as the rain, for it gathereth no excre<g ref="char:EOLunhyphen"/>ments and resists better to the putrefacti<g ref="char:EOLhyphen"/>on,
+<pb facs="tcp:2865:21"/>
+the humid in the contrar causes many superfluities from whence are the genera<g ref="char:EOLhyphen"/>tion of diseases, when the seasons are con<g ref="char:EOLhyphen"/>stant keeping there temperature ordinar, so that all things doth naturally fall out in them, the diseases are lykewayes con<g ref="char:EOLhyphen"/>stant and facily to be vnderstood, but when the season is inconstant, so are the sicknes variable and hard to be vnderstood, for there crise is accompanied with dan<g ref="char:EOLhyphen"/>gerous symptomes where they suddenly cause death or ells leaves a matter to a new sickenesse.</p>
+               <p>When the sicke proves a good second to the physitian fighting againes the sick<g ref="char:EOLhyphen"/>nes, it is easie to obtaine the victorie.</p>
+               <p>Now when he beleues the physition and puts in practise his ordinances hee serves him for a second and declares himselfe enemie of the disease: in the contrar if quy<g ref="char:EOLhyphen"/>ting the physition he takes part with the disease accomplishing that which hee de<g ref="char:EOLhyphen"/>syres, he hazards his life two wayes the one in leaving the physition aboue in com<g ref="char:EOLhyphen"/>bat, the other in serving as a second to the sickenesse which was before alone, for it is certaine two is stronger nor one.</p>
+            </div>
+            <div n="8" type="canon">
+               <pb facs="tcp:2865:22"/>
+               <head>Canon VIII.</head>
+               <p>The greatnes of the sickenesse followes the greatnes of the cause, for as a light cause produces a light evill, even so a great causeth a great. Hence a vehement cause contrar nature is a most certaine indice of a great and dangerous sicknes.</p>
+            </div>
+            <div n="9" type="canon">
+               <head>Canon IX.</head>
+               <p>Byle causes still, quicke diseases, which are termined or ended within few dayes because it is easilie resolved by its subti<g ref="char:EOLhyphen"/>litie, but melancholie is the most viscuous of all the humors, and makes longest ac<g ref="char:EOLhyphen"/>cesses, because it is dry cold and thicke, being the lyfe of the blood. Next to me<g ref="char:EOLhyphen"/>lancholy is phlegme in difficulty of digesti<g ref="char:EOLhyphen"/>on and expulsion by reason of its viscositie</p>
+            </div>
+            <div n="10" type="canon">
+               <head>Canon X.</head>
+               <p>The diseases that hath some resem<g ref="char:EOLhyphen"/>blance with the nature, bodily constitution, and age of the diseased, are lesse dangerous then these that hath no conformity, for all sicknesse, hot, cold, dry, moist, being con<g ref="char:EOLhyphen"/>forme to the complexion, age, and bodily constitution of the sicke, and also to the season hath so much lesse danger, as it is lesse removed from the naturall constituti<g ref="char:EOLhyphen"/>on, and so may more easily returne, as pro<g ref="char:EOLhyphen"/>ceeding
+<pb facs="tcp:2865:22"/>
+fro<g ref="char:cmbAbbrStroke">̄</g> a lighter, yea a slighter cause. As in the contrare, the disease that hath no af<g ref="char:EOLhyphen"/>finity, neither with the temper, taillie, nor age of the Patient, or with the season, is much more dangerous then the former, be<g ref="char:EOLhyphen"/>ing further removed from the naturall com<g ref="char:EOLhyphen"/>plexion, and therefore worse to cure: as proceeding of a greater and stronger cause. So that of two burnt fevers equall in gran<g ref="char:EOLhyphen"/>dure that which fals out in the Summer to a young man leane of body, of temper hot, shall not be so dangerous as that which fals out in the Winter to an old man of a fat body and cold complexion.</p>
+            </div>
+            <div n="11" type="canon">
+               <head>Canon XI.</head>
+               <p>Meeke and gentle relenting diseases are commonly long, but the sharpe, fyrie, and fierce are ended within fourteene dayes, and the extreame hot in seven dayes.</p>
+               <p>There can no certain prediction be made of hot, sharp diseases, either for health nor death, for by that they are quick<g ref="char:EOLhyphen"/>ly ended, they become on a suddaintie great: so that both for the greatnesse of the disease, with the suddaine change which befals in the crise, as also because the hu<g ref="char:EOLhyphen"/>mor is often transported from one place to another, the issue is vncertaine, wherefore
+<pb facs="tcp:2865:23"/>
+while the humor is in its motion, we must suspend our judgement, for it is not certain whether it will rush on a noble or ignoble part, within or without by passages conve<g ref="char:EOLhyphen"/>niable or not conveniable: &amp; thogh the hu<g ref="char:EOLhyphen"/>mor were staied in one place, yet the Physi<g ref="char:EOLhyphen"/>cian ought not resolutly affirme that the sick shall escape, but with this provision, that no new change befall, and that hee follow the advise and keep the regiment prescri<g ref="char:EOLhyphen"/>bed.</p>
+               <p>When a woman with child is overtaken by any firie hot disease, shee is in danger of her life, for a hot fyrie fever requyres a strait dyet, which shee cannot admit, least the child being frustrat of his food shee be broght to bed before the time: and if oft to save the child, yee give the mother often to eat, the fever thereby growing yee shall precipitat the mother in a manifest hazard of her life, and if it be any other strong sick<g ref="char:EOLhyphen"/>nesse without fever, as a epilepsie, apoplexy, convulsion, shee shall never be able to sup<g ref="char:EOLhyphen"/>port the vehemencie of it.</p>
+            </div>
+            <div n="12" type="canon">
+               <head>Canon XII.</head>
+               <p>To foretell the event of the disease, yee must consider diligently the part that is of<g ref="char:EOLhyphen"/>fended, whether it bee noble or ignoble,
+<pb facs="tcp:2865:23"/>
+publick or privat, for the condition, digni<g ref="char:EOLhyphen"/>tie, and necessitie of the part that suffereth, are of great importance, for the pronounc<g ref="char:EOLhyphen"/>ing of a sentence to the profit or prejudice of the sick.</p>
+            </div>
+            <div n="13" type="canon">
+               <head>Canon XIII.</head>
+               <p>In all diseases the constancie of the rea<g ref="char:EOLhyphen"/>son not troubled: with the bounty of the ap<g ref="char:EOLhyphen"/>petit still readie for taking of whatsome<g ref="char:EOLhyphen"/>ever shall bee offered to it, is a good signe, and the contrare is an evill: the satlednesse of the reason, and sharpnesse of the appetit are numbred among the good markes, be<g ref="char:EOLhyphen"/>cause the former beares witnesse of the temperat disposition of the braine, the <hi>me<g ref="char:EOLhyphen"/>nings</hi> or tayes of the harnes, and of the mar<g ref="char:EOLhyphen"/>row of the backe, the medrife and all the nervous parts, and the latter shews the in<g ref="char:EOLhyphen"/>tegritie of the stomack and lever: In the contrare, the alienation and troubling of the reason, and the losse of appetit, are evill signes, because the one betokens the animal parts to be affected, the other the naturall.</p>
+               <p>All they that are troubled with paine or dolour in any part of the body whatsome<g ref="char:EOLhyphen"/>ever, and are not sensible of it, hath the rea<g ref="char:EOLhyphen"/>son troubled, because the apprehension doth not perceiue in any measure the evill.</p>
+            </div>
+            <div n="14" type="canon">
+               <pb facs="tcp:2865:24"/>
+               <head>Canon XIV.</head>
+               <p>It is good to sleep in the night to make reparation of the spirits animals and dige<g ref="char:EOLhyphen"/>stion of the humors, by the meanes of the heat that enters within the center of the body, and to watch in the day, for the clea<g ref="char:EOLhyphen"/>ring of the same spirits, to give motion to the humors, and to make expulsion of the excreme<g ref="char:cmbAbbrStroke">̄</g>ts: but it is a verie pernicious signe not to sleepe night nor day, for continuall watching commeth either of the dolour, paine, and torment that they suffer, or of the drynesse of the braine, which in end will cause an alienation of the mind.</p>
+               <p>Sleepe likewise surpassing the borders of mediocrite, is in like maner evill, because it is a marke of extreame coldnesse of the braine, which causeth a lethargie if it bee mixed with humidity or catalepsie, if with drynesse.</p>
+               <p>When in a sicknesse sleepe is noysome and hurteth, there is danger of death: for if the sleep hurts, that time, that hath bene ac<g ref="char:EOLhyphen"/>customed to helpe much, as in the decline of any sicknesse, it is not without cause that it foretelleth death: and that because the heat reteared within the body the time of the sleep, and by this meanes increase. No<g ref="char:EOLhyphen"/>table
+<pb facs="tcp:2865:24"/>
+neverthelesse either by reason of its weaknesse or the maliciousnesse of humors overcome the cause of the disease, shews that nature no wayes strengthned or com<g ref="char:EOLhyphen"/>forted by this meanes but rather hurt, is ready to succumbe vnder the burden of the disease being stronger.</p>
+            </div>
+            <div n="15" type="canon">
+               <head>Canon XV.</head>
+               <p>The pulse is the faithful messenger of the heart, bringing certaine news of death and life: The pulse great and strong is a token of force, on the which is builded the hope of recoverie of the health, but the pulse litle, weake and languishing, shews the weaknes of the vitall facultie, from whence is the feare of death: the inequality of the pulse is alwayes evill when it perseveres, the intermission of it in young men is most dangerous, for it threatneth with present death, if it bee not from an obstruction and oppression of the arters, it is lesse dange<g ref="char:EOLhyphen"/>rous in bairnes, and least of all in old men.</p>
+            </div>
+            <div n="16" type="canon">
+               <head>Canon XVI.</head>
+               <p>Yee must know that the respiration and breathing, free without stoppe is very wholesome, in all sharpe or quicke dis<g ref="char:EOLhyphen"/>eases: Because it denotes the temperature of the breast, and of the parts therein
+<pb facs="tcp:2865:25"/>
+contained. As also the respiration remain<g ref="char:EOLhyphen"/>ting whole, declares the naturall heat yet to be strong for to fight valiantly with the disease in the contrar, the difficultie of brea<g ref="char:EOLhyphen"/>thing showes the indisposition of the vitall parts, and the suffocation of the forces.</p>
+               <p>For the respiration frequent and great, is a signe of some inflamation of the parts within the breast: but the great and rare, foreshow a future alienation of the Spirit, as the respiration, little and rare, betokens as death, because it beares witnes of the exstinction of the naturall heat, which one perceives clearly by the coldnes of the breath ishuing at the nostrells and the mouth.</p>
+            </div>
+            <div n="17" type="canon">
+               <head>Canon XVII.</head>
+               <p>It is a good signe to have still a whole heart, for they that falls often in lypothimy or swowning without a manifest cause, dies in end suddenly, because of the debi<g ref="char:EOLhyphen"/>litie of the vital faculty.</p>
+            </div>
+            <div n="18" type="canon">
+               <head>Canon XVIII.</head>
+               <p>The coction of the humor appearing in the excrements of the sicke, signifies the crise to be shortly with an assurance of health. But the crudity denotes either that there shall be no crise, or that the pati<g ref="char:EOLhyphen"/>ent
+<pb facs="tcp:2865:25"/>
+is mightily troubled or that the disease shall be longer, or afterward it shall re<g ref="char:EOLhyphen"/>turne, or that death shall follow on it. For as when the coction is made, when na<g ref="char:EOLhyphen"/>ture is victorious, of the causes of the disease, so the contrar befalls when shee is overcome by them. So the foecall mater beeing soft, aequall, and yellow, and not having an evill smell is judged to be good, because it is well digested. Such<g ref="char:EOLhyphen"/>lyke the water of a mediocer consistence of colour some what yellow, having grounds whyt, vnited and aequall is reput singulare good, because it beares witnes of the digestion, of the humour vitious and consequently of the victorie of nature over it, in the contrar the dejection liquid and waterie whyt and pale, is reput evill, be<g ref="char:EOLhyphen"/>cause it is crude or raw, as also the vrine waterie, and small whyt and shyning out of measure is not good, because it is raw, and without digestion.</p>
+            </div>
+            <div n="19" type="canon">
+               <head>Canon XIX.</head>
+               <p>When the excrements of the sicke are not verie different from the excrements of the whole, it showes the disease to be light, but if there be a verie great difference yee must apprehend the disease to be dead<g ref="char:EOLhyphen"/>ly.
+<pb facs="tcp:2865:26"/>
+For the excrements much different, showes nature to be overcome by the greatnes of the disease. Therefore the foecall mater black, livid, green &amp; stinking are mor<g ref="char:EOLunhyphen"/>tall, because they are whole alienat from there naturall constitution and the water that is blacke and thicke and troubled as that of oxen are most evill, because ex<g ref="char:EOLhyphen"/>treamly removed from the naturall.</p>
+               <p>The same mixed in colour foreshowes a long disease, for they denote diverse indis<g ref="char:EOLhyphen"/>positions caused of diverse humors, and therefore it is necessar that nature imploy a long tyme to the coction having so many enemies to combat with.</p>
+               <p>The vrine in the which yee see grease swiming like Spider webs, are thought e<g ref="char:EOLhyphen"/>vill, because they declare a melting of the body by an extraordinar heat:</p>
+            </div>
+            <div n="20" type="canon">
+               <head>Canon XX.</head>
+               <p>Sweats are good in all sharp or fierie dis<g ref="char:EOLhyphen"/>eases when they fal out on the critick days, and causeth the fever wholly to cease: they are good also when they make the disease more easie to the Patient providing they be vniversall. But this which brings no ease and serves to no vse, also these that are cold and appeares only about the head, the face,
+<pb facs="tcp:2865:26"/>
+and neck are most evill: for in a hot fyrie and quick fever they prognostick death, and in a gentle the longnes of the disease: a cold sweat ru<g ref="char:cmbAbbrStroke">̄</g>ning without ceasing in great aboundance, is a marke of long disease, because it comes of a great quantity of a grosse and cold mater, which cannot easi<g ref="char:EOLhyphen"/>ly bee dissipat, neither dantoned by the na<g ref="char:EOLhyphen"/>turall heat: as a hote sweat wils a short disease, being caused of a subtile mater, which matter in short space will bee dis<g ref="char:EOLhyphen"/>solved.</p>
+            </div>
+            <div n="21" type="canon">
+               <head>Canon XXI.</head>
+               <p>If the visage of the sick bee like to the countenance of whole persons, it is a very excellent signe, chiefly if it looke like it self being whole. In the contrare, it is a verie e<g ref="char:EOLhyphen"/>vill signe when it is different from the na<g ref="char:EOLhyphen"/>turall, and when it is hideous to behold, as it is then when the nose is sharpe, the eyes hollow, the temples abaited, the eares cold and drawne in, the lap of the eare turned, the skin of the face hard extended and dry, the colour of the face pale or blacke, livid or lead coloured. For if this deformity do not proceed of a manifest cause, as of lack of sleepe or meat, or of a flux of the bellie, without doubt it presages death to be near,
+<pb facs="tcp:2865:27"/>
+seing this great extenuation is made by the malignity of the disease.</p>
+            </div>
+            <div n="22" type="canon">
+               <head>Canon XXII.</head>
+               <p>Where there is perceived a change through the whole body, so that it is now cold, then hot, sometime of one colour then of another, it foretels a long disease. For the indisposition diversly mixed, are still longer then these that are of a fast forme or fashion, for nature cannot danton moe at once. Now the changing of qualities and humors, demonstrats the disease to bee caused of diverse humors, in the coction whereof, nature hath need to imploy much time: for according to the varietie of hu<g ref="char:EOLhyphen"/>mors within, there appeares varietie of colours without.</p>
+            </div>
+            <div n="23" type="canon">
+               <head>Canon XXIII.</head>
+               <p>It is a good signe to have the hypochon<g ref="char:EOLhyphen"/>dres (that is, the space vnder the short ribs) on either side soft, equall, and without do<g ref="char:EOLhyphen"/>lour: but verie evill to haue them hard, bended, inequall and painefull, for as the former shews the good temperature of the epigastrick muscells, of the mesentary, the liver, the melt, and the stomacke: so the latter declares an intemperature, to wit, an inflammation, a skirrh or wind to bee in
+<pb facs="tcp:2865:27"/>
+these parts.</p>
+               <p>In all diseases it is good that the parts a<g ref="char:EOLhyphen"/>bout the navell, and the inferior part of the bellie bee grosse, fat, and in good case, but evill when they are extenuat and leane, for the hypocondres grosse and fleshie are markes of force: but the small and extenuat are evill, both as signes and as causes: for<g ref="char:EOLhyphen"/>asmuch as they are signes of the debilitie of the parts extenuat, and causes that the di<g ref="char:EOLhyphen"/>gestion is not well elaborat in the stomack, nor the sanguification in the lever, for the grossenesse or fatnesse of the epigastre or low parts of the belly augments the natural heat, by the which the parts within being warmed they digest better the meat, and so makes better blood.</p>
+            </div>
+            <div n="24" type="canon">
+               <head>Canon XXIV.</head>
+               <p>As to the consideration of these things that fals out in the body, if yee remarke any good signe, yee must not thinke for that, that assuredly the sick shall escape, neither although there do appeare any evill signes that hee shall die, for a good signe may bee over weighted by an evill, being great: And on the contrare, an evill may be overcome, a good being stronger.</p>
+            </div>
+            <div n="25" type="canon">
+               <pb facs="tcp:2865:28"/>
+               <head>Canon XXV.</head>
+               <p>The disease quyts the sick either wholly at once by way of crise, or by litle and litle by way of resolution. Crise is a suddaine change of the disease into health, or else in<g ref="char:EOLhyphen"/>to death, which is then when nature sepa<g ref="char:EOLhyphen"/>rats the vitious humours from the good, and that for to expell them, Of it there bee two sorts, the one is by excretion, and the other by absesse, that comes by a flux of blood or sweat, or a flux of the bellie, or vomit, or flux of the vrine.</p>
+            </div>
+            <div n="26" type="canon">
+               <head>Canon XXVI.</head>
+               <p>The good crise arives on the 7.14. or 20 day, wherefore these dayes are called Cri<g ref="char:EOLhyphen"/>ticks. The future crise was foreseene by the signes of digestion, appearing the 4.11. and 17. day: hence these dayes are called of of the Greeks <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, that is in dicatives, contemplatives: for according to the doctrine of <hi>Hip.</hi> the 4. day is the in<g ref="char:EOLhyphen"/>dicative of the 7. the 8. is the beginning of the next moneth, the 11. is also remark<g ref="char:EOLhyphen"/>able, because the fourth of the second weik, the 17. is also to bee observed, because the 4. after the 14. and the 7. from the 11.</p>
+            </div>
+            <div n="27" type="canon">
+               <head>Canon XXVII.</head>
+               <p>When the crise is to bee on the 7. day, there is perceived on the fourth day prece<g ref="char:EOLhyphen"/>ding
+<pb facs="tcp:2865:28"/>
+a red cloud in the water, and other signes correspondent: for because the 4. day is the pointer out of the 7. if there ap<g ref="char:EOLhyphen"/>peare any signe of concoction that day, it forwarnes the crise to bee on the 7. day. Where then there appeares a clowd in the water not only red but whyt, and yet ra<g ref="char:EOLhyphen"/>ther a whyt hypostasies or ground, vnited and equall, if so bee the motion of the sick<g ref="char:EOLhyphen"/>nesse bee suddaine, it is a presage of the fu<g ref="char:EOLhyphen"/>ture crise.</p>
+               <p>When the crise draws neare, the night preceeding is verie troublesome, but that which follows is ordinarly more easie to indure. For while nature is making a separation betwixt the good and evill hu<g ref="char:EOLhyphen"/>mors that fals out, that in this exercise of nature the disease is much troubled. But so it is that this great worke appeares, the night before the crise, because the sleepe is interrupted: but the night that follows the crise perfyte, they are much more at their owne ease, because nature is disburdened of superfluous humors,</p>
+            </div>
+            <div n="28" type="canon">
+               <head>Canon XXVIII.</head>
+               <p>The vniversall signes by the which one discernes the espece of the crise to come, are taken from the kind of the disease, from
+<pb facs="tcp:2865:29"/>
+the part that is diseased, and from the na<g ref="char:EOLhyphen"/>ture of the Patient: For hot and quicke diseases, are ordinarly judged by excretion, but the cold and long by abscesse.</p>
+               <p>If there bee an inflammation in the gib<g ref="char:EOLhyphen"/>bous part of the lever, yee must expect a crise by a flux of blood at the right nostrile, or by a flux of the vrine, if the inflammati<g ref="char:EOLhyphen"/>on bee in the hollow part of it, then yee must expect it by a flux of the belly, or vo<g ref="char:EOLhyphen"/>mishment, or sweat. The inflammations of the braine and of all the head, are common<g ref="char:EOLhyphen"/>ly judged by an haemorragie at the nose, but that of the stomack and mesenterie by vomishment, or a flux downeward.</p>
+               <p>Moreover a flux of blood fals oftenest to young men cholericks, overtaken with a hot fever, and a flux of the bellie to old men phlegmaticks. There the common, and now heere the proper prognosticks of e<g ref="char:EOLhyphen"/>verie crise.</p>
+               <p>Rednes of the face, extreame dolour of the head and the necke, a beating of the arters in the temples, the distention of hypochondres with dificultie of breathing a dimnes tnd watering of the eys, singing of the eares, and itching of the nostrell<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> prognosticks the crise to be a flux of blood
+<pb facs="tcp:2865:29"/>
+by the nose.</p>
+               <p>A heat and heavines of the loynes with a paine and extention of the hypograster, foreshowes a crise to be by a flux men<g ref="char:EOLhyphen"/>struall.</p>
+               <p>A suppression of the water, with a prick<g ref="char:EOLhyphen"/>ing &amp; shivering through the whole bodie, with the pulse soft and waterie and the exteriour parts of the bodie hote and vaporous, betokens that it will be by sweat.</p>
+               <p>Rifts, ventosites, or winds, a bending of the belly, and paine of the neires by a flux of the belly: losse of appetit or lothing of meat with a thrawing of the heart and sorenes of the head, with a dissinesse, great spitting, bitternesse in the mouth, and a trembling of the vnder lip prognosticks a future crise by vomit.</p>
+               <p>When the signes of concoction hath gone before, and when the motions of a crise, hath beene perceived: then it may be ex<g ref="char:EOLhyphen"/>spected by a flux of the vrine, if there doeth not appeare any marke of a crise by a flux of blood, not by sweat, flux of the belly, vomit, and specialy when the patient feels an heavines in the hypograster, and an heat about the end of the privie member,
+<pb facs="tcp:2865:30"/>
+having also made much water thicke and grosse during his disease, or if he be aged, and sick in the Winter, it foretells it the rather.</p>
+               <p>A heavines and paine of the head, with a profoundity of sleepe and deafnesse, suc<g ref="char:EOLhyphen"/>ceeding immediatly to a difficultie of breathing suddenly ariving without any manifest cause, to one sick with a long dis<g ref="char:EOLhyphen"/>ease, points foorth an absesse to be behind the eare.</p>
+               <p>But if there be no signe of a paritude, and that the sicke hath had his vrine of a long tyme cleare and vndigested, and when he finds a heavinesse, a paine, a ben<g ref="char:EOLhyphen"/>ding or tension, a heat in the hypochon<g ref="char:EOLhyphen"/>dres, ye must exspect an absesse in the lower pairts. If any part of the bodie hath beene hurt before, there shall the aposteme or absesse be. An absesse falls out most fre<g ref="char:EOLhyphen"/>quently in winter and after on imperfyt crise.</p>
+            </div>
+            <div n="29" type="canon">
+               <head>Canon XXIX.</head>
+               <p>Moreover, a good crise ought to be signi<g ref="char:EOLhyphen"/>fied before in the day of indication and should fall out in a critike day, with a ma<g ref="char:EOLhyphen"/>nifest excretion, or notable absesse: with<g ref="char:EOLhyphen"/>out dangerous accidents. It ought also to be perfyt. I call a perfyt crise, that which
+<pb facs="tcp:2865:30"/>
+evacuats all the vitious mater. And on im<g ref="char:EOLhyphen"/>perfyt, that which evacuats but one part for the former is sure, but you must not be<g ref="char:EOLhyphen"/>leeve the latter, for the evill humors re<g ref="char:EOLhyphen"/>maining after a crise, are wont to make one recidiwe.</p>
+               <p>Moreover a crise is iudged to be good by reason of the convenable qualitie and reasonable quantity, with the forme agre<g ref="char:EOLhyphen"/>able, and the time opportune.</p>
+               <p>A crise is knowne to be perfyt and assur<g ref="char:EOLhyphen"/>ed by the restablishing of the functions na<g ref="char:EOLhyphen"/>turalls, vitals and animalls, by the cocti<g ref="char:EOLhyphen"/>on of the excrements, or by qualitie or forme of the body reduced and made con<g ref="char:EOLhyphen"/>forme to the naturall.</p>
+            </div>
+            <div n="30" type="canon">
+               <head>Canon XXX.</head>
+               <p>Yee must not trust to any ease, or aleag<g ref="char:EOLhyphen"/>ment which falls without cause, nor feare evill symptomes ariving against reason, for the most part of those are inconstant and doth not last a long time: for when any vehement diseases ceaseth of the selfe without any evacuation, either by sweat, vomit, flux downward, or hemorrage vp<g ref="char:EOLhyphen"/>ward, or without any signe of concoction one must not take that ease to be assured, neither must one beleeve to it seing it doth
+<pb facs="tcp:2865:31"/>
+threaten with something of greater evill which follow thereon. As also one must not be affraighted of the evills that befalls without, or rather contrare reason, as dif<g ref="char:EOLhyphen"/>ficultie of breathing, raverie, shiviring reduplication of the fever, seing they are not constant nor of long last, and so farre from signifying any thing evill, that on the contrar they presage often a good crise which shall arive to the great ease of the patient.</p>
+            </div>
+         </div>
+         <div type="part">
+            <head>The right methode of cu<g ref="char:EOLhyphen"/>ring the disease.</head>
+            <div n="1" type="canon">
+               <head>Canon I.</head>
+               <p>
+                  <seg rend="decorInit">W</seg>Hosever will exactly keepe the method of right proceeding in the cure, ought to begin at the first indications, then come to those that followes them. Afterward to the next and never leave off, till they haue come to the end pretended. Wee take heere indica<g ref="char:EOLhyphen"/>tion for that which serves to teach vs the
+<pb facs="tcp:2865:31"/>
+way in the cure of the disease, to attaine to health.</p>
+            </div>
+            <div n="2" type="canon">
+               <head>Canon II.</head>
+               <p>The forces before all things ought to be keeped in those who are diseased: after the indication of the forces, followes the con<g ref="char:EOLhyphen"/>sideration of the indisposition which is proposed to be cured. The forces wills allways their conservation, and the indis<g ref="char:EOLhyphen"/>position its ablation. Now as the forces are keeped or conserved by their like so the in<g ref="char:EOLhyphen"/>disposition is taken away by the contrary.</p>
+            </div>
+            <div n="3" type="canon">
+               <head>Canon III.</head>
+               <p>In all diseases where the efficient cause is yet present, you must begin your cure at the same for it is impossible to cure per<g ref="char:EOLhyphen"/>fytly any disease, whileas the cause that doth ingender it, is present: so the maladies ceas<g ref="char:EOLhyphen"/>eth never till the evill humors ingendring them bee banished, which doth lurke with<g ref="char:EOLhyphen"/>in the body.</p>
+            </div>
+            <div n="4" type="canon">
+               <head>Canon IV.</head>
+               <p>After the taking away of the cause, you must next turne you to the disease ingendred of the cause, keeping for a generall rule, first the ablation of the cause efficient, and next of the maladie.</p>
+            </div>
+            <div n="5" type="canon">
+               <pb facs="tcp:2865:32"/>
+               <head>Canon V.</head>
+               <p>The cure of the symptome is never first intended, but alwayes that of the maladie which causeth the symptome. Yet when the symptome minaceth with death, or greater and suddainer danger then the dis<g ref="char:EOLhyphen"/>ease it selfe, the cure of it may bee first at<g ref="char:EOLhyphen"/>tempted.</p>
+            </div>
+            <div n="6" type="canon">
+               <head>Canon VI.</head>
+               <p>While as the disease is growing, wee must hinder the growth of it, and take a<g ref="char:EOLhyphen"/>way that part that is already inge<g ref="char:cmbAbbrStroke">̄</g>dred. The generation of that which is to come, is hin<g ref="char:EOLhyphen"/>dred by taking away the cause antecedent, and the maladie alreadie ingendred is bani<g ref="char:EOLhyphen"/>shed by taking away the cause conjoynt.</p>
+            </div>
+            <div n="7" type="canon">
+               <head>Canon VII.</head>
+               <p>In all diseases caused of fluxion, yee must first stoppe that which floweth yet: next draw foorth that which already is flowed. Therefore the cure of a phlegmon, catarrhe, and of all other diseases that are caused by a fluxion, lookes all to two buts, the first is, that the humour which runneth yet bee stayed, the other, that that part of it which is already in the part bee evacuat.</p>
+            </div>
+            <div n="8" type="canon">
+               <head>Canon VIII.</head>
+               <p>In all diseases complicate, the one where<g ref="char:EOLhyphen"/>of
+<pb facs="tcp:2865:32"/>
+cannot be cured without the other, there must respect bee holden to order: now me<g ref="char:EOLhyphen"/>thod or order requyres still the cure of that first, which hindreth the cure of the other: as if a phlegmon were accompanied with a vlcer, yee must first take away that, then cicatrize this.</p>
+            </div>
+            <div n="9" type="canon">
+               <head>Canon IX.</head>
+               <p>When two indications are directly op<g ref="char:EOLhyphen"/>posit one to another, yee must not regard so the one, that yee misregard the other, but rather having as good mind of this as of that, make a mixture as equall as ye can. As for example, if one be troubled by two so contrarie diseases, that the one desires a hot, the other a cold remead, yee must then make vse of one temperat, to that end it do harme neither to the one nor to the other, but rather help both. So when the stomack is cold, and the lever over hot, things tem<g ref="char:EOLhyphen"/>perat are convenable, and all that is mixtio<g ref="char:EOLhyphen"/>ned of hot and cold things: or the alterna<g ref="char:EOLhyphen"/>tive vse of the one and the other. Hence is it that when a phlegmon is in its grouth, there is mixed repercussives with digesti<g ref="char:EOLhyphen"/>ves.</p>
+            </div>
+            <div n="10" type="canon">
+               <head>Canon X.</head>
+               <p>When there is remarked a repugnance
+<pb facs="tcp:2865:33"/>
+among the indications, after you haue well considred that which is taken from the for<g ref="char:EOLhyphen"/>ces, and also the indication of the cause, the disease, thou shall follow the most impor<g ref="char:EOLhyphen"/>tant of all, not neglecting howsoever the other.</p>
+            </div>
+            <div n="11" type="canon">
+               <head>Canon XI.</head>
+               <p>It is a maxime most necessarie, that com<g ref="char:EOLhyphen"/>mands to cure first the most importunat danger, (For the indisposition, that is the first &amp; principall cause of precipitating the diseased in any danger, ought first to bee helped.) Wherefore excessive watching, cruell paine, all evacuation out of measure, chiefly of blood, the suppression of superflui<g ref="char:EOLhyphen"/>ties, and other like symptomes, which wea<g ref="char:EOLhyphen"/>kens the forces, and augments the disease, in such sort, that there may arrive quickly some danger, constraines often the Physitian to quyt the cure of the sicknesse to occur to these symptomes.</p>
+            </div>
+            <div n="12" type="canon">
+               <head>Canon XII.</head>
+               <p>The generall method of curing diseases is accomplished by the convenable quantity and quality of the remedies, with the ma<g ref="char:EOLhyphen"/>ner and time of vsing of them.</p>
+            </div>
+            <div n="13" type="canon">
+               <head>Canon XIII.</head>
+               <p>It is requyred that all the remedies bee
+<pb facs="tcp:2865:33" rendition="simple:additions"/>
+contrare in quality to the disease, for <hi>con<g ref="char:EOLhyphen"/>traria, contrariis curantur.</hi> For if all that which is immoderat be contrare to nature, and that which is moderat agreeable to na<g ref="char:EOLhyphen"/>ture: of necessitie it will follow that that which is out of measure must bee brought to measure by its contrare in like degree out of measure. Hence is it that all diseases ingendred of repletion, are cured by evacu<g ref="char:EOLhyphen"/>ation: and these that proceed of evacuation by repletion, and such like of the rest.</p>
+            </div>
+            <div n="14" type="canon">
+               <head>Canon XIV.</head>
+               <p>The temper of the body diseased with the disease it selfe, shews the measure of the contrarietie: forasmuch as it is not enough to apply cold remedies to a hot disease: if that be not done with a measure reasonable, otherwise not equall in measure, it is to bee feared that there remaine some portion of the disease, or being excessive that one dis<g ref="char:EOLhyphen"/>ease contrar to the other bee moved: For to occur to this wee must know the nature of the body, that is to be handled to that end that vnderstanding how farre the disease exceeds mediocritie, one may exactly mea<g ref="char:EOLhyphen"/>sure the proportion of the refrigeratiue re<g ref="char:EOLhyphen"/>medie. Therefore the quantity of everie remead ought to be measured according to
+<pb facs="tcp:2865:34" rendition="simple:additions"/>
+the complexion of the sick, and the great<g ref="char:EOLhyphen"/>nesse of the sicknesse.</p>
+            </div>
+            <div n="15" type="canon">
+               <head>Canon XV.</head>
+               <p>The contrare remedies must be put in vse litle by litle, and now and then make intermission, for it is dangerous to evacuat all at once, or yet to fill, to heat, or coole, or to chang the bodie suddenly in any o<g ref="char:EOLhyphen"/>ther maner, for all that which is excessive is enemie to nature, but that which is done by litle and litle, is without danger, for it is therefore surer to serve your selfe mo<g ref="char:EOLhyphen"/>deratly of contrarie remedies, then to vse excessively and suddainly, for as much as na<g ref="char:EOLhyphen"/>ture doeth not suffer sudden changes with<g ref="char:EOLhyphen"/>out hazarde.</p>
+            </div>
+            <div n="16" type="canon">
+               <head>Canon XVI:</head>
+               <p>When diseases are in the beginning, then move that which seemes good to be mov<g ref="char:EOLhyphen"/>ed, but when they are in their vigour, it is better to let them alone in rest, for it is more expedient to vse remedies in the be<g ref="char:EOLhyphen"/>gining, then in hight of the disease, for two reasons, the one because the accidents are weaker at the entres and at the end, then in the hight: the other, because nature whol<g ref="char:EOLhyphen"/>lie imployed at that time about the cocti<g ref="char:EOLhyphen"/>on and excretion of the humor noysome,
+<pb facs="tcp:2865:34"/>
+ought not to be diverted or hindered by any remeed, for seing the digestion is then, it is better in the beginning to evacuat a part of the humour vitious, that nature may the more easily overcome the rest: but when the maladie is in its vigour, na<g ref="char:EOLhyphen"/>ture occupied alreadie about the concocti<g ref="char:EOLhyphen"/>on, it is no more tyme to vse evacuation.</p>
+            </div>
+            <div n="17" type="canon">
+               <head>Canon XVII.</head>
+               <p>If the espece of the sicknes be so obscure that thou can not take it vp at the first, make no hast in vsing remedies, rather suf<g ref="char:EOLhyphen"/>fer nature to worke it out her selfe, for be<g ref="char:EOLhyphen"/>ing helped by a good dyat, in end shee shall banish the sickenesse foorth. Where she shal make it manifest. For a remead vn<g ref="char:EOLhyphen"/>certaine and doubtfull cannot be ordained, without prejudice. If perhaps thou be con<g ref="char:EOLhyphen"/>strained to vse one at the least, let it be light, to that end, that if it be not profitable, at the least it be not hurtfull.</p>
+            </div>
+            <div n="18" type="canon">
+               <head>Canon XVIII.</head>
+               <p>A simple cure is sufficient for a simple disease, but when it is composed with an other, then it requyres a composed remeed.</p>
+            </div>
+            <div n="19" type="canon">
+               <head>Canon XIX.</head>
+               <p>For the accomplishing of the cure it is not enough that the physition doe his due<g ref="char:EOLhyphen"/>tie
+<pb facs="tcp:2865:35"/>
+but that the sick also &amp; they that are a<g ref="char:EOLhyphen"/>bout him, that there be nothing wanting of that which is required, for it is requisit that the diseased strive to fight with the disease, with the medicine, and so obey him, and not give way to his pleasures, hauing about him people sitting for his service, being wel lodged, and furnished with commodities needfull.</p>
+            </div>
+            <div n="20" type="canon">
+               <head>Canon XX.</head>
+               <p>The medicine that doth all things ac<g ref="char:EOLhyphen"/>cording to reason, although that things suc<g ref="char:EOLhyphen"/>ceed not according to expectatio<g ref="char:cmbAbbrStroke">̄</g>, ought not to change his bute, or end proposed in his method purposed from the beginning. For that is but small wisdome to quyt light<g ref="char:EOLhyphen"/>ly that which seemde expedient although the successe hath not bene according to ex<g ref="char:EOLhyphen"/>spectation, for as the marke of a drop of water falling on a stone, doth not appeare sensiblie, but after a long space it falls, e<g ref="char:EOLhyphen"/>ven so in raw or vndigested diseases which receives no coction, but with difficultie, vnto the which when reason hath found that which is conveniable, according to all indications considered one after other: one must not leave off the course intended, al<g ref="char:EOLhyphen"/>though there hath no manifest vtilitie
+<pb facs="tcp:2865:35"/>
+bene found from it, if that some other ac<g ref="char:EOLhyphen"/>cident doe not fall out, which doeth con<g ref="char:EOLhyphen"/>straine to quyt the first purpose, for wee haue reason to vse the remedies which those indications did furnish.</p>
+            </div>
+            <div n="21" type="canon">
+               <head>Canon XXI.</head>
+               <p>There be three sorts of remedies, by the which all indispositions are cured that be curable, to wit by dyat, by chirurgie or manuall operation, and pharmacie or re<g ref="char:EOLhyphen"/>meeds outward and inward, it is needfull that the diat be repugnant to the sicknesse and familiar to nature, for wholesome food is that which is contrare to that, which is contrare to nature, and like to that which is according to nature, so hot meates are con<g ref="char:EOLhyphen"/>veneable to cold diseases, and cold meats in hot diseases, moist or humid meates, for the dry, and drying, for the weake and moist, wherefore it is expedient to pre<g ref="char:EOLhyphen"/>scribe a strait dyat to fat fleshie peoeple for such a dyat dryeth.</p>
+            </div>
+            <div n="22" type="canon">
+               <head>Canon XXII.</head>
+               <p>Meat and drinke more pleasant to the taste, but lesse profitable is to be preferred to that which is more profitable and plea<g ref="char:EOLhyphen"/>sant, for one must sometime permit meats which are not best, not onely to gratifie
+<pb facs="tcp:2865:36"/>
+the sicke but also for his further good, be<g ref="char:EOLhyphen"/>cause the stomacke imbraces more straitly and keepes better the meat that wee take willingly, and with great contentment, yea disgests it better. In the contrare, it rejects with disdaine these things that are disagree<g ref="char:EOLunhyphen"/>able to the taste because they moue a prease of vomiting, or cause some fluctuating, or inflation in the stomack, therefore wee must pleasure the sicke in things that are not verie hurtfull.</p>
+            </div>
+            <div n="23" type="canon">
+               <head>Canon XXIII.</head>
+               <p>In the ordaining of the dyat, there must respect bee had of the custome, for things of a long time accustomed, although worse, commonly hurts lesse then these which are not in custome.</p>
+            </div>
+            <div n="24" type="canon">
+               <head>Canon XXIV.</head>
+               <p>When the disease is in its vigour, it is ne<g ref="char:EOLhyphen"/>cessar then to vse a verie slender or weake dyat, as well for the greatnesse of the symp<g ref="char:EOLhyphen"/>tomes, as for the coction of the humor, for wee must not hinder natures coction of the humors by the coction of the meat.</p>
+            </div>
+            <div n="25" type="canon">
+               <head>Canon XXV.</head>
+               <p>When the disease is violent and quick, it causes incontinent extreame paine and dolour, wherefore wee must vse a most
+<pb facs="tcp:2865:36"/>
+sharpe and weake dyat, because such a dis<g ref="char:EOLhyphen"/>ease is in the vigour the first dayes, as the grievous symptomes which doe inconti<g ref="char:EOLhyphen"/>nently accompanie it from the beginning beares witnesse. For a most sharpe sicknes is that which attaines to its hight, that is, in the first foure dayes or little after.</p>
+            </div>
+            <div n="26" type="canon">
+               <head>Canon XXVI.</head>
+               <p>So soone as the sicknesse by its violence doth show that it is drawing near the hight then a strait dyat must be injoyned: but when the hight is long in comming as it fals out in long diseases, then a more large dyat would bee vsed, till the approaching of the hight, or a little before, and then yee must restraine it. Strait and small dyats are stil dangerous in long diseases, because they abait the forces which ought to be conser<g ref="char:EOLhyphen"/>ved in their integrity, to that end it may resist to the length of the disease.</p>
+            </div>
+            <div n="27" type="canon">
+               <head>Canon XXVII.</head>
+               <p>When the bodie is not cleane, the more you nourish it, the more yee hurt it: for see<g ref="char:EOLhyphen"/>ing the body full of vicious humors, hath more need of evacuation then nutrition: it appeares that they should not be too much nourished, because these evill humors ga<g ref="char:EOLhyphen"/>thered a long time in the body, spoyles the
+<pb facs="tcp:2865:37"/>
+food newly received: so that thereby the <hi>cacochymie</hi> is augmented to the double, which fals out chiefly then when the stomack is foule: for even as mixing of cleare water with muddy, it becomes al muddy and troubled: even so the meat, al<g ref="char:EOLhyphen"/>though pure and cleane of it selfe, yet taken in to great quantity in a foule body, be<g ref="char:EOLhyphen"/>comes wholly corrupt.</p>
+            </div>
+            <div n="28" type="canon">
+               <head>Canon XXVIII.</head>
+               <p>A larger dyat must be granted to bairnes then old folke, and a mediocre, to these of a middle age: because that old men indures easily hunger, next to them that are at the entry of the declining age, worse then these young men, worst of all boyes: for they that are growing hath much of the natural heat, and therefore hath much need of nourish<g ref="char:EOLhyphen"/>ment, otherwise their body should con<g ref="char:EOLhyphen"/>sume, but there is but little heat in old bo<g ref="char:EOLhyphen"/>dies: wherefore they need not much nou<g ref="char:EOLhyphen"/>rishment, because that too much should choake it.</p>
+            </div>
+            <div n="29" type="canon">
+               <head>Canon XXIX.</head>
+               <p>The great cavities in the body, in Win<g ref="char:EOLhyphen"/>ter and in the Spring, are naturallie hoter then at any other time, and the sleep long<g ref="char:EOLhyphen"/>er: wherefore in these the dyat may bee
+<pb facs="tcp:2865:37"/>
+larger, (heere by the cavities wee must vn<g ref="char:EOLhyphen"/>derstand the stomacke, the whole bellie containing the puddings, and the rest of the naturall parts that are appointed for dige<g ref="char:EOLhyphen"/>stion.) But if yee desire to know why the natural heat is augmented in Winter, <hi>Arist.</hi> attributs the cause to the circumsisting air, that is colder chasing by this meanes the naturall heat inward, while as in the Sum<g ref="char:EOLhyphen"/>mer it extends the selfe ordinarly through the whole body towards the heat that is without as familiar to it. Hence is it that in the Summer its substance is dissipat and exhals, but in Winter it is holden in and keeped there, and therefore all the coctions are the better made.</p>
+            </div>
+            <div n="30" type="canon">
+               <head>
+                  <hi>Canon</hi> XXX.</head>
+               <p>As to the forme and maner of dyat, one should eat lesse in the Summer &amp; the Har<g ref="char:EOLhyphen"/>vest &amp; ofter, but in the Winter and Spring more seldome, but more aboundantly: be<g ref="char:EOLhyphen"/>cause in the Summer and the Harvest hard<g ref="char:EOLhyphen"/>ly doth one digest meat, in Winter verie easily, but in the Spring some way well.</p>
+            </div>
+            <div n="31" type="canon">
+               <head>
+                  <hi>Canon</hi> XXXI.</head>
+               <p>Yee must nourish gentlie, and repare by little and little the bodies that hath beene extenuat of long time, and restore quickly
+<pb facs="tcp:2865:38"/>
+these that hath quickly beene taken down.</p>
+            </div>
+            <div n="32" type="canon">
+               <head>
+                  <hi>Canon</hi> XXXII.</head>
+               <p>You must give meat to the sick when as the sicknesse gives intermission or release, &amp; during the accesse abstaine from giving<g ref="char:punc">▪</g> for meat then is hurtfull, because that it withdraws nature from the digestion of the humor to the concoction of the nouri<g ref="char:EOLhyphen"/>tour, as also because by it the cause of the disease is augmented.</p>
+            </div>
+            <div n="33" type="canon">
+               <head>
+                  <hi>Canon</hi> XXXIII.</head>
+               <p>Among the operations of chirurgerie, phlebotomie, or drawing of blood, keepes the first rank: because it is the common re<g ref="char:EOLhyphen"/>mead of diseases which proceeds of pleni<g ref="char:EOLhyphen"/>tud or fulnesse, for by it an evacuation is made of the humors equally, being for this the most exquisit of all other meanes.</p>
+            </div>
+            <div n="34" type="canon">
+               <head>
+                  <hi>Canon</hi> XXXIV.</head>
+               <p>Phlebotomie is not only a remead eva<g ref="char:EOLhyphen"/>cuative, but also revulsive and derivative: for it is profitable when wee turne the course of the flux to the opposit part, or de<g ref="char:EOLhyphen"/>sires to turne it asid to the neighbour part.</p>
+            </div>
+            <div n="35" type="canon">
+               <head>
+                  <hi>Canon</hi> XXXV.</head>
+               <p>Wee must draw blood in hot fevers 'till the spirits faile and heart saint, if so bee the forces bee strong, also in great inflammati<g ref="char:EOLhyphen"/>ons
+<pb facs="tcp:2865:38"/>
+and extreame paines: for if one draw blood in hot fevers till the heart faint, all the body is incontinent cooled, and the ve<g ref="char:EOLhyphen"/>hement heat extinguished, to diverse after it, there followeth a flux of the bellie and a sweat. By this meanes some are wholly freed of the fever, others receives great ease, the vehemencie of their sicknesse ha<g ref="char:EOLhyphen"/>ving passed. This sort of bleeding is like<g ref="char:EOLhyphen"/>wise good in great inflammations, both for the former reasons, and for that it stops the flux causing the inflammation, and so hin<g ref="char:EOLhyphen"/>ders the growth of the phlegmon: by this same it appeaseth the great dolours caused of the heat of the fever, and of the inflam<g ref="char:EOLhyphen"/>tions: wherefore there is not found a re<g ref="char:EOLhyphen"/>mead more soveraine for insupportable do<g ref="char:EOLhyphen"/>lours, than it.</p>
+            </div>
+            <div n="45" type="canon">
+               <head>Canon XLV.</head>
+               <p>You must draw much blood, if the sicknesse doeth vrge and the forces doe permit, if not by litle and litle, and at diverse tymes, for all extreame evacuations are dangerous and cheifly bleeding being al at once.</p>
+            </div>
+            <div n="37" type="canon">
+               <head>Canon XXXVII.</head>
+               <p>They to whom purging and blood dra<g ref="char:EOLhyphen"/>wing is profitable, ought to be purged and bled in the spring. For that season is very
+<pb facs="tcp:2865:39"/>
+proper to make evacuation by phleboto<g ref="char:EOLhyphen"/>mie or pharmacie, because that at that time there is no extraordinar heat for to weak<g ref="char:EOLhyphen"/>en the body, by exhalation, nor great cold to make it stiffe, by congealing the humors in it, nor yet inaequall to disturbe the forces but rather a mediocre temper.</p>
+            </div>
+            <div n="38" type="canon">
+               <head>Canon XXXVIII.</head>
+               <p>You must not without great cause or deliberation open a veine to a woman with child, because that a woman with child bled, is broght to bed before the time, if the chyld be great, because having drawne blood of a woman with chyld: the chyld thereby frustrat of his food, famishing in the matrix of the mother, breaketh his bonds, and seeketh foorth for nourishment, and that before the time, except the mo<g ref="char:EOLhyphen"/>ther abound in blood: for then yee may be so farre from fearing it, that in the contrar if it be not administrat, both the mother &amp; the child are in danger as hath beene remar<g ref="char:EOLhyphen"/>ked in the persons of the most illustrious dames in the court of France: least the child should be choaked by the too great aboun<g ref="char:EOLhyphen"/>dance of blood.</p>
+            </div>
+            <div n="39" type="canon">
+               <head>Canon XXXIX.</head>
+               <p>Purgative medicines should be ordai<g ref="char:EOLhyphen"/>ned
+<pb facs="tcp:2865:39"/>
+to cacochymike diseases, these that purges the bile to bilious, they that phlegme, to phlegmaticks, and so of the rest, for the cure of one cacochymie is made by a purgation which is particularly appro<g ref="char:EOLhyphen"/>priat to the humor tha<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> exceedes, and a<g ref="char:EOLhyphen"/>mong the alterative potions the cold are appointed for the hot, the hot for the cold, the dry for the humids, and the humid to the dry, for the hot mistemper would be made cold, and the cold made hot, and such like of the rest.</p>
+            </div>
+            <div n="40" type="canon">
+               <head>
+                  <hi>Canon</hi> XL.</head>
+               <p>Strong potions would be given to strong diseases, and gentle medicins to more meik and gentle, for extreame remedies are fit<g ref="char:EOLhyphen"/>est for strong diseases: hence the Romane oratour desyrous to show how a curagious man should interprise hazards, sayes, in the presenting of himselfe to dangers, he must imitat the custome of the medicins, that handles gently those that are but lightly troubled, but in greater diseases are constrained to make vse of remedies more dangerous and doubtsome.</p>
+            </div>
+            <div n="41" type="canon">
+               <head>
+                  <hi>Canon</hi> XLI.</head>
+               <p>Wee must expell those things that re<g ref="char:EOLhyphen"/>quyres to be expelled, by the wayes most
+<pb facs="tcp:2865:40"/>
+proper whither nature chiefly tends: and divert them if they make not there course by the way they ought: the physition then ought curiously to mark the motion of na<g ref="char:EOLhyphen"/>ture, and the inclination of the humor, re<g ref="char:EOLhyphen"/>dounding: to that end, that if it tend to any place fitting, to help it, &amp; in the contrar, if it seek for one vnfitting, to hinder it and to draw it off that course. So if phlegmatick or melancholick humors take the course downeward and nature haue essayed already to banish by the retract the fever, the phy<g ref="char:EOLhyphen"/>sition ought to prescribe a clister or some other proper remead for to stir vp nature, and if a bilious humor bend vpward, and nature strive to expell it at the mouth, a vo<g ref="char:EOLhyphen"/>mit is expedient to be taken, for that is to draw thither the humor whither nature aimes cheifly, and if yee doe otherwise, you shall change the order and course of nature, constraine the forces, and put the sicke in hazard.</p>
+            </div>
+            <div n="42" type="canon">
+               <head>
+                  <hi>Canon</hi> XLII.</head>
+               <p>In very sharpe sicknesse yee must purge the same day, if the humor be moved. For it is not good to dryve over time, then, as sayes Hip. for feare least the evill grow, the forces become weaker, and the wan<g ref="char:EOLhyphen"/>dring
+<pb facs="tcp:2865:40"/>
+humors cease on some noble part. When then in most sharpe or violent dis<g ref="char:EOLhyphen"/>eases, wee perceive nature to bee touched with a great and ardent desire to discharge the selfe of the superfluous humors, wee must purge incontinent. And because that that desire doth not often overtake nature to disburden the selfe of vitious humors, in the beginning of such diseases wee must advise well to vse purgations at such a time of such a sicknesse.</p>
+            </div>
+            <div n="43" type="canon">
+               <head>
+                  <hi>Canon</hi> XLIII.</head>
+               <p>When you are to purge the bodie, you must prepare the body before &amp; make the humors fluxile: other wayes the purgation wil not be without great paine &amp; difficultie, grinding of the bellie, inquyetud, fainting, debilitie of the pulse, and dissolution of the forces: Now for to make the body fluxile, you must open all the passages of it, and make the grosse humors liquid that are within.</p>
+            </div>
+            <div n="44" type="canon">
+               <head>Canon XLIV.</head>
+               <p>You must purge the humors digested and prepared, not the raw and vnprepared, nei<g ref="char:EOLhyphen"/>ther in the beginning of any disease, except they be moved and haue no fixed place. For as nature is by no meanes moved to
+<pb facs="tcp:2865:41"/>
+the evacuating of any humor: except it have first prepared the mater, so the phy<g ref="char:EOLhyphen"/>sitian ought to purge the mater that is di<g ref="char:EOLhyphen"/>gested, not that which is vndigested, be<g ref="char:EOLhyphen"/>cause vndigested humors are slow to be moved, by reason of their viscositie and grossenesse, so that they stop the passages that goes from the extremities of the body to the belly, from the which the medicine doeth draw them, and by this meanes moves troublesome symptomes by their not going foorth.</p>
+            </div>
+            <div n="45" type="canon">
+               <head>Canon XLV.</head>
+               <p>You must purge women with child, if the mater be moved betwixt the fourth, and seventh moneth, but sooner or later, is to be feared, for the infant is fastned to the matrix of the mother, after the same ma<g ref="char:EOLhyphen"/>ner that the fruits are to the trees, fruites newlie budded hath there stalk so tender, that being beaten by any violent wind, they fall easily to the ground: but with tyme being more firmely fixed, they fall not so easily, vntill the time they become vnto there maturitie, and then they fall off themselues without violence. Even so fares it with women inco<g ref="char:cmbAbbrStroke">̄</g>tinent after their conception, if they leape or fall in any slip<g ref="char:EOLhyphen"/>rie
+<pb facs="tcp:2865:41"/>
+part, or yet move by any meanes either the spirit or the body, their new concepti<g ref="char:EOLhyphen"/>on easily falleth foorth, So fares it, with them, when the children are great. But in the mid terme of their time they are with chylde, they adheare faster to the matrix, &amp; are not so subject to be expelled: where<g ref="char:EOLhyphen"/>fore women with child, may suffer strong<g ref="char:EOLhyphen"/>er motions at that time without hurting their fruite, and so may be better purged.</p>
+            </div>
+            <div n="46" type="canon">
+               <head>
+                  <hi>Canon</hi> XLVI.</head>
+               <p>When the crise is, or when it hath already bene and the humors are finally expelled, we must move nothing, nor chang nothing, neither by physicke nor any other thing that may irritat nature, but rather suffer na<g ref="char:EOLhyphen"/>ture to worke it out her selfe: for seing the crise is a worke of nature, and not of the physitian, when shee is about it, or hath already obsolved it, the physitian ought to move nothing, but rather suffer her for feare of troubling her action, which she is whol<g ref="char:EOLhyphen"/>lie imployed about the bussines. But if the crise hath bene vnperfyt, it is the duetie of the medicine to purge that which rests of the vitious humors fearing least by pro<g ref="char:EOLhyphen"/>cesse of time, putrifying within the body, they renew the sicknesse.</p>
+            </div>
+            <div n="47" type="canon">
+               <pb facs="tcp:2865:42"/>
+               <head>Canon XLVII.</head>
+               <p>During the caniculare dayes, laxative medicines are not good, for all strong pur<g ref="char:EOLhyphen"/>gations are hardly supported that time, for three reasons. The first because all purgati<g ref="char:EOLhyphen"/>ves being naturally hot, inflammes the bo<g ref="char:EOLhyphen"/>dy already warme by the heat of the aire. The second is because they dissipat the for<g ref="char:EOLhyphen"/>ces already weakned by the vehemency of the heat. The third because the action of a purging medicine, &amp; that of the invironing aire are contrare, for asmuch as that doth draw from without, inward, and this from within, outward.</p>
+            </div>
+            <div n="48" type="canon">
+               <head>Canon XLVIII.</head>
+               <p>The lower part of the bellie or epigastre, being farre extenuat, cannot suffer without danger, purgations by the stoole.</p>
+            </div>
+            <div n="49" type="canon">
+               <head>Canon XLIX.</head>
+               <p>When a defluxion on any part that is troubled, you must repell it: wherfore re<g ref="char:EOLhyphen"/>percussives that haue vertue to bind are proper in the beginning of any defluxion, for two respects: the one because they forti<g ref="char:EOLhyphen"/>fie so the part, that it receives not so quick<g ref="char:EOLhyphen"/>ly the super fluities that doth abord: the o<g ref="char:EOLhyphen"/>ther because they presse foorth the most subtile portion of that which is already placed there.</p>
+               <trailer>FINIS.</trailer>
+               <pb facs="tcp:2865:42"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
