@@ -1,0 +1,557 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An English ballad in answer to Mr. Despreaux's Pindarique ode on the taking of Namure</title>
+            <author>Prior, Matthew, 1664-1721.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 15 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-09">2003-09 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A55904</idno>
+            <idno type="STC">Wing P3509</idno>
+            <idno type="STC">ESTC R21247</idno>
+            <idno type="EEBO-CITATION">12360277</idno>
+            <idno type="OCLC">ocm 12360277</idno>
+            <idno type="VID">60207</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A55904)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 60207)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 222:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An English ballad in answer to Mr. Despreaux's Pindarique ode on the taking of Namure</title>
+                  <author>Prior, Matthew, 1664-1721.</author>
+                  <author>Boileau Despréaux, Nicolas, 1636-1711. Ode sur la prise de Namur.</author>
+               </titleStmt>
+               <extent>[1], 7, 7 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Jacob Tonson ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Text of Boileau-Despréaux's "Ode sur la prise de Namur" in French, and Prior's ballad, on opposite pages; paged in duplicate.</note>
+                  <note>Attributed to Matthew Prior. Cf. Wing.</note>
+                  <note>First ed. Cf. BM.</note>
+                  <note>Reproduction of original in Harvard University Libraries.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Boileau Despréaux, Nicolas, 1636-1711. --  Ode sur la prise de Namur.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-06</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2003-06</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-08</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:60207:1" rendition="simple:additions"/>
+            <p>AN English Ballad: In ANSWER to Mr. <hi>DESPREAUX</hi>'s Pindarique ODE On the Taking of NAMURE.</p>
+            <q>Dulce est desipere in loco.</q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Iacob Tonson,</hi> at the <hi>Iudge's Head</hi> near the <hi>Inner Temple Gate</hi> in <hi>Fleetstreet,</hi> MDCXCV.</p>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="fre" type="ode">
+            <pb n="1" facs="tcp:60207:2"/>
+            <head>ODE sur la PRISE DE NAMUR.</head>
+            <lg>
+               <l>QUELLE docte &amp; sainte yvresse</l>
+               <l>Aujourd'hui me fait la loy?</l>
+               <l>Chastes Nymphes du Permesse,</l>
+               <l>N'est ce pas vous que je voy?</l>
+               <l>Accourez, Troupe sçavante,</l>
+               <l>Des sons que ma Lyre enfante</l>
+               <l>Ces arbres sont réjouïs.</l>
+               <l>Marquez-en bien la cadence;</l>
+               <l>Et vous, Vents, faites silence:</l>
+               <l>Je vais parler de LOUIS.</l>
+            </lg>
+            <lg>
+               <l>Dans ses chansons immorteles,</l>
+               <l>Comme un Aigle audacieux,</l>
+               <l>Pindare estendant ses aisles,</l>
+               <l>Fuit loin des vulgaires yeux.</l>
+               <l>
+                  <pb n="2" facs="tcp:60207:3"/>Mais, ô ma <unclear>fidele</unclear> Lyre,</l>
+               <l>Si, dans l'ardeur qui m'inspire,</l>
+               <l>Tu peux suivre mes transports;</l>
+               <l>Les chesnes des monts de Thrace</l>
+               <l>N'ont rien ouï que n'efface</l>
+               <l>La douceur de tes accords.</l>
+            </lg>
+            <lg>
+               <l>Est-ce Apollon, &amp; Neptune</l>
+               <l>Qui sur ces Rocs sourcilleux,</l>
+               <l>Ont, compagnons de fortune,</l>
+               <l>Basti ces murs orgueilleux?</l>
+               <l>De leur enceinte fameuse</l>
+               <l>La Sambre unie à la Meuse</l>
+               <l>Deffend le <unclear>fatal</unclear> abord,</l>
+               <l>Et par cent bouches horribles</l>
+               <l>L'airain sur ces monts terribles</l>
+               <l>Vômit le fer, &amp; la mort.</l>
+            </lg>
+            <lg>
+               <l>Dix mille vaillans Alcides</l>
+               <l>Les bordant de toutes parts,</l>
+               <l>D'éclairs au loin homicides</l>
+               <l>Font petiller leurs remparts:</l>
+               <l>Et dans son sein infidele</l>
+               <l>Par tout la terre y recele</l>
+               <l>
+                  <pb n="3" facs="tcp:60207:4"/>Un feu prest à s'élancer</l>
+               <l>Qui soudain perçant son goufre,</l>
+               <l>Ouvre un sepulchre de soufre</l>
+               <l>A quiconque ose avancer.</l>
+            </lg>
+            <lg>
+               <l>Namur, devant tes murailles</l>
+               <l>Jadis la Grece eust vingt ans</l>
+               <l>Sans fruit veu les funerailles</l>
+               <l>De ses plus fiers Combattans.</l>
+               <l>Quelle effroiable Puissance</l>
+               <l>Aujourd'huy pourtant s'avance</l>
+               <l>Preste à foudroyer tes monts!</l>
+               <l>Quel bruit, quel feu l'environnel</l>
+               <l>C'est Jupiter en personne,</l>
+               <l>Ou c'est le Vainqueur de Mons.</l>
+            </lg>
+            <lg>
+               <l>N'en doute point, c'est Lui-mesme.</l>
+               <l>Tout brille en Lui, Tout est Roy,</l>
+               <l>Dans Bruxelles Nassau blême</l>
+               <l>Commence à trembler pour toy.</l>
+               <l>En vain il void le Batâve</l>
+               <l>Desormais docile esclâve</l>
+               <l>Rangé sous ses étendars:</l>
+               <l>En vain au Lion Belgique</l>
+               <l>Il void l'Aigle Germanique</l>
+               <l>Uni sous les Leopards.</l>
+            </lg>
+            <lg>
+               <l>Plein de la frayeur nouvelle</l>
+               <l>Dont ses sens sont agités,</l>
+               <l>
+                  <pb n="4" facs="tcp:60207:5"/>A son secours il appelle</l>
+               <l>Les Peuples les plus vantés.</l>
+               <l>Ceux-là viennent du rivage</l>
+               <l>Où s'énorgueillit le Tage</l>
+               <l>De l'or qu'il roule en ses eaux;</l>
+               <l>Ceux-ci des champs où la nege</l>
+               <l>Des marais de la Norvege</l>
+               <l>Neuf mois couvre les roseaux.</l>
+            </lg>
+            <lg>
+               <l>Mais qui fait enfler la Sambre?</l>
+               <l>Sous les Jumeaux effrayés,</l>
+               <l>Des froids torrens de Decembre</l>
+               <l>Les champs par tout sont noyés.</l>
+               <l>Cerés s'enfuit éplorée</l>
+               <l>De voir en proye à Borée</l>
+               <l>Ses guerets d'épics chargés,</l>
+               <l>Et sous les urnes fangeuses</l>
+               <l>Des Hyades orageuses</l>
+               <l>Tous ses trésors submergés.</l>
+            </lg>
+            <lg>
+               <l>Déployez toutes vos rages</l>
+               <l>Princes, Vents, Peuples, Frimats,</l>
+               <l>Ramassez tous vos nuages;</l>
+               <l>Rassemblez tous vos Soldats.</l>
+               <l>Malgré vous Namur en poudre</l>
+               <l>S'en va tomber sous la foudre</l>
+               <l>Qui dompta l'Isle, Courtray,</l>
+               <l>Gand la superbe Espagnole,</l>
+               <l>
+                  <pb n="5" facs="tcp:60207:6"/>Saint Omer, Bezançon, Dole,</l>
+               <l>Ypres, Mastrich, &amp; Cambray.</l>
+            </lg>
+            <lg>
+               <l>Mes présages s'accomplissent:</l>
+               <l>Il commence à chanceler.</l>
+               <l>Sous les coups qui retentissent</l>
+               <l>Ses murs s'en vont s'écrouler.</l>
+               <l>Mars en feu qui les domine</l>
+               <l>Soufle à grand bruit leur ruine,</l>
+               <l>Et les bombes dans les airs</l>
+               <l>Allant chercher le tonnerre.</l>
+               <l>Semblent, tombant sur la Terre,</l>
+               <l>Vouloir s'ouvrir les Enfers.</l>
+            </lg>
+            <lg>
+               <l>Accourez, Nassau, Baviere,</l>
+               <l>De ces murs l'unique espoir:</l>
+               <l>A couvert d'une riviere</l>
+               <l>Venez, vous pouvez tout voir.</l>
+               <l>Considerez ces approches:</l>
+               <l>Voyez grimper sur ces roches</l>
+               <l>Ces Athletes belliqueux;</l>
+               <l>Et dans les eaux, dans la flâme,</l>
+               <l>LOUIS à tout donnant l'ame,</l>
+               <l>Marcher, courir avecque eux.</l>
+            </lg>
+            <lg>
+               <l>Contemplez dans la tempeste</l>
+               <l>Qui sort de ces Boulevars,</l>
+               <l>La plume qui sur sa teste</l>
+               <l>Attire tous les regards.</l>
+               <l>A cet Astre redoubtable</l>
+               <l>Toûjours un sort favorable</l>
+               <l>S'attache dans les combats:</l>
+               <l>Et toûjours avec la Gloire</l>
+               <l>Mars amenant la Victoire,</l>
+               <l>Vôle, &amp; le suit à grand pas.</l>
+            </lg>
+            <lg>
+               <l>Grands deffenseurs de l'Espagne,</l>
+               <l>Monstrez-vous, il en est temps.</l>
+               <l>
+                  <pb n="6" facs="tcp:60207:7"/>Courage, vers la Mehagne</l>
+               <l>Voila vos drapeaux flottans.</l>
+               <l>Jamais ses ondes craintives</l>
+               <l>N'ont veu sur leurs foibles rives</l>
+               <l>Tant de guerriers s'amasser.</l>
+               <l>Courez done. Qui vous retarde?</l>
+               <l>Tout l'Univers vous regarde.</l>
+               <l>N'osez-vous la traverser?</l>
+            </lg>
+            <lg>
+               <l>Loin de fermer le passage</l>
+               <l>A vos nombreux bataillons,</l>
+               <l>Luxembourg a du rivage</l>
+               <l>Reculé ses pavillons.</l>
+               <l>Quoy? leur seul aspect vous glace?</l>
+               <l>Où sont ses Chefs pleins d'audace</l>
+               <l>Jadis si prompts à marcher,</l>
+               <l>Qui devoient de la Tamise,</l>
+               <l>Et de la Drâve soûmise,</l>
+               <l>Jusqu'à Paris nous chercher?</l>
+            </lg>
+            <lg>
+               <l>Cependant l'effroy redouble</l>
+               <l>Sur les remparts de Namur.</l>
+               <l>Son Gouverneur qui se trouble</l>
+               <l>S'enfuit sous son dernier mur.</l>
+               <l>Déja jusques à ses portes</l>
+               <l>Je voy monter nos cohortes</l>
+               <l>La flâme &amp; le fer en main:</l>
+               <l>Et sur les monceaux de piques,</l>
+               <l>De corps morts, de rocs, de briques,</l>
+               <l>S'ouvrir un large chemin.</l>
+            </lg>
+            <lg>
+               <l>C'en est fait. Je viens d'entendre</l>
+               <l>Sur ces rochers éperdus</l>
+               <l>Battre un signal pour se rendre:</l>
+               <l>Le feu cesse. Ils sont <unclear>rendus</unclear>.</l>
+               <l>Dépoüillez vostre arrogance,</l>
+               <l>Fiers Ennemis de la France,</l>
+               <l>Et desormais gracieux,</l>
+               <l>Allez à Liege, à Bruxelles,</l>
+               <l>
+                  <pb n="7" facs="tcp:60207:8"/>Porter les humbles nouvelles</l>
+               <l>De Namur pris à vos yeux.</l>
+            </lg>
+            <lg>
+               <l>Pour moy, que Phebus anime</l>
+               <l>De ses transports les plus doux,</l>
+               <l>Rempli de ce Dieu sublime,</l>
+               <l>Je vais, plus hardi que vous,</l>
+               <l>Montrer que sur le Parnasse,</l>
+               <l>Des bois frequentés d'Horace</l>
+               <l>Ma Muse dans son declin,</l>
+               <l>Sçait encor les avenuës,</l>
+               <l>Et des sources inconnuës</l>
+               <l>A l'Auteur du Saint Paulin. <note n="*" place="bottom">
+                     <hi>Poëme Heroïque du sieur P</hi> **.</note>
+               </l>
+            </lg>
+            <trailer>Fin de l'ODE.</trailer>
+         </div>
+         <div xml:lang="eng" type="ballad">
+            <pb n="1" facs="tcp:60207:2"/>
+            <head>AN English Ballad: In ANSWER to Mr. <hi>Despreaux</hi>'s Pindarique ODE on the Taking of <hi>NAMURE.</hi>
+            </head>
+            <lg>
+               <l>WAS you not drunk, and did not know it,</l>
+               <l>When you thought <hi>Phoebus</hi> gave you Law?</l>
+               <l>Or was it not, good Brother Poet,</l>
+               <l>The chaste Nymph <hi>Maintenon</hi> you saw?</l>
+               <l>She charm'd you sure, or what's the matter,</l>
+               <l>That Oaks must come from <hi>Thrace</hi> to dance?</l>
+               <l>If Stocks must needs be taught to flatter,</l>
+               <l>You'll find enough of them in <hi>France.</hi>
+               </l>
+               <l>Why must the Winds all hold their Tongue?</l>
+               <l>If they a little Breath should raise,</l>
+               <l>Would that have spoil'd the Poet's Song,</l>
+               <l>Or pust away the Monarch's Praise?</l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>
+                  <hi>Pindar,</hi> that Eagle, mounts the Skies;</l>
+               <l>Whilst Virtue leads the noble way:</l>
+               <l>
+                  <pb n="2" facs="tcp:60207:3"/>
+                  <hi>Des Preaux,</hi> a Vulture, only flies</l>
+               <l>Where sordid Interest seeks the Prey.</l>
+               <l>When once the Poet's Conscience ceases,</l>
+               <l>His Measures soon from Truth will rove;</l>
+               <l>Give <hi>Boileau</hi> but Five Hundred Pieces,</l>
+               <l>And <hi>Louis</hi> takes the Wall of <hi>Iove.</hi>
+               </l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>
+                  <hi>Neptune,</hi> and <hi>Sol,</hi> came from above;</l>
+               <l>Shap'd like <hi>Megrigny,</hi> and <hi>Vauban,</hi>
+               </l>
+               <l>They arm'd these Rocks, then show'd old <hi>Iove</hi>
+               </l>
+               <l>At <hi>Trianon</hi> the wondrous Plan.</l>
+               <l>Such Walls these three wise Gods agreed</l>
+               <l>By Human Force could ne'er be shaken;</l>
+               <l>But, <hi>Boileau,</hi> we who <hi>Homer</hi> read,</l>
+               <l>Find Gods as well as Men mistaken.</l>
+               <l>
+                  <hi>Sambre</hi> and <hi>Maese</hi> their Waves may join,</l>
+               <l>But ne'er can <hi>WILLIAM</hi>'s Force restrain,</l>
+               <l>He'll pass them both, who pass'd the <hi>Boyn</hi>:</l>
+               <l>Remember this, and Arm the <hi>Sein.</hi>
+               </l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>Full Fifteen Thousand lusty Fellows</l>
+               <l>With Fire and Sword the Fort maintain;</l>
+               <l>Each was a <hi>Hercules,</hi> you tell us,</l>
+               <l>Yet they march'd but like other Men.</l>
+               <l>
+                  <pb n="3" facs="tcp:60207:4"/>Cannons above, and Mines below</l>
+               <l>Did Death and Tombs for Us contrive,</l>
+               <l>Yet <hi>WILLIAM</hi> order'd matters so,</l>
+               <l>That few were there but are alive.</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>Why is <hi>Namure</hi> compar'd to <hi>Troy</hi>?</l>
+               <l>Are We then braver than the <hi>Greeks?</hi>
+               </l>
+               <l>Their Siege did Ten long Years employ,</l>
+               <l>We've done our bus'ness in Ten Weeks.</l>
+               <l>What Godhead does so fast advance?</l>
+               <l>What Power Divine those Hills regain?</l>
+               <l>'Tis <hi>Brittain</hi>'s KING, the Scourge of <hi>France,</hi>
+               </l>
+               <l>No Godhead, but the first of Men.</l>
+               <l>His Arm shall keep your Victor under,</l>
+               <l>And <hi>Europe</hi>'s Liberty restore;</l>
+               <l>Your <hi>Iupiter</hi> must quit his Thunder,</l>
+               <l>And fright the injur'd World no more.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>Whilst <hi>WILLIAM</hi> trembles at <hi>Namure,</hi>
+               </l>
+               <l>Great <hi>Villeroy</hi> who ne'er afraid is,</l>
+               <l>To <hi>Bruxels</hi> marches on secure,</l>
+               <l>To Bomb the Monks, and scare the Ladies.</l>
+               <l>Add to this Glorious Expedition</l>
+               <l>One more, and then thy Fame is Crown'd,</l>
+               <l>
+                  <pb n="4" facs="tcp:60207:5"/>Perform thy Master's high Commission;</l>
+               <l>For <hi>William</hi> ne'er will stand his Ground.</l>
+               <l>Kings are allow'd to feign the Gout,</l>
+               <l>Or be prevail'd with not to fight;</l>
+               <l>And mighty <hi>Louis</hi> hop'd no doubt,</l>
+               <l>That <hi>William</hi> would preserve that Right.</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>He comes, this mighty Marshal comes,</l>
+               <l>But finds a River in his way;</l>
+               <l>He waves his Colours, beats his Drums,</l>
+               <l>Yet thinks it Prudence there to stay.</l>
+               <l>
+                  <hi>Ban</hi> and <hi>Arriereban,</hi> all appear,</l>
+               <l>Great Armies, would they march but faster;</l>
+               <l>But <hi>Vill'roy</hi> moves so slowly here,</l>
+               <l>One would have thought it was his Master.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Will no kind Floud, no friendly Rain</l>
+               <l>Disguise a General's Disgrace;</l>
+               <l>No Torrents swell this low <hi>Mehayne,</hi>
+               </l>
+               <l>The World will say, He durst not pass.</l>
+               <l>The Water-Nymphs are all unkind,</l>
+               <l>We hope the Land-Nymphs are not so:</l>
+               <l>Or Fortune sure with Love has join'd</l>
+               <l>To fail a General and a Beau.</l>
+            </lg>
+            <lg n="9">
+               <pb n="5" facs="tcp:60207:6"/>
+               <head>9.</head>
+               <l>Truth, Justice, Sense, Religion, Fame</l>
+               <l>May join to finish <hi>WILLIAM</hi>'s Story;</l>
+               <l>Nation's combin'd may bless his Name,</l>
+               <l>And <hi>France</hi> in secret own his Glory.</l>
+               <l>Yet, <hi>Boileau,</hi> we'll take t'other Strain</l>
+               <l>In Honour of that greater Prince,</l>
+               <l>Who lost <hi>Namure</hi> the same Campaign</l>
+               <l>He bought <hi>Dixmuyd,</hi> and conquer'd <hi>Deynse.</hi>
+               </l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>'Tis done, Great <hi>Louis,</hi> Troops advance,</l>
+               <l>
+                  <hi>Mars</hi> speaks thro' Cannons Mouths in Fire;</l>
+               <l>That is, one Mareschal of <hi>France</hi>
+               </l>
+               <l>Tells t'other, he dare come no nigher.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>Regain the Lines the shortest way,</l>
+               <l>
+                  <hi>Villeroy,</hi> or to <hi>Versailles</hi> take Post;</l>
+               <l>For you that saw it best can say</l>
+               <l>The Steps by which <hi>Namure</hi> was lost.</l>
+               <l>Think not what Reasons to produce</l>
+               <l>From <hi>Louis</hi> to conceal your Fear;</l>
+               <l>He'll own the Strength of your Excuse,</l>
+               <l>Tell him that <hi>WILLIAM</hi> was but there.</l>
+            </lg>
+            <lg n="12">
+               <pb n="6" facs="tcp:60207:7"/>
+               <head>12.</head>
+               <l>But where is now great <hi>Louis</hi> Feather,</l>
+               <l>That wav'd so glorious from afar?</l>
+               <l>The Generals could not come together,</l>
+               <l>Without the Lustre of that Star.</l>
+               <l>Ah, Poet, thou hadst been discreeter,</l>
+               <l>Since thou would'st hang his Hat so high,</l>
+               <l>If thou had'st call'd it but a Meteor,</l>
+               <l>That blaz'd a while, and then God b'y.</l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>To animate the doubtful Fight,</l>
+               <l>The World in vain expects that Ray;</l>
+               <l>In vain <hi>France</hi> hopes the Sickly Light</l>
+               <l>May equal <hi>WILLIAM</hi>'s fuller Day.</l>
+               <l>Safe <hi>Louis</hi> shines, knows his own Station,</l>
+               <l>He likes not any Foreign Sphere;</l>
+               <l>Where you see <hi>Boileau</hi>'s Constellation,</l>
+               <l>Be sure no Danger can be near.</l>
+            </lg>
+            <lg>
+               <l>Of Death, Pikes, Rocks, Arms, Bricks, and Fire,</l>
+               <l>We'll play three Stanza's, and have done;</l>
+               <l>The Castle yields, the <hi>French</hi> retire,</l>
+               <l>So keep your Powder in your Gun.</l>
+               <l>
+                  <hi>Namure</hi> by <hi>WILLIAM</hi>'s Arms is freed;</l>
+               <l>For <hi>Dixmuyd</hi> something yet is due;</l>
+               <l>
+                  <pb n="7" facs="tcp:60207:8"/>So good Count <hi>Guiscar</hi> may proceed;</l>
+               <l>But <hi>Boufflers,</hi> Sir, one Word with you.</l>
+            </lg>
+            <lg>
+               <l>March, Foes of <hi>France,</hi> march on thro' <hi>Flanders,</hi>
+               </l>
+               <l>Divide to <hi>Bruxelles,</hi> or to <hi>Liege</hi>;</l>
+               <l>Nor fear the least these fierce Commanders,</l>
+               <l>Who neither fight, nor raise the Siege.</l>
+               <l>Losing <hi>Namure, France</hi> gains a Peer;</l>
+               <l>Let <hi>WILLIAM</hi>'s Armies but advance,</l>
+               <l>
+                  <hi>Bouffler</hi>'s shall lose <hi>Dinant</hi> next Year,</l>
+               <l>And be made Constable of <hi>France.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

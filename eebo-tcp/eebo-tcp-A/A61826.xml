@@ -1,0 +1,827 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse concerning the church ... by the Right Reverend Father in God, Robert Sanderson ...</title>
+            <author>Sanderson, Robert, 1587-1663.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1688</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-05">2004-05 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A61826</idno>
+            <idno type="STC">Wing S597</idno>
+            <idno type="STC">ESTC R2316</idno>
+            <idno type="EEBO-CITATION">12692052</idno>
+            <idno type="OCLC">ocm 12692052</idno>
+            <idno type="VID">65856</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A61826)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 65856)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 368:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse concerning the church ... by the Right Reverend Father in God, Robert Sanderson ...</title>
+                  <author>Sanderson, Robert, 1587-1663.</author>
+               </titleStmt>
+               <extent>[8], 27 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T.B. for R. Taylor,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1688.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+                  <note>(from t.p.) I. concerning the visibility of the true church -- II. concerning the Church of Rome -- III. concerning Protestant churches -- IV. an answer to this question, Where was your church before Luther?</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-02</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2004-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2004-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:65856:1"/>
+            <p>Imprimatur,
+<hi>Hic Libellus cui Titulus,</hi> A
+Discourse concerning the
+Church, <hi>&amp;c.</hi>
+            </p>
+            <closer>
+               <date>Iuly 28.
+1688.</date>
+               <signed>Io. Battely.</signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:65856:1"/>
+            <p>A
+DISCOURSE
+Concerning the
+CHURCH
+In these following PARTICULARS.</p>
+            <list>
+               <item>I. Concerning <hi>the Visibility of the true
+Church.</hi>
+               </item>
+               <item>II. Concerning <hi>the Church of Rome.</hi>
+               </item>
+               <item>III. Concerning <hi>Protestant Churches.</hi>
+               </item>
+               <item>IV. An Answer to this Question; <hi>Where
+was your Church before Luther?</hi>
+               </item>
+            </list>
+            <p>BY
+The Right Reverend Father in GOD
+<hi>ROBERT SANDERSON</hi>
+Late <hi>Lord Bishop</hi> of <hi>LINCOLN.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi>
+Printed by <hi>T. B.</hi> for <hi>R. Taylor,</hi> MDCLXXXVIII.</p>
+         </div>
+         <div type="publisher_to_the_reader">
+            <pb facs="tcp:65856:2"/>
+            <pb facs="tcp:65856:2"/>
+            <head>THE
+PUBLISHER
+TO THE
+READER.</head>
+            <p>THat the following Discourses are
+Genuine and Authentick; and were
+really writ by that excellent Pre<g ref="char:EOLhyphen"/>late
+whose name they bear; can never be
+doubted by the Learned and Iudicious <hi>Reader.</hi>
+For the Composures of that incomparable Pen
+are so Close and Logical, and his Stile so Mas<g ref="char:EOLhyphen"/>culine
+<pb facs="tcp:65856:3"/>
+and Convincing, as not easily to be imi<g ref="char:EOLhyphen"/>tated
+by any other Hand.</p>
+            <p>However to justifie my Integrity herein
+(since <hi>posthumous</hi> Writings lye under Suspici<g ref="char:EOLhyphen"/>on)
+I shall give this further Satisfaction;
+That about <hi>Twenty</hi> Years since, I received
+these Papers from the Hands of that well-known
+good Man Mr. <hi>Io. Pullen</hi> of <hi>MAGDALEN-HALL,</hi>
+his Lordship's Domestic Chaplain.
+Who, upon my Desire, did communicate not on<g ref="char:EOLhyphen"/>ly
+these, but several other <hi>Remains</hi> of the
+same venerable Name.</p>
+            <p>Amongst which, there is a Fragment of
+an Answer to Dr. <hi>Baylie's Challeng.</hi> Whe<g ref="char:EOLhyphen"/>ther
+or no it was ever finished, I have no cer<g ref="char:EOLhyphen"/>tain
+Conjecture. But if it were, and could
+be found, the Publishing of it at this Iun<g ref="char:EOLhyphen"/>cture
+would be Seasonable and Useful.</p>
+            <pb facs="tcp:65856:3"/>
+            <p>For though that Pamphlet is a Piece of as
+transparent <hi>Sophistry,</hi> as was ever called
+<hi>Demonstration;</hi> and though the Weakness
+and Inconsequence of it hath been sufficiently
+displayed; yet such is the Pleasure of some
+Men, that it hath been <hi>Printed</hi> and <hi>Re<g ref="char:EOLhyphen"/>printed</hi>
+with as much Assurance, as if not the
+least notice had been ever taken of it.</p>
+            <p>The same Remark is obvious concerning these
+following Tracts.</p>
+            <p>'Tis surprising to observe (after these things
+have been so clearly and fully stated) that
+we should ever and anon be thus pelted with
+that impertinent Question, <hi>Where was your
+Church before Luther?</hi> Our Venerable Au<g ref="char:EOLhyphen"/>thor
+doth tell them where it was. And he doth it
+with such an Evidence and Strength of <hi>Rea<g ref="char:EOLhyphen"/>son,</hi>
+as is peculiar to Himself. For whereas
+<pb facs="tcp:65856:4"/>
+the Writings of other Men may indeed <hi>con<g ref="char:EOLhyphen"/>vince;</hi>
+Those of Bishop <hi>Sanderson</hi> do per<g ref="char:EOLhyphen"/>fectly
+<hi>Silence.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="1" facs="tcp:65856:4"/>
+            <head>A
+DISCOURSE
+Concerning the
+VISIBILITY
+OF THE
+True Church.</head>
+            <p>THE word [CHURCH] hath,
+among others, these <hi>four</hi> spe<g ref="char:EOLhyphen"/>cial
+Significations. Being taken
+for,</p>
+            <p>
+               <hi>First,</hi> The whole Company of Gods
+Elect, actually made Members of <hi>Christ</hi>
+by vertue of an inward effectual Calling
+to Faith and Godliness. This we com<g ref="char:EOLhyphen"/>monly
+call the <hi>Invisible Church,</hi> or the
+Church of Gods Elect.</p>
+            <p>
+               <hi>Secondly,</hi> The whole Company of all
+those throughout the World, who by
+<pb n="2" facs="tcp:65856:5"/>
+their Doctrine and Worship do out<g ref="char:EOLhyphen"/>wardly
+make Profession of the Name of
+Christ. This we call the <hi>Universal Visi<g ref="char:EOLhyphen"/>ble</hi>
+Church; Or, the <hi>Catholick</hi> Christian
+Church.</p>
+            <p>
+               <hi>Thirdly,</hi> Some particular, distinct, whe<g ref="char:EOLhyphen"/>ther
+<hi>National, Provincial</hi> or other greater
+or smaller Part of the Universal. As
+we say; the Church of <hi>Rome,</hi> the
+Church of <hi>Corinth,</hi> the Church of <hi>Eng<g ref="char:EOLhyphen"/>land.</hi>
+This we call a <hi>Particular Visible</hi>
+Church.</p>
+            <p>
+               <hi>Fourthly,</hi> By a <hi>Synecdoche</hi> the Bishops,
+Pastors, and Governours of particu<g ref="char:EOLhyphen"/>lar
+Churches, lawfully authorized to
+represent the whole Church, whereof
+they are Governours, as to some special
+Intents. This we call a Church <hi>Repre<g ref="char:EOLhyphen"/>sentative.</hi>
+            </p>
+            <p>The word [TRUTH] applyed
+to any Subject, is taken either <hi>Absolute,</hi>
+or <hi>Respective.</hi>
+            </p>
+            <p>
+               <hi>Absolutely</hi> a thing is true, when it
+hath <hi>veritatem Entis &amp; Essentiae;</hi> with
+all those Essential things, that are re<g ref="char:EOLhyphen"/>quisite
+<pb n="3" facs="tcp:65856:5"/>
+to the bare Being and Existence of
+it. <hi>Respectively,</hi> when over and above these
+Essentials, it hath also such Accidental
+conditions and Qualities, as should make
+it perfect and commendably good.</p>
+            <p>A Thing may be <hi>true</hi> in the <hi>first</hi>
+sense, and yet not true in the <hi>second</hi> but
+<hi>false.</hi> As a Man may be a true Man
+<hi>(animal rationale)</hi> and yet a false Knave.
+A Woman a true Wife <hi>(nupta viro)</hi> and
+yet a false Quean. A Speech a true
+Proposition (having <hi>Subjectum Praedica<g ref="char:EOLhyphen"/>tum
+&amp; Copulam)</hi> and yet a false Lye.</p>
+            <p>A <hi>True</hi> Church, according to the <hi>first</hi>
+sense and <hi>absolutely,</hi> is every Church that
+in her Doctrine and Worship professeth
+the Faith of Christ, whether soundly
+or corruptly. But in the <hi>second</hi> sense
+and <hi>respectively,</hi> that only is a true
+Church whose Doctrine and Worship is
+pure, at least in a good measure, from
+Errors and Superstitions. So as other
+Churches which either maintain <hi>Hereti<g ref="char:EOLhyphen"/>cal</hi>
+Doctrines, or prescribe <hi>Idolatrous</hi> Wor<g ref="char:EOLhyphen"/>ship,
+may be justly called, at least wise
+<pb n="4" facs="tcp:65856:6"/>
+in comparison with this, and in this
+<hi>second</hi> sense, <hi>false</hi> Churches and not
+true.</p>
+            <p>A total and utter Defection from the
+<hi>whole</hi> Faith of Christ, in Doctrine and
+in Worship, destroys the very <hi>Being</hi> of
+a Church, and maketh it no Church at
+all. But a defection from the <hi>purity</hi> of
+Faith, doth not take away the <hi>Being</hi>
+of a Church. It remains still a true
+Church <hi>Absolutely,</hi> but only maketh it
+an Impure and Corrupt Church; and
+so far forth a false Church <hi>Respective<g ref="char:EOLhyphen"/>ly.</hi>
+            </p>
+            <p>Corruptions in Doctrine and Wor<g ref="char:EOLhyphen"/>ship
+as they are greater or lesser, so
+they make a Church more or less false
+comparatively: and as they are im<g ref="char:EOLhyphen"/>posed
+upon Men with greater or lesser
+exaction, they do more or less justi<g ref="char:EOLhyphen"/>fy;
+whether a Separation from, or an
+opposition against, such a false Church,
+and in some cases enforce it.</p>
+            <p>When betwixt <hi>two</hi> Churches, differ<g ref="char:EOLhyphen"/>ing
+in Doctrine or Worship, Question
+<pb n="5" facs="tcp:65856:6"/>
+is made; Whether of them is the true
+Church? it must be understood not
+in the <hi>first</hi> sense and <hi>absolutely</hi> (for so
+both are true, and <hi>(ergo)</hi> equally true
+Churches, for <hi>vero nihil verius)</hi> but <hi>re<g ref="char:EOLhyphen"/>spectively</hi>
+and comparatively and in the
+<hi>second</hi> sense, <hi>viz.</hi> Whether of them
+maintains the Doctrine, together with
+the Worship, taught by Christ and his
+Apostles, in the greater measure of Pu<g ref="char:EOLhyphen"/>rity,
+and freer from Error and Super<g ref="char:EOLhyphen"/>stition?</p>
+            <p>[VISIBILITY] as to our pur<g ref="char:EOLhyphen"/>pose,
+imports such a state of a thing,
+as wherein 'tis evident and discernable
+more or less by sensible Marks; so as
+a Man may infallibly know it thereby,
+and say; <hi>Here it is.</hi> Which <hi>Visibility</hi>
+hath several Degrees; and applyed to
+the Church may be several ways con<g ref="char:EOLhyphen"/>sider'd.</p>
+            <p>
+               <hi>First,</hi> A Thing is visible in the high<g ref="char:EOLhyphen"/>est
+Degree, where it doth it self <hi>ferire
+oculos,</hi> as it were; and is so eminently
+and gloriously conspicuous, that a Man
+<pb n="6" facs="tcp:65856:7"/>
+(unless he wilfully shuts his Eyes) cannot
+chuse but see it. As the Sun in the Fir<g ref="char:EOLhyphen"/>mament
+is visible, when it shines forth
+in its greatest Lustre at Noon-Day.</p>
+            <p>
+               <hi>Secondly,</hi> In an inferior Degree; when
+'tis discernable even outwardly, but
+not at the first sight, or in any glo<g ref="char:EOLhyphen"/>rious
+Splendor; but with due and
+serious and intent Observation. As
+some Stars in an over-cast Evening to
+them that with a stedfast Eye look for
+them.</p>
+            <p>
+               <hi>Thirdly,</hi> And in a yet lower Degree;
+when its not discernable outwardly,
+or at all, to any but those only who
+more nearly partake of it. As the
+light of a Candle in a close private
+Room, is visible to those only that be
+in the Room.</p>
+            <p>In every of which Degrees <hi>Visibility</hi>
+applyed to the Church and the Mem<g ref="char:EOLhyphen"/>bers
+thereof, may be consider'd in a <hi>Four<g ref="char:EOLhyphen"/>fold</hi>
+Respect.</p>
+            <p>
+               <hi>First,</hi> Of the Men themselves.</p>
+            <p>
+               <pb n="7" facs="tcp:65856:7"/>
+               <hi>Secondly,</hi> Of their general Profession of
+Christianity.</p>
+            <p>
+               <hi>Thirdly,</hi> Of their particular different
+Tenents from other Men or Churches.</p>
+            <p>
+               <hi>Fourthly,</hi> Of the truth of their particular
+Tenents.</p>
+            <div type="part">
+               <pb n="8" facs="tcp:65856:8"/>
+               <head>Theses.</head>
+               <p>
+                  <hi>First,</hi> the Church in the <hi>first</hi> and
+most proper Signification, <hi>viz.</hi>
+the Church of Gods Elect, is wholly
+and altogether <hi>Invisible.</hi> But of this the
+present Question is not.</p>
+               <p>
+                  <hi>Secondly,</hi> The Universal Christian
+Church upon Earth hath never failed
+from the whole Faith, nor ever shall
+fail to the Worlds end, in such sort
+but that still in some Part or other of
+it, it hath been, is, and shall be visible
+more or less, and that <hi>externally</hi> in the
+<hi>first</hi> or <hi>second</hi> Degree of Visibility;
+both in the <hi>first</hi> and <hi>second</hi> Respects.</p>
+               <p>
+                  <hi>Thirdly,</hi> Whence it follows; that un<g ref="char:EOLhyphen"/>derstanding
+<hi>Truth</hi> in the <hi>First</hi> sense, there
+never <hi>hath</hi> wanted, <hi>doth</hi> or <hi>shall</hi> want
+upon Earth, a true and distinct Par<g ref="char:EOLhyphen"/>ticular
+Church, in some Place or o<g ref="char:EOLhyphen"/>ther
+<pb n="9" facs="tcp:65856:8"/>
+externally visible, more or less
+in the Degrees and Respects above
+specified.</p>
+               <p>
+                  <hi>Fourthly,</hi> Every <hi>Particular</hi> visible
+Church may fail, not only from the <hi>Pu<g ref="char:EOLhyphen"/>rity</hi>
+of Faith, but also from the whole
+Faith it self; and so may cease to be
+a true Christian Church, even so much
+as in the <hi>First</hi> Sense; and may become
+no Church.</p>
+               <p>
+                  <hi>Fifthly,</hi> The <hi>Universal</hi> Christian Church
+(consisting of all Particular visible
+Churches together and at once) may
+by the prevailing of Heresy and Idolatry,
+be brought to such a general Defecti<g ref="char:EOLhyphen"/>on
+in the outward Face of it, though
+not from the whole Faith, yet from
+the Purity of Faith both in Doctrine
+and Worship, that for a long time to<g ref="char:EOLhyphen"/>gether
+there may not be found upon
+Earth (taking <hi>Church</hi> in the <hi>second</hi> Sense)
+any true Particular Church visibly di<g ref="char:EOLhyphen"/>stinct
+from the rest, by their outward
+Freedom from the common Corrupti<g ref="char:EOLhyphen"/>ons;
+so much as in the <hi>second</hi> much less
+<pb n="10" facs="tcp:65856:9"/>
+in the <hi>first</hi> Degree of Visibility; either
+in the <hi>third</hi> or <hi>fourth</hi> Respects. And
+this is that Part of the Church especially
+under <hi>Antichrist.</hi>
+               </p>
+               <p>
+                  <hi>Sixthly,</hi> That even in the Times of
+the greatest and most general Defecti<g ref="char:EOLhyphen"/>on,
+there have been always particular
+Men (and those eminent either for
+Number, Place, Learning or Godliness)
+who though living in the midst of Cor<g ref="char:EOLhyphen"/>rupt
+Churches, and in the Communi<g ref="char:EOLhyphen"/>on
+and visible Profession thereof, have
+yet according to the measure of their
+Grace and Knowledg, and the exigence
+of Times and Occasions, either</p>
+               <p>
+                  <hi>First,</hi> Openly resisted the Errors, Super<g ref="char:EOLhyphen"/>stitions
+and Corruptions of their Times;
+Or <hi>secondly,</hi> Noted the Corruptions as
+they grew and complained of them,
+and desired Reformation; Or <hi>thirdly,</hi> In
+private dissented from them in the Ex<g ref="char:EOLhyphen"/>plication
+of the most dangerous Do<g ref="char:EOLhyphen"/>ctrines,
+and kept themselves free from
+the foulest Corruptions, though carried
+with the Stream of the common. A<g ref="char:EOLhyphen"/>postacy
+<pb n="11" facs="tcp:65856:9"/>
+to embrace the rest. Whereof
+we are to presume they repented ei<g ref="char:EOLhyphen"/>ther,
+<hi>Explicitely,</hi> if God gave them to
+see their Errors; or at least wise <hi>Im<g ref="char:EOLhyphen"/>plicitely,</hi>
+in the Mass of their ignorant
+and unknown Sins.</p>
+               <p>
+                  <hi>Seventhly,</hi> Although such particular
+Men were not always so locally and
+generally seperated from the rest, as
+to make a visible distinct particular
+Church by themselves in the <hi>first</hi> De<g ref="char:EOLhyphen"/>gree
+of Visibility; yet in these Men
+did the Succession of the true Church
+(taking it comparatively and in the
+<hi>second</hi> Sense) especially consist, and the
+Visibility of it continue in the Time of
+universal Defection. In which Men
+the true Church continues visible al<g ref="char:EOLhyphen"/>ways,
+and perpetually, without inter<g ref="char:EOLhyphen"/>ruption;
+and that ever in the <hi>fourth</hi>
+Respect, <hi>viz.</hi> in regard of the acknow<g ref="char:EOLhyphen"/>ledg'd
+Truth of their Doctrine; in the
+<hi>third</hi> Degree of Visibility <hi>viz.</hi> in an in<g ref="char:EOLhyphen"/>ward
+Estate and to themselves; and
+sometimes also (though perhaps not al<g ref="char:EOLhyphen"/>ways)
+<pb n="12" facs="tcp:65856:10"/>
+visible externally, and to their
+very Enemies more or less, in the <hi>second</hi>
+Degree of Visibility, and in the <hi>Three</hi>
+first Respects.</p>
+            </div>
+         </div>
+         <div type="discourse">
+            <pb n="13" facs="tcp:65856:10"/>
+            <head>Concerning the
+CHURCH of ROME.</head>
+            <p>THE Church of <hi>Rome</hi> or <hi>Roman</hi>
+Church is taken in a <hi>Threefold</hi>
+Latitude.</p>
+            <p>
+               <hi>First,</hi> Respectively to the <hi>Place;</hi> for
+that Church which is in the City, or
+Territory, or Diocess of <hi>Rome.</hi> As
+we say the Church of <hi>Geneva,</hi> or the
+Church of <hi>Venice.</hi> And so St. <hi>Paul</hi>
+wrote an Epistle to the Church of
+<hi>Rome,</hi> as he did to the Churches of
+<hi>Corinth, Ephesus</hi> and other particular
+Cities.</p>
+            <p>
+               <hi>Secondly,</hi> Respectively to the <hi>State</hi> of
+the <hi>Empire,</hi> for the whole <hi>Latine</hi> or
+<hi>Western</hi> Churches, as they are distin<g ref="char:EOLhyphen"/>guished
+from the <hi>Greek</hi> and <hi>Eastern</hi>
+               <pb n="14" facs="tcp:65856:11"/>
+Churches, and from the <hi>African</hi> and
+<hi>Southern</hi> Churches. Because by reason
+of the <hi>Empire,</hi> these Churches had a
+nearer Communion among themselves
+then with other Churches; and ac<g ref="char:EOLhyphen"/>knowledg
+the <hi>Bishop</hi> of <hi>Rome</hi> as <hi>primae
+sedis Episcopum;</hi> or the Patriarch of the
+West; as other Bishops were of the
+<hi>Greek, Asian,</hi> and <hi>African</hi> Churches.</p>
+            <p>
+               <hi>Thirdly,</hi> Respectively to the <hi>Faith;</hi>
+for all particular Churches <hi>aggregatim,</hi>
+that acknowledg Subjection to the pre<g ref="char:EOLhyphen"/>sent
+See of <hi>Rome;</hi> and entirely Com<g ref="char:EOLhyphen"/>municate
+with that Church in the pre<g ref="char:EOLhyphen"/>sent
+Doctrine and Worship of it; and
+namely, and especially, as to our pur<g ref="char:EOLhyphen"/>pose,
+as 'tis comprised in the Council
+of <hi>Trent.</hi>
+            </p>
+            <p>In which last Sense taking the Church
+of <hi>Rome,</hi> it may be consider'd ei<g ref="char:EOLhyphen"/>ther;</p>
+            <p>
+               <hi>First, Materialiter,</hi> as 'tis a Church
+professing the Faith of Christ; as we
+also do in the common Points of A<g ref="char:EOLhyphen"/>greement.</p>
+            <p>
+               <pb n="15" facs="tcp:65856:11"/>
+               <hi>Secondly, Formaliter</hi> and in regard of
+that we call Popery <hi>viz.</hi> the Point of
+Difference, whether concerning the
+Doctrine or Worship; wherein we
+charge her to have added to the sub<g ref="char:EOLhyphen"/>stance
+of Faith her own Inventions.</p>
+            <p>
+               <hi>Thirdly, Conjunction pro toto aggregato,</hi>
+taking both together. As in any un<g ref="char:EOLhyphen"/>found
+Body; we may consider the
+Body by it self; the Disease by it self;
+and the Body and the Disease both to<g ref="char:EOLhyphen"/>gether,
+as they make a Diseased Body.</p>
+            <div type="part">
+               <pb n="16" facs="tcp:65856:12"/>
+               <head>Theses.</head>
+               <p>
+                  <hi>FIrst,</hi> the Church of <hi>Rome</hi> (which of
+the <hi>Three</hi> ways soever taken) is
+not the <hi>Universal</hi> Christian Church, but
+only a Part thereof, or a <hi>Particular</hi>
+Church, or Churches.</p>
+               <p>
+                  <hi>Secondly,</hi> The Church of <hi>Rome</hi> ever
+since the first Plantation of it hath
+continued a <hi>true</hi> Church, taking <hi>Truth</hi>
+in the <hi>first</hi> Sense; and considering the
+Church of <hi>Rome Materially</hi> as it is a
+Church. But so hath the Church of
+<hi>England</hi> also, and many other Churches.</p>
+               <p>
+                  <hi>Thirdly,</hi> The Church of <hi>Rome</hi> hath
+no special Promise or Privilege, above
+other Particular Churches, of Immuni<g ref="char:EOLhyphen"/>ty
+from falling; either from the Puri<g ref="char:EOLhyphen"/>ty
+of Faith, or the whole Faith it
+self.</p>
+               <p>
+                  <pb n="17" facs="tcp:65856:12"/>
+                  <hi>Fourthly,</hi> The Church of <hi>Rome</hi> which
+way soever taken, hath long since fail<g ref="char:EOLhyphen"/>ed
+from the Purity of Faith, both in
+the Doctrine and Worship of it. And
+so consider'd <hi>formally,</hi> in regard of
+those Points which are properly of
+<hi>Popery,</hi> is become a <hi>False</hi> and Corrupt
+Church; and is indeed an <hi>Antichristian</hi>
+Synagogue, and not a true Christian
+Church; Taking Truth in the <hi>second</hi>
+Sense.</p>
+               <p>
+                  <hi>Fifthly,</hi> The Doctrinal Errors of the
+Church of <hi>Rome,</hi> do not <hi>directly</hi> and
+immediately overthrow the Foun<g ref="char:EOLhyphen"/>dation
+of Faith, as the Heresy of the
+<hi>Arrian</hi> Churches did, but <hi>mediately</hi> and
+by necessary Consequence they do. As
+in the Points of <hi>Merits, Mass, Transub<g ref="char:EOLhyphen"/>stantiation,</hi>
+&amp;c.</p>
+               <p>
+                  <hi>Sixthly,</hi> The bare Teaching, even <hi>ex
+Cathedrâ,</hi> of the Doctrinal Errors of
+the Church of <hi>Rome</hi> (in as much as
+they do not overthrow the Founda<g ref="char:EOLhyphen"/>tion,
+but <hi>ex consequenti</hi> and indirectly)
+is not enough of it self alone to enforce
+<pb n="18" facs="tcp:65856:13"/>
+or justify an outward Separation from
+her; But the imposing these Errors
+upon the Consciences of Men, to be
+believed as of necessity, is Damnable.
+And doth not only justify a Separation
+already made, but also bindeth <hi>sub Mor<g ref="char:EOLhyphen"/>tali</hi>
+all true Christians to such a Separa<g ref="char:EOLhyphen"/>tion.</p>
+               <p>
+                  <hi>Seventhly,</hi> The Worship required and
+performed in the Church of <hi>Rome,</hi> is in
+most Things Superstitious; and in
+some lately Idolatrous: and such as
+wherein a good Christian cannot law<g ref="char:EOLhyphen"/>fully
+Communicate with her.</p>
+               <p>So as if there were nothing else,
+yet her <hi>Idolatry</hi> were enough to justify
+and enforce such a Separation.</p>
+            </div>
+         </div>
+         <div type="discourse">
+            <pb n="19" facs="tcp:65856:13"/>
+            <head>Concerning
+Protestant
+CHURCHES.</head>
+            <p>BY the <hi>Protestant</hi> Churches we un<g ref="char:EOLhyphen"/>derstand
+those visible Particular
+Churches, which having by an ex<g ref="char:EOLhyphen"/>ternal
+Separation freed themselves from
+the Tyranny and Idolatry of Popery,
+have more or less <hi>reformed</hi> the Doctrine
+and Worship from <hi>Popish</hi> Corruptions, and
+restored them more or less to the An<g ref="char:EOLhyphen"/>cient
+and <hi>Primitive</hi> Purity.</p>
+            <p>Now such Churches may be con<g ref="char:EOLhyphen"/>sider'd
+either <hi>Materially</hi> or <hi>Formally.</hi>
+            </p>
+            <p>First, <hi>Materially.</hi> When we consider
+those Churches, to whom it happens thus
+to be Reformed, barely and precisely as
+<pb n="20" facs="tcp:65856:14"/>
+               <hi>Local</hi> and Particular visible Churches;
+without respect had to their present <hi>Re<g ref="char:EOLhyphen"/>formed,</hi>
+or former <hi>Corrupt</hi> Estate, or to
+the Substance of their Faith. As when
+we say, The Church of <hi>England,</hi> The
+Church of <hi>Denmark.</hi> The Church of
+<hi>Saxony,</hi> &amp;c.</p>
+            <p>Secondly, <hi>Formally.</hi> The <hi>Protestant</hi>
+Churches may again be consider'd <hi>two</hi>
+ways, in respect of a <hi>Two-fold</hi> Form.</p>
+            <p>
+               <hi>First,</hi> An outward and <hi>accidental</hi>
+Form. <hi>Secondly,</hi> An inward and, as it
+were, <hi>essential</hi> Form.</p>
+            <p>The inward Form ever giveth <hi>Esse,</hi>
+but the outward often giveth <hi>Nomen.</hi>
+The <hi>outward</hi> Form is barely the State of
+Reformation, which supposeth another
+former Estate of Deformity or Corrup<g ref="char:EOLhyphen"/>tion;
+out of which respect, they have
+the Name and Title of <hi>Protestant</hi> and
+Reformed Churches. But the <hi>inward</hi>
+Form is the Substance of their <hi>Faith</hi> thus
+reformed, in their Doctrine and Wor<g ref="char:EOLhyphen"/>ship,
+from the Corruptions wherewith
+Popery had infected it.</p>
+            <p>
+               <pb n="21" facs="tcp:65856:14"/>
+Which Substance of Faith in the Pro<g ref="char:EOLhyphen"/>testant
+Churches, may be consider'd
+differently in the <hi>Positive</hi> Points of their
+Faith and in the <hi>Negative.</hi> The <hi>Positive</hi>
+Points, or <hi>Affirmative</hi> Articles of our Chri<g ref="char:EOLhyphen"/>stian
+Faith, are they which make us true
+Christian Churches. For in our <hi>Posi<g ref="char:EOLhyphen"/>tive</hi>
+we teach the ancient Faith of Christ,
+and his Apostles, and the Primitive
+Church. And in our <hi>Negative,</hi> we re<g ref="char:EOLhyphen"/>ject
+the Innovations and Corruptions
+of latter Times.</p>
+         </div>
+         <div type="discourse">
+            <pb n="22" facs="tcp:65856:15"/>
+            <head>To the QUESTION then,
+Where Our CHVRCH was
+before Luther?</head>
+            <head type="sub">I Answer;</head>
+            <p>
+               <hi>FIrst,</hi> Taking our Protestant Churches
+<hi>Materially,</hi> as namely the Church of
+<hi>England,</hi> it <hi>was</hi> where it <hi>is, viz.</hi> in
+<hi>England.</hi> Where by the great Mercy of
+God, it hath continued a visible Christi<g ref="char:EOLhyphen"/>an
+Church from the first Plantation of
+it, by <hi>Apostles,</hi> or Apostolical Men,
+without Interruption (though not al<g ref="char:EOLhyphen"/>ways
+without Error and Corruption)
+unto this Day. And herein it need
+not yield to the very Church of <hi>Rome</hi>
+it self; or to any other Church under
+Heaven.</p>
+            <p>
+               <pb n="23" facs="tcp:65856:15"/>
+               <hi>Secondly,</hi> Taking the Protestant
+Church <hi>Formally,</hi> in respect of the Sub<g ref="char:EOLhyphen"/>stance
+of Faith, the Professors of it have
+been in some Degree or other visible, as
+well before <hi>Luther</hi> as since. But yet
+differently in the <hi>Affirmatives</hi> and in the
+<hi>Negatives</hi> of our Faith.</p>
+            <p>
+               <hi>Thirdly,</hi> Taking the Protestant Church
+<hi>Formally,</hi> in respect of the outward
+Form, <hi>viz.</hi> as under the State of Re<g ref="char:EOLhyphen"/>formation;
+we will freely confess;
+There was no such Reformed or Pro<g ref="char:EOLhyphen"/>testant
+Church before <hi>Luther</hi> as now there
+is. For a Church could not be said to
+be <hi>Reformed</hi> till it was <hi>Deformed.</hi> No more
+than a Man can be said to be stript of
+a Motly Coat, before he had it on.</p>
+            <p>
+               <hi>Fourthly,</hi> The Protestant Church for
+Substance of Faith in the <hi>Affirmative</hi>
+Doctrine, hath continued <hi>visibly</hi> from
+Christ and his Apostles without Interrup<g ref="char:EOLhyphen"/>tion,
+as well before as since <hi>Luther;</hi>
+according to the Tenor of our <hi>Second</hi>
+               <pb n="24" facs="tcp:65856:16"/>
+and <hi>Third Theses.</hi> In which our Ad<g ref="char:EOLhyphen"/>versaries
+and we agree; witness the
+Articles of our Church.</p>
+            <p>
+               <hi>Fifthly,</hi> The Substance of Faith, as
+concerning the Worship, Maintain'd
+and Practis'd in the Protestant Church
+of <hi>England,</hi> hath continued Visible in
+like manner in all Ages; as well before
+as since <hi>Luther.</hi> Witness our <hi>Service-Book;</hi>
+Wherein our Adversaries them<g ref="char:EOLhyphen"/>selves
+are not able to except against
+any thing contained. Only they com<g ref="char:EOLhyphen"/>plain
+of some Defects. But that
+belongs not to the <hi>Affirmatives,</hi> but
+to the <hi>Negatives</hi> of our Faith.</p>
+            <p>
+               <hi>Sixthly,</hi> The <hi>Negative</hi> Tenets of
+our <hi>Protestant</hi> Church, wherein she
+Renounceth the Errors and Idolatries
+of the <hi>Romish</hi> (for so much as they are
+<hi>Negatives)</hi> are not capable of a <hi>visible</hi>
+Profession, in such Sort as <hi>Affirmatives</hi>
+are. Yet thus far our Church was
+<hi>visible</hi> in respect of these <hi>Negatives</hi> be<g ref="char:EOLhyphen"/>fore
+<pb n="25" facs="tcp:65856:16"/>
+               <hi>Luther, viz.</hi> In the Primitive Times,
+for the first <hi>Six Hundred</hi> Years especial<g ref="char:EOLhyphen"/>ly,
+and some other Ages after also, all
+Orthodoxal Particular Churches were
+visible Professors of our Faith. In as
+much as in their <hi>Writings,</hi> where we
+were <hi>Affirmative,</hi> they were Affirma<g ref="char:EOLhyphen"/>tive
+also. Where we are <hi>Negative,</hi>
+they are either <hi>Negative</hi> or <hi>Doubtful,</hi>
+or <hi>Divided,</hi> or <hi>Silent.</hi> Which very Si<g ref="char:EOLhyphen"/>lence
+is enough to make them <hi>ours</hi>
+as to this Intent. For who can ex<g ref="char:EOLhyphen"/>pect
+they should purposely confute
+those Errors, which were (many of
+them) not so much as thought on in
+their Times.</p>
+            <p>
+               <pb n="26" facs="tcp:65856:17"/>
+               <hi>Seventhly,</hi> In succeeding Times, when
+Errors and Superstitions began to grow
+to some Head (through the Factions
+of Princes, the Pride of the Clergy,
+and the common Ignorance of the
+Times.) As namely, about the Year
+<hi>Nine Hundred,</hi> and thenceforth till the
+Times of <hi>Luther,</hi> our Protestant
+Church was not visibly distinct from
+the corrupt <hi>Romish</hi> (according to the
+Tenor of our <hi>Fifth Thesis)</hi> but ming<g ref="char:EOLhyphen"/>led
+with it. Yet it had thus far forth
+visible Professors; That there were in
+every Age before <hi>Luther,</hi> some whose
+Names and Opinions, have been by
+God's good Providence preserved in Hi<g ref="char:EOLhyphen"/>stories
+and Records (notwithstanding
+the indirect Endeavors of the Adver<g ref="char:EOLhyphen"/>saries
+to root out the Memory of
+them) who complained of the Cor<g ref="char:EOLhyphen"/>ruptions,
+and contradicted the Do<g ref="char:EOLhyphen"/>ctrines
+and Abuses of <hi>Popery,</hi> some
+in one Point, and some in another;
+some in most of all those Points where<g ref="char:EOLhyphen"/>in
+<pb n="27" facs="tcp:65856:17"/>
+we now dissent; and that in such
+Degrees and Respects of Visibility, as
+we have declared in our <hi>Sixth</hi> and
+<hi>Seventh Theses.</hi>
+            </p>
+         </div>
+         <trailer>FINIS.</trailer>
+      </body>
+   </text>
+</TEI>

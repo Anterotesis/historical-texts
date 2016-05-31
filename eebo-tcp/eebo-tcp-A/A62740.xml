@@ -1,0 +1,832 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sober whisper, concerning the evil of things present, and the good of things to come. By Tho. Narjenn</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1665</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-07">2003-07 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A62740</idno>
+            <idno type="STC">Wing T147</idno>
+            <idno type="STC">ESTC R219690</idno>
+            <idno type="EEBO-CITATION">99831143</idno>
+            <idno type="PROQUEST">99831143</idno>
+            <idno type="VID">35605</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A62740)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 35605)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2114:09)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sober whisper, concerning the evil of things present, and the good of things to come. By Tho. Narjenn</title>
+                  <author>Tanner, Thomas, 1630-1682, attributed name.</author>
+               </titleStmt>
+               <extent>15, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>printed in the year, 1665.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed by Wing to Thomas Tanner, i.e. Tho. Narjenn?.</note>
+                  <note>In verse.</note>
+                  <note>Copy has print show-through.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Poetry --  Early works to 1800.</term>
+               <term>Bible --  Criticism, interpretation, etc. --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-05</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2003-05</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:35605:1" rendition="simple:additions"/>
+            <p>A Sober Whisper, CONCERNING The EVIL of Things present, AND The <hi>GOOD</hi> of Things to come.</p>
+            <p>By THO. NARJENN.</p>
+            <p>
+               <hi>LONDON,</hi> Printed in the Year, 1665.</p>
+            <pb facs="tcp:35605:2"/>
+            <pb facs="tcp:35605:2"/>
+            <pb facs="tcp:35605:3" rendition="simple:additions"/>
+            <pb facs="tcp:35605:3" rendition="simple:additions"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:35605:4"/>
+            <pb n="3" facs="tcp:35605:4"/>
+            <head>A Sober VVhisper, <hi>&amp;c.</hi>
+            </head>
+            <lg>
+               <l>FLy misty Fogs, black clouds that dark the Skies, <note place="margin">Rom. 13. 11, 12.</note>
+               </l>
+               <l>The Day doth dawn, the Sun begins to rise:</l>
+               <l>Dark Ignorance, avaunt, that hides the way,</l>
+               <l>The Path is now discern'd by th'light o'th' Day.</l>
+               <l>No longer groveling pore, look up and see,</l>
+               <l>Your KING approacheth in his Majestie. <note place="margin">Isa. 33. 17. Mal. 4. 2. Psal. 2. 6, 7. Luke 1. 32. Col. 1. 15, 16 17, 18.</note>
+               </l>
+               <l>Fear not to yeeld obedience, nor fall down</l>
+               <l>Before th' undoubted Heir to the Crown:</l>
+               <l>He's no Usurper, hates all Tyranny,</l>
+               <l>To bring him home, he needs no Treachery.</l>
+               <l>H' hath sent his <hi>Declaration</hi> to us all,</l>
+               <l>With's Privy Signet sign'd. A Council call</l>
+               <l>Ye Nations, accept th' <hi>Indempnity,</hi>
+               </l>
+               <l>Offer'd by him, who's Truth and cannot lye. <note place="margin">Numb. 23. 19. Amos. 9. 11.</note>
+               </l>
+               <l>His gracious <hi>Act of Pardon</hi> he will seal,</l>
+               <l>To heal the Breaches of his Commonweal:</l>
+               <l>No <hi>Bishops, Priests,</hi> nor yet a <hi>Parliament,</hi>
+               </l>
+               <l>His Act once past, in it can make a rent.</l>
+               <l>No corrupt <hi>Lawyer</hi> shall once find a flaw</l>
+               <l>Or querk in our King's plain and equal Law. <note place="margin">Psal. 19. 7. Hos. 14. 9. Isa 1. 26, 27</note>
+               </l>
+               <l>Nor dare the <hi>Iudges</hi> their trust falsify,</l>
+               <l>One Subject to deprive of 's Liberty,</l>
+               <l>Or his Estate: assure your selves no crime</l>
+               <l>'Gainst him committed to this very time,</l>
+               <l>Shall ever rise in Judgment: nor your name <note place="margin">Isa. 1. 18. <hi>&amp;</hi> 43, 25. Psal. 100. 5.</note>
+               </l>
+               <l>(Though once a Rebel) stained for the same.</l>
+               <l>Our King can do no wrong; his righteous Law</l>
+               <l>Ever endures: fear not, but stand in awe,</l>
+               <l>Ye blessed Subjects, wait for him, and pray, <note place="margin">Luk. 18. 1, 7. <hi>&amp;</hi> 12. 36.</note>
+               </l>
+               <l>That for your sakes he shorten may the day</l>
+               <l>Of his all-glorious Coming. He'l affright</l>
+               <l>The wicked world, whilst his Saints with delight <note place="margin">Isa. 33. 14.</note>
+               </l>
+               <l>
+                  <pb n="4" facs="tcp:35605:5"/>
+And joys unspeakable will sweetly sing,</l>
+               <l>With Hallelujahs to their Heav'nly King. <note place="margin">Rev. 19. 1.</note>
+               </l>
+               <l>Unto his People he brings all content,</l>
+               <l>There shall be no end of his Government.</l>
+            </lg>
+            <lg>
+               <l>No <hi>Pantaloons,</hi> nor a debauched fry <note place="margin">Isa. 9. 7.</note>
+               </l>
+               <l>Of hellish scum attends his Majesty,</l>
+               <l>But thousands of his Saints all cloath'd in white,</l>
+               <l>The Wicked to subdue, and free th' Upright <note place="margin">Rev. 7. 9. Iude 14. 15</note>
+               </l>
+               <l>From all their burdens, and to give them ease</l>
+               <l>From their Oppressors: Blessed <hi>Prince of Peace,</hi>
+               </l>
+               <l>Our <hi>Father Everlasting, Mighty God,</hi>
+               </l>
+               <l>In <hi>Counsel Wonderful:</hi> His heavy Rod <note place="margin">Isa. 9. 6.</note>
+               </l>
+               <l>His Enemies implacable shall feel,</l>
+               <l>At his most glorious Presence they shall reel. <note place="margin">Psal. 2. 9.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>The Crew of <hi>Maypolizers</hi> in those dayes</l>
+               <l>Dare not appear the Whorish Pole to raise</l>
+               <l>Of wicked <hi>Flora;</hi> nor no <hi>frisking Whores,</hi>
+               </l>
+               <l>Nor <hi>cap'ring Rogues</hi> shall dare peep out of doors: <note place="margin">1 Sam. 2. 9.</note>
+               </l>
+               <l>No <hi>roguing Fidlers,</hi> nor base <hi>dancing Crew,</hi>
+               </l>
+               <l>
+                  <hi>Swearers, Health-drinkers,</hi> who're the Devils due,</l>
+               <l>Shall their ungodly Meetings more enjoy,</l>
+               <l>Nor power have the Godly to anoy. <note place="margin">Isa. 11. 19. Deut. 32. 35 Rev. 6. 15, 16, 17. Ier. 3. 23. Is. 47. 7, 8, 9 Rev. 18. 7, 8 Rev. 14. 11. Isa. 41. 11, 12, 13. Zech. 2. 8, 9</note>
+               </l>
+               <l>Fly, Fly, ye black-mouth'd, hellish, <hi>dammee crew,</hi>
+               </l>
+               <l>Your day is lost, Vengeance o'retaketh you:</l>
+               <l>Implore the Rocks for shelter, the Hills try,</l>
+               <l>And Mountains of your lying vanity.</l>
+               <l>Seek, seek for help, but (alas!) all in vain,</l>
+               <l>Your brags and vapours shall encrease your pain:</l>
+               <l>Your pain and torment never shall have end,</l>
+               <l>Now know what 'tis with Heav'ns King to contend.</l>
+               <l>Know what it is his Saints to crucifie,</l>
+               <l>He takes it as done to his Majestie.</l>
+               <l>But you his Subjects who have loyal bin,</l>
+               <l>In patience waiting for his coming-in:</l>
+               <l>Bid sorrows fly, all tears wipe from your eyes,</l>
+               <l>Traitors and Rebels never more shall rise <note place="margin">Isa. 25. 8. <hi>&amp;</hi> 51. 11. <hi>&amp;</hi> 54. 17. Rev. 5. 10.</note>
+               </l>
+               <l>To persecute or grieve you, for you shall</l>
+               <l>For ever be Kings, Priests, and Prophets all.</l>
+               <l>
+                  <pb n="5" facs="tcp:35605:5"/>
+Prepare to meet him, and your selves array <note place="margin">Rev. 19. 8.</note>
+               </l>
+               <l>With rayments sutable for such a day;</l>
+               <l>No gaudy garbs, nor with fantastick stuff, <note place="margin">Zeph. 1. 8.</note>
+               </l>
+               <l>Trim not your selves with Periwig and Muff.</l>
+               <l>No Antick garments see that you put on,</l>
+               <l>Shun all the wares of cursed <hi>Babylon.</hi>
+               </l>
+               <l>Our King hath long ago decreed what shall</l>
+               <l>Be the fair Liv'ry of his Subjects all.</l>
+               <l>Put on the whole Armour of God, and then: <note place="margin">Eph. 6. 11.</note>
+               </l>
+               <l>You may withstand Devils and devilish men:</l>
+               <l>
+                  <hi>The Girdle of Truth</hi> it is a comely dress, <note place="margin">ver. 14.</note>
+               </l>
+               <l>
+                  <hi>The Breastplate</hi> then <hi>put on of Righteousness:</hi>
+               </l>
+               <l>
+                  <hi>Your feet being shod with the preparation</hi> 
+                  <note place="margin">ver. 15.</note>
+               </l>
+               <l>
+                  <hi>Of Gospel-peace,</hi> then fear you no temptation.</l>
+               <l>'Bove all, defend your selves with <hi>Faiths</hi> bright <hi>shield,</hi> 
+                  <note place="margin">ver. 16.</note>
+               </l>
+               <l>The wickeds darts shall never make you yeed:</l>
+               <l>Put on the <hi>Helmet of Salvation,</hi> 
+                  <note place="margin">ver. 17.</note>
+               </l>
+               <l>Which is <hi>Gods Word,</hi> and you may venture on</l>
+               <l>'Gainst worldly Governours, dark Princes too, <note place="margin">ver. 12.</note>
+               </l>
+               <l>The force of Flesh or Hell can't you undoe.</l>
+               <l>This habit to your Prince will testifie</l>
+               <l>Your true Obedience, and firm Loyalty.</l>
+               <l>Rich Royal Robes on you he will bestow, <note place="margin">Isa. 61. 10.</note>
+               </l>
+               <l>You and the rest shall make a glorious show,</l>
+               <l>With Tryumph make the holy City ring <note place="margin">Isa. 61. 3. Ier. 30. 18. Hab. 2. 3. Micah 7. 7. Isa. 61. 4, 5. Psa. 89. 34. Lam. 3. 32, 33. 2 Pet. 3. 9. 1 Tim. 2. 4. Psal. 2. 9. Heb. 1. 8. Psal. 76. 4.</note>
+               </l>
+               <l>With Hallelujahs to your heav'nly King.</l>
+               <l>Wait patiently, think not his stay too long,</l>
+               <l>Though in the mean time you do suffer wrong,</l>
+               <l>Hee'l you require; great Priviledges grant;</l>
+               <l>Inviolably he'l keep his Covenant.</l>
+               <l>No malice lodgeth in his Royal Brest,</l>
+               <l>Butchrous revenge both he and his detest:</l>
+               <l>His Subjects bodies he will not enslave,</l>
+               <l>And he in mercy all mens souls would save;</l>
+               <l>But such as are implacable must fall,</l>
+               <l>With Gold or Iron Scepter hee'l rule all,</l>
+               <l>And all with equal Justice. Perjury</l>
+               <l>Shall injure none, when he his Foes doth try;</l>
+               <l>
+                  <pb n="6" facs="tcp:35605:6"/>
+No pickt <hi>corrupted Iury-men</hi> shall stain <note place="margin">Psal. 94. 20. &amp; 72. 14. Isa. 1. 26.</note>
+               </l>
+               <l>Their consciences, a Verdict to obtain</l>
+               <l>'Gainst any: Nor shall a <hi>corrupt Iudge</hi> be,</l>
+               <l>To impose a Fine, if they will not agree.</l>
+               <l>For righteous are his Wayes; his Judgments right,</l>
+               <l>Innocent Blood is precious in his fight. <note place="margin">Hos. 14. 9. Psal. 72. 14.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Hee's not attended with a <hi>Ruffian Crew,</hi>
+               </l>
+               <l>Who serves for nought but wast his Revenue:</l>
+               <l>No <hi>Whoremongers,</hi> nor filthy <hi>drunken Swine,</hi>
+               </l>
+               <l>Whom nothing pleases but lewd Whores and Wine; <note place="margin">Isa. 52. 1.</note>
+               </l>
+               <l>No prophane wicked <hi>dammee Pantaloon</hi>
+               </l>
+               <l>In our King's glorious Court shall find a room:</l>
+               <l>Holy Attendants, blest in ev'ry thing,</l>
+               <l>With Hallelujahs serve our heav'nly King. <note place="margin">Rev. 7. 15.</note>
+               </l>
+               <l>No <hi>Taxes</hi> to maintain his luxury,</l>
+               <l>'Gainst <hi>heavy burdens</hi> people need not cry; <note place="margin">Isa. 60. 17, 18.</note>
+               </l>
+               <l>Nor <hi>Custom,</hi> nor <hi>Excise</hi> shall be their yoke,</l>
+               <l>Nor shall they suffer cause their <hi>Chimnies smoke.</hi>
+               </l>
+               <l>For he will judge the Poor, the Needy save,</l>
+               <l>On their Oppressors he'l no mercy have. <note place="margin">Psal. 72. 4. Isa. 28. 16, 17. Zeph. 3. 13, 19.</note>
+               </l>
+               <l>No Laws of <hi>Antichrist</hi> under this Pow'r</l>
+               <l>Shall be in force, the Godly to devour.</l>
+               <l>No lewd Confederates in <hi>Parliament</hi>
+               </l>
+               <l>Shall dare to pass an Act for <hi>Banishment</hi>
+               </l>
+               <l>Of Conscientious men. For ever blest</l>
+               <l>
+                  <hi>IESUS</hi> our King shall give his People rest. <note place="margin">Isa. 14. 3. Psal. 72. 3.</note>
+               </l>
+               <l>The Mountains shall with Peace the people bless;</l>
+               <l>The little Hills shall flow with Righteousness:</l>
+               <l>Whilst Sun and Moon endure, the people shall,</l>
+               <l>In holy fear of him, be prosprous all. <note place="margin">vers. 7.</note>
+               </l>
+               <l>He shall like rain on grass, on them distill</l>
+               <l>Refreshing showres of his holy Will. <note place="margin">vers. 6.</note>
+               </l>
+               <l>Dominion he shall have from Sea to Sea, <note place="margin">vers. 8.</note>
+               </l>
+               <l>The utmost parts o'th' Earth shall him obey:</l>
+               <l>Kings must obey, their stately Crowns must fall</l>
+               <l>'Fore him, who's King of kings, and Lord of all. <note place="margin">ver. 11.</note>
+               </l>
+               <l>All hail, great King, blest be thy holy Name, <note place="margin">Psal. 67. 4.</note>
+               </l>
+               <l>Let the whole Earth be filled the same:</l>
+               <l>
+                  <pb n="7" facs="tcp:35605:6"/>
+His Anger to prevent, Kiss ye the Son; <note place="margin">Psal. 2. 12. Mat. 6. 10. Zeph. 3. 14.</note>
+               </l>
+               <l>Let th' Common pray'r be, <hi>Thy Kingdom come.</hi>
+               </l>
+               <l>Ye blessed Saints rejoice, the time is near,</l>
+               <l>Transcendant Glory, 'mongst you shall appear:</l>
+               <l>The Stone hath smote the Image on his feet, <note place="margin">Dan. 2. 34.</note>
+               </l>
+               <l>Ye blessed Saints with joy each other greet;</l>
+               <l>The Clay and Iron now disjointed be, <note place="margin">vers. 43.</note>
+               </l>
+               <l>The fall is near of the <hi>fourth Monarchie:</hi>
+               </l>
+               <l>The Rule's divided amongst many Kings,</l>
+               <l>In whose days shall be seen most glorious things,</l>
+               <l>VVhich were foreseen of holy men of old,</l>
+               <l>And by God's Prophets were to us fore-told.</l>
+               <l>The God of Heav'n a Kingdom erect shall,</l>
+               <l>VVhich cannot be destroyed, but to all</l>
+               <l>Ages to last: inherit it none can,</l>
+               <l>
+                  <hi>IESUS</hi> alone must rule, not mortal man.</l>
+               <l>It shall in pieces batter and lay wast</l>
+               <l>All other Kingdoms, and for ever last.</l>
+            </lg>
+            <lg>
+               <l>Before our King's arrival, Saints shall sway,</l>
+               <l>The Scepter, and the wicked world obey. <note place="margin">Dan. 7. 22, 26, 27. Rev. 13. 1. ver. 4.</note>
+               </l>
+               <l>Down must the Horns o'th' Beast, ye Kings o'th Earth,</l>
+               <l>VVho from the cruel Beast have had your birth,</l>
+               <l>And he his pow'r received from the Devil,</l>
+               <l>The Dragon, who's the author of all Evil,</l>
+               <l>VVho being from Heav'n cast, and full of ire <note place="margin">Rev. 12. 9. ver. 13.</note>
+               </l>
+               <l>Against the Saints, hath kindled a fire</l>
+               <l>Of Persecution; and Authority</l>
+               <l>He gave unto the beastly Monarchy.</l>
+               <l>His head adorn'd he hath with Blasphemies <note place="margin">Rev. 13. 1.</note>
+               </l>
+               <l>Against God's Name, and fills the world with lies</l>
+               <l>Against his People, Church: his Leopards skin</l>
+               <l>Clearly informs us he's the <hi>Man of Sin:</hi> 
+                  <note place="margin">vers. 2.</note>
+               </l>
+               <l>He gave him feet, like to a fierce <hi>Bears claws,</hi>
+               </l>
+               <l>To execute the Dragon's sinful Laws:</l>
+               <l>A <hi>Lion's mouth,</hi> God's People to devour:</l>
+               <l>Thus from the Devil had the Beast his pow'r.</l>
+            </lg>
+            <lg>
+               <l>Ye Earthly Potentates behold and see</l>
+               <l>Your Coats of Arms! here is your Pedigree.</l>
+               <l>
+                  <pb n="8" facs="tcp:35605:7"/>
+Here likewise may be seen your destiny,</l>
+               <l>If you have led into captivity</l>
+               <l>God's holy Sa<gap reason="illegible: blotted" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ts, be sure in the same state <note place="margin">vers. 10.</note>
+               </l>
+               <l>You shall be led, this is your certain fate:</l>
+               <l>If any you have <hi>killed by the Sword,</hi>
+               </l>
+               <l>
+                  <hi>You shall be served so,</hi> so saith God's Word.</l>
+               <l>Here is the Faith and Patience of the Saints,</l>
+               <l>God in due time will surely hear their plaints.</l>
+               <l>He once receiv'd almost a deadly wound <note place="margin">Rev. 13. 3.</note>
+               </l>
+               <l>On one of his heads, some peace then was found</l>
+               <l>Among the Nations, and God's People all</l>
+               <l>With joy expected for to see his fall.</l>
+               <l>But now that's healed which was rent in sunder,</l>
+               <l>The worldly people follow him with wonder;</l>
+               <l>With joy they worship Beast and Dragon too,</l>
+               <l>Bragging, what power can the Beast undoe? <note place="margin">vers. 4.</note>
+               </l>
+               <l>But from the Earth another Beast did rise, <note place="margin">vers. 11.</note>
+               </l>
+               <l>Horn'd like a Lamb: his mouth speaks blasphemies,</l>
+               <l>The Dragon like; pretended to reform,</l>
+               <l>Made th' Image of the Beast, call'd it <hi>a Form</hi> 
+                  <note place="margin">vers. 14.</note>
+               </l>
+               <l>
+                  <hi>Of Worship, Prayers,</hi> or <hi>the Lyturgie,</hi>
+               </l>
+               <l>Commanded all to it to bow the knee:</l>
+               <l>If to this Image you will not down fall,</l>
+               <l>
+                  <hi>Be it enacted, you are Traitors all.</hi> 
+                  <note place="margin">vers. 15.</note>
+               </l>
+               <l>All sorts and sexes hearken to th' Command,</l>
+               <l>You must be mark'd <hi>i'th forehead,</hi> or <hi>i'th hand;</hi> 
+                  <note place="margin">vers. 16. vers. 17.</note>
+               </l>
+               <l>That is, conform, or else you must not trade,</l>
+               <l>The Beastly Priest swears such a Law is made,</l>
+               <l>And all must it obey: <hi>Let ev'ry soul</hi>
+               </l>
+               <l>
+                  <hi>Be subject to the Powr's,</hi> who dare controul</l>
+               <l>The Dragon, Beast, the beastly Scarlet Whore?</l>
+               <l>If any dare, they perish shall therefore.</l>
+            </lg>
+            <lg>
+               <l>But must this Serpents broad for every sway?</l>
+               <l>Full fain they would, but God himself saith nay.</l>
+               <l>The Government o'th' Saints now draweth near, <note place="margin">Rev. 12. 12.</note>
+               </l>
+               <l>Read ye the Prophets, they are full and clear,</l>
+               <l>This devilish crew must stoop, and them obey,</l>
+               <l>Before King <hi>IESUS</hi> will the Scepter sway.</l>
+               <l>
+                  <pb n="9" facs="tcp:35605:7"/>
+The Mountain of God's House exalt he will <note place="margin">Isa. 2. 2.</note>
+               </l>
+               <l>
+                  <hi>O'th top o'th Mountains,</hi> above every Hill;</l>
+               <l>All Tongues and Nations that are here below</l>
+               <l>Unto God's holy Church for Truth shall flow:</l>
+               <l>And he himself will teach them all his Wayes, <note place="margin">ver. 3.</note>
+               </l>
+               <l>And how to tread in his Paths to his praise:</l>
+               <l>From <hi>Sion</hi> shall the Law go forth to them,</l>
+               <l>God's holy Word too from <hi>Ierusalem.</hi>
+               </l>
+               <l>Then they shall judge the People all in right, <note place="margin">ver. 4.</note>
+               </l>
+               <l>Rebuke their Enemies: learn not to fight,</l>
+               <l>But into Plowshares beat the warlike Sword,</l>
+               <l>Your Spears to Pruning-hooks; for why the Word</l>
+               <l>Of great <hi>IEHOVAH</hi> shall your Enemies</l>
+               <l>So quail, that they shall never 'gainst you rise.</l>
+               <l>Proud man's high looks by him shall humbled be, <note place="margin">ver. 11. &amp; 12. ver. 13.</note>
+               </l>
+               <l>The lofty mind hee'l place in low degree.</l>
+               <l>
+                  <hi>Lebanons</hi> Cedars that are high and tall,</l>
+               <l>And <hi>Bashans</hi> Oaks the Lord will level all:</l>
+               <l>Idols and Idol-priests he will destroy, <note place="margin">ver. 14.</note>
+               </l>
+               <l>Look up on high ye Saints, and sing for joy.</l>
+               <l>Howl ye Malignants, fly, your selves to hide,</l>
+               <l>The presence of our King you cann't abide.</l>
+               <l>Haste to the Rocks and fly into dark Caves <note place="margin">ver. 19.</note>
+               </l>
+               <l>Of your beloved Earth: tremble ye slaves</l>
+               <l>Of Satan, fore his glorious Majesty,</l>
+               <l>Who is now come all people for to try.</l>
+               <l>What you've devoted to Idolatry, <note place="margin">ver. 20.</note>
+               </l>
+               <l>To th' Moles and Bats throw all, as vanity.</l>
+               <l>Let Priests and Tyrants too retire with shame,</l>
+               <l>To th' loathsom lake of Hell, from whence they came. <note place="margin">Isa. 30. 33. Nah. 1. 9.</note>
+               </l>
+               <l>What mean ye Tyrants God's Laws to contemn?</l>
+               <l>What mean you thus his People to condemn,</l>
+               <l>Though innocent? Whatever you intend,</l>
+               <l>God hath decreed to make an utter end <note place="margin">ver. 8.</note>
+               </l>
+               <l>Of all his and his Peoples Enemies,</l>
+               <l>The second time Affliction shall not rise.</l>
+               <l>Whilst you as sharp thorns with each others twist, <note place="margin">ver. 10.</note>
+               </l>
+               <l>And think to tyrannize ev'n as you lift:</l>
+               <l>
+                  <pb n="10" facs="tcp:35605:8"/>
+Whilst Drunkards like, ye drunken are with blood,</l>
+               <l>With your confederates hope t' encrese the flood</l>
+               <l>Of Persecution, and to tyrannize</l>
+               <l>Yet more and more; hear what God doth devise:</l>
+               <l>Like Stubble fully dry, his mighty Power</l>
+               <l>Shall kindle you, with Fire you devour</l>
+               <l>Although you many be, and live at ease, <note place="margin">verse. 12.</note>
+               </l>
+               <l>Though you full Pleasures have, and are in peace.</l>
+               <l>Ye Counsellors of <hi>Belial</hi> that do plot:</l>
+               <l>Mischeif against the Lord, you're not forgot,</l>
+               <l>God will pass through, and oversee you all,</l>
+               <l>And in a moment great shall be your fall.</l>
+               <l>But to his People that to him do pray,</l>
+               <l>With yearning Bowels kindly he will say,</l>
+               <l>Though I have you afflicted heretofore,</l>
+               <l>I'le turn my hand and you afflict no more.</l>
+               <l>And I will break the Yoke that you oppress,</l>
+               <l>In sunder burst the Bands of your distress. <note place="margin">vers. 13.</note>
+               </l>
+               <l>Then God's Command to his foes shall be known,</l>
+               <l>No more of their name 'mongst you shall be sown. <note place="margin">vers. 14.</note>
+               </l>
+               <l>The <hi>Bastards brood</hi> hee'l root out of the Land,</l>
+               <l>His People they shall never more withstand.</l>
+               <l>The <hi>filthy Idols Temples</hi> he will race,</l>
+               <l>Molten and Graven Image with disgrace</l>
+               <l>He will turn out; and condemn to the Grave</l>
+               <l>The <hi>Vile</hi> and <hi>Swinish Priests</hi> that you enslave.</l>
+               <l>Over the Mountains look, behold and see! <note place="margin">vers. 15.</note>
+               </l>
+               <l>How beautiful the Messengers feet be</l>
+               <l>That in this dismal day glad Tidings bring,</l>
+               <l>And publish't have the Raign of <hi>Sions</hi> King. <note place="margin">Isa. 52. 7.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Ye <hi>poysonous Dragons brood,</hi> away, fly, fly,</l>
+               <l>This news your very souls will terifie:</l>
+               <l>Run, run, but all in vain, you're all <hi>cut off</hi>
+               </l>
+               <l>By them who were the objects of your <hi>scoff</hi> 
+                  <note place="margin">Isa. 65. 12, 13.</note>
+               </l>
+               <l>And laughter, whom in your prosperous dayes</l>
+               <l>You did reproach, and Persecution raise</l>
+               <l>Them to destroy, and made them all your prey, <note place="margin">Ier. 30. 18.</note>
+               </l>
+               <l>Unless they would walk in your dirty way.</l>
+               <l>
+                  <pb n="11" facs="tcp:35605:8"/>
+Open your eyes, blind People, now and see</l>
+               <l>Who's in the right, who the <hi>Phanaticks</hi> be,</l>
+               <l>Who are the Rebels, Traytors, <hi>Hereticks;</hi>
+               </l>
+               <l>Now you may see such terms were but the tricks <note place="margin">Act. 17. 5, 6, 7, 8, 9.</note>
+               </l>
+               <l>O' th' cunning <hi>Dragon,</hi> People to delude</l>
+               <l>To brand God's holy Saints, the multitude</l>
+               <l>Against them to provoke: The <hi>Magpy Priest</hi> 
+                  <note place="margin">Act. 4. 1, 2, 6</note>
+               </l>
+               <l>He is the Agent of this ugly Beast:</l>
+               <l>And he perswades you by his Masters wit,</l>
+               <l>That to oppress God's People 's very fit.</l>
+               <l>For what he saith he will pretend a Reason,</l>
+               <l>And prove them to be guilty of high Treason,</l>
+               <l>Because they'l not obey the King (saith he) <note place="margin">Ioh. 19. 12.</note>
+               </l>
+               <l>Nor yet serve God, What greater Crime can be?</l>
+               <l>If you're so stubborn that this will not do,</l>
+               <l>Then he will prove the point by Scripture too.</l>
+               <l>That the three Children were damnd to the fire,</l>
+               <l>'Cause they withstood their Sovereigns desire,</l>
+               <l>They would not him obey, nor serve his god,</l>
+               <l>Who can suppose but they must feel his rod?</l>
+               <l>Within his fiery Furnace they must burn,</l>
+               <l>'Cause from their Heresie they will not turn.</l>
+               <l>
+                  <hi>Phanatick Daniel</hi> too, hee'l not obey,</l>
+               <l>But pray he will, though's <hi>gracious King</hi> saith <hi>nay:</hi>
+               </l>
+               <l>Then take him <hi>Lion,</hi> him in peices tear;</l>
+               <l>For in those dayes no Bishops Courts there were:</l>
+               <l>Nor yet had Parliaments come to so high.</l>
+               <l>A pitch (as now they have) of Policy</l>
+               <l>To Banish them into some unknown Land,</l>
+               <l>Because they'd not obey their Kings Command.</l>
+               <l>Many such places with these do agree,</l>
+               <l>To plead compelling to conformitie;</l>
+               <l>If this will not <hi>Phanaticks</hi> satisfie,</l>
+               <l>The Priests can say no more, no more can I.</l>
+            </lg>
+            <lg>
+               <l>Ye <hi>Babylonish</hi> Panders cease your joy,</l>
+               <l>The Lord, the Whore (your Mistriss) will destroy. <note place="margin">Rev. 17. 14. ver. 16.</note>
+               </l>
+               <l>The Horns o'th Beast, Kings, shall the Strumpet hate,</l>
+               <l>Present her naked, make her desolate;</l>
+               <l>
+                  <pb n="12" facs="tcp:35605:9"/>
+God in their hearts shall kindle such an ire</l>
+               <l>'Gainst her, to eat her flesh, burn her with fire.</l>
+               <l>Wait for God's powerful Angel; ye Upright,</l>
+               <l>The Earth from's Glory 'gins to receive light. <note place="margin">Rev. 18. 1.</note>
+               </l>
+               <l>Hear, hear! his Voice proclaims destruction</l>
+               <l>Unto the great and mighty <hi>Babylon,</hi> 
+                  <note place="margin">Vers. 2.</note>
+               </l>
+               <l>Its fallen, fallen, and in ev'ry Nation,</l>
+               <l>Of Devils is become the habitation;</l>
+               <l>A hold of loathsome spirits, and a cage</l>
+               <l>Of filthy hateful Birds in every Age.</l>
+               <l>All Kingdoms (since her reign) and every Nation, <note place="margin">Vers. 3.</note>
+               </l>
+               <l>Have drunk her wrathful Wine of Fornication:</l>
+               <l>Kings of the Earth have eas'ly been drawn in</l>
+               <l>VVith this lewd Whore, to act that beastly sin:</l>
+               <l>The earthly Merchants too have made a prize</l>
+               <l>By the abundance of her Merchandize.</l>
+               <l>Your Faces from her turn, heark to the call</l>
+               <l>Of God from Heaven to his People all:</l>
+               <l>Come out of her, partake not of her crimes;</l>
+               <l>Delay not, it relates to th' present times. <note place="margin">Vers. 4.</note>
+               </l>
+               <l>If of her sins you'l venture to partake,</l>
+               <l>
+                  <hi>Share you must in her plagues;</hi> your soul's at stake.</l>
+               <l>Her sins, ev'n unto Heav'n, do loudly cry,</l>
+               <l>And God remembreth her Iniquity. <note place="margin">Vers. 5.</note>
+               </l>
+               <l>Happy, thrice happy Sons o'th' Separation,</l>
+               <l>'Tis you shall see, yea, work her desolation,</l>
+               <l>'Tis you must her requite, and her reward,</l>
+               <l>To her and to her Brats have no regard; <note place="margin">Vers. 6.</note>
+               </l>
+               <l>Heav'ns vengeance execute, <hi>Give her her due,</hi>
+               </l>
+               <l>
+                  <hi>Repay her double what she did to you:</hi>
+               </l>
+               <l>
+                  <hi>Fill up the Cup of her Affliction,</hi>
+               </l>
+               <l>
+                  <hi>And give it her,</hi> yea, <hi>give her two for one.</hi>
+               </l>
+               <l>Survey her Glory and delightful sport, <note place="margin">Vers. 7.</note>
+               </l>
+               <l>So much of grief and torment give her for't.</l>
+               <l>Now in her heart she saith, <hi>She sits a Queen,</hi>
+               </l>
+               <l>
+                  <hi>No Widows sorrow on her shall be seen,</hi>
+               </l>
+               <l>
+                  <hi>Yet in one day her plagues shall her undoe,</hi>
+               </l>
+               <l>
+                  <hi>Pale Death, sad Mourning, pining Famine too.</hi> 
+                  <note place="margin">Vers. 8.</note>
+               </l>
+               <l>
+                  <pb n="13" facs="tcp:35605:9"/>
+With Fire she shall quite destroyed he,</l>
+               <l>For the Lord God is Iudge, and strong is he.</l>
+               <l>Ye Earthly Kings what signifies your pow'r,</l>
+               <l>See what our King can do ev'n in one hour;</l>
+               <l>See what's become of your beloved Whore,</l>
+               <l>VVith whom you've sinn'd, and perish must therefore.</l>
+               <l>Howl, howl, bewail, lament with her, alas! <note place="margin">Vers. 9, 10.</note>
+               </l>
+               <l>VVith smoke and burning she away must pass.</l>
+            </lg>
+            <lg>
+               <l>Ye Earthly whorish Merchants that have sold <note place="margin">Ver. 11, 12.</note>
+               </l>
+               <l>Mens souls and bodies; your beloved Gold,</l>
+               <l>Fine Linen, Purple, Silk and Scarlet too,</l>
+               <l>Both Pearls and Precious Stones, all will not doe;</l>
+               <l>None, none of these can save her from the hand</l>
+               <l>Of <hi>Great Iehovah,</hi> none can him withstand:</l>
+               <l>Your Trade must fail, your costly VVares and all,</l>
+               <l>All that belongs to her with her must fall.</l>
+               <l>VVeep, weep, and mourn all who on her depend,</l>
+               <l>Your Riches and your Glory hath an end.</l>
+               <l>Rejoyce and sing for joy ye Saints on high, <note place="margin">Vers. 20.</note>
+               </l>
+               <l>Sound praise ye Heav'ns to God's Majestie,</l>
+               <l>Holy Apostles, and blest Prophets too,</l>
+               <l>Praise ye the Lord, God hath avenged you.</l>
+               <l>
+                  <hi>Prophets, Apostles,</hi> and the <hi>Martyrs blood,</hi> 
+                  <note place="margin">Vers. 24.</note>
+               </l>
+               <l>And all the slain that ever her withstood,</l>
+               <l>
+                  <hi>Is found in her.</hi> O bloody drunken VVhore!</l>
+               <l>Thy full destruction's come even to the door. <note place="margin">Rev. 17. 6. Gen. 49. 8, 9, 10. Ezek. 1. 16.</note>
+               </l>
+               <l>Rouze; rouze, good People, why are you so dull?</l>
+               <l>The Heav'ns, the Earth, of symptoms clear, are full;</l>
+               <l>The work goes on, the <hi>Wheel</hi> moves in the <hi>Wheel,</hi>
+               </l>
+               <l>God's Word and Works do stir you, cann't you feel?</l>
+               <l>Where is your Faith? ope but one faithful eye,</l>
+               <l>And you will see our King's approach is nigh:</l>
+               <l>How like a Queen doth sit the Scarlet VVhore? <note place="margin">Isa. 47. 7.</note>
+               </l>
+               <l>Secure she is, no sorrow knows; therefore</l>
+               <l>One hour shall compleat her misery; <note place="margin">Hag. 1. 2, 3, 4, 5. Isa. 51. 12. 1 Ioh. 2. 15.</note>
+               </l>
+               <l>Out of your Ceiled houses, your Tents fly,</l>
+               <l>Shake off your slavish fears, your worldly pelf</l>
+               <l>Slight as the stinking dung, away with self,</l>
+               <l>
+                  <pb n="14" facs="tcp:35605:10"/>
+Away with self-concernments, do not pause, <note place="margin">Rev. 3. 16. Isa. 40. 27, 28.</note>
+               </l>
+               <l>Be not lukewarm in God's <hi>most holy Cause.</hi>
+               </l>
+               <l>Why are you faint? what's become of your might?</l>
+               <l>God will encrease your strength if you are right.</l>
+               <l>Let th' Wicked faint, th' Ungodly weary be,</l>
+               <l>And let th' untamed Youth fall utterlie.</l>
+               <l>Let <hi>lustful Dammums,</hi> that are <hi>Frenchifi'd,</hi> 
+                  <note place="margin">Vers. 30.</note>
+               </l>
+               <l>Faint, and be shook in pieces, when they're try'd.</l>
+               <l>But they that wait upon God's holy Will,</l>
+               <l>He will renew their strength, and teach them skill, <note place="margin">Vers. 31.</note>
+               </l>
+               <l>To mount on high, as with an Eagles wings,</l>
+               <l>They shall with ease perform the hardest things:</l>
+               <l>They shall not weary be, although they run;</l>
+               <l>Walk, and not faint: what God wills, shall be done.</l>
+               <l>Keep silence, O ye Islands, 'fore the Lord;</l>
+               <l>Heark what the Lord doth say; peace, not a word! <note place="margin">Isa. 41. 1.</note>
+               </l>
+               <l>Let his choice People now their strength renew,</l>
+               <l>It must be so, he hath said, and 'tis true.</l>
+               <l>Ye <hi>Wolvish Priests,</hi> cease roaring, silence keep,</l>
+               <l>Fly to your dens, leave worrying the Sheep:</l>
+               <l>Be silent, roaring Lions, Bulls and Beats,</l>
+               <l>The time draws near we shall be freed from fears:</l>
+               <l>Pray hold your swearing, for it is decreed,</l>
+               <l>God's People from your fury shall be freed.</l>
+               <l>You are resolv'd to ruine, banish, kill</l>
+               <l>The Innocent, your own lusts to fulfill, <note place="margin">Exod. 15. 9, 10. Lam. 3. 37.</note>
+               </l>
+               <l>The righteous God your wrath so order shall,</l>
+               <l>That it shall wound your selves, and work your fall.</l>
+               <l>That God who rais'd the Righteous, to's foot brings, <note place="margin">Isa. 41. 2.</note>
+               </l>
+               <l>Subjects unto them Nations and Kings,</l>
+               <l>Makes them like dust before his Sword to fly,</l>
+               <l>Drives them before his Bow, like stubble dry:</l>
+               <l>That God will plead his Peoples cause, their wrong</l>
+               <l>He will avenge, and you shall see't ere long. <note place="margin">Jer. 50. 33, 34. Isa. 41. 14.</note>
+               </l>
+               <l>Though mean and low ev'n as a worm they be,</l>
+               <l>The <hi>Holy One of Israel</hi> is he,</l>
+               <l>Their blest <hi>Redeemer,</hi> he shall them uprear,</l>
+               <l>To thresh the Mountains, and the Hills to tear, <note place="margin">Vers. 15.</note>
+               </l>
+               <l>
+                  <pb n="15" facs="tcp:35605:10"/>
+Until like dust and chaff they fly away, <note place="margin">Vers. 16.</note>
+               </l>
+               <l>Ye wicked ones expect this dreadful day.</l>
+               <l>
+                  <hi>Zion,</hi> put on thy strength, awake, awake, <note place="margin">Isa. 52. 1.</note>
+               </l>
+               <l>
+                  <hi>Ierusalem</hi> thy costly Garments take,</l>
+               <l>From henceforth into thee shall come no more,</l>
+               <l>Th' uncircumcised children of the Whore.</l>
+               <l>Arise, and shake thy self, in purity <note place="margin">Vers. 2.</note>
+               </l>
+               <l>Sit down, O <hi>Zion,</hi> thy Captivity</l>
+               <l>For ever fly: though thou wert sold for nought, <note place="margin">Vers. 3.</note>
+               </l>
+               <l>Without money, thy Freedom God hath bought.</l>
+               <l>Prepare to meet thy holy heav'nly King, <note place="margin">Luk. 12. 35, 36, 37.</note>
+               </l>
+               <l>Who of all Grace and Mercy is the Spring:</l>
+               <l>Behold he quickly comes to th' sons of men;</l>
+               <l>Ev'n so, Lord <hi>IESUS</hi> come, <hi>Amen, Amen.</hi> 
+                  <note place="margin">Rev. 22. 20.</note>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:35605:11"/>
+            <pb facs="tcp:35605:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

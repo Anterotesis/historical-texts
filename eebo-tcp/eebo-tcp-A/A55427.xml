@@ -1,0 +1,594 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Salsbury-ballad with the learned commentaries of a friend to the authors memory.</title>
+            <author>Pope, Walter, d. 1714.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1676</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-03">2004-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A55427</idno>
+            <idno type="STC">Wing P2915A</idno>
+            <idno type="STC">ESTC R219512</idno>
+            <idno type="EEBO-CITATION">99830979</idno>
+            <idno type="PROQUEST">99830979</idno>
+            <idno type="VID">35441</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A55427)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 35441)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2037:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Salsbury-ballad with the learned commentaries of a friend to the authors memory.</title>
+                  <author>Pope, Walter, d. 1714.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.)   </extent>
+               <publicationStmt>
+                  <publisher>printed for Henry Brome, at the Gun at the West-end of St. Paul's Church-Yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1676.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Walter Pope.</note>
+                  <note>Verse - "O Salisbury people, give ear to my song,".</note>
+                  <note>In two parts.</note>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ballads, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-12</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2003-12</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2004-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="ballad">
+            <pb facs="tcp:35441:1" rendition="simple:additions"/>
+            <head>THE SALSBURY-BALLAD, With the Learned COMMENTARIES of a Friend to the Authors Memory.</head>
+            <div n="1" type="part">
+               <head>The First PART.</head>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>
+                     <hi>
+                        <seg rend="decorInit">O</seg> Salsbury</hi> People, give ear to my Song,</l>
+                  <l>And attention unto my new Ditty:</l>
+                  <l>For it is in the praise of your River <hi>Avon,</hi>
+                  </l>
+                  <l>Of your Bishop, your Church and your City.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>And you Maior and Aldermen all on a row,</l>
+                  <l>Who govern that <note n="a" place="margin">The City of New <hi>Sarum</hi> built in the Bishops Meadow.</note> watered Mead,</l>
+                  <l>First <note n="b" place="margin">To the Ballad-singers.</note> listen a while, upon your <note n="c" place="margin">In a posture of attention.</note> tipto,</l>
+                  <l>Then carry this home and <note n="d" place="margin">Here the Poet is in a good humour, and supposes that all of them can read.</note> read.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>Therein you may find many an excellent <note n="e" place="margin">An old word frequent in <hi>Spenser,</hi> and (if we may join the best <hi>English</hi> Poet with the worst Rimers in the world) in <hi>Sternbold</hi> and <hi>Hop<g ref="char:EOLhyphen"/>kins, Thy law and eke thy lore,</hi> &amp;c. I should cite the places, but that such Quotations would look strangely on the margin of a Ballad. It signifies Lesson or Doctrin. Vid. <hi>Skinner's Lexicon.</hi>
+                     </note> Lore,</l>
+                  <l>That unto your Wives you may teach;</l>
+                  <l>Though <note n="f" place="margin">I find now I praised the Poet too soon; for this is an impudent and unmannerly supposition, and I approve it not; though it is something mollified by those words <hi>perhaps</hi> and <hi>your Worships.</hi>
+                     </note> perhaps once and more our Poet may soar</l>
+                  <l>Clear out of your Worships reach.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>O <note n="g" place="margin">This seems Heathenish to pray to Hills and Parks and Rivers; but 'tis no more than other Poets invoking <hi>Parnas<g ref="char:EOLhyphen"/>sus</hi> and <hi>Helicon;</hi> nevertheless I believe the Poet was a good Christian, for if you read to the end of this Part, you will find the Bishop was very much in his favour.</note> 
+                     <hi>Clarendon</hi> Park, and O <hi>Clerbury</hi> Hill,</l>
+                  <l>Join with your old Friend the River,</l>
+                  <l>To inspire my Muse, and assist my Quill,</l>
+                  <l>In the great things I have to deliver.</l>
+               </lg>
+               <lg n="5">
+                  <head>V.</head>
+                  <l>School-Mistresses fine, to the number of <note n="h" place="margin">Not but that there are a greater number of School-Mistresses in the Close, but the Poet hath need of no more of them than there were Muses.</note> Nine,</l>
+                  <l>Ile call on no Muses but you;</l>
+                  <l>Nor no other help to enter my <note n="i" place="margin">My young barking Muse. <hi>Ma Muse nourrie in Satire.</hi> Boi.</note> Whelp,</l>
+                  <l>Unless it be <note n="k" place="margin">That word signifies fat or dancing.</note> bouncing <note n="l" place="margin">A diminutive from <hi>Prudence,</hi> and seems to be put here for any Woman at large only to complete the Ryme, it being a name suitable enough; for most Women are wise, if not cunning. I confess some who pretend to have been intimately acquainted with the Poet in his life-time, are very positive, that this name did not only point out a particular Woman, but even the Poets Mistress; but I cannot agree to this, for had it been so, he would have given her a more honourable Epither.</note> 
+                     <hi>Pru.</hi>
+                  </l>
+               </lg>
+               <lg n="6">
+                  <head>VI.</head>
+                  <l>Encourage you <note n="m" place="margin">The nine School-Mistres<g ref="char:EOLhyphen"/>ses and this bouncing <hi>Pru.</hi>
+                     </note> Ten, the most timorous Pen</l>
+                  <l>That e'r such a task did begin:</l>
+                  <l>When you find any wit, then in my mouth spit,</l>
+                  <l>And chuck me under the chin.</l>
+               </lg>
+               <lg n="7">
+                  <head>VII.</head>
+                  <l>I will not forget those <note n="n" place="margin">
+                        <hi>Stonehenge</hi> the noblest piece of Antiquity in <hi>England.</hi>
+                     </note> Stones that are set</l>
+                  <l>In a round, upon <hi>Salsbury</hi> Plains;</l>
+                  <l>Though who brought 'em there, 'tis hard to declare,</l>
+                  <l>The <note n="o" place="margin">Here the Poet briefly sums up the several opinions of Historians and Antiquarians concerning the Founders of <hi>Stohengege.</hi>
+                     </note> 
+                     <hi>Romans, Merlin</hi> or <hi>Danes.</hi>
+                  </l>
+               </lg>
+               <lg n="8">
+                  <head>VIII.</head>
+                  <l>Nor those pretty Sheep, whom greater <note n="p" place="margin">Shepherds.</note> Beasts keep,</l>
+                  <l>Nor you Bustards that stalk thereby:</l>
+                  <l>You Bustards that chuse to do like my Muse,</l>
+                  <l>Who walks because she can't fly.</l>
+               </lg>
+               <lg n="9">
+                  <head>IX.</head>
+                  <l>Nor <note n="q" place="margin">Doctor <hi>Peter Turberville,</hi> the best Oculist of this Age or any before him.</note> you that know all the diseases of Eyes,</l>
+                  <l>And for all a sure remedy find;</l>
+                  <l>Who alone give light, after twenty years night,</l>
+                  <l>To those who are born <note n="r" place="margin">The Daughter of <hi>George Turberville</hi> of <hi>Whitminster</hi> in <hi>Glocestershire,</hi> and one <hi>Peverel</hi> of <hi>Salsbury</hi> and divers others.</note> stone-blind.</l>
+               </lg>
+               <lg n="10">
+                  <head>X.</head>
+                  <l>Nor you the good <note n="s" place="margin">If you can have patience till you come to the nine<g ref="char:EOLhyphen"/>teenth <hi>Stanza</hi> of the Second Part, you will know what this Bishops name is.</note> Bishop that came from the <note n="t" place="margin">Exeter.</note> West,</l>
+                  <l>And spared neither pains nor cost,</l>
+                  <l>To build up the <note n="u" place="margin">The Bishops Palace in <hi>Salsbury.</hi>
+                     </note> House, pull'd down by <note n="v" place="margin">One <hi>Vanling</hi> a <hi>London</hi>-Tailor, who bought it of the sacrilegious Rebels.</note> Prick-louse,</l>
+                  <l>And fit it for such an Host.</l>
+               </lg>
+               <lg n="11">
+                  <head>XI.</head>
+                  <l>'Twas you that let in <note n="y" place="margin">This I suppose is one of those places our Poet threat<g ref="char:EOLhyphen"/>ens the Aldermen with in the third <hi>Stanza;</hi> but I will not let him be obscure: He means the Deanry of S<hi rend="sup">t</hi>. <hi>Burien</hi> near the Lands-end in <hi>Cornwal,</hi> procured to be annext to the Bishoprick of <hi>Exeter,</hi> (by this Bishop before his Translation) upon the Death of Doctor <hi>Wykes,</hi> which happened in the time of Dr. <hi>Sparrow</hi> the present Bishop, who now enjoys it.</note> S<hi rend="sup">t</hi>. <hi>Burien</hi> Streams</l>
+                  <l>To increase the small <note n="z" place="margin">River for Sea, not without a conceit.</note> River <note n="*" place="margin">The name of the River upon which <hi>Exeter</hi> stands, put figuratively for the City. <hi>To increase the small River</hi> Ex, <hi>i.e.</hi> to augment the poor Bishop<g ref="char:EOLhyphen"/>rick of <hi>Exeter.</hi>
+                     </note> 
+                     <hi>Ex:</hi>
+                  </l>
+                  <l>'Twas you brought again the <note n="a" place="margin">The Ensigns of the Chancellorship of the Garter, a Medal and a Gold-Chain. We are said to lose what we have been possessors of. The first Chancellor of the Garter was Bishop <hi>Beauchamp, A.D.</hi> 1450. and that honour was enjoyed by his Successors the Bishops of <hi>Salsbury,</hi> till the time of Cardinal <hi>Campegio,</hi> who having incurr'd the displeasure of K. <hi>Hen.</hi> VIII. for differing from him about the Match, retired to <hi>Rome</hi> and there died, <hi>A.D.</hi> 1539. and lies buried in <hi>Santa Maria Trastevere,</hi> that Office having continued in the Bishops of <hi>Salsbury</hi> 89 years.</note> lost Badge and Chain,</l>
+                  <l>And did it to <note n="b" place="margin">Since which time it has been in lay hands, till it pleased K. <hi>Charles</hi> II. (upon the humble Petition and claim of the present Bishop of <hi>Salsbury</hi>) to restore it to him and his Successors; the Letters Patents bear date <hi>Nov.</hi> 25, 1671. so that it was out of that Sea 132 years.</note> 
+                     <hi>Sarum</hi> annex.</l>
+               </lg>
+               <lg n="12">
+                  <head>XII.</head>
+                  <l>You first made the <hi>Salsbury</hi> men <note n="c" place="margin">Beat it into their heads.</note> understand</l>
+                  <l>Their River might <note n="d" place="margin">For a very few thousand pounds. So <hi>Horace</hi> speaking of a River, <hi>Doctus iter melius,</hi> and in another place, <hi>Multa mole docendus aprico parcere campo.</hi>
+                     </note> eas'ly be taught</l>
+                  <l>To bear Ships up and down, and enrich the Town,</l>
+                  <l>
+                     <note n="e" place="margin">On the 20. of <hi>October,</hi> 1675. by a good token 'twas the very day and hour <hi>Northampton</hi> was burning.</note> And you were the first at it wrought.</l>
+               </lg>
+               <lg n="13">
+                  <head>XIII.</head>
+                  <l>'Twas you that kept up the Citizens <note n="f" place="margin">At the meeting of the Com<g ref="char:EOLhyphen"/>missioners for making the Ri<g ref="char:EOLhyphen"/>ver navigable at <hi>Salsbury, Mar.</hi> 22. 1675.</note> hearts,</l>
+                  <l>Or the <note n="g" place="margin">Divers great Gentlemen of <hi>Hampshire;</hi> the Poet alludes to <hi>Beavais</hi> and <hi>Ascabert,</hi> whose Pictures are upon <hi>Hampton-Gate.</hi>
+                     </note> Giants had over-born 'em<g ref="char:punc">▪</g>
+                  </l>
+                  <l>For them you did <note n="h" place="margin">To <hi>London</hi> to the King and Council.</note> ride, for them you <note n="i" place="margin">Answered the Objections of the Opposers.</note> replied,</l>
+                  <l>'Twas you brought their Vessels to <note n="k" place="margin">
+                        <hi>Harnham-Bridge,</hi> where the Key is, <hi>i. e.</hi> They ow the making their River navigable to your management.</note> 
+                     <hi>Harnham.</hi>
+                  </l>
+               </lg>
+               <lg n="14">
+                  <head>XIV.</head>
+                  <l>
+                     <note n="l" place="margin">This is supposed to be ob<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible: page cropped" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ected by the unattentive <gap reason="illegible: page cropped" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nd irreverent Reader, as if <gap reason="illegible: page cropped" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>e Poet had done nothing <gap reason="illegible: page cropped" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> this while.</note> But when will this paltry Poet begin,</l>
+                  <l>And shew us a touch of his Art?</l>
+                  <l>
+                     <note n="m" place="margin">The Poets mild answer. It should have been a Glass of Charet, if Ryme would have permit<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible: page cropped" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>d.</note> With a cup of old Sack, he'l wind up his <note n="n" place="margin">His Engin wherewith he makes verses; so <hi>Chaucer, As winding up makes a Iack go, good wine makes good verses flow.</hi>
+                     </note> Jack,</l>
+                  <l>And <note n="o" place="margin">
+                        <hi>Twang</hi> is a very emphatical word, but not easily tran<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible: page cropped" extent="4 letters">
+                           <desc>••••</desc>
+                        </gap>ed; it signifies as much as <hi>élatter</hi> in French, or <hi>rimbombar</hi> in Italian.</note> 
+                     <hi>twang</hi> it i' th' Second Part.</l>
+               </lg>
+            </div>
+            <div n="2" type="part">
+               <head>The Second PART to the same Tune.</head>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>OLd <hi>Sarum</hi> was built on a <note n="a" place="margin">Vide infra <hi>Stanza</hi> 17. <q>—<hi>From their hill, Where there was neither well nor spring.</hi>
+                        </q>
+                     </note> dry barren Hill,</l>
+                  <l>A great many years ago.</l>
+                  <l>'Twas a <hi>Roman</hi> Town of strength and renown,</l>
+                  <l>As its stately Ruins show.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>Therein was a Castle for men of Arms,</l>
+                  <l>And a Cloister for men of the Gown;</l>
+                  <l>There were Friers and Monks, and <note n="b" place="margin">Tradesmen.</note> Liers and <note n="c" place="margin">Harlots.</note> Punks,</l>
+                  <l>
+                     <note n="d" place="margin">This refers to Punks, none celebrated in History; as <hi>Thais, Messalina,</hi> and others since.</note> Though not any whose names are come down.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>The Soldiers and Church-men did not long agree,</l>
+                  <l>For the surly men with the <note n="e" place="margin">Hilt for Sword, by a known Figure.</note> Hilt on</l>
+                  <l>Made <note n="f" place="margin">By asking of them roguish questions.</note> sport at the gate, with the Priests that came <note n="g" place="margin">After the Watch was set.</note> late</l>
+                  <l>From <note n="h" place="margin">From doing their daily drudgery.</note> shriving the Nuns of <hi>Wilton.</hi>
+                  </l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>
+                     <note n="i" place="margin">This <hi>Whereupon</hi> is a very comprehensive word, and yet seems more than it is; one would think the Poet here makes a leap from the Foundation of Old <hi>Sarum</hi> by the <hi>Romans</hi> to Bishop <hi>Poor</hi>'s time; but 'tis only from <hi>Herman</hi> the first Bishop of <hi>Salsbury, Anne</hi> 1083. to <hi>Richard Poor</hi> the seventh, 1217. This <hi>Whereupon</hi> there<g ref="char:EOLhyphen"/>fore is as much as to say, After 134 years suffering the affronts of the Garrison, their patience was worn out, flesh and bloud could endure no longer; but Bishop <hi>Poor</hi> being a stout man went to the King.</note> Whereupon Bishop <hi>Poor</hi> went to the <note n="k" place="margin">
+                        <hi>Henry</hi> III.</note> King,</l>
+                  <l>And told him his piteous tale,</l>
+                  <l>That rather than abide such a thorn in his side,</l>
+                  <l>He'd build a new Church in the Vale.</l>
+               </lg>
+               <lg n="5">
+                  <head>V.</head>
+                  <l>Ile build a new Church in the Vale, said he,</l>
+                  <l>If your <note n="l" place="margin">According to the stile of those times.</note> Highness will give me <note n="m" place="margin">Leave.</note> scope.</l>
+                  <l>Who I? said the King, <note n="n" place="margin">Where note that King had no mind to incur the Popes displeasure. In those days he was a terrible Fellow in <hi>England.</hi>
+                     </note> Ile not do such a thing,</l>
+                  <l>Without our old Father the Pope.</l>
+               </lg>
+               <lg n="6">
+                  <head>VI.</head>
+                  <l>Then Ile go to that <note n="o" place="margin">This is a very hard place, why Bishop <hi>Poor</hi> being a Pa<g ref="char:EOLhyphen"/>pist should call the Pope <hi>Whore?</hi> Some think the Bi<g ref="char:EOLhyphen"/>shop spoke it prophetically, knowing that in the succeeding times of <hi>Calvin</hi> and the <hi>Presbyterians,</hi> he should be proved to be the <hi>Whore.</hi> Others more acutely think this might be Pope <hi>Ioane:</hi> But this ingenious solu<g ref="char:EOLhyphen"/>tion is against Chronology: For Pope <hi>Ioane</hi> (if ever there was such a one) was in the year 853. 374 years before Bishop <hi>Poor.</hi> The best reason in my opinion is taken out of the Context, the last verse of this <hi>Stanza, Where every thing is to be sold. Rome</hi> is a Whore, because it does kind<g ref="char:EOLhyphen"/>nesses for Money only, not for love, which is the very definition of a Whore.</note> Whore, replied Bishop <hi>Poor,</hi>
+                  </l>
+                  <l>With a Purse full of good old Gold;</l>
+                  <l>For why should I beg and make a low leg,</l>
+                  <l>Where ev'ry thing is to be sold?</l>
+               </lg>
+               <lg n="7">
+                  <head>VII.</head>
+                  <l>He went, he prevail'd, he return'd in a trice,</l>
+                  <l>With ample Autority seiz'd,</l>
+                  <l>To remove <note n="p" place="margin">The Walls of the City and Cathedral.</note> 
+                     <hi>Sarum</hi>'s Stones, and <note n="q" place="margin">This S. <hi>Osmund</hi> was the se<g ref="char:EOLhyphen"/>cond Bishop of Old <hi>Sarum;</hi> he was also Earl of <hi>Dorset</hi> and Lord Chancellor of <hi>England,</hi> he died 1099. and was removed with great Pomp to New <hi>Sarum,</hi> where he lies buried in the middle of <unclear>
+                           <hi>our Lady-Chappel</hi>
+                        </unclear> under a black Marble-stone bearing only this Inscription, <hi>ANNO</hi> MXCIX. He was Sainted by Pope <hi>Calixtus</hi> III. <hi>Anno</hi> 1456. The Process and charge thereof may be seen in <hi>Salsbury</hi> Muniments.</note> 
+                     <hi>S<hi rend="sup">t</hi>. Osmund</hi>'s Bones,</l>
+                  <l>And to build a new Church where he pleas'd.</l>
+               </lg>
+               <lg n="8">
+                  <head>VIII.</head>
+                  <l>To the Abbess of <hi>Wilton</hi> he shewed his Bull,</l>
+                  <l>And how much he was in the Popes grace;</l>
+                  <l>Though they two consulted their <note n="r" place="margin">A Proverbial Phrase used for Rymes sake; for I can<g ref="char:EOLhyphen"/>not believe what some of the wicked hint, that the Poet had any waggish meaning here.</note> bellies full,</l>
+                  <l>Yet they could not agree of a place.</l>
+               </lg>
+               <lg n="9">
+                  <head>IX.</head>
+                  <l>One time as this Prelate lay on his Down-Bed,</l>
+                  <l>Recruiting his Spirits with rest,</l>
+                  <l>There appear'd, as 'tis said, a beautiful <note n="s" place="margin">Who that Maid and Babe were, the learned and devout understand.</note> Maid,</l>
+                  <l>With her own dear Babe at her brest.</l>
+               </lg>
+               <lg n="10">
+                  <head>X.</head>
+                  <l>To him thus she spoke, (the day was scarce broke,</l>
+                  <l>And his eyes yet to slumber did yield)</l>
+                  <l>Go build me a Church without any delay,</l>
+                  <l>Go build it in <hi>Merry-field.</hi>
+                  </l>
+               </lg>
+               <lg n="11">
+                  <head>XI.</head>
+                  <l>He awakes and he rings, up ran Monks and Friers</l>
+                  <l>At the sound of his little Bell.</l>
+                  <l>I must know, said he, where <hi>Merry-field</hi> is,</l>
+                  <l>But the Devil a bit could they tell.</l>
+               </lg>
+               <lg n="12">
+                  <head>XII.</head>
+                  <l>Full early he arose on a Morning gray,</l>
+                  <l>To meditate and to walk;</l>
+                  <l>And by chance over-heard a Soldier on the Guard</l>
+                  <l>As he thus to his fellow did talk.</l>
+               </lg>
+               <lg n="13">
+                  <head>XIII.</head>
+                  <l>I will lay on the side of my good Yewen Bow,</l>
+                  <l>That I shoot clean over the Corn,</l>
+                  <l>As far as that Cow in <hi>Merry-field,</hi>
+                  </l>
+                  <l>Which grazes under the thorn.</l>
+               </lg>
+               <lg n="14">
+                  <head>XIV.</head>
+                  <l>Then the Bishop cried out, Where is <hi>Merry-field?</hi>
+                  </l>
+                  <l>For his mind was still on his Vow.</l>
+                  <l>The Soldier reply'd, By the River-side,</l>
+                  <l>Where you see that brindle Cow.</l>
+               </lg>
+               <lg n="15">
+                  <head>XV.</head>
+                  <l>Upon this he declared his pious intent,</l>
+                  <l>And about the <note n="t" place="margin">Indulgences are a sort of <hi>Roman</hi> Coin the Popes use to give to pious uses, as buil<g ref="char:EOLhyphen"/>ding of Churches, maintain<g ref="char:EOLhyphen"/>ing Rebellion against Protestant Princes, <hi>&amp;c.</hi> To which sometimes they add dead Bodies, Promises and Hopes; so one of their own Poets:
+<lg>
+                           <l>Le Cose de la guerra andavan zoppe:</l>
+                           <l>I Bolognesi richiedean danari</l>
+                           <l>Al Papa, ed egli respondeva coppe,</l>
+                           <l>E mandava Indulgenze per gli Altari. <hi>c. 12.</hi>
+                           </l>
+                        </lg>
+                        <p>And in ano<g ref="char:EOLhyphen"/>ther place:</p>
+                        <lg>
+                           <l>Part' eran Ghibelline, e favorite</l>
+                           <l>Da l' imperio Aleman per suo interesse.</l>
+                           <l>Part' eran Guelfe, e con la Chiesa unite,</l>
+                           <l>Che le pascea di speme, e di promesse. <hi>c. 1.</hi>
+                           </l>
+                        </lg>
+                        <p>Which last Verses may be thus translated in our Authors stile and measure:</p>
+                        <lg>
+                           <l>
+                              <note n="*" place="margin">The Ghibellines.</note> These held that the Emperor was in the right,</l>
+                           <l>
+                              <note n="†" place="margin">The Guelfs.</note> Those that the Popes Cause was good.</l>
+                           <l>They that were for the Popes were fed with thin hopes,</l>
+                           <l>And Pardons and <note n="‖" place="margin">Chips of the Cross.</note> pieces of Wood.</l>
+                        </lg>
+                        <p>Thus the Pope having promised twenty five thousand Crowns a Month towards carrying on the Rebellion in <hi>Ireland,</hi> paid them in this coin, and sent by the <hi>Irish</hi> Ambassadors, (the Bishop of <hi>Fern</hi> and Sir <hi>Nicolas Plunket) Anno</hi> 1647<g ref="char:punc">▪</g> from <hi>Rome</hi> two dead Bodies, which for ought any one knew, might have been Heathens, instead of ready money.</p>
+                     </note>Indulgences ran,</l>
+                  <l>And brought in bad people to build a good <note n="u" place="margin">Not that the Cathedral began by the Steeple, but Steeple is put here for Church, by the same Figure, as before Hilt for Sword.</note> Steeple,</l>
+                  <l>And thus the Cathedral began.</l>
+               </lg>
+               <lg n="16">
+                  <head>XVI.</head>
+                  <l>The Principal Stones in a <note n="x" place="margin">In an hour found out ac<g ref="char:EOLhyphen"/>cording to the rules of A<g ref="char:EOLhyphen"/>strology by the <hi>William Lil<g ref="char:EOLhyphen"/>lies</hi> of those times, this they took more care, because the Church built before by Bishop <hi>Osmund</hi> was founded in an ill hour; in an ill hour, I say, for the Steeple was burnt down by Lightning the day after 'twas finished. Vide <hi>Godw.</hi>
+                     </note> fortunate hour,</l>
+                  <l>For the Pope, King and some of the <note n="y" place="margin">The five first Stones were laid by <hi>Pandulfo</hi> the Popes Legat, the first for the Pope, the se<g ref="char:EOLhyphen"/>cond for the King, the two next for the Earl and Countess of <hi>Salsbury,</hi> the fifth for the Bishop.</note> Peers,</l>
+                  <l>Were laid by <note n="z" place="margin">Signifies no more than <hi>Pandulfo</hi> himself, as by such a ones Lordship or Worship we mean their persons; but this expression is more antient and Poetical, being often used in <hi>Homer,</hi> 
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, &amp;c.</note> 
+                     <hi>Pandulfo</hi>'s Legantine Power,</l>
+                  <l>And 'twas finish'd in <note n="*" place="margin">And cost but forty thousand marks, <hi>Vid.</hi> The Account in <hi>Sals<g ref="char:EOLhyphen"/>bury</hi> Muniments. Upon this excellent Pile, see also the Verses of <hi>Daniel Rogers,</hi> in <hi>Godwin</hi> and <hi>Camden</hi>'s <hi>Britannia,</hi> which begin thus, <hi>Mira cano, &amp;c.</hi>
+                     </note> thirty years.</l>
+               </lg>
+               <lg n="17">
+                  <head>XVII.</head>
+                  <l>Then the men of Old <hi>Sarum</hi> came down from their Hill,<note n="a" place="margin"> In the first Verse of this Part, he calls it, <hi>A dry bar<g ref="char:EOLhyphen"/>ren Hill.</hi>
+                     </note>
+                  </l>
+                  <l>Where there was neither Well nor Spring;</l>
+                  <l>That they might have a Mill, and water at <note n="b" place="margin">At hand for all convenien<g ref="char:EOLhyphen"/>ces, as washing of dishes, drowning of children, <hi>&amp;c.</hi>
+                     </note> will,</l>
+                  <l>And hear the sweet <note n="c" place="margin">This is another place wherein the Poet Intended to walk <hi>incognito;</hi> but I'll pull off his mask, noble Citizens, he means Frogs. <hi>Aristophanes</hi> thought so well of their voices, that he makes 'em sustain the part of the <hi>Chorus</hi> in one of his Come<g ref="char:EOLhyphen"/>dies: the words of their Song are <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>, the meaning thereof, and the Tune I confess my self ignorant of.</note> Fishes sing.</l>
+               </lg>
+               <lg n="18">
+                  <head>XVIII.</head>
+                  <l>But if I proceed, as I once had decreed,</l>
+                  <l>And <note n="d" place="margin">Here the Poet chides him<g ref="char:EOLhyphen"/>self for his fool-hardy un<g ref="char:EOLhyphen"/>dertaking in the first Part, and begins to take up.</note> foolishly undertook,</l>
+                  <l>To let my <note n="e" place="margin">Poetical.</note> vein run, I shall never have done,</l>
+                  <l>And instead of a Song make a Book.</l>
+               </lg>
+               <lg n="19">
+                  <head>XIX.</head>
+                  <l>O pardon me, pardon me, Bishop <note n="f" place="margin">Now I am out of your debt for what I promised in my Commentary upon the <hi>9th Stanza</hi> of the first Part.</note> 
+                     <hi>Ward,</hi>
+                  </l>
+                  <l>For putting thy name in my Song;</l>
+                  <l>For I am alas but a silly <note n="g" place="margin">A Welsh Poet.</note> Bard,</l>
+                  <l>And my Verses cannot live long.</l>
+               </lg>
+               <lg n="20">
+                  <head>XX.</head>
+                  <l>Though sometimes a lucky Ballad may hit,</l>
+                  <l>And in spight of times Iron <note n="h" place="margin">Teeth.</note> 
+                     <hi>Fangs,</hi>
+                  </l>
+                  <l>Outlive greater Volumes stuft fuller of wit,</l>
+                  <l>And conceiv'd with more labour and pangs.</l>
+               </lg>
+               <lg n="21">
+                  <head>XXI.</head>
+                  <l>But if I was owner of <hi>Virgil</hi>'s <hi>Tromp<g ref="char:EOLhyphen"/>
+                     </hi>
+                  </l>
+                  <l>
+                     <hi>Ette</hi> and <hi>Horace</hi>'s well-tuned <note n="i" place="margin">An obsolete word signify<g ref="char:EOLhyphen"/>ing a Welsh Harp.</note> Lyre,</l>
+                  <l>
+                     <note n="k" place="margin">Here the Poet shews his good inclination towards the Bishop.</note> I'd wear 'em out to the very stump,</l>
+                  <l>But I'd make thy great name to aspire.</l>
+               </lg>
+               <lg n="22">
+                  <head>XXII.</head>
+                  <l>Then answer'd my Muse, with a scornful smile</l>
+                  <l>Leave off such fond thoughts, <note n="l" place="margin">How familiarly and obli<g ref="char:EOLhyphen"/>gingly the Muse speaks to the Poet.</note> 
+                     <hi>Poor heart,</hi>
+                  </l>
+                  <l>'Tis fansie and skill, not love and good-will,</l>
+                  <l>Must fit thee for such a part.</l>
+               </lg>
+               <lg n="23">
+                  <head>XXIII.</head>
+                  <l>I'l make it the care of the ages to come,</l>
+                  <l>When thou shalt be dead and rotten,</l>
+                  <l>To publish his same, and embalm his name,</l>
+                  <l>That it never shall be <note n="m" place="margin">
+                        <lg>
+                           <l>—Sopra te non haura possa,</l>
+                           <l>Quel duro, eterne, ineccitabil sonno,</l>
+                           <l>D'havere chiusa in cosi poca fossa,</l>
+                           <l>
+                              <unclear>Si</unclear> tanto i versi miti prometter ponno.</l>
+                        </lg>
+                     </note> forgotten.</l>
+               </lg>
+               <lg n="24">
+                  <head>XXIV.</head>
+                  <l>While Lovers shall languish betwixt hopes and fears,<note place="margin">A Poetical Description of a long time.</note>
+                  </l>
+                  <l>With a visage pale, <note n="n" place="margin">This seems to be taken out of <hi>Horace, Et tinctus violâ pallor amantium.</hi> I hope the Ghost of a Ballad-maker will not be offended with me for this discovery. I am sure the best <hi>French</hi> Poet now living reputes it an honour that it was said of him. <q>N'est qu'un gueux, revestu des depoüilles d'Horace.</q>
+                     </note> blue and forlorn:</l>
+                  <l>And all the world round, any wife may be found,</l>
+                  <l>Whose <note n="o" place="margin">The Poet does not think it strange, if Women who hate their Husbands should let them drink in Horns.</note> dear Husband drinks in a <note n="p" place="margin">The meaning of this is, This Bishops name shall not be forgotten, till all the world over all loving Wives shall be so rich as to be able to provide their Husbands Cups of more precious matter than Horn, and there shall be found no Horn in any loving Wifes House.</note> 
+                     <hi>Horn.</hi>
+                  </l>
+               </lg>
+               <lg n="25">
+                  <head>XXV.</head>
+                  <l>While the River of <hi>Avon</hi> runs down to the Sea,</l>
+                  <l>And Grass grows on <hi>Salsbury</hi> Plain,</l>
+                  <l>While <note n="q" place="margin">While the <hi>English</hi> follow the <hi>French</hi> fashions. This sort of Description is frequent both in Antient and Modern Poets: So <hi>Virgil,</hi>
+                        <lg>
+                           <l>Dum juga montis aper, fluvios dum piscis amabit,</l>
+                           <l>Dumque thymo pascentur apes, dum rore cicada, <hi>&amp;c.</hi>
+                           </l>
+                        </lg>
+                        <p>So <hi>Ovid,</hi>
+                        </p>
+                        <lg>
+                           <l>—Tenedos dum stabit &amp; Ida.</l>
+                           <l>Dum rapidus Simois in mare volvit aquas, <hi>&amp;c.</hi>
+                           </l>
+                        </lg>
+                        <p>So the Italian <hi>Theotritus:</hi>
+                        </p>
+                        <lg>
+                           <l>Mentre per questi monti</l>
+                           <l>Andran le fere errando</l>
+                           <l>E gli alti pini hauran pungenti foglie.</l>
+                           <l>Mentre li vivi fonti</l>
+                           <l>Correran mormorando.</l>
+                           <l>Nel alto mar, che con amor gli accoglit, <hi>&amp;c.</hi>
+                           </l>
+                        </lg>
+                        <p>And in another place:</p>
+                        <lg>
+                           <l>Mentre serpente in dumi</l>
+                           <l>Saranno, e pesci in fiumi,</l>
+                           <l>Ne Sol vivrai, ne la mia stanca lingua,</l>
+                           <l>Ma per Pastor diversi,</l>
+                           <l>In mille altre sampogne, e mille versi.</l>
+                        </lg>
+                        <p>But in mine opinion these are too general, whereas those of our Poet are particular and Sa<g ref="char:EOLhyphen"/>tyrical, and therefore more commendable.</p>
+                     </note> 
+                     <hi>Englishmen</hi> dance to the Musick of <hi>France,</hi>
+                  </l>
+                  <l>And Tradesmen mind nothing but gain.</l>
+               </lg>
+               <lg n="26">
+                  <head>XXVI.</head>
+                  <l>But it is not for such weak <note n="r" place="margin">Alluding to that of <hi>Horace, Quid valeant humeri, quid ser<g ref="char:EOLhyphen"/>re recusent:</hi> And that of <hi>Vir<g ref="char:EOLhyphen"/>gil, Non tali auxilio &amp; de<g ref="char:EOLhyphen"/>sensoribus istis.</hi>
+                     </note> shoulders as thine</l>
+                  <l>To undergo such a <note n="s" place="margin">Of eternizing the Bishops name.</note> care:</l>
+                  <l>For that I design a Poet <note n="t" place="margin">As if she should say with <hi>Horace,</hi>
+                        <lg>
+                           <l>—Quibus ingenium est, &amp; mens divinior atque os,</l>
+                           <l>Magna sonaturum, dabo <hi>NOMINIS HUJUS</hi> honorem.</l>
+                        </lg>
+                     </note> Divine;</l>
+                  <l>
+                     <note n="u" place="margin">Mark how precise the Muse is in observing old Customs.</note> Wind thou up thy Song with a Prayer.</l>
+               </lg>
+               <lg n="27">
+                  <head>XXVII.</head>
+                  <l>She said, I <note n="x" place="margin">The Poets ready obedi<g ref="char:EOLhyphen"/>ence is remarkable; <hi>She said I obeyd: Dictum factum:</hi> It is a sign his <hi>Pegasus</hi> was well managed, that he stops so short, in his full career.</note> obey'd. The <hi>Queen</hi> and the <hi>King</hi>
+                  </l>
+                  <l>God bless, and their Brother <hi>IAMES,</hi>
+                  </l>
+                  <l>And <note n="y" place="margin">
+                        <hi>Christ-church</hi> is a very antient Town, by <hi>Ptolomy</hi> called <hi>Portus Alauni,</hi> by the Saxons <hi>Twinambourn,</hi> because it lies betwixt two Rivers, which answers to the Latin <hi>Interamnium,</hi> now <hi>Terni.</hi>
+                     </note> Old <hi>Christ-church</hi> Haven, and New <hi>Sarum's Aven,</hi>
+                  </l>
+                  <l>And make it as good as the <hi>Thames.</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Henry Brome</hi> at the Gun at the West-end of St. <hi>Paul</hi>'s Church-Yard. 1676.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

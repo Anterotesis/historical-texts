@@ -1,0 +1,898 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Political arithmetick, or, A discourse concerning the extent and value of lands, people, buildings ... as the same relates to every country in general, but more particularly to the territories of His Majesty of Great Britain, and his neighbours of Holland, Zealand, and France / by Sir William Petty ...</title>
+            <author>Petty, William, Sir, 1623-1687.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1690</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 131 KB of XML-encoded text transcribed from 61 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2003-11">2003-11 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A54621</idno>
+            <idno type="STC">Wing P1932</idno>
+            <idno type="STC">ESTC R17628</idno>
+            <idno type="EEBO-CITATION">11862992</idno>
+            <idno type="OCLC">ocm 11862992</idno>
+            <idno type="VID">50048</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A54621)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50048)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 38:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Political arithmetick, or, A discourse concerning the extent and value of lands, people, buildings ... as the same relates to every country in general, but more particularly to the territories of His Majesty of Great Britain, and his neighbours of Holland, Zealand, and France / by Sir William Petty ...</title>
+                  <author>Petty, William, Sir, 1623-1687.</author>
+               </titleStmt>
+               <extent>[23], 117, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Robert Clavel ... and Hen. Mortlock ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1690.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. [22].</note>
+                  <note>Advertisements on p. [1-3] at end.</note>
+                  <note>Reproduction of original in Yale University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Economics --  Early works to 1800.</term>
+               <term>Great Britain --  Economic conditions.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-09</date>
+            <label>Tonya Howe</label>Sampled and proofread</change>
+         <change>
+            <date>2003-09</date>
+            <label>Tonya Howe</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="license">
+            <pb facs="tcp:50048:1"/>
+            <p>LET this Book called <hi>Po<g ref="char:EOLhyphen"/>litical Arithmetick,</hi> which was long since Writ by Sir <hi>William Petty</hi> deceased, be Printed.</p>
+            <closer>
+               <dateline>Given at the Court at <hi>Whitehall</hi> 
+                  <date>
+                     <hi>the</hi> 7th day of <hi>Novemb.</hi> 1690.</date>
+               </dateline>
+               <signed>Nottingham.</signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:50048:1" rendition="simple:additions"/>
+            <p>Political Arithmetick, OR A DISCOURSE</p>
+            <p>Concerning,</p>
+            <p>The Extent and Value of Lands, People, Buildings; Husbandry, Manufacture, Commerce, Fishery, Artizans, Seamen, Soldiers; Publick Revenues, Interest, Taxes, Superlucration, Registries, Banks; Valuation of Men, Increasing of Seamen, of Militia's, Harbours, Situation, Ship<g ref="char:EOLhyphen"/>ping, Power at Sea, <hi>&amp;c.</hi> As the same relates to every Country in general, but more particularly to the Territories of His Majesty of <hi>Great Britain,</hi> and his Neighbours of <hi>Holland, Zealand,</hi> and <hi>France.</hi>
+            </p>
+            <p>By Sir <hi>WILLIAM PETTY,</hi> Late Fellow of the <hi>Royal Society.</hi>
+            </p>
+            <p>
+               <hi>London,</hi> Printed for <hi>Robert Clavel</hi> at the <hi>Peacock,</hi> and <hi>Hen. Mortlock</hi> at the <hi>Phoenix</hi> in St. <hi>Paul</hi>'s Church-yard. 1690.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:50048:2" rendition="simple:additions"/>
+            <pb facs="tcp:50048:2"/>
+            <head>TO THE KINGS Most Excellent MAJESTY.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>WHilest every one meditates some fit Offering for Your Majesty, such as may best agree with your happy
+
+
+<pb facs="tcp:50048:3"/>
+Exaltation to this <hi>Throne;</hi> I presume to offer, what my Father long since writ, to shew the <hi>weight</hi> and <hi>importance</hi> of the <hi>English Crown.</hi>
+            </p>
+            <p>It was by him stiled <hi>Poli<g ref="char:EOLhyphen"/>tical Arithmetick,</hi> in as much as things of <hi>Govern<g ref="char:EOLhyphen"/>ment,</hi> and of no less concern and extent, than the <hi>Glory</hi> of the <hi>Prince,</hi> and the <hi>hap<g ref="char:EOLhyphen"/>piness</hi> and <hi>greatness</hi> of the <hi>People,</hi> are by the <hi>Ordina<g ref="char:EOLhyphen"/>ry</hi> Rules of <hi>Arithmetick,</hi> brought into a sort of Demon<g ref="char:EOLhyphen"/>stration. He was allowed by all, to be the Inventor of this Method of Instruction; where
+
+
+<pb facs="tcp:50048:3"/>
+the perplexed and intricate ways of the World, are explain'd by a very mean peice of Science; and had not the Doctrins of this <hi>Essay</hi> offended <hi>France,</hi> they had long since seen the light, and had sound <hi>Fol<g ref="char:EOLhyphen"/>lowers,</hi> as well as improve<g ref="char:EOLhyphen"/>ments before this time, to the advantage perhaps of <hi>Man<g ref="char:EOLhyphen"/>kind.</hi>
+            </p>
+            <p>But this has been reserved to the felicity of <hi>Your Ma<g ref="char:EOLhyphen"/>jesty's Reign,</hi> and to the expectation which the Learned have therein; and if while in this, I do some honor to the Memory of a good Father, I
+
+
+<pb facs="tcp:50048:4"/>
+can also pay Service, and some Testimony of my Zeal and Reverence to so great a <hi>King,</hi> it will be the utmost Ambi<g ref="char:EOLhyphen"/>tion of</p>
+            <closer>
+               <salute>SIR,</salute> 
+               <signed>Your Majesty's Most Dutiful and Most Obedient Subject<g ref="char:punc">▪</g> Shelborne.</signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:50048:4"/>
+            <head>PREFACE.</head>
+            <p>FOrasmuch as Men, who are in a decaying condition, or who have but an ill opinion of their own Concernments, instead of being (as some think) the more industrious to resist the Evils they apprehend, do contrariwise be<g ref="char:EOLhyphen"/>come the more languid and inef<g ref="char:EOLhyphen"/>fectual in all their Endeavours, nei<g ref="char:EOLhyphen"/>ther caring to attempt or prose<g ref="char:EOLhyphen"/>cute even the probable means of their relief. Upon this Considera<g ref="char:EOLhyphen"/>tion, as a Member of the Com<g ref="char:EOLhyphen"/>mon-Wealth, next to knowing the precise Truth in what condi<g ref="char:EOLhyphen"/>tion the common Interest stands, I would in all doubtful Cases think
+
+
+<pb facs="tcp:50048:5"/>
+the best, and consequently not de<g ref="char:EOLhyphen"/>spair, without strong and manifest Reasons, carefully examining what<g ref="char:EOLhyphen"/>ever tends to lessen my hopes of the publick Welfare.</p>
+            <p>I have therefore thought fit to examin the following Perswasions, which I find too currant in the World, and too much to have af<g ref="char:EOLhyphen"/>fected the Minds of some, to the prejudice of all. <hi>viz.</hi>
+            </p>
+            <p>That the Rents of Lands are<note place="margin">The fears of many concern<g ref="char:EOLhyphen"/>ing the Welfare of <hi>England.</hi>
+               </note> generally fall'n; that therefore, and for many other Reasons, the whole Kingdom grows every day poorer and poorer; that formerly it a<g ref="char:EOLhyphen"/>bounded with Gold, but now there is a great scarcity both of Gold and Silver; that there is no Trade nor Employment for the People, and yet that the Land is under-peopled; that Taxes have been many and
+
+
+<pb facs="tcp:50048:5"/>
+great; that <hi>Ireland</hi> and the Planta<g ref="char:EOLhyphen"/>tions in <hi>America</hi> and other Addi<g ref="char:EOLhyphen"/>tions to the Crown, are a Burthen to <hi>England;</hi> that <hi>Scotland</hi> is of no Advantage; that Trade in gene<g ref="char:EOLhyphen"/>ral doth lamentably decay; that the <hi>Hollanders</hi> are at our heels, in the race of Naval Power; the <hi>French</hi> grow too fast upon both, and ap<g ref="char:EOLhyphen"/>pear so rich and potent, that it is but their Clemency that they do not devour their Neighbors; and finally, that the Church and State of <hi>England,</hi> are in the same dan<g ref="char:EOLhyphen"/>ger with the Trade of <hi>England;</hi> with many other dismal Sugge<g ref="char:EOLhyphen"/>stions, which I had rather stifle than repeat.</p>
+            <p>'Tis true, the Expence of foreign<note place="margin">The real Preju<g ref="char:EOLhyphen"/>dices of <hi>England.</hi>
+               </note> Commodities hath of late been too great; much of our Plate, had it remain'd Money, would have bet<g ref="char:EOLhyphen"/>ter
+
+
+<pb facs="tcp:50048:6"/>
+served Trade; too many Mat<g ref="char:EOLhyphen"/>ters have been regulated by Laws, which Nature, long Custom, and general Consent, ought only to have governed; the Slaughter and Destruction of Men by the late Civil Wars and Plague have been great; the Fire at <hi>London,</hi> and Disaster at <hi>Chatham,</hi> have begot<g ref="char:EOLhyphen"/>ten Opinions in the <hi>Vulgus</hi> of the World to our Prejudice; the Non<g ref="char:EOLhyphen"/>conformists increase; the People of <hi>Ireland</hi> think long of their Set<g ref="char:EOLhyphen"/>tlement; the <hi>English</hi> there appre<g ref="char:EOLhyphen"/>hend themselves to be Aliens, and are forced to seek a Trade with Foreigners, which they might as well maintain with their own Re<g ref="char:EOLhyphen"/>lations in <hi>England.</hi> But notwith<g ref="char:EOLhyphen"/>standing all this (the like whereof was always in all Places), the<note place="margin">The Im<g ref="char:EOLhyphen"/>prove<g ref="char:EOLhyphen"/>ments of <hi>England.</hi>
+               </note> Buildings of <hi>London</hi> grow great and glorious; the <hi>American</hi> Planta<g ref="char:EOLhyphen"/>tions
+
+
+<pb facs="tcp:50048:6"/>
+employ four Hundred Sail of Ships; Actions in the <hi>East-India</hi> Company are near double the prin<g ref="char:EOLhyphen"/>cipal Money; those who can give good Security, may have Money under the Statute-Interest; Materials for building (even Oaken-Timber) are little the dearer, some cheaper for the rebuilding of <hi>London;</hi> the Exchange seems as full of Mer<g ref="char:EOLhyphen"/>chants as formerly; no more Beg<g ref="char:EOLhyphen"/>gars in the Streets, nor executed for Thieves, than heretofore; the Number of Coaches, and Splen<g ref="char:EOLhyphen"/>dor of Equipage exceeding former Times; the publique Theatres ve<g ref="char:EOLhyphen"/>ry magnificent; the King has a greater Navy, and stronger Guards than before our Calamities; the Clergy rich, and the Cathedrals in repair; much Land has been im<g ref="char:EOLhyphen"/>proved, and the Price of Food so reasonable, as that Men refuse
+
+
+<pb facs="tcp:50048:7"/>
+to have it cheaper, by admitting of <hi>Irish</hi> Cattle; And in brief, no Man needs to want that will take moderate pains. That some are poorer than others, ever was and ever will be: And that many are naturally querulous and envious, is an Evil as old as the World.</p>
+            <p>These general Observations, and that Men eat, and drink, and laugh as they use to do, have encou<g ref="char:EOLhyphen"/>raged me to try if I could also comfort others, being satisfied my self, that the Interest and Affairs of <hi>England</hi> are in no deplorable Condition.</p>
+            <p>The Method I take to do this,<note place="margin">The Au<g ref="char:EOLhyphen"/>thor's Me<g ref="char:EOLhyphen"/>thod and Manner of Argu<g ref="char:EOLhyphen"/>ing.</note> is not yet very usual; for instead of using only comparative and su<g ref="char:EOLhyphen"/>perlative Words, and intellectual Arguments, I have taken the course (as a Specimen of the Political A<g ref="char:EOLhyphen"/>rithmetick
+
+
+<pb facs="tcp:50048:7"/>
+I have long aimed at) to express my self in Terms of <hi>Number, Weight,</hi> or <hi>Measure;</hi> to use only Arguments of Sense, and to consider only such Causes, as have visible Foundations in Na<g ref="char:EOLhyphen"/>ture; leaving those that depend upon the mutable Minds, Opi<g ref="char:EOLhyphen"/>nions, Appetites, and Passions of particular Men, to the Consider<g ref="char:EOLhyphen"/>ation of others: Really professing my self as unable to speak satis<g ref="char:EOLhyphen"/>factorily upon those Grounds (if they may be call'd Grounds), as to foretel the cast of a Dye; to play well at Tennis, Billiards, or Bowles, (without long practice,) by virtue of the most elaborate Conceptions that ever have been written <hi>De Projectilibus &amp; Missili<g ref="char:EOLhyphen"/>bus,</hi> or of the Angles of Incidence and Reflection.</p>
+            <p>
+               <pb facs="tcp:50048:8"/>Now the Observations or Po<g ref="char:EOLhyphen"/>sitions<note place="margin">The Na<g ref="char:EOLhyphen"/>ture of his Posi<g ref="char:EOLhyphen"/>tions and Supposi<g ref="char:EOLhyphen"/>tions.</note> expressed by <hi>Number, Weight,</hi> and <hi>Measure,</hi> upon which I bot<g ref="char:EOLhyphen"/>tom the ensuing Discourses, are either true, or not apparently false, and which if they are not al<g ref="char:EOLhyphen"/>ready true, certain, and evident, yet may be made so by the So<g ref="char:EOLhyphen"/>vereign Power, <hi>Nam id certum est quod certum reddi potest,</hi> and if they are false, not so false as to de<g ref="char:EOLhyphen"/>stroy the Argument they are brought for; but at worst are suf<g ref="char:EOLhyphen"/>ficient as Suppositions to shew the way to that Knowledge I aim at. And I have withal for the present confined my self to the Ten prin<g ref="char:EOLhyphen"/>cipal Conclusions hereafter parti<g ref="char:EOLhyphen"/>cularly handled, which if they shall be judged material, and worthy of a better Discussion, I hope all ingenious and candid Persons will rectifie the Errors, Defects, and
+
+
+<pb facs="tcp:50048:8"/>
+Imperfections, which probably may be found in any of the Po<g ref="char:EOLhyphen"/>sitions, upon which these Ratioci<g ref="char:EOLhyphen"/>nations were grounded. Nor would it misbecome Authority it self, to clear the Truth of those Matters which private Endeavours cannot reach to.</p>
+         </div>
+         <div type="contents">
+            <pb facs="tcp:50048:9"/>
+            <pb facs="tcp:50048:9"/>
+            <head>THE Principal Conclusions OF THIS TREATISE ARE,</head>
+            <list>
+               <item>
+                  <hi>CHAP. I.</hi> That a small Country, and few People, may by their Situ<g ref="char:EOLhyphen"/>ation, Trade, and Policy, be equiva<g ref="char:EOLhyphen"/>lent in Wealth and Strength, to a far greater People, and Territory. And particularly, How conveniencies for Shipping, and Water Carriage, do most Eminently, and Fundamentally, conduce thereunto. Pag. 1</item>
+               <item>
+                  <hi>Chap. II.</hi> That some kind of Taxes, and Publick Levies, may rather increase than diminish the Common-Wealth. pag. 35</item>
+               <item>
+                  <pb facs="tcp:50048:10"/>
+                  <hi>Chap. III.</hi> That <hi>France</hi> cannot, by rea<g ref="char:EOLhyphen"/>son of Natural and Perpetual Impedi<g ref="char:EOLhyphen"/>ments, be more powerful at Sea, than the <hi>English,</hi> or <hi>Hollanders.</hi> 51</item>
+               <item>
+                  <hi>Chap. IV.</hi> That the People, and Ter<g ref="char:EOLhyphen"/>ritories of the King of <hi>England,</hi> are Naturally near as considerable, for Wealth, and Strength, as those of <hi>France.</hi> pag. 64</item>
+               <item>
+                  <hi>Chap. V.</hi> That the Impediments of <hi>Englands</hi> Greatness, are but contingent and removeable. pag. 87</item>
+               <item>
+                  <hi>Chap. VI.</hi> That the Power and Wealth of <hi>England,</hi> hath increased above this forty years. pag. 96</item>
+               <item>
+                  <hi>Chap. VII.</hi> That one tenth part, of the whole Expence, of the King of <hi>Eng<g ref="char:EOLhyphen"/>land's</hi> Subjects; is sufficient to main<g ref="char:EOLhyphen"/>tain one hundred thousand Foot, thirty thousand Horse, and forty thousand Men at Sea, and to defray all other Charges, of the Government: both Ordinary and Extraordinary, if the same were regularly Taxed, and Raised. pag. 101</item>
+               <item>
+                  <hi>Chap. VIII.</hi> That there are spare Hands enough among the King of <hi>Eng<g ref="char:EOLhyphen"/>land's</hi> Subjects, to earn two Millions <hi>per annum,</hi> more than they now do, and there are Employments, ready,
+
+
+<pb facs="tcp:50048:10"/>
+proper, and sufficient for that purpose. pag. 104</item>
+               <item>
+                  <hi>Chap. IX.</hi> That there is Mony suffi<g ref="char:EOLhyphen"/>cient to drive the Trade of the Na<g ref="char:EOLhyphen"/>tion. pag. 110</item>
+               <item>
+                  <hi>Chap. X.</hi> That the King of <hi>England's</hi> Subjects, have Stock, competent, and con<g ref="char:EOLhyphen"/>venient to drive the Trade of the whole Commercial World. pag. 112</item>
+            </list>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:50048:11"/>
+            <pb facs="tcp:50048:11"/>
+            <head>ERRATA.</head>
+            <p>PAge 7. line 25. read <hi>the Rent.</hi> p. 8. l. 21. r. <hi>a part.</hi> p. 20. l. 3. r. <hi>for cheap.</hi> p. 21. l. 14. r. <hi>cold, moist.</hi> p. 26. l. 7. r. <hi>that Church.</hi> p. 32. l. 7. r. <hi>yearly profit.</hi> l. 18. r. <hi>to be the value.</hi> p. 47. l. 4. r. <hi>fifty thousand.</hi> l. 28. r. <hi>sixteen thousand.</hi> p. 49. l. 13: r. <hi>the said half together.</hi> p. 52. l. 6. r. <hi>should bring.</hi> p. 59. l. 24. r. <hi>they coast.</hi> p. 72. l. 8. r. <hi>or above.</hi> p. 91. l. 9. r. <hi>Exotic<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</hi> p. 95. l. 13. r. <hi>paying for.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="chapter">
+            <pb facs="tcp:50048:12"/>
+            <pb n="1" facs="tcp:50048:12"/>
+            <head>
+               <hi>CHAP. I.</hi> That a small Country and few People, by its Situation, Trade, and Policy, may be equivalent in Wealth and Strength, to a far greater People and Territory: And particularly that conveniencies for Shipping and Water-Carriage, do most Eminently and Fun<g ref="char:EOLhyphen"/>damentally conduce thereunto.</head>
+            <p>THis first principal Conclusion by reason of its length, I consider in three Parts; whereof the first is, That a small Country and few People, may be equivalent in Wealth and Strength to a far greater People and Territory.</p>
+            <p>This part of the first principal Con<g ref="char:EOLhyphen"/>clusion<note place="margin">How one Man by art and one Acre of Land by improve<g ref="char:EOLhyphen"/>ment may be equiva<g ref="char:EOLhyphen"/>lent to many.</note> needs little proof; forasmuch as one Acre of Land, may bear as much Corn and feed as many Cattle as twen<g ref="char:EOLhyphen"/>ty, by the difference of the Soil; some parcel of Ground is naturally so defensi<g ref="char:EOLhyphen"/>ble, as that an Hundred Men being pos<g ref="char:EOLhyphen"/>sessed
+
+
+<pb n="2" facs="tcp:50048:13"/>
+thereof, can resist the Invasion of Five Hundred; and bad Land may be improved and made good; Bog may by draining be made Meadow; Heath<g ref="char:EOLhyphen"/>land may (as in <hi>Flanders</hi>) be made to bear Flax and Clover grass, so as to ad<g ref="char:EOLhyphen"/>vance in value from one to an Hun<g ref="char:EOLhyphen"/>dred; The same Land being built upon, may centuple the Rent which it yielded as Pasture; one Man is more nimble or strong, and more patient of labor than another; one Man by Art may do as much work, as many without it; <hi>viz.</hi> one Man with a Mill can grind as much Corn, as twenty can pound in a Mor<g ref="char:EOLhyphen"/>tar; one Printer can make as many Co<g ref="char:EOLhyphen"/>pies, as an Hundred Men can write by hand; one Horse can carry upon Wheels, as much as Five upon their Backs; and in a Boat, or upon Ice, as Twenty: So that I say again, this first point of this general Position, needs little or no proof. But the second and more material part of this Conclu<g ref="char:EOLhyphen"/>sion is, that this difference in Land and People, arises principally from their Situation, Trade, and Policy.</p>
+            <p>
+               <pb n="3" facs="tcp:50048:13"/>To clear this, I shall compare <hi>Hol<g ref="char:EOLhyphen"/>land</hi>
+               <note place="margin">A Compa<g ref="char:EOLhyphen"/>rison of <hi>Holland</hi> and <hi>Zea<g ref="char:EOLhyphen"/>land</hi> with <hi>France.</hi>
+               </note> and <hi>Zealand,</hi> with the Kingdom of <hi>France, viz. Holland</hi> and <hi>Zealand</hi> do not contain above one Million of <hi>En<g ref="char:EOLhyphen"/>glish</hi> Acres, whereas the Kingdom of <hi>France</hi> contains above 80.</p>
+            <p>Now the Original and Primitive dif<g ref="char:EOLhyphen"/>ference holds proportion as Land to Land, for it is hard to say, that when these places were first planted, whether an Acre in <hi>France</hi> was better than the like quantity in <hi>Holland</hi> and <hi>Zealand;</hi> nor is there any reason to suppose, but that therefore upon the first Plantation, the number of Planters was in propor<g ref="char:EOLhyphen"/>tion to the quantity of Land; where<g ref="char:EOLhyphen"/>fore, if the People are not in the same proportion as the Land, the same must be attributed to the Scituation of the Land, and to the Trade and Policy of the People superstructed thereupon.</p>
+            <p>The next thing to be shewn is, that <hi>Holland</hi> and <hi>Zealand</hi> at this day, is not only an eightieth part as rich and strong as <hi>France,</hi> but that it hath ad<g ref="char:EOLhyphen"/>vanced to one third or thereabouts, which I think will appear upon the Ballance of the following particulars, <hi>viz.</hi>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:50048:14"/>As to the Wealth of <hi>France,</hi> a cer<g ref="char:EOLhyphen"/>tain<note place="margin">That the Lands of <hi>France,</hi> are to the Lands of <hi>Holland</hi> and <hi>Zea<g ref="char:EOLhyphen"/>land,</hi> as 8 to 1 in value.</note> Map of that Kingdom, set forth <hi>Anno</hi> 1647. represents it to be fifteen Millions, whereof six did belong to the Church, the Author thereof (as I sup<g ref="char:EOLhyphen"/>pose) meaning the Rents of the Lands only: And the Author of a most Ju<g ref="char:EOLhyphen"/>dicious discourse of Husbandry (sup<g ref="char:EOLhyphen"/>posed to be Sir <hi>Richard Weston,</hi>) doth from reason and experience shew, that Lands in the Netherlands, by bearing Flax, Turneps, Clover-grass, Madder, <hi>&amp;c.</hi> will easily yield 10 <hi>l. per</hi> Acre; so as the Territories of <hi>Holland</hi> and <hi>Zealand,</hi> should by his account yield at least Ten Millions <hi>per annum,</hi> yet I do not believe the same to be so much, nor <hi>France</hi> so little as abovesaid, but rather, that one bears to the other as about 7, or 8 to 1.</p>
+            <p>The People of <hi>Amsterdam,</hi> are one<note place="margin">The Build<g ref="char:EOLhyphen"/>ings of <hi>Amster<g ref="char:EOLhyphen"/>dam</hi> are about half in value to those at <hi>Paris.</hi>
+               </note> third of those in <hi>Paris</hi> or <hi>London,</hi> which two Cities differ not in People a twen<g ref="char:EOLhyphen"/>tieth part from each other, as hath ap<g ref="char:EOLhyphen"/>peared by the Bills of Burials and Christnings for each. But the value of the Buildings in <hi>Amsterdam,</hi> may well be half that of <hi>Paris,</hi> by reason of the Foundations, Grafts, and Bridges, which
+
+
+<pb n="5" facs="tcp:50048:14"/>
+in <hi>Amsterdam</hi> are more numerous and chargeable than at <hi>Paris.</hi> Moreover<note place="margin">The Hou<g ref="char:EOLhyphen"/>sing in <hi>France</hi> a<g ref="char:EOLhyphen"/>bove five times the value of those in <hi>Holland</hi> and <hi>Zea<g ref="char:EOLhyphen"/>land.</hi>
+               </note> the Habitations of the poorest People in <hi>Holland</hi> and <hi>Zealand,</hi> are twice or thrice as good as those of <hi>France;</hi> but the People of the one to the People of the other, being but as thirteen to one, the value of the housing must be as about five to one.</p>
+            <p>The value of the Shipping of <hi>Europe,</hi>
+               <note place="margin">The Ship<g ref="char:EOLhyphen"/>ping of <hi>Holland</hi> 9 times that of <hi>France.</hi>
+               </note> being about two Millions of Tuns, I suppose the <hi>English</hi> have Five Hundred Thousand, the <hi>Dutch</hi> Nine Hundred Thousand, the <hi>French</hi> an Hundred Thousand, the <hi>Hamburgers,</hi> and the Subjects of <hi>Denmark, Sweden,</hi> and the Town of <hi>Dansick</hi> two Hundred and Fifty Thousand, and <hi>Spain, Portugal, Italy,</hi> &amp;c. two Hundred and Fifty Thousand; so as the Shipping in our case of <hi>France</hi> to that of <hi>Holland</hi> and <hi>Zealand,</hi> is about one to nine, which reckoned as great and small, new and old, one with another at 8 <hi>l. per</hi> Tun, makes the worth to be as Eight Hundred Thousand Pounds, to Seven Millions,<note place="margin">The Com<g ref="char:EOLhyphen"/>parison of <hi>Holl.</hi> and <hi>France</hi> in the <hi>India's</hi>
+               </note> and two Hundred Thousand Pounds. The Hollanders Capital in the <hi>East India</hi> Company, is worth above Three
+
+
+<pb n="6" facs="tcp:50048:15"/>
+Millions, where the <hi>French</hi> as yet have little or nothing.</p>
+            <p>The value of the Goods exported<note place="margin">The ex<g ref="char:EOLhyphen"/>portations of <hi>France</hi> and <hi>Holl.</hi> and is as 21 to 5.</note> out of <hi>France</hi> into all Parts, are sup<g ref="char:EOLhyphen"/>posed Quadruple to what is sent to <hi>En<g ref="char:EOLhyphen"/>gland</hi> alone; and consequently in all about Five Millions, but what is ex<g ref="char:EOLhyphen"/>ported out of <hi>Holland</hi> into <hi>England</hi> is worth Three Millions; and what is exported thence into all the World be<g ref="char:EOLhyphen"/>sides, is sextuple to the same.</p>
+            <p>The Monies Yearly raised by the<note place="margin">The Re<g ref="char:EOLhyphen"/>venues of <hi>France.</hi>
+               </note> King of <hi>France,</hi> as the same appears by the Book intituled (The State of <hi>France</hi>) Dedicated to the King, Printed <hi>Anno</hi> 1669. and set forth several times by Authority, is 82000000 of <hi>French</hi> Li<g ref="char:EOLhyphen"/>vers, which is about 6½ Millions of Pounds Sterling, of which summ the Author says, that one fifth part was abated for non-valuers or Insolvencies, so (as I suppose) not above Five Millions were effectually raised: But whereas some say, that the King of <hi>France</hi> raised Eleven Millions as the ⅕ of the effects of <hi>France;</hi> I humbly affirm, that all the Land and Sea Forces, all the Build<g ref="char:EOLhyphen"/>ings and Entertainments, which we have heard by common Fame, to have been
+
+
+<pb n="7" facs="tcp:50048:15"/>
+set forth and made in any of these seven last Years, needed not to have cost Six Millions Sterling; wherefore, I suppose he hath not raised more, especially since there were one fifth Insolvencies, when the Tax was at that pitch. But <hi>Hol<g ref="char:EOLhyphen"/>land</hi> and <hi>Zealand,</hi> paying 67 of the 100,<note place="margin">The Taxes paid by <hi>Holl.</hi> and <hi>Zealand.</hi>
+               </note> paid by all the United Provinces, and the City of <hi>Amsterdam</hi> paying 27 of the said 67; It follows that if <hi>Amster<g ref="char:EOLhyphen"/>dam</hi> hath paid 4000 <hi>l.</hi> Flemish <hi>per diem,</hi> or about 1400000 <hi>l. per annum,</hi> or 800000 <hi>l.</hi> Sterling; that all <hi>Holland</hi> and <hi>Zealand,</hi> have paid 2100000 <hi>l. per annum:</hi> Now the reasons why I think they pay so much, are these, <hi>viz.</hi>
+            </p>
+            <p>1. The Author of the State of the <hi>Netherlands</hi> saith so.</p>
+            <p>2. Excise of Victual at <hi>Amsterdam,</hi> seems above half the Original value of the same, <hi>viz.</hi>
+            </p>
+            <p>Ground Corn pays 20 Stivers the Bushel, or 63 Gilders the Last; Beer 113 Stivers the Barrel, Housing ⅙ of Rent, Fruit ⅛ of what it cost; other Commodities 1/7, ⅛, 1/9, 1/12; Salt <hi>ad libitum,</hi> all weighed Goods pay besides the Pre<g ref="char:EOLhyphen"/>misses a vast summ; now if the expence of the People of <hi>Amsterdam</hi> at a medi<g ref="char:EOLhyphen"/>um,
+
+
+<pb n="8" facs="tcp:50048:16"/>
+and without Excise were 8 <hi>l. per annum,</hi> whereas in <hi>England</hi> 'tis 7 <hi>l.</hi> then if all the several Imposts above named, raise it Five Pound more, there being 160000 Souls in <hi>Amsterdam,</hi> the summ of 800000 <hi>l.</hi> Sterling <hi>per annum</hi> will thereby be raised.</p>
+            <p>3. Though the expence of each head, should be 13 <hi>l. per annum;</hi> 'tis well known that there be few in <hi>Amsterdam,</hi> who do not earn much more than the said expence.</p>
+            <p>4. If <hi>Holland</hi> and <hi>Zealand</hi> pay <hi>p. an.</hi> 2100000 <hi>l.</hi> then all the Provinces to<g ref="char:EOLhyphen"/>gether, must pay about 3000000 <hi>l.</hi> less than which summ <hi>per annum,</hi> perhaps is not sufficient to have maintained the Naval War with <hi>England,</hi> 72000 Land Forces, besides all other the ordinary Charges of their Government, where<g ref="char:EOLhyphen"/>of the Church is there apart: To con<g ref="char:EOLhyphen"/>clude, it seems from the Premisses, that all <hi>France</hi> doth not raise above thrice as much from the publick charge, as <hi>Hol<g ref="char:EOLhyphen"/>land</hi> and <hi>Zealand</hi> alone do.</p>
+            <p>5. Interest of Money in <hi>France,</hi> is<note place="margin">The Diffe<g ref="char:EOLhyphen"/>rence of interest be<g ref="char:EOLhyphen"/>tween <hi>Hol.</hi> &amp; <hi>France.</hi>
+               </note> 7 <hi>l. per cent.</hi> but in <hi>Holland</hi> scarce half so much.</p>
+            <p>
+               <pb n="9" facs="tcp:50048:16"/>6. The Countries of <hi>Holland</hi> and <hi>Zealand;</hi> consisting as it were of Islands guarded with the Sea, Shipping, and Marshes, is defensible at one fourth of the charge, that a plain open Country is, and where the seat of War may be both Winter and Summer; whereas in the others, little can be done but in the Summer only.</p>
+            <p>7. But above all the particulars hi<g ref="char:EOLhyphen"/>therto<note place="margin">The su<g ref="char:EOLhyphen"/>perlucra<g ref="char:EOLhyphen"/>tion be<g ref="char:EOLhyphen"/>tween <hi>France</hi> and <hi>Holl.</hi>
+               </note> considered, that of superlucra<g ref="char:EOLhyphen"/>tion ought chiefly to be taken in; for if a Prince have never so many Subjects, and his Country be never so good, yet if either through sloth, or extravagant expences, or Oppression and Injustice, whatever is gained shall be spent as fast as gotten, that State must be account<g ref="char:EOLhyphen"/>ed poor; wherefore let it be consider<g ref="char:EOLhyphen"/>ed, how much or how many times ra<g ref="char:EOLhyphen"/>ther, <hi>Holland</hi> and <hi>Zealand,</hi> are now a<g ref="char:EOLhyphen"/>bove what they were 100 years ago, which we must also do of <hi>France:</hi> Now if <hi>France</hi> hath scarce doubled its Wealth and Power, and that the other have de<g ref="char:EOLhyphen"/>cupled theirs; I shall give the prefe<g ref="char:EOLhyphen"/>rence to the latter, even although the 9/10 increased by the one, should not ex<g ref="char:EOLhyphen"/>ceed the one half gained by the other,
+
+
+<pb n="10" facs="tcp:50048:17"/>
+because one has a store for Nine Years, the other but for one.</p>
+            <p>To conclude, upon the whole it seems, that though <hi>France</hi> be in People to <hi>Hol<g ref="char:EOLhyphen"/>land</hi> and <hi>Zealand</hi> as 13 to 1, and in quantity of good Land, as 80 to one, yet is not 13 times richer and stronger, much less 80 times, nor much above thrice, which was to be proved.</p>
+            <p>Having thus dispatched the two first Branches of the first Principal conclu<g ref="char:EOLhyphen"/>sion;<note place="margin">The causes of the dif<g ref="char:EOLhyphen"/>ference between <hi>France</hi> and <hi>Holl.</hi>
+               </note> it follows, to shew that this dif<g ref="char:EOLhyphen"/>ference of Improvement in Wealth and Strength, arises from the Situation, Trade, and Policy of the places respe<g ref="char:EOLhyphen"/>ctively, and in particular from Conve<g ref="char:EOLhyphen"/>niencies for Shipping and Water Car<g ref="char:EOLhyphen"/>riage.</p>
+            <p>Many Writing on this Subject do so magnifie the <hi>Hollanders</hi> as if they were more, and all other Nations less than Men (as to the matters of Trade and Policy) making them Angels, and others Fools, Brutes, and Sots, as to those particulars; whereas I take the Foun<g ref="char:EOLhyphen"/>dation of their atchievements to lie ori<g ref="char:EOLhyphen"/>ginally in the Situation of the Coun<g ref="char:EOLhyphen"/>try, whereby they do things inimitable by others, and have advantages whereof others are incapable.
+
+
+<pb n="11" facs="tcp:50048:17"/>
+First, The Soil of <hi>Holland</hi> and <hi>Zealand</hi>
+               <note place="margin">The rea<g ref="char:EOLhyphen"/>sons why rich Land is better than course Land tho of the same Rent, and conse<g ref="char:EOLhyphen"/>quently why <hi>Holl.</hi> is better than <hi>Fran.</hi>
+               </note> is low Land, Rich and Fertile; where<g ref="char:EOLhyphen"/>by it is able to feed many Men, and so as that Men may live near each o<g ref="char:EOLhyphen"/>ther, for their mutual assistance in Trade. I say; that a Thousand Acres, that can feed 1000 Souls, is better than 10000 Acres of no more effect, for the follow<g ref="char:EOLhyphen"/>ing reasons, <hi>viz.</hi>
+            </p>
+            <p>1. Suppose some great Fabrick were in Building by a Thousand Men, shall not much more time be spared if they lived all upon a Thousand Acres, then if they were forced to live upon ten times as large a Scope of Land.</p>
+            <p>2. The charge of the cure of their Souls, and the Ministry would be far greater in one case than in the other; as also of mutual defence in case of In<g ref="char:EOLhyphen"/>vasion, and even of Thieves and Rob<g ref="char:EOLhyphen"/>bers: Moreover the charge of the ad<g ref="char:EOLhyphen"/>ministration of Justice would be much easier, where Witnesses and Parties may be easily Summoned, Attendance less expensive, when Mens Actions would be better known, when wrongs and in<g ref="char:EOLhyphen"/>juries could not be covered, as in thin peopled places they are.</p>
+            <p>
+               <pb n="12" facs="tcp:50048:18"/>Lastly; those who live in Solitary places, must be their own Soldiers, Di<g ref="char:EOLhyphen"/>vines, Physicians, and Lawyers, and must have their Houses stored with necessary Provisions (like a Ship going upon a long Voyage,) to the great wast, and needless expence of such Provisions; the value of this first convenience to the <hi>Dutch,</hi> I reckon or estimate to be about 100000 <hi>l. per annum.</hi>
+            </p>
+            <p>2ly, <hi>Holland</hi> is a Level Country, so<note place="margin">The ad<g ref="char:EOLhyphen"/>vantages from the level and windmills of <hi>Holl.</hi>
+               </note> as in any part thereof, a Windmill may be set up, and by its being moist and vaporous, there is always wind stirring over it, by which advantage the labor of many thousand Hands is saved, for asmuch as a Mill made by one Man in half a Year, will do as much Labor, as Four Men for Five Years together. This advantage is greater or less, where em<g ref="char:EOLhyphen"/>ployment or ease of Labour is so; but in <hi>Holland</hi> 'tis eminently great, and the worth of this conveniency is near an Hundred and Fifty Thousand Pounds.<note place="margin">The advan<g ref="char:EOLhyphen"/>tages from <hi>Holl.</hi> of Ma<g ref="char:EOLhyphen"/>nufacture &amp; Commerce. The Situa<g ref="char:EOLhyphen"/>tion of <hi>Holl.</hi> &amp; <hi>Zeal.</hi> upon the Mouths of three great Rivers</note>
+            </p>
+            <p>3ly. There is much more to be gain<g ref="char:EOLhyphen"/>ed by Manufacture than Husbandry, and by Merchandize than Manufacture; but <hi>Holland</hi> and <hi>Zealand,</hi> being seated at the mouths of three long great Ri<g ref="char:EOLhyphen"/>vers,
+
+
+<pb n="13" facs="tcp:50048:18"/>
+and passing through Rich Coun<g ref="char:EOLhyphen"/>tries, do keep all the Inhabitants upon the sides of those Rivers but as Hus<g ref="char:EOLhyphen"/>bandmen, whilst themselves are the Ma<g ref="char:EOLhyphen"/>nufactors of their Commodities, and so dispence them into all Parts of the world, making returns for the same, at what prices almost they please them<g ref="char:EOLhyphen"/>selves; and in short, they keep the Keys Trade of those Countries, through which the said Rivers pass; the value this third conveniency, I suppose to 200000 <hi>l.</hi>
+            </p>
+            <p>4ly. In <hi>Holland</hi> and <hi>Zealand,</hi> there<note place="margin">Nearness to naviga<g ref="char:EOLhyphen"/>ble Wa<g ref="char:EOLhyphen"/>ters.</note> scarce any place of work, or business <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Mile distant from a Navigable Wa<g ref="char:EOLhyphen"/>ter, and the charge of Water carriage is generally but 1/<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, or 1/20 part of Land carriage; Wherefore if there be as much trade there as in <hi>France,</hi> then the <hi>Hol<g ref="char:EOLhyphen"/>landers</hi> can out-sell the <hi>French</hi> 14/15 of all <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> expence, of all Travelling Postage <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> carriage whatsoever, which even in <hi>England</hi> I take to be 300000 <hi>l. p. an.</hi> 
+               <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>here the very Postage of Letters, costs the People perhaps 50000 <hi>l. per annum,</hi> though Farmed at much less, and all other Labour of Horses, and Porters, at <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> six times as much; The value of
+
+
+<pb n="14" facs="tcp:50048:19"/>
+this conveniency I estimate to be above Three Hundred Thousand pounds <hi>per annum.</hi>
+            </p>
+            <p>5. The defensibleness of the Coun<g ref="char:EOLhyphen"/>try,<note place="margin">The de<g ref="char:EOLhyphen"/>fensible<g ref="char:EOLhyphen"/>ness of <hi>Holland.</hi>
+               </note> by reason of its Situation in the Sea upon Islands, and in the Marshes, Impassible ground Diked and Trenched, especially considering how that place i<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> aimed at for its Wealth; I say the charge of defending that Country, is easier than if it were a plain Champion, at least 200000 <hi>l. per annum.</hi>
+            </p>
+            <p>6. <hi>Holland</hi> is so considerable for keeping<note place="margin">Harbour<g ref="char:EOLhyphen"/>ing of Shipping at small expence.</note> Ships in Harbour with small expence of Men, and ground Tackle, that <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> saves <hi>per annum</hi> 200000 <hi>l.</hi> of what must be spent in <hi>France.</hi> Now if all <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> natural advantages do amount to above one Million <hi>per annum</hi> Profits, and <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Trade of all <hi>Europe,</hi> nay of the whole World, with which our <hi>Europeans</hi> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Trade, is not above 45 Millions <hi>p.</hi> 
+               <gap reason="illegible" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and if 1/50 of the value be <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>/7 of the Profit, it is plain that the <hi>Hollander</hi> may Command and Govern the whole Trade.</p>
+            <p>7. Those who have their Situation<note place="margin">Advanta<g ref="char:EOLhyphen"/>ges from Fishing.</note> thus towards the Sea, and abound with Fish at home, and having also the com<g ref="char:EOLhyphen"/>mand
+
+
+<pb n="15" facs="tcp:50048:19"/>
+of Shipping, have by consequence the Fishing Trade, whereof that of Her<g ref="char:EOLhyphen"/>ring alone, brings more yearly Profit to the <hi>Hollanders</hi> than the Trade of the <hi>West Indies</hi> to <hi>Spain,</hi> or of the <hi>East</hi> to themselves, as many have affirmed, being as the same say <hi>viis &amp; modis</hi> of above three Millions <hi>per annum</hi> Profit.</p>
+            <p>8. It is not to be doubted, but those<note place="margin">Advan<g ref="char:EOLhyphen"/>tages by Naval Provisi<g ref="char:EOLhyphen"/>ons.</note> who have the Trade of Shipping and Fishing, will secure themselves of the Trade of Timber for Ships, Boats, Masts, and Cask; of Hemp for Cordage, Sails, and Nets; of Salt, of Iron; as also of Pitch, Tar, Rosin, Brimstone, Oil, and Tallow, as necessary Appurtenances to Shipping and Fishing.</p>
+            <p>9. Those who predominate in Ship<g ref="char:EOLhyphen"/>ping,<note place="margin">Fitness for Universal Trade.</note> and Fishing, have more occasions than others to frequent all parts of the World, and to observe what is wanting or redundant every where, and what each People can do, and what they de<g ref="char:EOLhyphen"/>sire, and consequently to be the Factors, and Carriers for the whole World of Trade. Upon which ground they bring all Native Commodities to be Manufactured at home, and carry the same back, even to that Country in
+
+
+<pb n="16" facs="tcp:50048:20"/>
+which they grew, all which we see.</p>
+            <p>For, do they not work the Sugars of the <hi>West-Indies?</hi> The Timber and Iron of the <hi>Baltick?</hi> The Hemp of <hi>Russia?</hi> The Lead, Tin, and Wooll of <hi>England?</hi> The Quick-silver and Silk of <hi>Italy?</hi> The Yarns, and Dying Stuffs of <hi>Turkey,</hi> &amp;c. To be short, in all the ancient States, and Empires, those who had the Ship<g ref="char:EOLhyphen"/>ping, had the Wealth, and if 2 <hi>per Cent.</hi> in the price of Commodities, be per<g ref="char:EOLhyphen"/>haps 20 <hi>per Cent.</hi> in the gain: it is ma<g ref="char:EOLhyphen"/>nifest that they who can in forty five Millions, undersel others by one Milli<g ref="char:EOLhyphen"/>on, (upon accompt of natural, and in<g ref="char:EOLhyphen"/>trinsick advantages only) may easily have the Trade of the World without such Angelical Wits and Judgments, as some attribute to the <hi>Hollanders.</hi>
+            </p>
+            <p>Having thus done with their Situa<g ref="char:EOLhyphen"/>tion, I come now to their Trade.</p>
+            <p>It is commonly seen, that each Coun<g ref="char:EOLhyphen"/>try<note place="margin">Artificial advan<g ref="char:EOLhyphen"/>tages of Trade.</note> slourisheth in the Manufacture of its own Native Commodities, <hi>viz. Eng<g ref="char:EOLhyphen"/>land</hi> for woollen Manufacture, <hi>France</hi> for Paper, <hi>Luic-land</hi> for Iron Ware, <hi>Portugal</hi> for Confectures, <hi>Italy</hi> for Silks; upon which Principle it follows, that <hi>Holland</hi> and <hi>Zealand</hi> must flourish most
+
+
+<pb n="17" facs="tcp:50048:20"/>
+in the Trade of Shipping, and so be<g ref="char:EOLhyphen"/>come Carriers and Factors of the whole World of Trade. Now the advantages of the Shipping Trade are as follow<g ref="char:EOLhyphen"/>eth, <hi>viz.</hi>
+            </p>
+            <p>Husbandmen, Seamen, Soldiers, Ar<g ref="char:EOLhyphen"/>tizans<note place="margin">Husband<g ref="char:EOLhyphen"/>men, Sea<g ref="char:EOLhyphen"/>men, Sol<g ref="char:EOLhyphen"/>diers, Ar<g ref="char:EOLhyphen"/>tizans, and Merchants, are the ve<g ref="char:EOLhyphen"/>ry Pillars of a Com<g ref="char:EOLhyphen"/>mon-Wealth, and a Sea<g ref="char:EOLhyphen"/>man is three of them.</note> and Merchants, are the very Pil<g ref="char:EOLhyphen"/>lars of any Common-Wealth; all the other great Professions, do rise out of the infirmities, and miscarriages of these; now the Seaman is three of these four. For every Seaman of industry and in<g ref="char:EOLhyphen"/>genuity, is not only a Navigator, but a Merchant, and also a Soldier; not be<g ref="char:EOLhyphen"/>cause he hath often occasion to fight, and handle Arms; but because he is familiarized with hardship and hazards, extending to Life and Limbs; for Training and Drilling is a small part of Soldiery, in respect of this last men<g ref="char:EOLhyphen"/>tioned Qualification; the one being quickly and presently learned, the other not without many years most painful experience: wherefore to have the occa<g ref="char:EOLhyphen"/>sion of abounding in Seamen, is a vast conveniency.</p>
+            <p>2. The Husbandman of <hi>England</hi> earns but about 4 <hi>s. per</hi> Week, but the Seamen have as good as 12 <hi>s.</hi> in Wages,
+
+
+<pb n="18" facs="tcp:50048:21"/>
+Victuals (and as it were housing) with other accommodations, so as a Seaman is in effect three Husbandmen; wherefore<note place="margin">A Seaman equivalent to three Husband<g ref="char:EOLhyphen"/>men.</note> there is little Ploughing, and Sowing of Corn in <hi>Holland</hi> and <hi>Zealand,</hi> or breed<g ref="char:EOLhyphen"/>ing of young Cattle: but their Land is improved by building Houses, Ships, Engines, Dikes, Wharfs, Gardens of pleasure, extraordinary Flowers and Fruits; for Dairy and feeding of Cattle, for Rape, Flax, Madder, <hi>&amp;c.</hi> The Foundations of several advantageous Manufactures.</p>
+            <p>3. Whereas the Employment of other Men is confined to their own Country, that of Seamen is free to the whole World; so as where Trade may (as they call it) be dead here or there, now and then, it is certain that some where or other in the World, Trade is always quick enough, and Provisions are al<g ref="char:EOLhyphen"/>ways plentiful, the benefit whereof, those who command the Shipping enjoy, and they only.</p>
+            <p>4. The great and ultimate effect of<note place="margin">Silver, Gold, and Jewels, are Universal Wealth.</note> Trade is not Wealth at large, but par<g ref="char:EOLhyphen"/>ticularly abundance of Silver, Gold, and Jewels, which are not perishable, nor so mutable as other Commodities,
+
+
+<pb n="19" facs="tcp:50048:21"/>
+but are Wealth at all times, and all places: Whereas abundance of Wine, Corn, Fowls, Flesh, <hi>&amp;c.</hi> are Riches but <hi>hic &amp; nunc,</hi> so as the raising of such Commodities, and the following of such Trade, which does store the Country with Gold, Silver, Jewels, <hi>&amp;c.</hi> is profitable before others. But the Labour of Seamen, and Freight of Ships, is always of the nature of an Exported Commodity, the overplus whereof, above what is Im<g ref="char:EOLhyphen"/>ported, brings home mony, <hi>&amp;c.</hi>
+            </p>
+            <p>5. Those who have the command of<note place="margin">Reasons why the <hi>Hollan<g ref="char:EOLhyphen"/>ders</hi> Sail for less Freight.</note> the Sea Trade, may Work at easier Freight with more profit, than others at greater: for as Cloth must be cheaper made, when one Cards, another Spins, another Weaves, another Draws, ano<g ref="char:EOLhyphen"/>ther Dresses, another Presses and Packs; than when all the Operations above<g ref="char:EOLhyphen"/>mentioned, were clumsily performed by the same hand; so those who command the Trade of Shipping, can build long slight Ships for carrying Masts, Fir-Timber, Boards, Balks, <hi>&amp;c.</hi> And short ones for Lead, Iron, Stones, <hi>&amp;c.</hi> One sort of Vessels to Trade at Ports where they need never lie a ground, others where they must jump upon the Sand
+
+
+<pb n="20" facs="tcp:50048:22"/>
+twice every twelve hours; One sort of Vessels, and way of manning in time of Peace, and cheap gross Goods, ano<g ref="char:EOLhyphen"/>ther for War and precious Commodities; One sort of Vessels for the turbulent Sea, another for Inland Waters and Ri<g ref="char:EOLhyphen"/>vers; One sort of Vessels, and Rigging, where haste is requisite for the Maiden<g ref="char:EOLhyphen"/>head of a Market, another where 1/<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> or ¼ part of the time makes no matter. One sort of Masting and Rigging for long Voyages, another for Coasting. One sort of Vessels for Fishing, another for Trade. One sort for War for this or that Country, another for Burthen only. Some for Oars, some for Poles, some for Sails, and some for draught by Men or Horses, some for the Northern Navigations amongst Ice, and some for the South against Worms, <hi>&amp;c.</hi> And this I take to be the chief of several Reasons, why the <hi>Hollanders</hi> can go at less Freight than their Neighbours, <hi>viz.</hi> because they can afford a particu<g ref="char:EOLhyphen"/>lar sort of Vessels for each particular Trade.</p>
+            <p>I have shewn how Situation hath given them Shipping, and how Shipping hath given them in effect all other
+
+
+<pb n="21" facs="tcp:50048:22"/>
+Trade, and how Foreign Traffick must give them as much Manufacture as they can manage themselves, and as for the overplus, make the rest of the World but as Workmen to their Shops. It<note place="margin">The Poli<g ref="char:EOLhyphen"/>cy of <hi>Hol<g ref="char:EOLhyphen"/>land.</hi>
+               </note> now remains to shew the effects of their Policy, superstructed upon these na<g ref="char:EOLhyphen"/>tural advantages, and not as some think upon the excess of their Under<g ref="char:EOLhyphen"/>standings.</p>
+            <p>I have omitted to mention the <hi>Hol<g ref="char:EOLhyphen"/>landers</hi> were one hundred years since, a poor and oppressed People, living in a Country naturally cold and unplea<g ref="char:EOLhyphen"/>sant: and were withal persecuted for their Heterodoxy in Religion.</p>
+            <p>From hence it necessarily follows, that this People must Labour hard, and set all hands to Work: Rich and Poor, Young and Old, must study the Art of Number, Weight, and Measure; must fare hard, provide for impotents, and for Orphans, out of hope to make profit by their Labours: must punish the Lazy by Labour, and not by cripling them: I say, all these particulars, said to be the subtile excogitations of the <hi>Hollanders,</hi> seem to me, but what could not almost have been otherwise.</p>
+            <p>
+               <pb n="22" facs="tcp:50048:23"/>Liberty of Conscience, Registry of Conveyances, small Customs, Banks, Lumbards, and Law Merchant, rise all from the same Spring, and tend to the same Sea; as for lowness of Interest, it is also a necessary effect of all the premisses, and not the Fruit of their con<g ref="char:EOLhyphen"/>trivance.</p>
+            <p>Wherefore we shall only shew in par<g ref="char:EOLhyphen"/>ticular the efficacy of each, and first of Liberty of Conscience; but before I enter upon these, I shall mention a Pra<g ref="char:EOLhyphen"/>ctice almost forgotten, (whether it re<g ref="char:EOLhyphen"/>ferreth to Trade or Policy is not mate<g ref="char:EOLhyphen"/>rial,) which is, the <hi>Hollanders</hi> under<g ref="char:EOLhyphen"/>masting,<note place="margin">Under<g ref="char:EOLhyphen"/>masting of Ships.</note> and sailing such of their Ship<g ref="char:EOLhyphen"/>ping, as carry cheap and gross Goods, and whose Sale doth not depend much upon Season.</p>
+            <p>It is to be noted, that of two equal and like Vessels, if one spreads one thousand six hundred Yards of like Canvase, and the other two thousand five hundred, their speed is but as four to five, so as one brings home the same Timber in four days, as the other will in five. Now if we consider that al<g ref="char:EOLhyphen"/>though those Ships be but four or five days under Sail, that they are perhaps
+
+
+<pb n="23" facs="tcp:50048:23"/>
+thirty upon the Voyage; so as the one is but 1/30 part longer upon the whole Voyage than the other, though one fifth longer under Sail. Now if Masts, Yards, Rigging, Cables, and Anchors, do all depend upon the quantity and extent of the Sails, and consequently hands also; it follows that the one Ves<g ref="char:EOLhyphen"/>sel, goes at one third less charge, losing but one thirtieth of the time, and of what depends thereupon.</p>
+            <p>I now come to the first Policy of the <hi>Dutch, viz.</hi> Liberty of Conscience;<note place="margin">Liberty of Consci<g ref="char:EOLhyphen"/>ence, and the Rea<g ref="char:EOLhyphen"/>sons there<g ref="char:EOLhyphen"/>of in <hi>Hol<g ref="char:EOLhyphen"/>land.</hi>
+               </note> which I conceive they grant upon these grounds. (But keeping up always a Force to maintain the Common Peace,) 1. They themselves broke with <hi>Spain,</hi> to avoid the imposition of the Clergy. 2. Dissenters of this kind, are for the most part, thinking, sober, and patient Men, and such as believe that Labour and Industry is their Duty towards God. (How erroneous soever their Opinions be.) 3. These People be<g ref="char:EOLhyphen"/>lieving the Justice of God, and seeing the most Licentious persons, to enjoy most of the World, and its best things, will never venture to be of the same Religion, and Profession with Voluptu<g ref="char:EOLhyphen"/>aries,
+
+
+<pb n="24" facs="tcp:50048:24"/>
+and Men of extreme Wealth and Power, who they think have their Por<g ref="char:EOLhyphen"/>tion in this World.</p>
+            <p>4. They cannot but know, That no Man can believe what himself pleases, and to force Men to say they believe what they do not, is vain, absurd, and with<g ref="char:EOLhyphen"/>out Honor to God.</p>
+            <p>5. The <hi>Hollanders</hi> knowing themselves not to be an Infallible Church, and that others had the same Scripture for Guides as themselves, and withal the same In<g ref="char:EOLhyphen"/>terest to save their Souls, did not think sit to make this matter their business; not more than to take Bonds of the Seamen they employ, not to cast away their own Ships and Lives.</p>
+            <p>6. The <hi>Hollanders</hi> observe that in <hi>France</hi> and <hi>Spain,</hi> (especially the latter) the Churchmen are about one hundred for one, to what they use or need; the principal care of whom is to pre<g ref="char:EOLhyphen"/>serve Uniformity, and this they take to be a superfluous charge.</p>
+            <p>7. They observe where most indeavours have been used to keep Uniformity, there Heterodoxy hath most abounded.</p>
+            <p>8. They believe that if ¼ of the People were Heterodox, and that if
+
+
+<pb n="25" facs="tcp:50048:24"/>
+that whole quarter should by Miracle be removed, that within a small time ¼ of the People were Heterodox, and that if of the remainder would again become Heterodox some way or other, it being natural for Men to differ in Opinion in matters above Sense and Reason: and for those who have less Wealth, to think they have the more Wit and Un<g ref="char:EOLhyphen"/>derstanding, especially of the things of God, which they think chiefly belong to the Poor.</p>
+            <p>9. They think the case of the Pri<g ref="char:EOLhyphen"/>mitive Christians, as it is represented in the <hi>Acts of the Apostles,</hi> looks like that of the present Dissenters, (I mean ex<g ref="char:EOLhyphen"/>ternally.) Moreover it is to be observed that Trade doth not (as some think) best<note place="margin">The Trade of any Country is chiefly managed by the He<g ref="char:EOLhyphen"/>terodox party.</note> flourish under Popular Governments, but rather that Trade is most vigorously carried on, in every State and Govern<g ref="char:EOLhyphen"/>ment, by the Heterodox part of the same, and such as profess Opinions dif<g ref="char:EOLhyphen"/>ferent from what are publickly esta<g ref="char:EOLhyphen"/>blished: (that is to say) in <hi>India</hi> where the <hi>Mahometan</hi> Religion is Authorized, there the <hi>Banians</hi> are the most consider<g ref="char:EOLhyphen"/>able Merchants. In the <hi>Turkish</hi> Empire the <hi>Iews,</hi> and Christians. At <hi>Venice, Naples, Legorn, Genoua,</hi> and <hi>Lisbone,</hi>
+
+
+               <pb n="26" facs="tcp:50048:25"/>
+               <hi>Iews,</hi> and Non-Papist Merchant-Stran<g ref="char:EOLhyphen"/>gers: but to be short, in that part of <hi>Europe,</hi> where the <hi>Roman</hi> Catholick Religion, now hath, or lately hath had Establishment; there three quarters of the whole Trade, is in the hands of such as have separated from the Church (that is to say) the Inhabitants of <hi>Eng<g ref="char:EOLhyphen"/>land, Scotland,</hi> and <hi>Ireland,</hi> as also those of the <hi>United Provinces,</hi> with <hi>Denmark, Sueden,</hi> and <hi>Norway,</hi> together with the Subjects of the <hi>German</hi> Protestant Princes, and the <hi>Hans</hi> Towns, do at this day possess three quarters of the Trade of the World; and even in <hi>France</hi> it self, the <hi>Hugonots</hi> are proportionably far the greatest Traders; Nor is it to be denied but that in <hi>Ireland,</hi> where the said <hi>Roman</hi> Religion is not Authorized, there the Professors thereof have a great part of the Trade. From whence it follows that Trade is not fixt to any<note place="margin">All the Papists Seamen of <hi>Europe</hi> are scarce sufficient to Man the King of <hi>Eng<g ref="char:EOLhyphen"/>lands</hi> Fleet.</note> Species of Religion as such; but rather as before hath been said to the Hetrodox part of the whole, the truth whereof appears also in all the particular Towns of greatest Trade in <hi>England;</hi> nor do I find reason to believe, that the <hi>Roman</hi> Catholick Seamen in the whole World,
+
+
+<pb n="27" facs="tcp:50048:25"/>
+are sufficient to Man effectually a Fleet equal to what the King of <hi>England</hi> how hath; but the Non-papist Seamen, can do above thrice as much. Wherefore he whom this latter Party doth affectio<g ref="char:EOLhyphen"/>nately own to be their Head, cannot probably be wronged in his Sea-con<g ref="char:EOLhyphen"/>cernments by the other; from whence itt follows, that for the advancement of Trade, (if that be a sufficient reason) Indulgence must be granted in matters of Opinion; though licentious actings as even in <hi>Holland,</hi> be restrained by force.</p>
+            <p>The second Policy or help to Trade<note place="margin">Firm Ti<g ref="char:EOLhyphen"/>tles to Lands and Houses.</note> used by the <hi>Hollanders,</hi> is securing the Titles to Lands and Houses; for al<g ref="char:EOLhyphen"/>though Lands and Houses may be cal<g ref="char:EOLhyphen"/>led <hi>Terra Firma &amp; res immobilis,</hi> yet the Title unto them is no more certain, than it pleases the Lawyers and Autho<g ref="char:EOLhyphen"/>rity to make them; wherefore the <hi>Hol<g ref="char:EOLhyphen"/>landers</hi> do by Registries, and other ways of Assurance make the Title as immova<g ref="char:EOLhyphen"/>ble as the Lands, for there can be no incouragement to Industry, where there is no assurance of what shall be gotten by it; and where by fraud and corrup<g ref="char:EOLhyphen"/>tion, one Man may take away with ease and by a trick, and in a moment
+
+
+<pb n="28" facs="tcp:50048:26"/>
+what another has gotten by many Years extreme labour and pains.</p>
+            <p>There hath been much discourse, a<g ref="char:EOLhyphen"/>bout<note place="margin">Of the in<g ref="char:EOLhyphen"/>troducing Registries into <hi>En<g ref="char:EOLhyphen"/>gland.</hi>
+               </note> introducing of Registries into <hi>En<g ref="char:EOLhyphen"/>gland;</hi> the Lawyers for the most part object against it, alledging that Titles of Land in <hi>England</hi> are sufficiently se<g ref="char:EOLhyphen"/>cure already; wherefore omitting the considerations of small and oblique rea<g ref="char:EOLhyphen"/>sons <hi>pro &amp; contra,</hi> it were good that enquiry were made from the Officers of several Courts, to what summ or value Purchasers have been damnified for this last ten Years, by such fraudulent con<g ref="char:EOLhyphen"/>veyances as Registries would have pre<g ref="char:EOLhyphen"/>vented; the tenth part whereof at a <hi>Medium,</hi> is the annual loss which the People sustain for want of them, and then computation is to be made of the annual charge of Registring such extraor<g ref="char:EOLhyphen"/>dinary Conveyances, as would secure the Title of Lands; now by comparing these two summs, the Question so much agitated may be determined; though some think that though few are actual<g ref="char:EOLhyphen"/>ly damnified, yet that all are hindered by fear and deterred from Dealing.</p>
+            <p>Their third Policy is their Bank, the use<note place="margin">The Banks of <hi>Holland</hi>
+               </note> whereof is to encrease Mony, or rather to
+
+
+<pb n="29" facs="tcp:50048:26"/>
+make a small summ equivalent in Trade to a greater, for the effecting whereof these things are to be considered. 1. How much Money will drive the Trade of the Nation. 2. How much current Mo<g ref="char:EOLhyphen"/>ney there is actually in the Nation. 3. How much Money will serve to make all payments of under 50 <hi>l.</hi> or any other more convenient summ throughout the Year. 4. For what summ the keepers of the Bank are unquestionable Security: If all these four particulars be well known, then it may also be known, how much of the ready Money above mentioned may safely and profitably be lodged in the Bank, and to how much ready current Money the said deposited Money is equivalent. As for example, suppose a Hund. thous. Pounds will drive the Trade of the Nation, &amp; suppose there be but Sixty thousand Pounds of ready Money in the same; suppose also that Twenty thous. Pounds will drive on and answer all Payments made of under 50 <hi>l.</hi> In this case Forty of the Sixty being put into the Bank, will be equivalent to Eighty, which eighty and twenty kept out of the Bank do make up an Hun<g ref="char:EOLhyphen"/>dred, (that is to say) enough to drive
+
+
+<pb n="30" facs="tcp:50048:27"/>
+the Trade as was proposed; where note that the Bank keepers must be respon<g ref="char:EOLhyphen"/>sible for double the summ intrusted with them, and must have power to levy up<g ref="char:EOLhyphen"/>on the general, what they happen to loose unto particular Men.</p>
+            <p>Upon which grounds, the Bank may freely make use of the received Forty thousand Pounds, whereby the said summ, with the like summ in Credit makes Eighty thousand Pounds, and with the Twenty reserved an Hundred.</p>
+            <p>I might here add many more particu<g ref="char:EOLhyphen"/>lars,<note place="margin">The <hi>Hol<g ref="char:EOLhyphen"/>landers</hi> are seldom Husband<g ref="char:EOLhyphen"/>men or Foot Sol<g ref="char:EOLhyphen"/>diers.</note> but being the same as have alrea<g ref="char:EOLhyphen"/>dy been noted by others, I shall con<g ref="char:EOLhyphen"/>clude only with adding one observation which I take to be of consequence, <hi>viz.</hi> That the <hi>Hollanders</hi> do rid their hands of two Trades, which are of greatest turmoil and danger, and yet of least profit; the first whereof is that of a com<g ref="char:EOLhyphen"/>mon and private Soldier, for such they can hire from <hi>England, Scotland,</hi> and <hi>Germany,</hi> to venture their lives for Six pence a day, whilst themselves safely and quietly follow such Trades, where<g ref="char:EOLhyphen"/>by the meanest of them gain six times as much, and withal by this entertain<g ref="char:EOLhyphen"/>ing of Strangers for Soldiers; their Coun<g ref="char:EOLhyphen"/>try
+
+
+<pb n="31" facs="tcp:50048:27"/>
+becomes more and more peopled, forasmuch as the Children of such Stran<g ref="char:EOLhyphen"/>gers, are <hi>Hollanders</hi> and take to Trades, whilst new Strangers are admitted <hi>ad infinitum;</hi> besides these Soldiers at con<g ref="char:EOLhyphen"/>venient intervals, do at least as much work as is equivalent to what they spend, and consequently by this way of employing of Strangers for Soldiers, they People the Country and save their own Persons from danger and misery, without any real expence, effecting by this method, what others have in vain attempted by Laws for Naturalizing of Strangers, as if Men could be charm<g ref="char:EOLhyphen"/>ed to transplant themselves from their own Native, into a Foreign Country merely by words, and for the bare leave of being called by a new Name. In <hi>Ireland</hi> Laws of Naturalization have had little effect, to bring in Aliens, and 'tis no wonder, since <hi>English</hi> Men will not go thither without they may have the pay of Soldiers, or some other ad<g ref="char:EOLhyphen"/>vantage amounting to maintenance.<note place="margin">The Me<g ref="char:EOLhyphen"/>thod of comput<g ref="char:EOLhyphen"/>ing the value of Men and People.</note>
+            </p>
+            <p>Having intimated the way by which the <hi>Hollanders</hi> do increase their People, I shall here digress to set down the way of computing the value of every Head
+
+
+<pb n="32" facs="tcp:50048:28"/>
+one with another, and that by the in<g ref="char:EOLhyphen"/>stance of People in <hi>England, viz.</hi> Sup<g ref="char:EOLhyphen"/>pose the People of <hi>England</hi> be Six Mil<g ref="char:EOLhyphen"/>lions in number, that their expence at 7 <hi>l. per</hi> Head be forty two Millions: suppose also that the Rent of the Lands be eight Millions, and the profit of all the Personal Estate be Eight Millions more; it must needs follow, that the Labour of the People must have sup<g ref="char:EOLhyphen"/>plyed the remaining Twenty Six Mil<g ref="char:EOLhyphen"/>lions, the which multiplied by Twenty (the Mass of Mankind being worth Twenty Years purchase as well as Land) makes Five Hundred and Twenty Mil<g ref="char:EOLhyphen"/>lions, as the value of the whole People: which number divided by Six Millions, makes above 80 <hi>l.</hi> Sterling, to be va<g ref="char:EOLhyphen"/>lued of each Head of Man, Woman, and Child, and of adult Persons twice as much; from whence we may learn to compute the loss we have sustained by the Plague, by the Slaughter of Men in War, and by the sending them abroad into the Service of Foreign Princes. The other Trade of which the <hi>Hollanders</hi> have rid their Hands, is the old Patriarchal Trade of being Cow-keepers, and in a great Measure of that which concerns
+
+
+<pb n="33" facs="tcp:50048:28"/>
+Ploughing and Sowing of Corn, having put that Employment upon the <hi>Danes</hi> and <hi>Polanders,</hi> from whom they have their Young Cattle and Corn. Now here we may take notice, that as Trades and curious Arts increase; so the Trade of Husbandry will decrease, or else the Wages of Husbandmen must rise, and consequently the Rents of Lands must fall.</p>
+            <p>For proof whereof I dare affirm, that if all the Husbandmen of <hi>England,</hi> who now earn but 8 <hi>d.</hi> a day or therea<g ref="char:EOLhyphen"/>bouts, could become Tradesmen and earn 16 <hi>d.</hi> a day (which is no great Wages 2 <hi>s.</hi> and 2 <hi>s.</hi> 6 <hi>d.</hi> being usually given) that then it would be the advantage of <hi>En<g ref="char:EOLhyphen"/>gland</hi> to throw up their Husbandry, and to make no use of their Lands, but for Grass Horses, Milch Cows, Gar<g ref="char:EOLhyphen"/>dens, and Orchards, <hi>&amp;c.</hi> which if it be so, and if Trade and Manufacture have increased in <hi>England</hi> (that is to say) if a greater part of the People, apply them<g ref="char:EOLhyphen"/>selves to those faculties, than there did heretofore, and if the price of Corn be no greater now, than when Husband<g ref="char:EOLhyphen"/>men were more numerous, and Trades<g ref="char:EOLhyphen"/>men fewer; It follows from that single
+
+
+<pb n="34" facs="tcp:50048:29"/>
+reason (though others may be added) that the Rents of Land must fall: As for<note place="margin">Reasons why Rents do fall.</note> example, suppose the price of Wheat be 5 <hi>s.</hi> or 60 pence the Bushel; now if the Rent of the Land whereon it grows, be the third Sheaf; then of the <hi>60d. 20d.</hi> is for the <hi>Land,</hi> and 40 <hi>d.</hi> for the <hi>Hus<g ref="char:EOLhyphen"/>bandman;</hi> But if the Husbandmans Wages, should rise one eighth part, or from 8 <hi>d.</hi> to 9 <hi>d. per Diem,</hi> then the Hus<g ref="char:EOLhyphen"/>bandmans share in the Bushel of Wheat, rises from 40 <hi>d.</hi> to 45 <hi>d.</hi> And consequent<g ref="char:EOLhyphen"/>ly the Rent of the Land must fall from 20 <hi>d.</hi> to 15 <hi>d.</hi> for we suppose the price of the Wheat still remains the same: Es<g ref="char:EOLhyphen"/>pecially since we cannot raise it, for if we did attempt it, Cornwould be brought in to us, (as into <hi>Holland</hi>) from Foreign Parts, where the State of Husbandry was not changed.</p>
+            <p>And thus I have done with the first principal Conclusion, that, <hi>A small Ter<g ref="char:EOLhyphen"/>ritory, and even a few People, may by Situation, Trade, and Policy, be made equivalent to a greater; and that conve<g ref="char:EOLhyphen"/>nience for Shipping, and Water-carriage, do most eminently and fundamentally con<g ref="char:EOLhyphen"/>duce thereunto.</hi>
+            </p>
+         </div>
+         <div n="2" type="chapter">
+            <pb n="35" facs="tcp:50048:29"/>
+            <head>
+               <hi>CHAP. II.</hi> That some kind of <hi>Taxes</hi> and Publick <hi>Levies,</hi> may rather increase than <hi>diminish</hi> the Wealth of the King<g ref="char:EOLhyphen"/>dom.</head>
+            <p>IF the Money or other Effects, levyed<note place="margin">What shift ing of Mo<g ref="char:EOLhyphen"/>ney from hand is profitable or not.</note> from the People by way of <hi>Tax,</hi> were destroyed and annihilated; then 'tis clear, that such <hi>Levies</hi> would dimi<g ref="char:EOLhyphen"/>nish the Commonwealth: Or if the same were exported out of the Kingdom with<g ref="char:EOLhyphen"/>out any return at all, then the case would be also the same or worse: But if what is levyed as aforesaid, be on<g ref="char:EOLhyphen"/>ly transferred from one hand to another, then we are only to consider whether the said Money or Commodities, are taken from an improving hand, and given to an ill Husband, or <hi>vice versa:</hi> As for example, suppose that Money by way of <hi>Tax,</hi> be taken from one who spendeth the same in superfluous eating and drinking; and delivered to another
+
+
+<pb n="36" facs="tcp:50048:30"/>
+who employeth the same, in improv<g ref="char:EOLhyphen"/>ing of <hi>Land,</hi> in <hi>Fishing,</hi> in working of <hi>Mines,</hi> in <hi>Manufacture, &amp;c.</hi> It is mani<g ref="char:EOLhyphen"/>fest, that such Tax is an advantage to the State whereof the said different Per<g ref="char:EOLhyphen"/>sons are Members: Nay, if Money be taken from him, who spendeth the same as aforesaid upon <hi>eating</hi> and <hi>drinking,</hi> or any other perishing Commodity; and the same transferr'd to one that bestow<g ref="char:EOLhyphen"/>eth it on <hi>Cloaths;</hi> I say, that even in this case, the Commonwealth hath some little advantage; because <hi>Cloaths</hi> do not altogether perish so soon as <hi>Meats</hi> and <hi>Drinks:</hi> But if the same be spent in <hi>Furniture of Houses,</hi> the advantage is yet a little more; if in <hi>Building of Houses,</hi> yet more; if in improving of <hi>Lands;</hi> working of <hi>Mines, Fishing, &amp;c.</hi> yet more; but most of all, in bringing <hi>Gold</hi> and <hi>Silver</hi> into the Country: Because those things are not only not perishable, but are esteemed for Wealth at all times, and every where: Whereas other Com<g ref="char:EOLhyphen"/>modities which are perishable, or whose value depends upon the Fashion; or which are contingently scarce and plen<g ref="char:EOLhyphen"/>tiful, are wealth, but <hi>pro hic &amp; nunc,</hi> as shall be elsewhere said.</p>
+            <p>
+               <pb n="37" facs="tcp:50048:30"/>In the next place if the People of any<note place="margin">Taxing of new works a benefit to the Common<g ref="char:EOLhyphen"/>wealth.</note> Country, who have not already a full employment, should be enjoyned or Taxed to work upon such Commodities as are Imported from abroad; I say, that such a Tax, also doth improve the Commonwealth.</p>
+            <p>Moreover, if Persons who live by<note place="margin">The tax<g ref="char:EOLhyphen"/>ing of Idlers.</note> begging, cheating, stealing, gaming, bor<g ref="char:EOLhyphen"/>rowing without intention of restoring; who by those ways do get from the credulous and careless, more than is sufficient for the subsistence of such Per<g ref="char:EOLhyphen"/>sons; I say, that although the State should have no present employment for such Persons, and consequently should be forced to bear the whole charge of their livelyhood; yet it were more for the publick profit to give all such Per<g ref="char:EOLhyphen"/>sons, a regular and competent allowance by Publick Tax; than to suffer them to spend extravagantly, at the only charge of careless, credulous, and good natu<g ref="char:EOLhyphen"/>red People: And to expose the Com<g ref="char:EOLhyphen"/>monwealth to the loss of so many able Men, whose lives are taken away, for the crimes which ill Discipline doth oc<g ref="char:EOLhyphen"/>casion.</p>
+            <p>
+               <pb n="38" facs="tcp:50048:31"/>On the contrary, If the Stocks of la<g ref="char:EOLhyphen"/>borious and ingenious Men, who are not only beautifying the Country where they live by elegant <hi>Dyet, Apparrel, Furniture, Housing, pleasant Gardens, Orchards,</hi> and <hi>Publick Edifices, &amp;c.</hi> But are also increasing the <hi>Gold, Silver,</hi> and <hi>Iewels</hi> of the Country by <hi>Trade</hi> and <hi>Arms;</hi> I say, if the Stock of these Men should be diminished by a Tax, and transferred to such as do nothing at all, but <hi>eat</hi> and <hi>drink, sing, play,</hi> and <hi>dance;</hi> nay to such as study the <hi>Metaphysicks,</hi> or other needless <hi>Specu<g ref="char:EOLhyphen"/>lation;</hi> or else employ themselves in any other way, which produce no material thing, or things of real use and value in the Commonwealth: In this case, the Wealth of the Publick will be diminish<g ref="char:EOLhyphen"/>ed: Otherwise than as such exercises, are recreations and refreshments of the mind; and which being moderately used, do qualifie and dispose Men to what in it self is more considerable.</p>
+            <p>Wherefore upon the whole matter, to know whether a Tax will do good or harm: The State of the People and their employments, must be well known; (that is to say,) what part of the Peo<g ref="char:EOLhyphen"/>ple
+
+
+<pb n="39" facs="tcp:50048:31"/>
+are unfit for Labour by their Infan<g ref="char:EOLhyphen"/>cy or Impotency; and also what part are exempt from the same, by reason of their <hi>Wealth, Function,</hi> or <hi>Dignities;</hi> or by reason of their charge and employ<g ref="char:EOLhyphen"/>ments; otherwise than in governing, directing and preserving those, who are appointed to Labour and Arts.</p>
+            <p>2. In the next place computation must be made, what part of those who are fit for Labour and Arts as aforesaid, are able to perform the work of the Na<g ref="char:EOLhyphen"/>tion in its present State and Measure.</p>
+            <p>3. It is to be considered, whether<note place="margin">A judg<g ref="char:EOLhyphen"/>ment of what taxes are advan<g ref="char:EOLhyphen"/>geous.</note> the remainder can make all or any part of those Commodities, which are Im<g ref="char:EOLhyphen"/>ported from abroad; which of them, and how much in particular: The re<g ref="char:EOLhyphen"/>mainder of which sort of People (if any be) may safely and without possi<g ref="char:EOLhyphen"/>ble prejudice to the Commonwealth, be employed in Arts and Exercises of plea<g ref="char:EOLhyphen"/>sure and ornament; the greatest where<g ref="char:EOLhyphen"/>of is the Improvement of natural know<g ref="char:EOLhyphen"/>ledge.</p>
+            <p>Having thus in general illustrated this point, which I think needs no other proof but illustration; I come next to intimate that no part of <hi>Europe</hi> hath
+
+
+<pb n="40" facs="tcp:50048:32"/>
+paid so much by way of Tax, and pub<g ref="char:EOLhyphen"/>lick contribution, as <hi>Holland</hi> and <hi>Zea<g ref="char:EOLhyphen"/>land</hi> for this last 100 Years; and yet no Country hath in the same time, in<g ref="char:EOLhyphen"/>creased their Wealth comparably to them: And it is manifest, they have fol<g ref="char:EOLhyphen"/>lowed the general considerations above<g ref="char:EOLhyphen"/>mentioned; for they Tax <hi>Meats</hi> and <hi>Drinks</hi> most heavily of all; to restrain the excessive expence of those things, which 24 hours doth (as to the use of Man,) wholly annihilate; and they are more favourable to Commodities of greater duration.</p>
+            <p>Nor do they Tax according to what Men gain, but in extraordinary cases; but always according to what Men spend: And most of all, according to what they spend needlesly, and without prospect of return. Upon which grounds, their Customs upon Goods Imported and Ex<g ref="char:EOLhyphen"/>ported, are generally low; as if they in<g ref="char:EOLhyphen"/>tended by them, only to keep an ac<g ref="char:EOLhyphen"/>count of their Foreign Trade; and to<note place="margin">It is pro<g ref="char:EOLhyphen"/>bable that <hi>Holland</hi> and <hi>En<g ref="char:EOLhyphen"/>gland</hi> are grown richer un<g ref="char:EOLhyphen"/>der taxes.</note> retaliate upon their Neighbour States, the prejudices done them, by their Pro<g ref="char:EOLhyphen"/>hibitions and Impositions.</p>
+            <p>It is further to be observed, that since the Year 1636, the Taxes and Publick
+
+
+<pb n="41" facs="tcp:50048:32"/>
+Levies made in <hi>England, Scotland,</hi> and <hi>Ireland,</hi> have been prodigiously greater than at any time heretofore; and yet the said Kingdoms have increased in their Wealth and Strength, for these last Forty Years, as shall hereafter be shewn.</p>
+            <p>It is said that the King of <hi>France,</hi> at<note place="margin">The diffe<g ref="char:EOLhyphen"/>rence of Princes Revenues.</note> present doth Levy the Fifth Part of his Peoples Wealth; and yet great Osten<g ref="char:EOLhyphen"/>tation is made of the Present Riches and Strength of that Kingdom. Now great care must be had in distinguish<g ref="char:EOLhyphen"/>ing between the Wealth of the People, and that of an absolute Monarch; who taketh from the People, where, when, and in what proportion he pleaseth. Moreover, the Subjects of two Monarchs may be equally Rich, and yet one Mo<g ref="char:EOLhyphen"/>narch may be double as Rich as the other; <hi>viz.</hi> If one take the tenth part of the Peoples Substance to his own dis<g ref="char:EOLhyphen"/>pose, and the other but the <hi>20th.</hi> nay the Monarch of a poorer People, may appear more splendid and glorious, than that of a Richer; which perhaps may be somewhat the case of <hi>France,</hi> as hereafter shall be examined. As an in<g ref="char:EOLhyphen"/>stance and application of what hath been
+
+
+<pb n="42" facs="tcp:50048:33"/>
+said, I conceive that in <hi>Ireland</hi> where<g ref="char:EOLhyphen"/>in are about 1200 Thousand People, and near 300 Thousand Smokes or<note place="margin">That <hi>Ire<g ref="char:EOLhyphen"/>land</hi> may be more advanta<g ref="char:EOLhyphen"/>geously taxed by a Pole in Flax.</note> Hearths; It were more tolerable for the People, and more profitable for the King; that each Head paid 2 <hi>s.</hi> worth of Flax, than that each smoke should pay 2 <hi>s.</hi> in Silver; And that for the following reasons.</p>
+            <p>1. <hi>Ireland</hi> being under peopled, and Land, and Cattle being very cheap; there being every where store of Fish and Fowl; the ground yielding excellent Roots (and particularly that bread-like root <hi>Potatoes</hi>) and withal they being able to perform their Husbandry, with such harness and tackling, as each Man can make with his own hands; and liv<g ref="char:EOLhyphen"/>ing in such Houses as almost every Man can build; and every House-wife being a Spinner and Dyer of Wool and Yarn, they can live and subsist after their pre<g ref="char:EOLhyphen"/>sent fashion, without the use of Gold or Silver Money; and can supply them<g ref="char:EOLhyphen"/>selves with the necessaries above nam<g ref="char:EOLhyphen"/>ed, without labouring 2 Hours <hi>per diem:</hi> Now it hath been found, that by reason of Insolvencies arising, rather from the uselessness than want of Mo<g ref="char:EOLhyphen"/>ney
+
+
+<pb n="43" facs="tcp:50048:33"/>
+among these poor People; that from 300 Thousand Hearths, which should have yielded 30 Thousand Pound <hi>per annum;</hi> not 15 Thousand Pound of Mo<g ref="char:EOLhyphen"/>ney could be Levyed: Whereas it is easily imagined, that four or five Peo<g ref="char:EOLhyphen"/>ple dwelling in that Cottage, which hath but one smoke; could easily have planted a ground-plot of about 40 foot square with Flax; or the 50 part of an Acre; for so much ground will bear eight or ten Shillings worth of that Commodity; and the Rent of so much ground, in few places amounts to a pen<g ref="char:EOLhyphen"/>ny <hi>per annum.</hi> Nor is there any skill requisite to this practice, wherewith the Country is not already familiar. Now as for a Market for the Flax; there is Imported into <hi>Holland</hi> it self, over and above what that Country produces; as much Flax, as is there sold for between Eightscore and Two Hundred Thou<g ref="char:EOLhyphen"/>sand Pound; and into <hi>England</hi> and <hi>Ire<g ref="char:EOLhyphen"/>land</hi> is Imported as much Linnen Cloth made of Flax, and there spent, as is worth above ½ a Million of Money. As shall hereafter be shewn.</p>
+            <p>Wherefore having shewn, that Silver Money is useless to the poor People of
+
+
+<pb n="44" facs="tcp:50048:34"/>
+               <hi>Ireland;</hi> that half the Hearth Money could not be raised by reason thereof; that the People are not a fifth part em<g ref="char:EOLhyphen"/>ployed; that the People and Land of <hi>Ireland,</hi> are competently qualified for Flax; That one Penny-worth of Land, will produce Ten Shillings worth of the same; and that there is Market enough and enough, for above an Hundred Thousand Pounds worth; I conceive my Proposition sufficiently proved; at least to set forwards and promote a practice, which both the present Law and Inter<g ref="char:EOLhyphen"/>est of the Country doth require: Espe<g ref="char:EOLhyphen"/>cially, since if all the Flax so produced should yield nothing, yet there is no<g ref="char:EOLhyphen"/>thing lost; the same time having been worse spent before. Upon the same grounds, the like Tax of 2 <hi>s. per</hi> Head, may be raised with the like advantage upon the People of <hi>England;</hi> which will amount to Six Hundred Thousand Pound <hi>per annum;</hi> to be paid in Flax, Manufa<g ref="char:EOLhyphen"/>ctured, into all the sorts of <hi>Linnens, Threds, Tapes,</hi> and <hi>Laces;</hi> which we now receive from <hi>France, Flanders, Hol<g ref="char:EOLhyphen"/>land,</hi> and <hi>Germany;</hi> the value whereof doth far exceed the summ last mentioned, as hath appeared by the examination of particulars.</p>
+            <p>
+               <pb n="45" facs="tcp:50048:34"/>It is observed by Clothiers, and others,<note place="margin">Duties put upon re<g ref="char:EOLhyphen"/>dundant Commo<g ref="char:EOLhyphen"/>dities may be a harm<g ref="char:EOLhyphen"/>less Tax.</note> who employ great numbers of poor people, that when Corn is extremely plentiful, that the Labour of the poor is proportionably dear: And scarce to be had at all (so licentious are they who labour only to eat, or rather to drink.) Wherefore when so many Acres sown with Corn, as do usually produce a sufficient store for the Nation, shall produce perhaps double to what is ex<g ref="char:EOLhyphen"/>pected or necessary; it seems not un<g ref="char:EOLhyphen"/>reasonable that this common blessing of God, should be applied, to the com<g ref="char:EOLhyphen"/>mon good of all people, represented by their Sovereign; much rather than the same should be abused, by the vile and brutish part of mankind, to the preju<g ref="char:EOLhyphen"/>dice of the Common-Wealth: And con<g ref="char:EOLhyphen"/>sequently, that such surplusage of Corn, should be sent to publick Store-houses; from thence to be disposed of, to the best advantage of the Publick.</p>
+            <p>Now if the Corn spent in <hi>England,</hi> at five shillings <hi>per</hi> Bushel <hi>Wheat,</hi> and two shillings six pence <hi>Barley,</hi> be worth ten Millions <hi>Communibus annis;</hi> it fol<g ref="char:EOLhyphen"/>lows that in years of great plenty, when the said Grains are one third part
+
+
+<pb n="46" facs="tcp:50048:35"/>
+cheaper; that a vast advantage might accrue to the Common-Wealth, which now is spent in over-feeding of the People, in quantity or quality; and so indisposing them to their usual La<g ref="char:EOLhyphen"/>bour.</p>
+            <p>The like may be said of <hi>Sugar, To<g ref="char:EOLhyphen"/>bacco,</hi> and <hi>Pepper;</hi> which custom hath now made necessary to all sorts of peo<g ref="char:EOLhyphen"/>ple; and which the over-planting of them, hath made unreasonably cheap: I say it is not absurd, that the Publick should be advantaged by this extraordi<g ref="char:EOLhyphen"/>nary plenty.</p>
+            <p>That an <hi>Excise</hi> should be laid up<g ref="char:EOLhyphen"/>on <hi>Corrants</hi> also, is not unreasonable; not only for this, but for other reasons also.</p>
+            <p>The way of the present Militia or<note place="margin">Of a Tax by a grand Militia, and by two other sorts of Armies.</note> Trained-Bands, is a gentle Tax upon the Country; because it is only a few days Labour in the year, of a few Men in respect of the whole; using their own goods, that is their own Arms. Now if there be three Millions of Males in <hi>England,</hi> there be above two hundred thousand of them, who are between the age of sixteen and thirty, unmar<g ref="char:EOLhyphen"/>ried persons; and who live by their
+
+
+<pb n="47" facs="tcp:50048:35"/>
+Labour and Service; for of so many or thereabouts, the present Militia con<g ref="char:EOLhyphen"/>sists.</p>
+            <p>Now if an hundred and five thousand of these, were Armed, and Trayned, as Foot; and fifty thousand as Horse; (Horse being of special advantage in Islands) the said Forces at Land, with thirty thousand Men at Sea; would by Gods ordinary blessing, defend this Na<g ref="char:EOLhyphen"/>tion, being an Island, against any Force in view: But the charge of Arming, Disciplining, and Rendezvousing all these Men, twice, or thrice a year; would be a very gentle Tax, Levyed by the people themselves, and paid to themselves. Moreover if out of the said number ⅓ part were selected, of such as are more than ordinarily fit and disposed for War, and to be Exer<g ref="char:EOLhyphen"/>cised, and Rendezvoused fourteen or fifteen times <hi>per annum;</hi> the charge thereof being but a fortnights Pay in the year, would be also a very gentle Tax.</p>
+            <p>Lastly, If out of this last mentioned number, ⅓ again should be selected, making about twelve thousand Foot, and near six thousand Horse, to be Exercised,
+
+
+<pb n="48" facs="tcp:50048:36"/>
+and Rendezvoused forty days in the year; I say that the charge of all these three Militias, allowing the latter six weeks Pay <hi>per annum;</hi> would not cost above one hundred and twenty thousand pound <hi>per annum;</hi> which I take to be an easie burthen, for so great a be<g ref="char:EOLhyphen"/>nefit.</p>
+            <p>Forasmuch as the present Navy of<note place="margin">For sup<g ref="char:EOLhyphen"/>plying the Navy, and Merchants with Sea<g ref="char:EOLhyphen"/>men.</note> 
+               <hi>England</hi> requires thirty six thousand Men to Man it; and for that the <hi>Eng<g ref="char:EOLhyphen"/>lish</hi> Trade of Shipping, requires about forty eight thousand Men, to manage it also; it follows, that to perform both well, there ought to be about seventy two thousand Men, (and not eighty four thousand) competently qualified for these Services: For want whereof we see, that it is a long while, before a Royal Navy can be manned; which till it be, is of no effectual use, but lies at charge. And we see likewise upon these occasions, that Merchants are put to great straights, and inconveniences; and do pay exces<g ref="char:EOLhyphen"/>sive rates for the carrying on their Trade. Now if twenty four thousand able bodyed Tradesmen, were by six thousand of them <hi>per annum,</hi> brought up and fitted for Sea-Service; and for
+
+
+<pb n="49" facs="tcp:50048:36"/>
+their incouragement allowed 20 <hi>s. per annum</hi> for every year they had been at Sea, even when they stay at home, not exceeding 6 <hi>l.</hi> for those, who have served six years or upward; it follows, that about 72000 <hi>l.</hi> at the <hi>medium</hi> of 3 <hi>l. per</hi> Man, would Salariate the whole number of twenty four thousand; and so, forasmuch as half the Seamen, which mannage the Merchants Trade, are supposed to be always in Harbour, and are about twenty four thousand Men, together with the said half of the Auxil<g ref="char:EOLhyphen"/>liaries last mentioned, would upon all emergencies, Man out the whole <hi>Royal Navy</hi> with thirty six thousand, and leaving to the Merchants twelve thou<g ref="char:EOLhyphen"/>sand of the abler Auxilliaries, to per<g ref="char:EOLhyphen"/>form their business in Harbour, till others come home from Sea; and thus thirty six thousand, twenty four thou<g ref="char:EOLhyphen"/>sand, and twelve thousand, make the seventy two thousand above mentioned: I say that more than this sum of 7<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>000 <hi>l.</hi> is fruitlesly spent, and over paid by the Merchants, whensoever a great Fleet is to be fitted out. Now these whom I call Auxilliary Seamen, are such as have another Trade besides, wherewith
+
+
+<pb n="50" facs="tcp:50048:37"/>
+to maintain themselves, when they are not employed at Sea; and the charge of maintaining them, though 72000 <hi>l. per annum,</hi> I take to be little or nothing, for the reasons above-mentioned, and consequently an easie Tax to the people, because Leavyed by, and paid to them<g ref="char:EOLhyphen"/>selves.</p>
+            <p>As we propounded that <hi>Ireland</hi>
+               <note place="margin">A Herring <hi>Tax</hi> upon <hi>Scotland.</hi>
+               </note> should be Taxed with Flax, and <hi>Eng<g ref="char:EOLhyphen"/>land</hi> by <hi>Linnen,</hi> and other <hi>Manufa<g ref="char:EOLhyphen"/>cture</hi> of the same; I conceive that <hi>Scotland</hi> also might be Taxed as much, to be paid in <hi>Herrings,</hi> as <hi>Ireland</hi> in <hi>Flax:</hi> Now the three Taxes (<hi>viz.</hi>) of <hi>Flax, Linnen,</hi> and <hi>Herrings,</hi> and the maintainance of the triple <hi>Militia,</hi> and of the <hi>Auxilliary Seamen</hi> above-men<g ref="char:EOLhyphen"/>tioned, do all five of them together, a<g ref="char:EOLhyphen"/>mount to one Million of mony, the raising whereof is not a Million spent, but gain unto the Common-Wealth, unless it can be made appear, that by reason of all, or any of them, the Ex<g ref="char:EOLhyphen"/>portation of <hi>Woollen Manufactures, Lead,</hi> and <hi>Tin,</hi> are lessened; or of such Commodities, as our own <hi>East</hi> and <hi>West India</hi> Trade do produce, foras<g ref="char:EOLhyphen"/>much as I conceive, that the Exporta<g ref="char:EOLhyphen"/>tion
+
+
+<pb n="51" facs="tcp:50048:37"/>
+of these last mentioned Commodi<g ref="char:EOLhyphen"/>ties, is the <hi>Touch-stone</hi> whereby the Wealth of <hi>England</hi> is tryed, and the <hi>Pulse</hi> wherby the Health of the King<g ref="char:EOLhyphen"/>dom may be discerned.</p>
+         </div>
+         <div n="3" type="chapter">
+            <head>
+               <hi>CHAP. III.</hi> That <hi>France</hi> cannot by reason of natural, and perpetual Impediments, be more powerful at Sea, than the <hi>English,</hi> or <hi>Hollanders</hi> now are, or may be.</head>
+            <p>POwer at Sea consists chiefly of<note place="margin">The qua<g ref="char:EOLhyphen"/>lities of Ships fit for the de<g ref="char:EOLhyphen"/>fence of <hi>England.</hi>
+               </note> 
+               <hi>Men, able to fight at Sea,</hi> and that in such Shipping, as is most proper for the Seas wherein they serve; and those are in these Northern Seas, Ships from between three hundred to one thousand three hundred Tuns; and of those such as draw much Water, and have a deep Latch in the Sea, in order to keep a good Wind, and not to fall to Lee<g ref="char:EOLhyphen"/>ward, a matter of vast advantage in Sea Service: Wherefore it is to be ex<g ref="char:EOLhyphen"/>amined, 1. Whether the King of <hi>France,</hi> hath Ports in the Northern Seas (where
+
+
+<pb n="52" facs="tcp:50048:38"/>
+he hath most occasion for his Fleets of War, in any contests with <hi>England</hi>) able to receive the Vessels above-mentioned, in all Weathers, both in Winter and Summer Season. For if the King of <hi>France,</hi> would bring to Sea an equal number of fighting Men, with the <hi>Eng<g ref="char:EOLhyphen"/>lish</hi> and <hi>Hollanders,</hi> in small floaty Lee<g ref="char:EOLhyphen"/>ward Vessels, he would certainly be of the weaker side. For a Vessel of one thousand Tuns manned with five hundred Men, fighting with five Vessels of two hundred Tuns, each manned with one hundred Men apiece, shall in common reason have the better offensively, and defensively; forasmuch as the great Ship can carry such Ordnance, as can reach the small ones at a far greater distance, than those can reach, or at least hurt the other; and can batter, and sink at a distance, when small ones can scarce peirce.</p>
+            <p>Moreover it is more difficult for Men out of a small Vessel, to enter a tall Ship, then for Men from a higher place, to leap down into a lower; nor is small shot so effectual upon a tall Ship, as <hi>vice versa.</hi>
+            </p>
+            <p>
+               <pb n="53" facs="tcp:50048:38"/>And as for Vessels drawing much water, and consequently keeping a good Wind, they can take or leave Leeward Vessels, at pleasure, and secure them<g ref="char:EOLhyphen"/>selves from being boarded by them: Moreover the windward Ship, has a fairer mark at a Leeward Ship, than <hi>vice versa;</hi> and can place her shot up<g ref="char:EOLhyphen"/>on such parts of the Leeward Vessel, as upon the next Tack will be under water.</p>
+            <p>Now then the King of <hi>France,</hi> having no Ports able to receive large wind<g ref="char:EOLhyphen"/>ward Vessels, between <hi>Dunkirk</hi> and <hi>Ushant,</hi> what other Ships he can bring into those Seas, will not be considerable. As for the wide Ocean, which his Har<g ref="char:EOLhyphen"/>bours of <hi>Brest,</hi> and <hi>Charente,</hi> do look into; it affordeth him no advantage upon an Enemy; there being so great a Latitude of engaging or not, even when the Parties are in sight of each other.</p>
+            <p>Wherefore, although the King of <hi>France</hi> were immensely rich, and could build what Ships he pleased, both for number, and quality; yet if he have not Ports to receive, and shelter, that sort and size of Shipping, which is fit for his purpose; the said Riches will in this
+
+
+<pb n="54" facs="tcp:50048:39"/>
+case be fruitless, and a mere expence without any return, or profit. Some will say that other Nations cannot build so good Ships as the <hi>English;</hi> I do indeed hope they cannot; but because it seems too possible, that they may sooner or later, by Practice and Ex<g ref="char:EOLhyphen"/>perience; I shall not make use of that Argument, having bound my self to shew, that the impediments of <hi>France,</hi> (as to this purpose) are natural, and per<g ref="char:EOLhyphen"/>petual. Ships, and Guns do not fight of themselves, but Men who act and manage them; wherefore it is more material to shew; That the King of <hi>France,</hi> neither hath, nor can have Men sufficient, to Man a Fleet, of equal strength to that of the King of <hi>Eng<g ref="char:EOLhyphen"/>land.</hi> (<hi>viz.</hi>)</p>
+            <p>The King of <hi>Englands</hi> Navy, consists<note place="margin">The qua<g ref="char:EOLhyphen"/>lifications of Seamen for de<g ref="char:EOLhyphen"/>fence.</note> of about seventy thousand Tuns of Shipping, which requires thirty six thousand Men to Man it; these Men be<g ref="char:EOLhyphen"/>ing supposed to be divided into eight parts, I conceive that one eighth part, must be persons of great Experience, and Reputation, in Sea Service: ano<g ref="char:EOLhyphen"/>ther eighth part must be such as have used the Sea seven years and upwards;
+
+
+<pb n="55" facs="tcp:50048:39"/>
+half of them, or 4/8 parts more, must be such as have used the Sea above a twelve<g ref="char:EOLhyphen"/>month, <hi>viz.</hi> two, three, four, five, or six years, allowing but one quarter of the whole Complements, to be such as never were at Sea at all, or at most but one Voyage, or upon one Expedition; so that at a <hi>medium</hi> I reckon, that the whole Fleet must be Men of three or four years growth, one with another. <hi>Fournier,</hi> a late judicious Writer, make<g ref="char:EOLhyphen"/>ing<note place="margin">The Num<g ref="char:EOLhyphen"/>ber of Seamen in <hi>France.</hi>
+               </note> it his business to persuade the World, how considerable the King of <hi>France</hi> was, or might be at Sea, in the ninety second and ninety third pages of his <hi>Hydrography,</hi> saith, That there was one place in <hi>Britany,</hi> which had fur<g ref="char:EOLhyphen"/>nished the King with one thousand four hundred Seamen, and that perhaps the whole Sea-Coast of <hi>France,</hi> might have furnished him with fifteen times as many: Now supposing his whole Al<g ref="char:EOLhyphen"/>legation were true, yet the said number amounts but to twenty one thousand; all which, if the whole Trade of Ship<g ref="char:EOLhyphen"/>ping in <hi>France</hi> were quite and clean abandoned, would not by above a third, Man out a Fleet equivalent, to that of the King of <hi>England:</hi> And if
+
+
+<pb n="56" facs="tcp:50048:40"/>
+the Trade were but barely kept a<g ref="char:EOLhyphen"/>live, there would not be one third par<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Men enough, to Man the said Fleet.</p>
+            <p>But if the Shipping Trade of <hi>France,</hi> be not above a quarter as great as that of <hi>England,</hi> and that one third part of the same, namely the Fishing Trade to the Banks of <hi>Newfoundland,</hi> is not peculiar, nor fixt to the <hi>French;</hi> then I say that if the King of <hi>England</hi> (having power to Press Men) cannot under two or three months time Man his Fleet; then the King of <hi>France,</hi> with less than a quarter of the same help, can never do it at all; for in <hi>France</hi> (as shall elsewhere be shewn) there are not above one hundred and fifty thou<g ref="char:EOLhyphen"/>sand Tun of Trading Vessels, and con<g ref="char:EOLhyphen"/>sequently not above fifteen thousand Seamen, reckoning a Man to every ten Tun. As it has been shewn that the King of <hi>France,</hi> cannot at present Man such a Fleet, as is above described, we come next to shew that he never can, being under natural, and perpetual Impediments: <hi>viz.</hi> 1. If there be but fifteen thousand Seamen in all <hi>France,</hi> to manage its Trade, it is not to be
+
+
+<pb n="57" facs="tcp:50048:40"/>
+supposed, that the said Trade should be extinguished, nor that it should spare above five of the said fifteen thousand towards manning the Fleet which re<g ref="char:EOLhyphen"/>quires thirty five thousand.</p>
+            <p>Now the deficient thirty thousand<note place="margin">The ways whereby the <hi>French</hi> must in<g ref="char:EOLhyphen"/>crease Sea<g ref="char:EOLhyphen"/>men.</note> must be supplied, one of these four ways, either, first by taking in Land men, of which sort there must not be above ten thousand, since the Seamen will never be contented, without being<note place="margin">Why Sea<g ref="char:EOLhyphen"/>men dis<g ref="char:EOLhyphen"/>like Land<g ref="char:EOLhyphen"/>men.</note> the major part, nor do they heartily wish well to Landmen at all, or rejoyce even at those Successes, of which the Landmen can claim any share; thinking it hard that themselves, who are bred to miserable, painful, and dangerous Employments, (and yet profitable to the Commonwealth) should at a time when booty and purchase is to be gotten, be clogged or hindered, by any con<g ref="char:EOLhyphen"/>junction with Landmen, or forced to admit those, to an equal share with themselves. 2. The Seamen which we suppose twenty thousand, must be had, that is hired from other Nations, which cannot be without tempting them with so much Wages, as exceeds what is
+
+
+<pb n="58" facs="tcp:50048:41"/>
+given by Merchants, and withal to coun<g ref="char:EOLhyphen"/>terpoise the danger of being hanged<note place="margin">The dan<g ref="char:EOLhyphen"/>ger of <hi>English</hi> Seamen their ser<g ref="char:EOLhyphen"/>ving the <hi>French.</hi>
+               </note> by their own Prince, and allowed no Quarter if they are taken; the trou<g ref="char:EOLhyphen"/>ble of conveying themselves away, when Restraints and Prohibitions are up<g ref="char:EOLhyphen"/>on them; and also the infamy of having been Apostates, to their own Coun<g ref="char:EOLhyphen"/>try, and Cause: I say their Wages must be more than double, to what their own Prince gives them, and their as<g ref="char:EOLhyphen"/>surance must be very great, that they shall not be at long run abused or slighted by those who employed them; (as hating the Traitor, although they love the Treason.) I say moreover, that those who will be thus tempted away, must be of the basest, and lewd<g ref="char:EOLhyphen"/>est sort of Seamen, and such as have not enough of Honour and Consci<g ref="char:EOLhyphen"/>ence, to qualifie them for any Trust, or gallant Performance. 3. Another<note place="margin">How Men learn to be good Sea<g ref="char:EOLhyphen"/>men.</note> way to increase Seamen, is to put great numbers of Landmen upon Ships of War, in order to their being Seamen; but this course cannot be effectual, not only for the above mentioned Antipa<g ref="char:EOLhyphen"/>thy, between Landmen, and Seamen;
+
+
+<pb n="59" facs="tcp:50048:41"/>
+but also, because it is seen, that Men at Sea do not apply themselves to La<g ref="char:EOLhyphen"/>bour and Practice, without more ne<g ref="char:EOLhyphen"/>cessity than happens in over-manned Shipping. For where there are fifty Men in a Vessel, that ten can suffici<g ref="char:EOLhyphen"/>ently Navigate, the supernumerary forty will improve little: But where there shall be of ten but one or two supernumeraries, there necessity will often call upon every Man to set his hand to the Work, which must be well done at the peril of their own lives. Moreover Seamen shifting Vessels al<g ref="char:EOLhyphen"/>most every six or twelve months, do sometimes Sail in small Barks, some<g ref="char:EOLhyphen"/>times in midling Ships, and sometimes in great Vessels of Defence; sometimes in Lighters, sometimes in Hoighs, some<g ref="char:EOLhyphen"/>times in Ketches, sometimes in three Masted Ships, sometimes they go to the Southward, sometimes to the North<g ref="char:EOLhyphen"/>ward, sometimes the Coast, sometimes they cross the Ocean; by all which variety of Service, they do in time compleat themselves, in every Part, and Circumstance of their Faculty: Whereas those who go out for a Sum<g ref="char:EOLhyphen"/>mer,
+
+
+<pb n="60" facs="tcp:50048:42"/>
+in a Man of War, have not that variety of Practice, nor a direct neces<g ref="char:EOLhyphen"/>sity of doing any thing at all.</p>
+            <p>Besides it is three or four years at a <hi>medium,</hi> wherein a Seaman must be made; neither can there be less than three Seamen, to make a fourth, of a Landman: Consequently the fifteen thousand Seamen of <hi>France,</hi> can in<g ref="char:EOLhyphen"/>crease but five thousand Seamen in three or four years, and unless their Trade should increase with their Seamen in proportion, the King must be forced to bear the charge of this improvement, out of the Publick Stock, which is in<g ref="char:EOLhyphen"/>tolerable. So as the Question which now remains, is, whether the Shipping<note place="margin">Whether the Ship<g ref="char:EOLhyphen"/>ping Trade of <hi>France</hi> is like to in<g ref="char:EOLhyphen"/>crease.</note> Trade of <hi>France</hi> is like to increase? Up<g ref="char:EOLhyphen"/>on which accompt it is to be consi<g ref="char:EOLhyphen"/>dered, 1. That <hi>France</hi> is sufficiently stored, with all kind of Necessaries within it self; as with <hi>Corn, Cattle, Wine, Salt, Linnen Cloth, Paper, Silk, Fruits, &amp;c.</hi> So as they need little Ship<g ref="char:EOLhyphen"/>ping, to Import more Commodities of Weight, or Bulk; neither is there any thing of Bulk Exported out of <hi>France,</hi> but <hi>Wines,</hi> and <hi>Salt;</hi> the weight where<g ref="char:EOLhyphen"/>of
+
+
+<pb n="61" facs="tcp:50048:42"/>
+is under one hundred thousand Tun <hi>per annum,</hi> yielding not employ<g ref="char:EOLhyphen"/>ment to above twenty five thousand Tun of Shipping, and these are for the most part <hi>Dutch,</hi> and <hi>English,</hi> who are not only already in Possession of the said Trade, but also are better fitted to maintain it, than the <hi>French</hi> are, or perhaps ever can be: And that for the following Reasons. (<hi>viz.</hi>) 1. Because<note place="margin">Reasons why it cannot.</note> the <hi>French</hi> cannot Victual so cheap as the <hi>English,</hi> and <hi>Dutch,</hi> nor Sail with so few Hands. 2. The <hi>French</hi> for want of good Coasts and Harbours, cannot keep their Ships in Port, under dou<g ref="char:EOLhyphen"/>ble the Charge that the <hi>English</hi> and <hi>Hollanders</hi> can. 3. by reason of Pau<g ref="char:EOLhyphen"/>city, and distance of their Ports, one from another, their Seamen and Trades<g ref="char:EOLhyphen"/>men relating to Shipping, cannot Cor<g ref="char:EOLhyphen"/>respond with, and Assist one another, so easily, cheaply, and advantageously, as in other places. Wherefore if their Shipping Trade, is not likely to in<g ref="char:EOLhyphen"/>crease within themselves, and much less to increase, by their beating out the <hi>English,</hi> and <hi>Hollanders,</hi> from be<g ref="char:EOLhyphen"/>ing the Carriers of the World; it fol<g ref="char:EOLhyphen"/>lows
+
+
+<pb n="62" facs="tcp:50048:43"/>
+that their Seamen will not be increased, by the increase of their said Trade: Wherefore, and for that they are not like to be increased, by any of the several ways above specified, and for that their Ports are not fit to receive Ships of Burthen, and Qua<g ref="char:EOLhyphen"/>lity, fit for their purpose; and that by reason of the less fitness of their Ports, than that of their Neighbours; I conceive, that what was propounded, hath been competently proved.</p>
+            <p>The afore-named <hi>Fournier</hi> in the ninety second and ninety third pages of his <hi>Hydrography,</hi> hath laboured to prove the contrary of all this, unto which I refer the Reader: Not think<g ref="char:EOLhyphen"/>ing his Arguments of any weight at all, in the present case. Nor indeed doth he make his Comparisons, with the <hi>English</hi> or <hi>Hollanders,</hi> but with the <hi>Spaniards,</hi> who, nor the Grand Seignior, (the latter of whom hath great<g ref="char:EOLhyphen"/>advantages, to be powerful at Sea than the King of <hi>France</hi>) could ever attain to any illustrious greatness in Naval Power: Having often attempt<g ref="char:EOLhyphen"/>ed, but never succeeded in the same.
+
+
+<pb n="63" facs="tcp:50048:43"/>
+Nor is it easie to believe, that the King of <hi>England</hi> should for so ma<g ref="char:EOLhyphen"/>ny years, have continued his Title to the <hi>Sovereignty</hi> of the <hi>Narrow Seas,</hi> against his Neighbours (ambitious e<g ref="char:EOLhyphen"/>nough to have gotten it from him) had not their Impediments been Na<g ref="char:EOLhyphen"/>tural, and Perpetual, and such, as we say, do obstruct the King of <hi>France.</hi>
+            </p>
+         </div>
+         <div n="4" type="chapter">
+            <pb n="64" facs="tcp:50048:44"/>
+            <head>
+               <hi>CHAP. IV.</hi> That the People and Territories of the King of <hi>England,</hi> are naturally near as considerable for Wealth and Strength, as those of <hi>France.</hi>
+            </head>
+            <p>THE Author of the State of <hi>En<g ref="char:EOLhyphen"/>gland,</hi>
+               <note place="margin">Of com<g ref="char:EOLhyphen"/>parison be<g ref="char:EOLhyphen"/>tween the Territo<g ref="char:EOLhyphen"/>ries of <hi>En<g ref="char:EOLhyphen"/>gland</hi> and <hi>France.</hi>
+               </note> among the many useful truths, and observations he hath set down; delivers the Proportion, between the Territories of <hi>England</hi> and <hi>France,</hi> to be as Thirty to Eighty two; the which if it be true, then <hi>England, Scot<g ref="char:EOLhyphen"/>land,</hi> and <hi>Ireland,</hi> with the Islands un<g ref="char:EOLhyphen"/>to them belonging will, taken alltogether, be near as big as <hi>France.</hi> Tho I ought to take all advantages for proving the Paradox in hand; yet I had rather grant that <hi>England, Scotland,</hi> and <hi>Ire<g ref="char:EOLhyphen"/>land,</hi> with the Islands before mentioned; together with the Planted parts of <hi>New<g ref="char:EOLhyphen"/>foundland, New-England, New-Nether<g ref="char:EOLhyphen"/>land, Virginia, Mary-Land, Carolina, Ia<g ref="char:EOLhyphen"/>maica, Burmoudas, Barbadoes,</hi> and all
+
+
+<pb n="65" facs="tcp:50048:44"/>
+the rest of the <hi>Carribby</hi> Islands, with what the King hath in <hi>Asia</hi> and <hi>Africa,</hi> do not contain so much <hi>Territory</hi> as <hi>France,</hi> and what planted Land the King of <hi>France</hi> hath also in <hi>America.</hi> And if any Man will be Heterodox in behalf of the <hi>French</hi> Interest; I would be con<g ref="char:EOLhyphen"/>tented against my knowledge and judg<g ref="char:EOLhyphen"/>ment, to allow the King of <hi>France</hi>'s <hi>Ter<g ref="char:EOLhyphen"/>ritories,</hi> to be a seventh, sixth, or even a fifth greater, than those of the King of <hi>England;</hi> believing that both Princes have more Land, than they do employ to its utmost use.</p>
+            <p>And here I beg leave, (among the<note place="margin">A Propo<g ref="char:EOLhyphen"/>sition for quitting <hi>Ireland</hi> &amp; the High<g ref="char:EOLhyphen"/>lands of <hi>Scotland.</hi>
+               </note> several matters which I intend for seri<g ref="char:EOLhyphen"/>ous,) to interpose a jocular, and perhaps ridiculous digression, and which I in<g ref="char:EOLhyphen"/>deed desire Men to look upon, rather as a Dream or Resvery, than a ratio<g ref="char:EOLhyphen"/>nal Proposition; the which is, that if all the <hi>moveables</hi> and People of <hi>Ireland,</hi> and of the Highlands of <hi>Scotland,</hi> were transported into the rest of <hi>Great Brit<g ref="char:EOLhyphen"/>tain;</hi> that then the King and his Sub<g ref="char:EOLhyphen"/>jects, would thereby become more <hi>Rich</hi> and <hi>Strong,</hi> both <hi>offensively</hi> and <hi>defen<g ref="char:EOLhyphen"/>sively,</hi> than now they are.</p>
+            <p>
+               <pb n="66" facs="tcp:50048:45"/>'Tis true, I have heard many Wise Men say, when they were bewailing the vast losses of the <hi>English,</hi> in pre<g ref="char:EOLhyphen"/>venting and suppressing Rebellions in <hi>Ireland,</hi> and considering how little pro<g ref="char:EOLhyphen"/>fit hath returned, either to the King or Subjects of <hi>England,</hi> for their Five Hun<g ref="char:EOLhyphen"/>dred Years doing and suffering in that Country; I say, I have heard Wise Men (in such their Melancholies) wish, that (the People of <hi>Ireland</hi> being saved) <hi>Island</hi> were sunk under Water: Now it troubles me, that the Distemper of my own mind in this point, carries me to dream, that the benefit of those wishes, may practically be obtained, without sinking that vast Mountainous Island un<g ref="char:EOLhyphen"/>der Water, which I take to be some<g ref="char:EOLhyphen"/>what difficult; For although <hi>Dutch</hi> En<g ref="char:EOLhyphen"/>gineers may drain its Bogs; yet I know no Artists that could sink its Moun<g ref="char:EOLhyphen"/>tains. If Ingenious and Learned Men (among whom I reckon Sir <hi>Tho. More,</hi> and <hi>Des Cartes</hi>) have disputed, That we who think our selves awake, are or may be really in a Dream; and since the greatest absurdities of Dreams, are but a Preposterous and Tumultuary contexture of realities; I will crave the
+
+
+<pb n="67" facs="tcp:50048:45"/>
+umbrage of these great Men last named, to say something for this wild concep<g ref="char:EOLhyphen"/>tion, with submission to the better judg<g ref="char:EOLhyphen"/>ment of all those that can prove them<g ref="char:EOLhyphen"/>selves awake.</p>
+            <p>If there were but one Man living in <hi>England,</hi> then the benefit of the whole Territory, could be but the livelyhood of that one Man: But if another Man were added, the rent or benefit of the same would be double, if two, triple; and so forward until so many Men were Planted in it, as the whole Territory could afford Food unto: For if a Man would know, what any Land is worth, the true and natural Question must be, How many Men will it feed? How many Men are there to be fed? But to speak more practically, Land of the same quantity and quality in <hi>England,</hi> is ge<g ref="char:EOLhyphen"/>nerally worth four or five times as much as in <hi>Ireland;</hi> and but one quarter, or third of what it is worth in <hi>Holland;</hi> because <hi>England</hi> is four or five times better Peo<g ref="char:EOLhyphen"/>pled than <hi>Ireland,</hi> and but a quarter so well as <hi>Holland.</hi> And moreover, where the Rent of Land is advanced by reason of Multitude of People; there the number of Years purchase, for which
+
+
+<pb n="68" facs="tcp:50048:46"/>
+the Inheritance may be sold, is also ad<g ref="char:EOLhyphen"/>vanced, though perhaps not in the very same Proportion; for 20 <hi>s. per annum</hi> in <hi>Ireland,</hi> may be worth but 8 <hi>l.</hi> and in <hi>England</hi> where Titles are very sure, a<g ref="char:EOLhyphen"/>bove 20 <hi>l.</hi> in <hi>Holland</hi> above 30 <hi>l.</hi>
+            </p>
+            <p>I suppose, that in <hi>Ireland</hi> and the High-Lands in <hi>Scotland,</hi> there may be about one Million and Eight hundred thousand People, or about a fifth part of what is in all the three Kingdoms: Where<g ref="char:EOLhyphen"/>fore the first Question will be, whether <hi>England, Wales,</hi> and the Low-Lands of <hi>Scotland,</hi> cannot afford Food, (that is to say) <hi>Corn, Fish, Flesh,</hi> and <hi>Fowl,</hi> to a fifth part more People, than are at the present planted upon it, with the same Labour that the said fifth part do now take where they are? For if so, then what is propounded is naturally possible. 2. It is to be enquired, What the <hi>value</hi> of the <hi>immovables</hi> (which upon such removal must be left behind) are worth? For if they be worth less, than the advancement of the price of Land in <hi>England</hi> will amount unto; then the Proposal is to be considered. 3. If the <hi>Relict Lands,</hi> and the <hi>immov<g ref="char:EOLhyphen"/>ables</hi> left behind upon them, may be
+
+
+<pb n="69" facs="tcp:50048:46"/>
+sold for Money; or if no other Nation shall dare meddle with them, without paying well for them; and if the Na<g ref="char:EOLhyphen"/>tion who shall be admitted, shall be less able to prejudice and annoy the Tran<g ref="char:EOLhyphen"/>splantees into <hi>England</hi> then before; then I conceive that the whole proposal will be a pleasant and a profitable Dream indeed.</p>
+            <p>As to the first point, whether <hi>En<g ref="char:EOLhyphen"/>gland</hi>
+               <note place="margin">That <hi>En<g ref="char:EOLhyphen"/>gland</hi> and the Low<g ref="char:EOLhyphen"/>lands of <hi>Scotland</hi> will feed all the People of <hi>England, Scotland,</hi> &amp; <hi>Ireland.</hi>
+               </note> and the Low-Lands of <hi>Scotland,</hi> can maintain a fifth part more People than they now do (that is to say) Nine Millions of Souls in all? For answer thereunto, I first say, that the said Territories of <hi>England,</hi> and the Low-Land of <hi>Scotland,</hi> contain about Thir<g ref="char:EOLhyphen"/>ty Six Millions of Acres, that is four Acres for every Head, Man, Woman, and Child; but the United Provinces do not allow above one Acre and ½, and <hi>England</hi> it self rescinding <hi>Wales,</hi> hath but three Acres to every Head, according to the present State of Til<g ref="char:EOLhyphen"/>lage and Husbandry. Now if we con<g ref="char:EOLhyphen"/>sider that <hi>England</hi> having but three Acres to a Head as aforesaid, doth so abound in Victuals, as that it maketh Laws against the Importation of <hi>Cattle,</hi>
+
+
+               <pb n="70" facs="tcp:50048:47"/>
+               <hi>Flesh,</hi> and <hi>Fish</hi> from abroad; and that the draining of <hi>Fens,</hi> improving of <hi>For<g ref="char:EOLhyphen"/>rests,</hi> inclosing of <hi>Commons,</hi> Sowing of St. <hi>Foyne</hi> and <hi>Clovergrass,</hi> be grumbled against by <hi>Landlords,</hi> as the way to depress the price of Victuals; then it plainly follows, that less than three Acres improved as it may be, will serve the turn, and consequently that four will suffice abundantly. I could here set down the very number of Acres, that would bear <hi>Bread</hi> and <hi>Drink, Corn,</hi> together with <hi>Flesh, Butter,</hi> and <hi>Cheese,</hi> sufficient to victual Nine Millions of Persons, as they are Victualled in Ships, and regular Families; but shall only say in general; that Twelve Millions of Acres, <hi>viz.</hi> ⅓ of 36 Millions, will do it, suppo<g ref="char:EOLhyphen"/>sing that <hi>Roots, Fruits, Fowl,</hi> and <hi>Fish,</hi> and the ordinary profit of <hi>Lead, Tin,</hi>
+               <note place="margin">That the value of all the quitted Lands and immova<g ref="char:EOLhyphen"/>ble goods and charge of tran<g ref="char:EOLhyphen"/>splanta<g ref="char:EOLhyphen"/>tion are<g ref="char:punc">▪</g> not worth above 17 Millions.</note> 
+               <hi>Iron-Mines,</hi> and <hi>Woods,</hi> would piece up any defect, that may be feared.</p>
+            <p>As to the second, I say, that the Land and Housing in <hi>Ireland,</hi> and the High-Lands of <hi>Scotland,</hi> at the present Market rates, are not worth Thirteen Millions of Money; nor would the actu<g ref="char:EOLhyphen"/>al charge of making the Transplantation proposed, amount to four Millions more:
+
+
+<pb n="71" facs="tcp:50048:47"/>
+So then the Question will be, whether the benefit expected from this transplan<g ref="char:EOLhyphen"/>tation, will exceed Seventeen Millions?</p>
+            <p>To which I say, that the advantage will probably be near four times the last mentioned summ, or about Sixty nine Millions, Three Hundred thousand Pounds. For if the Rent of all <hi>En<g ref="char:EOLhyphen"/>gland</hi> and <hi>Wales,</hi> and the Low-Lands of <hi>Scotland,</hi> be about Nine Millions <hi>per annum;</hi> and if the fifth part of the People be superadded, unto the present Inhabitants of those Countries; then the Rent will amount unto Ten Milli<g ref="char:EOLhyphen"/>ons 8000 <hi>l.</hi> and the number of Years purchase, will rise from seventeen and ½, to a Fifth part more, which is twen<g ref="char:EOLhyphen"/>ty one. So as the Land which is now worth but Nine Millions <hi>per annum,</hi> at seventeen ½ Years purchase, making 157 Millions and ½, will then be worth Ten Millions Eight Hundred thousand Pounds, at Twenty one Years purchase; <hi>viz.</hi> Two Hundred Twenty Six Millions, and Eight Hundred thousand Pounds, that is Sixty nine Millions, and Three Hundred thousand Pounds more than it was before.</p>
+            <p>
+               <pb n="72" facs="tcp:50048:48"/>And if any Prince willing to inlarge<note place="margin">That those who pur<g ref="char:EOLhyphen"/>chase <hi>Ire<g ref="char:EOLhyphen"/>land</hi> shall weaken themselves</note> his Territories, will give any thing more than Six ½ Millions or half the present value for the said relinquished Land, which are estimated to be worth Thirteen Millions; then the whole pro<g ref="char:EOLhyphen"/>fit, will be above Seventy Five Milli<g ref="char:EOLhyphen"/>ons, and Eight Hundred 600 <hi>l.</hi> Above four times the loss, as the same was above computed. But if any Man shall object, that it will be dangerous unto <hi>England,</hi> that <hi>Ireland</hi> should be in the Hands of any other Nation; I answer in short, that that Nation, whoever shall purchase it (being divided by means of the said purchase,) shall not be more able to annoy <hi>England,</hi> than now in its united condition. Nor is <hi>Ireland</hi> nearer <hi>England,</hi> than <hi>France</hi> and <hi>Flanders.</hi>
+            </p>
+            <p>Now if any Man shall desire a more clear explanation, how, and by what means, the Rents of Lands shall rise by this closer cohabitation of People above described? I answer, that the advantage will arise in transplanting about Eighteen Hundred thousand People, from the poor and miserable Trade of Husban<g ref="char:EOLhyphen"/>dry, to more beneficial Handicrafts: For when the superaddition is made, a ve<g ref="char:EOLhyphen"/>ry
+
+
+<pb n="73" facs="tcp:50048:48"/>
+little addition of Husbandry to the same Lands will produce a fifth part more of Food, and consequently the addi<g ref="char:EOLhyphen"/>tional hands, earning but 40 <hi>s. per annum</hi> (as they may very well do, nay to 8 <hi>l. per annum</hi>) at some other Trade; the Superlucration will be above Three Millions and Six Hundred thousand Pounds <hi>per annum,</hi> which at Twenty Years purchase is Seventy Millions. Moreover, as the Inhabitants of Cities and Towns, spend more Commodities, and make greater consumptions, than those who live in wild thin peopled Countries; So when <hi>England</hi> shall be thicker peopled, in the manner before described, the very same People shall then spend more, than when they liv<g ref="char:EOLhyphen"/>ed more sordidly and inurbanely, and further asunder, and more out of the sight, observation, and emulation of each other; every Man desiring to put on better Apparel when he appears in Company, than when he has no occa<g ref="char:EOLhyphen"/>sion<note place="margin">That the difference between <hi>England</hi>'s &amp; <hi>France</hi>'s Territory is not ma<g ref="char:EOLhyphen"/>terial.</note> to be seen.</p>
+            <p>I further add, that the charge of the <hi>Government, Civil, Military,</hi> and <hi>Ec<g ref="char:EOLhyphen"/>clesiastical,</hi> would be more <hi>cheap, safe,</hi> and <hi>effectual</hi> in this condition of <hi>closer</hi>
+
+
+               <pb n="74" facs="tcp:50048:49"/>
+co-habitation than otherwise; as not only reason, but the example of the United Provinces doth demon<g ref="char:EOLhyphen"/>strate.</p>
+            <p>But to let this whole digression pass for a <hi>mere Dream,</hi> I suppose 'twill serve to prove, that in case the King of <hi>En<g ref="char:EOLhyphen"/>glands Territories,</hi> should be a little less than those of the King of <hi>France,</hi> that forasmuch as neither of them are over<g ref="char:EOLhyphen"/>peopled, that the difference is not ma<g ref="char:EOLhyphen"/>terial to the Question in hand; where<g ref="char:EOLhyphen"/>fore supposing the King of <hi>France</hi>'s ad<g ref="char:EOLhyphen"/>vantages, to be little or nothing in this point of <hi>Territory;</hi> we come next to examine and compare, the number of Subjects which each of these Monarchs doth govern.</p>
+            <p>The Book called the State of <hi>France,</hi> maketh that Kingdom to consist of Twenty Seven thousand Parishes; and another Book written by a substan<g ref="char:EOLhyphen"/>tial Author, who professedly inquires into the State of the Church and Church<g ref="char:EOLhyphen"/>men of <hi>France,</hi> sets it down as an ex<g ref="char:EOLhyphen"/>traordinary case, that a <hi>Parish</hi> in <hi>France</hi> should have Six Hundred Souls; where<g ref="char:EOLhyphen"/>fore I suppose that the said Author (who hath so well examined the mat<g ref="char:EOLhyphen"/>ter)
+
+
+<pb n="75" facs="tcp:50048:49"/>
+is not of opinion that every Pa<g ref="char:EOLhyphen"/>rish, one with another, hath above Five Hundred; by which reckoning the whole People of <hi>France,</hi> are about Thirteen Millions and a half; Now the People of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> with the Islands adjoyning, by compu<g ref="char:EOLhyphen"/>tation from the numbers of Parishes; which commonly have more People in Protestant Churches, than in Popish Countries; as also from the <hi>Hearth<g ref="char:EOLhyphen"/>money, Pole-money,</hi> and <hi>Excise,</hi> do amount to about Nine Millions and ½.</p>
+            <p>There are in <hi>New England,</hi> about 16000 Men mustered in Arms; about 24000 able to bear Arms; and conse<g ref="char:EOLhyphen"/>quently about 150000 in all: And I see no reason why in all this and the other Plantations of <hi>Asia, Africa,</hi> and <hi>America,</hi> there should not be half<note place="margin">
+                  <gap reason="illegible" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> a Million in all. But this last I leave to every Mans conjecture; and conse quently, I suppose, that the King of <hi>England</hi> hath about Ten Millions of Subjects, <hi>ubivis Terrarum Orbis;</hi> and the King of <hi>France</hi> about Thirteen and a ½ as aforesaid.</p>
+            <p>Although it be very material to know the number of Subjects belonging to each
+
+
+<pb n="76" facs="tcp:50048:50"/>
+Prince, yet when the Question is con<g ref="char:EOLhyphen"/>cerning their <hi>Wealth</hi> and <hi>Strength;</hi> It is also material to examin, how many of them do get more than they spend, and how many less.</p>
+            <p>In order whereunto it is to be consi<g ref="char:EOLhyphen"/>dered, that in the King of <hi>Englands</hi> Dominions, there are not Twenty thou<g ref="char:EOLhyphen"/>sand Church-men; But in <hi>France,</hi> as the aforementioned Author of theirs doth aver, (who sets down the particular number of each Religious Order) there are about Two Hundred and Seventy thousand; <hi>viz.</hi> Two Hundred and Fifty thousand more than we thinkare necessa<g ref="char:EOLhyphen"/>ry, (that is to say) Two Hundred and Fifty Thousand withdrawn out of the World. Now the said number of adult and able bodied Persons, are equivalent to about double the same number, of the promiscuous Mass of Mankind. And the same Author says, that the same Religious Persons, do spend one with another about 18 <hi>d. per diem,</hi> which is triple even to what a labouring Man requires.</p>
+            <p>Wherefore the said Two Hundred and Fifty thousand Church-men (living as they do) makes the King of <hi>France</hi>'s
+
+
+<pb n="77" facs="tcp:50048:50"/>
+Thirteen Millions and a half, to be less than Thirteen: Now if Ten Men can defend themselves as well in Islands, as Thirteen can upon the Continent; then the said Ten being not concerned to increase their <hi>Territory</hi> by the Inva<g ref="char:EOLhyphen"/>sion of others, are as effectual as the Thirteen in point of Strength also; wherefore that there are more Superlu<g ref="char:EOLhyphen"/>crators in the <hi>English,</hi> than the <hi>French</hi> Dominions, we say as followeth.</p>
+            <p>There be in <hi>England, Scotland, Ire<g ref="char:EOLhyphen"/>land,</hi>
+               <note place="margin">The mul<g ref="char:EOLhyphen"/>titude of Clergy's do lessen the K. of <hi>France</hi>'s People, the mul<g ref="char:EOLhyphen"/>titude of Sea &amp; Na<g ref="char:EOLhyphen"/>val Men doincrease the K. of <hi>England</hi>'s Subjects.</note> and the Kings other Territories above Forty Thousand Seamen; in <hi>France</hi> not above a quarter so many; but one Seaman earneth as much as three common Husbandmen; wherefore this difference in Seamen, addeth to the account of the King of <hi>England</hi>'s Sub<g ref="char:EOLhyphen"/>jects, is an advantage equivalent to Sixty Thousand Husbandmen.</p>
+            <p>There are in <hi>England, Scotland,</hi> and <hi>Ireland,</hi> and all other the King of <hi>Eng<g ref="char:EOLhyphen"/>land's</hi> Territories Six Hundred thousand Tun of Shipping, worth about four Millions and a ½ of Money; and the annual charge of maintaining the Ship<g ref="char:EOLhyphen"/>ping of <hi>England,</hi> by new Buildings and Reparations, is about ½ part of the
+
+
+<pb n="78" facs="tcp:50048:51"/>
+same summ; which is the Wages of one Hundred and Fifty thousand Hus<g ref="char:EOLhyphen"/>bandmen, but is not the Wages of above  ⅓ part of so many <hi>Artisans</hi> as are em<g ref="char:EOLhyphen"/>ployed, upon Shipping of all sorts; <hi>viz. Shiprights, Calkers, Ioyners, Carvers, Painters, Block-makers, Rope-makers, Mast-makers, Smiths</hi> of several sorts; <hi>Flag-makers, Compass-makers, Brewers, Bakers,</hi> and all other sort of <hi>Victuallers;</hi> all sorts of Tradesmen relating to <hi>Guns,</hi> and <hi>Gunners stores.</hi> Wherefore there being four times more of these <hi>Artisans</hi> in <hi>England, &amp;c.</hi> than in <hi>France;</hi> they further add to the account of the King of <hi>England</hi>'s Subjects, the equivalent of Eighty Thousand Husbandmen more.<note place="margin">The K. of <hi>England</hi>'s Territo<g ref="char:EOLhyphen"/>ries are in effect but 12 Miles from Na<g ref="char:EOLhyphen"/>vigable Water, the King of <hi>France's</hi> 65.</note>
+            </p>
+            <p>The <hi>Sea-line</hi> of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> and the adjacent Islands, is about Three thousand Eight hundred Miles; according to which length, and the whole content of Acres, the said Land would be an Oblong, or Paralle<g ref="char:EOLhyphen"/>logram Figure of Three thousand Eight hundred Miles long, and about Twenty four Miles broad; and consequently, every part of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> is one with another, but Twelve Miles from the Sea: Whereas <hi>France</hi> containing, but about one Thousand
+
+
+<pb n="79" facs="tcp:50048:51"/>
+Miles of <hi>Sea line,</hi> is by the like method or computation, about Sixty Five Miles from the Sea side; and considering the paucity of Ports, in comparison of what are in the King of <hi>England</hi>'s Dominions, as good as Seventy Miles distant from a Port: Upon which grounds it is clear, that <hi>England</hi> can be supplied, with all gross and bulkey commodities of Fo<g ref="char:EOLhyphen"/>reign growth and Manufacture, at far cheaper rates than <hi>France</hi> can be, <hi>viz.</hi> at about 4 <hi>s. per cent.</hi> cheaper; the Land carriage for the difference of the di<g ref="char:EOLhyphen"/>stance between <hi>England</hi> and <hi>France</hi> from a <hi>Port,</hi> being so much or near there<g ref="char:EOLhyphen"/>abouts. Now to what advantage this conveniency amounteth, upon the Im<g ref="char:EOLhyphen"/>portation and Exportation of Bulkey Commodities, cannot be less than the Labour of one Million of People, <hi>&amp;c.</hi> meaning by bulkey Commodities all sorts of <hi>Timber, Plank,</hi> and <hi>Staves</hi> for <hi>Cask;</hi> all <hi>Iron, Lead, Stones, Bricks,</hi> and <hi>Tyles</hi> for building; all <hi>Corn, Salt,</hi> and <hi>Drinks;</hi> all <hi>Flesh</hi> and <hi>Fish,</hi> and in<g ref="char:EOLhyphen"/>deed all other Commodities, wherein the gain and loss of 4 <hi>s. per Cent.</hi> is considerable; where note that the like <hi>Wines</hi> are sold in the inner parts of
+
+
+<pb n="80" facs="tcp:50048:52"/>
+               <hi>France</hi> for four or Five Pound a Tun, which near the Ports yield 7 <hi>l.</hi> More<g ref="char:EOLhyphen"/>over<note place="margin">The decay of timber in <hi>Englan.</hi> is no very formida<g ref="char:EOLhyphen"/>ble matter</note> upon this Principal, the decay of <hi>Timber</hi> in <hi>England</hi> is no very formi<g ref="char:EOLhyphen"/>dable thing, as the Rebuilding of <hi>Lon<g ref="char:EOLhyphen"/>don,</hi> and of the Ships wasted by the <hi>Dutch</hi> War do clearly manifest; Nor can there be any want of Corn, or other necessary Provisions in <hi>England,</hi> unless the Weather hath been universally un<g ref="char:EOLhyphen"/>seasonable for the growth of the same; which seldom or never happens; for the same causes which make Dearth in one place, do often cause plenty in another; wet Weather being propitious to <hi>High<g ref="char:EOLhyphen"/>lands,</hi> which drowneth the <hi>Low.</hi>
+            </p>
+            <p>It is observed that the poor of <hi>France,</hi> have generally less Wages than in <hi>En<g ref="char:EOLhyphen"/>gland;</hi> and yet their Victuals are gene<g ref="char:EOLhyphen"/>rally dearer there; which being so, there may be more superlucration in <hi>England</hi> than in <hi>France.</hi>
+            </p>
+            <p>Lastly, I offer it to the consideration<note place="margin">The K. of <hi>England</hi>'s Subjects spend near as much as the K. of <hi>France</hi>'s.</note> of all those, who have travelled through <hi>England</hi> and <hi>France;</hi> Whether the <hi>Ple<g ref="char:EOLhyphen"/>beians</hi> of <hi>England</hi> (for they constitute the Bulk of any Nation) do not spend a sixth part more than the <hi>Plebeians</hi> of <hi>France?</hi> And if so, it is necessary that
+
+
+<pb n="81" facs="tcp:50048:52"/>
+they must first get it; and consequent<g ref="char:EOLhyphen"/>ly that Ten Millions of the King of <hi>England</hi>'s Subjects, are equivalent to Twelve of the King of <hi>France;</hi> and upon the whole matter, to the Thirteen Millions, at which the <hi>French</hi> Nation was estimated.<note place="margin">The great<g ref="char:EOLhyphen"/>er spendor of the King of <hi>France,</hi> no certain argument of the greater Wealth of his People.</note>
+            </p>
+            <p>It will here be objected, that the splendor and magnificencies of the King of <hi>France,</hi> appearing greater than those of <hi>England,</hi> that the Wealth of <hi>France</hi> must be proportionably greater, than that of <hi>England;</hi> but that doth not fol<g ref="char:EOLhyphen"/>low, forasmuch as the apparent great<g ref="char:EOLhyphen"/>ness of the King, doth depend upon the <hi>Quota pars</hi> of the Peoples Wealth which he levyeth from them; for supposing of the People to be equally Rich, if one of the Sovereigns levy a fifth part, and another a fifteenth, the one seems actu<g ref="char:EOLhyphen"/>ally thrice as Rich as the other, where<g ref="char:EOLhyphen"/>as potentially, they are but equal.</p>
+            <p>Having thus discoursed of the <hi>Ter<g ref="char:EOLhyphen"/>ritory,</hi>
+               <note place="margin">Compa<g ref="char:EOLhyphen"/>rison of the fo<g ref="char:EOLhyphen"/>reign Trade of <hi>England</hi> and <hi>France,</hi>
+               </note> 
+               <hi>People, Superlucration,</hi> and <hi>De<g ref="char:EOLhyphen"/>fencibleness</hi> of both <hi>Dominions,</hi> and in some measure of their Trade, so far as we had occasion to mention <hi>Ships, Ship<g ref="char:EOLhyphen"/>ping,</hi> and nearness to <hi>Ports;</hi> we come next to inlarge a little further, upon the Trade of each.</p>
+            <p>
+               <pb n="82" facs="tcp:50048:53"/>Some have estimated, that there are not above Three hundred Millions of People in the whole World. Whether that be so or no, is not very material to be known; but I have fair grounds to conjecture, and would be glad to know it more certainly, that there are not above Eighty Millions, with whom the <hi>English</hi> and <hi>Dutch</hi> have Commerce; no <hi>Europeans</hi> that I know of, Trading directly nor indirectly, where they do not; so as the whole <hi>Commercial World,</hi> or <hi>World</hi> of <hi>Trade,</hi> consisteth of about Eighty Millions of Souls, as aforesaid.</p>
+            <p>And I further estimate, that the va<g ref="char:EOLhyphen"/>lue of all Commodities yearly exchan<g ref="char:EOLhyphen"/>ged amongst them, doth not exceed the value of Forty Five Millions: Now the <hi>Wealth</hi> of every Nation, consisting chiefly, in the share which they have in the Foreign Trade with the whole <hi>Commercial World,</hi> rather than in the Domestick Trade, of ordinary <hi>Meat, Drink,</hi> and <hi>Cloaths, &amp;c.</hi> which bring<g ref="char:EOLhyphen"/>ing in little <hi>Gold, Silver, Iewels,</hi> and other <hi>Universal Wealth;</hi> we are to consider, whether the <hi>Subjects</hi> of the King of <hi>England,</hi> Head for Head, have not a greater share, than those of <hi>France.</hi>
+            </p>
+            <p>
+               <pb n="83" facs="tcp:50048:53"/>To which purpose it hath been con<g ref="char:EOLhyphen"/>sidered, that the Manufactures of <hi>Wool,</hi> yearly exported out of <hi>England,</hi> into several parts of the World, <hi>viz.</hi> All sorts of <hi>Cloth, Serges, Stuffs, Cottons, Bayes, Sayes, Frize, perpetuan<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s;</hi> as also <hi>Stockings, Caps, Rugs, &amp;c.</hi> Ex<g ref="char:EOLhyphen"/>ported out of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> do amount unto Five Millions <hi>per annum.</hi>
+            </p>
+            <p>The value of <hi>Lead, Tynn,</hi> and <hi>Coals,</hi> to be Five hundred thousand pounds.</p>
+            <p>The value of all <hi>Cloaths, Houshold<g ref="char:EOLhyphen"/>stuff, &amp;c.</hi> carried into <hi>America,</hi> Two hundred thousand pounds.</p>
+            <p>The value of <hi>Silver,</hi> and <hi>Gold,</hi> taken from the <hi>Spaniards</hi> Sixty thou<g ref="char:EOLhyphen"/>sand pounds.</p>
+            <p>The value of <hi>Sugar, Indico, Tobacco, Cotton,</hi> and <hi>Caccao,</hi> brought from the Southward parts of <hi>America</hi> Six hundred thousand pounds.</p>
+            <p>The value of the <hi>Fish, Pipe-staves, Masts, Bever, &amp;c.</hi> brought from <hi>New-England,</hi> and the Northern parts of <hi>America,</hi> Two Hundred Thousand pounds.</p>
+            <p>The value of the <hi>Wool, Butter, Hides, Tallow, Beef, Herring, Pilchers,</hi>
+
+
+               <pb n="84" facs="tcp:50048:54"/>
+and Salmon, exported out of <hi>Ireland,</hi> Eight hundred thousand pounds.</p>
+            <p>The value of the <hi>Coals, Salt, Lin<g ref="char:EOLhyphen"/>nen, Yarn, Herrings, Pilchers,</hi> Salmon, <hi>Linnen-Cloth,</hi> and <hi>Yarn,</hi> brought out of <hi>Scotland,</hi> and <hi>Ireland,</hi> 500000 <hi>l.</hi>
+            </p>
+            <p>The value of <hi>Salt peter, Pepper, Callicoes, Diamonds, Drugs,</hi> and <hi>Silks,</hi> brought out of the <hi>East-Indies,</hi> above what was spent in <hi>England;</hi> Eight hun<g ref="char:EOLhyphen"/>dred thousand pounds.</p>
+            <p>The value of the <hi>Slaves,</hi> brought out of <hi>Africa,</hi> to serve in our <hi>American</hi> Plan<g ref="char:EOLhyphen"/>tations Twenty thousand pounds; which with the <hi>Freight</hi> of <hi>English Shipping,</hi> Trading into Foreign parts, being above a Million and a ½, makes in all Ten Millions one Hundred and Eighty thou<g ref="char:EOLhyphen"/>sand pounds.</p>
+            <p>Which computation is sufficiently justified by the Customs of the Three Kingdoms, whose intrinsick value are thought to be near a Million <hi>per annum, viz.</hi> Six hundred thousand pounds, paya<g ref="char:EOLhyphen"/>ble to the King; 100 thousand Pounds, for the charges of Collecting, <hi>&amp;c.</hi> Two hundred thousand pounds smuckled by the Merchants, and one Hundred thou<g ref="char:EOLhyphen"/>sand pounds gained by the Farmers;
+
+
+<pb n="85" facs="tcp:50048:54"/>
+according to common Opinion, and Mens Sayings: And this agrees also with that proportion, or part of the whole Trade of the World, which I have estimated the Subjects of the King of <hi>England</hi> to be possessed of, <hi>viz.</hi> of about Ten of Forty Five Millions.</p>
+            <p>But the value of the <hi>French</hi> Com<g ref="char:EOLhyphen"/>modities, brought into <hi>England,</hi> (not<g ref="char:EOLhyphen"/>withstanding some currant estimates,) are not above one Million Two hun<g ref="char:EOLhyphen"/>dred thousand pounds <hi>per annum;</hi> and the value of all they export into all the World besides, not above Three or Four times as much; which compu<g ref="char:EOLhyphen"/>tation also agreeth well enough, with the account we have of the Customs of <hi>France;</hi> so as <hi>France</hi> not exporting above ½ the value of what <hi>England</hi> doth; and for that all the Commodi<g ref="char:EOLhyphen"/>ties of <hi>France</hi> (except <hi>Wines, Brandy, Paper,</hi> and the first <hi>patterns</hi> and <hi>fa<g ref="char:EOLhyphen"/>shions</hi> for <hi>Cloaths,</hi> and <hi>Furniture</hi> (of which <hi>France</hi> is the Mint) are imitable by the <hi>English;</hi> and having withal more People than <hi>England;</hi> it follows that the People of <hi>England, &amp;c.</hi> have Head for Head, thrice as much Foreign Trade as the People of <hi>France;</hi> and about
+
+
+<pb n="86" facs="tcp:50048:55"/>
+Two parts of Nine of the Trade of the whole <hi>Commercial World;</hi> and about Two parts in Seven of all the Ship<g ref="char:EOLhyphen"/>ping: Notwithstanding all which it is not to be denied, that the King and some great Men of <hi>France,</hi> appear more Rich and Splendid, than those of the like Quality in <hi>England;</hi> all which arises rather from the nature of their Government, than from the Intrinsick and Natural causes of Wealth and Power.</p>
+         </div>
+         <div n="5" type="chapter">
+            <pb n="87" facs="tcp:50048:55"/>
+            <head>
+               <hi>CHAP. V.</hi> That the Impediments of <hi>Englands</hi> great<g ref="char:EOLhyphen"/>ness, are but contingent and remov<g ref="char:EOLhyphen"/>able.</head>
+            <p>THE first Impediment of <hi>Englands</hi>
+               <note place="margin">The disu<g ref="char:EOLhyphen"/>nion of the Ter<g ref="char:EOLhyphen"/>ritories of <hi>England</hi> is an im<g ref="char:EOLhyphen"/>pediment, of its greatness The diffe<g ref="char:EOLhyphen"/>rent Legi<g ref="char:EOLhyphen"/>slatures another impedi<g ref="char:EOLhyphen"/>ment.</note> greatness is, that the <hi>Territo ries</hi> thereunto belonging, are too far asunder, and divided by the Sea into many several <hi>Islands</hi> and Countries; and I may say, into so many Kingdoms, and several Governments, (<hi>viz.</hi>) there be Three distinct Legislative Powers in <hi>England, Scotland,</hi> and <hi>Ireland;</hi> the which instead of uniting together, do often cross one anothers Interest; put<g ref="char:EOLhyphen"/>ting Bars and Impediments upon one anothers Trades, not only as if they<note place="margin">The colo<g ref="char:EOLhyphen"/>nies be<g ref="char:EOLhyphen"/>longing to <hi>En<g ref="char:EOLhyphen"/>gland</hi> a diminu<g ref="char:EOLhyphen"/>tion to the Em<g ref="char:EOLhyphen"/>pire.</note> were Foreigners to each other, but some<g ref="char:EOLhyphen"/>times as Enemies.</p>
+            <p>2. The Islands of <hi>Iersey</hi> and <hi>Gernsey,</hi> and the Isle of <hi>Man,</hi> are under Jurisdi<g ref="char:EOLhyphen"/>ctions different from those, either of <hi>England, Scotland,</hi> or <hi>Ireland.</hi>
+            </p>
+            <p>
+               <pb n="88" facs="tcp:50048:56"/>3. The Government of <hi>New-England</hi> (both <hi>Civil</hi> and <hi>Ecclesiastical</hi>) doth so differ from that of His Majesties other Dominions, that 'tis hard to say what may be the consequence of it.</p>
+            <p>And the Government of the other Plantations, doth also differ very much from any of the rest; although there be not naturally substantial reasons from the Situation, Trade, and Condition of the People, why there should be such dif<g ref="char:EOLhyphen"/>ferences.</p>
+            <p>From all which it comes to pass, that small divided remote Governments, being seldom able to defend themselves, the Burthen of protecting of them all, must lye upon the chief Kingdom <hi>England;</hi> and so all the smaller Kingdoms and Dominions, instead of being Addi<g ref="char:EOLhyphen"/>tions, are really Dimunitions; but the same is remedied by making Two such Grand Councils, as may equally repre<g ref="char:EOLhyphen"/>sent the whole Empire, one to be cho<g ref="char:EOLhyphen"/>sen by the King, the other by the Peo<g ref="char:EOLhyphen"/>ple. The Wealth of a King is Three<g ref="char:EOLhyphen"/>fold, one is the Wealth of his Subjects, the second is the <hi>Quota pars</hi> of his Subjects Wealth, given him for the <hi>pub<g ref="char:EOLhyphen"/>lick Defence, Honour,</hi> and <hi>Ornament</hi>
+
+
+               <pb n="89" facs="tcp:50048:56"/>
+of the <hi>People,</hi> and to manage such un<g ref="char:EOLhyphen"/>dertaking for the Common Good, as no one or a few private Men, are suf<g ref="char:EOLhyphen"/>ficient for.</p>
+            <p>The third sort are the <hi>Quota,</hi> of the last mention <hi>Quota pars,</hi> which the King may dispose of, as his own per<g ref="char:EOLhyphen"/>sonal inclination, and discretion shall di<g ref="char:EOLhyphen"/>rect him; without account. Now it is most manifest, that the afore-mentioned distances, and differencies, of Kingdoms, and Jurisdictions, are great impedi<g ref="char:EOLhyphen"/>ments to all the said several sorts of Wealth, as may be seen in the follow<g ref="char:EOLhyphen"/>ing particulars. First in case of War with Foreign Nations, <hi>England</hi> com<g ref="char:EOLhyphen"/>monly beareth the whole burthen, and charge, whereby many in <hi>England</hi> are utterly undone.</p>
+            <p>Secondly, <hi>England</hi> sometimes Prohi<g ref="char:EOLhyphen"/>biting the Commodities of <hi>Ireland,</hi> and <hi>Scotland,</hi> as of late it did the <hi>Cattle, Flesh,</hi> and <hi>Fish,</hi> of <hi>Ireland;</hi> did not only make <hi>Food,</hi> and consequently <hi>La<g ref="char:EOLhyphen"/>bour,</hi> dearer in <hi>England,</hi> but also hath forced the People of <hi>Ireland,</hi> to fetch those Commodities from <hi>France, Hol<g ref="char:EOLhyphen"/>land,</hi> and other places, which before was sold them from <hi>England,</hi> to
+
+
+<pb n="90" facs="tcp:50048:57"/>
+the great prejudice of both Nations.</p>
+            <p>Thirdly, It occasions an unnecessary trouble, and charge, in Collecting of Customs, upon Commodities passing between the several Nations.</p>
+            <p>Fourthly, It is a damage to our <hi>Barbadoes,</hi> and other <hi>American</hi> Trades, that the Goods which might pass thence immediately, to several parts of the World, and to be sold at moderate Rates, must first come into <hi>England,</hi> and there pay Duties, and afterwards (if at all) pass into those Countries, whither they might have gone imme<g ref="char:EOLhyphen"/>diatly.</p>
+            <p>Fifthly, The Islands of <hi>Iersey</hi> and <hi>Gernsey,</hi> are protected at the charge of <hi>England,</hi> nevertheless the Labour, and Industry, of that People (which is ve<g ref="char:EOLhyphen"/>ry great) redounds most to the profit of the <hi>French.</hi>
+            </p>
+            <p>Sixthly, In <hi>New-England,</hi> there are vast numbers of able bodyed <hi>English<g ref="char:EOLhyphen"/>men,</hi> employed chiefly in Husbandry, and in the meanest part of it, (which is breeding of Cattle) whereas <hi>Ireland</hi> would have contained all those per<g ref="char:EOLhyphen"/>sons, and at worst would have afforded them Lands on better terms, than they
+
+
+<pb n="91" facs="tcp:50048:57"/>
+have them in <hi>America,</hi> if not some other better Trade withal, than now they can have.</p>
+            <p>Seventhly, The Inhabitants of the other Plantations, although they do in<g ref="char:EOLhyphen"/>deed Plant Commodities, which will not grow so well in <hi>England;</hi> yet grasping at more Land, than will suf<g ref="char:EOLhyphen"/>fice to produce the said <hi>Exotiics</hi> in a sufficient quantity to serve the whole World, they do therein but distract, and confound, the effect of their own Indeavours.</p>
+            <p>Eighthly, There is no doubt that the same People, far and wide dispersed, must spend more upon their Govern<g ref="char:EOLhyphen"/>ment, and Protection, than the same living compactly, and when they have no occasion to depend upon the Wind, Weather, and all the Accidents of the Sea.</p>
+            <p>A second Impediment to the great<g ref="char:EOLhyphen"/>ness<note place="margin">The diffe<g ref="char:EOLhyphen"/>rent Un<g ref="char:EOLhyphen"/>derstand<g ref="char:EOLhyphen"/>ing of Preroga<g ref="char:EOLhyphen"/>tive, and Privileges of Parlia<g ref="char:EOLhyphen"/>ment, Law and E<g ref="char:EOLhyphen"/>quity, Civil and Ecclesiastical; the Supream Legislature of <hi>Ire<g ref="char:EOLhyphen"/>land,</hi> &amp;c.</note> of <hi>England,</hi> is the different Under<g ref="char:EOLhyphen"/>standing of several Material Points, <hi>viz.</hi> Of the Kings Prerogative, Privileges of Parliament, the obscure differences between Law and Equity; as also be<g ref="char:EOLhyphen"/>tween Civil and Ecclesiastical Jurisdicti<g ref="char:EOLhyphen"/>ons;
+
+
+<pb n="92" facs="tcp:50048:58"/>
+Doubts whether the Kingdom of <hi>England,</hi> hath power over the King<g ref="char:EOLhyphen"/>dom of <hi>Ireland,</hi> besides the wonderful Paradox, that <hi>Englishmen,</hi> Lawfully sent to suppress Rebellions in <hi>Ireland,</hi> should after having effected the same, (be as it were) Disfranchised, and lose that Interest in the Legislative Power, which they had in <hi>England,</hi> and pay Customs as Foreigners for all they spend in <hi>Ireland,</hi> whither they were sent, for the Honor and Benefit of <hi>England.</hi>
+            </p>
+            <p>The third Impediment is, That <hi>Ireland</hi>
+               <note place="margin">Want of Natural Union for want of mixture and trans<g ref="char:EOLhyphen"/>plantati<g ref="char:EOLhyphen"/>on.</note> being a Conquered Country, and con<g ref="char:EOLhyphen"/>taining not the tenth part as many <hi>Irish</hi> Natives, as there are <hi>English</hi> in both Kingdoms, That natural and firm Union is not made, between the two Peoples, by Transplantations, and pro<g ref="char:EOLhyphen"/>portionable mixture, so as there may be but a tenth part, of the <hi>Irish</hi> in <hi>Ire<g ref="char:EOLhyphen"/>land,</hi> and the same proportion in <hi>Eng<g ref="char:EOLhyphen"/>land;</hi> whereby the necessity of main<g ref="char:EOLhyphen"/>taining an Army in <hi>Ireland,</hi> at the ex<g ref="char:EOLhyphen"/>pence of a quatter of all the Rents of that Kingdom may be taken away.<note place="margin">The un<g ref="char:EOLhyphen"/>equal in<g ref="char:EOLhyphen"/>conveni<g ref="char:EOLhyphen"/>ent me<g ref="char:EOLhyphen"/>thod of taxing.</note>
+            </p>
+            <p>The fourth Impediment is, That Taxes in <hi>England</hi> are not Levied upon the <hi>expence,</hi> but upon the whole <hi>E<g ref="char:EOLhyphen"/>state;</hi>
+
+
+               <pb n="93" facs="tcp:50048:58"/>
+not upon <hi>Lands, Stock,</hi> and <hi>La<g ref="char:EOLhyphen"/>bour,</hi> but chiefly upon Land alone; and that not by any equal, and indif<g ref="char:EOLhyphen"/>ferent Standard, but the casual predo<g ref="char:EOLhyphen"/>mihancy, of <hi>Parties,</hi> and <hi>Factions:</hi> and moreover that these Taxes are not Levied with the least trouble, and charge, but let out to Farmers, who al<g ref="char:EOLhyphen"/>so let them from one to another with<g ref="char:EOLhyphen"/>out explicit knowledge of what they do; but so as in conclusion, the poor People pay twice as much as the King receives.</p>
+            <p>The fifth Impediment is the ine<g ref="char:EOLhyphen"/>quality<note place="margin">Inequality of Shires, Diocesses, Parishes, Members of Parlia<g ref="char:EOLhyphen"/>ment, <hi>&amp;c.</hi>
+               </note> of <hi>Shires, Diocesses, Parishes, Church-Livings,</hi> and other Precincts, as also the Representation of the People in Parliament; all which do hinder the Operations of Authority in the same manner, as a Wheel irregulary made, and excentrically hung; neither moves so easily, nor performs its Work so truely, as if the same were duely framed and poised.</p>
+            <p>Sixthly, Whether it be an Impedi<g ref="char:EOLhyphen"/>ment, that the power of making War, and raising Mony be not in the same Hand, much may be said; but I leave it to those, who may more pro<g ref="char:EOLhyphen"/>perly
+
+
+<pb n="94" facs="tcp:50048:59"/>
+meddle with Fundamental Laws.</p>
+            <p>None of these Impediments are Na<g ref="char:EOLhyphen"/>tural, but did arise as the irregularity of Buildings do, by being built, part at one time, and part at another; and by the changing of the state of things, from what they were at the respective times, when the Practices we complain of, were first admitted, and perhaps, are but the warpings of time, from the rectitude of the first Institution.</p>
+            <p>As these Impediments are contin<g ref="char:EOLhyphen"/>gent, so they are also removeable; for may not the Land of superfluous Ter<g ref="char:EOLhyphen"/>ritories be sold, and the People with their moveables brought away? May not the <hi>English</hi> in the <hi>America</hi> Planta<g ref="char:EOLhyphen"/>tions (who Plant <hi>Tobacco, Sugar, &amp;c.</hi>) compute what Land will serve their turn, and then contract their Habitati<g ref="char:EOLhyphen"/>ons to that proportion, both for quan<g ref="char:EOLhyphen"/>tity and quality? as for the People of <hi>New-England,</hi> I can but wish they were Transplanted into <hi>Old England,</hi> or <hi>Ire<g ref="char:EOLhyphen"/>land</hi> (according to Proposals of their own, made within this twenty years) although they were allowed more liber<g ref="char:EOLhyphen"/>ty of Conscience, than they allow one another.</p>
+            <p>
+               <pb n="95" facs="tcp:50048:59"/>May not the three Kingdoms be Uni<g ref="char:EOLhyphen"/>ted into one, and equally represented in Parliament? Might not the several Spe<g ref="char:EOLhyphen"/>cies of the Kings Subjects, be equally mixt in their Habitations? Might not the Parishes, and other Precincts be better equalized? Might not Jurisdicti<g ref="char:EOLhyphen"/>ons, and pretences of Power, be de<g ref="char:EOLhyphen"/>termined and ascertained? Might not the <hi>Taxes</hi> be equally applotted, and di<g ref="char:EOLhyphen"/>rectly applied to their ultimate use? Might not Dissenters in Religion be indulged, they paying a competent Force to keep the Publick Peace? I Humbly venture to say, all these things may be done, if it be so thought fit by the Sovereign Power, because the like hath often been done already, at several Places and Times.</p>
+         </div>
+         <div n="6" type="chapter">
+            <pb n="96" facs="tcp:50048:60"/>
+            <head>
+               <hi>CHAP. VI.</hi> That the Power and Wealth of <hi>England</hi> hath increased this last forty years.</head>
+            <p>IT is not much to be doubted, but<note place="margin">Many Ter<g ref="char:EOLhyphen"/>ritories have been added to <hi>England</hi> within a<g ref="char:EOLhyphen"/>bout forty years, and many im<g ref="char:EOLhyphen"/>prove<g ref="char:EOLhyphen"/>ments made.</note> that the Territories under the Kings Dominions have increased; Forasmuch as <hi>New-England, Virginia, Barbadoes,</hi> and <hi>Iamaica, Tangier,</hi> and <hi>Bumbay,</hi> have since that time, been either ad<g ref="char:EOLhyphen"/>ded to his Majesties Territories, or im<g ref="char:EOLhyphen"/>proved from a <hi>Desart condition,</hi> to a<g ref="char:EOLhyphen"/>bound with People, Buildings, Ship<g ref="char:EOLhyphen"/>ping, and the Production of many use<g ref="char:EOLhyphen"/>ful Commodities. And as for the Land of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> as it is not less in quantity, than it was forty years since; so it is manifest that by reason of the Dreyning of <hi>Fens,</hi> water<g ref="char:EOLhyphen"/>ing of dry Grounds, improving of <hi>For<g ref="char:EOLhyphen"/>rests,</hi> and <hi>Commons,</hi> making of <hi>Hea<g ref="char:EOLhyphen"/>thy</hi> and <hi>Barren Grounds,</hi> to bear <hi>Saint<g ref="char:EOLhyphen"/>foyne,</hi> and <hi>Clovergrass;</hi> meliorating, and multiplying several sorts of Fruits,
+
+
+<pb n="97" facs="tcp:50048:60"/>
+and Garden-Stuffe, making some Ri<g ref="char:EOLhyphen"/>vers Navigable, <hi>&amp;c.</hi> I say it is mani<g ref="char:EOLhyphen"/>fest, that the Land in its present Con<g ref="char:EOLhyphen"/>dition, is able to bear more Provision, and Commodities, than it was forty years ago.</p>
+            <p>Secondly, Although the People in <hi>England, Scotland,</hi> and <hi>Ireland,</hi> which have extraordinarily perished by the Plague, and Sword, within this last forty years, do amount to about three hundred thousand, above what have dyed in the ordinary way; yet the ordinary increase by Generation of ten Millions, which doubles in two hundred years, as hath been shewn by the Ob<g ref="char:EOLhyphen"/>servators upon the Bills of Mortality, may in forty years (which is a fifth part of the same time) have increased 1/<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> part of the whole number, or two Millions. Where note by the way, that the accession of <hi>Negroes</hi> to the <hi>Ameri<g ref="char:EOLhyphen"/>can</hi> Plantations (being all Men of great Labour and little Expence) is not in<g ref="char:EOLhyphen"/>considerable; besides it is hoped that <hi>New-England,</hi> where few or no Women are Barren, and most have many Chil<g ref="char:EOLhyphen"/>dren, and where People live long, and healthfully, hath produced an increase
+
+
+<pb n="98" facs="tcp:50048:61"/>
+of as many People, as were destroyed in the late Tumults in <hi>Ireland.</hi>
+            </p>
+            <p>As for <hi>Housing,</hi> the Streets of <hi>Lon<g ref="char:EOLhyphen"/>don</hi>
+               <note place="margin">The Hou<g ref="char:EOLhyphen"/>sing of <hi>London</hi> doubled in value.</note> it self speaks it, I conceive it is double in value in that City, to what it was forty years since; and for <hi>Housing</hi> in the Country, they have in<g ref="char:EOLhyphen"/>creased, at <hi>Newcastle, Yarmouth, Nor<g ref="char:EOLhyphen"/>wich, Exeter, Portsmouth, Cowes, Dub<g ref="char:EOLhyphen"/>lin, Kingsaile, Londonderry,</hi> and <hi>Cole<g ref="char:EOLhyphen"/>raine</hi> in <hi>Ireland,</hi> far beyond the propor<g ref="char:EOLhyphen"/>tion of what I can learn have been di<g ref="char:EOLhyphen"/>lapidated in other places. For in <hi>Ire<g ref="char:EOLhyphen"/>land</hi> where the ruin was greatest, the <hi>Housing</hi> (taking all together) is now more valuable than forty years ago, nor is this to be doubted, since <hi>Housing</hi> is now more splendid, than in those days, and the number of Dwellers is increased, by near <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>/<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> part; as in the last Paragraph is set fort.</p>
+            <p>As for Shipping, his Majesties Navy<note place="margin">The Ship<g ref="char:EOLhyphen"/>ping very much in<g ref="char:EOLhyphen"/>creased with the Reasons thereof.</note> is now triple, or quadruple, to what it was forty years since, and before the <hi>Sovereign</hi> was Built; the Shipping Trading to <hi>Newcastle,</hi> which are now about eighty thousand Tuns, could not be then above a quarter of that quan<g ref="char:EOLhyphen"/>tity. First, Because the City of <hi>London,</hi>
+
+
+               <pb n="99" facs="tcp:50048:61"/>
+is doubled. 2. Because the use of Coals is also at least doubled, because they were heretofore seldom used in Cham<g ref="char:EOLhyphen"/>bers, as now they are, nor were there so many Bricks burned with them as of late, nor did the Country on both sides the <hi>Thames,</hi> make use of them as now. Besides there are employed in the <hi>Guinny</hi> and <hi>American Trade,</hi> above forty thousand Tun of Shipping <hi>per annum;</hi> which Trade in those days was incon<g ref="char:EOLhyphen"/>siderable. The quantity of Wines Im<g ref="char:EOLhyphen"/>ported was not near so much as now; and to be short, the Customs upon Im<g ref="char:EOLhyphen"/>ported, and Exported Commodities, did not then yield a third part of the present value; which shews that not only <hi>Shipping,</hi> but <hi>Trade</hi> it self hath increased, somewhat near that propor<g ref="char:EOLhyphen"/>tion.</p>
+            <p>As to Mony, the Interest thereof was<note place="margin">Interest of Mony a<g ref="char:EOLhyphen"/>bated near half.</note> within this fifty years, at 10 <hi>l. per Cent.</hi> forty years ago, at 8 <hi>l.</hi> and now at 6 <hi>l.</hi> no thanks to any Laws which have been made to that purpose, forasmuch as those who can give good security, may now have it at less: But the na<g ref="char:EOLhyphen"/>tural fall of Interest, is the effect of the increase of Mony.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
