@@ -1,0 +1,614 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A journey to London in the year 1698 after the ingenuous method of that made by Dr. Martin Lyster to Paris in the same year, &amp;c. / written originally in French by Monsieur Sorbiere and newly translated into English.</title>
+            <author>King, William, 1663-1712.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 48 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-11">2004-11 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A60917</idno>
+            <idno type="STC">Wing S4698</idno>
+            <idno type="STC">ESTC R10470</idno>
+            <idno type="EEBO-CITATION">13780191</idno>
+            <idno type="OCLC">ocm 13780191</idno>
+            <idno type="VID">101781</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A60917)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 101781)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 850:35)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A journey to London in the year 1698 after the ingenuous method of that made by Dr. Martin Lyster to Paris in the same year, &amp;c. / written originally in French by Monsieur Sorbiere and newly translated into English.</title>
+                  <author>King, William, 1663-1712.</author>
+                  <author>Sorbière, Samuel, 1615-1670. Relation d'un voyage en Angleterre.</author>
+               </titleStmt>
+               <extent>[8], 34, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by A. Baldwin ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Fictiously attributed to Sorbière but written by William King.  Cf. DNB.</note>
+                  <note>Satire on Lister's work: Journey to Paris in the year 1698.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Lister, Martin, 1638?-1712. --  Journey to Paris in the year 1698.</term>
+               <term>London (England) --  Humor.</term>
+               <term>London (England) --  Description and travel --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2004-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2004-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2004-09</date>
+            <label>Andrew Kuster</label>Sampled and proofread</change>
+         <change>
+            <date>2004-09</date>
+            <label>Andrew Kuster</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2004-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:101781:1"/>
+            <p>
+               <pb facs="tcp:101781:1"/>
+A JOURNEY TO <hi>LONDON,</hi> In the Year, 1698.</p>
+            <p>
+               <hi>After the Ingenuous Method of that made by Dr.</hi> Martin Lyster <hi>to</hi> Pa<g ref="char:EOLhyphen"/>ris, <hi>in the same Year,</hi> &amp;c.</p>
+            <p>Wittten Originally in <hi>French,</hi> By Mon<g ref="char:EOLhyphen"/>sieur <hi>Sorbiere,</hi> and Newly Translated into English.</p>
+            <p>
+               <hi>LONDON,</hi> Printed, and sold by <hi>A. Baldwin,</hi> in <hi>Warwick-Lane,</hi> 1698.</p>
+         </div>
+         <div type="half_title">
+            <pb facs="tcp:101781:2"/>
+            <p>A JOURNEY TO <hi>LONDON.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:101781:3"/>
+            <pb facs="tcp:101781:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:101781:4"/>
+            <pb facs="tcp:101781:4"/>
+            <head>Monsieur <hi>Sorbeir</hi> TO THE READER.</head>
+            <p>I Am resolved to make no A<g ref="char:EOLhyphen"/>pology for This <hi>short Account of the Magnificent, and Noble City of London,</hi> where you will meet <hi>with nothing offensive,</hi> and I think I have observed every thing that is Remarkable in it; It would have been unpardon<g ref="char:EOLhyphen"/>able in me, to have omitted a<g ref="char:EOLhyphen"/>ny matters which the Curious might be desirous to know, having an Inimitable Pattern from one of that Country lately, who for the clearness of his Ex<g ref="char:EOLhyphen"/>pression, the Elegancy of his
+<pb facs="tcp:101781:5"/>
+Descriptions, as well Ingenuous Choice of his Subjects, deserves a Particular <hi>Salutation</hi> from all the Admirers of the <hi>Belles Let<g ref="char:EOLhyphen"/>tres</hi> in the Universe.</p>
+            <p>I might here take an Oppor<g ref="char:EOLhyphen"/>tunity to beg Pardon of the Eng<g ref="char:EOLhyphen"/>lish, for my misrepresentations Thirty Years ago, but 'tis to be hoped this Book will make my Peace with that Nation. The following pages will show you the Considerable heads I de<g ref="char:EOLhyphen"/>sign'd to Treat off, and now I have paid my Devoirs at the En<g ref="char:EOLhyphen"/>trance, <hi>I will not Importune you a<g ref="char:EOLhyphen"/>ny longer.</hi>
+            </p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:101781:5"/>
+            <head>CONTENTS.</head>
+            <list>
+               <item>ASses <hi>Page</hi> 21</item>
+               <item>Auction 23</item>
+               <item>Beggars 9</item>
+               <item>Brick and Stone Houses 3</item>
+               <item>Bureaus 4</item>
+               <item>Boy in a little Coach 5</item>
+               <item>Boats 8</item>
+               <item>Bartholomew Fair 27</item>
+               <item>Bread 29</item>
+               <item>Curiosity 1</item>
+               <item>Sir <hi>Charles Cotterel</hi> and <hi>John Sharp</hi> Compar'd 2</item>
+               <item>Cellar Windows 4</item>
+               <item>Coaches 5</item>
+               <item>Commendation of Linnen Shirts 13</item>
+               <item>Calf with a Top-knot 18</item>
+               <item>Coins 20</item>
+               <item>Chivey Chase 20</item>
+               <item>Chocolate 25</item>
+               <item>Cabbage 30</item>
+               <item>Chine of Beef 33</item>
+               <item>Dust 11</item>
+               <item>Ducks 28</item>
+               <item>English no Lovers of stinking Meat 33</item>
+               <item>Flannel Shirts 13</item>
+               <item>Grey Pease Hot! 29</item>
+               <item>Inns, the white Horse, <hi>&amp;c.</hi> 8</item>
+               <item>Kennels 5</item>
+               <item>Knightsbridge and Istington 5</item>
+               <item>
+                  <pb facs="tcp:101781:6"/>
+Kitling in an Air Pump <hi>p.</hi> 16</item>
+               <item>Lettice 31</item>
+               <item>Menage 3</item>
+               <item>Monks (none) 9</item>
+               <item>Miller's Thumb 16</item>
+               <item>Mufflers 22</item>
+               <item>Mushroom 31</item>
+               <item>Naked Statues Commended 12</item>
+               <item>Old Women Witches 14</item>
+               <item>Owl, 18</item>
+               <item>Port<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ochers and Remises 3</item>
+               <item>Post Chaises Roullions not in <hi>England</hi> 6</item>
+               <item>Publick Cries 10</item>
+               <item>Play Things 21</item>
+               <item>Pox! 24</item>
+               <item>Pick Pockets 27</item>
+               <item>Recreations and Walk, 7</item>
+               <item>A Rummer of two Quarts 15</item>
+               <item>Rosemary, <hi>&amp;c.</hi> 26</item>
+               <item>Squares, <hi>St.</hi> James's, Bloomsbury, <hi>&amp;c.</hi> 5</item>
+               <item>Signs in the street, Prodigious Large! 7</item>
+               <item>Streets Lighted, 10</item>
+               <item>—Clean 11</item>
+               <item>Statues 12</item>
+               <item>Sticklebacks 16</item>
+               <item>Small coal Kettles to Light a Pipe 27</item>
+               <item>Salt 29</item>
+               <item>Soups 31</item>
+               <item>Things wanting in <hi>England</hi> 5</item>
+               <item>Tennis Balls 22</item>
+               <item>Turnips 30</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="account">
+            <pb n="1" facs="tcp:101781:6"/>
+            <head>A JOURNEY TO <hi>LONDON.</hi> In the Year, 1698.</head>
+            <head type="sub">After the Ingenuous Method of that made by <hi>Dr. Martin Lyster</hi> to <hi>Paris,</hi> in the same Year, <hi>&amp;c.</hi>
+            </head>
+            <p>
+               <hi>THis Tract was written chiefly to</hi> 
+               <note place="margin">Page 1.</note> 
+               <hi>satisfy my own Curiosity,</hi> and <note place="margin">Curiosity</note> being <hi>in a place where I had lit<g ref="char:EOLhyphen"/>tle to do,</hi> I though fit to write a Book for such People as had idle time enough upon their hands to read it. The Eng<g ref="char:EOLhyphen"/>lish <hi>Nation value themselves upon</hi> a plain Honesty, join'd with Hospitality; these make them Courteous to <hi>Stran<g ref="char:EOLhyphen"/>gers,</hi> but they are not very easy with their <hi>Curiosity.</hi> For they do <hi>not build</hi> 
+               <note place="margin">P. 5.</note>
+               <pb n="2" facs="tcp:101781:7"/>
+               <hi>and dress mostly for Figure, as the</hi> French, <note place="margin">P. 4.</note> 
+               <hi>who are certainly the most Polite Nation in the World, and can praise and Court with a better grace than the rest of Mankind.</hi>
+            </p>
+            <p>
+               <hi>I did not intend to put on the Specta<g ref="char:EOLhyphen"/>cles</hi> of the Present State of <hi>England,</hi> Written by Dr. <hi>Chamberlain,</hi> nor any <note place="margin">P. 2.</note> Survey of the same for trusting to my Eyes, <hi>I had a mind to see without 'em.</hi>
+            </p>
+            <p>
+               <hi>But to content you Reader, I promise not to trouble you with Ceremonies,</hi> 
+               <note place="margin">P. 2.</note> 
+               <hi>either of State, or Church, or Politicks;</hi> for though I met with an English Gentleman who proffer'd to shew me <note place="margin">John Sharp <hi>and Sir</hi> Charles Cotterel <hi>compar'd.</hi>
+               </note> the Princes of the Blood, the Prime Ministers of State, the Lord Mayor, and other Officers belonging to a <hi>City of so immense a greatness as that of London,</hi> yet I refus'd the Civility, and told him, <hi>that I took more pleasure</hi> to see honest <hi>John Sharp</hi> of <hi>Hackney,</hi> in his <hi>White Frock,</hi> crying <hi>Turneps ho!</hi> 
+               <note place="margin">P. 3.</note> 
+               <hi>four bunches a penny,</hi> than Sir <hi>Charles Cottrel, making room for an Embassa<g ref="char:EOLhyphen"/>dour, and I found my self better dispos'd, and more apt to learn the physiognomy of a hundred Weeds, than of five or six Princes.</hi>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:101781:7"/>
+               <hi>I arriv'd at</hi> London, <hi>after a tedious</hi> 
+               <note place="margin">P. 4.</note> 
+               <hi>Journey, in bad weather; for I fell sick upon the road, and lay dangerously ill</hi> of the Tooth-ach.</p>
+            <p>
+               <hi>I believe I did not see the tithe of what</hi> 
+               <note place="margin">P. 5.</note> 
+               <hi>deserves to be seen; because for many things I wanted a relish, particularly for Painting and Building,</hi> though I con<g ref="char:EOLhyphen"/>fess the grandure of a City chiefly consists in Buildings; and I verily be<g ref="char:EOLhyphen"/>lieve <hi>London</hi> to be one of <hi>the most Beau<g ref="char:EOLhyphen"/>tiful and Magnificent in</hi> Europe.</p>
+            <p>It is also most certain, that the <note place="margin">Menages.</note> common people of <hi>London,</hi> live dis<g ref="char:EOLhyphen"/>pers'd in single Houses, <hi>whereas in</hi> Pa<g ref="char:EOLhyphen"/>ris, <note place="margin">P. 5.</note> 
+               <hi>there are from Four to Five, and to Ten menages or distinct Families in many Houses,</hi> from whence I infer that as to the Commonalty <hi>Paris</hi> may be <hi>more populous than London,</hi> although perhaps their dwelling mayn't be so wholsome and cleanly.</p>
+            <p>I found <hi>the Houses some of hew'n stone</hi> 
+               <note place="margin">Brick <hi>and</hi> Stone Houses.</note> 
+               <hi>entire, some of Brick with free Stone;</hi> as the <hi>Crown Tavern</hi> upon <hi>Ludgate-hill,</hi> and the corner House of <hi>Birchin-Lane,</hi> and several others. <note place="margin">
+                  <hi>P.</hi> 8. Port<g ref="char:EOLhyphen"/>cochezs <hi>and</hi> Re<g ref="char:EOLhyphen"/>mises.</note>
+            </p>
+            <p>Divers of the Citizens Houses, <hi>have Port-cochezs to drive in a Coach,</hi> or a
+<pb n="4" facs="tcp:101781:8"/>
+Cart either, <hi>and Consequently have Courts within, and mostly Remises to set them up,</hi> such persons as have no Port<g ref="char:EOLhyphen"/>chochez, and consequently no Courts or Remises, set up their Coaches at o<g ref="char:EOLhyphen"/>ther places, and let their Horses stand at Livery.</p>
+            <p>
+               <hi>The</hi> Cellar <hi>Windows of most Houses</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 8. Cellar Windows.</note> 
+               <hi>are grated with strong barrs of Iron,</hi> to keep thieves out, and <hi>Newgate</hi> is grat<g ref="char:EOLhyphen"/>ed up to the Top to keep them in. <hi>Which must be of vast expence!</hi>
+            </p>
+            <p>
+               <hi>As the Houses are magnificent without,</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 9. Bureaus.</note> so they furnish them within accord<g ref="char:EOLhyphen"/>ingly. But I could not find, that they had any <hi>Bureaus of Ivory.</hi>
+            </p>
+            <p>Upon viewing the Braziers and <note place="margin">
+                  <hi>P.</hi> 9. Things wanting in England for want of Com<g ref="char:EOLhyphen"/>merce with France.</note> Turners Shops, <hi>I found it true, what my Country Man Monsieur</hi> Justell <hi>for<g ref="char:EOLhyphen"/>merly told me, that according to his Cata<g ref="char:EOLhyphen"/>logue there were near threescore utensils, and conveniencies of Life more in</hi> En<g ref="char:EOLhyphen"/>gland <hi>than in</hi> France. But then the English, since the breach of their com<g ref="char:EOLhyphen"/>merce with <hi>France,</hi> lie under great necessities of several commodities fit<g ref="char:EOLhyphen"/>ing for the ease and support of Hu<g ref="char:EOLhyphen"/>mane Life, as <hi>Counterfeit Pearl Neck<g ref="char:EOLhyphen"/>laces,</hi> 
+               <note place="margin">P. 142.</note> Fans, Tooth Picks, and Tooth
+<pb n="5" facs="tcp:101781:8"/>
+Pick Cases, and especially Prunes, the Calamity of which has been so great for Ten Years last past, that they have not had enough to lay round their Plum-porridge at <hi>Christmas.</hi>
+            </p>
+            <p>I must to give a faithful account de<g ref="char:EOLhyphen"/>scend <note place="margin">
+                  <hi>P.</hi> 10, Kennells.</note> even to the Kennels; <hi>the Gutters are</hi> deep, <hi>and lain with</hi> rough edges, <hi>which make the Coaches not to glide easily over 'em,</hi> but occasion an imployment for an industrious sort of people call'd Kennel-Rakers.</p>
+            <p>
+               <hi>The Squares</hi> in <hi>London are</hi> many <note place="margin">
+                  <hi>P.</hi> 10. Squares. James'<hi>s</hi> Bloom<g ref="char:EOLhyphen"/>bury. <hi>P.</hi> 10.</note> and <hi>very beautiful,</hi> as St. <hi>James, Sohoe, Bloombury, Red-Lyon. Devonshire, none of the largest,</hi> and Hogsdon not <hi>yet finish'd. But that which makes the dwel<g ref="char:EOLhyphen"/>ling in this City very diverting, is the facility of going out into the fields,</hi> as to <hi>Knightsbridge,</hi> where is an excellent Spring-Garden, to <hi>Marribone,</hi> where <note place="margin">
+                  <hi>P.</hi> 11. Knights<g ref="char:EOLhyphen"/>bridge <hi>and</hi> Islington.</note> is a very good Bowling-Green, <hi>Isling<g ref="char:EOLhyphen"/>ton</hi> as famous for Cakes, as <hi>Stepeny</hi> is for Bunns.</p>
+            <p>
+               <hi>But to descend to a more particular re<g ref="char:EOLhyphen"/>view</hi> 
+               <note place="margin">P. 11.</note> 
+               <hi>of this great City, I think it not a<g ref="char:EOLhyphen"/>miss to speak first of the Streets.</hi>
+            </p>
+            <p>There are <hi>Coaches</hi> in the streets <note place="margin">Coaches</note> 
+               <hi>which are very numerous, but the Fiacers
+<pb n="6" facs="tcp:101781:9"/>
+are not hung with double</hi> springs, at the four Corners, <hi>which springs would in<g ref="char:EOLhyphen"/>sensibly Break all Jolts.</hi> So that I fou<gap reason="illegible: faint" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d the case alter'd in <hi>England;</hi> and I to had rather ride in a Fiacre at <hi>Paris,</hi> than in the easiest Chariot of a Lord Embassador; to my great asto<g ref="char:EOLhyphen"/>nishment at <hi>London,</hi> found that in a Hackney Coach, there was <hi>not a jolt but what affected a Man,</hi> from whence I drew these Surprising Conclusions.</p>
+            <p>First that a Hackney <hi>is a miserable, Voiture,</hi> and next, <hi>that a Man may be</hi> 
+               <note place="margin">P. 13.</note> 
+               <hi>more tired in an hour in that, than in six hours riding in</hi> my Lord Ambassa<g ref="char:EOLhyphen"/>dors <hi>casiest Chariot.</hi>
+            </p>
+            <p>I saw a Boy that had Harness'd two Doggs, which drew a small Voiture <note place="margin">
+                  <hi>P.</hi> 13. Boy in a little Coach.</note> with a Burden in it, and I saw a little Master in a little <hi>Vinegretté, drawn</hi> a<g ref="char:EOLhyphen"/>long by <hi>two Boys;</hi> much bigger then himself, and <hi>push'd behind by a Maid.</hi> These <hi>I was willing to omit as thinking them at first sight scandalous, and a ve<g ref="char:EOLhyphen"/>ry jest, they being wretched businesses in so magnificent a City.</hi>
+            </p>
+            <p>Finding <hi>that neither Post chaises nor Rouillions were in use in London,</hi> I told <note place="margin">Post chaises Rouillions not in En<g ref="char:EOLhyphen"/>gland.</note> them of 'em, <hi>how both Horses pull, but
+<pb n="7" facs="tcp:101781:9"/>
+one only is in the Thilles, how the Coach<g ref="char:EOLhyphen"/>man mounts the Rouillion, but for the Chaise he only mounts the side House, and that they might be introduced to good purpose.</hi> But I found the English <hi>Cu<g ref="char:EOLhyphen"/>riosity</hi> so small that I did not see any Rouillion made during my six months stay in <hi>London.</hi>
+            </p>
+            <p>
+               <hi>As for their Recreations and Walks,</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 14. Receati<g ref="char:EOLhyphen"/>ons <hi>and</hi> Walks.</note> St. <hi>James Park is frequented by people of Quality,</hi> who if they have a mind to <hi>have better and freer Air, drive to Hide Park,</hi> where is a Ring for the Coaches to drive round, and hard by is Mrs. <hi>Price</hi>'s, where are incomparable Sil<g ref="char:EOLhyphen"/>labubs, <hi>out of other parts of the Town,</hi> they go to <hi>Hamstead</hi> and <hi>Cane Wood,</hi> (an admirable place for Nuts, as Mother Huffs for Bottle Ale) <hi>scarce any side a<g ref="char:EOLhyphen"/>miss.</hi> 
+               <note place="margin">P. 14.</note> I had almost forgot that in St. <hi>James</hi>'s <hi>Park are many Seats, for the Entertainment of all People, the Lackqueys and Mob excepted, but of this more here<g ref="char:EOLhyphen"/>after.</hi>
+            </p>
+            <p>
+               <hi>'Tis pretty to observe how the Magi<g ref="char:EOLhyphen"/>strates</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 16. Signs in the streets.</note> indulge the Inhabitants of this <hi>Great City,</hi> by <hi>this small instanced,</hi> for whereas <hi>in Paris the King has caused the Citizens to take down their signs,</hi> and
+<pb n="8" facs="tcp:101781:10"/>
+not <hi>to exceed a small measure of Square.</hi> In <hi>London</hi> they may be of what mea<g ref="char:EOLhyphen"/>sure they please, even to a Monstrous bigness, as my great Curiosity ob<g ref="char:EOLhyphen"/>serv'd, in the Sign of the <hi>Ship Tavern,</hi> and the <hi>Castle Tavern</hi> in Fleet-street, which has almost <hi>Obscur'd</hi> the <hi>Sun;</hi> and Barbers hang out poles of a great huge length almost as long as a Missen Mast.</p>
+            <p>
+               <hi>There are a great may Publick Inns</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 16. Inns The White Horse in Fleet<g ref="char:EOLhyphen"/>street, <hi>&amp;c.</hi>
+               </note> in <hi>London, where Lodging are to be Let,</hi> as the <hi>Bull Inn</hi> in <hi>Bishopgate-street,</hi> the <hi>Saracens Head</hi> in <hi>Friday-street,</hi> the <hi>White Horse</hi> in <hi>Fleet-street,</hi> and others. But besides these there are divers other places so called; as <hi>Cliffords Inn, Clements Inn, Lyons Inn,</hi> &amp;c. where several <hi>Gentlemen</hi> Practioners of the Law Reside. <hi>This seems as it were to denote that</hi> heretofore Attorneys might lodge in <hi>Publick Inns</hi> as well as other <hi>Strangers.</hi>
+            </p>
+            <p>
+               <hi>In the River of</hi> Thames, both a<g ref="char:EOLhyphen"/>bove <note place="margin">
+                  <hi>P.</hi> 17. Boats.</note> Bridge and below, are <hi>a vast number of Boats of Wood, Hay, Char<g ref="char:EOLhyphen"/>cool, Corn, Wine, and other Commodi<g ref="char:EOLhyphen"/>ties.</hi> When a Frost comes there are not so many. <hi>But when a Thaw comes, they</hi> are often in <hi>danger of being Split
+<pb n="9" facs="tcp:101781:10"/>
+and Crush'd to piecss.</hi> And upon my Word, <hi>there have been great losses to the Owners of such Boats and goods,</hi> upon such occasions. The reason why there are more Boats below Bridge than above, is because there is a Cu<g ref="char:EOLhyphen"/>stom House, which brings into the King of <hi>England,</hi> a Revenue able to defend the sovereignty of the Seas, a<g ref="char:EOLhyphen"/>gainst any Enemy whatsoever; and the Reason why there lie so many Hundred Large Vessels of all sorts and of all Nation; is because they cannot get through Bridge Heigh! and there are a great many light boats loaden with Brooms, Gingerbread, Tobacco, and a Dram of the Bottle Ho! Above Bridge is a vast Boat, with a House upon it, and a Garden in the Garret, and further up the River at <hi>Chelsey,</hi> is a Land Ship very large built on pur<g ref="char:EOLhyphen"/>pose never to go to Sea.</p>
+            <p>There are <hi>Beggars</hi> in <hi>London,</hi> and <note place="margin">
+                  <hi>P.</hi> 20. Beggar.</note> people whose necessities force them to ask relief from such as they think able to afford it.</p>
+            <p>But there are no <hi>Monks</hi> who de<g ref="char:EOLhyphen"/>clare <note place="margin">No Monks</note> against Marriage. And a Cer<g ref="char:EOLhyphen"/>tain Learned Person told me that he
+<pb n="10" facs="tcp:101781:11"/>
+did not like <hi>starved Monks,</hi> but that he was for <hi>free marriage, and that the Flesh<g ref="char:EOLhyphen"/>eaters will ever defend themselves if not beat the Lenten men.</hi>
+            </p>
+            <p>Therefore he was <hi>entirly</hi> for Propa<g ref="char:EOLhyphen"/>gation, <note place="margin">P. 21.</note> 
+               <hi>that men might be like the Stars in the Firmament, or the shells and sand upon the Sea shore;</hi> and so notwithstanding any Circumstances of Life Age or For<g ref="char:EOLhyphen"/>tune, should marry, and that it was as prudent in an old Man of threescore and ten, as in a Youth of one and twenty.</p>
+            <p>
+               <hi>There is</hi> a great deal of <hi>Noise in this City, of publick Cries of things to be sold,</hi> 
+               <note place="margin">Publick Cries. <hi>P.</hi> 22.</note> and great <hi>disturbance from Pamphlets and Hawkers.</hi> The <hi>Gazetts come out twice a week,</hi> and a great many <hi>buy 'em.</hi> When a thing is lost, they do not as in <hi>Paris,</hi> put a <hi>Printed Paper on the Wall,</hi> but if it be of small value, the Bell-man Cries it, and if it be a thing of greater moment as for Example, a <hi>Lapdog,</hi> &amp;c. then they put it in the Advertise<g ref="char:EOLhyphen"/>ments.</p>
+            <p>
+               <hi>The streets are lighted all the Winter,</hi> 
+               <note place="margin">Streets Lighted. <hi>P.</hi> 23.</note> but <hi>there is an impertinent usage of the people at</hi> London, <hi>not to light 'em, when the Moon shines.</hi> They ridiculously
+<pb n="11" facs="tcp:101781:11"/>
+defend themselves by saying, they can see by moonshine, and have no more reason to hold a Candle to the Moon than to the Sun. <hi>There were three Young Gentlemen of good Families in a</hi> 
+               <note place="margin">P. 24.</note> 
+               <hi>Frolick,</hi> went a scouring, <hi>broke the Lights,</hi> and were sent to the Counter, <hi>and could not be releas'd thence without di<g ref="char:EOLhyphen"/>ligent Application of Friends, and paying</hi> Garnish to their fellow Prisoners.</p>
+            <p>
+               <hi>The Avenues to the City, and all the</hi> 
+               <note place="margin">Streets clean.</note> 
+               <hi>Streets are Paved with Pebbles, and Flints and Rag Stones, and there is great care to keep them clean. In winter for Exam<g ref="char:EOLhyphen"/>ple, upon melting of the Ice,</hi> you shall see all the Prentices and Porters up in Arms, with Brooms and Paring Sho<g ref="char:EOLhyphen"/>vels; <hi>so that in a</hi> few <hi>hours</hi> time <hi>all parts of the Town are to admiration clean, and neat again to walk on.</hi>
+            </p>
+            <p>
+               <hi>I could heartily wish,</hi> I had been at <note place="margin">Dust. <hi>P.</hi> 25.</note> 
+               <hi>London</hi> in <hi>Summer,</hi> to have seen whe<g ref="char:EOLhyphen"/>ther they have <hi>more Dust</hi> at <hi>London,</hi> than in <hi>Paris.</hi> I have notwithstand<g ref="char:EOLhyphen"/>ing in my <hi>Curious</hi> Enquiries after <hi>Dust,</hi> found that there are several dust Carts about the Town, and there are seve<g ref="char:EOLhyphen"/>ral Women that take delight, and as I have heard pay money to ride in em.
+<pb n="12" facs="tcp:101781:12"/>
+A fine Lady about the Town, was taken thence, and upon her change of clean Linning took upon herself the Title of <hi>Clinderaxa.</hi>
+            </p>
+            <p>There are several Statues, both at <hi>Charing-cross,</hi> in the City, and at <note place="margin">Statues.</note> the <hi>Exchange,</hi> but my <hi>Relish</hi> being not for <hi>Art</hi> but <hi>Nature,</hi> as I have before declared, I think fit to meddle with 'em, as little as I can.</p>
+            <p>I happen'd to go with a Lady to <hi>Hide Park Corner,</hi> where in an open <note place="margin">Naked Statues Com<g ref="char:EOLhyphen"/>mended at Hide-Park Cor<g ref="char:EOLhyphen"/>ner. <hi>P. 29. P.</hi> 30.</note> 
+               <hi>Area,</hi> we saw several Naked Statues, at which she <hi>out of a fond humour, or hoc sit of Devotion,</hi> took some offence. I told her, <hi>Cicero somewhere says, that some of the ancient wise men thought there was nothing naturally obscene, but that every thing might be call'd by its own name;</hi> she told me I was making an Apology for talking obscencely. I reply'd no, but added, <hi>Why should Nu<g ref="char:EOLhyphen"/>dity</hi> 
+               <note place="margin">P. 30.</note> 
+               <hi>be so offensive since a very great part of the World yet defies Cloaths, and ever did so; and the parts they do most affect to cover, are from a certain necessity</hi> 
+               <note place="margin">P. 30. P. 31.</note> 
+               <hi>only:</hi> At which she blush'd, and I for the sake of further Discourse begun a long story about Roman Cloths, and
+<pb n="13" facs="tcp:101781:12"/>
+told her, <hi>a Roman was as soon undress'd</hi> 
+               <note place="margin">P. 31.</note> 
+               <hi>as I can put of my Gloves and Shooes. For he had nothing to do but to loose the Gir<g ref="char:EOLhyphen"/>dle of the Tunica, and to draw up both his Arms from under the Tunica,</hi> and he was in Bed immediately, whereas I had a hundred fatigues to undergo, as un<g ref="char:EOLhyphen"/>buttoning by Collar, untying my Knee<g ref="char:EOLhyphen"/>strings; and several other things that would make a Man impatient to think of. I told her likewise it was <hi>after the</hi> 
+               <note place="margin">Flannel Shirts found out at Rome. <hi>P.</hi> 31. 32. No Steen<g ref="char:EOLhyphen"/>kirks at Rome.</note> 
+               <hi>first Ages of the Commonwealth,</hi> that they found out the invention <hi>of putting a Shirt next the Skin;</hi> that as for Ruffles and Steenkirks, <hi>they were never added in the very Splendor and Luxury of the Empire.</hi> I continued my Dis<g ref="char:EOLhyphen"/>course, that I, <hi>much admire I could never meet with a Statue in</hi> London, <hi>but what was Cloathed with a</hi> Toga pura <hi>and no representation of a Bullated one.</hi> I told her, that the <hi>Romans</hi> indeed <hi>wore Flan<g ref="char:EOLhyphen"/>nel Shirts, but in my mind a fair Lin<g ref="char:EOLhyphen"/>nen</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 33. Com<g ref="char:EOLhyphen"/>mendati<g ref="char:EOLhyphen"/>on of Linnen Shirts.</note> 
+               <hi>Shirt every Day, is as great a preser<g ref="char:EOLhyphen"/>vative to Neatness and Cleanness of the Skin,</hi> as going to the Bagnio, <hi>was to the Romans.</hi> The Lady smil'd and told me, Sir, I am glad you have Cloth'd the poor Creatures, that we
+<pb n="14" facs="tcp:101781:13"/>
+found Naked. This seeming to be spoke in a Ridiculous way, something provo<g ref="char:EOLhyphen"/>ked me, but <hi>spying a little State of</hi> Mo<g ref="char:EOLhyphen"/>ther <hi>Shipton,</hi> whose Face <hi>was deep with<g ref="char:EOLhyphen"/>in the Quoifure;</hi> says I, Madam, this Woman looks as if she were <hi>ashamed of her Cheat:</hi> It was the fancy of King <hi>Henry</hi> the <hi>8th</hi>'s time <hi>to make Old Wo<g ref="char:EOLhyphen"/>men Prophetesses,</hi> but I think to make <hi>them Sagae and Veneficae,</hi> (that is in plain English Sorceresses and Poisoners) is <hi>reasonable enough, for Age makes all Peo<g ref="char:EOLhyphen"/>ple Spiteful, but more the weaker Sex.</hi> So <note place="margin">Old Wo<g ref="char:EOLhyphen"/>men Wit<g ref="char:EOLhyphen"/>ches. <hi>P.</hi> 34.</note> we parted in chagrin, for I believe the Lady Modestly speaking, was up<g ref="char:EOLhyphen"/>wards of fifty.</p>
+            <p>I heard of several Persons that had great Collections of Rarities, Pictures, and Statues. But I was resolved to Visit but a few, and those the most <hi>Cu<g ref="char:EOLhyphen"/>rious;</hi> and when I made any Observa<g ref="char:EOLhyphen"/>tions, that they should be to the pur<g ref="char:EOLhyphen"/>pose.</p>
+            <p>So I visited Mr. <hi>Doncaster, He En<g ref="char:EOLhyphen"/>tertained</hi> 
+               <note place="margin">Mr. <hi>Don<g ref="char:EOLhyphen"/>caster.</hi> P. 36.</note> 
+               <hi>me very Civilly;</hi> He has <hi>a very fine Octogon Room, with a Dome.</hi> He has very fine Pictures, though I must confess as before, <hi>I have no relish for Painting.</hi> He show'd me some <hi>Pi<g ref="char:EOLhyphen"/>ctures
+<pb n="15" facs="tcp:101781:13"/>
+of</hi> Rubens, <hi>in which the Allegoric Assistants in the Tableaux are very airy and fancifully set out.</hi> He show'd me, likewise, one of <hi>Vandyke, but being Painted in Dishabile, it had a Foppish</hi> 
+               <note place="margin">P. 39.</note> 
+               <hi>Night-Gown and Old Quoifure. Which lead me into this Reflection, that the</hi> 
+               <note place="margin">40.</note> 
+               <hi>Modern Painters have hereby an oppor<g ref="char:EOLhyphen"/>tunity to be idle.</hi> He has several other Curiosities; among the rest was a <hi>Roman Glass, whose very bottom was smooth and very little umbilicate.</hi> He <note place="margin">P. 38.</note> show'd me, likewise, a great Rum<g ref="char:EOLhyphen"/>mer of two Quarts, very proper for <note place="margin">Rummer of two Quarts.</note> Rhenish Wine, and Limon and Su<g ref="char:EOLhyphen"/>gar in the midst of Summer; I found that the foot of the latter was more <hi>Umbilicated</hi> than the former. He then diverted me with a Copy of the Writing said to be the Devil's Writing, kept in Queen's Colledge in <hi>Oxford.</hi> Upon which I began the Di<g ref="char:EOLhyphen"/>scourse of these matters; I told him, that the Chinese were very <hi>much Em<g ref="char:EOLhyphen"/>barass'd in their Writing, as this Wri<g ref="char:EOLhyphen"/>ting</hi> 
+               <note place="margin">P. 48.</note> seem'd to be. <hi>But I was rather inclin'd, to think this the</hi> Boustrophedon <hi>way mention'd by</hi> Suidas <hi>like the Racers about the</hi> Meta <hi>in the</hi> Cirque. But I <note place="margin">P. 5<gap reason="illegible: under-inked" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </note>
+               <pb n="16" facs="tcp:101781:14"/>
+could not find that he had any appre<g ref="char:EOLhyphen"/>hension of the matter. In this Collection, I saw a <hi>Millers Thumb,</hi> which he told <note place="margin">Miller's Thumb. <hi>P.</hi> 58.</note> me was taken by a Miller with his Thumb and fore finger. It <hi>is very like a</hi> Hippocumpus <hi>as to the Thick belly and breast of it.</hi> With this I was ex<g ref="char:EOLhyphen"/>treamly pleased, and am infinitely ob<g ref="char:EOLhyphen"/>lig'd to this Mr. <hi>Doncaster,</hi> for he <note place="margin">Stickle<g ref="char:EOLhyphen"/>backs.</note> show'd me several sort of Tadpoles and Sticklebacks, which only for big<g ref="char:EOLhyphen"/>ness are not much unlike a Pope, or Ruff, and presented me with one of 'em, which I design to give a draught of.</p>
+            <p>I was to visit Mr. <hi>Muddifond,</hi> I was <note place="margin">Mr. Mud<g ref="char:EOLhyphen"/>difond. <hi>P.</hi> 66. 67.</note> sorry to hear that he had <hi>some thoughts</hi> concerning the <hi>Hearts of a Hedghog,</hi> which had made <hi>a very great breach betwixt</hi> Mr. <hi>Goodenough and himself.</hi> I could have wish'd, I might have re<g ref="char:EOLhyphen"/>concil'd the Animosity. <hi>But it is to be Hoped there may come good from an Honest Emulation.</hi> I had several discourses with Mr. <hi>Muddifond,</hi> about an <hi>Old Cat and a Young Kitling in an air Pump, and how the Cat died after 16 Pumps, but</hi> 
+               <note place="margin">Kitling in an air Pump.</note> 
+               <hi>the Kitling surviv'd 500 Pumps.</hi> Up<g ref="char:EOLhyphen"/>on which we fell into a Learned Di<g ref="char:EOLhyphen"/>course,
+<pb n="17" facs="tcp:101781:14"/>
+of the lives of Cats; and at last agreed upon this distinction, That it ought not to be said that <hi>Cats,</hi> but that <hi>Kitlings</hi> have nine lives. And <hi>after the dispute ended,</hi> 
+               <note place="margin">P. 2.</note> 
+               <hi>he very obligingly procured me a Hu<g ref="char:EOLhyphen"/>man Heart.</hi> But I must confess the generosity of the English in this, for not many days after Mr. <hi>Baddington,</hi> 
+               <note place="margin">P. 71.</note> 
+               <hi>procured me another,</hi> which was ex<g ref="char:EOLhyphen"/>treamly Grateful.</p>
+            <p>I was recommended by a Friend to Mr. <hi>Brownsworth,</hi> a Person that belongs <note place="margin">
+                  <hi>Mr.</hi> Browns. worth.</note> to the Tower of <hi>London.</hi> He is a Ci<g ref="char:EOLhyphen"/>vil Gentleman, but his genius lead him more to Politicks than Curiosity. He proffer'd to shew me the new Armory, in which are Arms, as he told me, for above a Hundred Thousand Men, all dispos'd in a manner, most surprizing and magnificent; as likewise another Armory, where are Arms for Twenty Thousand Men more. He would like<g ref="char:EOLhyphen"/>wise have shew'd me the Horse Armo<g ref="char:EOLhyphen"/>ry, a Royal Train of Artillery, and several Cannon taken out of the <hi>Tri<g ref="char:EOLhyphen"/>dent</hi> Prize. He would likewise have carryed me to see the Crown Impe<g ref="char:EOLhyphen"/>rial, and other Jewels belonging to it.
+<pb n="18" facs="tcp:101781:15"/>
+I humbly thank'd him, and told him, that my <hi>Curiosity</hi> led me otherwise, and <note place="margin">P. 2.</note> 
+               <hi>that my Observations inclin'd rather to Nature than Dominion.</hi> Upon which smiling he said, he hoped he should gratifie me, and immediately led me to a place where we saw Lyons, Tygers, and two very remarkable Cat<g ref="char:EOLhyphen"/>amountains. I took more particular Notice of two <hi>Owls,</hi> of <hi>an immense greatness,</hi> but by their being without <note place="margin">Owls. <hi>P. 73. P. 2. P.</hi> 73. Calf with a Top-knot.</note> 
+               <hi>horns,</hi> I take 'em not <hi>to be a distinct Species from the European.</hi>
+            </p>
+            <p>But that with which I was most de<g ref="char:EOLhyphen"/>lighted, was a Calf skin stuft, 'twas admirable to behold, a certain tumor or excrescence it had upon its forehead, in all points resembling the Commodes or Top-knots now in Fashion. Upon this I exprest my thanks to Mr. <hi>Brownsworth</hi> in the most Obliging Terms I could. He then told me, the Royal Mint was not far off, upon which I said, I was a great ad<g ref="char:EOLhyphen"/>mirer of Coins, and desired him to give me an account of what Coins there were in <hi>England</hi> He began to tell me, that about three Years ago the cur<g ref="char:EOLhyphen"/>rent Coin of the Kingdom consisted of
+<pb n="19" facs="tcp:101781:15"/>
+old Money, coin'd by several Kings; that those Coins were Clipt and debased to a very great degree, but that the King with the advice of his Parliament, in the very heighth of the War with <hi>France,</hi> had establish'd a Paper Credit (or if you please to call it Coin) of Bills, issued out of the Exchequer and Notes from the Royal Bank of <hi>England,</hi> a<g ref="char:EOLhyphen"/>mounting to prodigious sums; that at present all our Silver is in Mild Mony, either of the two last Kings, or his present Majesty, of which there is so great a Quantity, that posterity will be apt to think, that there were scarce any Prince that ever Coin'd before him. This Money, and Credit, have circu<g ref="char:EOLhyphen"/>lated so far, and are in so great a plen<g ref="char:EOLhyphen"/>ty, that in a late subscription to a <hi>New East India Company,</hi> Two Millions Sterling were subscrib'd in less than two days time, and as much more ex<g ref="char:EOLhyphen"/>cluded<g ref="char:punc">▪</g> I believe the Man would have run on till Evening, if I had not thus interrupted him: Sir, said I, I beg you to consider, that I am a <hi>Virtuoso,</hi> and that your present discourse is quite out of my Element: Sir, you would oblige me much more, if you could
+<pb n="20" facs="tcp:101781:16"/>
+find me any Coin from <hi>Palmira,</hi> more <note place="margin">P. 97.</note> particularly of <hi>Zenobia, Odenatus,</hi> or <hi>Vabalathus,</hi> and that I prefer'd a <hi>VABALATHUS UCRIMPR,</hi> or a <hi>VABALATHUS AUG.</hi> 
+               <note place="margin">Coins of Vabala<g ref="char:EOLhyphen"/>thus. <hi>P.</hi> 115.</note> before Twenty of the best pieces of Gold Coin'd in the <hi>Tower.</hi> The Gentle<g ref="char:EOLhyphen"/>man very Civilly reply'd, that he would endeavour to satisfie my <hi>Curiosi<g ref="char:EOLhyphen"/>ty;</hi> that he had at home two rusty Copper Pieces, with which he intend<g ref="char:EOLhyphen"/>ed to present me, (which he accord<g ref="char:EOLhyphen"/>ingly did the next day) that he had been told by a Person of the <hi>Belles Let<g ref="char:EOLhyphen"/>tres,</hi> that they were dug out of the Isle of <hi>Scilly,</hi> and that One was of <hi>Cata<g ref="char:EOLhyphen"/>thumpton</hi> a <hi>Saxon</hi> Prince, the other of <note place="margin">Coins of Cata<g ref="char:EOLhyphen"/>thumpton and Go<g ref="char:EOLhyphen"/>clenia. <hi>P.</hi> 121.</note> 
+               <hi>Goclenia</hi> his Daughter and Successor; they have both very odd Characters, (if <hi>any)</hi> about 'em. I design to give the Reader a Cut of them. The Evening coming on, and my thanks returned to him, we parted.</p>
+            <p>
+               <hi>I was to see Mr.</hi> Shuttleworth, <hi>whose Friendship I greatly Value; He has many</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 46. Moni<g ref="char:EOLhyphen"/>ment of Chivey-Chase.</note> Stones <hi>from</hi> Scotland; there is one <hi>the most Curious of all, Concerning which he is ready to publish a Dissertation. 'Tis a Catalogue in three Columns, of the Names
+<pb n="21" facs="tcp:101781:16"/>
+of the most Principal Persons that were Kill'd at Chivey Chase. Widdrington</hi> closes the Column, and after his Name there is a Noble Pindarick in which he is Recorded, upon the Cuting off his Legs, to have <hi>fought upon his Stumps. Of the Antiquity of this</hi> Stone, <hi>besides the known History and names which justify the time of those Men,</hi> the figure of the Letters and the Blackness of 'em, particularly of the word <hi>Stumps,</hi> are <hi>undoubted Arguments.</hi>
+            </p>
+            <p>He show'd me a Thousand other Rarities as <hi>the skin of a Cap-Ass, many</hi> 
+               <note place="margin">Asses, Snails, &amp;c. <hi>P.</hi> 60. Ibid. Ibid. <hi>P.</hi> 61.</note> 
+               <hi>very excellent Land Snails, a Freshwater Mussel from</hi> Chatham; <hi>A thin Oyster, a very large Wood Frog, with the ex<g ref="char:EOLhyphen"/>tremity of the Toes Webbed.</hi>
+            </p>
+            <p>He show'd me <hi>some papers of</hi> Swam<g ref="char:EOLhyphen"/>merdam, <note place="margin">P. 73.</note> 
+               <hi>in which were some small Treatises, or rather some figures only of the</hi> 
+               <note place="margin">P. 103.</note> 
+               <hi>Tadpole. Again figures relating to the natural History of a certain Day But<g ref="char:EOLhyphen"/>terfly, and of some considerable number of Snails, as well naked as fluviatile. He</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 43. Play things, Puppets, Rattles. <hi>P.</hi> 111.</note> 
+               <hi>show'd me a vast number of great Cases in which were Play-things, or Puppets,</hi> all of them brought from <hi>France,</hi> Except one <hi>Sistrum, or</hi> AEgyptian <hi>Rattle,</hi> with
+<pb n="22" facs="tcp:101781:17"/>
+               <hi>three loose, or running wires cross it.</hi> I proffer'd him my assistance to Com<g ref="char:EOLhyphen"/>plete so useful a Collection as that of Play-things and Rattles.</p>
+            <p>
+               <hi>I was infinitely pleased</hi> with this Gen<g ref="char:EOLhyphen"/>tlemans Company, especially when <note place="margin">A Differ<g ref="char:EOLhyphen"/>tation of Mufflers.</note> 
+               <hi>he shew'd me a Dissertation he had</hi> written <hi>out fair for the Press, about a certain an<g ref="char:EOLhyphen"/>tient</hi> Intaglia <hi>of Madaces of</hi> Ptolomaeus Auletes, <hi>or the player upon the Flute: in this he said the thin Muffler was the most Remarkable.</hi> Upon this I told him, that I had a dissertation concerning the <hi>Remarkable thickness</hi> and <hi>thinness</hi> of <hi>Mufflers,</hi> with which I would pre<g ref="char:EOLhyphen"/>sent him.</p>
+            <p>
+               <hi>One Toy I took notice of, which was a Collection of</hi> Tennis Balls; <hi>for three</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 93. Tennis Balls.</note> 
+               <hi>hundred years or more,</hi> some of them were sent by a French King, to King <hi>Henry</hi> V. and there are patterns of all that the English have sent back, from the bigness of the smallest bor'd mus<g ref="char:EOLhyphen"/>ket, to the shells of the largest mor<g ref="char:EOLhyphen"/>tars.</p>
+            <p>I went to see an Old Woman (that shall be nameless) <hi>she was 91 Years of</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 95. An Old Woman.</note> 
+               <hi>Age.</hi> I was surprized to find <hi>her Body in Ruins. It was a perfect mortification</hi>
+               <pb n="23" facs="tcp:101781:17"/>
+to see <hi>the sad decays of Nature.</hi> To <hi>hear her talk with her Lips hanging about a toothless Mouth, end her words flying a<g ref="char:EOLhyphen"/>broad at Random;</hi> this put me in mind of the <hi>Sybils</hi> uttering Oracles, <hi>and how</hi> other <hi>Old Women,</hi> call'd Witches, have been since <hi>employed on this errand,</hi> and have at very unreasonable times of night been forced to bestride their Broom-staff on such like occasions.</p>
+            <p>I would have seen a very Famous Library, near St. <hi>James's Park,</hi> but I was told, that the Learned Library Keeper was so busy in answering a Book which had been lately wrote a<g ref="char:EOLhyphen"/>gainst him, concerning <hi>Phalaris,</hi> that it would be rudeness any ways to in<g ref="char:EOLhyphen"/>terrupt him; though I had heard of his <hi>singular Humanity,</hi> both in <hi>France,</hi> and other places.</p>
+            <p>
+               <hi>I was at an Auction of Books,</hi> at <hi>Tom</hi>'s <note place="margin">Auction.</note> Coffee-House, near <hi>Ludgate, where were above fifty people. Books were sold with a great deal of Trifling and delay as with us,</hi> But very Cheap, those Excellent Au<g ref="char:EOLhyphen"/>thors <hi>Mounsieur Maimbourg, Mounsieur Varillas,</hi> and <hi>Mounsieur le Grand,</hi> tho' they were all guilt on the Back, and would have made a very considerable
+<pb n="24" facs="tcp:101781:18"/>
+Figure in a Gentlemans Study, yet af<g ref="char:EOLhyphen"/>ter much tediousness, were sold for such Trifling sums, that I am asham'd to name 'em.</p>
+            <p>
+               <hi>The Pox here is the great business of the</hi> 
+               <note place="margin">Pox. <hi>P.</hi> 236. P. 239.</note> 
+               <hi>Town. This secret service has introduced little contemptible Animals of all sorts in<g ref="char:EOLhyphen"/>to business; and Quacks here, as with us, do thrive vastly into great Riches.</hi>
+            </p>
+            <p>
+               <hi>It was very pleasant diversion to me to read upon the Walls, every where about the Town, the Quacks Bills in great Un<g ref="char:EOLhyphen"/>cial Letters.</hi>
+            </p>
+            <p>As</p>
+            <p>
+               <q>Aqua Tetrachymagogon.</q>
+            </p>
+            <p>Another,</p>
+            <p>
+               <q>Read, Try, Judge, and Speak as You Find.</q>
+            </p>
+            <p>Another,</p>
+            <p>
+               <q>The Unborn Doctor, that Cures all Diseases. He is to be spoke with at a
+<pb n="25" facs="tcp:101781:18"/>
+Boiling Cooks, in <hi>Old Bedlam,</hi> from Ten till Two, and afterwards at his Stage in <hi>Moorfields.</hi>
+               </q>
+            </p>
+            <p>Another,</p>
+            <p>
+               <q>At the <hi>Golden Ball, and</hi> Lillies Head, <hi>John</hi> Case <hi>lives, though</hi> Saffold's <hi>dead.</hi>
+               </q>
+            </p>
+            <p>
+               <hi>By these Bills it is Evident, there is yet a certain Modesty and decorum left in Concealing this Disease,</hi> and people, though they may have failings in pri<g ref="char:EOLhyphen"/>vate, don't care to expose themselves to the publick. There are <hi>Women,</hi> 
+               <note place="margin">P. 238.</note> that are seventh Daughters, that do admirable Cures, and there are people that can pick Pockets, and afterwards by Consulting the Stars, tell you who it was that did it.</p>
+            <p>I met with a Gentleman, that told me a secret, <hi>That the old Romans in their Luxury took their Tea, and Chocolate,</hi> 
+               <note place="margin">Chocolate and Tea: <hi>P.</hi> 169.</note> 
+               <hi>after a full meal, and every man was his own Cook in that Case.</hi> Particularly <hi>Caesar</hi> that most admirable and most ac<g ref="char:EOLhyphen"/>complish'd Prince, <hi>being resolv'd to Eat
+<pb n="26" facs="tcp:101781:19"/>
+and Drink to excess before he lay down to Table,</hi> Emeticen agebat, <hi>prepared for himself his Chocolate, and Tea.</hi> He pre<g ref="char:EOLhyphen"/>sented me with a Roman Tea Dish, and a Chocolate Pot, which I take to be about <hi>Augustus</hi>'s time, because it is very Rusty; my Maid very igno<g ref="char:EOLhyphen"/>rantly was going to scour it, and had done me <hi>an immense</hi> Damage</p>
+            <p>I saw several Gardens at <hi>K<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ngsland;</hi> the <hi>Gardiner was an Artist, and had some</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 187. Rosemary and Ma<g ref="char:EOLhyphen"/>rum Syri<g ref="char:EOLhyphen"/>cum.</note> 
+               <hi>plants in cases in good order, not to be seen elsewhere, as Marum Syriacum, Rose<g ref="char:EOLhyphen"/>mary-Bushes,</hi> &amp;c.</p>
+            <p>I was at <hi>Chelsey, where I took parti<g ref="char:EOLhyphen"/>cular</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 183.</note> 
+               <hi>notice of these plants in the Green House at that time;</hi> As,</p>
+            <p>
+               <hi>Urtica male olens Japoniae,</hi> the stin<g ref="char:EOLhyphen"/>king nettle of <hi>Japan.</hi>
+            </p>
+            <p>
+               <hi>Goosberia sterilis Armeniae,</hi> the <hi>Ar<g ref="char:EOLhyphen"/>menian Goosberry bush,</hi> that bears no Fruit, <hi>this had been potted Thirty Years.</hi>
+            </p>
+            <p>
+               <hi>Cordis Quies Persia,</hi> which the Eng<g ref="char:EOLhyphen"/>lish call Heartsease, or Love, and Idle<g ref="char:EOLhyphen"/>ness, a very Curious Plant.</p>
+            <p>
+               <hi>Brambelia Fructificans Laplandiae,</hi> or the Blooming Bramble of <hi>Lapland.</hi>
+            </p>
+            <p>
+               <pb n="27" facs="tcp:101781:19"/>
+With a Hundred other Curious plants, as a particular Collection of Briars and Thorns, which were some part of the Curse of the Crea<g ref="char:EOLhyphen"/>tion.</p>
+            <p>
+               <hi>The Winter was very rude and fierce.</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 229. Small-coal Kettles.</note> 
+               <hi>Multitudes had little Tin Kettle</hi> in their Houses, with <hi>Small-coal kindled,</hi> to light their Pipes withal; though in some places they use Candles, in others Salamanders.</p>
+            <p>I was at <hi>Bartholomew Fair. It con<g ref="char:EOLhyphen"/>sists</hi> 
+               <note place="margin">
+                  <hi>P.</hi> 176. Bartholo<g ref="char:EOLhyphen"/>mew's Fair.</note> 
+               <hi>of most Toyshops; also Fiance and Pi<g ref="char:EOLhyphen"/>ctures, Ribbon-shops, no Books; Many Shops of Confectioners,</hi> where any Wo<g ref="char:EOLhyphen"/>man <hi>may commodiously be treated: Kna<g ref="char:EOLhyphen"/>very is here in perfection, dextrous Cut-Purses, and Pick pockets:</hi> I went to <note place="margin">Pick Pockets.</note> see the Dancing on the Ropes, which was admirable. Coming out I met a man that would have took off my Hat, but I secur'd it, and was going to draw my Sword, Crying out, <hi>Begar! Damn'd Rogue! Morblew,</hi> &amp;c. when on a sudden I had a hundred People about me, Crying here, Monsieur, See <hi>Jephtha's Rash Vow,</hi> here, Monsieur, see the <hi>Tall Dutch Woman;</hi> see the
+<pb n="28" facs="tcp:101781:20"/>
+               <hi>Tyger,</hi> says another; see the <hi>Horse and no Horse,</hi> whose Tayl, stands where his Head should do; see the <hi>German Artist,</hi> Monsieur; see the <hi>Siege of Namur,</hi> Monsieur: So that betwixt Rudeness and Civility, I was forc'd to get into a <hi>Fiacre,</hi> and with <note place="margin">
+                  <hi>P.</hi> 10.</note> 
+               <hi>an air of Hast, and a full Trot,</hi> got home to my Lodgings.</p>
+            <p>I was at St. <hi>James</hi>'s Park; there were no <hi>Pavillions, nor decoration of</hi> 
+               <note place="margin">Ducks. <hi>P.</hi> 207.</note> 
+               <hi>Treilliage, and Flowers;</hi> but I saw there a vast number of <hi>Ducks; these were a most</hi> surprising sight, <hi>I could not for<g ref="char:EOLhyphen"/>bear to say, to Mr.</hi> Johnson, <hi>who was pleased to Accompany me in this Walk, that sure all the Ponds in</hi> England <hi>had contributed to this profusion of</hi> Ducks; which he took so well, that he ran immediately to an Old Gentleman, that sate in a Chair, and was feeding of 'em, he rose up <hi>very obligingly, embraced me, and Saluted me with a Kiss,</hi> and invited me to Dinner; tel<g ref="char:EOLhyphen"/>ling me, he was infinitely oblig'd to me for flattering the King's Ducks.</p>
+            <div type="description">
+               <pb n="29" facs="tcp:101781:20"/>
+               <head>Of the Food of the Londoners.</head>
+               <p>
+                  <hi>The Diet of the Londoners consists</hi> 
+                  <note place="margin">Bread. <hi>P.</hi> 146.</note> 
+                  <hi>chiefly of Bread and Meat,</hi> which they use instead of <hi>Herbs. Bread is there as in</hi> Paris, <hi>finer and courser,</hi> according as they take out the Bran. This I ob<g ref="char:EOLhyphen"/>serv'd, that whereas we have a great deal of Cabbage, and but a little bit of Meat, they will have Monstrous pieces of Beef; I think they call 'em Rumps, and Buttocks, with a few Carrets, that stand at a distance as if they were fright'd; nay I have seen a thing they call a Sir-Loin, without any Herbs at all, so immense, that a <hi>French Footman</hi> could scarce set it upon the Table.</p>
+               <p>They use <hi>very white Salt,</hi> notwith<g ref="char:EOLhyphen"/>standing, <note place="margin">Salt. <hi>P.</hi> 147.</note> 
+                  <hi>I told 'em,</hi> the <hi>Gray Salt of</hi> France <hi>is incomparably better, and more wholesome.</hi>
+               </p>
+               <p>The <hi>Common people feed much upon</hi> Grey Pease, <hi>of which there are great</hi> 
+                  <note place="margin">Grey Pease. <hi>P.</hi> 148.</note> 
+                  <hi>Provisions made, and to be had ready Boiled.</hi> I believe they delight in 'em
+<pb n="30" facs="tcp:101781:21"/>
+most for Supper; for every Night there goes by a Woman crying, <hi>Hot Grey Pease, and Bacon.</hi> Though I take Pease to be too windy for Sup<g ref="char:EOLhyphen"/>per meat, and am inclinable to believe, that Hot Ox Cheek, and Bak'd War<g ref="char:EOLhyphen"/>dens, cried at the same time may be wholesomer.</p>
+               <p>
+                  <hi>Their Roots differ much from ours,</hi> 
+                  <note place="margin">Turneps. <hi>P.</hi> 149.</note> 
+                  <hi>there are no long</hi> Turneps, <hi>but round ones,</hi> Hackney <hi>near</hi> London <hi>it famous for this most excellent Root, they are most ex<g ref="char:EOLhyphen"/>cellent with boil'd and stew'd Mutton, and sometimes with stew'd Beef.</hi>
+               </p>
+               <p>I sound more <hi>Cabbage</hi> in <hi>London</hi> 
+                  <note place="margin">Cabbage <hi>P.</hi> 150.</note> than I expected, and I saw a great ma<g ref="char:EOLhyphen"/>ny reserves <hi>of old stalks in their publick Gardens.</hi> I ask'd the Reason. I was told the English were Fantastick, as to Herbs, and pulse; that one Trade, or Society of Men, fancied them and Cowcumbers, and that a whole Coun<g ref="char:EOLhyphen"/>try were as much admirers of Beans and Bacon; and this they thought might be the reason of it.</p>
+               <p>
+                  <pb n="31" facs="tcp:101781:21"/>
+                  <hi>Lettice is the great and Universal</hi> 
+                  <note place="margin">Lettice. <hi>P.</hi> 151.</note> 
+                  <hi>Sallet;</hi> But I did not find much <hi>Roman Lettice,</hi> because about Ten Years ago, a Gentleman sending his Footman to Market, he mistook, and ask'd for <hi>Papist Lettice</hi> and the ill Name has hindred the vent of it ever since.</p>
+               <p>There are several others in the Herb <note place="margin">
+                     <hi>P.</hi> 152. Ibid.</note> market, as <hi>Mints, Sorel, Parsley,</hi> ve<g ref="char:EOLhyphen"/>ry much us'd with Chickens, <hi>White Beets, Red Beets,</hi> and <hi>Asparagus;</hi> these they ty up in Bundles, and im<g ref="char:EOLhyphen"/>pose so far, as not to sell under a hun<g ref="char:EOLhyphen"/>dred at a time.</p>
+               <p>
+                  <hi>This City is well serv'd with Carp,</hi> 
+                  <note place="margin">
+                     <hi>P.</hi> 151. <hi>P.</hi> 152.</note> 
+                  <hi>Herrings, Cod, Sprats, Lobsters, and Mac<g ref="char:EOLhyphen"/>carel; of which there are such incredible quantities,</hi> that there is a publick al<g ref="char:EOLhyphen"/>lowance for <hi>Maccarel,</hi> as well as <hi>Milk,</hi> to be cried on <hi>Sundays.</hi>
+               </p>
+               <p>Being desirous to see the Markets, <note place="margin">
+                     <hi>P.</hi> 152. Mush<g ref="char:EOLhyphen"/>rooms.</note> I had a Friend that one Morning, carried me to <hi>Leaden hall.</hi> I desired to know what <hi>Mushrooms</hi> they had in the <hi>Market.</hi> I found but few at which <hi>I was surpris'd,</hi> for I have all my Life <hi>been very Curious and inquisitive about</hi>
+                  <pb n="32" facs="tcp:101781:22"/>
+this kind of <hi>Plant,</hi> but I was absolute<g ref="char:EOLhyphen"/>ly <note place="margin">P. 154.</note> astonish'd to find, as that for <hi>Champignons,</hi> and <hi>Moriglio's,</hi> they were as great strangers to 'em as if they had been bred in <hi>Japan.</hi>
+               </p>
+               <p>He promis'd to carry me to the Flesh Market, and there to make me <note place="margin">P. 153.</note> amends, but when I came there alas, there was a Thousand times too much of it, to be good, the sight of such a quantity was enough to surfeit one. I verily believe in my Conscience there were more Oxen, than Cabbages, and more Leggs of Mutton, than Heads of Garlick in the Market. What Barba<g ref="char:EOLhyphen"/>rous Soupes then must these poor people Eat! <hi>Their Veal,</hi> has not that beauti<g ref="char:EOLhyphen"/>ful <note place="margin">Soupes. <hi>P.</hi> 157.</note> Redness, which belongs to <hi>ours,</hi> and indeed their mutton seems more like it only it is Fatter, and their Beef is large and Fat, to that degree, that it is almost impossible to Roast it dry enough for to make it fit for any Christian (that has the least of our Country indisposition about him) to Eat it with any safety.</p>
+               <p>
+                  <pb n="33" facs="tcp:101781:22"/>
+There were several Mountains of <note place="margin">Chine of Beef.</note> this Beef, which they call'd Barons and Chines, which they told me were for one of the Sheriffs. I'll undertake with one of these Chines, together with Cabbage, Turneps, and other Roots, Herbs, and Onions Proportionable, to make Soup enough for the Parliament of <hi>Paris.</hi>
+               </p>
+               <p>
+                  <hi>The English People, by Custom, Covet</hi> 
+                  <note place="margin">
+                     <hi>P.</hi> 158. English no Lovers of stinking Meat.</note> 
+                  <hi>the freshest Meat, and cannot endure the least tendency to Putrefaction, which gives it a higher and salter Tast; for as Meat rots, it becomes more Urinous and Salt, which is all in all in the matter of Soups.</hi> I saw but one Fowl in the Market that was fit to be Eaten, its smell was deli<g ref="char:EOLhyphen"/>cious, and its colour of a beautiful Green; I desired my Friend to ask the Price, but the Poulterer told him it was sold to a <hi>French</hi> Merchant.</p>
+               <p>I have several other things that I <note place="margin">P: 159. P. 148. P. 174. <hi>Ibid.</hi> P. 178. P. 180.</note> might discourse of, as <hi>Kentish Pippins, Pears, Kidney-Beans, and Lentils. Preaching, Gaming, Coaching,</hi> Cart<g ref="char:EOLhyphen"/>ing, <hi>Walking, Sitting, Standing,</hi> &amp;c. I would likewise have given the Reader
+<pb n="34" facs="tcp:101781:23"/>
+the Cuts of the <hi>Nidus Trochili Angli<g ref="char:EOLhyphen"/>cani,</hi> or <hi>Weens Nest,</hi> a <hi>Stickleback, two Snails, two Grashoppers,</hi> and those ad<g ref="char:EOLhyphen"/>mirable Coins of <hi>Catathumpton,</hi> and <hi>Goclenia;</hi> But that my Bookseller said the Graver was out of the way. What may be wanting in this, some other Journeys, that I design to, the two Universities, <hi>Norwich, Bristol, Exeter, Canterbury,</hi> and other Trading Places, I hope will supply.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="postscript">
+            <pb facs="tcp:101781:23"/>
+            <head>Upon Reviewing my Notes, I find the following Remarkable Things omitted in my Treatise; which that the Publick may not want, I have thrown into a Postscript.</head>
+            <head type="sub">The Wines follow, and Waters to Drink.</head>
+            <p>
+               <hi>HAre-Court,</hi> has excellent Water, <note place="margin">
+                  <hi>P.</hi> 160. Water.</note> some people use <hi>New-River,</hi> o<g ref="char:EOLhyphen"/>thers <hi>Thames Water;</hi> I told them, that we had several Liquors in <hi>France,</hi> 
+               <note place="margin">P. 161.</note> 
+               <hi>as Vin de Bonne, Volne, Mulso, Chabre, Condrieu, and D' Arbris, Ratafia,</hi> other<g ref="char:EOLhyphen"/>wise <note place="margin">P. 164.</note> called <hi>Cherry-Brandy, Vattee, Fenoul<g ref="char:EOLhyphen"/>liet de l'Isle de Ree.</hi> He answer'd me, that he had a thousand such sort of Liquors, as <hi>Humtie Dumtie, Three Threads,</hi> 
+               <note place="margin">Humtie Dumtie, <hi>&amp;c.</hi>
+               </note> 
+               <hi>Four Threads, Old Pharoah, Knockdown, Hugmateè, Shouldreè, Clamber-Crown, Hot-Pots at Newgate-Market, Fox-comb, Blind Pinneaux, Stiffle,</hi> &amp;c.</p>
+            <p>
+               <pb facs="tcp:101781:24"/>
+I must not omit a famous sight in <hi>Drury Lane,</hi> a place remarkable for Mo<g ref="char:EOLhyphen"/>desty, and Piety, there is a sign of <hi>Six Doggs,</hi> that Plough'd an Acre of Ground, which I believe, may for want of Horses, be introduced into <hi>France, with good Effect.</hi> They have very good Mastiffs that may serve for Dragoons, but they will scarce fall up<g ref="char:EOLhyphen"/>on Protestants.</p>
+            <pb facs="tcp:101781:24"/>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,933 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hymns compos'd for the celebration of the holy ordinance of baptism By Joseph Stennett.</title>
+            <author>Stennett, Joseph, 1663-1713.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697?-1712?</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2004-03">2004-03 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A61410</idno>
+            <idno type="STC">Wing S5407A</idno>
+            <idno type="STC">ESTC R222337</idno>
+            <idno type="EEBO-CITATION">99833518</idno>
+            <idno type="PROQUEST">99833518</idno>
+            <idno type="VID">37995</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A61410)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 37995)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2063:23)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Hymns compos'd for the celebration of the holy ordinance of baptism By Joseph Stennett.</title>
+                  <author>Stennett, Joseph, 1663-1713.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>The second edition.</edition>
+               </editionStmt>
+               <extent>[2], 16 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for John Marshall, at the Bible in Grace-church-street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1725?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>After imprint: Price 2 d.</note>
+                  <note>A re-issue of pages from the first edition, dated 1712, with an added undated title page for the second edition.</note>
+                  <note>Wing conjectures imprint date of 1697?.</note>
+                  <note>With marginal notes.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Hymns, English --  Early works to 1800.</term>
+               <term>Baptism --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-09</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2003-10</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2003-10</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2003-12</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:37995:1" rendition="simple:additions"/>
+            <p>HYMNS
+Compos'd for the
+CELEBRATION
+OF THE
+HOLY ORDINANCE
+OF
+BAPTISM.</p>
+            <p>By JOSEPH STENNETT.</p>
+            <p>The Second Edition.</p>
+            <q>
+               <bibl>Luke 15. 10.</bibl>
+               <p>—<hi>I say unto you, there is Ioy in
+the Presence of the Angels of God, over one Sin<g ref="char:EOLhyphen"/>ner
+that repenteth.</hi>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for JOHN MARSHALL, at
+the <hi>Bible</hi> in <hi>Grace-church-street.</hi> Price 2 <hi>d.</hi>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:37995:2"/>
+            <pb facs="tcp:37995:2"/>
+            <p>HYMNS
+Compos'd for the
+CELEBRATION
+OF THE
+Holy Ordinance
+OF
+BAPTISM.</p>
+            <p>By JOSEPH STENNETT.</p>
+            <q>
+               <bibl>Luke 15. 10.</bibl>
+               <p>—I say unto you, there is Ioy in
+the Presence of the Angels of God, over one
+Sinner that repenteth.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>I. Darby,</hi> and sold by
+<hi>I. Baker</hi> at <hi>Mercers-Chappel</hi> in <hi>Cheapside,</hi> and
+<hi>I. Clark</hi> at the Bible and Crown in the <hi>Old
+Change.</hi> 1712. Price 2 <hi>d.</hi>
+            </p>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:37995:3"/>
+            <head>BOOKS written by the same
+Author.</head>
+            <p>HYMNS in Commemoration of the
+Sufferings of our Blessed Saviour Je<g ref="char:EOLhyphen"/>sus
+Christ, compos'd for the Celebration
+of his Holy Supper. The third Edition
+enlarg'd.</p>
+            <p>A Version of <hi>Solomon</hi>'s <hi>Song of Songs,</hi> fit
+to be bound with these Hymns.</p>
+            <p>Advice to the Young, or the Reasona<g ref="char:EOLhyphen"/>bleness
+and Advantages of an early Con<g ref="char:EOLhyphen"/>version,
+in 3 Sermons on <hi>Eccles.</hi> 12. 1.</p>
+            <p>A Thanksgiving Sermon for the late
+Glorious Victory obtain'd over the <hi>French</hi>
+and <hi>Bavarians</hi> at <hi>Blenheim</hi> near <hi>Hochstet.</hi>
+            </p>
+            <p>A Thanksgiving Sermon, preach'd <hi>Iune</hi>
+26. 1706. on occasion of the Battel of <hi>Ra<g ref="char:EOLhyphen"/>milly,</hi>
+and raising the Siege of <hi>Barcelona.</hi>
+            </p>
+            <p>A Thanksgiving Sermon, preach'd <hi>May</hi> 1.
+1707. for the Happy Union of <hi>England</hi> and
+<hi>Scotland.</hi>
+            </p>
+            <p>An Answer to Mr. <hi>Russen</hi>'s Book, inti<g ref="char:EOLhyphen"/>tled,
+<hi>Fundamentals without a Foundation, or a
+true Picture of the Anabaptists,</hi> &amp;c.</p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="hymn">
+            <pb n="3" facs="tcp:37995:3"/>
+            <head>HYMNS
+FOR
+BAPTISM.</head>
+            <head>HYMN I.</head>
+            <lg>
+               <l>OUR LORD, when cloth'd with
+mortal Flesh,</l>
+               <l>Tho free from every sinful Stain,<note place="margin">1 Tim. 3. 16.</note>
+               </l>
+               <l>Wou'd be Baptiz'd,<note place="margin">Heb. 7. 26.</note> that Men to
+trace</l>
+               <l>His sacred Steps might not disdain.<note place="margin">Mat. 3. 15.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Nay more—He was all plung'd in Tears,<note place="margin">Heb. 5. 7.</note>
+               </l>
+               <l>And bath'd in bloody Sufferings too:</l>
+               <l>What Fountain was requir'd to wash</l>
+               <l>Our guilty Souls,<note place="margin">Heb. 9. 22.</note> his Wounds will shew!</l>
+            </lg>
+            <lg>
+               <l>Thy Blood,<note place="margin">Ioh. 1. 7.</note> dear LORD, can cleanse from a Sin,</l>
+               <l>This in our Baptism we confess;</l>
+               <l>'Tis for its cleansing Virtue we<note place="margin">Psal. 31. 2.</note>
+               </l>
+               <l>Our Prayers and Vows to thee address.</l>
+            </lg>
+            <lg>
+               <l>Bury'd with great Solemnity<note place="margin">Rom. 6. 3. 4, 5.</note>
+               </l>
+               <l>In thy Baptismal Sepulchre,</l>
+               <l>We are reviv'd, and rais'd again,</l>
+               <l>White Robes of Righteousness to wear.<note place="margin">Rev. 19. 8.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:37995:4"/>
+               <l>And, as thy Sacred Word declares,</l>
+               <l>At the Great Resurrection-Day</l>
+               <l>Our Bodies shall be rais'd and chang'd,<note place="margin">Phil. 3. 21.</note>
+               </l>
+               <l>And be adorn'd with bright Array.<note place="margin">Rev. 7. 9.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="2" type="hymn">
+            <head>HYMN II.</head>
+            <lg>
+               <l>THE sacred Body of our LORD,</l>
+               <l>Which on the Cross had bled,<note place="margin">Mat. 20. 19</note>
+               </l>
+               <l>Three Days lay bury'd in the Grave,<note place="margin">Mat. 12. 40</note>
+               </l>
+               <l>And then rose from the Dead.</l>
+            </lg>
+            <lg>
+               <l>His Presence the desponding Hearts<note place="margin">Luk. 24. 31.</note>
+               </l>
+               <l>Of his Disciples chears:</l>
+               <l>His Voice they hear,<note place="margin">Iohn 20. 20-28.</note> his Scars survey,</l>
+               <l>Which banish Doubts and Fears.</l>
+            </lg>
+            <lg>
+               <l>Explaining Oracles divine,<note place="margin">Luk. 24. 32</note>
+               </l>
+               <l>Their Ears and Souls he charms;</l>
+               <l>His Order to convert the World,</l>
+               <l>Their drooping Courage warms.</l>
+            </lg>
+            <lg>
+               <l>For thus the Mediator spoke,<note place="margin">Mat. 28. 18</note>
+               </l>
+               <l>" All Power in Earth and Heav'n</l>
+               <l>" To Me, triumphant o'er the Grave,</l>
+               <l>" Is by my Father giv'n.</l>
+            </lg>
+            <lg>
+               <l>" Go therefore teach the Nations all<note place="margin">Ver. 19.</note>
+               </l>
+               <l>" What you have learn'd of Me;<note place="margin">Mark 15. 15, 16.</note>
+               </l>
+               <l>" Baptize 'em in the awful Name</l>
+               <l>" Of the Eternal <hi>Three.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:37995:4"/>
+               <l>" Teach 'em whatever I command;<note place="margin">Ver. 20.</note>
+               </l>
+               <l>" My Presence I assure,</l>
+               <l>" To crown your Labours with Success,</l>
+               <l>" While Heaven and Earth endure.</l>
+            </lg>
+            <lg>
+               <l>LORD! we thy wondrous Grace adore,</l>
+               <l>Thy awful Word revere;</l>
+               <l>Thy Death and thy Revival both<note place="margin">Col. 2. 12.</note>
+               </l>
+               <l>Our Baptism makes appear.<note place="margin">Rom. 6. 3, 4.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>The Promise of thy Presence now<note place="margin">Mat. 18. 20</note>
+               </l>
+               <l>Does glad Expectance raise;<note place="margin">Ioh. 14. 18.</note>
+               </l>
+               <l>Hope of thy second Coming fills<note place="margin">Heb. 9. 28.</note>
+               </l>
+               <l>Our Souls with Joy and Praise:<note place="margin">Luk. 21. 28</note>
+               </l>
+            </lg>
+            <lg>
+               <l>'Tis then the Dead thy Voice shall hear,<note place="margin">Ioh. 5. 25.</note>
+               </l>
+               <l>The Dead thy Voice obey;</l>
+               <l>Thy Saints, who sleep in dust,<note place="margin">Dan. 12. 2, 3.</note> awake</l>
+               <l>To Joy's Eternal Day.<note place="margin">1 Thess. 4. 14, 15, 16.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="3" type="hymn">
+            <head>HYMN III.</head>
+            <lg>
+               <l>COME lowly Souls that mourn,<note place="margin">Mat. 11. 28</note>
+               </l>
+               <l>Depress'd with Guilt and Shame;<note place="margin">Ch. 5. 4.</note>
+               </l>
+               <l>Wash'd in your Saviour's sacred Blood,<note place="margin">Rev. 1. 5.</note>
+               </l>
+               <l>Now call upon his Name.<note place="margin">Act. 22. 16.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Rejoice you contrite Hearts,<note place="margin">Isa. 57. 15.</note>
+               </l>
+               <l>That tremble at his Word,<note place="margin">Ch. 66. 2.</note>
+               </l>
+               <l>In the Baptismal Laver plung'd,<note place="margin">Tit. 3. 5.</note>
+               </l>
+               <l>As was your Humble LORD.<note place="margin">Mat. 3. 13, 14.</note>
+               </l>
+            </lg>
+            <pb n="4" facs="tcp:37995:5"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="5" facs="tcp:37995:5"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <lg>
+               <pb n="6" facs="tcp:37995:6"/>
+               <l>Bath'd in Repenting Tears,</l>
+               <l>The Sins which you deplore</l>
+               <l>Dead in your Saviour's Grave shall lie,<note place="margin">1 Cor. 15. 55, 56, 57.</note>
+               </l>
+               <l>And shall be seen no more.<note place="margin">Gal. 5. 24.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Come pious Candidates</l>
+               <l>Of Grace and Glory too,<note place="margin">Rev. 19. 8.</note>
+               </l>
+               <l>Praise your Redeemer's Love,<note place="margin">Ch. 3. 4.</note> and tell</l>
+               <l>What he has done for you.<note place="margin">Ps. 66. 16.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Unspotted Robes you wear,<note place="margin">Eph. 5. 26, 27.</note>
+               </l>
+               <l>Your Sighs to Songs are turn'd;</l>
+               <l>Garments of Praise adorn you now,<note place="margin">Isa. 61, 2, 3.</note>
+               </l>
+               <l>Who late in Ashes mourn'd.</l>
+            </lg>
+            <lg>
+               <l>Your LORD and you are risen,<note place="margin">Col. 3. 1, 2.</note>
+               </l>
+               <l>Aspire to things above:<note place="margin">Ioh. <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>7. 22, 23, 24.</note>
+               </l>
+               <l>Where he resides, there you shall dwell</l>
+               <l>In Realms of Light and Love.<note place="margin">Rev. 22. 5.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="4" type="hymn">
+            <head>HYMN IV.</head>
+            <lg>
+               <l>WHEN th' antient World God's Pa<g ref="char:EOLhyphen"/>tience
+try'd,<note place="margin">Gen. 6. 5, 6, 7.</note>
+               </l>
+               <l>And long his threatning Vengeance dar'd,<note place="margin">1 Pet. 3. 19, 20.</note>
+               </l>
+               <l>The Righteous <hi>Noah</hi> Favour found,</l>
+               <l>His Family alone was spar'd.<note place="margin">Gen. 6. 8, 9.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>In secret Chambers of the Ark</l>
+               <l>They all secure from Danger lie,<note place="margin">Ch. 7. 11-24.</note>
+               </l>
+               <l>When th' Ocean's Banks were broke, and
+Floods</l>
+               <l>Burst through the Windows of the Sky.</l>
+            </lg>
+            <lg>
+               <pb n="7" facs="tcp:37995:6"/>
+               <l>Proud Waters o'er the Mountains roll,<note place="margin">Ver. 19.</note>
+               </l>
+               <l>And common Ruin widely spread;</l>
+               <l>Yet the bless'd Patriarch's House survives,<note place="margin">Ver. 23.</note>
+               </l>
+               <l>When all Mankind beside were dead.</l>
+            </lg>
+            <lg>
+               <l>At the Almighty's awful Word<note place="margin">Ch. 8.</note>
+               </l>
+               <l>Th' obsequious Floods retire again;</l>
+               <l>And <hi>Noah</hi> from his mystick Tomb</l>
+               <l>Peoples the ruin'd Earth with Men.<note place="margin">Ch. 9. 1.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>So to restore a World o'erwhelm'd<note place="margin">1 Pet. 3. 21.</note>
+               </l>
+               <l>With Guilt and Misery,<note place="margin">Eph. 2. 1, 2.</note> dead in Sins</l>
+               <l>Our SAVIOUR rising from the Grave,<note place="margin">Rom. 5. 24.</note>
+               </l>
+               <l>Another Race of Men begins;<note place="margin">Col. 3. 10<g ref="char:punc">▪</g>
+                  </note>
+               </l>
+            </lg>
+            <lg>
+               <l>New Creatures of a Heavenly Form,<note place="margin">2 Cor. 5. 17<g ref="char:punc">▪</g>
+                  </note>
+               </l>
+               <l>Whose Souls his Sacred Image bear;<note place="margin">Ch. 3. 18.</note>
+               </l>
+               <l>While dead to Sin, they live to God,<note place="margin">Rom. 6. 11<g ref="char:punc">▪</g> 12.</note>
+               </l>
+               <l>And spotless in white Robes appear.<note place="margin">Rev. 3. 5.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Bury'd in their Redeemer's Grave,<note place="margin">Rom. 6. 3.</note>
+               </l>
+               <l>With Him they live, with Him they rise;<note place="margin">1 Ioh. 5. 1<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g>
+                  </note>
+               </l>
+               <l>While the lost Race of Human Kind<note place="margin">Ver. 19.</note>
+               </l>
+               <l>Delug'd with Sin and Ruin lies.<note place="margin">Mat. 24. 28, 29.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>O Happy Souls whom Grace revives!<note place="margin">Philip. 3. 20, 21.</note>
+               </l>
+               <l>Their Bodies too their LORD will raise,</l>
+               <l>Refin'd and fit for Holy Souls,<note place="margin">1 Ioh. 3. 2<g ref="char:punc">▪</g>
+                  </note>
+               </l>
+               <l>To see his Face, and sing his Praise.<note place="margin">Rev. 5. 9<g ref="char:punc">▪</g> 10.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="5" type="hymn">
+            <pb n="8" facs="tcp:37995:7"/>
+            <head>HYMN V.</head>
+            <lg>
+               <l>THUS was the Great Redeemer plung'd</l>
+               <l>In <hi>Iordan</hi>'s swelling Flood;<note place="margin">Mat. 3. 13.</note>
+               </l>
+               <l>To shew he'd one day be baptiz'd</l>
+               <l>In Tears,<note place="margin">Heb. 5. 7.</note> in Sweat,<note place="margin">Luk. 22. 44.</note> and Blood.</l>
+            </lg>
+            <lg>
+               <l>Thus was his Sacred Body laid</l>
+               <l>Beneath the yielding Wave;<note place="margin">Col. 2. 12.</note>
+               </l>
+               <l>Thus was his Sacred Body rais'd</l>
+               <l>Out of the liquid Grave.</l>
+            </lg>
+            <lg>
+               <l>When lo! from Realms of Light and Bliss</l>
+               <l>The Heavenly Dove comes down,<note place="margin">Mat. 3. 16.</note>
+               </l>
+               <l>Lights on his venerable Head,</l>
+               <l>Which Rays of Glory crown.</l>
+            </lg>
+            <lg>
+               <l>While his Eternal Father's Voice</l>
+               <l>An awful Joy excites;<note place="margin">Ver. 17.</note>
+               </l>
+               <l>" This is my well-beloved Son,</l>
+               <l>" In whom my Soul delights.</l>
+            </lg>
+            <lg>
+               <l>The mystick Rite his Death describ'd,<note place="margin">Rom. 6. 3. 4, &amp;c.</note>
+               </l>
+               <l>His Burial did foreshew</l>
+               <l>The quickening of his Sacred Flesh,</l>
+               <l>His Resurrection too.</l>
+            </lg>
+            <lg>
+               <l>LORD, thy own Precept we obey,<note place="margin">Mat. 28. 19.</note>
+               </l>
+               <l>In thy own Footsteps tread,<note place="margin">Mat. 3. 15.</note>
+               </l>
+               <l>We die,<note place="margin">Col. 3. 1, 2.</note> are bury'd, rise with Thee</l>
+               <l>From Regions of the Dead.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:37995:7"/>
+               <l>O may the Spirit of Truth and Love</l>
+               <l>His Power on us display,<note place="margin">Ioh. 14. 17.</note>
+               </l>
+               <l>Approve our Vows,<note place="margin">Eph. 4. 30.</note> and seal our Souls</l>
+               <l>To the Redemption-Day!</l>
+            </lg>
+         </div>
+         <div n="6" type="hymn">
+            <head>HYMN VI.</head>
+            <lg>
+               <l>O Bless'd Redemer!<note place="margin">Ioh. 19. 34. 35.</note> in thy Side</l>
+               <l>Upon the Cross was made a Wound,</l>
+               <l>The Bath where we are purg'd from Sin,<note place="margin">1 Ioh. 1. 7.</note>
+               </l>
+               <l>And where our Guilt's intirely drown'd.<note place="margin">Mic. 7. 19.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Water and Blood hence freely ran,<note place="margin">1 Ioh. 5. 6.</note>
+               </l>
+               <l>And on the trembling Earth were spilt;<note place="margin">Mat. 27. 51.</note>
+               </l>
+               <l>Water to sanctify and cleanse,<note place="margin">Tit. 3. 5.</note>
+               </l>
+               <l>Blood to atone for Crimson Guilt.<note place="margin">Heb. 9. 22.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>This wondrous Grace to represent</l>
+               <l>Baptismal Waters were design'd,<note place="margin">Act. 22. 16.</note>
+               </l>
+               <l>In which thou, LORD,<note place="margin">Mark 1. 9.</note> was't bury'd too,</l>
+               <l>To thy great Father's Will resign'd.<note place="margin">Mat. 3. 15, 16.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus Penitents who die to Sin,</l>
+               <l>With Thee are bury'd in thy Grave;<note place="margin">Col. 2. 12.</note>
+               </l>
+               <l>Thus quicken'd to a Life Divine,<note place="margin">Rom. 6. 4, 5, &amp;c.</note>
+               </l>
+               <l>Their Souls a Resurrection have.</l>
+            </lg>
+            <lg>
+               <l>And tho their Bodies turn to Dust,</l>
+               <l>This Holy Symbol does assure,<note place="margin">Luk. 14. 14</note>
+               </l>
+               <l>The Resurrection of the Just</l>
+               <l>Shall render them all bright and pure.<note place="margin">1 Cor. 15. 42, 43, 44.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:37995:8"/>
+               <l>Made like his Body ours shall be,<note place="margin">Phil. 3. 21.</note>
+               </l>
+               <l>When Christ, who is our Life, appears;<note place="margin">Col. 3. 4.</note>
+               </l>
+               <l>Who to procure us Life,<note place="margin">Luk. 12. 50</note> was once</l>
+               <l>Baptiz'd in his own Blood and Tears.<note place="margin">Mar. 10. 38</note>
+               </l>
+            </lg>
+         </div>
+         <div n="7" type="hymn">
+            <head>HYMN VII.</head>
+            <lg>
+               <l>WHEN from <hi>Egyptian</hi> Slavery</l>
+               <l>The <hi>Hebrews</hi> were redeem'd,<note place="margin">Exod. 14.</note>
+               </l>
+               <l>The parted Seas and covering Cloud</l>
+               <l>A Grave to <hi>Israel</hi> seem'd:</l>
+            </lg>
+            <lg>
+               <l>But soon the joyful Tribes emerge,</l>
+               <l>And stand upon the shore,</l>
+               <l>With grateful Hearts and tuneful Tongues</l>
+               <l>Their Saviour's Name adore.<note place="margin">Exod. 15.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>He made th' obsequious Waves retire,<note place="margin">Exod. 14. 16.</note>
+               </l>
+               <l>His Favourite Tribes to save;</l>
+               <l>Made them a way to Liberty,<note place="margin">Ver. 26, 27, 28, &amp;c.</note>
+               </l>
+               <l>Where <hi>Egypt</hi> found a Grave.</l>
+            </lg>
+            <lg>
+               <l>Thus <hi>Iacob</hi>'s Sons baptiz'd of old</l>
+               <l>To <hi>Moses</hi> in the Sea,<note place="margin">1 Cor. 10. 1, 2.</note>
+               </l>
+               <l>Sav'd by God's Arm,<note place="margin">Exo. 20. 2.</note> themselves devote</l>
+               <l>His Statutes to obey.<note place="margin">Ch. 19. 4-9.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>So from the Bondage of our Sins,<note place="margin">Rom. 6. 11-18.</note>
+               </l>
+               <l>Redeem'd by Sovereign Grace,</l>
+               <l>We thro his watry Sepulchre</l>
+               <l>Our Saviour's Footsteps trace.<note place="margin">Mat. 3. 13, 1<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:37995:8"/>
+               <l>Our Sins, the worst of Enemies,</l>
+               <l>Are bury'd there and drown'd;<note place="margin">Col. 3. 5.</note>
+               </l>
+               <l>To a new Life our Souls are rais'd,<note place="margin">Gal. 2. 20.</note>
+               </l>
+               <l>With tender Mercy crown'd.<note place="margin">Col. 2. 13.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>To thee, O Jesus, may we live,<note place="margin">Rom. 14. 7, 8, 9.</note>
+               </l>
+               <l>Devoted to thy Fear;</l>
+               <l>Thee will we love, Thee will we praise,<note place="margin">1 Ioh. 5. 1, 2, 3.</note>
+               </l>
+               <l>And all thy Laws revere.</l>
+            </lg>
+         </div>
+         <div n="8" type="hymn">
+            <head>HYMN VIII.</head>
+            <lg>
+               <l>THE Great Redeemer we adore,</l>
+               <l>Who came the Lost to seek and save;<note place="margin">Luk. 19. 10</note>
+               </l>
+               <l>Went humbly down from <hi>Iordan</hi>'s Shore,<note place="margin">Mat. 3. 13.</note>
+               </l>
+               <l>To find a Tomb beneath a Wave.</l>
+            </lg>
+            <lg>
+               <l>" Thus it becomes us to fulfil</l>
+               <l>" All Righteousness,<note place="margin">Ver. 15.</note> he meekly said:</l>
+               <l>Why shou'd we then to do his Will</l>
+               <l>Or be asham'd, or be afraid?</l>
+            </lg>
+            <lg>
+               <l>With Thee into thy watry Tomb,</l>
+               <l>LORD, 'tis our Glory to descend;</l>
+               <l>'Tis wondrous Grace that gives us room</l>
+               <l>To lie inter'd by such a Friend!<note place="margin">Rom. 6. 3, 4, &amp;c.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>But a much more tempestuous Flood</l>
+               <l>O'erwhelm'd thy Body and thy Soul;<note place="margin">Heb. 5. 7.</note>
+               </l>
+               <l>
+                  <hi>That</hi>'s plung'd in Tears,<note place="margin">Luk. 22. 44.</note> and Sweat, and
+Blood,<note place="margin">Mat. 26. 38</note>
+               </l>
+               <l>And over <hi>this</hi> black Terrors roll.<note place="margin">Ch. 27. 46,</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="12" facs="tcp:37995:9"/>
+               <l>Yet as the yielding Waves give way,</l>
+               <l>To let us see the Light again:</l>
+               <l>So on thy Resurrection-Day</l>
+               <l>The Bands of Death prov'd weak and vain.<note place="margin">Acts 2. 24.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus when Thou shalt again appear,<note place="margin">1 Cor. 15. 52, 53.</note>
+               </l>
+               <l>The Gates of Death shall open wide;</l>
+               <l>Our Dust thy powerful Voice shall hear,<note place="margin">Joh. 5. 25.</note>
+               </l>
+               <l>Shall rise and triumph at thy side.</l>
+            </lg>
+            <lg>
+               <l>These now vile Bodies then shall wear</l>
+               <l>A glorious Form resembling Thine;<note place="margin">Mat. 17. 2.</note>
+               </l>
+               <l>To be dissolv'd no more shall fear,<note place="margin">Rev. 20. 14</note>
+               </l>
+               <l>But with immortal Beauty shine.<note place="margin">Ch. 22. 3, 4.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="9" type="hymn">
+            <head>HYMN IX.</head>
+            <lg>
+               <l>WHEN fam'd <hi>Bethesda</hi>'s Waters flow'd,<note place="margin">Ioh. 5. 2, 3, 4.</note>
+               </l>
+               <l>By a descending Angel mov'd;</l>
+               <l>The wondrous Pool a sovereign Bath</l>
+               <l>For every Pain and Sickness prov'd.</l>
+            </lg>
+            <lg>
+               <l>Hither distemper'd Crouds repair,</l>
+               <l>Hither the Feeble, Lame, and Blind;</l>
+               <l>The first who steps into the Spring,</l>
+               <l>Leaves his Disease and Pains behind.</l>
+            </lg>
+            <lg>
+               <l>That languishing and dying Souls</l>
+               <l>A nobler Cure might freely meet,</l>
+               <l>The Son of God came down and stir'd</l>
+               <l>Baptismal Waters with his feet.<note place="margin">Mat. 3. 13, 14.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="13" facs="tcp:37995:9"/>
+               <l>LORD, 'tis but just we follow Thee,<note place="margin">1 Pet. 2. 21.</note>
+               </l>
+               <l>Who didst not scorn to lead the way,</l>
+               <l>Where we just see the Vale of Death,<note place="margin">Rom. 6. 3, 4, &amp;c.</note>
+               </l>
+               <l>Then view the Resurrection-Day.</l>
+            </lg>
+            <lg>
+               <l>Happy! who haste into the Flood</l>
+               <l>Where healing Virtues ever flow,<note place="margin">Iohn 5. 7.</note>
+               </l>
+               <l>Where filthy Lepers clean are made,<note place="margin">Isa. 53. 4.</note>
+               </l>
+               <l>The Blind to see, the Lame to go;<note place="margin">Mat. 8. 16, 17.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Where contrite Spirits heal their Wounds,<note place="margin">Isa. 61. 1.</note>
+               </l>
+               <l>And broken Hearts assuage their Pain;<note place="margin">Ch. 57. 15.</note>
+               </l>
+               <l>The Dead themselves new Life inspires,<note place="margin">Ioh. 5. 25.</note>
+               </l>
+               <l>They breathe,<note place="margin">Col. 3. 1.</note> they move, and rise again.</l>
+            </lg>
+            <lg>
+               <l>With lowly Minds, and lofty Songs,</l>
+               <l>Let all admire the SAVIOUR's Grace,</l>
+               <l>Till the great Rising-Day reveal<note place="margin">1 Ioh. 3. 2.</note>
+               </l>
+               <l>Th' immortal Glory of his Face.<note place="margin">Rev. 1. 16.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="10" type="hymn">
+            <head>HYMN X.</head>
+            <lg>
+               <l>IN such a Grave as this</l>
+               <l>The meek Redeemer lay,<note place="margin">Mat. 3. 13.</note>
+               </l>
+               <l>When He, our Souls to seek and save,<note place="margin">Luk. 19. 10.</note>
+               </l>
+               <l>Learn'd humbly to obey.</l>
+            </lg>
+            <lg>
+               <l>See how the spotless Lamb</l>
+               <l>Descends into the Stream!<note place="margin">1 Pet. 1. 19.</note>
+               </l>
+               <l>And teaches Sinners not to scorn</l>
+               <l>What Him so well became.<note place="margin">Mat. 3. 15.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:37995:10"/>
+               <l>His Body sanctifies</l>
+               <l>The salutary Flood,<note place="margin">Rom. 6. 3, 4, 5.</note>
+               </l>
+               <l>And teaches us to plunge our Souls<note place="margin">Act. 22. 16.</note>
+               </l>
+               <l>I'th' Fountain of his Blood.<note place="margin">Rev. 7. 14.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Oh! Sinners, wash away</l>
+               <l>Your Sins of Crimson Dye;<note place="margin">Isa. 1. 18.</note>
+               </l>
+               <l>Bury'd with him,<note place="margin">Col. 2. 12.</note> your Sins shall all</l>
+               <l>In dark Oblivion lie.</l>
+            </lg>
+            <lg>
+               <l>Rise,<note place="margin">Col. 3. 1, 2.</note> and ascend with Him,</l>
+               <l>A Heavenly Life to lead,</l>
+               <l>Who came to rescue guilty Men</l>
+               <l>From Regions of the Dead.<note place="margin">Heb. 2. 14, 15.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>LORD,<note place="margin">Isa. 38. 5.</note> see the Sinner's Tears,</l>
+               <l>Hear his Repenting Cry;</l>
+               <l>Speak,<note place="margin">Isa. 57. 15.</note> and his Contrite Soul shall live;</l>
+               <l>Speak,<note place="margin">Gal. 5. 24.</note> and his Sins shall die:</l>
+            </lg>
+            <lg>
+               <l>Speak with that mighty Voice,</l>
+               <l>Which one day wide shall spread</l>
+               <l>Its Summons thro the Earth and Sea,<note place="margin">Ioh. 5. 25.</note>
+               </l>
+               <l>To wake and raise the Dead.<note place="margin">Rev. 20. 13.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="11" type="hymn">
+            <head>HYMN XI.</head>
+            <lg>
+               <l>SEE in what Grave our Saviour lay,<note place="margin">Col. 2. 12.</note>
+               </l>
+               <l>Before he shed his precious Blood;</l>
+               <l>How he mark'd out the humble way</l>
+               <l>To Sinners thro the mystick Flood.<note place="margin">Mat. 3. 13, 14.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="15" facs="tcp:37995:10"/>
+               <l>The Sun of Righteousness his Beams,<note place="margin">Mal. 4. 2.</note>
+               </l>
+               <l>Tho so divinely fair and bright,</l>
+               <l>Immers'd in <hi>Iordan</hi>'s swelling Streams,</l>
+               <l>Submitting to this Holy Rite.</l>
+            </lg>
+            <lg>
+               <l>O <hi>Iordan!</hi> honour'd oft before!</l>
+               <l>What greater Glory would'st thou have,</l>
+               <l>Than CHRIST descending from thy Shore,</l>
+               <l>To find in thee a liquid Grave?</l>
+            </lg>
+            <lg>
+               <l>Thy Streams retir'd on either side,<note place="margin">Iosh. 3.</note>
+               </l>
+               <l>To th' Holy Ark once form'd a Way;</l>
+               <l>A Prophet's Mantle could divide</l>
+               <l>Thy willing Streams, taught to obey.<note place="margin">2 King. 2. 8.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Plung'd by the Holy Baptist's Hand,</l>
+               <l>Buried in thee our SAVIOUR lies:</l>
+               <l>Did not thy Waters wondring stand,<note place="margin">Psal. 114. 5.</note>
+               </l>
+               <l>To see Him die, and see Him rise?</l>
+            </lg>
+            <lg>
+               <l>Blest Sepulchre! where JESUS lay,</l>
+               <l>Which JESUS for us sanctifies!</l>
+               <l>Blest Flood!<note place="margin">Act. 22. 16.</note> to wash our Sins away,</l>
+               <l>And sink 'em so as ne'er to rise.<note place="margin">Ch. 2. 38.</note>
+               </l>
+            </lg>
+         </div>
+         <div n="12" type="hymn">
+            <head>HYMN XII.</head>
+            <lg>
+               <l>WHene'er one Sinner turns to God,</l>
+               <l>With contrite Heart and flowing Eyes,</l>
+               <l>The happy News makes Angels smile,<note place="margin">Luke. 1. 57.</note>
+               </l>
+               <l>And tell their Joys above the Skies.<note place="margin">V. 10.</note>
+               </l>
+            </lg>
+            <lg>
+               <pb n="16" facs="tcp:37995:11"/>
+               <l>Well may the Church below rejoice,</l>
+               <l>And eccho back the Heavenly Sound:</l>
+               <l>" This Soul was dead,<note place="margin">Luke 15. 32.</note> but now's alive;</l>
+               <l>" This Sheep was lost, but now is found.</l>
+            </lg>
+            <lg>
+               <l>See how the willing Converts trace</l>
+               <l>The Path their great Redeemer trod;<note place="margin">Mat. 15. 3.</note>
+               </l>
+               <l>And follow through his liquid Grave,</l>
+               <l>The meek,<note place="margin">Mat. 11. 29.</note> the lowly Son of God.</l>
+            </lg>
+            <lg>
+               <l>Here in the Holy Laver plung'd,<note place="margin">Tit. 3. 5.</note>
+               </l>
+               <l>Their Souls are cleans'd from every Stain;</l>
+               <l>They die,<note place="margin">Gal. 2. 19.</note> descend into the Tomb.</l>
+               <l>By Grace they live,<note place="margin">Col. 3. 1, 2.</note> and rise again.</l>
+            </lg>
+            <lg>
+               <l>Here they renounce their former Deeds,<note place="margin">Act 19. 18.</note>
+               </l>
+               <l>And to a Heavenly Life aspire:<note place="margin">Rom. 6. 3.</note>
+               </l>
+               <l>Their Rags for glorious Robes exchang'd,<note place="margin">Zech. 3. 3.</note>
+               </l>
+               <l>They shine in clean and white Attire.<note place="margin">Rev. 3. 5.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>O Sacred Rite!<note place="margin">Ch. 19. 8.</note> by this the Name</l>
+               <l>Of JESUS we to own begin;<note place="margin">Act. 19. 5.</note>
+               </l>
+               <l>This is our Resurrection's Pledg,<note place="margin">1 Pet. 3. 21.</note>
+               </l>
+               <l>And seals the Pardon of our Sin.<note place="margin">Act. 2. 38.</note>
+               </l>
+            </lg>
+            <lg>
+               <l>Glory to God on high be giv'n,<note place="margin">Luk. 2. 14.</note>
+               </l>
+               <l>Who shews this Grace to sinful Men:</l>
+               <l>Let Saints on Earth,<note place="margin">Rev. 7. 9-12</note> and Hosts of Heav'n,</l>
+               <l>In Consort joyn their loud <hi>AMEN.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:37995:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

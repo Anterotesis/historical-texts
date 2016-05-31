@@ -1,0 +1,835 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hosanna, or, Divine poems on the passion of Christ by Francis Quareles.</title>
+            <author>Quarles, Francis, 1592-1644.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1647</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 28 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-12">2005-12 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A56987</idno>
+            <idno type="STC">Wing Q97A</idno>
+            <idno type="STC">ESTC R2943</idno>
+            <idno type="EEBO-CITATION">12374915</idno>
+            <idno type="OCLC">ocm 12374915</idno>
+            <idno type="VID">60555</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A56987)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 60555)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 224:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Hosanna, or, Divine poems on the passion of Christ by Francis Quareles.</title>
+                  <author>Quarles, Francis, 1592-1644.</author>
+               </titleStmt>
+               <extent>[40] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Iohn Benson, and are to be sold at his shop ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1647.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jesus Christ --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2005-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2005-07</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-08</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2005-08</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-10</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:60555:1"/>
+            <pb facs="tcp:60555:1" rendition="simple:additions"/>
+            <p>HOSANNA,
+OR
+DIVINE POEMS
+ON THE PASSION
+OF CHRIST.</p>
+            <p>BY
+FRANCIS QUARELES.</p>
+            <p>LONDON,
+Printed for <hi>Iohn Benſon,</hi> and are to be ſold
+at his ſhop in Chancery Lane neare
+the <hi>Roules.</hi> 1647.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:60555:2"/>
+            <pb facs="tcp:60555:2"/>
+            <head>VPON THE DAY
+OF OVR SAVIOVRS
+NATIVITY.</head>
+            <l>THis day's a riddle for the God that made</l>
+            <l>This day, this day from his owne Creature had</l>
+            <l>His making too; his fleſh, and bone, and lim</l>
+            <l>And breath from her, that had her breath from him.</l>
+            <l>Th'unbribed Judge of Mans eternall doome</l>
+            <l>This day was Pris'ner in a Virgins wombe:</l>
+            <l>And the Lord Paramount of all the Earth</l>
+            <l>Was wanting a poore Tenement at his birth,</l>
+            <l>Into the Inne this meane gueſt muſt not come.</l>
+            <l>Strange, he that fills all roomes ſhould have no roome<g ref="char:punc">▪</g>
+            </l>
+            <l>
+               <pb facs="tcp:60555:3"/>
+The Sunne dropt from his ſpheare, and did decline</l>
+            <l>His unſhorne head to the Earth; his radiant ſhine</l>
+            <l>Peep'd from the windores of the Eaſt, to breath</l>
+            <l>New life on People in the ſhades of Death.</l>
+            <l>Deare Sunne ſince from thy ſphere thou once were ſent,</l>
+            <l>Here is a Soule, make it thy firmament.</l>
+         </div>
+         <div type="poem">
+            <head>Borne of a Virgin.</head>
+            <l>ALthough the eye of Faith, not reaſon can</l>
+            <l>Behold a Virgin Mother of a Man,</l>
+            <l>Yet Natraliſts affirme ſome things may breed</l>
+            <l>And have their propagation without ſeed.</l>
+            <l>As that rich crop of Peaſe which Story ſayes</l>
+            <l>Made Orford famous in our Granſires dayes</l>
+            <l>Th' admir'd Phoenix which admits no paire</l>
+            <l>In her perfumed aſhes leaves an heire.</l>
+            <l>
+               <pb facs="tcp:60555:3"/>
+And this <hi>Maiola</hi> dares to juſtifie</l>
+            <l>To be no falſe, but true hiſtory.</l>
+            <l>By ſeminall commixtion, I had bin</l>
+            <l>Diſtain'd, and ſoiled with originall ſin,</l>
+            <l>Pure muſt the Pipe, pure muſt the Conduit bee</l>
+            <l>That muſt convey water of-life to mee.</l>
+            <l>Our Sunne of righteouſneſſe when he would-ſhine</l>
+            <l>Vpon the world, chooſe <hi>Virgo</hi> for his ſigne.</l>
+         </div>
+         <div type="poem">
+            <head>Borne in Auguſtus time.</head>
+            <l>NOw was the man of men great <hi>Iulius</hi> ſlaine,</l>
+            <l>And with his blood had dy'd the chaire in graine</l>
+            <l>Hee ſate in, in the Senate: and the flood</l>
+            <l>Which ſtreamd from civill warre dri'd in his blood;</l>
+            <l>
+               <pb facs="tcp:60555:4"/>
+And now the milde <hi>Auguſtus</hi> ſate above</l>
+            <l>The Sphere of <hi>Rome</hi> like a propitious <hi>Iove.</hi>
+            </l>
+            <l>And with a milder influence clear'd the skies,</l>
+            <l>And purg'd theſe exhalations which did riſe</l>
+            <l>From ſo much blood effuſed: or was ſent</l>
+            <l>Like ſome <hi>Apollo</hi> to <hi>Romes</hi> firmament;</l>
+            <l>For in his ſunnie dayes was learnings ſpring,</l>
+            <l>All the Arts flouriſh'd, and each Muſe did ſing</l>
+            <l>The fulneſſe of all time, who will not thinke?</l>
+            <l>When Peace and Learning were ſo fairely link't?</l>
+            <l>When Wiſdome hadits flouriſh on the earth,</l>
+            <l>Then had the Wiſdome of the Father birth.</l>
+            <l>And when the Olive branch of Peace was ſhowne</l>
+            <l>Then, not before, the Prince of Peace came downe!</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:4"/>
+            <head>Borne in Winter.</head>
+            <l>PHlegmatick Winter on a bed of Snow</l>
+            <l>Lay ſpitting full of rhewme; the Sunne was now</l>
+            <l>Inn'd at the Goat; the melancholique Earth</l>
+            <l>Had her wombe bound, and hopeleſſe of the birth</l>
+            <l>Of one poore flowre, the fields, wood, meads, and all</l>
+            <l>Fear'd in this ſnowie ſheet a funerall,</l>
+            <l>Nor only ſenſeleſſe Plants were in decay</l>
+            <l>Man, who's a Plant revers'd, was worſe then they<g ref="char:punc">▪</g>
+            </l>
+            <l>He had a ſpirituall Winter, and bereft</l>
+            <l>Not of his leaves, but juyce, nay, nothing leſſe<g ref="char:punc">▪</g>
+            </l>
+            <l>His paſſive power to live was ſo abated</l>
+            <l>He was not to be rais'd, but new created.</l>
+            <l>When all things elſe were periſhed, and when</l>
+            <l>No flowers were, but in their cauſes, then</l>
+            <l>
+               <pb facs="tcp:60555:5"/>
+This wondrous Flower it ſelfe to act did bring,</l>
+            <l>And Winter was the Flowre <hi>leſſes</hi> ſpring.</l>
+         </div>
+         <div type="poem">
+            <head>Borne in the Night.</head>
+            <l>THe hav'ns was now but mask'd, and now forbids</l>
+            <l>His eyelike ſtarres to looke out of their lids,</l>
+            <l>For it had been a ſhame unto the night</l>
+            <l>If but one ſtarre had miſs'd ſo great aſight.</l>
+            <l>Or elſe it wa<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap> muffled in ſilent ſhade,</l>
+            <l>And dreſs'd in ſullen blacks, and was afraid</l>
+            <l>To let one ſtarre gaze out, for had it ſeene</l>
+            <l>This ſight, it had for ever blinded been.</l>
+            <l>There was a double night, a night of ſinne,</l>
+            <l>Darke Heav'n deſign'd the darkneſſe we were in</l>
+            <l>The darkneſſe, which through heav'n with ſilence roules</l>
+            <l>Was the ſad Emblem of our darkned ſoules.</l>
+            <l>
+               <pb facs="tcp:60555:5"/>
+Now when the Sun, which daily rounds the skies</l>
+            <l>Was gone to bed, this other Sunne did riſe;</l>
+            <l>For happy 'twas not fit there ſhould appeare</l>
+            <l>Two Suns at once, in the ſame Hemiſphere.</l>
+         </div>
+         <div type="poem">
+            <head>The Angels tell it to the
+Shepheards.</head>
+            <l>THere is a point of happineſſe a time ſe<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </l>
+            <l>Wherein felicity either muſt be met</l>
+            <l>Or miſs'd for ever; and that certaine now</l>
+            <l>
+               <hi>Is,</hi> when w'are at our Calllngs; from the Plow</l>
+            <l>
+               <hi>Rome</hi> painfull <hi>Quintus</hi> her Dictator makes.</l>
+            <l>While <hi>Matthew</hi> gathers toule, and cuſtome takes</l>
+            <l>Hee's call'd to write a Goſpell. At their Net</l>
+            <l>The ſonnes of <hi>Zebedee</hi> their converſions met.</l>
+            <l>
+               <pb facs="tcp:60555:6"/>
+And while theſe men ſtand Centinells and keep</l>
+            <l>Strict watd, and watch about their charge their ſheep,</l>
+            <l>They from themſelves are rapt with ſacred Hymnes;</l>
+            <l>And raviſh'd with a noiſe of Chernbimes.</l>
+            <l>That ſung this infants lullabie. The ſtorie</l>
+            <l>Hath ſome proportion with the Auditorie,</l>
+            <l>They Shepherds were, to them the tydings came<g ref="char:punc">▪</g>
+            </l>
+            <l>And the firſt Goſpel of the Holy Lambe.</l>
+         </div>
+         <div type="poem">
+            <head>Of the Starres that appeared
+to the wiſe men.</head>
+            <l>AStrologie hath this rule; Heav'ns ſeldome ſhine</l>
+            <l>With idle fires; like Prophets they devine</l>
+            <l>Stupendious events; That ſpark'ling beame</l>
+            <l>That did ſo long in <hi>Caſſiopia</hi> ſtreame,</l>
+            <l>
+               <pb facs="tcp:60555:6"/>
+And ſhot upon the world an angery glance,</l>
+            <l>Shew'd in its lookes the Maſſacree of <hi>France</hi>
+            </l>
+            <l>This Starre whoſe comming <hi>Balaam</hi> had profeſt,</l>
+            <l>From ſome wiſe men, thinke theſe wiſe men were gueſt</l>
+            <l>Not fram'd by Natures fingers, but the hand</l>
+            <l>That framed Nature did not move and ſtand</l>
+            <l>A non ſignificant, but it ſelfe a wonder,</l>
+            <l>Sew`d that a greater miracle lay under.</l>
+            <l>How was th' eternall Sonne obſcured here</l>
+            <l>A Stable was his Heav'n, a Crib his ſphere<g ref="char:punc">▪</g>
+            </l>
+            <l>Never had Sun ſuch an Eclips as this,</l>
+            <l>To want a Starre to ſhew <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en where it is.</l>
+         </div>
+         <div type="poem">
+            <head>Of the wiſe men.</head>
+            <l>LEt them not boaſt, that they firſt ſaw this Starre,</l>
+            <l>
+               <hi>A</hi> brawnie brainleſſe Clowne might goe as farre,</l>
+            <l>
+               <pb facs="tcp:60555:7"/>
+The Starre in <hi>Caſſiopea</hi> as I find.</l>
+            <l>
+               <hi>Ticho</hi> confeſſe, was ſhew'd him by a Hinde,</l>
+            <l>Wiſe though they were, they'd gone they knew not whether</l>
+            <l>Had this Starre then been ſent to lead them thither.</l>
+            <l>So that the Starre which did before them goe</l>
+            <l>Both ſhew'd them light, and ſhew'd their blindneſſe too.</l>
+            <l>But why a Starre? when God doth meane to woe us,</l>
+            <l>He uſeth meanes that are familiar to us.</l>
+            <l>
+               <hi>Peter</hi> a fiſher was, and with a draught</l>
+            <l>Of many fiſhes was the fiſher caught:</l>
+            <l>Theſe men were vers'd in Starres and well could read them</l>
+            <l>Therefore a Starre is choſe <gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>out to lead them.</l>
+            <l>How are men drawne to heaven the way they pleaſe,</l>
+            <l>A fiſh to<gap reason="illegible" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <hi>Peter,</hi> and a Starre takes theſe.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:7"/>
+            <head>Of the Innocents.</head>
+            <l>HArke what is that <hi>I</hi> heare? O tis the ſound</l>
+            <l>Of <hi>Rachel!</hi> cauſe her children can'nt be found.</l>
+            <l>
+               <hi>Herod</hi> that <hi>Fox:</hi> ſo is his title good</l>
+            <l>He ſlayes the tender Lambs, and ſucks their blood.</l>
+            <l>Strange tempered hearts whoſe edges would not yeeld</l>
+            <l>Suppled with all the teares that day were ſpild;</l>
+            <l>Hearts of the Rock which like to Diamonds muſt</l>
+            <l>Be cut, or ner'e be cut, with their owne duſt.</l>
+            <l>There a child giving death a lovely looke</l>
+            <l>Smiles on his executioner; there an other</l>
+            <l>Aſleep is ſlaine; Sleep chang'd to death his brother</l>
+            <l>
+               <hi>Dennis</hi> who ſweats to put on ranke and file</l>
+            <l>Heav'ns Spirits by nine orders; doth beguile</l>
+            <l>
+               <pb facs="tcp:60555:8"/>
+Himſelfe and me; his memorie was too blame</l>
+            <l>This order of the Innocents not to name.</l>
+         </div>
+         <div type="poem">
+            <head>Of St. Stephen.</head>
+            <l>SOme names are ominous, wherein wiſe fate</l>
+            <l>Writes in fare Characters mens future ſtate</l>
+            <l>
+               <hi>Hippolitus</hi> who ſcorn'd inceſtuou<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſports</l>
+            <l>Was torne with horſes, as his name imports.</l>
+            <l>
+               <hi>Stephen</hi> was a Crowne, which ſhew'd in time to come</l>
+            <l>He ſhould put on the Crown of Martyrdome.</l>
+            <l>A Crowne enchas'd with ſtones, nay ſuch a one</l>
+            <l>Earth cannot boaſt, 'twas all of precious ſtone;</l>
+            <l>The ſtorme of ſtones which at this Martyr flew</l>
+            <l>Recoild, inriched with an Orient hue.</l>
+            <l>The meaneſt flint which at this Saint was throwne,</l>
+            <l>Reflects a Rubie, or ſome richer ſtone<g ref="char:punc">▪</g>
+            </l>
+            <l>
+               <pb facs="tcp:60555:8"/>
+The ſtones advanced to a heap, become</l>
+            <l>As firſt our Martyrs Crowne, ſo now his tombe.</l>
+            <l>Muſe, make a Pagan wonder: thus ſet down,</l>
+            <l>Here lyes a man intombed in his crowne.</l>
+         </div>
+         <div type="poem">
+            <head>Of our Saviours Circumci<g ref="char:EOLhyphen"/>ſion,
+or New-yeares day.</head>
+            <l>THe ſeventh day from his birth, he did begin</l>
+            <l>Obedience to the Law and pawnd his s<gap reason="illegible" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n,</l>
+            <l>He would fulfill it; when <hi>Ziskas</hi> houre was come</l>
+            <l>He ſhould expire, he bad them make a Drum</l>
+            <l>Ofs' skin, conceited it would ſcare the foe</l>
+            <l>'Twas ſtrange antipothie, if it would doe ſo.</l>
+            <l>But this ſmall peece of skin was ſuch a ſpell</l>
+            <l>It ſcar'd the ſootie Regimen<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s of Hell.</l>
+            <l>
+               <pb facs="tcp:60555:9"/>
+Hee as a Prince a Crowne like Princes weares,</l>
+            <l>And Thornes are th' Emblemes of a Princes cares:</l>
+            <l>The Church a Lilly amongſt Thornes doth grow,</l>
+            <l>And as the Churches head himſelf doth ſo.</l>
+            <l>When <hi>Romes</hi> Dictators did a Conqueſt bring</l>
+            <l>From ſome ſackt Towne, or from ſome petty King</l>
+            <l>Triumphing Palme, and Temples crowning Bayes</l>
+            <l>Circling their browes ſhot from their head like rayes.</l>
+            <l>Here Hell was captive, Death it Triumph borne.</l>
+            <l>And yet Victors head but crown'd with Thorne:</l>
+            <l>Peace; 'twas <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> his blood had dide the twigs</l>
+            <l>And chang'd <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of Corrall ſprigs,</l>
+            <l>Or ſtain'd the buds, ſo <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> bluſh</l>
+            <l>Out-vied the Engliſh or the Province buſh.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:9"/>
+            <head>They gave him Vineger and
+Gall, Mat. 27. And Wine ming<g ref="char:EOLhyphen"/>led
+with Myrrh, Mark 15.</head>
+            <l>WHen one was on the curſed tree to die,</l>
+            <l>They gave Narcotick drinke to ſtupifie</l>
+            <l>And dull the motion of the active ſenſe</l>
+            <l>So to allay the racking violence</l>
+            <l>Of his ſharpe tortures, and the Rabbins ſay</l>
+            <l>That theſe compounded potions were they</l>
+            <l>Give Wine to men ready to quit their breath,</l>
+            <l>Vineger is his preparative to Death;</l>
+            <l>Hee muſt have nought but Vineger who hath</l>
+            <l>Trod in the Wine-preſſe of his Fathers wrath.</l>
+            <l>
+               <pb facs="tcp:60555:10"/>
+Thoſe lips that once like honey combs diſtill'd</l>
+            <l>Are now with gall in ſtead of honey fill'd.</l>
+            <l>And he's preſented with a draught of gall,</l>
+            <l>Whoſe innocence before had none at all.</l>
+            <l>One of the Wiſe-men that to <hi>Betblem</hi> went</l>
+            <l>To doe him homage, did him Myrh preſent.</l>
+            <l>So they did here, but in a different caſe</l>
+            <l>'Twas there in honour, here in his diſgrace.</l>
+         </div>
+         <div type="poem">
+            <head>They compell'd Simon of Syrene to
+beare his Croſſe.</head>
+            <l>HE could not beare his croſſe, his croſſe muſt try</l>
+            <l>To beare the burthen of his Majeſty,</l>
+            <l>A burthen which the Legendaries write</l>
+            <l>Made <hi>Chriſtopher</hi> to ſtoope, maugre his might,</l>
+            <l>
+               <pb facs="tcp:60555:10"/>
+Which maz'd him, till 'twas whiſper'd in his eare</l>
+            <l>He had borne him, that all the world did beare.</l>
+            <l>His Yoke is eaſie; yet on him they lay</l>
+            <l>A heavie croſſe to carry; who dares ſay</l>
+            <l>That this was juſt? yet thus we men requite</l>
+            <l>Him, who profeſſed that his burthen's light,</l>
+            <l>But this 'twas made it heavie, there came in</l>
+            <l>His Fathers wrath to boot, and the worlds fin.</l>
+            <l>Poore <hi>Simon</hi> then comming out of the field</l>
+            <l>Where haply he had plow'd, not us'd a Shield;</l>
+            <l>Receives the croſſe for's armes; no Herauld can</l>
+            <l>Produce me ſuch another Gentleman.</l>
+            <l>So he walkes on to <hi>Golgotha,</hi> where hee</l>
+            <l>Commends his Saviour to the fatall Tree</l>
+            <l>Where Death and Life were wond in mutuall ſtrife,</l>
+            <l>It was his tree of death, our tree of life.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:11"/>
+            <head>Crucified.</head>
+            <l>THoſe hands, which Heav'n like to a curten ſpred,</l>
+            <l>Are ſpred upon the Croſſe: thoſe hands which did</l>
+            <l>Conſolidate the metals in the ground,</l>
+            <l>One of thoſe metals gave thoſe hands the wound:</l>
+            <l>See his hands ſpred, as if he meant to grace</l>
+            <l>His Executioners with his laſt embrace,</l>
+            <l>Nay, all the world: for if his fiſt can hold</l>
+            <l>The winds, his armes can all the world enfold.</l>
+            <l>See there <hi>Longinus</hi> with his ruder ſpeare</l>
+            <l>Peirce his Diviners ſide, from whence appeare</l>
+            <l>Water and blood, whoſe white and red preſent</l>
+            <l>Th'admitting and confirming Sacrament.</l>
+            <l>
+               <pb facs="tcp:60555:11"/>
+See here his feet nail'd to the Croſſe, which done</l>
+            <l>Thoſe feet with ſtreames of purple did ſo runne,</l>
+            <l>That in one ſenſe it might be underſtood</l>
+            <l>Our Saviours feet were ſwift to ſhed blood:</l>
+            <l>His hands and feet thus forced to obey</l>
+            <l>The cruell nailes command; may we not ſay</l>
+            <l>The Starre that out of <hi>Jacob</hi> ſhin'd ſo farre</l>
+            <l>Was then, or never made a fixed Starre?</l>
+         </div>
+         <div type="poem">
+            <head>Crucified between two
+Theeves.</head>
+            <l>VVHat, reckon'd amongſt rogues? mixt with the rabble</l>
+            <l>D<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſvail'd like the jewell in the fable</l>
+            <l>Caſt in the count 'mongſt theeves? what coine is he</l>
+            <l>In Jury ſtamp'd, yet there not currant be?</l>
+            <l>
+               <pb facs="tcp:60555:12"/>
+They ſhould not for inſcription ſake refuſe</l>
+            <l>Ieſus of Nazareth King of the Iewes;</l>
+            <l>A Peece ſo rich, no Angell that could make it</l>
+            <l>So good, the Devill was content to take it.</l>
+            <l>When mans arreareages for ſinne were paid,</l>
+            <l>And the whole ranſome of the world defraid</l>
+            <l>Thoſe Moraliſts who anciently did dreame</l>
+            <l>Vertue was not a meant, but an extreame,</l>
+            <l>If they had ſeene him placed thus, would ſweare</l>
+            <l>Vertue was in the midſt, for he was there,</l>
+            <l>And by his preſence made it plaine to try</l>
+            <l>How Vertue look'd ſet by her contrary.</l>
+            <l>And yet his glory had not an addition</l>
+            <l>Of luſtre lent it by this oppoſition;</l>
+            <l>To ſet him off, he ſtood in need of none</l>
+            <l>No foile was needfull for ſo rich a Stone.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:12"/>
+            <head>The Earth did quake.</head>
+            <l>REſt is the property her creator gave her,</l>
+            <l>But now a Palſey makes her veins to quaver:</l>
+            <l>How can't to paſſe, that wind cholique ſtrove</l>
+            <l>In the Earths bowels, and did make her move.</l>
+            <l>Shee once was built ſo firmely on her baſe</l>
+            <l>Shee need not feare a ſhouldering from her place,</l>
+            <l>'Tis true; but wa'ſt not time to ſtirre, when hee</l>
+            <l>That faſtned her, was faſtned to a tree.</l>
+            <l>When he was in his loweſt declination,</l>
+            <l>Then duſt and aſhes had their exaltation.</l>
+            <l>And the Earth rous'd lier ſelfe, as if ſhee meant</l>
+            <l>To be no more the loweſt element.</l>
+            <l>Or ſince his deaths-men did ſo bouldly dare,</l>
+            <l>Shee taught them by example how to feare.</l>
+            <l>
+               <pb facs="tcp:60555:13"/>
+The Earth did put on man, and trembling ſhooke,</l>
+            <l>Man put on earth, and no amazement tooke;</l>
+            <l>Sure this will aggravate thoſe mens offence</l>
+            <l>The Earth ſhow'd reaſon, and the men no ſenſe.</l>
+         </div>
+         <div type="poem">
+            <head>The Sunne was in a totall E<g ref="char:EOLhyphen"/>clips,
+and not as naturally it
+ſhould have been in the
+Sign with the Moon.</head>
+            <l>TWo Suns were ſeene, when <hi>Charles</hi> the Great de<g ref="char:EOLhyphen"/>ceaſt</l>
+            <l>Whoſe mighty wings ore-ſhaded all the Weſt.</l>
+            <l>But when this mightier King of Kings did die</l>
+            <l>Not one appear'd to beautifie the skie:</l>
+            <l>For when Great <hi>Charles</hi> did undergo his doome</l>
+            <l>One Sunne ſeem'd added to ſupply his roome.</l>
+            <l>
+               <pb facs="tcp:60555:13"/>
+But when the God of Natures ſelfe was gone</l>
+            <l>Into a Paſſion, there was uſe for none.</l>
+            <l>Nay, when the Sphere of light was puſſed out</l>
+            <l>How could the Sunne poore Taper looke about?</l>
+            <l>Horrid Eclipſe; for now the Moone by right</l>
+            <l>Was not in the Sunes ſigne, but oppoſite;</l>
+            <l>And the ſame way our ſinnes eclips'd that Sun</l>
+            <l>Upon the Croſſe<g ref="char:punc">▪</g> by oppoſition.</l>
+            <l>Miraculous Eclipſe, how could the ſmall</l>
+            <l>And leſſe circumference of the Moone hide all</l>
+            <l>The larger Sunne, but that our darker ſin</l>
+            <l>To aide the Moone, did bring her forces in.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:14"/>
+            <head>The Graves opened, and ma<g ref="char:EOLhyphen"/>ny
+of the Saints aroſe.</head>
+            <l>THere was no Trumpet here to raiſe the dead,</l>
+            <l>And call them from their graves, nor was there need,</l>
+            <l>Though no Arch-Angell with a Trumpet cried,</l>
+            <l>Yet now the Angell of the Covenant died.</l>
+            <l>And dying cri'd with a loud voice; and thoſe</l>
+            <l>Miſtooke it for the Trumpet, and aroſe.</l>
+            <l>They roſe, as if it had been theit intents</l>
+            <l>To give him choiſe of all their Monuments.</l>
+            <l>And ſeeing that he muſt interment have,</l>
+            <l>Each Saint did ſeeme to cry, pray take my grave.</l>
+            <l>When he bow'd downe his head, the dead rais'd theirs</l>
+            <l>And lookt out of their frighted Sepulchres.</l>
+            <l>
+               <pb facs="tcp:60555:14"/>
+The ſoules ſhot out of heav'n in to the dead,</l>
+            <l>And did a ſecond time their bodies wed.</l>
+            <l>And though they had not left their bleſſed thrones</l>
+            <l>To reaſſume their ancient fleſh and bones:</l>
+            <l>Yet his laſt gaſpe had been enough to have hurl'd</l>
+            <l>Soules into all the bodies of the world.</l>
+         </div>
+         <div type="poem">
+            <head>Buried in a Garden.</head>
+            <l>AFter his ſpirituall death, firſt <hi>Adam's</hi> caſt</l>
+            <l>Out of the Garden, where he had been plac'd.</l>
+            <l>After his Corporall, ſecond <hi>Adam's</hi> put</l>
+            <l>Into a Garden, and there cloſely ſhut.</l>
+            <l>The firſt had not gone out but for his ſin,</l>
+            <l>And but for ours, the ſecond not come in.</l>
+            <l>Hee's in a Garden laid<g ref="char:punc">▪</g> not as one dead,</l>
+            <l>But as a living Plant ſet in a bed:</l>
+            <l>
+               <pb facs="tcp:60555:15"/>
+Set in the Spring, and without aid of ſhowres</l>
+            <l>Sprung in the ſpring-time, like to other flowres</l>
+            <l>To which he gave the beauty that they have,</l>
+            <l>And that's the reaſon, that the ſpring's ſo brave,</l>
+            <l>Nay, wholeſome as 'tis brave; for in that place</l>
+            <l>Sprung up (if ever) that rich herbe of grace.</l>
+            <l>Our Herbaliſts have writ that Serpents feare</l>
+            <l>The vertue of that herbe, nor dare come neare</l>
+            <l>Her ſoveraigne powre; I care not though they miſſe</l>
+            <l>I'm ſure th'old Serpent dares not come neere this.</l>
+         </div>
+         <div type="poem">
+            <head>Buried in a new Tombe hewen out
+of a Rock.</head>
+            <l>VVHen Emperours were crown'd, Tomb-makers brought</l>
+            <l>Severall ſtones, and what the Emperour thought</l>
+            <l>Reſt in his choiſe, that ſtone was laid aſide</l>
+            <l>To be the Emperours Tomb-ſtone when he died.</l>
+            <l>
+               <pb facs="tcp:60555:15"/>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his Emperour was crown'd but chooſe no ſtone,</l>
+            <l>
+               <hi>
+                  <gap reason="illegible: in gutter" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſeph</hi> ſupplies that want, and chooſeth one,</l>
+            <l>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd ſuch a one, as might be cenſur'd fit</l>
+            <l>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or him that was to be inclos'd in it.</l>
+            <l>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat wondrous ſtone, which <hi>Daniel</hi> ſaith was cut</l>
+            <l>Out of the Rock, that ſtone it ſelfe was put</l>
+            <l>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nto a ſtone, which lately had forſaken</l>
+            <l>The rockie Quarrie, whence it had been taken.</l>
+            <l>That for his Epitaph it might be read,</l>
+            <l>Here in a ſtone, a ſtone lies buried.</l>
+            <l>'Twas a new Tombe, and was it not moſt fit</l>
+            <l>For that pure body which was put in it?</l>
+            <l>How like his Tombe and maiden Mother is,</l>
+            <l>Man never lay with her, nor man in this.</l>
+            <l>He that was taken from a Virgin Wombe</l>
+            <l>Where ſhould he lye but in a Virgin Tombe.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:16"/>
+            <head>The Mount of Olives.</head>
+            <l>HEe's humble; and that humbleneſſe will ſhow</l>
+            <l>By th' Emblem; Nature plants the Olive low.</l>
+            <l>But as preſaging that from hence ſhould bee</l>
+            <l>The ſtarting of a great aſcention, ſhee</l>
+            <l>Set thoſe upon a Hill, as if ſhee meant</l>
+            <l>They ſhould have theirs, where he had his aſcent,</l>
+            <l>He's a King, and his Majeſty will ſhow</l>
+            <l>By th'Emblem; Oyle annoints the royall brow</l>
+            <l>Not liquors, unguents, nor rich Palmes we try,</l>
+            <l>But Oyle; for Oyle denoteth Soveraignty.</l>
+            <l>Blended with other liquors it will move</l>
+            <l>In an ambition till it flowes above.</l>
+            <l>In the compounding of a Majeſty,</l>
+            <l>A chiefe ingredient is humility.</l>
+            <l>
+               <pb facs="tcp:60555:16"/>
+The heightned ſpirits would be too elate</l>
+            <l>
+               <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f humbleneſſe ſhould not a<gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap> temper ſtate.</l>
+            <l>In him like friended Elements they doe</l>
+            <l>Commix; he was a Lambe, yet Lion too.</l>
+         </div>
+         <div type="poem">
+            <head>Whit-Sunday: There was a
+noiſe from heaven as of a ruſh<g ref="char:EOLhyphen"/>ing
+mighty wind.</head>
+            <l>WHen ſad <hi>Elijah</hi> did by Horeb lye,</l>
+            <l>A roaring wind ſo buffeted the skie</l>
+            <l>As if the muſterd vapours had combind</l>
+            <l>To make one ſtorme; God was not in the wind.</l>
+            <l>But when th' Apoſtles by conſent were met,</l>
+            <l>After their parture from Mount Olivet</l>
+            <l>A bellowing tempeſt vollied from the Sphere,</l>
+            <l>And filled all the roome<g ref="char:punc">▪</g> and God was there.</l>
+            <l>
+               <pb facs="tcp:60555:17"/>
+The ſpirit and the wind may ſeeme to bee</l>
+            <l>Imploy'd in conſort for their ſimpathie</l>
+            <l>When th' univerſe was made, and darkneſſe ſtrove</l>
+            <l>For place, the ſpirit did on the waters move;</l>
+            <l>When the drown'd world was to be made agen</l>
+            <l>The wind did move upon the waters then.</l>
+            <l>Now when th' eternall Spirit was to blow</l>
+            <l>And breath on them, he ſent a wind, as though</l>
+            <l>The uncreated Spirit had aſſign'd</l>
+            <l>Th'other created ſpirit of the wind</l>
+            <l>To uſher him the way as he ſhould come,</l>
+            <l>Or be his Harbinger to take his roome.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:60555:17"/>
+            <head>There appeared unto them
+Tongues.</head>
+            <l>WHen Babel firſt rear'd her ambitious creſt</l>
+            <l>Upon the Plaine of Shinar, to conteſt</l>
+            <l>With heav'n; a different language did beguile</l>
+            <l>The Founders hopes, and ſtay the riſing Pile,</l>
+            <l>So when the Church was to be edified,</l>
+            <l>The builders language was diverſified;</l>
+            <l>But difference of tongues had different power,</l>
+            <l>It rais'd the Church and ruined the Tower.</l>
+            <l>Th' Apoſtles were Ambaſſadors aſſign'd</l>
+            <l>By the King of Heav'n to go to all Mankind;</l>
+            <l>And 'twas both reaſon, and their Kings intent</l>
+            <l>That they ſhould know the tongues before they went</l>
+            <l>
+               <pb facs="tcp:60555:18"/>
+Yet they had none, but as the haste requir'd</l>
+            <l>Their language was infuſed, not acquir'd.</l>
+            <l>Unletter'd ſoules, poore Fiſher-men that ſpoke</l>
+            <l>Hardly more tongues, then the mute fiſh they tooke.</l>
+            <l>He who's the Fathers word, a promiſe gave</l>
+            <l>That he ſhould ſend, and they a preſent have.</l>
+            <l>This miſſion did the miracle afford,</l>
+            <l>He ſent the Tongues, who was himſelfe the Word.</l>
+         </div>
+         <div type="poem">
+            <head>Tongues of fire, and ſate up<g ref="char:EOLhyphen"/>on
+each of them.</head>
+            <l>VVHen fire like the Postilian was paſt</l>
+            <l>
+               <hi>Elijah;</hi> a ſoft language came at laſt.</l>
+            <l>But here was no precedencie in either,</l>
+            <l>The fire and language did come both together,</l>
+            <l>
+               <pb facs="tcp:60555:18"/>
+For he who Father of all language is,</l>
+            <l>Was in the Apoſtles fire, but not in his.</l>
+            <l>That fierce apparition which did flame</l>
+            <l>In <hi>Moſes</hi> buſh, and not enfire the ſame,</l>
+            <l>Helpt not his tongues defect, nor did him ſtore</l>
+            <l>With any dialects unknowne before.</l>
+            <l>Here it did both, here the divided blaze</l>
+            <l>Refin'd their ſtile, and varied their phraſe</l>
+            <l>The Prophet had not power to forbeare</l>
+            <l>Becauſe it was fite in his bones; 'twas here</l>
+            <l>Fire in their tongues; they needs muſt ſilence breake</l>
+            <l>Tongues tipt with fire, how can they chooſe but ſpeak?</l>
+            <l>The Prophets tongue once with a <gap reason="illegible: in gutter" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oale had bin</l>
+            <l>Toucht at the Altar by a Cherubin;</l>
+            <l>But here it were ſuperfluous to require</l>
+            <l>Coales for theſe tongues, theſe tongues themſelves were fire,</l>
+            <l>
+               <pb facs="tcp:60555:19"/>
+Theſe tongues the Spirir would not repreſent</l>
+            <l>In the drie, cold, or the moiſt Element,</l>
+            <l>That temper were too languiſhing and weake,</l>
+            <l>So powerfull an Embaſſie to ſpeake.</l>
+            <l>They muſt be fire, whoſe doctrine muſt be hurl'd</l>
+            <l>Swift as the wings of lightning through the world,</l>
+            <l>And worke th' effects of lightning; will not hit</l>
+            <l>A heart of fleſh, but gently paſſe by it.</l>
+            <l>But grindes theſe hearts to duſt, whoſe hardneſſe dare</l>
+            <l>Provoke a Nether Mill-ſtone to compare,</l>
+            <l>And like the lightnings uncontrouled ſtroake</l>
+            <l>Slides by a Reed, but ruinates an Oake;</l>
+            <l>Like fire they were to ſeparate the gold</l>
+            <l>From the admixture of th' impurer mould,</l>
+            <l>To take the maſſe of the whole rationall creature</l>
+            <l>To fine, and quinteſſentiate their nature,</l>
+            <l>
+               <pb facs="tcp:60555:19"/>
+And with the Alchimie of heavenly fire.</l>
+            <l>Make the extracted ſpirits to aſpire,</l>
+            <l>Which with repeated heates they ſo refin'd</l>
+            <l>That they drew out th' Elixar of Mankind.</l>
+            <l>Steele-temper'd conſciences, and hearts conflate</l>
+            <l>Of ſturdieſt metals, as unmov'd as fate</l>
+            <l>Were by the working of the fire made fit,</l>
+            <l>Coeleſtiall formes, and notions to admit.</l>
+            <l>Their Sermons were not only heard but felt</l>
+            <l>And made a leaden Auditory melt.</l>
+            <l>Which being ſo diſſolved they impreſt</l>
+            <l>Divine <hi>Ideas</hi> in the ſoftned breſt</l>
+            <l>Thoſe parted blazes fix'd on them did ſhine</l>
+            <l>Like prettie Commets, whence one might divine<g ref="char:punc">▪</g>
+            </l>
+            <l>Some alteration; and there was; for then</l>
+            <l>There was the change of ſoules, and change of men.</l>
+            <l>
+               <pb facs="tcp:60555:20"/>
+Or elſe like Starres theſe little flames did ſlide</l>
+            <l>With which th' Apoſtles were all ſtellified,</l>
+            <l>And turn'd to the twelve Signs, through which the Sun</l>
+            <l>Of Righteouſneſſe ſhould as his Zodiack run,</l>
+            <l>Or from the Phantaſme which did then appeare<g ref="char:punc">▪</g>
+            </l>
+            <l>There was ſome order inſtituted there.</l>
+            <l>The badge was fiery tongues, and they may boſt</l>
+            <l>Themſelves of th' Order of the <hi>Holy Ghost.</hi>
+            </l>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:60555:20"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1394 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Narcissus, or, The self-lover by James Shirley.</title>
+            <author>Shirley, James, 1596-1666.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1646</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 46 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2005-10">2005-10 (EEBO-TCP Phase 1).</date>
+            <idno type="DLPS">A59988</idno>
+            <idno type="STC">Wing S3480</idno>
+            <idno type="STC">ESTC R18545</idno>
+            <idno type="EEBO-CITATION">12438908</idno>
+            <idno type="OCLC">ocm 12438908</idno>
+            <idno type="VID">62065</idno>
+            <availability>
+               <p>This keyboarded and encoded edition of the
+	       work described above is co-owned by the institutions
+	       providing financial support to the Early English Books
+	       Online Text Creation Partnership. This Phase I text is
+	       available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Creative
+	       Commons 0 1.0 Universal</ref>. The text can be copied,
+	       modified, distributed and performed, even for
+	       commercial purposes, all without asking permission.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 1, no. A59988)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 62065)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 298:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Narcissus, or, The self-lover by James Shirley.</title>
+                  <author>Shirley, James, 1596-1666.</author>
+               </titleStmt>
+               <extent>[2], 34 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Humphrey Moseley and are to be sold at his shop ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1646.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Newberry Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2003-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2003-04</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2005-02</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2005-02</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2005-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:62065:1"/>
+            <p>NARCISSVS,
+OR,
+The Self-Lover.</p>
+            <p>By JAMES SHIRLEY.</p>
+            <p>Haec olim—</p>
+            <p>
+               <hi>LONDON,</hi>
+Printed for <hi>Humphrey Moseley,</hi> and
+are to be sold at his shop, at the
+Signe of the Princes Armes in
+S<hi rend="sup">t</hi>. <hi>Pauls</hi> Church-yard.
+MDCXLVI.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:62065:2"/>
+            <pb n="1" facs="tcp:62065:2"/>
+            <head>NARCISSVS
+OR,
+The Selfe-lover.</head>
+            <lg n="1">
+               <head>1.</head>
+               <l>
+                  <seg rend="decorInit">F</seg>Aire <hi>Eccho</hi> rise, sick-thoughted Nymph
+awake,</l>
+               <l>Leave thy green Couch and Canopie of
+Trees,</l>
+               <l>Long since the quiristers oth' wood did shake</l>
+               <l>Their wings, and sing to the bright Suns uprise:</l>
+               <l>Cay hath wept o're thy Couch, and progressed,</l>
+               <l>Blusheth to see faire <hi>Eccho</hi> still in bed.</l>
+            </lg>
+            <lg n="2">
+               <pb n="2" facs="tcp:62065:3"/>
+               <head>2.</head>
+               <l>If not the Birds, who 'bout the Coverts flie,</l>
+               <l>And with their warbles charm the neighboring aire,</l>
+               <l>If not the Sun, whose new Embroiderie,</l>
+               <l>Makes rich the leaves that in thy Arbors are,</l>
+               <l>Can make thee rise; yet Love-sick Nymph away,</l>
+               <l>Thy young <hi>Narcissus</hi> is abroad to day.</l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>See not farre off <hi>Cephisus</hi> sonne appeares,</l>
+               <l>No Nymph so faire in all <hi>Diana's</hi> traine,</l>
+               <l>When like a huntresse she for chace prepares;</l>
+               <l>His Bugle-horne, tyed in a silken chaine,</l>
+               <l>And mounted on a comely Steed, which knowes</l>
+               <l>What weight he carries, and more proudly goes.</l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>Pursue him timerous Maid, he moves apace,</l>
+               <l>
+                  <hi>Favonius</hi> waits to play with thy loose haire,</l>
+               <l>And helpe thy flight; see how the drooping grasse</l>
+               <l>Courts thy soft tread, thou child of Sound and Aire,</l>
+               <l>Attempt and over-take him, though he be,</l>
+               <l>Coy to all other Nymphs, he'll stoop to thee.</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>If thy face move not, let thy eyes expresse,</l>
+               <l>Some Rhetorick of thy teares to make him stay;</l>
+               <l>He must be a Rock, that will not melt at these,</l>
+               <l>Dropping these native Diamonds in his way:</l>
+               <l>Mistaken he may stoop at them, and this</l>
+               <l>(Who knowes how soon?) may helpe thee to a kisse.</l>
+            </lg>
+            <lg n="6">
+               <pb n="3" facs="tcp:62065:3"/>
+               <head>6.</head>
+               <l>If neither love, thy beautie, nor thy teare</l>
+               <l>Invent some other way to make him know,</l>
+               <l>He need not hunt, that can have such a Deere.</l>
+               <l>The Queen of Love did once <hi>Adonis</hi> woe.</l>
+               <l>But hard of soule, with no perswasions won,</l>
+               <l>He felt the curse of his disdaine too soone.</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>In vaine I counsell her to put on wing,</l>
+               <l>
+                  <hi>Eccho</hi> hath left her solitarie Grove,</l>
+               <l>And in a Vale, the Palace of the spring,</l>
+               <l>Sits silently attending for her love;</l>
+               <l>But round about to catch his voice with care,</l>
+               <l>In every shade and Tree, she hid a snare.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Now doe the Hunts-men fill the aire with noise,</l>
+               <l>And their shrill hornes chafe her delighted care</l>
+               <l>Which with loud accents give the wood a voice,</l>
+               <l>Proclaiming Parley to the fearefull Deere:</l>
+               <l>Shee heares the jolly tunes, but every straine,</l>
+               <l>As high aud musicall, she returnes againe.</l>
+            </lg>
+            <lg n="9">
+               <head>9.</head>
+               <l>Rous'd is the game, pursuit doth put on wings,</l>
+               <l>The Sun doth shine, and guild them out their way:</l>
+               <l>The Deere into an o're-growne Thicket springs,</l>
+               <l>Through which he quaintly steales his shine away.</l>
+               <l>The Hunters scatter; but the Boy o're-throwne</l>
+               <l>In a darke part o'th' wood complaines alone.
+<gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb facs="tcp:62065:4"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="1" facs="tcp:62065:4"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="2" facs="tcp:62065:5"/>
+                  <gap reason="duplicate" extent="1 page">
+                     <desc>〈1 page duplicate〉</desc>
+                  </gap>
+                  <pb n="3" facs="tcp:62065:5"/>
+               </l>
+            </lg>
+            <lg n="10">
+               <pb n="4" facs="tcp:62065:6"/>
+               <head>10</head>
+               <l>Him, <hi>Eccho</hi> lead by her affection found,</l>
+               <l>Joy'd (you may ghesse) to reach him with her eye;</l>
+               <l>But more, to see him rise without a wound,</l>
+               <l>Who yet obscures her selfe behinde some Tree:</l>
+               <l>He vext exclaimes, and asking, where am I?</l>
+               <l>The unseen Virgin answers, here am I.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>Some guide from hence; will no man heare, he cries?</l>
+               <l>She answers in her passion: O man heare.</l>
+               <l>I dye, I dye, say both; and thus she tries</l>
+               <l>With frequent answers to entice his eare</l>
+               <l>And person to her Court, more fit for love,</l>
+               <l>He tracts the sound, and findes her odorous Grove.</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>The way he trod was pav'd with Violets,</l>
+               <l>Whose azure leaves doe warme their naked stalks,</l>
+               <l>In their white double Ruffes the Dazies jet,</l>
+               <l>And Primroses are scattered in the walkes:</l>
+               <l>Whose pretty mixture in the ground declares</l>
+               <l>Another <hi>Galaxie</hi> emboss'd with starres.</l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>Two rows of Elmes ran with proportion'd grace,</l>
+               <l>Like natures Arras to adorne the sides,</l>
+               <l>The friendly Vines their loved Barks embrace,</l>
+               <l>While folding tops the checkerd ground-work hides</l>
+               <l>Here oft the tired Sun himselfe would rest,</l>
+               <l>Riding his glorious Circuit to the West.</l>
+            </lg>
+            <lg n="14">
+               <pb n="5" facs="tcp:62065:6"/>
+               <head>14.</head>
+               <l>From hence delight, conveyes him unawares</l>
+               <l>Into a spacious green, whose either side</l>
+               <l>A Hill did guard, whilst with his Trees like haires.</l>
+               <l>The Clouds were busie binding up his head:</l>
+               <l>The flowrs here smile upon him as he treads,</l>
+               <l>And but when he looks up, hang downe their heads<g ref="char:punc">▪</g>
+               </l>
+            </lg>
+            <lg n="15">
+               <head>15.</head>
+               <l>Not far from hence, neare an harmonious Brook,</l>
+               <l>Within an Arbour of conspiring Trees,</l>
+               <l>Whose wilder Boughes into the streame did look,</l>
+               <l>A place more sutable to her distresse.</l>
+               <l>
+                  <hi>Eccho</hi> suspecting that her love was gone,</l>
+               <l>Her selfe had in a carefull posture throwne.</l>
+            </lg>
+            <lg n="16">
+               <head>16.</head>
+               <l>But Time upon his wings had brought the Boy</l>
+               <l>To see this lodging of the aery Queen,</l>
+               <l>Whom the dejected Nymph espyes with joy,</l>
+               <l>Through a small Window of Eglantine;</l>
+               <l>And that she might be worthy his embrace,</l>
+               <l>Forgets not to new dresse her blubber'd face.</l>
+            </lg>
+            <lg n="17">
+               <head>17.</head>
+               <l>With confidence she sometimes would go out,</l>
+               <l>And boldly meet <hi>Narcissus</hi> in the way:</l>
+               <l>But then her feares present her with new doubt,</l>
+               <l>And chide her over-rash resolve away.</l>
+               <l>Her heart with over-charge of love must break,</l>
+               <l>Great <hi>Juno</hi> will not let poore Eccho speak.</l>
+            </lg>
+            <lg n="18">
+               <pb n="6" facs="tcp:62065:7"/>
+               <head>19.</head>
+               <l>Ungentle Queen of heaven, why was thy curse</l>
+               <l>So heavie on this Virgin? <hi>Jove</hi> comprest</l>
+               <l>Not her, and must her Destinie be worse</l>
+               <l>Then theirs that met her flame? thy angry breast</l>
+               <l>Holds not in all the list a blacker doome,</l>
+               <l>Better transforme the maid, then make her dumbe.</l>
+            </lg>
+            <lg n="19">
+               <head>20.</head>
+               <l>Thy jealousie was sinne, above what she</l>
+               <l>Was guilty of: But she is wife to <hi>Jove;</hi>
+               </l>
+               <l>For that in heav'n must there no Justice be?</l>
+               <l>Or didst thou finde this cruelty, for her love</l>
+               <l>To this coy Lad, whom in the Book of Fate</l>
+               <l>Thou didst fore-see thy selfe shouldst love too late?</l>
+            </lg>
+            <lg n="20">
+               <head>21.</head>
+               <l>Thou tedious to thy selfe, not being faire,</l>
+               <l>To whom thy wakefull jealousie succeeds</l>
+               <l>A greater curse; when mortalls jealous are,</l>
+               <l>They're cur'd to know their faith abus'd, what seeds</l>
+               <l>For some act worse than hers, grow up in thee,</l>
+               <l>At once to doubt, and know <hi>Joves</hi> perjurie?</l>
+            </lg>
+            <lg n="21">
+               <head>22.</head>
+               <l>But still this Nymph was innocent, reverse</l>
+               <l>Thy rash decree, repentance is no sinne</l>
+               <l>In heavenly natures; but I vaine rehearse</l>
+               <l>Thy story of thy hate: it is not in</l>
+               <l>Poore <hi>Eccho's</hi> pow'r to Court the Boy, with more</l>
+               <l>Than smiles or teares, and his last breath restore.</l>
+            </lg>
+            <lg n="22">
+               <pb n="7" facs="tcp:62065:7"/>
+               <head>23.</head>
+               <l>
+                  <hi>Narcissus</hi> now collects his scattered sence,</l>
+               <l>He findes himselfe at losse, drawne thither by</l>
+               <l>Imagin'd answers to his griefe, from whence</l>
+               <l>That he may finde some surer guide, he'll try</l>
+               <l>His Bugle-horne, whose found was understood,</l>
+               <l>But drew no great compassion from the wood.</l>
+            </lg>
+            <lg n="23">
+               <head>24.</head>
+               <l>Onely, so soon as he dispateh'd the aire,</l>
+               <l>At her owne Bow'r <hi>Eccho</hi> receiv'd the noice;</l>
+               <l>Every thing help'd to bring the message neare,</l>
+               <l>And the winde proud to wait upon the voice;</l>
+               <l>When she return'd a cheerefull answer, knew</l>
+               <l>The way agen, and with loud musick flew.</l>
+            </lg>
+            <lg n="24">
+               <head>25.</head>
+               <l>
+                  <hi>Narcissus</hi> glad that such returne was made,</l>
+               <l>And flattred by his over-busie eare,</l>
+               <l>Was soon directed to the Virgins shade,</l>
+               <l>Without a thought to finde a faire Nymph there:</l>
+               <l>Nor did he see the maid, for she, so soone</l>
+               <l>As he appear'd, found passage to be gone.</l>
+            </lg>
+            <lg n="25">
+               <head>26.</head>
+               <l>The Boy inquisitive looks round with feare,</l>
+               <l>But could see none to make addresses to,</l>
+               <l>Nor observes any print of foot-step there,</l>
+               <l>The flow'rs unprest his modest forehead view,</l>
+               <l>And court his stay; the trees and every thing</l>
+               <l>Give him a silent welcome to the spring.</l>
+            </lg>
+            <lg n="26">
+               <pb n="8" facs="tcp:62065:8"/>
+               <head>27.</head>
+               <l>Amazed what this solitude should meane,</l>
+               <l>And wondring at the sound that did invite him</l>
+               <l>So late, to that faire desert, a new scene,</l>
+               <l>With a most curious Arbor doth delight him,</l>
+               <l>Who now to please his late surprized eyes;</l>
+               <l>Whilst they doe gaze, downe on a banke he lies.</l>
+            </lg>
+            <lg n="27">
+               <head>28.</head>
+               <l>And now does every object shew what spell</l>
+               <l>It hath upon his sences, too much sight</l>
+               <l>Deprives him of his eyes, a mist doth dwell</l>
+               <l>About 'em, and by soft degrees invite</l>
+               <l>The Boy to slumber, which glad <hi>Eccho</hi> spies,</l>
+               <l>And while he dreames, keeps centry with her eyes.</l>
+            </lg>
+            <lg n="28">
+               <head>29.</head>
+               <l>In silence she approaches where he lay,</l>
+               <l>With his armes chained crosse upon his breast;</l>
+               <l>His silken Bonnet slilding, did betray</l>
+               <l>A face, which all the Nymphs did call the best.</l>
+               <l>A Banke his Pillow was, the flowers his sheet,</l>
+               <l>His Blanket aire, the trees his Coverlet.</l>
+            </lg>
+            <lg n="29">
+               <head>30.</head>
+               <l>Sometimes the winde befriends a tender bough,</l>
+               <l>Part of his leavie Canopie, which hides</l>
+               <l>The subject of all wonder, his white brow,</l>
+               <l>And helpes it nearer to obtaine a kisse:</l>
+               <l>Which once enjoy'd, away the twig doth skip,</l>
+               <l>Not daring to be taken at his lip.</l>
+            </lg>
+            <lg n="30">
+               <pb n="9" facs="tcp:62065:8"/>
+               <head>31.</head>
+               <l>While taller boughes hover about his head,</l>
+               <l>And justle one another for their view;</l>
+               <l>The humble branches are enamoured,</l>
+               <l>And have their short carresses with him too.</l>
+               <l>Thus all conspire, him severall waies to woe,</l>
+               <l>For whose love onely they delight to grow.</l>
+            </lg>
+            <lg n="31">
+               <head>32.</head>
+               <l>
+                  <hi>Eccho</hi> at every look feeles new desires,</l>
+               <l>And wishes that he were <hi>Endymion,</hi>
+               </l>
+               <l>For whom in her most glorious star attires,</l>
+               <l>Oft in her night-Gown came the Love-sick Moon,</l>
+               <l>To <hi>Latmos</hi> sacred Hill, when for his sake,</l>
+               <l>Whilst he did sleep, she'd ever wish to wake.</l>
+            </lg>
+            <lg n="32">
+               <head>33.</head>
+               <l>But this she soon revokes, her love will beare</l>
+               <l>No rivall thoughts, no competition.</l>
+               <l>The Queen of heaven must have no interest here;</l>
+               <l>This Beauties Empire must be all her owne:</l>
+               <l>Thus while she all embraceth, her desires</l>
+               <l>Conspire but to enlarge her Funerall fires.</l>
+            </lg>
+            <lg n="33">
+               <head>34.</head>
+               <l>Her eye takes in more flame now, than before,</l>
+               <l>Gazing improves her loves perfection,</l>
+               <l>Whose every part riseth a silent woer,</l>
+               <l>And the most taking presence doth put on;</l>
+               <l>Sweetly enticing her delighted sence,</l>
+               <l>To lose her selfe in every excellence.</l>
+            </lg>
+            <lg n="34">
+               <pb n="10" facs="tcp:62065:9"/>
+               <head>35.</head>
+               <l>One while shee thinks all but a cozening dream,</l>
+               <l>And him but some phantastick mockerie:</l>
+               <l>'Tis too much happinesse if he be the same,</l>
+               <l>And she the Nymph that she was wont to be:</l>
+               <l>If she sleep not, who blessed more than she:</l>
+               <l>Yet if she dreame, awake she'd never be.</l>
+            </lg>
+            <lg n="35">
+               <head>36.</head>
+               <l>How could his haire, so many finest threds</l>
+               <l>Of gold, but make a net to catch her sight?</l>
+               <l>How could she trace his brow? or see those lids,</l>
+               <l>Whose either Ivorie box shut up a light</l>
+               <l>To travellers, more chearefull, than the starre</l>
+               <l>That ushers in the day, but brighter farre?</l>
+            </lg>
+            <lg n="36">
+               <head>37.</head>
+               <l>She with her danger doth these parts admire,</l>
+               <l>But loves 'em more: another flame and art</l>
+               <l>May praise, her love belongs to her owne fire,</l>
+               <l>And is the office proper to her heart.</l>
+               <l>But <hi>Eccho</hi> has not done, for she pursues</l>
+               <l>Dangers, above what she at distance views.</l>
+            </lg>
+            <lg n="37">
+               <head>38.</head>
+               <l>Sh'as yet but exercis'd her wondring eye</l>
+               <l>Upon his wealthy cheek, his brow, his haire,</l>
+               <l>Another sense the Nymph will satisfie;</l>
+               <l>She thinks his heavenly lips forgotten are:</l>
+               <l>Which now she boldly tastes, and at first kisse,</l>
+               <l>Concludes, there is no other heaven but this.</l>
+            </lg>
+            <lg n="38">
+               <pb n="11" facs="tcp:62065:9"/>
+               <head>39.</head>
+               <l>The lips that will not open to praise his,</l>
+               <l>She wishes may be clos'd eternally</l>
+               <l>These freely touch'd, are able to entice</l>
+               <l>The Soule to lose its immortality.</l>
+               <l>The Gods may boast <hi>Ambrosia</hi> alone,</l>
+               <l>But she feeds on a dew above their owne.</l>
+            </lg>
+            <lg n="39">
+               <head>40.</head>
+               <l>Oft doth she kisse, as often doth she see,</l>
+               <l>A fresher blush dye o're his Corall gate,</l>
+               <l>Whose close enjayles his tongue, and seems to be</l>
+               <l>Asham'd, the maid is so insatiate.</l>
+               <l>But speake he cannot, though she doe him wrong,</l>
+               <l>Her doore, and his doe double bar his tongue.</l>
+            </lg>
+            <lg n="40">
+               <head>41.</head>
+               <l>But stay rash <hi>Eccho,</hi> see what thou hast done;</l>
+               <l>His lips, that kiss'd themselves like two Rose-leaves,</l>
+               <l>Grow pale oth' suddaine, thy impression,</l>
+               <l>Them of their blushing modesty bereaves.</l>
+               <l>His bloud will be required of you, I feare;</l>
+               <l>And see some drops upon your lip appeare.</l>
+            </lg>
+            <lg n="41">
+               <head>42.</head>
+               <l>And wilt thou still (forgetfull Nymph) pursue</l>
+               <l>Thy wanton touches? all the bloud is gone:</l>
+               <l>What of his cheek wilt thou be murtherer too?</l>
+               <l>Thinking the others Sanguine thither runne?</l>
+               <l>Alas, there is but of its owne, a-part,</l>
+               <l>Feare hath sent back the rest unto his heart.</l>
+            </lg>
+            <lg n="42">
+               <pb n="12" facs="tcp:62065:10"/>
+               <head>43.</head>
+               <l>Leave shamelesse <hi>Eccho,</hi> leave a little here,</l>
+               <l>Another time to enrich thy lip withall;</l>
+               <l>For thy owne sake this cruelty forbeare,</l>
+               <l>Dost thinke the guilt of such a bloud is small?</l>
+               <l>But 'tis the last she feares, and cannot tell</l>
+               <l>Better, than with a kisse to take farewell.</l>
+            </lg>
+            <lg n="43">
+               <head>44.</head>
+               <l>But use thy freedome, Ile not blame thee now,</l>
+               <l>Thou know'st his stubborne dispostion,</l>
+               <l>Hasten thy kisses then, and take enow</l>
+               <l>To serve thee for an age, ere thou hast done:</l>
+               <l>And when thou hast took all but one, fore-see</l>
+               <l>Thou bee'st a taking that, eternally.</l>
+            </lg>
+            <lg n="44">
+               <head>45.</head>
+               <l>But <hi>Eccho</hi> needs no counsell to proceed,</l>
+               <l>Fearing too soon <hi>Narcissus</hi> should awake.</l>
+               <l>Shee plies his lips, as if to make them bleed,</l>
+               <l>Were to restore the colour she did take.</l>
+               <l>But marke what followes this offence? his eyes</l>
+               <l>Ope by degrees, and she thence guilty flies,</l>
+            </lg>
+            <lg n="45">
+               <head>46.</head>
+               <l>It was a cowardise to steale away,</l>
+               <l>Not daring to avouch what she had done;</l>
+               <l>Fugitive Lover, thou hadst better stay,</l>
+               <l>The Boy's alone, and put fresh beautie on;</l>
+               <l>Nor dost thou wisely maid pursue thy choise:</l>
+               <l>For <hi>Eccho</hi> seldome goes without a noisr.</l>
+            </lg>
+            <lg n="46">
+               <pb n="13" facs="tcp:62065:10"/>
+               <head>47.</head>
+               <l>But she is gone, and the faire youth is risse,</l>
+               <l>Suspitious that he felt some person there;</l>
+               <l>Then busily he looks about the trees,</l>
+               <l>Whose boughes would guide him on the way to her;</l>
+               <l>Directed by the winde, at last he found,</l>
+               <l>The beauteous Nymph laid carelesse on the ground.</l>
+            </lg>
+            <lg n="47">
+               <head>48.</head>
+               <l>Amaz'd, that such a presence should remaine</l>
+               <l>In such an unfrequented place, as this:</l>
+               <l>He takes the wisest-counsell of his braine,</l>
+               <l>In supposition she some goddesse is:</l>
+               <l>And when he had devote submission paid</l>
+               <l>To her, this with a trembling voice he said.</l>
+            </lg>
+            <lg n="48">
+               <head>49.</head>
+               <l>Celestiall dweller, sure thou art no lesse,</l>
+               <l>Such brightnesse never knew mortalitie:</l>
+               <l>Or if thou be'st a mortall, I may ghesse</l>
+               <l>There are no gods, nor heaven, if gods there be,</l>
+               <l>Thou dost excell; and if a heaven, 'tis cleare,</l>
+               <l>That here it is, because thou art not there.</l>
+            </lg>
+            <lg n="49">
+               <head>50.</head>
+               <l>Yet here it cannot be, for I am here</l>
+               <l>Conscious, that I am wretched, and alone:</l>
+               <l>If this be heaven, I wish my selfe else-where;</l>
+               <l>All joyes inhabit heaven, but here are none;</l>
+               <l>For if true joy exceed the name of things,</l>
+               <l>We must deduce them from the higher springs.</l>
+            </lg>
+            <lg n="50">
+               <pb n="14" facs="tcp:62065:11"/>
+               <head>51.</head>
+               <l>Where am I then? alas I cannot tell,</l>
+               <l>Whether in earth, or hell; if earth it be,</l>
+               <l>Then it is both; yet can it not be hell,</l>
+               <l>For that cannot be capable of thee.</l>
+               <l>Beside, if Sages doe not hell bely,</l>
+               <l>In hell, I sure should have more company.</l>
+            </lg>
+            <lg n="51">
+               <head>52.</head>
+               <l>But I doe walk this Labyrinth alone,</l>
+               <l>And this addes to the languish of my heart,</l>
+               <l>That in this sad consinements, I have none</l>
+               <l>Will joyne his misery, and take a part.</l>
+               <l>I never yet provok'd the high heavens so,</l>
+               <l>That they should marke me out alone to woe.</l>
+            </lg>
+            <lg n="52">
+               <head>53.</head>
+               <l>With many more, as late I hunting was</l>
+               <l>In this unlucky wood, I know not where</l>
+               <l>I lost my traine, ill fortune, and the place,</l>
+               <l>Conspiring with my horse to leave me there.</l>
+               <l>Since when endeavouring my selfe to finde,</l>
+               <l>I might as well o're-take, and stay the winde.</l>
+            </lg>
+            <lg n="53">
+               <head>54.</head>
+               <l>Faire goddesse, then informe me, where I am,</l>
+               <l>And with thy kinde and safe direction,</l>
+               <l>Convey a lost man thither, whence he came:</l>
+               <l>Or if not thither, to a place more knowne:</l>
+               <l>Nay into any other wildernesse,</l>
+               <l>There is a path from any place, but this.</l>
+            </lg>
+            <lg n="54">
+               <pb n="15" facs="tcp:62065:11"/>
+               <head>55.</head>
+               <l>Then shall the Nymphs, for they affect my name,</l>
+               <l>Build thee a glorious Temple for this deed,</l>
+               <l>Wherein they shall a stately Altar frame,</l>
+               <l>Which shall not with the tender first-lings bleed;</l>
+               <l>They shall present fresh Chaplets, which their love</l>
+               <l>Shall set on fire, and their sighes Incense prove.</l>
+            </lg>
+            <lg n="55">
+               <head>56.</head>
+               <l>
+                  <hi>Eccho</hi> who all the while attentive sate,</l>
+               <l>And heard the musick of his passion,</l>
+               <l>But held first pittie due to her owne fate,</l>
+               <l>Yet knew not with what art is should be done,</l>
+               <l>Rallies her wiser thoughts, and while he staies</l>
+               <l>Expecting answer, to her selfe she saies;</l>
+            </lg>
+            <lg n="56">
+               <head>57.</head>
+               <l>What shall poore <hi>Eccho</hi> doe? I want a voice</l>
+               <l>To tell him what I am, how I have lov'd;</l>
+               <l>
+                  <hi>Juno,</hi> thy curse was an unhappy choice,</l>
+               <l>Some other punishment thou mightst have prov'd.</l>
+               <l>Revoke this cruell doom, a power restore</l>
+               <l>To my chain'd tongue, Ile never aske thee more.</l>
+            </lg>
+            <lg n="57">
+               <head>58.</head>
+               <l>Meane time, like a pale prisoner at the Bar,</l>
+               <l>Oppressed more with feare, than his owne chaines,</l>
+               <l>(These of the feet, those the head troubles are)</l>
+               <l>Suspecting much her silence, he complaines</l>
+               <l>In smother'd sighes, and 'cause they not prevaile,</l>
+               <l>Look, and you'll see a teare is breaking jaile.</l>
+            </lg>
+            <lg n="58">
+               <pb n="16" facs="tcp:62065:12"/>
+               <head>59.</head>
+               <l>The Nymph in pitty of his griefe, put on</l>
+               <l>Her stock of smiles, and love in either eye,</l>
+               <l>Courts him to shine, the Majestie is gone</l>
+               <l>That frighted him; and now a frestier dye,</l>
+               <l>Dawnes in his cheek, and his owne eye so neare,</l>
+               <l>New burnisht drew up the complaining teare.</l>
+            </lg>
+            <lg n="59">
+               <head>60.</head>
+               <l>
+                  <hi>Eccho</hi> now thinking she had won the prize,</l>
+               <l>Seeing all clouds cleare up, and in his brow</l>
+               <l>The milkie path of heaven agen, his eyes</l>
+               <l>Sparkling out heavenly fire, which even now</l>
+               <l>Peep't through the brine of sorrow, came once more,</l>
+               <l>Boldly to kisle her convert Paramour.</l>
+            </lg>
+            <lg n="60">
+               <head>61.</head>
+               <l>But <hi>Eccho</hi> mist her aime, for he went back,</l>
+               <l>And with his hand check'd her unruly one,</l>
+               <l>As such addresses did good manners lack,</l>
+               <l>She else perhaps might an embrace have stolne:</l>
+               <l>Angry he was, a second knowledge now</l>
+               <l>Appeares too plaine upon his rugged brow.</l>
+            </lg>
+            <lg n="61">
+               <head>62.</head>
+               <l>Look how some infant by the Parent beat,</l>
+               <l>For having plaid the wanton with her breast,</l>
+               <l>Afraid to crie looks pale, some pearly wet,</l>
+               <l>Swelling to peep out of her watry nest,</l>
+               <l>Shrinking his pretty lip, hangs downe the head,</l>
+               <l>His red to pale, his pale converts to red.</l>
+            </lg>
+            <lg n="62">
+               <pb n="17" facs="tcp:62065:12"/>
+               <head>63.</head>
+               <l>So far'd poore <hi>Eccho</hi> in this extasie,</l>
+               <l>Whose trembling bloud although it had forsook</l>
+               <l>Her cheek, was ignorant yet where to be,</l>
+               <l>Feare had detrowr'd the beauty of each look,</l>
+               <l>And had not some divine reliefe been sent,</l>
+               <l>Shee had setled there her owne pale mounment.</l>
+            </lg>
+            <lg n="63">
+               <head>64.</head>
+               <l>But unexpectedly her tongue releast,</l>
+               <l>By <hi>Juno's</hi> owne compassion to the maid,</l>
+               <l>whose sufferings in love her wrath appear'd,</l>
+               <l>Gave <hi>Eccho</hi> a new life, who thought to have said</l>
+               <l>Within her heart; proud boy, th'ast done thy worst;</l>
+               <l>But found her voice, a cleare one, as at first.</l>
+            </lg>
+            <lg n="64">
+               <head>65.</head>
+               <l>Then wisely fearing to have call'd him proud,</l>
+               <l>Could be no argument to make him kinde,</l>
+               <l>She thought to cure him with a Palinode,</l>
+               <l>Saying her heart was of another minde:</l>
+               <l>And thought him gentle, yet some spirits gain'd;</l>
+               <l>Unto the boy, thus she at last complain'd.</l>
+            </lg>
+            <lg n="65">
+               <head>66.</head>
+               <l>Mankinde, from henceforth must not nature call,</l>
+               <l>An equall mother, fondly to bestow</l>
+               <l>Upon thee one, her beauties stock, her all,</l>
+               <l>And others by her empty hand undoe.</l>
+               <l>For though not eldest, she hath made thee heire,</l>
+               <l>And thou, above thy numerous brethren, faire.</l>
+            </lg>
+            <lg n="66">
+               <pb n="18" facs="tcp:62065:13"/>
+               <head>67.</head>
+               <l>But too much sweetnesse is ill plac'd upon</l>
+               <l>A stubborne heart: A <hi>Panther</hi> and a <hi>Dove;</hi>
+               </l>
+               <l>Cruell and faire, were never meant for one:</l>
+               <l>Resigne thy beauty, or else put on love.</l>
+               <l>Thou wert unkinde <hi>Narcissus,</hi> to deny,</l>
+               <l>Thy selfe the office of a courtesie.</l>
+            </lg>
+            <lg n="67">
+               <head>68.</head>
+               <l>What was a kisse? the rape of such a Treasure</l>
+               <l>What Tyrant were he Judge, would call a sin?</l>
+               <l>Thou canst not loose thy lip, but finde a pleasure:</l>
+               <l>Come let us now, though late, loves warre begin;</l>
+               <l>And meet me boldly, for one kisse of thine</l>
+               <l>Ile give a thousand: Lov's Exchequers mine.</l>
+            </lg>
+            <lg n="68">
+               <head>69.</head>
+               <l>If thou bee'st scrupulous, I will not pay,</l>
+               <l>Thou shalt have halfe in earnest, if thou please:</l>
+               <l>Or if not so, I aske no longer day</l>
+               <l>To number the whole summe, before I cease:</l>
+               <l>And at the totall, if thy lip repine,</l>
+               <l>Ile trebble all, to have one more of thine.</l>
+            </lg>
+            <lg n="69">
+               <head>70.</head>
+               <l>But whither doth suspition draw thy eye?</l>
+               <l>Thou maist commit thy selfe to silent Groves,</l>
+               <l>The listning Trees grooms of my chamber be,</l>
+               <l>This Aire close Secretary to our loves.</l>
+               <l>Be not too coy then to receive a kisse,</l>
+               <l>Thou mightst have kist me twenty times'ere this.</l>
+            </lg>
+            <lg n="70">
+               <pb n="19" facs="tcp:62065:13"/>
+               <head>71.</head>
+               <l>Come sit thee downe upon this banke a while,</l>
+               <l>And let us sport, as other lovers doe.</l>
+               <l>The heav'n in gold, the earth in green doth smile,</l>
+               <l>My heaven on earth, prethee doe thou so too.</l>
+               <l>Unwreath thy armes, and with an amorous twine.</l>
+               <l>Girdle my waste, whilst I in circle shine.</l>
+            </lg>
+            <lg n="71">
+               <head>72.</head>
+               <l>My shady Province, wall'd about with trees,</l>
+               <l>The wealthy currents that devide the Land,</l>
+               <l>Shall give up all their treasure to thy eyes:</l>
+               <l>Pleasure it selfe shall spread at thy command,</l>
+               <l>Her most desired soule, and thou as free</l>
+               <l>As aire, shalt move, and share all blisse with me.</l>
+            </lg>
+            <lg n="72">
+               <head>73.</head>
+               <l>If thou wilt hunt, the Lion and the Pard</l>
+               <l>Shall Every morne nnto the Chace invite thee.</l>
+               <l>The Boare and Panther when thou art prepar'd,</l>
+               <l>Shall play before thy Speare, and never fright thee:</l>
+               <l>Bleed any Beast, hunt what thou likest most,</l>
+               <l>All wilde shall tame before thee as thou go'st.</l>
+            </lg>
+            <lg n="73">
+               <head>74.</head>
+               <l>See how the trees bow their exalted heads,</l>
+               <l>And not a shrub but signe of gladnesse beares,</l>
+               <l>Which else would shrinke into their Earthy beds,</l>
+               <l>Or through their Barke break out in gummy teares;</l>
+               <l>And for thy absence weep out all their Rinde,</l>
+               <l>Proud if they have for thee their soule resign'd.</l>
+            </lg>
+            <lg n="74">
+               <pb n="10" facs="tcp:62065:14"/>
+               <head>75.</head>
+               <l>The Winde, thy Herald flies about the Groves,</l>
+               <l>Aloud proclaiming thee the wood-Nymphs King,</l>
+               <l>Snatching up odours as be whistling roves,</l>
+               <l>At thy hand to unlade them from his wing.</l>
+               <l>The <hi>Silvans</hi> friske about, while Nymphs prepare</l>
+               <l>A Rosie Garland to o're-top thy haire.</l>
+            </lg>
+            <lg n="75">
+               <head>76.</head>
+               <l>Shepheards shall all the day new pastimes spring.</l>
+               <l>A Maske of Satyrs shall beguile the night:</l>
+               <l>The choisest Birds shall to the Anticks sing,</l>
+               <l>The slarres grow brighter to behold the sight:</l>
+               <l>Yet these but shadowes of the mirth, wee'll prove,</l>
+               <l>If thou wilt stay, and be thy <hi>Eccho's</hi> love.</l>
+            </lg>
+            <lg n="76">
+               <head>77.</head>
+               <l>I have a Cloister over-looks the Sea,</l>
+               <l>Where every morning we secure from feare,</l>
+               <l>Will see the Porpise and the Dolphins play,</l>
+               <l>And all the wonders that in habit there,</l>
+               <l>Where many a barke into the Clouds doth leap,</l>
+               <l>While Surges caper round about the Ship.</l>
+            </lg>
+            <lg n="77">
+               <head>78.</head>
+               <l>Lovely <hi>Narcissus</hi> prethee stay with me,</l>
+               <l>If thou doe thirst, from every Spring shall rise</l>
+               <l>Divinest Nectar, and thy food shall be</l>
+               <l>The glorious Apples of <hi>Hesperides:</hi>
+               </l>
+               <l>A Nymph shall be thy <hi>Hebe,</hi> of thou need</l>
+               <l>Sha't have another for thy <hi>Ganimede.</hi>
+               </l>
+            </lg>
+            <lg n="78">
+               <pb n="21" facs="tcp:62065:14"/>
+               <head>79.</head>
+               <l>Feele how my Pulses beate, my breasts swell high:</l>
+               <l>Come, come be not so modest pretty one;</l>
+               <l>Why dost thou turne that beavenly cheek from me;</l>
+               <l>Who but thy selfe would such a blessing shun?</l>
+               <l>Those frownes will discompose thy beauty quite,</l>
+               <l>My lips doe blush in daring thee to fight.</l>
+            </lg>
+            <lg n="79">
+               <head>80.</head>
+               <l>Prethes unlock thy words sweet treasurie,</l>
+               <l>And rape me with the musick of thy tongue,</l>
+               <l>But let no accent touch upon Deny,</l>
+               <l>This will thy beauty, and my passions wrong.</l>
+               <l>Ile rather praile thy silence, it may prove</l>
+               <l>What Lovers use t' expound, consent to love</l>
+            </lg>
+            <lg n="80">
+               <head>81.</head>
+               <l>The Boy seems pleas'd, and here begins to break</l>
+               <l>Into a language, extasied the maid,</l>
+               <l>By her owne hearts dictamen he did speak:</l>
+               <l>And if she ask'd him love, he lov'd he said,</l>
+               <l>She darts a glance, and he returnes a smile,</l>
+               <l>She sees, and surfets on his lips the while.</l>
+            </lg>
+            <lg n="81">
+               <head>82.</head>
+               <l>But soon these Sun-beames vanish'd, all his smiles</l>
+               <l>Were feign'd, to get some knowledge how to quit</l>
+               <l>The wood when she not moved with those wiles,</l>
+               <l>Told him all information was unfit</l>
+               <l>Against her selfe; at this swift as the winde,</l>
+               <l>Away he flies, but leaves his frown behinde.</l>
+            </lg>
+            <lg n="82">
+               <pb n="22" facs="tcp:62065:15"/>
+               <head>83.</head>
+               <l>
+                  <hi>Eccho</hi> laments his absence, and in vaine</l>
+               <l>Calls him againe unto her amorous wars,</l>
+               <l>She hath too sure a proof of his disdaine:</l>
+               <l>She sighes and curses her malignant stars;</l>
+               <l>And while she chides the Fate that gave her birth,</l>
+               <l>Her eyes make poore themselves, t' enrich the earth.</l>
+            </lg>
+            <lg n="83">
+               <head>84.</head>
+               <l>Oh that I ne're had seen his face (quoth she)</l>
+               <l>That ignorant of the sweetnesse, I mignt rest</l>
+               <l>In supposition, what the blisle might be:</l>
+               <l>My knowledge has betraid me to the best;</l>
+               <l>And by acquaintance with so much delight,</l>
+               <l>I finde a new flame in my appetite.</l>
+            </lg>
+            <lg n="84">
+               <head>85.</head>
+               <l>Justice, thou dreadfull Queen <hi>Ramnusia,</hi>
+               </l>
+               <l>Punish with sorrow my contemners pride,</l>
+               <l>And by some strange and most prodigious way,</l>
+               <l>Let him the weight of thy reverige abide.</l>
+               <l>And since to me, his heart a Rock hath prov'd,</l>
+               <l>Let him so love at last, and dye unlov'd.</l>
+            </lg>
+            <lg n="85">
+               <head>86.</head>
+               <l>
+                  <hi>Eccho</hi> hath spent her sting, <hi>Narcissus</hi> now</l>
+               <l>Hath got the top of an aspiring hill,</l>
+               <l>Whose site commands the Countrey round to view</l>
+               <l>Some tract, to lead him from the place, but still</l>
+               <l>In vaine he does employ his searching eyes,</l>
+               <l>Through thick embracing woods, no path he spies.</l>
+            </lg>
+            <lg n="86">
+               <pb n="23" facs="tcp:62065:15"/>
+               <head>87.</head>
+               <l>Wounded with objects that no comfort bring,</l>
+               <l>He might conclude his fortune at the worst,</l>
+               <l>Had he not seen hard by a goodly spring,</l>
+               <l>And thither he descends to quench his thirst.</l>
+               <l>O doe not taste (<hi>Narcissus</hi>) hence will flow,</l>
+               <l>What will thee more, thou thy past fate undoe.</l>
+            </lg>
+            <lg n="87">
+               <head>88.</head>
+               <l>Thy eyes betray thee, and are sorrowes spies,</l>
+               <l>Containe thy feet, thy danger is beneath,</l>
+               <l>Run not quick-sighted to a Precepice,</l>
+               <l>A blinde man cannot misse his way to death.</l>
+               <l>Thy liberty was all thou lost before,</l>
+               <l>The Nymphs too soon may thus thy death deplore.</l>
+            </lg>
+            <lg n="88">
+               <head>89.</head>
+               <l>Chuse any other fountaine: harke and feare,</l>
+               <l>The Birds are singing Dirges to thy death;</l>
+               <l>Does not a sooty Raven strike thine eare</l>
+               <l>From an high Oake tuning her fatall breath?</l>
+               <l>A mighty cloud obscures the Suns bright eye,</l>
+               <l>Not willing to behold thy Tragedy.</l>
+            </lg>
+            <lg n="89">
+               <head>90.</head>
+               <l>And yet these move thee not, then reach the streame,</l>
+               <l>And meet thy blacker Destiny, the Sun</l>
+               <l>Is bright agen, wrath burnes in every beame,</l>
+               <l>And guilds the Scene of thy destruction:</l>
+               <l>Each sullen winde is in his prison penn'd,</l>
+               <l>Least with their murmure it the Spring offend.</l>
+            </lg>
+            <lg n="90">
+               <pb n="24" facs="tcp:62065:16"/>
+               <head>91.</head>
+               <l>No portion of a Birds forsaken nest,</l>
+               <l>Fell from the Bowes to interrupt the clame,</l>
+               <l>No wither'd leafe did in his fall molest</l>
+               <l>The stilnesle of it, smooth as setled balme;</l>
+               <l>But Crystall lesse transparent. Such a mirrour,</l>
+               <l>So form'd could onely shew disdaine his errour.</l>
+            </lg>
+            <lg n="91">
+               <head>92.</head>
+               <l>And now <hi>Narcissus</hi> humbled on the grasse,</l>
+               <l>And leaning with his breast upon the brinke,</l>
+               <l>Looks into th' water, where he spies a face,</l>
+               <l>And as he did incline his head to drinke;</l>
+               <l>As faire as countenance seem'd to meet with his,</l>
+               <l>Off'ring to entertaine him with a kisse.</l>
+            </lg>
+            <lg n="92">
+               <head>93.</head>
+               <l>Giving a little backe, he doth admire</l>
+               <l>The beauty of the face presented to him,</l>
+               <l>Thinking at first some water-Nymph was there,</l>
+               <l>And rising from her silver Couch to woe him:</l>
+               <l>Yet Court she cannot whom she did surprise,</l>
+               <l>Never from water did such flames arise.</l>
+            </lg>
+            <lg n="93">
+               <head>94.</head>
+               <l>His heart glowes in him. Punishment fulfills:</l>
+               <l>Love leaps into full age, at the first houre,</l>
+               <l>New wonders like the waves, with rouling hills</l>
+               <l>Follow his gazes; all that lov'd before,</l>
+               <l>Have flung their gather'd flames into his breast,</l>
+               <l>Fit him for Love, a Sacrisice and Priest.</l>
+            </lg>
+            <lg n="94">
+               <pb n="25" facs="tcp:62065:16"/>
+               <head>95.</head>
+               <l>But strucken with his owne, his burning eyes</l>
+               <l>Are onely thirsty now; he drinks apace</l>
+               <l>Into his soule the shadow that he sees,</l>
+               <l>And dotes on every wonder of the face.</l>
+               <l>He stoops to kisse it, when the lips halfe way</l>
+               <l>Meet, he retreats, and th' other steales away.</l>
+            </lg>
+            <lg n="95">
+               <head>96.</head>
+               <l>He, mov'd at the unkindnesse which he took</l>
+               <l>By his owne teaching, bowes himselfe againe,</l>
+               <l>The other meets him in the silent brook,</l>
+               <l>They spie agen, but he cannot refraine</l>
+               <l>To Court whom he desires, and at his talke,</l>
+               <l>The lips within the water seem to walke.</l>
+            </lg>
+            <lg n="96">
+               <head>97.</head>
+               <l>And every smile doth send his owne agen,</l>
+               <l>This cheeres him, but he cannot heare a sound</l>
+               <l>Break from the watrie prison, and he then</l>
+               <l>Complains a fresh, that his unhappy wound</l>
+               <l>Admits no cure, and as he beats his breast,</l>
+               <l>The Conflict under water is exprest.</l>
+            </lg>
+            <lg n="97">
+               <head>98.</head>
+               <l>What e're thou art, come forth, and meet me here</l>
+               <l>He cries; why dost deceive me with a look?</l>
+               <l>What meanes that that imitution? come neare,</l>
+               <l>Leape from the depth of thy imprisoning brook,</l>
+               <l>Fold not thy armes like mine, or smile on me,</l>
+               <l>Unlesse I may enjoy thy company.</l>
+            </lg>
+            <lg n="98">
+               <pb n="26" facs="tcp:62065:17"/>
+               <head>99.</head>
+               <l>But whether is my wiser reason fled?</l>
+               <l>It is the shadow of my selfe, I see,</l>
+               <l>And I am curst to be enamoured,</l>
+               <l>Where did I lose my soule? or where am I?</l>
+               <l>What god shall pardon me this sin, if here,</l>
+               <l>I must become my owne I dolater?</l>
+            </lg>
+            <lg n="99">
+               <head>100.</head>
+               <l>Thou fatall Looking-glasse, that dost present</l>
+               <l>My selfe to me, (my owne incendiarie.)</l>
+               <l>Oh let my eyes in love with their lament,</l>
+               <l>—Weep themselves out, and prove a part of thee:</l>
+               <l>This I shall gaine, either my shade may fleet,</l>
+               <l>Or if it stay, I may want eyes to see't.</l>
+            </lg>
+            <lg n="100">
+               <head>101.</head>
+               <l>Under this burthen of my love I faint,</l>
+               <l>And finde I am with too much plenty poore:</l>
+               <l>Wealthy I am in nothing but my want;</l>
+               <l>I have, and yet (O gods) want nothing more:</l>
+               <l>Mysteriously divided thus I stand,</l>
+               <l>Halfe in the water, halfe upon the land.</l>
+            </lg>
+            <lg n="101">
+               <head>102.</head>
+               <l>But sure it cannot be my selfe I love;</l>
+               <l>How with my selfe despaire I to agree?</l>
+               <l>By one example both must gentle prove,</l>
+               <l>If I <hi>Narcissus</hi> love, can he hate me?</l>
+               <l>It is no shade then doth my phansie slatter,</l>
+               <l>But something that's divine doth blesse the water.</l>
+            </lg>
+            <lg n="102">
+               <pb n="27" facs="tcp:62065:17"/>
+               <head>103.</head>
+               <l>Essence, of all that's faire, ascend to me;</l>
+               <l>To thy acceptance I present my heart:</l>
+               <l>Let not these elements our prisons be,</l>
+               <l>I in a fire, and thou in water art;</l>
+               <l>O let a friendly kisse as we two meet,</l>
+               <l>From thy coole water rise t'allay my heat.</l>
+            </lg>
+            <lg n="103">
+               <head>104.</head>
+               <l>This said, <hi>Narcissus</hi> doth his hold secure,</l>
+               <l>And with intention to receive a kisse,</l>
+               <l>His lip descends to meet the other there,</l>
+               <l>But hence his expectation cousned is;</l>
+               <l>For touching but the superficies,</l>
+               <l>Hee did too soon the frighted Image leese.</l>
+            </lg>
+            <lg n="104">
+               <head>105.</head>
+               <l>Th' offended water into Circles ran.</l>
+               <l>And with their motion so disturb'd the place,</l>
+               <l>The Lover could not see himselfe againe:</l>
+               <l>Then doth he call aloud unto this face;</l>
+               <l>Thou bright-beam'd star, oh whither art thou gone?</l>
+               <l>But newly shewne thy head, and set so soon?</l>
+            </lg>
+            <lg n="105">
+               <head>106.</head>
+               <l>Or if a Comet, thou hadst spent thy light,</l>
+               <l>(The matter gone, should feed thy flaming haire,)</l>
+               <l>Thou art mistaken; thy unnaturall flight</l>
+               <l>Is heaven: all Meteors to the earth repaire,</l>
+               <l>Where I now mourne thy absence; But I feare,</l>
+               <l>I have some way prophan'd the waters here.</l>
+            </lg>
+            <lg n="106">
+               <pb n="28" facs="tcp:62065:18"/>
+               <head>107.</head>
+               <l>What God soever doth this Fountaie owe,</l>
+               <l>Forgive me, and you Naiades that l<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ve</l>
+               <l>Your tresses here, trust me I did not know</l>
+               <l>What sacred power, or President you have.</l>
+               <l>My mother was a Nymph, <hi>Lyriope,</hi>
+               </l>
+               <l>Oh for her <gap reason="illegible: blotted" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> some kinde one pitty me.</l>
+            </lg>
+            <lg n="107">
+               <head>108.</head>
+               <l>Forgive disturbed water my rude touch,</l>
+               <l>'Twas not to rob thee of the smallest drop,</l>
+               <l>In penitentiall teares Ile pay as much</l>
+               <l>As there can hang upon my lips cold top:</l>
+               <l>O calme thy brow then, let thy frownes declare</l>
+               <l>Themselves at once finite, and Circular.</l>
+            </lg>
+            <lg n="108">
+               <head>109.</head>
+               <l>In thy smooth bosome once more let me pray,</l>
+               <l>A sight of that sweet figure I adore,</l>
+               <l>Unlesle to heaven return'd some other way;</l>
+               <l>And if it be, 'tis not so farre before;</l>
+               <l>But I can dye, and off this flesh Robe burl'd,</l>
+               <l>Ile overtake it in the other world.</l>
+            </lg>
+            <lg n="109">
+               <head>110.</head>
+               <l>Now doth each swelling Circle gently haste</l>
+               <l>To be dissolv'd, and spread themselves to aire;</l>
+               <l>No polish'd Marble seem'd more smooth, and fast;</l>
+               <l>The Boy takes this a fruit of his owne prayer,</l>
+               <l>Yet 'ere he thank'd the gods, he thought it fit,</l>
+               <l>To see his love, and seen, forgot them quite.</l>
+            </lg>
+            <lg n="110">
+               <pb n="29" facs="tcp:62065:18"/>
+               <head>111.</head>
+               <l>Fearing to be depriv'd agen, he woes,</l>
+               <l>As every sillable <gap reason="illegible: blotted" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> a life,</l>
+               <l>A sigh, at every clamorous period goes,</l>
+               <l>With greater noise then it, but no reliefe.</l>
+               <l>His aire of tongue, and breast, thus spent a look</l>
+               <l>Presents their <gap reason="illegible: blotted" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, doubled in the brook.</l>
+            </lg>
+            <lg n="111">
+               <head>112.</head>
+               <l>But all in vaine, the face, he saw before,</l>
+               <l>Is in the same il'-shewing silence drest,</l>
+               <l>Chang'd to more sad, but not oneaccent more,</l>
+               <l>Deafe as the streame, and now he beats his breast,</l>
+               <l>Condemn'd agen to his more haplesse thought,</l>
+               <l>He had but all this while his shadow sought.</l>
+            </lg>
+            <lg n="112">
+               <head>113.</head>
+               <l>This multiplies his griese into despaire,</l>
+               <l>Since his owne Image doth procure the fire,</l>
+               <l>And nothing left in nature to repaire</l>
+               <l>His vext affections, that now grow higher;</l>
+               <l>That face, his owne, or whose so e're, was that,</l>
+               <l>Which took him first, to unlove is too late.</l>
+            </lg>
+            <lg n="113">
+               <head>114.</head>
+               <l>He beckens to the figure, that replies,</l>
+               <l>Taught by his postute how to call him thither;</l>
+               <l>To lift him from the water then he tries,</l>
+               <l>But when their white hands should have met toge<g ref="char:EOLhyphen"/>ther,</l>
+               <l>A new distraction fell upon the streame,</l>
+               <l>And his (because alone) thenes weeping came.</l>
+            </lg>
+            <lg n="114">
+               <pb n="30" facs="tcp:62065:19"/>
+               <head>115.</head>
+               <l>When he to beare that company, lets fall</l>
+               <l>More teares than would have made another spring</l>
+               <l>Till griefe had not another drop to call,</l>
+               <l>Though to have cur'd his eyes, but will this bring</l>
+               <l>The loved shade agen? No; every teare</l>
+               <l>Was both his owne, and t' others murderer.</l>
+            </lg>
+            <lg n="115">
+               <head>116.</head>
+               <l>But more then this must be (<hi>Narcissus</hi>) borne,</l>
+               <l>As a revenge for many Nimphes that lov'd,</l>
+               <l>And dy'd upon the torture of thy scorne;</l>
+               <l>And see his eyes that once so charming mov'd</l>
+               <l>Do loose their beames, and hasten to be dead</l>
+               <l>In their owne hollowes, borne and buried.</l>
+            </lg>
+            <lg n="116">
+               <head>117.</head>
+               <l>See what a dotage on himselfe hath sent,</l>
+               <l>That brow that challeng'd late the snow, for white</l>
+               <l>Veines that were made to shame the Firmament,</l>
+               <l>The cheek that so much wonder drew to it,</l>
+               <l>The voice, when tun'd to love, might gods entice</l>
+               <l>To change for earth their immortalities.</l>
+            </lg>
+            <lg n="117">
+               <head>118.</head>
+               <l>All, all is vanish'd <hi>Nemesis</hi> have yet</l>
+               <l>Some pitty, let him live, he faints, he dies,</l>
+               <l>'Twere safer for the Boy himselfe to hate,</l>
+               <l>Then if he love, to pay so deare a price.</l>
+               <l>He did but love himselfe, and if he die,</l>
+               <l>That loves, propose the haters destinie.</l>
+            </lg>
+            <lg n="118">
+               <pb n="31" facs="tcp:62065:19"/>
+               <head>119.</head>
+               <l>But <hi>Nemesis</hi> irrevocable doom,</l>
+               <l>Must be obey'd though <hi>Eccho</hi> late repent,</l>
+               <l>Who with a murmuring pace unseen was come</l>
+               <l>To mourne for his, and her owne punishment.</l>
+               <l>His groanes had thrild her soule, and at his death</l>
+               <l>She comes to catch his fare-well taking breath.</l>
+            </lg>
+            <lg n="119">
+               <head>120.</head>
+               <l>And as a glimmering Taper almost spent,</l>
+               <l>Gasping for moisture to maintaine its fire,</l>
+               <l>After some darke cont<gap reason="illegible: faint" extent="5 letters">
+                     <desc>•••••</desc>
+                  </gap>s, doth present</l>
+               <l>A short-liv'd blaze, and presently expires:</l>
+               <l>So he, collecting ebbing Nature, cryes,</l>
+               <l>Oh youth, belov'd in vaine, farewell and dyes.</l>
+            </lg>
+            <lg n="120">
+               <head>121.</head>
+               <l>Farewell poore Eccho did repeat; and fled</l>
+               <l>With what wings sorrow sent, t'embalme the boy;</l>
+               <l>But looking carefully to finde the dead,</l>
+               <l>She miss'd the shadow of her livelesse joy:</l>
+               <l>His body, vanish'd; by what mysterie</l>
+               <l>Convey'd, not found by her inquiring eye.</l>
+            </lg>
+            <lg n="121">
+               <head>122.</head>
+               <l>But in the place where he did disappeare,</l>
+               <l>Out of the ground a lovely flower betrayes</l>
+               <l>His whiter leaves, and visibly did reare</l>
+               <l>His tufted head, with Saffron-colour'd rayes:</l>
+               <l>Upon a smooth stemme all this beauty growes;</l>
+               <l>This change to heaven the lost <hi>Narcissus</hi> owes.</l>
+            </lg>
+            <lg n="122">
+               <pb n="32" facs="tcp:62065:20"/>
+               <head>123.</head>
+               <l>
+                  <hi>Eccho</hi> with wonder turnes a Statue now,</l>
+               <l>Yet not an idle figure; for her eyes</l>
+               <l>From her darke swelling springs doe over-flow,</l>
+               <l>Having no pow'r to check them as they rise:</l>
+               <l>She thus presents a fountaine, as she were</l>
+               <l>Meant to refresh the new-borne Tulip there.</l>
+            </lg>
+            <lg n="123">
+               <head>124.</head>
+               <l>To which, after some truce with teares, she sayes,</l>
+               <l>Art thou a pledge for the sweet Boy I lov'd?</l>
+               <l>Oh, take a voice, tell by what aërie wayes,</l>
+               <l>The choisest flower of nature is remov'd.</l>
+               <l>If in the blessed shades? I can make room,</l>
+               <l>Through death to meet him in Elysium.</l>
+            </lg>
+            <lg n="124">
+               <head>125.</head>
+               <l>Assume the wings of love, <hi>Eccho,</hi> away</l>
+               <l>Unto the <hi>Stigian</hi> Lake, goe, follow him,</l>
+               <l>There thou maist finde him on a banke of Clay,</l>
+               <l>Eying himselfe upon the waters brim:</l>
+               <l>The sooty gods enamoured on him are,</l>
+               <l>And round about him on his beautie stare.</l>
+            </lg>
+            <lg n="125">
+               <head>126.</head>
+               <l>But since he was unkinde alive to me,</l>
+               <l>I must despaire to meet his love in death,</l>
+               <l>And this remaining flower, another He,</l>
+               <l>Shall be preserv'd with my best use of breath.</l>
+               <l>And though the obstinate deserv'd to dye,</l>
+               <l>I will be just, and love his memorie.</l>
+            </lg>
+            <lg n="126">
+               <pb n="33" facs="tcp:62065:20"/>
+               <head>127.</head>
+               <l>But since his curse, though just upon his pride,</l>
+               <l>Hath made him this example for his sin:</l>
+               <l>Never shall dreame ease my distracted head,</l>
+               <l>Sleep shall forget his office, and within</l>
+               <l>Darkes shades, shut up from all societie,</l>
+               <l>In Rocks or Caves Ile undiscovered lye.</l>
+            </lg>
+            <lg n="127">
+               <head>128.</head>
+               <l>And to redeem the shame my folly had</l>
+               <l>Contracted, by preposterous woing man;</l>
+               <l>Whose bolder nature was in order made</l>
+               <l>To Court our Sex: <hi>Juno</hi> take back againe</l>
+               <l>Thy gift; from henceforth <hi>Eccho</hi> will returne,</l>
+               <l>But their owne words sent back againe in scorne</l>
+            </lg>
+            <lg n="128">
+               <head>129.</head>
+               <l>This said, she walketh to the fountaines side,</l>
+               <l>Where she no sooner did the streame survey,</l>
+               <l>But her owne shadow in the glasse she spi'd,</l>
+               <l>And cryed, some other witch-craft did betray</l>
+               <l>That heavenly boy; ô, perish in some wave!</l>
+               <l>Be drown'd for ever, since thou wouldst not save.</l>
+            </lg>
+            <lg n="129">
+               <head>130.</head>
+               <l>It is not thee I seek, open thou streame,</l>
+               <l>And shew me where that fairer Strumpet is;</l>
+               <l>That, from whose sight the Boies infection came,</l>
+               <l>And from poore <hi>Eccho</hi> did her soule entice.</l>
+               <l>Will no charme call it back? poore <hi>Eccho</hi> then,</l>
+               <l>Here cease to be the scorne of Gods and men.</l>
+            </lg>
+            <lg n="130">
+               <pb n="34" facs="tcp:62065:21"/>
+               <head>131.</head>
+               <l>With that impatient, she threw her weight</l>
+               <l>Into the tempting stream, where now we leave her;</l>
+               <l>Whom the proud waters did imprison strait,</l>
+               <l>Yet of her voice they did not quite bereave her,</l>
+               <l>For when I ask'd aloud, is she not dead?</l>
+               <l>Not dead distinctly, the Nymph answered,</l>
+               <l>Of <hi>Eccho</hi> now no more remaines to tell,</l>
+               <l>But that I her, and she bid me farewell.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
